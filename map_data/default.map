@@ -1,0 +1,58 @@
+﻿#max_provinces = 1466
+definitions = "definition.csv"
+provinces = "provinces.png"
+#positions = "positions.txt"
+rivers = "rivers.png"
+#terrain_definition = "terrain.txt"
+topology = "heightmap.heightmap"
+#tree_definition = "trees.bmp"
+continent = "continent.txt"
+adjacencies = "adjacencies.csv"
+#climate = "climate.txt"
+island_region = "island_region.txt"
+geographical_region = "geographical_region.txt"
+seasons = "seasons.txt"
+
+#############
+# SEA ZONES
+#############
+sea_zones = RANGE { 2913 3090 }
+sea_zones = LIST { 3097 }
+
+###############
+# MAJOR RIVERS
+###############
+
+
+########
+# LAKES
+########
+lakes = RANGE { 2900 2912 }
+lakes = LIST {3092 3094 3095 3096 3120 3128 3129 3131 3132 3122 3127 3091 3125}
+
+#####################
+# IMPASSABLE TERRAIN
+#####################
+# Can be colored by whoever owns the most of the province's neighbours.
+# Blocks unit movement.
+
+impassable_mountains = LIST { 365 2078 2103 2105 2106 2107 2108 2109 2246 2247 2248 2249 2627 2628 2629 2652 2653 2654 2655 2656 2657 2658 2659 2836 2837 2838 2839 2840 2841 2842 2843 2844 2845 2846 2847 2848 2849 2878 2879 2880 2881 2882 2883 2884 2885 2886 2887 2888 2889 2890 2891 2892 2893 2894 2895 2896 2897 2898 2899 3093 3098 3099 3123 3124 3126 3133 3134 3130}
+
+############
+# WASTELAND
+############
+# These are actually supposed to be Wasteland:
+# Cannot be colored. Blocks unit movement, used for things like Sahara desert. 
+
+
+
+# IMPASSABLE SEA ZONES
+# These sea provinces cannot be crossed/sailed
+impassable_seas = LIST {3100 3101 3102 3103 3104 3105 3106 3107 3108 3109 3110 3111 3112 3113 3119 3623}
+
+# UNUSED PROVINCES
+# These provinces cause issues because they are passable land, but not part of any title.
+# They are probably not visible anywhere on the map, so feel free to reuse them (after double checking that they are actually missing).
+
+impassable_mountains = LIST {3114 3115 3116 3117 3118 3121 5000 }
+
