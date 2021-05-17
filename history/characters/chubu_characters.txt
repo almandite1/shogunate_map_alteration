@@ -3917,7 +3917,8 @@
 }
 10026000 = {
 	name=character_name_10026000 # Harutomo
-	dynasty=10000260 # Kitabatake
+#	dynasty=10000260 # Kitabatake
+	dynasty_house = "house_shgnt_kitabatake"
 	father=10026001
 	martial=4
 	diplomacy=5
@@ -3944,7 +3945,8 @@
 }
 10026001 = {
 	name=character_name_10026001 # Kichika
-	dynasty=10000260 # Kitabatake
+#	dynasty=10000260 # Kitabatake
+	dynasty_house = "house_shgnt_kitabatake"
 	father=10026005
 	martial=6
 	diplomacy=6
@@ -3989,7 +3991,8 @@
 }
 10026003 = {
 	name=character_name_10026003 # Tomonori
-	dynasty=10000260 # Kitabatake
+#	dynasty=10000260 # Kitabatake
+	dynasty_house = "house_shgnt_kitabatake"
 	father=10026000
 	martial=6
 	diplomacy=4
@@ -4018,7 +4021,8 @@
 }
 10026004 = {
 	name=character_name_10026004 # Tomomasa
-	dynasty=10000260 # Kitabatake
+#	dynasty=10000260 # Kitabatake
+	dynasty_house = "house_shgnt_kitabatake"
 	father=10026000
 	martial=5
 	diplomacy=4
@@ -4033,7 +4037,8 @@
 		birth=yes
 	}
 	1540.1.1={
-		dynasty=10000277 # Kozukuri
+#		dynasty=10000277 # Kozukuri
+		dynasty_house = "house_shgnt_kozukuri"
 		trait="child_of_adoption"
 		effect={
 			set_father=character:10026105
@@ -4046,7 +4051,8 @@
 }
 10026005 = {
 	name=character_name_10026005 # Masasato
-	dynasty=10000260 # Kitabatake
+#	dynasty=10000260 # Kitabatake
+	dynasty_house = "house_shgnt_kitabatake"
 	father=10026006
 	religion="shinto"
 	culture="western_chubu"
@@ -4065,7 +4071,8 @@
 }
 10026006 = {
 	name=character_name_10026006 # Noritomo
-	dynasty=10000260 # Kitabatake
+#	dynasty=10000260 # Kitabatake
+	dynasty_house = "house_shgnt_kitabatake"
 	father=10026052
 	religion="shinto"
 	culture="western_chubu"
@@ -4079,7 +4086,8 @@
 }
 10026007 = {
 	name=character_name_10026007 # Tomofusa
-	dynasty=10000260 # Kitabatake
+#	dynasty=10000260 # Kitabatake
+	dynasty_house = "house_shgnt_kitabatake"
 	father=10026003 # Kitabatake Tomonori
 	mother=10044019 # Rokkaku Sadayori's daughter
 	religion="shinto"
@@ -4099,7 +4107,8 @@
 }
 10026008={
 	name=character_name_10026008 # Tomofuji
-	dynasty=10000260 # Kitabatake
+#	dynasty=10000260 # Kitabatake
+	dynasty_house = "house_shgnt_kitabatake"
 	father=10026003 # 
 	religion="shinto"
 	culture="western_chubu"
@@ -4121,7 +4130,8 @@
 }
 10026050={
 	name=character_name_10026050 # Akiyasu
-	dynasty=10000260 # Kitabatake
+#	dynasty=10000260 # Kitabatake
+	dynasty_house = "house_shgnt_kitabatake"
 	father=10125127 # 
 	religion="shinto"
 	culture="western_chubu"
@@ -4135,7 +4145,8 @@
 }
 10026051={
 	name=character_name_10026051 # Mitsuyasu
-	dynasty=10000260 # Kitabatake
+#	dynasty=10000260 # Kitabatake
+	dynasty_house = "house_shgnt_kitabatake"
 	father=10026050 # 
 	religion="shinto"
 	culture="western_chubu"
@@ -4149,7 +4160,8 @@
 }
 10026052={
 	name=character_name_10026052 # Mitsumasa
-	dynasty=10000260 # Kitabatake
+#	dynasty=10000260 # Kitabatake
+	dynasty_house = "house_shgnt_kitabatake"
 	father=10026050 # 
 	religion="shinto"
 	culture="western_chubu"
@@ -4163,7 +4175,8 @@
 }
 10026053={
 	name=character_name_10026053 # Akimasa
-	dynasty=10000845 # Okawachi
+#	dynasty=10000845 # Okawachi
+	dynasty_house = "house_shgnt_okawachi"
 	father=10026050 # 
 	religion="shinto"
 	culture="western_chubu"
@@ -4177,7 +4190,8 @@
 }
 10026100={
 	name=character_name_10026100 # Akitoshi
-	dynasty=10000277 # Kozukuri
+#	dynasty=10000277 # Kozukuri
+	dynasty_house = "house_shgnt_kozukuri"
 	father=10125127 # 
 	religion="shinto"
 	culture="western_chubu"
@@ -4191,7 +4205,8 @@
 }
 10026101={
 	name=character_name_10026101 # Toshiyasu
-	dynasty=10000277 # Kozukuri
+#	dynasty=10000277 # Kozukuri
+	dynasty_house = "house_shgnt_kozukuri"
 	father=10026100 # 
 	religion="shinto"
 	culture="western_chubu"
@@ -4205,7 +4220,8 @@
 }
 10026102={
 	name=character_name_10026102 # Mochiyasu
-	dynasty=10000277 # Kozukuri
+#	dynasty=10000277 # Kozukuri
+	dynasty_house = "house_shgnt_kozukuri"
 	father=10026101 # 
 	religion="shinto"
 	culture="western_chubu"
@@ -4219,7 +4235,8 @@
 }
 10026103={
 	name=character_name_10026103 # Norichika
-	dynasty=10000277 # Kozukuri
+#	dynasty=10000277 # Kozukuri
+	dynasty_house = "house_shgnt_kozukuri"
 	father=10026102 # 
 	religion="shinto"
 	culture="western_chubu"
@@ -4233,7 +4250,8 @@
 }
 10026104={
 	name=character_name_10026104 # Masamune
-	dynasty=10000277 # Kozukuri
+#	dynasty=10000277 # Kozukuri
+	dynasty_house = "house_shgnt_kozukuri"
 	father=10026103 # 
 	religion="shinto"
 	culture="western_chubu"
@@ -4247,7 +4265,8 @@
 }
 10026105={
 	name=character_name_10026105 # Toshishige
-	dynasty=10000277 # Kozukuri
+#	dynasty=10000277 # Kozukuri
+	dynasty_house = "house_shgnt_kozukuri"
 	father=10026104 # 
 	religion="shinto"
 	culture="western_chubu"
@@ -4261,7 +4280,8 @@
 }
 10026106={
 	name=character_name_10026106 # Tomoyasu
-	dynasty=10000277 # Kozukuri
+#	dynasty=10000277 # Kozukuri
+	dynasty_house = "house_shgnt_kozukuri"
 	father=10026105 # 
 	religion="shinto"
 	culture="western_chubu"
@@ -4275,7 +4295,8 @@
 }
 10026120={
 	name=character_name_10026120 # Chikasato
-	dynasty=10000260 # Kitabatake
+#	dynasty=10000260 # Kitabatake
+	dynasty_house = "house_shgnt_kitabatake"
 	father=10026006 # Kitabatake Noritomo
 	religion="shinto"
 	culture="western_chubu"
@@ -4284,7 +4305,8 @@
 		birth=yes
 	}
 	1450.1.2 = {
-		dynasty=10000845 # Okawachi
+#		dynasty=10000845 # Okawachi
+		dynasty_house = "house_shgnt_okawachi"
 		trait="child_of_adoption"
 		effect={
 			set_father=character:10026053
@@ -4297,7 +4319,8 @@
 }
 10026121={
 	name=character_name_10026121 # Chikatada
-	dynasty=10000260 # Kitabatake
+#	dynasty=10000260 # Kitabatake
+	dynasty_house = "house_shgnt_kitabatake"
 	father=10026005 # Kitabatake Masasato
 	religion="shinto"
 	culture="western_chubu"
@@ -4306,7 +4329,8 @@
 		birth=yes
 	}
 	1495.1.1 = {
-		dynasty=10000845 # Okawachi
+#		dynasty=10000845 # Okawachi
+		dynasty_house = "house_shgnt_okawachi"
 		trait="child_of_adoption"
 		effect={
 			set_father=character:10026120
@@ -4319,7 +4343,8 @@
 }
 10026122={
 	name=character_name_10026122 # Yorifusa
-	dynasty=10000260 # Kitabatake
+#	dynasty=10000260 # Kitabatake
+	dynasty_house = "house_shgnt_kitabatake"
 	father=10026005 # Kitabatake Masasato
 	religion="shinto"
 	culture="western_chubu"
@@ -4328,7 +4353,8 @@
 		birth=yes
 	}
 	1526.1.1 = {
-		dynasty=10000845 # Okawachi
+#		dynasty=10000845 # Okawachi
+		dynasty_house = "house_shgnt_okawachi"
 		trait="child_of_adoption"
 		effect={
 			set_father=character:10026121
@@ -4341,7 +4367,8 @@
 }
 10026123={
 	name=character_name_10026123 # Tomoyoshi
-	dynasty=10000260 # Kitabatake
+#	dynasty=10000260 # Kitabatake
+	dynasty_house = "house_shgnt_kitabatake"
 	father=10026122 # Okawachi Yorifusa
 	religion="shinto"
 	culture="western_chubu"
@@ -4350,7 +4377,8 @@
 		birth=yes
 	}
 	1526.1.1 = {
-		dynasty=10000845 # Okawachi
+#		dynasty=10000845 # Okawachi
+		dynasty_house = "house_shgnt_okawachi"
 	}
 	1570.1.1={
 		death=yes
@@ -4358,7 +4386,8 @@
 }
 10026124={
 	name=character_name_10026124 # Norimichi
-	dynasty=10000845 # Okawachi
+#	dynasty=10000845 # Okawachi
+	dynasty_house = "house_shgnt_okawachi"
 	father=10026123 # Okawachi Tomoyoshi
 	religion="shinto"
 	culture="western_chubu"
@@ -4372,7 +4401,8 @@
 }
 10026130={
 	name=character_name_10026130 # Tomokazu
-	dynasty=10000846 # Hoshiai
+#	dynasty=10000846 # Hoshiai
+	dynasty_house = "house_shgnt_hoshiai"
 	father=10026122 # Okawachi Yorifusa
 	religion="shinto"
 	culture="western_chubu"
@@ -4386,7 +4416,8 @@
 }
 10026131={
 	name=character_name_10026131 # Norifusa
-	dynasty=10000846 # Hoshiai
+#	dynasty=10000846 # Hoshiai
+	dynasty_house = "house_shgnt_hoshiai"
 	father=10026130 # Hoshiai Tomokazu
 	religion="shinto"
 	culture="western_chubu"
@@ -4400,7 +4431,8 @@
 }
 10026132={
 	name=character_name_10026132 # Norikata
-	dynasty=10000846 # Hoshiai
+#	dynasty=10000846 # Hoshiai
+	dynasty_house = "house_shgnt_hoshiai"
 	father=10026130 # Hoshiai Tomokazu
 	religion="shinto"
 	culture="western_chubu"
@@ -4414,7 +4446,8 @@
 }
 10026133={
 	name=character_name_10026133 # Tomohira
-	dynasty=10000846 # Hoshiai
+#	dynasty=10000846 # Hoshiai
+	dynasty_house = "house_shgnt_hoshiai"
 	father=10026132 # Hoshiai Norikata
 	religion="shinto"
 	culture="western_chubu"
@@ -4428,7 +4461,8 @@
 }
 10026140={
 	name=character_name_10026140 # Akiaharu
-	dynasty=10000847 # Tamaru
+#	dynasty=10000847 # Tamaru
+	dynasty_house = "house_shgnt_tamaru"
 	father=10026005 # Kitabatake Masasato
 	religion="shinto"
 	culture="western_chubu"
@@ -4442,7 +4476,8 @@
 }
 10026141={
 	name=character_name_10026141 # Tomotada
-	dynasty=10000260 # Kitabatake
+#	dynasty=10000260 # Kitabatake
+	dynasty_house = "house_shgnt_kitabatake"
 	father=10026001 # Kitabatake Kichika
 	religion="shinto"
 	culture="western_chubu"
@@ -4451,7 +4486,8 @@
 		birth=yes
 	}
 	1526.1.1={
-		dynasty=10000847 # Tamaru
+#		dynasty=10000847 # Tamaru
+		dynasty_house = "house_shgnt_tamaru"
 		trait="child_of_adoption"
 		effect={
 			set_father=character:10026140
@@ -4464,7 +4500,8 @@
 }
 10026142={
 	name=character_name_10026142 # Naomasa
-	dynasty=10000847 # Tamaru
+#	dynasty=10000847 # Tamaru
+	dynasty_house = "house_shgnt_tamaru"
 	father=10026141 # Tamaru Tomotada
 	religion="shinto"
 	culture="western_chubu"

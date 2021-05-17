@@ -414,6 +414,9 @@
 	culture = sanyo
 	religion = shinto
 	holding = none
+	1521.01.01 = {
+		holding = castle_holding # Okayama
+	}
 }
 1885 = { # Tsudaka_1
 	culture = sanyo
@@ -504,6 +507,9 @@
 	culture = sanyo
 	religion = shinto
 	holding = castle_holding
+	1336.01.01 = {
+		holding = none
+	}
 }
 1903 = { # Kamitsumichi_2
 	culture = sanyo
@@ -539,11 +545,17 @@
 	culture = sanyo
 	religion = shinto
 	holding = castle_holding
+		1240.01.01 = {
+		holding = none
+	}
 }
 1910 = { # Jobo_2
 	culture = sanyo
 	religion = shinto
 	holding = none
+	1240.01.01 = {
+		holding = castle_holding # Matsuyama
+	}
 }
 1911 = { # Aka_1
 	culture = sanyo
@@ -702,6 +714,9 @@
 	culture = western_chugoku
 	religion = shinto
 	holding = none
+	1336.01.01 = {
+		holding = castle_holding # Washioyama
+	}
 }
 1942 = { # Mitsuki_4
 	culture = western_chugoku
@@ -802,6 +817,9 @@
 	culture = western_chugoku
 	religion = shinto
 	holding = none
+	1336.01.01 = {
+		holding = none
+	}
 }
 1962 = { # Ashita_2
 	culture = western_chugoku
