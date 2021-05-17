@@ -1,0 +1,2663 @@
+﻿10016000 = {
+	name=character_name_10016000 # Ujitsuna
+	dynasty=10000161 # Ise
+	father=10016001
+	martial=6
+	diplomacy=6
+	intrigue=4
+	stewardship=6
+	learning=5
+	trait="education_martial_4"
+	trait="intellect_good_2"
+	religion="shinto"
+	culture="southern_kanto"
+	prowess=15
+	1487.1.1={
+		birth=yes
+	}
+	1503.1.1={
+		give_nickname="nick_Shinkuro"
+	}
+	1510.1.1={
+		add_spouse =10132406 # Hojo Yojuin
+	}
+	1519.9.8={
+		effect={
+			set_realm_capital=title:c_shgnt_ashi-no-shimo
+		}
+	}
+	1523.9.1={
+		dynasty=10000160 # Hojo
+	}
+	1530.1.1={
+		trait="jugoi_ge"
+		give_nickname="nick_the_sakyo_dayu"
+	}
+	1532.1.1={
+		add_spouse =11000295	#Konoe Konoe
+	}
+	1541.7.1={
+		trait="ill"
+	}
+	1541.8.10={
+		death=yes
+	}
+}
+10016001 = {
+	name=character_name_10016001 # Moritoki # a.k.a. Hojo Soun
+	dynasty=10000161 # Ise
+	father=10040106 # Ise Morisada
+	mother=10040110 # daughter of Ise Sadakuni
+	martial=7
+	diplomacy=6
+	intrigue=6
+	stewardship=7
+	learning=4
+	trait="education_martial_4"
+	trait="ambitious"
+	trait="intellect_good_2"
+	religion="shinto"
+	culture="southern_kanto"
+	prowess=14
+	1456.1.1={
+		birth=yes
+	}
+	1472.1.1={
+		give_nickname="nick_Shinkuro"
+	}
+	1487.11.01 = {
+		effect={
+			set_realm_capital=title:c_shgnt_suruga
+		}
+	}
+	1493.6.1={
+		add_pressed_claim=d_shgnt_izu
+		add_pressed_claim=c_shgnt_tagata
+		add_pressed_claim=c_shgnt_naka
+	}
+#	1493.6.9={
+#	}
+	1493.8.1 = {
+		remove_claim=d_shgnt_izu
+	}
+	1493.10.1={
+		effect={
+			set_realm_capital=title:c_shgnt_tagata
+		}
+	}
+	1511.1.1 = {
+		add_pressed_claim=c_shgnt_miura
+	}
+	1519.9.8={
+		name=character_name_10016001_1 # Soun # Hojo Soun
+	}
+	1519.9.8={
+		death=yes
+	}
+	1523.9.1={
+		dynasty=10000160 # Hojo
+	}
+}
+10016002 = {
+	name=character_name_10016002 # Ujitoki
+	dynasty=10000161 # Ise
+	father=10016001
+	martial=5
+	diplomacy=6
+	intrigue=5
+	stewardship=6
+	learning=6
+	trait="education_diplomacy_2"
+	religion="shinto"
+	culture="southern_kanto"
+	prowess=10
+	1489.1.1={
+		birth=yes
+	}
+	1523.9.1={
+		dynasty=10000160 # Hojo
+	}
+	1531.9.29={
+		death=yes
+	}
+}
+10016003 = {
+	name=character_name_10016003 # Nagatsuna # a.k.a. Hojo Genan
+	dynasty=10000161 # Ise
+	father=10016001
+	martial=8
+	diplomacy=6
+	intrigue=6
+	stewardship=7
+	learning=6
+	trait="education_learning_3"
+	trait="strong"
+	trait="physique_good_2"
+	trait="compassionate"
+	trait="mystic_1"
+	trait="poet"
+	trait="scholar"
+	trait="tea_master"
+	religion="shinto"
+	culture="southern_kanto"
+	prowess=11
+	1493.1.1={
+		birth=yes
+	}
+	1523.9.1={
+		dynasty=10000160 # Hojo
+	}
+	1569.1.1={
+		name=character_name_10016003_1 # Genan
+	}
+	1589.12.8={
+		death=yes
+	}
+}
+10016004 = {
+	name=character_name_10016004 # Ujiyasu
+	dynasty=10000161 # Ise
+	father=10016000 # Hojo Ujitsuna
+	mother=10132406 # Hojo Yojuin
+	martial=5
+	diplomacy=7
+	intrigue=7
+	stewardship=6
+	learning=4
+	trait="education_stewardship_4"
+	trait="intellect_good_3"
+	trait="brave"
+	trait="poet"
+	religion="shinto"
+	culture="southern_kanto"
+	prowess=10
+	1515.1.1={
+		birth=yes
+	}
+	1523.9.1={
+		dynasty=10000160 # Hojo
+	}
+	1531.1.1={
+		give_nickname="nick_Shinkuro"
+		trait="scarred"
+	}
+	1536.1.1={
+		add_spouse=10023012 # Imagawa Keizui-in
+	}
+	1541.8.10={
+		effect={
+			set_realm_capital=title:c_shgnt_ashi-no-shimo
+		}
+	}
+	1552.1.1={
+		trait="jugoi_ge"
+		give_nickname="nick_the_sakyo_dayu"
+	}
+	1569.8.1={
+		effect={
+			save_scope_as = actor
+			every_ruler = {
+				if = {
+					limit = {
+						has_title = title:k_nmih_kanto_kanrei
+					}
+					save_scope_as = recipient
+					scope:actor = {
+						create_alliance = scope:recipient
+					}
+				}
+			}
+		}
+	}
+	1570.7.3={
+		trait="ill"
+	}
+	1571.10.21={
+		death=yes
+	}
+}
+10016005 = {
+	name=character_name_10016005 # Tamemasa
+	dynasty=10000161 # Ise
+	father=10016000
+	martial=8
+	diplomacy=5
+	intrigue=6
+	stewardship=5
+	learning=5
+	trait="education_diplomacy_2"
+	trait="weak"
+	religion="shinto"
+	culture="southern_kanto"
+	prowess=12
+	1520.1.1={
+		birth=yes
+	}
+	1523.9.1={
+		dynasty=10000160 # Hojo
+	}
+	1530.1.1={
+		trait="child_of_adoption"
+		effect={
+			set_father=character:10016002
+			set_real_father=character:10016000
+		}
+	}
+	1542.6.15={
+		death=yes
+	}
+}
+10016006 = {
+	name=character_name_10016006 # Ujitaka
+	dynasty=10000161 # Ise
+	father=10016000
+	martial=8
+	diplomacy=6
+	intrigue=6
+	stewardship=4
+	learning=6
+	trait="education_diplomacy_2"
+	religion="shinto"
+	culture="southern_kanto"
+	prowess=10
+	1522.1.1={
+		birth=yes
+	}
+	1523.9.1={
+		dynasty=10000160 # Hojo
+	}
+	1562.5.10={
+		death=yes
+	}
+}
+10016007 = {
+	name=character_name_10016007 # Daichoin
+	female=yes
+	dynasty=10000160 # Hojo
+	father=10016000
+	religion="shinto"
+	culture="southern_kanto"
+	prowess=10
+	1523.1.1={
+		birth=yes
+	}
+	1573.1.1={
+		death=yes
+	}
+}
+10016008 = {
+	name=character_name_10016008 # Saki
+	female=yes
+	dynasty=10000160 # Hojo
+	father=10016000
+	religion="shinto"
+	culture="southern_kanto"
+	prowess=11
+	1526.1.1={
+		birth=yes
+	}
+	1586.1.1={
+		death=yes
+	}
+}
+10016009 = {
+	name=character_name_10016009 # Joshinin
+	female=yes
+	dynasty=10000160 # Hojo
+	father=10016000
+	religion="shinto"
+	culture="southern_kanto"
+	prowess=11
+	1528.1.1={
+		birth=yes
+	}
+	1575.1.1={
+		death=yes
+	}
+}
+10016010 = {
+	name=character_name_10016010 # Hoshunin
+	female=yes
+	dynasty=10000160 # Hojo
+	father=10016000
+	religion="shinto"
+	culture="southern_kanto"
+	prowess=10
+	1530.1.1={
+		birth=yes
+	}
+	1590.1.1={
+		death=yes
+	}
+}
+10016011 = {
+	name=character_name_10016011 # Chiyo
+	female=yes
+	dynasty=10000160 # Hojo
+	father=10016000
+	religion="shinto"
+	culture="southern_kanto"
+	prowess=10
+	1532.1.1={
+		birth=yes
+	}
+	1580.1.1={
+		death=yes
+	}
+}
+10016012 = {
+	name=character_name_10016012 # Tsunako #spouse of Kira Yoriyasu
+	female=yes
+	dynasty=10000161 # Ise
+	father=10016000
+	religion="shinto"
+	culture="southern_kanto"
+	prowess=9
+	1518.1.1={
+		birth=yes
+	}
+	1523.9.1={
+		dynasty=10000160 # Hojo
+	}
+	1588.1.1={
+		death=yes
+	}
+}
+10016013 = {
+	name=character_name_10016013 # Shinkurou
+	dynasty=10000160 # Hojo
+	father=10016004 # Hojo Ujiyasu
+	mother=10023012 # Imagawa Keizui-in
+	religion="shinto"
+	culture="southern_kanto"
+	prowess=10
+	1537.1.1={
+		birth=yes
+	}
+	1552.4.14={
+		death=yes
+	}
+}
+10016014 = {
+	name=character_name_10016014 # Ujimasa
+	dynasty=10000160 # Hojo
+	father=10016004 # Hojo Ujiyasu
+	mother=10023012 # Imagawa Keizui-in
+	religion="shinto"
+	culture="southern_kanto"
+	diplomacy=6
+	martial=5
+	stewardship=6
+	intrigue=6
+	learning=6
+	trait="education_stewardship_4"
+	trait="compassionate"
+	trait="poet"
+	trait="patient"
+	trait="diligent"
+	trait="ambitious"
+	trait="unyielding_defender"
+	prowess=11
+	1538.1.1={
+		birth=yes
+	}
+	1541.8.10={
+		employer = 10016004 # Hojo Ujiyasu
+	}
+	1554.1.1={
+		give_nickname="nick_Shinkuro" # Genpuku (coming-of-age ceremony)
+	}
+	1554.12.1={
+		add_spouse=10020031 # Takeda Ohbai-in, 20010:Takeda Shingen
+	}
+	1571.10.21={
+		trait="jugoi_ge"
+		give_nickname="nick_the_sakyo_dayu"
+		effect={
+			set_realm_capital=title:c_shgnt_ashi-no-shimo
+			save_scope_as = actor
+			every_ruler = {
+				if = {
+					limit = {
+						has_title = title:k_nmih_kanto_kanrei
+					}
+					save_scope_as = recipient
+					scope:actor = {
+						break_alliance = scope:recipient
+					}
+				}
+			}
+		}
+	}
+	1590.8.10={
+		death=yes
+	}
+}
+10016015 = {
+	name=character_name_10016015 # Ujiteru
+	dynasty=10000160 # Hojo
+	father=10016004
+	mother=10023012 # Imagawa Keizui-in
+	trait="education_diplomacy_3"
+	religion="shinto"
+	culture="southern_kanto"
+	diplomacy=6
+	martial=5
+	stewardship=5
+	intrigue=5
+	learning=7
+	trait="education_martial_3"
+	trait="content"
+	trait="compassionate"
+	trait="brave"
+	trait="poet"
+	trait="intellect_good_2"
+	prowess=13
+	1540.1.1={
+		birth=yes
+	}
+	1558.1.1={
+		give_nickname="nick_Genzou"
+	}
+	1559.1.1={
+		add_spouse=10018468 # Oishi Hisa
+	}
+	1576.1.1={
+		give_nickname="nick_mitsu_no_kami"
+	}
+	1590.8.10={
+		death=yes
+	}
+}
+10016016 = {
+	name=character_name_10016016 # Ujikuni
+	dynasty=10000160 # Hojo
+	father=10016004
+	mother=10023012 # Imagawa Keizui-in
+	religion="shinto"
+	culture="southern_kanto"
+	diplomacy=8
+	martial=5
+	stewardship=6
+	intrigue=6
+	learning=6
+	trait="education_martial_3"
+	trait="content"
+	trait="brave"
+	trait="impatient"
+	trait="administrator"
+	prowess=12
+	1548.1.1={
+		birth=yes
+	}
+	1558.1.1={
+		add_spouse=10018406
+	}
+	1563.1.1={
+		remove_spouse=10018406
+		add_spouse=10018406 # Fujita Daifuku
+	}
+	1564.1.1={
+		give_nickname="nick_Shintaro"
+	}
+	1576.1.1={
+		give_nickname="nick_boshu_no_kami"
+	}
+	1597.9.19={
+		death=yes
+	}
+}
+10016017 = {
+	name=character_name_10016017 # Ujinori
+	dynasty=10000160 # Hojo
+	father=10016004 # Hojo Ujiyasu
+	mother=10023012 # Imagawa Keizui-in
+	religion="shinto"
+	culture="southern_kanto"
+	diplomacy=6
+	martial=7
+	stewardship=6
+	intrigue=5
+	learning=6
+	trait="education_diplomacy_3"
+	trait="content"
+	trait="gregarious"
+	trait="intellect_good_2"
+	prowess=11
+	1545.1.1={
+		birth=yes
+	}
+	1552.1.1={
+		employer=10023010 # Imagawa Yoshimoto
+	}
+	1561.1.1={
+		give_nickname="nick_sama_no_suke"
+	}
+	1564.7.1={
+		employer=10016004 # Hojo Ujiyasu
+	}
+	1566.1.1={
+		add_spouse=10016039 # Hojo Kogenin, 16036:Hojo Tsunashige
+	}
+	1577.1.1={
+		give_nickname="nick_mino_no_kami"
+	}
+	1600.3.22={
+		death=yes
+	}
+}
+10016018 = {
+	name=character_name_10016018 # Ujitada
+	dynasty=10000160 # Hojo
+	father=10016004
+	trait="education_diplomacy_3"
+	trait="content"
+	religion="shinto"
+	culture="southern_kanto"
+	prowess=10
+	1549.1.1={
+		birth=yes
+	}
+	1572.1.1={
+		give_nickname="nick_saemon_no_suke"
+	}
+	1593.5.8={
+		death=yes
+	}
+}
+10016019 = {
+	name=character_name_10016019 # Ujimitsu
+	dynasty=10000160 # Hojo
+	father=10016004
+	trait="education_diplomacy_3"
+	trait="content"
+	religion="shinto"
+	culture="southern_kanto"
+	prowess=12
+	1552.1.1={
+		birth=yes
+	}
+	1573.1.1={
+		give_nickname="nick_uemon_no_suke"
+	}
+	1590.10.13={
+		death=yes
+	}
+}
+10016020 = {
+	name=character_name_10016020 # Kagetora
+	dynasty=10000160 # Hojo
+	father=10016004
+	trait="education_diplomacy_1"
+	religion="shinto"
+	culture="southern_kanto"
+	diplomacy=7
+	martial=8
+	stewardship=5
+	intrigue=5
+	learning=5
+	trait="education_martial_2"
+	trait="brave"
+	trait="intellect_good_2"
+	prowess=13
+	1554.1.1={
+		birth=yes
+	}
+	1570.1.1={
+		give_nickname="nick_saburo"
+	}
+	1570.4.11={
+		dynasty=10000100 # Uesugi
+		trait="child_of_adoption"
+		employer=10032011 # Uesugi Kenshin
+		effect={
+			set_father=character:10032011
+			set_real_father=character:10016004
+		}
+	}
+	1570.4.25={
+		add_spouse=10032031 # Nagao Seien-in, daughter of 32025:Nagao Masakage
+	}
+	1578.4.19={
+		add_pressed_claim=d_shgnt_echigo
+	}
+	1579.4.19={
+		death={
+			death_reason=death_suicide
+		}
+	}
+}
+10016021 = {
+	name=character_name_10016021 # Jokoin
+	female=yes
+	dynasty=10000160 # Hojo
+	father=10016004
+	mother=10023012 # Imagawa Keizui-in
+	religion="shinto"
+	culture="southern_kanto"
+	prowess=10
+	1555.1.1={
+		birth=yes
+	}
+	1610.1.1={
+		death=yes
+	}
+}
+10016022 = {
+	name=character_name_10016022 # Keirinin
+	female=yes
+	dynasty=10000160 # Hojo
+	father=10016004
+	religion="shinto"
+	culture="southern_kanto"
+	prowess=10
+	1564.1.1={
+		birth=yes
+	}
+	1582.4.3={
+		death={
+			death_reason=death_suicide
+		}
+	}
+}
+10016023 = {
+	name=character_name_10016023 # Nanamagari
+	female=yes
+	dynasty=10000160 # Hojo
+	father=10016004
+	religion="shinto"
+	culture="southern_kanto"
+	prowess=11
+	1538.1.1={
+		birth=yes
+	}
+	1598.4.3={
+		death=yes
+	}
+}
+10016024 = {
+	name=character_name_10016024 # Hayakawa
+	female=yes
+	dynasty=10000160 # Hojo
+	father=10016004
+	mother=10023012 # Imagawa Keizui-in
+	religion="shinto"
+	culture="southern_kanto"
+	prowess=12
+	1538.1.1={
+		birth=yes
+	}
+	1613.4.5={
+		death=yes
+	}
+}
+10016025 = {
+	name=character_name_10016025 # Ozaki
+	female=yes
+	dynasty=10000160 # Hojo
+	father=10016004
+	religion="shinto"
+	culture="southern_kanto"
+	prowess=10
+	1543.1.1={
+		birth=yes
+	}
+	1585.1.1={
+		death=yes
+	}
+}
+10016026 = {
+	name=character_name_10016026 # Shutokuji
+	female=yes
+	dynasty=10000160 # Hojo
+	father=10016004
+	religion="shinto"
+	culture="southern_kanto"
+	prowess=12
+	1539.1.1={
+		birth=yes
+	}
+	1585.1.1={
+		death=yes
+	}
+}
+10016027 = {
+	name=character_name_10016027 # Kiku
+	female=yes
+	dynasty=10000160 # Hojo
+	father=10016004
+	religion="shinto"
+	culture="southern_kanto"
+	prowess=11
+	1549.1.1={
+		birth=yes
+	}
+	1599.1.1={
+		death=yes
+	}
+}
+10016028 = {
+	name=character_name_10016028 # Shinkurou
+	dynasty=10000160 # Hojo
+	father=10016014
+	religion="shinto"
+	culture="southern_kanto"
+	prowess=11
+	1555.11.28={
+		birth=yes
+	}
+	1557.1.1={
+		death=yes
+	}
+}
+10016029 = {
+	name=character_name_10016029 # Ujinao
+	dynasty=10000160 # Hojo
+	father=10016014
+	religion="shinto"
+	culture="southern_kanto"
+	diplomacy=6
+	martial=5
+	stewardship=6
+	intrigue=6
+	learning=4
+	trait="education_stewardship_3"
+	trait="intellect_good_2"
+	prowess=11
+	1562.1.1={
+		birth=yes
+	}
+	1578.1.1={
+		give_nickname="nick_Shinkuro"
+	}
+	1582.10.29={
+		add_spouse=10024029
+	}
+	1583.1.1={
+		remove_spouse=10024029
+		add_spouse=10024029 # Matsudaira Toku, daughter of 24006:Tokugawa Ieyasu
+	}
+	1591.12.19={
+		death=yes
+	}
+}
+10016030 = {
+	name=character_name_10016030 # Gengorou
+	dynasty=10000160 # Hojo
+	father=10016014
+	religion="shinto"
+	culture="southern_kanto"
+	prowess=11
+	1563.1.1={
+		birth=yes
+	}
+	1582.7.27={
+		death=yes
+	}
+}
+10016031 = {
+	name=character_name_10016031 # Ujifusa # Ota Ujifusa
+	dynasty=10000160 # Hojo
+	father=10016014
+	religion="shinto"
+	culture="southern_kanto"
+	prowess=11
+	1563.1.1={
+		birth=yes
+	}
+	1592.5.23={
+		death=yes
+	}
+}
+10016032 = {
+	name=character_name_10016032 # Naoshige
+	dynasty=10000160 # Hojo
+	father=10016014
+	religion="shinto"
+	culture="southern_kanto"
+	prowess=10
+	1565.1.1={
+		birth=yes
+	}
+	1627.4.16={
+		death=yes
+	}
+}
+10016033 = {
+	name=character_name_10016033 # Naosada
+	dynasty=10000160 # Hojo
+	father=10016014
+	religion="shinto"
+	culture="southern_kanto"
+	prowess=10
+	1566.1.1={
+		birth=yes
+	}
+	1626.1.1={
+		death=yes
+	}
+}
+10016034 = {
+	name=character_name_10016034 # Houkeiin
+	female=yes
+	dynasty=10000160 # Hojo
+	father=10016014
+	religion="shinto"
+	culture="southern_kanto"
+	prowess=10
+	1564.1.1={
+		birth=yes
+	}
+	1614.1.1={
+		death=yes
+	}
+}
+10016035 = {
+	name=character_name_10016035 # Ryujuin
+	female=yes
+	dynasty=10000160 # Hojo
+	father=10016014
+	religion="shinto"
+	culture="southern_kanto"
+	prowess=11
+	1558.1.1={
+		birth=yes
+	}
+	1579.1.1={
+		death=yes
+	}
+}
+10016036 = {
+	name=character_name_10016036 # Tsunashige
+	dynasty=10000160 # Hojo
+	father=10016002 # Hojo Tsunashige (Historically, adoption to Hojo Tamemasa)
+	religion="shinto"
+	culture="southern_kanto"
+	diplomacy=6
+	martial=6
+	stewardship=7
+	intrigue=6
+	learning=4
+	trait="education_martial_4"
+	trait="brave"
+	trait="intellect_good_2"
+	trait="strategist"
+	trait="flexible_leader"
+	prowess=16
+	1515.1.1={
+		birth=yes
+	}
+	1531.1.1={
+		give_nickname="nick_Magokuro"
+	}
+	1535.1.1={
+		add_matrilineal_spouse=10016007 # Hojo Daichoin, daughter of 16000:Hojo Ujitsuna
+	}
+	1543.6.15={
+		give_nickname="nick_saemon_no_jo"
+	}
+	1587.6.11={
+		death=yes
+	}
+}
+10016037 = {
+	name=character_name_10016037 # Yasushige # Ujishige
+	dynasty=10000160 # Hojo
+	mother=10016007 # Hojo Daichoin
+	father=10016036 # Hojo Tsunashige
+	religion="shinto"
+	culture="southern_kanto"
+	diplomacy=5
+	martial=7
+	stewardship=7
+	intrigue=5
+	learning=4
+	trait="education_martial_3"
+	trait="brave"
+	trait="intellect_good_2"
+	trait="falconer"
+	prowess=14
+	1536.1.1={
+		birth=yes
+	}
+	1552.1.1={
+		give_nickname="nick_saemon_no_jo"
+	}
+	1554.1.1={
+		add_spouse=10016023 # Hojo Nanamagari, daughter of 16004:Hojo Ujiyasu
+	}
+	1578.7.17={
+		death=yes
+	}
+}
+10016038={
+	name=character_name_10016038 # Ujihide # a.k.a. Numata Yasumoto
+	dynasty=10000160 # Hojo
+	father=10016036
+	religion="shinto"
+	culture="southern_kanto"
+	prowess=11
+	1539.1.1={
+		birth=yes
+	}
+	1583.7.10={
+		death=yes
+	}
+}
+10016039={
+	name=character_name_10016039 # Kogenin
+	female=yes
+	dynasty=10000160 # Hojo
+	father=10016036
+	religion="shinto"
+	culture="southern_kanto"
+	prowess=10
+	1548.1.1={
+		birth=yes
+	}
+	1598.7.10={
+		death=yes
+	}
+}
+10016040={
+	name=character_name_10016040 # Jokoin
+	female=yes
+	dynasty=10000160 # Hojo
+	father=10016036
+	religion="shinto"
+	culture="southern_kanto"
+	prowess=10
+	1551.1.1={
+		birth=yes
+	}
+	1585.1.1={
+		death=yes
+	}
+}
+10016041={
+	name=character_name_10016041 # Ujitoshi # Ujikiyo
+	dynasty=10000160 # Hojo
+	father=10016037
+	religion="shinto"
+	culture="southern_kanto"
+	prowess=9
+	1555.1.1={
+		birth=yes
+	}
+	1578.7.17={
+		give_nickname="nick_saemon_no_jo"
+	}
+	1581.2.24={
+		death=yes
+	}
+}
+10016042={
+	name=character_name_10016042 # Ujikatsu
+	dynasty=10000160 # Hojo
+	father=10016037
+	religion="shinto"
+	culture="southern_kanto"
+	diplomacy=6
+	martial=6
+	stewardship=6
+	intrigue=5
+	learning=7
+	trait="education_martial_3"
+	trait="intellect_good_2"
+	prowess=14
+	1559.1.1={
+		birth=yes
+	}
+	1578.1.1={
+		add_spouse= 10018424 # Ueda Rengaku
+	}
+	1581.2.24={
+		give_nickname="nick_saemon_no_jo"
+	}
+	1611.5.6={
+		death=yes
+	}
+}
+10016043={
+	name=character_name_10016043 # Ujinari
+	dynasty=10000160 # Hojo
+	father=10016037
+	religion="shinto"
+	culture="southern_kanto"
+	prowess=10
+	1562.1.1={
+		birth=yes
+	}
+	1600.1.1={
+		death=yes
+	}
+}
+10016044={
+	name=character_name_10016044 # Naotane
+	dynasty=10000160 # Hojo
+	father=10016037
+	religion="shinto"
+	culture="southern_kanto"
+	prowess=9
+	1564.1.1={
+		birth=yes
+	}
+	1595.1.1={
+		death=yes
+	}
+}
+10016045={
+	name=character_name_10016045 # Shigehiro
+	dynasty=10000160 # Hojo
+	father=10016037
+	religion="shinto"
+	culture="southern_kanto"
+	prowess=12
+	1566.1.1={
+		birth=yes
+	}
+	1612.7.6={
+		death=yes
+	}
+}
+10016046={
+	name=character_name_10016046 # Yasuko
+	dynasty=10000160 # Hojo
+	father=10016037
+	religion="shinto"
+	culture="southern_kanto"
+	prowess=10
+	1560.1.1={
+		birth=yes
+	}
+	1637.1.1={
+		death=yes
+	}
+}
+10016047={
+	name=character_name_10016047 # Yasuko
+	dynasty=10000160 # Hojo
+	father=10016037
+	religion="shinto"
+	culture="southern_kanto"
+	prowess=9
+	1575.1.1={
+		birth=yes
+	}
+	1635.1.1={
+		death=yes
+	}
+}
+10016100 = {
+	name=character_name_10016100 # Tsunayoshi
+	dynasty=10000162 # Shimizu
+	martial=5
+	diplomacy=5
+	intrigue=6
+	stewardship=7
+	learning=6
+	trait="education_martial_2"
+	religion="shinto"
+	culture="southern_kanto"
+	prowess=12
+	1503.1.1={
+		birth=yes
+	}
+	1557.1.1={
+		death=yes
+	}
+}
+10016101 = {
+	name=character_name_10016101 # Yasuhide
+	dynasty=10000162 # Shimizu
+	father=10016100
+	martial=6
+	diplomacy=8
+	intrigue=6
+	stewardship=4
+	learning=5
+	trait="education_martial_3"
+	religion="shinto"
+	culture="southern_kanto"
+	prowess=15
+	1532.1.1={
+		birth=yes
+	}
+	1591.7.22={
+		death=yes
+	}
+}
+10016102 = {
+	name=character_name_10016102 # Hideyoshi
+	dynasty=10000162 # Shimizu
+	father=10016100
+	trait="education_martial_2"
+	religion="shinto"
+	culture="southern_kanto"
+	prowess=12
+	1535.1.1={
+		birth=yes
+	}
+	1595.1.1={
+		death=yes
+	}
+}
+10016103 = {
+	name=character_name_10016103 # Masakatsu
+	dynasty=10000162 # Shimizu
+	father=10016101
+	trait="education_martial_2"
+	religion="shinto"
+	culture="southern_kanto"
+	prowess=14
+	1555.1.1={
+		birth=yes
+	}
+	1616.4.17={
+		death=yes
+	}
+}
+10016104 = {
+	name=character_name_10016104 # Naohide
+	dynasty=10000162 # Shimizu
+	father=10016103
+	religion="shinto"
+	culture="southern_kanto"
+	prowess=11
+	1580.1.1={
+		birth=yes
+	}
+	1630.1.1={
+		death=yes
+	}
+}
+10016200 = {
+	name=character_name_10016200 # Nobutame
+	father=10016201
+	dynasty=10000163 # Kasahara
+	martial=7
+	diplomacy=6
+	intrigue=7
+	stewardship=7
+	learning=6
+	trait="education_stewardship_2"
+	trait="diligent"
+	trait="poet"
+	religion="shinto"
+	culture="southern_kanto"
+	prowess=11
+	1479.1.1={
+		birth=yes
+	}
+	1487.11.1={
+		employer=10016001 # Hojo Soun
+	}
+	1557.8.12={
+		death=yes
+	}
+}
+10016201 = {
+	name=character_name_10016201 # Ujishige
+	dynasty=10000163 # Kasahara
+	martial=6
+	diplomacy=5
+	intrigue=5
+	stewardship=6
+	learning=8
+	trait="education_stewardship_2"
+	trait="diligent"
+	trait="poet"
+	religion="shinto"
+	culture="southern_kanto"
+	prowess=10
+	1450.1.1={
+		birth=yes
+	}
+	1487.11.1={
+		employer=10016001 # Hojo Soun
+	}
+	1520.1.1={
+		death=yes
+	}
+}
+10016202 = {
+	name=character_name_10016202 # Yasukatsu
+	father=10016200
+	dynasty=10000163 # Kasahara
+	trait="education_stewardship_2"
+	religion="shinto"
+	culture="southern_kanto"
+	prowess=9
+	1512.1.1={
+		birth=yes
+	}
+	1575.1.1={
+		death=yes
+	}
+}
+10016203 = {
+	name=character_name_10016203 # Terushige
+	father=10016202
+	dynasty=10000163 # Kasahara
+	trait="education_stewardship_2"
+	religion="shinto"
+	culture="southern_kanto"
+	prowess=12
+	1568.1.1={
+		birth=yes
+	}
+	1582.1.13={
+		death={
+		death_reason=death_battle
+		killer=10016204
+		}
+	}
+}
+10016204 = {
+	name=character_name_10016204 # Masaharu
+	dynasty=10000163 # Kasahara
+	father=10018523 #Matsuda Norihide
+	religion="shinto"
+	culture="southern_kanto"
+	diplomacy=6
+	martial=5
+	stewardship=7
+	intrigue=5
+	learning=6
+	trait="education_intrigue_3"
+	trait="deceitful"
+	trait="craven"
+	prowess=13
+	1550.1.1={
+		birth=yes
+	}
+	1590.7.17={
+		death=yes
+	}
+}
+10016300 = {
+	name=character_name_10016300 # Naokatsu
+	dynasty=10000164 # Tominaga
+	father=10016301
+	martial=7
+	diplomacy=6
+	intrigue=4
+	stewardship=8
+	learning=6
+	trait="education_martial_2"
+	religion="shinto"
+	culture="southern_kanto"
+	prowess=14
+	1509.1.1={
+		birth=yes
+	}
+	1564.12.9={
+		death=yes
+	}
+}
+10016301 = {
+	name=character_name_10016301 # Sanenao
+	dynasty=10000164 # Tominaga
+	father=10016302 # Tominaga Saneyoshi
+	religion="shinto"
+	culture="southern_kanto"
+	prowess=9
+	1460.1.1={
+		birth=yes
+	}
+	1491.1.1={
+		employer=10016001 # Hojo Soun
+	}
+	1520.1.1={
+		death=yes
+	}
+}
+10016302={
+	name=character_name_10016302 # Saneyoshi
+	dynasty=10000164 # Tominaga
+	religion="shinto"
+	culture="southern_kanto"
+	prowess=11
+	1440.1.1={
+		birth=yes
+	}
+	1490.1.1={
+		death=yes
+	}
+}
+10016303={
+	name=character_name_10016303 # Shigekatsu
+	dynasty=10000164 # Tominaga
+	father=10016302 # Tominaga Saneyoshi
+	religion="shinto"
+	culture="southern_kanto"
+	prowess=9
+	1465.1.1={
+		birth=yes
+	}
+	1515.1.1={
+		death=yes
+	}
+}
+10016304={
+	name=character_name_10016304 # Sanetsune
+	dynasty=10000164 # Tominaga
+	father=10016302 # Tominaga Saneyoshi
+	religion="shinto"
+	culture="southern_kanto"
+	prowess=11
+	1470.1.1={
+		birth=yes
+	}
+	1520.1.1={
+		death=yes
+	}
+}
+10016305={
+	name=character_name_10016305 # NotonoKami
+	dynasty=10000164 # Tominaga
+	father=10016302 # Tominaga Saneyoshi
+	religion="shinto"
+	culture="southern_kanto"
+	prowess=10
+	1475.1.1={
+		birth=yes
+	}
+	1525.1.1={
+		death=yes
+	}
+}
+10016306={
+	name=character_name_10016306 # NotonoKami
+	dynasty=10000164 # Tominaga
+	father=10016305 # Tominaga NotonoKami
+	religion="shinto"
+	culture="southern_kanto"
+	prowess=12
+	1495.1.1={
+		birth=yes
+	}
+	1545.1.1={
+		death=yes
+	}
+}
+10016307={
+	name=character_name_10016307 # NotonoKami
+	dynasty=10000164 # Tominaga
+	father=10016306 # Tominaga NotonoKami
+	religion="shinto"
+	culture="southern_kanto"
+	prowess=10
+	1520.1.1={
+		birth=yes
+	}
+	1570.1.1={
+		death=yes
+	}
+}
+10016308={
+	name=character_name_10016308 # Sukemori
+	dynasty=10000164 # Tominaga
+	father=10016307 # Tominaga NotonoKami
+	religion="shinto"
+	culture="southern_kanto"
+	prowess=11
+	1540.1.1={
+		birth=yes
+	}
+	1590.1.1={
+		death=yes
+	}
+}
+10016309={
+	name=character_name_10016309 # Sukeshige
+	dynasty=10000164 # Tominaga
+	father=10016307 # Tominaga NotonoKami
+	religion="shinto"
+	culture="southern_kanto"
+	prowess=12
+	1545.1.1={
+		birth=yes
+	}
+	1595.1.1={
+		death=yes
+	}
+}
+10016400 = {
+	name=character_name_10016400 # Ujiyori
+	dynasty=10000165 # Omori
+	father=10016401
+	religion="shinto"
+	culture="southern_kanto"
+	diplomacy=5
+	stewardship=6
+	learning=7
+	trait="education_stewardship_3"
+	prowess=11
+	1412.1.1={
+		birth=yes
+	}
+	1428.1.1={
+		give_nickname="nick_saemon_no_suke"
+		add_spouse=10016508 # Miura Takaaki's daughter
+	}
+	1469.3.1={
+		give_nickname="nick_shinano_no_kami"
+	}
+	1494.9.25={
+		death=yes
+	}
+}
+10016401 = {
+	name=character_name_10016401 # Yoriharu
+	dynasty=10000165 # Omori
+	father=12391050 # Omori Yoriaki
+	religion="shinto"
+	culture="southern_kanto"
+	stewardship=7
+	trait="education_stewardship_3"
+	prowess=12
+	1390.1.1={
+		birth=yes
+	}
+	1406.1.1={
+		give_nickname="nick_shinano_no_kami"
+	}
+	1469.3.1={
+		death=yes
+	}
+}
+10016402 = {
+	name=character_name_10016402 # Saneyori
+	dynasty=10000165 # Omori
+	father=10016400
+	mother=10016508 # Miura Takaaki's daughter
+	religion="shinto"
+	culture="southern_kanto"
+	prowess=11
+	1440.1.1={
+		birth=yes
+	}
+	1456.1.1={
+		give_nickname="nick_oki_no_kami"
+	}
+	1483.7.16={
+		death=yes
+	}
+}
+10016403 = {
+	name=character_name_10016403 # Fujiyori
+	dynasty=10000165 # Omori
+	father=10016400
+	mother=10016508 # Miura Takaaki's daughter
+	religion="shinto"
+	culture="southern_kanto"
+	prowess=11
+	1442.1.1={
+		birth=yes
+	}
+	1458.1.1={
+		give_nickname="nick_chikuzen_no_kami"
+	}
+	1490.1.1={
+		give_nickname="nick_shinano_no_kami"
+	}
+	1503.11.20={
+		death=yes
+	}
+}
+10016404={
+	name=character_name_10016404 # Yoriko
+	female=yes
+	dynasty=10000165 # Omori
+	father=10016400 # Omori Ujiyori
+	mother=10016508 # Miura Takako
+	religion="shinto"
+	culture="southern_kanto"
+	prowess=11
+	1430.1.1={
+		birth=yes
+	}
+	1490.1.1={
+		death=yes
+	}
+}
+10016405={
+	name=character_name_10016405 # Yasuyori
+	dynasty=10000165 # Omori
+	father=10016403 # Omori Fujiyori
+	religion="shinto"
+	culture="southern_kanto"
+	prowess=10
+	1470.1.1={
+		birth=yes
+	}
+	1503.11.20={
+		death=yes
+	}
+}
+10016406={
+	name=character_name_10016406 # Noriyori
+	dynasty=10000165 # Omori
+	father=10016401 # Omori Yoriharu
+	religion="shinto"
+	culture="southern_kanto"
+	prowess=9
+	1410.1.1={
+		birth=yes
+	}
+	1480.1.1={
+		death=yes
+	}
+}
+10016407={
+	name=character_name_10016407 # Shigeyori
+	dynasty=10000165 # Omori
+	father=10016406 # Omori Noriyori
+	religion="shinto"
+	culture="southern_kanto"
+	prowess=12
+	1440.1.1={
+		birth=yes
+	}
+	1480.1.1={
+		death=yes
+	}
+}
+10016500 = {
+	name=character_name_10016500 # Tokitaka
+	dynasty=10000542 # Miura
+	father=10016501
+	religion="shinto"
+	culture="southern_kanto"
+	martial=6
+	trait="education_martial_3"
+	prowess=13
+	1416.1.1={
+		birth=yes
+	}
+	1494.10.22={
+		death=yes
+	}
+}
+10016501 = {
+	name=character_name_10016501 # Takaaki
+	dynasty=10000542 # Miura
+	father=12211280 # Miura Takatsura
+	religion="shinto"
+	culture="southern_kanto"
+	prowess=9
+	1380.1.1={
+		birth=yes
+	}
+	1430.10.22={
+		death=yes
+	}
+}
+10016502 = {
+	name=character_name_10016502 # Yoshiatsu
+	dynasty=10000542 # Miura
+	father=10017039 # Miura Takahira
+	mother=10016404 # Omori Ujiyori's daughter
+	religion="shinto"
+	culture="southern_kanto"
+	martial=5
+	trait="education_martial_3"
+	trait="poet"
+	trait="brave"
+	prowess=14
+	1451.1.1={
+		birth=yes
+	}
+	1467.1.1={
+		add_spouse=12211456 # daughter of Yokosuga Tsurahide
+	}
+	1477.1.1={
+		give_nickname="nick_mitsu_no_kami"
+	}
+	1516.8.19={
+		death={
+			death_reason=death_suicide
+		}
+	}
+}
+10016503 = {
+	name=character_name_10016503 # Takanori
+	dynasty=10000542 # Miura
+	father=10016500
+	religion="shinto"
+	culture="southern_kanto"
+	prowess=11
+	1470.1.1={
+		birth=yes
+	}
+	1494.10.22={
+		death=yes
+	}
+}
+10016504={
+	name=character_name_10016504 # Yoshinori
+	dynasty=10000542 # Miura
+	father=10017039 # 
+	religion="shinto"
+	culture="southern_kanto"
+	prowess=11
+	1460.1.1={
+		birth=yes
+	}
+	1516.8.19={
+		death=yes
+	}
+}
+10016505={
+	name=character_name_10016505 # Yoshioki
+	dynasty=10000542 # Miura
+	father=10016502 # 
+	religion="shinto"
+	culture="southern_kanto"
+	martial=6
+	trait="education_martial_3"
+	trait="strong"
+	trait="brave"
+	prowess=14
+	1496.1.1={
+		birth=yes
+	}
+	1516.8.19={
+		death=yes
+	}
+}
+10016506={
+	name=character_name_10016506 # Yoshimasa
+	dynasty=10000542 # Miura
+	father=10016502 # Miura Yoshiatsu
+	religion="shinto"
+	culture="southern_kanto"
+	prowess=9
+	1500.1.1={
+		birth=yes
+	}
+	1516.8.19={
+		death=yes
+	}
+}
+10016507={
+	name=character_name_10016507 # Takanobu
+	dynasty=10000542 # Miura
+	father=10016501 # Miura Takaaki
+	religion="shinto"
+	culture="southern_kanto"
+	prowess=11
+	1420.1.1={
+		birth=yes
+	}
+	1480.1.1={
+		death=yes
+	}
+}
+10016508={
+	name=character_name_10016508 # Takako
+	female=yes
+	dynasty=10000542 # Miura
+	father=10016501 # Miura Takaaki
+	religion="shinto"
+	culture="southern_kanto"
+	prowess=11
+	1410.1.1={
+		birth=yes
+	}
+	1470.1.1={
+		death=yes
+	}
+}
+10016600 = {
+	name = character_name_10016600 # Shigetoki
+	dynasty = 10000166	#Daidoji
+	religion="shinto"
+	culture = "central_kinai"
+	diplomacy=5
+	martial=5
+	stewardship=5
+	intrigue=7
+	learning=5
+	trait="education_stewardship_3"
+	prowess=11
+	1465.1.1 = {
+		birth=yes
+	}
+	1487.11.1 = {
+		employer=10016001	#Hojo Soun
+	}
+	1510.1.1 = {
+		death=yes
+	}
+}
+10016601 = {
+	name = character_name_10016601 # Morimasa
+	dynasty = 10000166	#Daidoji
+	religion="shinto"
+	culture = "southern_kanto"
+	father = 10016600	#Daidoji Shigetoki
+	diplomacy=5
+	martial=4
+	stewardship=7
+	intrigue=6
+	learning=6
+	trait="education_stewardship_3"
+	prowess=12
+	1495.1.1 = {
+		birth=yes
+	}
+	1519.9.8 = {
+		employer=10016000	#Hojo Ujitsuna
+	}
+	1556.7.12 = {
+		death=yes
+	}
+}
+10016602 = {
+	name = character_name_10016602 # Kanekatsu
+	dynasty = 10000166	#Daidoji
+	religion="shinto"
+	culture = "southern_kanto"
+	father = 10016601	#Daidoji Morimasa
+	diplomacy=7
+	martial=5
+	stewardship=5
+	intrigue=5
+	learning=6
+	trait="education_stewardship_3"
+	prowess=11
+	1515.1.1 = {
+		birth=yes
+	}
+	1519.9.8 = {
+		employer=10016000	#Hojo Ujitsuna
+	}
+	1562.1.1 = {
+		death=yes
+	}
+}
+10016603 = {
+	name = character_name_10016603 # Masashige
+	dynasty = 10000166	#Daidoji
+	religion="shinto"
+	culture = "southern_kanto"
+	father = 10016602	#Daidoji Kanematsu
+	diplomacy=5
+	martial=6
+	stewardship=5
+	intrigue=6
+	learning=7
+	trait="education_stewardship_3"
+	trait="intellect_good_2"
+	prowess=11
+	1533.1.1 = {
+		birth=yes
+	}
+	1559.1.1 = {
+		add_spouse=10016640 # daughter of Toyama Shugekage
+	}
+	1590.8.18 = {
+		death=yes
+	}
+}
+10016604 = {
+	name = character_name_10016604 # Naoshige
+	dynasty = 10000166	#Daidoji
+	stewardship = 5
+	religion="shinto"
+	culture = "southern_kanto"
+	father = 10016603	#Daidoji Masashige
+	mother = 10016640 # daughter of Toyama Tsunakage
+	trait="education_stewardship_3"
+	prowess=10
+	1560.1.1 = {
+		birth=yes
+	}
+	1620.1.1 = {
+		death=yes
+	}
+}
+10016605 = {
+	name = character_name_10016605 # Naoshige
+	dynasty = 10000166	#Daidoji
+	religion="shinto"
+	culture = "southern_kanto"
+	father = 10016603	#Daidoji Masashige
+	mother = 10016640 # daughter of Toyama Tsunakage
+	prowess=9
+	1563.1.1 = {
+		birth=yes
+	}
+	1630.1.1 = {
+		death=yes
+	}
+}
+10016606 = {
+	name = character_name_10016606 # Naotsugu
+	dynasty = 10000166	#Daidoji
+	religion="shinto"
+	culture = "southern_kanto"
+	father = 10016603	#Daidoji Masashige
+	mother = 10016640 # daughter of Toyama Tsunakage
+	prowess=11
+	1571.1.1 = {
+		birth=yes
+	}
+	1651.11.23 = {
+		death=yes
+	}
+}
+10016607 = {
+	name = character_name_10016607 # Benyo
+	dynasty = 10000166	#Daidoji
+	religion="shinto"
+	culture = "southern_kanto"
+	father = 10016603	#Daidoji Masashige
+	mother = 10016640 # daughter of Toyama Tsunakage
+	trait="education_learning_2"
+	prowess=11
+	1568.1.1 = {
+		birth=yes
+	}
+	1584.1.1={
+		trait="devoted"
+	}
+	1640.1.1 = {
+		death=yes
+	}
+}
+10016608 = {
+	name = character_name_10016608 # Naohide
+	dynasty = 10000166	#Daidoji
+	religion="shinto"
+	culture = "southern_kanto"
+	mother = 10016640 # daughter of Toyama Tsunakage
+	prowess=12
+	1552.1.1 = {
+		birth=yes
+	}
+	1559.1.1={
+		dynasty=10000166	#Daidoji
+		trait="child_of_adoption"
+		effect={
+			set_father=character:10016603
+#			set_real_father=character:
+		}
+	}
+	1642.9.17 = {
+		death=yes
+	}
+}
+10016631 = {
+	name = character_name_10016631 # Naokage
+	dynasty = 10000266	#Toyama
+	diplomacy = 4
+	religion="shinto"
+	culture = "central_kinai"
+	father=12425181 # Toyama Kageyasu
+	trait="education_diplomacy_3"
+	prowess=12
+	1466.1.1 = {
+		birth=yes
+	}
+	1487.11.1 = {
+		employer=10016001	#Hojo Soun
+	}
+	1533.4.7 = {
+		death=yes
+	}
+}
+10016632 = {
+	name = character_name_10016632 # Tsunakage
+	dynasty = 10000266	#Toyama
+	diplomacy = 7
+	religion="shinto"
+	culture = "southern_kanto"
+	father = 10016631	#Toyama Naokage
+	trait="education_diplomacy_3"
+	trait="poet"
+	prowess=10
+	1513.1.1 = {
+		birth=yes
+	}
+	1519.9.8 = {
+		employer=10016000	#Hojo Ujitsuna
+	}
+	1564.2.19 = {
+		death=yes
+	}
+}
+10016633 = {
+	name = character_name_10016633 # Yasumitsu
+	dynasty = 10000266	#Toyama
+	religion="shinto"
+	culture = "southern_kanto"
+	father = 10016631	#Toyama Naokage
+	prowess=11
+	1515.1.1 = {
+		birth=yes
+	}
+	1519.9.8 = {
+		employer=10016000	#Hojo Ujitsuna
+	}
+	1579.1.1 = {
+		death=yes
+	}
+}
+10016634 = {
+	name = character_name_10016634 # Hayatonosuke
+	dynasty = 10000266	#Toyama
+	religion="shinto"
+	culture = "southern_kanto"
+	father = 10016632	#Toyama Tsunakage
+	prowess=9
+	1535.1.1 = {
+		birth=yes
+	}
+	1564.2.19 = {
+		death=yes
+	}
+}
+10016635 = {
+	name = character_name_10016635 # Masakage
+	dynasty = 10000266	#Toyama
+	diplomacy = 5
+	religion="shinto"
+	culture = "southern_kanto"
+	father = 10016632	#Toyama Tsunakage
+	trait="education_diplomacy_3"
+	prowess=10
+	1540.1.1 = {
+		birth=yes
+	}
+	1580.3.23 = {
+		death=yes
+	}
+}
+10016636 = {
+	name = character_name_10016636 # Kagemune
+	dynasty = 10000266	#Toyama
+	religion="shinto"
+	culture = "southern_kanto"
+	father = 10016632	#Toyama Tsunakage
+	prowess=10
+	1542.1.1 = {
+		birth=yes
+	}
+	1586.1.1 = {
+		death=yes
+	}
+}
+10016637 = {
+	name = character_name_10016637 # Hideshige
+	dynasty = 10000266	#Toyama
+	religion="shinto"
+	culture = "southern_kanto"
+	father = 10016632	#Toyama Tsunakage
+	prowess=9
+	1545.1.1 = {
+		birth=yes
+	}
+	1578.1.1 = {
+		death=yes
+	}
+}
+10016638 = {
+	name = character_name_10016638 # Shigemasa
+	dynasty = 10000266	#Toyama
+	religion="shinto"
+	culture = "southern_kanto"
+	father = 10016632	#Toyama Tsunakage
+	prowess=9
+	1546.1.1 = {
+		birth=yes
+	}
+	1588.1.1 = {
+		death=yes
+	}
+}
+10016639 = {
+	name = character_name_10016639 # Naokage
+	dynasty = 10000266	#Toyama
+	religion="shinto"
+	culture = "southern_kanto"
+	father = 10016635	#Toyama Masakage
+	prowess=11
+	1560.1.1 = {
+		birth=yes
+	}
+	1587.1.1 = {
+		death=yes
+	}
+}
+10016640 = {
+	name = character_name_10016640 # Shigeko
+	female=yes
+	dynasty = 10000266	#Toyama
+	religion="shinto"
+	culture = "southern_kanto"
+	father = 10016632	#Toyama Tsunakage
+	prowess=12
+	1535.1.1 = {
+		birth=yes
+	}
+	1600.1.1 = {
+		death=yes
+	}
+}
+10016641 = {
+	name = character_name_10016641 # Naotsugu
+	dynasty = 10000266	#Toyama
+	religion="shinto"
+	culture = "southern_kanto"
+	father = 10016633	#Toyama Yasumitsu
+	prowess=11
+	1540.1.1 = {
+		birth=yes
+	}
+	1579.1.1 = {
+		death=yes
+	}
+}
+10016660 = {
+	name = character_name_10016660 # Gonbe
+	dynasty = 10000167	#Tame
+	religion="shinto"
+	culture = "southern_kanto"
+	prowess=11
+	1479.1.1 = {
+		birth=yes
+	}
+	1487.11.1 = {
+		employer=10016001	#Hojo Soun
+	}
+	1529.1.1 = {
+		death=yes
+	}
+}
+10016661 = {
+	name = character_name_10016661 # Motooki
+	dynasty = 10000167	#Tame
+	religion="shinto"
+	culture = "southern_kanto"
+	father = 10016660	#Tame Gonbe
+	prowess=12
+	1499.1.1 = {
+		birth=yes
+	}
+	1519.9.8 = {
+		employer=10016000	#Hojo Ujitsuna
+	}
+	1549.1.1 = {
+		death=yes
+	}
+}
+10016662 = {
+	name = character_name_10016662 # Mototada
+	dynasty = 10000167	#Tame
+	martial = 7
+	religion="shinto"
+	culture = "southern_kanto"
+	father = 10016661	#Tame Motooki
+	trait="education_martial_3"
+	trait="brave"
+	prowess=13
+	1519.1.1 = {
+		birth=yes
+	}
+	1519.9.8 = {
+		employer=10016000	#Hojo Ujitsuna
+	}
+	1590.1.1 = {
+		death=yes
+	}
+}
+10016670 = {
+	name = character_name_10016670 # Hyogo
+	dynasty = 10000168	#Araki
+	religion="shinto"
+	culture = "central_kinai"
+	prowess=10
+	1456.1.1 = {
+		birth=yes
+	}
+	1487.11.1 = {
+		employer=10016001	#Hojo Soun
+	}
+	1507.1.1 = {
+		death=yes
+	}
+}
+10016671 = {
+	name = character_name_10016671 # Yukimitsu
+	dynasty = 10000168	#Araki
+	religion="shinto"
+	culture = "southern_kanto"
+	father = 10016670	#Araki Hyogo
+	prowess=10
+	1486.1.1 = {
+		birth=yes
+	}
+	1487.11.1 = {
+		employer=10016001	#Hojo Soun
+	}
+	1536.1.1 = {
+		death=yes
+	}
+}
+10016672 = {
+	name = character_name_10016672 # Sadamitsu
+	dynasty = 10000168	#Araki
+	religion="shinto"
+	culture = "southern_kanto"
+	father = 10016671	#Araki Yukimitsu
+	prowess=11
+	1516.1.1 = {
+		birth=yes
+	}
+	1519.9.8 = {
+		employer=10016000	#Hojo Ujitsuna
+	}
+	1566.1.1 = {
+		death=yes
+	}
+}
+10016673 = {
+	name = character_name_10016673 # Emon
+	dynasty = 10000168	#Araki
+	religion="shinto"
+	culture = "southern_kanto"
+	father = 10016672	#Araki Sadamitsu
+	prowess=11
+	1536.1.1 = {
+		birth=yes
+	}
+	1586.1.1 = {
+		death=yes
+	}
+}
+10016674 = {
+	name = character_name_10016674 # Saishiro
+	dynasty = 10000169	#Yamanaka
+	religion="shinto"
+	culture = "southern_kanto"
+	prowess=11
+	1456.1.1 = {
+		birth=yes
+	}
+	1487.11.1 = {
+		employer=10016001	#Hojo Soun
+	}
+	1506.1.1 = {
+		death=yes
+	}
+}
+10016675 = {
+	name = character_name_10016675 # Matajiro
+	dynasty = 10000170	#Arakawa
+	religion="shinto"
+	culture = "central_kinai"
+	prowess=11
+	1457.1.1 = {
+		birth=yes
+	}
+	1487.11.1 = {
+		employer=10016001	#Hojo Soun
+	}
+	1507.1.1 = {
+		death=yes
+	}
+}
+10016676 = {
+	name = character_name_10016676 # Kunikiyo
+	dynasty = 10000170	#Arakawa
+	religion="shinto"
+	culture = "southern_kanto"
+	father = 10016675	#Arakawa Matajiro
+	prowess=10
+	1497.1.1 = {
+		birth=yes
+	}
+	1519.9.8 = {
+		employer=10016000	#Hojo Ujitsuna
+	}
+	1547.1.1 = {
+		death=yes
+	}
+}
+10016677 = {
+	name = character_name_10016677 # Yasutaka
+	dynasty = 10000170	#Arakawa
+	religion="shinto"
+	culture = "southern_kanto"
+	father = 10016676	#Arakawa Kunikiyo
+	prowess=11
+	1527.1.1 = {
+		birth=yes
+	}
+	1597.1.1 = {
+		death=yes
+	}
+}
+10016678 = {
+	name = character_name_10016678 # Hyoe
+	dynasty = 10000171	#Aritake
+	religion="shinto"
+	culture = "southern_kanto"
+	prowess=12
+	1457.1.1 = {
+		birth=yes
+	}
+	1487.11.1 = {
+		employer=10016001	#Hojo Soun
+	}
+	1507.1.1 = {
+		death=yes
+	}
+}
+10016679 = {
+	name = character_name_10016679 # Settu
+	dynasty = 10000171	#Aritake
+	religion="shinto"
+	culture = "southern_kanto"
+	father = 10016678	#Aritake Hyoe
+	prowess=11
+	1487.1.1 = {
+		birth=yes
+	}
+	1487.11.1 = {
+		employer=10016001	#Hojo Soun
+	}
+	1537.1.1 = {
+		death=yes
+	}
+}
+10016680 = {
+	name = character_name_10016680 # Settu
+	dynasty = 10000171	#Aritake
+	religion="shinto"
+	culture = "southern_kanto"
+	father = 10016679	#Aritake Settu
+	prowess=11
+	1507.1.1 = {
+		birth=yes
+	}
+	1519.9.8 = {
+		employer=10016000	#Hojo Ujitsuna
+	}
+	1557.1.1 = {
+		death=yes
+	}
+}
+10016681 = {
+	name = character_name_10016681 # Shikoshiro
+	dynasty = 10000171	#Aritake
+	religion="shinto"
+	culture = "southern_kanto"
+	father = 10016680	#Aritake Settu
+	prowess=10
+	1527.1.1 = {
+		birth=yes
+	}
+	1577.1.1 = {
+		death=yes
+	}
+}
+10016682 = {
+	name = character_name_10016682 # Matataro
+	dynasty = 10000171	#Aritake
+	religion="shinto"
+	culture = "southern_kanto"
+	father = 10016681	#Aritake Shikoshiro
+	prowess=10
+	1547.1.1 = {
+		birth=yes
+	}
+	1607.1.1 = {
+		death=yes
+	}
+}
+10018500={
+	name=character_name_10018500 # YamatoNyudo
+	dynasty=10000180 # Naito
+	religion="shinto"
+	culture="southern_kanto"
+	prowess=10
+	1465.1.1={
+		birth=yes
+	}
+	1525.1.1={
+		death=yes
+	}
+}
+10018501={
+	name=character_name_10018501 # Tomoyuki
+	dynasty=10000180 # Naito
+	father=10018500 # Naito YamatoNyudo
+	religion="shinto"
+	culture="southern_kanto"
+	prowess=10
+	1490.1.1={
+		birth=yes
+	}
+	1550.1.1={
+		death=yes
+	}
+}
+10018502={
+	name=character_name_10018502 # Yasuyuki
+	dynasty=10000180 # Naito
+	father=10018501 # Naito Tomoyuki
+	religion="shinto"
+	culture="southern_kanto"
+	prowess=12
+	1515.1.1={
+		birth=yes
+	}
+	1565.1.1={
+		death=yes
+	}
+}
+10018503={
+	name=character_name_10018503 # Tsunahide
+	dynasty=10000180 # Naito
+	father=10018502 # Naito Yasuyuki
+	religion="shinto"
+	culture="southern_kanto"
+	prowess=11
+	1540.1.1={
+		birth=yes
+	}
+	1591.1.1={
+		death=yes
+	}
+}
+10018504={
+	name=character_name_10018504 # Naoyuki
+	dynasty=10000180 # Naito
+	father=10018503 # Naito Tsunahide
+	religion="shinto"
+	culture="southern_kanto"
+	prowess=9
+	1570.1.1={
+		birth=yes
+	}
+	1630.1.1={
+		death=yes
+	}
+}
+10018520={
+	name=character_name_10018520 # Yorihide
+	dynasty=10000181 # Matsuda
+	religion="shinto"
+	culture="southern_kanto"
+	trait="education_diplomacy_3"
+	diplomacy=7
+	prowess=11
+	1470.1.1={
+		birth=yes
+	}
+	1487.11.1={
+		employer = 10016001 # Hojo Soun
+	}
+	1530.1.1={
+		death=yes
+	}
+}
+10018521={
+	name=character_name_10018521 # Morihide
+	dynasty=10000181 # Matsuda
+	father=10018520 # Matsuda Yorihide
+	religion="shinto"
+	culture="southern_kanto"
+	trait="education_diplomacy_3"
+	diplomacy=4
+	prowess=10
+	1500.1.1={
+		birth=yes
+	}
+	1560.1.1={
+		death=yes
+	}
+}
+10018522={
+	name=character_name_10018522 # Yasusada
+	dynasty=10000181 # Matsuda
+	father=10018520 # Matsuda Yorihide
+	religion="shinto"
+	culture="southern_kanto"
+	prowess=9
+	1510.1.1={
+		birth=yes
+	}
+	1560.1.1={
+		death=yes
+	}
+}
+10018523={
+	name=character_name_10018523 # Norihide
+	dynasty=10000181 # Matsuda
+	father=10018521 # Matsuda Morihide
+	religion="shinto"
+	culture="southern_kanto"
+	trait="education_diplomacy_3"
+	diplomacy=7
+	martial=6
+	stewardship=7
+	intrigue=7
+	learning=6
+	prowess=10
+	1530.1.1={
+		birth=yes
+	}
+	1590.7.17={
+		death=yes
+	}
+}
+10018524={
+	name=character_name_10018524 # Naohide
+	dynasty=10000181 # Matsuda
+	father=10018523 # Matsuda Norihide
+	religion="shinto"
+	culture="southern_kanto"
+	prowess=9
+	1560.1.1={
+		birth=yes
+	}
+	1620.1.1={
+		death=yes
+	}
+}
+10018525={
+	name=character_name_10018525 # Noriko
+	female=yes
+	dynasty=10000181 # Matsuda
+	father=10018523 # Matsuda Norihide
+	religion="shinto"
+	culture="southern_kanto"
+	prowess=9
+	1570.1.1={
+		birth=yes
+	}
+	1630.1.1={
+		death=yes
+	}
+}
+10018526={
+	name=character_name_10018526 # Yasunaga
+	dynasty=10000181 # Matsuda
+	father=10018522 # Matsuda Yasusada
+	religion="shinto"
+	culture="southern_kanto"
+	prowess=10
+	1537.1.1={
+		birth=yes
+	}
+	1547.1.1={
+		employer = 10016004 # Hojo Ujiyasu
+	}
+	1571.10.21={
+		employer = 10016014 # Hojo Ujimasa
+	}
+	1590.5.3={
+		death=yes
+	}
+}
+10018527={
+	name=character_name_10018527 # Yasusato
+	dynasty=10000181 # Matsuda
+	father=10018522 # Matsuda Yasusada
+	religion="shinto"
+	culture="southern_kanto"
+	trait="education_martial_3"
+	trait="brave"
+	trait="strong"
+	martial=7
+	prowess=13
+	1540.1.1={
+		birth=yes
+	}
+	1550.1.1={
+		employer = 10016004 # Hojo Ujiyasu
+	}
+	1571.10.21={
+		employer = 10016014 # Hojo Ujimasa
+	}
+	1609.6.3={
+		death=yes
+	}
+}
+10018528={
+	name=character_name_10018528 # Naonaga
+	dynasty=10000181 # Matsuda
+	father=10018526 # Matsuda Yasunaga
+	religion="shinto"
+	culture="southern_kanto"
+	prowess=12
+	1562.1.1={
+		birth=yes
+	}
+	1657.10.7={
+		death=yes
+	}
+}
+10018550={
+	name=character_name_10018550 # Ryosei
+	dynasty=10000182 # Ando
+	religion="shinto"
+	culture="southern_kanto"
+	trait="education_stewardship_3"
+	stewardship=6
+	prowess=12
+	1530.1.1={
+		birth=yes
+	}
+	1541.8.10={
+		employer = 10016004 # Hojo Ujiyasu
+	}
+	1571.10.21={
+		employer = 10016014 # Hojo Ujimasa
+	}
+	1590.1.1={
+		death=yes
+	}
+}
+10018551={
+	name=character_name_10018551 # Kosetsusai
+	dynasty=10000183 # Itabeoka
+	religion="shinto"
+	culture="kanto_buddhist"
+	trait="education_learning_3"
+	trait="devoted"
+	trait="gregarious"
+	trait="just"
+	trait="poet"
+	trait="tea_master"
+	diplomacy=6
+	martial=8
+	stewardship=6
+	intrigue=6
+	learning=7
+	prowess=11
+	1537.1.1={
+		birth=yes
+	}
+	1547.1.1={
+		employer = 10016004 # Hojo Ujiyasu
+	}
+	1571.10.21={
+		employer = 10016014 # Hojo Ujimasa
+	}
+	1609.7.4={
+		death=yes
+	}
+}
+10018552={
+	name=character_name_10018552 # Kotaro
+	dynasty=10007296 # Fuma
+	religion="shinto"
+	culture="southern_kanto"
+	diplomacy=6
+	martial=5
+	stewardship=6
+	intrigue=6
+	learning=5
+	trait="education_intrigue_4"
+	trait="strong"
+	trait="physique_good_2"
+	trait="schemer"
+	trait="reckless"
+	prowess=14
+	1500.1.1={
+		birth=yes
+	}
+	1510.1.1={
+		employer = 10016001 # Hojo Soun
+	}
+	1519.9.8={
+		employer = 10016000 # Hojo Ujitsuna
+	}
+	1541.8.10={
+		employer = 10016004 # Hojo Ujiyasu
+	}
+	1560.1.1={
+		death=yes
+	}
+}
+10018553={
+	name=character_name_10018553 # DewaNoKami
+	dynasty=10007296 # Fuma
+	father=10018552 # Fuma Kotaro # Fictional
+	religion="shinto"
+	culture="southern_kanto"
+	diplomacy=7
+	martial=6
+	stewardship=6
+	intrigue=5
+	learning=7
+	trait="education_intrigue_4"
+	trait="giant"
+	trait="impatient"
+	trait="strong"
+	trait="physique_good_2"
+	trait="schemer"
+	trait="reckless"
+	prowess=14
+	1540.1.1={
+		birth=yes
+	}
+	1550.1.1={
+		employer = 10016004 # Hojo Ujiyasu
+	}
+	1556.1.1={
+		give_nickname="nick_Kotaro"
+	}
+	1571.10.21={
+		employer = 10016014 # Hojo Ujimasa
+	}
+	1600.1.1={
+		death=yes
+	}
+}

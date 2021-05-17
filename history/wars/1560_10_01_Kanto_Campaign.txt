@@ -1,0 +1,18 @@
+war = {
+    name = "war_1560_kanto_campaign" 
+    start_date = 1560.10.1
+    end_date = 1569.6.1
+    targeted_titles={
+        k_shgnt_western_kanto
+    }
+
+    casus_belli = sengoku_invasion_war
+    
+    attackers = {
+        10032011
+    }  #  Uesugi Kenshin
+    defenders = {
+        10016004
+    }  #  Hojo Ujiyasu
+
+}

@@ -1,0 +1,18 @@
+war = {
+    name = "war_1180_genpei_war_of_kanto" 
+    start_date = 1180.9.8
+    end_date = 1181.3.20
+    targeted_titles={
+        e_shgnt_japan
+    }
+
+    casus_belli = claim_cb
+    claimant = 10120075
+    attackers = {
+        10120075 12155017
+    }  #  Minamoto Yoritomo, Kazusa Hirotsune
+    defenders = {
+        10110025 12122002
+    }  #  Taira Kiyomori, Satake Takayoshi
+
+}

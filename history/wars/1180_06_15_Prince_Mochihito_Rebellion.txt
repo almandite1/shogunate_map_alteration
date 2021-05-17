@@ -1,0 +1,29 @@
+war = {
+    name = "war_1180_prince_mochihito_rebellion" 
+    start_date = 1180.6.15
+    end_date = 1180.6.20
+    targeted_titles={
+        e_shgnt_tenno
+    }
+
+    casus_belli = claim_cb
+    claimant = 10041091
+    attackers = {
+        10041091 # Yamato Mochihito
+		10120250 # Minamoto Yorimasa
+		12570101 # Kofukuji Genen
+		12127800 # Shimokobe Yukiyoshi
+    }
+    defenders = {
+		10041059 # Emperor Antoku
+        10110025 # Taira no Kiyomori
+		10110042 # Taira no Munemori
+		10110043 # Taira no Tomomori
+		10110049 # Taira no Tomonori
+		10110060 # Taira no Koremori
+		10131579 # Ito Kageie
+		10131576 # Ito Tadakiyo
+		12180110 # Ashikaga Toshitsuna
+    } 
+
+}

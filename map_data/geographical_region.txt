@@ -1,0 +1,1879 @@
+# Geographical regions
+# Regions can be declared with one or more of the following fields:
+#	duchies = { }, takes duchy title names declared in landed_titles.txt
+#	counties = { }, takes county title names declared in landed_titles.txt
+#	provinces = { }, takes province id numbers declared in /history/provinces
+#	regions = { }, a region can also include other regions, however the subregions needs to be declared before the parent region. 
+#		E.g. If the region world_europe contains the region world_europe_west then world_europe_west needs to be declared as a region before (i.e. higher up in this file) world_europe.
+
+###########################################################################
+# Circuit and same class
+###########################################################################
+world_circuit_kinai = {
+	duchies = {
+		d_shgnt_yamashiro d_shgnt_yamato d_shgnt_kawachi d_shgnt_izumi d_shgnt_settsu d_shgnt_tenno
+	}
+}
+
+world_circuit_tokaido = {
+	duchies = {
+		d_shgnt_iga d_shgnt_ise d_shgnt_shima d_shgnt_owari d_shgnt_mikawa d_shgnt_totomi d_shgnt_suruga d_shgnt_izu d_shgnt_kai d_shgnt_sagami d_shgnt_musashi d_shgnt_boshu d_shgnt_kazusa d_shgnt_shimousa d_shgnt_hitachi
+	}
+}
+
+world_circuit_tosando = {
+	duchies = {
+		d_shgnt_omi d_shgnt_mino d_shgnt_hida d_shgnt_shinano d_shgnt_kozuke d_shgnt_shimotsuke d_shgnt_uzen d_shgnt_ugo d_shgnt_iwaki d_shgnt_iwashiro d_shgnt_rikuzen d_shgnt_rikuchu d_shgnt_mutsu
+	}
+}
+
+world_circuit_hokurikudo = {
+	duchies = {
+		d_shgnt_wakasa d_shgnt_echizen d_shgnt_kaga d_shgnt_noto d_shgnt_etchu d_shgnt_echigo d_shgnt_sado
+	}
+}
+
+world_circuit_san'indo = {
+	duchies = {
+		d_shgnt_tanba d_shgnt_tango d_shgnt_tajima d_shgnt_inaba d_shgnt_hoki d_shgnt_izumo d_shgnt_iwami d_shgnt_oki
+	}
+}
+
+world_circuit_san'yodo = {
+	duchies = {
+		d_shgnt_harima d_shgnt_mimasaka d_shgnt_bizen d_shgnt_bitchu d_shgnt_bingo d_shgnt_aki d_shgnt_suo d_shgnt_nagato
+	}
+}
+
+world_circuit_nankaido = {
+	duchies = {
+		d_shgnt_kii d_shgnt_awaji d_shgnt_awa d_shgnt_sanuki d_shgnt_iyo d_shgnt_tosa
+	}
+}
+
+world_circuit_saikaido = {
+	duchies = {
+		d_shgnt_chikuzen d_shgnt_chikugo d_shgnt_buzen d_shgnt_bungo d_shgnt_hizen d_shgnt_higo d_shgnt_hyuga d_shgnt_osumi d_shgnt_satsuma d_shgnt_iki d_shgnt_tsushima
+	}
+}
+
+world_circuit_hokkaido = {
+	duchies = {
+		d_shgnt_oshima d_shgnt_shiribeshi d_shgnt_iburi d_shgnt_hidaka d_shgnt_ishikari d_shgnt_teshio d_shgnt_kitami d_shgnt_tokachi d_shgnt_kushiro d_shgnt_nemuro d_shgnt_chishima
+	}
+}
+
+world_circuit_karafuto = {
+	duchies = {
+		d_shgnt_toyohara d_shgnt_maoka d_shgnt_esutoru d_shgnt_shisuka d_shgnt_otchishi
+	}
+}
+
+world_circuit_ryukyu = {
+	duchies = {
+		d_shgnt_okinawa d_shgnt_amami d_shgnt_sakishima
+	}
+}
+
+###########################################################################
+# Ezochi regions
+###########################################################################
+
+world_nishi_ezochi = {
+	duchies = {
+		d_shgnt_ishikari d_shgnt_teshio d_shgnt_kitami
+	}
+}
+
+world_higashi_ezochi = {
+	duchies = {
+		d_shgnt_hidaka d_shgnt_tokachi d_shgnt_kushiro d_shgnt_nemuro d_shgnt_chishima d_shgnt_kamchatka
+	}
+	provinces = {
+		627 628 629 630 631 632 633 716
+	}
+}
+
+world_kita_ezochi = {
+	duchies = {
+		d_shgnt_toyohara d_shgnt_maoka d_shgnt_esutoru d_shgnt_shisuka d_shgnt_otchishi
+	}
+}
+
+world_western_ezochi = {
+	regions = {
+		world_nishi_ezochi
+	}
+}
+
+world_eastern_ezochi = {
+	regions = {
+		world_higashi_ezochi
+	}
+}
+
+world_northern_ezochi = {
+	regions = {
+		world_kita_ezochi
+	}
+}
+
+world_wajinchi = {
+	duchies = {
+		d_shgnt_oshima d_shgnt_shiribeshi
+	}
+	provinces = {
+		 626
+	}
+}
+
+world_ezochi = {
+	regions = {
+		world_nishi_ezochi world_higashi_ezochi world_kita_ezochi world_wajinchi
+	}
+}
+###########################################################################
+# Modern regions
+###########################################################################
+
+world_region_nansei_islands = {
+	provinces = {
+		588 589 590 591 592 593 594 595 596 597 598 599 600 601
+	}
+}
+
+world_region_kyushu = {
+	duchies = {
+		d_shgnt_chikuzen d_shgnt_chikugo d_shgnt_buzen d_shgnt_bungo d_shgnt_hizen d_shgnt_higo d_shgnt_hyuga d_shgnt_osumi d_shgnt_satsuma d_shgnt_iki d_shgnt_tsushima
+	}
+}
+world_region_shikoku = {
+	duchies = {
+		d_shgnt_awa d_shgnt_sanuki d_shgnt_iyo d_shgnt_tosa
+	}
+}
+world_region_chugoku = {
+	duchies = {
+		d_shgnt_mimasaka d_shgnt_bizen d_shgnt_bitchu d_shgnt_bingo d_shgnt_aki d_shgnt_suo d_shgnt_nagato d_shgnt_inaba d_shgnt_hoki d_shgnt_izumo d_shgnt_iwami 		d_shgnt_oki
+	}
+}
+world_region_kinki = {
+	duchies = {
+		d_shgnt_kii d_shgnt_awaji d_shgnt_harima d_shgnt_tanba d_shgnt_tango d_shgnt_tajima d_shgnt_yamashiro
+		d_shgnt_yamato d_shgnt_kawachi d_shgnt_izumi d_shgnt_settsu d_shgnt_iga d_shgnt_ise d_shgnt_shima d_shgnt_omi
+	}
+}
+world_region_kansai = {
+	regions = {
+		world_region_kinki
+	}
+}
+world_region_chubu = {
+	duchies = {
+		d_shgnt_owari d_shgnt_mikawa d_shgnt_totomi d_shgnt_suruga d_shgnt_izu d_shgnt_kai d_shgnt_mino d_shgnt_hida d_shgnt_shinano
+		d_shgnt_wakasa d_shgnt_echizen d_shgnt_kaga d_shgnt_noto d_shgnt_etchu d_shgnt_echigo d_shgnt_sado
+	}
+}
+world_region_kanto = {
+	duchies = {
+		d_shgnt_sagami d_shgnt_musashi d_shgnt_boshu d_shgnt_kazusa d_shgnt_shimousa d_shgnt_hitachi d_shgnt_kozuke d_shgnt_shimotsuke
+	}
+}
+world_region_tohoku = {
+	duchies = {
+		d_shgnt_uzen d_shgnt_ugo d_shgnt_iwaki d_shgnt_iwashiro d_shgnt_rikuzen d_shgnt_rikuchu d_shgnt_mutsu
+	}
+}
+world_region_hokkaido = {
+	duchies = {
+		d_shgnt_oshima d_shgnt_shiribeshi d_shgnt_iburi d_shgnt_hidaka d_shgnt_ishikari d_shgnt_teshio d_shgnt_kitami d_shgnt_tokachi d_shgnt_kushiro d_shgnt_nemuro d_shgnt_chishima d_shgnt_kamchatka
+
+	}
+}
+###########################################################################
+# Wide regions
+###########################################################################
+
+world_region_kita_nihon_wide = {
+	regions = {
+		world_circuit_hokurikudo world_region_tohoku world_region_hokkaido world_circuit_karafuto
+	}
+}
+
+world_region_kita_nihon = {
+	regions = {
+		world_region_tohoku world_region_hokkaido world_circuit_karafuto
+	}
+}
+world_region_kita_nihon_narrow = {
+	regions = {
+		world_region_hokkaido world_circuit_karafuto
+	}
+}
+
+world_region_nothern_japan_wide = {
+	regions = {
+		world_region_kita_nihon_wide
+	}
+}
+
+world_region_nothern_japan = {
+	regions = {
+		world_region_kita_nihon
+	}
+}
+
+world_region_nothern_japan_narrow = {
+	regions = {
+		world_region_kita_nihon_narrow
+	}
+}
+
+world_region_higashi_nihon_wide = {
+	regions = {
+		 world_region_kanto world_region_tohoku world_region_hokkaido world_circuit_karafuto
+	}
+	duchies = {
+		d_shgnt_owari d_shgnt_mikawa d_shgnt_totomi d_shgnt_suruga d_shgnt_izu d_shgnt_kai d_shgnt_mino d_shgnt_hida d_shgnt_shinano
+		d_shgnt_echigo d_shgnt_sado
+	}
+}
+world_region_higashi_nihon = {
+	regions = {
+		world_region_kanto world_region_tohoku world_region_hokkaido world_circuit_karafuto
+	}
+	duchies = {
+		d_shgnt_totomi d_shgnt_suruga d_shgnt_izu d_shgnt_kai d_shgnt_shinano	d_shgnt_echigo d_shgnt_sado
+	}
+}
+world_region_higashi_nihon_narrow = {
+	regions = {
+		world_region_kanto  world_region_tohoku
+	}
+	duchies = {
+		d_shgnt_totomi d_shgnt_suruga d_shgnt_izu d_shgnt_kai d_shgnt_shinano	d_shgnt_echigo d_shgnt_sado
+	}
+}
+
+world_region_estern_japan_wide = {
+	regions = {
+		world_region_higashi_nihon_wide
+	}
+}
+
+world_region_estern_japan = {
+	regions = {
+		world_region_higashi_nihon
+	}
+}
+
+world_region_estern_japan_narrow = {
+	regions = {
+		world_region_higashi_nihon_narrow
+	}
+}
+
+world_region_naka_nihon_wide = {
+	regions = {
+		 world_region_chubu world_region_kinki
+	}
+}
+
+world_region_naka_nihon = {
+	regions = {
+		world_region_kinki
+	}
+	duchies = {
+		d_shgnt_owari d_shgnt_mikawa d_shgnt_totomi d_shgnt_mino d_shgnt_hida d_shgnt_wakasa d_shgnt_echizen d_shgnt_kaga d_shgnt_noto d_shgnt_etchu
+	}
+	provinces = {
+		 386
+	}
+}
+
+world_region_naka_nihon_narrow = {
+	regions = {
+		world_region_kinki
+	}
+	duchies = {
+		d_shgnt_owari d_shgnt_mikawa d_shgnt_mino d_shgnt_hida d_shgnt_wakasa d_shgnt_echizen
+	}
+}
+
+world_region_central_japan_wide = {
+	regions = {
+		world_region_naka_nihon_wide
+	}
+}
+
+world_region_central_japan = {
+	regions = {
+		world_region_naka_nihon
+	}
+}
+
+world_region_central_japan_narrow = {
+	regions = {
+		world_region_naka_nihon_narrow
+	}
+}
+
+world_region_nishi_nihon_wide = {
+	regions = {
+		world_region_naka_nihon_narrow world_region_chugoku world_region_shikoku
+		world_region_kyushu world_region_nansei_islands
+	}
+	duchies = {
+#		d_shgnt_echizen
+		d_shgnt_kaga d_shgnt_noto d_shgnt_etchu
+	}
+}
+
+world_region_nishi_nihon = {
+	regions = {
+		world_region_kinki world_region_chugoku world_region_shikoku
+		world_region_kyushu world_region_nansei_islands
+	}
+}
+
+world_region_nishi_nihon_narrow = {
+	regions = {
+				world_region_kinki world_region_chugoku world_region_shikoku
+		world_region_kyushu
+	}
+}
+
+world_region_western_japan_wide = {
+	regions = {
+		world_region_nishi_nihon_wide
+	}
+}
+
+world_region_western_japan = {
+	regions = {
+		world_region_nishi_nihon
+	}
+}
+
+world_region_western_japan_narrow = {
+	regions = {
+		world_region_nishi_nihon_narrow
+	}
+}
+
+world_region_minami_nihon_wide = {
+	regions = {
+		world_region_shikoku world_region_kyushu world_region_nansei_islands
+	}
+	duchies = {
+		d_shgnt_nagato d_shgnt_suo d_shgnt_iwami d_shgnt_aki
+	}
+}
+
+world_region_minami_nihon = {
+	regions = {
+		world_region_kyushu world_region_nansei_islands
+	}
+	duchies = {
+		d_shgnt_nagato d_shgnt_suo d_shgnt_iwami d_shgnt_aki
+	}
+}
+
+world_region_minami_nihon_narrow = {
+	regions = {
+		world_region_kyushu  world_region_nansei_islands
+	}
+}
+
+world_region_southern_japan_wide = {
+	regions = {
+		world_region_minami_nihon_wide
+	}
+}
+
+world_region_southern_japan = {
+	regions = {
+		world_region_minami_nihon
+	}
+}
+
+world_region_southern_japan_narrow = {
+	regions = {
+		world_region_minami_nihon_narrow
+	}
+}
+
+###########################################################################
+# Provinces
+###########################################################################
+
+world_province_yamashiro = {
+	duchies = {
+		d_shgnt_yamashiro
+	}
+}
+
+world_province_yamashiro_joshu = {
+	duchies = {
+		d_shgnt_yamashiro
+	}
+}
+
+world_province_yamashiro_sanshu = {
+	duchies = {
+		d_shgnt_yamashiro
+	}
+}
+
+world_province_yamashiro_yoshu = {
+	duchies = {
+		d_shgnt_yamashiro
+	}
+}
+
+world_province_yamato = {
+	duchies = {
+		d_shgnt_yamato
+	}
+}
+
+world_province_yamato_washu = {
+	duchies = {
+		d_shgnt_yamato
+	}
+}
+
+world_province_kawachi = {
+	duchies = {
+		d_shgnt_kawachi
+	}
+}
+
+world_province_kawachi_kashu = {
+	duchies = {
+		d_shgnt_kawachi
+	}
+}
+
+world_province_izumi = {
+	duchies = {
+		d_shgnt_izumi
+	}
+}
+
+world_province_izumi_senshu = {
+	duchies = {
+		d_shgnt_izumi
+	}
+}
+
+world_province_settsu = {
+	duchies = {
+		d_shgnt_settsu
+	}
+}
+
+world_province_settsu_sesshu = {
+	duchies = {
+		d_shgnt_settsu
+	}
+}
+
+world_province_iga = {
+	duchies = {
+		d_shgnt_iga
+	}
+}
+
+world_province_iga_ishu = {
+	duchies = {
+		d_shgnt_iga
+	}
+}
+
+world_province_ise = {
+	duchies = {
+		d_shgnt_ise
+	}
+}
+
+world_province_ise_seishu = {
+	duchies = {
+		d_shgnt_ise
+	}
+}
+
+world_province_shima = {
+	duchies = {
+		d_shgnt_shima
+	}
+}
+
+world_province_shima_shishu = {
+	duchies = {
+		d_shgnt_shima
+	}
+}
+
+world_province_owari = {
+	duchies = {
+		d_shgnt_owari
+	}
+}
+
+world_province_owari_bishu = {
+	duchies = {
+		d_shgnt_owari
+	}
+}
+
+world_province_miakwa = {
+	duchies = {
+		d_shgnt_mikawa
+	}
+}
+
+world_province_miakwa_sanshu = {
+	duchies = {
+		d_shgnt_mikawa
+	}
+}
+
+world_province_totomi = {
+	duchies = {
+		d_shgnt_totomi
+	}
+}
+
+world_province_totomi_enshu = {
+	duchies = {
+		d_shgnt_totomi
+	}
+}
+
+world_province_suruga = {
+	duchies = {
+		d_shgnt_suruga
+	}
+}
+
+world_province_suruga_sunshu = {
+	duchies = {
+		d_shgnt_suruga
+	}
+}
+
+world_province_izu = {
+	duchies = {
+		d_shgnt_izu
+	}
+}
+
+world_province_izu_zushu = {
+	duchies = {
+		d_shgnt_izu
+	}
+}
+
+world_province_kai = {
+	duchies = {
+		d_shgnt_kai
+	}
+}
+
+world_province_kai_koshu = {
+	duchies = {
+		d_shgnt_kai
+	}
+}
+
+world_province_sagami = {
+	duchies = {
+		d_shgnt_sagami
+	}
+}
+
+world_province_sagami_soshu = {
+	duchies = {
+		d_shgnt_sagami
+	}
+}
+
+world_province_musashi = {
+	duchies = {
+		d_shgnt_musashi
+	}
+}
+
+world_province_musashi_bushu = {
+	duchies = {
+		d_shgnt_musashi
+	}
+}
+
+world_province_awa1 = {
+	duchies = {
+		d_shgnt_boshu
+	}
+}
+
+world_province_awa1_boshu = {
+	duchies = {
+		d_shgnt_boshu
+	}
+}
+
+world_province_awa1_anshu = {
+	duchies = {
+		d_shgnt_boshu
+	}
+}
+
+world_province_kazusa = {
+	duchies = {
+		d_shgnt_kazusa
+	}
+}
+
+world_province_shimousa = {
+	duchies = {
+		d_shgnt_shimousa
+	}
+}
+
+world_province_soshu = {
+	duchies = {
+		d_shgnt_kazusa d_shgnt_shimousa
+	}
+}
+
+world_province_ryoso = {
+	duchies = {
+		d_shgnt_kazusa d_shgnt_shimousa
+	}
+}
+
+world_province_boso = {
+	duchies = {
+		d_shgnt_kazusa d_shgnt_shimousa d_shgnt_boshu
+	}
+}
+
+world_province_hitachi = {
+	duchies = {
+		d_shgnt_hitachi
+	}
+}
+
+world_province_hitachi_joshu = {
+	duchies = {
+		d_shgnt_hitachi
+	}
+}
+
+world_province_omi = {
+	duchies = {
+		d_shgnt_omi
+	}
+}
+
+world_province_omi_goshu = {
+	duchies = {
+		d_shgnt_omi
+	}
+}
+
+world_province_mino = {
+	duchies = {
+		d_shgnt_mino
+	}
+}
+
+world_province_mino_noshu = {
+	duchies = {
+		d_shgnt_mino
+	}
+}
+
+world_province_hida = {
+	duchies = {
+		d_shgnt_hida
+	}
+}
+
+world_province_hida_hishu = {
+	duchies = {
+		d_shgnt_hida
+	}
+}
+
+world_province_shinano = {
+	duchies = {
+		d_shgnt_shinano
+	}
+}
+
+world_province_shinano_shinshu = {
+	duchies = {
+		d_shgnt_shinano
+	}
+}
+
+world_province_kozuke = {
+	duchies = {
+		d_shgnt_kozuke
+	}
+}
+
+world_province_kozuke_joshu = {
+	duchies = {
+		d_shgnt_kozuke
+	}
+}
+
+world_province_shimotsuke = {
+	duchies = {
+		d_shgnt_shimotsuke
+	}
+}
+
+world_province_shimotsuke_yashu = {
+	duchies = {
+		d_shgnt_shimotsuke
+	}
+}
+
+world_province_ryomo = {
+	duchies = {
+		d_shgnt_kozuke d_shgnt_shimotsuke
+	}
+}
+
+world_province_dewa = {
+	duchies = {
+		d_shgnt_uzen d_shgnt_ugo
+	}
+}
+
+world_province_dewa_ushu = {
+	duchies = {
+		d_shgnt_uzen d_shgnt_ugo
+	}
+}
+
+world_province_uzen = {
+	duchies = {
+		d_shgnt_uzen
+	}
+}
+
+world_province_ugo = {
+	duchies = {
+		d_shgnt_ugo
+	}
+}
+
+world_province_mutsu_wide = {
+	duchies = {
+		d_shgnt_iwashiro d_shgnt_iwaki d_shgnt_rikuzen d_shgnt_rikuchu d_shgnt_mutsu
+	}
+}
+
+world_province_mutsu_wide_oshu = {
+	duchies = {
+		d_shgnt_iwashiro d_shgnt_iwaki d_shgnt_rikuzen d_shgnt_rikuchu d_shgnt_mutsu
+	}
+}
+
+world_province_mutsu_wide_rikushu = {
+	duchies = {
+		d_shgnt_iwashiro d_shgnt_iwaki d_shgnt_rikuzen d_shgnt_rikuchu d_shgnt_mutsu
+	}
+}
+
+world_province_iwashiro = {
+	duchies = {
+		d_shgnt_iwashiro
+	}
+}
+
+world_province_iwashiro_ganshu = {
+	duchies = {
+		d_shgnt_iwashiro
+	}
+}
+
+world_province_iwaki = {
+	duchies = {
+		d_shgnt_iwaki
+	}
+}
+
+world_province_iwaki_banshu = {
+	duchies = {
+		d_shgnt_iwaki
+	}
+}
+
+world_province_rikuzen = {
+	duchies = {
+		d_shgnt_rikuzen
+	}
+}
+
+world_province_rikuchu = {
+	duchies = {
+		d_shgnt_rikuchu
+	}
+}
+
+world_province_mutsu_1868 = {
+	duchies = {
+		d_shgnt_mutsu
+	}
+}
+
+world_province_rikuo = {
+	duchies = {
+		d_shgnt_mutsu
+	}
+}
+
+world_province_mutsu_oshu = {
+	duchies = {
+		d_shgnt_rikuzen d_shgnt_rikuchu d_shgnt_mutsu
+	}
+}
+
+world_province_mutsu_rikushu = {
+	duchies = {
+		d_shgnt_rikuzen d_shgnt_rikuchu d_shgnt_mutsu
+	}
+}
+
+world_province_mutsu_sanriku = {
+	duchies = {
+		d_shgnt_rikuzen d_shgnt_rikuchu d_shgnt_mutsu
+	}
+}
+
+world_province_wakasa = {
+	duchies = {
+		d_shgnt_wakasa
+	}
+}
+
+world_province_wakasa_jakushu = {
+	duchies = {
+		d_shgnt_wakasa
+	}
+}
+
+world_province_echizen = {
+	duchies = {
+		d_shgnt_echizen
+	}
+}
+
+world_province_kaga = {
+	duchies = {
+		d_shgnt_kaga
+	}
+}
+
+world_province_kaga_kashu = {
+	duchies = {
+		d_shgnt_kaga
+	}
+}
+
+world_province_noto = {
+	duchies = {
+		d_shgnt_noto
+	}
+}
+
+world_province_noto_noshu = {
+	duchies = {
+		d_shgnt_noto
+	}
+}
+
+world_province_etchu = {
+	duchies = {
+		d_shgnt_etchu
+	}
+}
+
+world_province_echigo = {
+	duchies = {
+		d_shgnt_echigo
+	}
+}
+
+world_province_esshu = {
+	duchies = {
+		d_shgnt_kaga d_shgnt_noto d_shgnt_echizen d_shgnt_etchu d_shgnt_echigo
+	}
+}
+
+world_province_sanetsu = {
+	duchies = {
+		d_shgnt_kaga d_shgnt_noto d_shgnt_echizen d_shgnt_etchu d_shgnt_echigo
+	}
+}
+
+world_province_sado = {
+	duchies = {
+		d_shgnt_sado
+	}
+}
+
+world_province_sado_sashu = {
+	duchies = {
+		d_shgnt_sado
+	}
+}
+
+world_province_sado_toshu = {
+	duchies = {
+		d_shgnt_sado
+	}
+}
+
+world_province_tanba = {
+	duchies = {
+		d_shgnt_tanba
+	}
+}
+
+world_province_tango = {
+	duchies = {
+		d_shgnt_tango
+	}
+}
+
+world_province_tanshu = {
+	duchies = {
+		d_shgnt_tanba d_shgnt_tango
+	}
+}
+
+world_province_tajima = {
+	duchies = {
+		d_shgnt_tajima
+	}
+}
+
+world_province_tajima_tanshu = {
+	duchies = {
+		d_shgnt_tajima
+	}
+}
+
+world_province_inaba = {
+	duchies = {
+		d_shgnt_inaba
+	}
+}
+
+world_province_inaba_inshu = {
+	duchies = {
+		d_shgnt_inaba
+	}
+}
+
+world_province_hoki = {
+	duchies = {
+		d_shgnt_hoki
+	}
+}
+
+world_province_hoki_hakushu = {
+	duchies = {
+		d_shgnt_hoki
+	}
+}
+
+world_province_izumo = {
+	duchies = {
+		d_shgnt_izumo
+	}
+}
+
+world_province_izumo_unshu = {
+	duchies = {
+		d_shgnt_izumo
+	}
+}
+
+world_province_iwami = {
+	duchies = {
+		d_shgnt_iwami
+	}
+}
+
+world_province_iwami_sekishu = {
+	duchies = {
+		d_shgnt_iwami
+	}
+}
+
+world_province_oki = {
+	duchies = {
+		d_shgnt_oki
+	}
+}
+
+world_province_oki_onshu = {
+	duchies = {
+		d_shgnt_oki
+	}
+}
+
+world_province_oki_inshu = {
+	duchies = {
+		d_shgnt_oki
+	}
+}
+
+world_province_harima = {
+	duchies = {
+		d_shgnt_harima
+	}
+}
+
+world_province_harima_banshu = {
+	duchies = {
+		d_shgnt_harima
+	}
+}
+
+world_province_mimasaka = {
+	duchies = {
+		d_shgnt_mimasaka
+	}
+}
+
+world_province_mimasaka_sakushu = {
+	duchies = {
+		d_shgnt_mimasaka
+	}
+}
+
+world_province_bizen = {
+	duchies = {
+		d_shgnt_bizen
+	}
+}
+
+world_province_bitchu = {
+	duchies = {
+		d_shgnt_bitchu
+	}
+}
+
+world_province_bingo = {
+	duchies = {
+		d_shgnt_bingo
+	}
+}
+
+world_province_kibi = {
+	duchies = {
+		d_shgnt_mimasaka d_shgnt_bizen d_shgnt_bitchu d_shgnt_bingo
+	}
+}
+
+world_province_kibi_bishu = {
+	duchies = {
+		d_shgnt_bizen d_shgnt_bitchu d_shgnt_bingo
+	}
+}
+
+world_province_aki = {
+	duchies = {
+		d_shgnt_aki
+	}
+}
+
+world_province_geishu = {
+	duchies = {
+		d_shgnt_aki
+	}
+}
+
+world_province_suo = {
+	duchies = {
+		d_shgnt_suo
+	}
+}
+
+world_province_suo_boshu = {
+	duchies = {
+		d_shgnt_suo
+	}
+}
+
+world_province_suo_shushu = {
+	duchies = {
+		d_shgnt_suo
+	}
+}
+
+world_province_nagato = {
+	duchies = {
+		d_shgnt_nagato
+	}
+}
+
+world_province_nagato_choshu = {
+	duchies = {
+		d_shgnt_nagato
+	}
+}
+
+world_province_kii = {
+	duchies = {
+		d_shgnt_kii
+	}
+}
+
+world_province_kii_kishu = {
+	duchies = {
+		d_shgnt_kii
+	}
+}
+
+world_province_awaji = {
+	duchies = {
+		d_shgnt_awaji
+	}
+}
+
+world_province_awaji_tanshu = {
+	duchies = {
+		d_shgnt_awaji
+	}
+}
+
+world_province_awa = {
+	duchies = {
+		d_shgnt_awa
+	}
+}
+
+world_province_awa_ashu = {
+	duchies = {
+		d_shgnt_awa
+	}
+}
+
+world_province_sanuki = {
+	duchies = {
+		d_shgnt_sanuki
+	}
+}
+
+world_province_sanuki_sanshu = {
+	duchies = {
+		d_shgnt_sanuki
+	}
+}
+
+world_province_iyo = {
+	duchies = {
+		d_shgnt_iyo
+	}
+}
+
+world_province_iyo_yoshu = {
+	duchies = {
+		d_shgnt_iyo
+	}
+}
+
+world_province_tosa = {
+	duchies = {
+		d_shgnt_tosa
+	}
+}
+
+world_province_tosa_doshu = {
+	duchies = {
+		d_shgnt_tosa
+	}
+}
+
+world_province_chikuzen = {
+	duchies = {
+		d_shgnt_chikuzen
+	}
+}
+
+world_province_chikugo = {
+	duchies = {
+		d_shgnt_chikugo
+	}
+}
+
+world_province_tsukushi = {
+	duchies = {
+		d_shgnt_chikuzen d_shgnt_chikugo
+	}
+}
+
+world_province_tsukushi_chikushu = {
+	duchies = {
+		d_shgnt_chikuzen d_shgnt_chikugo
+	}
+}
+
+world_province_buzen = {
+	duchies = {
+		d_shgnt_buzen
+	}
+}
+
+world_province_bungo = {
+	duchies = {
+		d_shgnt_bungo
+	}
+}
+
+world_province_toyo = {
+	duchies = {
+		d_shgnt_buzen d_shgnt_bungo
+	}
+}
+
+world_province_toyo_hoshu = {
+	duchies = {
+		d_shgnt_buzen d_shgnt_bungo
+	}
+}
+
+world_province_hizen = {
+	duchies = {
+		d_shgnt_hizen
+	}
+}
+
+world_province_higo = {
+	duchies = {
+		d_shgnt_higo
+	}
+}
+
+world_province_hi = {
+	duchies = {
+		d_shgnt_hizen d_shgnt_higo
+	}
+}
+
+world_province_hi_hishu = {
+	duchies = {
+		d_shgnt_hizen d_shgnt_higo
+	}
+}
+
+world_province_hyuga = {
+	duchies = {
+		d_shgnt_hyuga
+	}
+}
+
+world_province_hyuga_nisshu = {
+	duchies = {
+		d_shgnt_hyuga
+	}
+}
+
+world_province_hyuga_koshu = {
+	duchies = {
+		d_shgnt_hyuga
+	}
+}
+
+world_province_osumi = {
+	duchies = {
+		d_shgnt_osumi
+	}
+}
+
+world_province_osumi_gushu = {
+	duchies = {
+		d_shgnt_osumi
+	}
+}
+
+world_province_osumi_1879 = {
+	duchies = {
+		d_shgnt_osumi d_shgnt_amami
+	}
+}
+
+world_province_satsuma = {
+	duchies = {
+		d_shgnt_satsuma
+	}
+}
+
+world_province_satsuma_sasshu = {
+	duchies = {
+		d_shgnt_satsuma
+	}
+}
+
+world_province_iki = {
+	duchies = {
+		d_shgnt_iki
+	}
+}
+
+world_province_iki_isshu = {
+	duchies = {
+		d_shgnt_iki
+	}
+}
+
+world_province_tsushima = {
+	duchies = {
+		d_shgnt_tsushima
+	}
+}
+
+world_province_tsushima_taishu = {
+	duchies = {
+		d_shgnt_tsushima
+	}
+}
+
+world_province_oshima = {
+	duchies = {
+		d_shgnt_oshima
+	}
+}
+
+world_province_shiribeshi = {
+	duchies = {
+		d_shgnt_shiribeshi
+	}
+}
+
+world_province_iburi = {
+	duchies = {
+		d_shgnt_iburi
+	}
+}
+
+world_province_hidaka = {
+	duchies = {
+		d_shgnt_hidaka
+	}
+}
+
+world_province_ishikari = {
+	duchies = {
+		d_shgnt_ishikari
+	}
+}
+
+world_province_teshio = {
+	duchies = {
+		d_shgnt_teshio
+	}
+}
+
+world_province_kitami = {
+	duchies = {
+		d_shgnt_kitami
+	}
+}
+
+world_province_tokachi = {
+	duchies = {
+		d_shgnt_tokachi
+	}
+}
+
+world_province_kushiro = {
+	duchies = {
+		d_shgnt_kushiro
+	}
+}
+
+world_province_nemuro = {
+	duchies = {
+		d_shgnt_nemuro
+	}
+}
+
+world_province_chishima = {
+	duchies = {
+		d_shgnt_chishima
+	}
+}
+
+world_province_ryukyu_1879 = {
+	duchies = {
+		d_shgnt_okinawa d_shgnt_sakishima
+	}
+}
+
+world_province_amami = {
+	duchies = {
+		d_shgnt_amami
+	}
+}
+
+world_province_okinawa = {
+	duchies = {
+		d_shgnt_okinawa
+	}
+}
+
+world_province_sakishima = {
+	duchies = {
+		d_shgnt_sakishima
+	}
+}
+###########################################################################
+# Semi Wide Regions
+###########################################################################
+
+world_regions_dohoku = {
+	duchies = {
+		d_shgnt_teshio
+	}
+	provinces = {
+		647 657 658 659 715
+	}
+}
+
+world_regions_doto = {
+	duchies = {
+		d_shgnt_tokachi d_shgnt_kushiro d_shgnt_nemuro d_shgnt_chishima
+	}
+	provinces = {
+		660 661 662 663
+	}
+}
+
+world_regions_doo = {
+	duchies = {
+		d_shgnt_hidaka
+	}
+	provinces = {
+		613 614 615 616 617 618 619 620 621 622
+		623 624 625 627 628 629 630 631 632 633
+		641 642 643 644 645 646 648 649 716
+	}
+}
+
+world_regions_donan = {
+	duchies = {
+		d_shgnt_oshima
+	}
+	provinces = {
+		609 610 611 612 626
+	}
+}
+
+world_regions_kita_tohoku = {
+	duchies = {
+		d_shgnt_mutsu d_shgnt_rikuchu
+	}
+	provinces = {
+		15 32 33 34 35 36 88 
+	}
+}
+
+world_regions_northern_tohoku = {
+	regions = {
+		world_regions_kita_tohoku
+	}
+}
+
+world_regions_kita_ou = {
+	regions = {
+		world_regions_kita_tohoku
+	}
+}
+
+world_regions_northern_ou = {
+	regions = {
+		world_regions_kita_tohoku
+	}
+}
+
+world_regions_minami_tohoku = {
+	duchies = {
+		d_shgnt_iwashiro d_shgnt_iwaki d_shgnt_uzen
+	}
+	provinces = {
+		11 12 13 14 16 17 41 363 364
+	}
+}
+
+world_regions_southern_tohoku = {
+	regions = {
+		world_regions_minami_tohoku
+	}
+}
+
+world_regions_minami_ou = {
+	regions = {
+		world_regions_minami_tohoku
+	}
+}
+
+world_regions_southern_ou = {
+	regions = {
+		world_regions_minami_tohoku
+	}
+}
+
+world_regions_ou = {
+	regions = {
+		world_regions_minami_tohoku world_regions_kita_tohoku
+	}
+}
+
+world_regions_kita_kanto3 = {
+	duchies = {
+		d_shgnt_hitachi d_shgnt_kozuke d_shgnt_shimotsuke
+	}
+	provinces = {
+		83 86 381
+	}
+}
+
+world_regions_kita_kanto4 = {
+	duchies = {
+		d_shgnt_hitachi d_shgnt_kozuke d_shgnt_shimotsuke
+	}
+	provinces = {
+		73 74 75 76 77 78 79 83 86 377 381 418
+	}
+}
+
+world_regions_minami_kanto3 = {
+	duchies = {
+		d_shgnt_sagami d_shgnt_boshu d_shgnt_kazusa
+	}
+	provinces = {
+		71 72 80 81 82 84 85 378 379 382 419
+		# 92
+	}
+}
+
+world_regions_minami_kanto4 = {
+	duchies = {
+		d_shgnt_sagami d_shgnt_musashi d_shgnt_boshu d_shgnt_kazusa
+	}
+	provinces = {
+		81 82 84 85 382
+		# 92
+	}
+}
+
+world_regions_nothern_kanto3 = {
+	regions = {
+		world_regions_kita_kanto3
+	}
+}
+
+world_regions_nothern_kanto4 = {
+	regions = {
+		world_regions_kita_kanto4
+	}
+}
+
+world_regions_southern_kanto3 = {
+	regions = {
+		world_regions_minami_kanto3
+	}
+}
+
+world_regions_southern_kanto4 = {
+	regions = {
+		world_regions_minami_kanto4
+	}
+}
+
+world_regions_koshin = {
+	duchies = {
+		d_shgnt_kai d_shgnt_shinano
+	}
+}
+
+world_regions_koshin'etsu = {
+	duchies = {
+		d_shgnt_kai d_shgnt_shinano d_shgnt_echigo d_shgnt_sado
+	}
+}
+
+world_regions_kanto_koshin = {
+	regions = {
+		world_region_kanto world_regions_koshin
+	}
+}
+
+world_regions_kanto_koshin'etsu = {
+	regions = {
+		world_region_kanto world_regions_koshin'etsu
+	}
+}
+
+world_regions_joshin'etsu = {
+	duchies = {
+		d_shgnt_kozuke d_shgnt_shinano d_shgnt_echigo d_shgnt_sado
+	}
+}
+
+world_regions_kan'etsu = {
+	regions = {
+		world_region_kanto
+	}
+	duchies = {
+		d_shgnt_echigo d_shgnt_sado
+	}
+}
+
+world_regions_kanto_wide = {
+	regions = {
+		world_region_kanto world_regions_koshin'etsu
+	}
+
+	duchies = {
+		d_shgnt_izu d_shgnt_suruga d_shgnt_totomi
+	}
+}
+
+world_regions_hokuriku3 = {
+	duchies = {
+		d_shgnt_wakasa d_shgnt_echizen d_shgnt_kaga d_shgnt_noto d_shgnt_etchu
+	}
+}
+
+world_regions_hokuriku4 = {
+	regions = {
+		world_circuit_hokurikudo
+	}
+}
+
+world_regions_hoku_shin'etsu = {
+	regions = {
+		world_circuit_hokurikudo
+	}
+	duchies = {
+		d_shgnt_shinano
+	}
+}
+
+world_regions_tokai3 = {
+	duchies = {
+		d_shgnt_iga d_shgnt_ise d_shgnt_shima d_shgnt_owari d_shgnt_mikawa d_shgnt_mino d_shgnt_hida
+	}
+}
+
+world_regions_tokai4 = {
+	duchies = {
+		d_shgnt_iga d_shgnt_ise d_shgnt_shima d_shgnt_owari d_shgnt_mikawa d_shgnt_mino d_shgnt_hida
+		d_shgnt_totomi d_shgnt_suruga d_shgnt_izu
+	}
+}
+
+world_regions_kansai_narrow = {
+	duchies = {
+		d_shgnt_kii d_shgnt_awaji d_shgnt_harima d_shgnt_tanba d_shgnt_tango d_shgnt_tajima d_shgnt_yamashiro
+		d_shgnt_yamato d_shgnt_kawachi d_shgnt_izumi d_shgnt_settsu d_shgnt_omi
+	}
+}
+
+world_regions_kansai_wide = {
+	duchies = {
+		d_shgnt_wakasa d_shgnt_echizen d_shgnt_awa
+	}
+	regions = {
+		world_region_kinki
+	}
+}
+world_regions_kinki_wide = {
+	regions = {
+		world_regions_kansai_wide
+	}
+}
+
+world_regions_san'yo = {
+	duchies = {
+		d_shgnt_mimasaka d_shgnt_bizen d_shgnt_bitchu d_shgnt_bingo d_shgnt_aki d_shgnt_suo d_shgnt_nagato
+	}
+}
+
+world_regions_san'in = {
+	duchies = {
+		d_shgnt_inaba d_shgnt_hoki d_shgnt_izumo d_shgnt_iwami d_shgnt_oki
+	}
+}
+
+world_regions_kita_shikoku = {
+	duchies = {
+		d_shgnt_sanuki d_shgnt_iyo
+	}
+}
+
+world_regions_northern_shikoku = {
+	regions = {
+		world_regions_kita_shikoku
+	}
+}
+
+world_regions_minami_shikoku = {
+	duchies = {
+		d_shgnt_awa d_shgnt_tosa
+	}
+}
+
+world_regions_hyogo = {
+	duchies = {
+		d_shgnt_harima d_shgnt_awaji d_shgnt_tajima
+	}	
+}
+
+world_regions_eastern_hyogo = {
+	counties = {
+		c_shgnt_yatabe c_shgnt_muko c_shgnt_kawabe c_shgnt_arima c_shgnt_taki c_shgnt_hikami
+	}	
+}
+	
+world_regions_southern_shikoku = {
+	regions = {
+		world_regions_minami_shikoku
+	}
+}
+
+world_regions_chugoku_shikoku = {
+	regions = {
+		world_region_chugoku world_region_shikoku
+	}
+}
+
+world_regions_setouchi = {
+	regions = {
+		world_regions_kita_shikoku world_regions_san'yo
+	}
+}
+
+world_regions_nishi_seto = {
+	duchies = {
+		d_shgnt_aki d_shgnt_suo d_shgnt_nagato d_shgnt_iyo d_shgnt_buzen d_shgnt_bungo
+	}
+}
+
+world_regions_western_seto = {
+	regions = {
+		world_regions_nishi_seto
+	}
+}
+
+world_regions_higashi_seto = {
+	duchies = {
+		d_shgnt_sanuki
+	}
+	regions = {
+		world_province_kibi
+	}
+}
+
+world_regions_eastern_seto = {
+	regions = {
+		world_regions_higashi_seto
+	}
+}
+
+world_regions_kita_kyushu_wide = {
+	duchies = {
+		d_shgnt_chikuzen d_shgnt_chikugo d_shgnt_hizen d_shgnt_higo d_shgnt_buzen d_shgnt_bungo d_shgnt_iki d_shgnt_tsushima
+	}
+}
+
+world_regions_nothern_kyushu_wide = {
+	regions = {
+		world_regions_kita_kyushu_wide
+	}
+}
+
+world_regions_kita_kyushu = {
+	duchies = {
+		d_shgnt_chikuzen d_shgnt_chikugo d_shgnt_hizen d_shgnt_iki d_shgnt_tsushima
+	}
+	provinces = {
+		403 294 295
+	}
+}
+
+world_regions_nothern_kyushu = {
+	regions = {
+		world_regions_kita_kyushu
+	}
+}
+
+world_regions_naka_kyushu = {
+	duchies = {
+		d_shgnt_higo d_shgnt_bungo
+	}
+	provinces = {
+		296
+	}
+}
+
+world_regions_central_kyushu = {
+	regions = {
+		world_regions_naka_kyushu
+	}
+}
+
+world_regions_minami_kyushu = {
+	duchies = {
+		d_shgnt_hyuga d_shgnt_osumi d_shgnt_satsuma
+	}
+}
+
+world_regions_southern_kyushu = {
+	regions = {
+		world_regions_minami_kyushu
+	}
+}
+
+world_regions_honshu = {
+	regions = {
+		world_region_tohoku world_region_kanto world_region_chubu
+		world_region_kinki world_region_chugoku
+	}
+}
+
+world_regions_minami_karafuto = {
+	duchies = {
+		d_shgnt_toyohara d_shgnt_maoka d_shgnt_esutoru d_shgnt_shisuka
+	}
+}
+
+world_regions_southern_karafuto = {
+	regions = {
+		world_regions_minami_karafuto
+	}
+}
+
+world_regions_kita_karafuto = {
+	duchies = {
+		d_shgnt_otchishi
+	}
+}
+
+world_regions_northern_karafuto = {
+	regions = {
+		world_regions_kita_karafuto
+	}
+}

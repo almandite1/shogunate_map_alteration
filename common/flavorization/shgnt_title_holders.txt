@@ -1,0 +1,160 @@
+﻿# Accepted categories are: governments, cultures, culture_groups, faiths, religions
+# A Flavorization will apply if ALL specified categories have ANY of their entries
+# represented in the character/title
+# So for example:
+# governments = { feudal_government }
+# culture_groups = { mongolic_group central_germanic_group }
+# religions = { christianity_religion }
+# cultures = { norse }
+# faiths = { catholicism }
+# For this to apply a character MUST BE feudal, AND must also be EITHER altaic OR germanic
+# priority is used to determine priority, if they are the same then the LAST will be selected,
+# and honorifics will be prefered over landed titles. Default priority is 1
+# If a flavorization does not have a tier it can apply to all tiers of characters, too many non-tiered
+# flavorizations is bad for performance though, YOU HAVE BEEN WARNED!
+# 'top_liege = no' means that its the holder of the title causing the honorific that is tested for
+# the various categories, so for a prince it is the king that is tested, for a queen mother it is her son
+# if this is not specified ( or 'top_liege = yes' the default ) then it is the top liege of that character
+# that is tested, this means that most title flavor comes from the top liege of the title not the holder
+
+#sultan = { #Example
+#	gender = male
+#	special = holder
+#	tier = kingdom
+#	governments = { feudal_government clan_government }
+#	religions = { islam_religion }
+#}
+
+#############################################
+
+# Special Titles
+
+SHOGUN = {
+	type = character
+	special = holder
+	tier = empire
+	priority = 300
+	titles = { e_shgnt_japan }
+}
+
+TENNO = {
+	type = character
+	special = holder
+	tier = empire
+	priority = 300
+	titles = { e_shgnt_tenno }
+}
+
+KANPAKU = {
+	type = character
+	special = holder
+	tier = empire
+	priority = 200
+	titles = { e_nmih_kanpaku }
+}
+
+KANREI = {
+	type = character
+	special = holder
+	tier = kingdom
+	priority = 100
+	titles = { k_nmih_kanrei }
+}
+
+HONGANJI = {
+	type = character
+	special = holder
+	tier = kingdom
+	priority = 100
+	cultures = { kinai_buddhist }
+	titles = { k_nmih_honganji }
+}
+
+Ushu-Tandai = {
+	type = character
+	special = holder
+	tier = kingdom
+	priority = 100
+	titles = { k_nmih_ushu_tandai }
+}
+
+Oshu-Tandai = {
+	type = character
+	special = holder
+	tier = kingdom
+	priority = 100
+	titles = { k_nmih_oshu_tandai }
+}
+
+Kamakura-Kubo = {
+	type = character
+	special = holder
+	tier = kingdom
+	priority = 100
+	titles = { k_nmih_kamakura_kubo }
+}
+
+KANTO_KANREI = {
+	type = character
+	special = holder
+	tier = kingdom
+	priority = 100
+	titles = { k_nmih_kanto_kanrei }
+}
+
+HYOGO = {
+	type = character
+	special = holder
+	tier = kingdom
+	priority = 100
+	titles = { k_nmih_hyogo }
+}
+
+ENRYAKUJI = {
+	type = character
+	special = holder
+	tier = duchy
+	priority = 100
+	cultures = { kinai_buddhist }
+	titles = { d_nmih_enryakuji }
+}
+
+AIZU = {
+	type = character
+	special = holder
+	tier = duchy
+	priority = 50
+	titles = { d_nmih_aizu }
+}
+
+OSHUSHUGO = {
+	type = character
+	special = holder
+	tier = duchy
+	priority = 50
+	titles = { d_nmih_oshu_shugo }
+}
+
+SOUTHERNOMI = {
+	type = character
+	special = holder
+	tier = duchy
+	priority = 50
+	titles = { d_nmih_southern_omi }
+}
+
+NORTHERNOMI = {
+	type = character
+	special = holder
+	tier = duchy
+	priority = 50
+	titles = { d_nmih_northern_omi }
+}
+
+EASTERNHYOGO = {
+	type = character
+	special = holder
+	tier = duchy
+	priority = 50
+	titles = { d_nmih_eastern_hyogo }
+}

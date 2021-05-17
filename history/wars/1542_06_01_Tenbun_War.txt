@@ -1,0 +1,18 @@
+war = {
+    name = "war_1542_tenbun_war" 
+    start_date = 1542.6.1
+    end_date = 1548.9.1
+    targeted_titles={
+        d_nmih_oshu_shugo
+    }
+
+    casus_belli = claim_cb
+    claimant = 10001001
+    attackers = {
+        10001001 10006902 10007302
+    }  #  Date Tanemune, Tamura Takaaki, Nihonmatsu Ieyasu
+    defenders = {
+        10001002
+    }  #  Date Harumune
+
+}

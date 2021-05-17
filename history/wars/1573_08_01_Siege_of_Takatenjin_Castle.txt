@@ -1,0 +1,18 @@
+war = {
+    name = "war_1573_siege_of_takatenjin_castle" 
+    start_date = 1573.8.1
+    end_date = 1581.3.25
+    targeted_titles={
+        c_shgnt_kiko
+    }
+
+    casus_belli = claim_cb
+    claimant = 10024006
+    attackers = {
+        10024006 10029120
+    }  #  Tokugawa Ieyasu, Oda Nobunaga
+    defenders = {
+        10020033
+    }  #  Takeda Katsuyori
+
+}

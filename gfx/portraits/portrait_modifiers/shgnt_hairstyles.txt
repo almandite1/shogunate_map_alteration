@@ -1,0 +1,361 @@
+﻿hairstyles = {
+
+    usage = game
+    selection_behavior = weighted_random
+
+	yamato_straight = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = japanese_hairstyles
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }   
+        weight = {
+            base = 0
+            modifier = {
+                add = 55
+				OR = {
+					has_gene = {
+						category = gene_hair_type
+						template = hair_straight
+					}
+					has_gene = {
+						category = gene_hair_type
+						template = hair_straight_thin_beard
+					}
+				}
+                portrait_yamato_clothing_trigger = yes
+            }
+            modifier = {
+                add = -100
+                OR = {
+                    is_from_ruler_designer = yes
+                    has_character_flag = has_scripted_appearance
+                }
+            }
+        }
+    }
+
+    yamato_wavy = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = japanese_hairstyles
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }   
+        weight = {
+            base = 0
+            modifier = {
+                add = 55
+                has_gene = {
+                    category = gene_hair_type
+                    template = hair_wavy
+                }
+                portrait_yamato_clothing_trigger = yes
+            }
+            modifier = {
+                add = -100
+                OR = {
+                    is_from_ruler_designer = yes
+                    has_character_flag = has_scripted_appearance
+                }
+            }
+        }
+    }
+
+	yamato_curly = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = japanese_hairstyles
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }   
+        weight = {
+            base = 0
+            modifier = {
+                add = 55
+                has_gene = {
+                    category = gene_hair_type
+                    template = hair_curly
+                }
+                portrait_yamato_clothing_trigger = yes
+            }
+            modifier = {
+                add = -100
+                OR = {
+                    is_from_ruler_designer = yes
+                    has_character_flag = has_scripted_appearance
+                }
+            }
+        }
+    }
+
+    yamato_afro = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = japanese_hairstyles
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }   
+        weight = {
+            base = 0
+            modifier = {
+                add = 55
+                has_gene = {
+                    category = gene_hair_type
+                    template = hair_afro
+                }
+                portrait_yamato_clothing_trigger = yes
+            }
+            modifier = {
+                add = -100
+                OR = {
+                    is_from_ruler_designer = yes
+                    has_character_flag = has_scripted_appearance
+                }
+            }
+        }
+    }
+
+### Ainu ###	
+	ainu_straight = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = ainu_hairstyles
+                value= 0
+            }
+        }   
+        weight = {
+            base = 0
+            modifier = {
+                add = 55
+                portrait_ainu_clothing_trigger = yes
+            }
+            modifier = {
+                add = -100
+                OR = {
+                    is_from_ruler_designer = yes
+                    has_character_flag = has_scripted_appearance
+                }
+            }
+        }
+    }
+	ainu_wavy = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = ainu_hairstyles
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }   
+        weight = {
+            base = 0
+            modifier = {
+                add = 55
+                has_gene = {
+                    category = gene_hair_type
+                    template = hair_wavy
+                }
+                portrait_ainu_clothing_trigger = yes
+            }
+            modifier = {
+                add = -100
+                OR = {
+                    is_from_ruler_designer = yes
+                    has_character_flag = has_scripted_appearance
+                }
+            }
+        }
+    }
+
+	ainu_curly = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = ainu_hairstyles
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }   
+        weight = {
+            base = 0
+            modifier = {
+                add = 55
+                has_gene = {
+                    category = gene_hair_type
+                    template = hair_curly
+                }
+                portrait_ainu_clothing_trigger = yes
+            }
+            modifier = {
+                add = -100
+                OR = {
+                    is_from_ruler_designer = yes
+                    has_character_flag = has_scripted_appearance
+                }
+            }
+        }
+    }
+
+    ainu_afro = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = ainu_hairstyles
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }   
+        weight = {
+            base = 0
+            modifier = {
+                add = 55
+                has_gene = {
+                    category = gene_hair_type
+                    template = hair_afro
+                }
+                portrait_ainu_clothing_trigger = yes
+            }
+            modifier = {
+                add = -100
+                OR = {
+                    is_from_ruler_designer = yes
+                    has_character_flag = has_scripted_appearance
+                }
+            }
+        }
+    }
+### Ryukyu ###
+	rykyu_straight = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = japanese_hairstyles
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }   
+        weight = {
+            base = 0
+            modifier = {
+                add = 55
+                OR = {
+					has_gene = {
+						category = gene_hair_type
+						template = hair_straight
+					}
+					has_gene = {
+						category = gene_hair_type
+						template = hair_straight_thin_beard
+					}
+				}
+                portrait_ryukyu_clothing_trigger = yes
+            }
+            modifier = {
+                add = -100
+                OR = {
+                    is_from_ruler_designer = yes
+                    has_character_flag = has_scripted_appearance
+                }
+            }
+        }
+    }
+
+    rykyu_wavy = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = japanese_hairstyles
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }   
+        weight = {
+            base = 0
+            modifier = {
+                add = 55
+                has_gene = {
+                    category = gene_hair_type
+                    template = hair_wavy
+                }
+                portrait_ryukyu_clothing_trigger = yes
+            }
+            modifier = {
+                add = -100
+                OR = {
+                    is_from_ruler_designer = yes
+                    has_character_flag = has_scripted_appearance
+                }
+            }
+        }
+    }
+
+    rykyu_curly = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = japanese_hairstyles
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }   
+        weight = {
+            base = 0
+            modifier = {
+                add = 55
+                has_gene = {
+                    category = gene_hair_type
+                    template = hair_curly
+                }
+                portrait_ryukyu_clothing_trigger = yes
+            }
+            modifier = {
+                add = -100
+                OR = {
+                    is_from_ruler_designer = yes
+                    has_character_flag = has_scripted_appearance
+                }
+            }
+        }
+    }
+
+    rykyu_afro = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = japanese_hairstyles
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }   
+        weight = {
+            base = 0
+            modifier = {
+                add = 55
+                has_gene = {
+                    category = gene_hair_type
+                    template = hair_afro
+                }
+                portrait_ryukyu_clothing_trigger = yes
+            }
+            modifier = {
+                add = -100
+                OR = {
+                    is_from_ruler_designer = yes
+                    has_character_flag = has_scripted_appearance
+                }
+            }
+        }
+    }
+}

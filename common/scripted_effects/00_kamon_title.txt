@@ -1,0 +1,51 @@
+﻿reset_coa_kamon_effect = {
+	hidden_effect = {
+		save_scope_as = founder
+		primary_title = {
+			save_scope_as = old_title
+		}
+
+		scope:old_title = {
+			generate_coa = yes
+		}
+		
+	}
+}
+
+title_to_kamon_coa_effect = {
+
+	hidden_effect = {
+		save_scope_as = founder
+		#limit = {
+		#	every_held_title = { NOT = primary_title }
+		#}
+		#generate_coa = yes
+
+		primary_title = {
+			save_scope_as = old_title
+		}
+
+		scope:old_title = {
+			set_coa = scope:founder.house.coa
+		}
+	}
+}
+
+title_to_kamon_coa_start_effect = {
+
+	hidden_effect = {
+		save_scope_as = founder
+		#limit = {
+		#	every_held_title = { NOT = primary_title }
+		#}
+		#generate_coa = yes
+
+		primary_title = {
+			save_scope_as = old_title
+		}
+
+		scope:old_title = {
+			set_coa = scope:founder.house.coa
+		}
+	}
+}

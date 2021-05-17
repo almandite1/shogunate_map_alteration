@@ -1,0 +1,18 @@
+war = {
+    name = "war_1493_hojo_soun_izu_invasion" 
+    start_date = 1493.6.9
+    end_date = 1493.8.1
+    targeted_titles={
+        d_shgnt_izu c_shgnt_tagata c_shgnt_naka
+    }
+
+    casus_belli = claim_cb
+    claimant = 10016001
+    attackers = {
+        10016001
+    }  #  Hojo Soun
+    defenders = {
+        10040038
+    }  #  Ashikaga Chachamaru
+
+}

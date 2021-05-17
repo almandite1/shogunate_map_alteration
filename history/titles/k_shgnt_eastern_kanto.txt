@@ -1,0 +1,4402 @@
+﻿c_shgnt_amaha = {
+    0001.01.01 = { change_development_level = 10 }
+    1444.01.01 = { change_development_level = 10 }
+    1461.01.01 = { change_development_level = 20 }
+    1180.01.01 = {
+        holder = 12155019 # Amaha Hidetsune
+    }
+    1184.02.03 = {
+        holder = 12211501 # Wada Yoshimori
+    }
+    1213.05.24 = {
+        liege = d_shgnt_boshu # 
+        holder = 12211040 # Miura Yoshimura / the Battle of Wada
+    }
+    1239.12.31 = {
+        holder = 12211050 # Miura Yasumura
+    }
+    1247.07.08 = {
+        liege = d_shgnt_kazusa # 
+        holder = 10131824 # Hojo Tokiyori
+    }
+    1247.08.01 = {
+        holder = 12139003 # Ashikaga Yoshiuji
+    }
+    1255.01.01 = {
+        holder = 12139015 # Ashikaga Yoriuji
+    }
+    1262.01.01 = {
+        holder = 12139022 # Ashikaga Ietoki
+    }
+    1284.08.07 = {
+        holder = 12139024 # Ashikaga Sadauji
+    }
+    1331.10.07 = {
+        holder = 12139028 # Ashikaga Takauji
+    }
+    1351.11.01 = {
+        liege = d_shgnt_kazusa # 
+        holder = 10044204 # Sasaki Hidetsuna
+    }
+    1352.06.01 = {
+        holder = 12150166 # Chiba Ujitane
+    }
+    1355.05.01 = {
+        holder = 10044203 # Sasaki Takauji
+    }
+    1356.04.01 = {
+        holder = 12150166 # Chiba Ujitane
+    }
+    1364.04.01 = {
+        holder = 12187025 # Iwamatsu Yoshimasa
+    }
+    1364.12.01 = {
+        holder = 10017046 # Uesugi Tomofusa
+    }
+    1370.01.01 = {
+        holder = 10017047 # Uesugi Tomomune
+    }
+    1409.01.01 = {
+        holder = 10017048 # Uesugi Zenshu
+    }
+    1417.01.27 = {
+        holder = 10040061 # Ashikaga Mochiuji
+    }
+    1418.01.01 = {
+        holder = 12130120 # Utsunomiya Mochitsuna
+    }
+    1423.09.13 = {
+        holder = 10017061 # Uesugi Sadayori
+    }
+    1430.01.01 = {
+        holder = 10011611 # Chiba Tanenao
+    }
+    1441.01.01 = {
+        holder = 10011612 # Chiba Tanemasa
+    }
+    1454.07.18 = {
+        holder = 10011613 # Chiba Tanenobu
+    }
+    1455.09.23 = {
+        holder = 10040059 # Ashikaga Shigeuji
+    }
+    1456.01.01 = {
+        holder = 10011809 # Takeda Nobunaga
+    }
+    1477.01.01 = {
+        holder = 10011808
+    }
+    1480.01.01 = {
+        holder = 10011807
+    }
+    1506.01.01 = {
+        holder = 10011805
+    }
+    1523.01.01 = {
+        holder = 10011801 # Takeda Nobukiyo
+    }
+    1534.08.10 = {
+        holder = 10011802 # Takeda Nobutaka
+    }
+    1537.01.01 = {
+        liege = d_shgnt_boshu # vassal of Satomi
+        holder = 10011851 # Masaki Tokishige
+    }
+    1561.05.29 = {
+        holder = 10011854 # Masaki Nobushige
+    }
+    1564.02.20 = {
+        holder = 10011862 # Masaki Noritoki
+    }
+    1581.10.26 = {
+        holder = 10011913 # Masaki(Satomi) Tokishige
+    }
+}
+c_shgnt_ashikaga = {
+    0001.01.01 = { change_development_level = 20 }
+    1100.01.01 = { change_development_level = 20 }
+    1465.01.01 = { change_development_level = 20 }
+    1500.01.01 = { change_development_level = 20 }
+    1077.01.01 = {
+        liege = d_nmih_ashikaga # 
+        holder = 12180100 # Ashikaga Nariyuki
+    }
+    1110.01.01 = {
+        holder = 12180102 # Ashikaga Ietsuna
+    }
+    1138.01.01 = {
+        holder = 12180110 # Ashikaga Toshitsuna
+    }
+    1183.03.18 = {
+        holder = 10120075 # Minamoto Yoritomo
+    }
+    1183.09.01 = {
+        holder = 12139000 # Ashikaga Yoshikane
+    }
+    1199.04.05 = {
+        holder = 12139003 # Ashikaga Yoshiuji
+    }
+    1241.01.01 = {
+        holder = 12139006 # Ashikaga Yasuuji
+    }
+    1252.01.21 = {
+        holder = 12139015 # Ashikaga Yoriuji
+    }
+    1262.01.01 = {
+        holder = 12139022 # Ashikaga Ietoki
+    }
+    1284.08.07 = {
+        holder = 12139024 # Ashikaga Sadauji
+    }
+    1331.10.07 = {
+        holder = 12139028 # Ashikaga Takauji
+    }
+    1349.10.21 = {
+        liege = k_nmih_kamakura_kubo # 
+        holder = 10040067 # Ashikaga Motouji
+    }
+    1367.05.25 = {
+        holder = 10040066 # Ashikaga Ujimitsu
+    }
+    1382.05.24 = {
+        holder = 12209000 # Kido Sadanori
+    }
+    1398.12.12 = {
+        holder = 10040064 # Ashikaga Mitsukane
+    }
+    1409.09.01 = {
+        holder = 10040061 # Ashikaga Mochiuji
+    }
+    1417.01.27 = {
+        liege = k_nmih_kanto_kanrei # 
+        holder = 10017018 # Uesugi Norimoto
+    }
+    1418.02.09 = {
+        holder = 10017020 # Uesugi Norizane
+    }
+    1423.01.01 = {
+        liege = k_nmih_kamakura_kubo # 
+        holder = 10040061 # Ashikaga Mochiuji
+    }
+    1432.01.01 = {
+        liege = k_nmih_kanto_kanrei # 
+        holder = 10017020 # Uesugi Norizane
+    }
+    1439.03.24 = {
+        holder = 10032805 # Uesugi Kiyokata
+    }
+    1444.01.01 = {
+        holder = 10017021 # Uesugi Noritada
+    }
+    1455.01.15 = {
+        holder = 10017022 # Uesugi Fusaaki
+    }
+    1465.01.01 = {
+        holder = 10017337 # Nagao Kagehito
+    }
+    1472.06.07 = {
+        holder = 10017340 # Nagao Sadakage
+    }
+    1475.03.13 = {
+        holder = 10017339 # Nagao Kagenaga
+    }
+    1528.02.05 = {
+        holder = 10017341 # Nagao Norinaga
+    }
+    1550.04.19 = {
+        holder = 10017342 # Nagao Masanaga
+    }
+    1569.08.27 = {
+        holder = 10017345 # Nagao Akinaga
+    }
+}
+c_shgnt_boshu_awa = {
+    0001.01.01 = { change_development_level = 10 }
+    1070.01.01 = { change_development_level = 20 }
+    1342.01.01 = { change_development_level = 30 }
+    1400.01.01 = { change_development_level = 40 }
+    1486.01.01 = { change_development_level = 40 }
+    1180.06.15 = {
+        liege = d_shgnt_boshu # 
+        holder = 12211020 # Miura Yoshiaki
+    }
+    1180.09.18 = {
+        holder = 12211030 # Miura Yoshizumi
+    }
+    1200.02.09 = {
+        holder = 12211040 # Miura Yoshimura
+    }
+    1239.12.31 = {
+        holder = 12211050 # Miura Yasumura
+    }
+    1247.07.08 = {
+        holder = 12139006 # Ashikaga Yasuuji
+    }
+    1252.01.21 = {
+        holder = 12139015 # Ashikaga Yoriuji
+    }
+    1262.01.01 = {
+        holder = 12139022 # Ashikaga Ietoki
+    }
+    1284.08.07 = {
+        holder = 12139024 # Ashikaga Sadauji
+    }
+    1331.10.07 = {
+        holder = 12139028 # Ashikaga Takauji
+    }
+    1336.01.24 = {
+        holder = 10029006 # Shiba Ienaga
+    }
+    1338.01.16 = {
+        holder = 12139028 # Ashikaga Takauji
+    }
+    1363.03.01 = {
+        holder = 10017006 # Uesugi Noriaki
+    }
+    1369.05.01 = {
+        holder = 10010216 # Yuki Naomitsu
+    }
+    1388.06.01 = {
+        holder = 10017011 # Uesugi Norikata
+    }
+    1390.06.01 = {
+        holder = 10010216 # Yuki Naomitsu
+    }
+	1394.01.01 = {
+		effect = {
+			title:b_shgnt_boshu_awa_1 = {
+				set_title_name = b_shgnt_boshu_awa_1_1 # Nagata
+			}
+		}
+	}
+    1395.02.07 = {
+        holder = 12209001 # Kido Mitsunori
+    }
+    1416.10.30 = {
+        holder = 10040061 # Ashikaga Mochiuji
+    }
+    1417.01.27 = {
+        holder = 10017061 # Uesugi Sadayori
+    }
+    1430.01.01 = {
+        holder = 10017020 # Uesugi Norizane
+    }
+    1439.03.24 = {
+        holder = 10032805 # Uesugi Kiyokata
+    }
+    1444.01.01 = {
+        holder = 10017021 # Uesugi Noritada
+    }
+    1455.01.15 = {
+        holder = 10017022 # Uesugi Fusaaki
+    }
+    1456.01.01 = {
+        holder = 12186066 # Satomi Yoshizane
+    }
+	1486.01.01 = {
+		effect = {
+			title:b_shgnt_boshu_awa_1 = {
+				set_title_name = b_shgnt_boshu_awa_1_2 # Inamura
+			}
+		}
+	}
+    1488.05.18 = {
+        holder = 10011907 # Satomi Yoshimichi
+    }
+    1525.01.01 = {
+        holder = 10011908 # Satomi Yoshitoyo
+    }
+    1533.01.01 = {
+        holder = 10011901 # Satomi Yoshitaka
+    }
+    1574.06.19 = {
+        holder = 10011902 # Satomi Yoshihiro
+    }
+    1578.07.05 = {
+        holder = 10011903 # Satomi Yoshiyori
+    }
+}
+c_shgnt_chiba = {
+    0001.01.01 = { change_development_level = 10 }
+    1180.01.01 = { change_development_level = 20 }
+    1200.01.01 = { change_development_level = 30 }
+    1456.01.01 = { change_development_level = 20 }
+    1108.03.23 = {
+        holder = 12150100 # Chiba Tsunekane
+    }
+    1126.04.04 = {
+        holder = 12150110 # Chiba Tsuneshige
+    }
+    1146.01.01 = {
+        holder = 12150120 # Chiba Tsunetane
+    }
+    1201.04.28 = {
+        holder = 12150123 # Chiba Tanemasa
+    }
+    1203.08.28 = {
+        holder = 12150130 # Chiba Tanenari
+    }
+    1218.05.06 = {
+        holder = 12150135 # Chiba Tanetsuna
+    }
+    1228.07.01 = {
+        holder = 12150140 # Chiba Tokitane
+    }
+    1241.10.23 = {
+        holder = 12150145 # Chiba Yoritane
+    }
+    1275.09.07 = {
+        holder = 12150151 # Chiba Tanemune
+    }
+    1312.05.05 = {
+        holder = 12150160 # Chiba Sadatane
+    }
+    1351.01.28 = {
+        holder = 12150166 # Chiba Ujitane
+    }
+    1365.09.28 = {
+        holder = 12150170 # Chiba Mitsutane
+    }
+    1417.01.27 = {
+        holder = 12150175 # Chiba Kanetane
+    }
+    1430.07.07 = {
+        holder = 10011611 # Chiba Tanenao
+    }
+    1441.01.01 = {
+        holder = 10011612 # Chiba Tanemasa
+    }
+    1454.07.18 = {
+        holder = 10011613 # Chiba Tanenobu
+    }
+    1455.09.23 = {
+        holder = 12150176 # Chiba Yasutane
+    }
+    1456.11.28 = {
+        holder = 10011672 # Hara Tanefusa
+    }
+    1471.10.22 = {
+        holder = 10011670 # Hara Tanetaka
+    }
+    1517.01.01 = {
+        liege = d_shgnt_kazusa
+        holder = 10040051
+    }
+    1538.10.29 = {
+        liege = d_shgnt_shimousa # 
+        holder = 10011671 # Hara Tanekiyo
+    }
+    1556.03.23 = {
+        liege = d_shgnt_shimousa # 
+        holder = 10011674 # Hara Tanesada
+    }
+    1575.01.01 = {
+        holder = 10011675 # Hara Tanehide
+    }
+}
+c_shgnt_haga = {
+    0001.01.01 = { change_development_level = 20 }
+    1100.01.01 = { change_development_level = 20 }
+    1362.01.01 = { change_development_level = 20 }
+    1180.01.01 = {
+        liege = d_nmih_utsunomiya # 
+        holder = 12130500 # Haga Takachika
+    }
+    1198.01.01 = {
+        holder = 12130505 # Haga Takahide
+    }
+    1211.01.01 = {
+        holder = 12130510 # Haga Takayuki
+    }
+    1233.01.01 = {
+        holder = 12130515 # Haga Takanobu
+    }
+    1259.01.01 = {
+        holder = 12130520 # Haga Takatoshi
+    }
+    1298.01.01 = {
+        holder = 12130521 # Haga Takanao
+    }
+    1300.01.01 = {
+        holder = 12130525 # Haga Takahisa
+    }
+    1334.01.01 = {
+        holder = 12130530 # Haga Takana
+    }
+    1372.01.01 = {
+        holder = 12130535 # Haga Takatomo
+    }
+    1390.01.01 = {
+        holder = 12130536 # Haga Shigetaka
+    }
+    1400.01.01 = {
+        holder = 10012000 # Haga Takamasu
+    }
+    1436.01.01 = {
+        holder = 10012001 # Haga Kagetaka
+    }
+    1472.01.01 = {
+        holder = 10012003 # Haga Takakatsu
+    }
+    1494.01.01 = {
+        holder = 10012004 # Haga Takataka
+    }
+    1536.01.01 = {
+        holder = 10012005 # Haga Takatsune
+    }
+    1541.10.24 = {
+        holder = 10012006 # Haga Takasada
+    }
+    1565.01.01 = {
+        holder = 10012008 # Haga Takatsugu
+    }
+}
+c_shgnt_hitachi_naka = {
+    0001.01.01 = { change_development_level = 10 }
+    1250.01.01 = { change_development_level = 20 }
+    1317.01.01 = { change_development_level = 30 }
+    1336.12.01 = { change_development_level = 30 }
+    1426.01.01 = { change_development_level = 20 }
+    0335.01.01 = {
+        holder = 10041309 # Takekarima
+    }
+    0340.01.01 = {
+        holder = 10041311 # Takemizuwake
+    }
+    1100.01.01 = {
+        holder = 12125020 # Naka Michisuke
+    }
+    1125.01.01 = {
+        holder = 12125030 # Naka Michikane
+    }
+    1150.01.01 = {
+        holder = 12125040 # Naka Michimune
+    }
+    1187.01.01 = {
+        holder = 12125050 # Naka Michiyasu
+    }
+    1210.01.01 = {
+        holder = 12125060 # Naka Kagemichi
+    }
+    1240.01.01 = {
+        holder = 12125070 # Naka Michishige
+    }
+    1265.01.01 = {
+        holder = 12125080 # Naka Michiaki
+    }
+    1300.01.01 = {
+        holder = 12125090 # Naka Michitatsu
+    }
+    1336.12.01 = {
+        liege = d_shgnt_hitachi # 
+        holder = 12122110 # Satake Sadayoshi
+    }
+    1352.10.18 = {
+        holder = 12122121 # Satake Moroyoshi
+    }
+    1397.01.01 = {
+        liege = 0 # Yamairi Rebellion
+        holder = 12122200 # Satake Tomoyoshi
+    }
+    1422.11.27 = {
+        holder = 12122205 # Satake Yoshisato
+    }
+    1423.01.01 = {
+        holder = 12122206 # Satake Sukeyoshi
+    }
+    1460.01.01 = {
+        holder = 12122210 # Satake Yoshitomo
+    }
+    1478.01.01 = {
+        holder = 12122211 # Satake Yoshizane
+    }
+    1480.01.01 = {
+        holder = 12122216 # Satake Yoshifuji
+    }
+    1492.01.01 = {
+        holder = 12122220 # Satake Ujiyoshi
+    }
+    1493.01.01 = {
+        liege = d_shgnt_hitachi # 
+        holder = 10010803 # Satake Yoshikiyo
+    }
+    1517.04.03 = {
+        holder = 10010801 # Satake Yoshiatsu
+    }
+    1545.05.19 = {
+        holder = 10010802 # Satake Yoshiaki
+    }
+    1565.11.25 = {
+        holder = 10010830 # Satake Yoshishige
+    }
+}
+c_shgnt_ubaraki = {
+    0001.01.01 = { change_development_level = 10 }
+    1195.01.01 = { change_development_level = 10 }
+    1203.01.01 = { change_development_level = 20 }
+    1336.01.01 = { change_development_level = 30 }
+    1180.01.01 = {
+        holder = 12120155 # Daijo [Yoshida] Iemoto
+    }
+    1190.01.01 = {
+        holder = 12120160 # Daijo [Baba] Sukemoto
+    }
+    1230.01.01 = {
+        holder = 12120170 # Daijo Tomomoto
+    }
+    1250.01.01 = {
+        holder = 12120180 # Daijo Norimoto
+    }
+    1289.01.01 = {
+        holder = 12120190 # Daijo Mitsumoto
+    }
+    1320.01.01 = {
+        holder = 12120200 # Daijo Tokimoto
+    }
+    1340.01.01 = {
+        holder = 12120210 # Daijo Morimoto
+    }
+    1360.01.01 = {
+        holder = 12120220 # Daijo Takamoto
+    }
+    1380.01.01 = {
+        holder = 12120230 # Daijo Akikuni
+    }
+    1386.01.01 = {
+        holder = 12120231 # Daijo Mitsumoto
+    }
+    1426.01.01 = {
+        liege = d_shgnt_hitachi # 
+        holder = 10010106 # Edo Michifusa
+    }
+    1465.05.27 = {
+        holder = 10010107 # Edo Michinaga
+    }
+    1494.12.09 = {
+        holder = 10010105 # Edo Michimasa
+    }
+    1511.01.01 = {
+        liege = 0 # 
+        holder = 10010105 # Edo Michimasa
+    }
+    1511.01.19 = {
+        holder = 10010101 # Edo Michiyasu
+    }
+    1535.08.10 = {
+        holder = 10010102 # Edo Tadamichi
+    }
+    1564.07.13 = {
+        holder = 10010109 # Edo Michimasa
+    }
+    1567.08.20 = {
+        holder = 10010110 # Edo Shigemichi
+    }
+}
+c_shgnt_hitachi_yoshida = {
+    0001.01.01 = { change_development_level = 10 }
+    1195.01.01 = { change_development_level = 10 }
+    1203.01.01 = { change_development_level = 20 }
+    1336.01.01 = { change_development_level = 30 }
+    1180.01.01 = {
+        holder = 12120155 # Daijo [Yoshida] Iemoto
+    }
+    1190.01.01 = {
+        holder = 12120160 # Daijo [Baba] Sukemoto
+    }
+    1230.01.01 = {
+        holder = 12120170 # Daijo Tomomoto
+    }
+    1250.01.01 = {
+        holder = 12120180 # Daijo Norimoto
+    }
+    1289.01.01 = {
+        holder = 12120190 # Daijo Mitsumoto
+    }
+    1320.01.01 = {
+        holder = 12120200 # Daijo Tokimoto
+    }
+    1340.01.01 = {
+        holder = 12120210 # Daijo Morimoto
+    }
+    1360.01.01 = {
+        holder = 12120220 # Daijo Takamoto
+    }
+    1380.01.01 = {
+        holder = 12120230 # Daijo Akikuni
+    }
+    1386.01.01 = {
+        holder = 12120231 # Daijo Mitsumoto
+    }
+    1426.01.01 = {
+        liege = d_shgnt_hitachi # 
+        holder = 10010106 # Edo Michifusa
+    }
+    1465.05.27 = {
+        holder = 10010107 # Edo Michinaga
+    }
+    1494.12.09 = {
+        holder = 10010105 # Edo Michimasa
+    }
+    1511.01.01 = {
+        liege = 0 # 
+        holder = 10010105 # Edo Michimasa
+    }
+    1511.01.19 = {
+        holder = 10010101 # Edo Michiyasu
+    }
+    1535.08.10 = {
+        holder = 10010102 # Edo Tadamichi
+    }
+    1564.07.13 = {
+        holder = 10010109 # Edo Michimasa
+    }
+    1567.08.20 = {
+        holder = 10010110 # Edo Shigemichi
+    }
+}
+c_shgnt_inba = {
+    0001.01.01 = { change_development_level = 10 }
+    1350.01.01 = { change_development_level = 20 }
+    1460.01.01 = { change_development_level = 20 }
+    1469.01.01 = { change_development_level = 30 }
+    1591.01.01 = { change_development_level = 20 }
+    0360.01.01 = {
+        holder = 10041312 # Itsukori
+    }
+    1180.01.01 = {
+        holder = 12155011 # Into [Taira/Kazusa] Tsuneshige
+    }
+    1180.10.04 = {
+        liege = d_shgnt_shimousa # 
+        holder = 12150111 # Usui Tsuneyasu
+    }
+    1186.01.01 = {
+        holder = 12151100 # Usui Tsunetada
+    }
+    1200.01.01 = {
+        holder = 12151101 # Usui Naritsune
+    }
+    1220.01.01 = {
+        holder = 12151105 # Usui Moritsune
+    }
+    1247.07.08 = {
+        holder = 12150141 # Chiba Yaasutane
+    }
+    1251.01.01 = {
+        holder = 12150145 # Chiba Yoritane
+    }
+    1275.09.07 = {
+        holder = 12150150 # Chiba Munetane
+    }
+    1294.02.12 = {
+        holder = 12150155 # Chiba Tanesada
+    }
+    1336.12.22 = {
+        liege = d_shgnt_shimousa # 
+        holder = 12151135 # Usui Okitane
+    }
+    1364.04.18 = {
+        holder = 12151140 # Usui Hisatane
+    }
+    1376.07.13 = {
+        holder = 12151145 # Usui Kanetane
+    }
+    1383.11.03 = {
+        holder = 12151150 # Usui Fuyutane
+    }
+    1402.08.23 = {
+        holder = 12151155 # Usui Yukitane
+    }
+    1430.05.12 = {
+        holder = 12151160 # Usui Noritane
+    }
+    1469.01.01 = {
+        holder = 10011606 # Chiba Suketane
+    }
+    1492.03.13 = {
+        holder = 10011605
+    }
+    1505.09.26 = {
+        holder = 10011604 # Chiba Katsutane
+    }
+    1532.06.24 = {
+        holder = 10011601 # Chiba Masatane
+    }
+    1546.02.07 = {
+        holder = 10011602 # Chiba Toshitsane
+    }
+    1547.07.28 = {
+        holder = 10011673 # Chiba Chikatane
+    }
+    1557.08.30 = {
+        holder = 10011603 # Chiba Tanetomi
+    }
+    1565.11.01 = {
+        holder = 10011618 # Chiba Yoshitane
+    }
+    1570.01.01 = {
+        holder = 10011619 # Chiba Kunitane
+    }
+}
+c_shgnt_ishimi = {
+    0001.01.01 = { change_development_level = 10 }
+    1400.01.01 = { change_development_level = 10 }
+    1521.01.01 = { change_development_level = 30 }
+    1165.01.01 = {
+        liege = 0 # 
+        holder = 12155400 # Iho Tsunenaka
+    }
+    1180.10.23 = {
+        liege = d_shgnt_kazusa # Kazusa Hirotsune
+        holder = 12155017 # Kazusa Hirotsune
+    }
+    1184.02.03 = {
+        liege = d_shgnt_kazusa # 
+        holder = 12211501 # Wada Yoshimori
+    }
+    1213.05.24 = {
+        holder = 12211043 # Miura Taneyoshi
+    }
+    1221.07.06 = {
+        liege = d_shgnt_kazusa # 
+        holder = 12150131 # Sakai Tsunehide
+    }
+    1235.01.01 = {
+        holder = 12151200 # Sakai Hidetane
+    }
+    1247.07.08 = {
+        holder = 10131824 # Hojo Tokiyori
+    }
+    1247.08.01 = {
+        holder = 12139003 # Ashikaga Yoshiuji
+    }
+    1255.01.01 = {
+        holder = 12139015 # Ashikaga Yoriuji
+    }
+    1262.01.01 = {
+        holder = 12139022 # Ashikaga Ietoki
+    }
+    1284.08.07 = {
+        holder = 12139024 # Ashikaga Sadauji
+    }
+    1331.10.07 = {
+        holder = 12139028 # Ashikaga Takauji
+    }
+    1351.11.01 = {
+        liege = d_shgnt_kazusa # 
+        holder = 10044204 # Sasaki Hidetsuna
+    }
+    1352.06.01 = {
+        holder = 12150166 # Chiba Ujitane
+    }
+    1355.05.01 = {
+        holder = 10044203 # Sasaki Takauji
+    }
+    1356.04.01 = {
+        holder = 12150166 # Chiba Ujitane
+    }
+    1364.04.01 = {
+        holder = 12187025 # Iwamatsu Yoshimasa
+    }
+    1364.12.01 = {
+        holder = 10017046 # Uesugi Tomofusa
+    }
+    1370.01.01 = {
+        holder = 10017047 # Uesugi Tomomune
+    }
+    1400.01.01 = {
+        holder = 10020376 # Toki Yorimoto
+    }
+    1440.01.01 = {
+        holder = 10020377 # Toki Yorifusa
+    }
+    1480.01.01 = {
+        holder = 10020378 # Toki Yorisada
+    }
+    1520.01.01 = {
+        holder = 10020371
+    }
+    1579.01.01 = {
+        holder = 10020385 # Toki Yoriharu
+    }
+}
+c_shgnt_kamitsuga = {
+    0001.01.01 = { change_development_level = 10 }
+    1000.01.01 = { change_development_level = 10 }
+    1462.01.01 = { change_development_level = 20 }
+    1180.01.01 = {
+        liege = 0 # 
+        holder = 12136004 # Seki Ryusen, Rinnoji
+    }
+    1205.01.01 = {
+        holder = 12136006 # Seki Bengaku, Rinnoji
+    }
+    1251.01.01 = {
+        holder = 0
+    }
+    1462.01.01 = {
+        liege = d_nmih_oyama # 
+        holder = 10015001 # Mibu Tanenari
+    }
+    1494.11.01 = {
+        holder = 10015002 # Mibu Tsunashige
+    }
+    1516.10.12 = {
+        holder = 10015003 # Mibu Tsunafusa
+    }
+    1555.04.08 = {
+        holder = 10015006 # Mibu Tsunatake
+    }
+    1576.03.25 = {
+        holder = 10015007 # Mibu Yoshitake
+    }
+}
+c_shgnt_kashima = {
+    0001.01.01 = { change_development_level = 20 }
+    1109.01.01 = {
+        holder = 12120400 # Kashima Masamoto
+    }
+    1196.01.01 = {
+        holder = 12120410 # Kashima Tanemoto
+    }
+    1200.01.01 = {
+        holder = 12120420 # Kashima Tadamoto
+    }
+    1230.01.01 = {
+        holder = 12120430 # Kashima Munemoto
+    }
+    1260.01.01 = {
+        holder = 12120440 # Kashima Motokage
+    }
+    1290.01.01 = {
+        holder = 12120450 # Kashima Motouji
+    }
+    1320.01.01 = {
+        holder = 12120460 # Kashima Motohiro
+    }
+    1350.01.01 = {
+        holder = 12120470 # Kashima Motoshige
+    }
+    1400.01.01 = {
+        holder = 12120480 # Kashima Norimoto
+    }
+    1445.01.01 = {
+        liege = 0 # 
+        holder = 12120490 # Kashima Sanemoto
+    }
+    1498.01.07 = {
+        holder = 12120500 # Kashima Takamoto
+    }
+    1502.07.20 = {
+        holder = 12120510 # Kashima Chikamoto
+    }
+    1509.01.01 = {
+        holder = 10010507 # Kashima Kagemoto
+    }
+    1512.10.11 = {
+        holder = 10010501 # Kashima Yoshimoto
+    }
+    1524.01.01 = {
+        holder = 10010502 # Kashima Motonobu
+    }
+    1550.01.01 = {
+        holder = 10010503 # Kashima Harutoki
+    }
+    1565.01.01 = {
+        holder = 10010526 # Kashima Ujimoto
+    }
+    1569.10.08 = {
+        holder = 10010527 # Kashima Yoshikiyo
+    }
+    1581.02.13 = {
+        holder = 10010531 # Kashima Michiharu
+    }
+    1586.02.25 = {
+        holder = 10010530 # Kashima Sadanobu
+    }
+    1589.01.01 = {
+        holder = 10010529 # Kashima Kiyohide
+    }
+    1590.12.31 = {
+        holder = 10010830 # Satake Yoshishige
+    }
+}
+c_shgnt_katori = {
+    0001.01.01 = { change_development_level = 20 }
+    1190.01.01 = { change_development_level = 30 }
+    1250.01.01 = { change_development_level = 40 }
+    1400.01.01 = { change_development_level = 40 }
+    1455.10.17 = { change_development_level = 30 }
+    1460.01.01 = { change_development_level = 30 }
+    1135.01.01 = {
+        holder = 12160100 # Chida [Fujiwara] Chikamichi
+    }
+    1140.01.01 = {
+        holder = 12160110 # Chiba [Fujiwara] Chikamori
+    }
+    1170.01.01 = {
+        holder = 12160120 # Chiba [Fujiwara] Chikamasa
+    }
+    1180.10.04 = {
+        liege = d_shgnt_shimousa # 
+        holder = 12150120 # Chiba Tsunetane
+    }
+    1201.04.28 = {
+        holder = 12150123 # Chiba Tanemasa
+    }
+    1203.08.28 = {
+        holder = 12150130 # Chiba Naritane
+    }
+    1218.05.06 = {
+        holder = 12150135 # Chiba Tanetsuna
+    }
+    1228.07.01 = {
+        holder = 12150141 # Chiba Yasutane
+    }
+    1251.01.01 = {
+        holder = 12150145 # Chiba Yoritane
+    }
+    1275.09.07 = {
+        holder = 12150150 # Chiba Munetane
+    }
+    1294.02.12 = {
+        holder = 12150155 # Chiba Tanesada
+    }
+    1336.12.22 = {
+        liege = d_shgnt_shimousa # 
+        holder = 12150187 # Chiba Tanetsugu
+    }
+    1370.01.01 = {
+        holder = 12150490 # Kokubu Taneaki
+    }
+    1380.01.01 = {
+        holder = 12150495 # Kokubu Tadatane
+    }
+    1420.01.01 = {
+        holder = 12150500 # Kokubu Noritane
+    }
+    1460.01.01 = {
+        holder = 12150505 # Kokubu Yukitane
+    }
+    1490.01.01 = {
+        holder = 12150510 # Kokubu Tanemori
+    }
+    1520.01.01 = {
+        holder = 12150515 # Kokubu Tanesuke
+    }
+    1540.01.01 = {
+        holder = 12150520 # Kokubu Tomotane
+    }
+    1550.01.01 = {
+        holder = 12150526 # Kokubu Tanenori
+    }
+    1562.05.01 = {
+        holder = 12150530 # Kokubu Tanemasa
+    }
+}
+c_shgnt_katsushika = {
+    0001.01.01 = { change_development_level = 10 }
+    1241.01.01 = { change_development_level = 20 }
+    1260.01.01 = { change_development_level = 30 }
+    1479.01.01 = { change_development_level = 30 }
+    1180.01.01 = {
+        liege = d_shgnt_kazusa # 
+        holder = 12150120 # Chiba Tsunetane
+    }
+    1201.04.28 = {
+        holder = 12150123 # Chiba Tanemasa
+    }
+    1203.08.28 = {
+        holder = 12150130 # Chiba Tanenari
+    }
+    1218.05.06 = {
+        holder = 12150135 # Chiba Tanetsuna
+    }
+    1228.07.01 = {
+        holder = 12150141 # Chiba Yasutane
+    }
+    1251.01.01 = {
+        holder = 12150145 # Chiba Yoritane
+    }
+    1275.09.07 = {
+        holder = 12150150 # Chiba Munetane
+    }
+    1294.02.12 = {
+        holder = 12150155 # Chiba Tanesada
+    }
+    1336.12.22 = {
+        liege = d_shgnt_shimousa # 
+        holder = 12150187 # Chiba Tanetsugu
+    }
+    1370.01.01 = {
+        holder = 12150173 # Hara Tanetaka
+    }
+    1426.01.01 = {
+        holder = 10011678 # Hara Tanechika
+    }
+    1430.01.01 = {
+        holder = 10011672 # Hara Tanefusa
+    }
+    1471.10.22 = {
+        holder = 10011670 # Hara Tanetaka
+    }
+    1536.07.10 = {
+        holder = 10011671 # Hara Tanekiyo
+    }
+    1556.03.23 = {
+        liege = d_shgnt_shimousa # 
+        holder = 10011674 # Hara Tanesada
+    }
+    1575.01.01 = {
+        holder = 10011675 # Hara Tanehide
+    }
+}
+c_shgnt_shimotsuke_kawachi = {
+    0001.01.01 = { change_development_level = 20 }
+    1063.01.01 = {
+        liege = d_nmih_utsunomiya # 
+        holder = 11005863 # Fujiwara Soen
+    }
+    1111.11.20 = {
+        holder = 12130000 # Utsunomiya Munetsuna
+    }
+    1162.09.30 = {
+        holder = 12130003 # Utsunomiya Tomotsuna
+    }
+    1196.01.01 = {
+        holder = 12130020 # Utsunomiya Yoritsuna
+    }
+    1259.12.26 = {
+        holder = 12130030 # Utsunomiya Yasutsuna
+    }
+    1260.11.24 = {
+        holder = 12130040 # Utsunomiya Kagetsuna
+    }
+    1298.05.01 = {
+        holder = 12130045 # Utsunomiya Sadatsuna
+    }
+    1316.07.25 = {
+        holder = 12130050 # Utsunomiya Kintsuna
+    }
+    1356.12.17 = {
+        holder = 12130055 # Utsunomiya Ujitsuna
+    }
+    1370.07.28 = {
+        holder = 12130060 # Utsunomiya Mototsuna
+    }
+    1380.06.19 = {
+        holder = 12130065 # Utsunomiya Mitsutsuna
+    }
+    1407.11.02 = {
+        holder = 12130120 # Nimo Mochitsuna -> Utsunomiya Mochitsuna
+    }
+    1423.09.13 = {
+        holder = 10010911 # Utsunomiya Hitotsuna
+    }
+    1456.01.01 = {
+        liege = d_nmih_oyama # 
+        holder = 10010910 # Utsunomiya Akitsuna
+    }
+    1463.11.23 = {
+        holder = 10010902 # Utsunomiya Masatsuna
+    }
+    1477.10.07 = {
+        holder = 10010903 # Utsunomiya Shigetsuna
+    }
+    1516.12.01 = {
+        holder = 10010904 # Utsunomiya Tadatsuna
+    }
+    1527.08.12 = {
+        holder = 10010901 # Utsunomiya Okitsuna
+    }
+    1536.09.01 = {
+        holder = 10010932 # Utsunomiya Hisatsuna
+    }
+    1549.10.07 = {
+        holder = 10015003 # Mibu Tsunafusa
+    }
+    1555.04.08 = {
+        holder = 10015006 # Mibu Tsunatake
+    }
+    1557.01.01 = {
+        holder = 10010933 # Utsunomiya Hirotsuna
+    }
+    1576.08.30 = {
+        holder = 10010934 # Utsunomiya Kunitsuna
+    }
+}
+c_shgnt_kochi = {
+    0001.01.01 = { change_development_level = 10 }
+    1100.01.01 = { change_development_level = 20 }
+    1335.01.01 = { change_development_level = 10 }
+    1550.01.01 = { change_development_level = 20 }
+    1160.01.01 = {
+        holder = 12120135 # Daijo Yoshimoto
+    }
+    1193.07.29 = {
+        holder = 12130005 # Hatta Tomoie
+    }
+    1218.03.30 = {
+        holder = 12127500 # Oda Tomoshige
+    }
+    1228.01.01 = {
+        holder = 12127510 # Oda Yasutomo
+    }
+    1245.05.13 = {
+        holder = 12127520 # Oda Tokitomo
+    }
+    1293.05.15 = {
+        holder = 12127530 # Oda Munetomo
+    }
+    1306.12.06 = {
+        holder = 12127541 # Oda Sadatomo
+    }
+    1335.10.23 = {
+        holder = 12127550 # Oda Haruhisa
+    }
+    1353.01.16 = {
+        holder = 12127560 # Oda Takatomo
+    }
+    1414.07.03 = {
+        liege = 0 # 
+        holder = 10010406 # Oda Mochiie
+    }
+    1440.01.01 = {
+        holder = 10010405 # Oda Tomohisa
+    }
+    1455.06.05 = {
+        holder = 10010403 # Oda Shigeharu
+    }
+    1514.01.01 = {
+        holder = 10010401 # Oda Masaharu
+    }
+    1548.03.31 = {
+        holder = 10010402 # Oda Ujiharu
+    }
+}
+c_shgnt_kuji = {
+    0001.01.01 = { change_development_level = 30 }
+    1336.01.01 = { change_development_level = 40 }
+    1400.01.01 = { change_development_level = 50 }
+    1504.01.01 = { change_development_level = 40 }
+    1602.01.01 = { change_development_level = 30 }
+    1133.04.04 = {
+        holder = 10120130 # Satake Masayoshi
+    }
+    1147.01.01 = {
+        holder = 12122002 # Satake Takayoshi
+    }
+    1183.06.11 = {
+        liege = d_shgnt_hitachi # 
+        holder = 12122050 # Satake Hideyoshi / served under Yoritomo
+    }
+    1226.01.17 = {
+        holder = 12122080 # Satake Yoshishige
+    }
+    1252.04.05 = {
+        holder = 12122082 # Satake Nagayoshi
+    }
+    1272.01.01 = {
+        holder = 12122090 # Satake Yoshitane
+    }
+    1278.04.30 = {
+        holder = 12122100 # Satake Yukiyoshi
+    }
+    1305.07.15 = {
+        holder = 12122110 # Satake Sadayoshi
+    }
+    1352.10.18 = {
+        holder = 12122120 # Satake Yoshiatsu
+    }
+    1362.02.07 = {
+        holder = 12122130 # Satake Yoshinobu
+    }
+    1389.08.05 = {
+        holder = 10010821 # Satake Yoshimori
+    }
+    1407.10.22 = {
+        holder = 10010816 # Satake Yoshihito
+    }
+    1468.01.19 = {
+        holder = 10010815 # Satake Yoshitoshi
+    }
+    1477.12.29 = {
+        holder = 10010808 # Satake Yoshiharu
+    }
+    1490.05.14 = {
+        liege = 0 # Yamairi Rebellion
+        holder = 12122216 # Satake Yoshifuji
+    }
+    1492.01.01 = {
+        holder = 12122220 # Satake Ujiyoshi
+    }
+    1504.01.01 = {
+        liege = d_shgnt_hitachi # 
+        holder = 10010803 # Satake Yoshikiyo
+    }
+    1517.04.03 = {
+        holder = 10010801 # Satake Yoshiatsu
+    }
+    1545.05.19 = {
+        holder = 10010802 # Satake Yoshiaki
+    }
+    1565.11.25 = {
+        holder = 10010830 # Satake Yoshishige
+    }
+}
+c_shgnt_makabe = {
+    0001.01.01 = { change_development_level = 10 }
+    1172.01.01 = { change_development_level = 30 }
+    1343.01.01 = { change_development_level = 30 }
+    1343.11.11 = { change_development_level = 20 }
+    1455.04.01 = { change_development_level = 30 }
+    1132.01.01 = {
+        holder = 11005786 # Isa Tomomune
+    }
+    1172.01.01 = {
+        holder = 12121000 # Date [Isa] Nensei
+    }
+    1189.11.01 = {
+        holder = 12121001 # Isa Tamemune
+    }
+    1221.07.05 = {
+        holder = 12121012 # Isa Tametsuna
+    }
+    1250.01.01 = {
+        holder = 12121014 # Isa Muneyuki
+    }
+    1280.01.01 = {
+        holder = 12121015 # Isa Yukikata
+    }
+    1310.01.01 = {
+        holder = 12121016 # Isa Tokikata
+    }
+    1338.01.01 = {
+        holder = 10125120 # Kitabatake Chikafusa
+    }
+    1343.11.11 = {
+        holder = 12120730 # Oguri Shigemasa
+    }
+    1350.01.01 = {
+        holder = 12120735 # Oguri Shigesada
+    }
+    1380.01.01 = {
+        holder = 12120740 # Oguri Akishige
+    }
+    1410.01.01 = {
+        liege = k_nmih_kamakura_kubo # 
+        holder = 12120746 # Oguri Mitsushige
+    }
+    1423.09.13 = {
+        liege = k_nmih_kamakura_kubo # 
+        holder = 10040061 # Ashikaga Mochiuji
+    }
+    1439.03.24 = {
+        liege = k_nmih_kanto_kanrei # 
+        holder = 12120750 # Oguri Sukeshige
+    }
+    1455.04.01 = {
+        liege = k_nmih_kamakura_kubo # 
+        holder = 10010706 # Tagaya Ujiie
+    }
+    1465.07.12 = {
+        holder = 10010712 # Tagaya Takatsune
+    }
+    1482.01.01 = {
+        holder = 10010705 # Tagaya Ietane
+    }
+    1500.01.01 = {
+        holder = 10010704 # Tagaya Ieshige
+    }
+    1530.01.01 = {
+        holder = 10010703 # Tagaya Shigemasa
+    }
+    1534.01.01 = {
+        liege = 0 # 
+        holder = 10010703 # Tagaya Shigemasa
+    }
+    1550.01.01 = {
+        holder = 10010701 # Tagaya Masatsune
+    }
+    1580.01.01 = {
+        holder = 10010702 # Tagaya Shigetsune
+    }
+}
+c_shgnt_moda = {
+    0001.01.01 = { change_development_level = 10 }
+    1456.01.01 = { change_development_level = 10 }
+    1457.01.01 = { change_development_level = 20 }
+    1460.01.01 = { change_development_level = 30 }
+    1541.01.01 = { change_development_level = 30 }
+    1180.01.01 = {
+        liege = d_shgnt_kazusa # Kazusa Hirotsune
+        holder = 12155017 # Kazusa Hirotsune
+    }
+    1184.02.03 = {
+        holder = 12211501 # Wada Yoshimori
+    }
+    1213.05.24 = {
+        holder = 10131653 # Hojo Yoshitoki / the Battle of Wada
+    }
+    1224.07.01 = {
+        holder = 10131666 # Hojo Yasutoki
+    }
+    1242.07.14 = {
+        holder = 10131823 # Hojo Tsunetoki
+    }
+    1246.05.17 = {
+        holder = 10131824 # Hojo Tokiyori
+    }
+    1263.12.24 = {
+        holder = 10131998 # Hojo Tokimune
+    }
+    1284.04.20 = {
+        holder = 10132155 # Hojo Sadatoki
+    }
+    1311.12.06 = {
+        holder = 10132268 # Hojo Takatoki
+    }
+    1333.07.04 = {
+        holder = 12139028 # Ashikaga Takauji
+    }
+    1335.01.01 = {
+        holder = 10044203 # Sasaki Takauji
+    }
+    1356.04.01 = {
+        liege = d_shgnt_kazusa # 
+        holder = 12150166 # Chiba Ujitane
+    }
+    1364.04.01 = {
+        holder = 12187025 # Iwamatsu Yoshimasa
+    }
+    1364.12.01 = {
+        holder = 10017046 # Uesugi Tomofusa
+    }
+    1370.01.01 = {
+        holder = 10017047 # Uesugi Tomomune
+    }
+    1409.01.01 = {
+        holder = 10017048 # Uesugi Zenshu
+    }
+    1417.01.27 = {
+        holder = 10040061 # Ashikaga Mochiuji
+    }
+    1418.01.01 = {
+        holder = 12130120 # Utsunomiya Mochitsuna
+    }
+    1423.09.13 = {
+        holder = 10017061 # Uesugi Sadayori
+    }
+    1430.01.01 = {
+        holder = 10011611 # Chiba Tanenao
+    }
+    1441.01.01 = {
+        holder = 10011612 # Chiba Tanemasa
+    }
+    1454.07.18 = {
+        holder = 10011613 # Chiba Tanenobu
+    }
+    1455.09.23 = {
+        holder = 10040059 # Ashikaga Shigeuji
+    }
+    1456.01.01 = {
+        holder = 10011809 # Takeda Nobunaga
+		effect = {
+			title:b_shgnt_moda_3 = {
+				set_title_name = b_shgnt_moda_3_1 # Mariyatsu
+			}
+		}
+    }
+    1477.01.01 = {
+        holder = 10011808 # Takeda Nobutaka
+    }
+    1480.01.01 = {
+        holder = 10011807 # Mariyatsu Nobuoki
+    }
+    1506.01.01 = {
+        holder = 10011805 # Mariyatsu Nobukatsu
+    }
+    1523.01.01 = {
+        holder = 10011801 # Takeda Nobukiyo
+    }
+    1534.08.10 = {
+        holder = 10011802 # Takeda Nobutaka
+    }
+    1537.01.01 = {
+        holder = 10011803 # Takeda Nobumasa
+    }
+    1538.10.07 = {
+        holder = 10011802 # Takeda Nobutaka
+    }
+    1541.01.01 = {
+        liege = d_shgnt_boshu # 
+        holder = 10011901 # Satomi Yoshitaka
+    }
+    1574.06.19 = {
+        holder = 10011902 # Satomi Yoshihiro
+    }
+    1578.07.05 = {
+        holder = 10011910 # Satomi Yoshishige
+    }
+    1580.05.01 = {
+        holder = 10011903 # Satomi Yoshiyori
+    }
+}
+c_shgnt_musa = {
+    0001.01.01 = { change_development_level = 20 }
+    1300.01.01 = { change_development_level = 10 }
+    1400.01.01 = { change_development_level = 20 }
+    1490.01.01 = { change_development_level = 20 }
+    1500.01.01 = { change_development_level = 40 }
+    1180.01.01 = {
+        liege = d_shgnt_kazusa # Kazusa Hirotsune
+        holder = 12155017 # Kazusa Hirotsune
+    }
+    1184.02.03 = {
+        holder = 12211801 # Tsuchiya Yoshikiyo
+    }
+    1213.05.24 = {
+        holder = 12155460 # Into Tsunenao
+    }
+    1247.07.08 = {
+        liege = d_shgnt_shimousa # 
+        holder = 12150145 # Chiba Yoritane
+    }
+    1275.09.07 = {
+        holder = 12150151 # Chiba Tanemune
+    }
+    1312.05.05 = {
+        holder = 12150160 # Chiba Sadatane
+    }
+    1335.01.01 = {
+        holder = 10044203 # Sasaki Takauji
+    }
+    1356.04.01 = {
+        liege = d_shgnt_shimousa # 
+        holder = 12150166 # Chiba Ujitane
+    }
+    1365.09.28 = {
+        holder = 12150170 # Chiba Mitsutane
+    }
+    1417.01.27 = {
+        holder = 12150175 # Chiba Kanetane
+    }
+    1430.07.07 = {
+        holder = 10011611 # Chiba Tanenao
+    }
+    1441.01.01 = {
+        holder = 10011612 # Chiba Tanemasa
+    }
+    1454.07.18 = {
+        holder = 10011613 # Chiba Tanenobu
+    }
+    1455.09.23 = {
+        holder = 12150176 # Chiba Yasutane
+    }
+    1456.11.28 = {
+        holder = 10011606 # Chiba Suketane
+    }
+    1488.01.01 = {
+        liege = 0 # 
+        holder = 10011705 # Sakai Sadataka
+    }
+    1490.01.01 = {
+        holder = 10011706 # Sakai Sadaharu
+    }
+    1505.01.01 = {
+        holder = 10011701 # Sakai Tsuneharu
+    }
+    1555.01.01 = {
+        holder = 10011709 # Sakai Taneharu
+    }
+    1577.06.09 = {
+        holder = 10011710 # Sakai Yasuharu
+    }
+}
+c_shgnt_nagara = {
+    0001.01.01 = { change_development_level = 10 }
+    1100.01.01 = { change_development_level = 20 }
+    1333.01.01 = { change_development_level = 40 }
+    1456.01.01 = { change_development_level = 50 }
+    1180.01.01 = {
+        liege = d_shgnt_kazusa # Kazusa Hirotsune
+        holder = 12155017 # Kazusa Hirotsune
+    }
+    1184.02.03 = {
+        liege = d_shgnt_shimousa # 
+        holder = 12150120 # Chiba Tsunetane
+    }
+    1201.04.28 = {
+        holder = 12150123 # Chiba Tanemasa
+    }
+    1203.08.28 = {
+        holder = 12150131 # Sakai Tsunehide
+    }
+    1235.01.01 = {
+        holder = 12151200 # Sakai Hidetane
+    }
+    1247.07.08 = {
+        holder = 10131824 # Hojo Tokiyori
+    }
+    1247.08.01 = {
+        holder = 12139003 # Ashikaga Yoshiuji
+    }
+    1255.01.01 = {
+        holder = 12139015 # Ashikaga Yoriuji
+    }
+    1262.01.01 = {
+        holder = 12139022 # Ashikaga Ietoki
+    }
+    1284.08.07 = {
+        holder = 12139024 # Ashikaga Sadauji
+    }
+    1331.10.07 = {
+        holder = 12139028 # Ashikaga Takauji
+    }
+    1351.11.01 = {
+        liege = d_shgnt_kazusa # 
+        holder = 10044204 # Sasaki Hidetsuna
+    }
+    1352.06.01 = {
+        holder = 12150166 # Chiba Ujitane
+    }
+    1355.05.01 = {
+        holder = 10044203 # Sasaki Takauji
+    }
+    1356.04.01 = {
+        holder = 12150166 # Chiba Ujitane
+    }
+    1364.04.01 = {
+        holder = 12187025 # Iwamatsu Yoshimasa
+    }
+    1364.12.01 = {
+        holder = 10017046 # Uesugi Tomofusa
+    }
+    1370.01.01 = {
+        holder = 10017047 # Uesugi Tomomune
+    }
+    1409.01.01 = {
+        holder = 10017048 # Uesugi Zenshu
+    }
+    1417.01.27 = {
+        holder = 10040061 # Ashikaga Mochiuji
+    }
+    1418.01.01 = {
+        holder = 12130120 # Utsunomiya Mochitsuna
+    }
+    1423.09.13 = {
+        holder = 10017061 # Uesugi Sadayori
+    }
+    1430.01.01 = {
+        holder = 10011611 # Chiba Tanenao
+    }
+    1441.01.01 = {
+        holder = 10011612 # Chiba Tanemasa
+    }
+    1454.07.18 = {
+        holder = 10011613 # Chiba Tanenobu
+    }
+    1455.09.23 = {
+        holder = 10040059 # Ashikaga Shigeuji
+    }
+    1456.01.01 = {
+        holder = 10011809 # Takeda Nobunaga
+    }
+    1477.01.01 = {
+        holder = 10011808 # Takeda Nobutaka
+    }
+    1480.01.01 = {
+        holder = 10011810 # Takeda Michinobu
+    }
+    1484.01.01 = {
+        holder = 10011811 # Takeda Munenobu
+    }
+    1551.01.01 = {
+        holder = 10011813 # Takeda Kiyonobu
+    }
+    1560.01.01 = {
+        holder = 10011814 # Takeda Toyonobu
+    }
+}
+c_shgnt_namekata = {
+    0001.01.01 = { change_development_level = 20 }
+    1100.01.01 = { change_development_level = 20 }
+    1300.01.01 = { change_development_level = 20 }
+    1591.03.01 = { change_development_level = 10 }
+    1135.01.01 = {
+        liege = d_shgnt_hitachi # 
+        holder = 12120600 # Namegata Kagemoto
+    }
+    1190.01.01 = {
+        holder = 12120601 # Namegata Tamemoto
+    }
+    1210.01.01 = {
+        holder = 12120610 # Namegata Tanemoto
+    }
+    1240.01.01 = {
+        holder = 12120611 # Namegata Tanehira
+    }
+    1270.01.01 = {
+        holder = 12120612 # Namegata Mototoki
+    }
+    1300.01.01 = {
+        holder = 12120624 # Shimazaki Shigemoto
+    }
+    1350.01.01 = {
+        holder = 12120625 # Shimazaki Yoshimoto
+    }
+    1360.01.01 = {
+        holder = 12120626 # Shimazaki Toshimoto
+    }
+    1417.01.01 = {
+        holder = 12120627 # Shimazaki Nagakuni
+    }
+    1450.01.01 = {
+        liege = 0 # 
+        holder = 12120628 # Shimazaki Tadamoto
+    }
+    1490.01.01 = {
+        holder = 12120629 # Shimazaki Toshimoto
+    }
+    1540.01.01 = {
+        holder = 12120630 # Shimazaki Ujimoto
+    }
+    1560.01.01 = {
+        holder = 12120631 # Shimazaki Yasusada
+    }
+    1590.12.31 = {
+        holder = 10010830 # Satake Yoshishige
+    }
+}
+c_shgnt_nasu = {
+    0001.01.01 = { change_development_level = 30 }
+    1100.01.01 = { change_development_level = 30 }
+    1428.01.01 = { change_development_level = 30 }
+    1165.01.01 = {
+        liege = d_shgnt_shimotsuke # 
+        holder = 12140100 # Nasu Suketaka
+    }
+    1185.01.01 = {
+        holder = 12140117 # Nasu Munetaka
+    }
+    1189.09.19 = {
+        holder = 12140110 # Nasu Sukeyuki
+    }
+    1193.01.01 = {
+        holder = 12140120 # Nasu Mitsusuke
+    }
+    1237.01.01 = {
+        holder = 12140130 # Nasu Sukemura
+    }
+    1268.01.01 = {
+        holder = 12140140 # Nasu Sukeie
+    }
+    1275.01.01 = {
+        holder = 12140150 # Nasu Suketada
+    }
+    1300.01.01 = {
+        holder = 12140160 # Nasu Sukefuji
+    }
+    1355.01.01 = {
+        holder = 12140180 # Nasu Sukeuji
+    }
+    1408.01.01 = {
+        liege = 0 # 
+        holder = 12140190 # Nasu Sukeyuki
+    }
+    1428.01.01 = {
+        holder = 12140192 # Nasu Sukeshige
+    }
+    1431.01.01 = {
+        holder = 10011010
+    }
+    1467.10.11 = {
+        holder = 10011007
+    }
+    1510.01.01 = {
+        holder = 10011001
+    }
+    1546.08.19 = {
+        holder = 10011003 # Nasu Takasuke
+    }
+    1551.02.27 = {
+        holder = 10011005 # Nasu Sukekuni
+    }
+    1583.04.03 = {
+        holder = 10011019 # Nasu Sukeharu
+    }
+}
+c_shgnt_niihari = {
+    0001.01.01 = { change_development_level = 10 }
+    1100.01.01 = { change_development_level = 30 }
+    1214.01.01 = { change_development_level = 20 }
+    1343.11.11 = { change_development_level = 10 }
+    1430.01.01 = { change_development_level = 20 }
+    1591.01.01 = { change_development_level = 10 }
+    1160.01.01 = {
+        holder = 12121101 # Kudara Masanari
+    }
+    1180.01.01 = {
+        liege = d_shgnt_hitachi # 
+        holder = 12121101 # Kudara Masanari
+    }
+    1210.01.01 = {
+        holder = 12120160 # Daijo Sukemoto
+    }
+    1230.01.01 = {
+        holder = 12120170 # Daijo Tomomoto
+    }
+    1250.01.01 = {
+        holder = 12120180 # Daijo Norimoto
+    }
+    1289.01.01 = {
+        holder = 12120190 # Daijo Mitsumoto
+    }
+    1320.01.01 = {
+        holder = 12120200 # Daijo Tokimoto
+    }
+    1340.01.01 = {
+        liege = 0 # 
+        holder = 12120210 # Daijo Morimoto
+    }
+    1360.01.01 = {
+        holder = 12120220 # Daijo Takamoto
+    }
+    1380.01.01 = {
+        holder = 12120230 # Daijo Akikuni
+    }
+    1386.01.01 = {
+        holder = 12120231 # Daijo Mitsumoto
+    }
+    1429.01.01 = {
+        holder = 12120240 # Daijo Hidemoto
+    }
+    1440.01.01 = {
+        holder = 10010606 # Daijo Yorimoto
+    }
+    1460.01.01 = {
+        holder = 10010605 # Daijo Mochimoto
+    }
+    1470.01.01 = {
+        holder = 10010604 # Daijo Kiyomoto
+    }
+    1500.01.01 = {
+        holder = 10010603 # Daijo Takamoto
+    }
+    1525.01.01 = {
+        holder = 10010602 # Daijo Tsunemoto
+    }
+    1540.01.01 = {
+        holder = 10010601 # Daijo Norimoto
+    }
+    1564.01.01 = {
+        holder = 10010627 # Daijo Sadakuni
+    }
+    1578.01.01 = {
+        holder = 10010628 # Daijo Kiyomoto
+    }
+    1590.12.31 = {
+        holder = 10010830 # Satake Yoshishige
+    }
+}
+c_shgnt_shimotsuke_aso = {
+    0001.01.01 = { change_development_level = 20 }
+    1100.01.01 = { change_development_level = 20 }
+    1450.01.01 = { change_development_level = 20 }
+    1110.01.01 = {
+        liege = d_nmih_ashikaga # 
+        holder = 12180102 # Ashikaga Ietsuna
+    }
+    1138.01.01 = {
+        holder = 12180112 # Ashikaga Naritoshi
+    }
+    1177.01.01 = {
+        holder = 12180150 # Sano Mototsuna
+    }
+    1207.01.01 = {
+        holder = 12180501 # Sano Kunimoto
+    }
+    1238.01.01 = {
+        holder = 12180520 # Sano Sanetsuna
+    }
+    1258.01.01 = {
+        holder = 12180550 # Sano Moritsuna
+    }
+    1288.01.01 = {
+        holder = 12180560 # Sano Hirotsuna
+    }
+    1320.01.01 = {
+        holder = 12180570 # Sano Sadatsuna
+    }
+    1333.01.01 = {
+        holder = 12180580 # Sano Suketsuna
+    }
+    1355.01.01 = {
+        holder = 12180590 # Sano Morotsuna
+    }
+    1377.01.01 = {
+        holder = 12180600 # Sano Shigetsuna
+    }
+    1432.01.01 = {
+        liege = k_nmih_kamakura_kubo # 
+        holder = 12180606 # Sano Shigenaga
+    }
+    1500.01.01 = {
+        holder = 12180610 # Sano Moritsuna
+    }
+    1527.01.01 = {
+        holder = 12180615 # Sano Hidetsuna
+    }
+    1548.08.01 = {
+        holder = 12180620 # Sano Yasutsuna
+    }
+    1550.01.01 = {
+        holder = 10011101 # Sano Toyotsuna
+    }
+    1559.01.01 = {
+        holder = 10011102 # Sano Masatsuna
+    }
+    1574.04.28 = {
+        holder = 10011110 # Sano Munetsuna
+    }
+}
+c_shgnt_sashima = {
+    0001.01.01 = { change_development_level = 10 }
+    1180.01.01 = { change_development_level = 20 }
+    1390.01.01 = { change_development_level = 40 }
+    1400.01.01 = { change_development_level = 50 }
+    1455.01.01 = { change_development_level = 60 }
+    1460.01.01 = { change_development_level = 60 }
+    1592.01.01 = { change_development_level = 50 }
+    1151.01.01 = {
+        liege = d_nmih_oyama # 
+        holder = 12127800 # Shimokobe Yukiyoshi
+    }
+    1185.01.01 = {
+        holder = 12127801 # Shimokobe Yukihira
+    }
+    1211.01.01 = {
+        holder = 10131653 # Hojo Yoshitoki
+    }
+    1224.07.01 = {
+        holder = 10131666 # Hojo Yasutoki
+    }
+    1242.07.14 = {
+        holder = 10131823 # Hojo Tsunetoki
+    }
+    1246.05.17 = {
+        holder = 10131824 # Hojo Tokiyori
+    }
+    1263.12.24 = {
+        holder = 10131998 # Hojo Tokimune
+    }
+    1284.04.20 = {
+        holder = 10132155 # Hojo Sadatoki
+    }
+    1311.12.06 = {
+        holder = 10132268 # Hojo Takatoki
+    }
+    1333.07.04 = {
+        liege = d_nmih_oyama # 
+        holder = 12135030 # Oyama Hidetomo
+    }
+    1335.08.02 = {
+        holder = 12135035 # Oyama Tomosato
+    }
+    1346.05.04 = {
+        holder = 12135036 # Oyama Ujimasa
+    }
+    1355.08.31 = {
+        holder = 10011209 # Oyama Yoshimasa
+    }
+    1382.05.24 = {
+        liege = k_nmih_kamakura_kubo # 
+        holder = 10040066 # Ashikaga Ujimitsu
+    }
+    1382.06.01 = {
+        holder = 12154000 # Noda Mitsunori
+    }
+    1430.01.01 = {
+        holder = 12154001 # Noda Mochitada
+    }
+    1455.07.30 = {
+        liege = k_nmih_kamakura_kubo # Ashikaga Shigeuji
+        holder = 10040059 # Ashikaga Shigeuji
+    }
+    1497.10.25 = {
+        holder = 10040058 # Ashikaga Masauji
+    }
+    1512.01.01 = {
+        holder = 10040050 # Ashikaga Takamoto
+    }
+    1535.11.03 = {
+        holder = 10040052 # Ashikaga Haruuji
+    }
+    1546.05.19 = {
+        holder = 10040072 # Ashikaga Yoshiuji
+    }
+    1583.02.13 = {
+        holder = 10040078 # Ashikaga Ujihime
+    }
+}
+c_shgnt_shimotsuga = {
+    0001.01.01 = { change_development_level = 30 }
+    0916.01.01 = {
+        liege = d_shgnt_shimotsuke # 
+        holder = 11004609 # Fujiwara Hidesato
+    }
+    0950.01.01 = {
+        holder = 11004621 # Fujiwara Shitsune
+    }
+    0981.01.01 = {
+        holder = 11004665 # Fujiwara Fuminaga
+    }
+    1018.03.03 = {
+        holder = 11004666 # Fujiwara Fumiyuki
+    }
+    1020.01.01 = {
+        holder = 11004667 # Fujiwara Kanemitsu
+    }
+    1037.01.01 = {
+        holder = 11004687 # Fujiwara Yoriyuki
+    }
+    1057.01.01 = {
+        holder = 11004689 # Fujiwara Yukinori
+    }
+    1061.01.01 = {
+        holder = 11004694 # Fujiwara Takeyuki
+    }
+    1079.01.01 = {
+        holder = 10130353 # Fujiwara [Ota] Yukitaka
+    }
+    1121.01.01 = {
+        holder = 10130354 # Fujiwara [Ota] Yukimasa
+    }
+    1151.01.01 = {
+        liege = d_nmih_oyama # 
+        holder = 12135000 # Oyama Masamitsu
+    }
+    1191.01.01 = {
+        holder = 12135001 # Oyama Tomomasa
+    }
+    1238.05.15 = {
+        holder = 12135010 # Oyama Nagamura
+    }
+    1269.08.15 = {
+        holder = 12135015 # Oyama Tokinaga
+    }
+    1276.01.01 = {
+        holder = 12135020 # Oyama Munenaga
+    }
+    1315.01.01 = {
+        holder = 12135025 # Oyama Sadatomo
+    }
+    1330.01.01 = {
+        holder = 12135030 # Oyama Hidetomo
+    }
+    1335.08.02 = {
+        holder = 12135035 # Oyama Tomosato
+    }
+    1346.05.04 = {
+        holder = 12135036 # Oyama Ujimasa
+    }
+    1355.08.31 = {
+        holder = 10011209 # Oyama Yoshimasa
+    }
+    1382.05.24 = {
+        holder = 12209000 # Kido Sadanori
+    }
+    1387.01.01 = {
+        holder = 10010214 # Oyama Yasutomo
+    }
+    1413.01.01 = {
+        holder = 10011208 # Oyama Mitsuyasu
+    }
+    1430.06.01 = {
+        holder = 10011207 # Oyama Mochimasa
+    }
+    1471.01.01 = {
+        holder = 10011206 # Oyama Shigenaga
+    }
+    1516.01.01 = {
+        holder = 10011205 # Oyama Masanaga
+    }
+    1534.01.01 = {
+        holder = 10011201 # Oyama Takatomo
+    }
+    1560.01.01 = {
+        holder = 10011202 # Oyama Hidetsuna
+    }
+    1576.01.01 = {
+        liege = k_shgnt_western_kanto # 
+        holder = 10016014 # Hojo Ujimasa
+    }
+    1582.05.18 = {
+        holder = 10011202 # Oyama Hidetsuna
+    }
+}
+c_shgnt_shionoya = {
+    0001.01.01 = { change_development_level = 20 }
+    1180.01.01 = {
+        liege = 0 # 
+        holder = 12145005 # Shionoya Koreyori
+    }
+    1180.10.26 = {
+        liege = k_shgnt_western_kanto # Minamoto Yoritomo
+        holder = 12145005 # Shionoya Koreyori / Yoritomo's conquest of Kamakura
+    }
+    1187.01.01 = {
+        liege = 0
+        holder = 0
+    }
+    1260.01.01 = {
+        liege = e_shgnt_japan # 
+        holder = 12130040 # Utsunomiya Kagetsuna
+    }
+    1298.05.01 = {
+        holder = 12130045 # Utsunomiya Sadatsuna
+    }
+    1316.07.25 = {
+        holder = 12130050 # Utsunomiya Kintsuna
+    }
+    1356.12.17 = {
+        liege = d_nmih_utsunomiya # Utsunomiya Ujitsuna
+        holder = 12130055 # Utsunomiya Ujitsuna
+    }
+    1370.07.28 = {
+        holder = 12130060 # Utsunomiya Mototsuna
+    }
+    1407.11.02 = {
+        holder = 12130120 # Nimo Mochitsuna -> Utsunomiya Mochitsuna
+    }
+    1423.09.13 = {
+        holder = 10010911
+    }
+    1463.11.23 = {
+        holder = 10010902
+    }
+    1477.10.07 = {
+        holder = 10010903
+    }
+    1514.01.01 = {
+        holder = 10010904
+    }
+    1526.01.01 = {
+        holder = 10010901
+    }
+    1536.09.01 = {
+        holder = 10010932 # Utsunomiya Harutsuna
+    }
+    1549.10.07 = {
+        holder = 10010933 # Utsunomiya Hirotsuna
+    }
+    1576.08.30 = {
+        holder = 10010934 # Utsunomiya Kunitsuna
+    }
+}
+c_shgnt_hitachi_shida = {
+    0001.01.01 = { change_development_level = 10 }
+    1100.01.01 = { change_development_level = 10 }
+    1300.01.01 = { change_development_level = 20 }
+    1390.01.01 = { change_development_level = 20 }
+    1560.01.01 = { change_development_level = 10 }
+    1180.01.01 = {
+        liege = 0 # 
+        holder = 10120065 # Minamoto Yoshihira
+    }
+    1183.03.18 = {
+        liege = d_shgnt_hitachi # Hatta Tomoie
+        holder = 12130005 # Hatta Tomoie / Battle of Nogimiya
+    }
+    1218.03.30 = {
+        holder = 12127500 # Oda Tomoshige
+    }
+    1228.01.01 = {
+        holder = 12127510 # Oda Yasutomo
+    }
+    1245.05.13 = {
+        holder = 12127520 # Oda Tokitomo
+    }
+    1293.05.15 = {
+        holder = 12127530 # Oda Munetomo
+    }
+    1306.12.06 = {
+        holder = 12127541 # Oda Sadatomo
+    }
+    1335.10.23 = {
+        holder = 12127550 # Oda Haruhisa
+    }
+    1353.01.16 = {
+        holder = 12127560 # Oda Takatomo
+    }
+    1388.06.22 = {
+        liege = k_nmih_kanto_kanrei # 
+        holder = 10017011 # Uesugi Norikata
+    }
+    1390.01.01 = {
+        holder = 10020356 # Tokihara Hidenari
+    }
+    1415.01.01 = {
+        holder = 10020357 # Tokihara Norihide
+    }
+    1440.01.01 = {
+        holder = 10020358 # Tokihara Kagehide
+    }
+    1470.01.01 = {
+        holder = 10020352 # Tokihara Kagenari
+    }
+    1497.05.17 = {
+        holder = 10025302 # Toki Masafusa
+    }
+    1502.06.01 = {
+        holder = 10020351 # Toki Haruyori
+    }
+    1557.01.14 = {
+        holder = 10020379 # Toki Haruhide
+    }
+    1570.01.01 = {
+        holder = 10020382 # Toki Harutsuna
+    }
+    1589.01.01 = {
+        holder = 10020384 # Toki Yorihide
+    }
+}
+c_shgnt_soma = {
+    0001.01.01 = { change_development_level = 10 }
+    1400.01.01 = { change_development_level = 10 }
+    1591.01.01 = { change_development_level = 10 }
+    0940.03.25 = {
+        holder = 10110500 # Taira Yoshifumi
+    }
+    0953.01.11 = {
+        holder = 10110502 # Taira Tadayori
+    }
+    1019.01.25 = {
+        holder = 10110510 # Taira Tadatsune
+    }
+    1031.06.28 = {
+        liege = d_shgnt_shimousa # 
+        holder = 10110520 # Taira Tsunemasa
+    }
+    1076.07.06 = {
+        holder = 10110530 # Taira Tsunenaga
+    }
+    1108.03.23 = {
+        holder = 12155000 # Kazusa [Taira] Tsuneharu
+    }
+    1127.01.01 = {
+        holder = 12150110 # Chiba Tsuneshige
+    }
+    1145.01.01 = {
+        holder = 12155001 # Kazusa [Taira] Tsunesumi
+    }
+    1146.01.01 = {
+        holder = 12150120 # Chiba Tsunetane
+    }
+    1163.01.01 = {
+        holder = 0 # Minamoto Yoshimune
+    }
+    1180.01.01 = {
+        liege = d_shgnt_kazusa # 
+        holder = 12155018 # Soma Tsunekiyo
+    }
+    1184.02.03 = {
+        liege = d_shgnt_shimousa # 
+        holder = 12150124 # Soma Morotsune
+    }
+    1205.01.01 = {
+        holder = 12150800 # Soma Yoshitane
+    }
+    1228.01.01 = {
+        holder = 12150810 # Soma Tanetsuna
+    }
+    1278.01.01 = {
+        holder = 12150820 # Soma Tanemura
+    }
+    1298.01.01 = {
+        holder = 12150831 # Soma Taneuji
+    }
+    1320.01.01 = {
+        holder = 10006762 # Soma Tanemoto
+    }
+    1325.01.01 = {
+        holder = 10006761 # Soma Tanetada
+    }
+    1350.01.01 = {
+        liege = k_nmih_kamakura_kubo # 
+        holder = 10006760 # Soma Tanenaga
+    }
+    1370.01.01 = {
+        liege = k_nmih_kamakura_kubo # 
+        holder = 10006759 # Soma Tanemune
+    }
+    1390.01.01 = {
+        liege = k_nmih_kamakura_kubo # 
+        holder = 10006758 # Soma Suketane
+    }
+    1410.01.01 = {
+        liege = k_nmih_kamakura_kubo # 
+        holder = 10006757 # Soma Taneyoshi
+    }
+    1430.01.01 = {
+        liege = k_nmih_kamakura_kubo
+        holder = 10006756
+    }
+    1450.01.01 = {
+        liege = k_nmih_kamakura_kubo
+        holder = 10006755
+    }
+    1470.01.01 = {
+        liege = k_nmih_kamakura_kubo
+        holder = 10006754
+    }
+    1490.01.01 = {
+        liege = k_nmih_kamakura_kubo
+        holder = 10006753
+    }
+    1510.01.01 = {
+        liege = k_nmih_kamakura_kubo
+        holder = 10006752
+    }
+    1530.01.01 = {
+        liege = k_nmih_kamakura_kubo
+        holder = 10006751
+    }
+    1546.05.19 = {
+        holder = 10006765 # Soma Masatane
+    }
+    1566.02.17 = {
+        holder = 10006767 # Soma Harutane
+    }
+}
+c_shgnt_sosa = {
+    0001.01.01 = { change_development_level = 10 }
+    1250.01.01 = { change_development_level = 10 }
+    1460.01.01 = { change_development_level = 10 }
+    1560.01.01 = { change_development_level = 20 }
+    1570.01.01 = { change_development_level = 10 }
+    1591.01.01 = { change_development_level = 0 }
+    1135.01.01 = {
+        holder = 12160100 # Chida [Fujiwara] Chikamichi
+    }
+    1140.01.01 = {
+        holder = 12160110 # Chiba [Fujiwara] Chikamori
+    }
+    1170.01.01 = {
+        holder = 12160120 # Chiba [Fujiwara] Chikamasa
+    }
+    1180.10.04 = {
+        liege = d_shgnt_shimousa # 
+        holder = 12150128 # To Taneyori
+    }
+    1193.01.01 = {
+        holder = 12150300 # To Shigetane
+    }
+    1219.02.13 = {
+        holder = 12150305 # To Taneyuki
+    }
+    1221.07.06 = {
+        holder = 12150306 # Unakami Tanekata
+    }
+    1260.01.01 = {
+        holder = 12151024 # Unakami Tanekage
+    }
+    1280.01.01 = {
+        holder = 12151032 # Unakami Taneyasu
+    }
+    1320.01.01 = {
+        holder = 12151035 # Unakami Morotane
+    }
+    1350.01.01 = {
+        liege = d_shgnt_shimousa # 
+        holder = 12151040 # Unakami Kimitane
+    }
+    1390.01.01 = {
+        holder = 12151045 # Unakami Noritane
+    }
+    1430.01.01 = {
+        holder = 12151050 # Unakami Yoritane
+    }
+    1450.01.01 = {
+        holder = 12151055 # Unakami Morotane
+    }
+    1480.01.01 = {
+        holder = 12151057 # Unakami Tanesada
+    }
+    1500.01.01 = {
+        holder = 12151060 # Unakami Sukehide
+    }
+    1520.01.01 = {
+        holder = 12151070 # Unakami Mochihide
+    }
+    1550.01.01 = {
+        holder = 12151075 # Unakami Tanehide
+    }
+}
+c_shgnt_taka = {
+    0001.01.01 = { change_development_level = 10 }
+    1348.01.01 = { change_development_level = 10 }
+    1400.01.01 = { change_development_level = 20 }
+    1147.01.01 = {
+        holder = 12122002 # Satake Takayoshi
+    }
+    1180.11.22 = {
+        liege = 0 # Siege of Kanasa Castle
+        holder = 12122002 # Satake Takayoshi
+    }
+    1183.06.11 = {
+        liege = d_shgnt_hitachi # 
+        holder = 12122050 # Satake Hideyoshi / served under Yoritomo
+    }
+    1226.01.17 = {
+        holder = 12122080 # Satake Yoshishige
+    }
+    1252.04.05 = {
+        holder = 12122082 # Satake Nagayoshi
+    }
+    1272.01.01 = {
+        holder = 12122090 # Satake Yoshitane
+    }
+    1278.04.30 = {
+        holder = 12122100 # Satake Yukiyoshi
+    }
+    1305.07.15 = {
+        holder = 12122110 # Satake Sadayoshi
+    }
+    1352.10.18 = {
+        holder = 12122120 # Satake Yoshiatsu
+    }
+    1362.02.07 = {
+        holder = 12122130 # Satake Yoshinobu
+    }
+    1389.08.05 = {
+        holder = 10010821 # Satake Yoshimori
+    }
+    1407.10.22 = {
+        holder = 10010816 # Satake Yoshihito
+    }
+    1468.01.19 = {
+        holder = 10010815 # Satake Yoshitoshi
+    }
+    1477.12.29 = {
+        holder = 10010808 # Satake Yoshiharu
+    }
+    1490.05.14 = {
+        holder = 10010803 # Satake Yoshikiyo
+    }
+    1517.04.03 = {
+        holder = 10010801 # Satake Yoshiatsu
+    }
+    1545.05.19 = {
+        holder = 10010802 # Satake Yoshiaki
+    }
+    1565.11.25 = {
+        holder = 10010830 # Satake Yoshishige
+    }
+}
+c_shgnt_tsukuha = {
+    0001.01.01 = { change_development_level = 10 }
+    1180.11.22 = { change_development_level = 20 }
+    1193.07.29 = { change_development_level = 20 }
+    1400.01.01 = { change_development_level = 30 }
+    1500.01.01 = { change_development_level = 40 }
+    1160.01.01 = {
+        holder = 12120135 # Daijo Yoshimoto
+    }
+    1193.07.29 = {
+        holder = 12130005 # Hatta Tomoie
+    }
+    1218.03.30 = {
+        holder = 12127500 # Oda Tomoshige
+    }
+    1228.01.01 = {
+        holder = 12127510 # Oda Yasutomo
+    }
+    1245.05.13 = {
+        holder = 12127520 # Oda Tokitomo
+    }
+    1293.05.15 = {
+        holder = 12127530 # Oda Munetomo
+    }
+    1306.12.06 = {
+        holder = 12127541 # Oda Sadatomo
+    }
+    1335.10.23 = {
+        holder = 12127550 # Oda Haruhisa
+    }
+    1353.01.16 = {
+        holder = 12127560 # Oda Takatomo
+    }
+    1414.07.03 = {
+        liege = 0 # 
+        holder = 10010406 # Oda Mochiie
+    }
+    1440.01.01 = {
+        holder = 10010405 # Oda Tomohisa
+    }
+    1455.06.05 = {
+        holder = 10010403 # Oda Shigeharu
+    }
+    1514.01.01 = {
+        holder = 10010401 # Oda Masaharu
+    }
+    1548.03.31 = {
+        holder = 10010402 # Oda Ujiharu
+    }
+}
+c_shgnt_unakami = {
+    0001.01.01 = { change_development_level = 10 }
+    1200.01.01 = { change_development_level = 10 }
+    1250.01.01 = { change_development_level = 20 }
+    1456.01.01 = { change_development_level = 30 }
+    1179.12.18 = {
+        liege = d_shgnt_kazusa # Fujiwara [Ito] Tadakiyo
+        holder = 12161100 # Ito [Taira] Shigekuni
+    }
+    1180.10.03 = {
+        liege = d_shgnt_kazusa # Kazusa Hirotsune
+        holder = 12155017 # Kazusa Hirotsune
+    }
+    1184.02.03 = {
+        liege = d_shgnt_shimousa # 
+        holder = 12150120 # Chiba Tsunetane
+    }
+    1201.04.28 = {
+        holder = 12150123 # Chiba Tanemasa
+    }
+    1203.08.28 = {
+        holder = 12150131 # Sakai Tsunehide
+    }
+    1235.01.01 = {
+        holder = 12151200 # Sakai Hidetane
+    }
+    1247.07.08 = {
+        holder = 10131824 # Hojo Tokiyori
+    }
+    1247.08.01 = {
+        holder = 12139003 # Ashikaga Yoshiuji
+    }
+    1255.01.01 = {
+        holder = 12139015 # Ashikaga Yoriuji
+    }
+    1262.01.01 = {
+        holder = 12139022 # Ashikaga Ietoki
+    }
+    1284.08.07 = {
+        holder = 12139024 # Ashikaga Sadauji
+    }
+    1331.10.07 = {
+        holder = 12139028 # Ashikaga Takauji
+    }
+    1351.11.01 = {
+        liege = d_shgnt_kazusa # 
+        holder = 10044204 # Sasaki Hidetsuna
+    }
+    1352.06.01 = {
+        holder = 12150166 # Chiba Ujitane
+    }
+    1355.05.01 = {
+        holder = 10044203 # Sasaki Takauji
+    }
+    1356.04.01 = {
+        holder = 12150166 # Chiba Ujitane
+    }
+    1364.04.01 = {
+        holder = 12187025 # Iwamatsu Yoshimasa
+    }
+    1364.12.01 = {
+        holder = 10017046 # Uesugi Tomofusa
+    }
+    1370.01.01 = {
+        holder = 10017047 # Uesugi Tomomune
+    }
+    1409.01.01 = {
+        holder = 10017048 # Uesugi Zenshu
+    }
+    1417.01.27 = {
+        holder = 10040061 # Ashikaga Mochiuji
+    }
+    1418.01.01 = {
+        holder = 12130120 # Utsunomiya Mochitsuna
+    }
+    1423.09.13 = {
+        holder = 10017061 # Uesugi Sadayori
+    }
+    1430.01.01 = {
+        holder = 10011611 # Chiba Tanenao
+    }
+    1441.01.01 = {
+        holder = 10011612 # Chiba Tanemasa
+    }
+    1454.07.18 = {
+        holder = 10011613 # Chiba Tanenobu
+    }
+    1455.09.23 = {
+        holder = 10040059 # Ashikaga Shigeuji
+    }
+    1456.01.01 = {
+        holder = 10011809 # Takeda Nobunaga
+    }
+    1477.01.01 = {
+        holder = 10011808
+    }
+    1480.01.01 = {
+        holder = 10011807
+    }
+    1506.01.01 = {
+        holder = 10011805
+    }
+    1523.01.01 = {
+        holder = 10011801 # Takeda Nobukiyo
+    }
+    1534.08.10 = {
+        holder = 10011802 # Takeda Nobutaka
+    }
+    1537.01.01 = {
+        holder = 10011803 # Takeda Nobumasa
+    }
+    1538.10.07 = {
+        holder = 10011802 # Takeda Nobutaka
+    }
+    1551.09.22 = {
+        holder = 10011804 # Takeda Nobumasa
+    }
+    1552.11.19 = {
+        liege = d_shgnt_boshu # Satomi expanded in Kazusa
+        holder = 10011901 # Satomi Yoshitaka
+    }
+    1565.01.01 = {
+        liege = k_shgnt_western_kanto # Hojo expands into Kazusa
+        holder = 10011815 # Takeda Nobutaka
+    }
+}
+c_shgnt_yuki = {
+    0001.01.01 = { change_development_level = 10 }
+    1250.01.01 = { change_development_level = 20 }
+    1460.01.01 = { change_development_level = 20 }
+    1180.01.01 = {
+        liege = d_nmih_oyama # 
+        holder = 10010227 # Yuki Tomomitsu
+    }
+    1254.02.24 = {
+        holder = 10010225 # Yuki Tomohiro
+    }
+    1274.01.01 = {
+        holder = 10010224 # Yuki Hirotsuna
+    }
+    1278.07.14 = {
+        holder = 10010223 # Yuki Tokihiro
+    }
+    1290.08.07 = {
+        holder = 10010222 # Yuki Sadahiro
+    }
+    1309.11.13 = {
+        holder = 10010220 # Yuki Tomosuke
+    }
+    1336.05.30 = {
+        holder = 10010221 # Yuki Naotomo
+    }
+    1343.04.26 = {
+        liege = e_shgnt_japan # 
+        holder = 10010216 # Yuki Naomitsu
+    }
+    1395.02.07 = {
+        liege = k_nmih_kamakura_kubo # 
+        holder = 10010213 # Yuki Motomitsu
+    }
+    1410.01.01 = {
+        holder = 10010212 # Yuki Mitsuhiro
+    }
+    1416.01.01 = {
+        holder = 10010208 # Yuki Ujitomo
+    }
+    1441.05.06 = {
+        liege = k_nmih_kamakura_kubo # 
+        holder = 10010211 # Yuki Shigetomo
+    }
+    1463.01.18 = {
+        holder = 10010205 # Yuki Ujihiro
+    }
+    1481.04.27 = {
+        holder = 10010203 # Yuki Masatomo
+    }
+    1527.01.01 = {
+        holder = 10010201 # Yuki Masakatsu
+    }
+    1559.09.02 = {
+        holder = 10010228 # Yuki Akitomo
+    }
+    1559.09.03 = {
+        holder = 10011204 # Yuki Harutomo
+    }
+}
+d_shgnt_boshu = {
+    1125.05.10 = {
+        holder = 11003582 # Fujiwara Takanaka {Awa no Kami}
+    }
+    1135.05.05 = {
+        holder = 0
+    }
+    1136.12.06 = {
+        holder = 11005390 # Fujiwara Chikatada {Awa no Kami}
+    }
+    1145.01.01 = {
+        holder = 0
+    }
+    1158.12.25 = {
+        holder = 11003393 # Fujiwara Tsunefusa {Awa no Kami}
+    }
+    1164.03.29 = {
+        holder = 0
+    }
+    1176.03.19 = {
+        holder = 11003395 # Fujiwara Sadanaga {Awa no Kami}
+    }
+    1180.01.01 = {
+        liege = 0
+        holder = 0
+    }
+    1180.06.15 = {
+        liege = k_shgnt_western_kanto # 
+        holder = 12211020 # Miura Yoshiaki
+    }
+    1180.09.18 = {
+        holder = 12211030 # Miura Yoshizumi
+    }
+    1192.07.12 = {
+        liege = e_shgnt_japan # 
+        holder = 12211030 # Miura Yoshizumi
+    }
+    1200.02.09 = {
+        holder = 12211040 # Miura Yoshimura
+    }
+    1239.12.31 = {
+        holder = 12211050 # Miura Yasumura
+    }
+    1247.07.08 = {
+        holder = 12139006 # Ashikaga Yasuuji
+    }
+    1252.01.21 = {
+        holder = 12139015 # Ashikaga Yoriuji
+    }
+    1262.01.01 = {
+        holder = 12139022 # Ashikaga Ietoki
+    }
+    1284.08.07 = {
+        holder = 12139024 # Ashikaga Sadauji
+    }
+    1331.10.07 = {
+        holder = 12139028 # Ashikaga Takauji
+    }
+    1336.01.24 = {
+        holder = 10029006 # Shiba Ienaga
+    }
+    1338.01.16 = {
+        holder = 12139028 # Ashikaga Takauji
+    }
+	1349.10.21 = {
+		de_jure_liege = "k_nmih_kamakura_kubo"
+	}
+    1363.03.01 = {
+        holder = 10017006 # Uesugi Noriaki
+    }
+    1369.05.01 = {
+        holder = 10010216 # Yuki Naomitsu
+    }
+    1388.06.01 = {
+        holder = 10017011 # Uesugi Norikata
+    }
+    1390.06.01 = {
+        holder = 10010216 # Yuki Naomitsu
+    }
+    1395.02.07 = {
+        liege = k_nmih_kamakura_kubo # 
+        holder = 12209001 # Kido Mitsunori
+    }
+    1416.10.30 = {
+        holder = 10040061 # Ashikaga Mochiuji
+    }
+    1417.01.27 = {
+        holder = 10017061 # Uesugi Sadayori
+    }
+    1430.01.01 = {
+        liege = k_nmih_kanto_kanrei # 
+        holder = 10017020 # Uesugi Norizane
+    }
+    1439.03.24 = {
+        holder = 10032805 # Uesugi Kiyokata
+    }
+    1444.01.01 = {
+        holder = 10017021 # Uesugi Noritada
+    }
+    1455.01.15 = {
+        holder = 10017022 # Uesugi Fusaaki
+    }
+    1456.01.01 = {
+        liege = k_nmih_kamakura_kubo # 
+        holder = 12186066 # Satomi Yoshizane
+    }
+    1488.05.18 = {
+        holder = 10011907 # Satomi Yoshimichi
+    }
+    1525.01.01 = {
+        holder = 10011908
+    }
+    1533.01.01 = {
+        holder = 10011901
+    }
+    1574.06.19 = {
+        holder = 10011902 # Satomi Yoshihiro
+    }
+    1578.07.05 = {
+        holder = 10011910 # Satomi Yoshishige
+    }
+    1580.05.01 = {
+        holder = 10011903 # Satomi Yoshiyori
+    }
+}
+d_shgnt_hitachi = {
+    0719.08.04 = {
+        holder = 11000010 # Fujiwara Umakai {Hitachi no Suke}
+    }
+    0723.01.01 = {
+        holder = 0
+    }
+    0763.02.26 = {
+        holder = 11000017 # Fujiwara Kiyokawa {Hitachi no Suke}
+    }
+    0764.11.02 = {
+        holder = 0
+    }
+    0814.07.25 = {
+        holder = 11000029 # Fujiwara Futakimaro {Hitachi no Suke}
+    }
+    0815.01.01 = {
+        holder = 0
+    }
+    0830.02.01 = {
+        holder = 10110000 # Yamato Kazuwara {Hitachi Taishu}
+    }
+    0841.05.03 = {
+        holder = 11004531 # Fujiwara Haruoka {Hitachi no Suke}
+    }
+    0845.02.24 = {
+        holder = 0
+    }
+    0940.01.08 = {
+        holder = 11005215 # Fujiwara Korechiyo {Hitachi no Suke}
+    }
+    0944.01.01 = {
+        holder = 0
+    }
+    0982.04.06 = {
+        holder = 10120002 # Minamoto Mitsunaka {Hitachi no Suke}
+    }
+    0983.01.01 = {
+        holder = 0
+    }
+    1020.10.14 = {
+        holder = 10110015 # Taira Korehira {Hitachi no Suke}
+    }
+    1024.04.20 = {
+        holder = 0
+    }
+    1028.03.26 = {
+        holder = 10110015 # Taira Korehira {Hitachi no Suke}
+    }
+    1030.08.06 = {
+        holder = 11005727 # Fujiwara Kanesuke {Hitachi no Suke}
+    }
+    1032.03.27 = {
+        holder = 0
+    }
+    1072.01.29 = {
+        holder = 11000121 # Fujiwara Tadatsuna {Hitachi no Suke}
+    }
+    1080.08.23 = {
+        holder = 0
+    }
+    1135.07.07 = {
+        holder = 11001035 # Fujiwara Kinnobu {Hitachi no Suke}
+    }
+    1137.09.01 = {
+        holder = 0
+    }
+    1180.01.01 = {
+        liege = 0 # 
+        holder = 12122002 # Satake Takayoshi
+    }
+    1180.11.22 = {
+        liege = k_shgnt_western_kanto # 
+        holder = 10120075 # Minamoto Yoritomo
+    }
+    1185.04.25 = {
+        holder = 12130005 # Hatta Tomoie
+    }
+    1218.03.30 = {
+        holder = 12127500 # Oda Tomoshige
+    }
+    1228.01.01 = {
+        holder = 12127510 # Oda Yasutomo
+    }
+    1245.05.13 = {
+        holder = 12127520 # Oda Tokitomo
+    }
+    1293.05.15 = {
+        holder = 12127530 # Oda Munetomo
+    }
+    1306.12.06 = {
+        holder = 12127541 # Oda Sadatomo
+    }
+    1335.10.23 = {
+        holder = 12122110 # Satake Sadayoshi
+    }
+	1349.10.21 = {
+		de_jure_liege = "k_nmih_kamakura_kubo"
+	}
+    1352.10.18 = {
+        holder = 12122120 # Satake Yoshiatsu
+    }
+    1362.02.07 = {
+        holder = 12122130 # Satake Yoshinobu
+    }
+    1389.08.05 = {
+        holder = 10010821 # Satake Yoshimori
+    }
+    1407.10.22 = {
+        liege = 0 # 
+        holder = 10010816 # Satake Yoshihito
+    }
+    1468.01.19 = {
+        holder = 10010815 # Satake Yoshitoshi
+    }
+    1477.12.29 = {
+        holder = 10010808 # Satake Yoshiharu
+    }
+    1490.05.14 = {
+        holder = 10010803 # Satake Yoshikiyo
+    }
+    1517.04.03 = {
+        holder = 10010801 # Satake Yoshiatsu
+    }
+    1545.05.19 = {
+        holder = 10010802 # Satake Yoshiaki
+    }
+    1565.11.25 = {
+        holder = 10010830 # Satake Yoshishige
+    }
+}
+d_shgnt_kazusa = {
+    0759.11.29 = {
+        holder = 11000018 # Fujiwara Uona {Kazusa no Suke}
+    }
+    0761.02.26 = {
+        holder = 0
+    }
+    0780.05.26 = {
+        holder = 11005111 # Fujiwara Yoshio {Kazusa no Suke}
+    }
+    0783.06.04 = {
+        holder = 0
+    }
+    0889.06.17 = {
+        holder = 10110001 # Taira Takamochi {Kazusa no Suke}
+    }
+    0892.04.17 = {
+        holder = 10120000 # Yamato Sadazumi {Kazusa Taishu}
+    }
+    0901.02.28 = {
+        holder = 0
+    }
+    0912.01.27 = {
+        holder = 11004699 # Fujiwara Toshihito {Kazusa no Suke}
+    }
+    0914.06.08 = {
+        holder = 0
+    }
+    1114.11.22 = {
+        holder = 11001049 # Fujiwara Suekane {Kazusa no Suke}
+    }
+    1149.05.04 = {
+        holder = 0
+    }
+    1176.06.13 = {
+        holder = 11003918 # Fujiwara Tameyasu {Kazusa no Suke}
+    }
+    1179.12.18 = {
+        liege = e_shgnt_japan # Taira Kiyomori
+        holder = 10131576 # Fujiwara [Ito] Tadakiyo {Kazusa no Suke}
+    }
+    1180.01.01 = {
+        liege = 0 # 
+        holder = 12155017 # Kazusa Hirotsune
+    }
+    1184.02.03 = {
+        liege = k_shgnt_western_kanto # 
+        holder = 12211501 # Wada Yoshimori # De Facto
+    }
+    1213.05.24 = {
+        holder = 12150131 # Sakai Tsunehide # De Facto
+    }
+    1235.01.01 = {
+        holder = 12151200 # Sakai Hidetane # De Facto
+    }
+    1247.07.08 = {
+        holder = 10131824 # Hojo Tokiyori # De Facto
+    }
+    1247.08.01 = {
+        holder = 12139003 # Ashikaga Yoshiuji # De Facto
+    }
+    1255.01.01 = {
+        holder = 12139015 # Ashikaga Yoriuji
+    }
+    1262.01.01 = {
+        holder = 12139022 # Ashikaga Ietoki
+    }
+    1284.08.07 = {
+        holder = 12139024 # Ashikaga Sadauji
+    }
+    1331.10.07 = {
+        holder = 12139028 # Ashikaga Takauji
+    }
+	1349.10.21 = {
+		de_jure_liege = "k_nmih_kamakura_kubo"
+	}
+    1351.11.01 = {
+        holder = 10044204 # Sasaki Hidetsuna
+    }
+    1352.06.01 = {
+        holder = 12150166 # Chiba Ujitane
+    }
+    1355.05.01 = {
+        holder = 10044203 # Sasaki Takauji
+    }
+    1356.04.01 = {
+        holder = 12150166 # Chiba Ujitane
+    }
+    1364.04.01 = {
+        holder = 12187025 # Iwamatsu Yoshimasa
+    }
+    1364.12.01 = {
+        liege = k_nmih_kanto_kanrei # 
+        holder = 10017046 # Uesugi Tomofusa
+    }
+    1370.01.01 = {
+        holder = 10017047 # Uesugi Tomomune
+    }
+    1409.01.01 = {
+        holder = 10017048 # Uesugi Zenshu
+    }
+    1417.01.27 = {
+        liege = k_nmih_kamakura_kubo # 
+        holder = 10040061 # Ashikaga Mochiuji
+    }
+    1418.01.01 = {
+        holder = 12130120 # Utsunomiya Mochitsuna
+    }
+    1423.09.13 = {
+        liege = k_nmih_kamakura_kubo # 
+        holder = 10017061 # Uesugi Sadayori
+    }
+    1430.01.01 = {
+        holder = 10011611 # Chiba Tanenao
+    }
+    1441.01.01 = {
+        holder = 10011612 # Chiba Tanemasa
+    }
+    1454.07.18 = {
+        holder = 10011613 # Chiba Tanenobu
+    }
+    1455.09.23 = {
+        liege = k_nmih_kamakura_kubo # 
+        holder = 10040059 # Ashikaga Shigeuji
+    }
+    1456.01.01 = {
+        holder = 10011809 # Takeda Nobunaga
+    }
+    1477.01.01 = {
+        holder = 10011808 # Takeda Nobutaka
+    }
+    1480.01.01 = {
+        holder = 10011810 # Takeda Michinobu, Chonan Branch
+    }
+    1484.01.01 = {
+        holder = 10011811 # Takeda Munenobu, Chonan Branch
+    }
+    1517.01.01 = {
+        holder = 10011805 # Takeda Nobukatsu, Mariyatsu Branch
+    }
+    1523.01.01 = {
+        holder = 10011801 # Takeda Nobukiyo
+    }
+    1534.08.10 = {
+        holder = 10011802 # Takeda Nobutaka
+    }
+    1537.01.01 = {
+        holder = 10011803 # Takeda Nobumasa
+    }
+    1538.10.07 = {
+        holder = 10011802 # Takeda Nobutaka
+    }
+    1551.09.22 = {
+        holder = 10011804 # Takeda Nobumasa
+    }
+    1552.11.19 = {
+        holder = 0 # Fall of the Mariyatsu clan
+    }
+}
+d_shgnt_shimotsuke = {
+    0807.01.01 = {
+        holder = 11005168 # Fujiwara Tomohito {Shimotsuke no Kami}
+    }
+    0808.06.15 = {
+        holder = 0
+    }
+    0842.03.08 = {
+        holder = 11003512 # Fujiwara Sekio {Shimotsuke no Kami}
+    }
+    0843.02.07 = {
+        holder = 0
+    }
+    0847.02.05 = {
+        holder = 11000035 # Fujiwara Tasuku {Shimotsuke no Kami}
+    }
+    0849.02.01 = {
+        holder = 0
+    }
+    0910.01.15 = {
+        holder = 0
+    }
+    0940.04.24 = {
+        holder = 11004609 # Fujiwara Hidesato {Shimotsuke no Kami}
+    }
+    0950.01.01 = {
+        holder = 0
+    }
+    1070.09.14 = {
+        holder = 10120040 # Minamoto Yoshiie {Shimotsuke no Kami}
+    }
+    1077.12.20 = {
+        holder = 10120041 # Minamoto Yoshitsuna {Shimotsuke no Kami}
+    }
+    1081.01.01 = {
+        holder = 0
+    }
+    1153.04.30 = {
+        holder = 10120063 # Minamoto Yoshitomo {Shimotsuke no Kami}
+    }
+    1161.04.14 = {
+        liege = 0
+        holder = 0
+    }
+	1349.10.21 = {
+		de_jure_liege = "k_nmih_kamakura_kubo"
+	}
+    1471.01.01 = {
+        liege = 0 # 
+        holder = 10010902 # Utsunomiya Masatsuna
+    }
+    1477.10.07 = {
+        holder = 10010903 # Utsunomiya Shigetsuna
+    }
+    1516.12.01 = {
+        holder = 10010904 # Utsunomiya Tadatsuna
+    }
+    1527.08.12 = {
+        holder = 10010901 # Utsunomiya Okitsuna
+    }
+    1536.09.01 = {
+        holder = 10010932 # Utsunomiya Hisatsuna
+    }
+    1549.10.07 = {
+        holder = 10010933 # Utsunomiya Hirotsuna
+    }
+    1576.08.30 = {
+        holder = 10010934 # Utsunomiya Kunitsuna
+    }
+}
+d_shgnt_shimousa = {
+    0767.08.09 = {
+        holder = 11005151 # Fujiwara Korekimi {Shimousa no Kami}
+    }
+    0770.06.01 = {
+        holder = 0
+    }
+    0774.04.21 = {
+        holder = 11005009 # Fujiwara Ototada {Shimousa no Kami}
+    }
+    0776.10.08 = {
+        holder = 0
+    }
+    0785.11.22 = {
+        holder = 11005164 # Fujiwara Matomo {Shimousa no Kami}
+    }
+    0786.02.14 = {
+        holder = 0
+    }
+    0788.03.21 = {
+        holder = 11005037 # Fujiwara Takatoshi {Shimousa no Kami}
+    }
+    0790.04.02 = {
+        holder = 0
+    }
+    0795.03.01 = {
+        holder = 11005164 # Fujiwara Matomo {Shimousa no Kami}
+    }
+    0799.07.27 = {
+        holder = 0
+    }
+    0828.02.05 = {
+        holder = 11000032 # Fujiwara Chikanari {Shimousa no Kami}
+    }
+    0832.02.10 = {
+        holder = 0
+    }
+    0879.02.05 = {
+        holder = 11005205 # Fujiwara Kiyonatsu {Shimousa no Kami}
+    }
+    0883.02.15 = {
+        holder = 0
+    }
+    1167.03.21 = {
+        holder = 11001102 # Fujiwara Sanenaka {Shimousa no Kami}
+    }
+    1167.10.01 = {
+        holder = 0
+    }
+    1180.01.01 = {
+        liege = 0 # De facto
+        holder = 12160120 # Chida Chikamasa
+    }
+    1180.10.04 = {
+        liege = 0 # 
+        holder = 12150120 # Chiba Tsunetane
+    }
+    1201.04.28 = {
+        holder = 12150123 # Chiba Tanemasa
+    }
+    1203.08.28 = {
+        holder = 12150130 # Chiba Naritane
+    }
+    1218.05.06 = {
+        holder = 12150135 # Chiba Tanetsuna
+    }
+    1228.07.01 = {
+        holder = 12150140 # Chiba Tokitane
+    }
+    1241.10.23 = {
+        holder = 12150145 # Chiba Yoritane
+    }
+    1275.09.07 = {
+        holder = 12150151 # Chiba Tanemune
+    }
+    1312.05.05 = {
+        holder = 12150160 # Chiba Sadatane
+    }
+	1349.10.21 = {
+		de_jure_liege = "k_nmih_kamakura_kubo"
+	}
+    1351.01.28 = {
+        holder = 12150166 # Chiba Ujitane
+    }
+    1365.09.28 = {
+        liege = k_nmih_kamakura_kubo # 
+        holder = 12150170 # Chiba Mitsutane
+    }
+    1417.01.27 = {
+        liege = k_nmih_kamakura_kubo # 
+        holder = 12150175 # Chiba Kanetane
+    }
+    1430.07.07 = {
+        holder = 10011611 # Chiba Tanenao
+    }
+    1441.01.01 = {
+        holder = 10011612 # Chiba Tanemasa
+    }
+    1454.07.18 = {
+        holder = 10011613 # Chiba Tanenobu
+    }
+    1455.09.23 = {
+        liege = k_nmih_kamakura_kubo # 
+        holder = 12150176 # Chiba Yasutane
+    }
+    1456.11.28 = {
+        holder = 10011606 # Chiba Suketane
+    }
+    1492.03.13 = {
+        holder = 10011605 # Chiba Noritane
+    }
+    1505.09.26 = {
+        liege = 0 # 
+        holder = 10011604 # Chiba Katsutane
+    }
+    1532.06.24 = {
+        holder = 10011601 # Chiba Masatane
+    }
+    1546.02.07 = {
+        holder = 10011602 # Chiba Toshitsane
+    }
+    1547.07.28 = {
+        holder = 10011673 # Chiba Chikatane
+    }
+    1557.08.30 = {
+        holder = 10011603 # Chiba Tanetomi
+    }
+    1565.11.01 = {
+        holder = 10011618 # Chiba Yoshitane
+    }
+    1570.01.01 = {
+        holder = 10011619 # Chiba Kunitane
+    }
+}
+c_shgnt_nagasa = {
+    0001.01.01 = { change_development_level = 10 }
+    1070.01.01 = { change_development_level = 20 }
+    1342.01.01 = { change_development_level = 30 }
+    1400.01.01 = { change_development_level = 40 }
+    1486.01.01 = { change_development_level = 40 }
+    1180.06.15 = {
+        liege = d_shgnt_boshu # 
+        holder = 12211020 # Miura Yoshiaki
+    }
+    1180.09.18 = {
+        holder = 12211030 # Miura Yoshizumi
+    }
+    1200.02.09 = {
+        holder = 12211040 # Miura Yoshimura
+    }
+    1239.12.31 = {
+        holder = 12211050 # Miura Yasumura
+    }
+    1247.07.08 = {
+        holder = 12139006 # Ashikaga Yasuuji
+    }
+    1252.01.21 = {
+        holder = 12139015 # Ashikaga Yoriuji
+    }
+    1262.01.01 = {
+        holder = 12139022 # Ashikaga Ietoki
+    }
+    1284.08.07 = {
+        holder = 12139024 # Ashikaga Sadauji
+    }
+    1331.10.07 = {
+        holder = 12139028 # Ashikaga Takauji
+    }
+    1336.01.24 = {
+        holder = 10029006 # Shiba Ienaga
+    }
+    1338.01.16 = {
+        holder = 12139028 # Ashikaga Takauji
+    }
+    1363.03.01 = {
+        holder = 10017006 # Uesugi Noriaki
+    }
+    1369.05.01 = {
+        holder = 10010216 # Yuki Naomitsu
+    }
+    1388.06.01 = {
+        holder = 10017011 # Uesugi Norikata
+    }
+    1390.06.01 = {
+        holder = 10010216 # Yuki Naomitsu
+    }
+    1395.02.07 = {
+        holder = 12209001 # Kido Mitsunori
+    }
+    1416.10.30 = {
+        holder = 10040061 # Ashikaga Mochiuji
+    }
+    1417.01.27 = {
+        holder = 10017061 # Uesugi Sadayori
+    }
+    1430.01.01 = {
+        holder = 10017020 # Uesugi Norizane
+    }
+    1439.03.24 = {
+        holder = 10032805 # Uesugi Kiyokata
+    }
+    1444.01.01 = {
+        holder = 10017021 # Uesugi Noritada
+    }
+    1455.01.15 = {
+        holder = 10017022 # Uesugi Fusaaki
+    }
+    1456.01.01 = {
+        holder = 12186066 # Satomi Yoshizane
+    }
+    1488.05.18 = {
+        holder = 10011907 # Satomi Yoshimichi
+    }
+    1525.01.01 = {
+        holder = 10011908 # Satomi Yoshitoyo
+    }
+    1533.01.01 = {
+        holder = 10011901 # Satomi Yoshitaka
+    }
+    1574.06.19 = {
+        holder = 10011902 # Satomi Yoshihiro
+    }
+    1578.07.05 = {
+        holder = 10011903 # Satomi Yoshiyori
+    }
+}
+c_shgnt_asahina = {
+    0001.01.01 = { change_development_level = 10 }
+    1070.01.01 = { change_development_level = 20 }
+    1342.01.01 = { change_development_level = 30 }
+    1400.01.01 = { change_development_level = 40 }
+    1486.01.01 = { change_development_level = 40 }
+    1180.06.15 = {
+        liege = d_shgnt_boshu # 
+        holder = 12211020 # Miura Yoshiaki
+    }
+    1180.09.18 = {
+        holder = 12211030 # Miura Yoshizumi
+    }
+    1200.02.09 = {
+        holder = 12211040 # Miura Yoshimura
+    }
+    1239.12.31 = {
+        holder = 12211050 # Miura Yasumura
+    }
+    1247.07.08 = {
+        holder = 12139006 # Ashikaga Yasuuji
+    }
+    1252.01.21 = {
+        holder = 12139015 # Ashikaga Yoriuji
+    }
+    1262.01.01 = {
+        holder = 12139022 # Ashikaga Ietoki
+    }
+    1284.08.07 = {
+        holder = 12139024 # Ashikaga Sadauji
+    }
+    1331.10.07 = {
+        holder = 12139028 # Ashikaga Takauji
+    }
+    1336.01.24 = {
+        holder = 10029006 # Shiba Ienaga
+    }
+    1338.01.16 = {
+        holder = 12139028 # Ashikaga Takauji
+    }
+    1363.03.01 = {
+        holder = 10017006 # Uesugi Noriaki
+    }
+    1369.05.01 = {
+        holder = 10010216 # Yuki Naomitsu
+    }
+    1388.06.01 = {
+        holder = 10017011 # Uesugi Norikata
+    }
+    1390.06.01 = {
+        holder = 10010216 # Yuki Naomitsu
+    }
+    1395.02.07 = {
+        holder = 12209001 # Kido Mitsunori
+    }
+    1416.10.30 = {
+        holder = 10040061 # Ashikaga Mochiuji
+    }
+    1417.01.27 = {
+        holder = 10017061 # Uesugi Sadayori
+    }
+    1430.01.01 = {
+        holder = 10017020 # Uesugi Norizane
+    }
+    1439.03.24 = {
+        holder = 10032805 # Uesugi Kiyokata
+    }
+    1444.01.01 = {
+        holder = 10017021 # Uesugi Noritada
+    }
+    1455.01.15 = {
+        holder = 10017022 # Uesugi Fusaaki
+    }
+    1456.01.01 = {
+        holder = 12186066 # Satomi Yoshizane
+    }
+    1488.05.18 = {
+        holder = 10011907 # Satomi Yoshimichi
+    }
+    1525.01.01 = {
+        holder = 10011908 # Satomi Yoshitoyo
+    }
+    1533.01.01 = {
+        holder = 10011901 # Satomi Yoshitaka
+    }
+    1574.06.19 = {
+        holder = 10011902 # Satomi Yoshihiro
+    }
+    1578.07.05 = {
+        holder = 10011903 # Satomi Yoshiyori
+    }
+}
+c_shgnt_boshu_heguri = {
+    0001.01.01 = { change_development_level = 10 }
+    1070.01.01 = { change_development_level = 20 }
+    1342.01.01 = { change_development_level = 30 }
+    1400.01.01 = { change_development_level = 40 }
+    1486.01.01 = { change_development_level = 40 }
+    1180.06.15 = {
+        liege = d_shgnt_boshu # 
+        holder = 12211020 # Miura Yoshiaki
+    }
+    1180.09.18 = {
+        holder = 12211030 # Miura Yoshizumi
+    }
+    1200.02.09 = {
+        holder = 12211040 # Miura Yoshimura
+    }
+    1239.12.31 = {
+        holder = 12211050 # Miura Yasumura
+    }
+    1247.07.08 = {
+        holder = 12139006 # Ashikaga Yasuuji
+    }
+    1252.01.21 = {
+        holder = 12139015 # Ashikaga Yoriuji
+    }
+    1262.01.01 = {
+        holder = 12139022 # Ashikaga Ietoki
+    }
+    1284.08.07 = {
+        holder = 12139024 # Ashikaga Sadauji
+    }
+    1331.10.07 = {
+        holder = 12139028 # Ashikaga Takauji
+    }
+    1336.01.24 = {
+        holder = 10029006 # Shiba Ienaga
+    }
+    1338.01.16 = {
+        holder = 12139028 # Ashikaga Takauji
+    }
+    1363.03.01 = {
+        holder = 10017006 # Uesugi Noriaki
+    }
+    1369.05.01 = {
+        holder = 10010216 # Yuki Naomitsu
+    }
+    1388.06.01 = {
+        holder = 10017011 # Uesugi Norikata
+    }
+    1390.06.01 = {
+        holder = 10010216 # Yuki Naomitsu
+    }
+    1395.02.07 = {
+        holder = 12209001 # Kido Mitsunori
+    }
+    1416.10.30 = {
+        holder = 10040061 # Ashikaga Mochiuji
+    }
+    1417.01.27 = {
+        holder = 10017061 # Uesugi Sadayori
+    }
+    1430.01.01 = {
+        holder = 10017020 # Uesugi Norizane
+    }
+    1439.03.24 = {
+        holder = 10032805 # Uesugi Kiyokata
+    }
+    1444.01.01 = {
+        holder = 10017021 # Uesugi Noritada
+    }
+    1455.01.15 = {
+        holder = 10017022 # Uesugi Fusaaki
+    }
+    1456.01.01 = {
+        holder = 12186066 # Satomi Yoshizane
+    }
+    1488.05.18 = {
+        holder = 10011907 # Satomi Yoshimichi
+    }
+    1525.01.01 = {
+        holder = 10011908 # Satomi Yoshitoyo
+    }
+    1533.01.01 = {
+        holder = 10011901 # Satomi Yoshitaka
+    }
+    1574.06.19 = {
+        holder = 10011902 # Satomi Yoshihiro
+    }
+    1578.07.05 = {
+        holder = 10011903 # Satomi Yoshiyori
+    }
+}
+c_shgnt_sue = {
+    0001.01.01 = { change_development_level = 10 }
+    1444.01.01 = { change_development_level = 10 }
+    1461.01.01 = { change_development_level = 20 }
+    1180.01.01 = {
+        holder = 12155019 # Amaha Hidetsune
+    }
+    1184.02.03 = {
+        holder = 12211501 # Wada Yoshimori
+    }
+    1213.05.24 = {
+        liege = d_shgnt_boshu # 
+        holder = 12211040 # Miura Yoshimura / the Battle of Wada
+    }
+    1239.12.31 = {
+        holder = 12211050 # Miura Yasumura
+    }
+    1247.07.08 = {
+        liege = d_shgnt_kazusa # 
+        holder = 10131824 # Hojo Tokiyori
+    }
+    1247.08.01 = {
+        holder = 12139003 # Ashikaga Yoshiuji
+    }
+    1255.01.01 = {
+        holder = 12139015 # Ashikaga Yoriuji
+    }
+    1262.01.01 = {
+        holder = 12139022 # Ashikaga Ietoki
+    }
+    1284.08.07 = {
+        holder = 12139024 # Ashikaga Sadauji
+    }
+    1331.10.07 = {
+        holder = 12139028 # Ashikaga Takauji
+    }
+    1351.11.01 = {
+        liege = d_shgnt_kazusa # 
+        holder = 10044204 # Sasaki Hidetsuna
+    }
+    1352.06.01 = {
+        holder = 12150166 # Chiba Ujitane
+    }
+    1355.05.01 = {
+        holder = 10044203 # Sasaki Takauji
+    }
+    1356.04.01 = {
+        holder = 12150166 # Chiba Ujitane
+    }
+    1364.04.01 = {
+        holder = 12187025 # Iwamatsu Yoshimasa
+    }
+    1364.12.01 = {
+        holder = 10017046 # Uesugi Tomofusa
+    }
+    1370.01.01 = {
+        holder = 10017047 # Uesugi Tomomune
+    }
+    1409.01.01 = {
+        holder = 10017048 # Uesugi Zenshu
+    }
+    1417.01.27 = {
+        holder = 10040061 # Ashikaga Mochiuji
+    }
+    1418.01.01 = {
+        holder = 12130120 # Utsunomiya Mochitsuna
+    }
+    1423.09.13 = {
+        holder = 10017061 # Uesugi Sadayori
+    }
+    1430.01.01 = {
+        holder = 10011611 # Chiba Tanenao
+    }
+    1441.01.01 = {
+        holder = 10011612 # Chiba Tanemasa
+    }
+    1454.07.18 = {
+        holder = 10011613 # Chiba Tanenobu
+    }
+    1455.09.23 = {
+        holder = 10040059 # Ashikaga Shigeuji
+    }
+    1456.01.01 = {
+        holder = 10011809 # Takeda Nobunaga
+    }
+    1477.01.01 = {
+        holder = 10011808
+    }
+    1480.01.01 = {
+        holder = 10011807
+    }
+    1506.01.01 = {
+        holder = 10011805
+    }
+    1523.01.01 = {
+        holder = 10011801 # Takeda Nobukiyo
+    }
+    1534.08.10 = {
+        holder = 10011802 # Takeda Nobutaka
+    }
+    1537.01.01 = {
+        liege = d_shgnt_boshu # vassal of Satomi
+        holder = 10011851 # Masaki Tokishige
+    }
+    1561.05.29 = {
+        holder = 10011854 # Masaki Nobushige
+    }
+    1564.02.20 = {
+        holder = 10011862 # Masaki Noritoki
+    }
+    1581.10.26 = {
+        holder = 10011913 # Masaki(Satomi) Tokishige
+    }
+}
+c_shgnt_ichihara = {
+    0001.01.01 = { change_development_level = 10 }
+    1456.01.01 = { change_development_level = 10 }
+    1457.01.01 = { change_development_level = 20 }
+    1460.01.01 = { change_development_level = 30 }
+    1541.01.01 = { change_development_level = 30 }
+    1180.01.01 = {
+        liege = d_shgnt_kazusa # Kazusa Hirotsune
+        holder = 12155017 # Kazusa Hirotsune
+    }
+    1184.02.03 = {
+        holder = 12211501 # Wada Yoshimori
+    }
+    1213.05.24 = {
+        holder = 10131653 # Hojo Yoshitoki / the Battle of Wada
+    }
+    1224.07.01 = {
+        holder = 10131666 # Hojo Yasutoki
+    }
+    1242.07.14 = {
+        holder = 10131823 # Hojo Tsunetoki
+    }
+    1246.05.17 = {
+        holder = 10131824 # Hojo Tokiyori
+    }
+    1263.12.24 = {
+        holder = 10131998 # Hojo Tokimune
+    }
+    1284.04.20 = {
+        holder = 10132155 # Hojo Sadatoki
+    }
+    1311.12.06 = {
+        holder = 10132268 # Hojo Takatoki
+    }
+    1333.07.04 = {
+        holder = 12139028 # Ashikaga Takauji
+    }
+    1335.01.01 = {
+        holder = 10044203 # Sasaki Takauji
+    }
+    1356.04.01 = {
+        liege = d_shgnt_kazusa # 
+        holder = 12150166 # Chiba Ujitane
+    }
+    1364.04.01 = {
+        holder = 12187025 # Iwamatsu Yoshimasa
+    }
+    1364.12.01 = {
+        holder = 10017046 # Uesugi Tomofusa
+    }
+    1370.01.01 = {
+        holder = 10017047 # Uesugi Tomomune
+    }
+    1409.01.01 = {
+        holder = 10017048 # Uesugi Zenshu
+    }
+    1417.01.27 = {
+        holder = 10040061 # Ashikaga Mochiuji
+    }
+    1418.01.01 = {
+        holder = 12130120 # Utsunomiya Mochitsuna
+    }
+    1423.09.13 = {
+        holder = 10017061 # Uesugi Sadayori
+    }
+    1430.01.01 = {
+        holder = 10011611 # Chiba Tanenao
+    }
+    1441.01.01 = {
+        holder = 10011612 # Chiba Tanemasa
+    }
+    1454.07.18 = {
+        holder = 10011613 # Chiba Tanenobu
+    }
+    1455.09.23 = {
+        holder = 10040059 # Ashikaga Shigeuji
+    }
+    1456.01.01 = {
+        holder = 10011809 # Takeda Nobunaga
+    }
+    1477.01.01 = {
+        holder = 10011808 # Takeda Nobutaka
+    }
+    1480.01.01 = {
+        holder = 10011807 # Mariyatsu Nobuoki
+    }
+    1506.01.01 = {
+        holder = 10011805 # Mariyatsu Nobukatsu
+    }
+    1523.01.01 = {
+        holder = 10011801 # Takeda Nobukiyo
+    }
+    1534.08.10 = {
+        holder = 10011802 # Takeda Nobutaka
+    }
+    1537.01.01 = {
+        holder = 10011803 # Takeda Nobumasa
+    }
+    1538.10.07 = {
+        holder = 10011802 # Takeda Nobutaka
+    }
+    1541.01.01 = {
+        liege = d_shgnt_boshu # 
+        holder = 10011901 # Satomi Yoshitaka
+    }
+    1574.06.19 = {
+        holder = 10011902 # Satomi Yoshihiro
+    }
+    1578.07.05 = {
+        holder = 10011910 # Satomi Yoshishige
+    }
+    1580.05.01 = {
+        holder = 10011903 # Satomi Yoshiyori
+    }
+}
+c_shgnt_haniu = {
+    0001.01.01 = { change_development_level = 10 }
+    1100.01.01 = { change_development_level = 20 }
+    1333.01.01 = { change_development_level = 40 }
+    1456.01.01 = { change_development_level = 50 }
+    1180.01.01 = {
+        liege = d_shgnt_kazusa # Kazusa Hirotsune
+        holder = 12155017 # Kazusa Hirotsune
+    }
+    1184.02.03 = {
+        liege = d_shgnt_shimousa # 
+        holder = 12150120 # Chiba Tsunetane
+    }
+    1201.04.28 = {
+        holder = 12150123 # Chiba Tanemasa
+    }
+    1203.08.28 = {
+        holder = 12150131 # Sakai Tsunehide
+    }
+    1235.01.01 = {
+        holder = 12151200 # Sakai Hidetane
+    }
+    1247.07.08 = {
+        holder = 10131824 # Hojo Tokiyori
+    }
+    1247.08.01 = {
+        holder = 12139003 # Ashikaga Yoshiuji
+    }
+    1255.01.01 = {
+        holder = 12139015 # Ashikaga Yoriuji
+    }
+    1262.01.01 = {
+        holder = 12139022 # Ashikaga Ietoki
+    }
+    1284.08.07 = {
+        holder = 12139024 # Ashikaga Sadauji
+    }
+    1331.10.07 = {
+        holder = 12139028 # Ashikaga Takauji
+    }
+    1351.11.01 = {
+        liege = d_shgnt_kazusa # 
+        holder = 10044204 # Sasaki Hidetsuna
+    }
+    1352.06.01 = {
+        holder = 12150166 # Chiba Ujitane
+    }
+    1355.05.01 = {
+        holder = 10044203 # Sasaki Takauji
+    }
+    1356.04.01 = {
+        holder = 12150166 # Chiba Ujitane
+    }
+    1364.04.01 = {
+        holder = 12187025 # Iwamatsu Yoshimasa
+    }
+    1364.12.01 = {
+        holder = 10017046 # Uesugi Tomofusa
+    }
+    1370.01.01 = {
+        holder = 10017047 # Uesugi Tomomune
+    }
+    1409.01.01 = {
+        holder = 10017048 # Uesugi Zenshu
+    }
+    1417.01.27 = {
+        holder = 10040061 # Ashikaga Mochiuji
+    }
+    1418.01.01 = {
+        holder = 12130120 # Utsunomiya Mochitsuna
+    }
+    1423.09.13 = {
+        holder = 10017061 # Uesugi Sadayori
+    }
+    1430.01.01 = {
+        holder = 10011611 # Chiba Tanenao
+    }
+    1441.01.01 = {
+        holder = 10011612 # Chiba Tanemasa
+    }
+    1454.07.18 = {
+        holder = 10011613 # Chiba Tanenobu
+    }
+    1455.09.23 = {
+        holder = 10040059 # Ashikaga Shigeuji
+    }
+    1456.01.01 = {
+        holder = 10011809 # Takeda Nobunaga
+    }
+    1477.01.01 = {
+        holder = 10011808 # Takeda Nobutaka
+    }
+    1480.01.01 = {
+        holder = 10011810 # Takeda Michinobu
+    }
+    1484.01.01 = {
+        holder = 10011811 # Takeda Munenobu
+    }
+    1551.01.01 = {
+        holder = 10011813 # Takeda Kiyonobu
+    }
+    1560.01.01 = {
+        holder = 10011814 # Takeda Toyonobu
+    }
+}
+c_shgnt_kazusa_yamanobe = {
+    0001.01.01 = { change_development_level = 10 }
+    1100.01.01 = { change_development_level = 20 }
+    1333.01.01 = { change_development_level = 40 }
+    1456.01.01 = { change_development_level = 50 }
+    1180.01.01 = {
+        liege = d_shgnt_kazusa # Kazusa Hirotsune
+        holder = 12155017 # Kazusa Hirotsune
+    }
+    1184.02.03 = {
+        liege = d_shgnt_shimousa # 
+        holder = 12150120 # Chiba Tsunetane
+    }
+    1201.04.28 = {
+        holder = 12150123 # Chiba Tanemasa
+    }
+    1203.08.28 = {
+        holder = 12150131 # Sakai Tsunehide
+    }
+    1235.01.01 = {
+        holder = 12151200 # Sakai Hidetane
+    }
+    1247.07.08 = {
+        holder = 10131824 # Hojo Tokiyori
+    }
+    1247.08.01 = {
+        holder = 12139003 # Ashikaga Yoshiuji
+    }
+    1255.01.01 = {
+        holder = 12139015 # Ashikaga Yoriuji
+    }
+    1262.01.01 = {
+        holder = 12139022 # Ashikaga Ietoki
+    }
+    1284.08.07 = {
+        holder = 12139024 # Ashikaga Sadauji
+    }
+    1331.10.07 = {
+        holder = 12139028 # Ashikaga Takauji
+    }
+    1351.11.01 = {
+        liege = d_shgnt_kazusa # 
+        holder = 10044204 # Sasaki Hidetsuna
+    }
+    1352.06.01 = {
+        holder = 12150166 # Chiba Ujitane
+    }
+    1355.05.01 = {
+        holder = 10044203 # Sasaki Takauji
+    }
+    1356.04.01 = {
+        holder = 12150166 # Chiba Ujitane
+    }
+    1364.04.01 = {
+        holder = 12187025 # Iwamatsu Yoshimasa
+    }
+    1364.12.01 = {
+        holder = 10017046 # Uesugi Tomofusa
+    }
+    1370.01.01 = {
+        holder = 10017047 # Uesugi Tomomune
+    }
+    1409.01.01 = {
+        holder = 10017048 # Uesugi Zenshu
+    }
+    1417.01.27 = {
+        holder = 10040061 # Ashikaga Mochiuji
+    }
+    1418.01.01 = {
+        holder = 12130120 # Utsunomiya Mochitsuna
+    }
+    1423.09.13 = {
+        holder = 10017061 # Uesugi Sadayori
+    }
+    1430.01.01 = {
+        holder = 10011611 # Chiba Tanenao
+    }
+    1441.01.01 = {
+        holder = 10011612 # Chiba Tanemasa
+    }
+    1454.07.18 = {
+        holder = 10011613 # Chiba Tanenobu
+    }
+    1455.09.23 = {
+        holder = 10040059 # Ashikaga Shigeuji
+    }
+    1456.01.01 = {
+        holder = 10011809 # Takeda Nobunaga
+    }
+    1477.01.01 = {
+        holder = 10011808 # Takeda Nobutaka
+    }
+    1480.01.01 = {
+        holder = 10011810 # Takeda Michinobu
+    }
+    1484.01.01 = {
+        holder = 10011811 # Takeda Munenobu
+    }
+    1551.01.01 = {
+        holder = 10011813 # Takeda Kiyonobu
+    }
+    1560.01.01 = {
+        holder = 10011814 # Takeda Toyonobu
+    }
+}
+c_shgnt_shimousa_toyoda = {
+    0001.01.01 = { change_development_level = 10 }
+    1180.01.01 = { change_development_level = 20 }
+    1390.01.01 = { change_development_level = 40 }
+    1400.01.01 = { change_development_level = 50 }
+    1455.01.01 = { change_development_level = 60 }
+    1460.01.01 = { change_development_level = 60 }
+    1592.01.01 = { change_development_level = 50 }
+    1151.01.01 = {
+        liege = d_nmih_oyama # 
+        holder = 12127800 # Shimokobe Yukiyoshi
+    }
+    1185.01.01 = {
+        holder = 12127801 # Shimokobe Yukihira
+    }
+    1211.01.01 = {
+        holder = 10131653 # Hojo Yoshitoki
+    }
+    1224.07.01 = {
+        holder = 10131666 # Hojo Yasutoki
+    }
+    1242.07.14 = {
+        holder = 10131823 # Hojo Tsunetoki
+    }
+    1246.05.17 = {
+        holder = 10131824 # Hojo Tokiyori
+    }
+    1263.12.24 = {
+        holder = 10131998 # Hojo Tokimune
+    }
+    1284.04.20 = {
+        holder = 10132155 # Hojo Sadatoki
+    }
+    1311.12.06 = {
+        holder = 10132268 # Hojo Takatoki
+    }
+    1333.07.04 = {
+        liege = d_nmih_oyama # 
+        holder = 12135030 # Oyama Hidetomo
+    }
+    1335.08.02 = {
+        holder = 12135035 # Oyama Tomosato
+    }
+    1346.05.04 = {
+        holder = 12135036 # Oyama Ujimasa
+    }
+    1355.08.31 = {
+        holder = 10011209 # Oyama Yoshimasa
+    }
+    1382.05.24 = {
+        liege = k_nmih_kamakura_kubo # 
+        holder = 10040066 # Ashikaga Ujimitsu
+    }
+    1382.06.01 = {
+        holder = 12154000 # Noda Mitsunori
+    }
+    1430.01.01 = {
+        holder = 12154001 # Noda Mochitada
+    }
+    1455.07.30 = {
+        liege = k_nmih_kamakura_kubo # Ashikaga Shigeuji
+        holder = 10040059 # Ashikaga Shigeuji
+    }
+    1497.10.25 = {
+        holder = 10040058 # Ashikaga Masauji
+    }
+    1512.01.01 = {
+        holder = 10040050 # Ashikaga Takamoto
+    }
+    1535.11.03 = {
+        holder = 10040052 # Ashikaga Haruuji
+    }
+    1546.05.19 = {
+        holder = 10040072 # Ashikaga Yoshiuji
+    }
+    1583.02.13 = {
+        holder = 10040078 # Ashikaga Ujihime
+    }
+}
+c_shgnt_okada = {
+    0001.01.01 = { change_development_level = 10 }
+    1180.01.01 = { change_development_level = 20 }
+    1390.01.01 = { change_development_level = 40 }
+    1400.01.01 = { change_development_level = 50 }
+    1455.01.01 = { change_development_level = 60 }
+    1460.01.01 = { change_development_level = 60 }
+    1592.01.01 = { change_development_level = 50 }
+    1151.01.01 = {
+        liege = d_nmih_oyama # 
+        holder = 12127800 # Shimokobe Yukiyoshi
+    }
+    1185.01.01 = {
+        holder = 12127801 # Shimokobe Yukihira
+    }
+    1211.01.01 = {
+        holder = 10131653 # Hojo Yoshitoki
+    }
+    1224.07.01 = {
+        holder = 10131666 # Hojo Yasutoki
+    }
+    1242.07.14 = {
+        holder = 10131823 # Hojo Tsunetoki
+    }
+    1246.05.17 = {
+        holder = 10131824 # Hojo Tokiyori
+    }
+    1263.12.24 = {
+        holder = 10131998 # Hojo Tokimune
+    }
+    1284.04.20 = {
+        holder = 10132155 # Hojo Sadatoki
+    }
+    1311.12.06 = {
+        holder = 10132268 # Hojo Takatoki
+    }
+    1333.07.04 = {
+        liege = d_nmih_oyama # 
+        holder = 12135030 # Oyama Hidetomo
+    }
+    1335.08.02 = {
+        holder = 12135035 # Oyama Tomosato
+    }
+    1346.05.04 = {
+        holder = 12135036 # Oyama Ujimasa
+    }
+    1355.08.31 = {
+        holder = 10011209 # Oyama Yoshimasa
+    }
+    1382.05.24 = {
+        liege = k_nmih_kamakura_kubo # 
+        holder = 10040066 # Ashikaga Ujimitsu
+    }
+    1382.06.01 = {
+        holder = 12154000 # Noda Mitsunori
+    }
+    1430.01.01 = {
+        holder = 12154001 # Noda Mochitada
+    }
+    1455.07.30 = {
+        liege = k_nmih_kamakura_kubo # Ashikaga Shigeuji
+        holder = 10040059 # Ashikaga Shigeuji
+    }
+    1497.10.25 = {
+        holder = 10040058 # Ashikaga Masauji
+    }
+    1512.01.01 = {
+        holder = 10040050 # Ashikaga Takamoto
+    }
+    1535.11.03 = {
+        holder = 10040052 # Ashikaga Haruuji
+    }
+    1546.05.19 = {
+        holder = 10040072 # Ashikaga Yoshiuji
+    }
+    1583.02.13 = {
+        holder = 10040078 # Ashikaga Ujihime
+    }
+}
+c_shgnt_shimousa_haniu = {
+    0001.01.01 = { change_development_level = 10 }
+    1350.01.01 = { change_development_level = 20 }
+    1460.01.01 = { change_development_level = 20 }
+    1469.01.01 = { change_development_level = 30 }
+    1591.01.01 = { change_development_level = 20 }
+    0360.01.01 = {
+        holder = 10041312 # Itsukori
+    }
+    1180.01.01 = {
+        holder = 12155011 # Into [Taira/Kazusa] Tsuneshige
+    }
+    1180.10.04 = {
+        liege = d_shgnt_shimousa # 
+        holder = 12150111 # Usui Tsuneyasu
+    }
+    1186.01.01 = {
+        holder = 12151100 # Usui Tsunetada
+    }
+    1200.01.01 = {
+        holder = 12151101 # Usui Naritsune
+    }
+    1220.01.01 = {
+        holder = 12151105 # Usui Moritsune
+    }
+    1247.07.08 = {
+        holder = 12150141 # Chiba Yaasutane
+    }
+    1251.01.01 = {
+        holder = 12150145 # Chiba Yoritane
+    }
+    1275.09.07 = {
+        holder = 12150150 # Chiba Munetane
+    }
+    1294.02.12 = {
+        holder = 12150155 # Chiba Tanesada
+    }
+    1336.12.22 = {
+        liege = d_shgnt_shimousa # 
+        holder = 12151135 # Usui Okitane
+    }
+    1364.04.18 = {
+        holder = 12151140 # Usui Hisatane
+    }
+    1376.07.13 = {
+        holder = 12151145 # Usui Kanetane
+    }
+    1383.11.03 = {
+        holder = 12151150 # Usui Fuyutane
+    }
+    1402.08.23 = {
+        holder = 12151155 # Usui Yukitane
+    }
+    1430.05.12 = {
+        holder = 12151160 # Usui Noritane
+    }
+    1469.01.01 = {
+        holder = 10011606 # Chiba Suketane
+    }
+    1492.03.13 = {
+        holder = 10011605
+    }
+    1505.09.26 = {
+        holder = 10011604 # Chiba Katsutane
+    }
+    1532.06.24 = {
+        holder = 10011601 # Chiba Masatane
+    }
+    1546.02.07 = {
+        holder = 10011602 # Chiba Toshitsane
+    }
+    1547.07.28 = {
+        holder = 10011673 # Chiba Chikatane
+    }
+    1557.08.30 = {
+        holder = 10011603 # Chiba Tanetomi
+    }
+    1565.11.01 = {
+        holder = 10011618 # Chiba Yoshitane
+    }
+    1570.01.01 = {
+        holder = 10011619 # Chiba Kunitane
+    }
+}
+c_shgnt_yanada = {
+    0001.01.01 = { change_development_level = 20 }
+    1100.01.01 = { change_development_level = 20 }
+    1465.01.01 = { change_development_level = 20 }
+    1500.01.01 = { change_development_level = 20 }
+    1077.01.01 = {
+        liege = d_nmih_ashikaga # 
+        holder = 12180100 # Ashikaga Nariyuki
+    }
+    1110.01.01 = {
+        holder = 12180102 # Ashikaga Ietsuna
+    }
+    1138.01.01 = {
+        holder = 12180110 # Ashikaga Toshitsuna
+    }
+    1183.03.18 = {
+        holder = 10120075 # Minamoto Yoritomo
+    }
+    1183.09.01 = {
+        holder = 12139000 # Ashikaga Yoshikane
+    }
+    1199.04.05 = {
+        holder = 12139003 # Ashikaga Yoshiuji
+    }
+    1241.01.01 = {
+        holder = 12139006 # Ashikaga Yasuuji
+    }
+    1252.01.21 = {
+        holder = 12139015 # Ashikaga Yoriuji
+    }
+    1262.01.01 = {
+        holder = 12139022 # Ashikaga Ietoki
+    }
+    1284.08.07 = {
+        holder = 12139024 # Ashikaga Sadauji
+    }
+    1331.10.07 = {
+        holder = 12139028 # Ashikaga Takauji
+    }
+    1349.10.21 = {
+        liege = k_nmih_kamakura_kubo # 
+        holder = 10040067 # Ashikaga Motouji
+    }
+    1367.05.25 = {
+        holder = 10040066 # Ashikaga Ujimitsu
+    }
+    1382.05.24 = {
+        holder = 12209000 # Kido Sadanori
+    }
+    1398.12.12 = {
+        holder = 10040064 # Ashikaga Mitsukane
+    }
+    1409.09.01 = {
+        holder = 10040061 # Ashikaga Mochiuji
+    }
+    1417.01.27 = {
+        liege = k_nmih_kanto_kanrei # 
+        holder = 10017018 # Uesugi Norimoto
+    }
+    1418.02.09 = {
+        holder = 10017020 # Uesugi Norizane
+    }
+    1423.01.01 = {
+        liege = k_nmih_kamakura_kubo # 
+        holder = 10040061 # Ashikaga Mochiuji
+    }
+    1432.01.01 = {
+        liege = k_nmih_kanto_kanrei # 
+        holder = 10017020 # Uesugi Norizane
+    }
+    1439.03.24 = {
+        holder = 10032805 # Uesugi Kiyokata
+    }
+    1444.01.01 = {
+        holder = 10017021 # Uesugi Noritada
+    }
+    1455.01.15 = {
+        holder = 10017022 # Uesugi Fusaaki
+    }
+    1465.01.01 = {
+        holder = 10017337 # Nagao Kagehito
+    }
+    1472.06.07 = {
+        holder = 10017340 # Nagao Sadakage
+    }
+    1475.03.13 = {
+        holder = 10017339 # Nagao Kagenaga
+    }
+    1528.02.05 = {
+        holder = 10017341 # Nagao Norinaga
+    }
+    1550.04.19 = {
+        holder = 10017342 # Nagao Masanaga
+    }
+    1569.08.27 = {
+        holder = 10017345 # Nagao Akinaga
+    }
+}
+c_shgnt_samukawa = {
+    0001.01.01 = { change_development_level = 30 }
+    0916.01.01 = {
+        liege = d_shgnt_shimotsuke # 
+        holder = 11004609 # Fujiwara Hidesato
+    }
+    0950.01.01 = {
+        holder = 11004621 # Fujiwara Shitsune
+    }
+    0981.01.01 = {
+        holder = 11004665 # Fujiwara Fuminaga
+    }
+    1018.03.03 = {
+        holder = 11004666 # Fujiwara Fumiyuki
+    }
+    1020.01.01 = {
+        holder = 11004667 # Fujiwara Kanemitsu
+    }
+    1037.01.01 = {
+        holder = 11004687 # Fujiwara Yoriyuki
+    }
+    1057.01.01 = {
+        holder = 11004689 # Fujiwara Yukinori
+    }
+    1061.01.01 = {
+        holder = 11004694 # Fujiwara Takeyuki
+    }
+    1079.01.01 = {
+        holder = 10130353 # Fujiwara [Ota] Yukitaka
+    }
+    1121.01.01 = {
+        holder = 10130354 # Fujiwara [Ota] Yukimasa
+    }
+    1151.01.01 = {
+        liege = d_nmih_oyama # 
+        holder = 12135000 # Oyama Masamitsu
+    }
+    1191.01.01 = {
+        holder = 12135001 # Oyama Tomomasa
+    }
+    1238.05.15 = {
+        holder = 12135010 # Oyama Nagamura
+    }
+    1269.08.15 = {
+        holder = 12135015 # Oyama Tokinaga
+    }
+    1276.01.01 = {
+        holder = 12135020 # Oyama Munenaga
+    }
+    1315.01.01 = {
+        holder = 12135025 # Oyama Sadatomo
+    }
+    1330.01.01 = {
+        holder = 12135030 # Oyama Hidetomo
+    }
+    1335.08.02 = {
+        holder = 12135035 # Oyama Tomosato
+    }
+    1346.05.04 = {
+        holder = 12135036 # Oyama Ujimasa
+    }
+    1355.08.31 = {
+        holder = 10011209 # Oyama Yoshimasa
+    }
+    1382.05.24 = {
+        holder = 12209000 # Kido Sadanori
+    }
+    1387.01.01 = {
+        holder = 10010214 # Oyama Yasutomo
+    }
+    1413.01.01 = {
+        holder = 10011208 # Oyama Mitsuyasu
+    }
+    1430.06.01 = {
+        holder = 10011207 # Oyama Mochimasa
+    }
+    1471.01.01 = {
+        holder = 10011206 # Oyama Shigenaga
+    }
+    1516.01.01 = {
+        holder = 10011205 # Oyama Masanaga
+    }
+    1534.01.01 = {
+        holder = 10011201 # Oyama Takatomo
+    }
+    1560.01.01 = {
+        holder = 10011202 # Oyama Hidetsuna
+    }
+    1576.01.01 = {
+        liege = k_shgnt_western_kanto # 
+        holder = 10016014 # Hojo Ujimasa
+    }
+    1582.05.18 = {
+        holder = 10011202 # Oyama Hidetsuna
+    }
+}

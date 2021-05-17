@@ -1,0 +1,18 @@
+war = {
+    name = "war_1560_battle_of_okehazama" 
+    start_date = 1560.5.12
+    end_date = 1560.6.12
+    targeted_titles={
+        d_shgnt_owari
+    }
+
+    casus_belli = sengoku_invasion_war
+    
+    attackers = {
+        10023010
+    }  #  Imagawa Yoshimoto
+    defenders = {
+        10029120
+    }  #  Oda Nobunaga
+
+}

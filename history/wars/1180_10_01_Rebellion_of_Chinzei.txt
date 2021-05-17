@@ -1,0 +1,18 @@
+war = {
+    name = "war_1180_rebellion_of_chinzei_1" 
+    start_date = 1180.10.1
+    end_date = 1181.3.20
+    targeted_titles={
+        e_shgnt_japan
+    }
+
+    casus_belli = claim_cb
+    claimant = 12780645
+    attackers = {
+        12780645 12780100 10240113
+    }  #  Kikuchi Takanao, Ogata Koreyoshi, Takagi Muneie
+    defenders = {
+        10110025
+    }  #  Taira Kiyomori
+
+}

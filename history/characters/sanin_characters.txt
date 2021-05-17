@@ -1,0 +1,2906 @@
+﻿10050005 = {
+	name=character_name_10050005 # Suketoyo
+	dynasty=10000500 # Yamana
+	father=10050045
+	religion="shinto"
+	culture="sanin"
+	prowess=11
+	1511.1.1={
+		birth=yes
+	}
+	1520.1.19={
+		trait="child_of_adoption"
+		effect={
+			set_father=character:10050046
+			set_real_father=character:10050045
+		}
+	}
+	1528.3.4={
+		effect={
+			set_realm_capital=title:c_shgnt_kinosaki
+		}
+	}
+	1534.1.19={
+		add_spouse=10049522
+	}
+	1570.1.1={
+		effect={
+			set_realm_capital=title:c_shgnt_kinosaki
+		}
+	}
+	1580.7.2={
+		death={
+		death_reason=death_suicide
+		}
+	}
+}
+10050007 = {
+	name=character_name_10050007 # Moroyoshi
+	dynasty=10000500 # Yamana
+	father=12186256 # Yamana Tokiuji
+	trait="education_diplomacy_1"
+	religion="shinto"
+	culture="sanin"
+	prowess=11
+	1328.1.1={
+		birth=yes
+	}
+	1376.3.31={
+		death=yes
+	}
+}
+10050008 = {
+	name=character_name_10050008 # Yoshitada
+	dynasty=10000500 # Yamana
+	father=12186256 # Yamana Tokiuji
+	trait="education_stewardship_1"
+	religion="shinto"
+	culture="sanin"
+	prowess=12
+	1337.1.1={
+		birth=yes
+	}
+	1395.1.1={
+		death=yes
+	}
+}
+10050009 = {
+	name=character_name_10050009 # Ujifuyu
+	dynasty=10000500 # Yamana
+	father=12186256 # Yamana Tokiuji
+	trait="education_intrigue_1"
+	religion="shinto"
+	culture="sanin"
+	prowess=10
+	1340.1.1={
+		birth=yes
+	}
+	1370.2.1={
+		death=yes
+	}
+}
+10050010 = {
+	name=character_name_10050010 # Ujikiyo
+	dynasty=10000500 # Yamana
+	father=12186256 # Yamana Tokiuji
+	trait="education_diplomacy_1"
+	religion="shinto"
+	culture="sanin"
+	prowess=11
+	1344.1.1={
+		birth=yes
+	}
+	1392.1.24={
+		death=yes
+	}
+}
+10050011 = {
+	name=character_name_10050011 # Tokiyoshi
+	dynasty=10000500 # Yamana
+	father=12186256 # Yamana Tokiuji
+	trait="education_intrigue_1"
+	religion="shinto"
+	culture="sanin"
+	prowess=11
+	1346.1.1={
+		birth=yes
+	}
+	1389.5.29={
+		death=yes
+	}
+}
+10050012 = {
+	name=character_name_10050012 # Yoshiyuki
+	dynasty=10000500 # Yamana
+	father=10050007
+	trait="education_intrigue_1"
+	religion="shinto"
+	culture="sanin"
+	prowess=10
+	1360.1.1={
+		birth=yes
+	}
+	1410.1.1={
+		death=yes
+	}
+}
+10050013 = {
+	name=character_name_10050013 # Ujiyuki
+	dynasty=10000500 # Yamana
+	father=10050007
+	trait="education_diplomacy_1"
+	religion="shinto"
+	culture="sanin"
+	prowess=9
+	1363.1.1={
+		birth=yes
+	}
+	1415.1.1={
+		give_nickname="nick_the_daizen_daihu"
+	}
+	1425.1.1={
+		death=yes
+	}
+}
+10050014 = {
+	name=character_name_10050014 # Mitsuyuki
+	dynasty=10000500 # Yamana
+	father=10050007
+	trait="education_diplomacy_1"
+	religion="shinto"
+	culture="sanin"
+	prowess=11
+	1366.1.1={
+		birth=yes
+	}
+	1395.3.31={
+		death=yes
+	}
+}
+10050015 = {
+	name=character_name_10050015 # Fujiyuki
+	dynasty=10000500 # Yamana
+	father=10050012
+	trait="education_intrigue_1"
+	religion="shinto"
+	culture="sanin"
+	prowess=12
+	1390.1.1={
+		birth=yes
+	}
+	1469.1.1={
+		death=yes
+	}
+}
+10050016 = {
+	name=character_name_10050016 # Hiroyuki
+	dynasty=10000500 # Yamana
+	father=10050013
+	trait="education_intrigue_1"
+	religion="shinto"
+	culture="sanin"
+	prowess=10
+	1393.1.1={
+		birth=yes
+	}
+	1460.1.1={
+		death=yes
+	}
+}
+10050017 = {
+	name=character_name_10050017 # Noriyuki
+	dynasty=10000500 # Yamana
+	father=10050016
+	trait="education_diplomacy_1"
+	religion="shinto"
+	culture="sanin"
+#	trait="zen_buddhist"
+	prowess=11
+	1410.1.1={
+		birth=yes
+	}
+	1426.1.1={
+		give_nickname="nick_rokuro"
+	}
+	1438.1.1={
+		trait="jugoi_ge"
+		give_nickname="nick_the_hyobu_no_sho"
+	}
+	1455.1.1={
+		give_nickname="nick_the_sagami_no_kami"
+	}
+	1473.2.13={
+		death=yes
+	}
+}
+10050018 = {
+	name=character_name_10050018 # Toyoyuki
+	dynasty=10000500 # Yamana
+	father=10050017 # Yamana Noriyuki
+	trait="education_diplomacy_1"
+	religion="shinto"
+	culture="sanin"
+	prowess=12
+	1430.1.1={
+		birth=yes
+	}
+	1453.1.1={
+		effect={
+			set_realm_capital=title:c_shgnt_aumi
+		}
+	}
+	1471.10.31={
+		death={
+			death_reason=death_suicide
+		}
+	}
+}
+10050019 = {
+	name=character_name_10050019 # Toyouji
+	dynasty=10000500 # Yamana
+	father=10050017
+	trait="education_stewardship_1"
+	religion="shinto"
+	culture="sanin"
+	prowess=10
+	1433.1.1={
+		birth=yes
+	}
+	1450.1.1={
+		trait="child_of_adoption"
+		effect={
+			set_father=character:10050054
+			set_real_father=character:10050017
+		}
+	}
+	1475.1.1={
+		death=yes
+	}
+}
+10050020 = {
+	name=character_name_10050020 # Yukihiro
+	dynasty=10000500 # Yamana
+	father=10050017
+	trait="education_diplomacy_1"
+	religion="shinto"
+	culture="sanin"
+	prowess=11
+	1436.1.1={
+		birth=yes
+	}
+	1471.10.31={
+		effect={
+			set_realm_capital=title:c_shgnt_aumi
+		}
+	}
+	1480.1.1={
+		death=yes
+	}
+}
+10050021 = {
+	name=character_name_10050021 # Motoyuki
+	dynasty=10000500 # Yamana
+	father=10050017
+	trait="education_intrigue_1"
+	religion="shinto"
+	culture="sanin"
+	prowess=10
+	1439.1.1={
+		birth=yes
+	}
+	1455.1.1={
+		give_nickname="nick_kuro"
+	}
+	1476.1.1={
+		effect={
+			set_realm_capital=title:c_shgnt_aumi
+		}
+	}
+	1489.1.1={
+		death=yes
+	}
+}
+10050022 = {
+	name=character_name_10050022 # Kotaro
+	dynasty=10000500 # Yamana
+	father=10050017
+	trait="education_intrigue_1"
+	religion="shinto"
+	culture="sanin"
+	prowess=10
+	1442.1.1={
+		birth=yes
+	}
+	1453.1.1={
+		death=yes
+	}
+}
+10050023 = {
+	name=character_name_10050023 # Masayuki
+	dynasty=10000500 # Yamana
+	father=10050018
+	trait="education_intrigue_1"
+	religion="shinto"
+	culture="sanin"
+	prowess=10
+	1455.1.1={
+		birth=yes
+	}
+	1489.1.1={
+		effect={
+			set_realm_capital=title:c_shgnt_aumi
+		}
+	}
+	1491.1.1={
+		death=yes
+	}
+}
+10050024 = {
+	name=character_name_10050024 # Hisayuki
+	dynasty=10000500 # Yamana
+	father=10050018
+	trait="education_intrigue_1"
+	religion="shinto"
+	culture="sanin"
+	prowess=11
+	1458.1.1={
+		birth=yes
+	}
+	1487.1.7={
+		give_nickname="nick_rokuro"
+	}
+	1491.1.1={
+		effect={
+			set_realm_capital=title:c_shgnt_aumi
+		}
+	}
+	1494.9.24={
+		death={
+		death_reason=death_suicide
+		}
+	}
+}
+10050025 = {
+	name=character_name_10050025 # Ujitoyo
+	dynasty=10000500 # Yamana
+	father=10050023
+	trait="education_intrigue_1"
+	religion="shinto"
+	culture="sanin"
+	prowess=11
+	1490.1.1={
+		birth=yes
+	}
+	1494.9.24={
+		employer=10056000 # Mori Hiromoto
+	}
+	1500.1.1={
+		employer=10056002 # Mori Okimoto
+	}
+	1516.9.21={
+		employer=10056011 # Mori Komatsumaru
+	}
+	1523.8.25={
+		employer=10056004 # Mori Motonari
+	}
+	1571.7.6={
+		employer=10056025 # Mori Terumoto
+	}
+	1580.9.23={
+		death=yes
+	}
+}
+10050026 = {
+	name=character_name_10050026 # Sumiyuki
+	dynasty=10000500 # Yamana
+	father=10050020
+	trait="education_intrigue_1"
+	religion="shinto"
+	culture="sanin"
+	prowess=9
+	1480.1.1={
+		birth=yes
+	}
+	1494.9.24={
+		effect={
+			set_realm_capital=title:c_shgnt_aumi
+		}
+	}
+	1533.9.15={
+		death=yes
+	}
+}
+10050027 = {
+	name=character_name_10050027 # Yoshikiyo
+	dynasty=10000500 # Yamana
+	father=10050008
+	trait="education_intrigue_1"
+	religion="shinto"
+	culture="sanin"
+	prowess=12
+	1360.1.1={
+		birth=yes
+	}
+	1420.1.1={
+		death=yes
+	}
+}
+10050028 = {
+	name=character_name_10050028 # Norikiyo
+	dynasty=10000500 # Yamana
+	father=10050027
+	trait="education_intrigue_1"
+	religion="shinto"
+	culture="sanin"
+	prowess=10
+	1390.1.1={
+		birth=yes
+	}
+	1450.1.1={
+		death=yes
+	}
+}
+10050029 = {
+	name=character_name_10050029 # Ujiie
+	dynasty=10000500 # Yamana
+	father=10050009
+	trait="education_diplomacy_1"
+	religion="shinto"
+	culture="sanin"
+	prowess=9
+	1370.1.1={
+		birth=yes
+	}
+	1430.1.1={
+		death=yes
+	}
+}
+10050030 = {
+	name=character_name_10050030 # Hirotaka
+	dynasty=10000500 # Yamana
+	father=10050029
+	trait="education_diplomacy_1"
+	religion="shinto"
+	culture="sanin"
+	prowess=10
+	1400.1.1={
+		birth=yes
+	}
+	1441.7.12={
+		death=yes
+	}
+}
+10050031 = {
+	name=character_name_10050031 # Katsutoyo
+	dynasty=10000500 # Yamana
+	father=10050039 # Yamana Sozen (Mochitoyo)
+	trait="education_diplomacy_1"
+	religion="shinto"
+	culture="sanin"
+	prowess=10
+	1432.1.1={
+		birth=yes
+	}
+	1440.1.1={
+		trait="child_of_adoption"
+		effect={
+			set_father=character:10050030
+			set_real_father=character:10050039
+		}
+	}
+	1452.1.1={
+		give_nickname="nick_the_saemon_no_suke"
+	}
+	1452.1.1={
+		give_nickname="nick_the_saemon_no_suke"
+	}
+	1452.1.1={
+		give_nickname="nick_the_saemon_no_suke"
+	}
+	1459.5.25={
+		death=yes
+	}
+}
+10050032 = {
+	name=character_name_10050032 # Toyotoki
+	dynasty=10000500 # Yamana
+	father=10050031
+	martial=4
+	trait="education_intrigue_1"
+	religion="shinto"
+	culture="sanin"
+	trait="education_diplomacy_3"
+	trait="poet"
+	trait="patient"
+	trait="brave"
+	prowess=10
+	1452.1.1={
+		birth=yes
+	}
+	1472.1.1={
+		give_nickname="nick_jibu_no_sho"
+	}
+	1472.1.1={
+		give_nickname="nick_jibu_no_sho"
+	}
+	1472.1.1={
+		give_nickname="nick_jibu_no_sho"
+	}
+	1475.1.1={
+		effect={
+			set_realm_capital=title:c_shgnt_takakusa
+		}
+	}
+	1487.1.1={
+		give_nickname="nick_saemon_no_suke"
+	}
+	1497.1.1={
+		give_nickname="nick_iyo_no_kami"
+	}
+	1487.1.1={
+		give_nickname="nick_saemon_no_suke"
+	}
+	1497.1.1={
+		give_nickname="nick_iyo_no_kami"
+	}
+	1515.1.1={
+		death=yes
+	}
+}
+10050033 = {
+	name=character_name_10050033 # Toyoyori
+	dynasty=10000500 # Yamana
+	father=10050032
+	trait="education_diplomacy_1"
+	religion="shinto"
+	culture="sanin"
+	prowess=10
+	1485.1.1={
+		birth=yes
+	}
+	1505.1.1={
+		give_nickname="nick_sama_no_suke"
+	}
+	1512.12.1={
+		effect={
+			set_realm_capital=title:c_shgnt_takakusa
+		}
+	}
+	1521.1.1={
+		death=yes
+	}
+}
+10050034 = {
+	name=character_name_10050034 # Toyoharu
+	dynasty=10000500 # Yamana
+	father=10050057
+	trait="education_diplomacy_1"
+	religion="shinto"
+	culture="sanin"
+	prowess=11
+	1494.1.1={
+		birth=yes
+	}
+	1521.1.1={
+		effect={
+			set_realm_capital=title:c_shgnt_takakusa
+		}
+	}
+	1527.1.1={
+		death={
+		killer=10050046 #Yamana Nobutoyo
+		}
+	}
+}
+10050035 = {
+	name=character_name_10050035 # Nobumichi
+	dynasty=10000500 # Yamana
+	father=10050033
+	trait="education_diplomacy_1"
+	religion="shinto"
+	culture="sanin"
+	prowess=9
+	1515.1.1={
+		birth=yes
+	}
+	1525.1.1={
+		give_nickname="nick_the_sama_no_suke"
+		trait="jugoi_ge"
+	}
+	1527.1.1={
+		effect={
+			set_realm_capital=title:c_shgnt_takakusa
+		}
+	}
+	1546.1.1={
+		death={
+		death_reason=death_battle
+		killer=10050005 #Yamana Suketoyo
+		}
+	}
+}
+10050036 = {
+	name=character_name_10050036 # Tokihiro
+	dynasty=10000500 # Yamana
+	father=10050011
+	trait="education_diplomacy_2"
+	religion="shinto"
+	culture="sanin"
+	trait="greedy"
+	trait="ambitious"
+	prowess=10
+	1367.1.1={
+		birth=yes
+	}
+	1395.1.1={
+		add_spouse=10050061
+	}
+	1435.7.29={
+		death=yes
+	}
+}
+10050037 = {
+	name=character_name_10050037 # Mitsuoki
+	dynasty=10000500 # Yamana
+	father=10050036
+	mother=10050061
+	trait="education_diplomacy_1"
+	religion="shinto"
+	culture="sanin"
+	prowess=12
+	1396.1.1={
+		birth=yes
+	}
+	1420.3.14={
+		death=yes
+	}
+}
+10050038 = {
+	name=character_name_10050038 # Mochihiro
+	dynasty=10000500 # Yamana
+	father=10050036
+	mother=10050061
+	trait="education_diplomacy_1"
+	religion="shinto"
+	culture="sanin"
+	prowess=10
+	1400.1.1={
+		birth=yes
+	}
+	1437.7.1={
+		death=yes
+	}
+}
+10050039 = {
+	name=character_name_10050039 # Mochitoyo # Yamana Sozen
+	dynasty=10000500 # Yamana
+	father=10050036
+	mother=10050061
+	martial=7
+	diplomacy=6
+	intrigue=8
+	stewardship=6
+	learning=7
+	trait="education_intrigue_3"
+	religion="shinto"
+	culture="sanin"
+	trait="ambitious"
+	trait="greedy"
+	trait="arrogant"
+	trait="impatient"
+	prowess=13
+	1404.7.6={
+		birth=yes
+	}
+	1424.1.1={
+		give_nickname="nick_the_danjo_shohitsu"
+		trait="jushii_ge"
+	}
+	1434.1.1={
+		give_nickname="nick_the_uemon_no_kami"
+	}
+	1442.1.1={
+		trait="jusanmi"
+		name=character_name_10050039_1 # Sozen
+	}
+	1473.4.15={
+		death=yes
+	}
+}
+10050040 = {
+	name=character_name_10050040 # Noritoyo
+	dynasty=10000500 # Yamana
+	father=10050039
+	trait="education_intrigue_1"
+	religion="shinto"
+	culture="sanin"
+	prowess=9
+	1424.1.1={
+		birth=yes
+	}
+	1444.1.1={
+		give_nickname="nick_the_danjo_shohitsu"
+		trait="jugoi_ge"
+	}
+	1460.11.3={
+		give_nickname="nick_the_iyo_no_kami"
+	}
+	1467.10.7={
+		death=yes
+	}
+}
+10050041 = {
+	name=character_name_10050041 # Koretoyo
+	dynasty=10000500 # Yamana
+	father=10050039
+	trait="education_martial_1"
+	religion="shinto"
+	culture="sanin"
+	trait="intellect_bad_2"
+	prowess=10
+	1428.1.1={
+		birth=yes
+	}
+	1453.1.1={
+		give_nickname="nick_the_danjo_shohitsu"
+		trait="shogoi_ge"
+	}
+	1470.1.1={
+		death=yes
+	}
+}
+10050043 = {
+	name=character_name_10050043 # Toyohisa
+	dynasty=10000500 # Yamana
+	father=10050039
+	trait="education_diplomacy_1"
+	religion="shinto"
+	culture="sanin"
+	prowess=11
+	1453.1.1={
+		birth=yes
+	}
+	1466.1.1={
+		trait="devoted"
+	}
+	1522.11.13={
+		death=yes
+	}
+}
+10050044 = {
+	name=character_name_10050044 # Masatoyo
+	dynasty=10000500 # Yamana
+	father=10050040
+	martial=5
+	diplomacy=4
+	trait="education_intrigue_1"
+	religion="shinto"
+	culture="sanin"
+	trait="just"
+	prowess=11
+	1441.1.1={
+		birth=yes
+	}
+	1460.11.3={
+		give_nickname="nick_the_danjo_shohitsu"
+		trait="shogoi_jo"
+	}
+	1476.8.18={
+		remove_trait="shogoi_jo"
+		trait="jushii_ge"
+	}
+	1476.8.22={
+		give_nickname="nick_the_uemon_no_kami"
+	}
+	1472.8.1={
+		effect={
+			set_realm_capital=title:c_shgnt_kinosaki
+		}
+	}
+	1499.3.13={
+		death=yes
+	}
+}
+10050045 = {
+	name=character_name_10050045 # Munetoyo
+	dynasty=10000500 # Yamana
+	father=10050044
+	trait="education_intrigue_1"
+	religion="shinto"
+	culture="sanin"
+	trait="arbitrary"
+	trait="craven"
+	prowess=10
+	1468.1.1={
+		birth=yes
+	}
+	1488.1.1={
+		give_nickname="nick_the_danjo_shohitsu"
+		trait="jugoi_ge"
+	}
+	1499.3.13={
+		effect={
+			set_realm_capital=title:c_shgnt_kinosaki
+		}
+	}
+	1536.1.1={
+		death=yes
+	}
+}
+10050046 = {
+	name=character_name_10050046 # Nobutoyo
+	dynasty=10000500 # Yamana
+	father=10050044
+	trait="education_diplomacy_1"
+	religion="shinto"
+	culture="sanin"
+	trait="ambitious"
+	trait="brave"
+	prowess=12
+	1470.1.1={
+		birth=yes
+	}
+	1495.1.1={
+		give_nickname="nick_uemon_no_kami"
+	}
+	1512.1.1={
+		effect={
+			set_realm_capital=title:c_shgnt_kinosaki
+		}
+	}
+	1528.3.4={
+		death=yes
+	}
+}
+10050048= {
+	name=character_name_10050048 # Toyosada
+	dynasty=10000500 # Yamana
+	father=10050045
+	trait="education_diplomacy_1"
+	religion="shinto"
+	culture="sanin"
+	prowess=11
+	1512.1.1={
+		birth=yes
+	}
+	1528.1.1={
+		give_nickname="nick_kuro"
+	}
+	1546.1.1={
+		effect={
+			set_realm_capital=title:c_shgnt_takakusa
+		}
+	}
+	1560.3.29={
+		death=yes
+	}
+}
+10050049= {
+	name=character_name_10050049 # Toyohiro
+	dynasty=10000500 # Yamana
+	father=10050045
+	trait="education_intrigue_1"
+	religion="shinto"
+	culture="sanin"
+	prowess=10
+	1518.1.1={
+		birth=yes
+	}
+	1585.1.1={
+		death=yes
+	}
+}
+10050051= {
+	name=character_name_10050051 # Toyokazu
+	dynasty=10000500 # Yamana
+	father=10050048
+	trait="education_intrigue_1"
+	religion="shinto"
+	culture="sanin"
+	prowess=10
+	1533.1.1={
+		birth=yes
+	}
+	1561.5.1={
+		effect={
+			set_realm_capital=title:c_shgnt_takakusa
+		}
+	}
+	1564.1.1={
+		death={
+		death_reason=death_battle
+		}
+	}
+}
+10050052= {
+	name=character_name_10050052 # Takayoshi
+	dynasty=10000500 # Yamana
+	father=12186256 # Yamana Tokiuji
+	trait="education_intrigue_1"
+	religion="shinto"
+	culture="sanin"
+	prowess=10
+	1349.1.1={
+		birth=yes
+	}
+	1400.4.11={
+		death=yes
+	}
+}
+10050053= {
+	name=character_name_10050053 # Hirotaka
+	dynasty=10000500 # Yamana
+	father=10050052
+	trait="education_intrigue_1"
+	religion="shinto"
+	culture="sanin"
+	prowess=10
+	1370.1.1={
+		birth=yes
+	}
+	1430.1.1={
+		death=yes
+	}
+}
+10050054= {
+	name=character_name_10050054 # Hiroyuki
+	dynasty=10000500 # Yamana
+	father=10050053
+	trait="education_intrigue_1"
+	religion="shinto"
+	culture="sanin"
+	prowess=12
+	1400.1.1={
+		birth=yes
+	}
+	1459.5.25={
+		death=yes
+	}
+}
+10050055= {
+	name=character_name_10050055 # Masayasu
+	dynasty=10000500 # Yamana
+	father=10050053
+	trait="education_intrigue_1"
+	religion="shinto"
+	culture="sanin"
+	prowess=10
+	1405.1.1={
+		birth=yes
+	}
+	1465.1.1={
+		death=yes
+	}
+}
+10050056= {
+	name=character_name_10050056 # Masazane
+	dynasty=10000500 # Yamana
+	father=10050055
+	trait="education_intrigue_1"
+	religion="shinto"
+	culture="sanin"
+	prowess=11
+	1421.1.1={
+		birth=yes
+	}
+	1488.1.1={
+		effect={
+			set_realm_capital=title:c_shgnt_takakusa
+		}
+	}
+	1489.12.18={
+		death=yes
+	}
+}
+10050057 = {
+	name=character_name_10050057 # Toyoshige
+	dynasty=10000500 # Yamana
+	father=10050032 # Yamana Toyotoki
+	diplomacy=6
+	stewardship=5
+	trait="education_diplomacy_1"
+	trait="just"
+	religion="shinto"
+	culture="sanin"
+	prowess=10
+	1469.1.1={
+		birth=yes
+	}
+	1489.1.1={
+		give_nickname="nick_jibu_no_sho"
+	}
+	1489.1.1={
+		give_nickname="nick_jibu_no_sho"
+	}
+	1489.1.1={
+		give_nickname="nick_jibu_no_sho"
+	}
+	1504.1.1={
+		effect={
+			set_realm_capital=title:c_shgnt_takakusa
+		}
+	}
+	1512.12.1={
+		death={
+		killer=10050033 #Yamana Nobutoyo
+		}
+	}
+}
+10050058 = {
+	name=character_name_10050058 # Toyooki
+	dynasty=10000500 # Yamana
+	father=10050026
+	religion="shinto"
+	culture="sanin"
+	prowess=11
+	1510.1.1={
+		birth=yes
+	}
+	1524.1.1={
+		effect={
+			set_realm_capital=title:c_shgnt_aumi
+		}
+	}
+	1550.1.1={
+		death=yes
+	}
+}
+10050059 = {
+	name=character_name_10050059 # Toshitoyo
+	dynasty=10000500 # Yamana
+	father=10050044
+	religion="shinto"
+	culture="sanin"
+	prowess=10
+	1460.1.1={
+		birth=yes
+	}
+	1480.1.1={
+		give_nickname="nick_the_danjo_shohitsu"
+		trait="jugoi_ge"
+	}
+	1495.1.1={
+		death=yes
+	}
+}
+10050060 = {
+	name=character_name_10050060 # Toyokuni
+	dynasty=10000500 # Yamana
+	father=10050048 # Yamana Toyosada
+	martial=6
+	diplomacy=6
+	intrigue=5
+	stewardship=6
+	learning=5
+	religion="shinto"
+	culture="sanin"
+	trait="education_diplomacy_1"
+	trait="compassionate"
+	trait="humble"
+	trait="honest"
+	trait="trusting"
+	trait="tea_master"
+	trait="poet"
+	prowess=10
+	1548.1.1={
+		birth=yes
+	}
+	1564.1.1={
+		give_nickname="nick_nakatsukasa_no_sho"
+		add_spouse=10050074
+		effect={
+			set_realm_capital=title:c_shgnt_takakusa
+		}
+	}
+	1626.11.25={
+		death=yes
+	}
+}
+10050061 = {
+	name=character_name_10050061 # Kane #Yamana Tokihiro's wife
+	dynasty=10000500 # Yamana
+	father=10050007
+	female=yes
+	religion="shinto"
+	culture="sanin"
+	prowess=9
+	1371.1.1={
+		birth=yes
+	}
+	1415.1.1={
+		death=yes
+	}
+}
+10050062 = {
+	name=character_name_10050062 # Toyotaka
+	dynasty=10000500 # Yamana
+	father=10050026
+	religion="shinto"
+	culture="sanin"
+	prowess=9
+	1515.1.1={
+		birth=yes
+	}
+	1560.1.1={
+		death=yes
+	}
+}
+10050063 = {
+	name=character_name_10050063 # Masakiyo
+	dynasty=10000500 # Yamana
+	father=10050028 #Norikiyo
+	trait="education_intrigue_1"
+	religion="shinto"
+	culture="sanin"
+	prowess=11
+	1420.1.1={
+		birth=yes
+	}
+	1480.1.1={
+		death=yes
+	}
+}
+10050064= {
+	name=character_name_10050064 # Hinako #Ouchi Norihito's wife
+	dynasty=10000500 # Yamana
+	father=10050030
+	female=yes
+	trait="education_intrigue_1"
+	religion="shinto"
+	culture="sanin"
+	prowess=12
+	1425.1.1={
+		birth=yes
+	}
+	1500.1.1={
+		death=yes
+	}
+}
+10050065= {
+	name=character_name_10050065 # Tokiko #Hosokawa Katsumoto's wife
+	dynasty=10000500 # Yamana
+	father=10050030
+	female=yes
+	trait="education_intrigue_1"
+	religion="shinto"
+	culture="sanin"
+	prowess=10
+	1440.1.1={
+		birth=yes
+	}
+	1500.1.1={
+		death=yes
+	}
+}
+10050066 = {
+	name=character_name_10050066 # Acha #Ashikaga Yoshitane's wife
+	dynasty=10000500 # Yamana
+	father=10050057
+	female=yes
+	trait="education_diplomacy_1"
+	religion="shinto"
+	culture="sanin"
+	prowess=9
+	1495.1.1={
+		birth=yes
+	}
+	1525.1.1={
+		death=yes
+	}
+}
+10050070 = {
+	name=character_name_10050070 # Munetoyo
+	dynasty=10000500 # Yamana
+	father=10050005 #Yamana Suketoyo
+	mother=10049522
+	religion="shinto"
+	culture="sanin"
+	prowess=10
+	1544.1.1={
+		birth=yes
+	}
+	1561.5.1={
+		death=yes
+	}
+}
+10050071 = {
+	name=character_name_10050071 # Yoshichika
+	dynasty=10000500 # Yamana
+	father=10050005 #Yamana Suketoyo
+	mother=10049522
+	religion="shinto"
+	culture="sanin"
+	prowess=11
+	1550.1.1={
+		birth=yes
+	}
+	1605.1.1={
+		death=yes
+	}
+}
+10050072 = {
+	name=character_name_10050072 # Akihiro
+	dynasty=10000500 # Yamana
+	father=10050005 #Yamana Suketoyo
+	mother=10049522
+	religion="shinto"
+	culture="sanin"
+	prowess=11
+	1559.1.1={
+		birth=yes
+	}
+	1627.8.14={
+		death=yes
+	}
+}
+10050073 = {
+	name=character_name_10050073 # Akimasa
+	dynasty=10000500 # Yamana
+	father=10050072
+	religion="shinto"
+	culture="sanin"
+	prowess=11
+	1577.1.1={
+		birth=yes
+	}
+	1630.1.1={
+		death=yes
+	}
+}
+10050074 = {
+	name=character_name_10050074 # Hikari #Yamana Toyokuni's wife
+	dynasty=10000500 # Yamana
+	father=10050005 #Yamana Suketoyo
+	female=yes
+	religion="shinto"
+	culture="sanin"
+	prowess=10
+	1548.1.1={
+		birth=yes
+	}
+	1627.8.14={
+		death=yes
+	}
+}
+10050076 = {
+	name=character_name_10050076 # Toyomasa
+	dynasty=10000500 # Yamana
+	father=10050060 # Yamana Toyokuni
+	mother=10050074
+	martial=7
+	diplomacy=4
+	intrigue=5
+	stewardship=6
+	learning=6
+	religion="shinto"
+	culture="sanin"
+	trait="education_diplomacy_1"
+	trait="impatient"
+	prowess=11
+	1571.1.1={
+		birth=yes
+	}
+	1630.8.6={
+		death=yes
+	}
+}
+10050077 = {
+	name=character_name_10050077 # Akane #Toyotomi Hideyoshi's consort wife
+	dynasty=10000500 # Yamana
+	father=10050060 # Yamana Toyokuni
+	mother=10050074
+	female=yes
+	martial=6
+	diplomacy=7
+	intrigue=6
+	stewardship=5
+	learning=6
+	religion="shinto"
+	culture="sanin"
+	trait="education_diplomacy_1"
+	trait="impatient"
+	prowess=10
+	1565.1.1={
+		birth=yes
+	}
+	1630.8.6={
+		death=yes
+	}
+}
+10050078 = {
+	name=character_name_10050078 # Toyoyoshi
+	dynasty=10000500 # Yamana
+	father=10050060 # Yamana Toyokuni
+	mother=10050074
+	martial=6
+	diplomacy=6
+	intrigue=7
+	stewardship=6
+	learning=6
+	religion="shinto"
+	culture="sanin"
+	trait="education_diplomacy_1"
+	trait="impatient"
+	prowess=10
+	1575.1.1={
+		birth=yes
+	}
+	1630.8.6={
+		death=yes
+	}
+}
+10050079 = {
+	name=character_name_10050079 # Toyoharu
+	dynasty=10000500 # Yamana
+	father=10050060 # Yamana Toyokuni
+	mother=10050074
+	martial=5
+	diplomacy=6
+	intrigue=7
+	stewardship=8
+	learning=4
+	religion="shinto"
+	culture="sanin"
+	trait="education_diplomacy_1"
+	trait="impatient"
+	prowess=10
+	1577.1.1={
+		birth=yes
+	}
+	1630.8.6={
+		death=yes
+	}
+}
+10050080={
+	name=character_name_10050080 # Tokikiyo
+	dynasty=10000500 # Yamana
+	father=10050010 # Yamana Ujikiyo
+	religion="shinto"
+	culture="sanin"
+	prowess=12
+	1364.1.1={
+		birth=yes
+	}
+	1380.1.1={
+		give_nickname="nick_sakonoe_shogen"
+	}
+	1394.1.1={
+		give_nickname="nick_sama_no_suke"
+	}
+	1414.1.1={
+		death=yes
+	}
+}
+10050081={
+	name=character_name_10050081 # Mitsuuji
+	dynasty=10000500 # Yamana
+	father=10050010 # Yamana Ujikiyo
+	religion="shinto"
+	culture="sanin"
+	prowess=11
+	1366.1.1={
+		birth=yes
+	}
+	1382.1.1={
+		give_nickname="nick_Kojio"
+	}
+	1396.1.1={
+		give_nickname="nick_minbu_no_sho"
+	}
+	1416.1.1={
+		death=yes
+	}
+}
+10050082={
+	name=character_name_10050082 # Norihisa
+	dynasty=10000500 # Yamana
+	father=10050010 # Yamana Ujikiyo
+	religion="shinto"
+	culture="sanin"
+	prowess=12
+	1367.1.1={
+		birth=yes
+	}
+	1392.1.1={
+		death=yes
+	}
+}
+10050083={
+	name=character_name_10050083 # Hirouji
+	dynasty=10000500 # Yamana
+	father=10050010 # Yamana Ujikiyo
+	religion="shinto"
+	culture="sanin"
+	prowess=10
+	1368.1.1={
+		birth=yes
+	}
+	1418.1.1={
+		death=yes
+	}
+}
+10050084={
+	name=character_name_10050084 # Ujitoshi
+	dynasty=10000500 # Yamana
+	father=10050010 # Yamana Ujikiyo
+	religion="shinto"
+	culture="sanin"
+	prowess=10
+	1370.1.1={
+		birth=yes
+	}
+	1395.1.1={
+		give_nickname="nick_sakyo_no_suke"
+	}
+	1406.1.1={
+		death={
+			death_reason=death_battle
+		}
+	}
+}
+10050085={
+	name=character_name_10050085 # Tokihisa
+	dynasty=10000500 # Yamana
+	father=10050082 # Yamana Norihisa
+	religion="shinto"
+	culture="sanin"
+	prowess=10
+	1387.1.1={
+		birth=yes
+	}
+	1437.1.1={
+		death=yes
+	}
+}
+10050100= {
+	name=character_name_10050100 # Kunikiyo
+	dynasty=10000518 # Nanjo
+	father=10050101
+	trait="education_intrigue_1"
+	religion="shinto"
+	culture="sanin"
+	prowess=11
+	1497.1.1={
+		birth=yes
+	}
+	1575.10.14={
+		death=yes
+	}
+}
+10050101= {
+	name=character_name_10050101 # Muneaki
+	dynasty=10000518 # Nanjo
+	father=10050102
+	religion="shinto"
+	culture="sanin"
+	prowess=12
+	1468.1.1={
+		birth=yes
+	}
+	1514.1.1={
+		death=yes
+	}
+}
+10050102= {
+	name=character_name_10050102 # Munekata
+	dynasty=10000518 # Nanjo
+	father=10050103
+	religion="shinto"
+	culture="sanin"
+	prowess=10
+	1450.1.1={
+		birth=yes
+	}
+	1512.1.1={
+		death=yes
+	}
+}
+10050103= {
+	name=character_name_10050103 # Munenori # Fictional
+	dynasty=10000518 # Nanjo
+	father=10050104
+	religion="shinto"
+	culture="sanin"
+	prowess=9
+	1430.1.1={
+		birth=yes
+	}
+	1480.1.1={
+		death=yes
+	}
+}
+10050104= {
+	name=character_name_10050104 # Muneyasu # Fictional
+	dynasty=10000518 # Nanjo
+	father=10050105
+	religion="shinto"
+	culture="sanin"
+	prowess=11
+	1410.1.1={
+		birth=yes
+	}
+	1453.1.1={
+		give_nickname="nick_the_danjo_shohitsu"
+		trait="shogoi_ge"
+	}
+	1470.1.1={
+		death=yes
+	}
+}
+10050105= {
+	name=character_name_10050105 # Muneuji # Fictional
+	dynasty=10000518 # Nanjo
+	father=10050106
+	religion="shinto"
+	culture="sanin"
+	prowess=11
+	1390.1.1={
+		birth=yes
+	}
+	1450.1.1={
+		death=yes
+	}
+}
+10050106= {
+	name=character_name_10050106 # Kagemune
+	dynasty=10000518 # Nanjo
+	father=10050107
+	religion="shinto"
+	culture="sanin"
+	prowess=11
+	1360.1.1={
+		birth=yes
+	}
+	1438.1.1={
+		death=yes
+	}
+}
+10050107= {
+	name=character_name_10050107 # Sadamune
+	dynasty=10000518 # Nanjo
+	religion="shinto"
+	culture="sanin"
+	prowess=12
+	1339.1.1={
+		birth=yes
+	}
+	1355.1.1={
+		give_nickname="nick_hoki_no_kami"
+	}
+	1391.1.1={
+		death=yes
+	}
+}
+10050108= {
+	name=character_name_10050108 # Sadamitsu 
+	dynasty=10000518 # Nanjo
+	father=10050107
+	religion="shinto"
+	culture="sanin"
+	prowess=11
+	1370.1.1={
+		birth=yes
+	}
+	1390.1.1={
+		trait="devoted"
+		name=character_name_10050108_1 # Choo
+	}
+	1410.2.6={
+		death=yes
+	}
+}
+10050109= {
+	name=character_name_10050109 # Motonobu
+	dynasty=10000518 # Nanjo
+	father=10050101
+	trait="education_intrigue_1"
+	religion="shinto"
+	culture="sanin"
+	prowess=9
+	1500.1.1={
+		birth=yes
+	}
+	1575.1.1={
+		death=yes
+	}
+}
+10050110= {
+	name=character_name_10050110 # Nobumasa
+	dynasty=10000518 # Nanjo
+	father=10050101
+	trait="education_intrigue_1"
+	religion="shinto"
+	culture="sanin"
+	prowess=10
+	1505.1.1={
+		birth=yes
+	}
+	1580.1.1={
+		death=yes
+	}
+}
+10050111= {
+	name=character_name_10050111 # Munenobu
+	dynasty=10000518 # Nanjo
+	father=10050101
+	trait="education_intrigue_1"
+	religion="shinto"
+	culture="sanin"
+	prowess=10
+	1508.1.1={
+		birth=yes
+	}
+	1580.3.1={
+		death=yes
+	}
+}
+10050112= {
+	name=character_name_10050112 # Nobumitsu
+	dynasty=10000518 # Nanjo
+	father=10050110
+	trait="education_intrigue_1"
+	religion="shinto"
+	culture="sanin"
+	prowess=11
+	1535.1.1={
+		birth=yes
+	}
+	1619.4.1={
+		death=yes
+	}
+}
+10050113= {
+	name=character_name_10050113 # Takamitsu
+	dynasty=10000518 # Nanjo
+	father=10050110
+	trait="education_intrigue_1"
+	religion="shinto"
+	culture="sanin"
+	prowess=11
+	1540.1.1={
+		birth=yes
+	}
+	1580.1.1={
+		trait="devoted"
+		name=character_name_10050113_1 # Baido
+	}
+	1610.1.1={
+		death=yes
+	}
+}
+10050114= {
+	name=character_name_10050114 # Mototsugu
+	dynasty=10000518 # Nanjo
+	father=10050100
+	trait="education_intrigue_1"
+	religion="shinto"
+	culture="sanin"
+	prowess=11
+	1549.1.1={
+		birth=yes
+	}
+	1591.7.17={
+		death=yes
+	}
+}
+10050115= {
+	name=character_name_10050115 # Motokiyo
+	dynasty=10000518 # Nanjo
+	father=10050100
+	martial=6
+	trait="education_martial_3"
+	trait="content"
+	trait="compassionate"
+	religion="shinto"
+	culture="sanin"
+	prowess=13
+	1550.1.1={
+		birth=yes
+	}
+	1614.2.13={
+		death=yes
+	}
+}
+10050116= {
+	name=character_name_10050116 # Motoaki
+	dynasty=10000518 # Nanjo
+	father=10050100
+	trait="education_intrigue_1"
+	religion="shinto"
+	culture="sanin"
+	prowess=11
+	1555.1.1={
+		birth=yes
+	}
+	1580.9.21={
+		death={
+		death_reason=death_battle
+		killer=10056750 #Sugihara Moriie
+		}
+	}
+}
+10050117= {
+	name=character_name_10050117 # Kaneyasu
+	dynasty=10000518 # Nanjo
+	father=10050114
+	trait="education_intrigue_1"
+	religion="shinto"
+	culture="sanin"
+	prowess=11
+	1570.1.1={
+		birth=yes
+	}
+	1613.3.15={
+		death=yes
+	}
+}
+10050118= {
+	name=character_name_10050118 # Chiyo 
+	dynasty=10000518 # Nanjo
+	father=10050114
+	female=yes
+	trait="education_intrigue_1"
+	religion="shinto"
+	culture="sanin"
+	prowess=11
+	1575.1.1={
+		birth=yes
+	}
+	1614.8.15={
+		death=yes
+	}
+}
+10050119= {
+	name=character_name_10050119 # Mototada
+	dynasty=10000518 # Nanjo
+	father=10050114
+	trait="education_intrigue_1"
+	trait="arbitrary"
+	religion="shinto"
+	culture="sanin"
+	prowess=12
+	1579.1.1={
+		birth=yes
+	}
+	1615.1.2={
+		death=yes
+	}
+}
+10050121= {
+	name=character_name_10050121 # Munetsugu
+	dynasty=10000518 # Nanjo
+	father=10050114
+	trait="education_intrigue_1"
+	trait="paranoid"
+	religion="shinto"
+	culture="sanin"
+	prowess=11
+	1581.1.1={
+		birth=yes
+	}
+	1640.1.1={
+		death=yes
+	}
+}
+10050120= {
+	name=character_name_10050120 # Terunobu
+	dynasty=10000503 # Otagaki
+	martial=6
+	diplomacy=6
+	intrigue=4
+	stewardship=5
+	learning=7
+	father=10050122
+	religion="shinto"
+	culture="sanin"
+	trait="education_diplomacy_3"
+	prowess=10
+	1535.1.1={
+		birth=yes
+	}
+	1585.1.1={
+		death=yes
+	}
+}
+10050122= {
+	name=character_name_10050122 # Tomonobu
+	dynasty=10000503 # Otagaki
+	father=10050123
+	religion="shinto"
+	culture="sanin"
+	prowess=10
+	1500.1.1={
+		birth=yes
+	}
+	1560.1.1={
+		death=yes
+	}
+}
+10050123= {
+	name=character_name_10050123 # Munetoshi
+	dynasty=10000503 # Otagaki
+	father=10050125
+	religion="shinto"
+	culture="sanin"
+	prowess=11
+	1470.1.1={
+		birth=yes
+	}
+	1530.1.1={
+		death=yes
+	}
+}
+10050124= {
+	name=character_name_10050124 # Tomosada
+	dynasty=10000503 # Otagaki
+	father=10050125
+	religion="shinto"
+	culture="sanin"
+	prowess=10
+	1460.1.1={
+		birth=yes
+	}
+	1500.1.1={
+		death=yes
+	}
+}
+10050125= {
+	name=character_name_10050125 # Munetomo
+	dynasty=10000503 # Otagaki
+	father=10050127
+	religion="shinto"
+	culture="sanin"
+	prowess=11
+	1430.1.1={
+		birth=yes
+	}
+	1490.1.1={
+		death=yes
+	}
+}
+10050126= {
+	name=character_name_10050126 # Munechika
+	dynasty=10000503 # Otagaki
+	father=10050127
+	martial=5
+	religion="shinto"
+	culture="sanin"
+	trait="education_martial_3"
+	trait="flexible_leader"
+	trait="rough_terrain_expert"
+	prowess=13
+	1435.1.1={
+		birth=yes
+	}
+	1495.1.1={
+		death=yes
+	}
+}
+10050127= {
+	name=character_name_10050127 # Kagechika
+	dynasty=10000503 # Otagaki
+	father=10050130
+	religion="shinto"
+	culture="sanin"
+	prowess=10
+	1400.1.1={
+		birth=yes
+	}
+	1470.1.1={
+		death=yes
+	}
+}
+10050128= {
+	name=character_name_10050128 # Kageyasu
+	dynasty=10000503 # Otagaki
+	father=10050130
+	religion="shinto"
+	culture="sanin"
+	prowess=10
+	1405.1.1={
+		birth=yes
+	}
+	1475.1.1={
+		death=yes
+	}
+}
+10050129= {
+	name=character_name_10050129 # Kagemitsu
+	dynasty=10000503 # Otagaki
+	father=10050130
+	religion="shinto"
+	culture="sanin"
+	prowess=12
+	1410.1.1={
+		birth=yes
+	}
+	1475.1.1={
+		death=yes
+	}
+}
+10050130= {
+	name=character_name_10050130 # Mitsukage
+	dynasty=10000503 # Otagaki
+	religion="shinto"
+	culture="sanin"
+	prowess=11
+	1370.1.1={
+		birth=yes
+	}
+	1450.1.1={
+		death=yes
+	}
+}
+10050131= {
+	name=character_name_10050131 # Nobutaka
+	dynasty=10000503 # Otagaki
+	father=10050122
+	religion="shinto"
+	culture="sanin"
+	prowess=11
+	1540.1.1={
+		birth=yes
+	}
+	1590.1.1={
+		death=yes
+	}
+}
+10050132= {
+	name=character_name_10050132 # Munetaka
+	dynasty=10000503 # Otagaki
+	father=10050122
+	religion="shinto"
+	culture="sanin"
+	prowess=11
+	1543.1.1={
+		birth=yes
+	}
+	1590.1.1={
+		death=yes
+	}
+}
+10051501 = {
+	name=character_name_10051501 # Tsunehisa
+	dynasty=10000515 # Amago
+	father=10051503
+	martial=6
+	diplomacy=6
+	intrigue=6
+	stewardship=6
+	learning=7
+	religion="shinto"
+	culture="sanin"
+	trait="education_intrigue_4"
+	trait="intellect_good_2"
+	trait="ambitious"
+	trait="generous"
+	prowess=12
+	1458.12.25={
+		birth=yes
+	}
+	1474.12.25={
+		give_nickname="nick_Matashiro"
+	}
+	1478.1.1={
+		effect={
+			set_realm_capital=title:c_shgnt_nogi
+		}
+	}
+	1485.1.1={
+		add_spouse=10056208
+		give_nickname="nick_minbu_no_sho"
+	}
+	1508.1.1={
+		give_nickname="nick_iyo_no_kami"
+	}
+	1530.1.1={
+		add_pressed_claim=d_shgnt_izumo
+	}
+	1534.8.10 = {
+		remove_claim=d_shgnt_izumo
+	}
+	1541.11.30={
+		death=yes
+	}
+}
+10051502 = {
+	name=character_name_10051502 # Hisayuki # a.k.a. Yoshikatsu
+	dynasty=10000515 # Amago
+	father=10051503
+	martial=7
+	diplomacy=8
+	intrigue=5
+	stewardship=6
+	learning=5
+	religion="shinto"
+	culture="sanin"
+	trait="education_martial_1"
+	trait="brave"
+	prowess=11
+	1473.1.1={
+		birth=yes
+	}
+	1503.1.1={
+		give_nickname="nick_jibu_no_sho"
+	}
+	1513.1.1={
+		give_nickname="nick_shimotsukeno_no_kami"
+	}
+	1541.2.8={
+		death={
+		death_reason=death_battle
+		}
+	}
+}
+10051503 = {
+	name=character_name_10051503 # Kiyosada
+	dynasty=10000515 # Amago
+	father=10051504
+	martial=6
+	diplomacy=6
+	intrigue=7
+	stewardship=8
+	learning=6
+	religion="shinto"
+	culture="sanin"
+	trait="education_intrigue_2"
+	trait="ambitious"
+	prowess=12
+	1410.1.1={
+		birth=yes
+	}
+	1440.1.1={
+		give_nickname="nick_gyobu_no_sho"
+	}
+	1488.2.12={
+		death=yes
+	}
+}
+10051504 = {
+	name=character_name_10051504 # Mochihisa
+	dynasty=10000515 # Amago
+	father=10051505
+	religion="shinto"
+	culture="sanin"
+	trait="education_stewardship_1"
+	prowess=10
+	1381.1.1={
+		birth=yes
+	}
+	1411.1.1={
+		give_nickname="nick_kamitsukeno_no_suke"
+	}
+	1437.3.31={
+		death=yes
+	}
+}
+10051505 = {
+	name=character_name_10051505 # Takahisa
+	dynasty=10000515 # Amago
+	father=10044205 # Sasaki Takahide
+	religion="shinto"
+	culture="sanin"
+	trait="education_diplomacy_1"
+	prowess=10
+	1363.1.1={
+		birth=yes
+	}
+	1379.1.1={
+		give_nickname="nick_jio"
+	}
+	1383.1.1={
+		give_nickname="nick_bizen_no_kami"
+	}
+	1391.11.7={
+		death=yes
+	}
+}
+10051506 = {
+	name=character_name_10051506 # Masahisa
+	dynasty=10000515 # Amago
+	father=10051501
+	mother=10056208
+	martial=6
+	diplomacy=6
+	intrigue=8
+	stewardship=6
+	learning=8
+	religion="shinto"
+	culture="sanin"	
+	trait="education_diplomacy_2"
+	prowess=11
+	1488.1.1={
+		birth=yes
+	}
+	1508.1.1={
+		give_nickname="nick_minbu_no_sho"
+	}
+	1518.10.10={
+		death={
+		death_reason=death_battle
+		}
+	}
+}
+10051507 = {
+	name=character_name_10051507 # Kunihisa
+	dynasty=10000515 # Amago
+	father=10051501
+	mother=10056208
+	martial=4
+	diplomacy=8
+	intrigue=6
+	stewardship=6
+	learning=6
+	religion="shinto"
+	culture="sanin"
+	trait="education_martial_2"
+	prowess=12
+	1492.1.1={
+		birth=yes
+	}
+	1508.1.1={
+		give_nickname="nick_Magoshiro"
+	}
+	1512.1.1={
+		give_nickname="nick_gyobu_no_sho"
+	}
+	1522.1.1={
+		give_nickname="nick_kii_no_kami"
+	}
+	1554.11.25={
+		death={
+		death_reason=death_murder
+		killer=10051508 #Amago Haruhisa
+		}
+	}
+}
+10051508 = {
+	name=character_name_10051508 # Haruhisa
+	dynasty=10000515 # Amago
+	father=10051506
+	martial=6
+	diplomacy=6
+	intrigue=7
+	stewardship=5
+	learning=7
+	religion="shinto"
+	culture="sanin"	
+	trait="education_diplomacy_2"
+	trait="impatient"
+	trait="deceitful"
+	trait="callous"
+	prowess=10
+	1514.3.8={
+		birth=yes
+	}
+	1530.3.8={
+		give_nickname="nick_Saburoshiro"
+	}
+	1531.1.1={
+		add_spouse=10051523
+	}
+	1541.11.30={
+		give_nickname="nick_the_minbu_no_sho"
+		trait="jugoi_ge"
+		effect={
+			set_realm_capital=title:c_shgnt_nogi
+		}
+	}
+	1552.12.3={
+		give_nickname="nick_the_shuri_daibu"
+	}
+	1561.1.1={
+		effect={
+			set_realm_capital=title:c_shgnt_nogi
+		}
+	}
+	1561.1.9={
+		death=yes
+	}
+}
+10051509 = {
+	name=character_name_10051509 # Sanehisa
+	dynasty=10000515 # Amago
+	father=10051507
+	martial=5
+	religion="shinto"
+	culture="sanin"	
+	trait="education_diplomacy_2"
+	trait="impatient"
+	trait="sadistic"
+	trait="arrogant"
+	prowess=11
+	1510.1.1={
+		birth=yes
+	}
+	1526.1.1={
+		give_nickname="nick_Magoshiro"
+	}
+	1554.11.25={
+		death={
+		death_reason=death_murder
+		killer=10051508 #Amago Haruhisa
+		}
+	}
+}
+10051511 = {
+	name=character_name_10051511 # Okihisa
+	dynasty=10000515 # Amago
+	father=10051501
+	mother=10056208
+	religion="shinto"
+	culture="sanin"	
+	trait="education_intrigue_2"
+	prowess=11
+	1497.1.1={
+		birth=yes
+	}
+	1510.1.1={
+		dynasty=10000517 # Enya
+	}
+	1513.1.1={
+		give_nickname="nick_Hikoshiro"
+	}
+	1517.1.1={
+		give_nickname="nick_kunai_daihu"
+	}
+	1530.1.1={
+		add_pressed_claim=k_shgnt_sanin
+	}
+	1534.8.10={
+		remove_claim=k_shgnt_sanin
+		death={
+			death_reason=death_suicide
+		}
+	}
+}
+10051516={
+	name=character_name_10051516 # Katsuhisa
+	dynasty=10000515 # Amago
+	father=10051509 # Amago Sanehisa
+	religion="shinto"
+	culture="sanin"
+	prowess=10
+	1553.1.1={
+		birth=yes
+	}
+	1567.1.8={
+		trait="devoted"
+	}
+	1568.6.1={
+		add_pressed_claim=c_shgnt_oki_no_shima
+		add_pressed_claim=c_shgnt_shimane
+		add_pressed_claim=c_shgnt_izumo
+		add_pressed_claim=c_shgnt_ohara
+		add_pressed_claim=c_shgnt_nogi
+		add_pressed_claim=c_shgnt_aumi
+		add_pressed_claim=c_shgnt_hino
+		add_pressed_claim=c_shgnt_kawamura
+		remove_trait="devoted"
+	}
+	1569.6.1 = {
+	}
+	1571.9.8 = {
+	}
+	1573.6.1 = {
+	}
+	1576.5.1 = {
+	}
+	1578.2.1 = {
+	}
+	1578.8.6={
+		remove_claim=c_shgnt_oki_no_shima
+		remove_claim=c_shgnt_shimane
+		remove_claim=c_shgnt_izumo
+		remove_claim=c_shgnt_ohara
+		remove_claim=c_shgnt_nogi
+		remove_claim=c_shgnt_aumi
+		remove_claim=c_shgnt_hino
+		remove_claim=c_shgnt_kawamura
+		death={
+		death_reason=death_suicide
+		}
+	}
+}
+10051517 = {
+	name=character_name_10051517 # Norihisa #Omi Amago clan
+	dynasty=10000515 # Amago
+	father=10051505
+	religion="shinto"
+	culture="sanin"
+	trait="education_stewardship_1"
+	prowess=11
+	1380.1.1={
+		birth=yes
+	}
+	1440.1.1={
+		death=yes
+	}
+}
+10051518 = {
+	name=character_name_10051518 # Noriyuki
+	dynasty=10000515 # Amago
+	father=10051502
+	religion="shinto"
+	culture="sanin"
+	trait="education_diplomacy_1"
+	prowess=11
+	1500.1.1={
+		birth=yes
+	}
+	1570.1.1={
+		death=yes
+	}
+}
+10051519 = {
+	name=character_name_10051519 # Itou #Kitajima Nanigashi's wife
+	dynasty=10000515 # Amago
+	father=10051501
+	mother=10056208
+	female=yes
+	religion="shinto"
+	culture="sanin"	
+	trait="education_diplomacy_1"
+	prowess=11
+	1500.1.1={
+		birth=yes
+	}
+	1541.8.10={
+		death=yes
+	}
+}
+10051520 = {
+	name=character_name_10051520 # Shitau #Senge Nanigashi's wife
+	dynasty=10000515 # Amago
+	father=10051501
+	mother=10056208
+	female=yes
+	religion="shinto"
+	culture="sanin"
+	trait="education_diplomacy_1"
+	prowess=11
+	1493.1.1={
+		birth=yes
+	}
+	1554.11.25={
+		death=yes
+	}
+}
+10051521 = {
+	name=character_name_10051521 # Koishi #Shinji Hisayoshi's wife
+	dynasty=10000515 # Amago
+	father=10051501
+	mother=10056208
+	female=yes
+	religion="shinto"
+	culture="sanin"
+	trait="education_diplomacy_1"
+	prowess=12
+	1501.1.1={
+		birth=yes
+	}
+	1554.11.25={
+		death=yes
+	}
+}
+10051522 = {
+	name=character_name_10051522 # Mura #Matsuda Masayasu's wife
+	dynasty=10000515 # Amago
+	father=10051506
+	female=yes
+	religion="shinto"
+	culture="sanin"	
+	trait="education_diplomacy_2"
+	prowess=9
+	1518.1.1={
+		birth=yes
+	}
+	1560.1.1={
+		death=yes
+	}
+}
+10051523 = {
+	name=character_name_10051523 # Nao #Amago Haruhisa's wife
+	dynasty=10000515 # Amago
+	father=10051507
+	female=yes
+	religion="shinto"
+	culture="sanin"	
+	trait="education_diplomacy_2"
+	prowess=10
+	1515.1.1={
+		birth=yes
+	}
+	1554.1.1={
+		death=yes
+	}
+}
+10051525 = {
+	name=character_name_10051525 # Yoshihisa
+	dynasty=10000515 # Amago
+	father=10051508
+	martial=4
+	diplomacy=6
+	intrigue=6
+	stewardship=7
+	learning=7
+	religion="shinto"
+	culture="sanin"	
+	trait="education_diplomacy_2"
+	trait="content"
+	trait="compassionate"
+	prowess=11
+	1540.1.1={
+		birth=yes
+	}
+	1556.1.1={
+		give_nickname="nick_Saburoshiro"
+	}
+	1560.1.1={
+		give_nickname="nick_the_uemon_no_kami"
+	}
+	1567.1.8={
+		employer=10056004 #Mori Motonari
+	}
+	1571.7.6={
+		employer=10056025 # Mori Terumoto
+	}
+	1610.10.14={
+		death=yes
+	}
+}
+10051526 = {
+	name=character_name_10051526 # Tomohisa
+	dynasty=10000515 # Amago
+	father=10051508
+	martial=5
+	diplomacy=5
+	intrigue=7
+	stewardship=5
+	learning=7
+	religion="shinto"
+	culture="sanin"	
+	trait="education_diplomacy_2"
+	trait="content"
+	trait="compassionate"
+	prowess=9
+	1546.1.1={
+		birth=yes
+	}
+	1567.1.8={
+		employer=10056004 #Mori Motonari
+	}
+	1571.7.6={
+		employer=10056025 # Mori Terumoto
+	}
+	1581.1.1={ 
+		add_spouse=10056530
+	}
+	1623.4.3={
+		death=yes
+	}
+}
+10051527 = {
+	name=character_name_10051527 # Hidehisa
+	dynasty=10000515 # Amago
+	father=10051508
+	martial=6
+	diplomacy=5
+	intrigue=6
+	stewardship=7
+	learning=6
+	religion="shinto"
+	culture="sanin"	
+	trait="education_diplomacy_2"
+	trait="content"
+	trait="compassionate"
+	prowess=10
+	1550.1.1={
+		birth=yes
+	}
+	1567.1.8={
+		employer=10056004 #Mori Motonari
+	}
+	1571.7.6={
+		employer=10056025 # Mori Terumoto
+	}
+	1609.12.27={
+		death=yes
+	}
+}
+10051528 = {
+	name=character_name_10051528 # Yuri #Misawa Tamekiyo's wife
+	dynasty=10000515 # Amago
+	father=10051508
+	female=yes
+	martial=5
+	diplomacy=7
+	intrigue=7
+	stewardship=7
+	learning=5
+	religion="shinto"
+	culture="sanin"	
+	trait="education_diplomacy_2"
+	trait="content"
+	trait="compassionate"
+	prowess=10
+	1542.1.1={
+		birth=yes
+	}
+	1600.1.1={
+		death=yes
+	}
+}
+10051529 = {
+	name=character_name_10051529 # Motosato
+	dynasty=10000515 # Amago
+	father=10051526
+	martial=5
+	diplomacy=5
+	intrigue=5
+	stewardship=5
+	learning=6
+	religion="shinto"
+	culture="sanin"	
+	trait="education_diplomacy_2"
+	trait="content"
+	trait="compassionate"
+	prowess=12
+	1582.1.1={
+		birth=yes
+		employer=10056025 # Mori Terumoto
+	}
+	1622.6.21={
+		death=yes
+	}
+}
+10051530 = {
+	name=character_name_10051530 # Sanehisa
+	dynasty=10000515 # Amago
+	father=10051507
+	religion="shinto"
+	culture="sanin"	
+	trait="education_diplomacy_2"
+	prowess=10
+	1514.1.1={
+		birth=yes
+	}
+	1546.7.25={
+		death={
+		death_reason=death_battle
+		killer=10056102 #Takeda Nobuzane
+		}
+	}
+}
+10051531 = {
+	name=character_name_10051531 # Takahisa
+	dynasty=10000515 # Amago
+	father=10051507
+	religion="shinto"
+	culture="sanin"	
+	trait="education_diplomacy_2"
+	prowess=12
+	1518.1.1={
+		birth=yes
+	}
+	1534.1.1={
+		give_nickname="nick_Koshiro"
+	}
+	1554.11.26={
+		death={
+		death_reason=death_suicide
+		}
+	}
+}
+10051532 = {
+	name=character_name_10051532 # Kazuhisa
+	dynasty=10000515 # Amago
+	father=10051507
+	religion="shinto"
+	culture="sanin"	
+	trait="education_diplomacy_2"
+	prowess=9
+	1520.1.1={
+		birth=yes
+	}
+	1554.11.26={
+		trait="devoted"
+		name=character_name_10051532_1 # Jushin
+	}
+	1590.1.1={
+		death=yes
+	}
+}
+10051534 = {
+	name=character_name_10051534 # Haru #Okawara Sadahisa's wife
+	dynasty=10000515 # Amago
+	father=10051507
+	female=yes
+	religion="shinto"
+	culture="sanin"	
+	trait="education_diplomacy_2"
+	prowess=10
+	1517.1.1={
+		birth=yes
+	}
+	1554.1.1={
+		death=yes
+	}
+}
+10051535 = {
+	name=character_name_10051535 # One #Shinji Tsuneyoshi's wife
+	dynasty=10000515 # Amago
+	father=10051507
+	female=yes
+	religion="shinto"
+	culture="sanin"	
+	trait="education_diplomacy_2"
+	prowess=11
+	1519.1.1={
+		birth=yes
+	}
+	1554.1.1={
+		death=yes
+	}
+}
+10051536 = {
+	name=character_name_10051536 # Ujihisa
+	dynasty=10000515 # Amago
+	father=10051509
+	martial=5
+	religion="shinto"
+	culture="sanin"	
+	trait="education_diplomacy_2"
+	prowess=10
+	1535.1.1={
+		birth=yes
+	}
+	1551.1.1={
+		give_nickname="nick_Magoshiro"
+	}
+	1555.1.1={
+		give_nickname="nick_gyobu_no_sho"
+	}
+	1567.1.8={
+		death={
+		death_reason=death_suicide
+		}
+	}
+}
+10051537 = {
+	name=character_name_10051537 # Yoshihisa
+	dynasty=10000515 # Amago
+	father=10051509
+	martial=5
+	religion="shinto"
+	culture="sanin"	
+	trait="education_diplomacy_2"
+	prowess=10
+	1541.1.1={
+		birth=yes
+	}
+	1554.11.25={
+		death={
+		death_reason=death_murder
+		killer=10051508 #Amago Haruhisa
+		}
+	}
+}
+10051538 = {
+	name=character_name_10051538 # Suehisa
+	dynasty=10000515 # Amago
+	father=10051509
+	martial=6
+	religion="shinto"
+	culture="sanin"	
+	trait="education_diplomacy_2"
+	prowess=9
+	1542.1.1={
+		birth=yes
+	}
+	1554.11.25={
+		death={
+		death_reason=death_murder
+		killer=10051508 #Amago Haruhisa
+		}
+	}
+}
+10051539 = {
+	name=character_name_10051539 # Tsunehisa
+	dynasty=10000515 # Amago
+	father=10051509
+	martial=6
+	religion="shinto"
+	culture="sanin"	
+	trait="education_diplomacy_2"
+	prowess=11
+	1543.1.1={
+		birth=yes
+	}
+	1554.11.25={
+		death={
+		death_reason=death_murder
+		killer=10051508 #Amago Haruhisa
+		}
+	}
+}
+10051540 = {
+	name=character_name_10051540 # Michihisa
+	dynasty=10000515 # Amago
+	father=10051509
+	religion="shinto"
+	culture="sanin"	
+	trait="education_diplomacy_2"
+	trait="legitimized_bastard"
+	prowess=11
+	1554.1.1={
+		birth=yes
+	}
+	1569.6.1 = {
+		employer=10051516 # Amago Katsuhisa
+	}
+	1573.6.1 = {
+		employer=10051516 # Amago Katsuhisa
+	}
+	1578.2.1 = {
+		employer=10051516 # Amago Katsuhisa
+	}
+	1578.8.6={
+		death={
+		death_reason=death_suicide
+		}
+	}
+}
+10051550 = {
+	name=character_name_10051550 # Mitsuyuki
+	dynasty=10000516 # Yamanaka
+	religion="shinto"
+	culture="sanin"	
+	trait="education_diplomacy_2"
+	prowess=10
+	1520.1.1={
+		birth=yes
+		employer=10051501
+	}
+	1546.10.14={
+		death=yes
+	}
+}
+10051551 = {
+	name=character_name_10051551 # Yukitaka
+	dynasty=10000516 # Yamanaka
+	father=10051550
+	religion="shinto"
+	culture="sanin"	
+	trait="education_diplomacy_2"
+	trait="weak"
+	prowess=12
+	1540.1.1={
+		birth=yes
+		employer=10051501 # Amago Tsunehise
+	}
+	1560.1.1={
+		trait="ill"
+	}
+	1561.1.1={
+		employer=10051508 # Amago Haruhisa
+	}
+	1561.1.9={
+		employer=10051525 # Amago Yoshihisa
+	}
+	1562.1.1={
+		death=yes
+	}
+}
+10051552 = {
+	name=character_name_10051552 # Yukimori #Shikanosuke
+	dynasty=10000516 # Yamanaka
+	father=10051550
+	martial=6
+	diplomacy=7
+	intrigue=7
+	stewardship=7
+	learning=8
+	religion="shinto"
+	culture="sanin"	
+	trait="education_martial_2"
+	trait="intellect_good_2"
+	trait="compassionate"
+	trait="patient"
+	trait="diligent"
+	trait="brave"
+	trait="flexible_leader"
+	trait="unyielding_defender"
+	prowess=12
+	1545.9.20={
+		birth=yes
+		employer=10051508 # Amago Haruhisa
+	}
+	1561.1.9={
+		employer=10051525 # Amago Yoshihisa
+	}
+	1561.9.20={
+		give_nickname="nick_shika_no_suke"
+	}
+	1569.6.1 = {
+		employer=10051516 # Amago Katsuhisa
+	}
+	1573.6.1 = {
+		employer=10051516 # Amago Katsuhisa
+	}
+	1578.2.1 = {
+		employer=10051516 # Amago Katsuhisa
+	}
+	1578.8.20={
+		death={
+			death_reason=death_execution
+			killer=10056025 # Mori Terumoto
+		}
+	}
+}
+10051553 = {
+	name=character_name_10051553 # Yuki #Ida Sadamasa's wife
+	dynasty=10000516 # Yamanaka
+	father=10051550
+	female=yes
+	religion="shinto"
+	culture="sanin"	
+	trait="education_diplomacy_2"
+	trait="weak"
+	prowess=10
+	1543.1.1={
+		birth=yes
+	}
+	1585.1.1={
+		death=yes
+	}
+}
+10051554 = {
+	name=character_name_10051554 # Yukimoto
+	dynasty=10000516 # Yamanaka
+	father=10051552
+	religion="shinto"
+	culture="sanin"	
+	trait="education_diplomacy_2"
+	trait="weak"
+	prowess=10
+	1571.1.23={
+		birth=yes
+	}
+	1651.1.26={
+		death=yes
+	}
+}
+10051555 = {
+	name=character_name_10051555 # Yukinori
+	dynasty=10000516 # Yamanaka
+	father=10051552
+	religion="shinto"
+	culture="sanin"	
+	trait="education_diplomacy_2"
+	trait="weak"
+	prowess=10
+	1573.1.1={
+		birth=yes
+	}
+	1651.1.26={
+		death=yes
+	}
+}
+10051556 = {
+	name=character_name_10051556 # Koyuki #Yoshikazu Yoshikane's wife
+	dynasty=10000516 # Yamanaka
+	father=10051552
+	female=yes
+	religion="shinto"
+	culture="sanin"	
+	trait="education_diplomacy_2"
+	trait="weak"
+	prowess=12
+	1575.1.23={
+		birth=yes
+	}
+	1651.1.26={
+		death=yes
+	}
+}

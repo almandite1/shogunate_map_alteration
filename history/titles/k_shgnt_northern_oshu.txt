@@ -1,0 +1,1385 @@
+﻿c_shgnt_hei = {
+    0001.01.01 = { change_development_level = 10 }
+    1100.01.01 = { change_development_level = 10 }
+    1420.01.01 = { change_development_level = 10 }
+    0100.01.01 = {
+    }
+    1180.01.01 = {
+        liege = k_shgnt_northern_oshu # 
+        holder = 12032010 # Hei Takekuni
+    }
+    1189.10.03 = {
+        liege = k_shgnt_western_kanto # Fall of Hiraizumi
+        holder = 10120075 # Minamoto Yoritomo
+    }
+    1189.11.15 = {
+        holder = 12052000 # Hei Yukimitsu
+    }
+    1219.01.01 = {
+        holder = 12052001 # Hei Ietomo
+    }
+    1260.01.01 = {
+        holder = 12052005 # Hei Mitsutomo
+    }
+    1290.01.01 = {
+        holder = 12052010 # Hei Mitsuyori
+    }
+    1344.01.01 = {
+        holder = 12052015 # Hei Chikamitsu
+    }
+    1360.01.01 = {
+        holder = 12052020 # Hei Tamenobu
+    }
+    1366.01.01 = {
+        holder = 12052025 # Hei Hisatomo
+    }
+    1420.01.01 = {
+        liege = 0 # 
+        holder = 10005201 # Takusari Juro
+    }
+    1450.01.01 = {
+        holder = 10005202 # Takusari Juro
+    }
+    1480.01.01 = {
+        holder = 10005203 # Takusari Juro
+    }
+    1500.01.01 = {
+        holder = 10005204 # Takusari Masamitsu
+    }
+    1557.01.01 = {
+        holder = 10005205 # Takusari Mitsuyoshi
+    }
+}
+c_shgnt_hienuki = {
+    0001.01.01 = { change_development_level = 10 }
+    1100.01.01 = { change_development_level = 10 }
+    1189.10.03 = { change_development_level = 10 }
+    1341.01.01 = { change_development_level = 10 }
+    0100.01.01 = {
+    }
+    1088.01.01 = {
+        holder = 12030000 # Fujiwara Kiyohira
+    }
+    1128.08.10 = {
+        holder = 12030010 # Fujiwara Motohira
+    }
+    1157.04.29 = {
+        liege = k_shgnt_northern_oshu # 
+        holder = 12030020 # Fujiwara Hidehira
+    }
+    1180.01.01 = {
+        holder = 12030040 # Fujiwara Toshihira
+    }
+    1189.10.03 = {
+        liege = 0
+        holder = 0
+    }
+    1341.01.01 = {
+        holder = 12051015 # Hienuki Ieshige
+    }
+    1365.01.01 = {
+        holder = 12051020 # Hienuki Shigeto
+    }
+    1390.01.01 = {
+        holder = 12051025 # Hienuki Moriie
+    }
+    1415.01.01 = {
+        holder = 12051030 # Hienuki Tamechika
+    }
+    1440.01.01 = {
+        liege = 0 # 
+        holder = 12051035 # Hienuki Ietaka
+    }
+    1460.01.01 = {
+        holder = 12051040 # Hienuki Tamenaka
+    }
+    1480.01.01 = {
+        holder = 12051045 # Hienuki Tametaka
+    }
+    1490.01.01 = {
+        holder = 10003403 # Hienuki Tameshige
+    }
+    1504.01.01 = {
+        holder = 10003401 # Hienuki Haruie
+    }
+    1564.01.02 = {
+        holder = 10003402 # Hienuki Terutoki
+    }
+    1575.01.01 = {
+        holder = 10003404 # Hienuki Hirotada
+    }
+}
+c_shgnt_inaka = {
+    0001.01.01 = { change_development_level = 30 }
+    1100.01.01 = { change_development_level = 30 }
+    1443.01.01 = { change_development_level = 30 }
+	1092.01.01 = {
+		effect = {
+			title:b_shgnt_inaka_3 = {
+				set_title_name = b_shgnt_inaka_3_1 # Fujisaki
+			}
+		}
+	}
+    1157.04.29 = {
+        liege = k_shgnt_northern_oshu # 
+        holder = 12030021 # Fujiwara [Tosa] Hidehisa
+    }
+    1192.01.01 = {
+        holder = 12030100 # Fujiwara [Tosa] Hidemoto
+    }
+    1222.01.01 = {
+        holder = 12030122 # Fujiwara [Tosa] Hidenao
+    }
+    1229.01.01 = {
+        liege = d_nmih_shimokuni # Ando defeated Tosa=Fujiwara
+        holder = 12030230 # Ando Chikahide
+    }
+    1230.01.01 = {
+        holder = 12030234 # Ando Goro
+    }
+    1260.01.01 = {
+        holder = 12030250 # Ando Goro
+    }
+    1285.01.01 = {
+        holder = 12030271 # Ando Motochika
+    }
+    1315.01.01 = {
+        holder = 12030290 # Ando Munesue
+    }
+    1330.01.01 = {
+        holder = 12030300 # Ando Morosue
+    }
+    1355.01.01 = {
+        holder = 10000113 # Ando Norisue
+    }
+    1400.01.01 = {
+        liege = k_shgnt_wajinchi # 
+        holder = 10000116 # Ando Morisue
+    }
+    1414.02.20 = {
+        holder = 10000115 # Ando Yasusue
+    }
+    1441.07.12 = {
+        holder = 10000114 # Ando Yoshisue
+    }
+    1443.01.01 = {
+        liege = 0 # 
+        holder = 10004007 # Namioka Akikuni
+    }
+    1450.01.01 = {
+        holder = 10004006 # Namioka Akiyoshi
+    }
+    1492.01.01 = {
+        holder = 10004005 # Namioka Akitomo
+    }
+    1522.01.01 = {
+        holder = 10004001 # Namioka Tomonaga
+    }
+    1541.01.01 = {
+        holder = 10004002 # Namioka Tomomune
+    }
+    1555.06.13 = {
+        holder = 10004003 # Namioka Tomokazu
+    }
+    1562.02.26 = {
+        holder = 10004010 # Namioka Akimura
+    }
+    1578.08.23 = {
+        holder = 10003165 # Oura Tamenobu
+    }
+}
+c_shgnt_isawa = {
+    0001.01.01 = { change_development_level = 30 }
+    1100.01.01 = { change_development_level = 30 }
+    1189.10.03 = { change_development_level = 30 }
+    0100.01.01 = {
+    }
+    1088.01.01 = {
+        holder = 12030000 # Fujiwara Kiyohira
+    }
+    1128.08.10 = {
+        holder = 12030010 # Fujiwara Motohira
+    }
+    1157.04.29 = {
+        liege = k_shgnt_northern_oshu # 
+        holder = 12030020 # Fujiwara Hidehira
+    }
+    1180.01.01 = {
+        holder = 11006311 # Fujiwara Motonari
+    }
+    1187.02.01 = {
+        holder = 10120081 # Minamoto Yoshitsune
+    }
+    1189.06.15 = {
+        holder = 11006311 # Fujiwara Motonari, Battle of Koromogawa
+    }
+    1189.10.03 = {
+        liege = k_shgnt_western_kanto # Fall of Hiraizumi
+        holder = 10120075 # Minamoto Yoritomo
+    }
+    1189.11.15 = {
+        liege = d_shgnt_rikuchu # 
+        holder = 12201022 # Kasai Kiyoshige
+    }
+    1190.01.01 = {
+        holder = 10006511 # Kashiyama Akihiro
+    }
+    1230.01.01 = {
+        holder = 10006512 # Kashiyama Akinori
+    }
+    1270.01.01 = {
+        holder = 10006513 # Kashiyama Akishige
+    }
+    1300.01.01 = {
+        holder = 10006514 # Kashiyama Akimichi
+    }
+    1330.01.01 = {
+        holder = 10006515 # Kashiyama Akiharu
+    }
+    1360.01.01 = {
+        liege = d_shgnt_rikuchu # 
+        holder = 10006516 # Kashiyama Akiyoshi
+    }
+    1390.01.01 = {
+        holder = 10006517 # Kashiyama Akiyuki
+    }
+    1420.01.01 = {
+        holder = 10006508 # Kashiyama Akichika
+    }
+    1450.01.01 = {
+        holder = 10006509 # Kashiyama Akimori
+    }
+    1480.01.01 = {
+        holder = 10006510 # Kashiyama Akishige
+    }
+    1510.01.01 = {
+        holder = 10006500 # Kashiyama Akihira
+    }
+    1530.01.01 = {
+        holder = 10006501 # Kashiyama Akiyoshi
+    }
+}
+c_shgnt_iwai = {
+    0001.01.01 = { change_development_level = 40 }
+    1189.10.03 = { change_development_level = 40 }
+    0100.01.01 = {
+    }
+    1088.01.01 = {
+        holder = 12030000 # Fujiwara Kiyohira
+    }
+    1128.08.10 = {
+        holder = 12030010 # Fujiwara Motohira
+    }
+    1157.04.29 = {
+        liege = k_shgnt_northern_oshu # 
+        holder = 12030020 # Fujiwara Hidehira
+    }
+    1187.11.30 = {
+        holder = 12030051 # Fujiwara Yasuhira
+    }
+    1189.10.03 = {
+        liege = k_shgnt_western_kanto # Fall of Hiraizumi
+        holder = 10120075 # Minamoto Yoritomo
+    }
+    1189.11.15 = {
+        liege = d_shgnt_rikuchu # 
+        holder = 12201022 # Kasai Kiyoshige
+    }
+    1238.10.23 = {
+        holder = 10006140 # Kasai Tomokiyo
+    }
+    1250.01.01 = {
+        holder = 10006141 # Kasai Kiyochika
+    }
+    1270.01.01 = {
+        holder = 10006142 # Kasai Kiyotoki
+    }
+    1290.01.01 = {
+        holder = 10006143 # Kasai Kiyonobu
+    }
+    1310.01.01 = {
+        holder = 10006144 # Kasai Sadakiyo
+    }
+    1351.04.23 = {
+        holder = 10006145 # Kasai Takakiyo
+    }
+    1365.05.08 = {
+        holder = 10006110 # Kasai Akikiyo
+    }
+    1388.01.01 = {
+        holder = 10006114 # Kasai Mitsunobu
+    }
+    1420.01.01 = {
+        holder = 10006116 # Kasai Mochinobu
+    }
+    1440.01.01 = {
+        holder = 10009901 # Usuginu Kiyotane
+    }
+    1502.01.01 = {
+        holder = 10009902 # Usuginu Kiyosada
+    }
+    1520.01.01 = {
+        holder = 10009905 # Usuginu Kiyonao
+    }
+    1550.01.01 = {
+        holder = 10009906 # Usuginu Kiyomasa
+    }
+    1580.01.01 = {
+        holder = 10009907 # Usuginu Kiyonori
+    }
+    1585.01.01 = {
+        holder = 10009908 # Usuginu Tanekatsu
+    }
+}
+c_shgnt_iwate = {
+    0001.01.01 = { change_development_level = 30 }
+    1100.01.01 = { change_development_level = 30 }
+    1189.11.15 = { change_development_level = 30 }
+    1335.01.01 = { change_development_level = 30 }
+    0100.01.01 = {
+    }
+    1088.01.01 = {
+        holder = 12030000 # Fujiwara Kiyohira
+    }
+    1128.08.10 = {
+        holder = 12030010 # Fujiwara Motohira
+    }
+    1157.04.29 = {
+        liege = k_shgnt_northern_oshu # 
+        holder = 12030020 # Fujiwara Hidehira
+    }
+    1180.01.01 = {
+        holder = 12031000 # Tozawa Hiramori
+    }
+    1189.10.03 = {
+        liege = k_shgnt_western_kanto # Fall of Hiraizumi
+        holder = 10120075 # Minamoto Yoritomo
+    }
+    1189.11.15 = {
+        holder = 12139000 # Ashikaga Yoshikane
+    }
+    1190.01.01 = {
+        liege = 0 # Okawa Kaneto's rebellion
+        holder = 12000011 # Okawa Kaneto
+    }
+    1190.04.16 = {
+        liege = k_shgnt_western_kanto # End of Okawa Kaneto's rebellion
+        holder = 12139000 # Ashikaga Yoshikane
+    }
+    1199.04.05 = {
+        holder = 12139003 # Ashikaga Yoshiuji
+    }
+    1255.01.01 = {
+        holder = 12139006 # Ashikaga Yasuuji
+    }
+    1270.05.31 = {
+        holder = 12139012 # Ashikaga Ieuji
+    }
+    1300.01.01 = {
+        holder = 12139042 # Ashikaga Muneie
+    }
+    1320.01.01 = {
+        holder = 12139045 # Ashikaga Muneuji
+    }
+    1330.01.01 = {
+        holder = 12139050 # Osaki Iekane
+    }
+    1356.07.11 = {
+        liege = k_nmih_oshu_tandai # 
+        holder = 10006217 # Osaki Tadamochi
+    }
+    1383.01.01 = {
+        holder = 10006213 # Osaki Akimochi
+    }
+    1400.01.01 = {
+        holder = 10006212 # Osaki Mitsuakira
+    }
+    1404.01.01 = {
+        holder = 10006210 # Osaki Mitsumochi
+    }
+    1424.01.01 = {
+        holder = 10006208 # Osaki Mochiakira
+    }
+    1441.01.01 = {
+        holder = 10006207 # Osaki Norikane
+    }
+    1484.01.01 = {
+        liege = 0 # 
+        holder = 10003801 # Shiba Akitaka
+    }
+    1549.01.01 = {
+        holder = 10003802 # Shiba Tsuneaki
+    }
+    1559.01.01 = {
+        holder = 10003805 # Shiba Akizane
+    }
+    1580.01.01 = {
+        holder = 10003806 # Shiba Akinao
+    }
+    1588.01.01 = {
+        holder = 10003154 # Nanbu Nobunao
+    }
+}
+c_shgnt_kazuno = {
+    0001.01.01 = { change_development_level = 10 }
+    1100.01.01 = { change_development_level = 10 }
+    1331.01.01 = { change_development_level = 10 }
+    0100.01.01 = {
+    }
+    1157.04.29 = {
+        liege = k_shgnt_northern_oshu # 
+        holder = 12030020 # Fujiwara Hidehira
+    }
+    1180.01.01 = {
+        holder = 12030050 # Fujiwara Kunihira
+    }
+    1189.09.21 = {
+        holder = 12030051 # Fujiwara Yasuhira, Battle of Mountain Atsukashi
+    }
+    1189.10.03 = {
+        liege = 0 # 
+        holder = 0 # Fall of Hiraizumi
+    }
+    1392.01.01 = {
+        liege = d_shgnt_mutsu # 
+        holder = 12040190 # Nanbu Moriyuki
+    }
+    1437.05.13 = {
+        holder = 12040200 # Nanbu Yoshimasa
+    }
+    1440.08.09 = {
+        holder = 12040201 # Nanbu Masamori
+    }
+    1445.01.01 = {
+        holder = 10003130 # Nanbu Mitsumasa
+    }
+    1449.01.01 = {
+        holder = 10003131 # Nanbu Tokimasa
+    }
+    1473.04.02 = {
+        holder = 10003132 # Nanbu Michitsugu
+    }
+    1490.01.01 = {
+        holder = 10003133 # Nanbu Nobutoki
+    }
+    1502.01.11 = {
+        holder = 10003134 # Nanbu Nobuyoshi
+    }
+    1503.06.18 = {
+        holder = 10003135 # Nanbu Masayasu
+    }
+    1507.03.23 = {
+        holder = 10003101 # Nanbu Yasunobu
+    }
+    1530.01.01 = {
+        liege = d_shgnt_mutsu # 
+        holder = 10003139 # Kemanai Hidenori
+    }
+    1585.01.01 = {
+        holder = 10003150 # Kemanai Masatsugu
+    }
+}
+c_shgnt_kita = {
+    0001.01.01 = { change_development_level = 0 }
+    1100.01.01 = { change_development_level = 0 }
+    1189.10.03 = { change_development_level = 10 }
+    0100.01.01 = {
+    }
+    1160.01.01 = {
+        liege = d_shgnt_mutsu # 
+        holder = 10150108 # Akarogu
+    }
+    1189.10.03 = {
+        liege = 0 # 
+        holder = 0 # Fall of Hiraizumi
+    }
+    1334.01.05 = {
+        liege = d_shgnt_mutsu # 
+        holder = 12040155 # Nanbu Moroyuki
+    }
+    1338.06.10 = {
+        holder = 12040156 # Nanbu Masanaga
+    }
+    1360.01.01 = {
+        holder = 12040305 # Nanbu Nobumitsu
+    }
+    1376.02.13 = {
+        holder = 12040306 # Nanbu Masamitsu
+    }
+    1392.01.01 = {
+        holder = 12040310 # Nanbu Nagatsune
+    }
+    1410.01.01 = {
+        holder = 12040311 # Nanbu Mitsutsune
+    }
+    1420.01.01 = {
+        holder = 12040315 # Nanbu Nagayasu
+    }
+    1440.01.01 = {
+        holder = 12040320 # Nanbu Morikiyo
+    }
+    1460.01.01 = {
+        holder = 12040325 # Hachinohe Masatsune
+    }
+    1480.01.01 = {
+        holder = 10005001 # Hachinohe Nobunaga
+    }
+    1500.01.01 = {
+        holder = 10005002 # Hachinohe Haruyoshi
+    }
+    1530.01.01 = {
+        holder = 10005003 # Hachinohe Yoshitsugu
+    }
+    1539.01.01 = {
+        holder = 10005004 # Hachinohe Katsuyoshi
+    }
+    1548.01.01 = {
+        holder = 10004903 # Hachinohe Masayoshi
+    }
+}
+c_shgnt_kunohe = {
+    0001.01.01 = { change_development_level = 10 }
+    1100.01.01 = { change_development_level = 10 }
+    1470.01.01 = { change_development_level = 10 }
+    0100.01.01 = {
+    }
+    1157.04.29 = {
+        liege = k_shgnt_northern_oshu # 
+        holder = 12030020 # Fujiwara Hidehira
+    }
+    1187.11.30 = {
+        holder = 12030051 # Fujiwara Yasuhira
+    }
+    1189.10.03 = {
+        liege = 0 # 
+        holder = 0 # Fall of Hiraizumi
+    }
+    1334.01.05 = {
+        liege = d_shgnt_mutsu # 
+        holder = 10003206 # Kunohe Taketsura
+    }
+    1350.01.01 = {
+        holder = 10003207 # Kunohe Tsuramoto
+    }
+    1380.01.01 = {
+        holder = 10003208 # Kunohe Motozane
+    }
+    1410.01.01 = {
+        holder = 10003209 # Kunohe Mitsuyasu
+    }
+    1440.01.01 = {
+        holder = 10003210 # Kunohe Mitsumasa
+    }
+    1470.01.01 = {
+        holder = 10003159 # Nanbu Nobuzane
+    }
+    1505.01.01 = {
+        holder = 10003160 # Nanbu Nobumasa
+    }
+    1525.01.01 = {
+        holder = 10003161 # Nanbu Masatsugu
+    }
+    1530.01.01 = {
+        holder = 10003162 # Nanbu Harutsugu
+    }
+    1565.01.01 = {
+        holder = 10003163 # Nanbu Haruyoshi
+    }
+}
+c_shgnt_ninohe = {
+    0001.01.01 = { change_development_level = 10 }
+    1100.01.01 = { change_development_level = 10 }
+    1470.01.01 = { change_development_level = 10 }
+    0100.01.01 = {
+    }
+    1157.04.29 = {
+        liege = k_shgnt_northern_oshu # 
+        holder = 12030020 # Fujiwara Hidehira
+    }
+    1187.11.30 = {
+        holder = 12030051 # Fujiwara Yasuhira
+    }
+    1189.10.03 = {
+        liege = 0 # 
+        holder = 0 # Fall of Hiraizumi
+    }
+    1392.01.01 = {
+        liege = d_shgnt_mutsu # 
+        holder = 12040190 # Nanbu Moriyuki
+    }
+    1437.05.13 = {
+        holder = 12040200 # Nanbu Yoshimasa
+    }
+    1440.08.09 = {
+        holder = 12040201 # Nanbu Masamori
+    }
+    1445.01.01 = {
+        holder = 10003130 # Nanbu Mitsumasa
+    }
+    1449.01.01 = {
+        holder = 10003131 # Nanbu Tokimasa
+    }
+    1470.01.01 = {
+        holder = 10003210 # Kunohe Mitsumasa
+    }
+    1480.01.01 = {
+        holder = 10003211 # Kunohe Tsurayasu
+    }
+    1520.01.01 = {
+        holder = 10003200 # Kunohe Nobunaka
+    }
+    1560.01.01 = {
+        holder = 10003201 # Kunohe Masazane
+    }
+    1591.05.07 = {
+        liege = 0 # Kunohe Masazane's rebe
+        holder = 10003201 # Kunohe Masazane
+    }
+    1591.11.06 = {
+        holder = 10003154 # Nanbu Nobunao
+    }
+}
+c_shgnt_sannohe = {
+    0001.01.01 = { change_development_level = 0 }
+    1189.10.03 = { change_development_level = 10 }
+    1500.01.01 = { change_development_level = 20 }
+    0100.01.01 = {
+    }
+    1160.01.01 = {
+        liege = d_shgnt_mutsu # 
+        holder = 10150108 # Akarogu
+    }
+    1189.10.03 = {
+        liege = 0 # 
+        holder = 0 # Fall of Hiraizumi
+    }
+	1192.01.01 = {
+		effect = {
+			title:b_shgnt_sannohe_6 = {
+				set_title_name = b_shgnt_sannohe_6_1 # Heragasaki
+			}
+		}
+	}
+    1334.01.05 = {
+        liege = d_shgnt_mutsu # 
+        holder = 12040162 # Nanbu Nobunaga
+		effect = {
+			title:b_shgnt_sannohe_6 = {
+				set_title_name = b_shgnt_sannohe_6 # Sannohe
+			}
+		}
+    }
+    1350.01.01 = {
+        holder = 12040180 # Nanbu Masayuki
+    }
+    1388.11.17 = {
+        holder = 12040190 # Nanbu Moriyuki
+    }
+    1437.05.13 = {
+        holder = 12040200 # Nanbu Yoshimasa
+    }
+    1440.08.09 = {
+        holder = 12040201 # Nanbu Masamori
+    }
+    1445.01.01 = {
+        holder = 10003130 # Nanbu Mitsumasa
+    }
+    1449.01.01 = {
+        holder = 10003131 # Nanbu Tokimasa
+    }
+    1473.04.02 = {
+        holder = 10003132 # Nanbu Michitsugu
+    }
+    1490.01.01 = {
+        holder = 10003133 # Nanbu Nobutoki
+    }
+    1502.01.11 = {
+        holder = 10003134 # Nanbu Nobuyoshi
+    }
+    1503.06.18 = {
+        holder = 10003135 # Nanbu Masayasu
+    }
+    1507.03.23 = {
+        holder = 10003101 # Nanbu Yasunobu
+    }
+    1541.01.01 = {
+        holder = 10003102 # Nanbu Harumasa
+    }
+    1582.01.27 = {
+        holder = 10003154 # Nanbu Nobunao
+    }
+}
+c_shgnt_tono = {
+    0001.01.01 = { change_development_level = 10 }
+    1100.01.01 = { change_development_level = 10 }
+    0100.01.01 = {
+    }
+    1180.01.01 = {
+        liege = k_shgnt_northern_oshu # 
+        holder = 12032010 # Hei Takekuni
+    }
+    1189.10.03 = {
+        liege = 0 # 
+        holder = 10120075 # Minamoto Yoritomo, Fall of Hiraizumi
+    }
+    1189.11.15 = {
+        holder = 12180151 # Asonuma Hirotsuna
+    }
+    1208.01.01 = {
+        holder = 12180701 # Asonuma Chikatsuna
+    }
+    1240.01.01 = {
+        holder = 12180720 # Asonuma Kimitsuna
+    }
+    1260.01.01 = {
+        holder = 12180730 # Asonuma Kimisato
+    }
+    1290.01.01 = {
+        holder = 12180740 # Asonuma Ujitsuna
+    }
+    1310.01.01 = {
+        holder = 12180750 # Asonuma Tomotsuna
+    }
+    1355.01.01 = {
+        holder = 12050000 # Asonuma Tomokane
+    }
+    1385.01.01 = {
+        holder = 12050003 # Asonuma Hirotsuna
+    }
+    1415.01.01 = {
+        liege = 0 # 
+        holder = 12050006 # Asonuma Hideuji
+    }
+    1445.01.01 = {
+        holder = 12050009 # Asonuma Mitsutsuna
+    }
+    1475.01.01 = {
+        holder = 12050012 # Asonuma Morichika
+    }
+    1505.01.01 = {
+        holder = 12050018 # Asonuma Chikasato
+    }
+    1535.01.01 = {
+        holder = 10004101 # Asonuma Chikahiro
+    }
+    1565.01.01 = {
+        holder = 10004102 # Asonuma Hirosato
+    }
+}
+c_shgnt_tsugaru = {
+    0001.01.01 = { change_development_level = 40 }
+    1100.01.01 = { change_development_level = 40 }
+    1443.01.01 = { change_development_level = 40 }
+    0100.01.01 = {
+    }
+    1180.01.01 = {
+        liege = k_shgnt_northern_oshu # 
+        holder = 12030210 # Ando Suetoshi
+    }
+    1189.11.15 = {
+        liege = k_shgnt_western_kanto # 
+        holder = 12231102 # Omi [Usami] Sanemasa
+    }
+    1190.01.01 = {
+        liege = 0 # Okawa Kaneto's rebellion
+        holder = 12000011 # Okawa Kaneto
+    }
+    1190.04.16 = {
+        liege = k_shgnt_western_kanto # End Okawa Kaneto's rebellion
+        holder = 12030210 # Ando Suetoshi
+    }
+    1217.01.01 = {
+        holder = 12030220 # Ando Suenobu
+    }
+    1230.01.01 = {
+        holder = 12030230 # Ando Chikahide
+    }
+    1250.01.01 = {
+        holder = 12030240 # Ando Takanari
+    }
+    1290.01.01 = {
+        holder = 12030260 # Ando Sadasue
+    }
+	1312.01.01 = {
+		effect = {
+			title:b_shgnt_tsugaru_1 = {
+				set_title_name = b_shgnt_tsugaru_1_1 # Fukushima
+			}
+		}
+	}
+    1320.01.01 = {
+        holder = 12030280 # Ando Suenaga
+    }
+    1327.01.01 = {
+        liege = d_nmih_shimokuni # 
+        holder = 12030300 # Ando Morosue
+    }
+    1355.01.01 = {
+        holder = 10000113 # Ando Norisue
+    }
+    1400.01.01 = {
+        liege = k_shgnt_wajinchi # 
+        holder = 10000116 # Ando Morisue
+    }
+    1414.02.20 = {
+        holder = 10000115 # Ando Yasusue
+    }
+    1441.07.12 = {
+        holder = 10000114 # Ando Yoshisue
+    }
+    1443.01.01 = {
+        liege = d_shgnt_mutsu # Nanbu took Tsugaru
+        holder = 12040201 # Nanbu Masamori
+    }
+    1445.01.01 = {
+        holder = 10003130 # Nanbu Mitsumasa
+    }
+    1449.01.01 = {
+        holder = 10003131 # Nanbu Tokimasa
+    }
+    1473.04.02 = {
+        holder = 10003132 # Nanbu Michitsugu
+    }
+    1490.01.01 = {
+        holder = 10003133 # Nanbu Nobutoki
+    }
+    1491.01.01 = {
+        holder = 10003305 # Oura Mitsunobu
+    }
+    1526.11.12 = {
+        holder = 10003306 # Oura Morinobu
+    }
+    1538.10.18 = {
+        holder = 10003302 # Oura Masanobu
+    }
+    1541.07.02 = {
+        holder = 10003301 # Oura Tamenori
+    }
+    1567.04.25 = {
+        holder = 10003165 # Oura Tamenobu
+    }
+}
+c_shgnt_waga = {
+    0001.01.01 = { change_development_level = 10 }
+    1100.01.01 = { change_development_level = 10 }
+    1331.01.01 = { change_development_level = 10 }
+    0100.01.01 = {
+    }
+    1088.01.01 = {
+        holder = 12030000 # Fujiwara Kiyohira
+    }
+    1128.08.10 = {
+        holder = 12030010 # Fujiwara Motohira
+    }
+    1157.04.29 = {
+        liege = k_shgnt_northern_oshu # 
+        holder = 12030020 # Fujiwara Hidehira
+    }
+    1180.01.01 = {
+        holder = 12030040 # Fujiwara Toshihira
+    }
+    1189.10.03 = {
+        liege = 0
+        holder = 0
+    }
+    1440.01.01 = {
+        liege = 0 # 
+        holder = 10003512 # Waga Sadayoshi
+    }
+    1490.01.01 = {
+        holder = 10003503 # Waga Sadayuki
+    }
+    1500.01.01 = {
+        holder = 10003502 # Waga Yukiyoshi
+    }
+    1522.01.01 = {
+        holder = 10003501 # Waga Yoshikatsu
+    }
+    1560.01.01 = {
+        holder = 10003504 # Waga Yoshinobu
+    }
+    1570.01.01 = {
+        holder = 10003506 # Waga Yoshitada
+    }
+}
+d_shgnt_mutsu = {
+    0701.01.01 = {
+    }
+    1160.01.01 = {
+        liege = 0 # 
+        holder = 10150108 # Akarogu
+    }
+    1189.10.03 = {
+        liege = 0 # 
+        holder = 0 # Fall of Hiraizumi
+    }
+    1334.01.05 = {
+        holder = 12040155 # Nanbu Moroyuki
+    }
+    1338.06.10 = {
+        holder = 12040156 # Nanbu Masanaga
+    }
+    1360.01.01 = {
+        holder = 12040305 # Nanbu Nobumitsu
+    }
+    1376.02.13 = {
+        holder = 12040306 # Nanbu Masamitsu
+    }
+    1392.01.01 = {
+        holder = 12040190 # Nanbu Moriyuki
+    }
+    1437.05.13 = {
+        holder = 12040200 # Nanbu Yoshimasa
+    }
+    1440.08.09 = {
+        liege = 0 # 
+        holder = 12040201 # Nanbu Masamori
+    }
+    1445.01.01 = {
+        holder = 10003130 # Nanbu Mitsumasa
+    }
+    1449.01.01 = {
+        holder = 10003131 # Nanbu Tokimasa
+    }
+    1473.04.02 = {
+        holder = 10003132 # Nanbu Michitsugu
+    }
+    1490.01.01 = {
+        holder = 10003133 # Nanbu Nobutoki
+    }
+    1502.01.11 = {
+        holder = 10003134 # Nanbu Nobuyoshi
+    }
+    1503.06.18 = {
+        holder = 10003135 # Nanbu Masayasu
+    }
+    1507.03.23 = {
+        holder = 10003101 # Nanbu Yasunobu
+    }
+    1541.01.01 = {
+        holder = 10003102 # Nanbu Harumasa
+    }
+    1582.01.27 = {
+        holder = 10003154 # Nanbu Nobunao
+    }
+}
+d_shgnt_rikuchu = {
+    0100.01.01 = {
+    }
+    1180.01.01 = {
+        holder = 12030020 # Fujiwara Hidehira
+    }
+    1189.11.15 = {
+        liege = k_shgnt_western_kanto # 
+        holder = 12201022 # Kasai Kiyoshige
+    }
+    1238.10.23 = {
+        holder = 10006140 # Kasai Tomokiyo
+    }
+    1250.01.01 = {
+        holder = 10006141 # Kasai Kiyochika
+    }
+    1270.01.01 = {
+        holder = 10006142 # Kasai Kiyotoki
+    }
+    1290.01.01 = {
+        holder = 10006143 # Kasai Kiyonobu
+    }
+    1310.01.01 = {
+        holder = 10006144 # Kasai Sadakiyo
+    }
+    1351.04.23 = {
+        holder = 10006145 # Kasai Takakiyo
+    }
+    1365.05.08 = {
+        holder = 10006110 # Kasai Akikiyo
+    }
+    1388.01.01 = {
+        holder = 10006114 # Kasai Mitsunobu
+    }
+    1420.01.01 = {
+        liege = 0 # 
+        holder = 10006116 # Kasai Mochinobu
+    }
+    1469.01.01 = {
+        holder = 10006120 # Kasai Tomonobu
+    }
+    1480.01.01 = {
+        holder = 10006122 # Kasai Hisanobu
+    }
+    1483.01.01 = {
+        holder = 10006104 # Kasai Masanobu
+    }
+    1506.05.23 = {
+        holder = 10006105 # Kasai Harushige
+    }
+    1534.01.05 = {
+        holder = 10006101 # Kasai Harutane
+    }
+    1555.01.01 = {
+        holder = 10006102 # Kasai Chikanobu
+    }
+    1560.06.05 = {
+        holder = 10006103 # Kasai Harunobu
+    }
+}
+c_shgnt_esasi = {
+    0001.01.01 = { change_development_level = 10 }
+    1100.01.01 = { change_development_level = 10 }
+    1331.01.01 = { change_development_level = 10 }
+    0100.01.01 = {
+    }
+    1088.01.01 = {
+        holder = 12030000 # Fujiwara Kiyohira
+    }
+    1128.08.10 = {
+        holder = 12030010 # Fujiwara Motohira
+    }
+    1157.04.29 = {
+        liege = k_shgnt_northern_oshu # 
+        holder = 12030020 # Fujiwara Hidehira
+    }
+    1180.01.01 = {
+        holder = 12030040 # Fujiwara Toshihira
+    }
+    1189.10.03 = {
+        liege = 0
+        holder = 0
+    }
+    1440.01.01 = {
+        liege = 0 # 
+        holder = 10003512 # Waga Sadayoshi
+    }
+    1490.01.01 = {
+        holder = 10003503 # Waga Sadayuki
+    }
+    1500.01.01 = {
+        holder = 10003502 # Waga Yukiyoshi
+    }
+    1522.01.01 = {
+        holder = 10003501 # Waga Yoshikatsu
+    }
+    1560.01.01 = {
+        holder = 10003504 # Waga Yoshinobu
+    }
+    1570.01.01 = {
+        holder = 10003506 # Waga Yoshitada
+    }
+}
+c_shgnt_shiwa = {
+    0001.01.01 = { change_development_level = 10 }
+    1100.01.01 = { change_development_level = 10 }
+    1189.10.03 = { change_development_level = 10 }
+    1341.01.01 = { change_development_level = 10 }
+    0100.01.01 = {
+    }
+    1088.01.01 = {
+        holder = 12030000 # Fujiwara Kiyohira
+    }
+    1128.08.10 = {
+        holder = 12030010 # Fujiwara Motohira
+    }
+    1157.04.29 = {
+        liege = k_shgnt_northern_oshu # 
+        holder = 12030020 # Fujiwara Hidehira
+    }
+    1180.01.01 = {
+        holder = 12030040 # Fujiwara Toshihira
+    }
+    1189.10.03 = {
+        liege = 0
+        holder = 0
+    }
+    1341.01.01 = {
+        holder = 12051015 # Hienuki Ieshige
+    }
+    1365.01.01 = {
+        holder = 12051020 # Hienuki Shigeto
+    }
+    1390.01.01 = {
+        holder = 12051025 # Hienuki Moriie
+    }
+    1415.01.01 = {
+        holder = 12051030 # Hienuki Tamechika
+    }
+    1440.01.01 = {
+        liege = 0 # 
+        holder = 12051035 # Hienuki Ietaka
+    }
+    1460.01.01 = {
+        holder = 12051040 # Hienuki Tamenaka
+    }
+    1480.01.01 = {
+        holder = 12051045 # Hienuki Tametaka
+    }
+    1490.01.01 = {
+        holder = 10003403 # Hienuki Tameshige
+    }
+    1504.01.01 = {
+        holder = 10003401 # Hienuki Haruie
+    }
+    1564.01.02 = {
+        holder = 10003402 # Hienuki Terutoki
+    }
+    1575.01.01 = {
+        holder = 10003404 # Hienuki Hirotada
+    }
+}
+c_shgnt_sotogahama = {
+    0001.01.01 = { change_development_level = 40 }
+    1100.01.01 = { change_development_level = 40 }
+    1443.01.01 = { change_development_level = 40 }
+    0100.01.01 = {
+    }
+    1180.01.01 = {
+        liege = k_shgnt_northern_oshu # 
+        holder = 12030210 # Ando Suetoshi
+    }
+    1189.11.15 = {
+        liege = k_shgnt_western_kanto # 
+        holder = 12231102 # Omi [Usami] Sanemasa
+    }
+    1190.01.01 = {
+        liege = 0 # Okawa Kaneto's rebellion
+        holder = 12000011 # Okawa Kaneto
+    }
+    1190.04.16 = {
+        liege = k_shgnt_western_kanto # End Okawa Kaneto's rebellion
+        holder = 12030210 # Ando Suetoshi
+    }
+    1217.01.01 = {
+        holder = 12030220 # Ando Suenobu
+    }
+    1230.01.01 = {
+        holder = 12030230 # Ando Chikahide
+    }
+    1250.01.01 = {
+        holder = 12030240 # Ando Takanari
+    }
+    1290.01.01 = {
+        holder = 12030260 # Ando Sadasue
+    }
+    1320.01.01 = {
+        holder = 12030280 # Ando Suenaga
+    }
+    1327.01.01 = {
+        liege = d_nmih_shimokuni # 
+        holder = 12030300 # Ando Morosue
+    }
+    1355.01.01 = {
+        holder = 10000113 # Ando Norisue
+    }
+    1400.01.01 = {
+        liege = k_shgnt_wajinchi # 
+        holder = 10000116 # Ando Morisue
+    }
+    1414.02.20 = {
+        holder = 10000115 # Ando Yasusue
+    }
+    1441.07.12 = {
+        holder = 10000114 # Ando Yoshisue
+    }
+    1443.01.01 = {
+        liege = d_shgnt_mutsu # Nanbu took Tsugaru
+        holder = 12040201 # Nanbu Masamori
+    }
+    1445.01.01 = {
+        holder = 10003130 # Nanbu Mitsumasa
+    }
+    1449.01.01 = {
+        holder = 10003131 # Nanbu Tokimasa
+    }
+    1473.04.02 = {
+        holder = 10003132 # Nanbu Michitsugu
+    }
+    1490.01.01 = {
+        holder = 10003133 # Nanbu Nobutoki
+    }
+    1491.01.01 = {
+        holder = 10003305 # Oura Mitsunobu
+    }
+    1526.11.12 = {
+        holder = 10003306 # Oura Morinobu
+    }
+    1538.10.18 = {
+        holder = 10003302 # Oura Masanobu
+    }
+    1541.07.02 = {
+        holder = 10003301 # Oura Tamenori
+    }
+    1567.04.25 = {
+        holder = 10003165 # Oura Tamenobu
+    }
+}
+c_shgnt_hanawa = {
+    0001.01.01 = { change_development_level = 40 }
+    1100.01.01 = { change_development_level = 40 }
+    1443.01.01 = { change_development_level = 40 }
+    0100.01.01 = {
+    }
+    1180.01.01 = {
+        liege = k_shgnt_northern_oshu # 
+        holder = 12030210 # Ando Suetoshi
+    }
+    1189.11.15 = {
+        liege = k_shgnt_western_kanto # 
+        holder = 12231102 # Omi [Usami] Sanemasa
+    }
+    1190.01.01 = {
+        liege = 0 # Okawa Kaneto's rebellion
+        holder = 12000011 # Okawa Kaneto
+    }
+    1190.04.16 = {
+        liege = k_shgnt_western_kanto # End Okawa Kaneto's rebellion
+        holder = 12030210 # Ando Suetoshi
+    }
+    1217.01.01 = {
+        holder = 12030220 # Ando Suenobu
+    }
+    1230.01.01 = {
+        holder = 12030230 # Ando Chikahide
+    }
+    1250.01.01 = {
+        holder = 12030240 # Ando Takanari
+    }
+    1290.01.01 = {
+        holder = 12030260 # Ando Sadasue
+    }
+    1320.01.01 = {
+        holder = 12030280 # Ando Suenaga
+    }
+    1327.01.01 = {
+        liege = d_nmih_shimokuni # 
+        holder = 12030300 # Ando Morosue
+    }
+    1355.01.01 = {
+        holder = 10000113 # Ando Norisue
+    }
+    1400.01.01 = {
+        liege = k_shgnt_wajinchi # 
+        holder = 10000116 # Ando Morisue
+    }
+    1414.02.20 = {
+        holder = 10000115 # Ando Yasusue
+    }
+    1441.07.12 = {
+        holder = 10000114 # Ando Yoshisue
+    }
+    1443.01.01 = {
+        liege = d_shgnt_mutsu # Nanbu took Tsugaru
+        holder = 12040201 # Nanbu Masamori
+    }
+    1445.01.01 = {
+        holder = 10003130 # Nanbu Mitsumasa
+    }
+    1449.01.01 = {
+        holder = 10003131 # Nanbu Tokimasa
+    }
+    1473.04.02 = {
+        holder = 10003132 # Nanbu Michitsugu
+    }
+    1490.01.01 = {
+        holder = 10003133 # Nanbu Nobutoki
+    }
+    1491.01.01 = {
+        holder = 10003305 # Oura Mitsunobu
+    }
+    1526.11.12 = {
+        holder = 10003306 # Oura Morinobu
+    }
+    1538.10.18 = {
+        holder = 10003302 # Oura Masanobu
+    }
+    1541.07.02 = {
+        holder = 10003301 # Oura Tamenori
+    }
+    1567.04.25 = {
+        holder = 10003165 # Oura Tamenobu
+    }
+}
+c_shgnt_hiraga = {
+    0001.01.01 = { change_development_level = 40 }
+    1100.01.01 = { change_development_level = 40 }
+    1443.01.01 = { change_development_level = 40 }
+    0100.01.01 = {
+    }
+    1180.01.01 = {
+        liege = k_shgnt_northern_oshu # 
+        holder = 12030210 # Ando Suetoshi
+    }
+    1189.11.15 = {
+        liege = k_shgnt_western_kanto # 
+        holder = 12231102 # Omi [Usami] Sanemasa
+    }
+    1190.01.01 = {
+        liege = 0 # Okawa Kaneto's rebellion
+        holder = 12000011 # Okawa Kaneto
+    }
+    1190.04.16 = {
+        liege = k_shgnt_western_kanto # End Okawa Kaneto's rebellion
+        holder = 12030210 # Ando Suetoshi
+    }
+    1217.01.01 = {
+        holder = 12030220 # Ando Suenobu
+    }
+    1230.01.01 = {
+        holder = 12030230 # Ando Chikahide
+    }
+    1250.01.01 = {
+        holder = 12030240 # Ando Takanari
+    }
+    1290.01.01 = {
+        holder = 12030260 # Ando Sadasue
+    }
+    1320.01.01 = {
+        holder = 12030280 # Ando Suenaga
+    }
+    1327.01.01 = {
+        liege = d_nmih_shimokuni # 
+        holder = 12030300 # Ando Morosue
+    }
+    1355.01.01 = {
+        holder = 10000113 # Ando Norisue
+    }
+    1400.01.01 = {
+        liege = k_shgnt_wajinchi # 
+        holder = 10000116 # Ando Morisue
+    }
+    1414.02.20 = {
+        holder = 10000115 # Ando Yasusue
+    }
+    1441.07.12 = {
+        holder = 10000114 # Ando Yoshisue
+    }
+    1443.01.01 = {
+        liege = d_shgnt_mutsu # Nanbu took Tsugaru
+        holder = 12040201 # Nanbu Masamori
+    }
+    1445.01.01 = {
+        holder = 10003130 # Nanbu Mitsumasa
+    }
+    1449.01.01 = {
+        holder = 10003131 # Nanbu Tokimasa
+    }
+    1473.04.02 = {
+        holder = 10003132 # Nanbu Michitsugu
+    }
+    1490.01.01 = {
+        holder = 10003133 # Nanbu Nobutoki
+    }
+    1491.01.01 = {
+        holder = 10003305 # Oura Mitsunobu
+    }
+    1526.11.12 = {
+        holder = 10003306 # Oura Morinobu
+    }
+    1538.10.18 = {
+        holder = 10003302 # Oura Masanobu
+    }
+    1541.07.02 = {
+        holder = 10003301 # Oura Tamenori
+    }
+    1567.04.25 = {
+        holder = 10003165 # Oura Tamenobu
+    }
+}

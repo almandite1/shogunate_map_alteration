@@ -1,0 +1,472 @@
+[h1]alpha Version 0.4.3[/h1]
+[h2]Game Content[/h2]
+[list]
+[*] Added the image file of the family crest of the Tokugawa vassal, Torii, "Sparrow on Bamboo" and set the family crest.
+[*] The county territory "Hinai" was divided from the county-level territory "Akita".
+[*] Set the placement of tree map objects in some locations.
+[*] Added Japanese sayings and proverbs as motto keys.　Since it is only registered as a localization key, it will not appear in the game.
+[*] The number of Provinces belonging to the Kita Countoy of Mutsu has been increased by 4 to 6.
+[*] I set the barony name to change in the 15th and 16th centuries, and the castle to appear in HOLDING.　The settings include the following baronies.　松尾、栂牟礼、岡、安岐、人吉、古麓、宇土、大平、柳河、高祖、日野江、好武、大洲、松葉、黒瀬、湯築、安芸、天霧、勝賀、藤尾、中村、牛岐、大西、白地、上桜、柴生、雨滝、十河、洲本、津和野、蓮華山、比叡尾山、比熊山、蔀山、甲山、高山城
+木村、勝山、小童山
+[*] The capitals of some of the forces have been set.
+[*] We exchanged the title history data of Aki-gun and Kami-gun in Tosa Province.
+[*] Created dynasty_house in Hatakeyama clan. The Noto-Hatakeyama family was divided into the Soshū and Bishū families. The Nihonmatsu clan was merged into the Hatakeyama clan.
+[/list]
+[h2]Fixed[/h2]
+[list]
+[*] Fixed an issue where the barony names of Date County were not displayed.
+[*] Adjusted map locator position.
+[/list]
+
+[h1]alpha Version 0.4.2[/h1]
+[h2]Game Content[/h2]
+[list]
+[*] Added a new motto key for words and proverbs.
+[*] I set a motto for the newly added dynasty_house in this MOD. There is no relationship between the motto and each house except for the Tokugawa clan.
+[*] Added an image file of the family crest "上り藤大文字" of Ōkubo clan, a vassal of the Tokugawa family.
+[*] Title history data for Kawanuma and Onuma counties in the Aizu region have been exchanged.
+[*] I set the barony name to change in the 15th and 16th centuries, and the castle to appear in HOLDING. The following baronial names have been set. 会津「横田」、日向国「佐土原」「都於郡」「都之城」、若狭の「後瀬山」、出羽の「湊」「檜山」「脇本」、陸奥の「福島」「藤崎」「三戸」、上総の「真里谷」、駿河の「興国寺」、伊豆の「韮山」、播磨の「置塩」、伊勢の「田丸」「松ヶ島」「神戸」。
+[*] The capital of the Kimotsuki clan is set at "Kimotsuki-gun".
+[*] The capital of the Akamatsu clan is set at Shikashi-gun.
+[*] Adjusted the position of the map locator.
+[*] The Wakasa=Takeda, Chōnan, and Mariyatsu clans were set up as branches of the Kai=Takeda clan.
+[*] The Settsu=Arima clan was set up as a branch of the Akamatsu clan.
+[*] The Tsugawa, Mori, Hachiya, Mogami, Ōsaki, and [Kosuiji] Shiba clans were set as branches of the Shiba clan. Ashikaga Muneuji of the Kamakura period was set as the Shiba clan, which is different from the historical fact.
+[*] Oshika, Tōtoumi=Imagawa, Sena, Horikoshi, and Kambara clans were set up as branches of the Imagawa clan.
+[*] Removed pre-Heian titleholder from historical information of c_shgnt_tenno.
+[*] The family crests of the Matsudaira clan and others have been changed.
+[/list]
+[h2]Fixed[/h2]
+[list]
+[*] The title names of the three baronies in the closed counties that I forgot to add have been set.
+[*] Fixed a formatting error in the description of character data Inioh. The following descriptions are now recognized.
+[/list]
+
+[h1]alpha Version 0.4.1[/h1]
+[h2]Game Content[/h2]
+[list]
+[*] I set the barony name to change to the following list in the 15th and 16th centuries, and the castle to appear in the holding.
+[/list]
+[olist]
+[*] 姫道［姫路］
+[*] 北ノ庄
+[*] 三木
+[*] 八上
+[*] 有岡
+[*] 安土
+[*] 観音寺
+[*] 金山［安芸銀山］
+[*] 日の山
+[*] 小倉山
+[*] 駿河丸
+[*] 山口
+[*] 内
+[*] 田布施
+[*] 丸森
+[*] 芥川山
+[*] 越水
+[*] 清洲
+[*] 末盛
+[*] 小牧山
+[*] 古渡
+[*] 那古野
+[*] 勝幡
+[*] 葛尾
+[*] 河越
+[*] 糟屋
+[*] 平井
+[*] 米沢
+[*] 桑折西山
+[*] 梁川
+[*] 上京→二条
+[*] 六波羅→下京
+[*] 水ヶ江
+[*] 大友館
+[*] 富田
+[*] 若山
+[/olist]
+[list]
+[*] The capitals of some of the 15th and 16th century powers were set up.
+[*] Tested whether the name of the "Kamakura lord" in the kingdom class title can be changed to "Koga lord".
+[*] We tested if we could set the legal (de jure) territory of the Kamakura lord.
+[*] Tested the addition of Cadet Branch [Dynasty House] in Uesugi and Hosokawa clans. The following branch houses have been added.
+[/list]
+[olist]
+[*] 扇谷
+[*] 山内上杉
+[*] 庁鼻和
+[*] 越後上杉
+[*] [鎌倉公方]足利
+[*] 細川野州
+[*] 細川京兆
+[*] 細川典厩
+[*] 細川和泉上守護
+[*] 細川和泉下守護
+[*] 細川讃州家
+[*] 細川備中守護
+[*] 細川遠州家
+[*] 細川淡路守護
+[*] 長岡
+[/olist]
+[list]
+[*] Changed the title of Ata County, Satsuma Province to be held by the Shimazu Soshu family.
+[*] Character: Toyotomi Hideyoshi with sexual interest and fertility set.
+[/list]
+
+[h1]alpha Version 0.4.0[/h1]
+[h2]Game Content[/h2]
+Some locations have been given barony names with a 15th century feel, and the capitals of some of the powers picked up in the 1568 and 1560 scenario bookmarks have been set.
+[list]
+[*] The capital of the Oda clan is set to be Gifu Castle.
+[*] The capital of the Tokugawa clan is set to be Okazaki Castle.
+[*] The capital of the Takeda clan is set to be Tsutsujigasaki Castle.
+[*] The capital of the Asakura clan is set to be Ichinodani Castle.
+[*] The name of Kotani Castle, which was the main castle of the Asai clan, has been set to appear. The capital barony of Asai-gun, where Kotani Castle is located, has priority over the setting of the 12th century scenario. (This is because there is no way to specify the capital barony in the current game specifications.)
+[*] The capital of Honganji was set to be Osaka.
+[*] The names of Iimoriyama Castle and Takaya Castle, which are related to the Miyoshi clan, have been set to appear.
+[*] The name of Tamonoyama Castle related to the Matsunaga clan has been set to appear.
+[*] The capital of the Chosokabe clan was set to be Okatoyo Castle.
+[*] The capital of the Imagawa clan is set to be Sunpu Castle.
+[*] The capital of the Nagao clan is set to be Kasugayama Castle.
+[*] The capital of the Hojo clan is set to be Odawara Castle.
+[/list]
+[h3]map[/h3]
+[list]
+[*] First-class rivers "Inagawa" and "Yasu River" in Kinki Region and "Hinogawa" in Chugoku Region were added to rivers.png.
+[/list]
+[h2]Fixed[/h2]
+[list]
+[*] Fixed an error related to CoA.
+[/list]
+
+[h1]alpha Version 0.3.9[/h1]
+[h2]Game Content[/h2].
+Cadet Branch [Dynasty House] Additional testing done.
+[list]
+[*] Added the Shida and Obi families of the Shida Yoshihiro, the Obi Tomi family, the Shingu family of the Gengyou family, the Tada family of the Settsu Genji, the Yasuda, Itsumi, Takeda, Kagami, Asari, Ichijo, Itagaki, and Akiyama families of the Settsu Genji, and the Nitta, Satomi, Yamana, and Ashikaga families of the Yoshikuni line.
+[*] Added the Ike family of Taira no Yorimori and the Komatsu family of Taira no Shigemori to the Taira family tree.
+[*] There was a character in the Taira family tree who had no parent-child relationship, so I set up an adopted child.
+[*] Added Sugimoto family and Wada family to Miura clan.
+[*] The Ohba, Nagao, Kajiwara, Kagawa, Nagae, Toyoda, and Matano families were added to the Kamakura clan.
+[*] The Dohi family and the Ninomiya family were added to the Sagami Nakamura clan.
+[*] The Kawamura family was added to the Sagami-Hatano clan.
+[*] Added Fujiwara dynasty dedicated to characters descended from Hideyoshi Fujiwara. Added the Ashikaga, Sonoda, Ogo, Yamagami, Sano, Asonuma, Kimura, Hayashi, Sanuki, Nanami, Ota, Koyama, Shimokawabe, Naganuma, Yuki, Seki, Sato, Ofuji, and Ito families to the Shugo-ryu Fujiwara clan.
+[*] The Tomura family was added to the Naka clan.
+[*] The Okuyama family was added to the Shiro clan.
+[*] The Anshoku family was added to the Yamada clan.
+[*] The Akamatsu family was added to the Uno clan.
+[*] Harada family, Biki family, Akizuki family, Takahashi family, Amakusa family, and Itai family were added to Okura clan.
+[*] The Uku family was added to the Matsuura clan.
+[*] The Ouchi, Uda, Yoshiki, Uno, Toida, Washigashira, and Masunari families were added to the Tara clan.
+[*] The Kondori family and the Kujo family were added to the Fujiwara clan.
+[*] Watanabe family and Toshima family were added to Saga Genji clan.
+[*] Hatakeyama, Oyamada, Inage, Kawagoe, and Edo families were added to Chichibu clan.
+[*] Kasai family was added to Toshima family.
+[*] Added the Soma, Takeishi, Osuga, Kokubu, Higashi, Shiina, Sosa, Maritime, Iwase, Kataoka, and Usui families to the Chiba Clan.
+[/list].
+Coat of Arms image data added.
+[list]
+[*] Added "Oonakaguro" for Nitta clan.
+[*] "Mitsuboshi Ichimonji" for Watanabe was added.
+[*] "Komon Murano" for Hatakeyama clan has been added.
+[/list]
+
+[h1]alpha Version 0.3.8[/h1]
+[h2]localization[/h2]
+[list]
+[*] All barony title names have been set. To save time, I tentatively used place names as of 1920 and current place names. We will continue to research and set title names that have a historical feel to them.
+[/list]
+
+[h1]alpha Version 0.3.7[/h1]
+[h2]common[/h2]
+[list]
+[*] Added a commented-out file to suppress error output.
+[*] Temporarily reduced bookmarks have been restored.
+[/list]
+[h2]events[/h2]
+[list]
+[*] Added a commented-out file to avoid errors.
+[/list]
+[h2]gfx[/h2]
+[list]
+[*] Set the placement of tree map objects in some locations.
+[*] Adjusted the position of the map locator.
+[*] Ground textures have been updated.
+[/list]
+[h2]history[/h2]
+[list]
+[*] Fixed an error in the character file.
+[*] Fixed an error in titlehistory.
+[h2]map[/h2]
+[list]
+[*] Updated heightmap.
+[*] First class rivers in Tokai region "Oigawa", "Kikugawa" and "Shonai-gawa" were added to rivers.png.
+[/list]
+
+[h1]alpha Version 0.3.6[/h1]
+[h2]common[/h2]
+[list]
+[*] The culture ID of dynasty has been modified and descriptions added to suppress error output.
+[*] Added manchu culture to suppress error output.
+[/list]
+[h2]events[/h2]
+[list]
+[*] Added a commented-out file to avoid errors.
+[/list]
+[h2]history[/h2]
+[list]
+[*] Corrected the description in the character data to suppress error output.
+[/list]
+[h2]gfx[/h2]
+[list]
+[*] Set the placement of tree map objects in some locations.
+[/list]
+[h2]map[/h2]
+[list]
+[*] Added "Oyabegawa River," "Shogawa River," and "Kakehashigawa River" as first-class rivers in Hokuriku region to rivers.png.
+[/list]
+
+[h1]alpha Version 0.3.5[/h1]
+[h2]common[/h2]
+[list]
+[*] Fixed a flaw in the bookmark portrait setting.
+[*] Added a commented-out file to avoid errors.
+[/list]
+[h2]events[/h2]
+[list]
+[*] Added a commented-out file to avoid errors.
+[/list]
+[h2]gfx[/h2]
+[list]
+[*] Adjusted the position of the map locator.
+[*] Set the placement of tree map objects in some locations.
+[*] Added a commented-out file to avoid errors.
+[/list]
+[h2]map[/h2]
+[list]
+[*] Added "Himekawa River," "Joganjigawa River," and "Jintsugawa River" as first-class rivers in Toyama prefecture to rivers.png.
+[/list]
+
+[h1]alpha Version 0.3.4[/h1]
+[h2]gfx[/h2]
+[list]
+[*] Adjusted the position of the map locator.
+[/list]
+[h2]map[/h2]
+[list]
+[*] Added "Arakawa River," "Aganogawa River," and "Sekikawa River" as first-class rivers in Niigata prefecture to rivers.png.
+[*] Adjusted hightmap.
+[/list]
+
+[h1]alpha Version 0.3.3 for CK3 1.3[/h1]
+[h2]common[/h2]
+[list]
+[*] The skin color of the northern and southern regions has been changed.
+[*] Updated to show bookmark portraits, which were not shown in CK3 1.3.
+[*] Changed CK3 1.3 to display hair and beard. The clothing and hair settings that were displayed as vanilla Mongolian culture have been separated into their own settings.
+[*] Added dummy files and rearranged files to avoid error messages in CK3 1.3.
+[/list]
+[h2]gfx[/h2]
+[list]
+[*] Adjusted the position of the map locator.
+[*] Set the placement of tree map objects in some locations.
+[*] Ground textures have been updated.
+[/list]
+[h2]gui[/h2]
+[list]
+[*] Reflected changes in CK3 1.3.
+[/list]
+[h2]history[/h2]
+[list]
+[*] Reflected character data changes in main mod.
+[/list]
+[h2]misc[/h2]
+[list]
+[*] Removed duplicate files from the main mod.
+[/list]
+
+[h1]alpha Version 0.3.2[/h1]
+[h2]gfx[/h2]
+[list]
+[*] Adjusted the position of the map locator.
+[*] Set the placement of tree map objects in some locations.
+[/list]
+[h2]map[/h2]
+Added "Naruse River," "Natori River," and "Takase River" as first-class rivers in Tohoku region to rivers.png.
+
+[h1]alpha Version 0.3.1[/h1]
+[h2]map[/h2]
+Added "Kikuchi River," "Yabe River," and "Rokkaku River" as first-class rivers in Kyushu region to rivers.png.
+
+[h1]alpha Version 0.3.0[/h1]
+[h2]gfx[/h2]
+[list]
+[*] Updated startscreen.dds.
+[*] Adjusted the position of the map locator.
+[*] Set the placement of tree map objects in some locations.
+[/list]
+[h2]localization[/h2]
+12th and 13th century barony names added. All baronial titles in "Mikawa Province" have been set.
+[h2]misc[/h2]
+[list]
+[*] thumbnail.png has been updated.
+[*] Added German language to Steam Workshop description.
+[*] The Japanese version has been uploaded and released on Steam Workshop.
+[/list]
+
+[h1]alpha Version 0.2.9[/h1]
+[h2]gfx[/h2]
+[list]
+[*] Set the placement of tree map objects in some locations.
+[*] djusted the position of the map locator.
+[/list]
+[h2]map[/h2]
+Added "Shira River", "Midori River" and "Sendai River" in Kyushu Region to rivers.png.
+
+[h1]alpha Version 0.2.8[/h1]
+[h2]gfx[/h2]
+Set the placement of tree map objects in some locations.
+[h2]map[/h2]
+Added "Banjo River", "Omaru River" and "Oyodo River" in Kyushu Region to rivers.png.
+
+[h1]alpha Version 0.2.7[/h1]
+[h2]common & history[/h2]
+The number of Provinces (i.e., Baronies) belonging to Rikuchu county of Tono has been increased by one to two.
+[h2]gfx[/h2]
+[list]
+[*] Set the placement of tree map objects in some locations.
+[*] djusted the position of the map locator.
+[*] Ground textures have been updated.
+[/list]
+[h2]map[/h2]
+[list]
+[*] Adjusted hightmap.
+[/list]
+
+[h1]alpha Version 0.2.6[/h1]
+[h2]map[/h2]
+Added "Matsuura River", "Ono River" and "Yamaguni River" in Kyushu Region to rivers.png.
+
+[h1]alpha Version 0.2.5[/h1]
+[h2]common & history[/h2]
+The number of Provinces (i.e., Baronies) belonging to Rikuchu 's county domain of "Hei" has been increased by three to four.
+[h2]gfx[/h2]
+[list]
+[*] Set the placement of tree map objects in some locations.
+[*] Adjusted the position of the map locator.
+[*] Ground textures have been updated.
+[/list]
+[h2]localization[/h2]
+12th and 13th century barony names added. All baronial titles in "Toyama Province" and "Echizen Province" have been set.
+[h2]map[/h2]
+[list]
+[*] Adjusted hightmap.
+[/list]
+
+[h1]alpha Version 0.2.4[/h1]
+[h2]gfx[/h2]
+[list]
+[*] Created a water area texture.
+[*] Adjusted the position of the map locator.
+[*] Ground textures have been updated.
+[/list]
+[h2]map[/h2]
+[list]
+[*] "Nakagawa River", "Niyodo River" and "Shimanto River" in Shikoku Region have been added to rivers.png.
+[*] Adjusted hightmap.
+[/list]
+
+[h1]alpha Version 0.2.3[/h1]
+[h2]map[/h2]
+Added "Ota River" and "Takahashi River" in Chugoku Region to rivers.png.
+
+[h1]alpha Version 0.2.2[/h1]
+[h2]map[/h2]
+Added "Chiyo River", "Eno River", and "Takatsu River" in Chugoku Region to rivers.png.
+
+[h1]alpha Version 0.2.1[/h1]
+[h2]map[/h2]
+Added "Kako River," "Ibo River," and "Kita River" in Kinki Region and "Yahagi River," "Suzuka River," and "Toyokawa River" in Chubu Region to rivers.png.
+
+[h1]alpha Version 0.2.0[/h1]
+[h2]gfx[/h2]
+[list]
+[*] Updated startscreen.dds.
+[*] Adjusted the position of the map locator.
+[*] Set the placement of tree map objects in some locations.
+[/list]
+[h2]common & history[/h2]
+[list]
+[*] The number of Provinces (i.e., baronies) belonging to the "Mogami" county in Uzen Province has been consolidated and reduced by three.
+[*] The number of Provinces belonging to the county of Kozuke, Gunma, has been reduced by one through consolidation due to the large number of Provinces.
+[*] The county territory "Yoshida" was created from the Provinces belonging to the county territories "Ibaraki" and "Naka" in Hitachi Province.
+[/list]
+[h2]localization[/h2]
+Replaced some title names in 00_shgnt_titles_l_simp_chinese.yml from Japanese Kanji to Simplified Chinese.
+[h2]map[/h2]
+
+[h2]misc[/h2]
+thumbnail.png has been updated.
+
+
+[h1]alpha Version 0.1.9[/h1]
+[h2]gfx[/h2]
+Adjusted the position of the map locator.
+[h2]common & history[/h2]
+The county territory "Iruma" in Musashi Province has been divided to create the county territories "Nyuto" and "Nyusei".
+[h2]localization[/h2]
+Barony names have been updated.
+
+[h1]alpha Version 0.1.8[/h1]
+[h2]gfx[/h2]
+Set the placement of tree map objects in some locations.
+[h2]localization[/h2]
+[list]
+[*] Baron territory names have been added.
+[*] I created the "french", "german", "korean", "russian", "simp_chinese", and "spanish" folders, and copied the yml files in the "english" folder into each folder (No translation and no testing). The yml files in the "simp_chinese" folder are written in Japanese Kanji.
+[/list]
+[h2]map[/h2]
+Added "Tsurumi River" and "Fuji River" in Kanto region and "Kano River" in Chubu region to rivers.png.
+
+[h1]alpha Version 0.1.7[/h1]
+[h2]localization[/h2]
+Barony names added. All baronial titles in "Tamba Province", "Tango Province", "Harima Province", and "Awaji Province" have been set.
+[h2]map[/h2]
+[list]
+[*] Added "Kitakami River" in Tohoku region to rivers.png.
+[*] Fixed an error in rivers.png.
+[/list]
+
+[h1]alpha Version 0.1.6[/h1]
+[h2]common][/h2]
+Two Provinces that belonged to the Count's territory "Kita Adachi" have been transferred to "Minami Adachi".
+[h2]gfx[/h2]
+Added a dummy dds file to reduce error output in error.log.
+[h2]history[/h2]
+[list]
+[*] Added Tokara Islands Provinces to provinces/k_shgnt_southern_kyushu.txt.
+[*] Organized e_tenno-related files in titles/.
+[/list]
+
+[h1]alpha Version 0.1.5[/h1]
+[h2]gfx[/h2]
+[list]
+[*] Created surround_mask.dds.
+[*] Ground textures have been updated.
+[/list]
+[h2]map[/h2]
+Added "Iwaki River", "Akagawa River", and "Koyoshigawa River" in Tohoku region to rivers.png.
+
+[h1]alpha Version 0.1.4[/h1]
+[h2]gfx[/h2]
+Added a lake surface map object.
+[h2]map[/h2]
+Adjusted the heightmap to make the shoreline of Tokyo Bay and the ground of the lake more concave.
+
+[h1]alpha Version 0.1.3[/h1]
+[h2]common[/h2]
+Restored the 12th century scenario bookmarks that had been temporarily removed.
+[h2]gfx[/h2]
+Adjusted the position of the map locator.
+[h2]map[/h2]
+Added "Abashiri River", "Tokoro River", and "Yubetsu River" in Hokkaido, and "Tone River" and "Hitachi River" in Kanto region to rivers.png.

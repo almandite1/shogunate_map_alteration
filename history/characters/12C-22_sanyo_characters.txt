@@ -1,0 +1,1286 @@
+﻿12630000={
+	name=character_name_12630000 # Suenori
+	dynasty=10000536 # Uno
+	religion="shinto"
+	culture="sanyo"
+	prowess=10
+	1090.1.1={
+		birth=yes
+	}
+	1150.1.1={
+		death=yes
+	}
+}
+12630001={
+	name=character_name_12630001 # Yorinori
+	dynasty=10000536 # Uno
+	father=12630000 # Uno Suenori
+	religion="shinto"
+	culture="sanyo"
+	prowess=10
+	1120.1.1={
+		birth=yes
+	}
+	1180.1.1={
+		death=yes
+	}
+}
+12630002={
+	name=character_name_12630002 # Tamesuke
+	dynasty=10000536 # Uno
+	father=12630001 # Uno Yorinori
+	religion="shinto"
+	culture="sanyo"
+	prowess=10
+	1140.1.1={
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+12630003={
+	name=character_name_12630003 # Tameyori
+	dynasty=10000536 # Uno
+	father=12630002 # Uno Tamesuke
+	religion="shinto"
+	culture="sanyo"
+	prowess=11
+	1195.1.1={
+		birth=yes
+	}
+	1255.1.1={
+		death=yes
+	}
+}
+12630100={
+	name=character_name_12630100 # Norikage
+#	dynasty=10000535 # Akamatsu
+	dynasty_house = house_shgnt_akamatsu
+	father=12630001 # Uno Yorinori
+	religion="shinto"
+	culture="sanyo"
+	prowess=11
+	1144.1.1={
+		birth=yes
+	}
+	1222.1.1={
+		death=yes
+		dynasty=10000535 # Akamatsu
+	}
+}
+12630101={
+	name=character_name_12630101 # Ienori
+#	dynasty=10000535 # Akamatsu
+	dynasty_house = house_shgnt_akamatsu
+	father=12630100 # Akamatsu Norikage
+	religion="shinto"
+	culture="sanyo"
+	prowess=11
+	1180.1.1={
+		birth=yes
+	}
+	1240.1.1={
+		death=yes
+		dynasty=10000535 # Akamatsu
+	}
+}
+12630102={
+	name=character_name_12630102 # Hisanori
+	dynasty=10000535 # Akamatsu
+	father=12630101 # Akamatsu Ienori
+	religion="shinto"
+	culture="sanyo"
+	prowess=12
+	1210.1.1={
+		birth=yes
+	}
+	1270.1.1={
+		death=yes
+	}
+}
+12630103={
+	name=character_name_12630103 # Shigenori
+	dynasty=10000535 # Akamatsu
+	father=12630102 # Akamatsu Hisanori
+	religion="shinto"
+	culture="sanyo"
+	prowess=9
+	1240.1.1={
+		birth=yes
+	}
+	1300.1.1={
+		death=yes
+	}
+}
+12630200={
+	name=character_name_12630200 # Yorikiyo
+	dynasty=10007156 # Bessho
+	father=12630000 # Uno Suenori
+	religion="shinto"
+	culture="sanyo"
+	prowess=10
+	1130.1.1={
+		birth=yes
+	}
+	1190.1.1={
+		death=yes
+	}
+}
+12630201={
+	name=character_name_12630201 # Kiyotsugu
+	dynasty=10007156 # Bessho
+	father=12630200 # Bessho Yorikiyo
+	religion="shinto"
+	culture="sanyo"
+	prowess=12
+	1160.1.1={
+		birth=yes
+	}
+	1220.1.1={
+		death=yes
+	}
+}
+12630202 = {
+	name=character_name_12630202 # Kiyonaga 
+	dynasty=10007156 # Bessho
+	father=12630200
+	religion="shinto"
+	culture="sanyo"
+	prowess=11
+	1155.1.1={
+		birth=yes
+	}
+	1190.1.1={
+		death=yes
+	}
+}
+12630203 = {
+	name=character_name_12630203 # Kiyonori 
+	dynasty=10007156 # Bessho
+	father=12630200
+	religion="shinto"
+	culture="sanyo"
+	prowess=10
+	1165.1.2={
+		birth=yes
+	}
+	1230.1.1={
+		death=yes
+	}
+}
+12630204 = {
+	name=character_name_12630204 # Kiyomitsu 
+	dynasty=10007156 # Bessho
+	father=12630201
+	religion="shinto"
+	culture="sanyo"
+	prowess=10
+	1190.1.1={
+		birth=yes
+	}
+	1250.1.1={
+		death=yes
+	}
+}
+12630205 = {
+	name=character_name_12630205 # Yorimitsu 
+	dynasty=10007156 # Bessho
+	father=12630204
+	religion="shinto"
+	culture="sanyo"
+	prowess=12
+	1210.1.1={
+		birth=yes
+	}
+	1280.1.1={
+		death=yes
+	}
+}
+12630206 = {
+	name=character_name_12630206 # Norimitsu 
+	dynasty=10007156 # Bessho
+	father=12630205
+	religion="shinto"
+	culture="sanyo"
+	prowess=10
+	1240.1.1={
+		birth=yes
+	}
+	1290.1.1={
+		death=yes
+	}
+}
+12630207 = {
+	name=character_name_12630207 # Mitsuko 
+	dynasty=10007156 # Bessho
+	female=yes
+	father=12630206
+	religion="shinto"
+	culture="sanyo"
+	prowess=12
+	1270.1.1={
+		birth=yes
+	}
+	1330.1.1={
+		death=yes
+	}
+}
+12630208 = {
+	name=character_name_12630208 # Atsumitsu 
+	dynasty=10007156 # Bessho
+	father=12630103
+	religion="shinto"
+	culture="sanyo"
+	prowess=10
+	1270.1.1={
+		birth=yes
+	}
+	1290.1.1={
+		add_spouse=12630207
+	}
+	1320.1.1={
+		death=yes
+	}
+}
+12630209 = {
+	name=character_name_12630209 # Atsunori 
+	dynasty=10007156 # Bessho
+	mother=12630207
+	father=12630208
+	religion="shinto"
+	culture="sanyo"
+	prowess=10
+	1300.1.1={
+		birth=yes
+	}
+	1370.1.1={
+		death=yes
+	}
+}
+12630300={
+	name=character_name_12630300 # Morinobu
+	dynasty=10000540 # Emi
+	religion="shinto"
+	culture="sanyo"
+	prowess=11
+	1125.1.1={
+		birth=yes
+	}
+	1185.1.1={
+		death=yes
+	}
+}
+12630301={
+	name=character_name_12630301 # Morikata
+	dynasty=10000540 # Emi
+	father=12630300 # Emi Morinobu
+	religion="shinto"
+	culture="sanyo"
+	prowess=10
+	1155.1.1={
+		birth=yes
+	}
+	1184.3.20={
+		death=yes
+	}
+}
+12630400={
+	name=character_name_12630400 # Tsunenobu
+	dynasty=10007111 # Naniwa
+	religion="shinto"
+	culture="sanyo"
+	prowess=10
+	1100.1.1={
+		birth=yes
+	}
+	1160.1.1={
+		death=yes
+	}
+}
+12630401={
+	name=character_name_12630401 # Tsuneto
+	dynasty=10007111 # Naniwa
+	father=12630400 # Naniwa Tsunenobu
+	religion="shinto"
+	culture="sanyo"
+	prowess=10
+	1130.1.1={
+		birth=yes
+	}
+	1180.1.1={
+		effect={
+			set_realm_capital=title:c_shgnt_kamitsumichi
+		}
+	}
+	1185.4.25={
+		death=yes
+	}
+}
+12630402={
+	name=character_name_12630402 # Tsunefusa
+	dynasty=10007111 # Naniwa
+	father=12630400 # Naniwa Tsunenobu
+	religion="shinto"
+	culture="sanyo"
+	prowess=10
+	1132.1.1={
+		birth=yes
+	}
+	1167.1.1={
+		death=yes
+	}
+}
+12630403={
+	name=character_name_12630403 # Tsuneie
+	dynasty=10007111 # Naniwa
+	father=12630401 # Naniwa Tsuneto
+	religion="shinto"
+	culture="sanyo"
+	prowess=12
+	1150.1.1={
+		birth=yes
+	}
+	1185.4.25={
+		death=yes
+	}
+}
+12630404={
+	name=character_name_12630404 # Tsunemune
+	dynasty=10007111 # Naniwa
+	father=12630403 # Naniwa Tsuneie
+	religion="shinto"
+	culture="sanyo"
+	prowess=12
+	1170.1.1={
+		birth=yes
+	}
+	1230.1.1={
+		death=yes
+	}
+}
+12630500={
+	name=character_name_12630500 # Motoharu
+	dynasty=10007112 # Tajibe
+	religion="shinto"
+	culture="sanyo"
+	prowess=11
+	1160.1.1={
+		birth=yes
+	}
+	1220.1.1={
+		death=yes
+	}
+}
+12630600={
+	name=character_name_12630600 # Katsutaka
+	dynasty=10007113 # Suyama
+	religion="shinto"
+	culture="sanyo"
+	prowess=10
+	1120.1.1={
+		birth=yes
+	}
+	1180.1.1={
+		death=yes
+	}
+}
+12630601={
+	name=character_name_12630601 # Takamitsu
+	dynasty=10007113 # Suyama
+	father=12630600 # Suyama Katsutaka
+	religion="shinto"
+	culture="sanyo"
+	prowess=10
+	1155.1.1={
+		birth=yes
+	}
+	1185.4.25={
+		death=yes
+	}
+}
+12630602={
+	name=character_name_12630602 # Michikatsu
+	dynasty=10007113 # Suyama
+	father=12630600 # Suyama Katsutaka
+	religion="shinto"
+	culture="sanyo"
+	prowess=11
+	1160.1.1={
+		birth=yes
+	}
+	1220.1.1={
+		death=yes
+	}
+}
+12630700={
+	name=character_name_12630700 # Kaneyasu
+	dynasty=10007114 # Senoo
+	religion="shinto"
+	culture="sanyo"
+	trait="education_intrigue_2"
+	trait="brave"
+	prowess=10
+	1123.1.1={
+		birth=yes
+	}
+	1183.11.28={
+		death=yes
+	}
+}
+12630701={
+	name=character_name_12630701 # Muneyasu
+	dynasty=10007114 # Senoo
+	father=12630700 # Senoo Kaneyasu
+	religion="shinto"
+	culture="sanyo"
+	trait="education_intrigue_1"
+	trait="greedy"
+	prowess=10
+	1160.1.1={
+		birth=yes
+	}
+	1183.11.28={
+		death=yes
+	}
+}
+12630800={
+	name=character_name_12630800 # Tokikuni
+	dynasty=10007238 # Urushima
+	religion="shinto"
+	culture="sanyo"
+	prowess=9
+	1098.1.1={
+		birth=yes
+	}
+	1141.1.1={
+		death=yes
+	}
+}
+12630805={
+	name=character_name_12630805 # Honen
+	dynasty=10007238 # Urushima
+	father=12630800 # 
+	religion="shinto"
+	culture="kinai_buddhist"
+	trait="education_learning_4"
+	trait="intellect_good_3"
+	prowess=11
+	1133.5.13={
+		birth=yes
+	}
+	1143.1.1={
+		trait="devoted"
+	}
+	1175.1.1={
+		employer=10041243 # Shukaku, Ninna-ji
+	}
+	1212.2.28={
+		death=yes
+	}
+}
+12630900={
+	name=character_name_12630900 # Taro # Fictional
+	dynasty=10007239 # Manabe
+	religion="shinto"
+	culture="sanyo"
+	prowess=11
+	1120.1.1={
+		birth=yes
+	}
+	1180.1.1={
+		death=yes
+	}
+}
+12630905={
+	name=character_name_12630905 # Sukehisa
+	dynasty=10007239 # Manabe
+	father=12630900 # 
+	religion="shinto"
+	culture="sanyo"
+	trait="education_martial_2"
+	trait="strong"
+	prowess=14
+	1154.1.1={
+		birth=yes
+	}
+	1179.12.18={
+		employer=10110042 # Taira Munemori
+	}
+	1185.4.25={
+		death=yes
+	}
+}
+12630906={
+	name=character_name_12630906 # Sukemitsu
+	dynasty=10007239 # Manabe
+	father=12630900 # 
+	religion="shinto"
+	culture="sanyo"
+	trait="education_martial_2"
+	trait="strong"
+	prowess=13
+	1155.1.1={
+		birth=yes
+	}
+	1179.12.18={
+		employer=10110042 # Taira Munemori
+	}
+	1185.4.25={
+		death=yes
+	}
+}
+12630950={
+	name=character_name_12630950 # Shigenobu
+	dynasty=10007326 # Akiha
+	religion="shinto"
+	culture="sanyo"
+	prowess=10
+	1190.1.1={
+		birth=yes
+	}
+	1206.1.1={
+		give_nickname="nick_saburo"
+	}
+	1240.1.1={
+		death=yes
+	}
+}
+12630951={
+	name=character_name_12630951 # Nobumura
+	dynasty=10007326 # Akiha
+	father=12630950 # Akiha Shigenobu
+	religion="shinto"
+	culture="sanyo"
+	prowess=11
+	1215.1.1={
+		birth=yes
+	}
+	1231.1.1={
+		give_nickname="nick_Matashiro"
+	}
+	1265.1.1={
+		death=yes
+	}
+}
+12630952={
+	name=character_name_12630952 # Shigeto
+	dynasty=10007326 # Akiha
+	father=12630950 # Akiha Shigenobu
+	religion="shinto"
+	culture="sanyo"
+	prowess=10
+	1220.1.1={
+		birth=yes
+	}
+	1236.1.1={
+		give_nickname="nick_Heirokuro"
+	}
+	1290.1.1={
+		death=yes
+	}
+}
+12630953={
+	name=character_name_12630953 # Yoshitsugu
+	dynasty=10007326 # Akiha
+	father=12630951 # Akiha Nobumura
+	religion="shinto"
+	culture="sanyo"
+	prowess=11
+	1240.1.1={
+		birth=yes
+	}
+	1256.1.1={
+		give_nickname="nick_Kosaburo"
+	}
+	1290.1.1={
+		death=yes
+	}
+}
+12630954={
+	name=character_name_12630954 # Shigetomo
+	dynasty=10007326 # Akiha
+	father=12630953 # Akiha Yoshitsugu
+	religion="shinto"
+	culture="sanyo"
+	prowess=9
+	1260.1.1={
+		birth=yes
+	}
+	1276.1.1={
+		give_nickname="nick_saburo"
+	}
+	1310.1.1={
+		death=yes
+	}
+}
+12630955={
+	name=character_name_12630955 # Nobumori
+	dynasty=10007326 # Akiha
+	father=12630954 # Akiha Shigetomo
+	religion="shinto"
+	culture="sanyo"
+	prowess=12
+	1290.1.1={
+		birth=yes
+	}
+	1306.1.1={
+		give_nickname="nick_saburo"
+	}
+	1365.1.1={
+		death=yes
+	}
+}
+12630956={
+	name=character_name_12630956 # Shigetsugu
+	dynasty=10007326 # Akiha
+	father=12630954 # Akiha Shigetomo
+	religion="shinto"
+	culture="sanyo"
+	prowess=10
+	1295.1.1={
+		birth=yes
+	}
+	1311.1.1={
+		give_nickname="nick_shichiro"
+	}
+	1370.1.1={
+		death=yes
+	}
+}
+12630957={
+	name=character_name_12630957 # Shigeaki
+	dynasty=10007326 # Akiha
+	father=12630955 # Akiha Nobumori
+	religion="shinto"
+	culture="sanyo"
+	prowess=10
+	1320.1.1={
+		birth=yes
+	}
+	1336.1.1={
+		give_nickname="nick_saburo"
+	}
+	1350.1.1={
+		give_nickname="nick_higo_no_kami"
+	}
+	1370.1.1={
+		death=yes
+	}
+}
+12630958={
+	name=character_name_12630958 # Yorishige
+	dynasty=10007326 # Akiha
+	father=12630957 # Akiha Shigeaki
+	religion="shinto"
+	culture="sanyo"
+	prowess=11
+	1355.1.1={
+		birth=yes
+	}
+	1371.1.1={
+		give_nickname="nick_hachiro"
+	}
+	1405.1.1={
+		death=yes
+	}
+}
+12630959={
+	name=character_name_12630959 # Yoritsugu
+	dynasty=10007326 # Akiha
+	father=12630958 # Akiha Yorishige
+	religion="shinto"
+	culture="sanyo"
+	prowess=11
+	1390.1.1={
+		birth=yes
+	}
+	1440.1.1={
+		death=yes
+	}
+}
+12630960={
+	name=character_name_12630960 # Motoaki
+	dynasty=10007326 # Akiha
+	father=12630959 # Akiha Yoritsugu
+	religion="shinto"
+	culture="sanyo"
+	prowess=9
+	1420.1.1={
+		birth=yes
+	}
+	1445.1.1={
+		give_nickname="nick_bitchu_no_kami"
+	}
+	1509.1.1={
+		death={
+			death_reason=death_battle
+		}
+	}
+}
+12630961={
+	name=character_name_12630961 # Motoshige
+	dynasty=10007326 # Akiha
+	father=12630960 # Akiha Motoaki
+	religion="shinto"
+	culture="sanyo"
+	prowess=12
+	1455.1.1={
+		birth=yes
+	}
+	1509.1.1={
+		death={
+			death_reason=death_battle
+		}
+	}
+}
+12630970={
+	name=character_name_12630970 # Tokikage
+	dynasty=10007328 # Uta
+	religion="shinto"
+	culture="southern_kanto"
+	prowess=11
+	1210.1.1={
+		birth=yes
+	}
+	1235.1.1={
+		give_nickname="nick_saemon_no_jo"
+	}
+	1280.1.1={
+		death=yes
+	}
+}
+12630971={
+	name=character_name_12630971 # SaemonSaburo
+	dynasty=10007328 # Uta
+	father=12630970 # Uta Tokikage
+	religion="shinto"
+	culture="southern_kanto"
+	prowess=11
+	1240.1.1={
+		birth=yes
+	}
+	1250.1.1={
+		trait="devoted"
+	}
+	1256.1.1={
+		give_nickname="nick_saburo"
+	}
+	1300.1.1={
+		death=yes
+	}
+}
+12630972={
+	name=character_name_12630972 # Saemon
+	dynasty=10007328 # Uta
+	father=12630971 # Uta SaemonSaburo
+	religion="shinto"
+	culture="southern_kanto"
+	prowess=10
+	1265.1.1={
+		birth=yes
+	}
+	1325.1.1={
+		death=yes
+	}
+}
+12630973={
+	name=character_name_12630973 # Saemon
+	dynasty=10007328 # Uta
+	father=12630972 # Uta Saemon
+	religion="shinto"
+	culture="southern_kanto"
+	prowess=9
+	1295.1.1={
+		birth=yes
+	}
+	1355.1.1={
+		death=yes
+	}
+}
+12630974={
+	name=character_name_12630974 # KoanShikyu
+	dynasty=10007328 # Uta
+	father=12630973 # Uta Saemon
+	religion="shinto"
+	culture="sanyo"
+#	trait="zen_buddhist"
+	prowess=12
+	1320.1.1={
+		birth=yes
+	}
+	1330.1.1={
+		trait="devoted"
+		culture="saigoku_buddhist"
+	}
+	1401.1.1={
+		death=yes
+	}
+}
+12630975={
+	name=character_name_12630975 # Kagesada
+	dynasty=10007328 # Uta
+	father=12630973 # Uta Saemon
+	religion="shinto"
+	culture="sanyo"
+	prowess=10
+	1325.1.1={
+		birth=yes
+	}
+	1350.1.1={
+		give_nickname="nick_bizen_no_kami"
+	}
+	1385.1.1={
+		death=yes
+	}
+}
+12630977={
+	name=character_name_12630977 # Morokage
+	dynasty=10007327 # Tajibe
+	father=12630975 # Uta Kagesada
+	religion="shinto"
+	culture="sanyo"
+	prowess=11
+	1345.1.1={
+		birth=yes
+	}
+	1370.1.1={
+		give_nickname="nick_bitchu_no_kami"
+	}
+	1377.1.1={
+		death={
+			death_reason=death_battle
+		}
+	}
+}
+12630978={
+	name=character_name_12630978 # Mitsukage
+	dynasty=10007327 # Tajibe
+	father=12630975 # Uta Kagesada
+	religion="shinto"
+	culture="sanyo"
+	prowess=10
+	1348.1.1={
+		birth=yes
+	}
+	1398.1.1={
+		death=yes
+	}
+}
+12630980={
+	name=character_name_12630980 # Shojiro
+	dynasty=10007327 # Tajibe
+	father=12630977 # Tajibe Morokage
+	religion="shinto"
+	culture="sanyo"
+	prowess=12
+	1365.1.1={
+		birth=yes
+	}
+	1381.1.1={
+		give_nickname="nick_Jiroshiro"
+	}
+	1415.1.1={
+		death=yes
+	}
+}
+12630981={
+	name=character_name_12630981 # BicchuNyudo
+	dynasty=10007327 # Tajibe
+	father=12630980 # Tajibe Shojiro
+	religion="shinto"
+	culture="sanyo"
+	prowess=11
+	1385.1.1={
+		birth=yes
+	}
+	1450.1.1={
+		death=yes
+	}
+}
+12630983={
+	name=character_name_12630983 # Hisakage
+	dynasty=10007327 # Tajibe
+	father=12630981 # Tajibe BicchuNyudo
+	religion="shinto"
+	culture="sanyo"
+	prowess=11
+	1415.1.1={
+		birth=yes
+	}
+	1431.1.1={
+		give_nickname="nick_bitchu_no_kami"
+	}
+	1485.1.1={
+		death=yes
+	}
+}
+12630984={
+	name=character_name_12630984 # Kurando
+	dynasty=10007327 # Tajibe
+	father=12630981 # Tajibe BicchuNyudo
+	religion="shinto"
+	culture="sanyo"
+	prowess=11
+	1417.1.1={
+		birth=yes
+	}
+	1467.1.1={
+		death=yes
+	}
+}
+12630985={
+	name=character_name_12630985 # Tadakage
+	dynasty=10007327 # Tajibe
+	father=12630983 # Tajibe Hisakage
+	religion="shinto"
+	culture="sanyo"
+	prowess=11
+	1440.1.1={
+		birth=yes
+	}
+	1456.1.1={
+		give_nickname="nick_Yajio"
+	}
+	1500.1.1={
+		death=yes
+	}
+}
+12630987={
+	name=character_name_12630987 # SurugaNoKami
+	dynasty=10007327 # Tajibe
+	father=12630984 # Tajibe Kurando
+	religion="shinto"
+	culture="sanyo"
+	prowess=11
+	1442.1.1={
+		birth=yes
+	}
+	1492.1.1={
+		death=yes
+	}
+}
+12630989={
+	name=character_name_12630989 # Yajiro
+	dynasty=10007327 # Tajibe
+	father=12630985 # Tajibe Tadakage
+	religion="shinto"
+	culture="sanyo"
+	prowess=11
+	1460.1.1={
+		birth=yes
+	}
+	1510.1.1={
+		death=yes
+	}
+}
+12630990={
+	name=character_name_12630990 # Jiro
+	dynasty=10007327 # Tajibe
+	father=12630989 # Tajibe Yajiro
+	religion="shinto"
+	culture="sanyo"
+	prowess=10
+	1485.1.1={
+		birth=yes
+	}
+	1535.1.1={
+		death=yes
+	}
+}
+12630991={
+	name=character_name_12630991 # NotoNoKami
+	dynasty=10007327 # Tajibe
+	father=12630990 # Tajibe Jiro
+	religion="shinto"
+	culture="sanyo"
+	prowess=9
+	1510.1.1={
+		birth=yes
+	}
+	1560.1.1={
+		death=yes
+	}
+}
+12630992={
+	name=character_name_12630992 # Kamehoushi
+	dynasty=10007327 # Tajibe
+	father=12630991 # Tajibe NotoNoKami
+	religion="shinto"
+	culture="sanyo"
+	prowess=11
+	1530.1.1={
+		birth=yes
+	}
+	1580.1.1={
+		death=yes
+	}
+}
+12630993={
+	name=character_name_12630993 # Kageharu
+	dynasty=10007327 # Tajibe
+	father=12630992 # Tajibe Kamehoushi
+	religion="shinto"
+	culture="sanyo"
+	prowess=11
+	1550.1.1={
+		birth=yes
+	}
+	1575.1.1={
+		give_nickname="nick_uta_no_kami"
+	}
+	1595.4.24={
+		death=yes
+	}
+}
+12631000={
+	name=character_name_12631000 # Sukemitsu #In 1222, Jito of Niimi
+	dynasty=10000520 # Niimi
+	religion="shinto"
+	culture="sanyo"
+	prowess=10
+	1160.1.1={
+		birth=yes
+	}
+	1240.1.1={
+		death=yes
+	}
+}
+12631001={
+	name=character_name_12631001 # Jibujo
+	dynasty=10000520 # Niimi
+	father=12631000 # Niimi Sukemitsu
+	religion="shinto"
+	culture="sanyo"
+	prowess=10
+	1185.1.1={
+		birth=yes
+	}
+	1235.1.1={
+		death=yes
+	}
+}
+12631002={
+	name=character_name_12631002 # Jibujo
+	dynasty=10000520 # Niimi
+	father=12631001 # Niimi Jibujo
+	religion="shinto"
+	culture="sanyo"
+	prowess=12
+	1205.1.1={
+		birth=yes
+	}
+	1255.1.1={
+		death=yes
+	}
+}
+12631003={
+	name=character_name_12631003 # Jibujo
+	dynasty=10000520 # Niimi
+	father=12631002 # Niimi Jibujo
+	religion="shinto"
+	culture="sanyo"
+	prowess=11
+	1230.1.1={
+		birth=yes
+	}
+	1280.1.1={
+		death=yes
+	}
+}
+12631004={
+	name=character_name_12631004 # Jibujo
+	dynasty=10000520 # Niimi
+	father=12631003 # Niimi Jibujo
+	religion="shinto"
+	culture="sanyo"
+	prowess=10
+	1250.1.1={
+		birth=yes
+	}
+	1300.1.1={
+		death=yes
+	}
+}
+12631005={
+	name=character_name_12631005 # Jibujo
+	dynasty=10000520 # Niimi
+	father=12631004 # Niimi Jibujo
+	religion="shinto"
+	culture="sanyo"
+	prowess=11
+	1275.1.1={
+		birth=yes
+	}
+	1325.1.1={
+		death=yes
+	}
+}
+12631006={
+	name=character_name_12631006 # Jibujo
+	dynasty=10000520 # Niimi
+	father=12631005 # Niimi Jibujo
+	religion="shinto"
+	culture="sanyo"
+	prowess=11
+	1295.1.1={
+		birth=yes
+	}
+	1345.1.1={
+		death=yes
+	}
+}
+12631007={
+	name=character_name_12631007 # Sadanao
+	dynasty=10000520 # Niimi
+	father=12631006 # Niimi Jibujo
+	religion="shinto"
+	culture="sanyo"
+	prowess=10
+	1315.1.1={
+		birth=yes
+	}
+	1400.1.1={
+		death=yes
+	}
+}
+12631008={
+	name=character_name_12631008 # Tarosaemon
+	dynasty=10000520 # Niimi
+	father=12631007 # Niimi Sadanao
+	religion="shinto"
+	culture="sanyo"
+	prowess=10
+	1340.1.1={
+		birth=yes
+	}
+	1390.1.1={
+		death=yes
+	}
+}
+12631010={
+	name=character_name_12631010 # Kiyonao
+	dynasty=10000520 # Niimi
+	father=12631008 # Niimi Tarosaemon
+	religion="shinto"
+	culture="sanyo"
+	prowess=12
+	1410.1.1={
+		birth=yes
+	}
+	1480.1.1={
+		death=yes
+	}
+}
+12631012={
+	name=character_name_12631012 # Tsunenao
+	dynasty=10000520 # Niimi
+	father=12631010 # Niimi Kiyonao
+	religion="shinto"
+	culture="sanyo"
+	prowess=10
+	1440.1.1={
+		birth=yes
+	}
+	1500.1.1={
+		death=yes
+	}
+}
+12631013={
+	name=character_name_12631013 # Katanao
+	dynasty=10000520 # Niimi
+	father=12631012 # Niimi Tsunenao
+	religion="shinto"
+	culture="sanyo"
+	prowess=11
+	1470.1.1={
+		birth=yes
+	}
+	1510.1.1={
+		death=yes
+	}
+}
+12631014={
+	name=character_name_12631014 # Masanao
+	dynasty=10000520 # Niimi
+	father=12631013 # Niimi Katanao
+	religion="shinto"
+	culture="sanyo"
+	prowess=10
+	1505.1.1={
+		birth=yes
+	}
+	1550.1.1={
+		death=yes
+	}
+}
+12631015={
+	name=character_name_12631015 # Soken
+	dynasty=10000520 # Niimi
+	father=12631012 # Niimi Tsunenao
+	religion="shinto"
+	culture="sanyo"
+	prowess=11
+	1458.1.1={
+		birth=yes
+	}
+	1528.1.1={
+		death=yes
+	}
+}
+12631017={
+	name=character_name_12631017 # Kunitsune
+	dynasty=10000520 # Niimi
+	father=12631013 # Niimi Katanao
+	religion="shinto"
+	culture="sanyo"
+	prowess=10
+	1500.1.1={
+		birth=yes
+	}
+	1542.1.1={
+		death=yes
+	}
+}
+12631018={
+	name=character_name_12631018 # Sadatsune
+	dynasty=10000520 # Niimi
+	father=12631017 # Niimi Kunitsune
+	religion="shinto"
+	culture="sanyo"
+	prowess=10
+	1530.1.1={
+		birth=yes
+	}
+	1570.1.1={
+		death=yes
+	}
+}
+12631019={
+	name=character_name_12631019 # Saburo
+	dynasty=10000520 # Niimi
+	father=12631013 # Niimi Katanao
+	religion="shinto"
+	culture="sanyo"
+	prowess=11
+	1495.1.1={
+		birth=yes
+	}
+	1515.8.16={
+		death=yes
+	}
+}
+12631021={
+	name=character_name_12631021 # Sadaaki
+	dynasty=10000520 # Niimi
+	father=12631018 # Niimi Sadatsune
+	religion="shinto"
+	culture="sanyo"
+	prowess=11
+	1560.1.1={
+		birth=yes
+	}
+	1590.1.1={
+		death=yes
+	}
+}

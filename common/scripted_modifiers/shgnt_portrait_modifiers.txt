@@ -1,0 +1,22 @@
+﻿portrait_steppe_clothing_modifier = {
+	modifier = {
+		add = 50
+        portrait_ainu_clothing_trigger = yes
+	}
+}
+
+# Different likelyhood of a clean shaven look in different cultures
+portrait_clean_shaven_clothing_modifier = {
+    modifier = {
+        add = 0
+        portrait_yamato_clothing_trigger = yes
+    }
+    modifier = {
+        add = 0
+        portrait_ryukyu_clothing_trigger = yes
+    }
+    modifier = {
+        add = -10
+        portrait_ainu_clothing_trigger = yes
+    }
+}

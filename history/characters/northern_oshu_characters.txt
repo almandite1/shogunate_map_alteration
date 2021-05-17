@@ -1,0 +1,1975 @@
+﻿10003101 = {
+	name=character_name_10003101 # Yasunobu
+	dynasty=10000031
+	martial=7
+	diplomacy=5
+	intrigue=6
+	stewardship=7
+	father=10003135
+	religion="shinto"
+	culture="northern_oshu"
+	trait="just"
+	trait="education_martial_2"
+	prowess=13
+	1493.1.1 = {
+		birth=yes
+	}
+	1507.3.23={
+		effect={
+			set_realm_capital=title:c_shgnt_sannohe
+		}
+	}
+	1541.1.1 = {
+		death=yes
+	}
+}
+10003102 = {
+	name=character_name_10003102 # Harumasa
+	dynasty=10000031
+	martial=5
+	diplomacy=6
+	intrigue=6
+	stewardship=6
+	religion="shinto"
+	culture="northern_oshu"
+	trait="brave"
+	trait="patient"
+	trait="education_martial_3"
+	father=10003101
+	prowess=13
+	1517.1.1 = {
+		birth=yes
+	}
+	1541.1.1={
+		effect={
+			set_realm_capital=title:c_shgnt_sannohe
+		}
+	}
+	1582.1.27 = {
+		death=yes
+	}
+}
+10003130 = {
+	name=character_name_10003130 # Mitsumasa
+	dynasty=10000031
+	religion="shinto"
+	culture="northern_oshu"
+	trait="education_diplomacy_1"
+	father=12040201 # Nanbu Masamori
+	prowess=12
+	1402.1.1 = {
+		birth=yes
+	}
+	1449.1.1 = {
+		death=yes
+	}
+}
+10003131 = {
+	name=character_name_10003131 # Tokimasa
+	dynasty=10000031
+	religion="shinto"
+	culture="northern_oshu"
+	trait="education_diplomacy_1"
+	father=12040201 # Nanbu Masamori
+	prowess=9
+	1410.1.1 = {
+		birth=yes
+	}
+    1449.01.01 = {
+		effect={
+			set_realm_capital=title:c_shgnt_sannohe
+		}
+	}
+	1473.4.2 = {
+		death=yes
+	}
+}
+10003132 = {
+	name=character_name_10003132 # Michitsugu
+	dynasty=10000031
+	religion="shinto"
+	culture="northern_oshu"
+	trait="education_diplomacy_1"
+	father=10003131
+	prowess=12
+	1452.1.1 = {
+		birth=yes
+	}
+	1473.04.02 = {
+		effect={
+			set_realm_capital=title:c_shgnt_sannohe
+		}
+	}
+	1490.1.1 = {
+		death=yes
+	}
+}
+10003133 = {
+	name=character_name_10003133 # Nobutoki
+	dynasty=10000031
+	religion="shinto"
+	culture="northern_oshu"
+	trait="education_diplomacy_1"
+	father=12040202 # Nanbu Sukemasa
+	prowess=12
+	1442.1.1 = {
+		birth=yes
+	}
+	1490.1.1={
+		effect={
+			set_realm_capital=title:c_shgnt_sannohe
+		}
+	}
+	1502.1.11 = {
+		death=yes
+	}
+}
+10003134 = {
+	name=character_name_10003134 # Nobuyoshi
+	dynasty=10000031
+	religion="shinto"
+	culture="northern_oshu"
+	trait="education_intrigue_1"
+	father=10003133
+	prowess=11
+	1462.1.1 = {
+		birth=yes
+	}
+	1502.1.11={
+		effect={
+			set_realm_capital=title:c_shgnt_sannohe
+		}
+	}
+	1503.6.18 = {
+		death=yes
+	}
+}
+10003135 = {
+	name=character_name_10003135 # Masayasu
+	dynasty=10000031
+	religion="shinto"
+	culture="northern_oshu"
+	trait="education_diplomacy_1"
+	father=10003133
+	prowess=9
+	1461.1.1 = {
+		birth=yes
+	}
+	1503.6.18={
+		effect={
+			set_realm_capital=title:c_shgnt_sannohe
+		}
+	}
+	1507.3.23 = {
+		death=yes
+	}
+}
+10003136 = {
+	name=character_name_10003136 # Takanobu # Ishikawa Takanobu
+	dynasty=10000031
+	martial=5
+	diplomacy=6
+	intrigue=7
+	stewardship=6
+	religion="shinto"
+	culture="northern_oshu"
+	trait="education_diplomacy_3"
+	trait="diligent"
+	trait="content"
+	father=10003135
+	prowess=10
+	1495.1.1 = {
+		birth=yes
+	}
+	1530.1.1 = {
+		dynasty = 10000044
+	}
+	1571.5.28 = {
+		death=yes
+	}
+}
+10003137 = {
+	name=character_name_10003137 # Nagayoshi # Minami Nagayoshi
+	dynasty=10000031
+	religion="shinto"
+	culture="northern_oshu"
+	trait="education_diplomacy_1"
+	father=10003135
+	prowess=11
+	1496.1.1 = {
+		birth=yes
+	}
+	1530.1.1 = {
+		dynasty = 10000045
+	}
+	1560.1.1 = {
+		death=yes
+	}
+}
+10003138 = {
+	name=character_name_10003138 # Nobufusa # Ishigame Nobufusa
+	dynasty=10000031
+	religion="shinto"
+	culture="northern_oshu"
+	trait="education_intrigue_1"
+	father=10003135
+	prowess=10
+	1499.1.1 = {
+		birth=yes
+	}
+	1530.1.1 = {
+		dynasty = 10000046
+	}
+	1583.1.1 = {
+		death=yes
+	}
+}
+10003139 = {
+	name=character_name_10003139 # Hidenori # Kemanai Hidenori
+	dynasty=10000031
+	religion="shinto"
+	culture="northern_oshu"
+	trait="education_diplomacy_1"
+	father=10003135
+	prowess=10
+	1505.1.1 = {
+		birth=yes
+	}
+	1530.1.1 = {
+		dynasty = 10000047 # Kemanai
+	}
+	1585.1.1 = {
+		death=yes
+	}
+}
+10003140 = {
+	name=character_name_10003140 # Munechika # Kita Munechika
+	dynasty=10000048
+	religion="shinto"
+	culture="northern_oshu"
+	trait="education_intrigue_1"
+	father=10003134
+	prowess=11
+	1503.6.19 = {
+		birth=yes
+	}
+	1541.1.1 = {
+		death=yes
+	}
+}
+10003141 = {
+	name=character_name_10003141 # Nobuchika # Kita Nobuchika
+	dynasty=10000048
+	martial=5
+	diplomacy=4
+	intrigue=7
+	stewardship=4
+	religion="shinto"
+	culture="northern_oshu"
+	trait="education_stewardship_3"
+	trait="diligent"
+	trait="content"
+	father=10003140
+	prowess=9
+	1523.1.1 = {
+		birth=yes
+	}
+	1613.10.1 = {
+		death=yes
+	}
+}
+10003142 = {
+	name=character_name_10003142 # Chikakazu # Kita Chikakazu
+	dynasty=10000048
+	religion="shinto"
+	culture="northern_oshu"
+	father=10003140 # TODO : The father, ID 10003140, died 8784 days before this character was born, which is more than the limit of 300 days.
+	prowess=9
+	1550.1.1 = {
+		birth=yes
+	}
+	1634.7.2 = {
+		death=yes
+	}
+}
+10003143 = {
+	name=character_name_10003143 # Hidechika # Kita Hidechika
+	dynasty=10000048
+	religion="shinto"
+	culture="northern_oshu"
+	father=10003140 # TODO : The father, ID 10003140, died 8784 days before this character was born, which is more than the limit of 300 days.
+	prowess=11
+	1553.1.1 = {
+		birth=yes
+	}
+	1598.1.1 = {
+		death=yes
+	}
+}
+10003144 = {
+	name=character_name_10003144 # Naotsugu # Kita Naotsugu
+	dynasty=10000048
+	religion="shinto"
+	culture="northern_oshu"
+	father=10003140 # TODO : The father, ID 10003140, died 8784 days before this character was born, which is more than the limit of 300 days.
+	prowess=10
+	1555.1.1 = {
+		birth=yes
+	}
+	1605.1.1 = {
+		death=yes
+	}
+}
+10003145 = {
+	name=character_name_10003145 # Chikakuni # Kita Chikakuni
+	dynasty=10000048
+	religion="shinto"
+	culture="northern_oshu"
+	father=10003140 # TODO : The father, ID 10003140, died 8784 days before this character was born, which is more than the limit of 300 days.
+	prowess=10
+	1558.1.1 = {
+		birth=yes
+	}
+	1620.1.1 = {
+		death=yes
+	}
+}
+10003146 = {
+	name=character_name_10003146 # Chikahisa # Kita Chikahisa
+	dynasty=10000048
+	religion="shinto"
+	culture="northern_oshu"
+	father=10003140 # TODO : The father, ID 10003140, died 8784 days before this character was born, which is more than the limit of 300 days.
+	prowess=9
+	1558.1.1 = {
+		birth=yes
+	}
+	1620.1.1 = {
+		death=yes
+	}
+}
+10003147 = {
+	name=character_name_10003147 # Nobukage # Kita Nobukage
+	dynasty=10000048
+	religion="shinto"
+	culture="northern_oshu"
+	father=10003140 # TODO : The father, ID 10003140, died 8784 days before this character was born, which is more than the limit of 300 days.
+	prowess=10
+	1565.1.1 = {
+		birth=yes
+	}
+	1616.1.1 = {
+		death=yes
+	}
+}
+10003148 = {
+	name=character_name_10003148 # Naochika # Kita Naochika
+	dynasty=10000048
+	religion="shinto"
+	culture="northern_oshu"
+	father=10003142
+	prowess=10
+	1575.1.1 = {
+		birth=yes
+	}
+	1630.1.1 = {
+		death=yes
+	}
+}
+10003149 = {
+	name=character_name_10003149 # Chikakoto # Kita Chikakoto
+	dynasty=10000048
+	religion="shinto"
+	culture="northern_oshu"
+	father=10003142
+	prowess=11
+	1580.1.1 = {
+		birth=yes
+	}
+	1635.1.1 = {
+		death=yes
+	}
+}
+10003150 = {
+	name=character_name_10003150 # Masatsugu # Kemanai Masatsugu
+	dynasty=10000047 # Kemanai
+	religion="shinto"
+	culture="northern_oshu"
+	trait="education_diplomacy_1"
+	father=10003139
+	prowess=11
+	1550.1.1 = {
+		birth=yes
+	}
+	1642.1.1 = {
+		death=yes
+	}
+}
+10003151 = {
+	name=character_name_10003151 # Harutsugu
+	dynasty=10000031
+	religion="shinto"
+	culture="northern_oshu"
+	father=10003102
+	prowess=10
+	1570.1.1 = {
+		birth=yes
+	}
+	1582.2.16 = {
+		death=yes
+	}
+}
+10003152 = {
+	name=character_name_10003152 # Haru
+	female=yes
+	dynasty=10000031
+	religion="shinto"
+	culture="northern_oshu"
+	father=10003102
+	prowess=10
+	1548.1.1 = {
+		birth=yes
+	}
+	1576.1.1 = {
+		death=yes
+	}
+}
+10003153 = {
+	name=character_name_10003153 # Toki
+	female=yes
+	dynasty=10000031
+	religion="shinto"
+	culture="northern_oshu"
+	father=10003102
+	prowess=11
+	1555.1.1 = {
+		birth=yes
+	}
+	1600.1.1 = {
+		death=yes
+	}
+}
+10003154 = {
+	name=character_name_10003154 # Nobunao
+	dynasty=10000044
+	religion="shinto"
+	culture="northern_oshu"
+	martial=4
+	diplomacy=7
+	intrigue=7
+	stewardship=6
+	learning=7
+	trait="education_diplomacy_3"
+	trait="intellect_good_2"
+	trait="diligent"
+	trait="administrator"
+	father=10003136
+	prowess=11
+	1546.1.1 = {
+		birth=yes
+	}
+	1565.1.1 = {
+		dynasty = 10000031
+		trait="child_of_adoption"
+		add_spouse = 10003152
+		effect={
+			set_father=character:10003102
+			set_real_father=character:10003136
+		}
+	}
+	1582.1.27={
+		effect={
+			set_realm_capital=title:c_shgnt_sannohe
+		}
+	}
+	1599.11.12 = {
+		death=yes
+	}
+}
+10003155 = {
+	name=character_name_10003155 # Masanobu
+	dynasty=10000044 # Ishikawa
+	religion="shinto"
+	culture="northern_oshu"
+	father=10003136
+	prowess=11
+	1556.1.1 = {
+		birth=yes
+	}
+	1588.11.12 = {
+		death=yes
+	}
+}
+10003156 = {
+	name=character_name_10003156 # Toshinao
+	dynasty=10000031
+	religion="shinto"
+	culture="northern_oshu"
+	trait="education_stewardship_3"
+	father=10003154
+	prowess=10
+	1576.4.13 = {
+		birth=yes
+	}
+	1632.10.1 = {
+		death=yes
+	}
+}
+10003157 = {
+	name=character_name_10003157 # Chiyo
+	female=yes
+	dynasty=10000031
+	religion="shinto"
+	culture="northern_oshu"
+	father=10003154
+	prowess=11
+	1580.1.1 = {
+		birth=yes
+	}
+	1640.1.1 = {
+		death=yes
+	}
+}
+10003158 = {
+	name=character_name_10003158 # Sue
+	female=yes
+	dynasty=10000031
+	religion="shinto"
+	culture="northern_oshu"
+	father=10003154
+	prowess=10
+	1585.1.1 = {
+		birth=yes
+	}
+	1645.1.1 = {
+		death=yes
+	}
+}
+10003159 = {
+	name=character_name_10003159 # Nobuzane
+	dynasty=10000031
+	religion="shinto"
+	culture="northern_oshu"
+	father=10003131
+	prowess=11
+	1455.1.1 = {
+		birth=yes
+	}
+	1505.1.1 = {
+		death=yes
+	}
+}
+10003160 = {
+	name=character_name_10003160 # Nobumasa
+	dynasty=10000031
+	religion="shinto"
+	culture="northern_oshu"
+	father=10003159
+	prowess=11
+	1465.1.1 = {
+		birth=yes
+	}
+	1525.1.1 = {
+		death=yes
+	}
+}
+10003161 = {
+	name=character_name_10003161 # Masatsugu
+	dynasty=10000031
+	religion="shinto"
+	culture="northern_oshu"
+	father=10003160
+	prowess=9
+	1485.1.1 = {
+		birth=yes
+	}
+	1530.1.1 = {
+		death=yes
+	}
+}
+10003162 = {
+	name=character_name_10003162 # Harutsugu
+	dynasty=10000031
+	religion="shinto"
+	culture="northern_oshu"
+	father=10003161
+	prowess=11
+	1505.1.1 = {
+		birth=yes
+	}
+	1565.1.1 = {
+		death=yes
+	}
+}
+10003163 = {
+	name=character_name_10003163 # Haruyoshi
+	dynasty=10000031
+	religion="shinto"
+	culture="northern_oshu"
+	father=10003162
+	prowess=10
+	1525.1.1 = {
+		birth=yes
+	}
+	1585.1.1 = {
+		death=yes
+	}
+}
+10003164 = {
+	name=character_name_10003164 # Nobuyoshi
+	dynasty=10000031
+	religion="shinto"
+	culture="northern_oshu"
+	father=10003163
+	prowess=11
+	1545.1.1 = {
+		birth=yes
+	}
+	1605.1.1 = {
+		death=yes
+	}
+}
+10003165 = {
+	name=character_name_10003165 # Tamenobu # Tsugaru Tamenobu
+	dynasty=10000031 # Nanbu
+	religion="shinto"
+	culture="northern_oshu"
+	martial=7
+	diplomacy=7
+	intrigue=6
+	stewardship=5
+	trait="education_intrigue_4"
+	trait="ambitious"
+	father=10003163 # Nanbu Haruyoshi
+	prowess=14
+	1550.1.18 = {
+		birth=yes
+	}
+	1567.1.1 = {
+		dynasty=10000033 # Oura
+		trait="child_of_adoption"
+		effect={
+			set_father=character:10003301
+			set_real_father=character:10003163
+		}
+	}
+	1608.1.22 = {
+		death=yes
+	}
+}
+10003166 = {
+	name=character_name_10003166 # Naoharu
+	dynasty=10000031
+	religion="shinto"
+	culture="northern_oshu"
+	father=10003164
+	prowess=11
+	1565.1.1 = {
+		birth=yes
+	}
+	1591.1.1 = {
+		death=yes
+	}
+}
+10003200 = {
+	name=character_name_10003200 # Nobunaka
+	dynasty=10000043 # Kunohe
+	religion="shinto"
+	culture="northern_oshu"
+	father=10003211
+	prowess=11
+	1510.1.1 = {
+		birth=yes
+	}
+	1589.1.1 = {
+		death=yes
+	}
+}
+10003201 = {
+	name=character_name_10003201 # Masazane
+	dynasty=10000043 # Kunohe
+	religion="shinto"
+	culture="northern_oshu"
+	father=10003200
+	diplomacy=7
+	martial=5
+	stewardship=5
+	intrigue=7
+	learning=5
+	trait="education_martial_3"
+	trait="ambitious"
+	trait="arrogant"
+	prowess=14
+	1536.1.1 = {
+		birth=yes
+	}
+	1591.11.6 = {
+		death=yes
+	}
+}
+10003202 = {
+	name=character_name_10003202 # Sanechika
+	dynasty=10000043 # Kunohe
+	religion="shinto"
+	culture="northern_oshu"
+	father=10003200
+	prowess=9
+	1542.1.1 = {
+		birth=yes
+	}
+	1571.1.1={
+		add_spouse=10003153 # daughter of 3102:Nanbu Harumasa
+	}
+	1591.11.6 = {
+		death=yes
+	}
+}
+10003203 = {
+	name=character_name_10003203 # Yasuzane #a.k.a. Nakano Yasuzane
+	dynasty=10000043 # Kunohe
+	religion="shinto"
+	culture="northern_oshu"
+	father=10003200
+	prowess=10
+	1550.1.1 = {
+		birth=yes
+	}
+	1610.11.6 = {
+		death=yes
+	}
+}
+10003204 = {
+	name=character_name_10003204 # Yukitsura
+	dynasty=10000043 # Kunohe
+	religion="shinto"
+	culture="northern_oshu"
+	father=12360502 # Nanbu Mitsuyuki
+	prowess=11
+	1230.1.1 = {
+		birth=yes
+	}
+	1290.1.1 = {
+		death=yes
+	}
+}
+10003205 = {
+	name=character_name_10003205 # Tsurazane
+	dynasty=10000043 # Kunohe
+	religion="shinto"
+	culture="northern_oshu"
+	father=10003204
+	prowess=9
+	1260.1.1 = {
+		birth=yes
+	}
+	1320.1.1 = {
+		death=yes
+	}
+}
+10003206 = {
+	name=character_name_10003206 # Taketsura
+	dynasty=10000043 # Kunohe
+	religion="shinto"
+	culture="northern_oshu"
+	father=10003205
+	prowess=10
+	1290.1.1 = {
+		birth=yes
+	}
+	1350.1.1 = {
+		death=yes
+	}
+}
+10003207 = {
+	name=character_name_10003207 # Tsuramoto
+	dynasty=10000043 # Kunohe
+	religion="shinto"
+	culture="northern_oshu"
+	father=10003206
+	prowess=10
+	1320.1.1 = {
+		birth=yes
+	}
+	1380.1.1 = {
+		death=yes
+	}
+}
+10003208 = {
+	name=character_name_10003208 # Motozane
+	dynasty=10000043 # Kunohe
+	religion="shinto"
+	culture="northern_oshu"
+	father=10003207
+	prowess=11
+	1350.1.1 = {
+		birth=yes
+	}
+	1410.1.1 = {
+		death=yes
+	}
+}
+10003209 = {
+	name=character_name_10003209 # Mitsuyasu
+	dynasty=10000043 # Kunohe
+	religion="shinto"
+	culture="northern_oshu"
+	father=10003208
+	prowess=12
+	1380.1.1 = {
+		birth=yes
+	}
+	1440.1.1 = {
+		death=yes
+	}
+}
+10003210 = {
+	name=character_name_10003210 # Mitsumasa
+	dynasty=10000043 # Kunohe
+	religion="shinto"
+	culture="northern_oshu"
+	father=10003209
+	prowess=10
+	1420.1.1 = {
+		birth=yes
+	}
+	1480.1.1 = {
+		death=yes
+	}
+}
+10003211 = {
+	name=character_name_10003211 # Tsurayasu
+	dynasty=10000043 # Kunohe
+	religion="shinto"
+	culture="northern_oshu"
+	father=10003210
+	prowess=10
+	1450.1.1 = {
+		birth=yes
+	}
+	1520.1.1 = {
+		death=yes
+	}
+}
+10003350={
+	name=character_name_10003350 # Nobutake
+	dynasty=10000033 # Oura
+	father=10003165 # Oura Tamenobu
+	religion="shinto"
+	culture="northern_oshu"
+	trait="education_diplomacy_3"
+	prowess=11
+	1574.6.28={
+		birth=yes
+	}
+	1607.12.2={
+		death=yes
+	}
+}
+10003351={
+	name=character_name_10003351 # Nobukata
+	dynasty=10000033 # Oura
+	father=10003165 # Oura Tamenobu
+	religion="shinto"
+	culture="northern_oshu"
+	prowess=10
+	1575.1.1={
+		birth=yes
+	}
+	1597.3.14={
+		death=yes
+	}
+}
+10003352={
+	name=character_name_10003352 # Nobuhira
+	dynasty=10000033 # Oura
+	father=10003165 # Oura Tamenobu
+	religion="shinto"
+	culture="northern_oshu"
+	prowess=11
+	1586.5.9={
+		birth=yes
+	}
+	1631.2.14={
+		death=yes
+	}
+}
+10003353={
+	name=character_name_10003353 # Tomi
+	female=yes
+	dynasty=10000033 # Oura
+	father=10003165 # Oura Tamenobu
+	religion="shinto"
+	culture="northern_oshu"
+	prowess=11
+	1580.1.1={
+		birth=yes
+	}
+	1640.1.1={
+		death=yes
+	}
+}
+10003401 = {
+	name=character_name_10003401 # Haruie
+	dynasty=10000034
+	father=10003403
+	martial=7
+	diplomacy=6
+	intrigue=7
+	stewardship=6
+	religion="shinto"
+	culture="northern_oshu"
+	trait="compassionate"
+	trait="education_diplomacy_2"
+	prowess=10
+	1489.1.1 = {
+		birth=yes
+	}
+	1564.1.1 = {
+		death=yes
+	}
+}
+10003402 = {
+	name=character_name_10003402 # Terutoki
+	dynasty=10000034
+	martial=6
+	diplomacy=5
+	intrigue=6
+	stewardship=5
+	religion="shinto"
+	culture="northern_oshu"
+	trait="education_intrigue_2"
+	father=10003401
+	prowess=13
+	1521.1.1 = {
+		birth=yes
+	}
+	1575.1.1 = {
+		death=yes
+	}
+}
+10003403 = {
+	name=character_name_10003403 # Taneshige
+	dynasty=10000034
+	father=12051045 # Hienuki Tametaka
+	religion="shinto"
+	culture="northern_oshu"
+	prowess=11
+	1472.1.1 = {
+		birth=yes
+	}
+	1504.1.1 = {
+		death=yes
+	}
+}
+10003404 = {
+	name=character_name_10003404 # Hirotada
+	dynasty=10000034
+	religion="shinto"
+	culture="northern_oshu"
+	father=10003402
+	prowess=11
+	1545.1.1 = {
+		birth=yes
+	}
+	1592.1.1 = {
+		death=yes
+	}
+}
+10003405 = {
+	name=character_name_10003405 # Moriaki
+	dynasty=10000034
+	religion="shinto"
+	culture="northern_oshu"
+	father=10003402
+	prowess=11
+	1551.1.1 = {
+		birth=yes
+	}
+	1586.1.1 = {
+		death=yes
+	}
+}
+10003406 = {
+	name=character_name_10003406 # Shigemasa
+	dynasty=10000034
+	religion="shinto"
+	culture="northern_oshu"
+	father=10003404
+	prowess=11
+	1570.1.1 = {
+		birth=yes
+	}
+	1630.1.1 = {
+		death=yes
+	}
+}
+10003501 = {
+	name=character_name_10003501 # Yoshikatsu
+	father=10003502
+	dynasty=10000035
+	martial=8
+	diplomacy=5
+	intrigue=7
+	stewardship=6
+	religion="shinto"
+	culture="northern_oshu"
+	trait="education_martial_2"
+	prowess=13
+	1507.1.1 = {
+		birth=yes
+	}
+	1575.1.21 = {
+		death=yes
+	}
+}
+10003502 = {
+	name=character_name_10003502 # Yukiyoshi
+	dynasty=10000035
+	father=10003503
+	religion="shinto"
+	culture="northern_oshu"
+	prowess=11
+	1480.1.1 = {
+		birth=yes
+	}
+	1522.1.1 = {
+		death=yes
+	}
+}
+10003503 = {
+	name=character_name_10003503 # Sadayuki
+	dynasty=10000035
+	father=10003512 # Waga Sadayoshi
+	religion="shinto"
+	culture="northern_oshu"
+	prowess=11
+	1450.1.1 = {
+		birth=yes
+	}
+	1500.1.1 = {
+		death=yes
+	}
+}
+10003504 = {
+	name=character_name_10003504 # Yoshinobu
+	father=10003501
+	dynasty=10000035
+	religion="shinto"
+	culture="northern_oshu"
+	prowess=10
+	1530.1.1 = {
+		birth=yes
+	}
+	1570.1.1 = {
+		death=yes
+	}
+}
+10003505 = {
+	name=character_name_10003505 # Hirotada
+	father=10003501
+	dynasty=10000035
+	religion="shinto"
+	culture="northern_oshu"
+	prowess=11
+	1535.1.1 = {
+		birth=yes
+	}
+	1575.1.1 = {
+		death=yes
+	}
+}
+10003506 = {
+	name=character_name_10003506 # Yoshitada
+	father=10003501
+	dynasty=10000035
+	religion="shinto"
+	culture="northern_oshu"
+	prowess=10
+	1538.1.1 = {
+		birth=yes
+	}
+	1592.1.1 = {
+		death=yes
+	}
+}
+10003507 = {
+	name=character_name_10003507 # Yoshinaga
+	father=10003506
+	dynasty=10000035
+	religion="shinto"
+	culture="northern_oshu"
+	prowess=10
+	1565.1.1 = {
+		birth=yes
+	}
+	1585.1.1 = {
+		death=yes
+	}
+}
+10003508 = {
+	name=character_name_10003508 # Hidechika
+	father=10003506
+	dynasty=10000035
+	religion="shinto"
+	culture="northern_oshu"
+	prowess=11
+	1570.1.1 = {
+		birth=yes
+	}
+	1598.1.1 = {
+		death=yes
+	}
+}
+10003509 = {
+	name=character_name_10003509 # Tadachika
+	father=10003506
+	dynasty=10000035
+	religion="shinto"
+	culture="northern_oshu"
+	prowess=11
+	1576.1.1 = {
+		birth=yes
+	}
+	1601.6.24 = {
+		death=yes
+	}
+}
+10003510 = {
+	name=character_name_10003510 # Tadakatsu
+	father=10003506
+	dynasty=10000035
+	religion="shinto"
+	culture="northern_oshu"
+	prowess=10
+	1578.1.1 = {
+		birth=yes
+	}
+	1610.1.1 = {
+		death=yes
+	}
+}
+10003511 = {
+	name=character_name_10003511 # Nagakatasu
+	father=10003506
+	dynasty=10000035
+	religion="shinto"
+	culture="northern_oshu"
+	prowess=9
+	1580.1.1 = {
+		birth=yes
+	}
+	1630.1.1 = {
+		death=yes
+	}
+}
+10003512={
+	name=character_name_10003512 # Sadayoshi
+	dynasty=10000035 # Waga
+	religion="shinto"
+	culture="northern_oshu"
+	prowess=11
+	1420.1.1={
+		birth=yes
+	}
+	1490.1.1={
+		death=yes
+	}
+}
+10003301 = {
+	name=character_name_10003301 # Tamenori
+	dynasty=10000033 # Oura
+	martial=7
+	diplomacy=7
+	intrigue=4
+	stewardship=6
+	religion="shinto"
+	culture="northern_oshu"
+	trait="ambitious"
+	father=10003302
+	prowess=11
+	1520.1.2 = {
+		birth=yes
+	}
+	1567.1.2 = {
+		death=yes
+	}
+}
+10003302 = {
+	name=character_name_10003302 # Masanobu
+	dynasty=10000033 # Oura
+	father=10003305 # Oura Mitsunobu
+	martial=7
+	diplomacy=7
+	intrigue=6
+	stewardship=5
+	religion="shinto"
+	culture="northern_oshu"
+	trait="ambitious"
+	prowess=11
+	1497.1.2 = {
+		birth=yes
+	}
+	1541.7.2 = {
+		death=yes
+	}
+}
+10003303={
+	name=character_name_10003303 # Norinobu
+	dynasty=10000031 # Nanbu
+	father=12040190 # Nanbu Moriyuki
+	religion="shinto"
+	culture="northern_oshu"
+	prowess=10
+	1400.1.1={
+		birth=yes
+	}
+	1445.1.1={
+		death=yes
+	}
+}
+10003304={
+	name=character_name_10003304 # Motonobu
+	dynasty=10000031 # Nanbu
+	father=10003303 # Nanbu Norinobu
+	religion="shinto"
+	culture="northern_oshu"
+	prowess=10
+	1430.1.1={
+		birth=yes
+	}
+	1490.1.1={
+		death=yes
+	}
+}
+10003305={
+	name=character_name_10003305 # Mitsunobu
+	dynasty=10000031 # Nanbu
+	father=10003304 # Nanbu Motonobu
+	religion="shinto"
+	culture="northern_oshu"
+	prowess=11
+	1460.1.1={
+		birth=yes
+	}
+	1491.1.1 = {
+		dynasty=10000033 # Oura
+	}
+	1526.11.12={
+		death=yes
+	}
+}
+10003306={
+	name=character_name_10003306 # Morinobu
+	dynasty=10000031 # Nanbu
+	father=10003304 # Nanbu Mitsunobu
+	religion="shinto"
+	culture="northern_oshu"
+	prowess=10
+	1480.1.1={
+		birth=yes
+	}
+	1491.1.1 = {
+		dynasty=10000033 # Oura
+	}
+	1538.10.18={
+		death=yes
+	}
+}
+10003801 = {
+	name=character_name_10003801 # Akitaka
+#	dynasty=10000038 # Koshuiji-Shiba
+	dynasty_house = house_shgnt_oshushiba
+	martial=7
+	diplomacy=8
+	intrigue=5
+	stewardship=6
+	learning=4
+	religion="shinto"
+	culture="northern_oshu"
+	trait="ashikaga_family"
+	trait="education_diplomacy_3"
+	trait="intellect_good_2"
+	trait="diligent"
+	father=10006207
+	prowess=10
+	1476.1.1 = {
+		birth=yes
+	}
+	1549.1.1 = {
+		death=yes
+	}
+}
+10003802 = {
+	name=character_name_10003802 # Tsuneaki
+#	dynasty=10000038 # Koshuiji-Shiba
+	dynasty_house = house_shgnt_oshushiba
+	martial=6
+	diplomacy=7
+	intrigue=5
+	stewardship=5
+	learning=7
+	religion="shinto"
+	culture="northern_oshu"
+	trait="ashikaga_family"
+	trait="education_diplomacy_3"
+	father=10003801
+	prowess=10
+	1495.1.1 = {
+		birth=yes
+	}
+	1559.1.1 = {
+		death=yes
+	}
+}
+10003803 = {
+	name=character_name_10003803 # Akisada
+#	dynasty=10000038 # Koshuiji-Shiba (Shizukuishi)
+	dynasty_house = house_shgnt_oshushiba
+	martial=6
+	diplomacy=7
+	intrigue=7
+	stewardship=8
+	learning=7
+	religion="shinto"
+	culture="northern_oshu"
+	trait="ashikaga_family"
+	trait="education_martial_2"
+	father=10003801
+	prowess=12
+	1503.1.1 = {
+		birth=yes
+	}
+	1557.1.1 = {
+		death=yes
+	}
+}
+10003804 = {
+	name=character_name_10003804 # Akiyoshi
+#	dynasty=10000038 # Koshuiji-Shiba (Isari)
+	dynasty_house = house_shgnt_oshushiba
+	martial=5
+	diplomacy=5
+	intrigue=5
+	stewardship=7
+	learning=8
+	religion="shinto"
+	culture="northern_oshu"
+	trait="ashikaga_family"
+	father=10003801
+	prowess=10
+	1505.1.1 = {
+		birth=yes
+	}
+	1564.1.1 = {
+		death=yes
+	}
+}
+10003805 = {
+	name=character_name_10003805 # Akizane
+#	dynasty=10000038 # Koshuiji-Shiba
+	dynasty_house = house_shgnt_oshushiba
+	diplomacy=6
+	martial=7
+	stewardship=7
+	intrigue=7
+	learning=5
+	religion="shinto"
+	culture="northern_oshu"
+	trait="ashikaga_family"
+	trait="education_diplomacy_1"
+	father=10003802
+	prowess=10
+	1520.1.1 = {
+		birth=yes
+	}
+	1580.1.1 = {
+		death=yes
+	}
+}
+10003806 = {
+	name=character_name_10003806 # Akinao
+#	dynasty=10000038 # Koshuiji-Shiba
+	dynasty_house = house_shgnt_oshushiba
+	diplomacy=7
+	martial=6
+	stewardship=6
+	intrigue=7
+	learning=6
+	religion="shinto"
+	culture="northern_oshu"
+	trait="ashikaga_family"
+	trait="education_diplomacy_1"
+	father=10003805
+	prowess=11
+	1548.1.1 = {
+		birth=yes
+	}
+	1597.1.1 = {
+		death=yes
+	}
+}
+10004001 = {
+	name=character_name_10004001 # Tomonaga
+	dynasty=10000040 # Namioka
+	religion="shinto"
+	culture="northern_oshu"
+	father=10004005
+	diplomacy=7
+	martial=6
+	stewardship=4
+	intrigue=5
+	learning=4
+	trait="education_diplomacy_3"
+	trait="gregarious"
+	trait="zealous"
+	prowess=10
+	1487.1.1 = {
+		birth=yes
+	}
+	1541.1.1 = {
+		death=yes
+	}
+}
+10004002 = {
+	name=character_name_10004002 # Tomomune
+	dynasty=10000040 # Namioka
+	religion="shinto"
+	culture="northern_oshu"
+	father=10004001
+	diplomacy=6
+	martial=6
+	stewardship=6
+	intrigue=6
+	learning=7
+	trait="education_diplomacy_3"
+	trait="arrogant"
+	trait="zealous"
+	prowess=10
+	1509.1.1 = {
+		birth=yes
+	}
+	1555.6.13 = {
+		death=yes
+	}
+}
+10004003 = {
+	name=character_name_10004003 # Tomokazu
+	dynasty=10000040 # Namioka
+	religion="shinto"
+	culture="northern_oshu"
+	father=10004002
+	diplomacy=5
+	martial=7
+	stewardship=7
+	intrigue=4
+	learning=7
+	trait="education_diplomacy_1"
+	trait="zealous"
+	prowess=11
+	1532.1.1 = {
+		birth=yes
+	}
+	1562.1.1 = {
+		death=yes
+	}
+}
+10004004 = {
+	name=character_name_10004004 # Akinori
+	dynasty=10000040 # Namioka
+	religion="shinto"
+	culture="northern_oshu"
+	father=10004002
+	diplomacy=5
+	martial=5
+	stewardship=6
+	intrigue=6
+	learning=6
+	trait="education_martial_2"
+	prowess=14
+	1534.1.1 = {
+		birth=yes
+	}
+	1578.1.1 = {
+		death=yes
+	}
+}
+10004005 = {
+	name=character_name_10004005 # Akitomo
+	dynasty=10000040 # Namioka
+	religion="shinto"
+	culture="northern_oshu"
+	father=10004006
+	prowess=10
+	1461.1.1 = {
+		birth=yes
+	}
+	1522.1.1 = {
+		death=yes
+	}
+}
+10004006 = {
+	name=character_name_10004006 # Akiyoshi
+	dynasty=10000040 # Namioka
+	religion="shinto"
+	culture="northern_oshu"
+	father=10004007
+	prowess=12
+	1421.1.1 = {
+		birth=yes
+	}
+	1492.1.1 = {
+		death=yes
+	}
+}
+10004007 = {
+	name=character_name_10004007 # Akikuni
+	dynasty=10000040 # Namioka
+	religion="shinto"
+	culture="northern_oshu"
+	father=10004008
+	prowess=10
+	1390.1.1 = {
+		birth=yes
+	}
+	1450.1.1 = {
+		death=yes
+	}
+}
+10004008 = {
+	name=character_name_10004008 # Akimoto
+	dynasty=10000040 # Namioka
+	religion="shinto"
+	culture="northern_oshu"
+	father=10004009
+	prowess=11
+	1360.1.1 = {
+		birth=yes
+	}
+	1430.1.1 = {
+		death=yes
+	}
+}
+10004009 = {
+	name=character_name_10004009 # Akishige
+	dynasty=10000040 # Namioka
+	religion="shinto"
+	culture="northern_oshu"
+	father=10125125
+	prowess=12
+	1335.1.1 = {
+		birth=yes
+	}
+	1386.3.28= {
+		death=yes
+	}
+}
+10004010 = {
+	name=character_name_10004010 # Akimura
+	dynasty=10000040 # Namioka
+	religion="shinto"
+	culture="northern_oshu"
+	father=10004003
+	diplomacy=6
+	martial=6
+	stewardship=5
+	intrigue=8
+	learning=4
+	trait="education_diplomacy_1"
+	prowess=12
+	1555.1.1 = {
+		birth=yes
+	}
+	1578.8.23 = {
+		death=yes
+	}
+}
+10004011 = {
+	name=character_name_10004011 # Akitada
+	dynasty=10000040 # Namioka
+	religion="shinto"
+	culture="northern_oshu"
+	father=10004004
+	prowess=10
+	1555.1.1 = {
+		birth=yes
+	}
+	1578.1.1 = {
+		death=yes
+	}
+}
+10004012={
+	name=character_name_10004012 # Tomonobu
+	dynasty=10000040 # Namioka
+	father=10004005 # 
+	religion="shinto"
+	culture="northern_oshu"
+	diplomacy=5
+	martial=6
+	stewardship=5
+	intrigue=6
+	learning=6
+	trait="education_intrigue_2"
+	trait="ambitious"
+	prowess=11
+	1490.1.1={
+		birth=yes
+	}
+	1562.1.1={
+		death=yes
+	}
+}
+10004013={
+	name=character_name_10004013 # Tomoshige
+	dynasty=10000040 # Namioka
+	father=10004012 # 
+	religion="shinto"
+	culture="northern_oshu"
+	prowess=9
+	1520.1.1={
+		birth=yes
+	}
+	1562.1.1={
+		death=yes
+	}
+}
+10004101 = {
+	name=character_name_10004101 # Chikahiro
+	dynasty=10000041 # Asonuma
+	religion="shinto"
+	culture="northern_oshu"
+	father=12050018 # Asonuma Chikasato
+	prowess=10
+	1515.1.1 = {
+		birth=yes
+	}
+	1573.1.1 = {
+		death=yes
+	}
+}
+10004102 = {
+	name=character_name_10004102 # Hirosato
+	dynasty=10000041 # Asonuma
+	religion="shinto"
+	culture="northern_oshu"
+	father=10004101 # Asonuma Chikahiro
+	prowess=10
+	1540.1.1 = {
+		birth=yes
+	}
+	1595.1.1 = {
+		death=yes
+	}
+}
+10004103 = {
+	name=character_name_10004103 # Hironaga
+	dynasty=10000041 # Asonuma
+	religion="shinto"
+	culture="northern_oshu"
+	father=10004102 # Asonuma Hirosato
+	prowess=11
+	1570.1.1 = {
+		birth=yes
+	}
+	1630.1.1 = {
+		death=yes
+	}
+}
+10004901={
+	name=character_name_10004901 # Morimasa
+	dynasty=10000049 # Niida
+	father=12040326 # Niida Kiyotsugu
+	religion="shinto"
+	culture="northern_oshu"
+	prowess=11
+	1470.1.1={
+		birth=yes
+	}
+	1560.1.1={
+		death=yes
+	}
+}
+10004902={
+	name=character_name_10004902 # Yukimasa
+	dynasty=10000049 # Niida
+	father=10004901 # Niida Morimasa
+	religion="shinto"
+	culture="northern_oshu"
+	prowess=11
+	1500.1.1={
+		birth=yes
+	}
+	1560.1.1={
+		death=yes
+	}
+}
+10004903={
+	name=character_name_10004903 # Masayoshi
+	dynasty=10000049 # Niida
+	father=10004902 # Niida Yukimasa
+	religion="shinto"
+	culture="northern_oshu"
+	diplomacy=6
+	martial=7
+	stewardship=6
+	intrigue=7
+	learning=5
+	trait="education_diplomacy_3"
+	trait="intellect_good_2"
+	trait="humble"
+	trait="content"
+	prowess=10
+	1543.1.1={
+		birth=yes
+	}
+	1548.1.1={
+		dynasty=10000050 # Hachinohe
+		trait="child_of_adoption"
+		effect={
+			set_father=character:10005004
+			set_real_father=character:10004902
+		}
+	}
+	1610.1.1={
+		death=yes
+	}
+}
+10004904={
+	name=character_name_10004904 # Masamori
+	dynasty=10000049 # Niida
+	father=10004902 # Niida Yukimasa
+	religion="shinto"
+	culture="northern_oshu"
+	prowess=10
+	1547.1.1={
+		birth=yes
+	}
+	1603.1.1={
+		death=yes
+	}
+}
+10004905={
+	name=character_name_10004905 # Naoyoshi
+	dynasty=10000050 # Hachinohe
+	father=10004903 # Hachinohe Masayoshi
+	religion="shinto"
+	culture="northern_oshu"
+	prowess=10
+	1561.1.1={
+		birth=yes
+	}
+	1595.1.1={
+		death=yes
+	}
+}
+10004906={
+	name=character_name_10004906 # Naomasa
+	dynasty=10000050 # Hachinohe
+	father=10004903 # Hachinohe Masayoshi
+	religion="shinto"
+	culture="northern_oshu"
+	prowess=11
+	1587.1.1={
+		birth=yes
+	}
+	1614.1.1={
+		death=yes
+	}
+}
+10005001={
+	name=character_name_10005001 # Nobunaga
+	dynasty=10000050 # Hachinohe
+	father=12040325 # Hachinohe Masatsune
+	religion="shinto"
+	culture="northern_oshu"
+	prowess=11
+	1450.1.1={
+		birth=yes
+	}
+	1500.1.1={
+		death=yes
+	}
+}
+10005002={
+	name=character_name_10005002 # Haruyoshi
+	dynasty=10000050 # Hachinohe
+	father=10005001 # Hachinohe Nobunaga
+	religion="shinto"
+	culture="northern_oshu"
+	prowess=10
+	1480.1.1={
+		birth=yes
+	}
+	1530.1.1={
+		death=yes
+	}
+}
+10005003={
+	name=character_name_10005003 # Yoshitsugu
+	dynasty=10000050 # Hachinohe
+	father=10005002 # Hachinohe Haruyoshi
+	religion="shinto"
+	culture="northern_oshu"
+	trait="weak"
+	prowess=11
+	1510.1.1={
+		birth=yes
+	}
+	1539.1.1={
+		death=yes
+	}
+}
+10005004={
+	name=character_name_10005004 # Katsuyoshi
+	dynasty=10000050 # Hachinohe
+	father=10005002 # Hachinohe Haruyoshi
+	religion="shinto"
+	culture="northern_oshu"
+	trait="weak"
+	prowess=11
+	1525.1.1={
+		birth=yes
+	}
+	1548.1.1={
+		death=yes
+	}
+}
+10005201={
+	name=character_name_10005201 # Juro
+	dynasty=10000052 # Takusari
+	father=12052025 # Hei Hisatomo
+	religion="shinto"
+	culture="northern_oshu"
+	prowess=12
+	1390.1.1={
+		birth=yes
+	}
+	1450.1.1={
+		death=yes
+	}
+}
+10005202={
+	name=character_name_10005202 # Juro
+	dynasty=10000052 # Takusari
+	father=10005201 # Tagusari Juro
+	religion="shinto"
+	culture="northern_oshu"
+	prowess=11
+	1420.1.1={
+		birth=yes
+	}
+	1480.1.1={
+		death=yes
+	}
+}
+10005203={
+	name=character_name_10005203 # Juro
+	dynasty=10000052 # Takusari
+	father=10005202 # Tagusari Juro
+	religion="shinto"
+	culture="northern_oshu"
+	prowess=11
+	1450.1.1={
+		birth=yes
+	}
+	1500.1.1={
+		death=yes
+	}
+}
+10005204={
+	name=character_name_10005204 # Masamitsu
+	dynasty=10000052 # Takusari
+	father=10005203 # Tagusari Juro
+	religion="shinto"
+	culture="northern_oshu"
+	prowess=11
+	1480.1.1={
+		birth=yes
+	}
+	1557.1.1={
+		death=yes
+	}
+}
+10005205={
+	name=character_name_10005205 # Mitsuyoshi
+	dynasty=10000052 # Takusari
+	father=10005204 # Tagusari Masamitsu
+	religion="shinto"
+	culture="northern_oshu"
+	prowess=11
+	1510.1.1={
+		birth=yes
+	}
+	1590.1.1={
+		death=yes
+	}
+}
+10005206={
+	name=character_name_10005206 # Mitsukata
+	dynasty=10000052 # Takusari
+	father=10005204 # Tagusari Masamitsu
+	religion="shinto"
+	culture="northern_oshu"
+	prowess=10
+	1512.1.1={
+		birth=yes
+	}
+	1590.1.1={
+		death=yes
+	}
+}
+10005207={
+	name=character_name_10005207 # Mitsushige
+	dynasty=10000052 # Takusari
+	father=10005205 # Tagusari Mitsuyoshi
+	religion="shinto"
+	culture="northern_oshu"
+	prowess=10
+	1540.1.1={
+		birth=yes
+	}
+	1600.1.1={
+		death=yes
+	}
+}
+10005208={
+	name=character_name_10005208 # Shigeyori
+	dynasty=10000052 # Takusari
+	father=10005205 # Tagusari Mitsuyoshi
+	religion="shinto"
+	culture="northern_oshu"
+	prowess=12
+	1542.1.1={
+		birth=yes
+	}
+	1600.1.1={
+		death=yes
+	}
+}
+10005209={
+	name=character_name_10005209 # Mitsuyoshi
+	dynasty=10000052 # Takusari
+	father=10005207 # Tagusari Mitsushige
+	religion="shinto"
+	culture="northern_oshu"
+	prowess=11
+	1570.1.1={
+		birth=yes
+	}
+	1630.1.1={
+		death=yes
+	}
+}
+10005210={
+	name=character_name_10005210 # Mitsuchika
+	dynasty=10000052 # Takusari
+	father=10005208 # Tagusari Shigeyori
+	religion="shinto"
+	culture="northern_oshu"
+	prowess=11
+	1572.1.1={
+		birth=yes
+	}
+	1630.1.1={
+		death=yes
+	}
+}

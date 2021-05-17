@@ -1,0 +1,207 @@
+# Island regions - no land path from the continent
+# The AI needs these to optimize path finding
+#
+# NOTE: do not add any regions here that are NOT islands
+#
+# Island regions can be declared with one or more of the following fields:
+#	duchies = { }, takes county title names declared in landed_titles.txt
+#	counties = { }, takes county title names declared in landed_titles.txt
+#	provinces = { }, takes province id numbers declared in /history/provinces
+
+
+### shogunate
+island_region_amami-oshima = {
+	provinces = { 2631 }
+}
+
+island_region_etorofu = {
+	provinces = {
+		2762
+		2763
+		2764
+		2765
+	}
+}
+
+island_region_goto = {
+	provinces = { 2448 }
+}
+
+island_region_hokkaido = {
+	duchies = {
+		d_shgnt_oshima
+		d_shgnt_shiribeshi
+		d_shgnt_iburi
+		d_shgnt_hidaka
+		d_shgnt_tokachi
+		d_shgnt_kushiro
+		d_shgnt_nemuro
+		d_shgnt_ishikari
+	}
+	provinces = { 
+		2813
+		2815
+		2821
+		2822
+		2823
+		2824
+		2829 
+		2830
+		2831
+		2832
+		2833
+		2835
+		2834
+		3091
+		2806
+		2807
+		2810
+		2811
+		2812
+		2814
+		2816
+		2808
+		2827
+		2828
+		2825
+		2826
+	}
+}
+
+island_region_iejima = {
+	provinces = { 2634 }
+}
+
+island_region_iki = {
+	provinces = {
+		2622
+		2623
+	}
+}
+
+island_region_kamcatka = {
+	provinces = { 2769 }
+}
+
+island_region_karafuto = {
+	duchies = {
+		d_shgnt_toyohara
+		d_shgnt_maoka
+		d_shgnt_esutoru
+		d_shgnt_shisuka
+		d_shgnt_otchishi
+	}
+	provinces = { 2870 }
+}
+
+island_region_kikaijima = {
+	provinces = { 2630 }
+}
+
+island_region_kumejima = {
+	provinces = { 
+		2639 
+	}
+}
+
+island_region_kunashiri = {
+	provinces = {
+		2760
+		2761
+	}
+}
+
+island_region_minami-amami = {
+	provinces = { 2633 }
+}
+
+island_region_miyakojima = {
+	provinces = { 2647 }
+}
+
+island_region_oki = {
+	duchies = { d_shgnt_oki }
+}
+
+island_region_okinawa = {
+	provinces = {
+		2637
+		2638
+		2640
+		2641
+		2642
+		2643
+		2644
+		2645
+	}
+}
+
+island_region_okushiri = {
+	provinces = { 2674 }
+}
+
+island_region_rebun = {
+	provinces = {
+		2819
+		2820
+	}
+}
+
+island_region_rishiri = {
+	provinces = {
+		2817
+		2818
+	}
+}
+
+island_region_sado = {
+	provinces = {
+		1659
+		1660
+	}
+}
+
+island_region_shikotan = {
+	provinces = { 2770 }
+}
+
+island_region_shimushiru = {
+	provinces = { 2767 }
+}
+
+island_region_shumushu = {
+	provinces = { 2768 }
+}
+
+island_region_tanegashima = {
+	provinces = {
+		2585
+		2586
+	}
+}
+
+island_region_tokunoshima = {
+	provinces = { 2632 }
+}
+
+island_region_tsushima = {
+	provinces = {
+		2624
+		2625
+	}
+}
+
+island_region_uruppu = {
+	provinces = { 2766 }
+}
+
+island_region_yaeyama = {
+	provinces = {
+		2649
+		2650
+	}
+}
+
+island_region_yonaguni = {
+	provinces = { 2651 }
+}

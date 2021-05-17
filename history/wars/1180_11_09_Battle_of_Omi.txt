@@ -1,0 +1,18 @@
+war = {
+    name = "war_1180_battle_of_omi" 
+    start_date = 1180.11.9
+    end_date = 1181.3.20
+    targeted_titles={
+        e_shgnt_japan
+    }
+
+    casus_belli = claim_cb
+    claimant = 12515000
+    attackers = {
+        12515000
+    }  #  Yamamoto Yoshitsune
+    defenders = {
+        10110025
+    }  #  Taira Kiyomori
+
+}

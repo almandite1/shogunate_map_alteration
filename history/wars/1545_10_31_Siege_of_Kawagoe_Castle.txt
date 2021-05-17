@@ -1,0 +1,18 @@
+war = {
+    name = "war_1545_siege_of_kawagoe_castle" 
+    start_date = 1545.10.31
+    end_date = 1546.5.19
+    targeted_titles={
+        c_shgnt_nyuto
+    }
+
+    casus_belli = claim_cb
+    claimant = 10018001
+    attackers = {
+        10018001 10017000 10040052
+    }  #  Uesugi [Ogigaya] Tomosada, Uesugi [Yamauchi] Norimasa, Ashikaga Haruuji
+    defenders = {
+        10016004
+    }  #  Hojo Ujiyasu
+
+}

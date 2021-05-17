@@ -1,0 +1,18 @@
+war = {
+    name = "war_1180_rebellion_of_owari" 
+    start_date = 1180.11.9
+    end_date = 1181.3.20
+    targeted_titles={
+        e_shgnt_japan
+    }
+
+    casus_belli = claim_cb
+    claimant = 10120072
+    attackers = {
+        10120072
+    }  #  Minamoto Yukiie
+    defenders = {
+        10110025
+    }  #  Taira Kiyomori
+
+}

@@ -1,0 +1,35 @@
+﻿legwear = {
+	# interface_position = 1
+	usage = game
+	selection_behavior = max
+	
+	shgnt_legwear = {
+
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = legwear
+				template = mena_common_legwear
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			# morph = {
+			# 	mode = modify
+			# 	gene = gene_bs_body_shape
+			# 	# value = 0.5
+			# 	template = body_shape_average
+			# }
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 20
+				OR = {
+					portrait_ainu_clothing_trigger = yes
+					portrait_ryukyu_clothing_trigger = yes
+					portrait_yamato_clothing_trigger = yes
+				}
+			}
+		}
+	}
+
+}

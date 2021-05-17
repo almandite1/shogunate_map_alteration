@@ -1,0 +1,4565 @@
+﻿12390100={
+	name=character_name_12390100 # Kimito
+	dynasty=10005006 # Tachibana
+	father=12690603 # Tachibana Yasumoto
+	religion="shinto"
+	culture="tokai"
+	learning=8
+	prowess=10
+	1075.1.1={
+		birth=yes
+	}
+	1125.1.1={
+		death=yes
+	}
+}
+12390101={
+	name=character_name_12390101 # Toshige
+	dynasty=10005006 # Tachibana
+	father=12390100 # Tachibana Kimito
+	religion="shinto"
+	culture="tokai"
+	learning=7
+	prowess=11
+	1095.1.1={
+		birth=yes
+	}
+	1145.1.1={
+		death=yes
+	}
+}
+12390102={
+	name=character_name_12390102 # Totada
+	dynasty=10005006 # Tachibana
+	father=12390101 # Tachibana Toshige
+	religion="shinto"
+	culture="tokai"
+	learning=7
+	prowess=11
+	1115.1.1={
+		birth=yes
+	}
+	1180.11.3={
+		death=yes
+	}
+}
+12390103={
+	name=character_name_12390103 # Tomochi
+	dynasty=10005006 # Tachibana
+	father=12390102 # Tachibana Totada
+	religion="shinto"
+	culture="tokai"
+	learning=6
+	trait="education_diplomacy_1"
+	prowess=11
+	1135.1.1={
+		birth=yes
+	}
+	1180.11.3={
+		death={
+			death_reason=death_battle
+			killer=10130838 # Kato Mitsukazu
+		}
+	}
+}
+12390104={
+	name=character_name_12390104 # Tohisa
+	dynasty=10005006 # Tachibana
+	father=12390102 # Tachibana Totada
+	religion="shinto"
+	culture="tokai"
+	learning=5
+	prowess=11
+	1137.1.1={
+		birth=yes
+	}
+	1180.11.3={
+		death=yes
+	}
+}
+12390105={
+	name=character_name_12390105 # Tonaka
+	dynasty=10005006 # Tachibana
+	father=12390102 # Tachibana Totada
+	religion="shinto"
+	culture="tokai"
+	learning=5
+	prowess=11
+	1140.1.1={
+		birth=yes
+	}
+	1180.11.3={
+		death=yes
+	}
+}
+12390106={
+	name=character_name_12390106 # Tameshige
+	dynasty=10005006 # Tachibana
+	father=12390103 # Tachibana Toshige
+	religion="shinto"
+	culture="tokai"
+	learning=6
+	prowess=11
+	1165.1.1={
+		birth=yes
+	}
+	1225.1.1={
+		death=yes
+	}
+}
+12390107={
+	name=character_name_12390107 # Mochikane
+	dynasty=10005006 # Tachibana
+	father=12390106 # Tachibana Tameshige
+	religion="shinto"
+	culture="tokai"
+	learning=7
+	prowess=10
+	1190.1.1={
+		birth=yes
+	}
+	1240.1.1={
+		death=yes
+	}
+}
+12390108={
+	name=character_name_12390108 # Mochiyasu
+	dynasty=10005006 # Tachibana
+	father=12390106 # Tachibana Tameshige
+	religion="shinto"
+	culture="tokai"
+	learning=5
+	prowess=11
+	1195.1.1={
+		birth=yes
+	}
+	1245.1.1={
+		death=yes
+	}
+}
+12390200={
+	name=character_name_12390200 # Ienaga
+	dynasty=10006165 # Yokochi
+	religion="shinto"
+	culture="tokai"
+	learning=7
+	prowess=12
+	1053.1.1={
+		birth=yes
+	}
+	1110.1.1={
+		death=yes
+	}
+}
+12390210={
+	name=character_name_12390210 # Yorikane
+	dynasty=10006165 # Yokochi
+	father=12390200 # Yokochi Ienaga
+	religion="shinto"
+	culture="tokai"
+	learning=7
+	prowess=11
+	1107.1.1={
+		birth=yes
+	}
+	1143.1.1={
+		death=yes
+	}
+}
+12390220={
+	name=character_name_12390220 # Nagamune
+	dynasty=10006165 # Yokochi
+	father=12390210 # Yokochi Yorikane
+	religion="shinto"
+	culture="tokai"
+	learning=6
+	prowess=10
+	1132.1.1={
+		birth=yes
+	}
+	1176.1.1={
+		death=yes
+	}
+}
+12390230={
+	name=character_name_12390230 # Nagashige
+	dynasty=10006165 # Yokochi
+	father=12390220 # Yokochi Nagamune
+	religion="shinto"
+	culture="tokai"
+	learning=7
+	prowess=10
+	1162.1.1={
+		birth=yes
+	}
+	1222.1.1={
+		death=yes
+	}
+}
+12390235={
+	name=character_name_12390235 # Naganao
+	dynasty=10006165 # Yokochi
+	father=12390230 # Yokochi Nagashige
+	religion="shinto"
+	culture="tokai"
+	prowess=10
+	1214.1.1={
+		birth=yes
+	}
+	1276.1.1={
+		death=yes
+	}
+}
+12390240={
+	name=character_name_12390240 # Moroshige
+	dynasty=10006165 # Yokochi
+	father=12390235 # Yokochi Naganao
+	religion="shinto"
+	culture="tokai"
+	prowess=10
+	1235.1.1={
+		birth=yes
+	}
+	1277.1.1={
+		death=yes
+	}
+}
+12390245={
+	name=character_name_12390245 # Moronaga
+	dynasty=10006165 # Yokochi
+	father=12390240 # Yokochi Moroshige
+	religion="shinto"
+	culture="tokai"
+	prowess=12
+	1257.1.1={
+		birth=yes
+	}
+	1307.1.1={
+		death=yes
+	}
+}
+12390250={
+	name=character_name_12390250 # Nagakuni
+	dynasty=10006165 # Yokochi
+	father=12390245 # Yokochi Moronaga
+	religion="shinto"
+	culture="tokai"
+	prowess=10
+	1279.1.1={
+		birth=yes
+	}
+	1332.1.1={
+		death=yes
+	}
+}
+12390255={
+	name=character_name_12390255 # Naganori
+	dynasty=10006165 # Yokochi
+	father=12390250 # Yokochi Nagakuni
+	religion="shinto"
+	culture="tokai"
+	prowess=11
+	1314.1.1={
+		birth=yes
+	}
+	1361.1.1={
+		death=yes
+	}
+}
+12390260={
+	name=character_name_12390260 # Ienaga
+	dynasty=10006165 # Yokochi
+	father=12390255 # Yokochi Naganori
+	religion="shinto"
+	culture="tokai"
+	prowess=10
+	1337.1.1={
+		birth=yes
+	}
+	1409.1.1={
+		death=yes
+	}
+}
+12390265={
+	name=character_name_12390265 # Nagatoyo
+	dynasty=10006165 # Yokochi
+	father=12390260 # Yokochi Ienaga
+	religion="shinto"
+	culture="tokai"
+	prowess=12
+	1383.1.1={
+		birth=yes
+	}
+	1437.1.1={
+		death=yes
+	}
+}
+12390270={
+	name=character_name_12390270 # Nagayasu
+	dynasty=10006165 # Yokochi
+	father=12390265 # Yokochi Nagatoyo
+	religion="shinto"
+	culture="tokai"
+	prowess=10
+	1413.1.1={
+		birth=yes
+	}
+	1439.1.1={
+		death=yes
+	}
+}
+12390275={
+	name=character_name_12390275 # Nagahide
+	dynasty=10006165 # Yokochi
+	father=12390270 # Yokochi Nagayasu
+	religion="shinto"
+	culture="tokai"
+	prowess=10
+	1434.1.1={
+		birth=yes
+	}
+	1494.1.1={
+		death=yes
+	}
+}
+12390280={
+	name=character_name_12390280 # Hidekuni
+	dynasty=10006165 # Yokochi
+	father=12390275 # Yokochi Nagahide
+	religion="shinto"
+	culture="tokai"
+	prowess=11
+	1465.1.1={
+		birth=yes
+	}
+	1506.1.1={
+		death=yes
+	}
+}
+12390300={
+	name=character_name_12390300 # Munenobu
+	dynasty=10006166 # Asaba
+	religion="shinto"
+	culture="tokai"
+	learning=8
+	prowess=11
+	1140.1.1={
+		birth=yes
+	}
+	1190.1.1={
+		death=yes
+	}
+}
+12390400={
+	name=character_name_12390400 # Yoshio
+	dynasty=10005605 # Tomo
+	religion="shinto"
+	culture="tokai"
+	learning=6
+	prowess=12
+	0875.1.1={
+		birth=yes
+	}
+	0950.1.1={
+		death=yes
+	}
+}
+12390401={
+	name=character_name_12390401 # Sukekiyo
+	dynasty=10005605 # Tomo
+	father=12390400 # Otomo Yoshio
+	religion="shinto"
+	culture="tokai"
+	learning=7
+	prowess=12
+	0900.1.1={
+		birth=yes
+	}
+	0975.1.1={
+		death=yes
+	}
+}
+12390402={
+	name=character_name_12390402 # Kiyotsune
+	dynasty=10005605 # Tomo
+	father=12390400 # Otomo Yoshio
+	religion="shinto"
+	culture="tokai"
+	learning=7
+	prowess=10
+	0905.1.1={
+		birth=yes
+	}
+	0977.1.1={
+		death=yes
+	}
+}
+12390403={
+	name=character_name_12390403 # Kiyochika
+	dynasty=10005605 # Tomo
+	father=12390400 # Otomo Yoshio
+	religion="shinto"
+	culture="tokai"
+	learning=6
+	prowess=12
+	0910.1.1={
+		birth=yes
+	}
+	0980.1.1={
+		death=yes
+	}
+}
+12390404={
+	name=character_name_12390404 # Yorisuke
+	dynasty=10005605 # Tomo
+	father=12390401 # Otomo Sukekiyo
+	religion="shinto"
+	culture="tokai"
+	learning=6
+	prowess=11
+	0925.1.1={
+		birth=yes
+	}
+	1000.1.1={
+		death=yes
+	}
+}
+12390405={
+	name=character_name_12390405 # Chikataka
+	dynasty=10005605 # Tomo
+	father=12390401 # Otomo Sukekiyo
+	religion="shinto"
+	culture="tokai"
+	learning=8
+	prowess=12
+	0932.1.1={
+		birth=yes
+	}
+	1002.1.1={
+		death=yes
+	}
+}
+12390406={
+	female=yes
+	name=character_name_12390406 # Yana
+	dynasty=10005605 # Tomo
+	father=12390401 # Otomo Sukekiyo
+	religion="shinto"
+	culture="tokai"
+	learning=5
+	prowess=9
+	0917.1.1={
+		birth=yes
+	}
+	0977.1.1={
+		death=yes
+	}
+}
+12390410={
+	name=character_name_12390410 # Mitsukane
+	dynasty=10005605 # Tomo
+	father=12390404 # Otomo Yorisuke
+	religion="shinto"
+	culture="tokai"
+	learning=4
+	prowess=11
+	0975.1.1={
+		birth=yes
+	}
+	1025.1.1={
+		death=yes
+	}
+}
+12390411={
+	name=character_name_12390411 # Kunisuke
+	dynasty=10005605 # Tomo
+	father=12390410 # Otomo Mitsukane
+	religion="shinto"
+	culture="tokai"
+	learning=7
+	prowess=10
+	1000.1.1={
+		birth=yes
+	}
+	1050.1.1={
+		death=yes
+	}
+}
+12390412={
+	name=character_name_12390412 # Sukenaga
+	dynasty=10005605 # Tomo
+	father=12390410 # Otomo Mitsukane
+	religion="shinto"
+	culture="tokai"
+	learning=5
+	prowess=11
+	1002.1.1={
+		birth=yes
+	}
+	1052.1.1={
+		death=yes
+	}
+}
+12390413={
+	name=character_name_12390413 # Sukeshige
+	dynasty=10005605 # Tomo
+	father=12390410 # Otomo Mitsukane
+	religion="shinto"
+	culture="tokai"
+	learning=5
+	prowess=10
+	1003.1.1={
+		birth=yes
+	}
+	1053.1.1={
+		death=yes
+	}
+}
+12390414={
+	name=character_name_12390414 # Sukemoto
+	dynasty=10005605 # Tomo
+	father=12390411 # Otomo Kunisuke
+	religion="shinto"
+	culture="tokai"
+	learning=4
+	prowess=11
+	1025.1.1={
+		birth=yes
+	}
+	1075.1.1={
+		death=yes
+	}
+}
+12390415={
+	name=character_name_12390415 # Sanehira
+	dynasty=10005605 # Tomo
+	father=12390414 # Otomo Sukemoto
+	religion="shinto"
+	culture="tokai"
+	learning=6
+	prowess=10
+	1050.1.1={
+		birth=yes
+	}
+	1100.1.1={
+		death=yes
+	}
+}
+12390416={
+	name=character_name_12390416 # Sukeyasu
+	dynasty=10005605 # Tomo
+	father=12390414 # Otomo Sukemoto
+	religion="shinto"
+	culture="tokai"
+	learning=6
+	prowess=12
+	1055.1.1={
+		birth=yes
+	}
+	1105.1.1={
+		death=yes
+	}
+}
+12390417={
+	name=character_name_12390417 # Suketo
+	dynasty=10005605 # Tomo
+	father=12390416 # Otomo Sukeyasu
+	religion="shinto"
+	culture="tokai"
+	learning=7
+	prowess=10
+	1080.1.1={
+		birth=yes
+	}
+	1130.1.1={
+		death=yes
+	}
+}
+12390420={
+	name=character_name_12390420 # Sukehira
+	dynasty=10005605 # Tomo
+	father=12390413 # Otomo Sukeshige
+	religion="shinto"
+	culture="tokai"
+	learning=7
+	prowess=11
+	1028.1.1={
+		birth=yes
+	}
+	1078.1.1={
+		death=yes
+	}
+}
+12390421={
+	name=character_name_12390421 # Suketaka
+	dynasty=10005605 # Tomo
+	father=12390413 # Otomo Sukeshige
+	religion="shinto"
+	culture="tokai"
+	learning=7
+	prowess=11
+	1030.1.1={
+		birth=yes
+	}
+	1080.1.1={
+		death=yes
+	}
+}
+12390422={
+	name=character_name_12390422 # Suketada
+	dynasty=10005605 # Tomo
+	father=12390420 # Otomo Sukehira
+	religion="shinto"
+	culture="tokai"
+	learning=7
+	prowess=10
+	1053.1.1={
+		birth=yes
+	}
+	1103.1.1={
+		death=yes
+	}
+}
+12390423={
+	name=character_name_12390423 # Chikasuke
+	dynasty=10005605 # Tomo
+	father=12390422 # Otomo Suketada
+	religion="shinto"
+	culture="tokai"
+	learning=6
+	prowess=12
+	1078.1.1={
+		birth=yes
+	}
+	1128.1.1={
+		death=yes
+	}
+}
+12390424={
+	name=character_name_12390424 # Chikashige
+	dynasty=10005605 # Tomo
+	father=12390423 # Otomo Chikasuke
+	religion="shinto"
+	culture="tokai"
+	learning=6
+	prowess=11
+	1103.1.1={
+		birth=yes
+	}
+	1153.1.1={
+		death=yes
+	}
+}
+12390425={
+	name=character_name_12390425 # Mitsuhira
+	dynasty=10005605 # Tomo
+	father=12390423 # Otomo Chikasuke
+	religion="shinto"
+	culture="tokai"
+	learning=7
+	prowess=11
+	1104.1.1={
+		birth=yes
+	}
+	1154.1.1={
+		death=yes
+	}
+}
+12390426={
+	name=character_name_12390426 # Sukeyoshi
+	dynasty=10005605 # Tomo
+	father=12390423 # Otomo Chikasuke
+	religion="shinto"
+	culture="tokai"
+	learning=7
+	prowess=11
+	1105.1.1={
+		birth=yes
+	}
+	1155.1.1={
+		death=yes
+	}
+}
+12390427={
+	name=character_name_12390427 # Chikahira
+	dynasty=10005605 # Tomo
+	father=12390425 # Otomo Mitsuhira
+	religion="shinto"
+	culture="tokai"
+	learning=5
+	prowess=11
+	1129.1.1={
+		birth=yes
+	}
+	1179.1.1={
+		death=yes
+	}
+}
+12390428={
+	name=character_name_12390428 # Sukeshige
+	dynasty=10005605 # Tomo
+	father=12390427 # Otomo Chikahira
+	religion="shinto"
+	culture="tokai"
+	learning=6
+	prowess=11
+	1149.1.1={
+		birth=yes
+	}
+	1199.1.1={
+		death=yes
+	}
+}
+12390430={
+	name=character_name_12390430 # Sukeyuki
+	dynasty=10005605 # Tomo
+	father=12390421 # Otomo Suketaka
+	religion="shinto"
+	culture="tokai"
+	learning=7
+	prowess=12
+	1055.1.1={
+		birth=yes
+	}
+	1105.1.1={
+		death=yes
+	}
+}
+12390431={
+	name=character_name_12390431 # Sukenaga
+	dynasty=10005605 # Tomo
+	father=12390421 # Otomo Suketaka
+	religion="shinto"
+	culture="tokai"
+	learning=5
+	prowess=11
+	1057.1.1={
+		birth=yes
+	}
+	1107.1.1={
+		death=yes
+	}
+}
+12390432={
+	name=character_name_12390432 # Sukechika
+	dynasty=10005605 # Tomo
+	father=12390421 # Otomo Suketaka
+	religion="shinto"
+	culture="tokai"
+	learning=6
+	prowess=11
+	1058.1.1={
+		birth=yes
+	}
+	1108.1.1={
+		death=yes
+	}
+}
+12390433={
+	name=character_name_12390433 # Sukekane
+	dynasty=10005605 # Tomo
+	father=12390421 # Otomo Suketaka
+	religion="shinto"
+	culture="tokai"
+	learning=6
+	prowess=10
+	1060.1.1={
+		birth=yes
+	}
+	1120.1.1={
+		death=yes
+	}
+}
+12390434={
+	female=yes
+	name=character_name_12390434 # Mikawa
+	dynasty=10005605 # Tomo
+	father=12390421 # Otomo Suketaka
+	religion="shinto"
+	culture="tokai"
+	learning=5
+	prowess=10
+	1062.1.1={
+		birth=yes
+	}
+	1112.1.1={
+		death=yes
+	}
+}
+12390435={
+	name=character_name_12390435 # Masahiro
+	dynasty=10005605 # Tomo
+	father=12390421 # Otomo Suketaka
+	religion="shinto"
+	culture="tokai"
+	learning=5
+	prowess=9
+	1065.1.1={
+		birth=yes
+	}
+	1115.1.1={
+		death=yes
+	}
+}
+12390436={
+	name=character_name_12390436 # Masakane
+	dynasty=10005605 # Tomo
+	father=12390421 # Otomo Suketaka
+	religion="shinto"
+	culture="tokai"
+	learning=8
+	prowess=11
+	1070.1.1={
+		birth=yes
+	}
+	1080.1.1={
+		trait="devoted"
+	}
+	1120.1.1={
+		death=yes
+	}
+}
+12390440={
+	name=character_name_12390440 # Sukehiro
+	dynasty=10005605 # Tomo
+	father=12390430 # Otomo Sukeyuki
+	religion="shinto"
+	culture="tokai"
+	learning=6
+	prowess=12
+	1080.1.1={
+		birth=yes
+	}
+	1130.1.1={
+		death=yes
+	}
+}
+12390441={
+	name=character_name_12390441 # Sukemitsu
+	dynasty=10005605 # Tomo
+	father=12390431 # Otomo Sukenaga
+	religion="shinto"
+	culture="tokai"
+	learning=7
+	prowess=12
+	1082.1.1={
+		birth=yes
+	}
+	1132.1.1={
+		death=yes
+	}
+}
+12390442={
+	name=character_name_12390442 # Masachika
+	dynasty=10005605 # Tomo
+	father=12390432 # Otomo Sukechika
+	religion="shinto"
+	culture="tokai"
+	learning=6
+	prowess=12
+	1098.1.1={
+		birth=yes
+	}
+	1148.1.1={
+		death=yes
+	}
+}
+12390443={
+	name=character_name_12390443 # Chikakane
+	dynasty=10005605 # Tomo
+	father=12390433 # Tomo Sukekane
+	religion="shinto"
+	culture="tokai"
+	learning=7
+	prowess=9
+	1100.1.1={
+		birth=yes
+	}
+	1160.1.1={
+		death=yes
+	}
+}
+12390444={
+	female=yes
+	name=character_name_12390444 # Sukeko
+	dynasty=10005605 # Tomo
+	father=12390433 # Tomo Sukekane
+	religion="shinto"
+	culture="tokai"
+	learning=6
+	prowess=11
+	1102.1.1={
+		birth=yes
+	}
+	1152.1.1={
+		death=yes
+	}
+}
+12390445={
+	name=character_name_12390445 # Sukechika
+	dynasty=10005605 # Tomo
+	father=12390433 # Tomo Sukekane
+	religion="shinto"
+	culture="tokai"
+	learning=5
+	prowess=11
+	1105.1.1={
+		birth=yes
+	}
+	1155.1.1={
+		death=yes
+	}
+}
+12390446={
+	name=character_name_12390446 # Chikatada
+	dynasty=10005605 # Tomo
+	father=12390433 # Tomo Sukekane
+	religion="shinto"
+	culture="tokai"
+	learning=5
+	prowess=11
+	1109.1.1={
+		birth=yes
+	}
+	1159.1.1={
+		death=yes
+	}
+}
+12390447={
+	name=character_name_12390447 # Sukemasa
+	dynasty=10005605 # Tomo
+	father=12390433 # Tomo Sukekane
+	religion="shinto"
+	culture="tokai"
+	learning=6
+	prowess=10
+	1110.1.1={
+		birth=yes
+	}
+	1139.2.1={
+		death=yes
+	}
+}
+12390448={
+	name=character_name_12390448 # Iechika
+	dynasty=10005605 # Tomo
+	father=12390445 # Otomo Sukechika
+	religion="shinto"
+	culture="tokai"
+	learning=6
+	prowess=10
+	1130.1.1={
+		birth=yes
+	}
+	1180.1.1={
+		death=yes
+	}
+}
+12390449={
+	name=character_name_12390449 # Ietsugu
+	dynasty=10005605 # Tomo
+	father=12390448 # Otomo Iechika
+	religion="shinto"
+	culture="tokai"
+	learning=5
+	prowess=10
+	1155.1.1={
+		birth=yes
+	}
+	1205.1.1={
+		death=yes
+	}
+}
+12390450={
+	name=character_name_12390450 # Sukekane
+	dynasty=10005605 # Tomo
+	father=12390443 # Tomo Chikakane
+	religion="shinto"
+	culture="tokai"
+	learning=7
+	prowess=11
+	1119.1.1={
+		birth=yes
+	}
+	1169.1.1={
+		death=yes
+	}
+}
+12390451={
+	name=character_name_12390451 # Toshizane
+	dynasty=10006164 # Shitara
+	father=12390443 # Tomo Chikakane
+	religion="shinto"
+	culture="tokai"
+	learning=6
+	prowess=11
+	1120.1.1={
+		birth=yes
+	}
+	1204.1.1={
+		death=yes
+	}
+}
+12390452={
+	name=character_name_12390452 # Sadayasu
+	dynasty=10005605 # Tomo
+	father=12390443 # Tomo Chikakane
+	religion="shinto"
+	culture="tokai"
+	learning=5
+	prowess=11
+	1125.1.1={
+		birth=yes
+	}
+	1175.1.1={
+		death=yes
+	}
+}
+12390453={
+	name=character_name_12390453 # Sukeie
+	dynasty=10005605 # Tomo
+	father=12390450 # Tomo Sukekane
+	religion="shinto"
+	culture="tokai"
+	learning=7
+	prowess=10
+	1144.1.1={
+		birth=yes
+	}
+	1194.1.1={
+		death=yes
+	}
+}
+12390460={
+	name=character_name_12390460 # Suketoki
+	dynasty=10006164 # Shitara
+	father=12390451 # Shitara Toshizane
+	religion="shinto"
+	culture="tokai"
+	learning=5
+	prowess=9
+	1150.1.1={
+		birth=yes
+	}
+	1205.1.1={
+		death=yes
+	}
+}
+12390461={
+	name=character_name_12390461 # Suketaka
+	dynasty=10006164 # Shitara
+	father=12390451 # Shitara Toshizane
+	religion="shinto"
+	culture="tokai"
+	learning=7
+	prowess=12
+	1152.1.1={
+		birth=yes
+	}
+	1212.1.1={
+		death=yes
+	}
+}
+12390462={
+	name=character_name_12390462 # Sukenori
+	dynasty=10006164 # Shitara
+	father=12390451 # Shitara Toshizane
+	religion="shinto"
+	culture="tokai"
+	learning=4
+	prowess=11
+	1154.1.1={
+		birth=yes
+	}
+	1204.1.1={
+		death=yes
+	}
+}
+12390463={
+	name=character_name_12390463 # Sanetoki
+	dynasty=10006164 # Shitara
+	father=12390451 # Shitara Toshizane
+	religion="shinto"
+	culture="tokai"
+	learning=6
+	prowess=9
+	1156.1.1={
+		birth=yes
+	}
+	1206.1.1={
+		death=yes
+	}
+}
+12390464={
+	name=character_name_12390464 # Sukenari
+	dynasty=10006164 # Shitara
+	father=12390451 # Shitara Toshizane
+	religion="shinto"
+	culture="tokai"
+	learning=5
+	prowess=10
+	1158.1.1={
+		birth=yes
+	}
+	1208.1.1={
+		death=yes
+	}
+}
+12390465={
+	name=character_name_12390465 # Sukemitsu
+	dynasty=10006164 # Shitara
+	father=12390451 # Shitara Toshizane
+	religion="shinto"
+	culture="tokai"
+	learning=6
+	prowess=11
+	1175.1.1={
+		birth=yes
+	}
+	1225.1.1={
+		death=yes
+	}
+}
+12390466={
+	name=character_name_12390466 # Suketomo
+	dynasty=10006164 # Shitara
+	father=12390451 # Shitara Toshizane
+	religion="shinto"
+	culture="tokai"
+	learning=7
+	prowess=10
+	1177.1.1={
+		birth=yes
+	}
+	1227.1.1={
+		death=yes
+	}
+}
+12390467={
+	name=character_name_12390467 # Suketoshi
+	dynasty=10006164 # Shitara
+	father=12390451 # Shitara Toshizane
+	religion="shinto"
+	culture="tokai"
+	learning=6
+	prowess=10
+	1179.1.1={
+		birth=yes
+	}
+	1229.1.1={
+		death=yes
+	}
+}
+12390470={
+	name=character_name_12390470 # Suketsugu
+	dynasty=10006164 # Shitara
+	father=12390460 # Shitara Suketoki
+	religion="shinto"
+	culture="tokai"
+	learning=6
+	prowess=11
+	1180.1.1={
+		birth=yes
+	}
+	1240.1.1={
+		death=yes
+	}
+}
+12390471={
+	name=character_name_12390471 # Sukeshige
+	dynasty=10006164 # Shitara
+	father=12390460 # Shitara Suketoki
+	religion="shinto"
+	culture="tokai"
+	learning=7
+	prowess=10
+	1182.1.1={
+		birth=yes
+	}
+	1232.1.1={
+		death=yes
+	}
+}
+12390500 = {
+	name=character_name_12390500 # Tomoyasu
+	dynasty=10000233 # Ii
+	religion="shinto"
+	culture="tokai"
+	prowess=11
+	1010.1.18={
+		birth=yes
+	}
+	1093.9.8={
+		death=yes
+	}
+}
+12390501 = {
+	name=character_name_12390501 # Tomomune
+	dynasty=10000233 # Ii
+	father=12390500
+	religion="shinto"
+	culture="tokai"
+	prowess=11
+	1030.1.1={
+		birth=yes
+	}
+	1090.1.1={
+		death=yes
+	}
+}
+12390502 = {
+	name=character_name_12390502 # Tomotsuna
+	dynasty=10000233 # Ii
+	father=12390501
+	religion="shinto"
+	culture="tokai"
+	prowess=9
+	1050.1.1={
+		birth=yes
+	}
+	1110.1.1={
+		death=yes
+	}
+}
+12390503 = {
+	name=character_name_12390503 # Tomoaki
+	dynasty=10000233 # Ii
+	father=12390502
+	religion="shinto"
+	culture="tokai"
+	prowess=9
+	1075.1.1={
+		birth=yes
+	}
+	1147.1.1={
+		death=yes
+	}
+}
+12390504 = {
+	name=character_name_12390504 # Tomoie
+	dynasty=10000233 # Ii
+	father=12390503
+	religion="shinto"
+	culture="tokai"
+	prowess=11
+	1095.1.1={
+		birth=yes
+	}
+	1165.10.8={
+		death=yes
+	}
+}
+12390505 = {
+	name=character_name_12390505 # Tomonao
+	dynasty=10000233 # Ii
+	father=12390504
+	religion="shinto"
+	culture="tokai"
+	prowess=12
+	1120.1.1={
+		birth=yes
+	}
+	1180.1.1={
+		death=yes
+	}
+}
+12390506 = {
+	name=character_name_12390506 # Koretomo
+	dynasty=10000233 # Ii
+	father=12390504
+	religion="shinto"
+	culture="tokai"
+	prowess=10
+	1122.1.1={
+		birth=yes
+	}
+	1170.1.1={
+		death=yes
+	}
+}
+12390507 = {
+	name=character_name_12390507 # Korenao
+	dynasty=10000233 # Ii
+	father=12390505
+	religion="shinto"
+	culture="tokai"
+	prowess=11
+	1150.1.1={
+		birth=yes
+	}
+	1210.1.1={
+		death=yes
+	}
+}
+12390508 = {
+	name=character_name_12390508 # Morinao
+	dynasty=10000233 # Ii
+	father=12390507
+	religion="shinto"
+	culture="tokai"
+	prowess=11
+	1180.1.1={
+		birth=yes
+	}
+	1240.1.1={
+		death=yes
+	}
+}
+12390509 = {
+	name=character_name_12390509 # Yoshinao
+	dynasty=10000233 # Ii
+	father=12390508
+	religion="shinto"
+	culture="tokai"
+	prowess=11
+	1210.1.1={
+		birth=yes
+	}
+	1270.1.1={
+		death=yes
+	}
+}
+12390510 = {
+	name=character_name_12390510 # Iyanao
+	dynasty=10000233 # Ii
+	father=12390509
+	religion="shinto"
+	culture="tokai"
+	prowess=11
+	1240.1.1={
+		birth=yes
+	}
+	1300.1.1={
+		death=yes
+	}
+}
+12390511 = {
+	name=character_name_12390511 # Yasunao
+	dynasty=10000233 # Ii
+	father=12390510
+	religion="shinto"
+	culture="tokai"
+	prowess=12
+	1270.1.1={
+		birth=yes
+	}
+	1330.1.1={
+		death=yes
+	}
+}
+12390512 = {
+	name=character_name_12390512 # Yukinao
+	dynasty=10000233 # Ii
+	father=12390511
+	religion="shinto"
+	culture="tokai"
+	prowess=9
+	1309.1.1={
+		birth=yes
+	}
+	1404.1.1={
+		death=yes
+	}
+}
+12390513 = {
+	name=character_name_12390513 # Kagenao
+	dynasty=10000233 # Ii
+	father=12390512
+	religion="shinto"
+	culture="tokai"
+	prowess=12
+	1370.1.1={
+		birth=yes
+	}
+	1430.1.1={
+		death=yes
+	}
+}
+12390514 = {
+	name=character_name_12390514 # Tadanao
+	dynasty=10000233 # Ii
+	father=12390513
+	religion="shinto"
+	culture="tokai"
+	prowess=10
+	1410.1.1={
+		birth=yes
+	}
+	1485.1.1={
+		death=yes
+	}
+}
+12390550 = {
+	name=character_name_12390550 # Munemasu
+	dynasty=10007157 # Matsuba
+	father=12390506
+	religion="shinto"
+	culture="tokai"
+	prowess=10
+	1145.1.1={
+		birth=yes
+	}
+	1180.1.1={
+		employer=10110140 # Taira Kiyosada
+	}
+	1181.12.14={
+		death=yes
+	}
+}
+12390551 = {
+	name=character_name_12390551 # Sukemune
+	dynasty=10007157 # Matsuba
+	father=12390550
+	religion="shinto"
+	culture="tokai"
+	prowess=9
+	1170.1.1={
+		birth=yes
+	}
+	1180.1.1={
+		employer=10110140 # Taira Kiyosada
+	}
+	1266.2.12={
+		death=yes
+	}
+}
+12390600 = {
+	name = character_name_12390600 # Yasutsuna
+	dynasty = 10007212	# Okabe
+	religion="shinto"
+	culture = "tokai"
+	father = 10130112	#Funakoshi Kiyotsuna
+	prowess=9
+	1110.1.1 = {
+		birth=yes
+	}
+	1190.1.1 = {
+		death=yes
+	}
+}
+12390605 = {
+	name = character_name_12390605 # Tadatsuna
+	dynasty = 10007212	# Okabe
+	religion="shinto"
+	culture = "tokai"
+	father = 12390600 # Okabe Yasutsuna
+	prowess=10
+	1130.1.1 = {
+		birth=yes
+	}
+	1190.1.1 = {
+		death=yes
+	}
+}
+12390610 = {
+	name = character_name_12390610 # Tokitsuna
+	dynasty = 10007212	# Okabe
+	religion="shinto"
+	culture = "tokai"
+	father = 12390605 # Okabe Tadatsuna
+	prowess=12
+	1160.1.1 = {
+		birth=yes
+	}
+	1220.1.1 = {
+		death=yes
+	}
+}
+12390611={
+	name=character_name_12390611 # Nagatsuna
+	dynasty=10007212 # Okabe
+	father=12390605 # Okabe Tadatsuna
+	religion="shinto"
+	culture="tokai"
+	prowess=12
+	1180.1.1={
+		birth=yes
+	}
+	1240.1.1={
+		death=yes
+	}
+}
+12390615={
+	name=character_name_12390615 # Ietsuna
+	dynasty=10007212 # Okabe
+	father=12390611 # Okabe Nagatsuna
+	religion="shinto"
+	culture="tokai"
+	prowess=10
+	1210.1.1={
+		birth=yes
+	}
+	1270.1.1={
+		death=yes
+	}
+}
+12390620={
+	name=character_name_12390620 # Yasutsuna
+	dynasty=10007212 # Okabe
+	father=12390615 # Okabe Ietsuna
+	religion="shinto"
+	culture="tokai"
+	prowess=11
+	1250.1.1={
+		birth=yes
+	}
+	1310.1.1={
+		death=yes
+	}
+}
+12390625={
+	name=character_name_12390625 # Terutsuna
+	dynasty=10007212 # Okabe
+	father=12390620 # Okabe Yasutsuna
+	religion="shinto"
+	culture="tokai"
+	prowess=9
+	1280.1.1={
+		birth=yes
+	}
+	1340.1.1={
+		death=yes
+	}
+}
+12390630={
+	name=character_name_12390630 # Tokitsuna
+	dynasty=10007212 # Okabe
+	father=12390625 # Okabe Terutsuna
+	religion="shinto"
+	culture="tokai"
+	prowess=11
+	1320.1.1={
+		birth=yes
+	}
+	1380.1.1={
+		death=yes
+	}
+}
+12390635={
+	name=character_name_12390635 # Nagatsuna
+	dynasty=10007212 # Okabe
+	father=12390630 # Okabe Tokitsuna
+	religion="shinto"
+	culture="tokai"
+	prowess=11
+	1350.1.1={
+		birth=yes
+	}
+	1410.1.1={
+		death=yes
+	}
+}
+12390640={
+	name=character_name_12390640 # Yoshinobu
+	dynasty=10007212 # Okabe
+	father=12390635 # Okabe Nagatsuna
+	religion="shinto"
+	culture="tokai"
+	prowess=10
+	1390.1.1={
+		birth=yes
+	}
+	1450.1.1={
+		death=yes
+	}
+}
+12390645={
+	name=character_name_12390645 # Yoshitsuna
+	dynasty=10007212 # Okabe
+	father=12390640 # Okabe Yoshinobu
+	religion="shinto"
+	culture="tokai"
+	prowess=10
+	1420.1.1={
+		birth=yes
+	}
+	1480.1.1={
+		death=yes
+	}
+}
+12390646={
+	name=character_name_12390646 # IzumiNoKami
+	dynasty=10007212 # Okabe
+	father=12390640 # Okabe Yoshinobu
+	religion="shinto"
+	culture="tokai"
+	prowess=10
+	1430.1.1={
+		birth=yes
+	}
+	1490.1.1={
+		death=yes
+	}
+}
+12390700={
+	name=character_name_12390700 # Munechika
+	dynasty=10007213 # Maki
+	religion="shinto"
+	culture="tokai"
+	trait="education_diplomacy_2"
+	prowess=10
+	1130.1.1={
+		birth=yes
+	}
+	1180.6.15={
+		employer = 10120075 # Minamoto Yoritomo
+	}
+	1190.1.1={
+		death=yes
+	}
+}
+12390701={
+	name=character_name_12390701 # Tokichika
+	dynasty=10007213 # Maki
+	father=12390700 # 
+	religion="shinto"
+	culture="tokai"
+	trait="education_diplomacy_2"
+	prowess=10
+	1160.1.1={
+		birth=yes
+	}
+	1180.6.15={
+		employer = 10120075 # Minamoto Yoritomo
+	}
+	1210.1.1={
+		death=yes
+	}
+}
+12390702={
+	name=character_name_12390702 # Makinokata
+	female=yes
+	dynasty=10007213 # Maki
+	father=12390700 # 
+	religion="shinto"
+	culture="tokai"
+	trait="education_intrigue_3"
+	prowess=13
+	1162.1.1={
+		birth=yes
+	}
+	1230.1.1={
+		death=yes
+	}
+}
+12390800={
+	name=character_name_12390800 # Narinaga
+	dynasty=10007214 # Katsumata
+	religion="shinto"
+	culture="tokai"
+	prowess=11
+	1164.1.1={
+		birth=yes
+	}
+	1220.1.1={
+		death=yes
+	}
+}
+12390900={
+	name=character_name_12390900 # Kunishige
+	dynasty=10006042 # Kondo
+	father=10130535 # Kondo Kunihira
+	religion="shinto"
+	culture="tokai"
+	prowess=11
+	1200.1.1={
+		birth=yes
+	}
+	1260.1.1={
+		death=yes
+	}
+}
+12390901={
+	name=character_name_12390901 # Kunitsune
+	dynasty=10006042 # Kondo
+	father=12390900 # Kondo Kunishige
+	religion="shinto"
+	culture="tokai"
+	prowess=10
+	1240.1.1={
+		birth=yes
+	}
+	1300.1.1={
+		death=yes
+	}
+}
+12390905={
+	name=character_name_12390905 # Munemitsu
+	dynasty=10006042 # Kondo
+	father=12390901 # Kondo Kunitsune
+	religion="shinto"
+	culture="tokai"
+	prowess=10
+	1280.1.1={
+		birth=yes
+	}
+	1325.1.1={
+		death=yes
+	}
+}
+12390906={
+	name=character_name_12390906 # Kunimitsu
+	dynasty=10006042 # Kondo
+	father=12390901 # Kondo Kunitsune
+	religion="shinto"
+	culture="tokai"
+	prowess=10
+	1282.1.1={
+		birth=yes
+	}
+	1340.1.1 ={
+		death=yes
+	}
+}
+12390910={
+	name=character_name_12390910 # Shigetaka
+	dynasty=10006042 # Kondo
+	father=12390906 # Kondo Munemitsu
+	religion="shinto"
+	culture="tokai"
+	prowess=12
+	1310.1.1={
+		birth=yes
+	}
+	1370.1.1={
+		death=yes
+	}
+}
+12390915={
+	name=character_name_12390915 # Nagayasu
+	dynasty=10006042 # Kondo
+	father=12390910 # Kondo Shigetaka
+	religion="shinto"
+	culture="tokai"
+	prowess=10
+	1340.1.1={
+		birth=yes
+	}
+	1400.1.1={
+		death=yes
+	}
+}
+12390920={
+	name=character_name_12390920 # Kageyoshi
+	dynasty=10006042 # Kondo
+	father=12390915 # Kondo Nagayasu
+	religion="shinto"
+	culture="tokai"
+	prowess=9
+	1370.1.1={
+		birth=yes
+	}
+	1430.1.1={
+		death=yes
+	}
+}
+12390925={
+	name=character_name_12390925 # Yoshiyuki
+	dynasty=10006042 # Kondo
+	father=12390920 # Kondo Kageyoshi
+	religion="shinto"
+	culture="tokai"
+	prowess=10
+	1400.1.1={
+		birth=yes
+	}
+	1460.1.1={
+		death=yes
+	}
+}
+12390930={
+	name=character_name_12390930 # Kageshige
+	dynasty=10006042 # Kondo
+	father=12390925 # Kondo Yoshiyuki
+	religion="shinto"
+	culture="tokai"
+	prowess=10
+	1430.1.1={
+		birth=yes
+	}
+	1490.1.1={
+		death=yes
+	}
+}
+12390935={
+	name=character_name_12390935 # Kagemasa
+	dynasty=10006042 # Kondo
+	father=12390930 # Kondo Kageshige
+	religion="shinto"
+	culture="tokai"
+	prowess=11
+	1460.1.1={
+		birth=yes
+	}
+	1520.1.1={
+		death=yes
+	}
+}
+12390940={
+	name=character_name_12390940 # Korekage
+	dynasty=10006042 # Kondo
+	father=12390935 # Kondo Kagemasa
+	religion="shinto"
+	culture="tokai"
+	prowess=11
+	1490.1.1={
+		birth=yes
+	}
+	1540.1.1={
+		death=yes
+	}
+}
+12390945={
+	name=character_name_12390945 # Kageharu
+	dynasty=10006042 # Kondo
+	father=12390940 # Kondo Korekage
+	religion="shinto"
+	culture="tokai"
+	prowess=11
+	1520.1.1={
+		birth=yes
+	}
+	1560.6.24={
+		death=yes
+	}
+}
+12391000={
+	name=character_name_12391000 # Koreyasu
+	dynasty=10000165 # Omori
+	religion="shinto"
+	culture="tokai"
+	prowess=10
+	1040.1.1={
+		birth=yes
+	}
+	1100.1.1={
+		death=yes
+	}
+}
+12391005={
+	name=character_name_12391005 # Chikayasu
+	dynasty=10000165 # Omori
+	father=12391000 # Omori Koreyasu
+	religion="shinto"
+	culture="tokai"
+	prowess=11
+	1080.1.1={
+		birth=yes
+	}
+	1140.1.1={
+		death=yes
+	}
+}
+12391006={
+	name=character_name_12391006 # Korekane
+	dynasty=10000236 # Katsurayama
+	father=12391000 # Omori Koreyasu
+	religion="shinto"
+	culture="tokai"
+	prowess=12
+	1082.1.1={
+		birth=yes
+	}
+	1140.1.1={
+		death=yes
+	}
+}
+12391010={
+	name=character_name_12391010 # Chikaie
+	dynasty=10000165 # Omori
+	father=12391005 # Omori Chikayasu
+	religion="shinto"
+	culture="tokai"
+	prowess=11
+	1110.1.1={
+		birth=yes
+	}
+	1170.1.1={
+		death=yes
+	}
+}
+12391015={
+	name=character_name_12391015 # Yoritada
+	dynasty=10000165 # Omori
+	father=12391010 # Omori Chikaie
+	religion="shinto"
+	culture="tokai"
+	prowess=12
+	1140.1.1={
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+12391020={
+	name=character_name_12391020 # Moritada
+	dynasty=10000165 # Omori
+	father=12391015 # Omori Yoritada
+	religion="shinto"
+	culture="tokai"
+	prowess=10
+	1170.1.1={
+		birth=yes
+	}
+	1230.1.1={
+		death=yes
+	}
+}
+12391025={
+	name=character_name_12391025 # Yorimori
+	dynasty=10000165 # Omori
+	father=12391020 # Omori Moritada
+	religion="shinto"
+	culture="tokai"
+	prowess=9
+	1200.1.1={
+		birth=yes
+	}
+	1260.1.1={
+		death=yes
+	}
+}
+12391030={
+	name=character_name_12391030 # Tsuneyori
+	dynasty=10000165 # Omori
+	father=12391025 # Omori Yorimori
+	religion="shinto"
+	culture="tokai"
+	prowess=9
+	1230.1.1={
+		birth=yes
+	}
+	1290.1.1={
+		death=yes
+	}
+}
+12391035={
+	name=character_name_12391035 # Koreyori
+	dynasty=10000165 # Omori
+	father=12391030 # Omori Tsuneyori
+	religion="shinto"
+	culture="tokai"
+	prowess=11
+	1260.1.1={
+		birth=yes
+	}
+	1320.1.1={
+		death=yes
+	}
+}
+12391040={
+	name=character_name_12391040 # Yoriaki
+	dynasty=10000165 # Omori
+	father=12391035 # Omori Koreyori
+	religion="shinto"
+	culture="tokai"
+	prowess=11
+	1290.1.1={
+		birth=yes
+	}
+	1340.1.1={
+		death=yes
+	}
+}
+12391045={
+	name=character_name_12391045 # Fujiyori
+	dynasty=10000165 # Omori
+	father=12391040 # Omori Yoriaki
+	religion="shinto"
+	culture="tokai"
+	prowess=9
+	1320.1.1={
+		birth=yes
+	}
+	1370.1.1={
+		death=yes
+	}
+}
+12391050={
+	name=character_name_12391050 # Yoriaki
+	dynasty=10000165 # Omori
+	father=12391045 # Omori Fujiyori
+	religion="shinto"
+	culture="tokai"
+	prowess=9
+	1340.1.1={
+		birth=yes
+	}
+	1400.1.1={
+		death=yes
+	}
+}
+12391100={
+	name=character_name_12391100 # Koretada
+	dynasty=10000236 # Katsurayama
+	father=12391006 # Katsurayama Korekane
+	religion="shinto"
+	culture="tokai"
+	trait="education_learning_3"
+	prowess=11
+	1120.1.1={
+		birth=yes
+	}
+	1190.1.1={
+		death=yes
+	}
+}
+12391105={
+	name=character_name_12391105 # Koreshige
+	dynasty=10000236 # Katsurayama
+	father=12391100 # Katsurayama Koretada
+	religion="shinto"
+	culture="tokai"
+	martial=6
+	trait="education_martial_2"
+	prowess=13
+	1150.1.1={
+		birth=yes
+	}
+	1210.1.1={
+		death=yes
+	}
+}
+12391106={
+	name=character_name_12391106 # Korehira
+	dynasty=10000236 # Katsurayama
+	father=12391100 # Katsurayama Koretada
+	religion="shinto"
+	culture="tokai"
+	martial=6
+	trait="education_martial_3"
+	trait="brave"
+	prowess=13
+	1152.1.1={
+		birth=yes
+	}
+	1180.11.26={
+		employer = 10120075 # Minamoto Yoritomo
+	}
+	1189.11.15 = {
+		dynasty=10007322 # Yuri
+	}
+	1190.1.1={
+		death=yes
+	}
+}
+12391107={
+	name=character_name_12391107 # Kagetada
+	dynasty=10000236 # Katsurayama
+	father=12391100 # Katsurayama Koretada
+	religion="shinto"
+	culture="tokai"
+	prowess=11
+	1154.1.1={
+		birth=yes
+	}
+	1210.1.1={
+		death=yes
+	}
+}
+12391110={
+	name=character_name_12391110 # Korehisa
+	dynasty=10000236 # Katsurayama
+	father=12391106 # Katsurayama Korehira
+	religion="shinto"
+	culture="tokai"
+	prowess=11
+	1180.1.1={
+		birth=yes
+	}
+	1189.11.15 = {
+		dynasty=10007322 # Yuri
+	}
+	1220.1.1={
+		death=yes
+	}
+}
+12391115={
+	name=character_name_12391115 # Kagenori
+	dynasty=10000236 # Katsurayama
+	father=12391107 # Katsurayama Kagetada
+	religion="shinto"
+	culture="tokai"
+	prowess=10
+	1196.1.1={
+		birth=yes
+	}
+	1276.4.23={
+		death=yes
+	}
+}
+12395010={
+	name=character_name_12395010 # Tsuneuji
+	dynasty=10000173 # Oshu=Kira
+	father=12139007 # Ashikaga (Kira) Yoshitsugu
+	religion="shinto"
+	culture="tokai"
+	trait="ashikaga_family"
+	prowess=11
+	1245.1.1={
+		birth=yes
+	}
+	1275.1.1={
+		trait="jugoi_ge"
+	}
+	1305.1.1={
+		death=yes
+	}
+}
+12395011={
+	name=character_name_12395011 # Tsuneuji
+	dynasty=10000173 # Oshu=Kira
+	father=12395010
+	religion="shinto"
+	culture="tokai"
+	trait="ashikaga_family"
+	prowess=11
+	1265.1.1={
+		birth=yes
+	}
+	1325.1.1={
+		death=yes
+	}
+}
+12395012={
+	name=character_name_12395012 # Tsuneie
+	dynasty=10000173 # Oshu=Kira
+	father=12395011
+	religion="shinto"
+	culture="tokai"
+	trait="ashikaga_family"
+	prowess=11
+	1285.1.1={
+		birth=yes
+	}
+	1345.1.1={
+		death=yes
+	}
+}
+12395015={
+	name=character_name_12395015 # Sadaie
+	dynasty=10000173 # Oshu=Kira
+	father=12395012
+	religion="shinto"
+	culture="tokai"
+	trait="ashikaga_family"
+	prowess=9
+	1305.1.1={
+		birth=yes
+	}
+	1335.1.1={
+		trait="jugoi_ge"
+	}
+	1345.1.1={
+		culture="southern_oshu"
+	}
+	1354.1.1={
+		death=yes
+	}
+}
+12395016={
+	name=character_name_12395016 # Sadatsune
+	dynasty=10000173 # Oshu=Kira
+	father=12395012
+	religion="shinto"
+	culture="tokai"
+	trait="ashikaga_family"
+	prowess=10
+	1308.1.1={
+		birth=yes
+	}
+	1338.1.1={
+		trait="jugoi_ge"
+	}
+	1345.1.1={
+		culture="southern_oshu"
+	}
+	1367.1.1={
+		death=yes
+	}
+}
+12395017={
+	name=character_name_12395017 # Ujiie
+	dynasty=10000246 # Kira
+	father=12395012
+	religion="shinto"
+	culture="tokai"
+	trait="ashikaga_family"
+	prowess=11
+	1312.1.1={
+		birth=yes
+	}
+	1342.1.1={
+		trait="jugoi_ge"
+	}
+	1345.1.1={
+		dynasty=10000173 # Oshu=Kira
+		culture="southern_oshu"
+	}
+	1360.1.1={
+		death=yes
+	}
+}
+12395020={
+	name=character_name_12395020 # Mitsuuji
+	dynasty=10000246 # Kira
+	father=12139005 # Kira Nagauji
+	religion="shinto"
+	culture="tokai"
+	trait="ashikaga_family"
+#	trait="zen_buddhist"
+	prowess=9
+	1240.01.01={
+		birth=yes
+	}
+	1270.1.1={
+		trait="jugoi_ge"
+	}
+	1290.1.1={
+		death=yes
+	}
+}
+12395021={
+	name=character_name_12395021 # Kuniuji
+	dynasty=10000246 # Kira
+	father=12139005 # Kira Nagauji
+	martial=6
+	diplomacy=5
+	intrigue=5
+	stewardship=6
+	learning=6
+	religion="shinto"
+	culture="tokai"
+	trait="education_intrigue_1"
+	trait="ashikaga_family"
+	prowess=9
+	1243.1.1={
+		birth=yes
+	}
+	1268.1.1={
+		dynasty=10000230 # Imagawa
+	}
+	1282.4.3={
+		death=yes
+	}
+}
+12395022={
+	female=yes
+	name=character_name_12395022 # Nagako
+	dynasty=10000246 # Kira
+	father=12139005 # Kira Nagauji
+	religion="shinto"
+	culture="tokai"
+	trait="ashikaga_family"
+	prowess=12
+	1241.01.01={
+		birth=yes
+	}
+	1291.1.1={
+		death=yes
+	}
+}
+12395023={
+	female=yes
+	name=character_name_12395023 # Kazusa
+	dynasty=10000246 # Kira
+	father=12139005 # Kira Nagauji
+	religion="shinto"
+	culture="tokai"
+	trait="ashikaga_family"
+	prowess=10
+	1245.01.01={
+		birth=yes
+	}
+	1295.1.1={
+		death=yes
+	}
+}
+12395025={
+	name=character_name_12395025 # Sadayoshi
+	dynasty=10000246 # Kira
+	father=12395020 # Kira Mitsuuji
+	religion="shinto"
+	culture="tokai"
+	trait="ashikaga_family"
+	prowess=11
+	1275.01.01={
+		birth=yes
+	}
+	1305.1.1={
+		trait="jugoi_ge"
+	}
+	1346.1.1={
+		death=yes
+	}
+}
+12395026={
+	name=character_name_12395026 # Sadauji
+	dynasty=10000246 # Kira
+	father=12395020 # Kira Mitsuuji
+	religion="shinto"
+	culture="tokai"
+	trait="ashikaga_family"
+	prowess=11
+	1277.01.01={
+		birth=yes
+	}
+	1327.01.01={
+		death=yes
+	}
+}
+12395027={
+	female=yes
+	name=character_name_12395027 # Mitsuko
+	dynasty=10000246 # Kira
+	father=12395020 # Kira Mitsuuji
+	religion="shinto"
+	culture="tokai"
+	trait="ashikaga_family"
+	prowess=9
+	1279.1.1={
+		birth=yes
+	}
+	1329.1.1={
+		death=yes
+	}
+}
+12395030={
+	name=character_name_12395030 # Mitsuyoshi
+	dynasty=10000246 # Kira
+	father=12395025 # Kira Sadayoshi
+	religion="shinto"
+	culture="tokai"
+	trait="ashikaga_family"
+	prowess=10
+	1310.1.1={
+		birth=yes
+	}
+	1340.1.1={
+		trait="jushii_ge"
+	}
+	1356.10.17={
+		death=yes
+	}
+}
+12395031={
+	name=character_name_12395031 # Suketoki
+	dynasty=10000246 # Kira
+	father=12395025 # Kira Sadayoshi
+	religion="shinto"
+	culture="tokai"
+	trait="ashikaga_family"
+	prowess=11
+	1312.01.01={
+		birth=yes
+	}
+	1362.1.1={
+		death=yes
+	}
+}
+12395035={
+	name=character_name_12395035 # Mitsusada
+	dynasty=10000246 # Kira
+	father=12395030 # Kira Mitsuyoshi
+	religion="shinto"
+	culture="tokai"
+	trait="ashikaga_family"
+	prowess=9
+	1337.1.1={
+		birth=yes
+	}
+	1364.01.01={
+		add_matrilineal_spouse=12376041 # daughter of Suwa Yasutsugu
+	}
+	1384.9.28={
+		death=yes
+	}
+}
+12395036={
+	name=character_name_12395036 # Ariyoshi
+	dynasty=10000246 # Kira
+	father=12395030 # Kira Mitsuyoshi
+	religion="shinto"
+	culture="tokai"
+	trait="ashikaga_family"
+	prowess=9
+	1347.1.1={
+		birth=yes
+	}
+	1390.1.1={
+		death=yes
+	}
+}
+12395037={
+	name=character_name_12395037 # Yoshitaka
+	dynasty=10000246 # Kira
+	father=12395030 # Kira Mitsuyoshi
+	religion="shinto"
+	culture="tokai"
+	trait="ashikaga_family"
+	prowess=11
+	1348.1.1={
+		birth=yes
+	}
+	1398.1.1={
+		death=yes
+	}
+}
+12395040={
+	name=character_name_12395040 # Toshiuji
+	dynasty=10000246 # Kira
+	father=12395035 # Kira Mitsusada
+	religion="shinto"
+	culture="tokai"
+	trait="ashikaga_family"
+	prowess=11
+	1362.1.1={
+		birth=yes
+	}
+	1422.1.1={
+		death=yes
+	}
+}
+12395041={
+	female=yes
+	name=character_name_12395041 # Sadako
+	dynasty=10000246 # Kira
+	father=12395035 # Kira Mitsusada
+	religion="shinto"
+	culture="tokai"
+	trait="ashikaga_family"
+	prowess=12
+	1354.1.1={
+		birth=yes
+	}
+	1404.1.1={
+		death=yes
+	}
+}
+12395045={
+	name=character_name_12395045 # Yoshinao
+	dynasty=10000246 # Kira
+	father=12395040 # Kira Toshiuji
+	religion="shinto"
+	culture="tokai"
+	trait="ashikaga_family"
+	prowess=9
+	1398.1.1={
+		birth=yes
+	}
+	1467.10.1={
+		death=yes
+	}
+}
+12395046={
+	name=character_name_12395046 # Yoriuji
+	dynasty=10000246 # Kira
+	father=12395040 # Kira Toshiuji
+	religion="shinto"
+	culture="tokai"
+	trait="ashikaga_family"
+	prowess=11
+	1416.1.1={
+		birth=yes
+	}
+	1446.1.1={
+		death=yes
+	}
+}
+12395048={
+	female=yes
+	name=character_name_12395048 # Naoko
+	dynasty=10000246 # Kira
+	father=12395045 # Kira Yoshinao
+	religion="shinto"
+	culture="tokai"
+	trait="ashikaga_family"
+	prowess=9
+	1435.1.1={
+		birth=yes
+	}
+	1485.1.1={
+		death=yes
+	}
+}
+12395050 = {
+	name=character_name_12395050 # Yoshizane
+	dynasty=10000246 # Kira
+	father=12395040 # Kira Toshiuji
+	religion="shinto"
+	culture="tokai"
+	trait="ashikaga_family"
+	prowess=10
+	1422.1.1={
+		birth=yes
+	}
+	1472.1.1={
+		trait="jushii_ge"
+	}
+	1481.8.16={
+		death=yes
+	}
+}
+12395100={
+	name=character_name_12395100 # Tomouji
+	dynasty=10000246 # Kira
+	father=12395037 # Kira Yoshitaka
+	religion="shinto"
+	culture="tokai"
+	trait="ashikaga_family"
+	prowess=10
+	1373.1.1={
+		birth=yes
+	}
+	1428.6.8={
+		death=yes
+	}
+}
+12395102={
+	name=character_name_12395102 # Mochinaga
+	dynasty=10000246 # Kira
+	father=12395100 # Kira Tomouji
+	religion="shinto"
+	culture="tokai"
+	trait="ashikaga_family"
+	prowess=9
+	1398.1.1={
+		birth=yes
+	}
+	1448.1.1={
+		death=yes
+	}
+}
+12395104={
+	name=character_name_12395104 # Mochisuke
+	dynasty=10000246 # Kira
+	father=12395102 # Kira Mochinaga
+	religion="shinto"
+	culture="tokai"
+	trait="ashikaga_family"
+	prowess=10
+	1420.1.1={
+		birth=yes
+	}
+	1463.1.1={
+		death=yes
+	}
+}
+12395105={
+	name=character_name_12395105 # Yoritaka
+	dynasty=10000246 # Kira
+	father=12395102 # Kira Mochinaga
+	religion="shinto"
+	culture="tokai"
+	trait="ashikaga_family"
+	prowess=11
+	1425.1.1={
+		birth=yes
+	}
+	1475.1.1={
+		death=yes
+	}
+}
+12395107={
+	name=character_name_12395107 # Yoshifuji
+	dynasty=10000246 # Kira
+	father=12395104 # Kira Mochisuke
+	religion="shinto"
+	culture="tokai"
+	trait="ashikaga_family"
+	prowess=10
+	1440.1.1={
+		birth=yes
+	}
+	1498.1.1={
+		death=yes
+	}
+}
+12395108={
+	name=character_name_12395108 # Toko
+	dynasty=10000246 # Kira
+	father=12395104 # Kira Mochisuke
+	religion="shinto"
+	culture="tokai"
+	trait="ashikaga_family"
+	prowess=12
+	1442.1.1={
+		birth=yes
+		trait="devoted"
+	}
+	1492.1.1={
+		death=yes
+	}
+}
+12395109={
+	name=character_name_12395109 # Tanto
+	dynasty=10000246 # Kira
+	father=12395104 # Kira Mochisuke
+	religion="shinto"
+	culture="tokai"
+	trait="ashikaga_family"
+	prowess=11
+	1445.1.1={
+		birth=yes
+		trait="devoted"
+	}
+	1495.1.1={
+		death=yes
+	}
+}
+12395111={
+	name=character_name_12395111 # Mochikiyo
+	dynasty=10000246 # Kira
+	father=12395107 # Kira Yoshifuji
+	religion="shinto"
+	culture="tokai"
+	trait="ashikaga_family"
+	prowess=11
+	1485.1.1={
+		birth=yes
+	}
+	1532.2.28={
+		death=yes
+	}
+}
+12395113={
+	name=character_name_12395113 # Mochihiro
+	dynasty=10000246 # Kira
+	father=12395111 # Kira Mochikiyo
+	religion="shinto"
+	culture="tokai"
+	trait="ashikaga_family"
+	prowess=11
+	1505.1.1={
+		birth=yes
+	}
+	1539.12.2={
+		death=yes
+	}
+}
+12395114={
+	name=character_name_12395114 # Yoshihiro
+	dynasty=10000246 # Kira
+	father=12395111 # Kira Mochikiyo
+	religion="shinto"
+	culture="tokai"
+	trait="ashikaga_family"
+	prowess=9
+	1510.1.1={
+		birth=yes
+	}
+	1560.1.1={
+		death=yes
+	}
+}
+12395201={
+	name=character_name_12395201 # Motouji
+	dynasty=10000230 # Imagawa
+	father=12395021 # Imagawa Kuniuji
+	martial=6
+	diplomacy=7
+	intrigue=6
+	stewardship=6
+	learning=5
+	religion="shinto"
+	culture="tokai"
+	trait="education_diplomacy_1"
+	trait="ashikaga_family"
+	prowess=11
+	1259.1.1={
+		birth=yes
+	}
+	1323.5.13={
+		death=yes
+	}
+}
+12395202={
+	name=character_name_12395202 # Tsuneuji
+	dynasty=10000230 # Imagawa
+	father=12395021 # Imagawa Kuniuji
+	martial=6
+	diplomacy=6
+	intrigue=5
+	stewardship=6
+	learning=5
+	religion="shinto"
+	culture="tokai"
+	trait="education_diplomacy_1"
+	trait="ashikaga_family"
+	prowess=11
+	1260.1.1={
+		birth=yes
+	}
+	1290.01.01={
+		dynasty=10000256 # Sekiguchi
+	}
+	1330.1.1={
+		death=yes
+	}
+}
+12395203={
+	name=character_name_12395203 # Toshiuji
+	dynasty=10000230 # Imagawa
+	father=12395021 # Imagawa Kuniuji
+	martial=7
+	diplomacy=6
+	intrigue=4
+	stewardship=5
+	learning=5
+	religion="shinto"
+	culture="tokai"
+	trait="education_diplomacy_1"
+	trait="ashikaga_family"
+	prowess=10
+	1263.1.1={
+		birth=yes
+	}
+	1298.1.1={
+		dynasty=10000257 # Niino
+	}
+	1333.1.1={
+		death=yes
+	}
+}
+12395204={
+	name=character_name_12395204 # Masauji
+	dynasty=10000230 # Imagawa
+	father=12395021 # Imagawa Kuniuji
+	religion="shinto"
+	culture="tokai"
+	trait="ashikaga_family"
+	prowess=11
+	1264.1.1={
+		birth=yes
+	}
+	1314.1.1={
+		death=yes
+	}
+}
+12395206={
+	name=character_name_12395206 # Chikauji
+	dynasty=10000230 # Imagawa
+	father=12395021 # Imagawa Kuniuji
+	religion="shinto"
+	culture="tokai"
+	trait="ashikaga_family"
+	prowess=11
+	1266.1.1={
+		birth=yes
+	}
+	1316.1.1={
+		death=yes
+	}
+}
+12395210={
+	name=character_name_12395210 # Yorikuni
+	dynasty=10000230 # Imagawa
+	father=12395201 # Imagawa Motouji
+	religion="shinto"
+	culture="tokai"
+	trait="ashikaga_family"
+	prowess=11
+	1284.1.1={
+		birth=yes
+	}
+	1333.07.16={
+		death={
+			death_reason=death_battle
+		}
+	}
+}
+12395211={
+	name=character_name_12395211 # Norimitsu
+	dynasty=10000230 # Imagawa
+	father=12395201 # Imagawa Motouji
+	religion="shinto"
+	culture="tokai"
+	trait="ashikaga_family"
+	prowess=11
+	1287.1.1={
+		birth=yes
+	}
+	1333.05.11={
+		death={
+			death_reason=death_battle
+		}
+	}
+}
+12395212={
+	name=character_name_12395212 # Yorichika
+	dynasty=10000230 # Imagawa
+	father=12395201 # Imagawa Motouji
+	religion="shinto"
+	culture="tokai"
+	trait="ashikaga_family"
+	prowess=12
+	1290.1.1={
+		birth=yes
+	}
+	1333.07.16={
+		death={
+			death_reason=death_battle
+		}
+	}
+}
+12395213={
+	name=character_name_12395213 # DaikiHokin
+	dynasty=10000230 # Imagawa
+	father=12395201 # Imagawa Motouji
+	religion="shinto"
+	culture="tokai"
+	trait="ashikaga_family"
+#	trait="zen_buddhist"
+	prowess=11
+	1301.1.1={
+		birth=yes
+	}
+	1311.1.1={
+		trait="devoted"
+		culture="kanto_buddhist"
+	}
+	1368.9.24={
+		death=yes
+	}
+}
+12395214={
+	name=character_name_12395214 # Norikuni
+	dynasty=10000230 # Imagawa
+	father=12395201 # Imagawa Motouji
+	martial=7
+	diplomacy=5
+	intrigue=7
+	stewardship=6
+	learning=7
+	religion="shinto"
+	culture="tokai"
+	trait="education_diplomacy_1"
+	trait="ashikaga_family"
+	trait="poet"
+	prowess=10
+	1295.1.1={
+		birth=yes
+	}
+	1325.1.1={
+		trait="jugoi_ge"
+	}
+	1384.6.8={
+		death=yes
+	}
+}
+12395216={
+	name=character_name_12395216 # Yorisada
+	dynasty=10000230 # Imagawa
+	father=12395210 # Imagawa Yorimoto
+	religion="shinto"
+	culture="tokai"
+	trait="ashikaga_family"
+	prowess=10
+	1309.1.1={
+		birth=yes
+	}
+	1339.1.1={
+		trait="jugoi_ge"
+	}
+	1359.1.1={
+		death=yes
+	}
+}
+12395217={
+	name=character_name_12395217 # Yorikane
+	dynasty=10000230 # Imagawa
+	father=12395210 # Imagawa Yorimoto
+	religion="shinto"
+	culture="tokai"
+	trait="ashikaga_family"
+	prowess=11
+	1311.1.1={
+		birth=yes
+	}
+	1341.1.1={
+		trait="jugoi_ge"
+	}
+	1361.1.1={
+		death=yes
+	}
+}
+12395220={
+	name=character_name_12395220 # Noriuji
+	dynasty=10000230 # Imagawa
+	father=12395214 # Imagawa Norikuni
+	martial=6
+	diplomacy=6
+	intrigue=5
+	stewardship=6
+	learning=5
+	religion="shinto"
+	culture="tokai"
+	trait="education_intrigue_1"
+	trait="ashikaga_family"
+	prowess=10
+	1316.1.1={
+		birth=yes
+	}
+	1346.1.1={
+		trait="jugoi_ge"
+	}
+	1353.08.01 = {
+		set_realm_capital=title:c_shgnt_udo
+	}
+	1384.6.8={
+		death=yes
+	}
+}
+12395221={
+	name=character_name_12395221 # Sadayo
+	dynasty=10000230 # Imagawa
+	father=12395214 # Imagawa Norikuni
+	martial=7
+	diplomacy=5
+	intrigue=7
+	stewardship=5
+	learning=6
+	religion="shinto"
+	culture="tokai"
+	trait="education_diplomacy_3"
+	trait="ashikaga_family"
+	trait="intellect_good_2"
+	trait="poet"
+	prowess=10
+	1326.1.1={
+		birth=yes
+	}
+	1356.1.1={
+		trait="shogoi_ge"
+	}
+	1367.12.29={
+		name=character_name_12395221_1 # Ryoshun
+	}
+	1420.1.1={
+		death=yes
+		dynasty_house = house_shgnt_totomi_imagawa
+	}
+}
+12395222={
+	name=character_name_12395222 # Ujikane
+	dynasty=10000230 # Imagawa
+	father=12395214 # Imagawa Norikuni
+	martial=6
+	diplomacy=7
+	intrigue=6
+	stewardship=7
+	learning=6
+	religion="shinto"
+	culture="tokai"
+	trait="education_intrigue_2"
+	trait="ashikaga_family"
+	prowess=11
+	1329.1.1={
+		birth=yes
+	}
+	1396.1.1={
+		death=yes
+	}
+}
+12395223={
+	name=character_name_12395223 # Nakaaki
+	dynasty=10000230 # Imagawa
+	father=12395214 # Imagawa Norikuni
+	martial=6
+	diplomacy=5
+	intrigue=6
+	stewardship=4
+	learning=7
+	religion="shinto"
+	culture="tokai"
+	trait="education_diplomacy_1"
+	trait="ashikaga_family"
+	prowess=11
+	1335.1.1={
+		birth=yes
+	}
+	1365.1.1={
+		trait="jugoi_ge"
+	}
+	1415.1.1={
+		death=yes
+	}
+}
+12395225={
+	name=character_name_12395225 # Ujiie
+	dynasty=10000230 # Imagawa
+	father=12395220 # Imagawa Noriuji
+	religion="shinto"
+	culture="tokai"
+	trait="ashikaga_family"
+	prowess=11
+	1333.1.1={
+		birth=yes
+	}
+	1363.1.1={
+		trait="jugoi_ge"
+	}
+	1369.1.1={
+		death=yes
+	}
+}
+12395226={
+	name=character_name_12395226 # Yasunori
+	dynasty=10000230 # Imagawa
+	father=12395220 # Imagawa Noriuji
+	martial=6
+	diplomacy=5
+	intrigue=6
+	stewardship=4
+	learning=7
+	religion="shinto"
+	culture="tokai"
+	trait="education_intrigue_1"
+	trait="ashikaga_family"
+#	trait="zen_buddhist"
+	prowess=10
+	1334.1.1={
+		birth=yes
+	}
+	1409.11.3={
+		death=yes
+	}
+}
+12395230={
+	name=character_name_12395230 # Norimasa
+	dynasty=10000230 # Imagawa
+	father=12395226 # Imagawa Yasunori
+	martial=7
+	diplomacy=4
+	intrigue=6
+	stewardship=6
+	learning=5
+	religion="shinto"
+	culture="tokai"
+	trait="education_martial_1"
+	trait="ashikaga_family"
+	trait="poet"
+	trait="scholar"
+	prowess=10
+	1364.1.1={
+		birth=yes
+	}
+	1394.1.1={
+		trait="jushii_ge"
+	}
+	1409.11.3={
+		effect={
+			set_realm_capital=title:c_shgnt_abe
+		}
+	}
+	1433.4.1={
+		trait="incapable"
+	}
+	1433.6.14={
+		death=yes
+	}
+}
+12395231={
+	name=character_name_12395231 # Yasukuni
+	dynasty=10000230 # Imagawa
+	father=12395226 # Imagawa Yasunori
+	religion="shinto"
+	culture="tokai"
+	trait="ashikaga_family"
+	prowess=9
+	1335.1.1={
+		birth=yes
+	}
+	1385.1.1={
+		death=yes
+	}
+}
+12395235={
+	name=character_name_12395235 # Noritoyo
+	dynasty=10000230 # Imagawa
+	father=12395230 # Imagawa Norimasa
+	religion="shinto"
+	culture="tokai"
+	trait="ashikaga_family"
+	prowess=10
+	1389.1.1={
+		birth=yes
+	}
+	1405.01.01={
+		death=yes
+	}
+}
+12395236={
+	name=character_name_12395236 # Noritada
+	dynasty=10000230 # Imagawa
+	father=12395230 # Imagawa Norimasa
+	martial=6
+	diplomacy=5
+	intrigue=5
+	stewardship=8
+	learning=5
+	religion="shinto"
+	culture="tokai"
+	trait="education_stewardship_1"
+	trait="ashikaga_family"
+	prowess=11
+	1408.5.1={
+		birth=yes
+	}
+	1433.6.14={
+		effect={
+			set_realm_capital=title:c_shgnt_abe
+		}
+	}
+	1438.1.1={
+		trait="jushii_ge"
+	}
+	1461.07.04={
+		death=yes
+	}
+}
+12395237={
+	name=character_name_12395237 # Norikatsu
+	dynasty=10000230 # Imagawa
+	father=12395230 # Imagawa Norimasa
+	religion="shinto"
+	culture="tokai"
+	trait="ashikaga_family"
+	prowess=10
+	1410.1.1={
+		birth=yes
+	}
+	1440.1.1={
+		death=yes
+	}
+}
+12395238={
+	name=character_name_12395238 # Noriyori
+	dynasty=10000230 # Imagawa
+	father=12395230 # Imagawa Norimasa
+	religion="shinto"
+	culture="tokai"
+	trait="ashikaga_family"
+	prowess=12
+	1425.1.1={
+		birth=yes
+	}
+	1439.1.1={
+#		dynasty=10000259 # Oshika
+		dynasty_house = house_shgnt_oshika
+	}
+	1465.1.1={
+		death=yes
+	}
+}
+12395240={
+	name=character_name_12395240 # Norimitsu
+#	dynasty=10000259 # Oshika
+	dynasty_house = house_shgnt_oshika
+	father=12395238 # Oshika Noriyori
+	religion="shinto"
+	culture="tokai"
+	diplomacy=7
+	martial=5
+	stewardship=5
+	intrigue=6
+	learning=6
+	trait="education_diplomacy_2"
+	trait="ambitious"
+	trait="ashikaga_family"
+	prowess=11
+	1450.1.1={
+		birth=yes
+	}
+	1487.11.24={
+		death={
+			death_reason=death_suicide
+		}
+	}
+}
+12395241={
+	name=character_name_12395241 # Norinobu
+#	dynasty=10000259 # Oshika
+	dynasty_house = house_shgnt_oshika
+	father=12395240 # Oshika Norimitsu
+	religion="shinto"
+	culture="tokai"
+	trait="ashikaga_family"
+	prowess=11
+	1480.01.01={
+		birth=yes
+	}
+	1530.1.1={
+		death=yes
+	}
+}
+12395242={
+	name=character_name_12395242 # Nobukatsu
+#	dynasty=10000259 # Oshika
+	dynasty_house = house_shgnt_oshika
+	father=12395241 # Oshika Norinobu
+	religion="shinto"
+	culture="tokai"
+	trait="ashikaga_family"
+	prowess=12
+	1505.1.1={
+		birth=yes
+	}
+	1555.1.1={
+		death=yes
+	}
+}
+12395260={
+	name=character_name_12395260 # Sadaomi
+#	dynasty=10000230 # Imagawa
+	dynasty_house = house_shgnt_totomi_imagawa
+	father=12395221 # Imagawa Sadayo
+	martial=7
+	diplomacy=5
+	intrigue=5
+	stewardship=5
+	learning=5
+	religion="shinto"
+	culture="tokai"
+	trait="education_intrigue_1"
+	trait="ashikaga_family"
+	prowess=11
+	1350.1.1={
+		birth=yes
+	}
+	1410.1.1={
+		death=yes
+	}
+}
+12395261={
+	name=character_name_12395261 # Sadatsugu
+#	dynasty=10000230 # Imagawa
+	dynasty_house = house_shgnt_totomi_imagawa
+	father=12395221 # Imagawa Sadayo
+	religion="shinto"
+	culture="tokai"
+	trait="ashikaga_family"
+	prowess=10
+	1352.1.1={
+		birth=yes
+	}
+	1402.1.1={
+		death=yes
+	}
+}
+12395262={
+	name=character_name_12395262 # Kotoyo
+#	dynasty=10000230 # Imagawa
+	dynasty_house = house_shgnt_totomi_imagawa
+	father=12395221 # Imagawa Sadayo
+	religion="shinto"
+	culture="tokai"
+	trait="ashikaga_family"
+	prowess=9
+	1354.1.1={
+		birth=yes
+	}
+	1404.1.1={
+		death=yes
+	}
+}
+12395263={
+	name=character_name_12395263 # Sadakane
+#	dynasty=10000230 # Imagawa
+	dynasty_house = house_shgnt_totomi_imagawa
+	father=12395221 # Imagawa Sadayo
+	religion="shinto"
+	culture="tokai"
+	trait="ashikaga_family"
+	prowess=12
+	1356.1.1={
+		birth=yes
+	}
+	1405.1.1={
+		death=yes
+	}
+}
+12395270={
+	name=character_name_12395270 # Sadasuke
+#	dynasty=10000230 # Imagawa
+	dynasty_house = house_shgnt_totomi_imagawa
+	father=12395260 # Imagawa Sadaomi
+	martial=6
+	diplomacy=7
+	intrigue=6
+	stewardship=6
+	learning=4
+	religion="shinto"
+	culture="tokai"
+	trait="education_diplomacy_1"
+	trait="ashikaga_family"
+	prowess=10
+	1370.1.1={
+		birth=yes
+	}
+	1430.1.1={
+		death=yes
+	}
+}
+12395273={
+	name=character_name_12395273 # Norimasa
+#	dynasty=10000230 # Imagawa
+	dynasty_house = house_shgnt_totomi_imagawa
+	father=12395270 # Imagawa Sadasuke
+	martial=6
+	diplomacy=4
+	intrigue=6
+	stewardship=6
+	learning=7
+	religion="shinto"
+	culture="tokai"
+	trait="education_diplomacy_1"
+	trait="ashikaga_family"
+	prowess=11
+	1400.1.1={
+		birth=yes
+	}
+	1459.10.1={
+		death={
+			death_reason=death_battle
+		}
+	}
+}
+12395276={
+	name=character_name_12395276 # Sadanobu
+#	dynasty=10000230 # Imagawa
+	dynasty_house = house_shgnt_totomi_imagawa
+	father=12395273 # Imagawa Norimasa
+	martial=7
+	diplomacy=4
+	intrigue=6
+	stewardship=4
+	learning=5
+	religion="shinto"
+	culture="tokai"
+	trait="education_intrigue_1"
+	trait="ashikaga_family"
+	prowess=12
+	1425.01.01={
+		birth=yes
+	}
+	1475.1.1={
+		death=yes
+	}
+}
+12395278={
+	name=character_name_12395278 # Yoshihide # Sena Kazuhide
+#	dynasty=10000230 # Imagawa
+	dynasty_house = house_shgnt_totomi_imagawa
+	father=12395276 # Imagawa Sadanobu
+	martial=5
+	diplomacy=6
+	intrigue=6
+	stewardship=7
+	learning=7
+	religion="shinto"
+	culture="tokai"
+	trait="education_intrigue_1"
+	trait="ashikaga_family"
+	prowess=10
+	1450.01.01={
+		birth=yes
+	}
+	1465.1.1={
+#		dynasty=10000247 # Sena
+		dynasty_house = house_shgnt_sena
+		name=character_name_12395278_1 # Kazuhide
+		give_nickname="nick_mitsu_no_kami"
+	}
+	1490.1.1={
+		name=character_name_12395278_2 # Isshu
+	}
+	1500.1.1={
+		death=yes
+	}
+}
+12395280={
+	name=character_name_12395280 # Naotada
+	dynasty=10000230 # Imagawa
+	father=12395222 # Imagawa Ujikane
+	religion="shinto"
+	culture="tokai"
+	trait="ashikaga_family"
+	prowess=11
+	1359.1.1={
+		birth=yes
+	}
+	1419.1.1={
+		death=yes
+	}
+}
+12395281={
+	name=character_name_12395281 # Yoriharu
+	dynasty=10000230 # Imagawa
+	father=12395222 # Imagawa Ujikane
+	religion="shinto"
+	culture="tokai"
+	trait="ashikaga_family"
+	prowess=10
+	1363.1.1={
+		birth=yes
+	}
+	1413.1.1={
+		death=yes
+	}
+}
+12395282={
+	name=character_name_12395282 # Suekane
+	dynasty=10000230 # Imagawa
+	father=12395222 # Imagawa Ujikane
+	religion="shinto"
+	culture="tokai"
+	trait="ashikaga_family"
+	prowess=9
+	1365.1.1={
+		birth=yes
+	}
+	1415.1.1={
+		death=yes
+	}
+}
+12395283={
+	name=character_name_12395283 # Ujiyori
+	dynasty=10000230 # Imagawa
+	father=12395281 # Imagawa Yoriharu
+	religion="shinto"
+	culture="tokai"
+	trait="ashikaga_family"
+	prowess=11
+	1393.1.1={
+		birth=yes
+	}
+	1443.1.1={
+		death=yes
+	}
+}
+12395284={
+	name=character_name_12395284 # Haruuji
+	dynasty=10000230 # Imagawa
+	father=12395281 # Imagawa Yoriharu
+	religion="shinto"
+	culture="tokai"
+	trait="ashikaga_family"
+	prowess=9
+	1395.1.1={
+		birth=yes
+	}
+	1445.1.1={
+		death=yes
+	}
+}
+12395285={
+	name=character_name_12395285 # Ujiyoshi
+	dynasty=10000230 # Imagawa
+	father=12395283 # Imagawa Ujiyori
+	religion="shinto"
+	culture="tokai"
+	trait="ashikaga_family"
+	prowess=10
+	1418.1.1={
+		birth=yes
+	}
+	1438.1.1={
+#		dynasty=10000465 # Kanbara
+		dynasty_house = house_shgnt_kambara
+	}
+	1468.1.1={
+		death=yes
+	}
+}
+12395286={
+	name=character_name_12395286 # Sadauji
+#	dynasty=10000465 # Kanbara
+	dynasty_house = house_shgnt_kambara
+	father=12395285 # Imagawa Ujiyoshi
+	religion="shinto"
+	culture="tokai"
+	trait="ashikaga_family"
+	prowess=11
+	1443.1.1={
+		birth=yes
+	}
+	1493.1.1={
+		death=yes
+	}
+}
+12395287={
+	name=character_name_12395287 # Mitsuuji
+#	dynasty=10000465 # Kanbara
+	dynasty_house = house_shgnt_kambara
+	father=12395286 # Kanbara Sadauji
+	religion="shinto"
+	culture="tokai"
+	trait="ashikaga_family"
+	prowess=9
+	1473.1.1={
+		birth=yes
+	}
+	1536.1.1={
+		death=yes
+	}
+}
+12395290={
+	name=character_name_12395290 # Sadaaki
+	dynasty=10000230 # Imagawa
+	father=12395223 # Imagawa Nakaaki
+	religion="shinto"
+	culture="tokai"
+	trait="ashikaga_family"
+	prowess=9
+	1360.01.01={
+		birth=yes
+	}
+	1420.01.01={
+		death=yes
+	}
+}
+12395291={
+	name=character_name_12395291 # Ujiaki
+	dynasty=10000230 # Imagawa
+	father=12395223 # Imagawa Nakaaki
+	religion="shinto"
+	culture="tokai"
+	trait="ashikaga_family"
+	prowess=10
+	1363.1.1={
+		birth=yes
+	}
+	1413.1.1={
+		death=yes
+	}
+}
+12395292={
+	name=character_name_12395292 # Naoaki
+	dynasty=10000230 # Imagawa
+	father=12395223 # Imagawa Nakaaki
+	religion="shinto"
+	culture="tokai"
+	trait="ashikaga_family"
+	prowess=11
+	1366.1.1={
+		birth=yes
+	}
+	1416.01.01={
+		death=yes
+	}
+}
+12395295={
+	name=character_name_12395295 # Mochisada
+	dynasty=10000230 # Imagawa
+	father=12395290 # Imagawa Sadaaki
+	religion="shinto"
+	culture="tokai"
+	trait="ashikaga_family"
+	prowess=10
+	1390.01.01={
+		birth=yes
+	}
+	1440.1.1={
+		death=yes
+	}
+}
+12395400={
+	name=character_name_12395400 # Akiuji
+	dynasty=10000256 # Sekiguchi
+	father=12395202 # Sekiguchi Tsuneuji
+	martial=5
+	diplomacy=6
+	intrigue=6
+	stewardship=7
+	learning=7
+	religion="shinto"
+	culture="tokai"
+	trait="education_diplomacy_1"
+	trait="ashikaga_family"
+	prowess=9
+	1290.1.1={
+		birth=yes
+	}
+	1360.1.1={
+		death=yes
+	}
+}
+12395401={
+	name=character_name_12395401 # Sadakuni
+	dynasty=10000256 # Sekiguchi
+	father=12395202 # Sekiguchi Tsuneuji
+	martial=7
+	diplomacy=5
+	intrigue=7
+	stewardship=6
+	learning=5
+	religion="shinto"
+	culture="tokai"
+	trait="education_diplomacy_1"
+	trait="ashikaga_family"
+	prowess=10
+	1295.1.1={
+		birth=yes
+	}
+	1350.1.1={
+		death=yes
+	}
+}
+12395403={
+	name=character_name_12395403 # Genki
+	dynasty=10000256 # Sekiguchi
+	father=12395202 # Sekiguchi Tsuneuji
+	religion="shinto"
+	culture="tokai"
+	trait="ashikaga_family"
+	prowess=11
+	1297.1.1={
+		birth=yes
+	}
+	1347.1.1={
+		death=yes
+	}
+}
+12395405={
+	name=character_name_12395405 # Kaneuji
+	dynasty=10000256 # Sekiguchi
+	father=12395400 # Sekiguchi Akiuji
+	martial=6
+	diplomacy=6
+	intrigue=7
+	stewardship=6
+	learning=7
+	religion="shinto"
+	culture="tokai"
+	trait="education_diplomacy_1"
+	trait="ashikaga_family"
+	prowess=10
+	1330.1.1={
+		birth=yes
+	}
+	1380.1.1={
+		death=yes
+	}
+}
+12395407={
+	name=character_name_12395407 # Suketoki
+	dynasty=10000256 # Sekiguchi
+	father=12395403 # Sekiguchi Genki
+	religion="shinto"
+	culture="tokai"
+	trait="ashikaga_family"
+	prowess=12
+	1323.1.1={
+		birth=yes
+	}
+	1378.1.1={
+		death=yes
+	}
+}
+12395410={
+	name=character_name_12395410 # Mitsuyuki
+	dynasty=10000256 # Sekiguchi
+	father=12395405 # Sekiguchi Kaneuji
+	martial=5
+	diplomacy=5
+	intrigue=6
+	stewardship=6
+	learning=7
+	religion="shinto"
+	culture="tokai"
+	trait="education_diplomacy_1"
+	trait="ashikaga_family"
+	prowess=10
+	1370.1.1={
+		birth=yes
+	}
+	1460.1.1={
+		death=yes
+	}
+}
+12395411={
+	name=character_name_12395411 # Mitsuoki
+	dynasty=10000256 # Sekiguchi
+	father=12395410 # Sekiguchi Mitsuyuki
+	martial=8
+	diplomacy=5
+	intrigue=5
+	stewardship=7
+	learning=8
+	religion="shinto"
+	culture="tokai"
+	trait="education_diplomacy_1"
+	trait="ashikaga_family"
+	prowess=10
+	1410.1.1={
+		birth=yes
+	}
+	1440.1.1={
+		trait="jugoi_ge"
+	}
+	1480.1.1={
+		death=yes
+	}
+}
+12395412={
+	name=character_name_12395412 # Naoyuki
+	dynasty=10000256 # Sekiguchi
+	father=12395410 # Sekiguchi Mitsuyuki
+	martial=8
+	diplomacy=6
+	intrigue=5
+	stewardship=6
+	learning=8
+	religion="shinto"
+	culture="tokai"
+	trait="education_diplomacy_1"
+	trait="ashikaga_family"
+	prowess=12
+	1415.1.1={
+		birth=yes
+	}
+	1490.1.1={
+		death=yes
+	}
+}
+12395415={
+	name=character_name_12395415 # Norikane
+	dynasty=10000256 # Sekiguchi
+	father=12395411 # Sekiguchi Mitsuoki
+	martial=5
+	diplomacy=4
+	intrigue=7
+	stewardship=8
+	learning=5
+	religion="shinto"
+	culture="tokai"
+	trait="education_diplomacy_1"
+	trait="ashikaga_family"
+	prowess=9
+	1440.1.1={
+		birth=yes
+	}
+	1470.1.1={
+		trait="jugoi_ge"
+	}
+	1510.1.1={
+		death=yes
+	}
+}
+12395417={
+	name=character_name_12395417 # Masaoki
+	dynasty=10000256 # Sekiguchi
+	father=12395415 # Sekiguchi Mitsuoki
+	martial=5
+	diplomacy=6
+	intrigue=7
+	stewardship=6
+	learning=6
+	religion="shinto"
+	culture="tokai"
+	trait="education_diplomacy_1"
+	trait="ashikaga_family"
+	prowess=11
+	1480.1.1={
+		birth=yes
+	}
+	1550.9.1={
+		death=yes
+	}
+}
+12395418={
+	name=character_name_12395418 # Kaneoki #
+	dynasty=10000256 # Sekiguchi
+	father=12395415 # Sekiguchi Mitsuoki
+	martial=7
+	diplomacy=7
+	intrigue=7
+	stewardship=7
+	learning=6
+	religion="shinto"
+	culture="tokai"
+	trait="education_diplomacy_1"
+	trait="ashikaga_family"
+	prowess=10
+	1490.1.1={
+		birth=yes
+	}
+	1550.1.1={
+		death=yes
+	}
+}
+12395500={
+	name=character_name_12395500 # Sadamoto
+#	dynasty=10000230 # Imagawa
+	dynasty_house = house_shgnt_totomi_imagawa
+	father=12395276 # Imagawa Sadanobu
+	religion="shinto"
+	culture="tokai"
+	trait="ashikaga_family"
+	prowess=12
+	1465.1.1={
+		birth=yes
+	}
+	1537.1.1={
+		death=yes
+	}
+}
+12396000={
+	name=character_name_12396000 # Sanekuni
+	dynasty=10007330 # Nikki
+	father=12139061 # Ashikaga Yoshizane
+	religion="shinto"
+	culture="northern_kanto"
+	trait="ashikaga_family"
+	prowess=10
+	1200.1.1={
+		birth=yes
+	}
+	1260.1.1={
+		death=yes
+	}
+}
+12396001={
+	name=character_name_12396001 # Yoshitoshi
+	dynasty=10007330 # Nikki
+	father=12396000 # Nikki Sanekuni
+	religion="shinto"
+	culture="northern_kanto"
+	trait="ashikaga_family"
+	prowess=9
+	1220.1.1={
+		birth=yes
+	}
+	1280.1.1={
+		death=yes
+	}
+}
+12396005={
+	name=character_name_12396005 # Yoshitsugu
+	dynasty=10007330 # Nikki
+	father=12396001 # Nikki Yoshitoshi
+	religion="shinto"
+	culture="northern_kanto"
+	trait="ashikaga_family"
+	prowess=12
+	1240.1.1={
+		birth=yes
+	}
+	1300.1.1={
+		death=yes
+	}
+}
+12396010={
+	name=character_name_12396010 # Moroyoshi
+	dynasty=10007330 # Nikki
+	father=12396005 # Nikki Yoshitsugu
+	religion="shinto"
+	culture="northern_kanto"
+	trait="ashikaga_family"
+	prowess=12
+	1260.1.1={
+		birth=yes
+	}
+	1320.1.1={
+		death=yes
+	}
+}
+12396015={
+	name=character_name_12396015 # Yoshikatsu
+	dynasty=10007330 # Nikki
+	father=12396010 # Nikki Moroyoshi
+	religion="shinto"
+	culture="central_kinai"
+	trait="ashikaga_family"
+	prowess=11
+	1280.1.1={
+		birth=yes
+	}
+	1335.1.1={
+		death=yes
+	}
+}
+12396016={
+	name=character_name_12396016 # Yorikatsu
+	dynasty=10007330 # Nikki
+	father=12396010 # Nikki Moroyoshi
+	religion="shinto"
+	culture="central_kinai"
+	prowess=12
+	1278.1.1={
+		birth=yes
+	}
+	1330.1.1={
+		death=yes
+	}
+}
+12396020={
+	name=character_name_12396020 # Yoriaki
+	dynasty=10007330 # Nikki
+	father=12396015 # Nikki Yoshikatsu
+	religion="shinto"
+	culture="central_kinai"
+	trait="ashikaga_family"
+	prowess=11
+	1299.1.1={
+		birth=yes
+	}
+	1359.11.4={
+		death=yes
+	}
+}
+12396021={
+	name=character_name_12396021 # Yoshinaga
+	dynasty=10007330 # Nikki
+	father=12396015 # Nikki Yoshikatsu
+	religion="shinto"
+	culture="central_kinai"
+	trait="ashikaga_family"
+	prowess=12
+	1310.1.1={
+		birth=yes
+	}
+	1376.10.23={
+		death=yes
+	}
+}
+12396022={
+	name=character_name_12396022 # Yorikatsu
+	dynasty=10007330 # Nikki
+	father=12396015 # Nikki Yoshikatsu
+	religion="shinto"
+	culture="central_kinai"
+	trait="ashikaga_family"
+	prowess=10
+	1312.1.1={
+		birth=yes
+	}
+	1370.1.1={
+		death=yes
+	}
+}
+12396025={
+	name=character_name_12396025 # Yoshitada
+	dynasty=10007330 # Nikki
+	father=12396020 # Nikki Yoriaki
+	religion="shinto"
+	culture="central_kinai"
+	trait="ashikaga_family"
+	prowess=11
+	1330.1.1={
+		birth=yes
+	}
+	1380.1.1={
+		death=yes
+	}
+}
+12396030={
+	name=character_name_12396030 # Kiyotada
+	dynasty=10007330 # Nikki
+	father=12396025 # Nikki Yoshitada
+	religion="shinto"
+	culture="central_kinai"
+	trait="ashikaga_family"
+	prowess=10
+	1350.1.1={
+		birth=yes
+	}
+	1400.1.1={
+		death=yes
+	}
+}
+12396035={
+	name=character_name_12396035 # Mochitada
+	dynasty=10007330 # Nikki
+	father=12396030 # Nikki Kiyotada
+	religion="shinto"
+	culture="central_kinai"
+	trait="ashikaga_family"
+	prowess=11
+	1375.1.1={
+		birth=yes
+	}
+	1415.1.1={
+		death=yes
+	}
+}
+12396040={
+	name=character_name_12396040 # Mochinaga
+	dynasty=10007330 # Nikki
+	father=12396035 # Nikki Mochitada
+	religion="shinto"
+	culture="central_kinai"
+	trait="ashikaga_family"
+	prowess=12
+	1400.1.1={
+		birth=yes
+	}
+	1429.1.1={
+		death=yes
+	}
+}
+12396045={
+	name=character_name_12396045 # Shigenaga
+	dynasty=10007330 # Nikki
+	father=12396040 # Nikki Mochinaga
+	religion="shinto"
+	culture="central_kinai"
+	trait="ashikaga_family"
+	prowess=10
+	1425.1.1={
+		birth=yes
+	}
+	1480.1.1={
+		death=yes
+	}
+}
+12396050={
+	name=character_name_12396050 # Masamitsu
+	dynasty=10007330 # Nikki
+	father=12396045 # Nikki Shigenaga
+	religion="shinto"
+	culture="central_kinai"
+	trait="ashikaga_family"
+	prowess=11
+	1452.1.1={
+		birth=yes
+	}
+	1510.1.1={
+		death=yes
+	}
+}
+12396060={
+	name=character_name_12396060 # Yoshinao
+	dynasty=10007330 # Nikki
+	father=12396016 # Nikki Yorikatsu
+	religion="shinto"
+	culture="central_kinai"
+	prowess=10
+	1300.1.1={
+		birth=yes
+	}
+	1350.1.1={
+		death=yes
+	}
+}
+12396100={
+	name=character_name_12396100 # Kuniyuki
+	dynasty=10007330 # Nikki
+	father=12396040 # Nikki Mochinaga
+	religion="shinto"
+	culture="central_kinai"
+	trait="ashikaga_family"
+	prowess=10
+	1420.1.1={
+		birth=yes
+	}
+	1460.1.1={
+		death=yes
+	}
+}
+12396105={
+	name=character_name_12396105 # Masanaga
+	dynasty=10007330 # Nikki
+	father=12396100 # Nikki Kuniyuki
+	religion="shinto"
+	culture="central_kinai"
+	trait="ashikaga_family"
+	prowess=11
+	1450.1.1={
+		birth=yes
+	}
+	1510.1.1={
+		death=yes
+	}
+}
+12396110={
+	name=character_name_12396110 # Nagayori
+	dynasty=10007330 # Nikki
+	father=12396105 # Nikki Masanaga
+	religion="shinto"
+	culture="central_kinai"
+	trait="ashikaga_family"
+	prowess=11
+	1480.1.1={
+		birth=yes
+	}
+	1540.1.1={
+		death=yes
+	}
+}
+12396111={
+	name=character_name_12396111 # Shichiro
+	dynasty=10007330 # Nikki
+	father=12396105 # Nikki Masanaga
+	religion="shinto"
+	culture="central_kinai"
+	trait="ashikaga_family"
+	prowess=11
+	1490.1.1={
+		birth=yes
+	}
+	1550.1.1={
+		death=yes
+	}
+}
+12396115={
+	name=character_name_12396115 # Nagamasa
+	dynasty=10007330 # Nikki
+	father=12396110 # Nikki Nagayori
+	religion="shinto"
+	culture="central_kinai"
+	trait="ashikaga_family"
+	prowess=10
+	1510.1.1={
+		birth=yes
+	}
+	1575.1.1={
+		death=yes
+	}
+}
+12396120={
+	name=character_name_12396120 # Masachika
+	dynasty=10007330 # Nikki
+	father=12396115 # Nikki Nagamasa
+	religion="shinto"
+	culture="central_kinai"
+	trait="ashikaga_family"
+	prowess=10
+	1540.1.1={
+		birth=yes
+	}
+	1590.1.1={
+		death=yes
+	}
+}
+12396150={
+	name=character_name_12396150 # Yoshikazu
+	dynasty=10007330 # Nikki
+	father=12396021 # Nikki Yoshinaga
+	religion="shinto"
+	culture="central_kinai"
+	trait="ashikaga_family"
+	prowess=11
+	1350.1.1={
+		birth=yes
+	}
+	1410.1.1={
+		death=yes
+	}
+}
+12396151={
+	name=character_name_12396151 # Mitsunaga
+	dynasty=10007330 # Nikki
+	father=12396021 # Nikki Yoshinaga
+	religion="shinto"
+	culture="central_kinai"
+	trait="ashikaga_family"
+	prowess=10
+	1352.1.1={
+		birth=yes
+	}
+	1410.1.1={
+		death=yes
+	}
+}
+12396155={
+	name=character_name_12396155 # Mitsumasa
+	dynasty=10007330 # Nikki
+	father=12396151 # Nikki Mitsunaga
+	religion="shinto"
+	culture="western_chubu"
+	trait="ashikaga_family"
+	prowess=10
+	1380.1.1={
+		birth=yes
+	}
+	1440.1.1={
+		death=yes
+	}
+}
+12396160={
+	name=character_name_12396160 # Norimasa
+	dynasty=10007330 # Nikki
+	father=12396155 # Nikki Mitsumasa
+	religion="shinto"
+	culture="western_chubu"
+	trait="ashikaga_family"
+	prowess=9
+	1410.1.1={
+		birth=yes
+	}
+	1470.1.1={
+		death=yes
+	}
+}
+12396165={
+	name=character_name_12396165 # Shigemasa
+	dynasty=10007330 # Nikki
+	father=12396160 # Nikki Norimasa
+	religion="shinto"
+	culture="western_chubu"
+	trait="ashikaga_family"
+	prowess=9
+	1435.1.1={
+		birth=yes
+	}
+	1480.1.1={
+		death=yes
+	}
+}
+12396170={
+	name=character_name_12396170 # Sadanaga
+	dynasty=10007330 # Nikki
+	father=12396165 # Nikki Shigemasa
+	religion="shinto"
+	culture="western_chubu"
+	trait="ashikaga_family"
+	prowess=12
+	1460.1.1={
+		birth=yes
+	}
+	1487.9.1={
+		death=yes
+	}
+}
+12396175={
+	name=character_name_12396175 # Takanaga
+	dynasty=10007330 # Nikki
+	father=12396170 # Nikki Sadanaga
+	religion="shinto"
+	culture="western_chubu"
+	trait="ashikaga_family"
+	prowess=10
+	1480.1.1={
+		birth=yes
+	}
+	1540.1.1={
+		death=yes
+	}
+}
+12400100={
+	name=character_name_12400100 # Munetaka
+	dynasty=10000829 # Kuno
+	religion="shinto"
+	culture="tokai"
+	prowess=9
+	1450.1.1={
+		birth=yes
+	}
+	1510.1.1={
+		death=yes
+	}
+}
+12400101={
+	name=character_name_12400101 # Munetada
+	dynasty=10000829 # Kuno
+	father=12400100 # Kuno Munetaka
+	religion="shinto"
+	culture="tokai"
+	prowess=10
+	1480.1.1={
+		birth=yes
+	}
+	1530.1.1={
+		death=yes
+	}
+}
+12400105={
+	name=character_name_12400105 # Muneshige
+	dynasty=10000829 # Kuno
+	father=12400101 # Kuno Munetada
+	religion="shinto"
+	culture="tokai"
+	prowess=11
+	1500.1.1={
+		birth=yes
+	}
+	1550.1.1={
+		death=yes
+	}
+}
+12400110={
+	name=character_name_12400110 # Motomune
+	dynasty=10000829 # Kuno
+	father=12400105 # Kuno Muneshige
+	religion="shinto"
+	culture="tokai"
+	prowess=9
+	1520.1.1={
+		birth=yes
+	}
+	1560.6.12={
+		death=yes
+	}
+}
+12400111={
+	name=character_name_12400111 # Munetsune
+	dynasty=10000829 # Kuno
+	father=12400105 # Kuno Muneshige
+	religion="shinto"
+	culture="tokai"
+	prowess=10
+	1522.1.1={
+		birth=yes
+	}
+	1560.6.12={
+		death=yes
+	}
+}
+12400112={
+	name=character_name_12400112 # Muneyoshi
+	dynasty=10000829 # Kuno
+	father=12400105 # Kuno Muneshige
+	religion="shinto"
+	culture="tokai"
+	prowess=10
+	1527.1.1={
+		birth=yes
+	}
+	1609.11.4={
+		death=yes
+	}
+}
+12400200={
+	name=character_name_12400200 # Sadatsuna
+	dynasty=10000830 # Okouchi
+	religion="shinto"
+	culture="tokai"
+	martial=6
+	trait="education_martial_3"
+	trait="patient"
+	trait="unyielding_defender"
+	prowess=13
+	1460.1.1={
+		birth=yes
+	}
+	1517.9.4={
+		death=yes
+	}
+}
+12410100={
+	name=character_name_12410100 # Saneyuki
+	dynasty=10000831 # Tominaga
+	father=12390461 # Tominaga Suketaka
+	religion="shinto"
+	culture="tokai"
+	prowess=11
+	1175.1.1={
+		birth=yes
+	}
+	1235.1.1={
+		death=yes
+	}
+}
+12410101={
+	name=character_name_12410101 # Sanehira
+	dynasty=10000831 # Tominaga
+	father=12410100 # Tominaga Saneyuki
+	religion="shinto"
+	culture="tokai"
+	prowess=10
+	1200.1.1={
+		birth=yes
+	}
+	1260.1.1={
+		death=yes
+	}
+}
+12410105={
+	name=character_name_12410105 # Suketsuna
+	dynasty=10000831 # Tominaga
+	father=12410101 # Tominaga Sanehira
+	religion="shinto"
+	culture="tokai"
+	prowess=12
+	1225.1.1={
+		birth=yes
+	}
+	1285.1.1={
+		death=yes
+	}
+}
+12410110={
+	name=character_name_12410110 # Sukekuni
+	dynasty=10000831 # Tominaga
+	father=12410105 # Tominaga Suketsuna
+	religion="shinto"
+	culture="tokai"
+	prowess=10
+	1250.1.1={
+		birth=yes
+	}
+	1310.1.1={
+		death=yes
+	}
+}
+12410115={
+	name=character_name_12410115 # Sukesato
+	dynasty=10000831 # Tominaga
+	father=12410110 # Tominaga Sukekuni
+	religion="shinto"
+	culture="tokai"
+	prowess=10
+	1275.1.1={
+		birth=yes
+	}
+	1325.1.1={
+		death=yes
+	}
+}
+12410120={
+	name=character_name_12410120 # Naosato
+	dynasty=10000831 # Tominaga
+	father=12410115 # Tominaga Sukesato
+	religion="shinto"
+	culture="tokai"
+	prowess=10
+	1300.1.1={
+		birth=yes
+	}
+	1360.1.1={
+		death=yes
+	}
+}
+12410121={
+	name=character_name_12410121 # Sukenao
+	dynasty=10000831 # Tominaga
+	father=12410115 # Tominaga Sukesato
+	religion="shinto"
+	culture="tokai"
+	prowess=10
+	1302.1.1={
+		birth=yes
+	}
+	1360.1.1={
+		death=yes
+	}
+}
+12410125={
+	name=character_name_12410125 # Naokane
+	dynasty=10000831 # Tominaga
+	father=12410120 # Tominaga Naosato
+	religion="shinto"
+	culture="tokai"
+	prowess=11
+	1325.1.1={
+		birth=yes
+	}
+	1385.1.1={
+		death=yes
+	}
+}
+12410130={
+	name=character_name_12410130 # Takakane
+	dynasty=10000831 # Tominaga
+	father=12410125 # Tominaga Naokane
+	religion="shinto"
+	culture="tokai"
+	prowess=12
+	1350.1.1={
+		birth=yes
+	}
+	1410.1.1={
+		death=yes
+	}
+}
+12410135={
+	name=character_name_12410135 # Sukekazu
+	dynasty=10000831 # Tominaga
+	father=12410130 # Tominaga Takakane
+	religion="shinto"
+	culture="tokai"
+	prowess=11
+	1380.1.1={
+		birth=yes
+	}
+	1440.1.1={
+		death=yes
+	}
+}
+12410140={
+	name=character_name_12410140 # Nobusuke
+	dynasty=10000831 # Tominaga
+	father=12410135 # Tominaga Sukekazu
+	religion="shinto"
+	culture="tokai"
+	prowess=12
+	1410.1.1={
+		birth=yes
+	}
+	1470.1.1={
+		death=yes
+	}
+}
+12410145={
+	name=character_name_12410145 # Tomisuke
+	dynasty=10000831 # Tominaga
+	father=12410140 # Tominaga Nobusuke
+	religion="shinto"
+	culture="tokai"
+	prowess=11
+	1440.1.1={
+		birth=yes
+	}
+	1490.1.1={
+		death=yes
+	}
+}
+12410150={
+	name=character_name_12410150 # Hisakane
+	dynasty=10000831 # Tominaga
+	father=12410145 # Tominaga Tomisuke
+	religion="shinto"
+	culture="tokai"
+	prowess=10
+	1470.1.1={
+		birth=yes
+	}
+	1500.1.1={
+		death=yes
+	}
+}
+12410155={
+	name=character_name_12410155 # Senwakamaru
+	dynasty=10000831 # Tominaga
+	father=12410150 # Tominaga Hisakane
+	religion="shinto"
+	culture="tokai"
+	prowess=11
+	1500.1.1={
+		birth=yes
+	}
+	1506.1.1={
+		death=yes
+	}
+}
+12410200={
+	name=character_name_12410200 # Kuniuji
+	dynasty=10000832 # Tojo
+	religion="shinto"
+	culture="tokai"
+	stewardship=5
+	trait="education_stewardship_2"
+	prowess=10
+	1430.1.1={
+		birth=yes
+	}
+	1476.9.1={
+		death=yes
+	}
+}
+12410300={
+	name=character_name_12410300 # Tokimasa
+	dynasty=10000833 # Hatano
+	religion="shinto"
+	culture="tokai"
+	prowess=10
+	1440.1.1={
+		birth=yes
+	}
+	1493.1.1 ={
+		death=yes
+	}
+}
