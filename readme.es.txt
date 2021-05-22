@@ -1,10 +1,10 @@
-Alteración del mapa del Shogunato MOD versión 0.4.3 'Atoiya'
+Alteración del mapa del Shogunato MOD versión 0.4.4 'Atoiya'
 
 [h1]※ Esta es una prueba de subida pública, por lo que inesperadamente se convertirá en privada[/h1]
-[h1]Shogunate MOD Alteración del mapa sub MOD versión alfa Versión 0.4.3 'Atoiya'[/h1]
+[h1]Shogunate MOD Alteración del mapa sub MOD versión alfa Versión 0.4.4 'Atoiya'[/h1]
 ====
 
-Shogunate Alteración del mapa sub MOD versión alfa Versión 0.4.3 'Atoiya' es un submod del mod Shogunate. Sustituye el mapa por uno de alta resolución y aumenta el territorio de Provenza-Barón.
+Shogunate Alteración del mapa sub MOD versión alfa Versión 0.4.4 'Atoiya' es un submod del mod Shogunate. Sustituye el mapa por uno de alta resolución y aumenta el territorio de Provenza-Barón.
 
 [h2]ATENCIÓN[/h2]
 Este MOD es una versión alfa.
@@ -47,6 +47,7 @@ Ciudades como "Kioto", "Osaka", "Nara" y "Sakai" fueron creadas como territorios
 La textura del suelo mostrada en el mapa es diferente de la histórica.
 [*] La función de invierno añadida en la versión 1.3 de CK3 no funciona.
 [*] El peinado de la persona. La ropa es de la cultura esteparia de vainilla. Debido a la falta de familiaridad del autor con el modelado 3D CG, no hay planes para implementar peinados o ropa japonesa.
+[*] No hemos hecho nada en absoluto para ajustar el equilibrio entre las distintas fuerzas.
 [/list
 
 [h2]Requisitos[/h2]

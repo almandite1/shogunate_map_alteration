@@ -1,10 +1,10 @@
-Shogunate 地図改変サブ MOD 日本語 アルファ版 Version 0.4.3 'Atoiya'
+Shogunate 地図改変サブ MOD 日本語 アルファ版 Version 0.4.4 'Atoiya'
 
 [h1]※ アップロードテストのための公開なので予告なく非公開になります[/h1]
-[h1]Shogunate 地図改変サブ MOD 日本語 アルファ版 Version 0.4.3 'Atoiya'[/h1]
+[h1]Shogunate 地図改変サブ MOD 日本語 アルファ版 Version 0.4.4 'Atoiya'[/h1]
 ====
 
-Shogunate 地図改変サブ MOD アルファ版 Version 0.4.3 'Atoiya'は [url=https://steamcommunity.com/workshop/filedetails/?id=2253279956]Shogunate MOD [/url]のサブ MOD です。地図を高解像なものに置き換え、プロヴィンス＝男爵領を増やします。
+Shogunate 地図改変サブ MOD アルファ版 Version 0.4.4 'Atoiya'は [url=https://steamcommunity.com/workshop/filedetails/?id=2253279956]Shogunate MOD [/url]のサブ MOD です。地図を高解像なものに置き換え、プロヴィンス＝男爵領を増やします。
 英語版は[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2391487224]こちら[/url]からサブスクライブできます。
 
 [h2]注意[/h2]
@@ -46,6 +46,7 @@ Shogunate 地図改変サブ MOD アルファ版 Version 0.4.3 'Atoiya'は [url=
 [*] 地図に表示される地面テクスチャは史実とは異なります。
 [*] CK3 version 1.3 で追加された冬季機能は動作しません。
 [*] 人物の髪型。服装はバニラのステップ－モンゴル文化のものです。作者は3D CG モデリングに疎いため日本的な髪型・服装が実装される予定はありません。
+[*] 各勢力間のバランス調整などは全くなにもしていません。
 [/list]
 
 [h2]動作条件[/h2]

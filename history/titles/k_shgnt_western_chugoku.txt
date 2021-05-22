@@ -16,18 +16,32 @@
     1432.01.01 = {
         holder = 10057157 # Washizu Hirotada
     }
+	1447.1.13 = {
+		liege = "k_shgnt_western_chugoku"
+		holder = 10057403 # Yoshimi Shigeyori
+	}
     1470.01.01 = {
+		liege = "k_shgnt_western_chugoku"
         holder = 10057404 # Yoshimi Nobuyori
     }
     1482.06.13 = {
+		liege = "k_shgnt_western_chugoku"
         holder = 10057401 # Yoshimi Yorioki
     }
     1532.05.26 = {
+		liege = "k_shgnt_western_chugoku"
         holder = 10057400 # Yoshimi Takayori
     }
     1540.01.01 = {
+		liege = "k_shgnt_western_chugoku"
         holder = 10057402 # Yoshimi Masayori
     }
+	1551.09.30 = {
+        liege = 0
+    }
+	1557.05.01 = {
+		liege = "k_shgnt_western_chugoku"
+	}
 }
 c_shgnt_aki_kamo = {
     0001.01.01 = { change_development_level = 20 }
@@ -197,7 +211,7 @@ c_shgnt_asa = {
         holder = 10057251 # Naito Takayo
     }
     1557.04.30 = {
-        liege = d_shgnt_aki # 
+        liege = "k_shgnt_western_chugoku" # 
         holder = 10057402 # Yoshimi Masayori
     }
 }
@@ -514,7 +528,7 @@ c_shgnt_saba = {
         holder = 10056004 # Mori Motonari
     }
     1557.04.30 = {
-        liege = d_shgnt_aki # 
+        liege = "k_shgnt_western_chugoku" # 
         holder = 10057402 # Yoshimi Masayori
     }
 }
@@ -1346,8 +1360,6 @@ c_shgnt_nima = {
 }
 c_shgnt_kanoashi = {
     0001.01.01 = { change_development_level = 20 }
-    0100.01.01 = {
-    }
     1180.01.01 = {
         liege = 0 # 
         holder = 12661200 # Masuda Kanehide
@@ -1363,32 +1375,32 @@ c_shgnt_kanoashi = {
 			}
 		}
 	}
-    1391.10.14 = {
-        liege = d_shgnt_iwami # 
-        holder = 10055927 # Masuda Kaneyo
+	1447.1.13 = {
+		liege = "k_shgnt_western_chugoku"
+		holder = 10057403 # Yoshimi Shigeyori
+	}
+    1470.01.01 = {
+		liege = "k_shgnt_western_chugoku"
+        holder = 10057404 # Yoshimi Nobuyori
     }
-    1407.01.18 = {
-        liege = d_shgnt_iwami # 
-        holder = 10055926 # Masuda Hidekane
+    1482.06.13 = {
+		liege = "k_shgnt_western_chugoku"
+        holder = 10057401 # Yoshimi Yorioki
     }
-    1419.03.12 = {
-        liege = d_shgnt_iwami # 
-        holder = 10055920 # Masuda Kanemichi
+    1532.05.26 = {
+		liege = "k_shgnt_western_chugoku"
+        holder = 10057400 # Yoshimi Takayori
     }
-    1431.08.06 = {
-        liege = d_shgnt_iwami # 
-        holder = 10055914 # ã€€Masudaã€€Kanetaka
+    1540.01.01 = {
+		liege = "k_shgnt_western_chugoku"
+        holder = 10057402 # Yoshimi Masayori
     }
-    1461.01.01 = {
-        liege = k_shgnt_western_chugoku # 
-        holder = 10055901 # ã€€Masuda Sadakane
+	1551.09.30 = {
+        liege = 0
     }
-    1483.01.01 = {
-        holder = 10055900 # Masuda Munekane
-    }
-    1544.02.12 = {
-        holder = 10055903 # Masuda Fujikane
-    }
+	1557.05.01 = {
+		liege = "k_shgnt_western_chugoku"
+	}
 }
 c_shgnt_sato = {
     0001.01.01 = { change_development_level = 30 }
@@ -1845,7 +1857,7 @@ c_shgnt_nagato_yoshida = {
         holder = 10057251 # Naito Takayo
     }
     1557.04.30 = {
-        liege = d_shgnt_aki # 
+        liege = "k_shgnt_western_chugoku" # 
         holder = 10057402 # Yoshimi Masayori
     }
 }
@@ -1890,7 +1902,7 @@ c_shgnt_koto = {
         holder = 10057251 # Naito Takayo
     }
     1557.04.30 = {
-        liege = d_shgnt_aki # 
+        liege = "k_shgnt_western_chugoku" # 
         holder = 10057402 # Yoshimi Masayori
     }
 }

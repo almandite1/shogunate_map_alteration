@@ -1,10 +1,10 @@
-Shogunate 大修地图替代 MOD α版 Version 0.4.3 'Atoiya'
+Shogunate 大修地图替代 MOD α版 Version 0.4.4 'Atoiya'
 
 [h1]＊此为上传测试，将不另行通知。[/h1]
-[h1]Shogunate 大修地图替代 MOD α版 Version 0.4.3 'Atoiya'[/h1]
+[h1]Shogunate 大修地图替代 MOD α版 Version 0.4.4 'Atoiya'[/h1]
 ====
 
-Shogunate 大修地图替代 MOD α版 Version 0.4.3 'Atoiya'是Shogunate（幕府）MOD的一个子模式。
+Shogunate 大修地图替代 MOD α版 Version 0.4.4 'Atoiya'是Shogunate（幕府）MOD的一个子模式。
 
 [h2]注意事项[/h2]
 这个mod是一个alpha版本。 存在已知的问题和未实现的功能。 可能这个mod升级后，保存的保存数据将无法使用。 请不要以长期延续为目标来玩这个游戏。
@@ -45,6 +45,7 @@ Shogunate 大修地图替代 MOD α版 Version 0.4.3 'Atoiya'是Shogunate（幕�
 [*] Shogunate MOD并没有涵盖所有的信息，可以根据年龄改变男爵的头衔名称。
 [*] CK3 1.3版本中增加的冬季功能无法使用。
 [*] 人的发型、服装来自香草步--蒙古族文化。 笔者对3D CG建模并不熟悉，所以没有实现日式发型和服装的计划。
+[*] 我们根本没有做任何事情来调整各种力量之间的平衡。
 [/list]
 
 [h2]操作条件[/h2]

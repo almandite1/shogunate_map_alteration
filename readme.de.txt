@@ -1,10 +1,10 @@
-Shogunate Kartenveränderung MOD Alpha Version 0.4.3 'Atoiya'
+Shogunate Kartenveränderung MOD Alpha Version 0.4.4 'Atoiya'
 
 [h1]※ Dies ist ein öffentlicher Upload-Test, daher wird er unerwartet privat[/h1]
-[h1]Shogunate MOD Map alteration sub MOD alpha version Version 0.4.3 'Atoiya'[/h1]
+[h1]Shogunate MOD Map alteration sub MOD alpha version Version 0.4.4 'Atoiya'[/h1]
 ====
 
-Shogunate Map alteration sub MOD alpha version Version 0.4.3 'Atoiya' ist ein submod der Shogunate mod. Sie ersetzt die Karte durch eine hochauflösende und vergrößert das Gebiet der Provence-Baron.
+Shogunate Map alteration sub MOD alpha version Version 0.4.4 'Atoiya' ist ein submod der Shogunate mod. Sie ersetzt die Karte durch eine hochauflösende und vergrößert das Gebiet der Provence-Baron.
 
 [h2]VORSICHT[/h2]
 Dieser Mod ist eine Alpha-Version.
@@ -47,6 +47,7 @@ Städte wie "Kyoto", "Osaka", "Nara" und "Sakai" wurden als unabhängige Kreiste
 [*] Die auf der Karte angezeigte Bodentextur unterscheidet sich von der historischen.
 [*] Die in CK3 Version 1.3 hinzugefügte Winterfunktion funktioniert nicht.
 [*] Die Frisur der Person. Die Kleidung stammt aus der Vanille-Stufe - der mongolischen Kultur. Der Autor ist nicht mit der 3D-CG-Modellierung vertraut, daher ist nicht geplant, japanische Frisuren und Kleidung zu implementieren.
+[*] Wir haben überhaupt nichts getan, um das Gleichgewicht zwischen den verschiedenen Kräften zu regulieren.
 [/list]
 
 [h2]Anforderungen[/h2]

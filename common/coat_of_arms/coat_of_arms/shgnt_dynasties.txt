@@ -1283,3 +1283,130 @@ house_shgnt_hatakeyamabishu = { #Nihonmatsu
 		instance = { position = { 0.50 0.50 } scale = { 0.9 0.9 }  }
 	}
 }
+
+10000250 = { #Sakai
+	pattern = "pattern_solid.dds"	
+	color1 = "minatonezumi_iro"
+	colored_emblem = {
+		texture = "circular_combo_1.dds"
+		color1 = "moegi_iro"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+	colored_emblem = {
+		texture = "ce_katabami_cc_12.dds"
+		color1 = "moegi_iro"
+		instance = { position = { 0.5 0.5 } scale = { 0.68 0.68 }  }
+	}
+}
+10001250 = { # Murakami Genji [Minamoto]
+	pattern = "pattern_solid.dds"
+	color1 = "ama_iro"
+	colored_emblem = {
+		texture = "ce_rindou_cc_2.dds"
+		color1 = "white"		
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 } }		
+	}
+}
+house_shgnt_tsuchimikado = { # Murakami Genji [Minamoto]
+	pattern = "pattern_solid.dds"
+	color1 = "tsuyukusa_iro"
+	colored_emblem = {
+		texture = "ce_rindou_cc_2.dds"
+		color1 = "white"		
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 } }		
+	}
+}
+house_shgnt_koga = { # Murakami Genji [Minamoto]
+	pattern = "pattern_solid.dds"
+	color1 = "ao_iro"
+	colored_emblem = {
+		texture = "ce_rindou_cc_2.dds"
+		color1 = "white"		
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 } }		
+	}
+}
+house_shgnt_nakanoin = { # Murakami Genji [Minamoto]
+	pattern = "pattern_solid.dds"
+	color1 = "usuai_iro"
+	colored_emblem = {
+		texture = "ce_rindou_cc_2.dds"
+		color1 = "white"		
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 } }		
+	}
+}
+10000260 = { #Kitabatake
+	pattern = "pattern_solid.dds"
+	color1 = "white"
+	colored_emblem = {
+		texture = "ce_rindou_cc_2.dds"
+		color1 = "usuai_iro"		
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 } }		
+	}
+}
+house_shgnt_kitabatake = 10000260
+10000040 = { #Namioka
+	pattern = "pattern_solid.dds"
+	color1 = "usuai_iro"
+	colored_emblem = {
+		texture = "ce_rindou_cc_2.dds"
+		color1 = "black"		
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 } }		
+	}
+}
+house_shgnt_namioka = 10000040
+house_shgnt_rokujo = { # Murakami Genji [Minamoto]
+	pattern = "pattern_solid.dds"
+	color1 = "hanada_iro"
+	colored_emblem = {
+		texture = "ce_rindou_cc_2.dds"
+		color1 = "white"		
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 } }		
+	}
+}
+10001255 = { #Chigusa
+	pattern = "pattern_solid.dds"
+	color1 = "konpeki_iro"
+	colored_emblem = {
+		texture = "ce_rindou_cc_2.dds"
+		color1 = "white"		
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 } }		
+	}
+}
+house_shgnt_chigusa = 10001255
+house_shgnt_okawachi = { # Murakami Genji [Minamoto]
+	pattern = "pattern_solid.dds"
+	color1 = "usuai_iro"
+	colored_emblem = {
+		texture = "ce_rindou_cc_2.dds"
+		color1 = "red"		
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 } }		
+	}
+}
+10000847 = { #Tamaru
+	pattern = "pattern_solid.dds"	
+	color1 = "usuai_iro"
+	colored_emblem = {
+		texture = "ce_h_tamaru.dds"
+		color1 = "black"
+		instance = { position = { 0.50 0.50 } scale = { 0.9 0.9 }  }
+	}
+}
+house_shgnt_tamaru = 10000847
+house_shgnt_kozukuri = { # Murakami Genji [Minamoto]
+	pattern = "pattern_solid.dds"
+	color1 = "usuai_iro"
+	colored_emblem = {
+		texture = "ce_rindou_cc_2.dds"
+		color1 = "yellow"		
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 } }		
+	}
+}
+house_shgnt_hoshiai = { # Murakami Genji [Minamoto]
+	pattern = "pattern_solid.dds"
+	color1 = "usuai_iro"
+	colored_emblem = {
+		texture = "ce_rindou_cc_2.dds"
+		color1 = "purple"		
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 } }		
+	}
+}
