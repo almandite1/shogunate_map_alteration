@@ -1003,6 +1003,7 @@ c_shgnt_kai-sai = {
         holder = 12535030 # Hattori Sakyoshin
     }
     1430.01.01 = {
+        liege = d_shgnt_owari # 
         holder = 12535031 # Hattori Yasumune
     }
     1450.01.01 = {
@@ -1747,11 +1748,9 @@ c_shgnt_muge = {
     }
 }
 c_shgnt_nakashima = {
-    0001.01.01 = { change_development_level = 20 }
-    1000.01.01 = { change_development_level = 20 }
-    1331.01.01 = { change_development_level = 30 }
-    1400.01.01 = { change_development_level = 50 }
-    1567.01.01 = { change_development_level = 50 }
+    0001.01.01 = { change_development_level = 10 }
+    0701.01.01 = { change_development_level = 20 }
+    1331.01.01 = { change_development_level = 60 }
     1179.12.18 = {
         liege = d_shgnt_owari # Taira Kiyosada
         holder = 10110140 # Taira Kiyosada
@@ -1760,56 +1759,66 @@ c_shgnt_nakashima = {
         liege = 0 # 
         holder = 0 # Taira's escape to the west
     }
-    1392.01.24 = {
-        liege = e_shgnt_japan # 
-        holder = 10045200 # Yuki Mitsufuji
-    }
-    1394.01.01 = {
-        liege = d_shgnt_mikawa # 
-        holder = 10049507 # Isshiki Akinori
-    }
-    1406.06.22 = {
-        holder = 10049509 # Isshiki Mitsunori
-    }
-    1409.01.25 = {
-        holder = 10049512 # Isshiki Yoshitsura
-    }
-    1430.01.01 = {
+    1400.06.01 = {
         liege = d_shgnt_owari # 
+        holder = 10029011 # Shiba Yoshishige
+    }
+    1418.09.10 = {
         holder = 10029012 # Shiba Yoshiatsu
     }
-    1430.01.02 = {
-        holder = 10029105 # Oda Jochiku
+    1434.01.11 = {
+        holder = 10029013 # Shiba Yoshisato
     }
-    1436.01.01 = {
-        holder = 10029113 # Oda Hisanaga
+    1436.11.08 = {
+        holder = 10029016 # Shiba Yoshitake
     }
-    1467.06.27 = {
-        liege = d_shgnt_totomi # 
-        holder = 10029114 # Oda Toshisada
+    1452.10.13 = {
+        holder = 10029019 # Shiba Yoshitoshi
     }
-    1493.01.01 = {
-        holder = 10029125 # Oda Sukenobu
+    1460.01.01 = {
+        holder = 10029021 # Shiba Yoshihiro
     }
-	1504.01.01 = {
-		effect = {
+    1461.09.06 = {
+        holder = 10057621 # Shiba Yoshikado
+    }
+    1466.09.02 = {
+        holder = 10029019 # Shiba Yoshitoshi
+    }
+    1466.10.23 = {
+        holder = 10057621 # Shiba Yoshikado
+    }
+    1478.01.01 = {
+        liege = 0 # 
+        holder = 10029108 # Oda Toshihiro
+    }
+    1481.03.01 = {
+        holder = 10029110 # Oda Tohiro
+    }
+    1504.01.01 = {
+        holder = 10029112 # Oda Hirotaka
+        effect = {
 			title:b_shgnt_nakashima_5 = {
 				set_title_name = b_shgnt_nakashima_5_1 # Shobata
 			}
 		}
-	}	
-    1520.01.01 = {
-        holder = 10029118 # Oda Nobusada
     }
-    1527.01.01 = {
-        holder = 10029100 # Oda Nobuhide
+    1517.02.16 = {
+        holder = 10029102 # Oda Nobuyasu
     }
-    1551.04.08 = {
+    1558.01.01 = {
+        liege = 0 # 
+        holder = 10029123 # Oda Nobukata
+    }
+    1559.03.01 = {
+        liege = d_shgnt_owari # 29120 Oda Nobunaga
         holder = 10029120 # Oda Nobunaga
     }
-    1567.01.01 = {
+    1568.01.01 = {
         liege = d_shgnt_owari # 
-        holder = 10029330 # Takigawa Kazumasu
+        holder = 12437001 # Azai Masasada
+    }
+    1581.06.25 = {
+        holder = 12437005 # Azai Nagatoki
     }
 }
 c_shgnt_niwa = {
@@ -2094,7 +2103,8 @@ d_shgnt_hida = {
     1470.08.30 = {
         holder = 10044215 # Kyogoku Magodojimaru
     }
-    1471.08.01 = {
+    1471.01.01 = {
+        liege = 0 # 
         holder = 10044213 # Kyogoku Masatsune
     }
     1473.10.01 = {
@@ -2182,6 +2192,7 @@ d_shgnt_ise = {
         holder = 10049515 # Isshiki Yoshinao
     }
     1467.06.27 = {
+        liege = e_shgnt_japan # Onin War
         holder = 10025325 # Toki Masayasu
     }
     1471.03.01 = {
@@ -2292,10 +2303,6 @@ d_shgnt_mino = {
         holder = 10025322 # Toki Mochimasu
     }
     1456.01.01 = {
-        holder = 10025324 # Toki Shigeyori
-    }
-    1467.06.27 = {
-        liege = 0 # 
         holder = 10025324 # Toki Shigeyori
     }
     1497.05.05 = {
@@ -2425,7 +2432,7 @@ d_shgnt_owari = {
         holder = 10057621 # Shiba Yoshikado
     }
     1467.06.27 = {
-        liege = 0 # 
+        liege = k_shgnt_sanin # 
         holder = 10057621 # Shiba Yoshikado
     }
     1478.01.01 = {

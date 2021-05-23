@@ -4,27 +4,36 @@
 	father=10050045
 	religion="shinto"
 	culture="sanin"
-	prowess=11
+	diplomacy=8
+	martial=9
+	stewardship=9
+	intrigue=9
+	learning=5
+	trait="education_diplomacy_2"
+	prowess=13
 	1511.1.1={
 		birth=yes
 	}
 	1520.1.19={
-		trait="child_of_adoption"
-		effect={
-			set_father=character:10050046
-			set_real_father=character:10050045
+		effect = {
+			set_father = character:10050046
+			set_real_father = character:10050045
+			add_trait = "child_of_adoption"
 		}
 	}
 	1528.3.4={
-		effect={
+		effect = {
 			set_realm_capital=title:c_shgnt_kinosaki
 		}
 	}
 	1534.1.19={
 		add_spouse=10049522
 	}
+	1540.1.1={
+		give_nickname="nick_the_uemon_no_kami"
+	}
 	1570.1.1={
-		effect={
+		effect = {
 			set_realm_capital=title:c_shgnt_kinosaki
 		}
 	}
@@ -41,7 +50,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="sanin"
-	prowess=11
 	1328.1.1={
 		birth=yes
 	}
@@ -56,7 +64,6 @@
 	trait="education_stewardship_1"
 	religion="shinto"
 	culture="sanin"
-	prowess=12
 	1337.1.1={
 		birth=yes
 	}
@@ -71,7 +78,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="sanin"
-	prowess=10
 	1340.1.1={
 		birth=yes
 	}
@@ -86,7 +92,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="sanin"
-	prowess=11
 	1344.1.1={
 		birth=yes
 	}
@@ -101,7 +106,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="sanin"
-	prowess=11
 	1346.1.1={
 		birth=yes
 	}
@@ -116,7 +120,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="sanin"
-	prowess=10
 	1360.1.1={
 		birth=yes
 	}
@@ -131,7 +134,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="sanin"
-	prowess=9
 	1363.1.1={
 		birth=yes
 	}
@@ -149,7 +151,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="sanin"
-	prowess=11
 	1366.1.1={
 		birth=yes
 	}
@@ -158,13 +159,12 @@
 	}
 }
 10050015 = {
-	name=character_name_10050015 # Fujiyuki
+	name=character_name_10050015 # Moroyuki
 	dynasty=10000500 # Yamana
 	father=10050012
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="sanin"
-	prowess=12
 	1390.1.1={
 		birth=yes
 	}
@@ -179,7 +179,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="sanin"
-	prowess=10
 	1393.1.1={
 		birth=yes
 	}
@@ -195,7 +194,6 @@
 	religion="shinto"
 	culture="sanin"
 #	trait="zen_buddhist"
-	prowess=11
 	1410.1.1={
 		birth=yes
 	}
@@ -203,8 +201,10 @@
 		give_nickname="nick_rokuro"
 	}
 	1438.1.1={
-		trait="jugoi_ge"
 		give_nickname="nick_the_hyobu_no_sho"
+		effect = {
+			add_trait = "jugoi_ge"
+		}
 	}
 	1455.1.1={
 		give_nickname="nick_the_sagami_no_kami"
@@ -220,14 +220,16 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="sanin"
-	prowess=12
 	1430.1.1={
 		birth=yes
 	}
 	1453.1.1={
-		effect={
+		effect = {
 			set_realm_capital=title:c_shgnt_aumi
 		}
+	}
+	1467.6.27={
+		add_pressed_claim=d_shgnt_bizen
 	}
 	1471.10.31={
 		death={
@@ -242,15 +244,14 @@
 	trait="education_stewardship_1"
 	religion="shinto"
 	culture="sanin"
-	prowess=10
 	1433.1.1={
 		birth=yes
 	}
 	1450.1.1={
-		trait="child_of_adoption"
-		effect={
-			set_father=character:10050054
-			set_real_father=character:10050017
+		effect = {
+			set_father = character:10050054
+			set_real_father = character:10050017
+			add_trait = "child_of_adoption"
 		}
 	}
 	1475.1.1={
@@ -264,12 +265,11 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="sanin"
-	prowess=11
 	1436.1.1={
 		birth=yes
 	}
 	1471.10.31={
-		effect={
+		effect = {
 			set_realm_capital=title:c_shgnt_aumi
 		}
 	}
@@ -284,7 +284,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="sanin"
-	prowess=10
 	1439.1.1={
 		birth=yes
 	}
@@ -292,7 +291,7 @@
 		give_nickname="nick_kuro"
 	}
 	1476.1.1={
-		effect={
+		effect = {
 			set_realm_capital=title:c_shgnt_aumi
 		}
 	}
@@ -307,7 +306,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="sanin"
-	prowess=10
 	1442.1.1={
 		birth=yes
 	}
@@ -322,12 +320,11 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="sanin"
-	prowess=10
 	1455.1.1={
 		birth=yes
 	}
 	1489.1.1={
-		effect={
+		effect = {
 			set_realm_capital=title:c_shgnt_aumi
 		}
 	}
@@ -342,7 +339,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="sanin"
-	prowess=11
 	1458.1.1={
 		birth=yes
 	}
@@ -350,7 +346,7 @@
 		give_nickname="nick_rokuro"
 	}
 	1491.1.1={
-		effect={
+		effect = {
 			set_realm_capital=title:c_shgnt_aumi
 		}
 	}
@@ -367,7 +363,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="sanin"
-	prowess=11
 	1490.1.1={
 		birth=yes
 	}
@@ -397,12 +392,11 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="sanin"
-	prowess=9
 	1480.1.1={
 		birth=yes
 	}
 	1494.9.24={
-		effect={
+		effect = {
 			set_realm_capital=title:c_shgnt_aumi
 		}
 	}
@@ -417,7 +411,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="sanin"
-	prowess=12
 	1360.1.1={
 		birth=yes
 	}
@@ -432,7 +425,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="sanin"
-	prowess=10
 	1390.1.1={
 		birth=yes
 	}
@@ -447,7 +439,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="sanin"
-	prowess=9
 	1370.1.1={
 		birth=yes
 	}
@@ -462,7 +453,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="sanin"
-	prowess=10
 	1400.1.1={
 		birth=yes
 	}
@@ -477,15 +467,14 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="sanin"
-	prowess=10
 	1432.1.1={
 		birth=yes
 	}
 	1440.1.1={
-		trait="child_of_adoption"
-		effect={
-			set_father=character:10050030
-			set_real_father=character:10050039
+		effect = {
+			set_father = character:10050030
+			set_real_father = character:10050039
+			add_trait = "child_of_adoption"
 		}
 	}
 	1452.1.1={
@@ -505,7 +494,7 @@
 	name=character_name_10050032 # Toyotoki
 	dynasty=10000500 # Yamana
 	father=10050031
-	martial=4
+	martial=10
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="sanin"
@@ -513,7 +502,7 @@
 	trait="poet"
 	trait="patient"
 	trait="brave"
-	prowess=10
+	prowess=14
 	1452.1.1={
 		birth=yes
 	}
@@ -527,7 +516,7 @@
 		give_nickname="nick_jibu_no_sho"
 	}
 	1475.1.1={
-		effect={
+		effect = {
 			set_realm_capital=title:c_shgnt_takakusa
 		}
 	}
@@ -554,7 +543,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="sanin"
-	prowess=10
 	1485.1.1={
 		birth=yes
 	}
@@ -562,7 +550,7 @@
 		give_nickname="nick_sama_no_suke"
 	}
 	1512.12.1={
-		effect={
+		effect = {
 			set_realm_capital=title:c_shgnt_takakusa
 		}
 	}
@@ -577,12 +565,11 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="sanin"
-	prowess=11
 	1494.1.1={
 		birth=yes
 	}
 	1521.1.1={
-		effect={
+		effect = {
 			set_realm_capital=title:c_shgnt_takakusa
 		}
 	}
@@ -599,16 +586,17 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="sanin"
-	prowess=9
 	1515.1.1={
 		birth=yes
 	}
 	1525.1.1={
 		give_nickname="nick_the_sama_no_suke"
-		trait="jugoi_ge"
+		effect = {
+			add_trait = "jugoi_ge"
+		}
 	}
 	1527.1.1={
-		effect={
+		effect = {
 			set_realm_capital=title:c_shgnt_takakusa
 		}
 	}
@@ -628,7 +616,6 @@
 	culture="sanin"
 	trait="greedy"
 	trait="ambitious"
-	prowess=10
 	1367.1.1={
 		birth=yes
 	}
@@ -647,7 +634,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="sanin"
-	prowess=12
 	1396.1.1={
 		birth=yes
 	}
@@ -663,7 +649,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="sanin"
-	prowess=10
 	1400.1.1={
 		birth=yes
 	}
@@ -676,32 +661,48 @@
 	dynasty=10000500 # Yamana
 	father=10050036
 	mother=10050061
-	martial=7
-	diplomacy=6
-	intrigue=8
-	stewardship=6
-	learning=7
-	trait="education_intrigue_3"
 	religion="shinto"
 	culture="sanin"
+	diplomacy=6
+	martial=9
+	stewardship=7
+	intrigue=11
+	learning=5
+	trait="education_martial_3"
 	trait="ambitious"
 	trait="greedy"
 	trait="arrogant"
 	trait="impatient"
-	prowess=13
+	trait="compassionate"
+	trait="zealous"
+	trait="shrewd"
+	prowess=19
 	1404.7.6={
 		birth=yes
 	}
 	1424.1.1={
 		give_nickname="nick_the_danjo_shohitsu"
-		trait="jushii_ge"
+		effect = {
+			add_trait = "jushii_ge"
+		}
 	}
 	1434.1.1={
 		give_nickname="nick_the_uemon_no_kami"
 	}
 	1442.1.1={
-		trait="jusanmi"
-		name=character_name_10050039_1 # Sozen
+		effect = {
+			remove_trait = "jushii_ge"
+			add_trait = "jusanmi"
+			change_first_name = character_name_10050039_1 # Sozen
+		}
+	}
+	1467.6.26={
+		add_pressed_claim=d_shgnt_harima
+	}
+	1467.6.27={
+		effect = {
+			set_realm_capital = title:c_shgnt_kadono
+		}
 	}
 	1473.4.15={
 		death=yes
@@ -711,16 +712,25 @@
 	name=character_name_10050040 # Noritoyo
 	dynasty=10000500 # Yamana
 	father=10050039
-	trait="education_intrigue_1"
 	religion="shinto"
 	culture="sanin"
-	prowess=9
+	diplomacy=7
+	martial=8
+	stewardship=8
+	intrigue=8
+	learning=5
+	trait="education_diplomacy_2"
+	trait="patient"
+	trait="humble"
+	prowess=12
 	1424.1.1={
 		birth=yes
 	}
 	1444.1.1={
 		give_nickname="nick_the_danjo_shohitsu"
-		trait="jugoi_ge"
+		effect = {
+			add_trait = "jugoi_ge"
+		}
 	}
 	1460.11.3={
 		give_nickname="nick_the_iyo_no_kami"
@@ -737,15 +747,16 @@
 	religion="shinto"
 	culture="sanin"
 	trait="intellect_bad_2"
-	prowess=10
 	1428.1.1={
 		birth=yes
 	}
 	1453.1.1={
 		give_nickname="nick_the_danjo_shohitsu"
-		trait="shogoi_ge"
+		effect = {
+			add_trait = "shogoi_ge"
+		}
 	}
-	1470.1.1={
+	1475.11.1={
 		death=yes
 	}
 }
@@ -756,12 +767,13 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="sanin"
-	prowess=11
 	1453.1.1={
 		birth=yes
 	}
 	1466.1.1={
-		trait="devoted"
+		effect = {
+			add_trait = "devoted"
+		}
 	}
 	1522.11.13={
 		death=yes
@@ -771,30 +783,39 @@
 	name=character_name_10050044 # Masatoyo
 	dynasty=10000500 # Yamana
 	father=10050040
-	martial=5
+	martial=9
 	diplomacy=4
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="sanin"
 	trait="just"
-	prowess=11
+	prowess=15
 	1441.1.1={
 		birth=yes
 	}
 	1460.11.3={
 		give_nickname="nick_the_danjo_shohitsu"
-		trait="shogoi_jo"
+		effect = {
+			add_trait = "shogoi_jo"
+		}
 	}
 	1476.8.18={
-		remove_trait="shogoi_jo"
-		trait="jushii_ge"
+		effect = {
+			remove_trait = "shogoi_jo"
+			add_trait = "jushii_ge"
+		}
 	}
 	1476.8.22={
 		give_nickname="nick_the_uemon_no_kami"
 	}
 	1472.8.1={
-		effect={
-			set_realm_capital=title:c_shgnt_kinosaki
+		effect = {
+			set_realm_capital = title:c_shgnt_kinosaki
+		}
+	}
+	1477.12.16={
+		effect = {
+			set_primary_title_to = title:d_shgnt_tajima
 		}
 	}
 	1499.3.13={
@@ -810,16 +831,17 @@
 	culture="sanin"
 	trait="arbitrary"
 	trait="craven"
-	prowess=10
 	1468.1.1={
 		birth=yes
 	}
 	1488.1.1={
 		give_nickname="nick_the_danjo_shohitsu"
-		trait="jugoi_ge"
+		effect = {
+			add_trait = "jugoi_ge"
+		}
 	}
 	1499.3.13={
-		effect={
+		effect = {
 			set_realm_capital=title:c_shgnt_kinosaki
 		}
 	}
@@ -836,7 +858,6 @@
 	culture="sanin"
 	trait="ambitious"
 	trait="brave"
-	prowess=12
 	1470.1.1={
 		birth=yes
 	}
@@ -844,8 +865,8 @@
 		give_nickname="nick_uemon_no_kami"
 	}
 	1512.1.1={
-		effect={
-			set_realm_capital=title:c_shgnt_kinosaki
+		effect = {
+			set_realm_capital = title:c_shgnt_kinosaki
 		}
 	}
 	1528.3.4={
@@ -856,10 +877,15 @@
 	name=character_name_10050048 # Toyosada
 	dynasty=10000500 # Yamana
 	father=10050045
-	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="sanin"
-	prowess=11
+	diplomacy=8
+	martial=6
+	stewardship=8
+	intrigue=6
+	learning=5
+	trait="education_martial_2"
+	prowess=14
 	1512.1.1={
 		birth=yes
 	}
@@ -867,7 +893,7 @@
 		give_nickname="nick_kuro"
 	}
 	1546.1.1={
-		effect={
+		effect = {
 			set_realm_capital=title:c_shgnt_takakusa
 		}
 	}
@@ -882,7 +908,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="sanin"
-	prowess=10
 	1518.1.1={
 		birth=yes
 	}
@@ -897,12 +922,11 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="sanin"
-	prowess=10
 	1533.1.1={
 		birth=yes
 	}
 	1561.5.1={
-		effect={
+		effect = {
 			set_realm_capital=title:c_shgnt_takakusa
 		}
 	}
@@ -919,7 +943,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="sanin"
-	prowess=10
 	1349.1.1={
 		birth=yes
 	}
@@ -934,11 +957,10 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="sanin"
-	prowess=10
 	1370.1.1={
 		birth=yes
 	}
-	1430.1.1={
+	1453.1.1={
 		death=yes
 	}
 }
@@ -949,7 +971,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="sanin"
-	prowess=12
 	1400.1.1={
 		birth=yes
 	}
@@ -964,7 +985,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="sanin"
-	prowess=10
 	1405.1.1={
 		birth=yes
 	}
@@ -979,12 +999,11 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="sanin"
-	prowess=11
 	1421.1.1={
 		birth=yes
 	}
 	1488.1.1={
-		effect={
+		effect = {
 			set_realm_capital=title:c_shgnt_takakusa
 		}
 	}
@@ -997,12 +1016,11 @@
 	dynasty=10000500 # Yamana
 	father=10050032 # Yamana Toyotoki
 	diplomacy=6
-	stewardship=5
+	stewardship=7
 	trait="education_diplomacy_1"
 	trait="just"
 	religion="shinto"
 	culture="sanin"
-	prowess=10
 	1469.1.1={
 		birth=yes
 	}
@@ -1016,7 +1034,7 @@
 		give_nickname="nick_jibu_no_sho"
 	}
 	1504.1.1={
-		effect={
+		effect = {
 			set_realm_capital=title:c_shgnt_takakusa
 		}
 	}
@@ -1032,12 +1050,11 @@
 	father=10050026
 	religion="shinto"
 	culture="sanin"
-	prowess=11
 	1510.1.1={
 		birth=yes
 	}
 	1524.1.1={
-		effect={
+		effect = {
 			set_realm_capital=title:c_shgnt_aumi
 		}
 	}
@@ -1051,15 +1068,16 @@
 	father=10050044
 	religion="shinto"
 	culture="sanin"
-	prowess=10
 	1460.1.1={
 		birth=yes
 	}
 	1480.1.1={
 		give_nickname="nick_the_danjo_shohitsu"
-		trait="jugoi_ge"
+		effect = {
+			add_trait = "jugoi_ge"
+		}
 	}
-	1495.1.1={
+	1497.1.1={
 		death=yes
 	}
 }
@@ -1067,11 +1085,12 @@
 	name=character_name_10050060 # Toyokuni
 	dynasty=10000500 # Yamana
 	father=10050048 # Yamana Toyosada
-	martial=6
-	diplomacy=6
-	intrigue=5
-	stewardship=6
-	learning=5
+	martial=7
+	diplomacy=7
+	intrigue=7
+	stewardship=7
+	learning=7
+	health=7
 	religion="shinto"
 	culture="sanin"
 	trait="education_diplomacy_1"
@@ -1081,14 +1100,14 @@
 	trait="trusting"
 	trait="tea_master"
 	trait="poet"
-	prowess=10
+	prowess=11
 	1548.1.1={
 		birth=yes
 	}
 	1564.1.1={
 		give_nickname="nick_nakatsukasa_no_sho"
 		add_spouse=10050074
-		effect={
+		effect = {
 			set_realm_capital=title:c_shgnt_takakusa
 		}
 	}
@@ -1103,7 +1122,6 @@
 	female=yes
 	religion="shinto"
 	culture="sanin"
-	prowess=9
 	1371.1.1={
 		birth=yes
 	}
@@ -1117,7 +1135,6 @@
 	father=10050026
 	religion="shinto"
 	culture="sanin"
-	prowess=9
 	1515.1.1={
 		birth=yes
 	}
@@ -1132,9 +1149,11 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="sanin"
-	prowess=11
 	1420.1.1={
 		birth=yes
+	}
+	1467.6.27={
+		add_pressed_claim=d_shgnt_mimasaka
 	}
 	1480.1.1={
 		death=yes
@@ -1148,7 +1167,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="sanin"
-	prowess=12
 	1425.1.1={
 		birth=yes
 	}
@@ -1164,7 +1182,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="sanin"
-	prowess=10
 	1440.1.1={
 		birth=yes
 	}
@@ -1180,7 +1197,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="sanin"
-	prowess=9
 	1495.1.1={
 		birth=yes
 	}
@@ -1195,7 +1211,6 @@
 	mother=10049522
 	religion="shinto"
 	culture="sanin"
-	prowess=10
 	1544.1.1={
 		birth=yes
 	}
@@ -1210,7 +1225,6 @@
 	mother=10049522
 	religion="shinto"
 	culture="sanin"
-	prowess=11
 	1550.1.1={
 		birth=yes
 	}
@@ -1225,7 +1239,9 @@
 	mother=10049522
 	religion="shinto"
 	culture="sanin"
-	prowess=11
+	martial=9
+	trait="education_martial_2"
+	prowess=17
 	1559.1.1={
 		birth=yes
 	}
@@ -1239,7 +1255,6 @@
 	father=10050072
 	religion="shinto"
 	culture="sanin"
-	prowess=11
 	1577.1.1={
 		birth=yes
 	}
@@ -1254,7 +1269,6 @@
 	female=yes
 	religion="shinto"
 	culture="sanin"
-	prowess=10
 	1548.1.1={
 		birth=yes
 	}
@@ -1268,10 +1282,10 @@
 	father=10050060 # Yamana Toyokuni
 	mother=10050074
 	martial=7
-	diplomacy=4
-	intrigue=5
-	stewardship=6
-	learning=6
+	diplomacy=7
+	intrigue=7
+	stewardship=7
+	learning=7
 	religion="shinto"
 	culture="sanin"
 	trait="education_diplomacy_1"
@@ -1290,16 +1304,16 @@
 	father=10050060 # Yamana Toyokuni
 	mother=10050074
 	female=yes
-	martial=6
+	martial=7
 	diplomacy=7
-	intrigue=6
-	stewardship=5
-	learning=6
+	intrigue=7
+	stewardship=7
+	learning=7
 	religion="shinto"
 	culture="sanin"
 	trait="education_diplomacy_1"
 	trait="impatient"
-	prowess=10
+	prowess=11
 	1565.1.1={
 		birth=yes
 	}
@@ -1312,16 +1326,16 @@
 	dynasty=10000500 # Yamana
 	father=10050060 # Yamana Toyokuni
 	mother=10050074
-	martial=6
-	diplomacy=6
+	martial=7
+	diplomacy=7
 	intrigue=7
-	stewardship=6
-	learning=6
+	stewardship=7
+	learning=7
 	religion="shinto"
 	culture="sanin"
 	trait="education_diplomacy_1"
 	trait="impatient"
-	prowess=10
+	prowess=11
 	1575.1.1={
 		birth=yes
 	}
@@ -1334,16 +1348,16 @@
 	dynasty=10000500 # Yamana
 	father=10050060 # Yamana Toyokuni
 	mother=10050074
-	martial=5
-	diplomacy=6
+	martial=7
+	diplomacy=7
 	intrigue=7
-	stewardship=8
-	learning=4
+	stewardship=7
+	learning=7
 	religion="shinto"
 	culture="sanin"
 	trait="education_diplomacy_1"
 	trait="impatient"
-	prowess=10
+	prowess=11
 	1577.1.1={
 		birth=yes
 	}
@@ -1357,7 +1371,6 @@
 	father=10050010 # Yamana Ujikiyo
 	religion="shinto"
 	culture="sanin"
-	prowess=12
 	1364.1.1={
 		birth=yes
 	}
@@ -1377,7 +1390,6 @@
 	father=10050010 # Yamana Ujikiyo
 	religion="shinto"
 	culture="sanin"
-	prowess=11
 	1366.1.1={
 		birth=yes
 	}
@@ -1397,7 +1409,6 @@
 	father=10050010 # Yamana Ujikiyo
 	religion="shinto"
 	culture="sanin"
-	prowess=12
 	1367.1.1={
 		birth=yes
 	}
@@ -1411,7 +1422,6 @@
 	father=10050010 # Yamana Ujikiyo
 	religion="shinto"
 	culture="sanin"
-	prowess=10
 	1368.1.1={
 		birth=yes
 	}
@@ -1425,7 +1435,6 @@
 	father=10050010 # Yamana Ujikiyo
 	religion="shinto"
 	culture="sanin"
-	prowess=10
 	1370.1.1={
 		birth=yes
 	}
@@ -1444,7 +1453,6 @@
 	father=10050082 # Yamana Norihisa
 	religion="shinto"
 	culture="sanin"
-	prowess=10
 	1387.1.1={
 		birth=yes
 	}
@@ -1452,14 +1460,108 @@
 		death=yes
 	}
 }
+10050086={
+	name=character_name_10050086 # Mochiyuki
+	dynasty=10000500 # Yamana
+	father=10050015 # Yamana Moroyuki
+	religion="shinto"
+	culture="sanin"
+	1420.1.1={
+		birth=yes
+	}
+	1480.1.1={
+		death=yes
+	}
+}
+10050087={
+	name=character_name_10050087 # Muneyuki
+	dynasty=10000500 # Yamana
+	father=10050086 # Yamana Mochiyuki
+	religion="shinto"
+	culture="sanin"
+	1450.1.1={
+		birth=yes
+	}
+	1510.1.1={
+		death=yes
+	}
+}
+10050088={
+	name=character_name_10050088 # Toyoyuki
+	dynasty=10000500 # Yamana
+	father=10050087 # Yamana Muneyuki
+	religion="shinto"
+	culture="sanin"
+	1480.1.1={
+		birth=yes
+	}
+	1540.1.1={
+		death=yes
+	}
+}
+10050089={
+	name=character_name_10050089 # Fujiyuki
+	dynasty=10000500 # Yamana
+	father=10050088 # Yamana Toyoyuki
+	religion="shinto"
+	culture="sanin"
+	1510.1.1={
+		birth=yes
+	}
+	1569.1.1={
+		death=yes
+	}
+}
+10050090={
+	name=character_name_10050090 # Tadamasa
+	dynasty=10000500 # Yamana
+	father=10050027 # Yamana Yoshikiyo
+	religion="shinto"
+	culture="sanin"
+	1410.1.1={
+		birth=yes
+	}
+	1470.1.1={
+		death=yes
+	}
+}
+10050091={
+	name=character_name_10050091 # Masatada
+	dynasty=10000500 # Yamana
+	father=10050063 # Yamana Masakiyo
+	religion="shinto"
+	culture="sanin"
+	1450.1.1={
+		birth=yes
+	}
+	1510.1.1={
+		death=yes
+	}
+}
+10050092={
+	name=character_name_10050092 # Ujishige
+	dynasty=10000500 # Yamana
+	father=12186256 # Yamana Tokiuji
+	religion="shinto"
+	culture="sanin"
+	1348.1.1={
+		birth=yes
+	}
+	1392.1.1={
+		death=yes
+	}
+}
 10050100= {
 	name=character_name_10050100 # Kunikiyo
 	dynasty=10000518 # Nanjo
 	father=10050101
-	trait="education_intrigue_1"
 	religion="shinto"
 	culture="sanin"
-	prowess=11
+	martial=8
+	health=7
+	trait="education_martial_3"
+	trait="patient"
+	prowess=18
 	1497.1.1={
 		birth=yes
 	}
@@ -1473,7 +1575,6 @@
 	father=10050102
 	religion="shinto"
 	culture="sanin"
-	prowess=12
 	1468.1.1={
 		birth=yes
 	}
@@ -1487,7 +1588,6 @@
 	father=10050103
 	religion="shinto"
 	culture="sanin"
-	prowess=10
 	1450.1.1={
 		birth=yes
 	}
@@ -1501,7 +1601,6 @@
 	father=10050104
 	religion="shinto"
 	culture="sanin"
-	prowess=9
 	1430.1.1={
 		birth=yes
 	}
@@ -1515,13 +1614,14 @@
 	father=10050105
 	religion="shinto"
 	culture="sanin"
-	prowess=11
 	1410.1.1={
 		birth=yes
 	}
 	1453.1.1={
 		give_nickname="nick_the_danjo_shohitsu"
-		trait="shogoi_ge"
+		effect = {
+			add_trait = "shogoi_ge"
+		}
 	}
 	1470.1.1={
 		death=yes
@@ -1533,7 +1633,6 @@
 	father=10050106
 	religion="shinto"
 	culture="sanin"
-	prowess=11
 	1390.1.1={
 		birth=yes
 	}
@@ -1547,7 +1646,6 @@
 	father=10050107
 	religion="shinto"
 	culture="sanin"
-	prowess=11
 	1360.1.1={
 		birth=yes
 	}
@@ -1560,7 +1658,6 @@
 	dynasty=10000518 # Nanjo
 	religion="shinto"
 	culture="sanin"
-	prowess=12
 	1339.1.1={
 		birth=yes
 	}
@@ -1577,13 +1674,14 @@
 	father=10050107
 	religion="shinto"
 	culture="sanin"
-	prowess=11
 	1370.1.1={
 		birth=yes
 	}
 	1390.1.1={
-		trait="devoted"
-		name=character_name_10050108_1 # Choo
+		effect = {
+			add_trait = "devoted"
+			change_first_name = character_name_10050108_1 # Choo
+		}
 	}
 	1410.2.6={
 		death=yes
@@ -1596,7 +1694,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="sanin"
-	prowess=9
 	1500.1.1={
 		birth=yes
 	}
@@ -1611,7 +1708,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="sanin"
-	prowess=10
 	1505.1.1={
 		birth=yes
 	}
@@ -1626,7 +1722,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="sanin"
-	prowess=10
 	1508.1.1={
 		birth=yes
 	}
@@ -1641,7 +1736,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="sanin"
-	prowess=11
 	1535.1.1={
 		birth=yes
 	}
@@ -1656,13 +1750,14 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="sanin"
-	prowess=11
 	1540.1.1={
 		birth=yes
 	}
 	1580.1.1={
-		trait="devoted"
-		name=character_name_10050113_1 # Baido
+		effect = {
+			add_trait = "devoted"
+			change_first_name = character_name_10050113_1 # Baido
+		}
 	}
 	1610.1.1={
 		death=yes
@@ -1672,10 +1767,11 @@
 	name=character_name_10050114 # Mototsugu
 	dynasty=10000518 # Nanjo
 	father=10050100
-	trait="education_intrigue_1"
 	religion="shinto"
 	culture="sanin"
-	prowess=11
+	martial=9
+	trait="education_martial_3"
+	prowess=19
 	1549.1.1={
 		birth=yes
 	}
@@ -1687,13 +1783,13 @@
 	name=character_name_10050115 # Motokiyo
 	dynasty=10000518 # Nanjo
 	father=10050100
-	martial=6
+	martial=9
 	trait="education_martial_3"
 	trait="content"
 	trait="compassionate"
 	religion="shinto"
 	culture="sanin"
-	prowess=13
+	prowess=19
 	1550.1.1={
 		birth=yes
 	}
@@ -1708,7 +1804,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="sanin"
-	prowess=11
 	1555.1.1={
 		birth=yes
 	}
@@ -1726,7 +1821,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="sanin"
-	prowess=11
 	1570.1.1={
 		birth=yes
 	}
@@ -1742,7 +1836,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="sanin"
-	prowess=11
 	1575.1.1={
 		birth=yes
 	}
@@ -1758,7 +1851,6 @@
 	trait="arbitrary"
 	religion="shinto"
 	culture="sanin"
-	prowess=12
 	1579.1.1={
 		birth=yes
 	}
@@ -1774,7 +1866,6 @@
 	trait="paranoid"
 	religion="shinto"
 	culture="sanin"
-	prowess=11
 	1581.1.1={
 		birth=yes
 	}
@@ -1785,20 +1876,20 @@
 10050120= {
 	name=character_name_10050120 # Terunobu
 	dynasty=10000503 # Otagaki
-	martial=6
-	diplomacy=6
-	intrigue=4
-	stewardship=5
+	martial=8
+	diplomacy=9
+	intrigue=8
+	stewardship=8
 	learning=7
 	father=10050122
 	religion="shinto"
 	culture="sanin"
 	trait="education_diplomacy_3"
-	prowess=10
-	1535.1.1={
+	prowess=12
+	1540.1.1={
 		birth=yes
 	}
-	1585.1.1={
+	1581.1.1={
 		death=yes
 	}
 }
@@ -1808,11 +1899,10 @@
 	father=10050123
 	religion="shinto"
 	culture="sanin"
-	prowess=10
-	1500.1.1={
+	1510.1.1={
 		birth=yes
 	}
-	1560.1.1={
+	1570.1.1={
 		death=yes
 	}
 }
@@ -1822,11 +1912,10 @@
 	father=10050125
 	religion="shinto"
 	culture="sanin"
-	prowess=11
 	1470.1.1={
 		birth=yes
 	}
-	1530.1.1={
+	1538.1.1={
 		death=yes
 	}
 }
@@ -1836,11 +1925,10 @@
 	father=10050125
 	religion="shinto"
 	culture="sanin"
-	prowess=10
 	1460.1.1={
 		birth=yes
 	}
-	1500.1.1={
+	1521.1.1={
 		death=yes
 	}
 }
@@ -1850,11 +1938,10 @@
 	father=10050127
 	religion="shinto"
 	culture="sanin"
-	prowess=11
-	1430.1.1={
+	1440.1.1={
 		birth=yes
 	}
-	1490.1.1={
+	1492.1.1={
 		death=yes
 	}
 }
@@ -1862,17 +1949,17 @@
 	name=character_name_10050126 # Munechika
 	dynasty=10000503 # Otagaki
 	father=10050127
-	martial=5
+	martial=9
 	religion="shinto"
 	culture="sanin"
 	trait="education_martial_3"
-	trait="flexible_leader"
+	trait="inspiring_leader"
 	trait="rough_terrain_expert"
-	prowess=13
-	1435.1.1={
+	prowess=19
+	1442.1.1={
 		birth=yes
 	}
-	1495.1.1={
+	1500.1.1={
 		death=yes
 	}
 }
@@ -1882,11 +1969,10 @@
 	father=10050130
 	religion="shinto"
 	culture="sanin"
-	prowess=10
-	1400.1.1={
+	1420.1.1={
 		birth=yes
 	}
-	1470.1.1={
+	1479.1.1={
 		death=yes
 	}
 }
@@ -1896,11 +1982,10 @@
 	father=10050130
 	religion="shinto"
 	culture="sanin"
-	prowess=10
-	1405.1.1={
+	1422.1.1={
 		birth=yes
 	}
-	1475.1.1={
+	1480.1.1={
 		death=yes
 	}
 }
@@ -1910,11 +1995,10 @@
 	father=10050130
 	religion="shinto"
 	culture="sanin"
-	prowess=12
-	1410.1.1={
+	1424.1.1={
 		birth=yes
 	}
-	1475.1.1={
+	1480.1.1={
 		death=yes
 	}
 }
@@ -1923,11 +2007,10 @@
 	dynasty=10000503 # Otagaki
 	religion="shinto"
 	culture="sanin"
-	prowess=11
-	1370.1.1={
+	1390.1.1={
 		birth=yes
 	}
-	1450.1.1={
+	1465.1.1={
 		death=yes
 	}
 }
@@ -1937,7 +2020,6 @@
 	father=10050122
 	religion="shinto"
 	culture="sanin"
-	prowess=11
 	1540.1.1={
 		birth=yes
 	}
@@ -1951,7 +2033,6 @@
 	father=10050122
 	religion="shinto"
 	culture="sanin"
-	prowess=11
 	1543.1.1={
 		birth=yes
 	}
@@ -1959,21 +2040,371 @@
 		death=yes
 	}
 }
+10050150={
+	name=character_name_10050150 # Yoritada
+	dynasty=10000504 # Kakiya
+	religion="shinto"
+	culture="sanin"
+	1340.1.1={
+		birth=yes
+	}
+	1400.1.1={
+		death=yes
+	}
+}
+10050151={
+	name=character_name_10050151 # Hirotada
+	dynasty=10000504 # Kakiya
+	father=10050150 # Kakiya Yoritada
+	religion="shinto"
+	culture="sanin"
+	1370.1.1={
+		birth=yes
+	}
+	1430.1.1={
+		death=yes
+	}
+}
+10050152={
+	name=character_name_10050152 # Hirotsugu
+	dynasty=10000504 # Kakiya
+	father=10050151 # Kakiya Hirotada
+	religion="shinto"
+	culture="sanin"
+	1400.1.1={
+		birth=yes
+	}
+	1474.1.1={
+		death=yes
+	}
+}
+10050153={
+	name=character_name_10050153 # Hirotomo
+	dynasty=10000504 # Kakiya
+	father=10050151 # Kakiya Hirotada
+	religion="shinto"
+	culture="sanin"
+	1402.1.1={
+		birth=yes
+	}
+	1460.1.1={
+		death=yes
+	}
+}
+10050154={
+	name=character_name_10050154 # Toyoshige
+	dynasty=10000504 # Kakiya
+	father=10050151 # Kakiya Hirotada
+	religion="shinto"
+	culture="sanin"
+	1404.1.1={
+		birth=yes
+	}
+	1460.1.1={
+		death=yes
+	}
+}
+10050155={
+	name=character_name_10050155 # Toyoto
+	dynasty=10000504 # Kakiya
+	father=10050152 # Kakiya Hirotsugu
+	religion="shinto"
+	culture="sanin"
+	1430.1.1={
+		birth=yes
+	}
+	1480.1.1={
+		death=yes
+	}
+}
+10050156={
+	name=character_name_10050156 # Munetsugu
+	dynasty=10000504 # Kakiya
+	father=10050155 # Kakiya Toyoto
+	religion="shinto"
+	culture="sanin"
+	1460.1.1={
+		birth=yes
+	}
+	1483.1.1={
+		death=yes
+	}
+}
+10050157={
+	name=character_name_10050157 # Tsugunari
+	dynasty=10000504 # Kakiya
+	father=10050156 # Kakiya Munetsugu
+	religion="shinto"
+	culture="sanin"
+	diplomacy=8
+	trait="education_diplomacy_3"
+	1482.1.1={
+		birth=yes
+	}
+	1570.1.1={
+		death=yes
+	}
+}
+10050158={
+	name=character_name_10050158 # Toyonari
+	dynasty=10000504 # Kakiya
+	father=10050156 # Kakiya Munetsugu
+	religion="shinto"
+	culture="sanin"
+	1483.1.1={
+		birth=yes
+	}
+	1550.1.1={
+		death=yes
+	}
+}
+10050159={
+	name=character_name_10050159 # Mitsunari
+	dynasty=10000504 # Kakiya
+	father=10050157 # Kakiya Tsugunari
+	religion="shinto"
+	culture="sanin"
+	diplomacy=9
+	trait="education_diplomacy_2"
+	1520.1.1={
+		birth=yes
+	}
+	1582.1.1={
+		death=yes
+	}
+}
+10050160={
+	name=character_name_10050160 # Tsunefusa
+	dynasty=10000504 # Kakiya
+	father=10050159 # Kakiya Mitsunari
+	religion="shinto"
+	culture="sanin"
+	diplomacy=9
+	trait="education_diplomacy_2"
+	1550.1.1={
+		birth=yes
+	}
+	1600.10.21={
+		death=yes
+	}
+}
+10050170={
+	name=character_name_10050170 # Koreyoshi
+	dynasty=10000505 # Tainosho
+	religion="shinto"
+	culture="sanin"
+	intrigue=9
+	trait="education_intrigue_2"
+	1520.1.1={
+		birth=yes
+	}
+	1575.1.1={
+		death=yes
+	}
+}
+10050180={
+	name=character_name_10050180 # ShuriNoSuke
+	dynasty=10000506 # Mori
+	religion="shinto"
+	culture="sanin"
+	1400.1.1={
+		birth=yes
+	}
+	1460.1.1={
+		death=yes
+	}
+}
+10050181={
+	name=character_name_10050181 # Sadamoto
+	dynasty=10000506 # Mori
+	father=10050180 # Mori ShuriNoSuke
+	religion="shinto"
+	culture="sanin"
+	1440.1.1={
+		birth=yes
+	}
+	1489.11.1={
+		death=yes
+	}
+}
+10050182={
+	name=character_name_10050182 # MinbuTaiyu
+	dynasty=10000506 # Mori
+	father=10050181 # Mori Sadamoto
+	religion="shinto"
+	culture="sanin"
+	1480.1.1={
+		birth=yes
+	}
+	1540.1.1={
+		death=yes
+	}
+}
+10050183={
+	name=character_name_10050183 # ShinanoNoKami
+	dynasty=10000506 # Mori
+	father=10050182 # Mori MinbuTaiyu
+	religion="shinto"
+	culture="sanin"
+	1510.1.1={
+		birth=yes
+	}
+	1570.1.1={
+		death=yes
+	}
+}
+10050184={
+	name=character_name_10050184 # Toyomoto
+	dynasty=10000506 # Mori
+	father=10050183 # Mori ShinanoNoKami
+	religion="shinto"
+	culture="sanin"
+	1540.1.1={
+		birth=yes
+	}
+	1582.1.1={
+		death=yes
+	}
+}
+10050190={
+	name=character_name_10050190 # Yukimoto
+	dynasty=10000507 # Ogamo
+	religion="shinto"
+	culture="sanin"
+	1410.1.1={
+		birth=yes
+	}
+	1468.9.23={
+		death=yes
+	}
+}
+10050191={
+	name=character_name_10050191 # YamatoNoKami
+	dynasty=10000507 # Ogamo
+	father=10050190 # Ogamo Yukimoto
+	religion="shinto"
+	culture="sanin"
+	1440.1.1={
+		birth=yes
+	}
+	1500.1.1={
+		death=yes
+	}
+}
+10050195={
+	name=character_name_10050195 # Toyonobu
+	dynasty=10000508 # Yagi
+	religion="shinto"
+	culture="sanin"
+	1522.1.1={
+		birth=yes
+	}
+	1528.4.3={
+		employer = 10050005 # Yamana Suketoyo
+	}
+	1582.1.1={
+		death=yes
+	}
+}
+10050196={
+	name=character_name_10050196 # Sadakatsu
+	dynasty=10000509 # Yoshioka
+	religion="shinto"
+	culture="sanin"
+	martial=9
+	trait="education_martial_2"
+	prowess=17
+	1532.1.1={
+		birth=yes
+	}
+	1546.1.1={
+		employer = 10050048 # Yamana Toyosada
+	}
+	1560.3.29={
+		employer = 10050070 # Yamana Munetoyo
+	}
+	1561.5.1={
+		employer = 10050051 # Yamana Toyokazu
+	}
+	1564.7.1={
+		employer = 10050060 # Yamana Toyokuni
+	}
+	1580.9.1={
+		employer = 10056264 # Kikkawa Tsuneie
+	}
+	1600.1.1={
+		death=yes
+	}
+}
+10050197={
+	name=character_name_10050197 # Yoshimichi
+	dynasty=10000510 # Morishita
+	religion="shinto"
+	culture="sanin"
+	martial=8
+	trait="education_martial_2"
+	prowess=16
+	1540.1.1={
+		birth=yes
+	}
+	1546.1.1={
+		employer = 10050048 # Yamana Toyosada
+	}
+	1560.3.29={
+		employer = 10050070 # Yamana Munetoyo
+	}
+	1561.5.1={
+		employer = 10050051 # Yamana Toyokazu
+	}
+	1564.7.1={
+		employer = 10050060 # Yamana Toyokuni
+	}
+	1580.9.1={
+		employer = 10056264 # Kikkawa Tsuneie
+	}
+	1581.11.20={
+		death=yes
+	}
+}
+10050199={
+	name=character_name_10050199 # Naizen # Fictional name (First name is unknown)
+	dynasty=10007349 # Mizushi
+	religion="shinto"
+	culture="central_kinai"
+	martial=10
+	intrigue=9
+	trait="education_martial_2"
+	trait="ninja"
+	trait="light_foot_leader"
+	prowess=18
+	1432.1.1={
+		birth=yes
+	}
+	1467.6.27={
+		employer = 10050039 # Yamana Mochitoyo(Sozen)
+	}
+	1478.1.1={
+		death=yes
+	}
+}
 10051501 = {
 	name=character_name_10051501 # Tsunehisa
 	dynasty=10000515 # Amago
 	father=10051503
-	martial=6
-	diplomacy=6
-	intrigue=6
-	stewardship=6
-	learning=7
+	martial=8
+	diplomacy=9
+	intrigue=10
+	stewardship=8
+	learning=10
+	health=8
 	religion="shinto"
 	culture="sanin"
 	trait="education_intrigue_4"
 	trait="intellect_good_2"
 	trait="ambitious"
 	trait="generous"
+	trait="shrewd"
+	trait="temperate"
 	prowess=12
 	1458.12.25={
 		birth=yes
@@ -1982,7 +2413,7 @@
 		give_nickname="nick_Matashiro"
 	}
 	1478.1.1={
-		effect={
+		effect = {
 			set_realm_capital=title:c_shgnt_nogi
 		}
 	}
@@ -2007,16 +2438,16 @@
 	name=character_name_10051502 # Hisayuki # a.k.a. Yoshikatsu
 	dynasty=10000515 # Amago
 	father=10051503
-	martial=7
-	diplomacy=8
-	intrigue=5
-	stewardship=6
-	learning=5
+	martial=9
+	diplomacy=5
+	intrigue=7
+	stewardship=7
+	learning=7
 	religion="shinto"
 	culture="sanin"
 	trait="education_martial_1"
 	trait="brave"
-	prowess=11
+	prowess=15
 	1473.1.1={
 		birth=yes
 	}
@@ -2036,11 +2467,11 @@
 	name=character_name_10051503 # Kiyosada
 	dynasty=10000515 # Amago
 	father=10051504
-	martial=6
-	diplomacy=6
+	martial=8
+	diplomacy=9
 	intrigue=7
-	stewardship=8
-	learning=6
+	stewardship=7
+	learning=7
 	religion="shinto"
 	culture="sanin"
 	trait="education_intrigue_2"
@@ -2063,7 +2494,6 @@
 	religion="shinto"
 	culture="sanin"
 	trait="education_stewardship_1"
-	prowess=10
 	1381.1.1={
 		birth=yes
 	}
@@ -2081,7 +2511,6 @@
 	religion="shinto"
 	culture="sanin"
 	trait="education_diplomacy_1"
-	prowess=10
 	1363.1.1={
 		birth=yes
 	}
@@ -2100,15 +2529,15 @@
 	dynasty=10000515 # Amago
 	father=10051501
 	mother=10056208
-	martial=6
-	diplomacy=6
-	intrigue=8
-	stewardship=6
-	learning=8
+	martial=8
+	diplomacy=10
+	intrigue=7
+	stewardship=7
+	learning=7
 	religion="shinto"
 	culture="sanin"	
 	trait="education_diplomacy_2"
-	prowess=11
+	prowess=12
 	1488.1.1={
 		birth=yes
 	}
@@ -2126,15 +2555,17 @@
 	dynasty=10000515 # Amago
 	father=10051501
 	mother=10056208
-	martial=4
-	diplomacy=8
-	intrigue=6
-	stewardship=6
+	martial=9
+	diplomacy=4
+	intrigue=7
+	stewardship=9
 	learning=6
 	religion="shinto"
 	culture="sanin"
-	trait="education_martial_2"
-	prowess=12
+	trait="education_martial_3"
+	trait="brave"
+	trait="arrogant"
+	prowess=19
 	1492.1.1={
 		birth=yes
 	}
@@ -2158,20 +2589,23 @@
 	name=character_name_10051508 # Haruhisa
 	dynasty=10000515 # Amago
 	father=10051506
-	martial=6
-	diplomacy=6
-	intrigue=7
-	stewardship=5
-	learning=7
+	martial=7
+	diplomacy=9
+	intrigue=9
+	stewardship=9
+	learning=6
 	religion="shinto"
 	culture="sanin"	
-	trait="education_diplomacy_2"
+	trait="education_stewardship_3"
+	trait="shrewd"
+	trait="poet"
 	trait="impatient"
-	trait="deceitful"
-	trait="callous"
-	prowess=10
+	trait="paranoid"
+	trait="sadistic"
+	prowess=11
 	1514.3.8={
 		birth=yes
+		employer=10051501 # Amago Tsunehisa
 	}
 	1530.3.8={
 		give_nickname="nick_Saburoshiro"
@@ -2181,16 +2615,15 @@
 	}
 	1541.11.30={
 		give_nickname="nick_the_minbu_no_sho"
-		trait="jugoi_ge"
-		effect={
-			set_realm_capital=title:c_shgnt_nogi
+		effect = {
+			add_trait = "jugoi_ge"
 		}
 	}
 	1552.12.3={
 		give_nickname="nick_the_shuri_daibu"
 	}
 	1561.1.1={
-		effect={
+		effect = {
 			set_realm_capital=title:c_shgnt_nogi
 		}
 	}
@@ -2202,14 +2635,13 @@
 	name=character_name_10051509 # Sanehisa
 	dynasty=10000515 # Amago
 	father=10051507
-	martial=5
+	martial=9
 	religion="shinto"
 	culture="sanin"	
-	trait="education_diplomacy_2"
-	trait="impatient"
-	trait="sadistic"
+	trait="education_martial_3"
+	trait="brave"
 	trait="arrogant"
-	prowess=11
+	prowess=19
 	1510.1.1={
 		birth=yes
 	}
@@ -2230,7 +2662,13 @@
 	mother=10056208
 	religion="shinto"
 	culture="sanin"	
-	trait="education_intrigue_2"
+	diplomacy=9
+	martial=7
+	stewardship=7
+	intrigue=8
+	learning=7
+	trait="education_intrigue_3"
+	trait="ambitious"
 	prowess=11
 	1497.1.1={
 		birth=yes
@@ -2260,12 +2698,18 @@
 	father=10051509 # Amago Sanehisa
 	religion="shinto"
 	culture="sanin"
-	prowess=10
+	martial=9
+	trait="education_learning_2"
+	trait="patient"
+	trait="ambitious"
+	prowess=13
 	1553.1.1={
 		birth=yes
 	}
 	1567.1.8={
-		trait="devoted"
+		effect = {
+			add_trait = "devoted"
+		}
 	}
 	1568.6.1={
 		add_pressed_claim=c_shgnt_oki_no_shima
@@ -2276,17 +2720,12 @@
 		add_pressed_claim=c_shgnt_aumi
 		add_pressed_claim=c_shgnt_hino
 		add_pressed_claim=c_shgnt_kawamura
-		remove_trait="devoted"
+		effect = {
+			remove_trait = "devoted"
+		}
 	}
-	1569.6.1 = {
-	}
-	1571.9.8 = {
-	}
-	1573.6.1 = {
-	}
-	1576.5.1 = {
-	}
-	1578.2.1 = {
+	1569.1.1={
+		give_nickname="nick_Magoshiro"
 	}
 	1578.8.6={
 		remove_claim=c_shgnt_oki_no_shima
@@ -2309,7 +2748,6 @@
 	religion="shinto"
 	culture="sanin"
 	trait="education_stewardship_1"
-	prowess=11
 	1380.1.1={
 		birth=yes
 	}
@@ -2324,7 +2762,6 @@
 	religion="shinto"
 	culture="sanin"
 	trait="education_diplomacy_1"
-	prowess=11
 	1500.1.1={
 		birth=yes
 	}
@@ -2341,7 +2778,6 @@
 	religion="shinto"
 	culture="sanin"	
 	trait="education_diplomacy_1"
-	prowess=11
 	1500.1.1={
 		birth=yes
 	}
@@ -2358,7 +2794,6 @@
 	religion="shinto"
 	culture="sanin"
 	trait="education_diplomacy_1"
-	prowess=11
 	1493.1.1={
 		birth=yes
 	}
@@ -2375,7 +2810,6 @@
 	religion="shinto"
 	culture="sanin"
 	trait="education_diplomacy_1"
-	prowess=12
 	1501.1.1={
 		birth=yes
 	}
@@ -2391,7 +2825,6 @@
 	religion="shinto"
 	culture="sanin"	
 	trait="education_diplomacy_2"
-	prowess=9
 	1518.1.1={
 		birth=yes
 	}
@@ -2407,7 +2840,6 @@
 	religion="shinto"
 	culture="sanin"	
 	trait="education_diplomacy_2"
-	prowess=10
 	1515.1.1={
 		birth=yes
 	}
@@ -2419,17 +2851,18 @@
 	name=character_name_10051525 # Yoshihisa
 	dynasty=10000515 # Amago
 	father=10051508
-	martial=4
-	diplomacy=6
-	intrigue=6
+	martial=8
+	diplomacy=3
+	intrigue=7
 	stewardship=7
-	learning=7
+	learning=6
+	health=7
 	religion="shinto"
 	culture="sanin"	
 	trait="education_diplomacy_2"
 	trait="content"
 	trait="compassionate"
-	prowess=11
+	prowess=12
 	1540.1.1={
 		birth=yes
 	}
@@ -2453,17 +2886,17 @@
 	name=character_name_10051526 # Tomohisa
 	dynasty=10000515 # Amago
 	father=10051508
-	martial=5
-	diplomacy=5
+	martial=8
+	diplomacy=6
 	intrigue=7
-	stewardship=5
-	learning=7
+	stewardship=7
+	learning=6
 	religion="shinto"
 	culture="sanin"	
 	trait="education_diplomacy_2"
 	trait="content"
 	trait="compassionate"
-	prowess=9
+	prowess=12
 	1546.1.1={
 		birth=yes
 	}
@@ -2484,9 +2917,9 @@
 	name=character_name_10051527 # Hidehisa
 	dynasty=10000515 # Amago
 	father=10051508
-	martial=6
-	diplomacy=5
-	intrigue=6
+	martial=9
+	diplomacy=6
+	intrigue=7
 	stewardship=7
 	learning=6
 	religion="shinto"
@@ -2494,7 +2927,7 @@
 	trait="education_diplomacy_2"
 	trait="content"
 	trait="compassionate"
-	prowess=10
+	prowess=13
 	1550.1.1={
 		birth=yes
 	}
@@ -2513,17 +2946,17 @@
 	dynasty=10000515 # Amago
 	father=10051508
 	female=yes
-	martial=5
-	diplomacy=7
+	martial=8
+	diplomacy=6
 	intrigue=7
 	stewardship=7
-	learning=5
+	learning=6
 	religion="shinto"
 	culture="sanin"	
 	trait="education_diplomacy_2"
 	trait="content"
 	trait="compassionate"
-	prowess=10
+	prowess=12
 	1542.1.1={
 		birth=yes
 	}
@@ -2535,10 +2968,10 @@
 	name=character_name_10051529 # Motosato
 	dynasty=10000515 # Amago
 	father=10051526
-	martial=5
-	diplomacy=5
-	intrigue=5
-	stewardship=5
+	martial=8
+	diplomacy=6
+	intrigue=7
+	stewardship=7
 	learning=6
 	religion="shinto"
 	culture="sanin"	
@@ -2561,7 +2994,6 @@
 	religion="shinto"
 	culture="sanin"	
 	trait="education_diplomacy_2"
-	prowess=10
 	1514.1.1={
 		birth=yes
 	}
@@ -2579,7 +3011,6 @@
 	religion="shinto"
 	culture="sanin"	
 	trait="education_diplomacy_2"
-	prowess=12
 	1518.1.1={
 		birth=yes
 	}
@@ -2599,13 +3030,14 @@
 	religion="shinto"
 	culture="sanin"	
 	trait="education_diplomacy_2"
-	prowess=9
 	1520.1.1={
 		birth=yes
 	}
 	1554.11.26={
-		trait="devoted"
-		name=character_name_10051532_1 # Jushin
+		effect = {
+			add_trait = "devoted"
+			change_first_name = character_name_10051532_1 # Jushin
+		}
 	}
 	1590.1.1={
 		death=yes
@@ -2619,7 +3051,6 @@
 	religion="shinto"
 	culture="sanin"	
 	trait="education_diplomacy_2"
-	prowess=10
 	1517.1.1={
 		birth=yes
 	}
@@ -2635,7 +3066,6 @@
 	religion="shinto"
 	culture="sanin"	
 	trait="education_diplomacy_2"
-	prowess=11
 	1519.1.1={
 		birth=yes
 	}
@@ -2647,11 +3077,11 @@
 	name=character_name_10051536 # Ujihisa
 	dynasty=10000515 # Amago
 	father=10051509
-	martial=5
+	martial=9
 	religion="shinto"
 	culture="sanin"	
 	trait="education_diplomacy_2"
-	prowess=10
+	prowess=13
 	1535.1.1={
 		birth=yes
 	}
@@ -2671,11 +3101,11 @@
 	name=character_name_10051537 # Yoshihisa
 	dynasty=10000515 # Amago
 	father=10051509
-	martial=5
+	martial=9
 	religion="shinto"
 	culture="sanin"	
 	trait="education_diplomacy_2"
-	prowess=10
+	prowess=13
 	1541.1.1={
 		birth=yes
 	}
@@ -2690,11 +3120,11 @@
 	name=character_name_10051538 # Suehisa
 	dynasty=10000515 # Amago
 	father=10051509
-	martial=6
+	martial=9
 	religion="shinto"
 	culture="sanin"	
 	trait="education_diplomacy_2"
-	prowess=9
+	prowess=13
 	1542.1.1={
 		birth=yes
 	}
@@ -2709,11 +3139,11 @@
 	name=character_name_10051539 # Tsunehisa
 	dynasty=10000515 # Amago
 	father=10051509
-	martial=6
+	martial=9
 	religion="shinto"
 	culture="sanin"	
 	trait="education_diplomacy_2"
-	prowess=11
+	prowess=13
 	1543.1.1={
 		birth=yes
 	}
@@ -2732,7 +3162,6 @@
 	culture="sanin"	
 	trait="education_diplomacy_2"
 	trait="legitimized_bastard"
-	prowess=11
 	1554.1.1={
 		birth=yes
 	}
@@ -2757,7 +3186,6 @@
 	religion="shinto"
 	culture="sanin"	
 	trait="education_diplomacy_2"
-	prowess=10
 	1520.1.1={
 		birth=yes
 		employer=10051501
@@ -2774,13 +3202,14 @@
 	culture="sanin"	
 	trait="education_diplomacy_2"
 	trait="weak"
-	prowess=12
 	1540.1.1={
 		birth=yes
 		employer=10051501 # Amago Tsunehise
 	}
 	1560.1.1={
-		trait="ill"
+		effect = {
+			add_trait = "ill"
+		}
 	}
 	1561.1.1={
 		employer=10051508 # Amago Haruhisa
@@ -2796,11 +3225,11 @@
 	name=character_name_10051552 # Yukimori #Shikanosuke
 	dynasty=10000516 # Yamanaka
 	father=10051550
-	martial=6
-	diplomacy=7
-	intrigue=7
-	stewardship=7
-	learning=8
+	martial=13
+	diplomacy=10
+	intrigue=8
+	stewardship=6
+	learning=6
 	religion="shinto"
 	culture="sanin"	
 	trait="education_martial_2"
@@ -2809,9 +3238,9 @@
 	trait="patient"
 	trait="diligent"
 	trait="brave"
-	trait="flexible_leader"
+	trait="inspiring_leader"
 	trait="unyielding_defender"
-	prowess=12
+	prowess=21
 	1545.9.20={
 		birth=yes
 		employer=10051508 # Amago Haruhisa
@@ -2847,7 +3276,6 @@
 	culture="sanin"	
 	trait="education_diplomacy_2"
 	trait="weak"
-	prowess=10
 	1543.1.1={
 		birth=yes
 	}
@@ -2863,7 +3291,6 @@
 	culture="sanin"	
 	trait="education_diplomacy_2"
 	trait="weak"
-	prowess=10
 	1571.1.23={
 		birth=yes
 	}
@@ -2879,7 +3306,6 @@
 	culture="sanin"	
 	trait="education_diplomacy_2"
 	trait="weak"
-	prowess=10
 	1573.1.1={
 		birth=yes
 	}
@@ -2896,11 +3322,564 @@
 	culture="sanin"	
 	trait="education_diplomacy_2"
 	trait="weak"
-	prowess=12
 	1575.1.23={
 		birth=yes
 	}
 	1651.1.26={
+		death=yes
+	}
+}
+10051600={
+	name=character_name_10051600 # Yukishige
+	dynasty=10000511 # Akana
+	religion="shinto"
+	culture="sanin"
+	1410.1.1={
+		birth=yes
+	}
+	1470.1.1={
+		death=yes
+	}
+}
+10051601={
+	name=character_name_10051601 # Yukikiyo
+	dynasty=10000511 # Akana
+	father=10051600 # Akana Yukishige
+	religion="shinto"
+	culture="sanin"
+	1440.1.1={
+		birth=yes
+	}
+	1500.1.1={
+		death=yes
+	}
+}
+10051602={
+	name=character_name_10051602 # Hisakiyo
+	dynasty=10000511 # Akana
+	father=10051601 # Akana Yukikiyo
+	religion="shinto"
+	culture="sanin"
+	1471.1.1={
+		birth=yes
+	}
+	1553.2.18={
+		death=yes
+	}
+}
+10051603={
+	name=character_name_10051603 # Mitsukiyo
+	dynasty=10000511 # Akana
+	father=10051602 # Akana Hisakiyo
+	religion="shinto"
+	culture="sanin"
+	1493.1.1={
+		birth=yes
+	}
+	1542.9.6={
+		death=yes
+	}
+}
+10051604={
+	name=character_name_10051604 # Morikiyo
+	dynasty=10000511 # Akana
+	father=10051603 # Akana Mitsukiyo
+	religion="shinto"
+	culture="sanin"
+	martial=9
+	trait="education_martial_2"
+	prowess=17
+	1529.1.1={
+		birth=yes
+	}
+	1595.12.13={
+		death=yes
+	}
+}
+10051610={
+	name=character_name_10051610 # Tadasuke
+	dynasty=10000512 # Mitoya
+	religion="shinto"
+	culture="sanin"
+	1420.1.1={
+		birth=yes
+	}
+	1490.1.1={
+		death=yes
+	}
+}
+10051611={
+	name=character_name_10051611 # Tamesuke
+	dynasty=10000512 # Mitoya
+	father=10051610 # Mitoya Tadasuke
+	religion="shinto"
+	culture="sanin"
+	1445.1.1={
+		birth=yes
+	}
+	1505.1.1={
+		death=yes
+	}
+}
+10051612={
+	name=character_name_10051612 # Sanesuke
+	dynasty=10000512 # Mitoya
+	father=10051611 # Mitoya Tamesuke
+	religion="shinto"
+	culture="sanin"
+	1470.1.1={
+		birth=yes
+	}
+	1510.1.1={
+		death=yes
+	}
+}
+10051613={
+	name=character_name_10051613 # Yorisuke
+	dynasty=10000512 # Mitoya
+	father=10051612 # Mitoya Sanesuke
+	religion="shinto"
+	culture="sanin"
+	1490.1.1={
+		birth=yes
+	}
+	1528.1.1={
+		death=yes
+	}
+}
+10051614={
+	name=character_name_10051614 # Hisasuke
+	dynasty=10000512 # Mitoya
+	father=10051613 # Mitoya Yorisuke
+	religion="shinto"
+	culture="sanin"
+	martial=9
+	trait="education_martial_2"
+	prowess=17
+	1510.1.1={
+		birth=yes
+	}
+	1591.12.5={
+		death=yes
+	}
+}
+10051615={
+	name=character_name_10051615 # Takasuke
+	dynasty=10000512 # Mitoya
+	father=10051614 # Mitoya Hisasuke
+	religion="shinto"
+	culture="sanin"
+	1550.1.1={
+		birth=yes
+	}
+	1610.1.1={
+		death=yes
+	}
+}
+10051620={
+	name=character_name_10051620 # Yukitsuna
+	dynasty=10000513 # Tachihara
+	religion="shinto"
+	culture="sanin"
+	1500.1.1={
+		birth=yes
+		employer = 10051501 # Amago Tsunehisa
+	}
+	1541.11.30={
+		employer = 10051508 # Amago Haruhisa
+	}
+	1550.1.1={
+		death=yes
+	}
+}
+10051621={
+	name=character_name_10051621 # Hisatsuna
+	dynasty=10000513 # Tachihara
+	father=10051620 # Tachihara Yukitsuna
+	religion="shinto"
+	culture="sanin"
+	diplomacy=7
+	martial=9
+	stewardship=8
+	intrigue=9
+	learning=7
+	health=8
+	trait="education_diplomacy_3"
+	trait="diligent"
+	trait="patient"
+	prowess=13
+	1531.1.1={
+		birth=yes
+		employer = 10051501 # Amago Tsunehisa
+	}
+	1541.11.30={
+		employer = 10051508 # Amago Haruhisa
+	}
+	1561.1.9={
+		employer = 10051525 # Amago Yoshihisa
+	}
+	1569.7.1={
+		employer = 10051516 # Amago Katsuhisa
+	}
+	1613.6.14={
+		death=yes
+	}
+}
+10051622={
+	name=character_name_10051622 # Nami
+	female=yes
+	dynasty=10000513 # Tachihara
+	father=10051620 # Tachihara Yukitsuna
+	religion="shinto"
+	culture="sanin"
+	1520.1.1={
+		birth=yes
+	}
+	1560.1.1={
+		death=yes
+	}
+}
+10051630={
+	name=character_name_10051630 # Kiyomune
+	dynasty=10000514 # Sase
+	religion="shinto"
+	culture="sanin"
+	diplomacy=9
+	martial=5
+	stewardship=8
+	intrigue=3
+	learning=7
+	trait="education_stewardship_3"
+	trait="gregarious"
+	trait="poet"
+	prowess=9
+	1510.1.1={
+		birth=yes
+		employer = 10051501 # Amago Tsunehisa
+	}
+	1541.11.30={
+		employer = 10051508 # Amago Haruhisa
+	}
+	1561.1.9={
+		employer = 10051525 # Amago Yoshihisa
+	}
+	1570.1.1={
+		death=yes
+	}
+}
+10051631={
+	name=character_name_10051631 # Masakatsu
+	dynasty=10000514 # Sase
+	father=10051630 # Sase Kiyomune
+	religion="shinto"
+	culture="sanin"
+	1540.1.1={
+		birth=yes
+		employer = 10051501 # Amago Tsunehisa
+	}
+	1541.11.30={
+		employer = 10051508 # Amago Haruhisa
+	}
+	1561.1.9={
+		employer = 10051525 # Amago Yoshihisa
+	}
+	1601.7.31={
+		death=yes
+	}
+}
+10051632={
+	name=character_name_10051632 # Motoyoshi
+	dynasty=10000514 # Sase
+	father=10051630 # Sase Kiyomune
+	religion="shinto"
+	culture="sanin"
+	1546.1.1={
+		birth=yes
+		employer = 10051508 # Amago Haruhisa
+	}
+	1561.1.9={
+		employer = 10051525 # Amago Yoshihisa
+	}
+	1620.8.7={
+		death=yes
+	}
+}
+10051640={
+	name=character_name_10051640 # Tokitaka
+	dynasty=10000519 # Tako
+	religion="shinto"
+	culture="sanin"
+	diplomacy=7
+	martial=7
+	stewardship=7
+	intrigue=7
+	learning=7
+	trait="education_stewardship_3"
+	trait="mystic_1"
+	trait="temperate"
+	trait="humble"
+	trait="just"
+	trait="poet"
+	prowess=11
+	1497.1.1={
+		birth=yes
+		employer = 10051501 # Amago Tsunehisa
+	}
+	1541.11.30={
+		employer = 10051508 # Amago Haruhisa
+	}
+	1561.1.9={
+		employer = 10051525 # Amago Yoshihisa
+	}
+	1562.1.1={
+		death=yes
+	}
+}
+10051645={
+	name=character_name_10051645 # Yoshikiyo
+	dynasty=10000521 # Ushio
+	religion="shinto"
+	culture="sanin"
+	martial=9
+	trait="education_martial_2"
+	prowess=17
+	1500.1.1={
+		birth=yes
+		employer = 10051501 # Amago Tsunehisa
+	}
+	1541.11.30={
+		employer = 10051508 # Amago Haruhisa
+	}
+	1561.1.9={
+		employer = 10051525 # Amago Yoshihisa
+	}
+	1570.1.1={
+		death=yes
+	}
+}
+10051650={
+	name=character_name_10051650 # Hisakane
+	dynasty=10000522 # Uyama
+	religion="shinto"
+	culture="sanin"
+	martial=9
+	trait="education_martial_2"
+	prowess=17
+	1511.1.1={
+		birth=yes
+		employer = 10051501 # Amago Tsunehisa
+	}
+	1541.11.30={
+		employer = 10051508 # Amago Haruhisa
+	}
+	1561.1.9={
+		employer = 10051525 # Amago Yoshihisa
+	}
+	1566.1.22={
+		death=yes
+	}
+}
+10051655={
+	name=character_name_10051655 # Hidetsuna
+	dynasty=10000523 # Yokomichi
+	religion="shinto"
+	culture="sanin"
+	martial=8
+	trait="education_martial_3"
+	prowess=18
+	1530.1.1={
+		birth=yes
+		employer = 10051501 # Amago Tsunehisa
+	}
+	1541.11.30={
+		employer = 10051508 # Amago Haruhisa
+	}
+	1561.1.9={
+		employer = 10051525 # Amago Yoshihisa
+	}
+	1569.7.1={
+		employer = 10051516 # Amago Katsuhisa
+	}
+	1570.2.1={
+		death=yes
+	}
+}
+10051660={
+	name=character_name_10051660 # Munenobu
+	dynasty=10000524 # Akiage
+	religion="shinto"
+	culture="sanin"
+	martial=9
+	trait="education_martial_2"
+	prowess=17
+	1530.1.1={
+		birth=yes
+		employer = 10051501 # Amago Tsunehisa
+	}
+	1541.11.30={
+		employer = 10051508 # Amago Haruhisa
+	}
+	1561.1.9={
+		employer = 10051525 # Amago Yoshihisa
+	}
+	1569.7.1={
+		employer = 10051516 # Amago Katsuhisa
+	}
+	1594.11.29={
+		death=yes
+	}
+}
+10051665={
+	name=character_name_10051665 # Hisamori
+	dynasty=10000525 # Kawazoe
+	religion="shinto"
+	culture="sanin"
+	martial=9
+	trait="education_martial_2"
+	prowess=17
+	1520.1.1={
+		birth=yes
+		employer = 10051501 # Amago Tsunehisa
+	}
+	1541.11.30={
+		employer = 10051508 # Amago Haruhisa
+	}
+	1569.12.1={
+		death=yes
+	}
+}
+10051670={
+	name=character_name_10051670 # Mitsutomo
+	dynasty=10000526 # Yoshida
+	religion="shinto"
+	culture="sanin"
+	martial=8
+	trait="education_martial_2"
+	prowess=16
+	1510.1.1={
+		birth=yes
+	}
+	1570.1.1={
+		death=yes
+	}
+}
+10051700={
+	name=character_name_10051700 # Korenori
+	dynasty=10000527 # Kamei
+	religion="shinto"
+	culture="sanin"
+	diplomacy=9
+	martial=7
+	stewardship=7
+	intrigue=9
+	learning=5
+	trait="education_stewardship_3"
+	trait="shrewd"
+	trait="greedy"
+	trait="zealous"
+	prowess=11
+	1557.1.1={
+		birth=yes
+		employer = 10051508 # Amago Haruhisa
+	}
+	1561.1.9={
+		employer = 10051525 # Amago Yoshihisa
+	}
+	1569.7.1={
+		employer = 10051516 # Amago Katsuhisa
+	}
+	1612.2.27={
+		death=yes
+	}
+}
+10052000={
+	name=character_name_10052000 # Hideshige
+	dynasty=10000528 # Oki
+	father=10044205 # Kyogoku Takahide
+	religion="shinto"
+	culture="sanin"
+	1390.1.1={
+		birth=yes
+	}
+	1450.1.1={
+		death=yes
+	}
+}
+10052001={
+	name=character_name_10052001 # Kiyohide
+	dynasty=10000528 # Oki
+	father=10052000 # Oki Hideshige
+	religion="shinto"
+	culture="sanin"
+	1430.1.1={
+		birth=yes
+	}
+	1490.1.1={
+		death=yes
+	}
+}
+10052002={
+	name=character_name_10052002 # Munekiyo
+	dynasty=10000528 # Oki
+	father=10052001 # Oki Kiyohide
+	religion="shinto"
+	culture="sanin"
+	1470.1.1={
+		birth=yes
+	}
+	1544.1.1={
+		death=yes
+	}
+}
+10052003={
+	name=character_name_10052003 # Toyokiyo
+	dynasty=10000528 # Oki
+	father=10052002 # Oki Munekiyo
+	religion="shinto"
+	culture="sanin"
+	1510.1.1={
+		birth=yes
+	}
+	1560.1.1={
+		death=yes
+	}
+}
+10052004={
+	name=character_name_10052004 # Tamekiyo
+	dynasty=10000528 # Oki
+	father=10052003 # Oki Toyokiyo
+	religion="shinto"
+	culture="sanin"
+	1540.1.1={
+		birth=yes
+	}
+	1569.10.1={
+		death=yes
+	}
+}
+10052005={
+	name=character_name_10052005 # Kiyoie
+	dynasty=10000528 # Oki
+	father=10052003 # Oki Toyokiyo
+	religion="shinto"
+	culture="sanin"
+	1542.1.1={
+		birth=yes
+	}
+	1582.7.1={
+		death=yes
+	}
+}
+10052006={
+	name=character_name_10052006 # Tsunekiyo
+	dynasty=10000528 # Oki
+	father=10052004 # Oki Tamekiyo
+	religion="shinto"
+	culture="sanin"
+	1560.1.1={
+		birth=yes
+	}
+	1582.8.1={
 		death=yes
 	}
 }

@@ -2,24 +2,27 @@
 	name=character_name_10057002 # Yoshitaka
 	dynasty=10000570 # Ouchi
 	father=10057001
-	martial=5
-	diplomacy=7
-	intrigue=7
-	stewardship=6
-	learning=5
+	diplomacy=6
+	martial=8
+	stewardship=9
+	intrigue=5
+	learning=8
 	trait="education_diplomacy_3"
 	trait="poet"
-	trait="craven"
-	trait="diligent"
-	trait="zealous"
+	trait="generous"
+	trait="mystic_1"
+	trait="lustful"
+	sexuality=homosexual
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
+	prowess=12
 	1507.12.18={
 		birth=yes
 	}
 	1515.1.1={
-		trait="jugoi_ge"
+		effect = {
+			add_trait = "jugoi_ge"
+		}
 	}
 	1523.12.18={
 		give_nickname="nick_suo_no_suke"
@@ -28,7 +31,7 @@
 		add_spouse=11005947 # Madenokoji Sadako
 	}
 	1529.1.29={
-		effect={
+		effect = {
 			set_realm_capital=title:c_shgnt_yoshiki
 		}
 	}
@@ -36,38 +39,52 @@
 		give_nickname="nick_the_sakyo_dayu"
 	}
 	1532.12.10={
-		remove_trait="jugoi_ge"
-		trait="shogoi_ge"
+		effect = {
+			remove_trait = "jugoi_ge"
+			add_trait = "shogoi_ge"
+		}
 	}
 	1534.5.10={
-		remove_trait="shogoi_ge"
-		trait="jushii_ge"
+		effect = {
+			remove_trait = "shogoi_ge"
+			add_trait = "jushii_ge"
+		}
 	}
 	1536.5.16={
 		give_nickname="nick_the_dazai_daini"
 	}
 	1537.1.1={
-		remove_trait="jushii_ge"
-		trait="jushii_jo"
+		effect = {
+			remove_trait = "jushii_ge"
+			add_trait = "jushii_jo"
+		}
 	}
 	1539.1.1={
-		remove_trait="jushii_jo"
-		trait="shoshii_ge"
+		effect = {
+			remove_trait = "jushii_jo"
+			add_trait = "shoshii_ge"
+		}
 	}
 	1541.1.1={
-		remove_trait="shoshii_ge"
-		trait="jusanmi"
+		effect = {
+			remove_trait = "shoshii_ge"
+			add_trait = "jusanmi"
+		}
 	}
 	1545.1.1={
-		remove_trait="jusanmi"
-		trait="shosanmi"
+		effect = {
+			remove_trait = "jusanmi"
+			add_trait = "shosanmi"
+		}
 	}
 	1546.1.1={
 		remove_spouse=11005947 # Madenokoji Sadako
 	}
 	1548.1.1={
-		remove_trait="shosanmi"
-		trait="junii"
+		effect = {
+			remove_trait = "shosanmi"
+			add_trait = "junii"
+		}
 	}
 	1551.9.30={
 		death={
@@ -79,41 +96,47 @@
 	name=character_name_10057001 # Yoshioki
 	dynasty=10000570 # Ouchi
 	father=10057007
-	martial=6
-	diplomacy=7
-	intrigue=6
-	stewardship=6
-	learning=6
+	martial=4
+	diplomacy=12
+	intrigue=10
+	stewardship=5
+	learning=8
 	trait="education_martial_3"
 	trait="intellect_good_2"
 	trait="poet"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
+	prowess=14
 	1477.4.7={
 		birth=yes
 	}
 	1493.1.1={
-		trait="shogoi_ge"
+		effect = {
+			add_trait = "shogoi_ge"
+		}
 	}
 	1493.4.7={
 		give_nickname="nick_suo_no_suke"
 	}
 	1495.10.6={
-		effect={
-			set_realm_capital=title:c_shgnt_yoshiki
+		effect = {
+			set_realm_capital = title:c_shgnt_yoshiki
 		}
 	}
 	1508.7.1={
 		give_nickname="nick_the_sakyo_dayu"
 	}
 	1508.11.1={
-		remove_trait="shogoi_ge"
-		trait="jushii_jo"
+		effect = {
+			remove_trait = "shogoi_ge"
+			add_trait = "jushii_jo"
+		}
 	}
 	1512.3.26={
-		remove_trait="jushii_jo"
-		trait="jusanmi"
+		effect = {
+			remove_trait = "jushii_jo"
+			add_trait = "jusanmi"
+		}
 	}
 	1529.1.29={
 		death=yes
@@ -126,7 +149,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1510.1.1={
 		birth=yes
 	}
@@ -141,17 +163,16 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="shikoku"
-	prowess=11
 	1524.1.1={
 		birth=yes
 	}
 	1534.1.1={
 		dynasty=10000570 # Ouchi
-		trait="child_of_adoption"
 		culture="western_chugoku"
-		effect={
-			set_father=character:10057002
-			set_real_father=character:10058102
+		effect = {
+			set_father = character:10057002
+			set_real_father = character:10058102
+			add_trait = "child_of_adoption"
 		}
 	}
 	1543.6.9={
@@ -165,7 +186,6 @@
 	trait="education_stewardship_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1480.1.1={
 		birth=yes
 	}
@@ -180,7 +200,6 @@
 	trait="education_martial_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1520.1.1={
 		birth=yes
 	}
@@ -197,7 +216,6 @@
 	trait="diligent"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=14
 	1446.9.18={
 		birth=yes
 	}
@@ -205,7 +223,7 @@
 		give_nickname="nick_suo_no_suke"
 	}
 	1465.9.23={
-		effect={
+		effect = {
 			set_realm_capital=title:c_shgnt_yoshiki
 		}
 	}
@@ -213,7 +231,9 @@
 		give_nickname="nick_sakyo_dayu"
 	}
 	1494.1.1={
-		trait="jushii_jo"
+		effect = {
+			add_trait = "jushii_jo"
+		}
 	}
 	1495.10.6={
 		death=yes
@@ -226,7 +246,6 @@
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1420.5.2={
 		birth=yes
 	}
@@ -235,10 +254,12 @@
 	}
 	1440.1.1={
 		give_nickname="nick_sakyo_dayu"
-		trait="jugoi_ge"
+		effect = {
+			add_trait = "jugoi_ge"
+		}
 	}
 	1441.08.14 = {
-        effect={
+        effect = {
 			set_realm_capital=title:c_shgnt_yoshiki
 		}
     }
@@ -246,8 +267,10 @@
 		add_spouse=10050064
 	}
 	1449.1.1={
-		remove_trait="jugoi_ge"
-		trait="jushii_ge"
+		effect = {
+			remove_trait = "jugoi_ge"
+			add_trait = "jushii_ge"
+		}
 	}
 	1465.9.23={
 		death=yes
@@ -260,7 +283,6 @@
 	trait="education_martial_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1425.1.1={
 		birth=yes
 	}
@@ -275,7 +297,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1377.1.1={
 		birth=yes
 	}
@@ -283,8 +304,10 @@
 		give_nickname="nick_the_suo_no_kami"
 	}
 	1408.1.1={
-		trait="jushii_jo"
 		give_nickname="nick_the_sakyo_dayu"
+		effect = {
+			add_trait = "jushii_jo"
+		}
 	}
 	1431.8.6={
 		death={
@@ -299,7 +322,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1379.1.1={
 		birth=yes
 	}
@@ -314,7 +336,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1360.1.1={
 		birth=yes
 	}
@@ -331,7 +352,6 @@
 	trait="education_intrigue_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1356.1.1={
 		birth=yes
 	}
@@ -339,8 +359,10 @@
 		give_nickname="nick_the_suo_no_suke"
 	}
 	1380.1.1={
-		trait="jushii_jo"
 		give_nickname="nick_the_sakyo_dayu"
+		effect = {
+			add_trait = "jushii_jo"
+		}
 	}
 	1400.1.17={
 		death=yes
@@ -353,13 +375,14 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1325.1.1={
 		birth=yes
 	}
 	1350.1.1={
-		trait="jugoi_jo"
 		give_nickname="nick_the_suo_no_suke"
+		effect = {
+			add_trait = "jugoi_jo"
+		}
 	}
 	1380.12.12={
 		death=yes
@@ -372,21 +395,26 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1394.3.23={
 		birth=yes
-		trait="legitimized_bastard"
+		effect = {
+			add_trait = "legitimized_bastard"
+		}
 	}
 	1424.1.1={
 		give_nickname="nick_gyobu_no_sho"
 	}
 	1432.5.15={
-		trait="shogoi_ge"
 		give_nickname="nick_the_shuri_daibu"
+		effect = {
+			add_trait = "shogoi_ge"
+		}
 	}
 	1435.1.5={
-		remove_trait="shogoi_ge"
-		trait="jushii_ge"
+		effect = {
+			remove_trait = "shogoi_ge"
+			add_trait = "jushii_ge"
+		}
 	}
 	1441.8.14={
 		death=yes
@@ -399,7 +427,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1394.8.1={
 		birth=yes
 	}
@@ -417,19 +444,22 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1397.1.1={
 		birth=yes
 	}
 	1407.1.1={
-		name=character_name_10057017_1 # Sei-Zousu
 		culture="kinai_buddhist"
-		trait="devoted"
+		effect = {
+			change_first_name = character_name_10057017_1 # Sei-Zousu
+			add_trait = "devoted"
+		}
 	}
 	1432.6.30={
-		name=character_name_10057017_2 # Norisuke
 		culture="western_chugoku"
-		remove_trait="devoted"
+		effect = {
+			change_first_name = character_name_10057017_2 # Norisuke
+			remove_trait = "devoted"
+		}
 	}
 	1436.8.1={
 		death={
@@ -444,7 +474,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1309.1.1={
 		birth=yes
 	}
@@ -459,7 +488,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1270.1.1={
 		birth=yes
 	}
@@ -473,7 +501,6 @@
 	father=10057002 # 
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1545.1.1={
 		birth=yes
 	}
@@ -488,7 +515,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1274.1.1={
 		birth=yes
 	}
@@ -496,10 +522,12 @@
 		dynasty=10000579 # Washizu
 	}
 	1333.1.1={
-		trait="jugoi_ge"
 		give_nickname="nick_buzen_no_kami"
+		effect = {
+			add_trait = "jugoi_ge"
+		}
 	}
-	1345.1.1={
+	1351.1.1={
 		death=yes
 	}
 }
@@ -511,7 +539,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1505.1.1={
 		birth=yes
 	}
@@ -527,7 +554,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1500.1.1={
 		birth=yes
 	}
@@ -543,7 +569,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1515.1.1={
 		birth=yes
 	}
@@ -559,7 +584,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1480.1.1={
 		birth=yes
 	}
@@ -576,7 +600,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1442.1.1={
 		birth=yes
 	}
@@ -593,7 +616,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1450.1.1={
 		birth=yes
 	}
@@ -609,7 +631,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1420.1.1={
 		birth=yes
 	}
@@ -625,7 +646,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1375.1.1={
 		birth=yes
 	}
@@ -641,7 +661,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1377.1.1={
 		birth=yes
 	}
@@ -657,7 +676,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1415.1.1={
 		birth=yes
 	}
@@ -673,7 +691,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1503.1.1={
 		birth=yes
 	}
@@ -688,7 +705,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1320.1.1={
 		birth=yes
 	}
@@ -703,13 +719,14 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1325.1.1={
 		birth=yes
 	}
 	1345.1.1={
-		trait="shogoi_ge"
 		give_nickname="nick_the_minbu_daihu"
+		effect = {
+			add_trait = "shogoi_ge"
+		}
 	}
 	1354.1.1={
 		death=yes
@@ -722,7 +739,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1330.1.1={
 		birth=yes
 	}
@@ -740,7 +756,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1340.1.1={
 		birth=yes
 	}
@@ -755,7 +770,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1375.1.1={
 		birth=yes
 	}
@@ -770,7 +784,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1380.1.1={
 		birth=yes
 	}
@@ -785,7 +798,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1385.1.1={
 		birth=yes
 	}
@@ -800,7 +812,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1400.1.1={
 		birth=yes
 	}
@@ -818,7 +829,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1430.1.1={
 		birth=yes
 	}
@@ -833,7 +843,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1435.1.1={
 		birth=yes
 	}
@@ -848,7 +857,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1445.1.1={
 		birth=yes
 	}
@@ -863,7 +871,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1350.1.1={
 		birth=yes
 	}
@@ -878,7 +885,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1390.1.1={
 		birth=yes
 	}
@@ -893,7 +899,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1420.1.1={
 		birth=yes
 	}
@@ -908,7 +913,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1440.1.1={
 		birth=yes
 	}
@@ -926,7 +930,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1445.1.1={
 		birth=yes
 	}
@@ -941,7 +944,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1470.1.1={
 		birth=yes
 	}
@@ -956,7 +958,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1480.1.1={
 		birth=yes
 	}
@@ -971,7 +972,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1490.1.1={
 		birth=yes
 	}
@@ -986,7 +986,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1520.1.1={
 		birth=yes
 	}
@@ -1001,7 +1000,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1550.1.1={
 		birth=yes
 	}
@@ -1016,7 +1014,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1580.1.1={
 		birth=yes
 	}
@@ -1029,17 +1026,17 @@
 	dynasty=10000565 # Sue
 	father=10057101
 	mother=10055910
-	martial=5
-	diplomacy=7
-	intrigue=6
-	stewardship=5
-	learning=5
+	martial=6
+	diplomacy=9
+	intrigue=8
+	stewardship=7
+	learning=7
 	trait="education_martial_3"
 	trait="diligent"
 	trait="poet"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=15
+	prowess=16
 	1478.1.1={
 		birth=yes
 	}
@@ -1056,11 +1053,15 @@
 		add_spouse=10057115
 	}
 	1537.1.1={
-		trait="jugoi_ge"
+		effect = {
+			add_trait = "jugoi_ge"
+		}
 	}
 	1538.5.1={
-		remove_trait="jugoi_ge"
-		trait="jugoi_jo"
+		effect = {
+			remove_trait = "jugoi_ge"
+			add_trait = "jugoi_jo"
+		}
 	}
 	1539.5.6={
 		death=yes
@@ -1070,15 +1071,15 @@
 	name=character_name_10057101 # Hiromori
 	dynasty=10000565 # Sue
 	father=12661498 # Sue Hirofusa
-	martial=6
-	diplomacy=7
-	intrigue=6
-	stewardship=5
-	learning=7
+	martial=9
+	diplomacy=9
+	intrigue=8
+	stewardship=8
+	learning=8
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
+	prowess=13
 	1455.10.3={
 		birth=yes
 	}
@@ -1097,27 +1098,32 @@
 	dynasty=10000565 # Sue
 	father=10057100
 	mother=10057115
-	martial=6
-	diplomacy=6
-	intrigue=6
-	stewardship=5
-	learning=5
-	trait="education_martial_2"
-	trait="brave"
-	trait="ambitious"
-	trait="impatient"
-	trait="arrogant"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
+	diplomacy=5
+	martial=7
+	stewardship=6
+	intrigue=5
+	learning=5
+	trait="education_martial_3"
+	trait="intellect_good_2"
+	trait="beauty_good_3"
+	trait="brave"
+	trait="stubborn"
+	trait="impatient"
+	trait="sadistic"
+	trait="paranoid"
+	trait="arrogant"
+	trait="poet"
+	prowess=17
 	1521.1.1={
 		birth=yes
 	}
 	1537.1.1={
-		trait="jugoi_ge"
 		give_nickname="nick_goro"
-		effect={
-			set_relation_friend=character:10055902
+		effect = {
+			add_trait = "jugoi_ge"
+			set_relation_friend = character:10055902
 		}
 	}
 	1541.1.1={
@@ -1127,14 +1133,18 @@
 		give_nickname="nick_owari_no_kami"
 	}
 	1548.1.1={
-		remove_trait="jugoi_ge"
-		trait="jugoi_jo"
+		effect = {
+			remove_trait = "jugoi_ge"
+			add_trait = "jugoi_jo"
+		}
 	}
 	1550.1.1={
 		add_spouse=10057250
 	}
 	1551.9.30={
-		name=character_name_10057102_1 # Harukata
+		effect = {
+			change_first_name = character_name_10057102_1 # Harukata
+		}
 	}
 	1555.10.16={
 		death={
@@ -1148,7 +1158,6 @@
 	father=10057101
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1472.1.1={
 		birth=yes
 	}
@@ -1168,7 +1177,6 @@
 	father=10057101
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1477.1.1={
 		birth=yes
 	}
@@ -1189,7 +1197,6 @@
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1504.1.1={
 		birth=yes
 	}
@@ -1197,7 +1204,9 @@
 		give_nickname="nick_jio"
 	}
 	1529.1.1={
-		trait="ill"
+		effect = {
+			add_trait = "ill"
+		}
 	}
 	1529.5.30={
 		death=yes
@@ -1211,7 +1220,6 @@
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1472.1.1={
 		birth=yes
 	}
@@ -1227,7 +1235,6 @@
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1438.1.1={
 		birth=yes
 	}
@@ -1243,7 +1250,6 @@
 	mother=10055910 # daughter of Masuda Kanetaka
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1476.1.1={
 		birth=yes
 	}
@@ -1258,7 +1264,6 @@
 	trait="education_martial_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=13
 	1465.1.1={
 		birth=yes
 	}
@@ -1272,7 +1277,9 @@
 		give_nickname="nick_the_boshu_no_kami"
 	}
 	1518.1.1={
-		trait="jugoi_ge"
+		effect = {
+			add_trait = "jugoi_ge"
+		}
 	}
 	1523.12.1={
 		death=yes
@@ -1286,7 +1293,7 @@
 	martial=6
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
+	prowess=14
 	1485.1.1={
 		birth=yes
 	}
@@ -1304,7 +1311,6 @@
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1530.1.1={
 		birth=yes
 	}
@@ -1319,7 +1325,6 @@
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1540.1.1={
 		birth=yes
 	}
@@ -1335,7 +1340,6 @@
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1500.1.1={
 		birth=yes
 	}
@@ -1350,7 +1354,6 @@
 	trait="education_martial_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=13
 	1540.1.1={
 		birth=yes
 	}
@@ -1370,7 +1373,6 @@
 	trait="education_martial_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1545.1.1={
 		birth=yes
 	}
@@ -1386,7 +1388,6 @@
 	trait="education_martial_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1551.1.1={
 		birth=yes
 	}
@@ -1400,7 +1401,6 @@
 	father=10057111 # Sue Hiroaki
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1497.1.1={
 		birth=yes
 	}
@@ -1411,11 +1411,15 @@
 		give_nickname="nick_hyogo_no_kami"
 	}
 	1537.2.1={
-		trait="jugoi_ge"
 		give_nickname="nick_the_boshu_no_kami"
+		effect = {
+			add_trait = "jugoi_ge"
+		}
 	}
 	1540.1.1={
-		name=character_name_10057119_1 # Takamitsu
+		effect = {
+			change_first_name = character_name_10057119_1 # Takamitsu
+		}
 	}
 	1557.1.1={
 		death=yes
@@ -1427,7 +1431,6 @@
 	father=10057119 # Sue Mochinaga
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1527.1.1={
 		birth=yes
 	}
@@ -1436,7 +1439,9 @@
 	}
 	1547.1.1={
 		give_nickname="nick_hyogo_no_kami"
-		trait="jugoi_ge"
+		effect = {
+			add_trait = "jugoi_ge"
+		}
 	}
 	1557.1.1={
 		give_nickname="nick_the_boshu_no_kami"
@@ -1449,17 +1454,17 @@
 	name=character_name_10057200 # Okimori
 	dynasty=10000566 # Naito
 	father=10057201
-	martial=6
-	diplomacy=5
-	intrigue=5
-	stewardship=6
-	learning=5
+	martial=9
+	diplomacy=11
+	intrigue=11
+	stewardship=5
+	learning=7
 	trait="education_stewardship_3"
 	trait="diligent"
 	trait="compassionate"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
+	prowess=17
 	1495.1.1={
 		birth=yes
 	}
@@ -1487,14 +1492,14 @@
 	dynasty=10000566 # Naito
 	father=10057203
 	martial=7
-	diplomacy=6
-	intrigue=5
-	stewardship=5
-	learning=8
+	diplomacy=9
+	intrigue=7
+	stewardship=8
+	learning=6
 	trait="education_martial_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=13
+	prowess=15
 	1456.1.1={
 		birth=yes
 	}
@@ -1507,15 +1512,16 @@
 	dynasty=10000566 # Naito
 	father=10057200
 	mother=10056505
-	martial=8
-	diplomacy=5
+	martial=7
+	diplomacy=7
 	intrigue=7
-	stewardship=7
-	learning=7
+	stewardship=8
+	learning=6
+	health=7
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
+	prowess=11
 	1528.1.1={
 		birth=yes
 	}
@@ -1532,7 +1538,6 @@
 	father=10057220
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1413.1.1={
 		birth=yes
 	}
@@ -1552,7 +1557,6 @@
 	father=10057203
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1446.1.1={
 		birth=yes
 	}
@@ -1575,7 +1579,6 @@
 	trait="compassionate"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1500.1.1={
 		birth=yes
 	}
@@ -1591,7 +1594,6 @@
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1517.1.1={
 		birth=yes
 	}
@@ -1609,7 +1611,6 @@
 	female=yes
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1490.1.1={
 		birth=yes
 	}
@@ -1625,7 +1626,6 @@
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1518.1.1={
 		birth=yes
 	}
@@ -1641,7 +1641,6 @@
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1519.1.1={
 		birth=yes
 	}
@@ -1658,7 +1657,6 @@
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1525.1.1={
 		birth=yes
 	}
@@ -1675,7 +1673,6 @@
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1521.1.1={
 		birth=yes
 	}
@@ -1692,7 +1689,6 @@
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1529.1.1={
 		birth=yes
 	}
@@ -1709,7 +1705,6 @@
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1530.1.1={
 		birth=yes
 	}
@@ -1725,7 +1720,6 @@
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1531.1.1={
 		birth=yes
 	}
@@ -1741,7 +1735,6 @@
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1532.1.1={
 		birth=yes
 	}
@@ -1755,11 +1748,10 @@
 	father=10057203 # Naito Moriyo
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1438.1.1={
 		birth=yes
 	}
-	1458.1.1={
+	1472.1.1={
 		death=yes
 	}
 }
@@ -1772,7 +1764,6 @@
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1534.1.1={
 		birth=yes
 	}
@@ -1790,7 +1781,6 @@
 	trait="trusting"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1536.1.1={
 		birth=yes
 	}
@@ -1807,7 +1797,6 @@
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1527.1.1={
 		birth=yes
 	}
@@ -1819,11 +1808,11 @@
 	name=character_name_10057253 # Motomori
 	dynasty=10000566 # Naito
 	mother=10057210
-	martial=7
+	martial=9
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
+	prowess=13
 	1566.1.1={
 		birth=yes
 	}
@@ -1843,7 +1832,6 @@
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1555.1.1={
 		birth=yes
 	}
@@ -1860,7 +1848,6 @@
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1550.1.1={
 		birth=yes
 	}
@@ -1877,7 +1864,6 @@
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1565.1.1={
 		birth=yes
 	}
@@ -1893,7 +1879,6 @@
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1570.1.1={
 		birth=yes
 	}
@@ -1909,7 +1894,6 @@
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1570.1.1={
 		birth=yes
 	}
@@ -1925,7 +1909,6 @@
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1575.1.1={
 		birth=yes
 	}
@@ -1940,7 +1923,6 @@
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1580.1.1={
 		birth=yes
 	}
@@ -1955,7 +1937,6 @@
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1582.1.1={
 		birth=yes
 	}
@@ -1971,7 +1952,6 @@
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1590.1.1={
 		birth=yes
 	}
@@ -1989,7 +1969,6 @@
 	father=10057204
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1480.1.1={
 		birth=yes
 	}
@@ -2003,7 +1982,6 @@
 	father=10057221 # Naito Morisada
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1384.1.1={
 		birth=yes
 	}
@@ -2023,7 +2001,6 @@
 	father=10057224
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1356.1.1={
 		birth=yes
 	}
@@ -2040,7 +2017,6 @@
 	father=10057221
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1382.1.1={
 		birth=yes
 	}
@@ -2054,7 +2030,6 @@
 	father=10057224
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1360.1.1={
 		birth=yes
 	}
@@ -2068,7 +2043,6 @@
 	father=10057225
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1325.1.1={
 		birth=yes
 	}
@@ -2082,7 +2056,6 @@
 	father=12661525
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1300.1.1={
 		birth=yes
 	}
@@ -2096,7 +2069,6 @@
 	father=12661525
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1295.1.1={
 		birth=yes
 	}
@@ -2113,7 +2085,6 @@
 	father=10057226
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1320.1.1={
 		birth=yes
 	}
@@ -2125,15 +2096,15 @@
 	name=character_name_10057300 # Fusayasu
 	dynasty=10000573 # Sugimori
 	father=10057301
-	martial=8
-	diplomacy=5
-	intrigue=5
+	martial=7
+	diplomacy=8
+	intrigue=7
 	stewardship=6
-	learning=4
+	learning=6
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
+	prowess=11
 	1489.1.1={
 		birth=yes
 	}
@@ -2145,15 +2116,15 @@
 	name=character_name_10057301 # Hiroyasu
 	dynasty=10000573 # Sugimori
 	father=10057303
-	martial=6
-	diplomacy=6
-	intrigue=5
-	stewardship=5
-	learning=5
+	martial=8
+	diplomacy=8
+	intrigue=7
+	stewardship=6
+	learning=6
 	trait="education_martial_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
+	prowess=14
 	1442.1.1={
 		birth=yes
 	}
@@ -2165,11 +2136,11 @@
 	name=character_name_10057302 # Takayasu
 	dynasty=10000573 # Sugimori
 	father=10057300
-	martial=8
-	diplomacy=6
-	intrigue=6
-	stewardship=7
-	learning=7
+	martial=7
+	diplomacy=8
+	intrigue=7
+	stewardship=8
+	learning=6
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
@@ -2187,7 +2158,6 @@
 	father=10057313
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1410.1.1={
 		birth=yes
 	}
@@ -2202,7 +2172,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1520.1.1={
 		birth=yes
 	}
@@ -2217,7 +2186,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1525.1.1={
 		birth=yes
 	}
@@ -2233,7 +2201,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1524.1.1={
 		birth=yes
 	}
@@ -2249,7 +2216,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1517.1.1={
 		birth=yes
 	}
@@ -2265,7 +2231,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1519.1.1={
 		birth=yes
 	}
@@ -2281,7 +2246,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1521.1.1={
 		birth=yes
 	}
@@ -2297,7 +2261,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1522.1.1={
 		birth=yes
 	}
@@ -2313,7 +2276,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1523.1.1={
 		birth=yes
 	}
@@ -2322,14 +2284,22 @@
 	}
 }
 10057332 = {
-	name=character_name_10057332 # Motoyori#real father is Shido Kozukenosuke Motoyasu
-	dynasty=10000573 # Sugimori
+	name=character_name_10057332 # Motoyori
+	dynasty=10000863 # Shiji
+	father=12666510 # Shiji Motoyasu
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1565.1.1={
 		birth=yes
+	}
+	1570.1.1={
+		dynasty=10000573 # Sugimori
+		effect = {
+			set_father = character:10057302
+			set_real_father = character:12666510
+			add_trait = "child_of_adoption"
+		}
 	}
 	1585.1.1={
 		add_spouse=10057333
@@ -2346,7 +2316,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1560.1.1={
 		birth=yes
 	}
@@ -2362,7 +2331,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1588.1.1={
 		birth=yes
 	}
@@ -2376,7 +2344,6 @@
 	father=10057314
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1370.1.1={
 		birth=yes
 	}
@@ -2390,7 +2357,6 @@
 	father=10057315
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1330.1.1={
 		birth=yes
 	}
@@ -2404,7 +2370,6 @@
 	father=10057316
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1290.1.1={
 		birth=yes
 	}
@@ -2418,7 +2383,6 @@
 	father=10057317
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1269.1.1={
 		birth=yes
 	}
@@ -2432,7 +2396,6 @@
 	father=10057318
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1240.1.1={
 		birth=yes
 	}
@@ -2446,7 +2409,6 @@
 	father=10057319
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1215.1.1={
 		birth=yes
 	}
@@ -2460,7 +2422,6 @@
 	father=10057320
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1193.1.1={
 		birth=yes
 	}
@@ -2474,12 +2435,14 @@
 	father=10057321
 	religion="shinto"
 	culture="aristocrats"
-	prowess=12
+	health=8
 	1140.1.1={
 		birth=yes
 	}
 	1162.1.1={
-		trait="jugoi_ge"
+		effect = {
+			add_trait = "jugoi_ge"
+		}
 	}
 	1180.5.18={
 		employer=10041059 # Emperor Antoku
@@ -2497,7 +2460,6 @@
 	father=10057322
 	religion="shinto"
 	culture="central_kinai"
-	prowess=10
 	1110.1.1={
 		birth=yes
 	}
@@ -2511,12 +2473,13 @@
 	father=10057323
 	religion="shinto"
 	culture="central_kinai"
-	prowess=10
 	1049.1.1={
 		birth=yes
 	}
 	1132.1.1={
-		trait="shogoi_ge"
+		effect = {
+			add_trait = "shogoi_ge"
+		}
 	}
 	1139.8.3={
 		death=yes
@@ -2528,12 +2491,13 @@
 	father=10057324
 	religion="shinto"
 	culture="central_kinai"
-	prowess=9
 	1006.1.1={
 		birth=yes
 	}
 	1080.1.1={
-		trait="jushii_ge"
+		effect = {
+			add_trait = "jushii_ge"
+		}
 	}
 	1081.8.4={
 		death=yes
@@ -2545,12 +2509,13 @@
 	father=10057325
 	religion="shinto"
 	culture="central_kinai"
-	prowess=11
 	967.1.1={
 		birth=yes
 	}
 	1032.1.1={
-		trait="shogoi_ge"
+		effect = {
+			add_trait = "shogoi_ge"
+		}
 	}
 	1038.2.28={
 		death=yes
@@ -2562,12 +2527,13 @@
 	father= 10057326
 	religion="shinto"
 	culture="central_kinai"
-	prowess=11
 	910.1.1={
 		birth=yes
 	}
 	960.1.1={
-		trait="jugoi_jo"
+		effect = {
+			add_trait = "jugoi_jo"
+		}
 	}
 	992.12.15={
 		death=yes
@@ -2579,12 +2545,13 @@
 	father= 10057327
 	religion="shinto"
 	culture="central_kinai"
-	prowess=11
 	880.1.1={
 		birth=yes
 	}
 	930.1.1={
-		trait="jushii_jo"
+		effect = {
+			add_trait = "jushii_jo"
+		}
 	}
 	935.12.15={
 		death=yes
@@ -2596,12 +2563,13 @@
 	father= 10057328
 	religion="shinto"
 	culture="central_kinai"
-	prowess=10
 	847.1.1={
 		birth=yes
 	}
 	915.1.1={
-		trait="jushii_jo"
+		effect = {
+			add_trait = "jushii_jo"
+		}
 	}
 	919.1.16={
 		death=yes
@@ -2612,12 +2580,13 @@
 	dynasty=10005521 # Miyoshi
 	religion="shinto"
 	culture="central_kinai"
-	prowess=11
 	820.1.1={
 		birth=yes
 	}
 	860.1.1={
-		trait="jugoi_ge"
+		effect = {
+			add_trait = "jugoi_ge"
+		}
 	}
 	890.12.15={
 		death=yes
@@ -2629,7 +2598,6 @@
 	father= 10057327
 	religion="shinto"
 	culture="central_kinai"
-	prowess=10
 	885.1.1={
 		birth=yes
 	}
@@ -2644,7 +2612,6 @@
 	religion="shinto"
 	culture="central_kinai"
 	trait="devoted"
-	prowess=11
 	891.1.1={
 		birth=yes
 	}
@@ -2660,7 +2627,6 @@
 	culture="central_kinai"
 	trait="education_learning_4"
 	trait="devoted"
-	prowess=10
 	905.1.1={
 		birth=yes
 	}
@@ -2673,24 +2639,24 @@
 	dynasty=10000574 # Yoshimi
 	father=10057401 # Yoshimi Yorioki
 	mother=10057216
-	martial=8
+	martial=7
 	diplomacy=7
 	intrigue=6
-	stewardship=7
-	learning=6
+	stewardship=8
+	learning=7
 	trait="education_martial_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
+	prowess=13
 	1508.1.1={
 		birth=yes
 	}
 	1532.05.26 = {
-        effect={
+        effect = {
 			set_realm_capital=title:c_shgnt_kanoashi
 		}
     }
-	1540.1.1={
+	1540.11.14={
 		death=yes
 	}
 }
@@ -2699,14 +2665,14 @@
 	dynasty=10000574 # Yoshimi
 	father=10057403
 	martial=8
-	diplomacy=5
-	intrigue=7
-	stewardship=7
+	diplomacy=7
+	intrigue=8
+	stewardship=8
 	learning=6
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
+	prowess=12
 	1460.1.1={
 		birth=yes
 	}
@@ -2714,7 +2680,7 @@
 		give_nickname="nick_jibu_no_sho"
 	}
 	1482.06.13 = {
-        effect={
+        effect = {
 			set_realm_capital=title:c_shgnt_kanoashi
 		}
     }
@@ -2733,12 +2699,13 @@
 	dynasty=10000574 # Yoshimi
 	father=10057401
 	mother=10057216
-	martial=6
-	diplomacy=7
-	intrigue=5
-	stewardship=5
-	learning=5
-	trait="education_diplomacy_2"
+	martial=7
+	diplomacy=8
+	intrigue=7
+	stewardship=7
+	learning=8
+	health=7
+	trait="education_diplomacy_3"
 	trait="just"
 	religion="shinto"
 	culture="western_chugoku"
@@ -2753,7 +2720,7 @@
 		give_nickname="nick_okura_daihu"
 	}
 	1540.01.01 = {
-        effect={
+        effect = {
 			set_realm_capital=title:c_shgnt_kanoashi
 		}
     }
@@ -2773,7 +2740,6 @@
 	father=10057424
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1430.1.1={
 		birth=yes
 	}
@@ -2783,7 +2749,7 @@
 	1455.1.1={
 		give_nickname="nick_mikawa_no_kami"
 	}
-	1470.1.1={
+	1490.1.1={
 		death=yes
 	}
 }
@@ -2793,12 +2759,11 @@
 	father=10057403
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1455.1.1={
 		birth=yes
 	}
 	1470.01.01 = {
-        effect={
+        effect = {
 			set_realm_capital=title:c_shgnt_kanoashi
 		}
     }
@@ -2819,7 +2784,6 @@
 	father=10057400
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1525.1.1={
 		birth=yes
 	}
@@ -2834,7 +2798,6 @@
 	father=10057400
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1527.1.1={
 		birth=yes
 	}
@@ -2849,7 +2812,6 @@
 	father=10057400
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1529.1.1={
 		birth=yes
 	}
@@ -2864,7 +2826,6 @@
 	religion="shinto"
 	culture="western_chugoku"
 	trait="devoted"
-	prowess=12
 	1510.1.1={
 		birth=yes
 	}
@@ -2879,7 +2840,6 @@
 	religion="shinto"
 	culture="western_chugoku"
 	trait="devoted"
-	prowess=9
 	1515.1.1={
 		birth=yes
 	}
@@ -2893,7 +2853,6 @@
 	father=10057401
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1520.1.1={
 		birth=yes
 	}
@@ -2908,7 +2867,6 @@
 	father=10057401
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1480.1.1={
 		birth=yes
 	}
@@ -2923,7 +2881,6 @@
 	father=10057401
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1525.1.1={
 		birth=yes
 	}
@@ -2937,7 +2894,6 @@
 	father=10057403
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1461.1.1={
 		birth=yes
 	}
@@ -2951,7 +2907,6 @@
 	father=10057403
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1462.1.1={
 		birth=yes
 	}
@@ -2965,7 +2920,6 @@
 	father=10057403
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1464.1.1={
 		birth=yes
 	}
@@ -2979,7 +2933,6 @@
 	father=10057403
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1465.1.1={
 		birth=yes
 	}
@@ -2993,7 +2946,6 @@
 	father=10057403
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1466.1.1={
 		birth=yes
 	}
@@ -3007,7 +2959,6 @@
 	father=10057403
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1467.1.1={
 		birth=yes
 	}
@@ -3021,7 +2972,6 @@
 	father=10057403
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1469.1.1={
 		birth=yes
 	}
@@ -3036,7 +2986,6 @@
 	religion="shinto"
 	culture="western_chugoku"
 	trait="devoted"
-	prowess=10
 	1470.1.1={
 		birth=yes
 	}
@@ -3050,7 +2999,6 @@
 	father=10057429
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1410.1.1={
 		birth=yes
 	}
@@ -3064,7 +3012,6 @@
 	father=10057424
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1435.1.1={
 		birth=yes
 	}
@@ -3078,7 +3025,6 @@
 	father=10057424
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1440.1.1={
 		birth=yes
 	}
@@ -3093,7 +3039,6 @@
 	father=10057424
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1445.1.1={
 		birth=yes
 	}
@@ -3108,7 +3053,6 @@
 	religion="shinto"
 	culture="western_chugoku"
 	trait="devoted"
-	prowess=11
 	1446.1.1={
 		birth=yes
 	}
@@ -3123,7 +3067,6 @@
 	mother=10055720
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1390.1.1={
 		birth=yes
 	}
@@ -3137,7 +3080,6 @@
 	father=10057431
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1365.1.1={
 		birth=yes
 	}
@@ -3154,7 +3096,6 @@
 	father=10057437
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1320.1.1={
 		birth=yes
 	}
@@ -3168,7 +3109,6 @@
 	father=10057437
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1323.1.1={
 		birth=yes
 	}
@@ -3182,7 +3122,6 @@
 	father=10057437
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1325.1.1={
 		birth=yes
 	}
@@ -3196,7 +3135,6 @@
 	father=10057437
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1327.1.1={
 		birth=yes
 	}
@@ -3210,7 +3148,6 @@
 	father=10057437
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1329.1.1={
 		birth=yes
 	}
@@ -3224,7 +3161,6 @@
 	father=10057437
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1330.1.1={
 		birth=yes
 	}
@@ -3238,7 +3174,6 @@
 	father=10057440
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1300.1.1={
 		birth=yes
 	}
@@ -3252,7 +3187,6 @@
 	father=10057440
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1305.1.1={
 		birth=yes
 	}
@@ -3266,7 +3200,6 @@
 	father=10057440
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1310.1.1={
 		birth=yes
 	}
@@ -3280,12 +3213,13 @@
 	father=10057441
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1270.1.1={
 		birth=yes
 	}
 	1320.1.1={
-		trait="jugoi_ge"
+		effect = {
+			add_trait = "jugoi_ge"
+		}
 	}
 	1340.1.1={
 		death=yes
@@ -3297,7 +3231,6 @@
 	father=10057449
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1240.1.1={
 		birth=yes
 	}
@@ -3311,7 +3244,6 @@
 	father=10057449
 	religion="shinto"
 	culture="southern_kanto"
-	prowess=10
 	1242.1.1={
 		birth=yes
 	}
@@ -3325,7 +3257,6 @@
 	father=10057449
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=10
 	1243.1.1={
 		birth=yes
 	}
@@ -3339,7 +3270,6 @@
 	father=10057449
 	religion="shinto"
 	culture="southern_kanto"
-	prowess=11
 	1245.1.1={
 		birth=yes
 	}
@@ -3354,7 +3284,6 @@
 	religion="shinto"
 	culture="southern_kanto"
 	trait="devoted"
-	prowess=12
 	1247.1.1={
 		birth=yes
 	}
@@ -3368,7 +3297,6 @@
 	father=10057449
 	religion="shinto"
 	culture="southern_kanto"
-	prowess=10
 	1249.1.1={
 		birth=yes
 	}
@@ -3382,7 +3310,6 @@
 	father=10057449
 	religion="shinto"
 	culture="southern_kanto"
-	prowess=12
 	1250.1.1={
 		birth=yes
 	}
@@ -3396,7 +3323,6 @@
 	father=10057449
 	religion="shinto"
 	culture="southern_kanto"
-	prowess=11
 	1254.1.1={
 		birth=yes
 	}
@@ -3409,7 +3335,6 @@
 	dynasty=10000574 # Yoshimi
 	religion="shinto"
 	culture="southern_kanto"
-	prowess=10
 	1210.1.1={
 		birth=yes
 	}
@@ -3423,7 +3348,14 @@
 	father=10057402
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
+	diplomacy=7
+	martial=6
+	stewardship=7
+	intrigue=7
+	learning=7
+	health=7
+	trait="education_diplomacy_3"
+	prowess=10
 	1542.1.1={
 		birth=yes
 	}
@@ -3445,7 +3377,6 @@
 	mother=10056026 # Mori Tsuwano, daughter of Mori Takamoto
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1568.1.1={
 		birth=yes
 	}
@@ -3461,7 +3392,6 @@
 	mother=10057255
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1570.1.1={
 		birth=yes
 	}
@@ -3476,7 +3406,6 @@
 	mother=10057255
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1575.1.1={
 		birth=yes
 	}
@@ -3494,7 +3423,6 @@
 	mother=10057255
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1582.1.1={
 		birth=yes
 	}
@@ -3510,7 +3438,6 @@
 	mother=10057255
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1580.1.1={
 		birth=yes
 	}
@@ -3525,7 +3452,6 @@
 	father=10057451
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1585.1.1={
 		birth=yes
 	}
@@ -3536,10 +3462,10 @@
 10057500 = {
 	name=character_name_10057500 # Takaakira
 	dynasty=10000575 # Aokage
-	martial=6
-	diplomacy=7
-	intrigue=5
-	stewardship=5
+	martial=7
+	diplomacy=8
+	intrigue=7
+	stewardship=7
 	learning=6
 	trait="education_intrigue_1"
 	trait="callous"
@@ -3557,26 +3483,120 @@
 		death=yes
 	}
 }
+10057530={
+	name=character_name_10057530 # Takayasu
+	dynasty=10000870 # Niho
+	religion="shinto"
+	culture="western_chugoku"
+	1523.1.1={
+		birth=yes
+	}
+	1529.1.29={
+		employer = 10057002 # Ouchi Yoshitaka
+	}
+	1551.9.30={
+		employer = 10064003 # Ouchi Yoshinaga
+	}
+	1574.1.1={
+		death=yes
+	}
+}
+10057531={
+	name=character_name_10057531 # Mototoyo
+	dynasty=10000870 # Niho
+	father=10057530 # Niho Takayasu
+	religion="shinto"
+	culture="western_chugoku"
+	1550.1.1={
+		birth=yes
+		employer = 10057002 # Ouchi Yoshitaka
+	}
+	1551.9.30={
+		employer = 10064003 # Ouchi Yoshinaga
+	}
+	1610.1.1={
+		death=yes
+	}
+}
+10057540={
+	name=character_name_10057540 # Hirohide
+	dynasty=10000871 # Iida
+	religion="shinto"
+	culture="western_chugoku"
+	1480.1.1={
+		birth=yes
+	}
+	1530.1.1={
+		death=yes
+	}
+}
+10057541={
+	name=character_name_10057541 # Okihide
+	dynasty=10000871 # Iida
+	father=10057540 # Iida Hirohide
+	religion="shinto"
+	culture="western_chugoku"
+	stewardship=8
+	trait="education_stewardship_3"
+	1506.1.1={
+		birth=yes
+	}
+	1557.5.1={
+		death=yes
+	}
+}
+10057542={
+	name=character_name_10057542 # Nagahide
+	dynasty=10000871 # Iida
+	father=10057541 # Iida Okihide
+	religion="shinto"
+	culture="western_chugoku"
+	1530.1.1={
+		birth=yes
+	}
+	1578.10.11={
+		death=yes
+	}
+}
+10057545={
+	name=character_name_10057545 # Fusahide
+	dynasty=10000872 # Era
+	religion="shinto"
+	culture="western_chugoku"
+	1515.1.1={
+		birth=yes
+		employer = 10057100 # Sue Okifusa
+	}
+	1539.5.6={
+		employer = 10057102 # Sue Harukata
+	}
+	1555.4.7={
+		death=yes
+	}
+}
 10056000 = {
 	name=character_name_10056000 # Hiromoto
 	dynasty=10000560 # Mori
 	father=12666050 # Mori Toyomoto
-	martial=6
-	diplomacy=6
-	intrigue=6
-	stewardship=6
+	martial=8
+	diplomacy=8
+	intrigue=7
+	stewardship=7
 	learning=7
 	trait="education_diplomacy_1"
 	trait="stressed"
 	trait="drunkard"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
+	prowess=12
 	1466.1.1={
 		birth=yes
 	}
 	1476.6.19={
 		give_nickname="nick_jibu_no_sho"
+	}
+	1486.1.1={
+		add_spouse=12666317
 	}
 	1500.1.1={
 		give_nickname="nick_bitchu_no_kami"
@@ -3593,7 +3613,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1461.1.1={
 		birth=yes
 	}
@@ -3605,11 +3624,12 @@
 	name=character_name_10056002 # Okimoto
 	dynasty=10000560 # Mori
 	father=10056000 # Mori Hiromoto
-	martial=6
+	mother=12666317
+	martial=7
 	diplomacy=7
-	intrigue=6
-	stewardship=8
-	learning=5
+	intrigue=8
+	stewardship=6
+	learning=7
 	trait="education_diplomacy_1"
 	trait="stressed"
 	trait="drunkard"
@@ -3621,6 +3641,9 @@
 	}
 	1500.1.1={
 		give_nickname="nick_jibu_no_sho"
+	}
+	1514.1.1={
+		add_spouse=12669233
 	}
 	1516.9.21={
 		death=yes
@@ -3635,7 +3658,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1498.1.1={
 		birth=yes
 	}
@@ -3647,11 +3669,13 @@
 	name=character_name_10056004 # Motonari
 	dynasty=10000560 # Mori
 	father=10056000 # Mori Hiromoto
+	mother=12666317
 	martial=5
-	diplomacy=7
-	intrigue=6
-	stewardship=6
+	diplomacy=9
+	intrigue=11
+	stewardship=10
 	learning=4
+	health=7
 	trait="education_intrigue_4"
 	trait="intellect_good_3"
 	trait="lustful"
@@ -3660,7 +3684,7 @@
 	trait="ambitious"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=13
+	prowess=9
 	1497.4.16={
 		birth=yes
 	}
@@ -3671,7 +3695,7 @@
 		add_spouse = 10056224
 	}
 	1523.8.25={
-		effect={
+		effect = {
 			set_realm_capital=title:c_shgnt_takata
 		}
 	}
@@ -3679,7 +3703,9 @@
 		give_nickname="nick_jibu_no_sho"
 	}
 	1533.10.14={
-		trait="jugoi_ge"
+		effect = {
+			add_trait = "jugoi_ge"
+		}
 	}
 	1533.10.17={
 		give_nickname="nick_the_uma_no_kami"
@@ -3687,16 +3713,21 @@
 	1550.1.1={
 		add_concubine=10057756
 	}
-	1557.11.25={
+	1551.9.30={
+		add_pressed_claim=k_shgnt_western_chugoku
 	}
 	1560.3.24={
-		remove_trait="jugoi_ge"
-		trait="jushii_ge"
 		give_nickname="nick_the_mutsu_no_kami"
+		effect = {
+			remove_trait = "jugoi_ge"
+			add_trait = "jushii_ge"
+		}
 	}
 	1562.6.20={
-		remove_trait="jushii_ge"
-		trait="jushii_jo"
+		effect = {
+			remove_trait = "jushii_ge"
+			add_trait = "jushii_jo"
+		}
 	}
 	1571.7.6={
 		death=yes
@@ -3710,7 +3741,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1505.1.1={
 		birth=yes
 	}
@@ -3726,7 +3756,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1497.1.1={
 		birth=yes
 	}
@@ -3742,7 +3771,6 @@
 	trait="ambitious"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=13
 	1499.1.1={
 		birth=yes
 	}
@@ -3764,7 +3792,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1491.1.1={
 		birth=yes
 	}
@@ -3781,7 +3808,6 @@
 	religion="shinto"
 	culture="western_chugoku"
 	trait="legitimized_bastard"
-	prowess=12
 	1485.1.1={
 		birth=yes
 	}
@@ -3796,17 +3822,20 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1505.1.1={
 		birth=yes
 	}
 	1515.1.1={
-		trait="devoted"
 		culture="saigoku_buddhist"
+		effect = {
+			add_trait = "devoted"
+		}
 	}
 	1525.1.1={
-		remove_trait="devoted"
 		culture="western_chugoku"
+		effect = {
+			remove_trait = "devoted"
+		}
 	}
 	1557.8.30={
 		death=yes
@@ -3816,16 +3845,17 @@
 	name=character_name_10056011 # Komatsumaru
 	dynasty=10000560 # Mori
 	father=10056002
+	mother=12669233
 	martial=5
-	diplomacy=5
-	intrigue=5
-	stewardship=6
-	learning=5
+	diplomacy=7
+	intrigue=7
+	stewardship=7
+	learning=7
 	trait="education_diplomacy_1"
 	trait="weak"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
+	prowess=13
 	1515.1.1={
 		birth=yes
 	}
@@ -3841,7 +3871,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1506.1.1={
 		birth=yes
 	}
@@ -3854,11 +3883,11 @@
 	dynasty=10000560 # Mori
 	father=10056004 # Mori Motonari
 	mother=10056224
-	martial=5
-	diplomacy=7
-	intrigue=6
-	stewardship=6
-	learning=8
+	martial=9
+	diplomacy=11
+	intrigue=9
+	stewardship=10
+	learning=9
 	trait="education_stewardship_3"
 	trait="stressed"
 	trait="depressed_1"
@@ -3867,7 +3896,7 @@
 	trait="compassionate"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
+	prowess=13
 	1523.1.1={
 		birth=yes
 	}
@@ -3878,13 +3907,15 @@
 		add_spouse=10057252
 	}
 	1547.9.25={
-		trait="jugoi_ge"
 		give_nickname="nick_the_bitchu_no_kami"
+		effect = {
+			add_trait = "jugoi_ge"
+		}
 	}
 	1557.11.25={
-		effect={
-			set_relation_friend=character:10056015
-			set_relation_friend=character:10056016
+		effect = {
+			set_relation_friend = character:10056015
+			set_relation_friend = character:10056016
 			save_scope_as = actor
 			every_ruler = {
 				if = {
@@ -3915,8 +3946,10 @@
 		give_nickname="nick_the_daizen_daihu"
 	}
 	1562.6.19={
-		remove_trait="jugoi_ge"
-		trait="jushii_ge"
+		effect = {
+			remove_trait = "jugoi_ge"
+			add_trait = "jushii_ge"
+		}
 	}
 	1563.9.28={
 		death=yes
@@ -3931,7 +3964,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1524.1.1={
 		birth=yes
 	}
@@ -3944,11 +3976,11 @@
 	dynasty=10000560 # Mori
 	father=10056004 # Mori Motonari
 	mother=10056224
-	martial=7
-	diplomacy=8
-	intrigue=6
-	stewardship=5
-	learning=6
+	martial=9
+	diplomacy=9
+	intrigue=9
+	stewardship=8
+	learning=5
 	trait="education_martial_3"
 	trait="intellect_good_2"
 	trait="brave"
@@ -3956,7 +3988,7 @@
 	trait="content"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
+	prowess=19
 	1530.1.1={
 		birth=yes
 	}
@@ -3966,21 +3998,24 @@
 	1547.1.1={
 		dynasty=10000561 # Kikkawa
 		add_pressed_claim=c_shgnt_aki_yamakata
+		add_spouse=10057911
 	}
 	1549.5.19={
 		give_nickname="nick_the_jibu_no_sho"
-		trait="jugoi_ge"
+		effect = {
+			add_trait = "jugoi_ge"
+		}
 	}
 	1550.11.5={
 		remove_claim=c_shgnt_aki_yamakata
-		effect={
+		effect = {
 			set_realm_capital=title:c_shgnt_aki_yamakata
 		}
 	}
 	1557.11.25={
-		effect={
-			set_relation_friend=character:10056013
-			set_relation_friend=character:10056016
+		effect = {
+			set_relation_friend = character:10056013
+			set_relation_friend = character:10056016
 			save_scope_as = actor
 			every_ruler = {
 				if = {
@@ -3999,17 +4034,21 @@
 		give_nickname="nick_the_suruga_no_kami"
 	}
 	1563.9.28={
-		effect={
-			set_relation_friend=character:10056025
+		effect = {
+			set_relation_friend = character:10056025
 		}
 	}
 	1565.1.1={
-		remove_trait="jugoi_ge"
-		trait="shogoi_ge"
+		effect = {
+			remove_trait = "jugoi_ge"
+			add_trait = "shogoi_ge"
+		}
 	}
 	1572.5.9={
-		remove_trait="shogoi_ge"
-		trait="jushii_ge"
+		effect = {
+			remove_trait = "shogoi_ge"
+			add_trait = "jushii_ge"
+		}
 	}
 	1586.12.25={
 		death=yes
@@ -4020,10 +4059,10 @@
 	dynasty=10000560 # Mori
 	father=10056004 # Mori Motonari
 	mother=10056224
-	martial=5
-	diplomacy=7
-	intrigue=6
-	stewardship=6
+	martial=10
+	diplomacy=9
+	intrigue=10
+	stewardship=9
 	learning=5
 	trait="education_diplomacy_3"
 	trait="intellect_good_2"
@@ -4033,7 +4072,7 @@
 	trait="content"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
+	prowess=14
 	1533.1.1={
 		birth=yes
 	}
@@ -4046,7 +4085,7 @@
 	}
 	1551.1.1={
 		remove_claim=c_shgnt_toyota
-		effect={
+		effect = {
 			set_realm_capital=title:c_shgnt_toyota
 		}
 	}
@@ -4054,34 +4093,40 @@
 		add_spouse=10056361
 	}
 	1557.11.25={
-		effect={
-			set_relation_friend=character:10056013
-			set_relation_friend=character:10056015
+		effect = {
+			set_relation_friend = character:10056013
+			set_relation_friend = character:10056015
 		}
 	}
 	1560.3.16={
 		give_nickname="nick_the_nakatsukasa_daihu"
 	}
 	1563.9.28={
-		effect={
-			set_relation_friend=character:10056025
+		effect = {
+			set_relation_friend = character:10056025
 		}
 	}
 	1565.1.1={
 		give_nickname="nick_saemon_no_suke"
 	}
 	1588.9.15={
-		trait="jugoi_ge"
 		give_nickname="nick_the_jiju"
+		effect = {
+			add_trait = "jugoi_ge"
+		}
 	}
 	1588.9.22={
-		remove_trait="jugoi_ge"
-		trait="jushii_ge"
+		effect = {
+			remove_trait = "jugoi_ge"
+			add_trait = "jushii_ge"
+		}
 	}
 	1595.9.9={
-		remove_trait="jushii_ge"
-		trait="jusanmi"
 		give_nickname="nick_gon_chu_nagon"
+		effect = {
+			remove_trait = "jushii_ge"
+			add_trait = "jusanmi"
+		}
 	}
 	1596.2.29={
 		give_nickname="nick_chu_nagon"
@@ -4094,13 +4139,13 @@
 	name=character_name_10056018 # Motokiyo # Hoida Motokiyo
 	dynasty=10000560 # Mori
 	father=10056004 # Mori Motonari
-	martial=5
+	martial=9
 	trait="education_diplomacy_3"
 	trait="architect"
 	trait="brave"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
+	prowess=13
 	1551.1.1={
 		birth=yes
 	}
@@ -4112,7 +4157,9 @@
 	}
 	1591.1.1={
 		give_nickname="nick_the_iyo_no_kami"
-		trait="jugoi_ge"
+		effect = {
+			add_trait = "jugoi_ge"
+		}
 	}
 	1597.8.21={
 		death=yes
@@ -4128,16 +4175,15 @@
 	trait="child_of_concubine_female"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1552.1.1={
 		birth=yes
 	}
 	1556.1.1={
 		dynasty=10000573 # Sugimori
-		trait="child_of_adoption"
-		effect={
-			set_father=character:10057302
-			set_real_father=character:10056004
+		effect = {
+			set_father = character:10057302
+			set_real_father = character:10056004
+			add_trait = "child_of_adoption"
 		}
 	}
 	1568.1.1={
@@ -4145,10 +4191,10 @@
 	}
 	1569.1.1={
 		dynasty=10000560 # Mori
-		remove_trait="child_of_adoption"
-		effect={
-			set_father=character:10056004
-			set_real_father=character:10056004
+		effect = {
+			set_father = character:10056004
+			set_real_father = character:10056004
+			remove_trait = "child_of_adoption"
 		}
 	}
 	1572.1.1={
@@ -4170,7 +4216,6 @@
 	trait="child_of_concubine_female"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1555.1.1={
 		birth=yes
 	}
@@ -4191,7 +4236,6 @@
 	trait="child_of_concubine_female"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1559.1.1={
 		birth=yes
 	}
@@ -4203,7 +4247,9 @@
 	}
 	1599.1.1={
 		give_nickname="nick_the_sanuki_no_kami"
-		trait="jugoi_ge"
+		effect = {
+			add_trait = "jugoi_ge"
+		}
 	}
 	1609.8.30={
 		death=yes
@@ -4219,7 +4265,6 @@
 	trait="child_of_concubine_female"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1560.1.1={
 		birth=yes
 	}
@@ -4228,10 +4273,14 @@
 	}
 	1590.1.1={
 		give_nickname="nick_the_okura_daihu"
-		trait="jugoi_ge"
+		effect = {
+			add_trait = "jugoi_ge"
+		}
 	}
 	1595.1.1={
-		trait="jugoi_ge"
+		effect = {
+			add_trait = "jugoi_ge"
+		}
 	}
 	1601.8.30={
 		death=yes
@@ -4242,39 +4291,42 @@
 	dynasty=10000560 # Mori
 	father=10056004 # Mori Motonari
 	trait="education_martial_3"
-	trait="cautious_leader"
+	trait="light_foot_leader"
 	trait="brave"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=15
 	1567.1.1={
 		birth=yes
 	}
 	1579.1.1={
 		dynasty=10000562 # Kobayakawa
-		trait="child_of_adoption"
-		name=character_name_10056023_1 # Motofusa
-		effect={
-			set_father=character:10056016
-			set_real_father=character:10056004
+		effect = {
+			set_father = character:10056016
+			set_real_father = character:10056004
+			add_trait = "child_of_adoption"
+			change_first_name = character_name_10056023_1 # Motofusa
 		}
 	}
 	1580.1.1={
 		dynasty=10000560 # Mori
-		remove_trait="child_of_adoption"
-		effect={
-			set_father=character:10056004
-			set_real_father=character:10056004
+		effect = {
+			set_father = character:10056004
+			set_real_father = character:10056004
+			remove_trait = "child_of_adoption"
 		}
 	}
 	1580.1.1={
-		name=character_name_10056023_2 # Hidekane
+		effect = {
+			change_first_name = character_name_10056023_2 # Hidekane
+		}
 	}
 	1586.1.1={
 		add_spouse=10064027
 	}
 	1595.1.1={
-		trait="jushii_ge"
+		effect = {
+			add_trait = "jushii_ge"
+		}
 	}
 	1601.4.24={
 		death=yes
@@ -4287,7 +4339,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1520.1.1={
 		birth=yes
 	}
@@ -4300,24 +4351,28 @@
 	dynasty=10000560 # Mori
 	father=10056013 # Mori Takamoto
 	mother=10057252
-	martial=7
-	diplomacy=6
-	intrigue=5
-	stewardship=6
-	learning=7
-	trait="education_diplomacy_1"
-	trait="content"
+	martial=8
+	diplomacy=12
+	intrigue=6
+	stewardship=7
+	learning=9
+	health=7
+	trait="education_intrigue_3"
+	trait="humble"
 	trait="compassionate"
+	trait="ambitious"
+	trait="administrator"
+	trait="architect"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
+	prowess=18
 	1553.2.4={
 		birth=yes
 	}
 	1563.9.28={
-		effect={
-			set_relation_friend=character:10056015
-			set_relation_friend=character:10056016
+		effect = {
+			set_relation_friend = character:10056015
+			set_relation_friend = character:10056016
 			save_scope_as = actor
 			every_ruler = {
 				if = {
@@ -4350,20 +4405,26 @@
 	}
 	1572.5.5={
 		give_nickname="nick_the_uemon_no_kami"
-		trait="jugoi_ge"
+		effect = {
+			add_trait = "jugoi_ge"
+		}
 	}
 	1572.3.2={
 		give_nickname="nick_the_uma_no_kami"
 	}
 	1588.7.25={
-		remove_trait="jugoi_ge"
-		trait="jushii_ge"
 		give_nickname="nick_the_sangi"
+		effect = {
+			remove_trait = "jugoi_ge"
+			add_trait = "jushii_ge"
+		}
 	}
 	1595.1.6={
-		remove_trait="jushii_ge"
-		trait="jusanmi"
 		give_nickname="nick_gon_chu_nagon"
+		effect = {
+			remove_trait = "jushii_ge"
+			add_trait = "jusanmi"
+		}
 	}
 	1624.6.2={
 		death=yes
@@ -4378,7 +4439,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1550.1.1={
 		birth=yes
 	}
@@ -4391,17 +4451,17 @@
 	dynasty=10000560 # Mori
 	father=10056018 # Mori Motokiyo
 	mother=10058934 #Murakami Michiyasu's daughter
-	martial=8
-	diplomacy=6
-	intrigue=6
-	stewardship=5
-	learning=5
+	martial=9
+	diplomacy=4
+	intrigue=5
+	stewardship=8
+	learning=7
 	trait="education_diplomacy_1"
 	trait="content"
 	trait="compassionate"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
+	prowess=13
 	1579.11.25={
 		birth=yes
 	}
@@ -4417,17 +4477,17 @@
 	martial=6
 	diplomacy=7
 	intrigue=7
-	stewardship=6
+	stewardship=7
 	learning=7
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
+	prowess=10
 	1503.1.1={
 		birth=yes
 	}
 	1517.11.05 = {
-        effect={
+        effect = {
 			set_realm_capital=title:c_shgnt_sato # Kanayama
 		}
     }
@@ -4440,7 +4500,7 @@
 	1526.1.1={
 		add_spouse=10056225
 	}
-	1540.6.9={
+	1540.7.12={
 		death=yes
 	}
 }
@@ -4449,20 +4509,20 @@
 #	dynasty=10000207 # Takeda (Aki=Takeda)
 	dynasty_house = house_shgnt_akitakeda
 	father=10056103
-	martial=6
-	diplomacy=7
-	intrigue=6
-	stewardship=6
-	learning=6
+	martial=9
+	diplomacy=8
+	intrigue=7
+	stewardship=8
+	learning=7
 	trait="education_martial_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=13
+	prowess=17
 	1467.1.1={
 		birth=yes
 	}
 	1505.03.30 = {
-        effect={
+        effect = {
 			set_realm_capital=title:c_shgnt_sato # Kanayama
 		}
     }
@@ -4475,21 +4535,21 @@
 #	dynasty=10000207 # Takeda (Aki=Takeda)
 	dynasty_house = house_shgnt_akitakeda
 	father= 10042000
-	martial=6
-	diplomacy=6
-	intrigue=4
-	stewardship=5
-	learning=5
+	martial=8
+	diplomacy=8
+	intrigue=7
+	stewardship=8
+	learning=7
 	trait="education_martial_1"
 	religion="shinto"
 	culture="northern_kinai"
-	prowess=12
+	prowess=14
 	1524.8.17={
 		birth=yes
 	}
 	1540.6.9={
 		culture="western_chugoku"
-		effect={
+		effect = {
 			set_realm_capital=title:c_shgnt_sato # Kanayama
 		}
 	}
@@ -4502,11 +4562,11 @@
 #	dynasty=10000207 # Takeda (Aki=Takeda)
 	dynasty_house = house_shgnt_akitakeda
 	father= 10056105
-	martial=5
+	martial=8
 	diplomacy=8
-	intrigue=6
-	stewardship=6
-	learning=6
+	intrigue=7
+	stewardship=8
+	learning=7
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
@@ -4515,7 +4575,7 @@
 		birth=yes
 	}
 	1471.06.20 = {
-        effect={
+        effect = {
 			set_realm_capital=title:c_shgnt_sato # Kanayama
 		}
     }
@@ -4529,16 +4589,19 @@
 	dynasty_house = house_shgnt_akitakeda
 	father= 10056105
 	martial=8
-	diplomacy=5
-	intrigue=5
-	stewardship=5
-	learning=6
+	diplomacy=8
+	intrigue=7
+	stewardship=8
+	learning=7
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
+	prowess=12
 	1410.1.1={
 		birth=yes
+	}
+	1440.8.20={
+		give_nickname="nick_jibu_no_sho"
 	}
 	1471.6.20={
 		death=yes
@@ -4549,19 +4612,17 @@
 #	dynasty=10000207 # Takeda (Aki=Takeda)
 	dynasty_house = house_shgnt_akitakeda
 	father= 10056107
-	martial=7
-	diplomacy=6
+	martial=8
+	diplomacy=8
 	intrigue=7
-	stewardship=7
-	learning=6
+	stewardship=8
+	learning=7
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
+	prowess=12
 	1390.1.1={
 		birth=yes
-	}
-	1410.1.1={
 	}
 	1465.11.28={
 		death=yes
@@ -4572,20 +4633,20 @@
 #	dynasty=10000207 # Takeda (Aki=Takeda)
 	dynasty_house = house_shgnt_akitakeda
 	father= 10056107
-	martial=5
-	diplomacy=4
+	martial=8
+	diplomacy=8
 	intrigue=7
-	stewardship=6
+	stewardship=8
 	learning=7
 	trait="education_stewardship_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
+	prowess=12
 	1370.1.1={
 		birth=yes
 	}
 	1403.01.01 = {
-        effect={
+        effect = {
 			set_realm_capital=title:c_shgnt_sato # Kanayama
 		}
     }
@@ -4598,15 +4659,15 @@
 #	dynasty=10000207 # Takeda (Aki=Takeda)
 	dynasty_house = house_shgnt_akitakeda
 	father= 12360171 # Takeda Ujinobu
-	martial=7
-	diplomacy=6
-	intrigue=6
+	martial=8
+	diplomacy=8
+	intrigue=7
 	stewardship=8
-	learning=4
+	learning=7
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
+	prowess=12
 	1352.1.1={
 		birth=yes
 	}
@@ -4620,14 +4681,14 @@
 	dynasty_house = house_shgnt_akitakeda
 	father=10056101
 	martial=6
-	diplomacy=6
-	intrigue=4
+	diplomacy=7
+	intrigue=7
 	stewardship=7
 	learning=7
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
+	prowess=10
 	1505.1.1={
 		birth=yes
 	}
@@ -4647,10 +4708,10 @@
 	dynasty_house = house_shgnt_akitakeda
 	father=10056108
 	martial=6
-	diplomacy=6
-	intrigue=6
+	diplomacy=7
+	intrigue=7
 	stewardship=7
-	learning=5
+	learning=7
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
@@ -4667,22 +4728,24 @@
 #	dynasty=10000207 # Takeda (Aki=Takeda)
 	dynasty_house = house_shgnt_akitakeda
 	father=10056109
-	martial=5
-	diplomacy=7
+	martial=6
+	diplomacy=12
 	intrigue=7
-	stewardship=6
-	learning=5
+	stewardship=7
+	learning=7
 	trait="education_diplomacy_4"
 	trait="diligent"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
+	prowess=10
 	1539.1.1={
 		birth=yes
 	}
 	1541.12.1={
-		trait="devoted"
-		name=character_name_10056110_1 # Eikei
+		effect = {
+			add_trait = "devoted"
+			change_first_name = character_name_10056110_1 # Eikei
+		}
 	}
 	1600.11.6={
 		death=yes
@@ -4694,15 +4757,15 @@
 	dynasty_house = house_shgnt_akitakeda
 	father=10056108
 	female=yes
-	martial=7
-	diplomacy=6
-	intrigue=5
-	stewardship=6
-	learning=6
+	martial=6
+	diplomacy=7
+	intrigue=7
+	stewardship=7
+	learning=7
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
+	prowess=10
 	1530.1.1={
 		birth=yes
 	}
@@ -4715,10 +4778,10 @@
 	dynasty=10000561 # Kikkawa
 	father=10056201 # Kikkawa Mototsune
 	mother=10056008 # Mori Matsuko, daughter of Mori Hiromoto
-	martial=6
-	diplomacy=5
+	martial=8
+	diplomacy=10
 	intrigue=5
-	stewardship=4
+	stewardship=8
 	learning=7
 	trait="education_intrigue_2"
 	trait="deceitful"
@@ -4742,15 +4805,15 @@
 	name=character_name_10056201 # Mototsune
 	dynasty=10000561 # Kikkawa
 	father=10056202
-	martial=5
-	diplomacy=6
-	intrigue=6
+	martial=8
+	diplomacy=7
+	intrigue=8
 	stewardship=7
 	learning=8
 	trait="education_martial_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
+	prowess=14
 	1459.1.1={
 		birth=yes
 	}
@@ -4776,7 +4839,6 @@
 	father=10056203
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1443.1.1={
 		birth=yes
 	}
@@ -4799,7 +4861,6 @@
 	father=10056204 # Kikkawa Yukitsune
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1428.1.1={
 		birth=yes
 	}
@@ -4822,7 +4883,6 @@
 	father=10056230
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1415.1.1={
 		birth=yes
 	}
@@ -4839,7 +4899,6 @@
 	father=10056204
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1430.1.1={
 		birth=yes
 	}
@@ -4857,7 +4916,6 @@
 	female=yes
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1440.1.1={
 		birth=yes
 	}
@@ -4872,7 +4930,6 @@
 	female=yes
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1445.1.1={
 		birth=yes
 	}
@@ -4887,7 +4944,6 @@
 	female=yes
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1464.1.1={
 		birth=yes
 	}
@@ -4902,7 +4958,6 @@
 	female=yes
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1445.1.1={
 		birth=yes
 	}
@@ -4917,7 +4972,6 @@
 	female=yes
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1475.1.1={
 		birth=yes
 	}
@@ -4932,7 +4986,6 @@
 	female=yes
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1450.1.1={
 		birth=yes
 	}
@@ -4946,7 +4999,6 @@
 	father=10056203
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1455.1.1={
 		birth=yes
 	}
@@ -4964,7 +5016,6 @@
 	female=yes
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1460.1.1={
 		birth=yes
 	}
@@ -4990,7 +5041,6 @@
 	father=10056203
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1470.1.1={
 		birth=yes
 	}
@@ -5008,7 +5058,6 @@
 	female=yes
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1480.1.1={
 		birth=yes
 	}
@@ -5022,7 +5071,6 @@
 	father=10056203
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1490.1.1={
 		birth=yes
 	}
@@ -5043,7 +5091,6 @@
 	female=yes
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1495.1.1={
 		birth=yes
 	}
@@ -5057,7 +5104,6 @@
 	father=10056203
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1500.1.1={
 		birth=yes
 	}
@@ -5081,7 +5127,6 @@
 	female=yes
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1480.1.1={
 		birth=yes
 	}
@@ -5096,7 +5141,6 @@
 	female=yes
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1480.1.1={
 		birth=yes
 	}
@@ -5111,7 +5155,6 @@
 	trait="education_martial_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1470.1.1={
 		birth=yes
 	}
@@ -5129,7 +5172,6 @@
 	trait="education_martial_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1480.1.1={
 		birth=yes
 	}
@@ -5148,7 +5190,6 @@
 	trait="education_martial_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1490.1.1={
 		birth=yes
 	}
@@ -5164,7 +5205,6 @@
 	trait="education_martial_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1499.1.1={
 		birth=yes
 	}
@@ -5181,7 +5221,6 @@
 	trait="education_martial_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1510.1.1={
 		birth=yes
 	}
@@ -5198,7 +5237,6 @@
 	trait="education_martial_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1515.1.1={
 		birth=yes
 	}
@@ -5215,7 +5253,6 @@
 	trait="education_martial_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1520.1.1={
 		birth=yes
 	}
@@ -5225,12 +5262,12 @@
 }
 10056228 = {
 	name=character_name_10056228 # Tsuneyoshi
-	dynasty=10000561 # Kikkawa
+	dynasty=10000887 # Ichikawa
 	father=10056222
-	trait="education_martial_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
+	stewardship=9
+	trait="education_stewardship_3"
 	1520.1.1={
 		birth=yes
 	}
@@ -5246,7 +5283,6 @@
 	trait="brave"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1525.1.1={
 		birth=yes
 	}
@@ -5262,7 +5298,6 @@
 	trait="education_martial_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1400.1.1={
 		birth=yes
 	}
@@ -5277,7 +5312,6 @@
 	trait="education_martial_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=13
 	1350.1.1={
 		birth=yes
 	}
@@ -5296,7 +5330,6 @@
 	trait="education_martial_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1370.1.1={
 		birth=yes
 	}
@@ -5311,7 +5344,6 @@
 	trait="education_martial_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1320.1.1={
 		birth=yes
 	}
@@ -5326,7 +5358,6 @@
 	trait="education_martial_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1280.1.1={
 		birth=yes
 	}
@@ -5344,7 +5375,6 @@
 	trait="education_martial_1"
 	religion="shinto"
 	culture="tokai"
-	prowess=10
 	1238.1.1={
 		birth=yes
 	}
@@ -5359,7 +5389,6 @@
 	trait="education_martial_1"
 	religion="shinto"
 	culture = "tokai"
-	prowess=12
 	1200.1.1={
 		birth=yes
 	}
@@ -5374,7 +5403,6 @@
 	trait="education_martial_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=13
 	1250.1.1={
 		birth=yes
 	}
@@ -5389,7 +5417,6 @@
 	trait="education_martial_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1260.1.1={
 		birth=yes
 	}
@@ -5404,7 +5431,6 @@
 	trait="education_martial_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=13
 	1265.1.1={
 		birth=yes
 	}
@@ -5419,7 +5445,6 @@
 	trait="education_martial_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1268.1.1={
 		birth=yes
 	}
@@ -5434,7 +5459,6 @@
 	trait="education_martial_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1310.1.1={
 		birth=yes
 	}
@@ -5449,7 +5473,6 @@
 	trait="education_martial_1"
 	religion="shinto"
 	culture = "tokai"
-	prowess=12
 	1175.1.1={
 		birth=yes
 	}
@@ -5467,7 +5490,6 @@
 	trait="education_martial_1"
 	religion="shinto"
 	culture = "tokai"
-	prowess=12
 	1159.1.1={
 		birth=yes
 	}
@@ -5485,16 +5507,17 @@
 	name=character_name_10056244 # Motonaga
 	dynasty=10000561 # Kikkawa
 	father=10056015 # Kikkawa Motoharu
-	martial=7
-	diplomacy=7
-	intrigue=6
+	mother=10057911
+	martial=9
+	diplomacy=6
+	intrigue=7
 	stewardship=6
-	learning=6
+	learning=7
 	trait="education_martial_3"
 	trait="brave"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=13
+	prowess=19
 	1548.1.1={
 		birth=yes
 	}
@@ -5509,15 +5532,16 @@
 	name=character_name_10056245 # Motouji
 	dynasty=10000561 # Kikkawa
 	father=10056015 # Kikkawa Motoharu
-	martial=6
-	diplomacy=7
-	intrigue=6
+	mother=10057911
+	martial=9
+	diplomacy=6
+	intrigue=7
 	stewardship=6
-	learning=4
+	learning=7
 	trait="education_martial_3"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=14
+	prowess=19
 	1556.1.1={
 		birth=yes
 	}
@@ -5535,15 +5559,16 @@
 	name=character_name_10056246 # Hiroie
 	dynasty=10000561 # Kikkawa
 	father=10056015 # Kikkawa Motoharu
-	martial=5
+	mother=10057911
+	martial=9
 	diplomacy=6
-	intrigue=6
+	intrigue=7
 	stewardship=6
-	learning=6
+	learning=7
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
+	prowess=13
 	1561.12.7={
 		birth=yes
 	}
@@ -5562,15 +5587,15 @@
 	dynasty=10000561 # Kikkawa
 	female=yes
 	father=10056015 # Kikkawa Motoharu
-	martial=4
-	diplomacy=5
+	martial=9
+	diplomacy=6
 	intrigue=7
-	stewardship=8
+	stewardship=6
 	learning=7
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
+	prowess=13
 	1558.1.1={
 		birth=yes
 	}
@@ -5583,15 +5608,15 @@
 	dynasty=10000561 # Kikkawa
 	female=yes
 	father=10056015 # Kikkawa Motoharu
-	martial=7
-	diplomacy=5
-	intrigue=5
-	stewardship=5
+	martial=9
+	diplomacy=6
+	intrigue=7
+	stewardship=6
 	learning=7
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
+	prowess=13
 	1570.1.1={
 		birth=yes
 	}
@@ -5606,7 +5631,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1564.1.1={
 		birth=yes
 	}
@@ -5616,13 +5640,12 @@
 }
 10056250 = {
 	name=character_name_10056250 # Motonori
-	dynasty=10000561 # Kikkawa
+	dynasty=10000887 # Ichikawa
 	father=10056228
 	trait="education_martial_1"
 	trait="ambitious"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1550.1.1={
 		birth=yes
 	}
@@ -5632,12 +5655,11 @@
 }
 10056251 = {
 	name=character_name_10056251 # Motoyoshi
-	dynasty=10000561 # Kikkawa
+	dynasty=10000887 # Ichikawa
 	father=10056228
 	trait="education_martial_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1555.1.1={
 		birth=yes
 	}
@@ -5652,7 +5674,6 @@
 	trait="education_martial_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1300.1.1={
 		birth=yes
 	}
@@ -5668,7 +5689,6 @@
 	trait="education_martial_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1301.1.1={
 		birth=yes
 	}
@@ -5683,7 +5703,6 @@
 	trait="education_martial_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1325.1.1={
 		birth=yes
 	}
@@ -5698,7 +5717,6 @@
 	trait="education_martial_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1350.1.1={
 		birth=yes
 	}
@@ -5713,7 +5731,6 @@
 	trait="education_martial_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1380.1.1={
 		birth=yes
 	}
@@ -5728,7 +5745,6 @@
 	trait="education_martial_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1410.1.1={
 		birth=yes
 	}
@@ -5743,7 +5759,6 @@
 	trait="education_martial_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=13
 	1450.1.1={
 		birth=yes
 	}
@@ -5758,7 +5773,6 @@
 	trait="education_martial_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1495.1.1={
 		birth=yes
 	}
@@ -5774,7 +5788,6 @@
 	trait="education_martial_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1500.1.1={
 		birth=yes
 	}
@@ -5786,17 +5799,17 @@
 	name=character_name_10056262 # Tsuneyasu
 	dynasty=10000561 # Kikkawa
 	father=10056260
-	martial=6
-	diplomacy=5
-	intrigue=5
+	martial=10
+	diplomacy=7
+	intrigue=6
 	stewardship=8
-	learning=5
+	learning=6
 	trait="education_stewardship_3"
 	trait="honest"
 	trait="administrator"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
+	prowess=16
 	1525.1.1={
 		birth=yes
 	}
@@ -5815,7 +5828,6 @@
 	trait="education_martial_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1530.1.1={
 		birth=yes
 	}
@@ -5828,18 +5840,18 @@
 	dynasty=10000561 # Kikkawa
 	father=10056262
 	mother=10056263
-	martial=7
-	diplomacy=6
-	intrigue=6
-	stewardship=5
-	learning=4
+	martial=9
+	diplomacy=4
+	intrigue=5
+	stewardship=10
+	learning=6
 	trait="education_martial_2"
 	trait="patient"
 	trait="temperate"
 	trait="unyielding_defender"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
+	prowess=17
 	1547.1.1={
 		birth=yes
 	}
@@ -5853,10 +5865,10 @@
 	name=character_name_10056265 # Tsunesae
 	dynasty=10000561 # Kikkawa
 	father=10056264
-	martial=8
+	martial=7
 	diplomacy=6
-	intrigue=4
-	stewardship=6
+	intrigue=6
+	stewardship=7
 	learning=6
 	trait="education_stewardship_3"
 	religion="shinto"
@@ -5873,15 +5885,15 @@
 	name=character_name_10056266 # Ietane
 	dynasty=10000561 # Kikkawa
 	father=10056264
-	martial=6
-	diplomacy=5
-	intrigue=7
+	martial=7
+	diplomacy=6
+	intrigue=6
 	stewardship=7
 	learning=6
 	trait="education_stewardship_3"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
+	prowess=11
 	1565.1.1={
 		birth=yes
 	}
@@ -5893,15 +5905,15 @@
 	name=character_name_10056267 # Ieyoshi
 	dynasty=10000561 # Kikkawa
 	father=10056264
-	martial=4
-	diplomacy=5
-	intrigue=4
-	stewardship=5
-	learning=5
+	martial=7
+	diplomacy=6
+	intrigue=6
+	stewardship=7
+	learning=6
 	trait="education_stewardship_3"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
+	prowess=11
 	1570.1.1={
 		birth=yes
 	}
@@ -5914,11 +5926,11 @@
 	dynasty=10000561 # Kikkawa
 	father=10056264
 	female=yes
-	martial=5
-	diplomacy=7
-	intrigue=5
-	stewardship=5
-	learning=7
+	martial=7
+	diplomacy=6
+	intrigue=6
+	stewardship=7
+	learning=6
 	trait="education_stewardship_3"
 	religion="shinto"
 	culture="western_chugoku"
@@ -5935,15 +5947,15 @@
 	dynasty=10000561 # Kikkawa
 	father=10056264
 	female=yes
-	martial=8
-	diplomacy=4
-	intrigue=7
-	stewardship=6
-	learning=7
+	martial=7
+	diplomacy=6
+	intrigue=6
+	stewardship=7
+	learning=6
 	trait="education_stewardship_3"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
+	prowess=11
 	1566.1.1={
 		birth=yes
 	}
@@ -5956,11 +5968,11 @@
 	dynasty=10000561 # Kikkawa
 	father=10056264
 	female=yes
-	martial=6
-	diplomacy=7
-	intrigue=4
-	stewardship=5
-	learning=5
+	martial=7
+	diplomacy=6
+	intrigue=6
+	stewardship=7
+	learning=6
 	trait="education_stewardship_3"
 	religion="shinto"
 	culture="western_chugoku"
@@ -5976,15 +5988,15 @@
 	name=character_name_10056300 # Masahira
 	dynasty=10000562 # Kobayakawa
 	father=10056301
-	martial=4
-	diplomacy=6
+	martial=7
+	diplomacy=7
 	intrigue=6
 	stewardship=7
-	learning=8
+	learning=6
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
+	prowess=11
 	1523.1.1={
 		birth=yes
 	}
@@ -6005,9 +6017,9 @@
 	name=character_name_10056301 # Okihira
 	dynasty=10000562 # Kobayakawa
 	father=10056302
-	martial=6
-	diplomacy=7
-	intrigue=6
+	martial=8
+	diplomacy=8
+	intrigue=7
 	stewardship=6
 	trait="education_diplomacy_1"
 	religion="shinto"
@@ -6032,7 +6044,6 @@
 	father=10056303
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1485.1.1={
 		birth=yes
 	}
@@ -6045,7 +6056,7 @@
 	1506.1.1={
 		give_nickname="nick_kamon_no_kami"
 	}
-	1508.2.4={
+	1508.2.14={
 		death=yes
 	}
 }
@@ -6055,7 +6066,6 @@
 	father=10056314
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1452.1.1={
 		birth=yes
 	}
@@ -6079,7 +6089,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1505.1.1={
 		birth=yes
 	}
@@ -6094,7 +6103,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1508.1.1={
 		birth=yes
 	}
@@ -6109,7 +6117,6 @@
 	religion="shinto"
 	culture="western_chugoku"
 	trait="devoted"
-	prowess=11
 	1486.1.1={
 		birth=yes
 	}
@@ -6123,7 +6130,6 @@
 	father=10056303
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1487.1.1={
 		birth=yes
 	}
@@ -6139,7 +6145,6 @@
 	religion="shinto"
 	culture="western_chugoku"
 	trait="devoted"
-	prowess=11
 	1488.1.1={
 		birth=yes
 	}
@@ -6154,7 +6159,6 @@
 	female=yes
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1489.1.1={
 		birth=yes
 	}
@@ -6169,7 +6173,6 @@
 	female=yes
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1490.1.1={
 		birth=yes
 	}
@@ -6184,7 +6187,6 @@
 	female=yes
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1491.1.1={
 		birth=yes
 	}
@@ -6199,7 +6201,6 @@
 	female=yes
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1492.1.1={
 		birth=yes
 	}
@@ -6214,7 +6215,6 @@
 	female=yes
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1493.1.1={
 		birth=yes
 	}
@@ -6228,7 +6228,6 @@
 	father=10056323
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1416.1.1={
 		birth=yes
 	}
@@ -6251,7 +6250,6 @@
 	father=10056314
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1460.1.1={
 		birth=yes
 	}
@@ -6278,7 +6276,6 @@
 	religion="shinto"
 	culture="western_chugoku"
 	trait="devoted"
-	prowess=10
 	1465.1.1={
 		birth=yes
 	}
@@ -6293,7 +6290,6 @@
 	religion="shinto"
 	culture="western_chugoku"
 	trait="devoted"
-	prowess=10
 	1470.1.1={
 		birth=yes
 	}
@@ -6307,7 +6303,6 @@
 	father=10056314
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1471.1.1={
 		birth=yes
 	}
@@ -6321,7 +6316,6 @@
 	father=10056323
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1410.1.1={
 		birth=yes
 	}
@@ -6341,7 +6335,6 @@
 	father=10056323
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1420.1.1={
 		birth=yes
 	}
@@ -6355,7 +6348,6 @@
 	father=10056323
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1425.1.1={
 		birth=yes
 	}
@@ -6369,7 +6361,6 @@
 	father=10056323
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1430.1.1={
 		birth=yes
 	}
@@ -6383,7 +6374,6 @@
 	father=10056326
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1373.1.1={
 		birth=yes
 	}
@@ -6397,7 +6387,6 @@
 	father=10056326
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1375.1.1={
 		birth=yes
 	}
@@ -6411,7 +6400,6 @@
 	father=10056326
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1380.1.1={
 		birth=yes
 	}
@@ -6425,7 +6413,6 @@
 	father=10056327
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1340.1.1={
 		birth=yes
 	}
@@ -6439,7 +6426,6 @@
 	father=10056328
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1315.1.1={
 		birth=yes
 	}
@@ -6448,12 +6434,11 @@
 	}
 }
 10056328 = {
-	name=character_name_10056328 # Norihira
+	name=character_name_10056328 # Nobuhira
 	dynasty=10000562 # Kobayakawa
 	father=10056329
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1300.1.1={
 		birth=yes
 	}
@@ -6467,7 +6452,6 @@
 	father=10056330
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1280.1.1={
 		birth=yes
 	}
@@ -6481,7 +6465,6 @@
 	father=10056333
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1230.1.1={
 		birth=yes
 	}
@@ -6495,7 +6478,6 @@
 	father=10056333
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1240.1.1={
 		birth=yes
 	}
@@ -6510,7 +6492,6 @@
 	female=yes
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1235.1.1={
 		birth=yes
 	}
@@ -6524,7 +6505,6 @@
 	father=12216102 # Kobayakawa Kagehira
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1200.1.1={
 		birth=yes
 	}
@@ -6538,7 +6518,6 @@
 	father=12216102 # Kobayakawa Kagehira
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1210.1.1={
 		birth=yes
 	}
@@ -6552,7 +6531,6 @@
 	father=10056334
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1230.1.1={
 		birth=yes
 	}
@@ -6566,7 +6544,6 @@
 	father=10056335
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1250.1.1={
 		birth=yes
 	}
@@ -6580,7 +6557,6 @@
 	father=10056336
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1270.1.1={
 		birth=yes
 	}
@@ -6594,7 +6570,6 @@
 	father=10056337
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1290.1.1={
 		birth=yes
 	}
@@ -6608,7 +6583,6 @@
 	father=10056338
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1310.1.1={
 		birth=yes
 	}
@@ -6622,7 +6596,6 @@
 	father=10056339
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1330.1.1={
 		birth=yes
 	}
@@ -6636,7 +6609,6 @@
 	father=10056340
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1360.1.1={
 		birth=yes
 	}
@@ -6650,7 +6622,6 @@
 	father=10056341
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1390.1.1={
 		birth=yes
 	}
@@ -6666,7 +6637,6 @@
 	trait="blind"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1542.1.1={
 		birth=yes
 	}
@@ -6688,7 +6658,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1539.1.1={
 		birth=yes
 	}
@@ -6696,20 +6665,261 @@
 		death=yes
 	}
 }
+10056370={
+	name=character_name_10056370 # Kagemune
+	dynasty=10000562 # Kobayakawa
+	father=10056331 # Kobayakawa Masakage
+	religion="shinto"
+	culture="western_chugoku"
+	1260.1.1={
+		birth=yes
+	}
+	1340.1.1={
+		death=yes
+	}
+}
+10056371={
+	name=character_name_10056371 # Sukekage
+	dynasty=10000562 # Kobayakawa
+	father=10056370 # Kobayakawa Kagemune
+	religion="shinto"
+	culture="western_chugoku"
+	1280.1.1={
+		birth=yes
+	}
+	1338.2.21={
+		death=yes
+	}
+}
+10056372={
+	name=character_name_10056372 # Shigekage
+	dynasty=10000562 # Kobayakawa
+	father=10056371 # Kobayakawa Sukekage
+	religion="shinto"
+	culture="western_chugoku"
+	1300.1.1={
+		birth=yes
+	}
+	1350.1.1={
+		death=yes
+	}
+}
+10056373={
+	name=character_name_10056373 # Shigemune
+	dynasty=10000562 # Kobayakawa
+	father=10056372 # Kobayakawa Shigekage
+	religion="shinto"
+	culture="western_chugoku"
+	1320.1.1={
+		birth=yes
+	}
+	1355.1.1={
+		death=yes
+	}
+}
+10056374={
+	name=character_name_10056374 # Nasayoshi
+	dynasty=10000562 # Kobayakawa
+	father=10056373 # Kobayakawa Shigemune
+	religion="shinto"
+	culture="western_chugoku"
+	1340.1.1={
+		birth=yes
+	}
+	1364.1.1={
+		death=yes
+	}
+}
+10056375={
+	name=character_name_10056375 # Yoshiharu
+	dynasty=10000562 # Kobayakawa
+	father=10056374 # Kobayakawa Nasayoshi
+	religion="shinto"
+	culture="western_chugoku"
+	1356.1.1={
+		birth=yes
+	}
+	1380.1.1={
+		death=yes
+	}
+}
+10056376={
+	name=character_name_10056376 # Nakayoshi
+	dynasty=10000562 # Kobayakawa
+	father=10056375 # Kobayakawa Yoshiharu
+	religion="shinto"
+	culture="western_chugoku"
+	1372.1.1={
+		birth=yes
+	}
+	1390.1.1={
+		death=yes
+	}
+}
+10056377={
+	name=character_name_10056377 # Hirokage
+	dynasty=10000562 # Kobayakawa
+	father=10056376 # Kobayakawa Nakayoshi
+	religion="shinto"
+	culture="western_chugoku"
+	1388.1.1={
+		birth=yes
+	}
+	1427.1.1={
+		death=yes
+	}
+}
+10056378={
+	name=character_name_10056378 # Morikage
+	dynasty=10000562 # Kobayakawa
+	father=10056377 # Kobayakawa Hirokage
+	religion="shinto"
+	culture="western_chugoku"
+	1410.1.1={
+		birth=yes
+	}
+	1460.1.1={
+		death=yes
+	}
+}
+10056379={
+	name=character_name_10056379 # Hirokage
+	dynasty=10000562 # Kobayakawa
+	father=10056378 # Kobayakawa Morikage
+	religion="shinto"
+	culture="western_chugoku"
+	1430.1.1={
+		birth=yes
+	}
+	1480.1.1={
+		death=yes
+	}
+}
+10056380={
+	name=character_name_10056380 # Hirohira
+	dynasty=10000562 # Kobayakawa
+	father=10056379 # Kobayakawa Hirokage
+	religion="shinto"
+	culture="western_chugoku"
+	1460.1.1={
+		birth=yes
+	}
+	1520.1.1={
+		death=yes
+	}
+}
+10056381={
+	name=character_name_10056381 # Okikage
+	dynasty=10000562 # Kobayakawa
+	father=10056380 # Kobayakawa Hirohira
+	religion="shinto"
+	culture="western_chugoku"
+	1519.1.1={
+		birth=yes
+	}
+	1541.5.3={
+		death=yes
+	}
+}
+10056390={
+	name=character_name_10056390 # Korekage
+	dynasty=10000869 # Nomi
+	father=10056314 # Kobayakawa Hirohira
+	religion="shinto"
+	culture="western_chugoku"
+	1454.1.1={
+		birth=yes
+	}
+	1510.1.1={
+		death=yes
+	}
+}
+10056391={
+	name=character_name_10056391 # Ieuji
+	dynasty=10000869 # Nomi
+	father=10056390 # Nomi Korekage
+	religion="shinto"
+	culture="western_chugoku"
+	1470.1.1={
+		birth=yes
+	}
+	1530.1.1={
+		death=yes
+	}
+}
+10056392={
+	name=character_name_10056392 # Hirohira
+	dynasty=10000869 # Nomi
+	father=10056391 # Nomi Ieuji
+	religion="shinto"
+	culture="western_chugoku"
+	1490.1.1={
+		birth=yes
+	}
+	1550.1.1={
+		death=yes
+	}
+}
+10056393={
+	name=character_name_10056393 # Katakatsu
+	dynasty=10000869 # Nomi
+	father=10056391 # Nomi Ieuji
+	religion="shinto"
+	culture="western_chugoku"
+	1492.1.1={
+		birth=yes
+	}
+	1550.1.1={
+		death=yes
+	}
+}
+10056394={
+	name=character_name_10056394 # Takaoki
+	dynasty=10000869 # Nomi
+	father=10056392 # Nomi Hirohira
+	religion="shinto"
+	culture="western_chugoku"
+	1513.1.1={
+		birth=yes
+	}
+	1598.9.4={
+		death=yes
+	}
+}
+10056395={
+	name=character_name_10056395 # Munekatsu
+	dynasty=10000869 # Nomi
+	father=10056393 # Nomi Katakatsu
+	religion="shinto"
+	culture="western_chugoku"
+	martial=10
+	trait="education_martial_2"
+	trait="brave"
+	prowess=18
+	1527.1.1={
+		birth=yes
+	}
+	1551.1.1={
+		employer = 10056016 # Kobayakawa Takakage
+	}
+	1592.10.28={
+		death=yes
+	}
+}
 10056400 = {
 	name=character_name_10056400 # Hiroyasu
 	dynasty=10000563 # Hiraga
 	father=10056401
-	martial=5
-	diplomacy=6
-	intrigue=5
-	stewardship=5
+	martial=7
+	diplomacy=8
+	intrigue=6
+	stewardship=6
 	learning=7
 	trait="education_intrigue_2"
 	trait="diligent"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
+	prowess=11
 	1475.1.1={
 		birth=yes
 	}
@@ -6721,15 +6931,15 @@
 	name=character_name_10056401 # Hiroyori
 	dynasty=10000563 # Hiraga
 	father=10056405
-	martial=6
-	diplomacy=6
+	martial=7
+	diplomacy=7
 	intrigue=6
-	stewardship=5
-	learning=6
+	stewardship=6
+	learning=7
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
+	prowess=11
 	1456.1.1={
 		birth=yes
 	}
@@ -6741,15 +6951,15 @@
 	name=character_name_10056402 # Okisada
 	dynasty=10000563 # Hiraga
 	father=10056400
-	martial=6
-	diplomacy=5
+	martial=7
+	diplomacy=7
 	intrigue=7
 	stewardship=6
-	learning=5
+	learning=6
 	trait="education_martial_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
+	prowess=13
 	1494.1.1={
 		birth=yes
 	}
@@ -6765,15 +6975,15 @@
 	dynasty=10000563 # Hiraga
 	father=10056402
 	mother=10056313
-	martial=6
-	diplomacy=6
-	intrigue=5
+	martial=8
+	diplomacy=7
+	intrigue=6
 	stewardship=7
-	learning=7
+	learning=6
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
+	prowess=12
 	1510.1.1={
 		birth=yes
 	}
@@ -6785,15 +6995,15 @@
 	name=character_name_10056404 # Hirosuke
 	dynasty=10000563 # Hiraga
 	father=10056402
-	martial=7
-	diplomacy=6
-	intrigue=6
-	stewardship=6
+	martial=8
+	diplomacy=7
+	intrigue=7
+	stewardship=8
 	learning=7
 	trait="education_intrigue_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
+	prowess=12
 	1528.1.1={
 		birth=yes
 	}
@@ -6808,7 +7018,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1422.1.1={
 		birth=yes
 	}
@@ -6823,7 +7032,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1393.1.1={
 		birth=yes
 	}
@@ -6838,7 +7046,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1365.1.1={
 		birth=yes
 	}
@@ -6853,7 +7060,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1328.1.1={
 		birth=yes
 	}
@@ -6868,7 +7074,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1310.1.1={
 		birth=yes
 	}
@@ -6883,7 +7088,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1280.1.1={
 		birth=yes
 	}
@@ -6898,7 +7102,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1250.1.1={
 		birth=yes
 	}
@@ -6913,7 +7116,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1230.1.1={
 		birth=yes
 	}
@@ -6928,7 +7130,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1305.1.1={
 		birth=yes
 	}
@@ -6943,12 +7144,14 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
+	health=9
 	1547.1.1={
 		birth=yes
 	}
 	1595.1.1={
-		trait="jugoi_ge"
+		effect = {
+			add_trait = "jugoi_ge"
+		}
 	}
 	1645.10.23={
 		death=yes
@@ -6961,7 +7164,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1576.1.1={
 		birth=yes
 	}
@@ -6977,7 +7179,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1555.1.1={
 		birth=yes
 	}
@@ -6992,7 +7193,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1550.1.1={
 		birth=yes
 	}
@@ -7004,15 +7204,15 @@
 	name=character_name_10056425 # Kageyuki
 	dynasty=10000563 # Hiraga
 	father=10056400
-	martial=7
-	diplomacy=5
+	martial=8
+	diplomacy=7
 	intrigue=7
-	stewardship=6
-	learning=6
+	stewardship=8
+	learning=7
 	trait="education_intrigue_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
+	prowess=12
 	1535.1.1={
 		birth=yes
 	}
@@ -7025,15 +7225,15 @@
 	dynasty=10000563 # Hiraga
 	father=10056400
 	female=yes
-	martial=6
-	diplomacy=6
-	intrigue=6
-	stewardship=7
-	learning=5
+	martial=8
+	diplomacy=7
+	intrigue=7
+	stewardship=8
+	learning=7
 	trait="education_intrigue_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
+	prowess=12
 	1536.1.1={
 		birth=yes
 	}
@@ -7045,17 +7245,17 @@
 	name=character_name_10056500 # Naomichi
 	dynasty=10000564 # Yamanouchi
 	father=10056501 # Yamanouchi Toyoshige
-	martial=5
+	martial=8
 	diplomacy=5
-	intrigue=6
-	stewardship=7
+	intrigue=10
+	stewardship=8
 	learning=7
 	trait="education_diplomacy_2"
 	trait="diligent"
 	trait="compassionate"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
+	prowess=12
 	1479.1.1={
 		birth=yes
 	}
@@ -7070,15 +7270,15 @@
 	name=character_name_10056501 # Toyoshige
 	dynasty=10000564 # Yamanouchi
 	father=10056503
-	martial=5
-	diplomacy=6
-	intrigue=6
-	stewardship=6
-	learning=6
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=7
+	learning=7
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
+	prowess=12
 	1460.1.1={
 		birth=yes
 	}
@@ -7096,15 +7296,15 @@
 	name=character_name_10056502 # Toyomichi
 	dynasty=10000564 # Yamanouchi
 	father=10056500
-	martial=6
-	diplomacy=6
+	martial=8
+	diplomacy=7
 	intrigue=7
-	stewardship=5
-	learning=5
+	stewardship=6
+	learning=7
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
+	prowess=12
 	1501.1.1={
 		birth=yes
 	}
@@ -7122,7 +7322,6 @@
 	mother=12666052 #Mori Hiromoto's dauther
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1445.1.1={
 		birth=yes
 	}
@@ -7142,7 +7341,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1525.1.1={
 		birth=yes
 	}
@@ -7158,7 +7356,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1503.1.1={
 		birth=yes
 	}
@@ -7174,7 +7371,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1505.1.1={
 		birth=yes
 	}
@@ -7190,7 +7386,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1508.1.1={
 		birth=yes
 	}
@@ -7205,7 +7400,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1530.1.1={
 		birth=yes
 	}
@@ -7223,7 +7417,6 @@
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1485.1.1={
 		birth=yes
 	}
@@ -7239,7 +7432,6 @@
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1490.1.1={
 		birth=yes
 	}
@@ -7254,7 +7446,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1460.1.1={
 		birth=yes
 	}
@@ -7269,7 +7460,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1465.1.1={
 		birth=yes
 	}
@@ -7284,7 +7474,6 @@
 	mother=12666052 #Mori Hiromoto's dauther
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1446.1.1={
 		birth=yes
 	}
@@ -7299,7 +7488,6 @@
 	mother=12666042 #Mori Mitsufusa's dauther
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1425.1.1={
 		birth=yes
 	}
@@ -7319,7 +7507,6 @@
 	father=10056518
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1390.1.1={
 		birth=yes
 	}
@@ -7337,7 +7524,6 @@
 	mother=12666042 #Mori Mitsufusa's dauther
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1430.1.1={
 		birth=yes
 	}
@@ -7351,7 +7537,6 @@
 	father=10056518
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1380.1.1={
 		birth=yes
 	}
@@ -7365,7 +7550,6 @@
 	father=10056521
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1340.1.1={
 		birth=yes
 	}
@@ -7379,7 +7563,6 @@
 	father=10056521
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1333.1.1={
 		birth=yes
 	}
@@ -7393,7 +7576,6 @@
 	father=10130598
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1299.1.1={
 		birth=yes
 	}
@@ -7407,7 +7589,6 @@
 	father=10130598
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1300.1.1={
 		birth=yes
 	}
@@ -7421,7 +7602,6 @@
 	father=10130598
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1310.1.1={
 		birth=yes
 	}
@@ -7435,7 +7615,6 @@
 	father=10056522
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1330.1.1={
 		birth=yes
 	}
@@ -7451,7 +7630,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1549.1.1={
 		birth=yes
 	}
@@ -7467,7 +7645,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1550.1.1={
 		birth=yes
 	}
@@ -7482,7 +7659,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1574.1.1={
 		birth=yes
 	}
@@ -7498,7 +7674,6 @@
 	religion="shinto"
 	culture="western_chugoku"
 	trait="bastard"
-	prowess=12
 	1575.1.1={
 		birth=yes
 	}
@@ -7515,7 +7690,6 @@
 	religion="shinto"
 	culture="western_chugoku"
 	trait="bastard"
-	prowess=10
 	1575.1.1={
 		birth=yes
 	}
@@ -7532,7 +7706,6 @@
 	religion="shinto"
 	culture="western_chugoku"
 	trait="bastard"
-	prowess=12
 	1565.1.1={
 		birth=yes
 	}
@@ -7544,11 +7717,11 @@
 	name=character_name_10056600 # Motomori
 	dynasty=10000567 # Miya
 	father=10056601
-	martial=4
+	martial=8
 	diplomacy=7
 	intrigue=7
-	stewardship=6
-	learning=6
+	stewardship=7
+	learning=8
 	trait="education_stewardship_1"
 	religion="shinto"
 	culture="western_chugoku"
@@ -7565,14 +7738,14 @@
 	dynasty=10000567 # Miya
 	father=10056603
 	martial=6
-	diplomacy=5
-	intrigue=6
-	stewardship=6
-	learning=6
+	diplomacy=7
+	intrigue=7
+	stewardship=8
+	learning=8
 	trait="education_stewardship_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
+	prowess=10
 	1487.1.1={
 		birth=yes
 	}
@@ -7585,10 +7758,10 @@
 	dynasty=10000567 # Miya
 	father=10056600
 	martial=6
-	diplomacy=5
-	intrigue=7
+	diplomacy=7
+	intrigue=8
 	stewardship=7
-	learning=5
+	learning=8
 	trait="education_martial_1"
 	religion="shinto"
 	culture="western_chugoku"
@@ -7606,7 +7779,6 @@
 	father=10056605
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1460.1.1={
 		birth=yes
 	}
@@ -7620,7 +7792,6 @@
 	father=10056605
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1470.1.1={
 		birth=yes
 	}
@@ -7634,7 +7805,6 @@
 	father=10056606
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1430.1.1={
 		birth=yes
 	}
@@ -7648,7 +7818,6 @@
 	father=10056609
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1400.1.1={
 		birth=yes
 	}
@@ -7662,7 +7831,6 @@
 	father=10056609
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1390.1.1={
 		birth=yes
 	}
@@ -7676,7 +7844,6 @@
 	father=10056609
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1410.1.1={
 		birth=yes
 	}
@@ -7690,7 +7857,6 @@
 	father=10056612
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1360.1.1={
 		birth=yes
 	}
@@ -7704,7 +7870,6 @@
 	father=10056612
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1375.1.1={
 		birth=yes
 	}
@@ -7718,7 +7883,6 @@
 	father=10056612
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1370.1.1={
 		birth=yes
 	}
@@ -7732,7 +7896,6 @@
 	father=10056616
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1339.1.1={
 		birth=yes
 	}
@@ -7746,7 +7909,6 @@
 	father=10056616
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1340.1.1={
 		birth=yes
 	}
@@ -7760,7 +7922,6 @@
 	father=10056616
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1345.1.1={
 		birth=yes
 	}
@@ -7774,7 +7935,6 @@
 	father=10056616
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1350.1.1={
 		birth=yes
 	}
@@ -7788,12 +7948,13 @@
 	father=10056623
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1309.1.1={
 		birth=yes
 	}
 	1380.1.1={
-		trait="jugoi_ge"
+		effect = {
+			add_trait = "jugoi_ge"
+		}
 	}
 	1389.1.1={
 		death=yes
@@ -7805,7 +7966,6 @@
 	father=10056623
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1306.1.1={
 		birth=yes
 	}
@@ -7819,7 +7979,6 @@
 	father=10056623
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1311.1.1={
 		birth=yes
 	}
@@ -7833,7 +7992,6 @@
 	father=10056623
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1313.1.1={
 		birth=yes
 	}
@@ -7847,7 +8005,6 @@
 	father=10056623
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1315.1.1={
 		birth=yes
 	}
@@ -7861,7 +8018,6 @@
 	father=10056623
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1317.1.1={
 		birth=yes
 	}
@@ -7875,7 +8031,6 @@
 	father=10056623
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1319.1.1={
 		birth=yes
 	}
@@ -7889,12 +8044,13 @@
 	father=10056625
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1280.1.1={
 		birth=yes
 	}
 	1320.1.1={
-		trait="jugoi_ge"
+		effect = {
+			add_trait = "jugoi_ge"
+		}
 	}
 	1330.1.1={
 		death=yes
@@ -7906,7 +8062,6 @@
 	father=10056625
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1290.1.1={
 		birth=yes
 	}
@@ -7919,7 +8074,6 @@
 	dynasty=10000567 # Miya
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1265.1.1={
 		birth=yes
 	}
@@ -7931,15 +8085,15 @@
 	name=character_name_10056626 # Masanobu
 	dynasty=10000567 # Miya
 	father=10056602
-	martial=7
-	diplomacy=5
-	intrigue=4
+	martial=6
+	diplomacy=7
+	intrigue=8
 	stewardship=7
-	learning=5
+	learning=8
 	trait="education_martial_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
+	prowess=12
 	1555.1.1={
 		birth=yes
 	}
@@ -7951,11 +8105,11 @@
 	name=character_name_10056627 # Motonobu
 	dynasty=10000567 # Miya
 	father=10056602
-	martial=5
-	diplomacy=6
-	intrigue=6
-	stewardship=5
-	learning=6
+	martial=6
+	diplomacy=7
+	intrigue=8
+	stewardship=7
+	learning=8
 	trait="education_martial_1"
 	religion="shinto"
 	culture="western_chugoku"
@@ -7972,11 +8126,11 @@
 	dynasty=10000567 # Miya
 	female=yes
 	father=10056602
-	martial=5
+	martial=6
 	diplomacy=7
-	intrigue=6
-	stewardship=6
-	learning=6
+	intrigue=8
+	stewardship=7
+	learning=8
 	trait="education_martial_1"
 	religion="shinto"
 	culture="western_chugoku"
@@ -7994,10 +8148,10 @@
 	female=yes
 	father=10056602
 	martial=6
-	diplomacy=4
-	intrigue=6
-	stewardship=6
-	learning=4
+	diplomacy=7
+	intrigue=8
+	stewardship=7
+	learning=8
 	trait="education_martial_1"
 	religion="shinto"
 	culture="western_chugoku"
@@ -8014,15 +8168,15 @@
 	dynasty=10000567 # Miya
 	female=yes
 	father=10056602
-	martial=5
+	martial=6
 	diplomacy=7
-	intrigue=4
-	stewardship=6
-	learning=5
+	intrigue=8
+	stewardship=7
+	learning=8
 	trait="education_martial_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
+	prowess=12
 	1569.1.1={
 		birth=yes
 	}
@@ -8035,15 +8189,15 @@
 	dynasty=10000567 # Miya
 	female=yes
 	father=10056602
-	martial=8
-	diplomacy=6
+	martial=6
+	diplomacy=7
 	intrigue=8
-	stewardship=6
-	learning=5
+	stewardship=7
+	learning=8
 	trait="education_martial_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
+	prowess=12
 	1565.1.1={
 		birth=yes
 	}
@@ -8056,14 +8210,14 @@
 	dynasty=10000567 # Miya
 	father=10056626
 	martial=6
-	diplomacy=6
-	intrigue=6
+	diplomacy=7
+	intrigue=8
 	stewardship=7
-	learning=7
+	learning=8
 	trait="education_martial_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
+	prowess=12
 	1580.1.1={
 		birth=yes
 	}
@@ -8075,16 +8229,16 @@
 	name=character_name_10056700 # Tadaoki
 	dynasty=10000500 # Yamana
 	father=10056701
-	martial=7
-	diplomacy=6
-	intrigue=6
-	stewardship=5
-	learning=5
+	martial=8
+	diplomacy=8
+	intrigue=9
+	stewardship=8
+	learning=7
 	trait="education_martial_2"
 	trait="diligent"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=14
+	prowess=16
 	1505.1.1={
 		birth=yes
 	}
@@ -8095,10 +8249,9 @@
 10056701= {
 	name=character_name_10056701 # Tokioki
 	dynasty=10000500 # Yamana
-	father=10050059
+	father=10050091
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1480.1.1={
 		birth=yes
 	}
@@ -8112,11 +8265,10 @@
 	father=10050059
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1490.1.1={
 		birth=yes
 	}
-	1538.1.1={
+	1538.8.1={
 		death=yes
 	}
 }
@@ -8126,7 +8278,6 @@
 	father=10056700
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1530.1.1={
 		birth=yes
 	}
@@ -8143,7 +8294,6 @@
 	father=10056700
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1535.1.1={
 		birth=yes
 	}
@@ -8156,7 +8306,6 @@
 	dynasty=10000501 # Sugihara
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1533.1.1={
 		birth=yes
 		employer=10056700
@@ -8171,7 +8320,6 @@
 	father=10056750
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1550.1.1={
 		birth=yes
 	}
@@ -8192,7 +8340,6 @@
 	trait="ambitious"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1555.1.1={
 		birth=yes
 	}
@@ -8204,15 +8351,15 @@
 	name=character_name_10056800 # Yoshisato
 	dynasty=10000568 # Tabusa
 	father=10056801
-	martial=6
-	diplomacy=4
-	intrigue=6
-	stewardship=5
-	learning=6
+	martial=7
+	diplomacy=7
+	intrigue=8
+	stewardship=7
+	learning=7
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
+	prowess=11
 	1470.1.1={
 		birth=yes
 	}
@@ -8224,15 +8371,15 @@
 	name=character_name_10056801 # Toyosato
 	dynasty=10000568 # Tabusa
 	father=10056803
-	martial=6
-	diplomacy=6
+	martial=7
+	diplomacy=8
 	intrigue=7
-	stewardship=8
-	learning=5
+	stewardship=6
+	learning=6
 	trait="education_martial_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
+	prowess=13
 	1447.1.1={
 		birth=yes
 	}
@@ -8244,15 +8391,15 @@
 	name=character_name_10056802 # Toshisato
 	dynasty=10000568 # Tabusa
 	father=10056800
-	martial=6
-	diplomacy=6
+	martial=7
+	diplomacy=7
 	intrigue=7
-	stewardship=6
-	learning=4
+	stewardship=8
+	learning=6
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
+	prowess=11
 	1507.1.1={
 		birth=yes
 	}
@@ -8270,7 +8417,6 @@
 	trait="education_martial_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1420.1.1={
 		birth=yes
 	}
@@ -8282,15 +8428,15 @@
 	name=character_name_10056815 # Motosato
 	dynasty=10000568 # Tabusa
 	father=10056802
-	martial=8
-	diplomacy=5
-	intrigue=6
+	martial=7
+	diplomacy=7
+	intrigue=7
 	stewardship=8
-	learning=7
+	learning=6
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
+	prowess=13
 	1530.1.1={
 		birth=yes
 	}
@@ -8302,15 +8448,15 @@
 	name=character_name_10056816 # Motokatsu
 	dynasty=10000568 # Tabusa
 	father=10056815
-	martial=5
-	diplomacy=6
-	intrigue=6
-	stewardship=6
-	learning=8
+	martial=7
+	diplomacy=7
+	intrigue=7
+	stewardship=8
+	learning=6
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
+	prowess=11
 	1560.1.1={
 		birth=yes
 	}
@@ -8322,15 +8468,15 @@
 	name=character_name_10056900 # Okikatsu
 	dynasty=10000576 # Hironaka
 	father=10056902
-	martial=6
-	diplomacy=5
-	intrigue=6
-	stewardship=7
-	learning=4
+	martial=7
+	diplomacy=7
+	intrigue=8
+	stewardship=6
+	learning=8
 	trait="education_martial_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
+	prowess=15
 	1491.1.1={
 		birth=yes
 	}
@@ -8342,16 +8488,16 @@
 	name=character_name_10056901 # Takakane
 	dynasty=10000576 # Hironaka
 	father=10056900
-	martial=7
-	diplomacy=7
-	intrigue=5
-	stewardship=4
-	learning=4
+	martial=6
+	diplomacy=8
+	intrigue=7
+	stewardship=8
+	learning=7
 	trait="education_martial_3"
 	trait="diligent"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=13
+	prowess=16
 	1521.1.1={
 		birth=yes
 	}
@@ -8364,10 +8510,10 @@
 10056902 = {
 	name=character_name_10056902 # Hironobu
 	dynasty=10000576 # Hironaka
+	father=10056912
 	trait="education_martial_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1460.1.1={
 		birth=yes
 	}
@@ -8382,7 +8528,6 @@
 	trait="education_martial_3"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1525.1.1={
 		birth=yes
 	}
@@ -8397,7 +8542,6 @@
 	trait="education_martial_3"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=13
 	1523.1.1={
 		birth=yes
 	}
@@ -8414,7 +8558,6 @@
 	trait="education_martial_3"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=13
 	1540.1.1={
 		birth=yes
 	}
@@ -8431,7 +8574,6 @@
 	trait="education_martial_3"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1550.1.1={
 		birth=yes
 	}
@@ -8446,7 +8588,6 @@
 	trait="education_martial_3"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=14
 	1579.1.1={
 		birth=yes
 	}
@@ -8458,15 +8599,15 @@
 	name=character_name_10055600 # Takakane
 	dynasty=10000569 # Fukuya
 	father=10055601
-	martial=5
-	diplomacy=5
+	martial=7
+	diplomacy=7
 	intrigue=6
-	stewardship=7
-	learning=5
+	stewardship=8
+	learning=7
 	trait="education_martial_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
+	prowess=13
 	1503.1.1={
 		birth=yes
 	}
@@ -8478,19 +8619,19 @@
 	name=character_name_10055601 # Masakane
 	dynasty=10000569 # Fukuya
 	father=10055602
-	martial=7
-	diplomacy=7
+	martial=6
+	diplomacy=8
 	intrigue=6
-	stewardship=6
-	learning=5
+	stewardship=7
+	learning=6
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
-	1476.1.1={
+	prowess=10
+	1470.1.1={
 		birth=yes
 	}
-	1522.1.1={
+	1530.1.1={
 		death=yes
 	}
 }
@@ -8500,11 +8641,10 @@
 	father=10055605 # Fukuya Kiyokane
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1440.1.1={
 		birth=yes
 	}
-	1500.1.1={
+	1510.1.1={
 		death=yes
 	}
 }
@@ -8514,7 +8654,6 @@
 	father=10055601
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1505.1.1={
 		birth=yes
 	}
@@ -8528,7 +8667,6 @@
 	father=10055600
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1535.1.1={
 		birth=yes
 	}
@@ -8537,43 +8675,131 @@
 	}
 }
 10055605={
-	name="Kiyokane"
+	name=character_name_10055605 # Kiyokane
 	dynasty=10000569 # Fukuya
 	father=10055606 # Fukuya Ujikane
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
-	1415.1.1={
+	1410.1.1={
 		birth=yes
 	}
-	1480.1.1={
+	1470.1.1={
 		death=yes
 	}
 }
 10055606={
-	name="Ujikane"
+	name=character_name_10055606 # Ujikane
 	dynasty=10000569 # Fukuya
 	father=10055607 # Fukuya Kanemitsu
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
-	1390.1.1={
+	1380.1.1={
 		birth=yes
 	}
-	1450.1.1={
+	1440.1.1={
 		death=yes
 	}
 }
 10055607={
-	name="Kanemitsu"
+	name=character_name_10055607 # Kanemitsu
 	dynasty=10000569 # Fukuya
+	father=12669020
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
-	1365.1.1={
+	1350.1.1={
 		birth=yes
 	}
+	1400.1.1={
+		death=yes
+	}
+}
+10056908={
+	name=character_name_10056908 # Kanetane
+	dynasty=10000576 # Hironaka
+	religion="shinto"
+	culture="western_chugoku"
+	1290.1.1={
+		birth=yes
+	}
+	1350.1.1={
+		death=yes
+	}
+}
+10056909={
+	name=character_name_10056909 # Kaneyoshi
+	dynasty=10000576 # Hironaka
+	father=10056908 # Hironaka Kanetane
+	religion="shinto"
+	culture="western_chugoku"
+	1320.1.1={
+		birth=yes
+	}
+	1380.1.1={
+		death=yes
+	}
+}
+10056910={
+	name=character_name_10056910 # Kanesada
+	dynasty=10000576 # Hironaka
+	father=10056909 # Hironaka Kaneyoshi
+	religion="shinto"
+	culture="western_chugoku"
+	1350.1.1={
+		birth=yes
+	}
+	1400.1.1={
+		death=yes
+	}
+}
+10056911={
+	name=character_name_10056911 # Kanekatsu
+	dynasty=10000576 # Hironaka
+	father=10056910 # Hironaka Kanesada
+	religion="shinto"
+	culture="western_chugoku"
+	1380.1.1={
+		birth=yes
+	}
+	1440.1.1={
+		death=yes
+	}
+}
+10056912={
+	name=character_name_10056912 # Takemune
+	dynasty=10000576 # Hironaka
+	father=10056911 # Hironaka Kanekatsu
+	religion="shinto"
+	culture="western_chugoku"
 	1420.1.1={
+		birth=yes
+	}
+	1490.1.1={
+		death=yes
+	}
+}
+10056913={
+	name=character_name_10056913 # Takenaga
+	dynasty=10000576 # Hironaka
+	father=10056912 # Hironaka Takemune
+	religion="shinto"
+	culture="western_chugoku"
+	1462.1.1={
+		birth=yes
+	}
+	1520.1.1={
+		death=yes
+	}
+}
+10056914={
+	name=character_name_10056914 # Masanaga
+	dynasty=10000576 # Hironaka
+	father=10056913 # Hironaka Takenaga
+	religion="shinto"
+	culture="western_chugoku"
+	1490.1.1={
+		birth=yes
+	}
+	1550.1.1={
 		death=yes
 	}
 }
@@ -8581,19 +8807,19 @@
 	name=character_name_10055700 # Naganori
 	dynasty=10000214 # Ogasawara
 	father=10055701
-	martial=5
-	diplomacy=5
-	intrigue=7
-	stewardship=4
-	learning=6
+	martial=8
+	diplomacy=6
+	intrigue=8
+	stewardship=8
+	learning=9
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
-	1496.1.1={
+	prowess=12
+	1500.1.1={
 		birth=yes
 	}
-	1547.1.1={
+	1547.10.4={
 		death=yes
 	}
 }
@@ -8602,18 +8828,18 @@
 	dynasty=10000214 # Ogasawara
 	father=10055703
 	martial=7
-	diplomacy=7
-	intrigue=6
-	stewardship=6
-	learning=6
+	diplomacy=8
+	intrigue=7
+	stewardship=9
+	learning=9
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
-	1467.1.1={
+	prowess=11
+	1480.1.1={
 		birth=yes
 	}
-	1527.1.1={
+	1542.5.18={
 		death=yes
 	}
 }
@@ -8622,21 +8848,21 @@
 	dynasty=10000214 # Ogasawara
 	father=10055700
 	martial=6
-	diplomacy=5
-	intrigue=6
-	stewardship=6
-	learning=7
+	diplomacy=8
+	intrigue=7
+	stewardship=7
+	learning=9
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
+	prowess=10
 	1520.1.1={
 		birth=yes
 	}
 	1540.1.1={
 		add_spouse=10056227
 	}
-	1569.1.1={
+	1571.1.4={
 		death=yes
 	}
 }
@@ -8646,11 +8872,10 @@
 	father=10055715
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
-	1430.1.1={
+	1460.1.1={
 		birth=yes
 	}
-	1490.1.1={
+	1524.4.6={
 		death=yes
 	}
 }
@@ -8661,7 +8886,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1522.1.1={
 		birth=yes
 	}
@@ -8676,7 +8900,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1498.1.1={
 		birth=yes
 	}
@@ -8691,7 +8914,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1499.1.1={
 		birth=yes
 	}
@@ -8706,7 +8928,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1500.1.1={
 		birth=yes
 	}
@@ -8721,7 +8942,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1502.1.1={
 		birth=yes
 	}
@@ -8737,7 +8957,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1499.1.1={
 		birth=yes
 	}
@@ -8752,7 +8971,6 @@
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1468.1.1={
 		birth=yes
 	}
@@ -8768,7 +8986,6 @@
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1470.1.1={
 		birth=yes
 	}
@@ -8784,7 +9001,6 @@
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1471.1.1={
 		birth=yes
 	}
@@ -8800,7 +9016,6 @@
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1473.1.1={
 		birth=yes
 	}
@@ -8816,7 +9031,6 @@
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1475.1.1={
 		birth=yes
 	}
@@ -8830,11 +9044,10 @@
 	father=10055718
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
-	1400.1.1={
+	1440.1.1={
 		birth=yes
 	}
-	1470.1.1={
+	1505.12.23={
 		death=yes
 	}
 }
@@ -8845,11 +9058,10 @@
 	father=10055715
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
-	1432.1.1={
+	1462.1.1={
 		birth=yes
 	}
-	1497.1.1={
+	1510.1.1={
 		death=yes
 	}
 }
@@ -8860,11 +9072,10 @@
 	father=10055715
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
-	1433.1.1={
+	1464.1.1={
 		birth=yes
 	}
-	1498.1.1={
+	1510.1.1={
 		death=yes
 	}
 }
@@ -8874,11 +9085,10 @@
 	father=10055721
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
-	1367.1.1={
+	1420.1.1={
 		birth=yes
 	}
-	1440.1.1={
+	1489.3.13={
 		death=yes
 	}
 }
@@ -8889,11 +9099,10 @@
 	father=10055721
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
-	1368.1.1={
+	1422.1.1={
 		birth=yes
 	}
-	1440.1.1={
+	1480.1.1={
 		death=yes
 	}
 }
@@ -8904,11 +9113,10 @@
 	father=10055721
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
-	1370.1.1={
+	1424.1.1={
 		birth=yes
 	}
-	1440.1.1={
+	1500.1.1={
 		death=yes
 	}
 }
@@ -8918,25 +9126,23 @@
 	father=10055722
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
-	1354.1.1={
+	1400.1.1={
 		birth=yes
 	}
-	1400.1.1={
+	1461.12.14={
 		death=yes
 	}
 }
 10055722 = {
-	name=character_name_10055722 # Nagahiro
+	name=character_name_10055722 # Naganari
 	dynasty=10000214 # Ogasawara
 	father=10055726
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
-	1339.1.1={
+	1380.1.1={
 		birth=yes
 	}
-	1390.1.1={
+	1440.1.1={
 		death=yes
 	}
 }
@@ -8946,11 +9152,10 @@
 	father=10055726
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
-	1342.1.1={
+	1382.1.1={
 		birth=yes
 	}
-	1402.1.1={
+	1440.1.1={
 		death=yes
 	}
 }
@@ -8960,11 +9165,10 @@
 	father=10055726
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
-	1343.1.1={
+	1384.1.1={
 		birth=yes
 	}
-	1403.1.1={
+	1440.1.1={
 		death=yes
 	}
 }
@@ -8974,11 +9178,10 @@
 	father=10055726
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
-	1345.1.1={
+	1386.1.1={
 		birth=yes
 	}
-	1405.1.1={
+	1440.1.1={
 		death=yes
 	}
 }
@@ -8988,11 +9191,10 @@
 	father=10055730
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
-	1324.1.1={
+	1360.1.1={
 		birth=yes
 	}
-	1390.1.1={
+	1414.7.22={
 		death=yes
 	}
 }
@@ -9002,11 +9204,10 @@
 	father=10055730
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
-	1326.1.1={
+	1362.1.1={
 		birth=yes
 	}
-	1396.1.1={
+	1420.1.1={
 		death=yes
 	}
 }
@@ -9016,11 +9217,10 @@
 	father=10055730
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
-	1327.1.1={
+	1364.1.1={
 		birth=yes
 	}
-	1397.1.1={
+	1420.1.1={
 		death=yes
 	}
 }
@@ -9030,11 +9230,10 @@
 	father=10055730
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
-	1330.1.1={
+	1366.1.1={
 		birth=yes
 	}
-	1400.1.1={
+	1420.1.1={
 		death=yes
 	}
 }
@@ -9044,11 +9243,10 @@
 	father=10055733
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
-	1308.1.1={
+	1340.1.1={
 		birth=yes
 	}
-	1368.1.1={
+	1403.11.9={
 		death=yes
 	}
 }
@@ -9059,11 +9257,10 @@
 	father=10055733
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
-	1312.1.1={
+	1342.1.1={
 		birth=yes
 	}
-	1362.1.1={
+	1400.1.1={
 		death=yes
 	}
 }
@@ -9073,11 +9270,10 @@
 	father=10055733
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
-	1313.1.1={
+	1344.1.1={
 		birth=yes
 	}
-	1373.1.1={
+	1400.1.1={
 		death=yes
 	}
 }
@@ -9087,11 +9283,10 @@
 	father=10055736
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
-	1292.1.1={
+	1320.1.1={
 		birth=yes
 	}
-	1357.1.1={
+	1383.4.6={
 		death=yes
 	}
 }
@@ -9101,11 +9296,10 @@
 	father=10055736
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
-	1293.1.1={
+	1322.1.1={
 		birth=yes
 	}
-	1343.1.1={
+	1380.1.1={
 		death=yes
 	}
 }
@@ -9116,11 +9310,10 @@
 	father=10055736
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
-	1296.1.1={
+	1324.1.1={
 		birth=yes
 	}
-	1356.1.1={
+	1380.1.1={
 		death=yes
 	}
 }
@@ -9130,11 +9323,10 @@
 	father=10055738
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
-	1276.1.1={
+	1290.1.1={
 		birth=yes
 	}
-	1336.1.1={
+	1346.8.18={
 		death=yes
 	}
 }
@@ -9145,11 +9337,10 @@
 	mother=12661222
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1260.1.1={
 		birth=yes
 	}
-	1330.1.1={
+	1333.5.4={
 		death=yes
 	}
 }
@@ -9160,7 +9351,6 @@
 	mother=12661222
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1265.1.1={
 		birth=yes
 	}
@@ -9175,7 +9365,6 @@
 	mother=12661222
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1266.1.1={
 		birth=yes
 	}
@@ -9189,7 +9378,6 @@
 	father=12360680 # Ogasawara Nagafusa
 	religion="shinto"
 	culture="shikoku"
-	prowess=10
 	1233.1.1={
 		birth=yes
 	}
@@ -9206,7 +9394,6 @@
 	father=12360680 # Ogasawara Nagafusa
 	religion="shinto"
 	culture="shikoku"
-	prowess=10
 	1230.1.1={
 		birth=yes
 	}
@@ -9220,7 +9407,6 @@
 	father=12360680 # Ogasawara Nagafusa
 	religion="shinto"
 	culture="shikoku"
-	prowess=11
 	1234.1.1={
 		birth=yes
 	}
@@ -9234,12 +9420,13 @@
 	father=12360680 # Ogasawara Nagafusa
 	religion="shinto"
 	culture="shikoku"
-	prowess=11
 	1235.1.1={
 		birth=yes
 	}
 	1305.1.1={
-		trait="jugoi_ge"
+		effect = {
+			add_trait = "jugoi_ge"
+		}
 	}
 	1315.1.1={
 		death=yes
@@ -9251,7 +9438,6 @@
 	father=12360680 # Ogasawara Nagafusa
 	religion="shinto"
 	culture="shikoku"
-	prowess=12
 	1238.1.1={
 		birth=yes
 	}
@@ -9268,7 +9454,6 @@
 	trait="weak"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1545.1.1={
 		birth=yes
 	}
@@ -9284,7 +9469,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1575.1.1={
 		birth=yes
 	}
@@ -9300,12 +9484,13 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1548.1.1={
 		birth=yes
 	}
 	1560.1.1={
-		name=character_name_10055751_1 # Motoshige
+		effect = {
+			change_first_name = character_name_10055751_1 # Motoshige
+		}
 	}
 	1604.7.16={
 		death=yes
@@ -9318,7 +9503,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1570.1.1={
 		birth=yes
 	}
@@ -9333,7 +9517,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1578.1.1={
 		birth=yes
 	}
@@ -9344,19 +9527,32 @@
 		death=yes
 	}
 }
+10055754={
+	name=character_name_10055754 # Naganobu
+	dynasty=10000868 # Sasuka
+	father=10055701 # Ogasawara Nagataka
+	religion="shinto"
+	culture="western_chugoku"
+	1500.1.1={
+		birth=yes
+	}
+	1556.9.1={
+		death=yes
+	}
+}
 10055800 = {
 	name=character_name_10055800 # Takekane
 	dynasty=10000571 # Sufu
 	father=10055801
-	martial=6
-	diplomacy=5
+	martial=7
+	diplomacy=8
 	intrigue=7
-	stewardship=5
-	learning=6
+	stewardship=6
+	learning=7
 	trait="education_martial_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
+	prowess=13
 	1506.1.1={
 		birth=yes
 	}
@@ -9377,11 +9573,11 @@
 	name=character_name_10055801 # Okikane
 	dynasty=10000571 # Sufu
 	father=10055809
-	martial=7
-	diplomacy=5
-	intrigue=5
-	stewardship=5
-	learning=6
+	martial=6
+	diplomacy=7
+	intrigue=7
+	stewardship=7
+	learning=7
 	trait="education_stewardship_1"
 	religion="shinto"
 	culture="western_chugoku"
@@ -9411,8 +9607,8 @@
 	father=10055800
 	mother=10057407
 	martial=7
-	diplomacy=6
-	intrigue=5
+	diplomacy=8
+	intrigue=7
 	stewardship=6
 	learning=7
 	trait="education_diplomacy_1"
@@ -9439,7 +9635,6 @@
 	trait="education_martial_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1510.1.1={
 		birth=yes
 	}
@@ -9455,7 +9650,6 @@
 	trait="education_martial_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=13
 	1512.1.1={
 		birth=yes
 	}
@@ -9470,7 +9664,6 @@
 	trait="education_martial_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1530.1.1={
 		birth=yes
 	}
@@ -9485,7 +9678,6 @@
 	trait="education_martial_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1480.1.1={
 		birth=yes
 	}
@@ -9500,7 +9692,6 @@
 	trait="education_martial_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1482.1.1={
 		birth=yes
 	}
@@ -9515,7 +9706,6 @@
 	trait="education_martial_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1500.1.1={
 		birth=yes
 	}
@@ -9530,7 +9720,6 @@
 	trait="education_martial_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1450.1.1={
 		birth=yes
 	}
@@ -9548,7 +9737,6 @@
 	trait="education_martial_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1452.1.1={
 		birth=yes
 	}
@@ -9564,7 +9752,6 @@
 	trait="education_martial_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1421.1.1={
 		birth=yes
 	}
@@ -9585,7 +9772,6 @@
 	trait="education_martial_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1400.1.1={
 		birth=yes
 	}
@@ -9603,7 +9789,6 @@
 	trait="education_martial_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=13
 	1360.1.1={
 		birth=yes
 	}
@@ -9618,7 +9803,6 @@
 	trait="education_martial_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1358.1.1={
 		birth=yes
 	}
@@ -9633,7 +9817,6 @@
 	trait="education_martial_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1356.1.1={
 		birth=yes
 	}
@@ -9648,7 +9831,6 @@
 	trait="education_martial_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1330.1.1={
 		birth=yes
 	}
@@ -9663,7 +9845,6 @@
 	trait="education_martial_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1302.1.1={
 		birth=yes
 	}
@@ -9678,7 +9859,6 @@
 	trait="education_martial_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1303.1.1={
 		birth=yes
 	}
@@ -9693,7 +9873,6 @@
 	trait="education_martial_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1304.1.1={
 		birth=yes
 	}
@@ -9708,7 +9887,6 @@
 	trait="education_martial_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1270.1.1={
 		birth=yes
 	}
@@ -9722,14 +9900,14 @@
 	father=10055800
 	mother=10057407
 	martial=7
-	diplomacy=5
+	diplomacy=8
 	intrigue=7
 	stewardship=6
-	learning=6
+	learning=7
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
+	prowess=13
 	1550.1.1={
 		birth=yes
 	}
@@ -9742,15 +9920,15 @@
 	dynasty=10000571 # Sufu
 	father=10055800
 	mother=10057407
-	martial=6
-	diplomacy=6
-	intrigue=6
-	stewardship=5
-	learning=5
+	martial=7
+	diplomacy=8
+	intrigue=7
+	stewardship=6
+	learning=7
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
+	prowess=11
 	1560.1.1={
 		birth=yes
 	}
@@ -9762,11 +9940,11 @@
 	name=character_name_10055830 # Motomori
 	dynasty=10000571 # Sufu
 	father=10055802
-	martial=5
-	diplomacy=7
-	intrigue=5
+	martial=7
+	diplomacy=8
+	intrigue=7
 	stewardship=6
-	learning=6
+	learning=7
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
@@ -9783,15 +9961,15 @@
 	dynasty=10000571 # Sufu
 	female=yes
 	father=10055802
-	martial=5
-	diplomacy=4
-	intrigue=5
-	stewardship=4
+	martial=7
+	diplomacy=8
+	intrigue=7
+	stewardship=6
 	learning=7
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
+	prowess=11
 	1570.1.1={
 		birth=yes
 	}
@@ -9803,11 +9981,11 @@
 	name=character_name_10055832 # Nagatsugu
 	dynasty=10000571 # Sufu
 	father=10055802
-	martial=6
-	diplomacy=5
-	intrigue=6
-	stewardship=5
-	learning=5
+	martial=7
+	diplomacy=8
+	intrigue=7
+	stewardship=6
+	learning=7
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
@@ -9823,15 +10001,15 @@
 	name=character_name_10055833 # Kanetsugu
 	dynasty=10000571 # Sufu
 	father=10055802
-	martial=8
+	martial=7
 	diplomacy=8
-	intrigue=4
+	intrigue=7
 	stewardship=6
-	learning=6
+	learning=7
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
+	prowess=11
 	1575.1.1={
 		birth=yes
 	}
@@ -9843,15 +10021,15 @@
 	name=character_name_10055834 # Kanetsune
 	dynasty=10000571 # Sufu
 	father=10055828
-	martial=6
-	diplomacy=6
-	intrigue=5
+	martial=7
+	diplomacy=8
+	intrigue=7
 	stewardship=6
-	learning=5
+	learning=7
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
+	prowess=11
 	1580.1.1={
 		birth=yes
 	}
@@ -9863,16 +10041,16 @@
 	name=character_name_10055900 # Munekane
 	dynasty=10000572 # Masuda
 	father=10055901
-	martial=6
-	diplomacy=5
+	martial=7
+	diplomacy=8
 	intrigue=7
-	stewardship=8
-	learning=6
+	stewardship=7
+	learning=8
 	trait="education_martial_2"
 	trait="diligent"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
+	prowess=15
 	1461.1.1={
 		birth=yes
 	}
@@ -9890,10 +10068,10 @@
 	name=character_name_10055901 # Sadakane
 	dynasty=10000572 # Masuda
 	father=10055914
-	martial=5
+	martial=8
 	diplomacy=7
-	intrigue=5
-	stewardship=6
+	intrigue=9
+	stewardship=7
 	learning=7
 	trait="education_diplomacy_2"
 	religion="shinto"
@@ -9920,15 +10098,15 @@
 	dynasty=10000572 # Masuda
 	father=10055900
 	mother=10057109 # daughter of Sue Hiromori
-	martial=4
-	diplomacy=5
-	intrigue=4
+	martial=8
+	diplomacy=8
+	intrigue=7
 	stewardship=7
-	learning=4
+	learning=6
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
+	prowess=12
 	1493.1.1={
 		birth=yes
 	}
@@ -9936,8 +10114,8 @@
 		give_nickname="nick_Matajio"
 	}
 	1537.1.1={
-		effect={
-			set_relation_friend=character:10057102
+		effect = {
+			set_relation_friend = character:10057102
 		}
 	}
 	1565.10.6={
@@ -9948,16 +10126,16 @@
 	name=character_name_10055903 # Fujikane
 	dynasty=10000572 # Masuda
 	father=10055902
-	martial=6
+	martial=8
 	diplomacy=8
 	intrigue=7
-	stewardship=5
-	learning=5
+	stewardship=8
+	learning=7
 	trait="education_diplomacy_2"
 	trait="diligent"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
+	prowess=12
 	1529.1.1={
 		birth=yes
 	}
@@ -9983,7 +10161,6 @@
 	trait="diligent"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1531.1.1={
 		birth=yes
 	}
@@ -9999,7 +10176,6 @@
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1495.1.1={
 		birth=yes
 	}
@@ -10016,7 +10192,6 @@
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1517.1.1={
 		birth=yes
 	}
@@ -10032,7 +10207,6 @@
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1498.1.1={
 		birth=yes
 	}
@@ -10048,7 +10222,6 @@
 	trait="devoted"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1463.1.1={
 		birth=yes
 	}
@@ -10063,7 +10236,6 @@
 	trait="education_martial_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1465.1.1={
 		birth=yes
 	}
@@ -10079,7 +10251,6 @@
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1447.1.1={
 		birth=yes
 	}
@@ -10095,7 +10266,6 @@
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1448.1.1={
 		birth=yes
 	}
@@ -10111,7 +10281,6 @@
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1447.1.1={
 		birth=yes
 	}
@@ -10126,7 +10295,6 @@
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1450.1.1={
 		birth=yes
 	}
@@ -10144,7 +10312,6 @@
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1425.1.1={
 		birth=yes
 	}
@@ -10165,11 +10332,10 @@
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
-	1423.1.1={
+	1410.1.1={
 		birth=yes
 	}
-	1460.1.1={
+	1431.8.6={
 		death=yes
 	}
 }
@@ -10181,11 +10347,10 @@
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
-	1428.1.1={
+	1412.1.1={
 		birth=yes
 	}
-	1508.1.1={
+	1470.1.1={
 		death=yes
 	}
 }
@@ -10196,11 +10361,10 @@
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
-	1430.1.1={
+	1414.1.1={
 		birth=yes
 	}
-	1500.1.1={
+	1470.1.1={
 		death=yes
 	}
 }
@@ -10212,11 +10376,10 @@
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
-	1432.1.1={
+	1416.1.1={
 		birth=yes
 	}
-	1500.1.1={
+	1470.1.1={
 		death=yes
 	}
 }
@@ -10227,11 +10390,10 @@
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
-	1433.1.1={
+	1418.1.1={
 		birth=yes
 	}
-	1500.1.1={
+	1470.1.1={
 		death=yes
 	}
 }
@@ -10242,11 +10404,10 @@
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
-	1400.1.1={
+	1390.1.1={
 		birth=yes
 	}
-	1460.1.1={
+	1431.8.6={
 		death=yes
 	}
 }
@@ -10258,7 +10419,6 @@
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1402.1.1={
 		birth=yes
 	}
@@ -10274,7 +10434,6 @@
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1405.1.1={
 		birth=yes
 	}
@@ -10289,7 +10448,6 @@
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1407.1.1={
 		birth=yes
 	}
@@ -10305,7 +10463,6 @@
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1372.1.1={
 		birth=yes
 	}
@@ -10320,7 +10477,6 @@
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1370.1.1={
 		birth=yes
 	}
@@ -10335,7 +10491,6 @@
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1340.1.1={
 		birth=yes
 	}
@@ -10351,7 +10506,6 @@
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1320.1.1={
 		birth=yes
 	}
@@ -10369,15 +10523,14 @@
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
-	1300.1.1={
+	1290.1.1={
 		birth=yes
 	}
-	1316.1.1={
+	1306.1.1={
 		add_spouse = 10055735
 		give_nickname="nick_taro"
 	}
-	1370.1.1={
+	1330.1.1={
 		death=yes
 	}
 }
@@ -10388,7 +10541,6 @@
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1302.1.1={
 		birth=yes
 	}
@@ -10403,7 +10555,6 @@
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1305.1.1={
 		birth=yes
 	}
@@ -10418,14 +10569,13 @@
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1270.1.1={
 		birth=yes
 	}
 	1286.1.1={
 		give_nickname="nick_Magotaro"
 	}
-	1340.1.1={
+	1320.1.1={
 		death=yes
 	}
 }
@@ -10436,7 +10586,6 @@
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1272.1.1={
 		birth=yes
 	}
@@ -10452,7 +10601,6 @@
 	trait="education_martial_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=14
 	1550.1.1={
 		birth=yes
 	}
@@ -10468,7 +10616,6 @@
 	trait="education_martial_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1555.1.1={
 		birth=yes
 	}
@@ -10484,7 +10631,6 @@
 	trait="education_martial_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=13
 	1556.1.1={
 		birth=yes
 	}
@@ -10499,7 +10645,6 @@
 	trait="education_martial_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=13
 	1558.1.1={
 		birth=yes
 	}
@@ -10527,7 +10672,6 @@
 	trait="education_martial_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1560.1.1={
 		birth=yes
 	}
@@ -10543,7 +10687,6 @@
 	trait="education_martial_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1565.1.1={
 		birth=yes
 	}
@@ -10559,7 +10702,6 @@
 	trait="education_martial_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=13
 	1576.1.1={
 		birth=yes
 	}
@@ -10578,7 +10720,6 @@
 	trait="education_martial_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=13
 	1577.1.1={
 		birth=yes
 	}
@@ -10590,15 +10731,15 @@
 	name=character_name_10057700 # Toyosato
 	dynasty=10000577 # Wachi
 	father=10057701
-	martial=8
-	diplomacy=5
+	martial=7
+	diplomacy=7
 	intrigue=7
-	stewardship=6
+	stewardship=7
 	learning=6
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
+	prowess=15
 	1494.1.1={
 		birth=yes
 	}
@@ -10611,14 +10752,14 @@
 	dynasty=10000577 # Wachi
 	father=10057703
 	martial=7
-	diplomacy=7
-	intrigue=6
+	diplomacy=6
+	intrigue=7
 	stewardship=7
-	learning=6
+	learning=7
 	trait="education_martial_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
+	prowess=13
 	1468.1.1={
 		birth=yes
 	}
@@ -10630,15 +10771,15 @@
 	name=character_name_10057702 # Masaharu
 	dynasty=10000577 # Wachi
 	father=10057700
-	martial=7
+	martial=8
 	diplomacy=7
 	intrigue=7
-	stewardship=4
-	learning=4
+	stewardship=7
+	learning=6
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
+	prowess=12
 	1528.1.1={
 		birth=yes
 	}
@@ -10654,7 +10795,6 @@
 	father=10057709
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1430.1.1={
 		birth=yes
 	}
@@ -10669,7 +10809,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1532.1.1={
 		birth=yes
 	}
@@ -10689,7 +10828,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1495.1.1={
 		birth=yes
 	}
@@ -10704,7 +10842,6 @@
 	trait="education_martial_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1465.1.1={
 		birth=yes
 	}
@@ -10719,7 +10856,6 @@
 	trait="education_martial_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1469.1.1={
 		birth=yes
 	}
@@ -10734,7 +10870,6 @@
 	trait="education_martial_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1470.1.1={
 		birth=yes
 	}
@@ -10748,7 +10883,6 @@
 	father=10057712
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1390.1.1={
 		birth=yes
 	}
@@ -10762,7 +10896,6 @@
 	father=10057712
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1400.1.1={
 		birth=yes
 	}
@@ -10776,7 +10909,6 @@
 	father=10057712
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1410.1.1={
 		birth=yes
 	}
@@ -10790,7 +10922,6 @@
 	father=10057715
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1360.1.1={
 		birth=yes
 	}
@@ -10804,7 +10935,6 @@
 	father=10057715
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1365.1.1={
 		birth=yes
 	}
@@ -10818,7 +10948,6 @@
 	father=10057715
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1370.1.1={
 		birth=yes
 	}
@@ -10832,7 +10961,6 @@
 	father=10057717
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1320.1.1={
 		birth=yes
 	}
@@ -10846,7 +10974,6 @@
 	father=10057717
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1325.1.1={
 		birth=yes
 	}
@@ -10860,7 +10987,6 @@
 	father=10057728
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1280.1.1={
 		birth=yes
 	}
@@ -10874,7 +11000,6 @@
 	father=10057728
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1267.1.1={
 		birth=yes
 	}
@@ -10888,7 +11013,6 @@
 	father=10057728
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1270.1.1={
 		birth=yes
 	}
@@ -10902,7 +11026,6 @@
 	father=10057728
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1275.1.1={
 		birth=yes
 	}
@@ -10916,7 +11039,6 @@
 	father=10057728
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1285.1.1={
 		birth=yes
 	}
@@ -10930,7 +11052,6 @@
 	father=10057728
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1290.1.1={
 		birth=yes
 	}
@@ -10944,7 +11065,6 @@
 	father=10057728
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1285.1.1={
 		birth=yes
 	}
@@ -10959,7 +11079,6 @@
 	father=10057728
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1285.1.1={
 		birth=yes
 	}
@@ -10974,7 +11093,6 @@
 	father=10057728
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1272.1.1={
 		birth=yes
 	}
@@ -10990,7 +11108,6 @@
 	religion="shinto"
 	culture="western_chugoku"
 	trait="devoted"
-	prowess=11
 	1274.1.1={
 		birth=yes
 	}
@@ -11005,7 +11122,6 @@
 	father=10057728
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1279.1.1={
 		birth=yes
 	}
@@ -11019,7 +11135,6 @@
 	father=12219031
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1250.1.1={
 		birth=yes
 	}
@@ -11034,7 +11149,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1550.1.1={
 		birth=yes
 	}
@@ -11050,7 +11164,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1555.1.1={
 		birth=yes
 	}
@@ -11066,7 +11179,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1560.1.1={
 		birth=yes
 	}
@@ -11081,7 +11193,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1575.1.1={
 		birth=yes
 	}
@@ -11096,7 +11207,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1578.1.1={
 		birth=yes
 	}
@@ -11111,7 +11221,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1580.1.1={
 		birth=yes
 	}
@@ -11127,7 +11236,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1576.1.1={
 		birth=yes
 	}
@@ -11141,7 +11249,6 @@
 	father=12219031
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1240.1.1={
 		birth=yes
 	}
@@ -11155,7 +11262,6 @@
 	father=10057738
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1270.1.1={
 		birth=yes
 	}
@@ -11173,7 +11279,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1530.1.1={
 		birth=yes
 	}
@@ -11188,7 +11293,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1560.1.1={
 		birth=yes
 	}
@@ -11203,7 +11307,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1570.1.1={
 		birth=yes
 	}
@@ -11218,7 +11321,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1575.1.1={
 		birth=yes
 	}
@@ -11233,7 +11335,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1570.1.1={
 		birth=yes
 	}
@@ -11247,7 +11348,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1500.1.1={
 		birth=yes
 	}
@@ -11263,7 +11363,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1534.1.1={
 		birth=yes
 	}
@@ -11275,21 +11374,23 @@
 	name=character_name_10057600 # Yoshitaka
 	dynasty=10000578 # Shibukawa
 	father=10057601
-	martial=7
-	diplomacy=7
-	intrigue=5
-	stewardship=6
-	learning=7
+	martial=6
+	diplomacy=8
+	intrigue=7
+	stewardship=8
+	learning=8
 	trait="education_diplomacy_1"
 	trait="ashikaga_family"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
+	prowess=12
 	1487.1.1={
 		birth=yes
 	}
 	1500.1.1={
-		trait="jugoi_ge"
+		effect = {
+			add_trait = "jugoi_ge"
+		}
 	}
 	1538.9.13={
 		death=yes
@@ -11299,15 +11400,15 @@
 	name=character_name_10057601 # Tadashige
 	dynasty=10000578 # Shibukawa
 	father=10057615
-	martial=5
-	diplomacy=6
-	intrigue=5
-	stewardship=8
-	learning=5
+	martial=6
+	diplomacy=7
+	intrigue=8
+	stewardship=7
+	learning=7
 	trait="ashikaga_family"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
+	prowess=10
 	1468.1.1={
 		birth=yes
 	}
@@ -11320,10 +11421,10 @@
 	dynasty=10000578 # Shibukawa
 	father=10057600
 	martial=6
-	diplomacy=6
-	intrigue=6
-	stewardship=5
-	learning=4
+	diplomacy=7
+	intrigue=8
+	stewardship=7
+	learning=7
 	trait="education_diplomacy_1"
 	trait="ashikaga_family"
 	religion="shinto"
@@ -11343,11 +11444,11 @@
 	name=character_name_10057603 # Yoshinaga
 	dynasty=10000578 # Shibukawa
 	father=10057601
-	martial=5
-	diplomacy=6
+	martial=6
+	diplomacy=8
 	intrigue=7
-	stewardship=5
-	learning=7
+	stewardship=8
+	learning=8
 	trait="ashikaga_family"
 	religion="shinto"
 	culture="western_chugoku"
@@ -11367,12 +11468,13 @@
 	trait="ashikaga_family"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1530.1.1={
 		birth=yes
 	}
 	1567.1.1={
-		trait="jugoi_ge"
+		effect = {
+			add_trait = "jugoi_ge"
+		}
 	}
 	1573.3.20={
 		death=yes
@@ -11385,7 +11487,6 @@
 	trait="ashikaga_family"
 	religion="shinto"
 	culture="central_kinai"
-	prowess=12
 	1260.1.1={
 		birth=yes
 	}
@@ -11404,7 +11505,6 @@
 	trait="ashikaga_family"
 	religion="shinto"
 	culture="central_kinai"
-	prowess=12
 	1290.1.1={
 		birth=yes
 	}
@@ -11422,14 +11522,15 @@
 	trait="ashikaga_family"
 	religion="shinto"
 	culture="central_kinai"
-	prowess=11
 	1314.1.1={
 		birth=yes
 	}
 	1335.8.11={
-		trait="jugoi_ge"
 		death={
 			death_reason=death_battle
+		}
+		effect = {
+			add_trait = "jugoi_ge"
 		}
 	}
 }
@@ -11441,7 +11542,6 @@
 	trait="ashikaga_family"
 	religion="shinto"
 	culture="central_kinai"
-	prowess=9
 	1320.1.1={
 		birth=yes
 	}
@@ -11457,7 +11557,6 @@
 	trait="ashikaga_family"
 	religion="shinto"
 	culture="central_kinai"
-	prowess=11
 	1334.1.1={
 		birth=yes
 	}
@@ -11472,7 +11571,6 @@
 	trait="ashikaga_family"
 	religion="shinto"
 	culture="central_kinai"
-	prowess=10
 	1335.1.1={
 		birth=yes
 	}
@@ -11487,7 +11585,6 @@
 	trait="ashikaga_family"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1348.1.1={
 		birth=yes
 	}
@@ -11502,7 +11599,6 @@
 	trait="ashikaga_family"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1372.1.1={
 		birth=yes
 	}
@@ -11517,7 +11613,6 @@
 	trait="ashikaga_family"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1374.1.1={
 		birth=yes
 	}
@@ -11532,7 +11627,6 @@
 	trait="ashikaga_family"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1390.1.1={
 		birth=yes
 	}
@@ -11549,7 +11643,6 @@
 	trait="ashikaga_family"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1422.1.1={
 		birth=yes
 	}
@@ -11564,7 +11657,6 @@
 	trait="ashikaga_family"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1449.1.1={
 		birth=yes
 	}
@@ -11580,7 +11672,6 @@
 	trait="ashikaga_family"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1373.1.1={
 		birth=yes
 	}
@@ -11591,12 +11682,12 @@
 10057618 = {
 	name=character_name_10057618 # Yoshitoshi
 	dynasty=10000578 # Shibukawa
-	martial=6
+	martial=2
 	father=10057612
 	trait="ashikaga_family"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
+	prowess=6
 	1400.1.1={
 		birth=yes
 	}
@@ -11611,7 +11702,6 @@
 	trait="ashikaga_family"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1405.1.1={
 		birth=yes
 	}
@@ -11626,7 +11716,6 @@
 	trait="ashikaga_family"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1420.1.1={
 		birth=yes
 	}
@@ -11641,25 +11730,26 @@
 	trait="ashikaga_family"
 	religion="shinto"
 	culture="western_kanto"
-	prowess=10
 	1445.1.1={
 		birth=yes
 	}
 	1461.9.6={
 		culture="western_chubu"
 		dynasty=10000279 # Shiba
-		trait="child_of_adoption"
-		trait="jugoi_ge"
 		give_nickname="nick_the_jibu_daihu"
-		effect={
-			set_father=character:10029016
-			set_real_father=character:10057620
+		effect = {
+			set_father = character:10029016
+			set_real_father = character:10057620
+			add_trait = "child_of_adoption"
+			add_trait = "jugoi_ge"
 		}
 	}
 	1467.5.1={
-		remove_trait="jugoi_ge"
-		trait="jushii_ge"
 		give_nickname="nick_the_saemon_no_suke"
+		effect = {
+			remove_trait = "jugoi_ge"
+			add_trait = "jushii_ge"
+		}
 	}
 	1490.1.1={
 		death=yes
@@ -11672,11 +11762,764 @@
 	trait="ashikaga_family"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1470.1.1={
 		birth=yes
 	}
 	1540.1.1={
+		death=yes
+	}
+}
+10057623={
+	name=character_name_10057623 # Manjumaru
+	dynasty=10000578 # Shibukawa
+	father=10057615 # Shibukawa Norinao
+	religion="shinto"
+	culture="western_chugoku"
+	1468.1.1={
+		birth=yes
+	}
+	1487.1.1={
+		death=yes
+	}
+}
+10057800={
+	name=character_name_10057800 # Motoie
+	dynasty=10000873 # Shishido
+	religion="shinto"
+	culture="western_chugoku"
+	1434.1.1={
+		birth=yes
+	}
+	1509.1.1={
+		death=yes
+	}
+}
+10057801={
+	name=character_name_10057801 # Motoyoshi
+	dynasty=10000873 # Shishido
+	father=10057800 # Shishido Motoie
+	religion="shinto"
+	culture="western_chugoku"
+	1460.1.1={
+		birth=yes
+	}
+	1543.1.27={
+		death=yes
+	}
+}
+10057802={
+	name=character_name_10057802 # Takakane
+	dynasty=10000873 # Shishido
+	father=10057800 # Shishido Motoie
+	religion="shinto"
+	culture="western_chugoku"
+	1462.1.1={
+		birth=yes
+	}
+	1540.1.1={
+		death=yes
+	}
+}
+10057803={
+	name=character_name_10057803 # Kosen
+	dynasty=10000885 # Shisenin
+	father=10057800 # Shishido Motoie
+	religion="shinto"
+	culture="western_chugoku"
+	diplomacy=6
+	martial=5
+	stewardship=5
+	intrigue=7
+	learning=7
+	trait="education_learning_3"
+	trait="intellect_good_2"
+	trait="mystic_2"
+	trait="ninja"
+	trait="sword_master"
+	prowess=9
+	1470.1.1={
+		birth=yes
+	}
+	1480.1.1={
+		effect = {
+			add_trait = "devoted"
+		}
+	}
+	1490.1.1={
+		employer = 10040544 # Hosokawa Masamoto
+	}
+	1570.1.1={
+		death=yes
+	}
+}
+10057804={
+	name=character_name_10057804 # Motoie
+	dynasty=10000873 # Shishido
+	father=10057801 # Shishido Motoyoshi
+	religion="shinto"
+	culture="western_chugoku"
+	1498.1.1={
+		birth=yes
+	}
+	1518.1.1={
+		death=yes
+	}
+}
+10057805={
+	name=character_name_10057805 # Takatada
+	dynasty=10000873 # Shishido
+	father=10057801 # Shishido Motoyoshi
+	religion="shinto"
+	culture="western_chugoku"
+	1500.1.1={
+		birth=yes
+	}
+	1534.1.1={
+		death=yes
+	}
+}
+10057806={
+	name=character_name_10057806 # Takaie
+	dynasty=10000873 # Shishido
+	father=10057804 # Shishido Motoie
+	religion="shinto"
+	culture="western_chugoku"
+	martial=9
+	trait="education_martial_2"
+	prowess=17
+	1518.1.1={
+		birth=yes
+	}
+	1592.3.18={
+		death=yes
+	}
+}
+10057807={
+	name=character_name_10057807 # Motohide
+	dynasty=10000873 # Shishido
+	father=10057806 # Shishido Takaie
+	mother=10056014 # Mori Goryu
+	religion="shinto"
+	culture="western_chugoku"
+	1547.1.1={
+		birth=yes
+	}
+	1597.7.25={
+		death=yes
+	}
+}
+10057808={
+	name=character_name_10057808 # Minami
+	female=yes
+	dynasty=10000873 # Shishido
+	father=10057806 # Shishido Takaie
+	mother=10056014 # Mori Goryu
+	religion="shinto"
+	culture="western_chugoku"
+	1558.1.1={
+		birth=yes
+	}
+	1631.7.19={
+		death=yes
+	}
+}
+10057809={
+	name=character_name_10057809 # Mototsugu
+	dynasty=10000873 # Shishido
+	father=10057807 # Shishido Motohide
+	mother=10057210 # Naito Tome
+	religion="shinto"
+	culture="western_chugoku"
+	1563.1.1={
+		birth=yes
+	}
+	1631.8.22={
+		death=yes
+	}
+}
+10057810={
+	name=character_name_10057810 # Motomori
+	dynasty=10000566 # Naito
+	father=10057807 # Shishido Motohide
+	mother=10057210 # Naito Tome
+	religion="shinto"
+	culture="western_chugoku"
+	1566.1.1={
+		birth=yes
+	}
+	1615.6.17={
+		death=yes
+	}
+}
+10057900={
+	name=character_name_10057900 # Munenao
+	dynasty=10007059 # Kumagai
+	father=12207057 # Kumagai Naotsune
+	religion="shinto"
+	culture="western_chugoku"
+	1349.1.1={
+		birth=yes
+	}
+	1403.1.1={
+		death=yes
+	}
+}
+10057901={
+	name=character_name_10057901 # Arinao
+	dynasty=10007059 # Kumagai
+	father=10057900 # Kumagai Munenao
+	religion="shinto"
+	culture="western_chugoku"
+	1370.1.1={
+		birth=yes
+	}
+	1430.1.1={
+		death=yes
+	}
+}
+10057902={
+	name=character_name_10057902 # Nobunao
+	dynasty=10007059 # Kumagai
+	father=10057901 # Kumagai Arinao
+	religion="shinto"
+	culture="western_chugoku"
+	1390.1.1={
+		birth=yes
+	}
+	1438.1.1={
+		death=yes
+	}
+}
+10057903={
+	name=character_name_10057903 # Katanao
+	dynasty=10007059 # Kumagai
+	father=10057902 # Kumagai Nobunao
+	religion="shinto"
+	culture="western_chugoku"
+	1420.1.1={
+		birth=yes
+	}
+	1478.1.1={
+		death=yes
+	}
+}
+10057904={
+	name=character_name_10057904 # Munenao
+	dynasty=10007059 # Kumagai
+	father=10057903 # Kumagai Katanao
+	religion="shinto"
+	culture="western_chugoku"
+	1436.1.1={
+		birth=yes
+	}
+	1490.1.1={
+		death=yes
+	}
+}
+10057905={
+	name=character_name_10057905 # Yoshinao
+	dynasty=10007059 # Kumagai
+	father=10057904 # Kumagai Munenao
+	religion="shinto"
+	culture="western_chugoku"
+	1452.1.1={
+		birth=yes
+	}
+	1515.1.1={
+		death=yes
+	}
+}
+10057906={
+	name=character_name_10057906 # Motonao
+	dynasty=10007059 # Kumagai
+	father=10057905 # Kumagai Yoshinao
+	religion="shinto"
+	culture="western_chugoku"
+	1490.1.1={
+		birth=yes
+	}
+	1517.11.5={
+		death=yes
+	}
+}
+10057907={
+	name=character_name_10057907 # Nobunao
+	dynasty=10007059 # Kumagai
+	father=10057906 # Kumagai Motonao
+	religion="shinto"
+	culture="western_chugoku"
+	martial=8
+	health=8
+	trait="education_martial_3"
+	trait="brave"
+	prowess=18
+	1507.1.1={
+		birth=yes
+	}
+	1593.6.25={
+		death=yes
+	}
+}
+10057908={
+	name=character_name_10057908 # Naotsugu
+	dynasty=10007059 # Kumagai
+	father=10057906 # Kumagai Motonao
+	religion="shinto"
+	culture="western_chugoku"
+	1510.1.1={
+		birth=yes
+	}
+	1542.7.19={
+		death=yes
+	}
+}
+10057909={
+	name=character_name_10057909 # Takanao
+	dynasty=10007059 # Kumagai
+	father=10057907 # Kumagai Nobunao
+	religion="shinto"
+	culture="western_chugoku"
+	1527.1.1={
+		birth=yes
+	}
+	1579.11.14={
+		death=yes
+	}
+}
+10057910={
+	name=character_name_10057910 # Naokiyo
+	dynasty=10007059 # Kumagai
+	father=10057907 # Kumagai Nobunao
+	religion="shinto"
+	culture="western_chugoku"
+	1530.1.1={
+		birth=yes
+	}
+	1597.10.19={
+		death=yes
+	}
+}
+10057911={
+	name=character_name_10057911 # Shinjo
+	female=yes
+	dynasty=10007059 # Kumagai
+	father=10057907 # Kumagai Nobunao
+	religion="shinto"
+	culture="western_chugoku"
+	1532.1.1={
+		birth=yes
+	}
+	1606.1.1={
+		death=yes
+	}
+}
+10057912={
+	name=character_name_10057912 # Motonao
+	dynasty=10007059 # Kumagai
+	father=10057909 # Kumagai Takanao
+	religion="shinto"
+	culture="western_chugoku"
+	1555.1.1={
+		birth=yes
+	}
+	1605.8.16={
+		death=yes
+	}
+}
+10057913={
+	name=character_name_10057913 # Naosada
+	dynasty=10007059 # Kumagai
+	father=10057912 # Kumagai Motonao
+	religion="shinto"
+	culture="western_chugoku"
+	1576.1.1={
+		birth=yes
+	}
+	1596.5.28={
+		death=yes
+	}
+}
+10057920={
+	name=character_name_10057920 # Mitsunori
+	dynasty=10000874 # Inoue
+	religion="shinto"
+	culture="western_chugoku"
+	1420.1.1={
+		birth=yes
+	}
+	1451.9.23={
+		employer = 12666050 # Mori Toyomoto
+	}
+	1475.12.22={
+		employer = 10056000 # Mori Hiromoto
+	}
+	1480.1.1={
+		death=yes
+	}
+}
+10057921={
+	name=character_name_10057921 # Katsumitsu
+	dynasty=10000874 # Inoue
+	father=10057920 # Inoue Mitsunori
+	religion="shinto"
+	culture="western_chugoku"
+	1440.1.1={
+		birth=yes
+	}
+	1451.9.23={
+		employer = 12666050 # Mori Toyomoto
+	}
+	1475.12.22={
+		employer = 10056000 # Mori Hiromoto
+	}
+	1500.1.1={
+		employer = 10056002 # Mori Okimoto
+	}
+	1510.1.1={
+		death=yes
+	}
+}
+10057922={
+	name=character_name_10057922 # Mitsukane
+	dynasty=10000874 # Inoue
+	father=10057921 # Inoue Katsumitsu
+	religion="shinto"
+	culture="western_chugoku"
+	1463.1.1={
+		birth=yes
+		employer = 12666050 # Mori Toyomoto
+	}
+	1475.12.22={
+		employer = 10056000 # Mori Hiromoto
+	}
+	1500.1.1={
+		employer = 10056002 # Mori Okimoto
+	}
+	1516.9.21={
+		employer = 10056011 # Mori Komatsumaru
+	}
+	1523.8.25={
+		employer = 10056004 # Mori Motonari
+	}
+	1551.9.5={
+		death=yes
+	}
+}
+10057923={
+	name=character_name_10057923 # Mitsutoshi
+	dynasty=10000874 # Inoue
+	father=10057921 # Inoue Katsumitsu
+	religion="shinto"
+	culture="western_chugoku"
+	1500.1.1={
+		birth=yes
+		employer = 10056002 # Mori Okimoto
+	}
+	1516.9.21={
+		employer = 10056011 # Mori Komatsumaru
+	}
+	1523.8.25={
+		employer = 10056004 # Mori Motonari
+	}
+	1575.5.15={
+		death=yes
+	}
+}
+10057924={
+	name=character_name_10057924 # Motokane
+	dynasty=10000874 # Inoue
+	father=10057922 # Inoue Mitsukane
+	religion="shinto"
+	culture="western_chugoku"
+	stewardship=9
+	trait="education_stewardship_3"
+	trait="arrogant"
+	1486.1.1={
+		birth=yes
+		employer = 10056000 # Mori Hiromoto
+	}
+	1500.1.1={
+		employer = 10056002 # Mori Okimoto
+	}
+	1516.9.21={
+		employer = 10056011 # Mori Komatsumaru
+	}
+	1523.8.25={
+		employer = 10056004 # Mori Motonari
+	}
+	1550.8.25={
+		death=yes
+	}
+}
+10057925={
+	name=character_name_10057925 # Motomitsu
+	dynasty=10000874 # Inoue
+	father=10057922 # Inoue Mitsukane
+	religion="shinto"
+	culture="western_chugoku"
+	1489.1.1={
+		birth=yes
+		employer = 10056000 # Mori Hiromoto
+	}
+	1500.1.1={
+		employer = 10056002 # Mori Okimoto
+	}
+	1516.9.21={
+		employer = 10056011 # Mori Komatsumaru
+	}
+	1523.8.25={
+		employer = 10056004 # Mori Motonari
+	}
+	1567.3.28={
+		death=yes
+	}
+}
+10057926={
+	name=character_name_10057926 # Narikane
+	dynasty=10000874 # Inoue
+	father=10057922 # Inoue Mitsukane
+	religion="shinto"
+	culture="western_chugoku"
+	1520.1.1={
+		birth=yes
+		employer = 10056011 # Mori Komatsumaru
+	}
+	1523.8.25={
+		employer = 10056004 # Mori Motonari
+	}
+	1550.8.25={
+		death=yes
+	}
+}
+10057940={
+	name=character_name_10057940 # Motozane
+	dynasty=10000875 # Kodama
+	religion="shinto"
+	culture="western_chugoku"
+	1460.1.1={
+		birth=yes
+		employer = 12666050 # Mori Toyomoto
+	}
+	1475.12.22={
+		employer = 10056000 # Mori Hiromoto
+	}
+	1500.1.1={
+		employer = 10056002 # Mori Okimoto
+	}
+	1516.9.21={
+		employer = 10056011 # Mori Komatsumaru
+	}
+	1520.1.1={
+		death=yes
+	}
+}
+10057941={
+	name=character_name_10057941 # Narikane
+	dynasty=10000875 # Kodama
+	father=10057940 # Kodama Motozane
+	religion="shinto"
+	culture="western_chugoku"
+	1490.1.1={
+		birth=yes
+		employer = 10056000 # Mori Hiromoto
+	}
+	1500.1.1={
+		employer = 10056002 # Mori Okimoto
+	}
+	1516.9.21={
+		employer = 10056011 # Mori Komatsumaru
+	}
+	1523.8.25={
+		employer = 10056004 # Mori Motonari
+	}
+	1560.2.19={
+		death=yes
+	}
+}
+10057942={
+	name=character_name_10057942 # Naritada
+	dynasty=10000875 # Kodama
+	father=10057940 # Kodama Motozane
+	religion="shinto"
+	culture="western_chugoku"
+	stewardship=8
+	trait="education_stewardship_3"
+	trait="diligent"
+	1506.1.1={
+		birth=yes
+		employer = 10056002 # Mori Okimoto
+	}
+	1516.9.21={
+		employer = 10056011 # Mori Komatsumaru
+	}
+	1523.8.25={
+		employer = 10056004 # Mori Motonari
+	}
+	1562.5.3={
+		death=yes
+	}
+}
+10057943={
+	name=character_name_10057943 # Narikata
+	dynasty=10000875 # Kodama
+	father=10057940 # Kodama Motozane
+	religion="shinto"
+	culture="western_chugoku"
+	martial=8
+	trait="education_martial_3"
+	trait="brave"
+	prowess=18
+	1513.1.1={
+		birth=yes
+		employer = 10056002 # Mori Okimoto
+	}
+	1516.9.21={
+		employer = 10056011 # Mori Komatsumaru
+	}
+	1523.8.25={
+		employer = 10056004 # Mori Motonari
+	}
+	1586.7.25={
+		death=yes
+	}
+}
+10057944={
+	name=character_name_10057944 # Narimitsu
+	dynasty=10000875 # Kodama
+	father=10057941 # Kodama Narikane
+	religion="shinto"
+	culture="western_chugoku"
+	1520.1.1={
+		birth=yes
+		employer = 10056011 # Mori Komatsumaru
+	}
+	1523.8.25={
+		employer = 10056004 # Mori Motonari
+	}
+	1590.5.15={
+		death=yes
+	}
+}
+10057945={
+	name=character_name_10057945 # Motomura
+	dynasty=10000875 # Kodama
+	father=10057944 # Kodama Narimitsu
+	religion="shinto"
+	culture="western_chugoku"
+	1542.1.1={
+		birth=yes
+		employer = 10056004 # Mori Motonari
+	}
+	1584.5.1={
+		death=yes
+	}
+}
+10057946={
+	name=character_name_10057946 # Motoyoshi
+	dynasty=10000875 # Kodama
+	father=10057942 # Kodama Naritada
+	religion="shinto"
+	culture="western_chugoku"
+	1540.1.1={
+		birth=yes
+		employer = 10056004 # Mori Motonari
+	}
+	1586.1.8={
+		death=yes
+	}
+}
+10057947={
+	name=character_name_10057947 # Narihide
+	dynasty=10000875 # Kodama
+	father=10057943 # Kodama Narikata
+	religion="shinto"
+	culture="western_chugoku"
+	martial=8
+	trait="education_martial_3"
+	prowess=18
+	1544.1.1={
+		birth=yes
+		employer = 10056004 # Mori Motonari
+	}
+	1571.7.6={
+		employer = 10056025 # Mori Terumoto
+	}
+	1596.7.6={
+		death=yes
+	}
+}
+10057960={
+	name=character_name_10057960 # Motosada
+	dynasty=10000876 # Amano
+	religion="shinto"
+	culture="western_chugoku"
+	1470.1.1={
+		birth=yes
+	}
+	1530.1.1={
+		death=yes
+	}
+}
+10057961={
+	name=character_name_10057961 # Takashige
+	dynasty=10000876 # Amano
+	father=10057960 # Amano Motosada
+	religion="shinto"
+	culture="western_chugoku"
+	martial=9
+	health=8
+	trait="education_martial_2"
+	trait="patient"
+	prowess=17
+	1503.1.1={
+		birth=yes
+	}
+	1550.1.1={
+		add_spouse=12666324
+	}
+	1551.1.1={
+		employer = 10056004 # Mori Motonari
+	}
+	1584.4.17={
+		death=yes
+	}
+}
+10057962={
+	name=character_name_10057962 # Takayoshi
+	dynasty=10000876 # Amano
+	father=10057960 # Amano Motosada
+	religion="shinto"
+	culture="western_chugoku"
+	1511.1.1={
+		birth=yes
+	}
+	1551.1.1={
+		death=yes
+	}
+}
+10057963={
+	name=character_name_10057963 # Motoaki
+	dynasty=10000876 # Amano
+	father=10057961 # Amano Takashige
+	religion="shinto"
+	culture="western_chugoku"
+	1540.1.1={
+		birth=yes
+	}
+	1601.1.1={
+		death=yes
+	}
+}
+10057964={
+	name=character_name_10057964 # Motonobu
+	dynasty=10000876 # Amano
+	father=10057961 # Amano Takashige
+	religion="shinto"
+	culture="western_chugoku"
+	1560.1.1={
+		birth=yes
+	}
+	1605.8.16={
 		death=yes
 	}
 }

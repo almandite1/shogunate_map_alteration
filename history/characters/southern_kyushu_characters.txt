@@ -1,19 +1,25 @@
 ﻿10060000 = {
 	name=character_name_10060000 # Takahisa
-	dynasty=10000600 # Shimazu
+#	dynasty=10000600 # Shimazu
+	dynasty_house = "house_shgnt_shimazu_izaku"
 	father=10060023
-	martial=6
-	diplomacy=5
-	intrigue=5
-	stewardship=4
-	learning=6
-	trait="education_martial_3"
-	trait="intellect_good_2"
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=13
+	diplomacy=12
+	martial=6
+	stewardship=6
+	intrigue=6
+	learning=7
+	trait="education_martial_3"
+	trait="intellect_good_2"
+	trait="diligent"
+	prowess=16
 	1514.5.28={
 		birth=yes
+	}
+	1527.4.1={
+		add_pressed_claim=d_shgnt_hyuga
+		add_pressed_claim=d_shgnt_osumi
 	}
 	1530.5.28={
 		give_nickname="nick_Matasaburo"
@@ -28,7 +34,9 @@
 	}
 	1552.6.11={
 		give_nickname="nick_the_shuri_daibu"
-		trait="jugoi_ge"
+		effect = {
+			add_trait = "jugoi_ge"
+		}
 	}
 	1564.3.14={
 		give_nickname="nick_the_mutsu_no_kami"
@@ -41,16 +49,17 @@
 	name=character_name_10060002 # Katsuhisa
 	dynasty=10000600 # Shimazu
 	father=10060011
-	martial=6
-	diplomacy=6
-	intrigue=5
-	stewardship=6
-	learning=6
-	trait="education_diplomacy_1"
-	trait="weak"
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=11
+	martial=8
+	diplomacy=6
+	intrigue=7
+	stewardship=5
+	learning=6
+	trait="education_diplomacy_1"
+	trait="arbitrary"
+	trait="ambitious"
+	prowess=12
 	1503.9.8={
 		birth=yes
 	}
@@ -58,6 +67,13 @@
 		effect={
 			set_realm_capital=title:c_shgnt_kagoshima # Shimizu
 		}
+	1519.5.12={
+		add_pressed_claim=d_shgnt_hyuga
+		add_pressed_claim=d_shgnt_osumi
+		give_nickname="nick_shuri_daibu"
+	}
+	1527.4.1={
+		add_pressed_claim=d_shgnt_satsuma
 	}
 	1525.1.1={
 		 add_spouse=10060071 # daughter of Shimazu Tadaoki
@@ -77,24 +93,25 @@
 }
 10060003 = {
 	name=character_name_10060003 # Tadatomo
-	dynasty=10000600 # Shimazu
+#	dynasty=10000600 # Shimazu
+	dynasty_house = "house_shgnt_shimazu_hosshu"
 	father=10060018
-	martial=7
-	diplomacy=6
-	intrigue=7
-	stewardship=6
-	learning=7
+	martial=9
+	diplomacy=8
+	intrigue=8
+	stewardship=7
+	learning=6
 	trait="education_martial_2"
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=12
-	1468.1.1={
+	prowess=17
+	1466.1.1={
 		birth=yes
 	}
 	1482.1.1={
 		add_spouse=10060265
 	}
-	1543.1.1={
+	1540.4.9={
 		death=yes
 	}
 }
@@ -102,17 +119,20 @@
 	name=character_name_10060004 # Hisatoyo
 	dynasty=10000600 # Shimazu
 	father=10060029
-	martial=8
-	diplomacy=6
-	intrigue=5
-	stewardship=7
-	learning=7
+	martial=6
+	diplomacy=10
+	intrigue=10
+	stewardship=8
+	learning=8
 	trait="education_martial_3"
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=13
+	prowess=16
 	1375.1.1={
 		birth=yes
+	}
+	1411.8.25={
+		add_pressed_claim=d_shgnt_hyuga
 	}
 	1425.2.18={
 		death=yes
@@ -122,17 +142,20 @@
 	name=character_name_10060005 # Tadakuni
 	dynasty=10000600 # Shimazu
 	father=10060004
-	martial=7
-	diplomacy=5
-	intrigue=7
-	stewardship=5
-	learning=5
+	martial=10
+	diplomacy=8
+	intrigue=9
+	stewardship=8
+	learning=8
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=11
+	prowess=14
 	1403.5.22={
 		birth=yes
+	}
+	1425.2.9={
+		add_pressed_claim=d_shgnt_hyuga
 	}
 	1470.2.21={
 		death=yes
@@ -142,19 +165,20 @@
 	name=character_name_10060006 # Mochihisa
 	dynasty=10000600 # Shimazu
 	father=10060004
-	martial=6
-	diplomacy=7
-	intrigue=7
-	stewardship=5
+	martial=8
+	diplomacy=8
+	intrigue=6
+	stewardship=8
 	learning=6
 	trait="education_intrigue_2"
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=13
+	prowess=12
 	1401.1.1={
 		birth=yes
 	}
-	1459.1.1={
+	1459.4.2={
+		dynasty_house = "house_shgnt_shimazu_sasshu"
 		death=yes
 	}
 }
@@ -162,17 +186,20 @@
 	name=character_name_10060007 # Suehisa
 	dynasty=10000600 # Shimazu
 	father=10060004
-	martial=8
-	diplomacy=5
-	intrigue=7
-	stewardship=6
-	learning=7
+	martial=6
+	diplomacy=8
+	intrigue=6
+	stewardship=7
+	learning=6
 	trait="education_martial_2"
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=13
+	prowess=14
 	1413.1.1={
 		birth=yes
+	}
+	1439.01.01 = {
+		dynasty_house = "house_shgnt_shimazu_hosshu"
 	}
 	1477.8.6={
 		death=yes
@@ -182,20 +209,23 @@
 	name=character_name_10060008 # Tatsuhisa
 	dynasty=10000600 # Shimazu
 	father=10060005
-	martial=6
-	diplomacy=6
-	intrigue=6
-	stewardship=5
-	learning=8
+	martial=8
+	diplomacy=11
+	intrigue=9
+	stewardship=8
+	learning=6
 	trait="education_stewardship_2"
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=11
+	prowess=12
 	1432.11.27={
 		birth=yes
 	}
 	1456.1.1={
 		add_spouse=10060530
+	}
+	1459.10.1={
+		add_pressed_claim=d_shgnt_hyuga
 	}
 	1474.4.26={
 		death=yes
@@ -204,18 +234,18 @@
 10060009 = {
 	name=character_name_10060009 # Tomohisa
 	dynasty=10000600 # Shimazu
-	father=10060005 # Tadakuni
-	martial=4
-	diplomacy=5
-	intrigue=7
-	stewardship=5
-	learning=5
+	father=10060005
+	martial=8
+	diplomacy=8
+	intrigue=5
+	stewardship=6
+	learning=7
 	trait="education_intrigue_1"
 	trait="legitimized_bastard"
 	trait="callous"
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=11
+	prowess=12
 	1432.1.1={
 		birth=yes
 	}
@@ -228,6 +258,7 @@
 				opinion = 40
 			}
 		}
+		dynasty_house = "house_shgnt_shimazu_soshu"
 	}
 	1493.03.27 = {
 		death=yes
@@ -237,26 +268,27 @@
 	name=character_name_10060010 # Hisayasu
 	dynasty=10000600 # Shimazu
 	father=10060005
-	martial=4
-	diplomacy=5
-	intrigue=6
-	stewardship=7
-	learning=5
+	martial=8
+	diplomacy=7
+	intrigue=7
+	stewardship=8
+	learning=7
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=10
+	prowess=12
 	1441.1.1={
 		birth=yes
 	}
 	1459.1.8={
-		trait="child_of_adoption"
-		effect={
-			set_father=character:10060041
-			set_real_father=character:10060005
+		effect = {
+			set_father = character:10060041
+			set_real_father = character:10060005
+			add_trait = "child_of_adoption"
 		}
+		dynasty_house = "house_shgnt_shimazu_izaku"
 	}
-	1500.1.1={
+	1500.12.2={
 		death=yes
 	}
 }
@@ -264,11 +296,11 @@
 	name=character_name_10060011 # Tadamasa
 	dynasty=10000600 # Shimazu
 	father=10060008
-	martial=6
-	diplomacy=7
+	martial=7
+	diplomacy=9
 	intrigue=6
-	stewardship=6
-	learning=6
+	stewardship=8
+	learning=11
 	trait="education_stewardship_2"
 	trait="stressed"
 	religion="shinto"
@@ -278,6 +310,8 @@
 		birth=yes
 	}
 	1474.04.26 = {
+		add_pressed_claim=d_shgnt_hyuga
+		add_pressed_claim=d_shgnt_osumi
 		effect={
 			set_realm_capital=title:c_shgnt_kagoshima # Shimizu
 		}
@@ -290,11 +324,11 @@
 	name=character_name_10060012 # Tadaharu
 	dynasty=10000600 # Shimazu
 	father=10060011
-	martial=6
+	martial=7
 	diplomacy=6
 	intrigue=5
-	stewardship=7
-	learning=5
+	stewardship=6
+	learning=9
 	trait="education_stewardship_1"
 	trait="craven"
 	religion="shinto"
@@ -306,6 +340,10 @@
 	1506.1.1={
 		add_spouse=10060518
 	}
+	1508.3.16={
+		add_pressed_claim=d_shgnt_hyuga
+		add_pressed_claim=d_shgnt_osumi
+	}
 	1515.10.2={
 		death=yes
 	}
@@ -314,18 +352,22 @@
 	name=character_name_10060013 # Tadataka
 	dynasty=10000600 # Shimazu
 	father=10060011
-	martial=6
+	martial=7
 	diplomacy=6
-	intrigue=5
+	intrigue=6
 	stewardship=6
-	learning=6
+	learning=9
 	trait="education_stewardship_1"
 	trait="craven"
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=10
+	prowess=11
 	1497.9.11={
 		birth=yes
+	}
+	1515.10.2={
+		add_pressed_claim=d_shgnt_hyuga
+		add_pressed_claim=d_shgnt_osumi
 	}
 	1519.5.12={
 		death=yes
@@ -333,52 +375,55 @@
 }
 10060014 = {
 	name=character_name_10060014 # Kunihisa
-	dynasty=10000600 # Shimazu
+#	dynasty=10000600 # Shimazu
+	dynasty_house = "house_shgnt_shimazu_sasshu"
 	father=10060006
-	martial=7
-	diplomacy=5
-	intrigue=6
-	stewardship=7
+	martial=9
+	diplomacy=8
+	intrigue=5
+	stewardship=8
 	learning=7
 	trait="education_intrigue_2"
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=10
+	prowess=13
 	1441.1.1={
 		birth=yes
 	}
-	1499.1.1={
+	1498.8.16={
 		death=yes
 	}
 }
 10060015 = {
 	name=character_name_10060015 # Shigehisa
-	dynasty=10000600 # Shimazu
+#	dynasty=10000600 # Shimazu
+	dynasty_house = "house_shgnt_shimazu_sasshu"
 	father=10060014
-	martial=5
+	martial=9
 	diplomacy=6
-	intrigue=7
-	stewardship=6
-	learning=7
+	intrigue=6
+	stewardship=7
+	learning=6
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=10
+	prowess=13
 	1463.1.1={
 		birth=yes
 	}
-	1504.1.1={
+	1536.1.1={
 		death=yes
 	}
 }
 10060016 = {
 	name=character_name_10060016 # Tadaoki
-	dynasty=10000600 # Shimazu
+#	dynasty=10000600 # Shimazu
+	dynasty_house = "house_shgnt_shimazu_sasshu"
 	father=10060015
-	martial=6
+	martial=7
 	diplomacy=7
-	intrigue=5
-	stewardship=7
+	intrigue=7
+	stewardship=8
 	learning=6
 	trait="education_diplomacy_1"
 	religion="shinto"
@@ -387,75 +432,70 @@
 	1484.1.1={
 		birth=yes
 	}
-	1529.1.1={
+	1525.11.4={
 		death=yes
 	}
 }
 10060018 = {
 	name=character_name_10060018 # Tadakado
-	dynasty=10000600 # Shimazu
+#	dynasty=10000600 # Shimazu
+	dynasty_house = "house_shgnt_shimazu_hosshu"
 	father=10060007
-	martial=5
-	diplomacy=6
-	intrigue=6
-	stewardship=5
-	learning=4
+	martial=7
+	diplomacy=8
+	intrigue=7
+	stewardship=7
+	learning=10
 	trait="education_martial_2"
 	trait="poet"
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=12
+	prowess=15
 	1439.1.1={
 		birth=yes
 	}
-	1492.1.1={
+	1491.9.23={
 		death=yes
 	}
 }
 10060019 = {
 	name=character_name_10060019 # Tadahiro
-	dynasty=10000600 # Shimazu
+#	dynasty=10000600 # Shimazu
+	dynasty_house = "house_shgnt_shimazu_hosshu"
 	father=10060003
 	mother=10060265
-	martial=7
-	diplomacy=5
+	martial=8
+	diplomacy=7
 	intrigue=8
-	stewardship=6
-	learning=7
+	stewardship=8
+	learning=6
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=10
+	prowess=12
 	1482.1.1={
 		birth=yes
 	}
-	1551.1.1={
+	1551.6.23={
 		death=yes
 	}
 }
 10060020 = {
 	name=character_name_10060020 # Tadachika
-	dynasty=10000604 # Hongo
+#	dynasty=10000604 # Hongo
+	dynasty_house = "house_shgnt_shimazu_hongo"
 	father=10060250
-	martial=5
-	diplomacy=4
+	martial=7
+	diplomacy=8
 	intrigue=7
 	stewardship=7
-	learning=6
+	learning=8
 	trait="education_martial_2"
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=14
+	prowess=15
 	1512.1.1={
 		birth=yes
-	}
-	1546.1.1={
-		trait="child_of_adoption"
-		dynasty=10000604 # Shimazu
-		effect={
-			set_father=character:10060019
-			set_real_father=character:10060250
-		}
 	}
 	1571.7.4={
 		death=yes
@@ -463,13 +503,14 @@
 }
 10060021 = {
 	name=character_name_10060021 # Yukihisa
-	dynasty=10000600 # Shimazu
+#	dynasty=10000600 # Shimazu
+	dynasty_house = "house_shgnt_shimazu_soshu"
 	father=10060009 # Tomohisa
-	martial=6
-	diplomacy=6
-	intrigue=6
+	martial=8
+	diplomacy=7
+	intrigue=7
 	stewardship=6
-	learning=7
+	learning=6
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="southern_kyushu"
@@ -477,27 +518,25 @@
 	1468.1.1={
 		birth=yes
 	}
-	1494.1.1 = {
-		give_nickname="nick_sagami_no_kami"
-	}
 	1512.1.1={
 		employer=10060023
 	}
 	1526.1.1={
 		employer=10060000
 	}
-	1539.08.14={
+	1540.1.1={
 		death=yes
 	}
 }
 10060022 = {
 	name=character_name_10060022 # Yoshihisa
-	dynasty=10000600 # Shimazu
+#	dynasty=10000600 # Shimazu
+	dynasty_house = "house_shgnt_shimazu_izaku"
 	father=10060010
-	martial=5
+	martial=6
 	diplomacy=6
 	intrigue=6
-	stewardship=5
+	stewardship=7
 	learning=7
 	trait="education_martial_1"
 	religion="shinto"
@@ -512,20 +551,24 @@
 }
 10060023 = {
 	name=character_name_10060023 # Tadayoshi
-	dynasty=10000600 # Shimazu
+#	dynasty=10000600 # Shimazu
+	dynasty_house = "house_shgnt_shimazu_izaku"
 	father=10060022
-	martial=8
-	diplomacy=4
-	intrigue=7
-	stewardship=5
-	learning=6
-	trait="education_stewardship_3"
-	trait="scholar"
-	trait="intellect_good_2"
-	trait="just"
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=9
+	martial=9
+	diplomacy=11
+	intrigue=8
+	stewardship=4
+	learning=6
+	health=7
+	trait="education_stewardship_3"
+	trait="intellect_good_2"
+	trait="just"
+	trait="mystic_1"
+	trait="diligent"
+	trait="administrator"
+	prowess=13
 	1492.10.14={
 		birth=yes
 	}
@@ -535,21 +578,26 @@
 }
 10060024 = {
 	name=character_name_10060024 # Yoshihisa
-	dynasty=10000600 # Shimazu
+#	dynasty=10000600 # Shimazu
+	dynasty_house = "house_shgnt_shimazu_izaku"
 	father=10060000 # Shimazu Takahisa
-	martial=5
-	diplomacy=7
-	intrigue=6
-	stewardship=6
-	learning=7
-	trait="education_diplomacy_4"
-	trait="intellect_good_3"
-	trait="compassionate"
-	trait="arrogant"
-	trait="organizer"
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=11
+	diplomacy=8
+	martial=10
+	stewardship=12
+	intrigue=9
+	learning=6
+	health=7
+	trait="education_diplomacy_4"
+	trait="intellect_good_2"
+	trait="compassionate"
+	trait="temperate"
+	trait="mystic_1"
+	trait="diligent"
+	trait="poet"
+	trait="organizer"
+	prowess=14
 	1533.3.4={
 		birth=yes
 	}
@@ -557,20 +605,23 @@
 		give_nickname="nick_Saburozaemon"
 	}
 	1564.1.1={
-		trait="jugoi_ge"
 		give_nickname="nick_the_shuri_daibu"
-	}
-	1571.07.15 = {
-		effect={
-			set_realm_capital=title:c_shgnt_kagoshima # Uchi
+		effect = {
+			add_trait = "jugoi_ge"
 		}
+	}
+	1566.1.1={
+		add_pressed_claim=d_shgnt_hyuga
+		add_pressed_claim=d_shgnt_osumi
 	}
 	1576.1.1={
 		add_spouse=10060160
 	}
 	1581.5.3={
-		remove_trait="jugoi_ge"
-		trait="jushii_ge"
+		effect = {
+			remove_trait = "jugoi_ge"
+			add_trait = "jushii_ge"
+		}
 	}
 	1611.3.5={
 		death=yes
@@ -579,17 +630,18 @@
 10060025 = {
 	name=character_name_10060025 # Minami #Kimotsuki Kanetsugu's wife
 	female=yes
-	dynasty=10000600 # Shimazu
+#	dynasty=10000600 # Shimazu
+	dynasty_house = "house_shgnt_shimazu_izaku"
 	father=10060023
-	martial=4
-	diplomacy=7
+	martial=8
+	diplomacy=5
 	intrigue=6
-	stewardship=5
+	stewardship=7
 	learning=7
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=10
+	prowess=12
 	1514.1.1={
 		birth=yes
 	}
@@ -599,17 +651,18 @@
 }
 10060026 = {
 	name=character_name_10060026 # Tadamasa
-	dynasty=10000600 # Shimazu
+#	dynasty=10000600 # Shimazu
+	dynasty_house = "house_shgnt_shimazu_izaku"
 	father=10060023
-	martial=7
+	martial=8
 	diplomacy=7
-	intrigue=7
-	stewardship=6
-	learning=6
+	intrigue=9
+	stewardship=8
+	learning=9
 	trait="education_martial_2"
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=14
+	prowess=16
 	1520.1.1={
 		birth=yes
 	}
@@ -619,17 +672,18 @@
 }
 10060027 = {
 	name=character_name_10060027 # Naohisa
-	dynasty=10000600 # Shimazu
+#	dynasty=10000600 # Shimazu	
+	dynasty_house = "house_shgnt_shimazu_izaku"
 	father=10060023
-	martial=6
+	martial=7
 	diplomacy=7
-	intrigue=6
-	stewardship=5
-	learning=7
+	intrigue=8
+	stewardship=7
+	learning=9
 	trait="education_martial_2"
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=11
+	prowess=15
 	1531.2.2={
 		birth=yes
 	}
@@ -639,13 +693,14 @@
 }
 10060028 = {
 	name=character_name_10060028 # Yoshihisa
-	dynasty=10000600 # Shimazu
+#	dynasty=10000600 # Shimazu
+	dynasty_house = "house_shgnt_shimazu_hosshu"
 	father=10060019
-	martial=5
-	diplomacy=7
-	intrigue=4
-	stewardship=6
-	learning=5
+	martial=7
+	diplomacy=8
+	intrigue=6
+	stewardship=7
+	learning=6
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="southern_kyushu"
@@ -663,7 +718,6 @@
 	father=10060031
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=10
 	1328.5.21={
 		birth=yes
 	}
@@ -677,9 +731,11 @@
 	father=10060029
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=10
 	1363.7.1={
 		birth=yes
+	}
+	1394.1.1={
+		add_pressed_claim=d_shgnt_hyuga
 	}
 	1411.8.25={
 		death=yes
@@ -691,7 +747,6 @@
 	father=10060032
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=11
 	1269.5.10={
 		birth=yes
 	}
@@ -705,7 +760,6 @@
 	father=10060033
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=12
 	1251.1.1={
 		birth=yes
 	}
@@ -719,7 +773,6 @@
 	father=10060034
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=10
 	1225.1.1={
 		birth=yes
 	}
@@ -734,7 +787,6 @@
 	mother=12200075 # daughter of 2200060:Hatakeyama Shigetada
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=11
 	1202.1.1={
 		birth=yes
 	}
@@ -749,7 +801,6 @@
 	mother=12204337 # Tango no Naishi
 	religion="shinto"
 	culture="central_kinai"
-	prowess=10
 	1150.1.1={
 		birth=yes
 	}
@@ -772,8 +823,7 @@
 	father=10060033
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=12
-	1280.1.1={
+	1260.1.1={
 		birth=yes
 	}
 	1341.11.7={
@@ -786,8 +836,7 @@
 	father=10060036
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=11
-	1300.1.1={
+	1290.1.1={
 		birth=yes
 	}
 	1358.1.1={
@@ -800,7 +849,6 @@
 	father=10060037
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=11
 	1320.1.1={
 		birth=yes
 	}
@@ -814,7 +862,6 @@
 	father=10060038
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=10
 	1350.1.1={
 		birth=yes
 	}
@@ -828,7 +875,6 @@
 	father=10060039
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=10
 	1380.1.1={
 		birth=yes
 	}
@@ -842,7 +888,6 @@
 	father=10060040
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=11
 	1400.1.1={
 		birth=yes
 	}
@@ -856,7 +901,6 @@
 	father=10060041
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=10
 	1442.1.1={
 		birth=yes
 	}
@@ -870,7 +914,6 @@
 	father=10060002
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=9
 	1535.8.3={
 		birth=yes
 	}
@@ -880,20 +923,28 @@
 }
 10060045 = {
 	name=character_name_10060045 # Yoshihiro
-	dynasty=10000600 # Shimazu
+#	dynasty=10000600 # Shimazu
+	dynasty_house = "house_shgnt_shimazu_izaku"
 	father=10060000
-	martial=7
 	religion="shinto"
 	culture="southern_kyushu"
-	trait="education_martial_2"
-	trait="intellect_good_3"
+	diplomacy=8
+	martial=9
+	stewardship=6
+	intrigue=6
+	learning=6
+	health=8
+	trait="education_martial_4"
+	trait="intellect_good_2"
 	trait="brave"
 	trait="compassionate"
 	trait="generous"
-	trait="flexible_leader"
+	trait="inspiring_leader"
 	trait="poet"
 	trait="tea_master"
-	prowess=12
+	trait="honest"
+	trait="mystic_1"
+	prowess=21
 	1535.8.21={
 		birth=yes
 	}
@@ -912,14 +963,21 @@
 }
 10060046 = {
 	name=character_name_10060046 # Toshihisa
-	dynasty=10000600 # Shimazu
+#	dynasty=10000600 # Shimazu
+	dynasty_house = "house_shgnt_shimazu_izaku"
 	father=10060000
-	intrigue=7
 	religion="shinto"
 	culture="southern_kyushu"
-	trait="education_martial_2"
+	diplomacy=7
+	martial=8
+	stewardship=7
+	intrigue=13
+	learning=6
+	trait="education_martial_3"
 	trait="intellect_good_2"
-	prowess=12
+	trait="brave"
+	trait="poet"
+	prowess=18
 	1537.8.15={
 		birth=yes
 	}
@@ -932,19 +990,24 @@
 }
 10060047 = {
 	name=character_name_10060047 # Iehisa
-	dynasty=10000600 # Shimazu
+#	dynasty=10000600 # Shimazu
+	dynasty_house = "house_shgnt_shimazu_izaku"
 	father=10060000
-	martial=6
 	religion="shinto"
 	culture="southern_kyushu"
-	trait="education_martial_2"
+	diplomacy=5
+	martial=11
+	stewardship=5
+	intrigue=5
+	learning=3
+	trait="education_martial_3"
 	trait="intellect_good_2"
 	trait="strategist"
 	trait="brave"
 	trait="organizer"
 	trait="unyielding_defender"
 	trait="tea_master"
-	prowess=13
+	prowess=21
 	1547.1.1={
 		birth=yes
 	}
@@ -957,12 +1020,13 @@
 }
 10060048 = {
 	name=character_name_10060048 # Tomohisa
-	dynasty=10000604 # Hongo
+#	dynasty=10000604 # Hongo
+	dynasty_house = "house_shgnt_shimazu_hongo"
 	father=10060020
-	martial=7
+	martial=9
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=12
+	prowess=13
 	1550.1.1={
 		birth=yes
 	}
@@ -975,11 +1039,11 @@
 }
 10060049 = {
 	name=character_name_10060049 # Hisayasu
-	dynasty=10000600 # Shimazu
+#	dynasty=10000600 # Shimazu
+	dynasty_house = "house_shgnt_shimazu_izaku"
 	father=10060045
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=10
 	1573.1.1={
 		birth=yes
 	}
@@ -989,13 +1053,13 @@
 }
 10060050 = {
 	name=character_name_10060050 # Tadatsune
-	dynasty=10000600 # Shimazu
+#	dynasty=10000600 # Shimazu
+	dynasty_house = "house_shgnt_shimazu_izaku"
 	father=10060045
 	religion="shinto"
 	culture="southern_kyushu"
 	trait="impatient"
 	trait="sadistic"
-	prowess=9
 	1576.11.27={
 		birth=yes
 	}
@@ -1008,12 +1072,12 @@
 }
 10060051 = {
 	name=character_name_10060051 # Oyachi #Hongo Aihisa, Shimazu tomohisa 's wife
-	dynasty=10000600 # Shimazu
+#	dynasty=10000600 # Shimazu
+	dynasty_house = "house_shgnt_shimazu_izaku"
 	female=yes
 	father=10060045
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=9
 	1550.11.27={
 		birth=yes
 	}
@@ -1023,11 +1087,11 @@
 }
 10060052 = {
 	name=character_name_10060052 # Tadakiyo
-	dynasty=10000600 # Shimazu
+#	dynasty=10000600 # Shimazu
+	dynasty_house = "house_shgnt_shimazu_izaku"
 	father=10060045
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=12
 	1582.1.1={
 		birth=yes
 	}
@@ -1037,13 +1101,13 @@
 }
 10060053 = {
 	name=character_name_10060053 # Hira #Shimazu Yoshitora's wife
-	dynasty=10000600 # Shimazu
+#	dynasty=10000600 # Shimazu
+	dynasty_house = "house_shgnt_shimazu_izaku"
 	female=yes
 	father=10060024
 	trait="education_diplomacy_4"
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=10
 	1549.1.1={
 		birth=yes
 	}
@@ -1053,13 +1117,13 @@
 }
 10060054 = {
 	name=character_name_10060054 # Tama #Shimazu Akihisa's wife
-	dynasty=10000600 # Shimazu
+#	dynasty=10000600 # Shimazu
+	dynasty_house = "house_shgnt_shimazu_izaku"
 	female=yes
 	father=10060024
 	trait="education_diplomacy_4"
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=11
 	1565.1.1={
 		birth=yes
 	}
@@ -1069,14 +1133,14 @@
 }
 10060055 = {
 	name=character_name_10060055 # Kameju #Shimazu Tadatsune's wife
-	dynasty=10000600 # Shimazu
+#	dynasty=10000600 # Shimazu
+	dynasty_house = "house_shgnt_shimazu_izaku"
 	father=10060024
 	mother=10060160
 	female=yes
 	trait="education_diplomacy_4"
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=9
 	1577.1.1={
 		birth=yes
 	}
@@ -1086,12 +1150,12 @@
 }
 10060056 = {
 	name=character_name_10060056 # Yunoo #Shimazu Tadachika's wife
-	dynasty=10000600 # Shimazu
+#	dynasty=10000600 # Shimazu
+	dynasty_house = "house_shgnt_shimazu_izaku"
 	female=yes
 	father=10060046
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=10
 	1570.1.1={
 		birth=yes
 	}
@@ -1101,12 +1165,12 @@
 }
 10060057 = {
 	name=character_name_10060057 # Hanaya #Hongo Mitsuhisa's wife
-	dynasty=10000600 # Shimazu
+#	dynasty=10000600 # Shimazu
+	dynasty_house = "house_shgnt_shimazu_izaku"
 	female=yes
 	father=10060046
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=10
 	1575.1.1={
 		birth=yes
 	}
@@ -1116,12 +1180,12 @@
 }
 10060058 = {
 	name=character_name_10060058 # Sotetsu #Shimazu Hisanobu's wife
-	dynasty=10000600 # Shimazu
+#	dynasty=10000600 # Shimazu
+	dynasty_house = "house_shgnt_shimazu_izaku"
 	female=yes
 	father=10060047
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=10
 	1580.1.1={
 		birth=yes
 	}
@@ -1131,12 +1195,12 @@
 }
 10060059 = {
 	name=character_name_10060059 # Kohana #Nejime Shigeharu's wife
-	dynasty=10000600 # Shimazu
+#	dynasty=10000600 # Shimazu
+	dynasty_house = "house_shgnt_shimazu_izaku"
 	female=yes
 	father=10060047
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=12
 	1570.1.1={
 		birth=yes
 	}
@@ -1146,12 +1210,21 @@
 }
 10060060 = {
 	name=character_name_10060060 # Toyohisa
-	dynasty=10000600 # Shimazu
+#	dynasty=10000600 # Shimazu
+	dynasty_house = "house_shgnt_shimazu_izaku"
 	father=10060047
 	religion="shinto"
 	culture="southern_kyushu"
-	trait="beauty_good_2"
-	prowess=10
+	diplomacy=7
+	martial=10
+	stewardship=6
+	intrigue=5
+	learning=6
+	trait="education_martial_3"
+	trait="intellect_good_2"
+	trait="brave"
+	trait="beauty_good_3"
+	prowess=20
 	1570.6.1={
 		birth=yes
 	}
@@ -1161,11 +1234,11 @@
 }
 10060061 = {
 	name=character_name_10060061 # Tadanao
-	dynasty=10000600 # Shimazu
+#	dynasty=10000600 # Shimazu
+	dynasty_house = "house_shgnt_shimazu_izaku"
 	father=10060047
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=10
 	1574.1.1={
 		birth=yes
 	}
@@ -1175,12 +1248,12 @@
 }
 10060062 = {
 	name=character_name_10060062 # Hisaka
-	dynasty=10000604 # Hongo
+#	dynasty=10000604 # Hongo
+	dynasty_house = "house_shgnt_shimazu_hongo"
 	father=10060048
 	mother=10060051
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=12
 	1582.2.6={
 		birth=yes
 	}
@@ -1190,12 +1263,12 @@
 }
 10060063 = {
 	name=character_name_10060063 # Tadatoki
-	dynasty=10000600 # Shimazu
+#	dynasty=10000600 # Shimazu
+	dynasty_house = "house_shgnt_shimazu_sasshu"
 	father=10060079 # Shimazu Yoshitora
 	mother=10060053
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=11
 	1565.1.1={
 		birth=yes
 	}
@@ -1205,12 +1278,12 @@
 }
 10060064 = {
 	name=character_name_10060064 # Tadachika
-	dynasty=10000600 # Shimazu
+#	dynasty=10000600 # Shimazu
+	dynasty_house = "house_shgnt_shimazu_sasshu"
 	father=10060079 # Shimazu Yoshitora
 	mother=10060053
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=12
 	1569.1.1={
 		birth=yes
 	}
@@ -1223,12 +1296,12 @@
 }
 10060065 = {
 	name=character_name_10060065 # Tadakiyo
-	dynasty=10000600 # Shimazu
+#	dynasty=10000600 # Shimazu
+	dynasty_house = "house_shgnt_shimazu_sasshu"
 	father=10060079 # Shimazu Yoshitora
 	mother=10060053
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=10
 	1571.1.1={
 		birth=yes
 	}
@@ -1238,12 +1311,12 @@
 }
 10060066 = {
 	name=character_name_10060066 # Tadahide
-	dynasty=10000600 # Shimazu
+#	dynasty=10000600 # Shimazu
+	dynasty_house = "house_shgnt_shimazu_sasshu"
 	father=10060079 # Shimazu Yoshitora
 	mother=10060053
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=11
 	1573.1.1={
 		birth=yes
 	}
@@ -1253,12 +1326,12 @@
 }
 10060067 = {
 	name=character_name_10060067 # Tadatomi
-	dynasty=10000600 # Shimazu
+#	dynasty=10000600 # Shimazu
+	dynasty_house = "house_shgnt_shimazu_sasshu"
 	father=10060079 # Shimazu Yoshitora
 	mother=10060053
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=11
 	1579.1.1={
 		birth=yes
 	}
@@ -1274,7 +1347,6 @@
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=10
 	1410.1.1={
 		birth=yes
 	}
@@ -1284,13 +1356,14 @@
 }
 10060070={
 	name=character_name_10060070 # Sanehisa
-	dynasty=10000600 # Shimazu
+#	dynasty=10000600 # Shimazu
+	dynasty_house = "house_shgnt_shimazu_sasshu"
 	father=10060016 # Shimazu Tadaoki
-	martial=6
-	diplomacy=5
-	intrigue=7
+	martial=9
+	diplomacy=9
+	intrigue=4
 	stewardship=7
-	learning=5
+	learning=6
 	trait="education_intrigue_2"
 	trait="diligent"
 	trait="callous"
@@ -1310,17 +1383,18 @@
 10060071={
 	name=character_name_10060071 # Okiko
 	female=yes
-	dynasty=10000600 # Shimazu
+#	dynasty=10000600 # Shimazu
+	dynasty_house = "house_shgnt_shimazu_sasshu"
 	father=10060016
-	martial=6
-	diplomacy=5
-	intrigue=7
-	stewardship=6
-	learning=6
+	martial=5
+	diplomacy=7
+	intrigue=6
+	stewardship=7
+	learning=8
 	trait="education_stewardship_1"
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=10
+	prowess=9
 	1508.1.1={
 		birth=yes
 	}
@@ -1331,11 +1405,11 @@
 10060072={
 	female=yes
 	name=character_name_10060072 # Atsuko
-	dynasty=10000600 # Shimazu
+#	dynasty=10000600 # Shimazu
+	dynasty_house = "house_shgnt_shimazu_sasshu"
 	father=10060016 # Shimazu Tadaoki
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=10
 	1511.01.01={
 		birth=yes
 	}
@@ -1345,11 +1419,11 @@
 }
 10060073={
 	name=character_name_10060073 # Tadakane
-	dynasty=10000600 # Shimazu
+#	dynasty=10000600 # Shimazu
+	dynasty_house = "house_shgnt_shimazu_sasshu"
 	father=10060016 # Shimazu Tadaoki
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=11
 	1524.01.01={
 		birth=yes
 	}
@@ -1366,11 +1440,11 @@
 10060074={
 	female=yes
 	name=character_name_10060074 # Nariko
-	dynasty=10000600 # Shimazu
+#	dynasty=10000600 # Shimazu
+	dynasty_house = "house_shgnt_shimazu_sasshu"
 	father=10060016 # Shimazu Tadaoki
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=11
 	1512.01.01={
 		birth=yes
 	}
@@ -1381,11 +1455,11 @@
 10060075={
 	female=yes
 	name=character_name_10060075 # Noriko
-	dynasty=10000600 # Shimazu
+#	dynasty=10000600 # Shimazu
+	dynasty_house = "house_shgnt_shimazu_sasshu"
 	father=10060016 # Shimazu Tadaoki
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=10
 	1520.01.01={
 		birth=yes
 	}
@@ -1396,11 +1470,11 @@
 10060076={
 	female=yes
 	name=character_name_10060076 # Saneko
-	dynasty=10000600 # Shimazu
+#	dynasty=10000600 # Shimazu
+	dynasty_house = "house_shgnt_shimazu_sasshu"
 	father=10060070 # Shimazu Sanehisa
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=10
 	1530.01.01={
 		birth=yes
 	}
@@ -1411,11 +1485,11 @@
 10060077={
 	female=yes
 	name=character_name_10060077 # Tora
-	dynasty=10000600 # Shimazu
+#	dynasty=10000600 # Shimazu
+	dynasty_house = "house_shgnt_shimazu_sasshu"
 	father=10060070 # Shimazu Sanehisa
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=10
 	1533.01.01={
 		birth=yes
 	}
@@ -1425,11 +1499,18 @@
 }
 10060079={
 	name=character_name_10060079 # Yoshitora
-	dynasty=10000600 # Shimazu
+#	dynasty=10000600 # Shimazu
+	dynasty_house = "house_shgnt_shimazu_sasshu"
 	father=10060070 # Shimazu Sanehisa
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=10
+	diplomacy=8
+	martial=9
+	stewardship=8
+	intrigue=7
+	learning=6
+	trait="education_martial_2"
+	prowess=17
 	1536.5.20={
 		birth=yes
 	}
@@ -1446,20 +1527,99 @@
 		death=yes
 	}
 }
+10060080={
+	name=character_name_10060080 # Munehisa
+	dynasty=10000600 # Shimazu
+	father=10060031 # Shimazu Sadahisa
+	religion="shinto"
+	culture="southern_kyushu"
+	1322.1.1={
+		birth=yes
+	}
+	1340.5.21={
+		death=yes
+	}
+}
+10060081={
+	name=character_name_10060081 # Morohisa
+	dynasty=10000600 # Shimazu
+	father=10060031 # Shimazu Sadahisa
+	religion="shinto"
+	culture="southern_kyushu"
+	1325.9.23={
+		birth=yes
+	}
+	1376.4.10={
+		death=yes
+	}
+}
+10060082={
+	name=character_name_10060082 # Korehisa
+	dynasty=10000600 # Shimazu
+	father=10060081 # Shimazu Morohisa
+	religion="shinto"
+	culture="southern_kyushu"
+	1347.3.13={
+		birth=yes
+	}
+	1407.6.9={
+		death=yes
+	}
+}
+10060083={
+	name=character_name_10060083 # Morihisa
+	dynasty=10000600 # Shimazu
+	father=10060082 # Shimazu Korehisa
+	religion="shinto"
+	culture="southern_kyushu"
+	1370.1.1={
+		birth=yes
+	}
+	1430.1.1={
+		death=yes
+	}
+}
+10060084={
+	name=character_name_10060084 # Hisayo
+	dynasty=10000600 # Shimazu
+	father=10060083 # Shimazu Morihisa
+	religion="shinto"
+	culture="southern_kyushu"
+	1397.1.1={
+		birth=yes
+	}
+	1417.1.30={
+		death=yes
+	}
+}
+10060085={
+	name=character_name_10060085 # Hisamori
+	dynasty=10000600 # Shimazu
+	father=10060084 # Shimazu Hisayo
+	religion="shinto"
+	culture="southern_kyushu"
+	1413.1.1={
+		birth=yes
+	}
+	1430.11.16={
+		death=yes
+	}
+}
 10060100 = {
 	name=character_name_10060100 # Kanetsugu
 	dynasty=10000601 # Kimotsuki
 	father=10060102
-	martial=7
-	diplomacy=6
-	intrigue=7
-	stewardship=6
+	religion="shinto"
+	culture="southern_kyushu"
+	martial=5
+	diplomacy=9
+	intrigue=9
+	stewardship=8
 	learning=8
 	trait="education_martial_3"
 	trait="diligent"
-	religion="shinto"
-	culture="southern_kyushu"
-	prowess=12
+	trait="ambitious"
+	prowess=15
 	1511.1.1={
 		birth=yes
 	}
@@ -1485,25 +1645,20 @@
 	name=character_name_10060101 # Kanehisa
 	dynasty=10000601 # Kimotsuki
 	father=10060107
-	martial=4
+	martial=10
 	diplomacy=6
-	intrigue=5
+	intrigue=8
 	stewardship=7
-	learning=5
+	learning=7
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=10
+	prowess=14
 	1473.1.1={
 		birth=yes
 	}
 	1489.1.1={
 		give_nickname="nick_Saburoshiro"
-	}
-	1490.01.01 = {
-		effect={
-			set_realm_capital=title:c_shgnt_kimotsuki
-		}
 	}
 	1498.1.1={
 		give_nickname="nick_kawachi_no_kami"
@@ -1516,15 +1671,15 @@
 	name=character_name_10060102 # Kaneoki
 	dynasty=10000601 # Kimotsuki
 	father=10060101
-	martial=5
-	diplomacy=6
-	intrigue=6
-	stewardship=4
-	learning=8
+	martial=8
+	diplomacy=9
+	intrigue=7
+	stewardship=6
+	learning=7
 	trait="education_stewardship_2"
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=11
+	prowess=12
 	1492.1.1={
 		birth=yes
 	}
@@ -1551,11 +1706,11 @@
 	female=yes
 	dynasty=10000601 # Kimotsuki
 	father=10060102
-	martial=8
-	diplomacy=7
-	intrigue=7
-	stewardship=7
-	learning=5
+	martial=7
+	diplomacy=4
+	intrigue=6
+	stewardship=8
+	learning=8
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="southern_kyushu"
@@ -1574,7 +1729,9 @@
 	mother=10060025 # daughter of Shimazu Tadayoshi
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=11
+	martial=9
+	trait="education_martial_2"
+	prowess=17
 	1535.1.1={
 		birth=yes
 	}
@@ -1603,7 +1760,6 @@
 	father=10060100
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=11
 	1558.1.1={
 		birth=yes
 	}
@@ -1628,7 +1784,6 @@
 	father=10060100
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=10
 	1561.1.1={
 		birth=yes
 	}
@@ -1648,7 +1803,6 @@
 	father=10060108
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=11
 	1430.1.1={
 		birth=yes
 	}
@@ -1670,7 +1824,6 @@
 	father=10060109
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=11
 	1406.1.1={
 		birth=yes
 	}
@@ -1695,7 +1848,6 @@
 	father=10060110
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=11
 	1380.1.1={
 		birth=yes
 	}
@@ -1710,7 +1862,6 @@
 	mother=10060147
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=10
 	1340.1.1={
 		birth=yes
 	}
@@ -1725,7 +1876,6 @@
 	father=10060104
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=10
 	1552.1.1={
 		birth=yes
 	}
@@ -1740,7 +1890,6 @@
 	father=10060104
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=12
 	1557.1.1={
 		birth=yes
 	}
@@ -1754,7 +1903,6 @@
 	father=10060108
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=10
 	1440.1.1={
 		birth=yes
 	}
@@ -1768,11 +1916,10 @@
 	father=10060113
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=11
 	1470.1.1={
 		birth=yes
 	}
-	1500.1.1={
+	1520.1.1={
 		death=yes
 	}
 }
@@ -1782,7 +1929,6 @@
 	father=10060114
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=12
 	1498.1.1={
 		birth=yes
 	}
@@ -1800,7 +1946,6 @@
 	mother=10060211
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=10
 	1533.1.1={
 		birth=yes
 	}
@@ -1814,7 +1959,6 @@
 	father=10060116
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=9
 	1558.1.1={
 		birth=yes
 	}
@@ -1828,7 +1972,6 @@
 	father=10060116
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=10
 	1562.1.1={
 		birth=yes
 	}
@@ -1843,7 +1986,6 @@
 	father=10060116
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=10
 	1565.1.1={
 		birth=yes
 	}
@@ -1857,7 +1999,6 @@
 	father=12810640
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=10
 	1280.1.1={
 		birth=yes
 	}
@@ -1871,7 +2012,6 @@
 	father=12810640
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=11
 	1290.1.1={
 		birth=yes
 	}
@@ -1885,7 +2025,6 @@
 	father=10060144
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=9
 	1300.1.1={
 		birth=yes
 	}
@@ -1900,7 +2039,6 @@
 	female=yes
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=10
 	1310.1.1={
 		birth=yes
 	}
@@ -1914,7 +2052,6 @@
 	father=10060145
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=12
 	1310.1.1={
 		birth=yes
 	}
@@ -1930,15 +2067,15 @@
 	dynasty=10000602 # Tanegashima
 	father=10060151
 	mother=10060214
-	martial=6
-	diplomacy=6
-	intrigue=4
-	stewardship=8
-	learning=7
+	martial=10
+	diplomacy=7
+	intrigue=7
+	stewardship=9
+	learning=8
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=9
+	prowess=14
 	1503.1.1={
 		birth=yes
 	}
@@ -1956,15 +2093,15 @@
 	name=character_name_10060151 # Tadatoki
 	dynasty=10000602 # Tanegashima
 	father=10060153
-	martial=7
-	diplomacy=5
-	intrigue=5
-	stewardship=6
-	learning=5
+	martial=10
+	diplomacy=7
+	intrigue=7
+	stewardship=9
+	learning=8
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=10
+	prowess=14
 	1471.1.1={
 		birth=yes
 	}
@@ -1988,15 +2125,18 @@
 	name=character_name_10060152 # Tokitaka
 	dynasty=10000602 # Tanegashima
 	father=10060150
-	martial=6
-	diplomacy=4
-	intrigue=6
-	stewardship=6
-	learning=6
-	trait="education_stewardship_2"
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=10
+	martial=8
+	diplomacy=11
+	intrigue=9
+	stewardship=8
+	learning=9
+	trait="education_stewardship_2"
+	trait="shrewd"
+	trait="diligent"
+	trait="arquebusier_leader"
+	prowess=12
 	1528.1.1={
 		birth=yes
 	}
@@ -2010,7 +2150,9 @@
 		give_nickname="nick_ukonoe_shogen"
 	}
 	1565.1.1={
-		trait="jugoi_ge"
+		effect = {
+			add_trait = "jugoi_ge"
+		}
 	}
 	1579.10.21={
 		death=yes
@@ -2022,17 +2164,16 @@
 	father=10060154
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=11
-	1430.1.1={
+	1440.1.1={
 		birth=yes
 	}
-	1446.1.1={
+	1456.1.1={
 		give_nickname="nick_Saburojio"
 	}
 	1450.1.1={
 		give_nickname="nick_sakonoe_shogen"
 	}
-	1500.1.1={
+	1509.1.1={
 		death=yes
 	}
 }
@@ -2042,7 +2183,6 @@
 	father=10060156
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=11
 	1390.1.1={
 		birth=yes
 	}
@@ -2056,11 +2196,10 @@
 	father=10060156
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=10
 	1380.1.1={
 		birth=yes
 	}
-	1420.1.1={
+	1440.1.1={
 		death=yes
 	}
 }
@@ -2070,11 +2209,10 @@
 	father=10060165
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=11
 	1350.1.1={
 		birth=yes
 	}
-	1400.1.1={
+	1427.1.1={
 		death=yes
 	}
 }
@@ -2084,7 +2222,6 @@
 	father=10060152
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=10
 	1556.10.14={
 		birth=yes
 	}
@@ -2098,7 +2235,15 @@
 	father=10060152
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=10
+	diplomacy=10
+	martial=9
+	stewardship=8
+	intrigue=8
+	learning=7
+	trait="education_stewardship_2"
+	trait="diligent"
+	trait="arquebusier_leader"
+	prowess=13
 	1568.1.1={
 		birth=yes
 	}
@@ -2113,7 +2258,6 @@
 	father=10060152
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=10
 	1550.10.14={
 		birth=yes
 	}
@@ -2128,7 +2272,6 @@
 	father=10060152
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=11
 	1551.10.14={
 		birth=yes
 	}
@@ -2142,7 +2285,6 @@
 	father=10060150
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=11
 	1530.1.1={
 		birth=yes
 	}
@@ -2156,7 +2298,6 @@
 	father=10060151
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=11
 	1520.1.1={
 		birth=yes
 	}
@@ -2171,7 +2312,6 @@
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=11
 	1475.1.1={
 		birth=yes
 	}
@@ -2186,7 +2326,6 @@
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=11
 	1480.1.1={
 		birth=yes
 	}
@@ -2200,7 +2339,6 @@
 	father=10060166
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=11
 	1330.1.1={
 		birth=yes
 	}
@@ -2214,7 +2352,6 @@
 	father=10060167
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=11
 	1305.1.1={
 		birth=yes
 	}
@@ -2228,7 +2365,6 @@
 	father=10060169
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=10
 	1280.1.1={
 		birth=yes
 	}
@@ -2242,7 +2378,6 @@
 	father=10060169
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=12
 	1290.1.1={
 		birth=yes
 	}
@@ -2256,7 +2391,6 @@
 	father=10060170
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=11
 	1250.1.1={
 		birth=yes
 	}
@@ -2270,7 +2404,6 @@
 	father=10060171
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=9
 	1220.1.1={
 		birth=yes
 	}
@@ -2284,24 +2417,23 @@
 	father=10060172
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=10
-	1190.1.1={
+	1200.1.1={
 		birth=yes
 	}
-	1250.1.1={
+	1260.1.1={
 		death=yes
 	}
 }
 10060172 = {
 	name=character_name_10060172 # Tokinobu
 	dynasty=10000605 # Higo
+	father=11003405 # Yoshida Tokitsune
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=11
-	1160.1.1={
+	1180.1.1={
 		birth=yes
 	}
-	1220.1.1={
+	1240.1.1={
 		death=yes
 	}
 }
@@ -2310,15 +2442,15 @@
 	dynasty=10000602 # Tanegashima
 	father=10060151
 	mother=10060214
-	martial=7
-	diplomacy=5
-	intrigue=6
-	stewardship=5
-	learning=5
-	trait="education_martial_2"
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=12
+	diplomacy=9
+	martial=9
+	stewardship=7
+	intrigue=9
+	learning=5
+	trait="education_martial_2"
+	prowess=17
 	1505.1.1={
 		birth=yes
 	}
@@ -2334,15 +2466,15 @@
 	name=character_name_10060201 # Mitsukiyo
 	dynasty=10000603 # Gamo
 	father=10060204
-	martial=4
-	diplomacy=8
-	intrigue=6
-	stewardship=5
+	martial=9
+	diplomacy=6
+	intrigue=8
+	stewardship=7
 	learning=7
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=10
+	prowess=13
 	1475.1.1={
 		birth=yes
 	}
@@ -2355,11 +2487,11 @@
 	female=yes
 	dynasty=10000603 # Gamo
 	father=10060201
-	martial=6
+	martial=7
 	diplomacy=6
 	intrigue=6
 	stewardship=6
-	learning=7
+	learning=5
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="southern_kyushu"
@@ -2377,13 +2509,13 @@
 	father=10060201
 	martial=6
 	diplomacy=7
-	intrigue=7
+	intrigue=6
 	stewardship=6
-	learning=7
+	learning=5
 	trait="education_martial_1"
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=10
+	prowess=12
 	1520.1.1={
 		birth=yes
 	}
@@ -2397,7 +2529,6 @@
 	father=10060205
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=10
 	1450.1.1={
 		birth=yes
 	}
@@ -2411,7 +2542,6 @@
 	father=10060206
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=10
 	1423.1.1={
 		birth=yes
 	}
@@ -2425,7 +2555,6 @@
 	father=10060207
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=9
 	1390.1.1={
 		birth=yes
 	}
@@ -2439,7 +2568,6 @@
 	father=10060215
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=11
 	1350.1.1={
 		birth=yes
 	}
@@ -2454,7 +2582,13 @@
 	mother=10060202
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=9
+	diplomacy=8
+	martial=10
+	stewardship=7
+	intrigue=9
+	learning=5
+	trait="education_martial_2"
+	prowess=18
 	1530.1.1={
 		birth=yes
 	}
@@ -2468,7 +2602,6 @@
 	father=10060208
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=12
 	1560.1.1={
 		birth=yes
 	}
@@ -2483,7 +2616,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=11
 	1480.1.1={
 		birth=yes
 	}
@@ -2499,7 +2631,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=9
 	1500.1.1={
 		birth=yes
 	}
@@ -2514,7 +2645,6 @@
 	trait="education_martial_1"
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=11
 	1550.1.1={
 		birth=yes
 	}
@@ -2529,7 +2659,6 @@
 	trait="education_martial_1"
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=11
 	1555.1.1={
 		birth=yes
 	}
@@ -2545,7 +2674,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=9
 	1480.1.1={
 		birth=yes
 	}
@@ -2559,7 +2687,6 @@
 	father=10060222
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=10
 	1320.1.1={
 		birth=yes
 	}
@@ -2573,7 +2700,6 @@
 	father=10060207
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=11
 	1395.1.1={
 		birth=yes
 	}
@@ -2587,7 +2713,6 @@
 	father=10060222
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=10
 	1325.1.1={
 		birth=yes
 	}
@@ -2601,7 +2726,6 @@
 	father=10060222
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=10
 	1330.1.1={
 		birth=yes
 	}
@@ -2615,7 +2739,6 @@
 	father=10060222
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=10
 	1335.1.1={
 		birth=yes
 	}
@@ -2629,7 +2752,6 @@
 	father=10060222
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=11
 	1340.1.1={
 		birth=yes
 	}
@@ -2643,7 +2765,6 @@
 	father=10060222
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=10
 	1345.1.1={
 		birth=yes
 	}
@@ -2657,7 +2778,6 @@
 	father=10060223
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=12
 	1300.1.1={
 		birth=yes
 	}
@@ -2671,7 +2791,6 @@
 	father=10060224
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=9
 	1270.1.1={
 		birth=yes
 	}
@@ -2685,7 +2804,6 @@
 	father=10060226
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=10
 	1240.1.1={
 		birth=yes
 	}
@@ -2699,7 +2817,6 @@
 	father=10060226
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=10
 	1250.1.1={
 		birth=yes
 	}
@@ -2713,7 +2830,6 @@
 	father=10060229
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=11
 	1220.1.1={
 		birth=yes
 	}
@@ -2727,7 +2843,6 @@
 	father=10060229
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=10
 	1215.1.1={
 		birth=yes
 	}
@@ -2741,7 +2856,6 @@
 	father=10060229
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=10
 	1210.1.1={
 		birth=yes
 	}
@@ -2755,7 +2869,6 @@
 	father=10060231
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=10
 	1190.1.1={
 		birth=yes
 	}
@@ -2769,7 +2882,6 @@
 	father=10060231
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=11
 	1195.1.1={
 		birth=yes
 	}
@@ -2783,7 +2895,6 @@
 	father=10060236
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=12
 	1165.1.1={
 		birth=yes
 	}
@@ -2797,7 +2908,6 @@
 	father=10060236
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=9
 	1170.1.1={
 		birth=yes
 	}
@@ -2811,7 +2921,6 @@
 	father=10060236
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=11
 	1175.1.1={
 		birth=yes
 	}
@@ -2825,7 +2934,6 @@
 	father=10060236
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=12
 	1170.1.1={
 		birth=yes
 	}
@@ -2839,7 +2947,6 @@
 	father=10060236
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=12
 	1175.1.1={
 		birth=yes
 	}
@@ -2853,7 +2960,6 @@
 	father=10060240
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=10
 	1130.1.1={
 		birth=yes
 	}
@@ -2867,7 +2973,6 @@
 	father=10060240
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=12
 	1127.1.1={
 		birth=yes
 	}
@@ -2881,7 +2986,6 @@
 	father=10060240
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=11
 	1135.1.1={
 		birth=yes
 	}
@@ -2895,7 +2999,6 @@
 	father=10060240
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=11
 	1140.1.1={
 		birth=yes
 	}
@@ -2908,7 +3011,6 @@
 	dynasty=10000603 # Gamo
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=11
 	1100.1.1={
 		birth=yes
 	}
@@ -2918,18 +3020,19 @@
 }
 10060250 = {
 	name=character_name_10060250 # Tadasuke
-	dynasty=10000604 # Hongo
+#	dynasty=10000604 # Hongo
+	dynasty_house = "house_shgnt_shimazu_hongo"
 	father=10060251
-	martial=5
-	diplomacy=5
-	intrigue=7
-	stewardship=5
+	martial=10
+	diplomacy=9
+	intrigue=6
+	stewardship=7
 	learning=7
 	trait="education_intrigue_2"
 	trait="diligent"
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=12
+	prowess=16
 	1487.1.1={
 		birth=yes
 	}
@@ -2939,17 +3042,18 @@
 }
 10060251 = {
 	name=character_name_10060251 # Kazuhisa
-	dynasty=10000604 # Hongo
+#	dynasty=10000604 # Hongo
+	dynasty_house = "house_shgnt_shimazu_hongo"
 	father=10060253
-	martial=5
-	diplomacy=6
+	martial=10
+	diplomacy=5
 	intrigue=7
-	stewardship=5
-	learning=6
+	stewardship=8
+	learning=7
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=10
+	prowess=14
 	1468.1.1={
 		birth=yes
 	}
@@ -2959,26 +3063,20 @@
 }
 10060252 = {
 	name=character_name_10060252 # Tokihisa
-	dynasty=10000604 # Hongo
+#	dynasty=10000604 # Hongo
+	dynasty_house = "house_shgnt_shimazu_hongo"
 	father=10060020
-	martial=5
-	diplomacy=6
+	martial=9
+	diplomacy=7
 	intrigue=6
-	stewardship=5
-	learning=5
+	stewardship=8
+	learning=8
 	trait="education_intrigue_2"
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=12
+	prowess=13
 	1530.1.1={
 		birth=yes
-	}
-	1546.1.1={
-		trait="child_of_adoption"
-		effect={
-			set_father=character:10060250
-			set_real_father=character:10060020
-		}
 	}
 	1596.3.1={
 		death=yes
@@ -2986,95 +3084,95 @@
 }
 10060253 = {
 	name=character_name_10060253 # Yoshihisa
-	dynasty=10000604 # Hongo
+#	dynasty=10000604 # Hongo
+	dynasty_house = "house_shgnt_shimazu_hongo"
 	father=10060254
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=9
-	1440.1.1={
+	1360.1.1={
+		birth=yes
+	}
+	1394.4.7={
+		death=yes
+	}
+}
+10060254 = {
+	name=character_name_10060254 # Toshihisa
+#	dynasty=10000604 # Hongo
+	dynasty_house = "house_shgnt_shimazu_hongo"
+	father=10060255
+	religion="shinto"
+	culture="southern_kyushu"
+	1430.1.1={
 		birth=yes
 	}
 	1500.1.1={
 		death=yes
 	}
 }
-10060254 = {
-	name=character_name_10060254 # Toshihisa
-	dynasty=10000604 # Hongo
-	father=10060255
-	religion="shinto"
-	culture="southern_kyushu"
-	prowess=11
-	1410.1.1={
-		birth=yes
-	}
-	1480.1.1={
-		death=yes
-	}
-}
 10060255 = {
 	name=character_name_10060255 # Mochihisa
-	dynasty=10000604 # Hongo
+#	dynasty=10000604 # Hongo
+	dynasty_house = "house_shgnt_shimazu_hongo"
 	father=10060256
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=11
-	1390.1.1={
+	1409.1.1={
 		birth=yes
 	}
-	1450.1.1={
+	1470.1.1={
 		death=yes
 	}
 }
 10060256 = {
 	name=character_name_10060256 # Tomohisa
-	dynasty=10000604 # Hongo
+#	dynasty=10000604 # Hongo
+	dynasty_house = "house_shgnt_shimazu_hongo"
 	father=10060257
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=11
-	1350.1.1={
+	1370.1.1={
 		birth=yes
 	}
-	1410.1.1={
+	1420.1.1={
 		death=yes
 	}
 }
 10060257 = {
 	name=character_name_10060257 # Yoshihisa
-	dynasty=10000604 # Hongo
+#	dynasty=10000604 # Hongo
+	dynasty_house = "house_shgnt_shimazu_hongo"
 	father=10060258
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=10
-	1310.1.1={
+	1330.1.1={
 		birth=yes
 	}
-	1370.1.1={
+	1402.1.1={
 		death=yes
 	}
 }
 10060258 = {
 	name=character_name_10060258 # Suketada
-	dynasty=10000604 # Hongo
+#	dynasty=10000604 # Hongo
+	dynasty_house = "house_shgnt_shimazu_hongo"
 	father=10060032 # Shimazu Tadamune
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=10
 	1290.1.1={
 		birth=yes
 	}
-	1360.1.1={
+	1359.10.13={
 		death=yes
 	}
 }
 10060259 = {
 	name=character_name_10060259 # Sukehisa
-	dynasty=10000604 # Hongo
+#	dynasty=10000604 # Hongo
+	dynasty_house = "house_shgnt_shimazu_hongo"
 	father=10060252
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=11
 	1554.1.1={
 		birth=yes
 	}
@@ -3084,11 +3182,11 @@
 }
 10060260 = {
 	name=character_name_10060260 # Tadatora
-	dynasty=10000604 # Hongo
+#	dynasty=10000604 # Hongo
+	dynasty_house = "house_shgnt_shimazu_hongo"
 	father=10060252
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=11
 	1556.1.1={
 		birth=yes
 	}
@@ -3098,11 +3196,11 @@
 }
 10060261 = {
 	name=character_name_10060261 # Mitsuhisa
-	dynasty=10000604 # Hongo
+#	dynasty=10000604 # Hongo
+	dynasty_house = "house_shgnt_shimazu_hongo"
 	father=10060252
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=9
 	1573.1.1={
 		birth=yes
 	}
@@ -3115,12 +3213,12 @@
 }
 10060262 = {
 	name=character_name_10060262 # Ikegami #Shimazu Mochihisa's wife
-	dynasty=10000604 # Hongo
+#	dynasty=10000604 # Hongo
+	dynasty_house = "house_shgnt_shimazu_hongo"
 	female=yes
 	father=10060252
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=10
 	1550.1.1={
 		birth=yes
 	}
@@ -3130,12 +3228,12 @@
 }
 10060263 = {
 	name=character_name_10060263 # Yuiko #Hishishima Yoshitomo's wife
-	dynasty=10000604 # Hongo
+#	dynasty=10000604 # Hongo
+	dynasty_house = "house_shgnt_shimazu_hongo"
 	female=yes
 	father=10060252
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=10
 	1570.1.1={
 		birth=yes
 	}
@@ -3145,12 +3243,12 @@
 }
 10060264 = {
 	name=character_name_10060264 # Sakurako #Ito Sukemitsu's wife
-	dynasty=10000604 # Hongo
+#	dynasty=10000604 # Hongo
+	dynasty_house = "house_shgnt_shimazu_hongo"
 	female=yes
 	father=10060250
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=11
 	1510.1.1={
 		birth=yes
 	}
@@ -3160,12 +3258,12 @@
 }
 10060265 = {
 	name=character_name_10060265 # Tadako #Shimazu Tadatomo's wife
-	dynasty=10000604 # Hongo
+#	dynasty=10000604 # Hongo
+	dynasty_house = "house_shgnt_shimazu_hongo"
 	female=yes
-	father=10060253
+	father=10060254
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=9
 	1467.1.1={
 		birth=yes
 	}
@@ -3177,16 +3275,16 @@
 	name=character_name_10060500 # Sukeyoshi
 	dynasty=10000610 # Ito
 	father=10060501
-	martial=6
+	martial=7
 	diplomacy=7
-	intrigue=4
-	stewardship=7
-	learning=5
+	intrigue=6
+	stewardship=6
+	learning=7
 	trait="education_diplomacy_1"
 	trait="weak"
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=10
+	prowess=11
 	1517.1.1={
 		birth=yes
 	}
@@ -3198,15 +3296,15 @@
 	name=character_name_10060501 # Tadasuke
 	dynasty=10000610 # Ito
 	father=10060506 # Ito Sukekuni
-	martial=7
+	martial=11
 	diplomacy=6
-	intrigue=6
-	stewardship=7
-	learning=6
+	intrigue=8
+	stewardship=8
+	learning=7
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=11
+	prowess=15
 	1468.1.1={
 		birth=yes
 	}
@@ -3224,16 +3322,16 @@
 	name=character_name_10060502 # Sukemitsu
 	dynasty=10000610 # Ito
 	father=10060501
-	martial=4
+	martial=8
 	diplomacy=5
-	intrigue=4
+	intrigue=6
 	stewardship=5
 	learning=6
 	trait="education_diplomacy_1"
 	trait="weak"
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=10
+	prowess=12
 	1510.1.1={
 		birth=yes
 	}
@@ -3254,26 +3352,43 @@
 	name=character_name_10060503 # Yoshisuke
 	dynasty=10000610 # Ito
 	father=10060501
-	martial=7
-	diplomacy=5
-	intrigue=5
-	stewardship=8
-	learning=6
-	trait="education_martial_3"
-	trait="arrogant"
-	trait="zealous"
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=14
+	diplomacy=10
+	martial=6
+	stewardship=6
+	intrigue=9
+	learning=7
+	health=7
+	trait="education_martial_3"
+	trait="generous"
+	trait="greedy"
+	trait="gluttonous"
+	trait="arrogant"
+	trait="ambitious"
+	prowess=16
 	1512.1.1={
 		birth=yes
 	}
+	1536.6.26={
+		give_nickname="nick_shuri_daibu"
+	}
 	1537.1.1={
-		trait="jushii_ge"
+		effect = {
+			add_trait = "jushii_ge"
+		}
+	}
+	1541.1.1={
+		give_nickname="nick_daizen_daihu"
 	}
 	1546.1.1={
-		remove_trait="jushii_ge"
-		trait="jusanmi"
+		effect = {
+			remove_trait = "jushii_ge"
+			add_trait = "jusanmi"
+		}
+	}
+	1550.1.1={
+		add_spouse=10061101
 	}
 	1585.8.29={
 		death=yes
@@ -3285,14 +3400,24 @@
 	father=10060503
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=11
+	diplomacy=9
+	martial=8
+	stewardship=7
+	intrigue=7
+	learning=7
+	trait="education_martial_3"
+	trait="content"
+	trait="compassionate"
+	prowess=18
 	1546.1.1={
 		birth=yes
 	}
 	1562.1.1={
-		trait="jushii_ge"
 		add_spouse=10058109
 		give_nickname="nick_rokuro"
+		effect = {
+			add_trait = "jushii_ge"
+		}
 	}
 	1566.1.1={
 		give_nickname="nick_sakyo_dayu"
@@ -3305,9 +3430,17 @@
 	name=character_name_10060505 # Suketaka
 	dynasty=10000610 # Ito
 	father=10060503
+	mother=10061101
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=12
+	diplomacy=8
+	martial=8
+	stewardship=7
+	intrigue=7
+	learning=5
+	trait="education_martial_3"
+	trait="patient"
+	prowess=18
 	1559.2.22={
 		birth=yes
 	}
@@ -3324,7 +3457,6 @@
 	father=10060507
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=11
 	1450.1.1={
 		birth=yes
 	}
@@ -3341,7 +3473,6 @@
 	father=10060508
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=10
 	1409.1.1={
 		birth=yes
 	}
@@ -3358,7 +3489,6 @@
 	father=10060509
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=12
 	1385.1.1={
 		birth=yes
 	}
@@ -3372,7 +3502,6 @@
 	father=10060534
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=10
 	1350.1.1={
 		birth=yes
 	}
@@ -3387,7 +3516,6 @@
 	female=yes
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=12
 	1535.1.1={
 		birth=yes
 	}
@@ -3402,7 +3530,6 @@
 	female=yes
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=11
 	1540.1.1={
 		birth=yes
 	}
@@ -3417,7 +3544,6 @@
 	female=yes
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=11
 	1548.1.1={
 		birth=yes
 	}
@@ -3432,7 +3558,6 @@
 	female=yes
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=11
 	1555.1.1={
 		birth=yes
 	}
@@ -3447,11 +3572,11 @@
 	mother=10058109
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=11
 	1567.10.16={
 		birth=yes
 	}
 	1578.1.1={
+		religion="catholic"
 		give_nickname="nick_catholic_bartholomew"
 	}
 	1587.1.1={
@@ -3468,11 +3593,11 @@
 	mother=10058109
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=11
 	1570.1.1={
 		birth=yes
 	}
 	1580.1.1={
+		religion="catholic"
 		give_nickname="nick_catholic_geronimo"
 	}
 	1593.7.12={
@@ -3487,7 +3612,6 @@
 	mother=10058109
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=12
 	1566.1.1={
 		birth=yes
 	}
@@ -3503,7 +3627,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=10
 	1510.1.1={
 		birth=yes
 	}
@@ -3519,7 +3642,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=10
 	1490.1.1={
 		birth=yes
 	}
@@ -3534,7 +3656,6 @@
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=10
 	1470.1.1={
 		birth=yes
 	}
@@ -3549,7 +3670,6 @@
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=11
 	1475.1.1={
 		birth=yes
 	}
@@ -3567,7 +3687,6 @@
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=11
 	1500.1.1={
 		birth=yes
 	}
@@ -3582,7 +3701,6 @@
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=10
 	1530.1.1={
 		birth=yes
 	}
@@ -3597,7 +3715,6 @@
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=11
 	1550.1.1={
 		birth=yes
 	}
@@ -3615,7 +3732,6 @@
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=11
 	1515.1.1={
 		birth=yes
 	}
@@ -3630,7 +3746,6 @@
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=12
 	1520.1.1={
 		birth=yes
 	}
@@ -3645,7 +3760,6 @@
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=10
 	1550.1.1={
 		birth=yes
 	}
@@ -3661,7 +3775,6 @@
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=10
 	1469.1.1={
 		birth=yes
 	}
@@ -3677,7 +3790,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=11
 	1504.1.1={
 		birth=yes
 	}
@@ -3691,7 +3803,6 @@
 	father=10060507
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=11
 	1465.1.1={
 		birth=yes
 	}
@@ -3706,7 +3817,6 @@
 	father=10060507
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=10
 	1440.1.1={
 		birth=yes
 	}
@@ -3720,7 +3830,6 @@
 	father=10060529
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=10
 	1505.1.1={
 		birth=yes
 	}
@@ -3734,7 +3843,6 @@
 	father=10060531
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=10
 	1540.1.1={
 		birth=yes
 	}
@@ -3752,13 +3860,18 @@
 	mother=10060512
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=10
+	learning=9
+	trait="education_learning_4"
+	trait="intellect_good_2"
 	1569.1.1={
 		birth=yes
 	}
 	1577.1.1={
+		religion="catholic"
 		give_nickname="nick_catholic_mancio"
-		trait="zealous"
+		effect = {
+			add_trait = "zealous"
+		}
 	}
 	1612.11.13={
 		death=yes
@@ -3770,7 +3883,6 @@
 	father=10060535
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=12
 	1320.1.1={
 		birth=yes
 	}
@@ -3784,7 +3896,6 @@
 	father=10060536
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=12
 	1290.1.1={
 		birth=yes
 	}
@@ -3798,7 +3909,6 @@
 	father=10060537
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=11
 	1260.1.1={
 		birth=yes
 	}
@@ -3812,7 +3922,6 @@
 	father=10060538
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=11
 	1240.1.1={
 		birth=yes
 	}
@@ -3826,7 +3935,6 @@
 	father=10130080 #Ito Suketoki
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=11
 	1215.1.1={
 		birth=yes
 	}
@@ -3838,15 +3946,15 @@
 	name=character_name_10060750 # Chikasuke
 	dynasty=10000615 # Tsuchimochi
 	father=10060751
-	martial=4
-	diplomacy=6
-	intrigue=6
-	stewardship=5
-	learning=5
+	martial=6
+	diplomacy=8
+	intrigue=8
+	stewardship=6
+	learning=7
 	trait="education_martial_2"
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=12
+	prowess=14
 	1497.1.1={
 		birth=yes
 	}
@@ -3864,11 +3972,11 @@
 	name=character_name_10060751 # Chikahide
 	dynasty=10000615 # Tsuchimochi
 	father=10060753
-	martial=4
+	martial=7
 	diplomacy=7
-	intrigue=7
-	stewardship=5
-	learning=4
+	intrigue=6
+	stewardship=8
+	learning=6
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="southern_kyushu"
@@ -3890,15 +3998,15 @@
 	name=character_name_10060752 # Chikashige
 	dynasty=10000615 # Tsuchimochi
 	father=10060750
-	martial=5
-	diplomacy=7
-	intrigue=5
-	stewardship=6
-	learning=5
+	martial=8
+	diplomacy=9
+	intrigue=9
+	stewardship=8
+	learning=9
 	trait="education_martial_2"
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=11
+	prowess=16
 	1523.1.1={
 		birth=yes
 	}
@@ -3921,7 +4029,6 @@
 	father=10060754
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=10
 	1440.1.1={
 		birth=yes
 	}
@@ -3935,7 +4042,6 @@
 	father=10060755
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=10
 	1410.1.1={
 		birth=yes
 	}
@@ -3949,7 +4055,6 @@
 	father=10060756
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=11
 	1380.1.1={
 		birth=yes
 	}
@@ -3963,7 +4068,6 @@
 	father=10060764
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=10
 	1350.1.1={
 		birth=yes
 	}
@@ -3978,7 +4082,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=10
 	1475.1.1={
 		birth=yes
 	}
@@ -3993,7 +4096,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=11
 	1505.1.1={
 		birth=yes
 	}
@@ -4008,7 +4110,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=11
 	1525.1.1={
 		birth=yes
 	}
@@ -4023,7 +4124,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=12
 	1558.1.1={
 		birth=yes
 	}
@@ -4039,7 +4139,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=10
 	1565.1.1={
 		birth=yes
 	}
@@ -4054,7 +4153,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=10
 	1577.1.1={
 		birth=yes
 	}
@@ -4069,7 +4167,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=11
 	1581.1.1={
 		birth=yes
 	}
@@ -4083,7 +4180,6 @@
 	father=10060765
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=11
 	1320.1.1={
 		birth=yes
 	}
@@ -4097,7 +4193,6 @@
 	father=10060766
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=11
 	1300.1.1={
 		birth=yes
 	}
@@ -4111,7 +4206,6 @@
 	father=12810745
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=9
 	1285.1.1={
 		birth=yes
 	}
@@ -4121,18 +4215,21 @@
 }
 10060800 = {
 	name=character_name_10060800 # Tadaaki
-	dynasty=10000606 # Ijuin
+#	dynasty=10000606 # Ijuin
+	dynasty_house = "house_shgnt_shimazu_ijuin"
 	father=10060813
-	martial=7
+	religion="shinto"
+	culture="southern_kyushu"
+	martial=8
 	diplomacy=7
-	intrigue=5
-	stewardship=7
+	intrigue=9
+	stewardship=8
 	learning=6
 	trait="education_martial_2"
 	trait="intellect_good_2"
-	religion="shinto"
-	culture="southern_kyushu"
-	prowess=11
+	trait="strategist"
+	trait="shrewd"
+	prowess=16
 	1500.1.1={
 		birth=yes
 	}
@@ -4146,6 +4243,13 @@
 	father=10060800
 	religion="shinto"
 	culture="southern_kyushu"
+	diplomacy=7
+	martial=8
+	stewardship=8
+	intrigue=9
+	learning=6
+	trait="education_diplomacy_3"
+	trait="intellect_good_2"
 	prowess=12
 	1520.1.1={
 		birth=yes
@@ -4160,7 +4264,6 @@
 	father=10060034
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=11
 	1235.1.1={
 		birth=yes
 	}
@@ -4170,11 +4273,11 @@
 }
 10060803 = {
 	name=character_name_10060803 # Toshitada
-	dynasty=10000606 # Ijuin
+#	dynasty=10000606 # Ijuin
+	dynasty_house = "house_shgnt_shimazu_ijuin"
 	father=10060802
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=11
 	1251.1.1={
 		birth=yes
 	}
@@ -4184,11 +4287,11 @@
 }
 10060804 = {
 	name=character_name_10060804 # Hisakane
-	dynasty=10000606 # Ijuin
+#	dynasty=10000606 # Ijuin
+	dynasty_house = "house_shgnt_shimazu_ijuin"
 	father=10060803
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=11
 	1267.1.1={
 		birth=yes
 	}
@@ -4198,11 +4301,11 @@
 }
 10060805 = {
 	name=character_name_10060805 # Hisachika
-	dynasty=10000606 # Ijuin
+#	dynasty=10000606 # Ijuin
+	dynasty_house = "house_shgnt_shimazu_ijuin"
 	father=10060804
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=11
 	1283.1.1={
 		birth=yes
 	}
@@ -4212,11 +4315,11 @@
 }
 10060806 = {
 	name=character_name_10060806 # Tadachika
-	dynasty=10000606 # Ijuin
+#	dynasty=10000606 # Ijuin
+	dynasty_house = "house_shgnt_shimazu_ijuin"
 	father=10060805
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=11
 	1299.1.1={
 		birth=yes
 	}
@@ -4226,11 +4329,11 @@
 }
 10060807 = {
 	name=character_name_10060807 # Tadakuni
-	dynasty=10000606 # Ijuin
+#	dynasty=10000606 # Ijuin
+	dynasty_house = "house_shgnt_shimazu_ijuin"
 	father=10060806
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=11
 	1315.1.1={
 		birth=yes
 	}
@@ -4240,11 +4343,11 @@
 }
 10060808 = {
 	name=character_name_10060808 # Hisauji
-	dynasty=10000606 # Ijuin
+#	dynasty=10000606 # Ijuin
+	dynasty_house = "house_shgnt_shimazu_ijuin"
 	father=10060807
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=10
 	1340.1.1={
 		birth=yes
 	}
@@ -4254,11 +4357,11 @@
 }
 10060809 = {
 	name=character_name_10060809 # Yorihisa
-	dynasty=10000606 # Ijuin
+#	dynasty=10000606 # Ijuin
+	dynasty_house = "house_shgnt_shimazu_ijuin"
 	father=10060808
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=12
 	1370.1.1={
 		birth=yes
 	}
@@ -4268,11 +4371,11 @@
 }
 10060810 = {
 	name=character_name_10060810 # Hirohisa
-	dynasty=10000606 # Ijuin
+#	dynasty=10000606 # Ijuin
+	dynasty_house = "house_shgnt_shimazu_ijuin"
 	father=10060809
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=10
 	1410.1.1={
 		birth=yes
 	}
@@ -4282,11 +4385,11 @@
 }
 10060811 = {
 	name=character_name_10060811 # Tsuguhisa
-	dynasty=10000606 # Ijuin
+#	dynasty=10000606 # Ijuin
+	dynasty_house = "house_shgnt_shimazu_ijuin"
 	father=10060810
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=11
 	1430.1.1={
 		birth=yes
 	}
@@ -4299,11 +4402,11 @@
 }
 10060812 = {
 	name=character_name_10060812 # Masuhisa
-	dynasty=10000606 # Ijuin
+#	dynasty=10000606 # Ijuin
+	dynasty_house = "house_shgnt_shimazu_ijuin"
 	father=10060809
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=10
 	1415.1.1={
 		birth=yes
 	}
@@ -4313,11 +4416,11 @@
 }
 10060813 = {
 	name=character_name_10060813 # Tadakimi
-	dynasty=10000606 # Ijuin
+#	dynasty=10000606 # Ijuin
+	dynasty_house = "house_shgnt_shimazu_ijuin"
 	father=10060812
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=9
 	1455.1.1={
 		birth=yes
 	}
@@ -4327,11 +4430,20 @@
 }
 10060814 = {
 	name=character_name_10060814 # Tadamune
-	dynasty=10000606 # Ijuin
+#	dynasty=10000606 # Ijuin
+	dynasty_house = "house_shgnt_shimazu_ijuin"
 	father=10060801
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=11
+	diplomacy=8
+	martial=8
+	stewardship=8
+	intrigue=8
+	learning=7
+	trait="education_diplomacy_3"
+	trait="intellect_good_2"
+	trait="zealous"
+	prowess=12
 	1541.1.1={
 		birth=yes
 	}
@@ -4344,11 +4456,11 @@
 }
 10060815 = {
 	name=character_name_10060815 # Harunari
-	dynasty=10000606 # Ijuin
+#	dynasty=10000606 # Ijuin
+	dynasty_house = "house_shgnt_shimazu_ijuin"
 	father=10060801
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=10
 	1545.1.1={
 		birth=yes
 	}
@@ -4358,12 +4470,12 @@
 }
 10060816 = {
 	name=character_name_10060816 # Tadasane
-	dynasty=10000606 # Ijuin
+#	dynasty=10000606 # Ijuin
+	dynasty_house = "house_shgnt_shimazu_ijuin"
 	father=10060814
 	mother=10060159
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=11
 	1576.1.1={
 		birth=yes
 	}
@@ -4373,11 +4485,11 @@
 }
 10060817 = {
 	name=character_name_10060817 # Tadatane
-	dynasty=10000606 # Ijuin
+#	dynasty=10000606 # Ijuin
+	dynasty_house = "house_shgnt_shimazu_ijuin"
 	father=10060812
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=11
 	1460.1.1={
 		birth=yes
 	}
@@ -4387,15 +4499,429 @@
 }
 10060818 = {
 	name=character_name_10060818 # Hisanobu
-	dynasty=10000606 # Ijuin
+#	dynasty=10000606 # Ijuin
+	dynasty_house = "house_shgnt_shimazu_ijuin"
 	father=10060817
 	religion="shinto"
 	culture="southern_kyushu"
-	prowess=10
 	1490.1.1={
 		birth=yes
 	}
 	1550.1.1={
+		death=yes
+	}
+}
+10060900={
+	name=character_name_10060900 # Kanemasa
+	dynasty=10000601 # Kimotsuki
+	father=10060109 # Kimotsuki Kanemoto
+	religion="shinto"
+	culture="southern_kyushu"
+	1410.1.1={
+		birth=yes
+	}
+	1470.1.1={
+		death=yes
+	}
+}
+10060901={
+	name=character_name_10060901 # Kanesato
+	dynasty=10007347 # Ei
+	father=10060900 # Kimotsuki Kanemasa
+	religion="shinto"
+	culture="southern_kyushu"
+	1440.1.1={
+		birth=yes
+	}
+	1500.1.1={
+		death=yes
+	}
+}
+10060902={
+	name=character_name_10060902 # Kanemune
+	dynasty=10007347 # Ei
+	father=10060901 # Ei Kanesato
+	religion="shinto"
+	culture="southern_kyushu"
+	1470.1.1={
+		birth=yes
+	}
+	1530.1.1={
+		death=yes
+	}
+}
+10060903={
+	name=character_name_10060903 # Kanehiro
+	dynasty=10007347 # Ei
+	father=10060902 # Ei Kanemune
+	religion="shinto"
+	culture="southern_kyushu"
+	1500.1.1={
+		birth=yes
+	}
+	1550.1.1={
+		death=yes
+	}
+}
+10060904={
+	name=character_name_10060904 # Kanekata
+	dynasty=10007347 # Ei
+	father=10060903 # Ei Kanehiro
+	religion="shinto"
+	culture="southern_kyushu"
+	1520.1.1={
+		birth=yes
+	}
+	1560.1.1={
+		death=yes
+	}
+}
+10060905={
+	name=character_name_10060905 # Kaneari
+	dynasty=10007347 # Ei
+	father=10060904 # Ei Kanekata
+	religion="shinto"
+	culture="southern_kyushu"
+	1550.1.1={
+		birth=yes
+	}
+	1570.1.1={
+		death=yes
+	}
+}
+10060906={
+	name=character_name_10060906 # Hisatora
+	dynasty=10007347 # Ei
+	father=10060904 # Ei Kanekata
+	religion="shinto"
+	culture="southern_kyushu"
+	martial=10
+	trait="education_martial_2"
+	trait="brave"
+	trait="strong"
+	prowess=18
+	1558.1.1={
+		birth=yes
+	}
+	1587.9.6={
+		death=yes
+	}
+}
+10061000={
+	name=character_name_10061000 # Masatoshi
+	dynasty=10000619 # Kamata
+	religion="shinto"
+	culture="southern_kyushu"
+	martial=10
+	trait="education_martial_2"
+	trait="brave"
+	trait="strategist"
+	prowess=18
+	1514.1.1={
+		birth=yes
+		employer = 10060023 # Shimazu Tadayoshi
+	}
+	1550.1.1={
+		employer = 10060000 # Shimazu Takahisa
+	}
+	1566.1.1={
+		employer = 10060024 # Shimazu Yoshihisa
+	}
+	1583.8.25={
+		death=yes
+	}
+}
+10061001={
+	name=character_name_10061001 # Masahiro
+	dynasty=10000619 # Kamata
+	father=10061000 # Kamata Masatoshi
+	religion="shinto"
+	culture="southern_kyushu"
+	1540.1.1={
+		birth=yes
+		employer = 10060000 # Shimazu Takahisa
+	}
+	1566.1.1={
+		employer = 10060024 # Shimazu Yoshihisa
+	}
+	1593.5.17={
+		death=yes
+	}
+}
+10061010={
+	name=character_name_10061010 # Nobumitsu
+	dynasty=10000620 # Saruwatari
+	religion="shinto"
+	culture="southern_kyushu"
+	martial=9
+	trait="education_martial_3"
+	trait="brave"
+	prowess=19
+	1534.1.1={
+		birth=yes
+		employer = 10060023 # Shimazu Tadayoshi
+	}
+	1550.1.1={
+		employer = 10060000 # Shimazu Takahisa
+	}
+	1566.1.1={
+		employer = 10060024 # Shimazu Yoshihisa
+	}
+	1587.5.24={
+		death=yes
+	}
+}
+10061020={
+	name=character_name_10061020 # Arinori
+	dynasty=10000621 # Yamada
+	religion="shinto"
+	culture="southern_kyushu"
+	martial=9
+	trait="education_martial_2"
+	prowess=17
+	1510.1.1={
+		birth=yes
+	}
+	1534.1.1={
+		employer = 10060023 # Shimazu Tadayoshi
+	}
+	1550.1.1={
+		employer = 10060000 # Shimazu Takahisa
+	}
+	1560.1.1={
+		death=yes
+	}
+}
+10061021={
+	name=character_name_10061021 # Arinobu
+	dynasty=10000621 # Yamada
+	father=10061020 # Yamada Arinori
+	religion="shinto"
+	culture="southern_kyushu"
+	martial=9
+	trait="education_martial_2"
+	trait="diligent"
+	trait="patient"
+	trait="content"
+	prowess=17
+	1544.1.1={
+		birth=yes
+		employer = 10060023 # Shimazu Tadayoshi
+	}
+	1550.1.1={
+		employer = 10060000 # Shimazu Takahisa
+	}
+	1566.1.1={
+		employer = 10060024 # Shimazu Yoshihisa
+	}
+	1609.7.15={
+		death=yes
+	}
+}
+10061022={
+	name=character_name_10061022 # Arinaga
+	dynasty=10000621 # Yamada
+	father=10061021 # Yamada Arinobu
+	religion="shinto"
+	culture="southern_kyushu"
+	health=9
+	1578.8.6={
+		birth=yes
+		employer = 10060024 # Shimazu Yoshihisa
+	}
+	1668.10.7={
+		death=yes
+	}
+}
+10061030={
+	name=character_name_10061030 # Satokane
+	dynasty=10000622 # Uwai
+	religion="shinto"
+	culture="southern_kyushu"
+	diplomacy=9
+	martial=7
+	stewardship=9
+	intrigue=6
+	learning=9
+	trait="education_diplomacy_3"
+	trait="diligent"
+	trait="mystic_1"
+	trait="administrator"
+	prowess=11
+	1545.3.23={
+		birth=yes
+		employer = 10060023 # Shimazu Tadayoshi
+	}
+	1550.1.1={
+		employer = 10060000 # Shimazu Takahisa
+	}
+	1566.1.1={
+		employer = 10060024 # Shimazu Yoshihisa
+	}
+	1589.7.24={
+		death=yes
+	}
+}
+10061100={
+	name=character_name_10061100 # SurugaNoKami
+	dynasty=10000611 # Kawasaki
+	religion="shinto"
+	culture="southern_kyushu"
+	1500.1.1={
+		birth=yes
+		employer = 10060501 # Ito Tadasuke
+	}
+	1523.12.24={
+		employer = 10060502 # Ito Sukemitsu
+	}
+	1533.9.16={
+		employer = 10060500 # Ito Sukeyoshi
+	}
+	1536.6.26={
+		employer = 10060503 # Ito Yoshisuke
+	}
+	1550.1.1={
+		death=yes
+	}
+}
+10061101={
+	name=character_name_10061101 # Suruga
+	female=yes
+	dynasty=10000611 # Kawasaki
+	father=10061100 # Kawasaki SurugaNoKami
+	religion="shinto"
+	culture="southern_kyushu"
+	1530.1.1={
+		birth=yes
+	}
+	1533.9.16={
+		employer = 10060500 # Ito Sukeyoshi
+	}
+	1536.6.26={
+		employer = 10060503 # Ito Yoshisuke
+	}
+	1580.1.1={
+		death=yes
+	}
+}
+10061102={
+	name=character_name_10061102 # Sukenaga
+	dynasty=10000611 # Kawasaki
+	father=10061100 # Kawasaki SurugaNoKami
+	religion="shinto"
+	culture="southern_kyushu"
+	stewardship=8
+	trait="education_stewardship_3"
+	trait="patient"
+	1533.1.1={
+		birth=yes
+	}
+	1533.9.16={
+		employer = 10060500 # Ito Sukeyoshi
+	}
+	1536.6.26={
+		employer = 10060503 # Ito Yoshisuke
+	}
+	1615.1.1={
+		death=yes
+	}
+}
+10061103={
+	name=character_name_10061103 # Suketoyo
+	dynasty=10000611 # Kawasaki
+	father=10061102 # Kawasaki Sukenaga
+	religion="shinto"
+	culture="southern_kyushu"
+	1560.1.1={
+		birth=yes
+		employer = 10060503 # Ito Yoshisuke
+	}
+	1630.1.1={
+		death=yes
+	}
+}
+10061110={
+	name=character_name_10061110 # Munena
+	dynasty=10000612 # Aratake
+	religion="shinto"
+	culture="southern_kyushu"
+	martial=9
+	trait="education_martial_3"
+	trait="poet"
+	prowess=19
+	1490.1.1={
+		birth=yes
+		employer = 10060501 # Ito Tadasuke
+	}
+	1523.12.24={
+		employer = 10060502 # Ito Sukemitsu
+	}
+	1533.9.16={
+		employer = 10060500 # Ito Sukeyoshi
+	}
+	1534.2.28={
+		death=yes
+	}
+}
+10061120={
+	name=character_name_10061120 # Sukemasa
+	dynasty=10000613 # Nagakura
+	religion="shinto"
+	culture="southern_kyushu"
+	martial=9
+	trait="education_martial_2"
+	trait="brave"
+	prowess=17
+	1540.1.1={
+		birth=yes
+		employer = 10060503 # Ito Yoshisuke
+	}
+	1578.12.10={
+		death=yes
+	}
+}
+10061130={
+	name=character_name_10061130 # Munetsugu
+	dynasty=10000614 # Yamada
+	religion="shinto"
+	culture="southern_kyushu"
+	martial=9
+	trait="education_martial_2"
+	prowess=17
+	1520.1.1={
+		birth=yes
+		employer = 10060501 # Ito Tadasuke
+	}
+	1523.12.24={
+		employer = 10060502 # Ito Sukemitsu
+	}
+	1533.9.16={
+		employer = 10060500 # Ito Sukeyoshi
+	}
+	1536.6.26={
+		employer = 10060503 # Ito Yoshisuke
+	}
+	1567.1.1={
+		death=yes
+	}
+}
+10061131={
+	name=character_name_10061131 # Munemasa
+	dynasty=10000614 # Yamada
+	father=10061130 # Yamada Munetsugu
+	religion="shinto"
+	culture="southern_kyushu"
+	martial=8
+	trait="education_martial_3"
+	trait="intellect_good_2"
+	trait="strategist"
+	trait="patient"
+	prowess=18
+	1544.1.1={
+		birth=yes
+		employer = 10060503 # Ito Yoshisuke
+	}
+	1620.5.6={
 		death=yes
 	}
 }

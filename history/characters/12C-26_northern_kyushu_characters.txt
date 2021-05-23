@@ -3,7 +3,6 @@
 	dynasty=10000673 # Munakata
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=11
 	600.1.1={
 		birth=yes
 	}
@@ -17,7 +16,6 @@
 	father=12750000
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=10
 	630.1.1={
 		birth=yes
 	}
@@ -32,7 +30,6 @@
 	father=12750000
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=9
 	635.1.1={
 		birth=yes
 	}
@@ -46,7 +43,6 @@
 	father=12750001
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=11
 	650.1.1={
 		birth=yes
 	}
@@ -60,7 +56,6 @@
 	father=12750003
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=11
 	670.1.1={
 		birth=yes
 	}
@@ -74,7 +69,6 @@
 	father=12750003
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=11
 	680.1.1={
 		birth=yes
 	}
@@ -88,7 +82,6 @@
 	father=12750004
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=10
 	690.1.1={
 		birth=yes
 	}
@@ -102,7 +95,6 @@
 	father=12750006
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=11
 	710.1.1={
 		birth=yes
 	}
@@ -116,7 +108,6 @@
 	father=12750006
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=12
 	720.1.1={
 		birth=yes
 	}
@@ -130,7 +121,6 @@
 	father=12750008
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=11
 	750.1.1={
 		birth=yes
 	}
@@ -144,7 +134,6 @@
 	father=12750008
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=10
 	760.1.1={
 		birth=yes
 	}
@@ -158,7 +147,6 @@
 	father=12750009
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=10
 	780.1.1={
 		birth=yes
 	}
@@ -172,7 +160,6 @@
 	father=12750011
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=11
 	810.1.1={
 		birth=yes
 	}
@@ -186,7 +173,6 @@
 	father=12750012
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=10
 	850.1.1={
 		birth=yes
 	}
@@ -200,7 +186,6 @@
 	father=12750013
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=11
 	880.1.1={
 		birth=yes
 	}
@@ -214,7 +199,6 @@
 	father=12750014
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=12
 	910.1.1={
 		birth=yes
 	}
@@ -228,7 +212,6 @@
 	father=12750015
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=12
 	940.1.1={
 		birth=yes
 	}
@@ -242,7 +225,6 @@
 	father=12750016
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=11
 	980.1.1={
 		birth=yes
 	}
@@ -256,7 +238,6 @@
 	father=12750017
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=9
 	1010.1.1={
 		birth=yes
 	}
@@ -270,7 +251,6 @@
 	father=12750018
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=11
 	1040.1.1={
 		birth=yes
 	}
@@ -284,7 +264,6 @@
 	father=12750019
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=10
 	1070.1.1={
 		birth=yes
 	}
@@ -298,7 +277,6 @@
 	father=12750020
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=10
 	1100.1.1={
 		birth=yes
 	}
@@ -312,7 +290,6 @@
 	father=12750021
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=9
 	1130.1.1={
 		birth=yes
 	}
@@ -327,7 +304,6 @@
 	religion="shinto"
 	culture="northern_kyushu"
 	trait="education_learning_3"
-	prowess=12
 	1160.1.1={
 		birth=yes
 	}
@@ -341,7 +317,6 @@
 	father=12750023
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=10
 	1190.1.1={
 		birth=yes
 	}
@@ -355,7 +330,6 @@
 	father=12750024
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=10
 	1220.1.1={
 		birth=yes
 	}
@@ -369,7 +343,6 @@
 	father=12750025
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=9
 	1250.1.1={
 		birth=yes
 	}
@@ -384,10 +357,15 @@
 	father=10252255 #Okura Taneshige
 	religion="shinto"
 	culture="northern_kyushu"
+	diplomacy=7
+	martial=7
+	stewardship=9
+	intrigue=7
+	learning=4
 	trait="education_martial_3"
 	trait="administrator"
 	trait="zealous"
-	prowess=14
+	prowess=17
 	1140.1.1={
 		birth=yes
 		effect = {
@@ -398,16 +376,16 @@
 		add_spouse=10110090 # Taira no Iemori's daughter
 	}
 	1160.1.1={
-		trait="jugoi_ge"
 		give_nickname="nick_the_dazai_gon_shoni"
+		effect = {
+			add_trait = "jugoi_ge"
+		}
 	}
 	1180.1.1={
-		effect={
+		effect = {
 			set_realm_capital=title:c_shgnt_mikasa
 		}
 	}
-#	1180.9.8 = {
-#	}
 	1213.3.26={
 		death=yes
 		dynasty=10000676 # Harada
@@ -421,7 +399,6 @@
 	mother=10110090 # Taira no Iemori's daughter
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=10
 	1160.1.1={
 		birth=yes
 	}
@@ -438,7 +415,6 @@
 	mother=10110090 # Taira no Iemori's daughter
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=12
 	1162.1.1={
 		birth=yes
 	}
@@ -454,7 +430,6 @@
 	father=12750105
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=11
 	1180.1.1={
 		birth=yes
 	}
@@ -469,7 +444,6 @@
 	father=12750110
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=11
 	1210.1.1={
 		birth=yes
 	}
@@ -483,7 +457,6 @@
 	father=12750115
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=10
 	1230.1.1={
 		birth=yes
 	}
@@ -497,7 +470,6 @@
 	father=12750115
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=9
 	1235.1.1={
 		birth=yes
 	}
@@ -511,7 +483,6 @@
 	father=12750115
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=11
 	1240.1.1={
 		birth=yes
 	}
@@ -526,13 +497,12 @@
 	father=10252255 # Okura Taneshige
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=9
 	1145.1.1={
 		birth=yes
 	}
 	1180.1.1={
-		effect={
-			set_realm_capital=title:c_shgnt_mike
+		effect = {
+			set_realm_capital = title:c_shgnt_mike
 		}
 	}
 	1185.3.4={
@@ -547,7 +517,6 @@
 	father=10252255 #Okura Taneshige
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=9
 	1150.1.1={
 		birth=yes
 	}
@@ -562,7 +531,6 @@
 	father=12750300
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=11
 	1190.1.1={
 		birth=yes
 	}
@@ -576,7 +544,6 @@
 	father=12750305
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=10
 	1220.1.1={
 		birth=yes
 	}
@@ -590,7 +557,6 @@
 	father=12750310
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=11
 	1250.1.1={
 		birth=yes
 	}
@@ -604,7 +570,6 @@
 	father=12750315
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=9
 	1280.1.1={
 		birth=yes
 	}
@@ -619,7 +584,6 @@
 	father=10252255 #Okura Taneshige
 	religion="shinto"
 	culture="central_kyushu"
-	prowess=10
 	1170.1.1={
 		birth=yes
 	}
@@ -634,11 +598,10 @@
 	father=12750400
 	religion="shinto"
 	culture="central_kyushu"
-	prowess=11
-	1210.1.1={
+	1195.1.1={
 		birth=yes
 	}
-	1280.1.1={
+	1255.1.1={
 		death=yes
 	}
 }
@@ -648,11 +611,10 @@
 	father=12750405
 	religion="shinto"
 	culture="central_kyushu"
-	prowess=11
-	1240.1.1={
+	1220.1.1={
 		birth=yes
 	}
-	1300.1.1={
+	1280.1.1={
 		death=yes
 	}
 }
@@ -663,7 +625,6 @@
 	father=10252252 # Okura Tanehisa
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=11
 	1145.1.1={
 		birth=yes
 	}
@@ -678,7 +639,6 @@
 	trait="education_martial_2"
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=12
 	1064.1.1={
 		birth=yes
 	}
@@ -693,7 +653,6 @@
 	trait="education_martial_2"
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=12
 	1090.1.1={
 		birth=yes
 	}
@@ -708,7 +667,6 @@
 	trait="education_martial_2"
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=12
 	1095.1.1={
 		birth=yes
 	}
@@ -723,7 +681,6 @@
 	trait="education_martial_2"
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=12
 	1100.1.1={
 		birth=yes
 	}
@@ -738,7 +695,6 @@
 	trait="education_martial_2"
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=13
 	1105.1.1={
 		birth=yes
 	}
@@ -753,7 +709,6 @@
 	trait="education_martial_2"
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=13
 	1110.1.1={
 		birth=yes
 	}
@@ -768,7 +723,6 @@
 	trait="education_martial_2"
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=12
 	1115.1.1={
 		birth=yes
 	}
@@ -784,7 +738,6 @@
 	trait="education_martial_2"
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=12
 	1130.1.1={
 		birth=yes
 	}
@@ -799,7 +752,6 @@
 	trait="education_martial_2"
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=13
 	1130.1.1={
 		birth=yes
 	}
@@ -814,7 +766,6 @@
 	trait="education_martial_2"
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=12
 	1135.1.1={
 		birth=yes
 	}
@@ -829,7 +780,6 @@
 	trait="education_martial_2"
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=13
 	1138.1.1={
 		birth=yes
 	}
@@ -844,7 +794,6 @@
 	trait="education_martial_2"
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=12
 	1140.1.1={
 		birth=yes
 	}
@@ -859,7 +808,6 @@
 	trait="education_martial_2"
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=14
 	1141.1.1={
 		birth=yes
 	}
@@ -874,7 +822,6 @@
 	trait="education_martial_2"
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=14
 	1145.1.1={
 		birth=yes
 	}
@@ -889,7 +836,6 @@
 	trait="education_martial_2"
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=13
 	1150.1.1={
 		birth=yes
 	}
@@ -904,11 +850,23 @@
 	trait="education_martial_2"
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=11
 	1160.1.1={
 		birth=yes
 	}
 	1220.1.1={
+		death=yes
+	}
+}
+12750631={
+	name=character_name_12750631 # Tadashi
+	dynasty=10007338 # Shisa
+	father=12750621 # Matsura Kiyoshi
+	religion="shinto"
+	culture="northern_kyushu"
+	1190.1.1={
+		birth=yes
+	}
+	1250.1.1={
 		death=yes
 	}
 }
@@ -919,7 +877,6 @@
 	trait="education_martial_2"
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=11
 	1190.1.1={
 		birth=yes
 	}
@@ -934,7 +891,6 @@
 	trait="education_martial_2"
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=11
 	1230.1.1={
 		birth=yes
 	}
@@ -950,7 +906,6 @@
 	trait="education_martial_2"
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=12
 	1250.1.1={
 		birth=yes
 	}
@@ -965,7 +920,6 @@
 	trait="education_martial_2"
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=13
 	1170.1.1={
 		birth=yes
 	}
@@ -980,7 +934,6 @@
 	trait="education_martial_2"
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=12
 	1175.1.1={
 		birth=yes
 	}
@@ -995,7 +948,6 @@
 	trait="education_martial_2"
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=13
 	1170.1.1={
 		birth=yes
 	}
@@ -1010,7 +962,6 @@
 	trait="education_martial_2"
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=11
 	1180.1.1={
 		birth=yes
 	}
@@ -1025,7 +976,6 @@
 	trait="education_martial_2"
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=11
 	1190.1.1={
 		birth=yes
 	}
@@ -1040,7 +990,6 @@
 	trait="education_martial_2"
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=12
 	1210.1.1={
 		birth=yes
 	}
@@ -1056,7 +1005,6 @@
 	trait="education_martial_2"
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=11
 	1200.1.1={
 		birth=yes
 	}
@@ -1071,7 +1019,6 @@
 	trait="education_martial_2"
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=11
 	1220.1.1={
 		birth=yes
 	}
@@ -1086,7 +1033,6 @@
 	trait="education_martial_2"
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=12
 	1230.1.1={
 		birth=yes
 	}
@@ -1104,7 +1050,6 @@
 	trait="education_martial_2"
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=13
 	1180.1.1={
 		birth=yes
 	}
@@ -1120,7 +1065,6 @@
 	trait="education_martial_2"
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=13
 	1200.1.1={
 		birth=yes
 	}
@@ -1139,7 +1083,6 @@
 	trait="education_martial_2"
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=14
 	1220.1.1={
 		birth=yes
 	}
@@ -1155,7 +1098,6 @@
 	trait="education_martial_2"
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=14
 	1230.1.1={
 		birth=yes
 	}
@@ -1170,7 +1112,6 @@
 	trait="education_martial_2"
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=13
 	1240.1.1={
 		birth=yes
 	}
@@ -1185,7 +1126,6 @@
 	trait="education_martial_2"
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=12
 	1260.1.1={
 		birth=yes
 	}
@@ -1200,7 +1140,6 @@
 	trait="education_martial_2"
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=12
 	1261.1.1={
 		birth=yes
 	}
@@ -1215,7 +1154,6 @@
 	trait="education_martial_2"
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=13
 	1280.1.1={
 		birth=yes
 	}
@@ -1230,7 +1168,6 @@
 	religion="shinto"
 	culture="northern_kyushu"
 	trait="bastard"
-	prowess=11
 	1100.1.1={
 		birth=yes
 	}
@@ -1245,7 +1182,6 @@
 	religion="shinto"
 	culture="northern_kyushu"
 	trait="education_martial_2"
-	prowess=12
 	1130.1.1={
 		birth=yes
 	}
@@ -1264,7 +1200,6 @@
 	religion="shinto"
 	culture="northern_kyushu"
 	trait="education_martial_2"
-	prowess=11
 	1160.1.1={
 		birth=yes
 	}
@@ -1280,11 +1215,114 @@
 	religion="shinto"
 	culture="northern_kyushu"
 	trait="education_martial_2"
-	prowess=11
 	1162.1.1={
 		birth=yes
 	}
 	1220.1.1={
+		death=yes
+	}
+}
+12750800={
+	name=character_name_12750800 # Tadashu
+	dynasty=10007338 # Shisa
+	father=12750631 # Shisa Tadashi
+	religion="shinto"
+	culture="northern_kyushu"
+	1220.1.1={
+		birth=yes
+	}
+	1280.1.1={
+		death=yes
+	}
+}
+12750801={
+	name=character_name_12750801 # Iwau
+	dynasty=10007338 # Shisa
+	father=12750800 # Shisa Tadashu
+	religion="shinto"
+	culture="northern_kyushu"
+	1250.1.1={
+		birth=yes
+	}
+	1310.1.1={
+		death=yes
+	}
+}
+12750802={
+	name=character_name_12750802 # Tamotsu
+	dynasty=10007338 # Shisa
+	father=12750801 # Shisa Iwau
+	religion="shinto"
+	culture="northern_kyushu"
+	1290.1.1={
+		birth=yes
+	}
+	1359.8.29={
+		death=yes
+	}
+}
+12750803={
+	name=character_name_12750803 # Sadamu
+	dynasty=10007338 # Shisa
+	father=12750802 # Shisa Tamotsu
+	religion="shinto"
+	culture="northern_kyushu"
+	1320.1.1={
+		birth=yes
+	}
+	1359.8.29={
+		death=yes
+	}
+}
+12750804={
+	name=character_name_12750804 # Shirabu
+	dynasty=10007338 # Shisa
+	father=12750803 # Shisa Sadamu
+	religion="shinto"
+	culture="northern_kyushu"
+	1340.1.1={
+		birth=yes
+	}
+	1400.1.1={
+		death=yes
+	}
+}
+12750805={
+	name=character_name_12750805 # Shigeshi
+	dynasty=10007338 # Shisa
+	father=12750804 # Shisa Shirabu
+	religion="shinto"
+	culture="northern_kyushu"
+	1370.1.1={
+		birth=yes
+	}
+	1440.1.1={
+		death=yes
+	}
+}
+12750806={
+	name=character_name_12750806 # Yoroshi
+	dynasty=10007338 # Shisa
+	father=12750805 # Shisa Shigeshi
+	religion="shinto"
+	culture="northern_kyushu"
+	1410.1.1={
+		birth=yes
+	}
+	1480.1.1={
+		death=yes
+	}
+}
+12750807={
+	name=character_name_12750807 # Sumikatsu
+	dynasty=10007338 # Shisa
+	father=12750806 # Shisa Yoroshi
+	religion="shinto"
+	culture="northern_kyushu"
+	1440.1.1={
+		birth=yes
+	}
+	1495.1.1={
 		death=yes
 	}
 }
@@ -1294,7 +1332,6 @@
 	father=10130880 # 
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=11
 	1180.1.1={
 		birth=yes
 	}
@@ -1308,7 +1345,6 @@
 	father=12751000 # 
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=9
 	1205.1.1={
 		birth=yes
 	}
@@ -1322,7 +1358,6 @@
 	father=12751005 # 
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=10
 	1230.1.1={
 		birth=yes
 	}
@@ -1336,7 +1371,6 @@
 	father=12751005 # Goto Masaakira
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=11
 	1235.1.1={
 		birth=yes
 	}
@@ -1350,7 +1384,6 @@
 	father=12751010 # 
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=10
 	1250.1.1={
 		birth=yes
 	}
@@ -1364,7 +1397,6 @@
 	father=12751015 # 
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=12
 	1270.1.1={
 		birth=yes
 	}
@@ -1378,7 +1410,6 @@
 	father=12751015 # 
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=9
 	1275.1.1={
 		birth=yes
 	}
@@ -1392,7 +1423,6 @@
 	father=12751020 # 
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=10
 	1295.1.1={
 		birth=yes
 	}
@@ -1406,7 +1436,6 @@
 	father=12751025 # 
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=10
 	1320.1.1={
 		birth=yes
 	}
@@ -1421,7 +1450,6 @@
 	father=12751025 # 
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=10
 	1325.1.1={
 		birth=yes
 	}
@@ -1435,7 +1463,6 @@
 	father=12751021 # 
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=11
 	1300.1.1={
 		birth=yes
 	}
@@ -1449,7 +1476,6 @@
 	father=12751035 # 
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=11
 	1325.1.1={
 		birth=yes
 	}
@@ -1464,7 +1490,6 @@
 	mother=12751031 # 
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=10
 	1350.1.1={
 		birth=yes
 	}
@@ -1478,7 +1503,6 @@
 	father=12751045 # 
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=11
 	1375.1.1={
 		birth=yes
 	}
@@ -1492,7 +1516,6 @@
 	father=12751050 # 
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=12
 	1400.1.1={
 		birth=yes
 	}
@@ -1506,7 +1529,6 @@
 	father=12751055 # 
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=10
 	1420.1.1={
 		birth=yes
 	}
@@ -1521,7 +1543,6 @@
 	father=12751060 # 
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=10
 	1450.1.1={
 		birth=yes
 	}
@@ -1535,7 +1556,6 @@
 	mother=12751065 # 
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=10
 	1480.1.1={
 		birth=yes
 	}
@@ -1549,7 +1569,6 @@
 	father=12751011 # Goto Sadaakira
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=10
 	1260.01.01={
 		birth=yes
 	}
@@ -1563,7 +1582,6 @@
 	father=12751080 # Goto Yoriakira
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=11
 	1285.01.01={
 		birth=yes
 	}
@@ -1577,7 +1595,6 @@
 	father=12751081 # Goto Moriakira
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=10
 	1310.1.1={
 		birth=yes
 	}
@@ -1594,7 +1611,6 @@
 	father=12751081 # Goto Moriakira
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=9
 	1315.1.1={
 		birth=yes
 	}
@@ -1611,7 +1627,6 @@
 	father=12751083 # Goto Tokiakira
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=12
 	1345.1.1={
 		birth=yes
 	}
@@ -1625,7 +1640,6 @@
 	father=12751084 # Nakano Hachiro
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=10
 	1370.1.1={
 		birth=yes
 	}
@@ -1639,7 +1653,6 @@
 	father=12751085 # Nakano Hachiro
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=11
 	1400.01.01={
 		birth=yes
 	}
@@ -1653,7 +1666,6 @@
 	father=12751086 # Nakano Hachiro
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=9
 	1425.1.1={
 		birth=yes
 	}
@@ -1667,7 +1679,6 @@
 	father=12751087 # Nakano Hachiro
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=10
 	1450.1.1={
 		birth=yes
 	}
@@ -1684,7 +1695,6 @@
 	father=12751089 # Nakano Moroakira
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=10
 	1480.1.1={
 		birth=yes
 	}
@@ -1701,7 +1711,6 @@
 	father=12751090 # Nakano Ujiakira
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=10
 	1505.1.1={
 		birth=yes
 	}
@@ -1718,7 +1727,6 @@
 	father=12751091 # Nakano Hideakira
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=10
 	1530.1.1={
 		birth=yes
 	}
@@ -1732,7 +1740,6 @@
 	father=12751092 # Nakano Haruakira
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=10
 	1555.1.1={
 		birth=yes
 	}
@@ -1746,7 +1753,6 @@
 	father=12751092 # Nakano Haruakira
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=11
 	1560.1.1={
 		birth=yes
 	}
@@ -1763,7 +1769,6 @@
 	father=12751094 # Nakano Kataakira
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=10
 	1580.1.1={
 		birth=yes
 	}
@@ -1774,10 +1779,9 @@
 12751100={
 	name = character_name_12751100 # Kimiaki
 	dynasty = 10000690	#Goto
-	religion="shinto"
+	religion = "shinto"
 	culture = "northern_kyushu"
 	father = 10130879	#Goto Muneaki
-	prowess=12
 	1157.1.1 = {
 		birth=yes
 	}
@@ -1794,7 +1798,6 @@
 	father=12751100 # Goto Kimiaki
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=11
 	1182.01.01={
 		birth=yes
 	}
@@ -1808,7 +1811,6 @@
 	father=12751101 # Goto Yukiakira
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=9
 	1210.01.01={
 		birth=yes
 	}
@@ -1822,7 +1824,6 @@
 	father=12751102 # Goto Michiakira
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=10
 	1235.01.01={
 		birth=yes
 	}
@@ -1836,7 +1837,6 @@
 	father=12751103 # Goto Moriakira
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=10
 	1260.01.01={
 		birth=yes
 	}
@@ -1850,7 +1850,6 @@
 	father=12751103 # Goto Moriakira
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=10
 	1265.01.01={
 		birth=yes
 	}
@@ -1864,7 +1863,6 @@
 	father=12751104 # Goto Taneakira
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=10
 	1285.01.01={
 		birth=yes
 	}
@@ -1878,7 +1876,6 @@
 	father=12751105 # Goto Chikaakira
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=11
 	1290.1.1={
 		birth=yes
 	}
@@ -1892,7 +1889,6 @@
 	father=12751110 # Goto Noriakira
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=9
 	1320.1.1={
 		birth=yes
 	}
@@ -1906,7 +1902,6 @@
 	father=12751111 # Goto Shigeakira
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=10
 	1350.01.01={
 		birth=yes
 	}
@@ -1920,7 +1915,6 @@
 	father=12751112 # Goto Fusaakira
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=12
 	1380.01.01={
 		birth=yes
 	}
@@ -1934,7 +1928,6 @@
 	father=12751113 # Goto Kimihide
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=10
 	1410.1.1={
 		birth=yes
 	}
@@ -1948,7 +1941,6 @@
 	father=12751114 # Goto Kimimichi
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=11
 	1440.1.1={
 		birth=yes
 	}
@@ -1962,7 +1954,6 @@
 	father=12751115 # Goto Ariakira
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=10
 	1470.01.01={
 		birth=yes
 	}
@@ -1976,7 +1967,6 @@
 	father=12751116 # Goto Kimiharu
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=11
 	1500.1.1={
 		birth=yes
 	}
@@ -1990,7 +1980,6 @@
 	father=12751117 # Goto Mitsuakira
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=9
 	1530.1.1={
 		birth=yes
 	}
@@ -2004,7 +1993,6 @@
 	father=12751117 # Goto Mitsuakira
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=11
 	1555.1.1={
 		birth=yes
 	}
@@ -2018,7 +2006,6 @@
 	father=12751119 # Nishiyama Noriakira
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=10
 	1580.1.1={
 		birth=yes
 	}
@@ -2032,7 +2019,6 @@
 	father=12751120 # Nishiyama Kimiyuki
 	religion="shinto"
 	culture="northern_kyushu"
-	prowess=11
 	1605.1.1={
 		birth=yes
 	}
@@ -2046,7 +2032,6 @@
 	religion="shinto"
 	culture="northern_kyushu"
 	trait="education_martial_2"
-	prowess=12
 	1125.1.1={
 		birth=yes
 	}
@@ -2064,7 +2049,6 @@
 	religion="shinto"
 	culture="northern_kyushu"
 	trait="education_martial_2"
-	prowess=12
 	1165.1.1={
 		birth=yes
 	}
@@ -2081,11 +2065,101 @@
 	religion="shinto"
 	culture="northern_kyushu"
 	trait="education_martial_2"
-	prowess=12
 	1150.1.1={
 		birth=yes
 	}
 	1186.1.1={
+		death=yes
+	}
+}
+12751300={
+	name=character_name_12751300 # Tanemoto
+	dynasty=10000116 # Chiba
+	father=12150156 # Chiba Taneyasu
+	religion="shinto"
+	culture="northern_kyushu"
+	1362.1.1={
+		birth=yes
+	}
+	1416.1.1={
+		death=yes
+	}
+}
+12751301={
+	name=character_name_12751301 # Taneshige
+	dynasty=10000116 # Chiba
+	father=12751300 # Chiba Tanemoto
+	religion="shinto"
+	culture="northern_kyushu"
+	1399.1.1={
+		birth=yes
+	}
+	1455.1.1={
+		death=yes
+	}
+}
+12751302={
+	name=character_name_12751302 # Tanetsugu
+	dynasty=10000116 # Chiba
+	father=12751300 # Chiba Tanemoto
+	religion="shinto"
+	culture="northern_kyushu"
+	1410.1.1={
+		birth=yes
+	}
+	1445.1.1={
+		death=yes
+	}
+}
+12751305={
+	name=character_name_12751305 # Mototane
+	dynasty=10000116 # Chiba
+	father=12751301 # Chiba Taneshige
+	religion="shinto"
+	culture="northern_kyushu"
+	1437.1.1={
+		birth=yes
+	}
+	1464.1.1={
+		death=yes
+	}
+}
+12751306={
+	name=character_name_12751306 # Noritane
+	dynasty=10000116 # Chiba
+	father=12751301 # Chiba Taneshige
+	religion="shinto"
+	culture="northern_kyushu"
+	1450.1.1={
+		birth=yes
+	}
+	1469.1.1={
+		death=yes
+	}
+}
+12751310={
+	name=character_name_12751310 # Tanetomo
+	dynasty=10000116 # Chiba
+	father=12751302 # Chiba Tanetsugu
+	religion="shinto"
+	culture="northern_kyushu"
+	1435.1.1={
+		birth=yes
+	}
+	1486.1.1={
+		death=yes
+	}
+}
+12751311={
+	name=character_name_12751311 # Tanemori
+	dynasty=10000116 # Chiba
+	father=12751302 # Chiba Tanetsugu
+	religion="shinto"
+	culture="northern_kyushu"
+	1440.1.1={
+		birth=yes
+	}
+	1497.1.1={
 		death=yes
 	}
 }

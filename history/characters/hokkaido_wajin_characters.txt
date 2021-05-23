@@ -4,46 +4,59 @@
 	father=10159002
 	religion="shinto"
 	culture="hokkaido_wajin"
-	diplomacy=6
-	martial=5
-	stewardship=6
-	intrigue=5
-	learning=6
+	diplomacy=8
+	martial=7
+	stewardship=8
+	intrigue=8
+	learning=3
 	trait="education_intrigue_4"
 	trait="greedy"
 	trait="brave"
-	prowess=14
+	prowess=11
 	1479.1.1={
 		birth=yes
 	}
+	1495.1.1={
+		give_nickname="nick_Shinsaburo"
+	}
 	1506.1.1={
 		add_spouse=10159703
+	}
+	1518.8.18={
+		give_nickname="nick_wakasa_no_kami"
 	}
 	1545.9.24={
 		death=yes
 	}
 }
 10159001 = {
-	name=character_name_10159001 # Nobuhiro
+	name=character_name_10159001 # Nobuzumi # a.k.a. Takeda Nobuhiro
 	dynasty=10001660 # Kakizaki
-	father=10056104 # Takeda Nobukata?
+	father=10159053 # Kakizaki Nobumichi
 	religion="shinto"
 	culture="hokkaido_wajin"
-	diplomacy=5
+	diplomacy=8
 	martial=7
 	stewardship=8
-	intrigue=5
-	learning=6
+	intrigue=8
+	learning=3
 	trait="education_martial_3"
 	trait="intellect_good_2"
 	trait="strategist"
 	trait="brave"
-	prowess=13
+	prowess=17
 	1431.3.3={
 		birth=yes
 	}
+	1447.3.3={
+		give_nickname="nick_kurodo"
+	}
 	1455.1.1={
+		give_nickname="nick_Hikotaro"
 		add_spouse=10000127
+		effect = {
+			change_first_name = character_name_10159001_1 # Nobuhiro
+		}
 	}
 	1493.6.23={
 		death=yes
@@ -56,15 +69,21 @@
 	mother=10000127
 	religion="shinto"
 	culture="hokkaido_wajin"
-	diplomacy=4
-	martial=6
-	stewardship=8
-	intrigue=6
-	learning=5
+	diplomacy=8
+	martial=7
+	stewardship=9
+	intrigue=4
+	learning=3
 	trait="education_intrigue_3"
-	prowess=13
+	prowess=11
 	1456.1.1={
 		birth=yes
+	}
+	1472.1.1={
+		give_nickname="nick_Hikotaro"
+	}
+	1493.6.23={
+		give_nickname="nick_wakasa_no_kami"
 	}
 	1518.8.18={
 		death=yes
@@ -77,20 +96,27 @@
 	mother=10159703
 	religion="shinto"
 	culture="hokkaido_wajin"
-	diplomacy=6
-	martial=6
-	stewardship=4
-	intrigue=5
-	learning=6
+	diplomacy=8
+	martial=7
+	stewardship=8
+	intrigue=8
+	learning=3
 	trait="education_diplomacy_4"
 	trait="lustful"
 	trait="patient"
-	prowess=10
+	health=8
+	prowess=11
 	1507.1.1={
 		birth=yes
 	}
+	1523.1.1={
+		give_nickname="nick_Hikotaro"
+	}
 	1530.1.1={
 		add_spouse=10159302
+	}
+	1545.9.24={
+		give_nickname="nick_wakasa_no_kami"
 	}
 	1556.1.1={
 		add_concubine=10159353
@@ -105,7 +131,6 @@
 	father=10159002
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=10
 	1483.1.1={
 		birth=yes
 	}
@@ -119,7 +144,6 @@
 	father=10159004
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=10
 	1510.1.1={
 		birth=yes
 	}
@@ -135,7 +159,6 @@
 	mother=10000127
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=11
 	1470.1.1={
 		birth=yes
 	}
@@ -150,7 +173,6 @@
 	father=10159002
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=10
 	1480.1.1={
 		birth=yes
 	}
@@ -166,7 +188,6 @@
 	mother=10159703
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=11
 	1510.1.1={
 		birth=yes
 	}
@@ -182,7 +203,6 @@
 	mother=10159703
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=12
 	1517.1.1={
 		birth=yes
 	}
@@ -198,10 +218,9 @@
 	mother=10159302
 	religion="shinto"
 	culture="hokkaido_wajin"
-	intrigue=5
+	intrigue=8
 	trait="education_intrigue_4"
 	trait="greedy"
-	prowess=14
 	1532.1.1={
 		birth=yes
 	}
@@ -216,7 +235,6 @@
 	mother=10159302
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=10
 	1539.1.1={
 		birth=yes
 	}
@@ -233,7 +251,6 @@
 	mother=10159302
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=10
 	1540.1.1={
 		birth=yes
 	}
@@ -251,7 +268,6 @@
 	mother=10159302
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=10
 	1533.1.1={
 		birth=yes
 	}
@@ -267,7 +283,6 @@
 	mother=10159302
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=9
 	1534.1.1={
 		birth=yes
 	}
@@ -283,7 +298,6 @@
 	mother=10159302
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=11
 	1535.1.1={
 		birth=yes
 	}
@@ -299,7 +313,6 @@
 	mother=10159302
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=11
 	1537.1.1={
 		birth=yes
 	}
@@ -315,7 +328,6 @@
 	mother=10159302
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=11
 	1538.1.1={
 		birth=yes
 	}
@@ -331,7 +343,6 @@
 	mother=10159302
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=10
 	1544.1.1={
 		birth=yes
 	}
@@ -347,7 +358,6 @@
 	mother=10159302
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=10
 	1546.1.1={
 		birth=yes
 	}
@@ -363,7 +373,6 @@
 	mother=10159302
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=12
 	1548.1.1={
 		birth=yes
 	}
@@ -378,7 +387,6 @@
 	father=10159003
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=10
 	1555.1.1={
 		birth=yes
 	}
@@ -393,7 +401,6 @@
 	father=10159003
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=10
 	1538.1.1={
 		birth=yes
 	}
@@ -408,7 +415,6 @@
 	father=10159003
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=11
 	1565.1.1={
 		birth=yes
 	}
@@ -423,7 +429,6 @@
 	father=10159003
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=10
 	1570.1.1={
 		birth=yes
 	}
@@ -438,13 +443,14 @@
 	mother=10159302
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=11
 	1549.1.1={
 		birth=yes
 	}
 	1565.1.1={
-		trait="devoted"
-		name=character_name_10159025_1 # Zuiryo
+		effect = {
+			add_trait = "devoted"
+			change_first_name = character_name_10159025_1 # Zuiryo
+		}
 	}
 	1610.1.1={
 		death=yes
@@ -457,7 +463,6 @@
 	mother=10159353 #Miseki Hirohisa's daughter
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=11
 	1556.1.1={
 		birth=yes
 	}
@@ -471,7 +476,6 @@
 	father=10159003
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=10
 	1556.7.1={
 		birth=yes
 	}
@@ -485,7 +489,6 @@
 	father=10159003
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=11
 	1557.1.1={
 		birth=yes
 	}
@@ -499,7 +502,6 @@
 	father=10159003
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=12
 	1558.1.1={
 		birth=yes
 	}
@@ -513,7 +515,6 @@
 	father=10159003
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=10
 	1559.1.1={
 		birth=yes
 	}
@@ -527,7 +528,6 @@
 	father=10159003
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=11
 	1561.1.1={
 		birth=yes
 	}
@@ -541,7 +541,6 @@
 	father=10159003
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=10
 	1568.1.1={
 		birth=yes
 	}
@@ -555,7 +554,6 @@
 	father=10159003
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=9
 	1573.1.1={
 		birth=yes
 	}
@@ -572,9 +570,9 @@
 	culture="hokkaido_wajin"
 	diplomacy=6
 	martial=6
-	stewardship=5
+	stewardship=6
 	intrigue=6
-	learning=6
+	learning=3
 	trait="education_diplomacy_3"
 	trait="intellect_good_2"
 	trait="ambitious"
@@ -582,8 +580,17 @@
 	1548.10.4={
 		birth=yes
 	}
+	1564.10.4={
+		give_nickname="nick_Shinsaburo"
+	}
 	1565.1.1={
 		add_spouse=10159903 #Murakami Sueyoshi's dautgher
+	}
+	1591.1.1={
+		give_nickname="nick_the_minbu_daihu"
+		effect = {
+			add_trait = "jugoi_ge"
+		}
 	}
 	1616.11.20={
 		death=yes
@@ -595,7 +602,6 @@
 	father=10159034
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=11
 	1571.10.4={
 		birth=yes
 	}
@@ -612,7 +618,6 @@
 	father=10159034
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=10
 	1580.1.1={
 		birth=yes
 	}
@@ -628,11 +633,87 @@
 	culture="hokkaido_wajin"
 	trait="education_intrigue_1"
 	trait="greedy"
-	prowess=12
 	1581.1.1={
 		birth=yes
 	}
 	1650.1.1={
+		death=yes
+	}
+}
+10159050={
+	name=character_name_10159050 # Nobuyoshi
+	dynasty=10001660 # Kakizaki
+	religion="shinto"
+	culture="northern_oshu"
+	1300.1.1={
+		birth=yes
+	}
+	1360.1.1={
+		death=yes
+	}
+}
+10159051={
+	name=character_name_10159051 # Nobunaga
+	dynasty=10001660 # Kakizaki
+	father=10159050 # Kakizaki Nobuyoshi
+	religion="shinto"
+	culture="northern_oshu"
+	1330.1.1={
+		birth=yes
+	}
+	1390.1.1={
+		death=yes
+	}
+}
+10159052={
+	name=character_name_10159052 # Nobuyoshi
+	dynasty=10001660 # Kakizaki
+	father=10159051 # Kakizaki Nobunaga
+	religion="shinto"
+	culture="northern_oshu"
+	1360.1.1={
+		birth=yes
+	}
+	1420.1.1={
+		death=yes
+	}
+}
+10159053={
+	name=character_name_10159053 # Nobumichi
+	dynasty=10001660 # Kakizaki
+	father=10159052 # Kakizaki Nobuyoshi
+	religion="shinto"
+	culture="northern_oshu"
+	1390.1.1={
+		birth=yes
+	}
+	1450.1.1={
+		death=yes
+	}
+}
+10159054={
+	name=character_name_10159054 # Sueshige
+	dynasty=10001660 # Kakizaki
+	father=10159052 # Kakizaki Nobuyoshi (fictional)
+	religion="shinto"
+	culture="hokkaido_wajin"
+	1400.1.1={
+		birth=yes
+	}
+	1462.6.9={
+		death=yes
+	}
+}
+10159055={
+	name=character_name_10159055 # Nobushige
+	dynasty=10001660 # Kakizaki
+	father=10159054 # Kakizaki Sueshige
+	religion="shinto"
+	culture="hokkaido_wajin"
+	1430.1.1={
+		birth=yes
+	}
+	1450.1.1={
 		death=yes
 	}
 }
@@ -642,7 +723,6 @@
 	father=10159203
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=10
 	1460.1.1={
 		birth=yes
 	}
@@ -659,7 +739,6 @@
 	father=10159200
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=11
 	1490.1.1={
 		birth=yes
 	}
@@ -676,7 +755,6 @@
 	father=10159201
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=11
 	1520.1.1={
 		birth=yes
 	}
@@ -692,7 +770,6 @@
 	dynasty=10001661 # Sato
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=10
 	1420.1.1={
 		birth=yes
 	}
@@ -707,7 +784,6 @@
 	mother=10159022
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=10
 	1555.1.1={
 		birth=yes
 	}
@@ -721,7 +797,6 @@
 	father=10159204
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=10
 	1585.1.1={
 		birth=yes
 	}
@@ -734,7 +809,6 @@
 	dynasty=10001662 # Kono
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=11
 	1430.1.1={
 		birth=yes
 	}
@@ -752,7 +826,6 @@
 	religion="shinto"
 	culture="hokkaido_wajin"
 	trait="brave"
-	prowess=11
 	1480.1.1={
 		birth=yes
 	}
@@ -769,7 +842,6 @@
 	father=10159301
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=11
 	1510.1.1={
 		birth=yes
 	}
@@ -785,7 +857,6 @@
 	dynasty=10001663 # Aihara
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=10
 	1420.1.1={
 		birth=yes
 	}
@@ -802,9 +873,11 @@
 	religion="shinto"
 	culture="hokkaido_wajin"
 	trait="sadistic"
-	prowess=9
 	1450.1.1={
 		birth=yes
+	}
+	1466.1.1={
+		give_nickname="nick_Hikosaburo"
 	}
 	1513.6.27={
 		death={
@@ -819,7 +892,6 @@
 	religion="shinto"
 	culture="hokkaido_wajin"
 	trait="sadistic"
-	prowess=12
 	1455.1.1={
 		birth=yes
 	}
@@ -836,7 +908,6 @@
 	father=10159401
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=10
 	1490.1.1={
 		birth=yes
 	}
@@ -853,7 +924,6 @@
 	father=10159401
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=10
 	1500.1.1={
 		birth=yes
 	}
@@ -869,7 +939,6 @@
 	father=10159503
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=9
 	1460.1.1={
 		birth=yes
 	}
@@ -886,7 +955,6 @@
 	religion="shinto"
 	culture="hokkaido_wajin"
 	trait="trusting"
-	prowess=11
 	1495.1.1={
 		birth=yes
 	}
@@ -903,7 +971,6 @@
 	father=10159501
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=9
 	1530.1.1={
 		birth=yes
 	}
@@ -916,7 +983,6 @@
 	dynasty=10001664 # Nanjo
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=10
 	1430.1.1={
 		birth=yes
 	}
@@ -930,7 +996,6 @@
 	father=10159502
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=10
 	1560.1.1={
 		birth=yes
 	}
@@ -944,7 +1009,6 @@
 	father=10159504
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=11
 	1590.1.1={
 		birth=yes
 	}
@@ -957,7 +1021,6 @@
 	dynasty=10001665 # Atsuya
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=10
 	1430.1.1={
 		birth=yes
 	}
@@ -971,7 +1034,6 @@
 	father=10159600
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=10
 	1455.1.1={
 		birth=yes
 	}
@@ -989,7 +1051,6 @@
 	mother=10159702
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=10
 	1490.1.1={
 		birth=yes
 	}
@@ -1003,7 +1064,6 @@
 	father=10159602
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=11
 	1520.1.1={
 		birth=yes
 	}
@@ -1021,7 +1081,6 @@
 	mother=10159009
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=11
 	1537.1.1={
 		birth=yes
 	}
@@ -1039,7 +1098,6 @@
 	mother=10159018
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=11
 	1565.1.1={
 		birth=yes
 	}
@@ -1052,7 +1110,6 @@
 	dynasty=10001666 # Mokotsuchi
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=10
 	1430.1.1={
 		birth=yes
 	}
@@ -1066,7 +1123,6 @@
 	father=10159700
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=11
 	1465.1.1={
 		birth=yes
 	}
@@ -1083,7 +1139,6 @@
 	father=10159700
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=10
 	1460.1.1={
 		birth=yes
 	}
@@ -1098,7 +1153,6 @@
 	father=10159701
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=10
 	1490.1.1={
 		birth=yes
 	}
@@ -1111,7 +1165,6 @@
 	dynasty=10001667 # Kobayashi
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=11
 	1400.1.1={
 		birth=yes
 	}
@@ -1125,7 +1178,6 @@
 	father=10159800
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=11
 	1430.1.1={
 		birth=yes
 	}
@@ -1141,7 +1193,6 @@
 	father=10159800
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=11
 	1435.1.1={
 		birth=yes
 	}
@@ -1157,7 +1208,6 @@
 	father=10159801
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=12
 	1450.1.1={
 		birth=yes
 	}
@@ -1173,7 +1223,6 @@
 	father=10159803
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=10
 	1480.1.1={
 		birth=yes
 	}
@@ -1190,7 +1239,6 @@
 	father=10159805
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=10
 	1500.1.1={
 		birth=yes
 	}
@@ -1208,7 +1256,6 @@
 	religion="shinto"
 	culture="hokkaido_wajin"
 	trait="education_diplomacy_3"
-	prowess=9
 	1520.1.1={
 		birth=yes
 	}
@@ -1222,7 +1269,6 @@
 	father=10159807
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=10
 	1550.1.1={
 		birth=yes
 	}
@@ -1236,7 +1282,6 @@
 	father=10159810
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=12
 	1580.1.1={
 		birth=yes
 	}
@@ -1250,7 +1295,6 @@
 	father=10159802
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=10
 	1455.1.1={
 		birth=yes
 	}
@@ -1266,7 +1310,6 @@
 	father=10159804
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=10
 	1490.1.1={
 		birth=yes
 	}
@@ -1283,7 +1326,6 @@
 	father=10159808
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=9
 	1520.1.1={
 		birth=yes
 	}
@@ -1297,7 +1339,6 @@
 	father=10159809
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=10
 	1550.1.1={
 		birth=yes
 	}
@@ -1311,7 +1352,6 @@
 	father=10159812
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=12
 	1580.1.1={
 		birth=yes
 	}
@@ -1324,7 +1364,6 @@
 	dynasty=10001668 # Murakami
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=9
 	1460.1.1={
 		birth=yes
 	}
@@ -1340,7 +1379,6 @@
 	father=10159900
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=12
 	1500.1.1={
 		birth=yes
 	}
@@ -1357,7 +1395,6 @@
 	father=10159901
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=10
 	1530.1.1={
 		birth=yes
 	}
@@ -1371,7 +1408,6 @@
 	father=10159901
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=11
 	1540.1.1={
 		birth=yes
 	}
@@ -1386,7 +1422,6 @@
 	father=10159901
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=10
 	1545.1.1={
 		birth=yes
 	}
@@ -1399,7 +1434,6 @@
 	dynasty=10001669 # Kudo
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=10
 	1410.1.1={
 		birth=yes
 	}
@@ -1413,7 +1447,6 @@
 	father=10159104
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=9
 	1495.1.1={
 		birth=yes
 	}
@@ -1429,7 +1462,6 @@
 	father=10159104
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=11
 	1500.1.1={
 		birth=yes
 	}
@@ -1443,7 +1475,6 @@
 	father=10159100
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=11
 	1440.1.1={
 		birth=yes
 	}
@@ -1457,7 +1488,6 @@
 	father=10159103
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=10
 	1470.1.1={
 		birth=yes
 	}
@@ -1471,7 +1501,6 @@
 	father=10159102
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=11
 	1530.1.1={
 		birth=yes
 	}
@@ -1485,7 +1514,6 @@
 	father=10159105
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=11
 	1570.1.1={
 		birth=yes
 	}
@@ -1498,7 +1526,6 @@
 	dynasty=10001672 # Kondo
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=9
 	1430.1.1={
 		birth=yes
 	}
@@ -1512,7 +1539,6 @@
 	father=10159150
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=11
 	1470.1.1={
 		birth=yes
 	}
@@ -1529,7 +1555,6 @@
 	father=10159151
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=12
 	1520.1.1={
 		birth=yes
 	}
@@ -1543,7 +1568,6 @@
 	father=10159152
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=10
 	1550.1.1={
 		birth=yes
 	}
@@ -1558,7 +1582,6 @@
 	father=10159152
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=10
 	1580.1.1={
 		birth=yes
 	}
@@ -1571,7 +1594,6 @@
 	dynasty=10001675 # Eguchi
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=11
 	1435.1.1={
 		birth=yes
 	}
@@ -1587,7 +1609,6 @@
 	father=10159250
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=10
 	1453.1.1={
 		birth=yes
 	}
@@ -1603,7 +1624,6 @@
 	father=10159250
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=12
 	1455.1.1={
 		birth=yes
 	}
@@ -1620,7 +1640,6 @@
 	female=yes
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=11
 	1510.1.1={
 		birth=yes
 	}
@@ -1633,7 +1652,6 @@
 	dynasty=10001673 # Miseki
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=12
 	1430.1.1={
 		birth=yes
 	}
@@ -1647,7 +1665,6 @@
 	father=10159350
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=10
 	1480.1.1={
 		birth=yes
 	}
@@ -1665,7 +1682,6 @@
 	religion="shinto"
 	culture="hokkaido_wajin"
 	trait="education_diplomacy_3"
-	prowess=11
 	1520.1.1={
 		birth=yes
 	}
@@ -1680,7 +1696,6 @@
 	female=yes
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=11
 	1540.1.1={
 		birth=yes
 	}
@@ -1693,7 +1708,6 @@
 	dynasty=10001727 # Matsumae
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=10
 	1150.1.1={
 		birth=yes
 	}
@@ -1706,7 +1720,6 @@
 	dynasty=10001728 # Araki
 	religion="shinto"
 	culture="hokkaido_wajin"
-	prowess=11
 	1190.1.1={
 		birth=yes
 	}

@@ -1,0 +1,548 @@
+#######################################
+#                                     #
+#  You MUST leave 'effect' sections.  #
+#                                     #
+#######################################
+
+namespace = shogunate_bookmark
+
+# 1180 : Prince Mochihito's Rebellion
+shogunate_bookmark.0001 = {
+	hidden = yes
+
+	trigger = {
+		game_start_date = 1180.6.19
+	}
+
+	immediate = {
+	}
+
+	effect = {
+	}
+}
+
+# 1180 : Genpei War
+shogunate_bookmark.0002 = {
+	hidden = yes
+
+	trigger = {
+		game_start_date = 1180.11.10
+	}
+
+	immediate = {
+		# Genpei War
+		character:10120075 = {							# Minamoto Yoritomo
+			spawn_army = {
+				name = event_troop_default_name
+				location = capital_province
+				levies = 3000
+				inheritable = yes
+				uses_supply = no
+			}
+			spawn_army = {
+				name = event_troop_default_name
+				location = capital_province
+				levies = 3000
+				inheritable = yes
+				uses_supply = no
+			}
+			spawn_army = {
+				name = event_troop_default_name
+				location = capital_province
+				levies = 3000
+				inheritable = yes
+				uses_supply = no
+			}
+			spawn_army = {
+				name = event_troop_default_name
+				location = capital_province
+				levies = 3000
+				inheritable = yes
+				uses_supply = no
+			}
+			spawn_army = {
+				name = event_troop_default_name
+				location = capital_province
+				levies = 3000
+				inheritable = yes
+				uses_supply = no
+			}
+		}
+		character:10120084 = {							# Minamoto Yoshinaka
+			spawn_army = {
+				name = event_troop_default_name
+				location = capital_province
+				levies = 3000
+				inheritable = yes
+				uses_supply = no
+			}
+			spawn_army = {
+				name = event_troop_default_name
+				location = capital_province
+				levies = 3000
+				inheritable = yes
+				uses_supply = no
+			}
+			spawn_army = {
+				name = event_troop_default_name
+				location = capital_province
+				levies = 3000
+				inheritable = yes
+				uses_supply = no
+			}
+			spawn_army = {
+				name = event_troop_default_name
+				location = capital_province
+				levies = 3000
+				inheritable = yes
+				uses_supply = no
+			}
+			spawn_army = {
+				name = event_troop_default_name
+				location = capital_province
+				levies = 3000
+				inheritable = yes
+				uses_supply = no
+			}
+			spawn_army = {
+				name = event_troop_default_name
+				location = capital_province
+				levies = 3000
+				inheritable = yes
+				uses_supply = no
+			}
+			spawn_army = {
+				name = event_troop_default_name
+				location = capital_province
+				levies = 3000
+				inheritable = yes
+				uses_supply = no
+			}
+		}
+		character:10120111 = {							# Takeda Nobuyoshi
+			spawn_army = {
+				name = event_troop_default_name
+				location = capital_province
+				levies = 2000
+				inheritable = yes
+				uses_supply = no
+			}
+			spawn_army = {
+				name = event_troop_default_name
+				location = capital_province
+				levies = 2000
+				inheritable = yes
+				uses_supply = no
+			}
+			spawn_army = {
+				name = event_troop_default_name
+				location = capital_province
+				levies = 2000
+				inheritable = yes
+				uses_supply = no
+			}
+		}
+		character:12780645 = {							# Kikuchi Takanao
+			spawn_army = {
+				name = event_troop_default_name
+				location = capital_province
+				levies = 1000
+				inheritable = yes
+				uses_supply = no
+			}
+		}
+		character:12780100 = {							# Ogata Koreyoshi
+			spawn_army = {
+				name = event_troop_default_name
+				location = capital_province
+				levies = 1000
+				inheritable = yes
+				uses_supply = no
+			}
+		}
+		character:10240113 = {							# Takagi Muneie
+			spawn_army = {
+				name = event_troop_default_name
+				location = capital_province
+				levies = 1000
+				inheritable = yes
+				uses_supply = no
+			}
+		}
+		character:12691005 = {							# Kono Michikiyo
+			spawn_army = {
+				name = event_troop_default_name
+				location = capital_province
+				levies = 2000
+				inheritable = yes
+				uses_supply = no
+			}
+		}
+		character:12515000 = {							# Yamamoto Yoshitsune
+			spawn_army = {
+				name = event_troop_default_name
+				location = capital_province
+				levies = 2000
+				inheritable = yes
+				uses_supply = no
+			}
+		}
+		character:12420102 = {							# Toki Mitsunaga
+			spawn_army = {
+				name = event_troop_default_name
+				location = capital_province
+				levies = 2000
+				inheritable = yes
+				uses_supply = no
+			}
+		}
+		character:10120072 = {							# Minamoto Yukiie
+			spawn_army = {
+				name = event_troop_default_name
+				location = capital_province
+				levies = 2000
+				inheritable = yes
+				uses_supply = no
+			}
+		}
+	}
+
+	effect = {
+	}
+}
+
+# 1493 : Meiou Coup
+shogunate_bookmark.0003 = {
+	hidden = yes
+
+	trigger = {
+		game_start_date = 1493.6.9
+	}
+
+	immediate = {
+		# Hojo Soun's conquest of Izu
+		character:10016001 = {							# Hojo Soun
+			spawn_army = {
+				name = event_troop_default_name
+				location = capital_province
+				levies = 1000
+				inheritable = yes
+				uses_supply = no
+			}
+			spawn_army = {
+				name = event_troop_default_name
+				location = capital_province
+				levies = 1000
+				inheritable = yes
+				uses_supply = no
+			}
+			add_pressed_claim = title:d_shgnt_sagami
+			set_relation_friend = character:10023003	# Imagawa Ujichika
+		}
+	}
+
+	effect = {
+	}
+}
+
+# 1507 : Rise of Hojo Soun
+shogunate_bookmark.0004 = {
+	hidden = yes
+
+	trigger = {
+		game_start_date = 1507.1.1
+	}
+
+	immediate = {
+	}
+
+	effect = {
+	}
+}
+
+# 1511 : Battle of Funaokayama
+shogunate_bookmark.0005 = {
+	hidden = yes
+
+	trigger = {
+		game_start_date = 1511.9.25
+	}
+
+	immediate = {
+	}
+
+	effect = {
+	}
+}
+
+# 1523 : Mori's Successor
+shogunate_bookmark.0006 = {
+	hidden = yes
+
+	trigger = {
+		game_start_date = 1523.9.1
+	}
+
+	immediate = {
+	}
+
+	effect = {
+	}
+}
+
+# 1534 : Day of Fathers
+shogunate_bookmark.0007 = {
+	hidden = yes
+
+	trigger = {
+		game_start_date = 1534.6.23
+	}
+
+	immediate = {
+		# Heir
+		character:10029100 = {							# Oda Nobuhide
+			set_designated_heir = character:10029120	# Oda Nobunaga
+		}
+	}
+
+	effect = {
+	}
+}
+
+# 1546 : Battle of Kawagoe
+shogunate_bookmark.0008 = {
+	hidden = yes
+
+	trigger = {
+		game_start_date = 1546.5.18
+	}
+
+	immediate = {
+		# Battle of Kawagoe
+		character:10016004 = {							# Hojo Ujiyasu
+			add_character_modifier = {
+				modifier = surprise_attack_modifier
+				months = 60
+			}
+		}
+
+		# Heir
+		character:10029100 = {							# Oda Nobuhide
+			set_designated_heir = character:10029120	# Oda Nobunaga
+		}
+
+		# Rivalry
+		character:10023010 = {							# Imagawa Yoshimoto
+			set_relation_rival = character:10020010		# Takeda Shingen
+			set_relation_rival = character:10016004		# Hojo Ujiyasu
+		}
+	}
+
+	effect = {
+	}
+}
+
+# 1555 : Battle of Itsukushima
+shogunate_bookmark.0009 = {
+	hidden = yes
+
+	trigger = {
+		game_start_date = 1555.10.15
+	}
+
+	immediate = {
+		# Battle of Itsukushima
+		character:10056004 = {							# Mori Motonari
+			start_war = {
+				casus_belli = sengoku_invasion_war
+				target = character:10057102				# Sue Harukata
+				target_title = title:d_shgnt_suo
+				target_title = title:d_shgnt_nagato
+			}
+			add_character_modifier = {
+				modifier = surprise_attack_modifier
+				months = 60
+			}
+		}
+
+		# Rivalry
+		character:10023010 = {							# Imagawa Yoshimoto
+			set_relation_rival = character:10020010		# Takeda Shingen
+			set_relation_rival = character:10016004		# Hojo Ujiyasu
+		}
+		character:10020010 = {							# Takeda Shingen
+			set_relation_rival = character:10032011		# Uesugi Kenshin
+			set_relation_rival = character:10016004		# Hojo Ujiyasu
+		}
+	}
+
+	effect = {
+	}
+}
+
+# 1560 : Battle of Okehazama
+shogunate_bookmark.0010 = {
+	hidden = yes
+
+	trigger = {
+		game_start_date = 1560.6.11
+	}
+
+	immediate = {
+		# Battle of Okehazama
+		character:10029120 = {							# Oda Nobunaga
+			add_character_modifier = {
+				modifier = surprise_attack_modifier
+				months = 60
+			}
+		}
+
+		# Oda Nobunaga's conquest of Mino
+		character:10029120 = {							# Oda Nobunaga
+			add_pressed_claim  = title:d_shgnt_mino
+			break_alliance     = character:10025502		# Saito Yoshitatsu
+			set_relation_rival = character:10025502		# Saito Yoshitatsu
+		}
+
+		# Rivalry
+		character:10023010 = {							# Imagawa Yoshimoto
+			set_relation_rival = character:10020010		# Takeda Shingen
+			set_relation_rival = character:10016004		# Hojo Ujiyasu
+		}
+		character:10020010 = {							# Takeda Shingen
+			set_relation_rival = character:10032011		# Uesugi Kenshin
+			set_relation_rival = character:10016004		# Hojo Ujiyasu
+		}
+	}
+
+	effect = {
+	}
+}
+
+# 1568 : Tenka Fubu
+shogunate_bookmark.0011 = {
+	hidden = yes
+
+	trigger = {
+		game_start_date = 1568.1.1
+	}
+
+	immediate = {
+		# Azai-Asakura Alliance
+		character:10043015 = {							# Azai Nagamasa
+			create_alliance = character:10030011		# Asakura Yoshikage
+		}
+
+		# Friendship
+		character:10029120 = {							# Oda Nobunaga
+			set_relation_friend = character:10024006	# Tokugawa Ieyasu
+		}
+
+		# Rivalry
+		character:10020010 = {							# Takeda Shingen
+			set_relation_rival = character:10032011		# Uesugi Kenshin
+			set_relation_rival = character:10016004		# Hojo Ujiyasu
+			set_relation_rival = character:10029120		# Oda Nobunaga
+		}
+	}
+
+	effect = {
+	}
+}
+
+# 1575 : Battle of Nagashino
+shogunate_bookmark.0012 = {
+	hidden = yes
+
+	trigger = {
+		game_start_date = 1575.6.28
+	}
+
+	immediate = {
+		# Friendship
+		character:10029120 = {							# Oda Nobunaga
+			set_relation_friend = character:10024006	# Tokugawa Ieyasu
+		}
+
+		# Rivalry
+		character:10029120 = {							# Oda Nobunaga
+			set_relation_rival = character:10020033		# Takeda Katsuyori
+			set_relation_rival = character:10032011		# Uesugi Kenshin
+			set_relation_rival = character:10056025		# Mori Terumoto
+			set_relation_rival = character:10042210		# Honganji Kennyo
+		}
+	}
+
+	effect = {
+	}
+}
+
+# 1578 : 3rd Restoration of Amago
+shogunate_bookmark.0013 = {
+	hidden = yes
+
+	trigger = {
+		game_start_date = 1578.2.1
+	}
+
+	immediate = {
+		# Rivalry
+		character:10029120 = {							# Oda Nobunaga
+			set_relation_rival = character:10020033		# Takeda Katsuyori
+			set_relation_rival = character:10032011		# Uesugi Kenshin
+			set_relation_rival = character:10056025		# Mori Terumoto
+			set_relation_rival = character:10042210		# Honganji Kennyo
+		}
+	}
+
+	effect = {
+	}
+}
+
+# 1582 : Fall of Takeda
+shogunate_bookmark.0014 = {
+	hidden = yes
+
+	trigger = {
+		game_start_date = 1582.1.1
+	}
+
+	immediate = {
+		# Rivalry
+		character:10029120 = {							# Oda Nobunaga
+			set_relation_rival = character:10020033		# Takeda Katsuyori
+			set_relation_rival = character:10032032		# Uesugi Kagekatsu
+			set_relation_rival = character:10056025		# Mori Terumoto
+		}
+	}
+
+	effect = {
+	}
+}
+
+# 1582 : Honno-ji Incident
+shogunate_bookmark.0015 = {
+	hidden = yes
+
+	trigger = {
+		game_start_date = 1582.6.21
+	}
+
+	immediate = {
+		# Rivalry
+		character:10025632 = {							# Akechi Mitsuhide
+			set_relation_rival = character:10029161		# Oda Nobukatsu
+			set_relation_rival = character:10029162		# Oda Nobutaka
+			set_relation_rival = character:10029280		# Shibata Katsuie
+			set_relation_rival = character:10029330		# Takigawa Kazumasu
+			set_relation_rival = character:10029400		# Hashiba Hideyoshi
+		}
+
+		character:10024006 = {							# Tokugawa Ieyasu
+			set_relation_rival = character:10021150		# Sanada Masayuki
+		}
+	}
+
+	effect = {
+	}
+}

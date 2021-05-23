@@ -3,7 +3,6 @@
 	dynasty=10007115 # Kaneko 
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1140.1.1={
 		birth=yes
 	}
@@ -17,7 +16,6 @@
 	father=12660000 # Kaneko Michiyoshi
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1170.1.1={
 		birth=yes
 	}
@@ -30,7 +28,6 @@
 	dynasty=10007116 # Tachibana
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1140.1.1={
 		birth=yes
 	}
@@ -43,7 +40,6 @@
 	dynasty=10007117 # Hayama
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1150.1.1={
 		birth=yes
 	}
@@ -57,7 +53,6 @@
 	father=12660200 # Hayama Yorimune
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1180.1.1={
 		birth=yes
 	}
@@ -70,7 +65,6 @@
 	dynasty=10007118 # Nuka
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1110.1.1={
 		birth=yes
 	}
@@ -84,12 +78,11 @@
 	father=12660300 # Nuka Koretaka
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1135.1.1={
 		birth=yes
 	}
 	1180.1.1={
-		effect={
+		effect = {
 			set_realm_capital=title:c_shgnt_ashita
 		}
 	}
@@ -103,7 +96,6 @@
 	father=12660300 # Nuka Koretaka
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1137.1.1={
 		birth=yes
 	}
@@ -117,7 +109,6 @@
 	father=12660302 # Nuka Takashige
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1160.1.1={
 		birth=yes
 	}
@@ -130,7 +121,6 @@
 	dynasty=10007119 # Saeki
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1110.1.1={
 		birth=yes
 	}
@@ -144,13 +134,16 @@
 	father=12660400 # Saeki Yorinobu
 	religion="shinto"
 	culture="western_chugoku"
+	learning=8
 	trait="education_learning_3"
-	prowess=12
 	1140.1.1={
 		birth=yes
 	}
 	1182.1.1={
-		trait="jugoi_ge"
+		give_nickname="nick_the_aki_no_kami"
+		effect = {
+			add_trait = "jugoi_ge"
+		}
 	}
 	1200.1.1={
 		death=yes
@@ -162,7 +155,6 @@
 	father=12660401 # Saeki Kagehiro
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1170.1.1={
 		birth=yes
 	}
@@ -175,7 +167,6 @@
 	dynasty=10007120 # Nuta
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1100.1.1={
 		birth=yes
 	}
@@ -189,7 +180,6 @@
 	father=12660500 # Nuta Taro
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1126.1.1={
 		birth=yes
 	}
@@ -204,7 +194,6 @@
 	father=12660500 # Nuta Taro
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1135.1.1={
 		birth=yes
 	}
@@ -218,7 +207,6 @@
 	father=12660500 # Nuta Taro
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1140.1.1={
 		birth=yes
 	}
@@ -231,7 +219,6 @@
 	dynasty=10007121 # Yamagata
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1140.1.1={
 		birth=yes
 	}
@@ -245,7 +232,6 @@
 	father=12660600 # Yamagata Tametsuna
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1170.1.1={
 		birth=yes
 	}
@@ -258,7 +244,6 @@
 	dynasty=10007122 # So
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1160.1.1={
 		birth=yes
 	}
@@ -271,7 +256,6 @@
 	dynasty=10007123 # Iwakuni
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1120.1.1={
 		birth=yes
 	}
@@ -285,7 +269,6 @@
 	father=12660800 # Iwakuni Kanemitsu
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1145.1.1={
 		birth=yes
 	}
@@ -302,7 +285,6 @@
 	father=12660800 # Iwakuni Kanemitsu
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1150.1.1={
 		birth=yes
 	}
@@ -319,7 +301,6 @@
 	father=12660801 # Iwakuni Kanehide
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1170.1.1={
 		birth=yes
 	}
@@ -332,7 +313,6 @@
 	dynasty=10007124 # Toyota
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1140.1.1={
 		birth=yes
 	}
@@ -346,7 +326,6 @@
 	father=12660900 # Toyota Tanehiro
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1170.1.1={
 		birth=yes
 	}
@@ -360,7 +339,6 @@
 	father=12660900 # Toyota Tanehiro
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1172.1.1={
 		birth=yes
 	}
@@ -374,7 +352,6 @@
 	father=12660900 # Toyota Tanehiro
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1174.1.1={
 		birth=yes
 	}
@@ -388,7 +365,6 @@
 	father=12660900 # Toyota Tanehiro
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1176.1.1={
 		birth=yes
 	}
@@ -402,7 +378,6 @@
 	father=12660901 # Toyota Tanetaka
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1200.1.1={
 		birth=yes
 	}
@@ -416,7 +391,6 @@
 	father=12660901 # Toyota Tanetaka
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1202.1.1={
 		birth=yes
 	}
@@ -430,7 +404,6 @@
 	father=12660905 # Toyota Tanetsuna
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1230.1.1={
 		birth=yes
 	}
@@ -444,7 +417,6 @@
 	father=12660905 # Toyota Tanetsuna
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1232.1.1={
 		birth=yes
 	}
@@ -458,7 +430,6 @@
 	father=12660907 # Toyota Taneuji
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1260.1.1={
 		birth=yes
 	}
@@ -472,7 +443,6 @@
 	father=12660907 # Toyota Taneuji
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1262.1.1={
 		birth=yes
 	}
@@ -486,11 +456,36 @@
 	father=12660907 # Toyota Taneuji
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1264.1.1={
 		birth=yes
 	}
 	1324.1.1={
+		death=yes
+	}
+}
+12660920={
+	name=character_name_12660920 # Tanenaga
+	dynasty=10007124 # Toyota
+	father=12660909 # Toyota Tanesada
+	religion="shinto"
+	culture="western_chugoku"
+	1290.1.1={
+		birth=yes
+	}
+	1350.1.1={
+		death=yes
+	}
+}
+12660925={
+	name=character_name_12660925 # Tanefuji
+	dynasty=10007124 # Toyota
+	father=12660920 # Toyota Tanenaga
+	religion="shinto"
+	culture="western_chugoku"
+	1320.1.1={
+		birth=yes
+	}
+	1380.1.1={
 		death=yes
 	}
 }
@@ -499,7 +494,6 @@
 	dynasty=10007125 # Koto
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1130.1.1={
 		birth=yes
 	}
@@ -513,7 +507,6 @@
 	father=12661000 # Koto Takemitsu
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1155.1.1={
 		birth=yes
 	}
@@ -527,7 +520,6 @@
 	father=12661000 # Koto Takemitsu
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1157.1.1={
 		birth=yes
 	}
@@ -541,7 +533,6 @@
 	father=12661000 # Koto Takemitsu
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1159.1.1={
 		birth=yes
 	}
@@ -555,7 +546,6 @@
 	father=12661001 # Koto Takekage
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1180.1.1={
 		birth=yes
 	}
@@ -569,7 +559,6 @@
 	father=12661001 # Koto Takekage
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1182.1.1={
 		birth=yes
 	}
@@ -583,7 +572,6 @@
 	father=12661004 # Koto Takeyoshi
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1205.1.1={
 		birth=yes
 	}
@@ -597,7 +585,6 @@
 	father=12661004 # Koto Takeyoshi
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1207.1.1={
 		birth=yes
 	}
@@ -611,7 +598,6 @@
 	father=12661006 # Koto Taketomo
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1230.1.1={
 		birth=yes
 	}
@@ -625,7 +611,6 @@
 	father=12661006 # Koto Taketomo
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1235.1.1={
 		birth=yes
 	}
@@ -639,7 +624,6 @@
 	father=12661008 # Koto Taketomo
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1255.1.1={
 		birth=yes
 	}
@@ -653,7 +637,6 @@
 	father=12661009 # Koto Takeyuki
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1260.1.1={
 		birth=yes
 	}
@@ -667,11 +650,62 @@
 	father=12661009 # Koto Takeyuki
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1262.1.1={
 		birth=yes
 	}
 	1322.1.1={
+		death=yes
+	}
+}
+12661020={
+	name=character_name_12661020 # Takezane
+	dynasty=10007125 # Koto
+	father=12661011 # Koto Takenaka
+	religion="shinto"
+	culture="western_chugoku"
+	1280.1.1={
+		birth=yes
+	}
+	1348.11.30={
+		death=yes
+	}
+}
+12661025={
+	name=character_name_12661025 # Takemura
+	dynasty=10007125 # Koto
+	father=12661020 # Koto Takezane
+	religion="shinto"
+	culture="western_chugoku"
+	1300.1.1={
+		birth=yes
+	}
+	1349.1.1={
+		death=yes
+	}
+}
+12661030={
+	name=character_name_12661030 # Takenao
+	dynasty=10007125 # Koto
+	father=12661025 # Koto Takemura
+	religion="shinto"
+	culture="western_chugoku"
+	1320.1.1={
+		birth=yes
+	}
+	1353.1.1={
+		death=yes
+	}
+}
+12661035={
+	name=character_name_12661035 # Yoshitake
+	dynasty=10007125 # Koto
+	father=12661030 # Koto Takenao
+	religion="shinto"
+	culture="western_chugoku"
+	1340.1.1={
+		birth=yes
+	}
+	1400.1.1={
 		death=yes
 	}
 }
@@ -680,7 +714,6 @@
 	dynasty=10007126 # Kii
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1140.1.1={
 		birth=yes
 	}
@@ -694,7 +727,6 @@
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1120.1.1={
 		birth=yes
 	}
@@ -709,7 +741,6 @@
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1140.1.1={
 		birth=yes
 	}
@@ -724,14 +755,39 @@
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1170.1.1={
 		birth=yes
 	}
 	1186.1.1={
 		give_nickname="nick_the_uemon_no_jo"
 	}
-	1220.1.1={
+	1230.1.1={
+		death=yes
+	}
+}
+12661211={
+	name=character_name_12661211 # Kanenobu
+	dynasty=10007337 # Misumi
+	father=12661205 # Masuda Kanetaka
+	religion="shinto"
+	culture="western_chugoku"
+	1175.1.1={
+		birth=yes
+	}
+	1235.1.1={
+		death=yes
+	}
+}
+12661212={
+	name=character_name_12661212 # Kanehiro
+	dynasty=10000569 # Fukuya
+	father=12661205 # Masuda Kanetaka
+	religion="shinto"
+	culture="western_chugoku"
+	1180.1.1={
+		birth=yes
+	}
+	1240.1.1={
 		death=yes
 	}
 }
@@ -742,14 +798,13 @@
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
-	1195.1.1={
+	1200.1.1={
 		birth=yes
 	}
-	1211.1.1={
+	1216.1.1={
 		give_nickname="nick_Tarozaemon"
 	}
-	1250.1.1={
+	1280.1.1={
 		death=yes
 	}
 }
@@ -760,7 +815,6 @@
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1210.1.1={
 		birth=yes
 	}
@@ -775,7 +829,6 @@
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1215.1.1={
 		birth=yes
 	}
@@ -791,7 +844,6 @@
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1230.1.1={
 		birth=yes
 	}
@@ -806,11 +858,10 @@
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
-	1240.1.1={
+	1250.1.1={
 		birth=yes
 	}
-	1300.1.1={
+	1310.1.1={
 		death=yes
 	}
 }
@@ -821,7 +872,6 @@
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1242.1.1={
 		birth=yes
 	}
@@ -839,7 +889,6 @@
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1245.1.1={
 		birth=yes
 	}
@@ -854,7 +903,6 @@
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1247.1.1={
 		birth=yes
 	}
@@ -872,7 +920,6 @@
 	trait="education_martial_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1196.1.1={
 		birth=yes
 	}
@@ -890,7 +937,6 @@
 	trait="education_martial_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1210.1.1={
 		birth=yes
 	}
@@ -908,7 +954,6 @@
 	trait="education_martial_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1230.1.1={
 		birth=yes
 	}
@@ -926,7 +971,6 @@
 	trait="education_martial_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1250.1.1={
 		birth=yes
 	}
@@ -943,7 +987,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	590.1.1={
 		birth=yes
 	}
@@ -958,7 +1001,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	620.1.1={
 		birth=yes
 	}
@@ -973,7 +1015,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	660.1.1={
 		birth=yes
 	}
@@ -988,7 +1029,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	700.1.1={
 		birth=yes
 	}
@@ -1003,7 +1043,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	740.1.1={
 		birth=yes
 	}
@@ -1018,7 +1057,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	780.1.1={
 		birth=yes
 	}
@@ -1033,7 +1071,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	820.1.1={
 		birth=yes
 	}
@@ -1048,7 +1085,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	860.1.1={
 		birth=yes
 	}
@@ -1063,7 +1099,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	900.1.1={
 		birth=yes
 	}
@@ -1078,7 +1113,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	930.1.1={
 		birth=yes
 	}
@@ -1093,7 +1127,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	970.1.1={
 		birth=yes
 	}
@@ -1108,7 +1141,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1010.1.1={
 		birth=yes
 	}
@@ -1123,7 +1155,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1040.1.1={
 		birth=yes
 	}
@@ -1138,7 +1169,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1080.1.1={
 		birth=yes
 	}
@@ -1153,7 +1183,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1110.1.1={
 		birth=yes
 	}
@@ -1162,7 +1191,6 @@
 	}
 	1185.1.1={
 		death=yes
-		dynasty=10000570 # Ouchi
 	}
 }
 12661415 = {
@@ -1172,7 +1200,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1140.1.1={
 		birth=yes
 	}
@@ -1192,7 +1219,6 @@
 	trait="education_diplomacy_2"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1170.1.1={
 		birth=yes
 	}
@@ -1211,12 +1237,13 @@
 	trait="education_stewardship_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1200.1.1={
 		birth=yes
 	}
 	1232.1.1={
-		trait="jugoi_ge"
+		effect = {
+			add_trait = "jugoi_ge"
+		}
 	}
 	1244.10.21={
 		death=yes
@@ -1229,12 +1256,13 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1220.1.1={
 		birth=yes
 	}
 	1232.1.1={
-		trait="jugoi_ge"
+		effect = {
+			add_trait = "jugoi_ge"
+		}
 	}
 	1296.7.29={
 		death=yes
@@ -1247,7 +1275,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1245.1.1={
 		birth=yes
 	}
@@ -1261,7 +1288,6 @@
 	father=12661418 # Ouchi Hirosada
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1277.1.1={
 		birth=yes
 	}
@@ -1281,7 +1307,6 @@
 	father=12661417 # Ouchi Hironari
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1222.1.1={
 		birth=yes
 	}
@@ -1302,7 +1327,6 @@
 	father=12661417 # Ouchi Hironari
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1225.1.1={
 		birth=yes
 	}
@@ -1317,7 +1341,6 @@
 	father=12661417 # Ouchi Hironari
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1227.1.1={
 		birth=yes
 	}
@@ -1331,7 +1354,6 @@
 	father=12661417 # Ouchi Hironari
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1230.1.1={
 		birth=yes
 	}
@@ -1351,7 +1373,6 @@
 	father=12661416 # Ouchi Mitsumori
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1203.1.1={
 		birth=yes
 	}
@@ -1366,7 +1387,6 @@
 	father=12661415 # Ouchi Hiromori
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1172.1.1={
 		birth=yes
 	}
@@ -1388,7 +1408,6 @@
 	father=12661415 # Ouchi Hiromori
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1175.1.1={
 		birth=yes
 	}
@@ -1409,7 +1428,6 @@
 	father=12661414 # Ouchi Morifusa
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1142.1.1={
 		birth=yes
 	}
@@ -1434,7 +1452,6 @@
 	father=12661414 # Ouchi Morifusa
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1144.1.1={
 		birth=yes
 	}
@@ -1459,7 +1476,6 @@
 	father=12661414 # Ouchi Morifusa
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1146.1.1={
 		birth=yes
 	}
@@ -1477,7 +1493,6 @@
 	father=12661414 # Ouchi Morifusa
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1152.1.1={
 		birth=yes
 	}
@@ -1498,7 +1513,6 @@
 	father=12661414 # Ouchi Morifusa
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1154.1.1={
 		birth=yes
 	}
@@ -1523,7 +1537,6 @@
 	father=12661413 # Tatara Sadanari
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1115.1.1={
 		birth=yes
 	}
@@ -1544,13 +1557,14 @@
 	father=12661413 # Tatara Sadanari
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1117.1.1={
 		birth=yes
 	}
 	1127.1.1={
-		trait="devoted"
 		culture="saigoku_buddhist"
+		effect = {
+			add_trait = "devoted"
+		}
 	}
 	1167.1.1={
 		death=yes
@@ -1562,7 +1576,6 @@
 	father=12661413 # Tatara Sadanari
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1120.1.1={
 		birth=yes
 	}
@@ -1576,7 +1589,6 @@
 	father=12661413 # Tatara Sadanari
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1122.1.1={
 		birth=yes
 	}
@@ -1593,7 +1605,6 @@
 	father=12661436 # Tatara Morisuke
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1145.1.1={
 		birth=yes
 	}
@@ -1610,7 +1621,6 @@
 	father=12661436 # Tatara Morisuke
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1147.1.1={
 		birth=yes
 	}
@@ -1627,7 +1637,6 @@
 	father=12661436 # Tatara Morisuke
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1149.1.1={
 		birth=yes
 	}
@@ -1644,7 +1653,6 @@
 	father=12661438 # Tatara Morinori
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1170.1.1={
 		birth=yes
 	}
@@ -1661,7 +1669,6 @@
 	father=12661412 # Tatara Sadanaga
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1083.1.1={
 		birth=yes
 	}
@@ -1679,7 +1686,6 @@
 	father=12661412 # Tatara Sadanaga
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1086.1.1={
 		birth=yes
 	}
@@ -1693,7 +1699,6 @@
 	father=12661444 # Tatara Morizane
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1110.1.1={
 		birth=yes
 	}
@@ -1707,12 +1712,13 @@
 	father=12661445 # Tatara Narizane
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1135.1.1={
 		birth=yes
 	}
 	1175.1.1={
-		trait="devoted"
+		effect = {
+			add_trait = "devoted"
+		}
 	}
 	1180.1.1={
 		employer=12661415 # Ouchi Hiromori
@@ -1727,7 +1733,6 @@
 	father=12661445 # Tatara Narizane
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1138.1.1={
 		birth=yes
 	}
@@ -1747,7 +1752,6 @@
 	father=12661446 # Tatara Naritaka
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1160.1.1={
 		birth=yes
 	}
@@ -1768,7 +1772,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1150.1.1={
 		birth=yes
 	}
@@ -1787,7 +1790,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1190.1.1={
 		birth=yes
 	}
@@ -1801,7 +1803,6 @@
 	father=12661450 # Migita Moritsuna
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1197.1.1={
 		birth=yes
 	}
@@ -1819,7 +1820,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1230.1.1={
 		birth=yes
 	}
@@ -1827,7 +1827,9 @@
 		give_nickname="nick_hachiro"
 	}
 	1260.1.1={
-#		trait="zen_buddhist"
+		effect = {
+#			add_trait = "zen_buddhist"
+		}
 	}
 	1270.1.1={
 		death=yes
@@ -1839,7 +1841,6 @@
 	father=12661454 # Migita Hirotoshi
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1265.1.1={
 		birth=yes
 	}
@@ -1847,7 +1848,9 @@
 		give_nickname="nick_taro"
 	}
 	1300.1.1={
-#		trait="zen_buddhist"
+		effect = {
+#			add_trait = "zen_buddhist"
+		}
 	}
 	1325.1.1={
 		death=yes
@@ -1859,7 +1862,6 @@
 	father=12661455 # Migita Shigetoshi
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1300.1.1={
 		birth=yes
 	}
@@ -1879,7 +1881,6 @@
 	father=12661455 # Migita Shigetoshi
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1302.1.1={
 		birth=yes
 	}
@@ -1898,7 +1899,6 @@
 	father=12661455 # Migita Shigetoshi
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1305.1.1={
 		birth=yes
 	}
@@ -1915,7 +1915,6 @@
 	father=12661456 # Migita Shigesada
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1335.1.1={
 		birth=yes
 	}
@@ -1932,13 +1931,14 @@
 	father=12661456 # Migita Shigesada
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1337.1.1={
 		birth=yes
 	}
 	1347.1.1={
-		trait="devoted"
 		culture="saigoku_buddhist"
+		effect = {
+			add_trait = "devoted"
+		}
 	}
 	1397.1.1={
 		death=yes
@@ -1950,7 +1950,6 @@
 	father=12661456 # Migita Shigesada
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1340.1.1={
 		birth=yes
 	}
@@ -1961,7 +1960,9 @@
 		give_nickname="nick_echigo_no_kami"
 	}
 	1395.1.1={
-		trait="devoted"
+		effect = {
+			add_trait = "devoted"
+		}
 	}
 	1400.1.1={
 		death=yes
@@ -1973,7 +1974,6 @@
 	father=12661456 # Migita Shigesada
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1345.1.1={
 		birth=yes
 	}
@@ -1992,7 +1992,6 @@
 	father=12661459 # Migita Naoshige
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1370.1.1={
 		birth=yes
 	}
@@ -2009,7 +2008,6 @@
 	father=12661463 # Migita Hironao
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1405.1.1={
 		birth=yes
 	}
@@ -2029,7 +2027,6 @@
 	father=12661464 # Migita Morinao
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1440.1.1={
 		birth=yes
 	}
@@ -2048,7 +2045,6 @@
 	father=12661461 # Migita Hirofusa
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1375.1.1={
 		birth=yes
 	}
@@ -2065,7 +2061,6 @@
 	father=12661461 # Migita Hirofusa
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1380.1.1={
 		birth=yes
 	}
@@ -2082,7 +2077,6 @@
 	father=12661466 # Migita Sadakatsu
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1410.1.1={
 		birth=yes
 	}
@@ -2104,7 +2098,6 @@
 	father=12661468 # Migita Sadatoshi
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1430.1.1={
 		birth=yes
 	}
@@ -2123,7 +2116,6 @@
 	father=12661468 # Migita Sadatoshi
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1434.1.1={
 		birth=yes
 	}
@@ -2142,7 +2134,6 @@
 	father=12661469 # Migita Sadayasu
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1461.1.1={
 		birth=yes
 		employer=10057008 # Ouchi Norihiro
@@ -2171,7 +2162,6 @@
 	father=12661469 # Migita Sadayasu
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1463.1.1={
 		birth=yes
 		employer=10057008 # Ouchi Norihiro
@@ -2195,7 +2185,6 @@
 	father=12661469 # Migita Sadayasu
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1465.1.1={
 		birth=yes
 		employer=10057008 # Ouchi Norihiro
@@ -2222,7 +2211,6 @@
 	father=12661469 # Migita Sadayasu
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1467.1.1={
 		birth=yes
 		employer=10057007 # Ouchi Masahiro
@@ -2243,7 +2231,6 @@
 	father=12661471 # Migita Hirokazu
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1485.1.1={
 		birth=yes
 		employer=10057007 # Ouchi Masahiro
@@ -2264,7 +2251,6 @@
 	father=12661475 # Migita Okikazu
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1505.1.1={
 		birth=yes
 		employer=10057001 # Ouchi Yoshioki
@@ -2288,7 +2274,6 @@
 	father=12661476 # Migita Okiyasu
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1525.1.1={
 		birth=yes
 		employer=10057001 # Ouchi Yoshioki
@@ -2312,7 +2297,6 @@
 	father=12661477 # Migita Takakazu
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1545.1.1={
 		birth=yes
 		employer=10057002 # Ouchi Yoshitaka
@@ -2330,7 +2314,6 @@
 	father=12661477 # Migita Takakazu
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1547.1.1={
 		birth=yes
 		employer=10057002 # Ouchi Yoshitaka
@@ -2349,7 +2332,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1260.1.1={
 		birth=yes
 	}
@@ -2370,7 +2352,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1290.1.1={
 		birth=yes
 	}
@@ -2390,7 +2371,6 @@
 	father=12661480 # Migita Hirokata
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1293.1.1={
 		birth=yes
 		employer=12661418 # Ouchi Hirosada
@@ -2405,14 +2385,15 @@
 	father=12661480 # Migita Hirokata
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1296.1.1={
 		birth=yes
 		employer=12661418 # Ouchi Hirosada
 	}
 	1306.1.1={
-		trait="devoted"
 		culture="saigoku_buddhist"
+		effect = {
+			add_trait = "devoted"
+		}
 	}
 	1346.1.1={
 		death=yes
@@ -2425,7 +2406,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1310.1.1={
 		birth=yes
 	}
@@ -2446,7 +2426,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1320.1.1={
 		birth=yes
 	}
@@ -2468,14 +2447,15 @@
 	father=12661481 # Sue Hiromasa
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1322.1.1={
 		birth=yes
 		employer=10057018 # Ouchi Hiroyuki
 	}
 	1332.1.1={
-		trait="devoted"
 		culture="saigoku_buddhist"
+		effect = {
+			add_trait = "devoted"
+		}
 	}
 	1372.1.1={
 		death=yes
@@ -2487,7 +2467,6 @@
 	father=12661481 # Sue Hiromasa
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1324.1.1={
 		birth=yes
 		employer=10057018 # Ouchi Hiroyuki
@@ -2502,7 +2481,6 @@
 	father=12661481 # Sue Hiromasa
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1326.1.1={
 		birth=yes
 		employer=10057018 # Ouchi Hiroyuki
@@ -2517,7 +2495,6 @@
 	father=12661481 # Sue Hiromasa
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1328.1.1={
 		birth=yes
 		employer=10057018 # Ouchi Hiroyuki
@@ -2532,14 +2509,15 @@
 	father=12661481 # Sue Hiromasa
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1330.1.1={
 		birth=yes
 		employer=10057018 # Ouchi Hiroyuki
 	}
 	1340.1.1={
-		trait="devoted"
 		culture="saigoku_buddhist"
+		effect = {
+			add_trait = "devoted"
+		}
 	}
 	1380.1.1={
 		death=yes
@@ -2551,14 +2529,15 @@
 	father=12661488 # Sue IzumiNoKami
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1351.1.1={
 		birth=yes
 		employer=10057018 # Ouchi Hiroyuki
 	}
 	1361.1.1={
-		trait="devoted"
 		culture="saigoku_buddhist"
+		effect = {
+			add_trait = "devoted"
+		}
 	}
 	1401.1.1={
 		death=yes
@@ -2571,7 +2550,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1330.1.1={
 		birth=yes
 	}
@@ -2591,7 +2569,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1335.1.1={
 		birth=yes
 	}
@@ -2609,7 +2586,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1340.1.1={
 		birth=yes
 	}
@@ -2632,7 +2608,6 @@
 	father=12661493 # Sue Nobuaki
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1360.1.1={
 		birth=yes
 		employer=10057014 # Ouchi Hiroyo
@@ -2653,7 +2628,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1380.1.1={
 		birth=yes
 	}
@@ -2674,7 +2648,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1420.1.1={
 		birth=yes
 	}
@@ -2696,7 +2669,6 @@
 	father=12661496 # Sue Morimasa
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1425.1.1={
 		birth=yes
 	}
@@ -2720,7 +2692,6 @@
 	dynasty=10000566 # Naito
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1100.1.1={
 		birth=yes
 	}
@@ -2734,7 +2705,6 @@
 	father=12661500
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1130.1.1={
 		birth=yes
 	}
@@ -2748,7 +2718,6 @@
 	father=12661505
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1157.1.1={
 		birth=yes
 	}
@@ -2762,7 +2731,6 @@
 	father=12661510
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1186.1.1={
 		birth=yes
 	}
@@ -2776,12 +2744,13 @@
 	father=12661510
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1188.1.1={
 		birth=yes
 	}
 	1240.1.1={
-		trait="jugoi_ge"
+		effect = {
+			add_trait = "jugoi_ge"
+		}
 	}
 	1254.2.8={
 		death=yes
@@ -2793,7 +2762,6 @@
 	father=12661516
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1230.1.1={
 		birth=yes
 	}
@@ -2807,7 +2775,6 @@
 	father=12661520
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1270.1.1={
 		birth=yes
 	}
@@ -2821,7 +2788,6 @@
 	religion="shinto"
 	culture="western_chugoku"
 	trait="education_diplomacy_2"
-	prowess=11
 	1140.1.1={
 		birth=yes
 	}
@@ -2835,7 +2801,6 @@
 	religion="shinto"
 	culture="western_chugoku"
 	trait="education_diplomacy_2"
-	prowess=10
 	1140.1.1={
 		birth=yes
 	}
@@ -2853,7 +2818,6 @@
 	father=12661443 # Tatara Kiyomune
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1108.1.1={
 		birth=yes
 	}
@@ -2868,7 +2832,6 @@
 	father=12661443 # Tatara Kiyomune
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1110.1.1={
 		birth=yes
 	}
@@ -2883,7 +2846,6 @@
 	father=12661443 # Tatara Kiyomune
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1113.1.1={
 		birth=yes
 	}
@@ -2901,7 +2863,6 @@
 	father=12661443 # Tatara Kiyomune
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1116.1.1={
 		birth=yes
 	}
@@ -2919,7 +2880,6 @@
 	father=12661800 # Uno Ieyasu
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1133.1.1={
 		birth=yes
 	}
@@ -2940,7 +2900,6 @@
 	father=12661800 # Uno Ieyasu
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1135.1.1={
 		birth=yes
 	}
@@ -2958,7 +2917,6 @@
 	father=12661804 # Uno Takamitsu
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1158.1.1={
 		birth=yes
 	}
@@ -2976,7 +2934,6 @@
 	father=12661806 # Uno Morimasa
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1183.1.1={
 		birth=yes
 	}
@@ -2994,7 +2951,6 @@
 	father=12661807 # Uno Mitsumasa
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1208.1.1={
 		birth=yes
 	}
@@ -3009,7 +2965,6 @@
 	father=12661805 # Uno Suketsuna
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1165.1.1={
 		birth=yes
 	}
@@ -3027,7 +2982,6 @@
 	father=12661810 # Uno Noritsuna
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1195.1.1={
 		birth=yes
 	}
@@ -3042,7 +2996,6 @@
 	father=12661810 # Uno Noritsuna
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1200.1.1={
 		birth=yes
 	}
@@ -3057,7 +3010,6 @@
 	father=12661812 # Uno Norinaga
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1230.1.1={
 		birth=yes
 	}
@@ -3072,7 +3024,6 @@
 	father=12661813 # Uno Sukemori
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1260.1.1={
 		birth=yes
 	}
@@ -3087,7 +3038,6 @@
 	father=12661801 # Uno Munenari
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1135.1.1={
 		birth=yes
 	}
@@ -3105,7 +3055,6 @@
 	father=12661802 # Uno Yasusada
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1138.1.1={
 		birth=yes
 	}
@@ -3126,7 +3075,6 @@
 	father=12661802 # Uno Yasusada
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1140.1.1={
 		birth=yes
 	}
@@ -3144,7 +3092,6 @@
 	father=12661802 # Uno Yasusada
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1143.1.1={
 		birth=yes
 	}
@@ -3162,7 +3109,6 @@
 	father=12661818 # Uno Shigemitsu
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1168.1.1={
 		birth=yes
 	}
@@ -3183,7 +3129,6 @@
 	father=12661803 # Uno Shigemasa
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1146.1.1={
 		birth=yes
 	}
@@ -3201,7 +3146,6 @@
 	father=12661825 # Uno Sadayuki
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1171.1.1={
 		birth=yes
 	}
@@ -3219,7 +3163,6 @@
 	father=12661825 # Uno Sadayuki
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1176.1.1={
 		birth=yes
 	}
@@ -3236,7 +3179,6 @@
 	father=12661435 # Tatara Chusen
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1142.1.1={
 		birth=yes
 	}
@@ -3257,7 +3199,6 @@
 	father=12661437 # Tatara Nariyasu
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1147.1.1={
 		birth=yes
 	}
@@ -3276,7 +3217,6 @@
 	father=12661851 # Yoshiki Yasuhiro
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1172.1.1={
 		birth=yes
 	}
@@ -3295,7 +3235,6 @@
 	father=12661851 # Yoshiki Yasuhiro
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1175.1.1={
 		birth=yes
 	}
@@ -3317,7 +3256,6 @@
 	father=12661428 # Ouchi Nagafusa
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1177.1.1={
 		birth=yes
 	}
@@ -3335,7 +3273,6 @@
 	father=12661854 # Toida Hirotsune
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1212.1.1={
 		birth=yes
 	}
@@ -3352,7 +3289,6 @@
 	father=12661854 # Toida Hirotsune
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1217.1.1={
 		birth=yes
 	}
@@ -3369,7 +3305,6 @@
 	father=12661855 # Toida Naritsuna
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1252.1.1={
 		birth=yes
 	}
@@ -3383,7 +3318,6 @@
 	father=12661857 # Toida Tsunesada
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1287.1.1={
 		birth=yes
 	}
@@ -3391,7 +3325,9 @@
 		give_nickname="nick_goro"
 	}
 	1345.1.1={
-		trait="devoted"
+		effect = {
+			add_trait = "devoted"
+		}
 	}
 	1347.1.1={
 		death=yes
@@ -3404,7 +3340,6 @@
 	father=12661857 # Toida Tsunesada
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1290.1.1={
 		birth=yes
 	}
@@ -3418,7 +3353,6 @@
 	father=12661857 # Toida Tsunesada
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1292.1.1={
 		birth=yes
 	}
@@ -3435,7 +3369,6 @@
 	father=12661860 # Toida Sadayoshi
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1332.1.1={
 		birth=yes
 	}
@@ -3452,7 +3385,6 @@
 	father=12661858 # Toida Shigenari
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1322.1.1={
 		birth=yes
 	}
@@ -3475,7 +3407,6 @@
 	father=12661858 # Toida Shigenari
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1325.1.1={
 		birth=yes
 	}
@@ -3492,7 +3423,6 @@
 	father=12661862 # Toida Sadayo
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1362.1.1={
 		birth=yes
 	}
@@ -3509,7 +3439,6 @@
 	father=12661864 # Toida Morinari
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1402.1.1={
 		birth=yes
 	}
@@ -3529,7 +3458,6 @@
 	father=12661865 # Toida Hirotsuna
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1442.1.1={
 		birth=yes
 	}
@@ -3554,7 +3482,6 @@
 	father=12661865 # Toida Hirotsuna
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1445.1.1={
 		birth=yes
 	}
@@ -3576,7 +3503,6 @@
 	father=12661866 # Toida Hirotnane
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1472.1.1={
 		birth=yes
 		employer=10057007 # Ouchi Masahiro
@@ -3588,7 +3514,9 @@
 		give_nickname="nick_bitchu_no_kami"
 	}
 	1521.1.1={
-		trait="ill"
+		effect = {
+			add_trait = "ill"
+		}
 	}
 	1522.1.1={
 		death=yes
@@ -3601,7 +3529,6 @@
 	father=12661866 # Toida Hirotnane
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1480.1.1={
 		birth=yes
 		employer=10057007 # Ouchi Masahiro
@@ -3616,7 +3543,6 @@
 	father=12661868 # Toida Okiyuki
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1490.1.1={
 		birth=yes
 		employer=10057007 # Ouchi Masahiro
@@ -3642,7 +3568,6 @@
 	father=12661868 # Toida Okiyuki
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1495.1.1={
 		birth=yes
 		employer=10057007 # Ouchi Masahiro
@@ -3657,7 +3582,6 @@
 	father=12661870 # Toida Takamori
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1508.1.1={
 		birth=yes
 		employer= 10057001 # Ouchi Yoshioki
@@ -3672,7 +3596,6 @@
 	father=12661870 # Toida Takamori
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1510.1.1={
 		birth=yes
 		employer= 10057001 # Ouchi Yoshioki
@@ -3690,7 +3613,6 @@
 	father=12661873 # Toida Hirotane
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1537.1.1={
 		birth=yes
 		employer=10057002 # Ouchi Yoshitaka
@@ -3711,7 +3633,6 @@
 	father=12661874 # Toida Fusatane
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1557.1.1={
 		birth=yes
 	}
@@ -3728,7 +3649,6 @@
 	father=12661856 # Toida Naritoshi
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1242.1.1={
 		birth=yes
 	}
@@ -3742,7 +3662,6 @@
 	father=12661890 # Noda Toshitsune
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1267.1.1={
 		birth=yes
 	}
@@ -3756,7 +3675,6 @@
 	father=12661891 # Noda Yasukage
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1292.1.1={
 		birth=yes
 	}
@@ -3770,13 +3688,14 @@
 	father=12661891 # Noda Yasukage
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1295.1.1={
 		birth=yes
 	}
 	1305.1.1={
-		trait="devoted"
 		culture="saigoku_buddhist"
+		effect = {
+			add_trait = "devoted"
+		}
 	}
 	1345.1.1={
 		death=yes
@@ -3788,7 +3707,6 @@
 	father=12661892 # Noda Morokage
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1317.1.1={
 		birth=yes
 	}
@@ -3805,7 +3723,6 @@
 	father=12661894 # Noda Chikahiro
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1342.1.1={
 		birth=yes
 	}
@@ -3816,7 +3733,9 @@
 		give_nickname="nick_kaga_no_kami"
 	}
 	1387.1.1={
-		trait="devoted"
+		effect = {
+			add_trait = "devoted"
+		}
 	}
 	1392.1.1={
 		death=yes
@@ -3828,7 +3747,6 @@
 	father=12661894 # Noda Chikahiro
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1345.1.1={
 		birth=yes
 	}
@@ -3842,7 +3760,6 @@
 	father=12661895 # Noda Tadasuke
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1367.1.1={
 		birth=yes
 	}
@@ -3859,7 +3776,6 @@
 	father=12661897 # Noda Hirotoshi
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1392.1.1={
 		birth=yes
 	}
@@ -3873,7 +3789,6 @@
 	father=12661898 # Noda Hirosuke
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1417.1.1={
 		birth=yes
 	}
@@ -3893,7 +3808,6 @@
 	father=12661899 # Noda Jiro
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1442.1.1={
 		birth=yes
 	}
@@ -3913,7 +3827,6 @@
 	father=12661900 # Noda Takatoshi
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1467.1.1={
 		birth=yes
 		employer=10057007 # Ouchi Masahiro
@@ -3931,7 +3844,6 @@
 	father=12661901 # Noda Tamehiro
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1492.1.1={
 		birth=yes
 		employer=10057007 # Ouchi Masahiro
@@ -3947,7 +3859,6 @@
 	father=12661429 # Ouchi Moriyasu
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1169.1.1={
 		birth=yes
 	}
@@ -3969,7 +3880,6 @@
 	father=12661429 # Ouchi Moriyasu
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1171.1.1={
 		birth=yes
 	}
@@ -3991,7 +3901,6 @@
 	father=12661429 # Ouchi Moriyasu
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1174.1.1={
 		birth=yes
 	}
@@ -4010,13 +3919,14 @@
 	father=12661910 # Washizu Chikamori
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1200.1.1={
 		birth=yes
 	}
 	1210.1.1={
-		trait="devoted"
 		culture="saigoku_buddhist"
+		effect = {
+			add_trait = "devoted"
+		}
 	}
 	1290.1.1={
 		death=yes
@@ -4028,7 +3938,6 @@
 	father=12661911 # Washizu Yasuhiro
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1196.1.1={
 		birth=yes
 	}
@@ -4042,7 +3951,6 @@
 	father=12661911 # Washizu Yasuhiro
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1200.1.1={
 		birth=yes
 	}
@@ -4059,7 +3967,6 @@
 	father=12661915 # Washizu Yasumitsu
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1225.1.1={
 		birth=yes
 	}
@@ -4076,7 +3983,6 @@
 	father=12661915 # Washizu Yasumitsu
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1227.1.1={
 		birth=yes
 	}
@@ -4093,7 +3999,6 @@
 	father=12661915 # Washizu Yasumitsu
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1229.1.1={
 		birth=yes
 	}
@@ -4107,7 +4012,6 @@
 	father=12661915 # Washizu Yasumitsu
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1231.1.1={
 		birth=yes
 	}
@@ -4121,7 +4025,6 @@
 	father=12661915 # Washizu Yasumitsu
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1233.1.1={
 		birth=yes
 	}
@@ -4135,7 +4038,6 @@
 	father=12661916 # Washizu Yasunari
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1250.1.1={
 		birth=yes
 	}
@@ -4149,7 +4051,6 @@
 	father=12661918 # Washizu Yasusada
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1254.1.1={
 		birth=yes
 	}
@@ -4163,7 +4064,6 @@
 	father=12661923 # Washizu Yasufusa
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1279.1.1={
 		birth=yes
 	}
@@ -4177,7 +4077,6 @@
 	father=12661924 # Washizu Yasutake
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1304.1.1={
 		birth=yes
 	}
@@ -4191,7 +4090,6 @@
 	father=12661433 # Ouchi Yoshimori
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1184.1.1={
 		birth=yes
 	}
@@ -4208,7 +4106,6 @@
 	father=12661950 # Masunari Fusataka
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1209.1.1={
 		birth=yes
 	}
@@ -4222,7 +4119,6 @@
 	father=12661951 # Masunari Moriyuki
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1234.1.1={
 		birth=yes
 	}
@@ -4239,7 +4135,6 @@
 	father=12661952 # Masunari Moritada
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1259.1.1={
 		birth=yes
 	}
@@ -4256,7 +4151,6 @@
 	father=12661953 # Masunari Yukisada
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1284.1.1={
 		birth=yes
 	}
@@ -4273,7 +4167,6 @@
 	father=12661954 # Masunari Hirotomo
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1309.1.1={
 		birth=yes
 	}
@@ -4290,7 +4183,6 @@
 	father=12661955 # Masunari Tomoyuki
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1334.1.1={
 		birth=yes
 	}
@@ -4304,7 +4196,6 @@
 	father=12661956 # Masunari Tomoshige
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1359.1.1={
 		birth=yes
 	}
@@ -4318,7 +4209,6 @@
 	father=12661957 # Masunari Tomotaka
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1384.1.1={
 		birth=yes
 	}
@@ -4335,7 +4225,6 @@
 	father=12661958 # Masunari Sadatada
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1409.1.1={
 		birth=yes
 	}
@@ -4349,7 +4238,6 @@
 	father=12661959 # Masunari Sadataka
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1434.1.1={
 		birth=yes
 	}
@@ -4366,7 +4254,6 @@
 	father=12661960 # Masunari Tsuneshige
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1459.1.1={
 		birth=yes
 		employer=10057008 # Ouchi Norihiro
@@ -4381,7 +4268,6 @@
 	father=12661961 # Masunari Yukishige
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1484.1.1={
 		birth=yes
 		employer=10057007 # Ouchi Masahiro
@@ -4396,7 +4282,6 @@
 	father=12661962 # Masunari Shigetomo
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1509.1.1={
 		birth=yes
 		employer= 10057001 # Ouchi Yoshioki
@@ -4411,7 +4296,6 @@
 	father=12661426 # Ouchi Moriie
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1197.1.1={
 		birth=yes
 	}
@@ -4431,7 +4315,6 @@
 	father=12661426 # Ouchi Moriie
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1200.1.1={
 		birth=yes
 	}
@@ -4448,7 +4331,6 @@
 	father=12661426 # Ouchi Moriie
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1205.1.1={
 		birth=yes
 	}
@@ -4468,7 +4350,6 @@
 	father=12661970 # Wanishi Sadamori
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1232.1.1={
 		birth=yes
 	}
@@ -4482,7 +4363,6 @@
 	father=12661970 # Wanishi Sadamori
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1235.1.1={
 		birth=yes
 	}
@@ -4499,7 +4379,6 @@
 	father=12661973 # Wanishi Sadamoto
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1260.1.1={
 		birth=yes
 	}
@@ -4519,7 +4398,6 @@
 	father=12661975 # Wanishi Sadanobu
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1285.1.1={
 		birth=yes
 	}
@@ -4539,7 +4417,6 @@
 	father=12661971 # Wanishi Morikiyo
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1225.1.1={
 		birth=yes
 	}
@@ -4553,7 +4430,6 @@
 	father=12661977 # Wanishi Moritada
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1250.1.1={
 		birth=yes
 	}
@@ -4567,7 +4443,6 @@
 	father=12661978 # Wanishi Morimasa
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1275.1.1={
 		birth=yes
 	}
@@ -4581,7 +4456,6 @@
 	father=12661978 # Wanishi Morimasa
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1280.1.1={
 		birth=yes
 	}
@@ -4595,7 +4469,6 @@
 	father=12661979 # Wanishi Moriyori
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1300.1.1={
 		birth=yes
 	}
@@ -4612,7 +4485,6 @@
 	father=12661980 # Wanishi Moriyoshi
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1315.1.1={
 		birth=yes
 	}
@@ -4629,7 +4501,6 @@
 	father=12661421 # Ouchi Sadayasu
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1252.1.1={
 		birth=yes
 	}
@@ -4646,7 +4517,6 @@
 	father=12661421 # Ouchi Sadayasu
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1255.1.1={
 		birth=yes
 	}
@@ -4663,7 +4533,6 @@
 	father=12661990 # Kurokawa Nariyasu
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1292.1.1={
 		birth=yes
 	}
@@ -4681,7 +4550,6 @@
 	father=12661990 # Kurokawa Nariyasu
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1295.1.1={
 		birth=yes
 	}
@@ -4695,7 +4563,6 @@
 	father=12661992 # Kurokawa Sadanobu
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1332.1.1={
 		birth=yes
 	}
@@ -4712,7 +4579,6 @@
 	father=12661992 # Kurokawa Sadanobu
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1334.1.1={
 		birth=yes
 	}
@@ -4729,7 +4595,6 @@
 	father=12661992 # Kurokawa Sadanobu
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1336.1.1={
 		birth=yes
 	}
@@ -4743,7 +4608,6 @@
 	father=12661992 # Kurokawa Sadanobu
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1338.1.1={
 		birth=yes
 	}
@@ -4757,13 +4621,14 @@
 	father=12661997 # Kurokawa HigoNoKami
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1368.1.1={
 		birth=yes
 	}
 	1378.1.1={
-		trait="devoted"
 		culture="saigoku_buddhist"
+		effect = {
+			add_trait = "devoted"
+		}
 	}
 	1418.1.1={
 		death=yes
@@ -4775,7 +4640,6 @@
 	father=12661424 # Ouchi Hirofusa
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1265.1.1={
 		birth=yes
 	}
@@ -4792,7 +4656,6 @@
 	father=12662000 # Egi Hirokuni
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1290.1.1={
 		birth=yes
 	}
@@ -4809,7 +4672,6 @@
 	father=12662001 # Egi Arihiro
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1315.1.1={
 		birth=yes
 	}
@@ -4823,7 +4685,6 @@
 	father=12662002 # Egi Hirokane
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1340.1.1={
 		birth=yes
 	}
@@ -4840,7 +4701,6 @@
 	father=12662002 # Egi Hirokane
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1345.1.1={
 		birth=yes
 	}
@@ -4857,7 +4717,6 @@
 	father=12662004 # Egi Hiroaki
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1370.1.1={
 		birth=yes
 	}
@@ -4874,7 +4733,6 @@
 	father=12661420 # Ouchi Hirofuji
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1307.1.1={
 		birth=yes
 	}
@@ -4891,7 +4749,6 @@
 	father=12662010 # Suetake Sadamori
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1337.1.1={
 		birth=yes
 	}
@@ -4911,7 +4768,6 @@
 	father=12662010 # Suetake Sadamori
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1340.1.1={
 		birth=yes
 	}
@@ -4931,7 +4787,6 @@
 	father=12662011 # Suetake Hirouji
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1367.1.1={
 		birth=yes
 	}
@@ -4951,7 +4806,6 @@
 	father=12662013 # Suetake Yoshiyo
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1397.1.1={
 		birth=yes
 	}
@@ -4971,7 +4825,6 @@
 	father=12662012 # Suetake Hirotsune
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1370.1.1={
 		birth=yes
 	}
@@ -4985,7 +4838,6 @@
 	father=12662012 # Suetake Hirotsune
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1375.1.1={
 		birth=yes
 	}
@@ -5002,7 +4854,6 @@
 	father=12662016 # Suetake Nobutane
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1415.1.1={
 		birth=yes
 	}
@@ -5027,7 +4878,6 @@
 	father=12662017 # Suetake Ujihisa
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1445.1.1={
 		birth=yes
 		employer=10057008 # Ouchi Norihiro
@@ -5048,14 +4898,15 @@
 	father=12662017 # Suetake Ujihisa
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1447.1.1={
 		birth=yes
 		employer=10057008 # Ouchi Norihiro
 	}
 	1457.1.1={
-		trait="devoted"
 		culture="saigoku_buddhist"
+		effect = {
+			add_trait = "devoted"
+		}
 	}
 	1465.9.23={
 		employer=10057007 # Ouchi Masahiro
@@ -5070,7 +4921,6 @@
 	father=12662017 # Suetake Ujihisa
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1450.1.1={
 		birth=yes
 		employer=10057008 # Ouchi Norihiro
@@ -5093,7 +4943,6 @@
 	father=12662017 # Suetake Ujihisa
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1452.1.1={
 		birth=yes
 		employer=10057008 # Ouchi Norihiro
@@ -5116,7 +4965,6 @@
 	father=12662017 # Suetake Ujihisa
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1454.1.1={
 		birth=yes
 		employer=10057008 # Ouchi Norihiro
@@ -5137,7 +4985,6 @@
 	father=12662017 # Suetake Ujihisa
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1463.1.1={
 		birth=yes
 		employer=10057008 # Ouchi Norihiro
@@ -5158,7 +5005,9 @@
 		employer=10057002 # Ouchi Yoshitaka
 	}
 	1532.1.1={
-		trait="ill"
+		effect = {
+			add_trait = "ill"
+		}
 	}
 	1532.10.2={
 		death=yes
@@ -5171,7 +5020,6 @@
 	father=12662022 # Suetake Hiroomi
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1479.1.1={
 		birth=yes
 		employer=10057007 # Ouchi Masahiro
@@ -5189,14 +5037,15 @@
 	father=12662022 # Suetake Hiroomi
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1481.1.1={
 		birth=yes
 		employer=10057007 # Ouchi Masahiro
 	}
 	1491.1.1={
-		trait="devoted"
 		culture="saigoku_buddhist"
+		effect = {
+			add_trait = "devoted"
+		}
 	}
 	1495.10.6={
 		employer=10057001 # Ouchi Yoshioki
@@ -5211,7 +5060,6 @@
 	father=12662022 # Suetake Hiroomi
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1483.1.1={
 		birth=yes
 		employer=10057007 # Ouchi Masahiro
@@ -5232,7 +5080,6 @@
 	father=12662023 # Suetake Nagayasu
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1488.1.1={
 		birth=yes
 		employer=10057007 # Ouchi Masahiro
@@ -5254,7 +5101,6 @@
 	father=12662023 # Suetake Nagayasu
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1490.1.1={
 		birth=yes
 		employer=10057007 # Ouchi Masahiro
@@ -5276,7 +5122,6 @@
 	father=12662023 # Suetake Nagayasu
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1492.1.1={
 		birth=yes
 		employer=10057007 # Ouchi Masahiro
@@ -5298,7 +5143,6 @@
 	father=12662023 # Suetake Nagayasu
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1494.1.1={
 		birth=yes
 		employer=10057007 # Ouchi Masahiro
@@ -5319,7 +5163,6 @@
 	father=12662023 # Suetake Nagayasu
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1496.1.1={
 		birth=yes
 		employer=10057001 # Ouchi Yoshioki
@@ -5343,7 +5186,6 @@
 	father=12662027 # Suetake Naouji
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1513.1.1={
 		birth=yes
 		employer=10057001 # Ouchi Yoshioki
@@ -5364,7 +5206,6 @@
 	father=12662032 # Suetake Tadauji
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1538.1.1={
 		birth=yes
 		employer=10057002 # Ouchi Yoshitaka
@@ -5388,7 +5229,6 @@
 	father=12662033 # Suetake Sumiuji
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1563.1.1={
 		birth=yes
 	}
@@ -5403,7 +5243,6 @@
 	father=12661419 # Ouchi Hiroie
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1272.1.1={
 		birth=yes
 	}
@@ -5417,7 +5256,6 @@
 	father=12661419 # Ouchi Hiroie
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1276.1.1={
 		birth=yes
 	}
@@ -5434,7 +5272,6 @@
 	father=12661419 # Ouchi Hiroie
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1278.1.1={
 		birth=yes
 	}
@@ -5451,13 +5288,14 @@
 	father=12661419 # Ouchi Hiroie
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1280.1.1={
 		birth=yes
 	}
 	1316.1.1={
-		trait="devoted"
 		culture="saigoku_buddhist"
+		effect = {
+			add_trait = "devoted"
+		}
 	}
 	1356.1.1={
 		death=yes
@@ -5469,7 +5307,6 @@
 	father=12661419 # Ouchi Hiroie
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1285.1.1={
 		birth=yes
 	}
@@ -5486,7 +5323,6 @@
 	father=12662041 # Ouchi Hirokage
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1327.1.1={
 		birth=yes
 	}
@@ -5502,7 +5338,6 @@
 	father=12662041 # Ouchi Hirokage
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1330.1.1={
 		birth=yes
 	}
@@ -5519,7 +5354,6 @@
 	father=12662050 # Ouchi Nagakage
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1347.1.1={
 		birth=yes
 	}
@@ -5527,8 +5361,10 @@
 		employer=10040002 # Ashikaga Yoshiakira
 	}
 	1367.1.1={
-		trait="jugoi_ge"
 		culture="central_kinai"
+		effect = {
+			add_trait = "jugoi_ge"
+		}
 	}
 	1367.12.28={
 		employer=10040003 # Ashikaga Yoshimitsu
@@ -5546,7 +5382,6 @@
 	father=12662050 # Ouchi Nagakage
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1350.1.1={
 		birth=yes
 	}
@@ -5560,9 +5395,11 @@
 		employer=10040003 # Ashikaga Yoshimitsu
 	}
 	1370.1.1={
-		trait="jugoi_ge"
 		give_nickname="nick_the_sakyo_no_suke"
 		culture="central_kinai"
+		effect = {
+			add_trait = "jugoi_ge"
+		}
 	}
 	1394.1.1={
 		employer=10040004 # Ashikaga Yoshimochi
@@ -5577,13 +5414,14 @@
 	father=12662053 # Ouchi Akihiro
 	religion="shinto"
 	culture="central_kinai"
-	prowess=10
 	1372.1.1={
 		birth=yes
 		employer=10040003 # Ashikaga Yoshimitsu
 	}
 	1392.1.1={
-		trait="jugoi_ge"
+		effect = {
+			add_trait = "jugoi_ge"
+		}
 	}
 	1394.1.1={
 		employer=10040004 # Ashikaga Yoshimochi
@@ -5604,14 +5442,15 @@
 	father=12662054 # Ouchi Akinaga
 	religion="shinto"
 	culture="central_kinai"
-	prowess=12
 	1375.1.1={
 		birth=yes
 		employer=10040003 # Ashikaga Yoshimitsu
 	}
 	1393.1.1={
-		trait="jugoi_ge"
 		give_nickname="nick_the_sakyo_no_suke"
+		effect = {
+			add_trait = "jugoi_ge"
+		}
 	}
 	1394.1.1={
 		employer=10040004 # Ashikaga Yoshimochi
@@ -5632,7 +5471,6 @@
 	father=12662051 # Ouchi Hirotane
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1355.1.1={
 		birth=yes
 	}
@@ -5646,7 +5484,6 @@
 	father=12662046 # Ouchi Morikata
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1327.1.1={
 		birth=yes
 	}
@@ -5663,7 +5500,6 @@
 	father=12662060 # Yata Morikazu
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1344.1.1={
 		birth=yes
 	}
@@ -5677,7 +5513,6 @@
 	father=12662061 # Yata Sadamune
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1361.1.1={
 		birth=yes
 	}
@@ -5694,7 +5529,6 @@
 	father=12662062 # Yata Hiroshige
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1378.1.1={
 		birth=yes
 	}
@@ -5711,7 +5545,6 @@
 	father=12662062 # Yata Hiroshige
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1380.1.1={
 		birth=yes
 	}
@@ -5728,7 +5561,6 @@
 	father=12662064 # Yata Mitsuhiro
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1397.1.1={
 		birth=yes
 	}
@@ -5751,7 +5583,6 @@
 	father=12662065 # Yata Yukimori
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1414.1.1={
 		birth=yes
 	}
@@ -5771,7 +5602,6 @@
 	father=12662066 # Yata Iehiro
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1431.1.1={
 		birth=yes
 	}
@@ -5791,7 +5621,6 @@
 	father=12662067 # Yata Morimichi
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1448.1.1={
 		birth=yes
 		employer=10057008 # Ouchi Norihiro
@@ -5818,7 +5647,6 @@
 	father=12662068 # Yata Shigemori
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1465.1.1={
 		birth=yes
 		employer=10057008 # Ouchi Norihiro
@@ -5842,7 +5670,6 @@
 	father=12662069 # Yata Takamori
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1482.1.1={
 		birth=yes
 		employer=10057007 # Ouchi Masahiro
@@ -5869,7 +5696,6 @@
 	father=12662070 # Yata Morisumi
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1500.1.1={
 		birth=yes
 		employer=10057001 # Ouchi Yoshioki
@@ -5881,7 +5707,9 @@
 		give_nickname="nick_bizen_no_kami"
 	}
 	1540.1.1={
-		trait="devoted"
+		effect = {
+			add_trait = "devoted"
+		}
 	}
 	1550.1.1={
 		death=yes
@@ -5893,7 +5721,6 @@
 	father=12662071 # Yata Yasumichi
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1517.1.1={
 		birth=yes
 		employer=10057001 # Ouchi Yoshioki
@@ -5914,7 +5741,6 @@
 	father=12662071 # Yata Yasumichi
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1519.1.1={
 		birth=yes
 		employer=10057001 # Ouchi Yoshioki
@@ -5938,7 +5764,6 @@
 	father=10057019 # Ouchi Shigehiro
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1310.1.1={
 		birth=yes
 	}
@@ -5952,7 +5777,6 @@
 	father=10057019 # Ouchi Shigehiro
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1312.1.1={
 		birth=yes
 	}
@@ -5969,7 +5793,6 @@
 	father=10057019 # Ouchi Shigehiro
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1315.1.1={
 		birth=yes
 	}
@@ -5983,7 +5806,6 @@
 	father=12662081 # Ouchi Hironao
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1332.1.1={
 		birth=yes
 	}
@@ -6001,7 +5823,6 @@
 	father=12662081 # Ouchi Hironao
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1334.1.1={
 		birth=yes
 	}
@@ -6015,7 +5836,6 @@
 	father=10057018 # Ouchi Hiroyuki
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1328.1.1={
 		birth=yes
 	}
@@ -6035,14 +5855,15 @@
 	father=12662090 # Ouchi Morohiro
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1348.1.1={
 		birth=yes
 	}
 	1358.1.1={
-		trait="devoted"
 		culture="saigoku_buddhist"
-#		trait="zen_buddhist"
+		effect = {
+			add_trait = "devoted"
+#			add_trait = "zen_buddhist"
+		}
 	}
 	1398.1.1={
 		death=yes
@@ -6055,13 +5876,14 @@
 	father=12662090 # Ouchi Morohiro
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1350.1.1={
 		birth=yes
 	}
 	1360.1.1={
-		trait="devoted"
 		culture="saigoku_buddhist"
+		effect = {
+			add_trait = "devoted"
+		}
 	}
 	1400.1.1={
 		death=yes
@@ -6074,13 +5896,14 @@
 	father=12662090 # Ouchi Morohiro
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1352.1.1={
 		birth=yes
 	}
 	1362.1.1={
-		trait="devoted"
 		culture="saigoku_buddhist"
+		effect = {
+			add_trait = "devoted"
+		}
 	}
 	1402.1.1={
 		death=yes
@@ -6092,7 +5915,6 @@
 	father=10057014 # Ouchi Hiroyo
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1358.1.1={
 		birth=yes
 	}
@@ -6109,7 +5931,6 @@
 	father=10057014 # Ouchi Hiroyo
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1363.1.1={
 		birth=yes
 	}
@@ -6123,7 +5944,6 @@
 	father=10057014 # Ouchi Hiroyo
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1365.1.1={
 		birth=yes
 	}
@@ -6145,7 +5965,6 @@
 	father=10057014 # Ouchi Hiroyo
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1381.1.1={
 		birth=yes
 	}
@@ -6163,7 +5982,6 @@
 	father=10057014 # Ouchi Hiroyo
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1343.1.1={
 		birth=yes
 	}
@@ -6178,7 +5996,6 @@
 	father=10057014 # Ouchi Hiroyo
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1362.1.1={
 		birth=yes
 	}
@@ -6193,13 +6010,14 @@
 	father=10057014 # Ouchi Hiroyo
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1364.1.1={
 		birth=yes
 	}
 	1374.1.1={
-		trait="devoted"
 		culture="saigoku_buddhist"
+		effect = {
+			add_trait = "devoted"
+		}
 	}
 	1414.1.1={
 		death=yes
@@ -6212,7 +6030,6 @@
 	father=10057014 # Ouchi Hiroyo
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1370.1.1={
 		birth=yes
 	}
@@ -6227,7 +6044,6 @@
 	father=10057014 # Ouchi Hiroyo
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1372.1.1={
 		birth=yes
 	}
@@ -6241,7 +6057,6 @@
 	father=10057012 # Ouchi Mitsuhiro
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1385.1.1={
 		birth=yes
 	}
@@ -6263,7 +6078,6 @@
 	father=10057012 # Ouchi Mitsuhiro
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1387.1.1={
 		birth=yes
 	}
@@ -6280,7 +6094,6 @@
 	father=10057012 # Ouchi Mitsuhiro
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1389.1.1={
 		birth=yes
 	}
@@ -6297,7 +6110,6 @@
 	father=10057012 # Ouchi Mitsuhiro
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1391.1.1={
 		birth=yes
 	}
@@ -6314,7 +6126,6 @@
 	father=10057012 # Ouchi Mitsuhiro
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1393.1.1={
 		birth=yes
 	}
@@ -6334,7 +6145,6 @@
 	father=10057012 # Ouchi Mitsuhiro
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1384.1.1={
 		birth=yes
 	}
@@ -6349,13 +6159,14 @@
 	father=10057012 # Ouchi Mitsuhiro
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1395.1.1={
 		birth=yes
 	}
 	1405.1.1={
-		trait="devoted"
 		culture="saigoku_buddhist"
+		effect = {
+			add_trait = "devoted"
+		}
 	}
 	1441.8.14={
 		employer=10057008 # Ouchi Norihiro
@@ -6371,13 +6182,14 @@
 	father=12662100 # Ouchi Shiro
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1388.1.1={
 		birth=yes
 	}
 	1398.1.1={
-		trait="devoted"
 		culture="saigoku_buddhist"
+		effect = {
+			add_trait = "devoted"
+		}
 	}
 	1438.1.1={
 		death=yes
@@ -6390,13 +6202,14 @@
 	father=10057013 # Ouchi Yoshihiro
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1376.1.1={
 		birth=yes
 	}
 	1386.1.1={
-		trait="devoted"
 		culture="saigoku_buddhist"
+		effect = {
+			add_trait = "devoted"
+		}
 	}
 	1426.1.1={
 		death=yes
@@ -6409,13 +6222,14 @@
 	father=10057013 # Ouchi Yoshihiro
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1379.1.1={
 		birth=yes
 	}
 	1389.1.1={
-		trait="devoted"
 		culture="saigoku_buddhist"
+		effect = {
+			add_trait = "devoted"
+		}
 	}
 	1429.1.1={
 		death=yes
@@ -6428,13 +6242,14 @@
 	father=10057013 # Ouchi Yoshihiro
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1382.1.1={
 		birth=yes
 	}
 	1392.1.1={
-		trait="devoted"
 		culture="saigoku_buddhist"
+		effect = {
+			add_trait = "devoted"
+		}
 	}
 	1432.1.1={
 		death=yes
@@ -6447,14 +6262,15 @@
 	father=10057009 # Ouchi Noriyuki
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1450.1.1={
 		birth=yes
 		employer=10057008 # Ouchi Norihiro
 	}
 	1460.1.1={
-		trait="devoted"
 		culture="saigoku_buddhist"
+		effect = {
+			add_trait = "devoted"
+		}
 	}
 	1465.9.23={
 		employer=10057007 # Ouchi Masahiro
@@ -6472,7 +6288,6 @@
 	father=10057009 # Ouchi Noriyuki
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1452.1.1={
 		birth=yes
 		employer=10057008 # Ouchi Norihiro
@@ -6492,7 +6307,6 @@
 	father=10057009 # Ouchi Noriyuki
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1454.1.1={
 		birth=yes
 		employer=10057008 # Ouchi Norihiro
@@ -6510,7 +6324,6 @@
 	father=10057009 # Ouchi Noriyuki
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1464.1.1={
 		birth=yes
 		employer=10057008 # Ouchi Norihiro
@@ -6528,7 +6341,9 @@
 		employer=10057001 # Ouchi Yoshioki
 	}
 	1509.1.1={
-		trait="devoted"
+		effect = {
+			add_trait = "devoted"
+		}
 	}
 	1514.1.1={
 		death=yes
@@ -6540,7 +6355,6 @@
 	father=10057010 # Ouchi Moriharu
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1428.1.1={
 		birth=yes
 	}
@@ -6564,14 +6378,15 @@
 	father=10057008 # Ouchi Norihiro
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1445.1.1={
 		birth=yes
 		employer=10057008 # Ouchi Norihiro
 	}
 	1465.1.1={
-		trait="devoted"
 		culture="saigoku_buddhist"
+		effect = {
+			add_trait = "devoted"
+		}
 	}
 	1465.9.23={
 		employer=10057007 # Ouchi Masahiro
@@ -6586,7 +6401,6 @@
 	father=10057008 # Ouchi Norihiro
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1439.1.1={
 		birth=yes
 	}
@@ -6598,7 +6412,9 @@
 	}
 	1465.6.19={
 		give_nickname="nick_the_danjo_shohitsu"
-		trait="shogoi_ge"
+		effect = {
+			add_trait = "shogoi_ge"
+		}
 	}
 	1465.9.23={
 		employer=10057007 # Ouchi Masahiro
@@ -6613,15 +6429,16 @@
 	father=10057007 # Ouchi Masahiro
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1482.1.1={
 		birth=yes
 		employer=10057007 # Ouchi Masahiro
 	}
 	1492.1.1={
-		trait="devoted"
 		culture="saigoku_buddhist"
-#		trait="zen_buddhist"
+		effect = {
+			add_trait = "devoted"
+#			add_trait = "zen_buddhist"
+		}
 	}
 	1495.10.6={
 		employer=10057001 # Ouchi Yoshioki
@@ -6640,7 +6457,6 @@
 	father=10057007 # Ouchi Masahiro
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1484.1.1={
 		birth=yes
 		employer=10057007 # Ouchi Masahiro
@@ -6661,7 +6477,6 @@
 	father=10057006 # Ouchi Teruhiro
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1545.1.1={
 		birth=yes
 		employer=10057002 # Ouchi Yoshitaka
@@ -6676,7 +6491,6 @@
 	father=12662128 # Ouchi Hiroyoshi
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1494.1.1={
 		birth=yes
 	}
@@ -6698,7 +6512,6 @@
 	father=12662160 # Kakinami Takayuki
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1520.1.1={
 		birth=yes
 		employer=10057001 # Ouchi Yoshioki
@@ -6722,7 +6535,6 @@
 	father=12662160 # Kakinami Takayuki
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1522.1.1={
 		birth=yes
 		employer=10057001 # Ouchi Yoshioki
@@ -6731,7 +6543,9 @@
 		employer=10057002 # Ouchi Yoshitaka
 	}
 	1550.1.1={
-		trait="devoted"
+		effect = {
+			add_trait = "devoted"
+		}
 	}
 	1552.1.1={
 		give_nickname="nick_sado_no_kami"
@@ -6748,7 +6562,6 @@
 	father=12662161 # Kakinami Okiyuki
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1545.1.1={
 		birth=yes
 		employer=10057002 # Ouchi Yoshitaka
@@ -6766,7 +6579,6 @@
 	father=12662162 # Kakinami Takamasa
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1547.1.1={
 		birth=yes
 		employer=10057002 # Ouchi Yoshitaka
@@ -6784,7 +6596,6 @@
 	father=12662101 # Ouchi Hiromasa
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1390.1.1={
 		birth=yes
 	}
@@ -6814,7 +6625,6 @@
 	father=12662170 # Ouchi Morikiyo
 	religion="shinto"
 	culture="central_kinai"
-	prowess=10
 	1408.1.1={
 		birth=yes
 		employer=10040004 # Ashikaga Yoshimochi
@@ -6844,7 +6654,6 @@
 	father=12662171 # Ouchi Noritoyo
 	religion="shinto"
 	culture="central_kinai"
-	prowess=11
 	1426.1.1={
 		birth=yes
 		employer=10040004 # Ashikaga Yoshimochi (again)
@@ -6874,7 +6683,6 @@
 	father=12662172 # Ouchi Masatoyo
 	religion="shinto"
 	culture="central_kinai"
-	prowess=10
 	1444.1.1={
 		birth=yes
 		employer=10040008 # Ashikaga Yoshimasa
@@ -6889,7 +6697,6 @@
 	father=12662172 # Ouchi Masatoyo
 	religion="shinto"
 	culture="central_kinai"
-	prowess=11
 	1445.1.1={
 		birth=yes
 		employer=10040008 # Ashikaga Yoshimasa
@@ -6910,7 +6717,6 @@
 	father=12662174 # Ouchi Hirotoyo
 	religion="shinto"
 	culture="central_kinai"
-	prowess=11
 	1465.1.1={
 		birth=yes
 		employer=10040008 # Ashikaga Yoshimasa
@@ -6934,7 +6740,6 @@
 	father=12662175 # Ouchi Yoshitoyo
 	religion="shinto"
 	culture="central_kinai"
-	prowess=10
 	1485.1.1={
 		birth=yes
 		employer=10040009 # Ashikaga Yoshihisa
@@ -6964,7 +6769,11 @@
 	father=12662176 # Ouchi Okitoyo
 	religion="shinto"
 	culture="central_kinai"
-	prowess=9
+	martial=7
+	trait="education_martial_3"
+	trait="brave"
+	trait="poet"
+	prowess=17
 	1513.1.1={
 		birth=yes
 		employer=10057001 # Ouchi Yoshioki
@@ -6974,7 +6783,9 @@
 	}
 	1543.1.1={
 		give_nickname="nick_the_saemon_no_jo"
-		trait="shogoi_ge"
+		effect = {
+			add_trait = "shogoi_ge"
+		}
 	}
 	1551.9.30={
 		death={
@@ -6988,7 +6799,6 @@
 	father=12662177 # Reizei Takatoyo
 	religion="shinto"
 	culture="central_kinai"
-	prowess=9
 	1536.1.1={
 		birth=yes
 		employer=10057002 # Ouchi Yoshitaka
@@ -7009,7 +6819,6 @@
 	father=12662177 # Reizei Takatoyo
 	religion="shinto"
 	culture="central_kinai"
-	prowess=9
 	1542.1.1={
 		birth=yes
 		employer=10057002 # Ouchi Yoshitaka
@@ -7032,7 +6841,6 @@
 	father=12662171 # Ouchi Noritoyo
 	religion="shinto"
 	culture="central_kinai"
-	prowess=11
 	1427.1.1={
 		birth=yes
 		employer=10040004 # Ashikaga Yoshimochi (again)
@@ -7062,7 +6870,6 @@
 	father=12662171 # Ouchi Noritoyo
 	religion="shinto"
 	culture="central_kinai"
-	prowess=11
 	1427.1.1={
 		birth=yes
 		employer=10040004 # Ashikaga Yoshimochi (again)
@@ -7095,7 +6902,6 @@
 	father=12662181 # Ouchi Morihiro
 	religion="shinto"
 	culture="central_kinai"
-	prowess=10
 	1452.1.1={
 		birth=yes
 		employer=10040008 # Ashikaga Yoshimasa
@@ -7122,7 +6928,6 @@
 	father=12662056 # Ouchi Mitsunaga
 	religion="shinto"
 	culture="central_kinai"
-	prowess=10
 	1400.1.1={
 		birth=yes
 	}
@@ -7151,7 +6956,6 @@
 	father=12662185 # Ouchi Sakyonosuke
 	religion="shinto"
 	culture="central_kinai"
-	prowess=9
 	1425.1.1={
 		birth=yes
 	}
@@ -7180,7 +6984,6 @@
 	father=12662186 # Ouchi Sakyonosuke
 	religion="shinto"
 	culture="central_kinai"
-	prowess=11
 	1450.1.1={
 		birth=yes
 		employer=10040008 # Ashikaga Yoshimasa
@@ -7204,7 +7007,6 @@
 	father=12662055 # Ouchi Mitsukage
 	religion="shinto"
 	culture="central_kinai"
-	prowess=10
 	1402.1.1={
 		birth=yes
 	}
@@ -7233,7 +7035,6 @@
 	father=12662190 # Ouchi Shurinosuke
 	religion="shinto"
 	culture="central_kinai"
-	prowess=10
 	1427.1.1={
 		birth=yes
 	}
@@ -7259,7 +7060,6 @@
 	father=12662191 # Ouchi Shurinosuke
 	religion="shinto"
 	culture="central_kinai"
-	prowess=11
 	1452.1.1={
 		birth=yes
 		employer=10040008 # Ashikaga Yoshimasa
@@ -7272,7 +7072,9 @@
 	}
 	1490.11.27={
 		give_nickname="nick_the_suo_no_kami"
-		trait="jugoi_ge"
+		effect = {
+			add_trait = "jugoi_ge"
+		}
 	}
 	1493.4.23={
 		employer=10040012 # Ashikaga Yoshizumi
@@ -7287,7 +7089,6 @@
 	father=12221016 # Nagai Yasushige
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1245.1.1={
 		birth=yes
 	}
@@ -7295,7 +7096,9 @@
 		add_spouse=12435005 # daughter of Kaido Tadashige
 	}
 	1270.1.1={
-		trait="jugoi_ge"
+		effect = {
+			add_trait = "jugoi_ge"
+		}
 	}
 	1295.1.1={
 		death=yes
@@ -7307,12 +7110,13 @@
 	father=12221016 # Nagai Yasushige
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1246.1.1={
 		birth=yes
 	}
 	1260.1.1={
-		trait="devoted"
+		effect = {
+			add_trait = "devoted"
+		}
 	}
 	1296.1.1={
 		death=yes
@@ -7324,12 +7128,13 @@
 	father=12221016 # Nagai Yasushige
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1247.1.1={
 		birth=yes
 	}
 	1270.1.1={
-		trait="jugoi_ge"
+		effect = {
+			add_trait = "jugoi_ge"
+		}
 	}
 	1297.1.1={
 		death=yes
@@ -7342,7 +7147,6 @@
 	father=12221016 # Nagai Yasushige
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1248.1.1={
 		birth=yes
 	}
@@ -7357,7 +7161,6 @@
 	father=12221016 # Nagai Yasushige
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1249.1.1={
 		birth=yes
 	}
@@ -7372,7 +7175,6 @@
 	trait="education_martial_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1250.1.1={
 		birth=yes
 	}
@@ -7387,12 +7189,13 @@
 	mother=12435005 # Kaido Tadako
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1270.1.1={
 		birth=yes
 	}
 	1290.1.1={
-		trait="jugoi_jo"
+		effect = {
+			add_trait = "jugoi_jo"
+		}
 	}
 	1320.1.1={
 		death=yes
@@ -7404,7 +7207,6 @@
 	father=12665010 # Nagai Yorishige
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1272.1.1={
 		birth=yes
 	}
@@ -7419,12 +7221,13 @@
 	mother=12435005 # Kaido Tadako
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1274.1.1={
 		birth=yes
 	}
 	1284.1.1={
-		trait="devoted"
+		effect = {
+			add_trait = "devoted"
+		}
 	}
 	1324.1.1={
 		death=yes
@@ -7436,12 +7239,13 @@
 	father=12665020 # Nagai Sadashige
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1295.1.1={
 		birth=yes
 	}
 	1320.1.1={
-		trait="jugoi_ge"
+		effect = {
+			add_trait = "jugoi_ge"
+		}
 	}
 	1345.1.1={
 		death=yes
@@ -7454,7 +7258,6 @@
 	mother=12665038 # 
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1272.1.1={
 		birth=yes
 	}
@@ -7469,7 +7272,6 @@
 	mother=12665038 # 
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1275.1.1={
 		birth=yes
 	}
@@ -7483,7 +7285,6 @@
 	father=12665030 # Nagai Munemoto
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1297.1.1={
 		birth=yes
 	}
@@ -7498,7 +7299,6 @@
 	father=12221018 # Nagai Yasutsune
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1250.1.1={
 		birth=yes
 	}
@@ -7512,7 +7312,6 @@
 	father=12221017 # Nagai Yasumoto
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1247.1.1={
 		birth=yes
 	}
@@ -7526,7 +7325,6 @@
 	father=12221017 # Nagai Yasumoto
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1249.1.1={
 		birth=yes
 	}
@@ -7540,7 +7338,6 @@
 	father=12221017 # Nagai Yasumoto
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1251.1.1={
 		birth=yes
 	}
@@ -7554,12 +7351,13 @@
 	father=12221019 # Nagai Yasushige
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1260.1.1={
 		birth=yes
 	}
 	1280.1.1={
-		trait="jugoi_ge"
+		effect = {
+			add_trait = "jugoi_ge"
+		}
 	}
 	1310.1.1={
 		death=yes
@@ -7571,12 +7369,13 @@
 	father=12221019 # Nagai Yasushige
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1265.1.1={
 		birth=yes
 	}
 	1290.1.1={
-		trait="jugoi_ge"
+		effect = {
+			add_trait = "jugoi_ge"
+		}
 	}
 	1351.8.11={
 		death=yes
@@ -7588,12 +7387,13 @@
 	father=12221019 # Nagai Yasushige
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1270.1.1={
 		birth=yes
 	}
 	1280.1.1={
-		trait="devoted"
+		effect = {
+			add_trait = "devoted"
+		}
 	}
 	1320.1.1={
 		death=yes
@@ -7605,12 +7405,13 @@
 	father=12665101 # Nagai Yorihide
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1300.1.1={
 		birth=yes
 	}
 	1320.1.1={
-		trait="jugoi_ge"
+		effect = {
+			add_trait = "jugoi_ge"
+		}
 	}
 	1363.9.20={
 		death=yes
@@ -7622,7 +7423,6 @@
 	father=12665104 # Nagai Sadayori
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1325.1.1={
 		birth=yes
 	}
@@ -7639,7 +7439,6 @@
 	father=12665104 # Nagai Sadayori
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1327.1.1={
 		birth=yes
 	}
@@ -7654,7 +7453,6 @@
 	father=12665104 # Nagai Sadayori
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1330.1.1={
 		birth=yes
 	}
@@ -7669,7 +7467,6 @@
 	trait="education_martial_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=13
 	1280.1.1={
 		birth=yes
 	}
@@ -7684,7 +7481,6 @@
 	trait="education_martial_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1300.1.1={
 		birth=yes
 	}
@@ -7699,7 +7495,6 @@
 	trait="education_martial_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1320.1.1={
 		birth=yes
 	}
@@ -7714,7 +7509,6 @@
 	trait="education_martial_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1340.1.1={
 		birth=yes
 	}
@@ -7729,7 +7523,6 @@
 	trait="education_martial_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1360.1.1={
 		birth=yes
 	}
@@ -7744,7 +7537,6 @@
 	trait="education_martial_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=13
 	1380.1.1={
 		birth=yes
 	}
@@ -7759,7 +7551,6 @@
 	trait="education_martial_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1400.1.1={
 		birth=yes
 	}
@@ -7771,19 +7562,21 @@
 	name=character_name_12666010 # Motoharu
 	dynasty=10000560 # Mori
 	father=12270796 # Mori Chikahira
-	martial=6
-	diplomacy=6
-	intrigue=7
+	martial=15
+	diplomacy=9
+	intrigue=10
 	stewardship=7
 	trait="education_martial_3"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=13
+	prowess=25
 	1323.1.1={
 		birth=yes
 	}
 	1360.1.1={
-		trait="jugoi_ge"
+		effect = {
+			add_trait = "jugoi_ge"
+		}
 	}
 	1380.1.1={
 		death=yes
@@ -7796,7 +7589,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1325.1.1={
 		birth=yes
 	}
@@ -7811,7 +7603,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1328.1.1={
 		birth=yes
 	}
@@ -7823,14 +7614,14 @@
 	name=character_name_12666020 # Hirofusa
 	dynasty=10000560 # Mori
 	father=12666010 # Mori Motoharu
-	martial=6
-	diplomacy=6
-	intrigue=5
+	martial=8
+	diplomacy=7
+	intrigue=8
 	stewardship=7
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
+	prowess=12
 	1347.1.1={
 		birth=yes
 	}
@@ -7845,7 +7636,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1349.1.1={
 		birth=yes
 	}
@@ -7860,7 +7650,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1350.1.1={
 		birth=yes
 	}
@@ -7875,7 +7664,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1352.1.1={
 		birth=yes
 	}
@@ -7890,7 +7678,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1353.1.1={
 		birth=yes
 	}
@@ -7905,7 +7692,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1350.1.1={
 		birth=yes
 	}
@@ -7917,14 +7703,14 @@
 	name=character_name_12666030 # Mitsufusa
 	dynasty=10000560 # Mori
 	father=12666020
-	martial=5
-	diplomacy=5
-	intrigue=6
-	stewardship=6
+	martial=8
+	diplomacy=7
+	intrigue=8
+	stewardship=7
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
+	prowess=12
 	1386.1.1={
 		birth=yes
 	}
@@ -7936,14 +7722,14 @@
 	name=character_name_12666040 # Hiromoto
 	dynasty=10000560 # Mori
 	father=12666030
-	martial=7
-	diplomacy=6
-	intrigue=6
-	stewardship=6
+	martial=8
+	diplomacy=7
+	intrigue=8
+	stewardship=7
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
+	prowess=12
 	1410.1.1={
 		birth=yes
 	}
@@ -7958,7 +7744,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1412.1.1={
 		birth=yes
 	}
@@ -7974,7 +7759,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1401.1.1={
 		birth=yes
 	}
@@ -7986,14 +7770,14 @@
 	name=character_name_12666050 # Toyomoto
 	dynasty=10000560 # Mori
 	father=12666040
-	martial=6
-	diplomacy=8
-	intrigue=6
+	martial=8
+	diplomacy=7
+	intrigue=8
 	stewardship=7
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
+	prowess=12
 	1444.1.1={
 		birth=yes
 	}
@@ -8011,7 +7795,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1445.1.1={
 		birth=yes
 	}
@@ -8030,7 +7813,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1430.1.1={
 		birth=yes
 	}
@@ -8045,11 +7827,566 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1350.1.1={
 		birth=yes
 	}
 	1420.1.1={
+		death=yes
+	}
+}
+12666300={
+	name=character_name_12666300 # Tomohiro
+	dynasty=10000861 # Fukubara
+	father=12666024 # Fukubara Hiroyo
+	religion="shinto"
+	culture="western_chugoku"
+	1390.1.1={
+		birth=yes
+	}
+	1450.1.1={
+		death=yes
+	}
+}
+12666305={
+	name=character_name_12666305 # Hirotoshi
+	dynasty=10000861 # Fukubara
+	father=12666300 # Fukubara Tomohiro
+	religion="shinto"
+	culture="western_chugoku"
+	1420.1.1={
+		birth=yes
+	}
+	1480.1.1={
+		death=yes
+	}
+}
+12666310={
+	name=character_name_12666310 # Sadatoshi
+	dynasty=10000861 # Fukubara
+	father=12666305 # Fukubara Hirotoshi
+	religion="shinto"
+	culture="western_chugoku"
+	1450.1.1={
+		birth=yes
+	}
+	1510.1.1={
+		death=yes
+	}
+}
+12666315={
+	name=character_name_12666315 # Hirotoshi
+	dynasty=10000861 # Fukubara
+	father=12666310 # Fukubara Sadatoshi
+	religion="shinto"
+	culture="western_chugoku"
+	1480.1.1={
+		birth=yes
+	}
+	1557.2.9={
+		death=yes
+	}
+}
+12666316={
+	name=character_name_12666316 # Masachika
+	dynasty=10000861 # Fukubara
+	father=12666310 # Fukubara Sadatoshi
+	religion="shinto"
+	culture="western_chugoku"
+	1482.1.1={
+		birth=yes
+	}
+	1540.1.1={
+		death=yes
+	}
+}
+12666317={
+	name=character_name_12666317 # Sachi
+	female=yes
+	dynasty=10000861 # Fukubara
+	father=12666310 # Fukubara Sadatoshi
+	religion="shinto"
+	culture="western_chugoku"
+	1470.1.1={
+		birth=yes
+	}
+	1500.1.1={
+		death=yes
+	}
+}
+12666320={
+	name=character_name_12666320 # Sadatoshi
+	dynasty=10000861 # Fukubara
+	father=12666315 # Fukubara Hirotoshi
+	religion="shinto"
+	culture="western_chugoku"
+	diplomacy=10
+	trait="education_diplomacy_3"
+	trait="diligent"
+	trait="content"
+	1512.1.1={
+		birth=yes
+	}
+	1593.9.5={
+		death=yes
+	}
+}
+12666321={
+	name=character_name_12666321 # Toshiko
+	female=yes
+	dynasty=10000861 # Fukubara
+	father=12666315 # Fukubara Hirotoshi
+	religion="shinto"
+	culture="western_chugoku"
+	1514.1.1={
+		birth=yes
+	}
+	1570.1.1={
+		death=yes
+	}
+}
+12666322={
+	name=character_name_12666322 # Hiroko
+	female=yes
+	dynasty=10000861 # Fukubara
+	father=12666315 # Fukubara Hirotoshi
+	religion="shinto"
+	culture="western_chugoku"
+	1516.1.1={
+		birth=yes
+	}
+	1590.1.1={
+		death=yes
+	}
+}
+12666323={
+	name=character_name_12666323 # Sakon
+	female=yes
+	dynasty=10000861 # Fukubara
+	father=12666315 # Fukubara Hirotoshi
+	religion="shinto"
+	culture="western_chugoku"
+	1518.1.1={
+		birth=yes
+	}
+	1590.1.1={
+		death=yes
+	}
+}
+12666324={
+	name=character_name_12666324 # Shimousa
+	female=yes
+	dynasty=10000861 # Fukubara
+	father=12666315 # Fukubara Hirotoshi
+	religion="shinto"
+	culture="western_chugoku"
+	1520.1.1={
+		birth=yes
+	}
+	1590.1.1={
+		death=yes
+	}
+}
+12666325={
+	name=character_name_12666325 # Dewa
+	female=yes
+	dynasty=10000861 # Fukubara
+	father=12666315 # Fukubara Hirotoshi
+	religion="shinto"
+	culture="western_chugoku"
+	1522.1.1={
+		birth=yes
+	}
+	1590.1.1={
+		death=yes
+	}
+}
+12666330={
+	name=character_name_12666330 # Mototoshi
+	dynasty=10000861 # Fukubara
+	father=12666320 # Fukubara Sadatoshi
+	religion="shinto"
+	culture="western_chugoku"
+	1541.1.1={
+		birth=yes
+	}
+	1591.11.18={
+		death=yes
+	}
+}
+12666335={
+	name=character_name_12666335 # Hirotoshi
+	dynasty=10000861 # Fukubara
+	father=12666330 # Fukubara Mototoshi
+	religion="shinto"
+	culture="western_chugoku"
+	1567.1.1={
+		birth=yes
+	}
+	1623.4.20={
+		death=yes
+	}
+}
+12666400={
+	name=character_name_12666400 # Masaie
+	dynasty=10000862 # Saka
+	father=12666011 # Saka Masatoki
+	religion="shinto"
+	culture="western_chugoku"
+	1360.1.1={
+		birth=yes
+	}
+	1420.1.1={
+		death=yes
+	}
+}
+12666401={
+	name=character_name_12666401 # Hiromasa
+	dynasty=10000862 # Saka
+	father=12666400 # Saka Masaie
+	religion="shinto"
+	culture="western_chugoku"
+	1390.1.1={
+		birth=yes
+	}
+	1450.1.1={
+		death=yes
+	}
+}
+12666402={
+	name=character_name_12666402 # Hiroaki
+	dynasty=10000862 # Saka
+	father=12666401 # Saka Hiromasa
+	religion="shinto"
+	culture="western_chugoku"
+	1410.1.1={
+		birth=yes
+	}
+	1451.9.23={
+		employer = 12666050 # Mori Toyomoto
+	}
+	1470.1.1={
+		death=yes
+	}
+}
+12666405={
+	name=character_name_12666405 # Hiroaki
+	dynasty=10000862 # Saka
+	father=12666402 # Saka Hiroaki
+	religion="shinto"
+	culture="western_chugoku"
+	1430.1.1={
+		birth=yes
+	}
+	1451.9.23={
+		employer = 12666050 # Mori Toyomoto
+	}
+	1475.12.22={
+		employer = 10056000 # Mori Hiromoto
+	}
+	1500.1.1={
+		death=yes
+	}
+}
+12666406={
+	name=character_name_12666406 # Hirotoki
+	dynasty=10000862 # Saka
+	father=12666402 # Saka Hiroaki
+	religion="shinto"
+	culture="western_chugoku"
+	1450.1.1={
+		birth=yes
+	}
+	1451.9.23={
+		employer = 12666050 # Mori Toyomoto
+	}
+	1475.12.22={
+		employer = 10056000 # Mori Hiromoto
+	}
+	1500.1.1={
+		employer = 10056002 # Mori Okimoto
+	}
+	1516.9.21={
+		employer = 10056011 # Mori Komatsumaru
+	}
+	1522.1.1={
+		death=yes
+	}
+}
+12666410={
+	name=character_name_12666410 # Hirohide
+	dynasty=10000862 # Saka
+	father=12666406 # Saka Hirotoki
+	religion="shinto"
+	culture="western_chugoku"
+	1480.1.1={
+		birth=yes
+		employer = 10056000 # Mori Hiromoto
+	}
+	1500.1.1={
+		employer = 10056002 # Mori Okimoto
+	}
+	1516.9.21={
+		employer = 10056011 # Mori Komatsumaru
+	}
+	1523.8.25={
+		employer = 10056004 # Mori Motonari
+	}
+	1524.5.11={
+		death=yes
+	}
+}
+12666415={
+	name=character_name_12666415 # Motosuke
+	dynasty=10000862 # Saka
+	father=12666410 # Saka Hirohide
+	religion="shinto"
+	culture="western_chugoku"
+	1510.1.1={
+		birth=yes
+		employer = 10056002 # Mori Okimoto
+	}
+	1516.9.21={
+		employer = 10056011 # Mori Komatsumaru
+	}
+	1523.8.25={
+		employer = 10056004 # Mori Motonari
+	}
+	1571.7.6={
+		employer = 10056025 # Mori Terumoto
+	}
+	1575.5.2={
+		death=yes
+	}
+}
+12666500={
+	name=character_name_12666500 # Motoyoshi
+	dynasty=10000863 # Shiji
+	father=12666402 # Saka Hiroaki
+	religion="shinto"
+	culture="western_chugoku"
+	1432.1.1={
+		birth=yes
+	}
+	1451.9.23={
+		employer = 12666050 # Mori Toyomoto
+	}
+	1475.12.22={
+		employer = 10056000 # Mori Hiromoto
+	}
+	1500.1.1={
+		death=yes
+	}
+}
+12666501={
+	name=character_name_12666501 # Hiroyoshi
+	dynasty=10000863 # Shiji
+	father=12666500 # Shiji Motoyoshi
+	religion="shinto"
+	culture="western_chugoku"
+	health=9
+	1467.1.1={
+		birth=yes
+		employer = 12666050 # Mori Toyomoto
+	}
+	1475.12.22={
+		employer = 10056000 # Mori Hiromoto
+	}
+	1500.1.1={
+		employer = 10056002 # Mori Okimoto
+	}
+	1516.9.21={
+		employer = 10056011 # Mori Komatsumaru
+	}
+	1523.8.25={
+		employer = 10056004 # Mori Motonari
+	}
+	1557.7.26={
+		death=yes
+	}
+}
+12666505={
+	name=character_name_12666505 # Hironaga
+	dynasty=10000863 # Shiji
+	father=12666501 # Shiji Hiroyoshi
+	religion="shinto"
+	culture="western_chugoku"
+	1500.1.1={
+		birth=yes
+		employer = 10056002 # Mori Okimoto
+	}
+	1516.9.21={
+		employer = 10056011 # Mori Komatsumaru
+	}
+	1523.8.25={
+		employer = 10056004 # Mori Motonari
+	}
+	1539.1.1={
+		death=yes
+	}
+}
+12666506={
+	name=character_name_12666506 # Motosada
+	dynasty=10000863 # Shiji
+	father=12666501 # Shiji Hiroyoshi
+	religion="shinto"
+	culture="western_chugoku"
+	1502.1.1={
+		birth=yes
+		employer = 10056002 # Mori Okimoto
+	}
+	1516.9.21={
+		employer = 10056011 # Mori Komatsumaru
+	}
+	1523.8.25={
+		employer = 10056004 # Mori Motonari
+	}
+	1560.1.1={
+		death=yes
+	}
+}
+12666507={
+	name=character_name_12666507 # Michiyoshi
+	dynasty=10000864 # Kuchiba
+	father=12666501 # Shiji Hiroyoshi
+	religion="shinto"
+	culture="western_chugoku"
+	stewardship=9
+	trait="education_stewardship_3"
+	trait="diligent"
+	1513.1.1={
+		birth=yes
+		employer = 10056002 # Mori Okimoto
+	}
+	1516.9.21={
+		employer = 10056011 # Mori Komatsumaru
+	}
+	1523.8.25={
+		employer = 10056004 # Mori Motonari
+	}
+	1532.1.1={
+		add_spouse=12666322
+	}
+	1582.8.16={
+		death=yes
+	}
+}
+12666510={
+	name=character_name_12666510 # Motoyasu
+	dynasty=10000863 # Shiji
+	father=12666505 # Shiji Hironaga
+	religion="shinto"
+	culture="western_chugoku"
+	1536.1.1={
+		birth=yes
+		employer = 10056004 # Mori Motonari
+	}
+	1582.11.18={
+		death=yes
+	}
+}
+12666600={
+	name=character_name_12666600 # Hirozumi
+	dynasty=10000865 # Katsura
+	father=12666405 # Saka Hiroaki
+	religion="shinto"
+	culture="western_chugoku"
+	intrigue=8
+	trait="education_intrigue_3"
+	trait="diligent"
+	1460.1.1={
+		birth=yes
+		employer = 12666050 # Mori Toyomoto
+	}
+	1475.12.22={
+		employer = 10056000 # Mori Hiromoto
+	}
+	1500.1.1={
+		employer = 10056002 # Mori Okimoto
+	}
+	1516.9.21={
+		employer = 10056011 # Mori Komatsumaru
+	}
+	1523.8.25={
+		employer = 10056004 # Mori Motonari
+	}
+	1524.5.11={
+		death=yes
+	}
+}
+12666601={
+	name=character_name_12666601 # Motozumi
+	dynasty=10000865 # Katsura
+	father=12666600 # Katsura Hirozumi
+	religion="shinto"
+	culture="western_chugoku"
+	intrigue=8
+	trait="education_intrigue_3"
+	trait="diligent"
+	1500.1.1={
+		birth=yes
+		employer = 10056002 # Mori Okimoto
+	}
+	1516.9.21={
+		employer = 10056011 # Mori Komatsumaru
+	}
+	1523.8.25={
+		employer = 10056004 # Mori Motonari
+	}
+	1530.1.1={
+		add_spouse=12666321
+	}
+	1569.8.17={
+		death=yes
+	}
+}
+12666602={
+	name=character_name_12666602 # Mototada
+	dynasty=10000865 # Katsura
+	father=12666600 # Katsura Hirozumi
+	religion="shinto"
+	culture="western_chugoku"
+	1510.1.1={
+		birth=yes
+		employer = 10056002 # Mori Okimoto
+	}
+	1516.9.21={
+		employer = 10056011 # Mori Komatsumaru
+	}
+	1523.8.25={
+		employer = 10056004 # Mori Motonari
+	}
+	1570.1.1={
+		death=yes
+	}
+}
+12666603={
+	name=character_name_12666603 # Narinobu
+	dynasty=10000865 # Katsura
+	father=12666600 # Katsura Hirozumi
+	religion="shinto"
+	culture="western_chugoku"
+	1520.1.1={
+		birth=yes
+		employer = 10056011 # Mori Komatsumaru
+	}
+	1523.8.25={
+		employer = 10056004 # Mori Motonari
+	}
+	1580.1.1={
+		death=yes
+	}
+}
+12666605={
+	name=character_name_12666605 # Hiroshige
+	dynasty=10000865 # Katsura
+	father=12666601 # Katsura Motozumi
+	religion="shinto"
+	culture="western_chugoku"
+	1540.1.1={
+		birth=yes
+		employer = 10056004 # Mori Motonari
+	}
+	1607.11.15={
 		death=yes
 	}
 }
@@ -8059,7 +8396,6 @@
 	father=12139571 # Kou Morotake
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1370.1.1={
 		birth=yes
 	}
@@ -8073,7 +8409,6 @@
 	father=12668100 # Kunishi Motoaki
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1400.1.1={
 		birth=yes
 	}
@@ -8090,18 +8425,17 @@
 	father=12668101 # Kunishi Hiroaki
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1430.1.1={
 		birth=yes
 	}
 	1451.9.23={
-		employer=12666050 #　Mori Toyomoto
+		employer=12666050 # 	Mori Toyomoto
 	}
 	1455.1.1={
 		give_nickname="nick_uemon_no_jo"
 	}
 	1471.10.3={
-		employer=12666050 #　Mori Toyomoto
+		employer=12666050 # 	Mori Toyomoto
 	}
 	1475.12.22={
 		employer=10056000 # Mori Hiromoto
@@ -8116,18 +8450,17 @@
 	father=12668101 # Kunishi Hiroaki
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1432.1.1={
 		birth=yes
 	}
 	1451.9.23={
-		employer=12666050 #　Mori Toyomoto
+		employer=12666050 # 	Mori Toyomoto
 	}
 	1457.1.1={
 		give_nickname="nick_the_izumo_no_kami"
 	}
 	1471.10.3={
-		employer=12666050 #　Mori Toyomoto
+		employer=12666050 # 	Mori Toyomoto
 	}
 	1475.12.22={
 		employer=10056000 # Mori Hiromoto
@@ -8142,13 +8475,12 @@
 	father=12668102 # Kunishi Mitsunobu
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1465.1.1={
 		birth=yes
-		employer=12666050 #　Mori Toyomoto
+		employer=12666050 # 	Mori Toyomoto
 	}
 	1471.10.3={
-		employer=12666050 #　Mori Toyomoto
+		employer=12666050 # 	Mori Toyomoto
 	}
 	1475.12.22={
 		employer=10056000 # Mori Hiromoto
@@ -8174,7 +8506,6 @@
 	mother=10056001 # Mori Kyoko
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1478.1.1={
 		birth=yes
 		employer=10056000 # Mori Hiromoto
@@ -8205,7 +8536,6 @@
 	mother=10056001 # Mori Kyoko
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1480.1.1={
 		birth=yes
 		employer=10056000 # Mori Hiromoto
@@ -8230,7 +8560,6 @@
 	mother=10056001 # Mori Kyoko
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1483.1.1={
 		birth=yes
 		employer=10056000 # Mori Hiromoto
@@ -8258,7 +8587,6 @@
 	mother=10056001 # Mori Kyoko
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1487.1.1={
 		birth=yes
 		employer=10056000 # Mori Hiromoto
@@ -8285,12 +8613,13 @@
 	father=12668105 # Kunishi Arisuke
 	religion="shinto"
 	culture="western_chugoku"
-	martial=5
-	diplomacy=8
-	intrigue=7
-	stewardship=6
-	learning=5
-	prowess=11
+	martial=13
+	diplomacy=9
+	intrigue=9
+	stewardship=7
+	learning=4
+	health=10
+	prowess=17
 	1492.1.1={
 		birth=yes
 		employer=10056000 # Mori Hiromoto
@@ -8323,7 +8652,6 @@
 	father=12668110 # Kunishi Motosuke
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1519.1.1={
 		birth=yes
 		employer=10056011 # Mori Komatsumaru
@@ -8350,14 +8678,15 @@
 	father=12668110 # Kunishi Motosuke
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=9
 	1531.1.1={
 		birth=yes
 		employer=10056004 # Mori Motonari
 	}
 	1561.1.1={
 		give_nickname="nick_hayatonosuke"
-		trait="jugoi_ge"
+		effect = {
+			add_trait = "jugoi_ge"
+		}
 	}
 	1571.7.6={
 		employer=10056025 # Mori Terumoto
@@ -8372,7 +8701,6 @@
 	father=12668110 # Kunishi Motosuke
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1560.1.1={
 		birth=yes
 		employer=10056004 # Mori Motonari
@@ -8396,7 +8724,6 @@
 	father=12139582 # Ihara Ujinori
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1355.1.1={
 		birth=yes
 	}
@@ -8413,7 +8740,6 @@
 	father=12668130 # Ihara Shigemune
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1380.1.1={
 		birth=yes
 	}
@@ -8430,7 +8756,6 @@
 	father=12668131 # Ihara Arinori
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1405.1.1={
 		birth=yes
 	}
@@ -8447,18 +8772,17 @@
 	father=12668132 # Ihara Mitsutaka
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1430.1.1={
 		birth=yes
 	}
 	1451.9.23={
-		employer=12666050 #　Mori Toyomoto
+		employer=12666050 # 	Mori Toyomoto
 	}
 	1455.1.1={
 		give_nickname="nick_gyobu_no_sho"
 	}
 	1471.10.3={
-		employer=12666050 #　Mori Toyomoto
+		employer=12666050 # 	Mori Toyomoto
 	}
 	1475.12.22={
 		employer=10056000 # Mori Hiromoto
@@ -8473,7 +8797,6 @@
 	father=12668133 # Ihara Toyoari
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1455.1.1={
 		birth=yes
 	}
@@ -8490,16 +8813,15 @@
 	father=12668134 # Ihara Motonari
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1475.1.1={
 		birth=yes
-		employer=12666050 #　Mori Toyomoto
+		employer=12666050 # 	Mori Toyomoto
 	}
 	1475.12.22={
 		employer=10056000 # Mori Hiromoto
 	}
 	1499.1.1={
-		add_spouse=10056009 #　daughter of Mori Hiromoto
+		add_spouse=10056009 # 	daughter of Mori Hiromoto
 	}
 	1500.1.1={
 		employer=10056002 # Mori Okimoto
@@ -8521,7 +8843,6 @@
 	mother=10056009 # Mori Takeko
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1500.1.1={
 		birth=yes
 		employer=10056002 # Mori Okimoto
@@ -8549,7 +8870,6 @@
 	mother=10056009 # Mori Takeko
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1502.1.1={
 		birth=yes
 		employer=10056002 # Mori Okimoto
@@ -8570,7 +8890,6 @@
 	mother=10056009 # Mori Takeko
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1504.1.1={
 		birth=yes
 		employer=10056002 # Mori Okimoto
@@ -8595,7 +8914,6 @@
 	mother=10056009 # Mori Takeko
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1506.1.1={
 		birth=yes
 		employer=10056002 # Mori Okimoto
@@ -8616,7 +8934,6 @@
 	father=12668136 # Ihara Mototoki
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1530.1.1={
 		birth=yes
 		employer=10056004 # Mori Motonari
@@ -8644,7 +8961,6 @@
 	father=12668136 # Ihara Mototoki
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1532.1.1={
 		birth=yes
 		employer=10056004 # Mori Motonari
@@ -8663,7 +8979,6 @@
 	father=12668136 # Ihara Mototoki
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1534.1.1={
 		birth=yes
 		employer=10056004 # Mori Motonari
@@ -8681,7 +8996,6 @@
 	father=12668140 # Ihara Motoyoshi
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=11
 	1555.1.1={
 		birth=yes
 		employer=10056004 # Mori Motonari
@@ -8706,7 +9020,6 @@
 	father=12668140 # Ihara Motoyoshi
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1553.1.1={
 		birth=yes
 		employer=10056004 # Mori Motonari
@@ -8725,7 +9038,6 @@
 	father=12668140 # Ihara Motoyoshi
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1557.1.1={
 		birth=yes
 		employer=10056004 # Mori Motonari
@@ -8744,7 +9056,6 @@
 	father=12668140 # Ihara Motoyoshi
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1559.1.1={
 		birth=yes
 		employer=10056004 # Mori Motonari
@@ -8762,7 +9073,6 @@
 	father=12668140 # Ihara Motoyoshi
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=10
 	1575.1.1={
 		birth=yes
 		employer=10056025 # Mori Terumoto
@@ -8781,7 +9091,6 @@
 	father=12668140 # Ihara Motoyoshi
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1577.1.1={
 		birth=yes
 		employer=10056025 # Mori Terumoto
@@ -8796,12 +9105,594 @@
 	father=12668140 # Ihara Motoyoshi
 	religion="shinto"
 	culture="western_chugoku"
-	prowess=12
 	1579.1.1={
 		birth=yes
 		employer=10056025 # Mori Terumoto
 	}
 	1629.1.1={
+		death=yes
+	}
+}
+12669000={
+	name=character_name_12669000 # Kanenaka
+	dynasty=10000569 # Fukuya
+	father=12661212 # Fukuya Kanehiro
+	religion="shinto"
+	culture="western_chugoku"
+	1210.1.1={
+		birth=yes
+	}
+	1270.1.1={
+		death=yes
+	}
+}
+12669001={
+	name=character_name_12669001 # Kanechika
+	dynasty=10000569 # Fukuya
+	father=12669000 # Fukuya Kanenaka
+	religion="shinto"
+	culture="western_chugoku"
+	1240.1.1={
+		birth=yes
+	}
+	1300.1.1={
+		death=yes
+	}
+}
+12669002={
+	name=character_name_12669002 # Kanetsugu
+	dynasty=10000569 # Fukuya
+	father=12669000 # Fukuya Kanenaka
+	religion="shinto"
+	culture="western_chugoku"
+	1242.1.1={
+		birth=yes
+	}
+	1300.1.1={
+		death=yes
+	}
+}
+12669003={
+	name=character_name_12669003 # Kanetsuna
+	dynasty=10000569 # Fukuya
+	father=12669000 # Fukuya Kanenaka
+	religion="shinto"
+	culture="western_chugoku"
+	1242.1.1={
+		birth=yes
+	}
+	1300.1.1={
+		death=yes
+	}
+}
+12669004={
+	name=character_name_12669004 # Kaneyasu
+	dynasty=10000569 # Fukuya
+	father=12669000 # Fukuya Kanenaka
+	religion="shinto"
+	culture="western_chugoku"
+	1242.1.1={
+		birth=yes
+	}
+	1300.1.1={
+		death=yes
+	}
+}
+12669010={
+	name=character_name_12669010 # Kaneyuki
+	dynasty=10000569 # Fukuya
+	father=12669001 # Fukuya Kanechika
+	religion="shinto"
+	culture="western_chugoku"
+	1270.1.1={
+		birth=yes
+	}
+	1340.1.1={
+		death=yes
+	}
+}
+12669011={
+	name=character_name_12669011 # Kanehide
+	dynasty=10000569 # Fukuya
+	father=12669001 # Fukuya Kanechika
+	religion="shinto"
+	culture="western_chugoku"
+	1272.1.1={
+		birth=yes
+	}
+	1330.1.1={
+		death=yes
+	}
+}
+12669015={
+	name=character_name_12669015 # Kanekage
+	dynasty=10000569 # Fukuya
+	father=12669010 # Fukuya Kaneyuki
+	religion="shinto"
+	culture="western_chugoku"
+	1300.1.1={
+		birth=yes
+	}
+	1350.1.1={
+		death=yes
+	}
+}
+12669016={
+	name=character_name_12669016 # Kanemune
+	dynasty=10000569 # Fukuya
+	father=12669010 # Fukuya Kaneyuki
+	religion="shinto"
+	culture="western_chugoku"
+	1302.1.1={
+		birth=yes
+	}
+	1360.1.1={
+		death=yes
+	}
+}
+12669020={
+	name=character_name_12669020 # Kaneyoshi
+	dynasty=10000569 # Fukuya
+	father=12669015 # Fukuya Kanekage
+	religion="shinto"
+	culture="western_chugoku"
+	1320.1.1={
+		birth=yes
+	}
+	1380.1.1={
+		death=yes
+	}
+}
+12669100={
+	name=character_name_12669100 # Kanemura
+	dynasty=10007337 # Misumi
+	father=12661211 # Misumi Kanenobu
+	religion="shinto"
+	culture="western_chugoku"
+	1220.1.1={
+		birth=yes
+	}
+	1280.1.1={
+		death=yes
+	}
+}
+12669101={
+	name=character_name_12669101 # Nobumori
+	dynasty=10007337 # Misumi
+	father=12669100 # Misumi Kanemura
+	religion="shinto"
+	culture="western_chugoku"
+	1250.1.1={
+		birth=yes
+	}
+	1310.1.1={
+		death=yes
+	}
+}
+12669103={
+	name=character_name_12669103 # Kanetsura
+	dynasty=10007337 # Misumi
+	father=12669101 # Misumi Nobumori
+	religion="shinto"
+	culture="western_chugoku"
+	1280.1.1={
+		birth=yes
+	}
+	1355.1.1={
+		death=yes
+	}
+}
+12669106={
+	name=character_name_12669106 # Kanetomo
+	dynasty=10007337 # Misumi
+	father=12669103 # Misumi Kanetsura
+	religion="shinto"
+	culture="western_chugoku"
+	1310.1.1={
+		birth=yes
+	}
+	1355.1.1={
+		death=yes
+	}
+}
+12669107={
+	name=character_name_12669107 # Kaneharu
+	dynasty=10007337 # Misumi
+	father=12669103 # Misumi Kanetsura
+	religion="shinto"
+	culture="western_chugoku"
+	1312.1.1={
+		birth=yes
+	}
+	1350.1.1={
+		death=yes
+	}
+}
+12669110={
+	name=character_name_12669110 # Naotsura
+	dynasty=10007337 # Misumi
+	father=12669107 # Misumi Kaneharu
+	religion="shinto"
+	culture="western_chugoku"
+	1330.1.1={
+		birth=yes
+	}
+	1390.1.1={
+		death=yes
+	}
+}
+12669113={
+	name=character_name_12669113 # Ujiyo
+	dynasty=10007337 # Misumi
+	father=12669110 # Misumi Naotsura
+	religion="shinto"
+	culture="western_chugoku"
+	1360.1.1={
+		birth=yes
+	}
+	1420.1.1={
+		death=yes
+	}
+}
+12669117={
+	name=character_name_12669117 # Nobukane
+	dynasty=10007337 # Misumi
+	father=12669113 # Misumi Ujiyo
+	religion="shinto"
+	culture="western_chugoku"
+	1390.1.1={
+		birth=yes
+	}
+	1456.1.1={
+		death=yes
+	}
+}
+12669120={
+	name=character_name_12669120 # Naganobu
+	dynasty=10007337 # Misumi
+	father=12669117 # Misumi Nobukane
+	religion="shinto"
+	culture="western_chugoku"
+	1410.1.1={
+		birth=yes
+	}
+	1455.1.1={
+		death=yes
+	}
+}
+12669121={
+	name=character_name_12669121 # Toyonobu
+	dynasty=10007337 # Misumi
+	father=12669117 # Misumi Nobukane
+	religion="shinto"
+	culture="western_chugoku"
+	1420.1.1={
+		birth=yes
+	}
+	1470.1.1={
+		death=yes
+	}
+}
+12669123={
+	name=character_name_12669123 # Okinobu
+	dynasty=10007337 # Misumi
+	father=12669121 # Misumi Toyonobu
+	religion="shinto"
+	culture="western_chugoku"
+	1440.1.1={
+		birth=yes
+	}
+	1490.1.1={
+		death=yes
+	}
+}
+12669127={
+	name=character_name_12669127 # Okikane
+	dynasty=10007337 # Misumi
+	father=12669123 # Misumi Sadanobu
+	religion="shinto"
+	culture="western_chugoku"
+	1480.1.1={
+		birth=yes
+	}
+	1587.1.1={
+		death=yes
+	}
+}
+12669130={
+	name=character_name_12669130 # Kanetaka
+	dynasty=10007337 # Misumi
+	father=12669127 # Misumi Okikane
+	religion="shinto"
+	culture="western_chugoku"
+	1510.1.1={
+		birth=yes
+	}
+	1562.1.1={
+		death=yes
+	}
+}
+12669131={
+	name=character_name_12669131 # Toshihisa
+	dynasty=10007337 # Misumi
+	father=12669127 # Misumi Okikane
+	religion="shinto"
+	culture="western_chugoku"
+	1515.1.1={
+		birth=yes
+	}
+	1585.1.1={
+		death=yes
+	}
+}
+12669133={
+	name=character_name_12669133 # Takashige
+	dynasty=10007337 # Misumi
+	father=12669130 # Misumi Kanetaka
+	religion="shinto"
+	culture="western_chugoku"
+	1530.1.1={
+		birth=yes
+	}
+	1570.9.1={
+		death=yes
+	}
+}
+12669134={
+	name=character_name_12669134 # Kunisada
+	dynasty=10007337 # Misumi
+	father=12669130 # Misumi Kanetaka
+	religion="shinto"
+	culture="western_chugoku"
+	1532.1.1={
+		birth=yes
+	}
+	1570.9.1={
+		death=yes
+	}
+}
+12669200={
+	name=character_name_12669200 # Mitsukuni
+	dynasty=10000866 # Takahashi
+	father=12391209 # Oyake Morisada
+	religion="shinto"
+	culture="tokai"
+	1275.1.1={
+		birth=yes
+	}
+	1333.6.23={
+		death=yes
+	}
+}
+12669201={
+	name=character_name_12669201 # Tokito
+	dynasty=10000866 # Takahashi
+	father=12669200 # Takahashi Mitsukuni
+	religion="shinto"
+	culture="tokai"
+	1300.1.1={
+		birth=yes
+	}
+	1333.6.23={
+		death=yes
+	}
+}
+12669202={
+	name=character_name_12669202 # Nakamitsu
+	dynasty=10000866 # Takahashi
+	father=12669200 # Takahashi Mitsukuni
+	religion="shinto"
+	culture="tokai"
+	1302.1.1={
+		birth=yes
+	}
+	1333.6.23={
+		death=yes
+	}
+}
+12669203={
+	name=character_name_12669203 # Mitsuyoshi
+	dynasty=10000866 # Takahashi
+	father=12669200 # Takahashi Mitsukuni
+	religion="shinto"
+	culture="tokai"
+	1304.1.1 ={
+		birth=yes
+	}
+	1350.1.1={
+		death=yes
+	}
+}
+12669207={
+	name=character_name_12669207 # Moromitsu
+	dynasty=10000866 # Takahashi
+	father=12669203 # Takahashi Mitsuyoshi
+	religion="shinto"
+	culture="western_chugoku"
+	1320.1.1={
+		birth=yes
+	}
+	1380.1.1={
+		death=yes
+	}
+}
+12669210={
+	name=character_name_12669210 # Sadamitsu
+	dynasty=10000866 # Takahashi
+	father=12669207 # Takahashi Moromitsu
+	religion="shinto"
+	culture="western_chugoku"
+	1340.1.1={
+		birth=yes
+	}
+	1400.1.1={
+		death=yes
+	}
+}
+12669213={
+	name=character_name_12669213 # Yasumitsu
+	dynasty=10000866 # Takahashi
+	father=12669210 # Takahashi Sadamitsu
+	religion="shinto"
+	culture="western_chugoku"
+	1380.1.1={
+		birth=yes
+	}
+	1440.1.1={
+		death=yes
+	}
+}
+12669217={
+	name=character_name_12669217 # Mitsuyo
+	dynasty=10000866 # Takahashi
+	father=12669213 # Takahashi Yasumitsu
+	religion="shinto"
+	culture="western_chugoku"
+	1410.1.1={
+		birth=yes
+	}
+	1460.1.1={
+		death=yes
+	}
+}
+12669220={
+	name=character_name_12669220 # Tomosada
+	dynasty=10000866 # Takahashi
+	father=12669217 # Takahashi Mitsuyo
+	religion="shinto"
+	culture="western_chugoku"
+	1440.1.1={
+		birth=yes
+	}
+	1500.1.1={
+		death=yes
+	}
+}
+12669225={
+	name=character_name_12669225 # Hisamitsu
+	dynasty=10000866 # Takahashi
+	father=12669220 # Takahashi Tomosada
+	religion="shinto"
+	culture="western_chugoku"
+	martial=9
+	trait="education_martial_3"
+	prowess=19
+	1460.1.1={
+		birth=yes
+	}
+	1521.1.1={
+		death=yes
+	}
+}
+12669230={
+	name=character_name_12669230 # Motomitsu
+	dynasty=10000866 # Takahashi
+	father=12669225 # Takahashi Hisamitsu
+	religion="shinto"
+	culture="western_chugoku"
+	1480.1.1={
+		birth=yes
+	}
+	1515.1.1={
+		death=yes
+	}
+}
+12669231={
+	name=character_name_12669231 # Hiroatsu
+	dynasty=10000866 # Takahashi
+	father=12669225 # Takahashi Hisamitsu
+	religion="shinto"
+	culture="western_chugoku"
+	1481.1.1={
+		birth=yes
+	}
+	1529.6.7={
+		death=yes
+	}
+}
+12669232={
+	name=character_name_12669232 # Morimitsu
+	dynasty=10000866 # Takahashi
+	father=12669225 # Takahashi Hisamitsu
+	religion="shinto"
+	culture="western_chugoku"
+	1490.1.1={
+		birth=yes
+	}
+	1530.1.1={
+		death=yes
+	}
+}
+12669233={
+	name=character_name_12669233 # Yuki
+	female=yes
+	dynasty=10000866 # Takahashi
+	father=12669225 # Takahashi Hisamitsu
+	religion="shinto"
+	culture="western_chugoku"
+	1495.1.1={
+		birth=yes
+	}
+	1530.1.1={
+		death=yes
+	}
+}
+12669234={
+	name=character_name_12669234 # Tsunemitsu
+	dynasty=10000867 # Honjo
+	father=12669225 # Takahashi Hisamitsu
+	religion="shinto"
+	culture="western_chugoku"
+	martial=8
+	trait="education_martial_3"
+	trait="brave"
+	prowess=18
+	1513.1.1={
+		birth=yes
+	}
+	1562.12.1={
+		death=yes
+	}
+}
+12669237={
+	name=character_name_12669237 # Okimitsu
+	dynasty=10000866 # Takahashi
+	father=12669231 # Takahashi Hiroatsu
+	religion="shinto"
+	culture="western_chugoku"
+	martial=7
+	trait="education_martial_2"
+	prowess=15
+	1503.1.1={
+		birth=yes
+	}
+	1529.12.21={
+		death=yes
+	}
+}
+12669240={
+	name=character_name_12669240 # Takamitsu
+	dynasty=10000867 # Honjo
+	father=12669234 # Honjo Tsunemitsu
+	religion="shinto"
+	culture="western_chugoku"
+	1530.1.1={
+		birth=yes
+	}
+	1562.12.1={
+		death=yes
+	}
+}
+12669241={
+	name=character_name_12669241 # Harumasa
+	dynasty=10000867 # Honjo
+	father=12669234 # Honjo Tsunemitsu
+	religion="shinto"
+	culture="western_chugoku"
+	1540.1.1={
+		birth=yes
+	}
+	1600.1.1={
 		death=yes
 	}
 }

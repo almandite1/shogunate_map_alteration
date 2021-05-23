@@ -3,11 +3,11 @@
 	dynasty=10000350 # Asakura
 	father=10030010
 	mother=10025618
-	martial=5
-	diplomacy=6
-	intrigue=5
-	stewardship=4
-	learning=6
+	martial=8
+	diplomacy=13
+	intrigue=13
+	stewardship=5
+	learning=11
 	religion="shinto"
 	culture="western_hokuriku"
 	trait="education_stewardship_3"
@@ -15,12 +15,15 @@
 	trait="temperate"
 	trait="diligent"
 	trait="compassionate"
-	prowess=10
+	prowess=12
 	1493.12.30={
 		birth=yes
 	}
+	1507.12.30={
+		give_nickname="nick_Magojio"
+	}
 	1512.4.11={
-		effect={
+		effect = {
 			set_realm_capital=title:c_shgnt_asuha
 		}
 	}
@@ -32,16 +35,16 @@
 	name=character_name_10030001 # Hirokage
 	dynasty=10000350 # Asakura
 	father=10240074
-	martial=4
-	diplomacy=7
-	intrigue=7
+	martial=8
+	diplomacy=9
+	intrigue=9
 	stewardship=6
-	learning=7
+	learning=8
 	religion="shinto"
 	culture="western_hokuriku"
 	trait="education_stewardship_3"
 	trait="strong"
-	prowess=11
+	prowess=12
 	1255.1.1={
 		birth=yes
 	}
@@ -53,16 +56,16 @@
 	name=character_name_10030002 # Takakage
 	dynasty=10000350 # Asakura
 	father=10030001
-	martial=7
-	diplomacy=6
-	intrigue=6
-	stewardship=5
-	learning=6
+	martial=6
+	diplomacy=8
+	intrigue=9
+	stewardship=7
+	learning=7
 	religion="shinto"
 	culture="western_hokuriku"
 	trait="education_martial_3"
 	trait="brave"
-	prowess=13
+	prowess=16
 	1314.1.1={
 		birth=yes
 	}
@@ -74,15 +77,15 @@
 	name=character_name_10030003 # Ujikage
 	dynasty=10000350 # Asakura
 	father=10030002
-	martial=7
-	diplomacy=5
-	intrigue=6
-	stewardship=5
-	learning=5
+	martial=8
+	diplomacy=7
+	intrigue=7
+	stewardship=9
+	learning=7
 	religion="shinto"
 	culture="western_hokuriku"
 	trait="education_martial_2"
-	prowess=13
+	prowess=16
 	1339.1.1={
 		birth=yes
 	}
@@ -94,15 +97,15 @@
 	name=character_name_10030004 # Sadakage
 	dynasty=10000350 # Asakura
 	father=10030003
-	martial=6
-	diplomacy=7
-	intrigue=4
-	stewardship=5
-	learning=7
+	martial=8
+	diplomacy=5
+	intrigue=6
+	stewardship=8
+	learning=5
 	religion="shinto"
 	culture="western_hokuriku"
 	trait="education_diplomacy_2"
-	prowess=9
+	prowess=12
 	1358.1.1={
 		birth=yes
 	}
@@ -114,16 +117,16 @@
 	name=character_name_10030005 # Norikage
 	dynasty=10000350 # Asakura
 	father=10030004
-	martial=5
-	diplomacy=6
-	intrigue=7
-	stewardship=5
+	martial=12
+	diplomacy=7
+	intrigue=8
+	stewardship=11
 	learning=7
 	religion="shinto"
 	culture="western_hokuriku"
 	trait="education_diplomacy_3"
 	trait="strong"
-	prowess=10
+	prowess=16
 	1380.1.1={
 		birth=yes
 	}
@@ -135,15 +138,15 @@
 	name=character_name_10030006 # Iekage
 	dynasty=10000350 # Asakura
 	father=10030005
-	martial=5
-	diplomacy=5
-	intrigue=8
-	stewardship=7
+	martial=6
+	diplomacy=8
+	intrigue=7
+	stewardship=6
 	learning=4
 	religion="shinto"
 	culture="western_hokuriku"
 	trait="education_martial_1"
-	prowess=11
+	prowess=12
 	1402.1.1={
 		birth=yes
 	}
@@ -165,11 +168,11 @@
 	dynasty=10000350 # Asakura
 	father=10030006
 	mother=10030065
-	martial=8
-	diplomacy=6
+	martial=3
+	diplomacy=5
 	intrigue=6
-	stewardship=7
-	learning=7
+	stewardship=4
+	learning=4
 	religion="shinto"
 	culture="western_hokuriku"
 	trait="education_martial_4"
@@ -180,9 +183,12 @@
 	trait="gregarious"
 	trait="ambitious"
 	trait="reckless"
-	prowess=13
+	prowess=15
 	1428.6.2={
 		birth=yes
+	}
+	1444.6.2={
+		give_nickname="nick_Magoemon"
 	}
 	1447.1.1={
 		add_spouse=10030073
@@ -205,17 +211,20 @@
 	dynasty=10000350 # Asakura
 	father=10030007
 	mother=10030073
-	martial=8
-	diplomacy=7
+	martial=10
+	diplomacy=6
 	intrigue=7
-	stewardship=7
-	learning=5
+	stewardship=10
+	learning=6
 	religion="shinto"
 	culture="western_hokuriku"
 	trait="education_diplomacy_3"
-	prowess=10
+	prowess=14
 	1449.4.27={
 		birth=yes
+	}
+	1465.4.27={
+		give_nickname="nick_Magoemon"
 	}
 	1486.8.3={
 		death=yes
@@ -226,11 +235,12 @@
 	dynasty=10000350 # Asakura
 	father=10030007
 	mother=10030089
-	martial=6
-	diplomacy=7
-	intrigue=7
-	stewardship=5
-	learning=5
+	martial=3
+	diplomacy=8
+	intrigue=6
+	stewardship=6
+	learning=8
+	health=7
 	religion="shinto"
 	culture="western_hokuriku"
 	trait="education_martial_4"
@@ -242,11 +252,13 @@
 	1477.1.1={
 		birth=yes
 	}
-    	1510.1.1={
+    1510.1.1={
 		remove_claim=d_shgnt_echizen
 	}
 	1534.1.1={
-		name=character_name_10030009_1 # Soteki
+		effect = {
+			change_first_name = character_name_10030009_1 # Soteki
+		}
 	}
 	1555.9.23={
 		death=yes
@@ -256,16 +268,16 @@
 	name=character_name_10030010 # Sadakage
 	dynasty=10000350 # Asakura
 	father=10030008
-	martial=5
-	diplomacy=7
-	intrigue=7
-	stewardship=6
-	learning=4
+	martial=10
+	diplomacy=8
+	intrigue=8
+	stewardship=11
+	learning=6
 	religion="shinto"
 	culture="western_hokuriku"
 	trait="education_diplomacy_3"
 	trait="diligent"
-	prowess=10
+	prowess=14
 	1473.3.3={
 		birth=yes
 	}
@@ -273,9 +285,12 @@
 		add_spouse=10025618
 	}
 	1486.8.3={
-		effect={
+		effect = {
 			set_realm_capital=title:c_shgnt_asuha
 		}
+	}
+	1489.3.3={
+		give_nickname="nick_Magojio"
 	}
 	1512.4.11={
 		death=yes
@@ -285,11 +300,11 @@
 	name=character_name_10030011 # Yoshikage
 	dynasty=10000350 # Asakura
 	father=10030000
-	martial=4
-	diplomacy=6
-	intrigue=7
-	stewardship=7
-	learning=6
+	martial=12
+	diplomacy=10
+	intrigue=9
+	stewardship=14
+	learning=13
 	religion="shinto"
 	culture="western_hokuriku"
 	trait="education_diplomacy_2"
@@ -297,12 +312,12 @@
 	trait="hunter_2"
 	trait="arrogant"
 	trait="craven"
-	prowess=10
+	prowess=16
 	1533.10.12={
 		birth=yes
 	}
 	1548.4.30={
-		effect={
+		effect = {
 			set_realm_capital=title:c_shgnt_asuha
 		}
 	}
@@ -310,15 +325,19 @@
 		give_nickname="nick_Magojio"
 	}
 	1552.6.16={
-		trait="shogoi_jo"
 		give_nickname="nick_the_sahyoe_no_kami"
+		effect = {
+			add_trait = "shogoi_jo"
+		}
 	}
 	1555.1.1={
 		add_spouse=11000304 # Konoe Himoji
 	}
 	1559.11.9={
-		remove_trait="shogoi_jo"
-		trait="jushii_ge"
+		effect = {
+			remove_trait = "shogoi_jo"
+			add_trait = "jushii_ge"
+		}
 	}
 	1560.1.1={
 		remove_spouse=11000304 # Konoe Himoji
@@ -336,15 +355,15 @@
 	name=character_name_10030012 # Kagetaka
 	dynasty=10000350 # Asakura
 	father=10030010
-	martial=5
-	diplomacy=5
+	martial=9
+	diplomacy=7
 	intrigue=7
 	stewardship=7
-	learning=5
+	learning=4
 	religion="shinto"
 	culture="western_hokuriku"
 	trait="education_intrigue_1"
-	prowess=11
+	prowess=13
 	1495.1.1={
 		birth=yes
 	}
@@ -356,24 +375,24 @@
 	name=character_name_10030013 # Kagetoshi
 	dynasty=10000350 # Asakura
 	father=10030010
-	martial=7
-	diplomacy=4
+	martial=8
+	diplomacy=8
 	intrigue=6
-	stewardship=6
+	stewardship=8
 	learning=7
 	religion="shinto"
 	culture="western_hokuriku"
 	trait="education_martial_2"
 	trait="arrogant"
-	prowess=13
+	prowess=16
 	1505.1.1={
 		birth=yes
 	}
 	1529.1.1={
-		trait="child_of_adoption"
-		effect={
-			set_father=character:10030009
-			set_real_father=character:10030010
+		effect = {
+			set_father = character:10030009
+			set_real_father = character:10030010
+			add_trait = "child_of_adoption"
 		}
 	}
 	1572.6.11={
@@ -385,15 +404,15 @@
 	dynasty=10000350 # Asakura
 	father=10030006
 	mother=10030067
-	martial=7
-	diplomacy=7
+	martial=8
+	diplomacy=10
 	intrigue=7
 	stewardship=5
-	learning=7
+	learning=6
 	religion="shinto"
 	culture="western_hokuriku"
 	trait="education_stewardship_2"
-	prowess=11
+	prowess=12
 	1438.1.1={
 		birth=yes
 	}
@@ -405,15 +424,15 @@
 	name=character_name_10030015 # Kagemoto
 	dynasty=10000350 # Asakura
 	father=10030014
-	martial=7
+	martial=10
 	diplomacy=5
-	intrigue=5
-	stewardship=5
-	learning=7
+	intrigue=8
+	stewardship=7
+	learning=5
 	religion="shinto"
 	culture="western_hokuriku"
 	trait="education_diplomacy_2"
-	prowess=11
+	prowess=14
 	1484.1.1={
 		birth=yes
 	}
@@ -433,7 +452,7 @@
 	diplomacy=5
 	intrigue=5
 	stewardship=7
-	learning=5
+	learning=6
 	religion="shinto"
 	culture="western_hokuriku"
 	trait="education_diplomacy_1"
@@ -450,15 +469,15 @@
 	dynasty=10000350 # Asakura
 	father=10030015
 	mother=10030016
-	martial=5
-	diplomacy=6
+	martial=8
+	diplomacy=7
 	intrigue=7
-	stewardship=5
-	learning=5
+	stewardship=6
+	learning=7
 	religion="shinto"
 	culture="western_hokuriku"
 	trait="education_martial_2"
-	prowess=14
+	prowess=16
 	1508.1.1={
 		birth=yes
 	}
@@ -471,15 +490,15 @@
 	dynasty=10000350 # Asakura
 	father=10030006
 	mother=10030070
-	martial=5
-	diplomacy=6
-	intrigue=4
+	martial=8
+	diplomacy=7
+	intrigue=8
 	stewardship=7
 	learning=7
 	religion="shinto"
 	culture="western_hokuriku"
 	trait="education_martial_2"
-	prowess=12
+	prowess=16
 	1442.1.1={
 		birth=yes
 	}
@@ -491,16 +510,16 @@
 	name=character_name_10030019 # Kagetoyo
 	dynasty=10000350 # Asakura
 	father=10030018
-	martial=7
-	diplomacy=7
-	intrigue=7
+	martial=5
+	diplomacy=5
+	intrigue=6
 	stewardship=5
-	learning=5
+	learning=3
 	religion="shinto"
 	culture="western_hokuriku"
 	trait="education_intrigue_1"
 	trait="ambitious"
-	prowess=10
+	prowess=9
 	1472.1.1={
 		birth=yes
 	}
@@ -514,15 +533,15 @@
 	dynasty=10000350 # Asakura
 	father=10030010
 	mother=10025618
-	martial=6
-	diplomacy=4
-	intrigue=6
-	stewardship=8
-	learning=6
+	martial=7
+	diplomacy=8
+	intrigue=8
+	stewardship=7
+	learning=7
 	religion="shinto"
 	culture="western_hokuriku"
 	trait="education_intrigue_1"
-	prowess=12
+	prowess=11
 	1501.1.1={
 		birth=yes
 	}
@@ -536,7 +555,6 @@
 	father=10030017 # Asakura Kagetaka
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=9
 	1536.1.1={
 		birth=yes
 	}
@@ -550,10 +568,10 @@
 	father=10030012 # Asakura Kagetaka
 	religion="shinto"
 	culture="western_hokuriku"
-	martial=4
-	diplomacy=5
-	intrigue=6
-	prowess=11
+	martial=10
+	diplomacy=8
+	intrigue=13
+	prowess=14
 	1525.1.1={
 		birth=yes
 	}
@@ -567,7 +585,6 @@
 	father=10030012 # Asakura Kagetaka
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=10
 	1526.1.1={
 		birth=yes
 	}
@@ -581,7 +598,6 @@
 	father=10030012 # Asakura Kagetaka # TODO : The father, ID 10030012, died 732 days before this character was born, which is more than the limit of 300 days.
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=12
 	1545.1.1={
 		birth=yes
 	}
@@ -595,7 +611,6 @@
 	father=10030013 # Asakura Kagetoshi
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=11
 	1530.1.1={
 		birth=yes
 	}
@@ -609,7 +624,6 @@
 	father=10030013 # Asakura Kagetoshi
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=10
 	1533.1.1={
 		birth=yes
 	}
@@ -624,7 +638,6 @@
 	mother=10030028 # Saito Koshosho
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=11
 	1570.1.1={
 		birth=yes
 	}
@@ -638,8 +651,7 @@
 	dynasty=10007301 # Saito
 	religion="shinto"
 	culture="western_hokuriku"
-	trait="beauty_good_2"
-	prowess=11
+	trait="beauty_good_3"
 	1550.1.1={
 		birth=yes
 	}
@@ -653,7 +665,6 @@
 	father=10030001 # Asakura Hirokage
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=11
 	1320.1.1={
 		birth=yes
 	}
@@ -670,7 +681,6 @@
 	father=10030001 # Asakura Hirokage
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=12
 	1345.1.1={
 		birth=yes
 	}
@@ -687,7 +697,6 @@
 	father=10030002 # Asakura Takakage
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=11
 	1350.1.1={
 		birth=yes
 	}
@@ -704,7 +713,6 @@
 	father=10030031 # Asakura Shigekage
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=11
 	1370.1.1={
 		birth=yes
 	}
@@ -718,7 +726,6 @@
 	father=10030032 # Asakura (Abaga) Fumai
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=10
 	1390.1.1={
 		birth=yes
 	}
@@ -732,7 +739,6 @@
 	father=10030033 # Abaga Muneyuki
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=12
 	1420.1.1={
 		birth=yes
 	}
@@ -746,7 +752,6 @@
 	father=10030034 # Abaga Yoshikage
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=10
 	1450.1.1={
 		birth=yes
 	}
@@ -760,7 +765,6 @@
 	father=10030035 # Abaga Kagetada
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=10
 	1480.1.1={
 		birth=yes
 	}
@@ -774,7 +778,6 @@
 	father=10030036 # Abaga Soan
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=11
 	1510.1.1={
 		birth=yes
 	}
@@ -788,7 +791,6 @@
 	father=10030002 # Asakura Takakage
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=11
 	1355.1.1={
 		birth=yes
 	}
@@ -805,7 +807,6 @@
 	father=10030002 # Asakura Takakage
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=11
 	1360.1.1={
 		birth=yes
 	}
@@ -822,7 +823,6 @@
 	father=10030003 # Asakura Ujikage
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=11
 	1365.1.1={
 		birth=yes
 	}
@@ -839,7 +839,6 @@
 	father=10030003 # Asakura Ujikage
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=9
 	1370.1.1={
 		birth=yes
 	}
@@ -856,7 +855,6 @@
 	father=10030004 # Asakura Sadakage
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=11
 	1385.1.1={
 		birth=yes
 	}
@@ -870,7 +868,6 @@
 	father=10030042 # Asakura Yorikage
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=10
 	1405.1.1={
 		birth=yes
 	}
@@ -884,7 +881,6 @@
 	father=10030043 # Asakura Kamonnosuke
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=11
 	1435.1.1={
 		birth=yes
 	}
@@ -898,7 +894,6 @@
 	father=10030044 # Asakura Kagetaka
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=10
 	1465.1.1={
 		birth=yes
 	}
@@ -912,7 +907,6 @@
 	father=10030045 # Asakura Kageuji
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=10
 	1495.1.1={
 		birth=yes
 	}
@@ -926,7 +920,6 @@
 	father=10030046 # Asakura Kagehisa
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=11
 	1515.1.1={
 		birth=yes
 	}
@@ -940,7 +933,6 @@
 	father=10030047 # Asakura Kageyori
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=12
 	1535.1.1={
 		birth=yes
 	}
@@ -954,7 +946,6 @@
 	father=10030004 # Asakura Sadakage
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=12
 	1410.1.1={
 		birth=yes
 	}
@@ -971,7 +962,6 @@
 	father=10030049 # Asakura Kagetane
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=10
 	1460.1.1={
 		birth=yes
 	}
@@ -985,7 +975,6 @@
 	father=10030050 # Asakura Kageyori
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=10
 	1480.1.1={
 		birth=yes
 	}
@@ -999,7 +988,6 @@
 	father=10030051 # Asakura Kagetsugu
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=10
 	1550.1.1={
 		birth=yes
 	}
@@ -1013,7 +1001,6 @@
 	father=10030005 # Asakura Norikage
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=12
 	1406.1.1={
 		birth=yes
 	}
@@ -1031,7 +1018,6 @@
 	father=10030005 # Asakura Norikage
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=11
 	1408.1.1={
 		birth=yes
 	}
@@ -1045,7 +1031,6 @@
 	father=10030053 # Asakura Yukikage
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=10
 	1426.1.1={
 		birth=yes
 	}
@@ -1062,7 +1047,6 @@
 	father=10030055 # Toba Kagemasa
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=9
 	1446.1.1={
 		birth=yes
 	}
@@ -1076,7 +1060,6 @@
 	father=10030056 # Toba Kagetada
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=10
 	1466.1.1={
 		birth=yes
 	}
@@ -1090,7 +1073,6 @@
 	father=10030057 # Toba Kagetomi
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=11
 	1486.1.1={
 		birth=yes
 	}
@@ -1104,7 +1086,6 @@
 	father=10030058 # Toba Kagetada
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=9
 	1506.1.1={
 		birth=yes
 	}
@@ -1118,7 +1099,6 @@
 	father=10030059 # Toba Kagetomi
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=11
 	1526.1.1={
 		birth=yes
 	}
@@ -1132,7 +1112,6 @@
 	father=10030053 # Asakura Masakage
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=12
 	1430.1.1={
 		birth=yes
 	}
@@ -1152,7 +1131,6 @@
 	father=10030061 # Shorenge Kageyo
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=11
 	1460.1.1={
 		birth=yes
 	}
@@ -1166,7 +1144,6 @@
 	father=10030062 # Shorenge Kagezumi
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=11
 	1480.1.1={
 		birth=yes
 	}
@@ -1180,7 +1157,6 @@
 	father=10030063 # Shorenge Gikai
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=12
 	1500.1.1={
 		birth=yes
 	}
@@ -1193,7 +1169,6 @@
 	female=yes
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=10
 	1404.1.1={
 		birth=yes
 	}
@@ -1209,7 +1184,6 @@
 	mother=10030065
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=10
 	1430.1.1={
 		birth=yes
 	}
@@ -1222,7 +1196,6 @@
 	female=yes
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=10
 	1420.1.1={
 		birth=yes
 	}
@@ -1237,7 +1210,6 @@
 	mother=10030067
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=12
 	1449.1.1={
 		birth=yes
 	}
@@ -1253,7 +1225,6 @@
 	mother=10030067
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=10
 	1452.1.1={
 		birth=yes
 	}
@@ -1266,7 +1237,6 @@
 	female=yes
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=10
 	1422.1.1={
 		birth=yes
 	}
@@ -1282,7 +1252,6 @@
 	mother=10030070
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=12
 	1444.1.1={
 		birth=yes
 	}
@@ -1297,7 +1266,6 @@
 	mother=10030070
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=12
 	1448.1.1={
 		birth=yes
 	}
@@ -1312,7 +1280,6 @@
 	father=10030053 # Asakura Yukikage
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=9
 	1425.1.1={
 		birth=yes
 	}
@@ -1331,7 +1298,6 @@
 	mother=10030073
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=11
 	1448.1.1={
 		birth=yes
 	}
@@ -1347,7 +1313,6 @@
 	mother=10030073
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=11
 	1450.1.1={
 		birth=yes
 	}
@@ -1360,7 +1325,6 @@
 	female=yes
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=9
 	1430.1.1={
 		birth=yes
 	}
@@ -1375,7 +1339,6 @@
 	mother=10030076
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=11
 	1451.1.1={
 		birth=yes
 	}
@@ -1389,7 +1352,6 @@
 	father=10030077 # Asakura Kageaki
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=10
 	1468.1.1={
 		birth=yes
 	}
@@ -1403,7 +1365,6 @@
 	father=10030078 # Asakura Kagezumi
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=11
 	1485.1.1={
 		birth=yes
 	}
@@ -1417,7 +1378,6 @@
 	father=10030079 # Asakura Kageaki
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=11
 	1501.1.1={
 		birth=yes
 	}
@@ -1431,7 +1391,6 @@
 	father=10030080 # Asakura Kagezumi
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=10
 	1520.1.1={
 		birth=yes
 	}
@@ -1446,7 +1405,6 @@
 	mother=10030076
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=12
 	1454.1.1={
 		birth=yes
 	}
@@ -1464,7 +1422,6 @@
 	mother=10030076
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=10
 	1457.1.1={
 		birth=yes
 	}
@@ -1479,7 +1436,6 @@
 	father=10030083 # Asakura Kagefusa
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=10
 	1474.1.1={
 		birth=yes
 	}
@@ -1492,7 +1448,6 @@
 	female=yes
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=10
 	1456.1.1={
 		birth=yes
 	}
@@ -1505,7 +1460,6 @@
 	female=yes
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=10
 	1440.1.1={
 		birth=yes
 	}
@@ -1520,7 +1474,6 @@
 	mother=10030086
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=9
 	1465.1.1={
 		birth=yes
 	}
@@ -1535,7 +1488,6 @@
 	mother=10030086
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=11
 	1470.1.1={
 		birth=yes
 	}
@@ -1548,7 +1500,6 @@
 	female=yes
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=9
 	1445.1.1={
 		birth=yes
 	}
@@ -1563,7 +1514,6 @@
 	mother=10030089
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=12
 	1462.1.1={
 		birth=yes
 	}
@@ -1579,7 +1529,6 @@
 	mother=10030089
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=11
 	1468.1.1={
 		birth=yes
 	}
@@ -1593,7 +1542,6 @@
 	father=10030088 # Asakura Kageyoshi
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=9
 	1510.1.1={
 		birth=yes
 	}
@@ -1607,7 +1555,6 @@
 	father=10030088 # Asakura Kageyoshi
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=11
 	1515.1.1={
 		birth=yes
 	}
@@ -1623,7 +1570,6 @@
 	mother=10025618
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=10
 	1488.1.1={
 		birth=yes
 	}
@@ -1638,7 +1584,6 @@
 	mother=10025618
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=11
 	1500.1.1={
 		birth=yes
 	}
@@ -1653,7 +1598,6 @@
 	mother=10025618
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=10
 	1507.1.1={
 		birth=yes
 	}
@@ -1668,15 +1612,14 @@
 	mother=10025618
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=11
 	1508.1.1={
 		birth=yes
 	}
 	1538.1.1={
-		trait="child_of_adoption"
-		effect={
-			set_father=character:10030088
-			set_real_father=character:10030010
+		effect = {
+			set_father = character:10030088
+			set_real_father = character:10030010
+			add_trait = "child_of_adoption"
 		}
 	}
 	1568.1.1={
@@ -1691,7 +1634,6 @@
 	mother=10025618
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=9
 	1504.1.1={
 		birth=yes
 	}
@@ -1704,10 +1646,9 @@
 	dynasty=10000351 # Maeba
 	religion="shinto"
 	culture="western_hokuriku"
-	stewardship=6
+	stewardship=8
 	trait="education_stewardship_2"
 	trait="arrogant"
-	prowess=11
 	1535.1.1={
 		birth=yes
 	}
@@ -1720,12 +1661,11 @@
 	dynasty=10000352 # Toda
 	religion="shinto"
 	culture="western_hokuriku"
-	intrigue=6
+	intrigue=8
 	trait="education_intrigue_2"
 	trait="brave"
 	trait="impatient"
 	trait="sadistic"
-	prowess=10
 	1551.1.1={
 		birth=yes
 	}
@@ -1738,7 +1678,6 @@
 	dynasty=10000353 # Mizoe
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=10
 	1539.1.1={
 		birth=yes
 	}
@@ -1752,8 +1691,7 @@
 	religion="shinto"
 	culture="western_hokuriku"
 	trait="education_stewardship_3"
-	stewardship=5
-	prowess=9
+	stewardship=7
 	1480.1.1={
 		birth=yes
 	}
@@ -1774,8 +1712,7 @@
 	religion="shinto"
 	culture="western_hokuriku"
 	trait="education_stewardship_3"
-	stewardship=5
-	prowess=11
+	stewardship=7
 	1521.1.1={
 		birth=yes
 	}
@@ -1794,7 +1731,6 @@
 	dynasty=10000355 # Yamazaki
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=12
 	1480.1.1={
 		birth=yes
 	}
@@ -1816,8 +1752,8 @@
 	culture="western_hokuriku"
 	trait="education_diplomacy_3"
 	trait="brave"
-	martial=7
-	prowess=12
+	martial=9
+	prowess=13
 	1510.1.1={
 		birth=yes
 	}
@@ -1838,7 +1774,6 @@
 	religion="shinto"
 	culture="western_hokuriku"
 	trait="education_martial_2"
-	prowess=11
 	1512.1.1={
 		birth=yes
 	}
@@ -1858,7 +1793,6 @@
 	father=10030151 # Yamazaki Yoshiie
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=12
 	1540.1.1={
 		birth=yes
 	}
@@ -1876,8 +1810,8 @@
 	religion="shinto"
 	culture="western_hokuriku"
 	trait="education_martial_3"
-	martial=7
-	prowess=14
+	martial=8
+	prowess=18
 	1552.1.1={
 		birth=yes
 	}
@@ -1896,7 +1830,6 @@
 	dynasty=10000356 # Magara
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=11
 	1510.1.1={
 		birth=yes
 	}
@@ -1919,8 +1852,8 @@
 	trait="education_martial_3"
 	trait="strong"
 	trait="brave"
-	martial=6
-	prowess=15
+	martial=7
+	prowess=17
 	1536.1.1={
 		birth=yes
 	}
@@ -1944,7 +1877,7 @@
 	trait="strong"
 	trait="brave"
 	martial=7
-	prowess=13
+	prowess=15
 	1538.1.1={
 		birth=yes
 	}
@@ -1967,8 +1900,8 @@
 	trait="education_martial_2"
 	trait="strong"
 	trait="brave"
-	martial=6
-	prowess=13
+	martial=7
+	prowess=15
 	1554.1.1={
 		birth=yes
 	}
@@ -1989,7 +1922,6 @@
 	culture="western_hokuriku"
 	trait="education_diplomacy_3"
 	trait="poet"
-	prowess=11
 	1430.1.1={
 		birth=yes
 	}
@@ -2003,7 +1935,6 @@
 	father=10030170 # Horie Kagemochi
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=11
 	1460.1.1={
 		birth=yes
 	}
@@ -2017,7 +1948,6 @@
 	father=10030171 # Horie Kagezane
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=11
 	1490.1.1={
 		birth=yes
 	}
@@ -2031,7 +1961,6 @@
 	father=10030172 # Horie Kagemochi
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=10
 	1520.1.1={
 		birth=yes
 	}
@@ -2047,7 +1976,6 @@
 	father=10030173 # Horie Kagetada
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=11
 	1550.1.1={
 		birth=yes
 	}
@@ -2059,11 +1987,11 @@
 	name=character_name_10030500 # Jikken
 	dynasty=10000370 # Choshoji
 	father=10030505 # Choshoji Koren
-	martial=6
-	diplomacy=5
-	intrigue=6
-	stewardship=7
-	learning=7
+	martial=7
+	diplomacy=14
+	intrigue=9
+	stewardship=10
+	learning=6
 	religion="shinto"
 	culture="hokuriku_buddhist"
 	trait="education_learning_3"
@@ -2071,7 +1999,7 @@
 	trait="deceitful"
 	trait="callous"
 	trait="diligent"
-	prowess=10
+	prowess=11
 	1488.1.1={
 		birth=yes
 	}
@@ -2089,14 +2017,15 @@
 	mother=10042243 # Ganshoji Renjun's daughter
 	religion="shinto"
 	culture="hokuriku_buddhist"
-	learning=6
-	prowess=12
+	learning=9
 	1509.1.1={
 		birth=yes
 	}
 	1519.1.1={
-		trait="devoted"
-		name=character_name_10030501_1 # Jissho
+		effect = {
+			add_trait = "devoted"
+			change_first_name = character_name_10030501_1 # Jissho
+		}
 	}
 	1548.1.1={
 		death=yes
@@ -2109,8 +2038,7 @@
 	mother=10042243 # Ganshoji Renjun's daughter
 	religion="shinto"
 	culture="hokuriku_buddhist"
-	learning=5
-	prowess=12
+	learning=9
 	1522.1.1={
 		birth=yes
 	}
@@ -2122,11 +2050,11 @@
 	name=character_name_10030505 # Koren
 	dynasty=10000370 # Choshoji
 	father=10030506
-	martial=5
-	diplomacy=5
-	intrigue=6
-	stewardship=6
-	learning=5
+	martial=7
+	diplomacy=10
+	intrigue=9
+	stewardship=8
+	learning=8
 	religion="shinto"
 	culture="hokuriku_buddhist"
 	trait="education_learning_3"
@@ -2143,19 +2071,21 @@
 	dynasty=10000370 # Choshoji
 	father=10030507
 	martial=7
-	diplomacy=8
-	intrigue=5
-	stewardship=5
-	learning=7
+	diplomacy=10
+	intrigue=9
+	stewardship=8
+	learning=8
 	religion="shinto"
 	culture="hokuriku_buddhist"
 	trait="education_learning_3"
-	prowess=10
+	prowess=11
 	1420.1.1={
 		birth=yes
 	}
 	1440.1.1={
-		name=character_name_10030506_1 # Nyoren
+		effect = {
+			change_first_name = character_name_10030506_1 # Nyoren
+		}
 	}
 	1480.1.1={
 		death=yes
@@ -2165,11 +2095,11 @@
 	name=character_name_10030507 # Rangei
 	dynasty=10000430 # Honganji
 	father=10042222
-	martial=8
-	diplomacy=5
-	intrigue=5
-	stewardship=5
-	learning=6
+	martial=7
+	diplomacy=10
+	intrigue=9
+	stewardship=8
+	learning=8
 	religion="shinto"
 	culture="hokuriku_buddhist"
 	trait="education_learning_3"
@@ -2178,8 +2108,10 @@
 		birth=yes
 	}
 	1400.1.1={
-		name=character_name_10030507_1 # Tonen
 		dynasty=10000370 # Choshoji
+		effect = {
+			change_first_name = character_name_10030507_1 # Tonen
+		}
 	}
 	1440.1.1={
 		death=yes
@@ -2190,14 +2122,14 @@
 	dynasty=10000371 # Togashi
 	father=12310210 # Togashi Taneyasu
 	martial=6
-	diplomacy=4
+	diplomacy=7
 	intrigue=6
 	stewardship=6
-	learning=6
+	learning=7
 	religion="shinto"
 	culture="hokuriku_buddhist"
 	trait="education_intrigue_1"
-	prowess=11
+	prowess=10
 	1502.1.1={
 		birth=yes
 	}
@@ -2207,14 +2139,13 @@
 }
 10031000 = {
 	name=character_name_10031000 # Yoshifusa
-#	dynasty=10000404 # Hatakeyama
-	dynasty_house = "house_shgnt_notohatakeyama"
+	dynasty=10000404 # Hatakeyama
 	father=10031006
-	martial=5
-	diplomacy=5
-	intrigue=5
-	stewardship=5
-	learning=6
+	martial=10
+	diplomacy=15
+	intrigue=10
+	stewardship=8
+	learning=10
 	religion="shinto"
 	culture="western_hokuriku"
 	trait="education_stewardship_3"
@@ -2223,23 +2154,25 @@
 	trait="gregarious"
 	trait="poet"
 	trait="administrator"
-	prowess=10
+	prowess=14
 	1491.1.1={
 		birth=yes
 	}
 	1506.1.1={
-		trait="child_of_adoption"
-		effect={
-			set_father=character:10031005
-			set_real_father=character:10031006
+		effect = {
+			set_father = character:10031005
+			set_real_father = character:10031006
+			add_trait = "child_of_adoption"
 		}
 	}
 	1507.1.1={
 		give_nickname="nick_jio"
 	}
 	1515.11.25={	
-		trait="jushii_ge"
 		give_nickname="nick_the_shuri_daibu"
+		effect = {
+			add_trait = "jushii_ge"
+		}
 	}
 	1545.8.19={
 		death=yes
@@ -2250,17 +2183,17 @@
 #	dynasty=10000404 # Hatakeyama
 	dynasty_house = "house_shgnt_notohatakeyama"
 	father=10048110
-	martial=5
+	martial=8
 	diplomacy=7
-	intrigue=7
-	stewardship=6
-	learning=7
+	intrigue=5
+	stewardship=9
+	learning=6
 	religion="shinto"
 	culture="western_hokuriku"
 	trait="education_diplomacy_2"
 	trait="ashikaga_family"
 	trait="content"
-	prowess=9
+	prowess=12
 	1380.1.1={
 		birth=yes
 	}
@@ -2273,15 +2206,15 @@
 #	dynasty=10000404 # Hatakeyama
 	dynasty_house = "house_shgnt_notohatakeyama"
 	father=10031001
-	martial=6
-	diplomacy=5
-	intrigue=6
-	stewardship=8
-	learning=6
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=10
+	learning=8
 	religion="shinto"
 	culture="western_hokuriku"
 	trait="education_diplomacy_2"
-	prowess=11
+	prowess=12
 	1407.1.1={
 		birth=yes
 	}
@@ -2294,8 +2227,8 @@
 #	dynasty=10000404 # Hatakeyama
 	dynasty_house = "house_shgnt_notohatakeyama"
 	father=10031002
-	martial=6
-	diplomacy=5
+	martial=8
+	diplomacy=8
 	intrigue=6
 	stewardship=7
 	learning=6
@@ -2304,7 +2237,7 @@
 	trait="ashikaga_family"
 	trait="education_intrigue_1"
 	trait="legitimized_bastard"
-	prowess=11
+	prowess=12
 	1426.1.1={
 		birth=yes
 	}
@@ -2317,22 +2250,24 @@
 #	dynasty=10000404 # Hatakeyama
 	dynasty_house = "house_shgnt_notohatakeyama"
 	father=10031003
-	martial=7
-	diplomacy=5
-	intrigue=5
-	stewardship=5
-	learning=6
+	martial=5
+	diplomacy=12
+	intrigue=7
+	stewardship=9
+	learning=11
 	religion="shinto"
 	culture="western_hokuriku"
 	trait="education_martial_3"
 	trait="ashikaga_family"
-	prowess=12
+	prowess=15
 	1445.1.1={
 		birth=yes
 	}
 	1463.10.12={
-		trait="jugoi_jo"
 		give_nickname="nick_the_saemon_no_suke"
+		effect = {
+			add_trait = "jugoi_jo"
+		}
 	}
 	1497.9.16={
 		death=yes
@@ -2344,21 +2279,23 @@
 	dynasty_house = "house_shgnt_notohatakeyama"
 	father=10031004
 	martial=7
-	diplomacy=7
-	intrigue=5
-	stewardship=7
-	learning=8
+	diplomacy=9
+	intrigue=6
+	stewardship=4
+	learning=6
 	religion="shinto"
 	culture="western_hokuriku"
 	trait="education_stewardship_1"
 	trait="ashikaga_family"
-	prowess=9
+	prowess=11
 	1468.1.1={
 		birth=yes
 	}
 	1497.9.16={
-		trait="jushii_ge"
 		give_nickname="nick_the_shuri_daibu"
+		effect = {
+			add_trait = "jushii_ge"
+		}
 	}
 	1515.11.25={
 		death=yes
@@ -2369,22 +2306,24 @@
 #	dynasty=10000404 # Hatakeyama
 	dynasty_house = "house_shgnt_notohatakeyama"
 	father=10031004
-	martial=7
-	diplomacy=6
+	martial=9
+	diplomacy=4
 	intrigue=5
-	stewardship=7
-	learning=4
+	stewardship=8
+	learning=7
 	religion="shinto"
 	culture="western_hokuriku"
 	trait="education_diplomacy_2"
 	trait="ashikaga_family"
-	prowess=11
+	prowess=13
 	1471.1.1={
 		birth=yes
 	}
 	1500.1.1={
-		trait="jugoi_jo"
 		give_nickname="nick_the_saemon_no_suke"
+		effect = {
+			add_trait = "jugoi_jo"
+		}
 	}
 	1526.1.1={
 		death=yes
@@ -2395,17 +2334,17 @@
 #	dynasty=10000404 # Hatakeyama
 	dynasty_house = "house_shgnt_notohatakeyama"
 	father=10031000
-	martial=7
-	diplomacy=7
-	intrigue=6
-	stewardship=5
-	learning=5
+	martial=6
+	diplomacy=6
+	intrigue=7
+	stewardship=7
+	learning=6
 	religion="shinto"
 	culture="western_hokuriku"
 	trait="education_diplomacy_1"
 	trait="ashikaga_family"
 	trait="weak"
-	prowess=12
+	prowess=10
 	1514.1.1={
 		birth=yes
 	}
@@ -2418,16 +2357,16 @@
 #	dynasty=10000404 # Hatakeyama
 	dynasty_house = "house_shgnt_notohatakeyama"
 	father=10031000
-	martial=5
-	diplomacy=5
-	intrigue=5
+	martial=4
+	diplomacy=8
+	intrigue=4
 	stewardship=7
-	learning=6
+	learning=5
 	religion="shinto"
 	culture="western_hokuriku"
 	trait="education_intrigue_2"
 	trait="paranoid"
-	prowess=12
+	prowess=8
 	1524.1.1={
 		birth=yes
 	}
@@ -2446,7 +2385,6 @@
 	father=10031000 # Hatakeyama Yoshifusa
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=11
 	1521.1.1={
 		birth=yes
 	}
@@ -2462,7 +2400,6 @@
 	father=10031000 # Hatakeyama Yoshifusa
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=12
 	1534.1.1={
 		birth=yes
 	}
@@ -2477,15 +2414,15 @@
 	father=10031008 # Hatakeyama Yoshitsugu
 	religion="shinto"
 	culture="western_hokuriku"
-	diplomacy=5
-	martial=6
-	stewardship=6
-	intrigue=6
-	learning=6
+	diplomacy=7
+	martial=7
+	stewardship=7
+	intrigue=7
+	learning=5
 	trait="education_diplomacy_3"
 	trait="gregarious"
 	trait="patient"
-	prowess=12
+	prowess=11
 	1537.1.1={
 		birth=yes
 	}
@@ -2504,7 +2441,6 @@
 	father=10031008 # Hatakeyama Yoshitsugu
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=11
 	1546.1.1={
 		birth=yes
 	}
@@ -2519,7 +2455,6 @@
 	father=10031008 # Hatakeyama Yoshitsugu
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=12
 	1563.1.1={
 		birth=yes
 	}
@@ -2534,7 +2469,6 @@
 	father=10031008 # Hatakeyama Yoshitsugu
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=10
 	1565.1.1={
 		birth=yes
 	}
@@ -2549,7 +2483,6 @@
 	father=10031011 # Hatakeyama Yoshitsuna
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=11
 	1554.1.1={
 		birth=yes
 	}
@@ -2564,7 +2497,6 @@
 	father=10031011 # Hatakeyama Yoshitsuna
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=11
 	1556.1.1={
 		birth=yes
 	}
@@ -2578,7 +2510,6 @@
 	father=10031016 # Hatakeyama Yoshikata
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=10
 	1572.1.1={
 		birth=yes
 	}
@@ -2592,13 +2523,14 @@
 	father=10031051 # Cho Tsugutsura
 	religion="shinto"
 	culture="western_hokuriku"
-	diplomacy=7
-	martial=6
+	diplomacy=10
+	martial=10
 	stewardship=7
-	intrigue=7
-	learning=8
+	intrigue=10
+	learning=3
+	health=7
 	trait="education_learning_2"
-	prowess=10
+	prowess=14
 	1546.9.9={
 		birth=yes
 	}
@@ -2612,13 +2544,13 @@
 	father=12305166 # Cho Nobumitsu
 	religion="shinto"
 	culture="western_hokuriku"
-	martial=6
-	diplomacy=7
-	intrigue=8
-	stewardship=6
-	learning=6
+	martial=10
+	diplomacy=11
+	intrigue=12
+	stewardship=7
+	learning=3
 	trait="education_intrigue_3"
-	prowess=11
+	prowess=14
 	1516.1.1={
 		birth=yes
 	}
@@ -2631,7 +2563,6 @@
 	dynasty=10000307 # Nukui
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=11
 	1330.1.1={
 		birth=yes
 	}
@@ -2645,7 +2576,6 @@
 	father=10031115
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=10
 	1390.1.1={
 		birth=yes
 	}
@@ -2659,7 +2589,6 @@
 	father=10031115
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=11
 	1392.1.1={
 		birth=yes
 	}
@@ -2673,7 +2602,6 @@
 	father=10031101 # Nukui Yoshimune
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=10
 	1430.1.1={
 		birth=yes
 	}
@@ -2687,7 +2615,6 @@
 	father=10031101 # Nukui Yoshimune
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=11
 	1432.1.1={
 		birth=yes
 	}
@@ -2701,7 +2628,6 @@
 	father=10031103 # Nukui Toshimune
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=9
 	1460.1.1={
 		birth=yes
 	}
@@ -2715,7 +2641,6 @@
 	father=10031103 # Nukui Toshimune
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=11
 	1462.1.1={
 		birth=yes
 	}
@@ -2729,7 +2654,6 @@
 	father=10031103 # Nukui Toshimune
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=10
 	1464.1.1={
 		birth=yes
 	}
@@ -2743,9 +2667,9 @@
 	father=10031105 # Nukui Takamune
 	religion="shinto"
 	culture="western_hokuriku"
-	martial=6
-	diplomacy=7
-	intrigue=5
+	martial=8
+	diplomacy=11
+	intrigue=14
 	stewardship=7
 	learning=7
 	trait="education_diplomacy_2"
@@ -2764,7 +2688,6 @@
 	father=10031105 # Nukui Takamune
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=10
 	1494.1.1={
 		birth=yes
 	}
@@ -2778,7 +2701,6 @@
 	father=10031105 # Nukui Takamune
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=11
 	1495.1.1={
 		birth=yes
 	}
@@ -2792,14 +2714,14 @@
 	father=10031108 # Nukui Fusasada
 	religion="shinto"
 	culture="western_hokuriku"
-	martial=6
-	diplomacy=6
-	intrigue=6
+	martial=8
+	diplomacy=10
+	intrigue=11
 	stewardship=7
-	learning=7
+	learning=4
 	trait="education_diplomacy_2"
 	trait="patient"
-	prowess=11
+	prowess=12
 	1513.1.1={
 		birth=yes
 	}
@@ -2816,11 +2738,11 @@
 	father=10031111 # Nukui Tsugumune
 	religion="shinto"
 	culture="western_hokuriku"
-	martial=5
-	diplomacy=6
-	intrigue=7
-	stewardship=6
-	learning=5
+	martial=8
+	diplomacy=10
+	intrigue=12
+	stewardship=7
+	learning=4
 	trait="education_diplomacy_2"
 	prowess=12
 	1535.1.1={
@@ -2836,7 +2758,6 @@
 	father=10031111 # Nukui Tsugumune
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=10
 	1538.1.1={
 		birth=yes
 	}
@@ -2851,7 +2772,6 @@
 	father=10031111 # Nukui Tsugumune
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=9
 	1542.1.1={
 		birth=yes
 	}
@@ -2865,7 +2785,6 @@
 	father=10031100 # Nukui Kusho
 	religion="shinto"
 	culture="western_hokuriku"
-	prowess=11
 	1360.1.1={
 		birth=yes
 	}
@@ -2879,15 +2798,15 @@
 	father=12305015 # Yusa Fusamitsu
 	religion="shinto"
 	culture="western_hokuriku"
-	martial=4
-	diplomacy=4
-	intrigue=7
-	stewardship=5
-	learning=7
+	martial=9
+	diplomacy=12
+	intrigue=13
+	stewardship=9
+	learning=3
 	trait="education_intrigue_2"
 	trait="sadistic"
 	trait="arrogant"
-	prowess=12
+	prowess=13
 	1527.1.1={
 		birth=yes
 	}
@@ -2901,13 +2820,13 @@
 	father=10031150 # Yusa Tsugumitsu
 	religion="shinto"
 	culture="western_hokuriku"
-	diplomacy=5
-	martial=6
-	stewardship=5
-	intrigue=7
-	learning=4
+	diplomacy=12
+	martial=7
+	stewardship=7
+	intrigue=11
+	learning=3
 	trait="education_intrigue_2"
-	prowess=13
+	prowess=11
 	1550.1.1={
 		birth=yes
 	}
@@ -2921,16 +2840,16 @@
 	name=character_name_10031200 # Nagamoto
 	dynasty=10000300 # Jinbo
 	father=10031202
-	martial=6
-	diplomacy=6
-	intrigue=7
-	stewardship=7
-	learning=6
+	martial=9
+	diplomacy=13
+	intrigue=10
+	stewardship=9
+	learning=7
 	religion="shinto"
 	culture="eastern_hokuriku"
 	trait="education_martial_2"
 	trait="deceitful"
-	prowess=11
+	prowess=17
 	1503.1.1={
 		birth=yes
 	}
@@ -2942,16 +2861,16 @@
 	name=character_name_10031201 # Naganobu
 	dynasty=10000300 # Jinbo
 	father=10031207
-	martial=6
-	diplomacy=6
-	intrigue=6
-	stewardship=5
+	martial=5
+	diplomacy=10
+	intrigue=8
+	stewardship=8
 	learning=6
 	religion="shinto"
 	culture="eastern_hokuriku"
 	trait="education_martial_3"
 	trait="intellect_good_2"
-	prowess=13
+	prowess=15
 	1436.1.1={
 		birth=yes
 	}
@@ -2963,15 +2882,15 @@
 	name=character_name_10031202 # Yoshimune
 	dynasty=10000300 # Jinbo
 	father=10031201
-	martial=7
-	diplomacy=6
-	intrigue=5
-	stewardship=5
-	learning=5
+	martial=10
+	diplomacy=7
+	intrigue=8
+	stewardship=8
+	learning=7
 	religion="shinto"
 	culture="eastern_hokuriku"
 	trait="education_diplomacy_2"
-	prowess=9
+	prowess=14
 	1472.1.1={
 		birth=yes
 	}
@@ -2987,7 +2906,6 @@
 	father=10031200 # Jinbo Nagamoto
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=10
 	1533.1.1={
 		birth=yes
 	}
@@ -3001,12 +2919,12 @@
 	father=10031200 # Jinbo Nagamoto
 	religion="shinto"
 	culture="eastern_hokuriku"
-	martial=7
-	diplomacy=6
-	intrigue=7
+	martial=9
+	diplomacy=8
+	intrigue=6
 	stewardship=7
 	learning=5
-	prowess=11
+	prowess=13
 	1534.1.1={
 		birth=yes
 	}
@@ -3019,7 +2937,6 @@
 	dynasty=10000300 # Jinbo
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=10
 	1360.1.1={
 		birth=yes
 	}
@@ -3033,7 +2950,6 @@
 	father=10031205 # Jinbo Kunihisa
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=10
 	1380.1.1={
 		birth=yes
 	}
@@ -3047,7 +2963,6 @@
 	father=10031206 # Jinbo Norihisa
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=10
 	1410.1.1={
 		birth=yes
 	}
@@ -3060,7 +2975,6 @@
 	dynasty=10000311 # Jinbo
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=10
 	1510.1.1={
 		birth=yes
 	}
@@ -3078,8 +2992,8 @@
 	religion="shinto"
 	culture="eastern_hokuriku"
 	trait="education_martial_2"
-	martial=6
-	prowess=14
+	martial=8
+	prowess=16
 	1528.1.1={
 		birth=yes
 	}
@@ -3096,7 +3010,6 @@
 	father=10031241 # Jinbo Ujiharu
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=11
 	1560.1.1={
 		birth=yes
 	}
@@ -3110,7 +3023,6 @@
 	father=10031241 # Jinbo Ujiharu
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=11
 	1562.1.1={
 		birth=yes
 	}
@@ -3123,9 +3035,8 @@
 	dynasty=10000302 # Kojima
 	religion="shinto"
 	culture="eastern_hokuriku"
-	diplomacy=7
+	diplomacy=8
 	trait="education_diplomacy_3"
-	prowess=10
 	1523.1.1={
 		birth=yes
 	}
@@ -3141,7 +3052,6 @@
 	dynasty=10000306 # Ninomiya
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=11
 	1539.1.1={
 		birth=yes
 	}
@@ -3157,7 +3067,6 @@
 	dynasty=10000301 # Terasaki
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=11
 	1531.1.1={
 		birth=yes
 	}
@@ -3172,15 +3081,15 @@
 	name=character_name_10031403 # Yasutane
 	dynasty=10000310 # Shiina
 	father=12281008 # Shiina Yoshitane
-	martial=5
-	diplomacy=6
-	intrigue=5
-	stewardship=4
+	martial=9
+	diplomacy=7
+	intrigue=9
+	stewardship=7
 	learning=6
 	religion="shinto"
 	culture="eastern_hokuriku"
 	trait="education_diplomacy_2"
-	prowess=11
+	prowess=13
 	1514.1.1={
 		birth=yes
 	}
@@ -3194,7 +3103,6 @@
 	father=10031501
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=10
 	1531.1.1={
 		birth=yes
 	}
@@ -3210,7 +3118,6 @@
 	dynasty=10000303 # Ishiguro
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=10
 	1490.1.1={
 		birth=yes
 	}
@@ -3227,7 +3134,6 @@
 	father=10031501 # Ishiguro Oinosuke
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=11
 	1540.1.1={
 		birth=yes
 	}
@@ -3244,7 +3150,6 @@
 	father=10031500 # Ishiguro Naritsuna
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=9
 	1577.1.1={
 		birth=yes
 	}
@@ -3258,7 +3163,6 @@
 	father= 10031551
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=11
 	1530.1.1={
 		birth=yes
 	}
@@ -3272,7 +3176,6 @@
 	father=10031552 # Dohi Masamichi
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=10
 	1490.1.1={
 		birth=yes
 	}
@@ -3285,7 +3188,6 @@
 	dynasty=10000305 # Dohi
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=11
 	1450.1.1={
 		birth=yes
 	}
@@ -3297,11 +3199,11 @@
 	name=character_name_10032000 # Tamekage
 	dynasty=10000320 # Nagao
 	father=10032008
-	martial=5
-	diplomacy=5
-	intrigue=6
-	stewardship=6
-	learning=7
+	martial=4
+	diplomacy=14
+	intrigue=7
+	stewardship=4
+	learning=4
 	religion="shinto"
 	culture="eastern_hokuriku"
 	trait="education_martial_3"
@@ -3309,8 +3211,8 @@
 	trait="deceitful"
 	trait="brave"
 	trait="ambitious"
-	trait="cautious_leader"
-	prowess=13
+	trait="light_foot_leader"
+	prowess=14
 	1489.1.1={
 		birth=yes
 	}
@@ -3318,7 +3220,7 @@
 		give_nickname="nick_danjo"
 	}
 	1505.10.5={
-		effect={
+		effect = {
 			set_realm_capital=title:c_shgnt_naka_kubiki
 		}
 	}
@@ -3326,8 +3228,10 @@
 		add_spouse=10032019 # Nagao Fusako
 	}
 	1535.1.1={
-		trait="jugoi_ge"
 		give_nickname="nick_the_shinano_no_kami"
+		effect = {
+			add_trait = "jugoi_ge"
+		}
 	}
 	1543.1.29={
 		death=yes
@@ -3337,15 +3241,15 @@
 	name=character_name_10032001 # Fusanaga # Nagao Fusanaga (Ueda=Nagao)
 	dynasty=10000320 # Nagao
 	father=10032024
-	martial=5
-	diplomacy=5
-	intrigue=6
-	stewardship=6
-	learning=6
+	martial=7
+	diplomacy=9
+	intrigue=8
+	stewardship=7
+	learning=7
 	religion="shinto"
 	culture="eastern_hokuriku"
 	trait="education_martial_2"
-	prowess=14
+	prowess=15
 	1494.1.1={
 		birth=yes
 	}
@@ -3357,15 +3261,15 @@
 	name=character_name_10032003 # Takakage
 	dynasty=10000320 # Nagao
 	father=12215326 # Nagao Kagetsune
-	martial=5
-	diplomacy=8
-	intrigue=6
-	stewardship=6
-	learning=4
+	martial=9
+	diplomacy=4
+	intrigue=7
+	stewardship=8
+	learning=6
 	religion="shinto"
 	culture="eastern_hokuriku"
 	trait="education_diplomacy_2"
-	prowess=12
+	prowess=13
 	1320.1.1={
 		birth=yes
 	}
@@ -3377,15 +3281,15 @@
 	name=character_name_10032004 # Kunikage
 	dynasty=10000320 # Nagao
 	father=10032003
-	martial=5
-	diplomacy=6
-	intrigue=4
-	stewardship=8
-	learning=5
+	martial=8
+	diplomacy=5
+	intrigue=7
+	stewardship=10
+	learning=6
 	religion="shinto"
 	culture="eastern_hokuriku"
 	trait="education_diplomacy_3"
-	prowess=11
+	prowess=12
 	1365.1.1={
 		birth=yes
 	}
@@ -3399,15 +3303,15 @@
 	name=character_name_10032005 # Kagefusa
 	dynasty=10000320 # Nagao
 	father=10032003
-	martial=8
-	diplomacy=5
+	martial=7
+	diplomacy=7
 	intrigue=6
-	stewardship=5
-	learning=5
+	stewardship=7
+	learning=6
 	religion="shinto"
 	culture="eastern_hokuriku"
 	trait="education_martial_2"
-	prowess=13
+	prowess=15
 	1370.1.1={
 		birth=yes
 	}
@@ -3419,15 +3323,15 @@
 	name=character_name_10032006 # Yorikage
 	dynasty=10000320 # Nagao
 	father=10032005
-	martial=4
-	diplomacy=5
-	intrigue=5
-	stewardship=7
-	learning=6
+	martial=9
+	diplomacy=11
+	intrigue=8
+	stewardship=8
+	learning=7
 	religion="shinto"
 	culture="eastern_hokuriku"
 	trait="education_stewardship_2"
-	prowess=10
+	prowess=13
 	1400.1.1={
 		birth=yes
 	}
@@ -3439,15 +3343,15 @@
 	name=character_name_10032007 # Shigekage
 	dynasty=10000320 # Nagao
 	father=10032006
-	martial=7
-	diplomacy=6
-	intrigue=7
-	stewardship=6
-	learning=7
+	martial=8
+	diplomacy=9
+	intrigue=9
+	stewardship=8
+	learning=6
 	religion="shinto"
 	culture="eastern_hokuriku"
 	trait="education_diplomacy_2"
-	prowess=10
+	prowess=12
 	1425.1.1={
 		birth=yes
 	}
@@ -3459,21 +3363,21 @@
 	name=character_name_10032008 # Yoshikage
 	dynasty=10000320 # Nagao
 	father=10032007
-	martial=7
+	martial=8
 	diplomacy=5
 	intrigue=7
-	stewardship=6
+	stewardship=9
 	learning=6
 	religion="shinto"
 	culture="eastern_hokuriku"
 	trait="education_martial_3"
 	trait="ambitious"
-	prowess=15
+	prowess=18
 	1464.1.1={
 		birth=yes
 	}
 	1482.3.14={
-		effect={
+		effect = {
 			set_realm_capital=title:c_shgnt_naka_kubiki
 		}
 	}
@@ -3487,21 +3391,21 @@
 	name=character_name_10032009 # Harukage
 	dynasty=10000320 # Nagao
 	father=10032000
-	martial=6
-	diplomacy=5
-	intrigue=4
-	stewardship=7
-	learning=6
+	martial=5
+	diplomacy=12
+	intrigue=11
+	stewardship=8
+	learning=7
 	religion="shinto"
 	culture="eastern_hokuriku"
 	trait="education_diplomacy_2"
 	trait="weak"
-	prowess=10
+	prowess=9
 	1509.1.1={
 		birth=yes
 	}
 	1540.9.13={
-		effect={
+		effect = {
 			set_realm_capital=title:c_shgnt_naka_kubiki
 		}
 	}
@@ -3514,17 +3418,17 @@
 	dynasty=10000320 # Nagao
 	female=yes
 	father=10032000
-	martial=6
-	diplomacy=8
-	intrigue=7
+	martial=11
+	diplomacy=12
+	intrigue=14
 	stewardship=6
-	learning=5
+	learning=10
 	religion="shinto"
 	culture="eastern_hokuriku"
 	trait="education_stewardship_2"
 	trait="strong"
 	trait="generous"
-	prowess=11
+	prowess=15
 	1524.1.1={
 		birth=yes
 	}
@@ -3537,11 +3441,11 @@
 	dynasty=10000320 # Nagao
 	father=10032000
 	mother=10032019
-	martial=7
-	diplomacy=6
-	intrigue=4
+	martial=14
+	diplomacy=11
+	intrigue=10
 	stewardship=6
-	learning=6
+	learning=4
 	religion="shinto"
 	culture="eastern_hokuriku"
 	trait="education_martial_4"
@@ -3556,8 +3460,8 @@
 	trait="zealous"
 	trait="honest"
 	trait="reckless"
-	trait="flexible_leader"
-	prowess=14
+	trait="aggressive_attacker"
+	prowess=26
 	1530.2.18={
 		birth=yes
 	}
@@ -3565,27 +3469,33 @@
 		give_nickname="nick_Heizou"
 	}
 	1548.12.30={
-		effect={
+		effect = {
 			set_realm_capital=title:c_shgnt_naka_kubiki
 		}
 	}
 	1552.4.23={
-		trait="jugoi_ge"
 		give_nickname="nick_the_danjo_shohitsu"
+		effect = {
+			add_trait = "jugoi_ge"
+		}
 	}
 	1561.3.16={
 		dynasty=10000100 # Uesugi
-		name=character_name_10032011_1 # Masatora # Succession of Kanto Kanrei
-		effect={
-			set_father=character:10017000
-			set_real_father=character:10032000
+		effect = {
+			set_father = character:10017000
+			set_real_father = character:10032000
+			change_first_name = character_name_10032011_1 # Masatora
 		}
 	}
 	1561.12.1={
-		name=character_name_10032011_2 # Terutora
+		effect = {
+			change_first_name = character_name_10032011_2 # Terutora
+		}
 	}
 	1570.10.1={
-		name=character_name_10032011_3 # Kenshin
+		effect = {
+			change_first_name = character_name_10032011_3 # Kenshin
+		}
 	}
 	1578.4.30={
 		death=yes
@@ -3595,15 +3505,15 @@
 	name=character_name_10032012 # Kageharu
 	dynasty=10000320 # Nagao
 	father=12215326 # Nagao Kagetsune
-	martial=6
-	diplomacy=6
+	martial=10
+	diplomacy=9
 	intrigue=7
-	stewardship=5
-	learning=7
+	stewardship=6
+	learning=5
 	religion="shinto"
 	culture="eastern_hokuriku"
 	trait="education_martial_2"
-	prowess=12
+	prowess=18
 	1322.1.1={
 		birth=yes
 	}
@@ -3615,15 +3525,15 @@
 	name=character_name_10032013 # Munekage
 	dynasty=10000320 # Nagao
 	father=10032012
-	martial=4
-	diplomacy=5
-	intrigue=5
+	martial=8
+	diplomacy=8
+	intrigue=6
 	stewardship=5
-	learning=5
+	learning=6
 	religion="shinto"
 	culture="eastern_hokuriku"
 	trait="education_stewardship_1"
-	prowess=10
+	prowess=12
 	1358.1.1={
 		birth=yes
 	}
@@ -3635,11 +3545,11 @@
 	name=character_name_10032014 # Hidekage
 	dynasty=10000320 # Nagao
 	father=10032013
-	martial=5
-	diplomacy=5
-	intrigue=6
-	stewardship=4
-	learning=7
+	martial=6
+	diplomacy=7
+	intrigue=7
+	stewardship=7
+	learning=5
 	religion="shinto"
 	culture="eastern_hokuriku"
 	trait="education_intrigue_1"
@@ -3655,15 +3565,15 @@
 	name=character_name_10032015 # Shiro
 	dynasty=10000320 # Nagao
 	father=10032014
-	martial=7
-	diplomacy=5
-	intrigue=8
+	martial=8
+	diplomacy=6
+	intrigue=7
 	stewardship=5
-	learning=8
+	learning=7
 	religion="shinto"
 	culture="eastern_hokuriku"
 	trait="education_diplomacy_1"
-	prowess=10
+	prowess=12
 	1405.1.1={
 		birth=yes
 	}
@@ -3675,15 +3585,15 @@
 	name=character_name_10032016 # Takakage
 	dynasty=10000320 # Nagao
 	father=10032015
-	martial=6
-	diplomacy=5
-	intrigue=5
-	stewardship=6
+	martial=7
+	diplomacy=8
+	intrigue=6
+	stewardship=8
 	learning=5
 	religion="shinto"
 	culture="eastern_hokuriku"
 	trait="education_stewardship_1"
-	prowess=12
+	prowess=11
 	1449.1.1={
 		birth=yes
 	}
@@ -3695,15 +3605,15 @@
 	name=character_name_10032017 # Fusakage
 	dynasty=10000320 # Nagao
 	father=10032016
-	martial=5
-	diplomacy=6
-	intrigue=8
-	stewardship=7
-	learning=6
+	martial=7
+	diplomacy=8
+	intrigue=6
+	stewardship=8
+	learning=5
 	religion="shinto"
 	culture="eastern_hokuriku"
 	trait="education_stewardship_1"
-	prowess=12
+	prowess=11
 	1490.1.1={
 		birth=yes
 	}
@@ -3715,15 +3625,15 @@
 	name=character_name_10032018 # Kagenobu
 	dynasty=10000320 # Nagao
 	father=10032017
-	martial=5
-	diplomacy=6
-	intrigue=6
-	stewardship=6
-	learning=6
+	martial=7
+	diplomacy=9
+	intrigue=7
+	stewardship=8
+	learning=7
 	religion="shinto"
 	culture="eastern_hokuriku"
 	trait="education_martial_2"
-	prowess=13
+	prowess=15
 	1513.1.1={
 		birth=yes
 	}
@@ -3737,10 +3647,10 @@
 	female=yes
 	father=10032017
 	martial=6
-	diplomacy=7
+	diplomacy=5
 	intrigue=6
-	stewardship=7
-	learning=8
+	stewardship=6
+	learning=7
 	religion="shinto"
 	culture="eastern_hokuriku"
 	trait="education_learning_2"
@@ -3757,15 +3667,15 @@
 	name=character_name_10032020 # Nagakage
 	dynasty=10000320 # Nagao
 	father=12215326 # Nagao Kagetsune
-	martial=6
+	martial=8
 	diplomacy=7
-	intrigue=7
-	stewardship=7
-	learning=6
+	intrigue=6
+	stewardship=8
+	learning=5
 	religion="shinto"
 	culture="eastern_hokuriku"
 	trait="education_intrigue_2"
-	prowess=11
+	prowess=12
 	1328.1.1={
 		birth=yes
 	}
@@ -3777,9 +3687,9 @@
 	name=character_name_10032021 # Fusakage
 	dynasty=10000320 # Nagao
 	father=10032020
-	martial=5
-	diplomacy=6
-	intrigue=5
+	martial=6
+	diplomacy=7
+	intrigue=7
 	stewardship=7
 	learning=6
 	religion="shinto"
@@ -3797,15 +3707,15 @@
 	name=character_name_10032022 # Norikage
 	dynasty=10000320 # Nagao
 	father=10032021
-	martial=5
-	diplomacy=6
-	intrigue=6
+	martial=8
+	diplomacy=8
+	intrigue=7
 	stewardship=6
 	learning=7
 	religion="shinto"
 	culture="eastern_hokuriku"
 	trait="education_stewardship_1"
-	prowess=11
+	prowess=12
 	1398.1.1={
 		birth=yes
 	}
@@ -3819,13 +3729,13 @@
 	father=10032022
 	martial=7
 	diplomacy=6
-	intrigue=5
-	stewardship=6
-	learning=6
+	intrigue=8
+	stewardship=7
+	learning=7
 	religion="shinto"
 	culture="eastern_hokuriku"
 	trait="education_martial_1"
-	prowess=12
+	prowess=13
 	1432.1.1={
 		birth=yes
 	}
@@ -3837,15 +3747,15 @@
 	name=character_name_10032024 # Kagetaka
 	dynasty=10000320 # Nagao
 	father=10032023
-	martial=6
-	diplomacy=6
-	intrigue=7
-	stewardship=6
+	martial=8
+	diplomacy=7
+	intrigue=6
+	stewardship=7
 	learning=5
 	religion="shinto"
 	culture="eastern_hokuriku"
 	trait="education_diplomacy_1"
-	prowess=11
+	prowess=12
 	1465.1.1={
 		birth=yes
 	}
@@ -3857,15 +3767,15 @@
 	name=character_name_10032025 # Masakage
 	dynasty=10000320 # Nagao (Ueda-Nagao)
 	father=10032001
-	martial=5
-	diplomacy=7
+	martial=8
+	diplomacy=9
 	intrigue=6
-	stewardship=8
+	stewardship=11
 	learning=6
 	religion="shinto"
 	culture="eastern_hokuriku"
 	trait="education_intrigue_2"
-	prowess=11
+	prowess=12
 	1526.1.1={
 		birth=yes
 	}
@@ -3883,7 +3793,6 @@
 	father=10032001 # Nagao Fusanaga
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=10
 	1515.1.1={
 		birth=yes
 	}
@@ -3897,7 +3806,6 @@
 	father=10032001 # Nagao Fusanaga
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=12
 	1537.1.1={
 		birth=yes
 	}
@@ -3913,15 +3821,16 @@
 	father=10032001 # Nagao Fusanaga
 	religion="shinto"
 	culture="eastern_hokuriku"
-	learning=7
-	prowess=10
+	learning=9
 	1530.1.1={
 		birth=yes
 	}
 	1540.1.1={
-		trait="devoted"
-		name=character_name_10032028_1 # Tsutensontatsu
 		culture="hokuriku_buddhist"
+		effect = {
+			add_trait = "devoted"
+			change_first_name = character_name_10032028_1 # Tsutensontatsu
+		}
 	}
 	1580.1.1={
 		death=yes
@@ -3935,7 +3844,6 @@
 	religion="shinto"
 	culture="eastern_hokuriku"
 	trait="weak"
-	prowess=12
 	1546.1.1={
 		birth=yes
 	}
@@ -3950,7 +3858,6 @@
 	father=10032025 # Nagao Masakage
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=10
 	1556.1.1={
 		birth=yes
 	}
@@ -3967,10 +3874,10 @@
 	mother=10032010 # Nagao Aya (Sento-in)
 	religion="shinto"
 	culture="eastern_hokuriku"
-	diplomacy=5
-	martial=5
+	diplomacy=10
+	martial=12
 	stewardship=8
-	intrigue=7
+	intrigue=11
 	learning=7
 	trait="education_martial_3"
 	trait="intellect_good_2"
@@ -3979,37 +3886,43 @@
 	trait="just"
 	trait="patient"
 	trait="chaste"
-	prowess=14
+	prowess=22
 	1556.1.8={
 		birth=yes
 	}
 	1564.8.21={
-		name=character_name_10032032_1 # Akikage
+		effect = {
+			change_first_name = character_name_10032032_1 # Akikage
+		}
 	}
 	1575.1.1={
 		dynasty=10000100 # Uesugi
-		name=character_name_10032032_2 # Kagekatsu
-		trait="child_of_adoption"
 		give_nickname="nick_danjo_shohitsu"
-		effect={
-			set_father=character:10032011
-			set_real_father=character:10032025
+		effect = {
+			change_first_name = character_name_10032032_2 # Kagekatsu
+			set_father = character:10032011
+			set_real_father = character:10032025
+			add_trait = "child_of_adoption"
 		}
 	}
 	1578.4.19={
-		effect={
-			set_realm_capital=title:c_shgnt_naka_kubiki
+		effect = {
+			set_realm_capital = title:c_nmih_higashi_kubiki
 		}
 	}
 	1579.9.1={
 		add_spouse=10020039 # Takeda Kiku
 	}
 	1586.6.22={
-		trait="jushii_ge"
+		effect = {
+			add_trait = "jushii_ge"
+		}
 	}
 	1588.5.26={
-		trait="jusanmi"
-		remove_trait="jushii_ge"
+		effect = {
+			add_trait = "jusanmi"
+			remove_trait = "jushii_ge"
+		}
 	}
 	1623.4.19={
 		death=yes
@@ -4023,7 +3936,6 @@
 	mother=10032010 # Nagao Aya (Sento-in)
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=10
 	1557.1.1={
 		birth=yes
 	}
@@ -4038,7 +3950,6 @@
 	father=10032000 # Nagao Tamekage
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=11
 	1514.1.1={
 		birth=yes
 	}
@@ -4053,7 +3964,6 @@
 	father=10032000 # Nagao Tamekage
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=10
 	1515.1.1={
 		birth=yes
 	}
@@ -4068,7 +3978,6 @@
 	father=10032000 # Nagao Tamekage
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=10
 	1544.1.1={
 		birth=yes
 	}
@@ -4082,7 +3991,6 @@
 	father=12270425 # Kaji Taneyasu
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=12
 	1330.1.1={
 		birth=yes
 	}
@@ -4096,7 +4004,6 @@
 	father=12270425 # Kaji Taneyasu
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=10
 	1335.1.1={
 		birth=yes
 	}
@@ -4110,7 +4017,6 @@
 	father=10032301 # Kaji Nagatane
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=10
 	1355.1.1={
 		birth=yes
 	}
@@ -4124,7 +4030,6 @@
 	father=10032301 # Kaji Nagatane
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=10
 	1360.1.1={
 		birth=yes
 	}
@@ -4138,7 +4043,6 @@
 	father=10032300 # Kaji Yukitane
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=10
 	1360.1.1={
 		birth=yes
 	}
@@ -4152,7 +4056,6 @@
 	father=10032306 # Kaji Nagatsuna
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=10
 	1390.1.1={
 		birth=yes
 	}
@@ -4166,7 +4069,6 @@
 	father=10032308 # Shibata Nagatsune
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=9
 	1420.1.1={
 		birth=yes
 	}
@@ -4180,7 +4082,6 @@
 	father=10032310 # Shibata Tsunetsuna
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=10
 	1450.1.1={
 		birth=yes
 	}
@@ -4194,7 +4095,6 @@
 	father=10032312 # Shibata Harutsuna
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=11
 	1480.1.1={
 		birth=yes
 	}
@@ -4208,10 +4108,10 @@
 	father=10032314 # Shibata Nagatsuna
 	religion="shinto"
 	culture="eastern_hokuriku"
-	martial=7
-	diplomacy=6
-	intrigue=8
-	prowess=10
+	martial=8
+	diplomacy=13
+	intrigue=13
+	prowess=12
 	1512.1.1={
 		birth=yes
 	}
@@ -4225,7 +4125,6 @@
 	father=10032314 # Shibata Nagatsuna
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=10
 	1515.1.1={
 		birth=yes
 	}
@@ -4239,14 +4138,14 @@
 	father=10032316 # Shibata Tsunasada
 	religion="shinto"
 	culture="eastern_hokuriku"
-	diplomacy=5
-	martial=4
-	stewardship=6
-	intrigue=5
-	learning=4
+	diplomacy=9
+	martial=11
+	stewardship=8
+	intrigue=12
+	learning=3
 	trait="education_diplomacy_3"
 	trait="brave"
-	prowess=11
+	prowess=15
 	1538.1.1={
 		birth=yes
 	}
@@ -4261,13 +4160,13 @@
 	religion="shinto"
 	culture="eastern_hokuriku"
 	diplomacy=7
-	martial=7
-	stewardship=6
-	intrigue=7
-	learning=8
+	martial=9
+	stewardship=7
+	intrigue=10
+	learning=3
 	trait="education_martial_3"
 	trait="brave"
-	prowess=13
+	prowess=19
 	1547.1.1={
 		birth=yes
 	}
@@ -4282,7 +4181,6 @@
 	father=10032316 # Shibata Tsunasada
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=10
 	1553.1.1={
 		birth=yes
 	}
@@ -4296,7 +4194,6 @@
 	father=10032316 # Shibata Tsunasada
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=11
 	1555.1.1={
 		birth=yes
 	}
@@ -4311,7 +4208,6 @@
 	father=10032316 # Shibata Tsunasada
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=9
 	1557.1.1={
 		birth=yes
 	}
@@ -4325,7 +4221,6 @@
 	father=12270466 # Kaji Sukehide
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=11
 	1343.1.1={
 		birth=yes
 	}
@@ -4339,7 +4234,6 @@
 	father=10032330 # Kaji Norihide
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=10
 	1373.1.1={
 		birth=yes
 	}
@@ -4353,7 +4247,6 @@
 	father=10032332 # Kaji Hirohide
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=10
 	1403.1.1={
 		birth=yes
 	}
@@ -4367,7 +4260,6 @@
 	father=10032334 # Kaji Atsuhide
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=10
 	1433.1.1={
 		birth=yes
 	}
@@ -4381,7 +4273,6 @@
 	father=10032336 # Kaji Masahide
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=10
 	1453.1.1={
 		birth=yes
 	}
@@ -4395,7 +4286,6 @@
 	father=10032338 # Kaji Sukehide
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=11
 	1483.1.1={
 		birth=yes
 	}
@@ -4409,7 +4299,6 @@
 	father=10032338 # Kaji Sukehide
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=9
 	1485.1.1={
 		birth=yes
 	}
@@ -4423,7 +4312,6 @@
 	father=10032340 # Kaji Akihide
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=11
 	1503.1.1={
 		birth=yes
 	}
@@ -4437,7 +4325,6 @@
 	father=10032341 # Kaji Hidetsune
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=10
 	1515.1.1={
 		birth=yes
 	}
@@ -4455,7 +4342,6 @@
 	mother=10032035 # Nagao Tsuyu, daughter of 32000:Nagao Tamekage
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=11
 	1535.1.1={
 		birth=yes
 	}
@@ -4471,7 +4357,6 @@
 	father=10032347 # Kaji Hidetsuna
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=11
 	1560.1.1={
 		birth=yes
 	}
@@ -4485,7 +4370,6 @@
 	father=12270635 # Honjo Mochinaga
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=10
 	1320.1.1={
 		birth=yes
 	}
@@ -4499,7 +4383,6 @@
 	father=12270640 # Honjo Arinaga
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=12
 	1370.1.1={
 		birth=yes
 	}
@@ -4514,7 +4397,6 @@
 	religion="shinto"
 	culture="eastern_hokuriku"
 	trait="education_intrigue_1"
-	prowess=12
 	1410.1.1={
 		birth=yes
 	}
@@ -4527,14 +4409,14 @@
 	dynasty=10000321 # Honjo
 	father=10032404 # Honjo Norinaga
 	martial=7
-	diplomacy=7
-	intrigue=7
-	stewardship=5
-	learning=7
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=5
 	religion="shinto"
 	culture="eastern_hokuriku"
 	trait="education_intrigue_1"
-	prowess=10
+	prowess=11
 	1432.1.1={
 		birth=yes
 	}
@@ -4546,15 +4428,15 @@
 	name=character_name_10032408 # Nagakazu
 	dynasty=10000321 # Honjo
 	father=10032406 # Honjo Akinaga
-	martial=6
-	diplomacy=5
+	martial=9
+	diplomacy=8
 	intrigue=6
-	stewardship=6
-	learning=7
+	stewardship=7
+	learning=5
 	religion="shinto"
 	culture="eastern_hokuriku"
 	trait="education_diplomacy_1"
-	prowess=11
+	prowess=13
 	1449.1.1={
 		birth=yes
 	}
@@ -4566,15 +4448,15 @@
 	name=character_name_10032410 # Fusanaga
 	dynasty=10000321 # Honjo
 	father=10032408 # Honjo Nagakazu
-	martial=6
-	diplomacy=4
-	intrigue=7
-	stewardship=5
-	learning=7
+	martial=8
+	diplomacy=10
+	intrigue=8
+	stewardship=8
+	learning=6
 	religion="shinto"
 	culture="eastern_hokuriku"
 	trait="education_intrigue_2"
-	prowess=11
+	prowess=12
 	1466.1.1={
 		birth=yes
 	}
@@ -4588,7 +4470,6 @@
 	father=10032408 # Honjo Nagakazu
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=10
 	1467.1.1={
 		birth=yes
 	}
@@ -4602,7 +4483,6 @@
 	father=10032408 # Honjo Nagakazu
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=10
 	1468.1.1={
 		birth=yes
 	}
@@ -4616,7 +4496,6 @@
 	father=10032410 # Honjo Fusanaga
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=10
 	1483.1.1={
 		birth=yes
 	}
@@ -4630,7 +4509,6 @@
 	father=10032414 # Honjo Tokinaga
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=9
 	1500.1.1={
 		birth=yes
 	}
@@ -4644,10 +4522,10 @@
 	father=10032414 # Honjo Tokinaga
 	religion="shinto"
 	culture="eastern_hokuriku"
-	martial=7
-	diplomacy=4
-	intrigue=7
-	prowess=10
+	martial=8
+	diplomacy=6
+	intrigue=8
+	prowess=12
 	1505.1.1={
 		birth=yes
 	}
@@ -4659,15 +4537,15 @@
 	name=character_name_10032418 # Morinaga
 	dynasty=10000321 # Honjo
 	father=10032414 # Honjo Tokinaga
-	martial=7
-	diplomacy=5
+	martial=9
+	diplomacy=7
 	intrigue=6
-	stewardship=5
-	learning=4
+	stewardship=7
+	learning=5
 	religion="shinto"
 	culture="eastern_hokuriku"
 	trait="education_stewardship_1"
-	prowess=9
+	prowess=13
 	1506.1.1={
 		birth=yes
 	}
@@ -4679,16 +4557,16 @@
 	name=character_name_10032419 # Nagasuke
 	dynasty=10000323 # Ogawa
 	father=10032414 # Honjo Tokinaga
-	martial=7
-	diplomacy=6
-	intrigue=8
-	stewardship=5
-	learning=5
+	martial=6
+	diplomacy=7
+	intrigue=6
+	stewardship=7
+	learning=6
 	religion="shinto"
 	culture="eastern_hokuriku"
 	trait="education_intrigue_1"
 	trait="callous"
-	prowess=11
+	prowess=10
 	1507.1.1={
 		birth=yes
 	}
@@ -4702,15 +4580,16 @@
 	father=10032417 # Honjo Fusanaga
 	religion="shinto"
 	culture="eastern_hokuriku"
-	diplomacy=7
-	martial=7
-	stewardship=6
-	intrigue=6
-	learning=7
+	diplomacy=9
+	martial=10
+	stewardship=7
+	intrigue=11
+	learning=3
+	health=7
 	trait="education_martial_3"
 	trait="brave"
 	trait="strong"
-	prowess=14
+	prowess=20
 	1540.1.12={
 		birth=yes
 	}
@@ -4728,7 +4607,6 @@
 	mother=10032037 # daughter of 32017:Nagao Fusakage
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=10
 	1564.1.1={
 		birth=yes
 	}
@@ -4742,7 +4620,6 @@
 	father=10032421 # Honjo Shigenaga
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=9
 	1573.1.1={
 		birth=yes
 	}
@@ -4756,7 +4633,6 @@
 	father=10032421 # Honjo Shigenaga
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=10
 	1580.1.1={
 		birth=yes
 	}
@@ -4770,7 +4646,6 @@
 	father=10032421 # Honjo Shigenaga
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=11
 	1582.1.1={
 		birth=yes
 	}
@@ -4784,7 +4659,6 @@
 	father=10032421 # Honjo Shigenaga
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=10
 	1602.1.1={
 		birth=yes
 	}
@@ -4798,7 +4672,6 @@
 	father=10032421 # Honjo Shigenaga
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=10
 	1603.1.1={
 		birth=yes
 	}
@@ -4812,7 +4685,6 @@
 	father=10032421 # Honjo Shigenaga
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=10
 	1604.1.1={
 		birth=yes
 	}
@@ -4826,7 +4698,6 @@
 	father=10032421 # Honjo Shigenaga
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=11
 	1605.1.1={
 		birth=yes
 	}
@@ -4841,7 +4712,6 @@
 	father=10032421 # Honjo Shigenaga
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=11
 	1565.1.1={
 		birth=yes
 	}
@@ -4856,7 +4726,6 @@
 	father=10032421 # Honjo Shigenaga
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=12
 	1567.1.1={
 		birth=yes
 	}
@@ -4871,7 +4740,6 @@
 	father=10032421 # Honjo Shigenaga
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=10
 	1570.1.1={
 		birth=yes
 	}
@@ -4886,7 +4754,6 @@
 	father=10032421 # Honjo Shigenaga
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=11
 	1571.1.1={
 		birth=yes
 	}
@@ -4901,7 +4768,6 @@
 	father=10032421 # Honjo Shigenaga
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=11
 	1575.1.1={
 		birth=yes
 	}
@@ -4916,7 +4782,6 @@
 	father=10032421 # Honjo Shigenaga
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=11
 	1577.1.1={
 		birth=yes
 	}
@@ -4931,7 +4796,6 @@
 	father=10032421 # Honjo Shigenaga
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=10
 	1579.1.1={
 		birth=yes
 	}
@@ -4946,7 +4810,6 @@
 	father=10032421 # Honjo Shigenaga
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=10
 	1585.1.1={
 		birth=yes
 	}
@@ -4961,7 +4824,6 @@
 	father=10032421 # Honjo Shigenaga
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=10
 	1587.1.1={
 		birth=yes
 	}
@@ -4973,15 +4835,16 @@
 	name=character_name_10032601 # Fujisuke
 	dynasty=10000322 # Nakajo 
 	father=10032606
-	martial=6
-	diplomacy=7
-	intrigue=7
-	stewardship=4
+	martial=9
+	diplomacy=9
+	intrigue=8
+	stewardship=7
 	learning=6
+	health=8
 	religion="shinto"
 	culture="eastern_hokuriku"
 	trait="education_martial_2"
-	prowess=11
+	prowess=17
 	1483.1.1={
 		birth=yes
 	}
@@ -4993,15 +4856,15 @@
 	name=character_name_10032606 # Sadasuke
 	dynasty=10000322 # Nakajo 
 	father=12271435 # Nakajo Tomosuke
-	martial=5
-	diplomacy=5
-	intrigue=5
-	stewardship=5
-	learning=5
+	martial=7
+	diplomacy=9
+	intrigue=8
+	stewardship=6
+	learning=6
 	religion="shinto"
 	culture="eastern_hokuriku"
 	trait="education_martial_2"
-	prowess=13
+	prowess=15
 	1443.1.1={
 		birth=yes
 	}
@@ -5013,15 +4876,15 @@
 	name=character_name_10032607 # Kagesuke
 	dynasty=10000322 # Nakajo
 	father=10032601
-	martial=6
+	martial=8
 	diplomacy=7
-	intrigue=6
-	stewardship=4
+	intrigue=7
+	stewardship=8
 	learning=7
 	religion="shinto"
 	culture="eastern_hokuriku"
 	trait="education_diplomacy_2"
-	prowess=10
+	prowess=12
 	1532.1.1={
 		birth=yes
 	}
@@ -5038,7 +4901,6 @@
 	father=10032642 # Yosie Kagesuke
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=10
 	1558.1.1={
 		birth=yes
 	}
@@ -5057,7 +4919,6 @@
 	mother=10021611 # daughter of Takanashi Murasaki
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=11
 	1556.1.1={
 		birth=yes
 	}
@@ -5072,7 +4933,6 @@
 	father=10032609 # Nakajo Kageyasu
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=10
 	1573.1.1={
 		birth=yes
 	}
@@ -5087,7 +4947,6 @@
 	father=10032609 # Nakajo Kageyasu
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=10
 	1575.1.1={
 		birth=yes
 	}
@@ -5102,7 +4961,6 @@
 	father=10032609 # Nakajo Kageyasu
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=11
 	1580.1.1={
 		birth=yes
 	}
@@ -5116,7 +4974,6 @@
 	father=12270822 # Kitajo Haruyoshi
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=12
 	1323.1.1={
 		birth=yes
 	}
@@ -5130,7 +4987,6 @@
 	father=10032510 # Kitajo Nagahiro
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=11
 	1353.1.1={
 		birth=yes
 	}
@@ -5144,7 +5000,6 @@
 	father=10032511 # Kitajo Nobuhiro
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=12
 	1373.1.1={
 		birth=yes
 	}
@@ -5158,7 +5013,6 @@
 	father=10032511 # Kitajo Nobuhiro
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=11
 	1375.1.1={
 		birth=yes
 	}
@@ -5172,7 +5026,6 @@
 	father=10032511 # Kitajo Nobuhiro
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=12
 	1385.1.1={
 		birth=yes
 	}
@@ -5186,7 +5039,6 @@
 	father=10032514 # Kitajo Shigehiro
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=11
 	1415.1.1={
 		birth=yes
 	}
@@ -5200,7 +5052,6 @@
 	father=10032516 # Kitajo Hirohide
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=11
 	1445.1.1={
 		birth=yes
 	}
@@ -5214,7 +5065,6 @@
 	father=10032518 # Kitajo Sukehiro
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=11
 	1475.1.1={
 		birth=yes
 	}
@@ -5231,7 +5081,6 @@
 	father=10032518 # Kitajo Sukehiro
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=12
 	1477.1.1={
 		birth=yes
 	}
@@ -5248,16 +5097,17 @@
 	father=10032520 # Kitajo Takasada
 	religion="shinto"
 	culture="eastern_hokuriku"
-	martial=6
-	diplomacy=8
-	intrigue=5
-	stewardship=5
-	learning=8
+	martial=8
+	diplomacy=9
+	intrigue=9
+	stewardship=9
+	learning=1
+	health=7
 	trait="education_martial_3"
 	trait="impatient"
 	trait="brave"
 	trait="arrogant"
-	prowess=13
+	prowess=18
 	1517.1.1={
 		birth=yes
 		employer=10032800 # Jojo [Uesugi] Sadanori
@@ -5278,10 +5128,10 @@
 	father=10032520 # Kitajo Takasada
 	religion="shinto"
 	culture="eastern_hokuriku"
-	martial=6
-	diplomacy=7
-	intrigue=5
-	prowess=11
+	martial=10
+	diplomacy=6
+	intrigue=8
+	prowess=14
 	1520.1.1={
 		birth=yes
 		employer=10032800 # Jojo [Uesugi] Sadanori
@@ -5299,7 +5149,6 @@
 	father=10032520 # Kitajo Takasada
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=10
 	1525.1.1={
 		birth=yes
 		employer=10032800 # Jojo [Uesugi] Sadanori
@@ -5317,7 +5166,6 @@
 	father=10032523 # Kitajo Takahiro
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=11
 	1548.1.1={
 		birth=yes
 	}
@@ -5331,7 +5179,6 @@
 	father=10032523 # Kitajo Takahiro
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=11
 	1550.1.1={
 		birth=yes
 	}
@@ -5345,7 +5192,6 @@
 	father=10032523 # Kitajo Takahiro
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=9
 	1553.1.1={
 		birth=yes
 	}
@@ -5359,7 +5205,6 @@
 	father=10032523 # Kitajo Takahiro
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=9
 	1560.1.1={
 		birth=yes
 	}
@@ -5374,7 +5219,6 @@
 	father=10032523 # Kitajo Takahiro
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=9
 	1549.1.1={
 		birth=yes
 	}
@@ -5389,7 +5233,6 @@
 	father=10032523 # Kitajo Takahiro
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=9
 	1552.1.1={
 		birth=yes
 	}
@@ -5403,7 +5246,6 @@
 	father=12270820 # Mori Tsunetaka
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=12
 	1321.1.1={
 		birth=yes
 	}
@@ -5417,7 +5259,6 @@
 	father=12270820 # Mori Tsunetaka
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=10
 	1340.1.1={
 		birth=yes
 	}
@@ -5431,7 +5272,6 @@
 	father=10032535 # Yasuda Noritomo
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=10
 	1370.1.1={
 		birth=yes
 	}
@@ -5445,7 +5285,6 @@
 	father=10032535 # Yasuda Noritomo
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=10
 	1371.1.1={
 		birth=yes
 	}
@@ -5459,7 +5298,6 @@
 	father=10032538 # Yasuda Michimoto
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=10
 	1400.1.1={
 		birth=yes
 	}
@@ -5473,7 +5311,6 @@
 	father=10032540 # Yasuda Shigehiro
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=10
 	1420.1.1={
 		birth=yes
 	}
@@ -5487,7 +5324,6 @@
 	father=10032542 # Yasuda Kiyohiro
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=10
 	1450.1.1={
 		birth=yes
 	}
@@ -5505,7 +5341,6 @@
 	father=10032544 # Yasuda Hiroharu
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=10
 	1510.1.1={
 		birth=yes
 	}
@@ -5518,10 +5353,10 @@
 	dynasty=10000330 # Yasuda
 	religion="shinto"
 	culture="eastern_hokuriku"
-	martial=7
-	diplomacy=5
-	intrigue=7
-	prowess=10
+	martial=12
+	diplomacy=8
+	intrigue=9
+	prowess=16
 	1510.1.1={
 		birth=yes
 	}
@@ -5539,10 +5374,10 @@
 	father=10032547 # Yasuda Kagemoto
 	religion="shinto"
 	culture="eastern_hokuriku"
-	martial=6
-	diplomacy=6
-	intrigue=7
-	prowess=10
+	martial=10
+	diplomacy=11
+	intrigue=11
+	prowess=14
 	1530.1.1={
 		birth=yes
 	}
@@ -5558,20 +5393,22 @@
 	father=10032547 # Yasuda Kagemoto
 	religion="shinto"
 	culture="eastern_hokuriku"
-	martial=6
-	diplomacy=6
-	intrigue=6
-	stewardship=5
-	learning=5
+	martial=9
+	diplomacy=13
+	intrigue=11
+	stewardship=11
+	learning=7
 	trait="education_stewardship_3"
 	trait="poet"
 	trait="just"
-	prowess=11
+	prowess=13
 	1557.1.1={
 		birth=yes
 	}
 	1583.1.1={
-		trait="maimed"
+		effect = {
+			add_trait = "maimed"
+		}
 	}
 	1622.8.2={
 		death=yes
@@ -5583,7 +5420,6 @@
 	father=10032624 # Kawata Izunokami
 	religion="shinto"
 	culture="central_kinai"
-	prowess=11
 	1520.1.1={
 		birth=yes
 	}
@@ -5598,16 +5434,16 @@
 	religion="shinto"
 	culture="eastern_hokuriku"
 	martial=8
-	diplomacy=7
-	intrigue=7
-	stewardship=4
-	learning=5
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=7
 	trait="education_martial_3"
 	trait="intellect_good_2"
-	trait="beauty_good_2"
+	trait="beauty_good_3"
 	trait="administrator"
 	trait="humble"
-	prowess=14
+	prowess=18
 	1545.1.1={
 		birth=yes
 	}
@@ -5624,7 +5460,6 @@
 	father=10032620 # Kawata Motochika
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=11
 	1550.1.1={
 		birth=yes
 	}
@@ -5638,7 +5473,6 @@
 	father=10032620 # Kawata Motochika
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=10
 	1557.1.1={
 		birth=yes
 	}
@@ -5651,7 +5485,6 @@
 	dynasty=10000324 # Kawata
 	religion="shinto"
 	culture="central_kinai"
-	prowess=11
 	1500.1.1={
 		birth=yes
 	}
@@ -5665,7 +5498,6 @@
 	father=10032624 # Kawata Izunokami
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=12
 	1530.1.1={
 		birth=yes
 	}
@@ -5679,7 +5511,6 @@
 	father=10032625 # Kawata Shigechika
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=12
 	1550.1.1={
 		birth=yes
 	}
@@ -5694,7 +5525,6 @@
 	father=10032625 # Kawata Shigechika
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=11
 	1555.1.1={
 		birth=yes
 	}
@@ -5709,7 +5539,6 @@
 	father=10032625 # Kawata Shigechika
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=10
 	1560.1.1={
 		birth=yes
 	}
@@ -5722,7 +5551,6 @@
 	dynasty=10000325 # Ajisaka
 	religion="shinto"
 	culture="central_kinai"
-	prowess=12
 	1530.1.1={
 		birth=yes
 	}
@@ -5735,7 +5563,6 @@
 	dynasty=10000326 # Yosie
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=12
 	1480.1.1={
 		birth=yes
 	}
@@ -5749,10 +5576,11 @@
 	father=10032640 # Yosie Kagemune
 	religion="shinto"
 	culture="eastern_hokuriku"
-	martial=5
+	martial=10
+	health=7
 	trait="education_martial_2"
 	trait="patient"
-	prowess=11
+	prowess=18
 	1505.1.1={
 		birth=yes
 	}
@@ -5766,9 +5594,9 @@
 	father=10032641 # Yosie Munenobu
 	religion="shinto"
 	culture="eastern_hokuriku"
-	martial=4
+	martial=10
 	trait="education_martial_2"
-	prowess=12
+	prowess=18
 	1527.1.1={
 		birth=yes
 	}
@@ -5782,7 +5610,6 @@
 	father=10032642 # Yosie Kagesuke
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=12
 	1547.1.1={
 		birth=yes
 	}
@@ -5796,7 +5623,6 @@
 	father=10032642 # Yosie Kagesuke
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=11
 	1549.1.1={
 		birth=yes
 	}
@@ -5810,7 +5636,6 @@
 	father=10032642 # Yosie Nagasuke
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=12
 	1570.1.1={
 		birth=yes
 	}
@@ -5823,9 +5648,8 @@
 	dynasty=10000331 # Kanamari
 	religion="shinto"
 	culture="eastern_hokuriku"
-	diplomacy=5
+	diplomacy=8
 	trait="education_diplomacy_3"
-	prowess=11
 	1495.1.1={
 		birth=yes
 	}
@@ -5839,9 +5663,8 @@
 	father=10032647 # Kanamari Masatsuna
 	religion="shinto"
 	culture="eastern_hokuriku"
-	diplomacy=5
+	diplomacy=8
 	trait="education_diplomacy_3"
-	prowess=11
 	1521.1.1={
 		birth=yes
 	}
@@ -5855,11 +5678,10 @@
 	father=10032648 # Kanamari Sanetsuna
 	religion="shinto"
 	culture="eastern_hokuriku"
-	diplomacy=7
+	diplomacy=8
 	trait="education_diplomacy_3"
 	trait="gregarious"
 	trait="administrator"
-	prowess=10
 	1526.1.1={
 		birth=yes
 	}
@@ -5874,7 +5696,6 @@
 	culture="eastern_hokuriku"
 	intrigue=8
 	trait="education_stewardship_3"
-	prowess=11
 	1489.1.1={
 		birth=yes
 	}
@@ -5889,7 +5710,6 @@
 	father=10032650 # Naoe Chikatsuna
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=10
 	1539.1.1={
 		birth=yes
 	}
@@ -5903,15 +5723,15 @@
 	father=10032650 # Naoe Chikatsuna
 	religion="shinto"
 	culture="eastern_hokuriku"
-	diplomacy=6
-	martial=7
-	stewardship=5
-	intrigue=5
-	learning=7
+	diplomacy=12
+	martial=8
+	stewardship=9
+	intrigue=15
+	learning=5
 	trait="education_stewardship_3"
 	trait="gregarious"
 	trait="administrator"
-	prowess=11
+	prowess=12
 	1509.1.1={
 		birth=yes
 	}
@@ -5925,7 +5745,6 @@
 	father=10032650 # Naoe Chikatsuna
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=10
 	1510.1.1={
 		birth=yes
 	}
@@ -5939,7 +5758,6 @@
 	father=10032650 # Naoe Chikatsuna
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=10
 	1512.1.1={
 		birth=yes
 	}
@@ -5953,7 +5771,6 @@
 	father=10032652 # Naoe Kagetsuna
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=10
 	1540.1.1={
 		birth=yes
 	}
@@ -5968,7 +5785,6 @@
 	father=10032652 # Naoe Kagetsuna
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=10
 	1535.1.1={
 		birth=yes
 	}
@@ -5983,7 +5799,6 @@
 	father=10032652 # Naoe Kagetsuna
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=9
 	1557.1.1={
 		birth=yes
 	}
@@ -5996,7 +5811,6 @@
 	dynasty=10000333 # Higuchi
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=10
 	1515.1.1={
 		birth=yes
 	}
@@ -6013,13 +5827,13 @@
 	father=10032670 # Higuchi Kanemura
 	religion="shinto"
 	culture="eastern_hokuriku"
-	diplomacy=4
-	martial=7
-	stewardship=5
-	intrigue=5
-	learning=6
+	diplomacy=11
+	martial=9
+	stewardship=12
+	intrigue=8
+	learning=5
 	trait="education_stewardship_3"
-	prowess=11
+	prowess=13
 	1540.1.1={
 		birth=yes
 	}
@@ -6038,19 +5852,19 @@
 	mother=10032651 # Naoe Fuji, daughter of 32650:Naoe Chikatsuna
 	religion="shinto"
 	culture="eastern_hokuriku"
-	diplomacy=7
-	martial=5
-	stewardship=8
-	intrigue=7
-	learning=7
+	diplomacy=14
+	martial=12
+	stewardship=12
+	intrigue=14
+	learning=10
 #	trait="shugendo_buddhist"
 	trait="education_stewardship_4"
 	trait="intellect_good_2"
 	trait="poet"
 	trait="just"
 	trait="strong"
-	trait="beauty_good_2"
-	prowess=11
+	trait="beauty_good_3"
+	prowess=16
 	1560.1.1={
 		birth=yes
 	}
@@ -6062,7 +5876,9 @@
 		dynasty=10000332
 	}
 	1586.8.7={
-		trait="jugoi_ge"
+		effect = {
+			add_trait = "jugoi_ge"
+		}
 	}
 	1620.1.23={
 		death=yes
@@ -6075,7 +5891,6 @@
 	mother=10032651 # Naoe Fuji, daughter of 32650:Naoe Chikatsuna
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=9
 	1562.1.1={
 		birth=yes
 	}
@@ -6089,7 +5904,6 @@
 	father=10032671 # Higuchi Kanetoyo
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=10
 	1564.1.1={
 		birth=yes
 	}
@@ -6104,7 +5918,6 @@
 	father=10032671 # Higuchi Kanetoyo
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=11
 	1567.1.1={
 		birth=yes
 	}
@@ -6119,7 +5932,6 @@
 	father=10032671 # Higuchi Kanetoyo
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=9
 	1587.1.1={
 		birth=yes
 	}
@@ -6134,7 +5946,6 @@
 	father=10032671 # Higuchi Kanetoyo
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=11
 	1570.1.1={
 		birth=yes
 	}
@@ -6145,18 +5956,18 @@
 10032800 = {
 	name=character_name_10032800 # Sadanori # a.k.a. Jojo Sadanori
 	dynasty=10000100 # Uesugi 
-	martial=5
-	diplomacy=8
-	intrigue=6
-	stewardship=5
-	learning=6
+	martial=9
+	diplomacy=9
+	intrigue=10
+	stewardship=6
+	learning=7
 	father=10032809
 	religion="shinto"
 	culture="eastern_hokuriku"
 	trait="education_diplomacy_2"
 	trait="callous"
 	trait="arrogant"
-	prowess=10
+	prowess=13
 	1485.1.1={
 		birth=yes
 	}
@@ -6171,7 +5982,6 @@
 	religion="shinto"
 	culture="eastern_hokuriku"
 	trait="education_intrigue_2"
-	prowess=11
 	1350.1.1={
 		birth=yes
 	}
@@ -6186,7 +5996,6 @@
 	religion="shinto"
 	culture="eastern_hokuriku"
 	trait="education_intrigue_1"
-	prowess=10
 	1428.1.1={
 		birth=yes
 	}
@@ -6202,7 +6011,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=11
 	1400.1.1={
 		birth=yes
 	}
@@ -6218,7 +6026,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=11
 	1404.1.1={
 		birth=yes
 	}
@@ -6234,7 +6041,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=10
 	1412.1.1={
 		birth=yes
 	}
@@ -6250,7 +6056,6 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=10
 	1421.1.1={
 		birth=yes
 	}
@@ -6266,7 +6071,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=10
 	1418.1.1={
 		birth=yes
 	}
@@ -6281,17 +6085,23 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=10
 	1431.12.18={
 		birth=yes
 	}
 	1449.3.21={
-		trait="child_of_adoption"
-		effect={
-			set_father=character:10032806
-			set_real_father=character:10032805
+		give_nickname="nick_minbu_daihu"
+		effect = {
+			set_father = character:10032806
+			set_real_father = character:10032805
+			add_trait = "child_of_adoption"
 		}
 		dynasty_house = house_shgnt_echigouesugi
+	}
+	1486.3.1={
+		give_nickname="nick_the_sagami_no_kami"
+		effect = {
+			add_trait = "jushii_ge"
+		}		
 	}
 	1494.11.14={
 		death=yes
@@ -6304,7 +6114,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=10
 	1443.1.1={
 		birth=yes
 	}
@@ -6320,7 +6129,6 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=11
 	1453.1.1={
 		birth=yes
 	}
@@ -6336,9 +6144,11 @@
 	trait="education_intrigue_1"
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=10
 	1474.1.1={
 		birth=yes
+	}
+	1490.1.1={
+		give_nickname="nick_minbu_daihu"
 	}
 	1507.9.13={
 		death=yes
@@ -6351,15 +6161,14 @@
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=10
 	1478.1.1={
 		birth=yes
 	}
 	1503.1.1={
-		trait="child_of_adoption"
-		effect={
-			set_father=character:10032811
-			set_real_father=character:10032809
+		effect = {
+			set_father = character:10032811
+			set_real_father = character:10032809
+			add_trait = "child_of_adoption"
 		}
 		dynasty_house = house_shgnt_echigouesugi
 	}
@@ -6375,7 +6184,6 @@
 	dynasty=10000335 # Sanbonji
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=11
 	1470.1.1={
 		birth=yes
 	}
@@ -6392,7 +6200,6 @@
 	father=10032820 # Sanbonji Naonaga
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=10
 	1495.01.01={
 		birth=yes
 	}
@@ -6409,7 +6216,6 @@
 	father=10032821 # Sanbonji Kagesada
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=10
 	1520.01.01={
 		birth=yes
 		employer=10032800 # Uesugi Sadanori
@@ -6427,7 +6233,6 @@
 	father=10032822 # Sanbonji Sadakage
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=11
 	1545.01.01={
 		birth=yes
 	}
@@ -6447,7 +6252,6 @@
 	father=10032822 # Sanbonji Sadakage
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=12
 	1550.01.01={
 		birth=yes
 		employer=10032011 # Nagao Kagetora (Uesugi Kenshin)
@@ -6463,7 +6267,6 @@
 	dynasty=10000336 # Usami
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=10
 	1460.1.1={
 		birth=yes
 	}
@@ -6483,17 +6286,18 @@
 	father=10032825 # Usami Fusatada
 	religion="shinto"
 	culture="eastern_hokuriku"
-	martial=6
-	diplomacy=6
-	intrigue=6
+	martial=12
+	diplomacy=7
+	intrigue=7
 	stewardship=7
 	learning=5
+	health=7
 	trait="education_intrigue_4"
 	trait="intellect_good_2"
 	trait="patient"
 	trait="brave"
 	trait="strategist"
-	prowess=12
+	prowess=16
 	1489.01.01={
 		birth=yes
 	}
@@ -6515,7 +6319,6 @@
 	dynasty=10000337 # Saito
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=10
 	1430.01.01={
 		birth=yes
 	}
@@ -6532,7 +6335,6 @@
 	father=10032827 # Saito Sadanobu
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=10
 	1455.01.01={
 		birth=yes
 	}
@@ -6549,7 +6351,6 @@
 	father=10032828 # Saito Yorinobu
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=11
 	1480.01.01={
 		birth=yes
 	}
@@ -6569,7 +6370,6 @@
 	father=10032829 # Saito Masanobu
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=10
 	1505.01.01={
 		birth=yes
 	}
@@ -6592,17 +6392,17 @@
 	father=10032830 # Saito Sadanobu
 	religion="shinto"
 	culture="eastern_hokuriku"
-	martial=7
-	diplomacy=7
-	intrigue=4
-	stewardship=5
-	learning=5
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=4
 	trait="education_martial_3"
 	trait="intellect_good_2"
 	trait="administrator"
 	trait="content"
 	trait="compassionate"
-	prowess=14
+	prowess=18
 	1527.01.01={
 		birth=yes
 	}
@@ -6626,12 +6426,12 @@
 	trait="administrator"
 	trait="zealous"
 	trait="brave"
-	diplomacy=7
-	martial=5
+	diplomacy=9
+	martial=11
 	stewardship=7
-	intrigue=5
-	learning=5
-	prowess=13
+	intrigue=4
+	learning=3
+	prowess=23
 	1513.1.1={
 		birth=yes
 	}
@@ -6657,7 +6457,6 @@
 	father=10033800 # Kakizaki Kageie
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=11
 	1540.1.1={
 		birth=yes
 	}
@@ -6679,7 +6478,6 @@
 	father=10033801 # Kakizaki Haruie
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=11
 	1576.1.1={
 		birth=yes
 	}
@@ -6693,8 +6491,7 @@
 	religion="shinto"
 	culture="eastern_hokuriku"
 	trait="education_stewardship_3"
-	stewardship=6
-	prowess=10
+	stewardship=7
 	1490.1.1={
 		birth=yes
 	}
@@ -6725,7 +6522,7 @@
 	culture="eastern_hokuriku"
 	trait="education_stewardship_3"
 	trait="strong"
-	martial=8
+	martial=7
 	stewardship=7
 	prowess=11
 	1530.1.1={
@@ -6757,8 +6554,8 @@
 	culture="eastern_hokuriku"
 	trait="education_martial_3"
 	trait="brave"
-	martial=7
-	prowess=14
+	martial=8
+	prowess=18
 	1516.1.1={
 		birth=yes
 	}
@@ -6783,8 +6580,8 @@
 	trait="education_martial_2"
 	trait="strong"
 	trait="brave"
-	martial=7
-	prowess=13
+	martial=11
+	prowess=19
 	1530.1.1={
 		birth=yes
 	}
@@ -6807,7 +6604,6 @@
 	father=12270740 # Irobe Shigenaga
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=10
 	1440.1.1={
 		birth=yes
 	}
@@ -6821,7 +6617,6 @@
 	father=10033950 # Irobe Masanaga
 	religion="shinto"
 	culture="eastern_hokuriku"
-	prowess=10
 	1470.1.1={
 		birth=yes
 	}
@@ -6838,10 +6633,11 @@
 	father=10033951 # Irobe Norinaga
 	religion="shinto"
 	culture="eastern_hokuriku"
-	martial=5
+	martial=10
+	health=7
 	trait="education_martial_3"
 	trait="brave"
-	prowess=14
+	prowess=20
 	1493.1.1={
 		birth=yes
 	}
@@ -6862,7 +6658,6 @@
 	religion="shinto"
 	culture="eastern_hokuriku"
 	trait="weak"
-	prowess=9
 	1549.1.1={
 		birth=yes
 	}
@@ -6882,12 +6677,12 @@
 	father=10033952 # Irobe Katsunaga
 	religion="shinto"
 	culture="eastern_hokuriku"
-	martial=6
+	martial=10
 	trait="education_martial_3"
 	trait="mystic_1"
 	trait="compassionate"
 	trait="zealous"
-	prowess=13
+	prowess=20
 	1553.1.1={
 		birth=yes
 	}
@@ -6906,14 +6701,14 @@
 	dynasty=10000346 # Iwai
 	religion="shinto"
 	culture="koshin"
-	martial=6
-	stewardship=6
+	martial=9
+	stewardship=7
 	trait="education_stewardship_3"
 	trait="brave"
 	trait="poet"
 	trait="administrator"
 	trait="tea_master"
-	prowess=9
+	prowess=13
 	1553.1.1={
 		birth=yes
 	}
@@ -6932,9 +6727,8 @@
 	dynasty=10000347 # Kurata
 	religion="shinto"
 	culture="eastern_hokuriku"
-	stewardship=5
+	stewardship=8
 	trait="education_stewardship_3"
-	prowess=10
 	1480.1.1={
 		birth=yes
 	}
@@ -6948,9 +6742,8 @@
 	father=10033990 # Kurata Gorozaemon
 	religion="shinto"
 	culture="eastern_hokuriku"
-	stewardship=7
+	stewardship=8
 	trait="education_stewardship_3"
-	prowess=12
 	1510.1.1={
 		birth=yes
 	}
@@ -6964,9 +6757,8 @@
 	father=10033991 # Kurata Gorozaemon
 	religion="shinto"
 	culture="eastern_hokuriku"
-	stewardship=7
+	stewardship=8
 	trait="education_stewardship_3"
-	prowess=11
 	1540.1.1={
 		birth=yes
 	}
@@ -6978,15 +6770,15 @@
 	name=character_name_10034000 # Yasutoki
 	dynasty=10000340 # Honma 
 	father=10034001
-	martial=6
+	martial=8
 	diplomacy=8
-	intrigue=4
-	stewardship=6
-	learning=4
+	intrigue=8
+	stewardship=7
+	learning=6
 	religion="shinto"
 	culture="eastern_hokuriku"
 	trait="education_diplomacy_2"
-	prowess=10
+	prowess=12
 	1496.1.1={
 		birth=yes
 	}
@@ -7001,7 +6793,6 @@
 	religion="shinto"
 	culture="eastern_hokuriku"
 	trait="education_martial_1"
-	prowess=10
 	1471.1.1={
 		birth=yes
 	}
@@ -7016,7 +6807,6 @@
 	religion="shinto"
 	culture="eastern_hokuriku"
 	trait="education_martial_1"
-	prowess=12
 	1448.1.1={
 		birth=yes
 	}
@@ -7031,7 +6821,6 @@
 	religion="shinto"
 	culture="eastern_hokuriku"
 	trait="education_martial_1"
-	prowess=11
 	1423.1.1={
 		birth=yes
 	}
@@ -7046,7 +6835,6 @@
 	religion="shinto"
 	culture="eastern_hokuriku"
 	trait="education_martial_1"
-	prowess=10
 	1510.1.1={
 		birth=yes
 	}
@@ -7061,7 +6849,6 @@
 	religion="shinto"
 	culture="eastern_hokuriku"
 	trait="education_martial_1"
-	prowess=13
 	1530.1.1={
 		birth=yes
 	}
@@ -7076,7 +6863,6 @@
 	religion="shinto"
 	culture="eastern_hokuriku"
 	trait="education_martial_1"
-	prowess=13
 	1560.1.1={
 		birth=yes
 	}
@@ -7091,7 +6877,6 @@
 	religion="shinto"
 	culture="eastern_hokuriku"
 	trait="education_martial_1"
-	prowess=10
 	1565.1.1={
 		birth=yes
 	}
@@ -7106,9 +6891,9 @@
 	culture="hokuriku_buddhist"
 	trait="education_learning_4"
 	trait="devoted"
-	martial=5
-	learning=7
-	prowess=10
+	martial=1
+	learning=10
+	prowess=7
 	1470.1.1={
 		birth=yes
 	}
@@ -7131,12 +6916,13 @@
 	father=10042207 # Kokyoji Rensei
 	religion="shinto"
 	culture="hokuriku_buddhist"
-	prowess=10
 	1485.1.1={
 		birth=yes
 	}
 	1503.1.1={
-		name=character_name_10042230_1 # Renno
+		effect = {
+			change_first_name = character_name_10042230_1 # Renno
+		}
 	}
 	1503.2.18={
 		death=yes
@@ -7151,13 +6937,14 @@
 	trait="education_learning_4"
 	trait="intellect_good_2"
 	trait="zealous"
-	prowess=9
 	1486.1.1={
 		birth=yes
 	}
 	1503.1.1={
-		name=character_name_10042231_1 # Jitsugen # Shokoji Jitsugen
 		dynasty=10000375 # Shokoji
+		effect = {
+			change_first_name = character_name_10042231_1 # Jitsugen
+		}
 	}
 	1509.1.1={
 		add_spouse=10042242
@@ -7172,12 +6959,13 @@
 	father=10042207 # Kokyoji Rensei
 	religion="shinto"
 	culture="hokuriku_buddhist"
-	prowess=11
 	1499.1.1={
 		birth=yes
 	}
 	1515.1.1={
-		name=character_name_10042232_1 # Kensei
+		effect = {
+			change_first_name = character_name_10042232_1 # Kensei
+		}
 	}
 	1570.11.12={
 		death=yes
@@ -7190,7 +6978,6 @@
 	father=10042207 # Kokyoji Rensei
 	religion="shinto"
 	culture="hokuriku_buddhist"
-	prowess=10
 	1491.1.1={
 		birth=yes
 	}
@@ -7206,7 +6993,6 @@
 	mother=10042242 # Ganshoji Renjun's daughter
 	religion="shinto"
 	culture="hokuriku_buddhist"
-	prowess=9
 	1510.1.1={
 		birth=yes
 	}
@@ -7221,7 +7007,6 @@
 	mother=10042242 # Ganshoji Renjun's daughter
 	religion="shinto"
 	culture="hokuriku_buddhist"
-	prowess=11
 	1511.1.1={
 		birth=yes
 	}
@@ -7236,12 +7021,13 @@
 	mother=10042242 # Ganshoji Renjun's daughter
 	religion="shinto"
 	culture="hokuriku_buddhist"
-	prowess=10
 	1515.1.1={
 		birth=yes
 	}
 	1530.1.1={
-		name=character_name_10042236_1 # Genso
+		effect = {
+			change_first_name = character_name_10042236_1 # Genso
+		}
 	}
 	1556.10.13={
 		death=yes
@@ -7254,12 +7040,13 @@
 	mother=10042242 # Ganshoji Renjun's daughter
 	religion="shinto"
 	culture="hokuriku_buddhist"
-	prowess=11
 	1520.1.1={
 		birth=yes
 	}
 	1530.1.1={
-		name=character_name_10042237_1 # Kenei
+		effect = {
+			change_first_name = character_name_10042237_1 # Kenei
+		}
 	}
 	1575.1.1={
 		death=yes
@@ -7271,7 +7058,6 @@
 	father=10042237 # Shokoji Kenei
 	religion="shinto"
 	culture="hokuriku_buddhist"
-	prowess=10
 	1555.1.1={
 		birth=yes
 	}

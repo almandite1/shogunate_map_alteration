@@ -1009,12 +1009,12 @@
 		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
 	}
 }
-10000268 = { #Saito Yoshitatsu
+10000268 = { #Mino Saito
 	pattern = "pattern_solid.dds"
-	color1 = "white"
+	color1 = "purple"
 	colored_emblem = {
 		texture = "ce_h_saito_yoshitatsu.dds"
-		color1 = "blood_orange"		
+		color1 = "white"		
 		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 } }		
 	}
 }
@@ -2203,15 +2203,7 @@
 		instance = { position = { 0.5 0.5 } scale = { 0.68 0.68 }  }
 	}
 }
-10000600 = { #Shimazu
-	pattern = "pattern_solid.dds"	
-	color1 = "dark_green"
-	colored_emblem = {
-		texture = "ce_kutsuwa_cc_1.dds"
-		color1 = "white"
-		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
-	}
-}
+
 10000601 = { #Kimotsuki
 	pattern = "pattern_solid.dds"	
 	color1 = "white"
@@ -2230,24 +2222,8 @@
 		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
 	}
 }
-10000604 = { #Hongo
-	pattern = "pattern_solid.dds"	
-	color1 = "yellow"
-	colored_emblem = {
-		texture = "ce_kutsuwa_cc_1.dds"
-		color1 = "black"
-		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
-	}
-}
-10000606 = { #Ijuin
-	pattern = "pattern_solid.dds"	
-	color1 = "white"
-	colored_emblem = {
-		texture = "ce_h_ijuin.dds"
-		color1 = "blue"
-		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
-	}
-}
+
+
 10000610 = { #Ito
 	pattern = "pattern_solid.dds"	
 	color1 = "purple"
@@ -3030,9 +3006,9 @@
 		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
 	}
 }
-10006129 = { #Hojo
+10006129 = { #Kamakura Hojo
 	pattern = "pattern_solid.dds"
-	color1 = hsv360 { 206 49 35 }
+	color1 = purple
 	colored_emblem = {
 		texture = "ce_uroko_cc_1.dds"
 		color1 = "white"

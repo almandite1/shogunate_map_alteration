@@ -135,7 +135,7 @@ types Lists
 									layoutpolicy_horizontal = expanding
 									using = Font_Size_Medium
 									autoresize = no
-									#text = "[Character.GetUINameNoTooltip]"
+
 									text = "[Character.Custom('JP_GetUINameNoTooltip')]"
 								}
 
@@ -448,7 +448,6 @@ types Lists
 									using = Font_Size_Medium
 									layoutpolicy_horizontal = expanding
 									align = nobaseline
-									# text = "[Character.GetUINameNoTooltip]"
 									text = "[Character.Custom('JP_GetUINameNoTooltip')]"
 									autoresize = no
 									fontsize_min = 14
@@ -1192,7 +1191,6 @@ types Lists
 						name = "name"
 						layoutpolicy_horizontal = expanding
 						autoresize = no
-						# text = "[Character.GetUINameNoTooltip]"
 						text = "[Character.Custom('JP_GetUINameNoTooltip')]"
 						using = Font_Size_Medium
 						align = nobaseline
@@ -1482,7 +1480,6 @@ types Lists
 
 								text_single = {
 									layoutpolicy_horizontal = expanding
-									# text = "[Character.GetUINameNoTooltip]"
 									text = "[Character.Custom('JP_GetUINameNoTooltip')]"
 									using = Font_Size_Medium
 									autoresize = no

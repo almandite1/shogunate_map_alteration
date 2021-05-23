@@ -3,7 +3,6 @@
 	dynasty=10007127 # Awata
 	religion="shinto"
 	culture="shikoku"
-	prowess=11
 	1100.1.1={
 		birth=yes
 	}
@@ -17,15 +16,19 @@
 	father=12690000 # Awata Shigehide
 	religion="shinto"
 	culture="shikoku"
+	martial=7
 	trait="education_martial_2"
 	trait="architect"
 	trait="impatient"
-	prowess=13
+	prowess=15
 	1130.1.1={
 		birth=yes
 	}
 	1180.1.1={
-		trait="jugoi_ge"
+		give_nickname="nick_the_awa_no_kami"
+		effect = {
+			add_trait = "jugoi_ge"
+		}
 	}
 	1185.4.25={
 		death=yes
@@ -38,7 +41,6 @@
 	religion="shinto"
 	culture="shikoku"
 	trait="education_martial_2"
-	prowess=13
 	1135.1.1={
 		birth=yes
 	}
@@ -53,9 +55,11 @@
 	religion="shinto"
 	culture="shikoku"
 	trait="education_martial_2"
-	prowess=11
 	1160.1.1={
 		birth=yes
+	}
+	1180.1.1={
+		give_nickname="nick_the_saemon_no_jo"
 	}
 	1197.10.1={
 		death=yes
@@ -66,7 +70,6 @@
 	dynasty=10007128 # Kondo
 	religion="shinto"
 	culture="shikoku"
-	prowess=10
 	1110.1.1={
 		birth=yes
 	}
@@ -80,7 +83,6 @@
 	father=12690100 # Kondo Saiko
 	religion="shinto"
 	culture="shikoku"
-	prowess=11
 	1140.1.1={
 		birth=yes
 	}
@@ -94,7 +96,6 @@
 	father=12690100 # Kondo Saiko
 	religion="shinto"
 	culture="shikoku"
-	prowess=12
 	1142.1.1={
 		birth=yes
 	}
@@ -108,7 +109,6 @@
 	father=12690100 # Kondo Saiko
 	religion="shinto"
 	culture="shikoku"
-	prowess=11
 	1144.1.1={
 		birth=yes
 	}
@@ -122,7 +122,6 @@
 	father=12690100 # Kondo Saiko
 	religion="shinto"
 	culture="shikoku"
-	prowess=11
 	1146.1.1={
 		birth=yes
 	}
@@ -136,7 +135,6 @@
 	father=12690100 # Kondo Saiko
 	religion="shinto"
 	culture="shikoku"
-	prowess=9
 	1150.1.1={
 		birth=yes
 	}
@@ -150,7 +148,6 @@
 	father=10243537
 	religion="shinto"
 	culture="shikoku"
-	prowess=10
 	1120.1.1={
 		birth=yes
 	}
@@ -164,7 +161,6 @@
 	father=12690200 # Hayuka Suketaka
 	religion="shinto"
 	culture="shikoku"
-	prowess=10
 	1140.1.1={
 		birth=yes
 	}
@@ -178,7 +174,6 @@
 	father=12690200 # Hayuka Suketaka
 	religion="shinto"
 	culture="shikoku"
-	prowess=10
 	1145.1.1={
 		birth=yes
 	}
@@ -192,7 +187,6 @@
 	father=12690300 # Kozai Sukemitsu
 	religion="shinto"
 	culture="shikoku"
-	prowess=11
 	1165.1.1={
 		birth=yes
 	}
@@ -205,7 +199,6 @@
 	dynasty=10007130 # Nii
 	religion="shinto"
 	culture="shikoku"
-	prowess=11
 	1130.1.1={
 		birth=yes
 	}
@@ -219,7 +212,6 @@
 	father=12690400 # Nii Morinobu
 	religion="shinto"
 	culture="shikoku"
-	prowess=11
 	1160.1.1={
 		birth=yes
 	}
@@ -234,7 +226,6 @@
 	father=12690400 # Nii Morinobu
 	religion="shinto"
 	culture="shikoku"
-	prowess=9
 	1165.1.1={
 		birth=yes
 	}
@@ -247,7 +238,6 @@
 	dynasty=10007131 # Takaichi
 	religion="shinto"
 	culture="shikoku"
-	prowess=11
 	1110.1.1={
 		birth=yes
 	}
@@ -261,7 +251,6 @@
 	father=12690500 # Takaichi Takayoshi
 	religion="shinto"
 	culture="shikoku"
-	prowess=10
 	1140.1.1={
 		birth=yes
 	}
@@ -275,7 +264,6 @@
 	father=12690500 # Takaichi Takayoshi
 	religion="shinto"
 	culture="shikoku"
-	prowess=11
 	1145.1.1={
 		birth=yes
 	}
@@ -289,7 +277,6 @@
 	father=12690501 # Takaichi Moriyoshi
 	religion="shinto"
 	culture="shikoku"
-	prowess=11
 	1165.1.1={
 		birth=yes
 	}
@@ -303,7 +290,6 @@
 	father=12690501 # Takaichi Moriyoshi
 	religion="shinto"
 	culture="shikoku"
-	prowess=9
 	1170.1.1={
 		birth=yes
 	}
@@ -318,7 +304,6 @@
 	religion="shinto"
 	culture="shikoku"
 	trait="education_martial_2"
-	prowess=13
 	1160.1.1={
 		birth=yes
 	}
@@ -331,7 +316,6 @@
 	dynasty=10007132 # Tachibana
 	religion="shinto"
 	culture="shikoku"
-	prowess=10
 	914.1.1={
 		birth=yes
 	}
@@ -345,7 +329,6 @@
 	father=12690600 # Tachibana Toyasu
 	religion="shinto"
 	culture="shikoku"
-	prowess=11
 	944.1.1={
 		birth=yes
 	}
@@ -359,7 +342,6 @@
 	father=12690601 # Tachibana Yasuuji
 	religion="shinto"
 	culture="shikoku"
-	prowess=11
 	980.1.1={
 		birth=yes
 	}
@@ -373,7 +355,6 @@
 	father=12690602 # Tachibana Moronaga
 	religion="shinto"
 	culture="shikoku"
-	prowess=10
 	1015.1.1={
 		birth=yes
 	}
@@ -387,7 +368,6 @@
 	father=12690603 # Tachibana Yasumoto
 	religion="shinto"
 	culture="shikoku"
-	prowess=11
 	1050.1.1={
 		birth=yes
 	}
@@ -401,7 +381,6 @@
 	father=12690604 # Tachibana Kaneyuki
 	religion="shinto"
 	culture="shikoku"
-	prowess=11
 	1080.1.1={
 		birth=yes
 	}
@@ -415,7 +394,6 @@
 	father=12690605 # Tachibana Yoshinori
 	religion="shinto"
 	culture="shikoku"
-	prowess=12
 	1105.1.1={
 		birth=yes
 	}
@@ -429,7 +407,6 @@
 	father=12690606 # Tachibana Kimimitsu
 	religion="shinto"
 	culture="shikoku"
-	prowess=10
 	1130.1.1={
 		birth=yes
 	}
@@ -443,7 +420,6 @@
 	father=12690606 # Tachibana Kimimitsu
 	religion="shinto"
 	culture="shikoku"
-	prowess=11
 	1135.1.1={
 		birth=yes
 	}
@@ -457,7 +433,6 @@
 	father=12690607 # Tachibana Kiminaga
 	religion="shinto"
 	culture="shikoku"
-	prowess=10
 	1160.1.1={
 		birth=yes
 	}
@@ -471,7 +446,8 @@
 	father=12690607 # Tachibana Kiminaga
 	religion="shinto"
 	culture="shikoku"
-	prowess=12
+	health=8
+	trait="sharpshooter"
 	1162.1.1={
 		birth=yes
 	}
@@ -486,7 +462,6 @@
 	father=12690610 # Tachibana Kiminari
 	religion="shinto"
 	culture="southern_kanto"
-	prowess=11
 	1190.1.1={
 		birth=yes
 	}
@@ -500,7 +475,6 @@
 	father=12690610 # Tachibana Kiminari
 	religion="shinto"
 	culture="southern_kanto"
-	prowess=10
 	1210.1.1={
 		birth=yes
 	}
@@ -514,7 +488,6 @@
 	father=12690610 # Tachibana Kiminari
 	religion="shinto"
 	culture="southern_kanto"
-	prowess=10
 	1224.1.1={
 		birth=yes
 	}
@@ -528,7 +501,6 @@
 	father=12690717
 	religion="shinto"
 	culture="shikoku"
-	prowess=9
 	1120.1.1={
 		birth=yes
 	}
@@ -542,7 +514,6 @@
 	father=12690700 # Aki Hiroyasu
 	religion="shinto"
 	culture="shikoku"
-	prowess=10
 	1140.1.1={
 		birth=yes
 	}
@@ -556,7 +527,6 @@
 	father=12690700 # Aki Hiroyasu
 	religion="shinto"
 	culture="shikoku"
-	prowess=10
 	1142.1.1={
 		birth=yes
 	}
@@ -570,7 +540,6 @@
 	father=12690700 # Aki Hiroyasu
 	religion="shinto"
 	culture="shikoku"
-	prowess=11
 	1145.1.1={
 		birth=yes
 	}
@@ -584,7 +553,6 @@
 	father=12690703 # Aki Sanetsune
 	religion="shinto"
 	culture="shikoku"
-	prowess=11
 	1165.1.1={
 		birth=yes
 	}
@@ -598,7 +566,6 @@
 	father=12690704 # Aki Sanekiyo
 	religion="shinto"
 	culture="shikoku"
-	prowess=11
 	1185.1.1={
 		birth=yes
 	}
@@ -612,7 +579,6 @@
 	father=12690705 # Aki Sanekuni
 	religion="shinto"
 	culture="shikoku"
-	prowess=11
 	1205.1.1={
 		birth=yes
 	}
@@ -626,7 +592,6 @@
 	father=12690706 # Aki Sanetada
 	religion="shinto"
 	culture="shikoku"
-	prowess=11
 	1225.1.1={
 		birth=yes
 	}
@@ -640,7 +605,6 @@
 	father=12690707 # 
 	religion="shinto"
 	culture="shikoku"
-	prowess=10
 	1245.1.1={
 		birth=yes
 	}
@@ -654,7 +618,6 @@
 	father=12690707 # 
 	religion="shinto"
 	culture="shikoku"
-	prowess=10
 	1247.1.1={
 		birth=yes
 	}
@@ -667,7 +630,6 @@
 	dynasty=10000581 # Aki
 	religion="shinto"
 	culture="shikoku"
-	prowess=11
 	880.1.1={
 		birth=yes
 	}
@@ -681,7 +643,6 @@
 	father=12690710 # 
 	religion="shinto"
 	culture="shikoku"
-	prowess=10
 	910.1.1={
 		birth=yes
 	}
@@ -695,7 +656,6 @@
 	father=12690711 # 
 	religion="shinto"
 	culture="shikoku"
-	prowess=10
 	940.1.1={
 		birth=yes
 	}
@@ -709,7 +669,6 @@
 	father=12690712 # 
 	religion="shinto"
 	culture="shikoku"
-	prowess=11
 	970.1.1={
 		birth=yes
 	}
@@ -723,7 +682,6 @@
 	father=12690713 # 
 	religion="shinto"
 	culture="shikoku"
-	prowess=10
 	1000.1.1={
 		birth=yes
 	}
@@ -737,7 +695,6 @@
 	father=12690714 # 
 	religion="shinto"
 	culture="shikoku"
-	prowess=11
 	1030.1.1={
 		birth=yes
 	}
@@ -751,7 +708,6 @@
 	father=12690715 # 
 	religion="shinto"
 	culture="shikoku"
-	prowess=12
 	1060.1.1={
 		birth=yes
 	}
@@ -765,7 +721,6 @@
 	father=12690716 # 
 	religion="shinto"
 	culture="shikoku"
-	prowess=11
 	1090.1.1={
 		birth=yes
 	}
@@ -779,7 +734,6 @@
 	father=12690708 # 
 	religion="shinto"
 	culture="shikoku"
-	prowess=12
 	1270.1.1={
 		birth=yes
 	}
@@ -793,7 +747,6 @@
 	father=12690720 # 
 	religion="shinto"
 	culture="shikoku"
-	prowess=11
 	1295.1.1={
 		birth=yes
 	}
@@ -807,7 +760,6 @@
 	father=12690721 # 
 	religion="shinto"
 	culture="shikoku"
-	prowess=9
 	1320.1.1={
 		birth=yes
 	}
@@ -821,7 +773,6 @@
 	father=12690722 # 
 	religion="shinto"
 	culture="shikoku"
-	prowess=9
 	1345.1.1={
 		birth=yes
 	}
@@ -835,7 +786,6 @@
 	father=12690723 # 
 	religion="shinto"
 	culture="shikoku"
-	prowess=11
 	1370.1.1={
 		birth=yes
 	}
@@ -849,7 +799,6 @@
 	father=12690724 # 
 	religion="shinto"
 	culture="shikoku"
-	prowess=11
 	1395.1.1={
 		birth=yes
 	}
@@ -863,7 +812,6 @@
 	father=12690709 # 
 	religion="shinto"
 	culture="shikoku"
-	prowess=12
 	1262.1.1={
 		birth=yes
 	}
@@ -877,7 +825,6 @@
 	father=12690730 # 
 	religion="shinto"
 	culture="shikoku"
-	prowess=11
 	1280.1.1={
 		birth=yes
 	}
@@ -891,7 +838,6 @@
 	father=12690731 # 
 	religion="shinto"
 	culture="shikoku"
-	prowess=11
 	1297.1.1={
 		birth=yes
 	}
@@ -905,7 +851,6 @@
 	father=12690732 # 
 	religion="shinto"
 	culture="shikoku"
-	prowess=12
 	1315.1.1={
 		birth=yes
 	}
@@ -919,7 +864,6 @@
 	father=12690733 # 
 	religion="shinto"
 	culture="shikoku"
-	prowess=10
 	1332.1.1={
 		birth=yes
 	}
@@ -933,7 +877,6 @@
 	father=12690734 # 
 	religion="shinto"
 	culture="shikoku"
-	prowess=10
 	1350.1.1={
 		birth=yes
 	}
@@ -947,7 +890,6 @@
 	father=12690735 # 
 	religion="shinto"
 	culture="shikoku"
-	prowess=10
 	1370.1.1={
 		birth=yes
 	}
@@ -961,7 +903,6 @@
 	father=12690736 # 
 	religion="shinto"
 	culture="shikoku"
-	prowess=12
 	1390.1.1={
 		birth=yes
 	}
@@ -975,7 +916,6 @@
 	father=12690737 # 
 	religion="shinto"
 	culture="shikoku"
-	prowess=10
 	1410.1.1={
 		birth=yes
 	}
@@ -989,7 +929,6 @@
 	father=12690738 # 
 	religion="shinto"
 	culture="shikoku"
-	prowess=10
 	1430.1.1={
 		birth=yes
 	}
@@ -1002,7 +941,6 @@
 	dynasty=10007133 # Hirata
 	religion="shinto"
 	culture="shikoku"
-	prowess=11
 	1132.1.1={
 		birth=yes
 	}
@@ -1015,7 +953,6 @@
 	dynasty=10007134 # Hasuike
 	religion="shinto"
 	culture="shikoku"
-	prowess=12
 	1135.1.1={
 		birth=yes
 	}
@@ -1029,7 +966,6 @@
 	father=10230259
 	religion="shinto"
 	culture="shikoku"
-	prowess=11
 	1080.1.1={
 		birth=yes
 	}
@@ -1043,7 +979,6 @@
 	father=12691000
 	religion="shinto"
 	culture="shikoku"
-	prowess=10
 	1100.1.1={
 		birth=yes
 	}
@@ -1057,7 +992,6 @@
 	father=12691000
 	religion="shinto"
 	culture="shikoku"
-	prowess=11
 	1105.1.1={
 		birth=yes
 	}
@@ -1071,12 +1005,17 @@
 	father=12691001
 	religion="shinto"
 	culture="shikoku"
-	prowess=10
+	martial=8
+	trait="education_martial_3"
+	prowess=18
 	1130.1.1={
 		birth=yes
 	}
 	1155.1.1={
 		add_spouse=12660502
+	}
+	1180.1.1={
+		give_nickname="nick_iyo_no_suke"
 	}
 	1180.9.8 = {
 		add_pressed_claim=e_shgnt_japan
@@ -1091,7 +1030,6 @@
 	father=12691001
 	religion="shinto"
 	culture="shikoku"
-	prowess=9
 	1135.1.1={
 		birth=yes
 	}
@@ -1106,9 +1044,15 @@
 	mother=12660502
 	religion="shinto"
 	culture="shikoku"
-	prowess=11
+	martial=8
+	trait="education_martial_3"
+	trait="patient"
+	prowess=18
 	1156.1.1={
 		birth=yes
+	}
+	1172.1.1={
+		give_nickname="nick_shiro"
 	}
 	1179.1.1={
 		add_spouse=12690402
@@ -1128,7 +1072,6 @@
 	mother=12660502
 	religion="shinto"
 	culture="shikoku"
-	prowess=10
 	1158.1.1={
 		birth=yes
 	}
@@ -1143,7 +1086,6 @@
 	mother=12660502
 	religion="shinto"
 	culture="shikoku"
-	prowess=11
 	1160.1.1={
 		birth=yes
 	}
@@ -1160,7 +1102,6 @@
 	mother=12660502
 	religion="shinto"
 	culture="shikoku"
-	prowess=11
 	1162.1.1={
 		birth=yes
 	}
@@ -1175,7 +1116,6 @@
 	mother=12660502
 	religion="shinto"
 	culture="shikoku"
-	prowess=12
 	1163.1.1={
 		birth=yes
 	}
@@ -1192,7 +1132,6 @@
 	mother=12660502
 	religion="shinto"
 	culture="shikoku"
-	prowess=11
 	1165.1.1={
 		birth=yes
 	}
@@ -1207,7 +1146,6 @@
 	mother=12690402
 	religion="shinto"
 	culture="shikoku"
-	prowess=10
 	1180.1.1={
 		birth=yes
 	}
@@ -1222,7 +1160,6 @@
 	mother=10131664 #hojo Tokimasa's daughter
 	religion="shinto"
 	culture="shikoku"
-	prowess=10
 	1190.1.1={
 		birth=yes
 	}
@@ -1237,7 +1174,6 @@
 	mother=10131664 #hojo Tokimasa's daughter
 	religion="shinto"
 	culture="shikoku"
-	prowess=10
 	1195.1.1={
 		birth=yes
 	}
@@ -1253,7 +1189,6 @@
 	female=yes
 	religion="shinto"
 	culture="shikoku"
-	prowess=9
 	1198.1.1={
 		birth=yes
 	}
@@ -1268,7 +1203,6 @@
 	mother=10131664 #hojo Tokimasa's daughter
 	religion="shinto"
 	culture="shikoku"
-	prowess=10
 	1200.1.1={
 		birth=yes
 	}
@@ -1283,13 +1217,14 @@
 	mother=10131664 #hojo Tokimasa's daughter
 	religion="shinto"
 	culture="shikoku"
-	prowess=12
 	1202.1.1={
 		birth=yes
 	}
 	1263.7.1={
-		trait="devoted"
 		death=yes
+		effect = {
+			add_trait = "devoted"
+		}
 	}
 }
 12691026 = {
@@ -1299,7 +1234,6 @@
 	mother=10131664 #hojo Tokimasa's daughter
 	religion="shinto"
 	culture="shikoku"
-	prowess=10
 	1205.1.1={
 		birth=yes
 	}
@@ -1313,7 +1247,6 @@
 	father=12691024
 	religion="shinto"
 	culture="shikoku"
-	prowess=9
 	1216.1.1={
 		birth=yes
 	}
@@ -1327,7 +1260,6 @@
 	father=12691024
 	religion="shinto"
 	culture="shikoku"
-	prowess=11
 	1220.1.1={
 		birth=yes
 	}
@@ -1341,7 +1273,6 @@
 	father=12691024
 	religion="shinto"
 	culture="shikoku"
-	prowess=12
 	1235.1.1={
 		birth=yes
 	}
@@ -1355,7 +1286,6 @@
 	father=12691024
 	religion="shinto"
 	culture="shikoku"
-	prowess=12
 	1245.1.1={
 		birth=yes
 	}
@@ -1370,7 +1300,6 @@
 	female=yes
 	religion="shinto"
 	culture="shikoku"
-	prowess=11
 	1259.1.1={
 		birth=yes
 	}
@@ -1384,7 +1313,6 @@
 	father=12691031
 	religion="shinto"
 	culture="shikoku"
-	prowess=9
 	1250.1.1={
 		birth=yes
 	}
@@ -1401,7 +1329,6 @@
 	father=12691031
 	religion="shinto"
 	culture="shikoku"
-	prowess=12
 	1252.1.1={
 		birth=yes
 	}
@@ -1415,7 +1342,6 @@
 	father=12691031
 	religion="shinto"
 	culture="shikoku"
-	prowess=11
 	1254.1.1={
 		birth=yes
 	}
@@ -1429,7 +1355,6 @@
 	father=12691031
 	religion="shinto"
 	culture="shikoku"
-	prowess=10
 	1256.1.1={
 		birth=yes
 	}
@@ -1443,7 +1368,6 @@
 	father=12691031
 	religion="shinto"
 	culture="shikoku"
-	prowess=11
 	1258.1.1={
 		birth=yes
 	}
@@ -1457,7 +1381,6 @@
 	father=12691031
 	religion="shinto"
 	culture="shikoku"
-	prowess=10
 	1260.1.1={
 		birth=yes
 	}
@@ -1471,7 +1394,6 @@
 	father=12691031
 	religion="shinto"
 	culture="shikoku"
-	prowess=12
 	1262.1.1={
 		birth=yes
 	}
@@ -1485,7 +1407,6 @@
 	father=12691025
 	religion="shinto"
 	culture="shikoku"
-	prowess=11
 	1230.1.1={
 		birth=yes
 	}
@@ -1496,37 +1417,41 @@
 12691051 = {
 	name=character_name_12691051 # Michiuji #Ippen, Patriarch of Jishu sect
 	dynasty=10000584 # Kono
-	learning=6
+	learning=14
 	father=12691025
 	religion="shinto"
 	culture="shikoku"
-	prowess=11
 	1239.3.21={
 		birth=yes
 	}
 	1249.1.1={
-		trait="devoted"
-		name=character_name_12691051_1 # Chishin
+		effect = {
+			add_trait = "devoted"
+			change_first_name = character_name_12691051_1 # Chishin
+		}
 	}
 	1289.9.9={
 		death=yes
-		name=character_name_12691051_2 # Ippen
+		effect = {
+			change_first_name = character_name_12691051_2 # Ippen
+		}
 	}
 }
 12691060 = {
 	name=character_name_12691060 # Michiuji
 	dynasty=10000584 # Kono
-	learning=6
+	learning=14
 	father=12691050
 	religion="shinto"
 	culture="shikoku"
-	prowess=10
 	1261.1.1={
 		birth=yes
 	}
 	1270.1.1={
-		trait="devoted"
-		name=character_name_12691060_1 # Shokai
+		effect = {
+			add_trait = "devoted"
+			change_first_name = character_name_12691060_1 # Shokai
+		}
 	}
 	1323.3.22={
 		death=yes
@@ -1538,7 +1463,6 @@
 	religion="shinto"
 	culture="shikoku"
 	trait="education_martial_2"
-	prowess=12
 	1140.1.1={
 		birth=yes
 	}
@@ -1556,7 +1480,6 @@
 	religion="shinto"
 	culture="shikoku"
 	trait="education_martial_2"
-	prowess=13
 	1090.1.1={
 		birth=yes
 	}
@@ -1571,7 +1494,6 @@
 	religion="shinto"
 	culture="shikoku"
 	trait="education_martial_2"
-	prowess=12
 	1125.1.1={
 		birth=yes
 	}
@@ -1589,7 +1511,6 @@
 	religion="shinto"
 	culture="shikoku"
 	trait="education_martial_2"
-	prowess=13
 	1160.1.1={
 		birth=yes
 	}
@@ -1606,7 +1527,7 @@
 	religion="shinto"
 	culture="shikoku"
 	trait="education_martial_2"
-	prowess=12
+	trait="sharpshooter"
 	1150.1.1={
 		birth=yes
 	}
@@ -1623,7 +1544,6 @@
 	religion="shinto"
 	culture="shikoku"
 	trait="education_martial_2"
-	prowess=14
 	1150.1.1={
 		birth=yes
 	}

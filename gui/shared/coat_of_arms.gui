@@ -1341,9 +1341,7 @@ types CoATypes
 					size = { 62 62 }
 					alwaystransparent = yes
 
-					# coat_of_arms = "[BookmarkCharacter.GetLandedTitleTemplate.GetCoA.GetTexture('(int32)124','(int32)124')]"
 					coat_of_arms = "[BookmarkCharacter.GetDynastyTemplate.GetCoA.GetTexture('(int32)88','(int32)88')]"
-					# coat_of_arms_slot = "[BookmarkCharacter.GetLandedTitleTemplate.GetCoA.GetSlot('(int32)124','(int32)124')]"
 					coat_of_arms_slot = "[BookmarkCharacter.GetDynastyTemplate.GetCoA.GetSlot('(int32)88','(int32)88')]"
 					coat_of_arms_mask = "[BookmarkCharacter.GetGovernmentType.GetRealmMask]"
 
