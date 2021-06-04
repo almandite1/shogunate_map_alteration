@@ -2,22 +2,23 @@
 	name=character_name_10049500 # Yoshiyuki
 	dynasty=10000405 # Isshiki
 	father=10049519
-	martial=6
-	diplomacy=6
-	intrigue=6
-	stewardship=6
-	learning=5
+	martial=7
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=7
 	religion="shinto"
 	culture="northern_kinai"
 	trait="education_intrigue_1"
 	trait="ashikaga_family"
 	trait="ambitious"
-	prowess=12
+	prowess=11
 	1510.1.1={
 		birth=yes
 	}
 	1519.1.1={
-		effect={
+		give_nickname="nick_sakyo_dayu"
+		effect = {
 			set_realm_capital=title:c_shgnt_kasa
 		}
 	}
@@ -32,7 +33,6 @@
 	religion="shinto"
 	culture="northern_kinai"
 	trait="ashikaga_family"
-	prowess=11
 	1280.1.1={
 		birth=yes
 	}
@@ -47,7 +47,6 @@
 	religion="shinto"
 	culture="northern_kinai"
 	trait="ashikaga_family"
-	prowess=11
 	1310.1.1={
 		birth=yes
 	}
@@ -59,11 +58,11 @@
 	name=character_name_10049503 # Noriuji
 	dynasty=10000405 # Isshiki
 	father=12139016 # Isshiki Kokin
-	martial=5
+	martial=4
 	religion="shinto"
 	culture="northern_kinai"
 	trait="ashikaga_family"
-	prowess=10
+	prowess=8
 	1300.1.1={
 		birth=yes
 	}
@@ -75,11 +74,11 @@
 	name=character_name_10049504 # Naouji
 	dynasty=10000405 # Isshiki
 	father=10049503
-	martial=6
+	martial=3
 	religion="shinto"
 	culture="northern_kinai"
 	trait="ashikaga_family"
-	prowess=10
+	prowess=7
 	1320.1.1={
 		birth=yes
 	}
@@ -91,11 +90,11 @@
 	name=character_name_10049505 # Norimitsu
 	dynasty=10000405 # Isshiki
 	father=10049503
-	martial=5
+	martial=9
 	religion="shinto"
 	culture="northern_kinai"
 	trait="ashikaga_family"
-	prowess=10
+	prowess=13
 	1325.1.1={
 		birth=yes
 	}
@@ -110,7 +109,6 @@
 	religion="shinto"
 	culture="northern_kinai"
 	trait="ashikaga_family"
-	prowess=12
 	1330.1.1={
 		birth=yes
 	}
@@ -125,7 +123,6 @@
 	religion="shinto"
 	culture="northern_kinai"
 	trait="ashikaga_family"
-	prowess=10
 	1340.1.1={
 		birth=yes
 	}
@@ -140,7 +137,6 @@
 	religion="shinto"
 	culture="northern_kinai"
 	trait="ashikaga_family"
-	prowess=10
 	1345.1.1={
 		birth=yes
 	}
@@ -155,7 +151,6 @@
 	religion="shinto"
 	culture="northern_kinai"
 	trait="ashikaga_family"
-	prowess=10
 	1368.1.1={
 		birth=yes
 	}
@@ -170,7 +165,6 @@
 	religion="shinto"
 	culture="northern_kinai"
 	trait="ashikaga_family"
-	prowess=11
 	1375.1.1={
 		birth=yes
 	}
@@ -185,7 +179,6 @@
 	religion="shinto"
 	culture="northern_kinai"
 	trait="ashikaga_family"
-	prowess=11
 	1390.1.1={
 		birth=yes
 	}
@@ -200,12 +193,11 @@
 	religion="shinto"
 	culture="northern_kinai"
 	trait="ashikaga_family"
-	prowess=10
 	1400.1.1={
 		birth=yes
 	}
 	1409.1.25={
-		effect={
+		effect = {
 			set_realm_capital=title:c_shgnt_kasa
 		}
 	}
@@ -222,7 +214,6 @@
 	religion="shinto"
 	culture="northern_kinai"
 	trait="ashikaga_family"
-	prowess=10
 	1405.1.1={
 		birth=yes
 	}
@@ -237,12 +228,11 @@
 	religion="shinto"
 	culture="northern_kinai"
 	trait="ashikaga_family"
-	prowess=11
 	1419.1.1={
 		birth=yes
 	}
 	1440.6.14={
-		effect={
+		effect = {
 			set_realm_capital=title:c_shgnt_kasa
 		}
 	}
@@ -258,20 +248,20 @@
 	father=10049512
 	religion="shinto"
 	culture="northern_kinai"
-	diplomacy=5
-	martial=5
-	stewardship=6
+	diplomacy=7
+	martial=7
+	stewardship=7
 	intrigue=7
-	learning=4
+	learning=5
 	trait="ashikaga_family"
 	trait="education_diplomacy_1"
 	trait="poet"
-	prowess=9
+	prowess=11
 	1425.1.1={
 		birth=yes
 	}
 	1451.12.21={
-		effect={
+		effect = {
 			set_realm_capital=title:c_shgnt_kasa
 		}
 	}
@@ -286,12 +276,11 @@
 	religion="shinto"
 	culture="northern_kinai"
 	trait="ashikaga_family"
-	prowess=10
 	1466.1.1={
 		birth=yes
 	}
 	1474.4.1={
-		effect={
+		effect = {
 			set_realm_capital=title:c_shgnt_kasa
 		}
 	}
@@ -308,12 +297,11 @@
 	trait="ashikaga_family"
 	trait="lazy"
 	trait="arbitrary"
-	prowess=10
 	1472.1.1={
 		birth=yes
 	}
 	1484.9.3={
-		effect={
+		effect = {
 			set_realm_capital=title:c_shgnt_kasa
 		}
 	}
@@ -328,7 +316,6 @@
 	religion="shinto"
 	culture="northern_kinai"
 	trait="ashikaga_family"
-	prowess=12
 	1425.1.1={
 		birth=yes
 	}
@@ -343,12 +330,11 @@
 	religion="shinto"
 	culture="northern_kinai"
 	trait="ashikaga_family"
-	prowess=9
 	1487.1.1={
 		birth=yes
 	}
 	1498.6.18={
-		effect={
+		effect = {
 			set_realm_capital=title:c_shgnt_kasa
 		}
 	}
@@ -363,7 +349,6 @@
 	religion="shinto"
 	culture="northern_kinai"
 	trait="ashikaga_family"
-	prowess=10
 	1450.1.1={
 		birth=yes
 	}
@@ -378,12 +363,11 @@
 	religion="shinto"
 	culture="northern_kinai"
 	trait="ashikaga_family"
-	prowess=10
 	1505.1.1={
 		birth=yes
 	}
 	1512.8.30={
-		effect={
+		effect = {
 			set_realm_capital=title:c_shgnt_kasa
 		}
 	}
@@ -399,7 +383,6 @@
 	religion="shinto"
 	culture="northern_kinai"
 	trait="ashikaga_family"
-	prowess=10
 	1512.1.1={
 		birth=yes
 	}
@@ -415,7 +398,6 @@
 	religion="shinto"
 	culture="northern_kinai"
 	trait="ashikaga_family"
-	prowess=11
 	1490.1.1={
 		birth=yes
 	}
@@ -428,9 +410,9 @@
 	dynasty=10000405 # Isshiki
 	father=10049500
 	martial=7
-	diplomacy=5
+	diplomacy=8
 	intrigue=8
-	stewardship=7
+	stewardship=5
 	learning=7
 	religion="shinto"
 	culture="northern_kinai"
@@ -443,7 +425,8 @@
 		birth=yes
 	}
 	1558.1.1={
-		effect={
+		give_nickname="nick_sakyo_dayu"
+		effect = {
 			set_realm_capital=title:c_shgnt_kasa
 		}
 	}
@@ -457,16 +440,16 @@
 	name=character_name_10049526 # Yoshikiyo
 	dynasty=10000405 # Isshiki
 	father=10049500
-	martial=6
-	diplomacy=7
-	intrigue=5
-	stewardship=5
-	learning=6
+	martial=7
+	diplomacy=6
+	intrigue=6
+	stewardship=6
+	learning=7
 	religion="shinto"
 	culture="northern_kinai"
 	trait="education_intrigue_1"
 	trait="ashikaga_family"
-	prowess=12
+	prowess=11
 	1535.1.1={
 		birth=yes
 	}
@@ -481,19 +464,22 @@
 	name=character_name_10049527 # Yoshisada
 	dynasty=10000405 # Isshiki
 	father=10049525
-	martial=5
-	diplomacy=6
+	martial=7
+	diplomacy=7
 	intrigue=7
 	stewardship=7
-	learning=8
+	learning=7
 	religion="shinto"
 	culture="northern_kinai"
 	trait="ashikaga_family"
 	trait="education_martial_3"
 	trait="intellect_good_2"
-	prowess=14
+	prowess=17
 	1555.1.1={
 		birth=yes
+	}
+	1580.1.1={
+		give_nickname="nick_sakyo_dayu"
 	}
 	1582.9.24={
 		death={
@@ -507,7 +493,6 @@
 	father=10049504 # Isshiki Naouji
 	religion="shinto"
 	culture="northern_kinai"
-	prowess=11
 	1350.1.1={
 		birth=yes
 	}
@@ -521,7 +506,6 @@
 	father=10049530 # Isshiki Ujikane
 	religion="shinto"
 	culture="northern_kinai"
-	prowess=11
 	1380.1.1={
 		birth=yes
 	}
@@ -535,7 +519,6 @@
 	father=10049530 # Isshiki Ujikane
 	religion="shinto"
 	culture="northern_kinai"
-	prowess=12
 	1382.1.1={
 		birth=yes
 	}
@@ -549,11 +532,26 @@
 	father=10049532 # Isshiki Nagakane
 	religion="shinto"
 	culture="northern_kinai"
-	prowess=11
 	1410.1.1={
 		birth=yes
 	}
 	1477.1.1={
+		death=yes
+	}
+}
+10049534={
+	name=character_name_10049534 # Naoaki
+	dynasty=10000405 # Isshiki
+	father=10049532 # Isshiki Nagakane
+	religion="shinto"
+	culture="northern_kinai"
+	1420.1.1={
+		birth=yes
+	}
+	1455.6.5={ # Kyotoku War
+		employer = 10040059 # Ashikaga Shigeuji
+	}
+	1480.1.1={
 		death=yes
 	}
 }
@@ -563,8 +561,7 @@
 	religion="shinto"
 	culture="northern_kinai"
 	trait="education_diplomacy_2"
-	diplomacy=6
-	prowess=11
+	diplomacy=9
 	1390.1.1={
 		birth=yes
 	}
@@ -579,8 +576,7 @@
 	religion="shinto"
 	culture="northern_kinai"
 	trait="education_diplomacy_2"
-	diplomacy=6
-	prowess=11
+	diplomacy=9
 	1420.1.1={
 		birth=yes
 	}
@@ -596,8 +592,7 @@
 	culture="northern_kinai"
 	trait="education_diplomacy_2"
 	trait="ambitious"
-	diplomacy=4
-	prowess=11
+	diplomacy=9
 	1460.1.1={
 		birth=yes
 	}
@@ -612,8 +607,8 @@
 	culture="northern_kinai"
 	martial=8
 	trait="education_martial_3"
-	martial=5
-	prowess=13
+	trait="sharpshooter"
+	prowess=18
 	1508.1.1={
 		birth=yes
 	}
@@ -627,9 +622,9 @@
 	father=10049580 # Inadome Sukehide
 	religion="shinto"
 	culture="northern_kinai"
-	martial=5
+	martial=9
 	trait="education_martial_2"
-	prowess=12
+	prowess=17
 	1530.1.1={
 		birth=yes
 	}
@@ -643,9 +638,10 @@
 	father=10049581 # Inadome Naohide
 	religion="shinto"
 	culture="northern_kinai"
-	martial=6
+	martial=8
 	trait="education_martial_3"
-	prowess=12
+	trait="sharpshooter"
+	prowess=18
 	1552.1.1={
 		birth=yes
 	}
@@ -658,15 +654,15 @@
 #	dynasty=10000207 # Takeda (Aki=Takeda)
 	dynasty_house = house_shgnt_akitakeda
 	father=10042004 # Takeda Motonobu
-	martial=7
-	diplomacy=6
-	intrigue=8
-	stewardship=6
-	learning=4
+	martial=10
+	diplomacy=12
+	intrigue=10
+	stewardship=9
+	learning=10
 	religion="shinto"
 	culture="northern_kinai"
 	trait="education_intrigue_2"
-	prowess=11
+	prowess=14
 	1494.1.1={
 		birth=yes
 	}
@@ -680,7 +676,7 @@
 		give_nickname="nick_the_izu_no_kami"
 	}
 	1521.12.3={
-		effect={
+		effect = {
 			set_realm_capital=title:c_shgnt_onifu
 		}
 	}
@@ -688,7 +684,9 @@
 		give_nickname="nick_the_daizen_daihu"
 	}
 	1539.1.1={
-		trait="ill"
+		effect = {
+			add_trait = "ill"
+		}
 	}
 	1551.8.11={
 		death=yes
@@ -699,11 +697,11 @@
 #	dynasty=10000207 # Takeda (Aki=Takeda)
 	dynasty_house = house_shgnt_akitakeda
 	father=10056105 # Takeda Nobushige
-	martial=6
-	diplomacy=6
-	intrigue=6
-	stewardship=7
-	learning=8
+	martial=7
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=7
 	religion="shinto"
 	culture="northern_kinai"
 	trait="education_intrigue_2"
@@ -722,8 +720,8 @@
 	father=10056105 # Takeda Nobushige
 	martial=7
 	diplomacy=8
-	intrigue=5
-	stewardship=5
+	intrigue=8
+	stewardship=8
 	learning=7
 	religion="shinto"
 	culture="northern_kinai"
@@ -747,15 +745,15 @@
 #	dynasty=10000207 # Takeda (Aki=Takeda)
 	dynasty_house = house_shgnt_akitakeda
 	father=10042002 # Takeda Kuninobu
-	martial=5
-	diplomacy=7
-	intrigue=5
-	stewardship=7
-	learning=5
+	martial=7
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=7
 	religion="shinto"
 	culture="northern_kinai"
 	trait="education_intrigue_1"
-	prowess=10
+	prowess=11
 	1458.1.1={
 		birth=yes
 	}
@@ -763,7 +761,7 @@
 		give_nickname="nick_Hikotaro"
 	}
 	1475.1.1={
-		effect={
+		effect = {
 			set_realm_capital=title:c_shgnt_onifu
 		}
 	}
@@ -782,20 +780,20 @@
 #	dynasty=10000207 # Takeda (Aki=Takeda)
 	dynasty_house = house_shgnt_akitakeda
 	father=10042002 # Takeda Kuninobu
-	martial=6
-	diplomacy=6
-	intrigue=5
-	stewardship=5
+	martial=7
+	diplomacy=8
+	intrigue=8
+	stewardship=8
 	learning=7
 	religion="shinto"
 	culture="northern_kinai"
 	trait="education_diplomacy_1"
-	prowess=10
+	prowess=11
 	1461.1.1={
 		birth=yes
 	}
 	1514.8.22={
-		effect={
+		effect = {
 			set_realm_capital=title:c_shgnt_onifu
 		}
 	}
@@ -809,14 +807,14 @@
 	dynasty_house = house_shgnt_akitakeda
 	father=10042000 # Takeda Motomitsu
 	martial=7
-	diplomacy=5
-	intrigue=5
-	stewardship=6
-	learning=6
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=7
 	religion="shinto"
 	culture="northern_kinai"
 	trait="education_intrigue_1"
-	prowess=10
+	prowess=11
 	1514.1.1={
 		birth=yes
 	}
@@ -833,7 +831,7 @@
 		give_nickname="nick_the_izu_no_kami"
 	}
 	1551.8.11={
-		effect={
+		effect = {
 			set_realm_capital=title:c_shgnt_onifu
 		}
 	}
@@ -850,16 +848,16 @@
 	dynasty_house = house_shgnt_akitakeda
 	father=10042005 # Takeda Nobutoyo
 	mother=10044017 # Rokkaku Sadayori's daughter
-	martial=6
+	martial=7
 	diplomacy=8
-	intrigue=5
+	intrigue=8
 	stewardship=8
-	learning=6
+	learning=3
 	religion="shinto"
 	culture="northern_kinai"
 	trait="education_stewardship_1"
 	trait="content"
-	prowess=10
+	prowess=11
 	1526.1.1={
 		birth=yes
 	}
@@ -867,7 +865,8 @@
 		add_spouse=10040043 # Ashikaga Yoshiharu's daughter
 	}
 	1556.1.1={
-		effect={
+		give_nickname="nick_jibu_no_sho"
+		effect = {
 			set_realm_capital=title:c_shgnt_onifu
 		}
 	}
@@ -882,7 +881,6 @@
 	father=10042000 # Takeda Motomitsu
 	religion="shinto"
 	culture="northern_kinai"
-	prowess=9
 	1525.1.1={
 		birth=yes
 	}
@@ -897,7 +895,6 @@
 	father=10042000 # Takeda Motomitsu
 	religion="shinto"
 	culture="northern_kinai"
-	prowess=12
 	1527.1.1={
 		birth=yes
 	}
@@ -912,7 +909,6 @@
 	father=10042000 # Takeda Motomitsu
 	religion="shinto"
 	culture="northern_kinai"
-	prowess=10
 	1521.1.1={
 		birth=yes
 	}
@@ -927,7 +923,6 @@
 	father=10042005 # Takeda Nobutoyo
 	religion="shinto"
 	culture="northern_kinai"
-	prowess=12
 	1528.1.1={
 		birth=yes
 	}
@@ -942,12 +937,11 @@
 	father=10042005 # Takeda Nobutoyo
 	religion="shinto"
 	culture="northern_kinai"
-	prowess=9
 	1535.1.1={
 		birth=yes
 	}
 	1568.6.1={
-		effect={
+		effect = {
 			set_realm_capital=title:c_shgnt_onifu
 		}
 	}
@@ -963,10 +957,10 @@
 	mother=10040043 # Ashikaga Yoshiharu's daughter
 	religion="shinto"
 	culture="northern_kinai"
-	martial=5
-	diplomacy=6
-	intrigue=6
-	prowess=12
+	martial=7
+	diplomacy=10
+	intrigue=9
+	prowess=11
 	1562.1.1={
 		birth=yes
 	}
@@ -974,6 +968,9 @@
 		effect={
 			set_realm_capital=title:c_shgnt_onifu
 		}
+	}
+	1578.1.1={
+		give_nickname="nick_Magohachiro"
 	}
 	1582.8.7={
 		death=yes
@@ -984,11 +981,11 @@
 #	dynasty=10000207 # Takeda (Aki=Takeda)
 	dynasty_house = house_shgnt_akitakeda
 	father=10042003
-	martial=8
-	diplomacy=5
-	intrigue=7
-	stewardship=6
-	learning=8
+	martial=7
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=7
 	religion="shinto"
 	culture="northern_kinai"
 	trait="education_intrigue_1"
@@ -1007,15 +1004,15 @@
 #	dynasty=10000207 # Takeda (Aki=Takeda)
 	dynasty_house = house_shgnt_akitakeda
 	father=10042015
-	martial=6
-	diplomacy=5
-	intrigue=5
-	stewardship=6
-	learning=6
+	martial=9
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=7
 	religion="shinto"
 	culture="northern_kinai"
 	trait="education_intrigue_1"
-	prowess=11
+	prowess=13
 	1529.1.1={
 		birth=yes
 	}
@@ -1031,15 +1028,15 @@
 	dynasty_house = house_shgnt_akitakeda
 	father=10042015
 	female=yes
-	martial=4
-	diplomacy=6
-	intrigue=5
-	stewardship=6
-	learning=6
+	martial=7
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=7
 	religion="shinto"
 	culture="northern_kinai"
 	trait="education_intrigue_1"
-	prowess=9
+	prowess=11
 	1532.1.1={
 		birth=yes
 	}
@@ -1052,15 +1049,15 @@
 #	dynasty=10000207 # Takeda (Aki=Takeda)
 	dynasty_house = house_shgnt_akitakeda
 	father=10042016
-	martial=5
-	diplomacy=8
-	intrigue=5
-	stewardship=6
+	martial=7
+	diplomacy=9
+	intrigue=8
+	stewardship=8
 	learning=7
 	religion="shinto"
 	culture="northern_kinai"
 	trait="education_intrigue_1"
-	prowess=10
+	prowess=11
 	1560.1.1={
 		birth=yes
 	}
@@ -1073,7 +1070,6 @@
 	dynasty=10000429 # Henmi
 	religion="shinto"
 	culture="northern_kinai"
-	prowess=9
 	1522.1.1={
 		birth=yes
 	}
@@ -1087,10 +1083,10 @@
 	father=10042031 # Awaya Mototaka
 	religion="shinto"
 	culture="northern_kinai"
-	martial=6
-	diplomacy=6
-	intrigue=6
-	prowess=10
+	martial=11
+	diplomacy=9
+	intrigue=12
+	prowess=15
 	1523.1.1={
 		birth=yes
 	}
@@ -1103,7 +1099,6 @@
 	dynasty=10000428 # Awaya
 	religion="shinto"
 	culture="northern_kinai"
-	prowess=10
 	1495.1.1={
 		birth=yes
 	}
@@ -1121,7 +1116,6 @@
 	father=10042031 # Awaya Mototaka
 	religion="shinto"
 	culture="northern_kinai"
-	prowess=11
 	1524.1.1={
 		birth=yes
 	}
@@ -1134,10 +1128,10 @@
 	dynasty=10000428 # Awaya
 	religion="shinto"
 	culture="northern_kinai"
-	martial=6
-	diplomacy=7
-	intrigue=6
-	prowess=10
+	martial=11
+	diplomacy=10
+	intrigue=10
+	prowess=15
 	1516.1.1={
 		birth=yes
 	}
@@ -1150,7 +1144,6 @@
 	dynasty=10000423 # Shiomi
 	religion="shinto"
 	culture="northern_kinai"
-	prowess=11
 	1470.1.1={
 		birth=yes
 	}
@@ -1164,7 +1157,6 @@
 	father=10042040
 	religion="shinto"
 	culture="northern_kinai"
-	prowess=10
 	1500.1.1={
 		birth=yes
 	}
@@ -1178,7 +1170,6 @@
 	father=10042041 # 
 	religion="shinto"
 	culture="northern_kinai"
-	prowess=10
 	1530.1.1={
 		birth=yes
 	}
@@ -1194,7 +1185,6 @@
 	father=10042042 # 
 	religion="shinto"
 	culture="northern_kinai"
-	prowess=12
 	1560.1.1={
 		birth=yes
 	}
@@ -1208,7 +1198,6 @@
 	father=10042040
 	religion="shinto"
 	culture="northern_kinai"
-	prowess=10
 	1502.1.1={
 		birth=yes
 	}
@@ -1222,7 +1211,6 @@
 	father=10042040
 	religion="shinto"
 	culture="northern_kinai"
-	prowess=10
 	1505.1.1={
 		birth=yes
 	}
@@ -1236,7 +1224,6 @@
 	father=10042040
 	religion="shinto"
 	culture="northern_kinai"
-	prowess=10
 	1508.1.1={
 		birth=yes
 	}
@@ -1250,7 +1237,6 @@
 	father=10042040
 	religion="shinto"
 	culture="northern_kinai"
-	prowess=12
 	1510.1.1={
 		birth=yes
 	}
@@ -1264,7 +1250,6 @@
 	father=10042045
 	religion="shinto"
 	culture="northern_kinai"
-	prowess=10
 	1535.1.1={
 		birth=yes
 	}
@@ -1280,7 +1265,6 @@
 	father=10042048
 	religion="shinto"
 	culture="northern_kinai"
-	prowess=11
 	1565.1.1={
 		birth=yes
 	}
@@ -1294,12 +1278,12 @@
 	father=10042056
 	religion="shinto"
 	culture="northern_kinai"
-	martial=6
-	diplomacy=7
-	intrigue=7
+	martial=11
+	diplomacy=9
+	intrigue=12
 	trait="arrogant"
 	trait="greedy"
-	prowess=11
+	prowess=15
 	1430.1.1={
 		birth=yes
 	}
@@ -1313,7 +1297,6 @@
 	father=10042050
 	religion="shinto"
 	culture="northern_kinai"
-	prowess=10
 	1460.1.1={
 		birth=yes
 	}
@@ -1327,8 +1310,8 @@
 	father=10042051
 	religion="shinto"
 	culture="northern_kinai"
-	martial=5
-	prowess=11
+	martial=8
+	prowess=12
 	1500.1.1={
 		birth=yes
 	}
@@ -1348,7 +1331,6 @@
 	father=10042052
 	religion="shinto"
 	culture="northern_kinai"
-	prowess=10
 	1540.1.1={
 		birth=yes
 	}
@@ -1363,10 +1345,10 @@
 	female=yes
 	religion="shinto"
 	culture="northern_kinai"
-	martial=6
-	diplomacy=5
-	intrigue=6
-	prowess=11
+	martial=11
+	diplomacy=9
+	intrigue=12
+	prowess=15
 	1530.1.1={
 		birth=yes
 	}
@@ -1379,7 +1361,6 @@
 	dynasty=10000425 # Naito
 	religion="shinto"
 	culture="northern_kinai"
-	prowess=9
 	1380.1.1={
 		birth=yes
 	}
@@ -1393,7 +1374,6 @@
 	father=10042055 # Naito Shinsho
 	religion="shinto"
 	culture="northern_kinai"
-	prowess=10
 	1410.1.1={
 		birth=yes
 	}
@@ -1407,7 +1387,6 @@
 	father=10042050 # Naito Motosada
 	religion="shinto"
 	culture="northern_kinai"
-	prowess=10
 	1462.1.1={
 		birth=yes
 	}
@@ -1421,7 +1400,6 @@
 	father=12480240 # Akai Chikaie
 	religion="shinto"
 	culture="northern_kinai"
-	prowess=10
 	1430.1.1={
 		birth=yes
 	}
@@ -1435,7 +1413,6 @@
 	father=10042060
 	religion="shinto"
 	culture="northern_kinai"
-	prowess=12
 	1460.1.1={
 		birth=yes
 	}
@@ -1451,7 +1428,6 @@
 	father=10042060
 	religion="shinto"
 	culture="northern_kinai"
-	prowess=11
 	1465.1.1={
 		birth=yes
 	}
@@ -1467,7 +1443,6 @@
 	father=10042061
 	religion="shinto"
 	culture="northern_kinai"
-	prowess=11
 	1494.1.1={
 		birth=yes
 	}
@@ -1483,7 +1458,6 @@
 	father=10042061
 	religion="shinto"
 	culture="northern_kinai"
-	prowess=11
 	1498.1.1={
 		birth=yes
 	}
@@ -1497,9 +1471,9 @@
 	father=10042063
 	religion="shinto"
 	culture="northern_kinai"
-	martial=5
+	martial=9
 	trait="education_martial_2"
-	prowess=13
+	prowess=17
 	1525.1.1={
 		birth=yes
 	}
@@ -1516,13 +1490,13 @@
 	father=10042063
 	religion="shinto"
 	culture="northern_kinai"
-	martial=5
-	diplomacy=6
-	stewardship=6
+	martial=10
+	diplomacy=9
+	stewardship=9
 	trait="education_martial_4"
 	trait="compassionate"
 	trait="content"
-	prowess=15
+	prowess=22
 	1529.1.1={
 		birth=yes
 	}
@@ -1543,7 +1517,6 @@
 	religion="shinto"
 	culture="northern_kinai"
 	trait="education_martial_2"
-	prowess=12
 	1530.1.1={
 		birth=yes
 	}
@@ -1558,7 +1531,6 @@
 	religion="shinto"
 	culture="northern_kinai"
 	trait="education_martial_2"
-	prowess=12
 	1535.1.1={
 		birth=yes
 	}
@@ -1573,9 +1545,9 @@
 	mother=10042089
 	religion="shinto"
 	culture="northern_kinai"
-	martial=4
+	martial=9
 	trait="education_martial_2"
-	prowess=13
+	prowess=17
 	1549.1.1={
 		birth=yes
 	}
@@ -1592,9 +1564,9 @@
 	father=10042069
 	religion="shinto"
 	culture="northern_kinai"
-	martial=7
+	martial=9
 	trait="education_martial_2"
-	prowess=12
+	prowess=17
 	1582.1.1={
 		birth=yes
 		employer=10024006 # Tokugawa Ieyasu
@@ -1610,9 +1582,9 @@
 	mother=10042090 # Hatano Motohide
 	religion="shinto"
 	culture="northern_kinai"
-	martial=4
+	martial=9
 	trait="education_martial_2"
-	prowess=13
+	prowess=17
 	1570.1.1={
 		birth=yes
 	}
@@ -1627,7 +1599,6 @@
 	religion="shinto"
 	culture="northern_kinai"
 	trait="education_martial_2"
-	prowess=12
 	1570.1.1={
 		birth=yes
 	}
@@ -1642,7 +1613,6 @@
 	religion="shinto"
 	culture="northern_kinai"
 	trait="education_martial_2"
-	prowess=13
 	1574.1.1={
 		birth=yes
 	}
@@ -1657,7 +1627,6 @@
 	religion="shinto"
 	culture="northern_kinai"
 	trait="education_martial_2"
-	prowess=13
 	1572.1.1={
 		birth=yes
 	}
@@ -1672,7 +1641,6 @@
 	religion="shinto"
 	culture="northern_kinai"
 	trait="education_martial_2"
-	prowess=12
 	1574.1.1={
 		birth=yes
 	}
@@ -1685,13 +1653,13 @@
 	dynasty=10000427 # Hatano
 	religion="shinto"
 	culture="northern_kinai"
-	martial=6
-	diplomacy=5
-	intrigue=5
+	martial=9
+	diplomacy=8
+	intrigue=9
 	stewardship=7
-	learning=8
+	learning=3
 	trait="education_martial_3"
-	prowess=14
+	prowess=19
 	1443.1.1={
 		birth=yes
 	}
@@ -1708,14 +1676,14 @@
 	father=10042080
 	religion="shinto"
 	culture="northern_kinai"
-	martial=6
-	diplomacy=6
-	intrigue=6
+	martial=9
+	diplomacy=8
+	intrigue=7
 	stewardship=8
 	learning=5
 	trait="education_martial_3"
 	trait="architect"
-	prowess=13
+	prowess=19
 	1496.1.1={
 		birth=yes
 	}
@@ -1735,15 +1703,15 @@
 	father=10042080
 	religion="shinto"
 	culture="northern_kinai"
-	martial=5
+	martial=9
 	diplomacy=7
-	intrigue=5
-	stewardship=5
-	learning=7
+	intrigue=12
+	stewardship=6
+	learning=3
 	trait="education_martial_3"
 	trait="craven"
 	trait="callous"
-	prowess=15
+	prowess=19
 	1495.1.1={
 		birth=yes
 	}
@@ -1752,10 +1720,10 @@
 	}
 	1520.3.6={
 		dynasty=10000768 # Yanagimoto
-		trait="child_of_adoption"
-		effect={
-			set_father=character:10040900
-			set_real_father=character:10042080
+		effect = {
+			set_father = character:10040900
+			set_real_father = character:10042080
+			add_trait = "child_of_adoption"
 		}
 	}
 	1528.9.1={
@@ -1774,12 +1742,12 @@
 	female=yes
 	religion="shinto"
 	culture="northern_kinai"
-	martial=7
-	diplomacy=6
-	intrigue=4
-	stewardship=6
+	martial=9
+	diplomacy=5
+	intrigue=6
+	stewardship=5
 	trait="architect"
-	prowess=9
+	prowess=13
 	1510.1.1={
 		birth=yes
 	}
@@ -1794,12 +1762,12 @@
 	religion="shinto"
 	culture="northern_kinai"
 	martial=6
-	diplomacy=6
-	intrigue=7
-	stewardship=6
+	diplomacy=9
+	intrigue=9
+	stewardship=9
 	learning=6
 	trait="education_martial_3"
-	prowess=15
+	prowess=16
 	1515.1.1={
 		birth=yes
 	}
@@ -1816,11 +1784,11 @@
 	female=yes
 	religion="shinto"
 	culture="northern_kinai"
-	martial=5
-	diplomacy=6
-	intrigue=6
-	stewardship=6
-	prowess=12
+	martial=7
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	prowess=11
 	1523.1.1={
 		birth=yes
 	}
@@ -1834,17 +1802,20 @@
 	father=10042084
 	religion="shinto"
 	culture="northern_kinai"
-	martial=8
-	diplomacy=7
-	intrigue=6
-	stewardship=5
+	martial=7
+	diplomacy=8
+	intrigue=8
+	stewardship=8
 	learning=6
 	trait="education_martial_3"
 	trait="patient"
 	trait="poet"
-	prowess=13
+	prowess=17
 	1540.1.1={
 		birth=yes
+	}
+	1556.1.1={
+		give_nickname="nick_uemon"
 	}
 	1579.6.25={
 		death={
@@ -1859,9 +1830,9 @@
 	religion="shinto"
 	culture="northern_kinai"
 	martial=7
-	diplomacy=6
-	intrigue=6
-	stewardship=7
+	diplomacy=8
+	intrigue=8
+	stewardship=8
 	prowess=11
 	1542.1.1={
 		birth=yes
@@ -1878,10 +1849,10 @@
 	father=10042084
 	religion="shinto"
 	culture="northern_kinai"
-	martial=5
+	martial=7
 	diplomacy=8
-	intrigue=7
-	stewardship=4
+	intrigue=8
+	stewardship=8
 	prowess=11
 	1546.1.1={
 		birth=yes
@@ -1900,9 +1871,9 @@
 	religion="shinto"
 	culture="northern_kinai"
 	martial=7
-	diplomacy=6
-	intrigue=5
-	stewardship=6
+	diplomacy=8
+	intrigue=8
+	stewardship=8
 	prowess=11
 	1532.1.1={
 		birth=yes
@@ -1918,11 +1889,11 @@
 	female=yes
 	religion="shinto"
 	culture="northern_kinai"
-	martial=8
-	diplomacy=7
-	intrigue=6
-	stewardship=6
-	prowess=9
+	martial=7
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	prowess=11
 	1545.1.1={
 		birth=yes
 	}
@@ -1938,9 +1909,9 @@
 	religion="shinto"
 	culture="northern_kinai"
 	martial=7
-	diplomacy=6
-	intrigue=5
-	stewardship=7
+	diplomacy=8
+	intrigue=8
+	stewardship=8
 	prowess=11
 	1540.1.1={
 		birth=yes
@@ -1956,11 +1927,11 @@
 	female=yes
 	religion="shinto"
 	culture="northern_kinai"
-	martial=5
+	martial=7
 	diplomacy=8
-	intrigue=6
-	stewardship=4
-	prowess=10
+	intrigue=8
+	stewardship=8
+	prowess=11
 	1555.1.1={
 		birth=yes
 	}
@@ -1974,11 +1945,11 @@
 	father=10042086
 	religion="shinto"
 	culture="northern_kinai"
-	martial=5
-	diplomacy=6
-	intrigue=5
-	stewardship=6
-	prowess=12
+	martial=6
+	diplomacy=5
+	intrigue=4
+	stewardship=5
+	prowess=10
 	1570.1.1={
 		birth=yes
 	}
@@ -1992,8 +1963,8 @@
 	religion="shinto"
 	culture="northern_kinai"
 	trait="education_martial_3"
-	martial=4
-	prowess=13
+	martial=8
+	prowess=18
 	1530.1.1={
 		birth=yes
 	}
@@ -2020,8 +1991,8 @@
 	religion="shinto"
 	culture="northern_kinai"
 	trait="education_martial_2"
-	martial=6
-	prowess=12
+	martial=8
+	prowess=16
 	1560.1.1={
 		birth=yes
 	}
@@ -2042,7 +2013,7 @@
 	culture="northern_kinai"
 	trait="education_martial_2"
 	martial=7
-	prowess=13
+	prowess=15
 	1520.1.1={
 		birth=yes
 	}
@@ -2066,8 +2037,8 @@
 	religion="shinto"
 	culture="northern_kinai"
 	trait="education_martial_3"
-	martial=7
-	prowess=13
+	martial=8
+	prowess=18
 	1552.1.1={
 		birth=yes
 	}

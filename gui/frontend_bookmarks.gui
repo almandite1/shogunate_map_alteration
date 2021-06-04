@@ -691,27 +691,27 @@ widget = {
 				}
 			}
 
-			text_single = {
-				parentanchor = top|hcenter
-				position = { 5 5 }
-				text = "BOOKMARK_SELECT_BOOKMARK"
-				default_format = "#weak"
-				align = nobaseline
-
-				background = {
-					using = Background_Area_Solid
-					margin = { 45 10 }
-					alpha = 0.7
-
-					modify_texture = {
-						name = "mask"
-						texture = "gfx/interface/component_masks/mask_fade_horizontal_middle_thick.dds"
-						spriteType = Corneredstretched
-						spriteborder = { 40 0 }
-						blend_mode = alphamultiply
-					}
-				}
-			}
+#			text_single = {
+#				parentanchor = top|hcenter
+#				position = { 5 5 }
+#				text = "BOOKMARK_SELECT_BOOKMARK"
+#				default_format = "#weak"
+#				align = nobaseline
+#
+#				background = {
+#					using = Background_Area_Solid
+#					margin = { 45 10 }
+#					alpha = 0.7
+#
+#					modify_texture = {
+#						name = "mask"
+#						texture = "gfx/interface/component_masks/mask_fade_horizontal_middle_thick.dds"
+#						spriteType = Corneredstretched
+#						spriteborder = { 40 0 }
+#						blend_mode = alphamultiply
+#					}
+#				}
+#			}
 
 #			icon = {
 #				name = "tile_frame_top"
@@ -731,6 +731,8 @@ widget = {
 				allow_outside = yes
 
 				vbox = {
+					layoutpolicy_vertical = expanding
+
 #					widget = {
 #						layoutpolicy_vertical = expanding
 #
@@ -742,20 +744,109 @@ widget = {
 #						}
 #					}
 
+					hbox = {
+						margin = { 20 5 }
+
+						button_standard = {
+							text = "BOOKMARK_SHOW_MORE"
+							visible = "[Not(GetVariableSystem.Exists('shogunate_bookmark'))]"
+							onclick = "[GetVariableSystem.Set('shogunate_bookmark', 'more')]"
+						}
+
+						button_standard = {
+							text = "BOOKMARK_SHOW_ALL"
+							visible = "[GetVariableSystem.HasValue('shogunate_bookmark', 'more')]"
+							onclick = "[GetVariableSystem.Set('shogunate_bookmark', 'all')]"
+						}
+
+						button_standard = {
+							text = "BOOKMARK_SHOW_LESS"
+							visible = "[GetVariableSystem.HasValue('shogunate_bookmark', 'all')]"
+							onclick = "[GetVariableSystem.Clear('shogunate_bookmark')]"
+						}
+					}
+
 					vbox = {
-						name = "bookmark_grid"
+						name = "bookmark_grid_recommended"
 						datamodel = "[GameSetup.GetBookmarks]"
 						layoutpolicy_horizontal = expanding
 						margin = { 5 0 }
-						spacing = 10
+						spacing = 7
 						allow_outside = yes
+						visible = "[Not(GetVariableSystem.Exists('shogunate_bookmark'))]"
 
 						item = {
 							widget_bookmark_button = {
-								name = "bookmark_tab"
+								name = "bookmark_tab_recommended"
+								visible = "[BookmarkItem.GetBookmark.IsRecommended]"
 							}
 						}
 					}
+
+					vbox = {
+						name = "bookmark_grid_more"
+						datamodel = "[GameSetup.GetBookmarks]"
+						layoutpolicy_horizontal = expanding
+						margin = { 5 0 }
+						spacing = 9
+						allow_outside = yes
+						visible = "[GetVariableSystem.HasValue('shogunate_bookmark', 'more')]"
+
+						item = {
+							widget_bookmark_button = {
+								name = "bookmark_tab_more"
+								visible = "[And(Not(EqualTo_string(BookmarkItem.GetName, '')), Not(Or(EqualTo_string(BookmarkItem.GetYear, '1180'), EqualTo_string(BookmarkItem.GetYear, '1467'))))]"
+							}
+						}
+					}
+
+					vbox = {
+						name = "bookmark_grid_extra"
+						datamodel = "[GameSetup.GetBookmarks]"
+						layoutpolicy_horizontal = expanding
+						margin = { 5 7 }
+						spacing = 6
+						allow_outside = yes
+						visible = "[GetVariableSystem.HasValue('shogunate_bookmark', 'more')]"
+
+						item = {
+							widget_bookmark_button = {
+								name = "bookmark_tab_extra"
+								visible = "[And(Not(EqualTo_string(BookmarkItem.GetName, '')), Or(EqualTo_string(BookmarkItem.GetYear, '1180'), EqualTo_string(BookmarkItem.GetYear, '1467')))]"
+							}
+						}
+					}
+
+					scrollarea = {
+						autoresizescrollarea = yes
+						scrollbarpolicy_horizontal = always_off
+						maximumsize = { -1 965 }
+
+						scrollbar_vertical = {
+							using = Scrollbar_Vertical
+						}
+
+						scrollwidget = {
+							vbox = {
+								name = "bookmark_grid_all"
+								datamodel = "[GameSetup.GetBookmarks]"
+								layoutpolicy_horizontal = expanding
+								margin = { 5 0 }
+								spacing = 9
+								allow_outside = yes
+								visible = "[GetVariableSystem.HasValue('shogunate_bookmark', 'all')]"
+
+								item = {
+									widget_bookmark_button = {
+										name = "bookmark_tab_all"
+										visible = "[EqualTo_string(BookmarkItem.GetName, '')]"
+									}
+								}
+							}
+						}
+					}
+
+					expand = {}
 
 #					widget = {
 #						layoutpolicy_vertical = expanding
@@ -837,7 +928,8 @@ widget = {
 
 					background = {
 						size = { 50 50 }
-						texture = "[GameSetup.GetSelectedBookmark.GetButtonIconBig]"
+						texture = "gfx/interface/icons/bookmark_button_icon_big.dds"
+#						texture = "[GameSetup.GetSelectedBookmark.GetButtonIconBig]"
 						fittype = start
 						alpha = 0.8
 
@@ -1112,53 +1204,31 @@ widget = {
 									text = "BOOKMARK_IRONMAN_ENABLED"
 								}
 							}
-						}
-					}
+						}	
 
-					hbox = {
-						layoutpolicy_vertical = expanding
-						margin = { 5 5 }
-
-						divider_light = {
+						hbox = {
 							layoutpolicy_vertical = expanding
-						}
-					}
+							margin = { 5 5 }
 
-					hbox = {
-						name = "buttons"
-						visible = "[Not( HasGameStartedForTheFirstTime )]"
-
-						button_checkbox_label = {
-							visible = "[Not( IsIronmanEnabled )]"
-							onclick = "[SetIronmanEnabledStatus( '(bool)yes' )]"
-
-							blockoverride "checkbox"
-							{
-								checked = "[IsIronmanEnabled]"
-							}
-
-							blockoverride "text"
-							{
-								text = "BOOKMARK_IRONMAN_DISABLED"
-								min_width = 130
+							divider_light = {
+								layoutpolicy_vertical = expanding
 							}
 						}
 
-						button_checkbox_label = {
-							visible = "[IsIronmanEnabled]"
-							onclick = "[SetIronmanEnabledStatus( '(bool)no' )]"
-
-							blockoverride "checkbox"
+						hbox_achievements_info = {
+							using = tooltip_ne
+							blockoverride "ai_background" 
 							{
-								checked = "[IsIronmanEnabled]"
+								#no background
 							}
 
-							blockoverride "text"
+							blockoverride "ai_icon_size"
 							{
-								text = "BOOKMARK_IRONMAN_ENABLED"
-								min_width = 130
+								size = {36 36}
 							}
-						}
+						}			
+
+								
 					}
 				}
 
@@ -1428,7 +1498,8 @@ widget = {
 						}
 
 						background = {
-							texture = "[GameSetup.GetSelectedBookmark.GetButtonIconBig]"
+							texture = "gfx/interface/icons/bookmark_button_icon_big.dds"
+#							texture = "[GameSetup.GetSelectedBookmark.GetButtonIconBig]"
 							alpha = 0.8
 							fittype = centercrop
 							margin_bottom = 10
@@ -1867,9 +1938,10 @@ types BookmarkPortraits
 			icon = {
 				name = "bookmarks_button"
 				parentanchor = top|hcenter
-				size = { 100% 75 }
+				size = { 100% 70 }
 				alwaystransparent = yes
-				texture = "[BookmarkItem.GetBookmark.GetButtonIcon]"
+				texture = "gfx/interface/icons/bookmark_button_icon.dds"
+#				texture = "[BookmarkItem.GetBookmark.GetButtonIcon]"
 
 				using = tooltip_ne
 
@@ -1881,23 +1953,25 @@ types BookmarkPortraits
 					texture_density = 2
 				}
 
-				modify_texture = {
-					texture = "gfx/interface/buttons/button_stone_glass_overlay.dds"
-					blend_mode = overlay
-					texture_density = 2
-				}
+#				modify_texture = {
+#					texture = "gfx/interface/buttons/button_stone_glass_overlay.dds"
+#					blend_mode = overlay
+#					texture_density = 2
+#				}
 
 				modify_texture = {
 					name = "glow"
 					texture = "gfx/interface/buttons/button_stone_glass_glow.dds"
-					blend_mode = colordodge
+					blend_mode = overlay
+#					blend_mode = colordodge
 					alpha = 0
 				}
 
 				modify_texture = {
 					name = "glow_selected"
 					texture = "gfx/interface/buttons/button_stone_glass_glow.dds"
-					blend_mode = colordodge
+					blend_mode = overlay
+#					blend_mode = colordodge
 					alpha = 0
 				}
 
@@ -2169,11 +2243,11 @@ types BookmarkPortraits
 						hbox = {
 							spacing = 3
 
-#							icon = {
-#								visible = "[BookmarkItem.GetBookmark.IsRecommended]"
-#								texture = "gfx/interface/icons/portraits/me_small.dds"
-#								size = { 18 18 }
-#							}
+							icon = {
+								visible = "[BookmarkItem.GetBookmark.IsRecommended]"
+								texture = "gfx/interface/icons/portraits/me_small.dds"
+								size = { 18 18 }
+							}
 
 							text_single = {
 								name = "bookmark_name"
@@ -2182,6 +2256,12 @@ types BookmarkPortraits
 
 								text = "[BookmarkItem.GetName]"
 								default_format = "#high;glow_color:{0,0,0,1}"
+							}
+
+							icon = {
+								visible = "[BookmarkItem.GetBookmark.IsRecommended]"
+								texture = "gfx/interface/icons/portraits/me_small.dds"
+								size = { 18 18 }
 							}
 						}
 					}

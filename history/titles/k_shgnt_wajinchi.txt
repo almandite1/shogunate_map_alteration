@@ -39,20 +39,50 @@ c_shgnt_fukushima = {
     0001.01.01 = { change_development_level = 0 }
     0100.01.01 = { change_development_level = 0 }
     0900.01.01 = { change_development_level = 0 }
-    1440.01.01 = { change_development_level = 20 }
-    1525.01.01 = { change_development_level = 20 }
+    1190.01.01 = { change_development_level = 10 }
+    1440.01.01 = { change_development_level = 30 }
+    1457.01.01 = { change_development_level = 40 }
+    1513.06.01 = { change_development_level = 30 }
+    1525.01.01 = { change_development_level = 10 }
     0100.01.01 = {
     }
     1170.01.01 = {
         liege = 0 # 
         holder = 10150102 # Keironin
     }
-    1210.01.01 = {
-        liege = 0
-        holder = 0
+    1192.01.01 = {
+        holder = 12030100 # Fujiwara [Tosa] Hidemoto
     }
-    1457.01.01 = {
+    1222.01.01 = {
+        holder = 12030122 # Fujiwara [Tosa] Hidenao
+    }
+    1229.01.01 = {
+        liege = d_nmih_shimokuni # 
+        holder = 12030125 # Fujiwara Yorihide
+    }
+    1275.01.01 = {
+        holder = 12030130 # Fujiwara Hideyuki
+    }
+    1305.01.01 = {
+        holder = 12030135 # Fujiwara Hidetaka
+    }
+    1325.01.01 = {
+        holder = 12030140 # Fujiwara Hidemitsu
+    }
+    1355.01.01 = {
+        holder = 12030145 # Fujiwara Hidenobu
+    }
+    1400.01.01 = {
         liege = k_shgnt_wajinchi # 
+        holder = 10000116 # Ando Morisue
+    }
+    1414.02.20 = {
+        holder = 10000115 # Ando Yasusue
+    }
+    1441.07.12 = {
+        holder = 10000114 # Ando Yoshisue
+    }
+    1453.01.01 = {
         holder = 10000124 # Ando Sadasue
     }
     1485.01.01 = {
@@ -62,6 +92,7 @@ c_shgnt_fukushima = {
         holder = 10159401 # Aihara Suetane
     }
     1513.06.27 = {
+        liege = d_nmih_wajinchi # 
         holder = 10159002 # Kakizaki Mitsuhiro
     }
     1518.08.18 = {
@@ -197,7 +228,9 @@ c_shgnt_hiyama1 = {
     0001.01.01 = { change_development_level = 0 }
     0100.01.01 = { change_development_level = 0 }
     0900.01.01 = { change_development_level = 0 }
-    1440.01.01 = { change_development_level = 20 }
+    1443.01.01 = { change_development_level = 20 }
+    1457.01.01 = { change_development_level = 30 }
+    1459.05.01 = { change_development_level = 30 }
     0100.01.01 = {
     }
     1170.01.01 = {
@@ -207,6 +240,10 @@ c_shgnt_hiyama1 = {
     1210.01.01 = {
         liege = 0
         holder = 0
+    }
+    1443.01.01 = {
+        liege = k_shgnt_wajinchi # 
+        holder = 10159054 # Kakizaki Sueshige
     }
     1457.01.01 = {
         liege = d_nmih_wajinchi # 
@@ -224,8 +261,13 @@ c_shgnt_hiyama1 = {
     1548.01.01 = {
         holder = 10159003 # Kakizaki Suehiro
     }
+    1583.01.01 = {
+        holder = 10159034 # Kakizaki Yoshihiro
+    }
 }
 c_shgnt_isoya = {
+    0001.01.01 = {
+    }
     0001.01.01 = { change_development_level = 0 }
     0100.01.01 = { change_development_level = 0 }
     0900.01.01 = { change_development_level = 0 }
@@ -307,9 +349,9 @@ c_shgnt_kameda = {
     0001.01.01 = { change_development_level = 0 }
     0100.01.01 = { change_development_level = 0 }
     0900.01.01 = { change_development_level = 0 }
-    1200.01.01 = { change_development_level = 20 }
-    1435.01.01 = { change_development_level = 20 }
-    1500.01.01 = { change_development_level = 30 }
+    1200.01.01 = { change_development_level = 0 }
+    1432.01.01 = { change_development_level = 30 }
+    1457.01.01 = { change_development_level = 40 }
     1512.05.01 = { change_development_level = 30 }
     1600.01.01 = { change_development_level = 40 }
     1700.01.01 = { change_development_level = 50 }
@@ -325,6 +367,10 @@ c_shgnt_kameda = {
     1210.01.01 = {
         liege = 0
         holder = 0
+    }
+    1432.01.01 = {
+        liege = k_shgnt_wajinchi # 
+        holder = 10000115 # Ando Yasusue
     }
     1457.01.01 = {
         liege = d_nmih_shimokuni # 
@@ -351,7 +397,8 @@ c_shgnt_kamiiso = {
     0001.01.01 = { change_development_level = 0 }
     0100.01.01 = { change_development_level = 0 }
     0900.01.01 = { change_development_level = 0 }
-    1200.01.01 = { change_development_level = 20 }
+    1432.01.01 = { change_development_level = 20 }
+    1457.01.01 = { change_development_level = 30 }
     1515.06.01 = { change_development_level = 20 }
     0100.01.01 = {
     }
@@ -363,14 +410,18 @@ c_shgnt_kamiiso = {
         liege = 0
         holder = 0
     }
-    1457.01.01 = {
+    1432.01.01 = {
         liege = k_shgnt_wajinchi # 
+        holder = 10000115 # Ando Yasusue
+    }
+    1457.01.01 = {
+        liege = d_nmih_shimokuni # 
         holder = 10000119 # Ando Iemasa
     }
     1495.07.28 = {
-        holder = 10000121 # Ando Iesue
+        holder = 10000121 # Ando Morosue
     }
-    1515.05.01 = {
+    1512.05.01 = {
         liege = d_shgnt_iburi # 
         holder = 10150502 # Shoya
     }
@@ -439,6 +490,9 @@ c_shgnt_kudo = {
         liege = 0
         holder = 0
     }
+    1443.01.01 = {
+        holder = 10011213 # Oyama Takamasa
+    }
     1457.01.01 = {
         liege = d_nmih_wajinchi # 
         holder = 10159001 # Kakizaki Nobuhiro
@@ -467,8 +521,9 @@ c_shgnt_nishi = {
     0001.01.01 = { change_development_level = 0 }
     0100.01.01 = { change_development_level = 0 }
     0900.01.01 = { change_development_level = 0 }
-    1442.01.01 = { change_development_level = 10 }
-    1528.06.01 = { change_development_level = 10 }
+    1443.01.01 = { change_development_level = 10 }
+    1457.01.01 = { change_development_level = 20 }
+    1528.06.01 = { change_development_level = 20 }
     0100.01.01 = {
     }
     1170.01.01 = {
@@ -478,6 +533,9 @@ c_shgnt_nishi = {
     1210.01.01 = {
         liege = 0
         holder = 0
+    }
+    1443.01.01 = {
+        holder = 10011213 # Oyama Takamasa
     }
     1457.01.01 = {
         liege = d_nmih_wajinchi # 
@@ -507,8 +565,6 @@ c_shgnt_okushiri = {
     0001.01.01 = { change_development_level = 0 }
     0100.01.01 = { change_development_level = 0 }
     0900.01.01 = { change_development_level = 0 }
-    1455.01.01 = { change_development_level = 0 }
-    1525.06.01 = { change_development_level = 0 }
     1600.01.01 = { change_development_level = 10 }
     0100.01.01 = {
     }
@@ -527,19 +583,12 @@ c_shgnt_okushiri = {
         liege = 0
         holder = 0
     }
-    1457.01.01 = {
-        liege = d_nmih_wajinchi # 
-        holder = 10159001 # Kakizaki Nobuhiro
+    1450.01.01 = {
+        liege = d_nmih_sum_kur
+        holder = 10150005
     }
-    1493.06.23 = {
-        holder = 10159002 # Kakizaki Mitsuhiro
-    }
-    1518.08.18 = {
-        holder = 10159000 # Kakizaki Yoshihiro
-    }
-    1525.02.01 = {
-        liege = d_nmih_sum_kur # 
-        holder = 10150000 # Tanasakashi
+    1490.01.01 = {
+        holder = 10150000
     }
     1529.03.26 = {
         holder = 10150002 # Tarikona
@@ -820,22 +869,49 @@ c_shgnt_tsugaru1 = {
     0001.01.01 = { change_development_level = 0 }
     0100.01.01 = { change_development_level = 0 }
     0900.01.01 = { change_development_level = 0 }
-    1180.01.01 = { change_development_level = 20 }
-    1400.01.01 = { change_development_level = 30 }
-    1420.01.01 = { change_development_level = 40 }
-    1600.01.01 = { change_development_level = 50 }
+    1180.01.01 = { change_development_level = 30 }
+    1440.01.01 = { change_development_level = 40 }
+    1457.01.01 = { change_development_level = 50 }
+    1600.01.01 = { change_development_level = 60 }
     0100.01.01 = {
     }
     1170.01.01 = {
         liege = 0 # 
         holder = 10159990 # Matsumae Yoshiyuki
     }
-    1210.01.01 = {
-        liege = 0
-        holder = 0
+    1192.01.01 = {
+        holder = 12030100 # Fujiwara [Tosa] Hidemoto
     }
-    1457.01.01 = {
+    1222.01.01 = {
+        holder = 12030122 # Fujiwara [Tosa] Hidenao
+    }
+    1229.01.01 = {
+        liege = d_nmih_shimokuni # 
+        holder = 12030125 # Fujiwara Yorihide
+    }
+    1275.01.01 = {
+        holder = 12030130 # Fujiwara Hideyuki
+    }
+    1305.01.01 = {
+        holder = 12030135 # Fujiwara Hidetaka
+    }
+    1325.01.01 = {
+        holder = 12030140 # Fujiwara Hidemitsu
+    }
+    1355.01.01 = {
+        holder = 12030145 # Fujiwara Hidenobu
+    }
+    1400.01.01 = {
         liege = k_shgnt_wajinchi # 
+        holder = 10000116 # Ando Morisue
+    }
+    1414.02.20 = {
+        holder = 10000115 # Ando Yasusue
+    }
+    1441.07.12 = {
+        holder = 10000114 # Ando Yoshisue
+    }
+    1453.01.01 = {
         holder = 10000124 # Ando Sadasue
     }
     1485.01.01 = {
@@ -845,6 +921,7 @@ c_shgnt_tsugaru1 = {
         holder = 10159401 # Aihara Suetane
     }
     1513.06.27 = {
+        liege = d_nmih_wajinchi # 
         holder = 10159002 # Kakizaki Mitsuhiro
     }
     1518.08.18 = {
@@ -852,6 +929,9 @@ c_shgnt_tsugaru1 = {
     }
     1545.09.24 = {
         holder = 10159003 # Kakizaki Suehiro
+    }
+    1583.01.01 = {
+        holder = 10159034 # Kakizaki Yoshihiro
     }
 }
 c_shgnt_utasutsu = {
@@ -939,6 +1019,9 @@ d_shgnt_oshima = {
     }
     1545.09.24 = {
         holder = 10159003 # Kakizaki Suehiro
+    }
+    1583.01.01 = {
+        holder = 10159034 # Kakizaki Yoshihiro
     }
 }
 d_shgnt_shiribeshi = {

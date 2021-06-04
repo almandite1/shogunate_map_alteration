@@ -89,6 +89,7 @@ c_shgnt_arima = {
         holder = 10040655 # Arima Motoie
     }
     1469.01.01 = {
+        liege = e_shgnt_japan # 
         holder = 10040654 # Arima Norihide
     }
     1500.01.01 = {
@@ -1138,6 +1139,10 @@ c_shgnt_kii = {
     1464.12.01 = {
         holder = 10050041 # Yamana Koretoyo
     }
+    1467.06.27 = {
+        liege = k_nmih_kanrei # 
+        holder = 10040543 # Hosokawa Katsumoto
+    }
     1470.07.01 = {
         liege = k_shgnt_western_chugoku # 
         holder = 10057007 # Ouchi Masahiro
@@ -1531,6 +1536,10 @@ c_shgnt_shimagami = {
     1563.09.12 = {
         holder = 10059006 # Miyoshi Nagayasu
     }
+    1568.03.06 = {
+        liege = e_shgnt_japan # 
+        holder = 10040041 # Ashikaga Yoshihide
+    }
     1568.10.19 = {
         liege = k_shgnt_chubu # 
         holder = 10029120 # Oda Nobunaga
@@ -1839,6 +1848,10 @@ c_shgnt_ohoi = {
         liege = d_shgnt_wakasa # 29310 Niwa Nagahide
         holder = 10042012 # Takeda Motoaki
     }
+    1582.08.07 = {
+        liege = d_shgnt_wakasa # Niwa Nagahide
+        holder = 10029310 # Niwa Nagahide
+    }
 }
 c_shgnt_onifu = {
     0001.01.01 = { change_development_level = 40 }
@@ -1935,7 +1948,7 @@ c_shgnt_otagi = {
     1443.08.16 = {
         holder = 10040008 # Ashikaga Yoshimasa
     }
-    1473.12.19 = {
+    1479.11.01 = {
         holder = 10040009 # Ashikaga Yoshihisa
     }
     1489.04.26 = {
@@ -2140,8 +2153,9 @@ c_shgnt_souraku = {
         liege = k_nmih_kanrei # 
         holder = 10040543 # Hosokawa Katsumoto
     }
-    1473.06.06 = {
-        holder = 10040544 # Hosokawa Masamoto
+    1467.06.27 = {
+        liege = k_nmih_kanrei # 
+        holder = 10045860 # Koma YamashiroNoKami
     }
     1477.10.01 = {
         liege = k_shgnt_western_chugoku # 
@@ -2538,14 +2552,6 @@ c_shgnt_takashima = {
         holder = 10045503 # Kutsuki Sadatsuna
     }
     1485.08.27 = {
-        holder = 10045501 # Kutsuki Sadakiyo
-    }
-    1508.07.28 = {
-        liege = k_shgnt_southern_kinai # 
-        holder = 10040012 # Ashikaga Yoshizumi, exiled from Otagi
-    }
-    1511.09.06 = {
-        liege = e_shgnt_japan # 
         holder = 10045501 # Kutsuki Sadakiyo
     }
     1523.01.01 = {

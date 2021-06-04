@@ -27,6 +27,7 @@
 		}
 	}
     1405.01.28 = {
+        liege = d_shgnt_echizen # 
         holder = 10030004 # Asakura Sadakage
     }
     1436.06.30 = {
@@ -551,6 +552,26 @@ c_shgnt_imatachi = {
         liege = 0 # 
         holder = 0 # Battle of Shinohara
     }
+    1379.11.21 = {
+        liege = d_shgnt_echizen # 
+        holder = 10029009 # Shiba Yoshiyuki
+    }
+    1383.01.01 = {
+        holder = 12320000 # Kai Norimitsu
+    }
+    1395.01.01 = {
+        holder = 12320001 # Kai Yukinori
+    }
+    1420.01.01 = {
+        holder = 12320005 # Kai Yukihisa
+    }
+    1459.09.08 = {
+        holder = 12320010 # Kai Toshimitsu
+    }
+    1472.08.06 = {
+        liege = d_shgnt_echizen # 
+        holder = 10030007 # Asakura Takakage
+    }
     1481.08.21 = {
         holder = 10030008 # Asakura Ujikage
     }
@@ -624,12 +645,7 @@ c_shgnt_imizu = {
         holder = 10031201 # Jinbo Naganobu
     }
     1493.06.09 = {
-        liege = k_shgnt_southern_kinai # 
-        holder = 10040011 # Ashikaga Yoshiki
-    }
-    1499.12.01 = {
-        liege = d_shgnt_etchu # 
-        holder = 10031201 # Jinbo Naganobu
+        holder = 10048123 # Hatakeyama Hisanobu
     }
     1501.12.18 = {
         holder = 10031202 # Jinbo Yoshimune
@@ -1239,6 +1255,41 @@ c_shgnt_nanjo = {
         liege = 0 # 
         holder = 0 # Battle of Shinohara
     }
+    1379.11.21 = {
+        liege = d_shgnt_echizen # 
+        holder = 10029009 # Shiba Yoshiyuki
+    }
+    1396.03.01 = {
+        holder = 10029011 # Shiba Yoshishige
+    }
+    1418.09.10 = {
+        holder = 10029012 # Shiba Yoshiatsu
+    }
+    1434.01.11 = {
+        holder = 10029013 # Shiba Yoshisato
+    }
+    1436.01.18 = {
+        holder = 10029016 # Shiba Yoshitake
+    }
+    1452.10.13 = {
+        holder = 10029019 # Shiba Yoshitoshi
+    }
+    1460.01.01 = {
+        holder = 10029021 # Shiba Yoshihiro
+    }
+    1461.09.06 = {
+        holder = 10057621 # Shiba Yoshikado
+    }
+    1466.09.02 = {
+        holder = 10029019 # Shiba Yoshitoshi
+    }
+    1466.10.23 = {
+        holder = 10057621 # Shiba Yoshikado
+    }
+    1472.08.06 = {
+        liege = d_shgnt_echizen # 
+        holder = 10030007 # Asakura Takakage
+    }
     1481.08.21 = {
         holder = 10030008 # Asakura Ujikage
     }
@@ -1463,7 +1514,29 @@ c_shgnt_niu = {
         liege = 0 # 
         holder = 0 # Battle of Shinohara
     }
-    1471.05.21 = {
+    1340.01.01 = {
+        holder = 12320200 # Oda Nobumasa
+    }
+    1370.01.01 = {
+        holder = 10029103 # Oda Yukihiro
+    }
+    1400.01.01 = {
+        liege = d_shgnt_echizen # 
+        holder = 10029104 # Oda Josho
+    }
+    1403.08.01 = {
+        holder = 12320001 # Kai Yukinori
+    }
+    1420.01.01 = {
+        holder = 12320005 # Kai Yukihisa
+    }
+    1459.09.08 = {
+        holder = 12320010 # Kai Toshimitsu
+    }
+    1471.06.09 = {
+        holder = 10030007 # Asakura Takakage
+    }
+    1471.06.10 = {
         holder = 10030014 # Asakura Tsunekage
     }
     1491.03.06 = {
@@ -1750,11 +1823,30 @@ c_shgnt_echizen_ono = {
         liege = 0 # 
         holder = 0 # Battle of Shinohara
     }
-    1481.08.21 = {
+    1379.11.21 = {
         liege = d_shgnt_echizen # 
-        holder = 10030008 # Asakura Ujikage
+        holder = 10029009 # Shiba Yoshiyuki
     }
-    1486.08.03 = {
+    1380.01.01 = {
+        holder = 10029010 # Shiba Yoshitane
+    }
+    1408.03.08 = {
+        holder = 10029017 # Shiba Mitsutane
+    }
+    1427.07.30 = {
+        holder = 10029018 # Shiba Mochitane
+    }
+    1452.10.13 = {
+        holder = 10029019 # Shiba Yoshitoshi
+    }
+    1475.01.01 = {
+        liege = d_shgnt_echizen # 
+        holder = 10030007 # Asakura Takakage
+    }
+    1475.01.02 = {
+        holder = 10030068 # Asakura Kokyu
+    }
+    1494.02.10 = {
         holder = 10030010 # Asakura Sadakage
     }
     1512.04.11 = {
@@ -1807,7 +1899,15 @@ c_shgnt_echizen_sakai = {
         liege = 0 # 
         holder = 0 # Battle of Shinohara
     }
-    1460.01.01 = {
+    1459.09.07 = {
+        liege = d_shgnt_yamato # 
+        holder = 11000774 # Kujo Kyokaku
+    }
+    1471.08.01 = {
+        liege = k_nmih_honganji # 
+        holder = 10042201 # Honganji Rennyo
+    }
+    1475.08.01 = {
         liege = d_shgnt_echizen # 
         holder = 10030170 # Horie Kagemochi
     }
@@ -2105,7 +2205,27 @@ c_shgnt_tsuruga = {
         liege = 0 # 
         holder = 0 # Battle of Shinohara
     }
-    1471.05.21 = {
+    1379.11.21 = {
+        liege = d_shgnt_echizen # 
+        holder = 10029009 # Shiba Yoshiyuki
+    }
+    1383.01.01 = {
+        holder = 12320000 # Kai Norimitsu
+    }
+    1395.01.01 = {
+        holder = 12320001 # Kai Yukinori
+    }
+    1420.01.01 = {
+        holder = 12320006 # Kai Norihira
+    }
+    1440.01.01 = {
+        holder = 12320020 # Kai Hisahira
+    }
+    1472.11.01 = {
+        liege = d_shgnt_echizen # 
+        holder = 10030007 # Asakura Takakage
+    }
+    1472.11.02 = {
         holder = 10030018 # Asakura Kagefuyu
     }
     1495.10.08 = {
@@ -2157,6 +2277,28 @@ c_shgnt_yoshida = {
     1183.06.22 = {
         liege = 0 # 
         holder = 0 # Battle of Shinohara
+    }
+    1340.01.01 = {
+        holder = 10030001 # Asakura Hirokage
+    }
+    1352.03.15 = {
+        holder = 10030002 # Asakura Takakage
+    }
+    1372.06.03 = {
+        holder = 10030003 # Asakura Ujikage
+    }
+    1405.01.28 = {
+        liege = d_shgnt_echizen # 
+        holder = 10030004 # Asakura Sadakage
+    }
+    1436.06.30 = {
+        holder = 10030005 # Asakura Norikage
+    }
+    1450.01.01 = {
+        holder = 10030006 # Asakura Iekage
+    }
+    1463.09.02 = {
+        holder = 10030007 # Asakura Takakage
     }
     1481.08.21 = {
         holder = 10030008 # Asakura Ujikage
@@ -2446,6 +2588,7 @@ d_shgnt_echizen = {
         holder = 10048110 # Hatakeyama Motokuni
     }
     1379.11.21 = {
+        liege = e_shgnt_japan # 
         holder = 10029009 # Shiba Yoshiyuki
     }
     1396.03.01 = {
@@ -2466,11 +2609,20 @@ d_shgnt_echizen = {
     1460.01.01 = {
         holder = 10029021 # Shiba Yoshihiro
     }
-    1461.10.01 = {
-        holder = 0
+    1461.09.06 = {
+        liege = e_shgnt_japan # 
+        holder = 10057621 # Shiba Yoshikado
     }
-    1471.05.21 = {
-        liege = 0 # 
+    1466.09.02 = {
+        liege = e_shgnt_japan # 
+        holder = 10029019 # Shiba Yoshitoshi
+    }
+    1466.10.23 = {
+        liege = e_shgnt_japan # 
+        holder = 10057621 # Shiba Yoshikado
+    }
+    1471.06.09 = {
+        liege = e_shgnt_japan # 
         holder = 10030007 # Asakura Takakage
 		set_capital_county = title:c_shgnt_asuha
     }
@@ -2598,7 +2750,6 @@ d_shgnt_etchu = {
         holder = 10048121 # Hatakeyama Masanaga
     }
     1493.06.09 = {
-        liege = k_shgnt_southern_kinai # Etchu Kubo
         holder = 10048123 # Hatakeyama Hisanobu
     }
     1522.09.07 = {

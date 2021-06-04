@@ -1,7 +1,7 @@
 ﻿c_shgnt_abu = {
-    0001.01.01 = { change_development_level = 20 }
-    1100.01.01 = { change_development_level = 20 }
-    1331.01.01 = { change_development_level = 20 }
+    0001.01.01 = { change_development_level = 10 }
+    1100.01.01 = { change_development_level = 10 }
+    1450.01.01 = { change_development_level = 10 }
     1180.01.01 = {
         liege = d_shgnt_nagato # 
         holder = 12661100 # Kii Michisuke
@@ -14,12 +14,12 @@
         holder = 0 # Battle of Yashima
     }
     1432.01.01 = {
+        liege = k_shgnt_western_chugoku # 
         holder = 10057157 # Washizu Hirotada
     }
-	1447.1.13 = {
-		liege = "k_shgnt_western_chugoku"
-		holder = 10057403 # Yoshimi Shigeyori
-	}
+    1448.03.21 = {
+        holder = 10057403 # Yoshimi Shigeyori
+    }
     1470.01.01 = {
 		liege = "k_shgnt_western_chugoku"
         holder = 10057404 # Yoshimi Nobuyori
@@ -32,7 +32,7 @@
 		liege = "k_shgnt_western_chugoku"
         holder = 10057400 # Yoshimi Takayori
     }
-    1540.01.01 = {
+    1540.11.14 = {
 		liege = "k_shgnt_western_chugoku"
         holder = 10057402 # Yoshimi Masayori
     }
@@ -46,15 +46,28 @@
 c_shgnt_aki_kamo = {
     0001.01.01 = { change_development_level = 20 }
     1100.01.01 = { change_development_level = 20 }
-    1331.01.01 = { change_development_level = 20 }
-    1525.01.01 = { change_development_level = 20 }
     1180.01.01 = {
         liege = d_shgnt_aki # 
         holder = 12660503 # Nuta Goro
     }
     1185.04.25 = {
-        liege = 0 # 
-        holder = 0 # Battle of Dan-no-ura
+        holder = 12390551 # Matsuba Sukemune
+    }
+    1266.02.12 = {
+        holder = 10056412 # Hiraga Koreyasu
+    }
+    1293.01.01 = {
+        holder = 10056411 # Hiraga Korekane
+    }
+    1310.01.01 = {
+        holder = 10056410 # Hiraga Kanemune
+    }
+    1350.01.01 = {
+        liege = d_shgnt_aki # 
+        holder = 10056409 # Hiraga Sanemune
+    }
+    1392.02.07 = {
+        holder = 10056408 # Hiraga Hiroaki
     }
 	1258.01.01 = {
 		effect = {
@@ -65,11 +78,11 @@ c_shgnt_aki_kamo = {
 	}
     1402.09.16 = {
         liege = k_shgnt_western_chugoku # Ouchi Moriharu
-        holder = 10056406 # ã€€Hiraga Yorimune
+        holder = 10056406 # Hiraga Yorimune
     }
     1467.07.09 = {
         liege = k_shgnt_western_chugoku # Ouchi Masahiro
-        holder = 10056405 # ã€€Hiraga Hiromune
+        holder = 10056405 # Hiraga Hiromune
     }
     1470.01.01 = {
         liege = k_shgnt_western_chugoku # 
@@ -78,13 +91,12 @@ c_shgnt_aki_kamo = {
     1492.06.05 = {
         holder = 10056400 # Hiraga Hiroyasu
     }
-    1525.01.01 = {
-        holder = 10056900 # Hironaka Okikatsu
-    }
-    1542.01.01 = {
+    1549.07.27 = {
+        liege = k_shgnt_western_chugoku # 
         holder = 10056901 # Hironaka Takakane
     }
     1555.10.28 = {
+        liege = d_shgnt_aki # 
         holder = 10056404 # Hiraga Hirosuke
     }
     1567.04.26 = {
@@ -94,7 +106,6 @@ c_shgnt_aki_kamo = {
 c_shgnt_ahoku = {
     0001.01.01 = { change_development_level = 20 }
     1100.01.01 = { change_development_level = 20 }
-    1331.01.01 = { change_development_level = 20 }
     0100.01.01 = {
     }
     1180.01.01 = {
@@ -105,26 +116,21 @@ c_shgnt_ahoku = {
         liege = 0 # 
         holder = 0 # Battle of Dan-no-ura
     }
-    1403.01.01 = {
-        holder = 10056106 # Takeda Nobumori
-    }
-    1418.01.01 = {
+    1430.01.01 = {
+        liege = e_shgnt_japan # 
         holder = 10056105 # Takeda Nobushige
     }
     1465.11.28 = {
-        holder = 10056104 # Takeda Nobukata
-    }
-    1471.06.20 = {
         holder = 10056103 # Takeda Mototsuna
     }
     1505.03.30 = {
         holder = 10056101 # Takeda Motoshige
     }
     1517.11.05 = {
-        liege = k_shgnt_western_chugoku # 
-        holder = 10056011 # Mori Komatsumaru
+        holder = 10056100 # Takeda Mitsukazu
     }
-    1523.08.25 = {
+    1524.07.01 = {
+        liege = k_shgnt_western_chugoku # 
         holder = 10056004 # Mori Motonari
     }
     1571.07.06 = {
@@ -132,9 +138,11 @@ c_shgnt_ahoku = {
     }
 }
 c_shgnt_iwami_ano = {
-    0001.01.01 = { change_development_level = 20 }
-    1100.01.01 = { change_development_level = 20 }
-    1200.01.01 = { change_development_level = 20 }
+    0001.01.01 = { change_development_level = 10 }
+    1100.01.01 = { change_development_level = 10 }
+    1200.01.01 = { change_development_level = 10 }
+    1309.01.01 = { change_development_level = 30 }
+    1563.06.01 = { change_development_level = 30 }
     0100.01.01 = {
     }
     1180.01.01 = {
@@ -145,67 +153,156 @@ c_shgnt_iwami_ano = {
         liege = 0
         holder = 0
     }
-    1390.01.01 = {
+    1380.01.01 = {
         liege = d_shgnt_iwami # 
-        holder = 10055607 # Fukuya Kanemitsu
+        holder = 12661463 # Migita Hironao
     }
-    1420.01.01 = {
-        holder = 10055606 # Fukuya Ujikane
+    1400.02.01 = {
+        liege = d_shgnt_iwami # 
+        holder = 10044206 # Kyogoku Takaaki
     }
-    1450.01.01 = {
-        holder = 10055605 # Fukuya Kiyokane
+    1404.09.01 = {
+        liege = d_shgnt_iwami # 
+        holder = 10050085 # Yamana Tokihisa
     }
-    1480.01.01 = {
+    1429.01.01 = {
+        holder = 10050028 # Yamana Norikiyo
+    }
+    1437.01.01 = {
+        holder = 10050030 # Yamana Hirotaka
+    }
+    1441.07.12 = {
+        holder = 10050028 # Yamana Norikiyo
+    }
+    1457.01.01 = {
+        holder = 10050063 # Yamana Masakiyo
+    }
+    1477.12.16 = {
         liege = k_shgnt_western_chugoku # 
-        holder = 10055602 # Fukuya Kunikane
+        holder = 10057007 # Ouchi Masahiro
     }
-    1500.01.01 = {
-        holder = 10055601 # Fukuya Masakane
+    1478.01.01 = {
+        liege = k_shgnt_western_chugoku # 
+        holder = 12661866 # Toida Hirotane
     }
-    1527.01.01 = {
-        holder = 10055600 # Fukuya Takakane
+    1507.09.30 = {
+        holder = 12661868 # Toida Okiyuki
     }
-    1562.02.01 = {
-        liege = d_shgnt_aki # 
-        holder = 10056015 # Kikkawa Motoharu
+    1522.01.01 = {
+        holder = 12661870 # Toida Takamori
+    }
+    1528.01.01 = {
+        liege = k_shgnt_sanin # 
+        holder = 10051501 # Amago Tsunehisa
+    }
+    1531.02.01 = {
+        liege = k_shgnt_western_chugoku # 
+        holder = 12661870 # Toida Takamori
+    }
+    1537.08.01 = {
+        liege = k_shgnt_sanin # 
+        holder = 10051501 # Amago Tsunehisa
+    }
+    1539.05.01 = {
+        liege = k_shgnt_western_chugoku # 
+        holder = 12661870 # Toida Takamori
+    }
+    1543.07.01 = {
+        liege = k_shgnt_sanin # 
+        holder = 10055754 # Sasuka Naganobu
+    }
+    1558.08.01 = {
+        liege = k_shgnt_sanin # 
+        holder = 12669234 # Honjo Tsunemitsu
+    }
+    1563.06.01 = {
+        liege = k_shgnt_western_chugoku # 
+        holder = 10056262 # Kikkawa Tsuneyasu
+    }
+    1574.01.01 = {
+        holder = 10056264 # Kikkawa Tsuneie
+    }
+    1581.11.21 = {
+        holder = 10056262 # Kikkawa Tsuneyasu
     }
 }
 c_shgnt_asa = {
-    0001.01.01 = { change_development_level = 20 }
-    1100.01.01 = { change_development_level = 20 }
+    0001.01.01 = { change_development_level = 10 }
+    1100.01.01 = { change_development_level = 10 }
     1331.01.01 = { change_development_level = 20 }
+    1358.01.01 = { change_development_level = 20 }
     1180.01.01 = {
         liege = d_shgnt_nagato # 
         holder = 12661000 # Koto Takemitsu
     }
     1190.01.01 = {
-        liege = 0
-        holder = 0
+        liege = d_shgnt_nagato # 
+        holder = 12661001 # Koto Takekage
+    }
+    1220.01.01 = {
+        holder = 12661004 # Koto Takeyoshi
+    }
+    1240.01.01 = {
+        holder = 12661006 # Koto Taketomo
+    }
+    1255.01.01 = {
+        holder = 12661008 # Koto Taketoki
+    }
+    1270.01.01 = {
+        holder = 12661010 # Koto Takemasa
+    }
+    1275.01.01 = {
+        holder = 12661011 # Koto Takenaka
+    }
+    1320.01.01 = {
+        holder = 12661020 # Koto Takezane
+    }
+    1348.04.04 = {
+        liege = d_shgnt_nagato # 
+        holder = 12661025 # Koto Takemura
+    }
+    1349.01.01 = {
+        holder = 12661030 # Koto Takenao
+    }
+    1353.01.01 = {
+        holder = 12661035 # Koto Yoshitake
+    }
+    1358.01.01 = {
+        liege = d_shgnt_suo # 
+        holder = 10057014 # Ouchi Hiroyo
+    }
+    1358.06.01 = {
+        liege = d_shgnt_nagato # 
+        holder = 10057014 # Ouchi Hiroyo
+    }
+    1380.12.12 = {
+        holder = 10057013 # Ouchi Yoshihiro
     }
     1397.01.01 = {
-        liege = d_shgnt_nagato # ã€€Ouchi Hiroshige
-        holder = 10057011 # ã€€Ouchi Hiroshige
+        liege = d_shgnt_nagato # 　Ouchi Hiroshige
+        holder = 10057011 # 　Ouchi Hiroshige
     }
     1402.02.01 = {
-        holder = 10057010 # ã€€Ouchi Moriharu
+        holder = 10057010 # 　Ouchi Moriharu
     }
     1465.09.23 = {
-        holder = 10057007 # ã€€Ouchi Masahiro
+        holder = 10057007 # 　Ouchi Masahiro
     }
     1470.03.06 = {
-        holder = 10057009 # ã€€Ouchi Doton [Noriyuki]
+        holder = 10057009 # 　Ouchi Doton [Noriyuki]
     }
     1472.01.01 = {
-        holder = 10057007 # ã€€Ouchi Masahiro
+        holder = 10057007 # 　Ouchi Masahiro
     }
     1495.10.06 = {
-        holder = 10057001 # ã€€Ouchi Yoshioki
+        holder = 10057001 # 　Ouchi Yoshioki
     }
     1529.01.29 = {
-        holder = 10057002 # ã€€Ouchi Yoshitaka
+        holder = 10057002 # 　Ouchi Yoshitaka
     }
     1551.09.30 = {
-        holder = 10057200 # Naito Okimori
+        liege = d_shgnt_nagato # 
+        holder = 10057202 # Naito Takaharu
     }
     1555.01.07 = {
         holder = 10057251 # Naito Takayo
@@ -217,6 +314,7 @@ c_shgnt_asa = {
 }
 c_shgnt_iwami_naka = {
     0001.01.01 = { change_development_level = 20 }
+    1200.01.01 = { change_development_level = 20 }
     0100.01.01 = {
     }
     1180.01.01 = {
@@ -224,40 +322,57 @@ c_shgnt_iwami_naka = {
         holder = 12661200 # Masuda Kanehide
     }
     1190.01.01 = {
-        liege = 0 # 
-        holder = 0 # Taira's escape to the west
+        holder = 12661205 # Masuda Kanetaka
     }
-    1391.10.14 = {
+    1200.01.01 = {
+        holder = 12661212 # Fukuya Kanehiro
+    }
+    1240.01.01 = {
+        holder = 12669000 # Fukuya Kanenaka
+    }
+    1270.01.01 = {
+        holder = 12669001 # Fukuya Kanechika
+    }
+    1300.01.01 = {
+        holder = 12669010 # Fukuya Kaneyuki
+    }
+    1340.01.01 = {
+        holder = 12669015 # Fukuya Kanekage
+    }
+    1350.01.01 = {
+        holder = 12669020 # Fukuya Kaneyoshi
+    }
+    1380.01.01 = {
         liege = d_shgnt_iwami # 
-        holder = 10055927 # Masuda Kaneyo
+        holder = 10055607 # Fukuya Kanemitsu
     }
-    1407.01.18 = {
-        liege = d_shgnt_iwami # 
-        holder = 10055926 # Masuda Hidekane
+    1400.01.01 = {
+        holder = 10055606 # Fukuya Ujikane
     }
-    1419.03.12 = {
-        liege = d_shgnt_iwami # 
-        holder = 10055920 # Masuda Kanemichi
+    1440.01.01 = {
+        holder = 10055605 # Fukuya Kiyokane
     }
-    1431.08.06 = {
-        liege = d_shgnt_iwami # 
-        holder = 10055914 # Masuda Kanetaka
+    1470.01.01 = {
+        holder = 10055602 # Fukuya Kunikane
     }
-    1461.01.01 = {
+    1500.01.01 = {
+        holder = 10055601 # Fukuya Masakane
+    }
+    1530.01.01 = {
+        holder = 10055600 # Fukuya Takakane
+    }
+    1562.02.01 = {
         liege = k_shgnt_western_chugoku # 
-        holder = 10055901 # Masuda Sadakane
+        holder = 10055702 # Ogasawara Nagakatsu
     }
-    1483.01.01 = {
-        holder = 10055900 # Masuda Munekane
-    }
-    1544.02.12 = {
-        holder = 10055903 # Masuda Fujikane
+    1571.01.04 = {
+        holder = 10055749 # Ogasawara Nagahata
     }
 }
 c_shgnt_iwami_ochi = {
     0001.01.01 = { change_development_level = 10 }
     1100.01.01 = { change_development_level = 10 }
-    1331.01.01 = { change_development_level = 10 }
+    1290.01.01 = { change_development_level = 20 }
     0100.01.01 = {
     }
     1180.01.01 = {
@@ -268,36 +383,61 @@ c_shgnt_iwami_ochi = {
         liege = 0 # 
         holder = 0 # Taira's escape to the west
     }
-    1400.01.01 = {
+    1313.01.01 = {
+        holder = 10055738 # Ogasawara Ienaga
+    }
+    1333.05.04 = {
+        holder = 10055736 # Ogasawara Nagatane
+    }
+    1346.08.18 = {
+        holder = 10055733 # Ogasawara Nagauji
+    }
+    1383.04.06 = {
+        holder = 10055730 # Ogasawara Nagayoshi
+    }
+    1403.11.09 = {
         liege = d_shgnt_iwami # 
+        holder = 10055726 # Ogasawara Naganori
+    }
+    1414.07.22 = {
+        holder = 10055722 # Ogasawara Naganari
+    }
+    1443.03.05 = {
+        holder = 10055721 # Ogasawara Naganao
+    }
+    1461.12.14 = {
         holder = 10055718 # Ogasawara Nagahiro
     }
-    1440.01.01 = {
-        liege = d_shgnt_iwami # 
+    1489.03.13 = {
         holder = 10055715 # Ogasawara Nagamasa
     }
-    1470.01.01 = {
-        liege = d_shgnt_iwami # 
+    1494.01.01 = {
+        liege = k_shgnt_western_chugoku # 
+        holder = 10055715 # Ogasawara Nagamasa
+    }
+    1505.12.23 = {
+        liege = k_shgnt_western_chugoku # 
         holder = 10055703 # Ogasawara Nagasada
     }
-    1490.01.01 = {
-        liege = k_shgnt_western_chugoku # 
+    1524.04.06 = {
         holder = 10055701 # Ogasawara Nagataka
     }
-    1527.01.01 = {
+    1542.05.18 = {
+        liege = k_shgnt_western_chugoku # 
         holder = 10055700 # Ogasawara Naganori
     }
-    1547.01.01 = {
-        holder = 10055702 # Ogasawara Nagatsugu
+    1547.10.04 = {
+        liege = k_shgnt_western_chugoku # 
+        holder = 10055702 # Ogasawara Nagakatsu
     }
-    1569.01.01 = {
-        holder = 10055749 # Ogasawara Nagahata
+    1562.02.01 = {
+        liege = k_shgnt_western_chugoku # 
+        holder = 12666507 # Kuchiba Michiyoshi
     }
 }
 c_shgnt_kuga = {
-    0001.01.01 = { change_development_level = 20 }
-    1100.01.01 = { change_development_level = 20 }
-    1331.01.01 = { change_development_level = 30 }
+    0001.01.01 = { change_development_level = 10 }
+    1331.01.01 = { change_development_level = 20 }
     1180.01.01 = {
         liege = d_shgnt_suo # 
         holder = 12660801 # Iwakuni Kanehide
@@ -306,33 +446,50 @@ c_shgnt_kuga = {
         liege = 0 # 
         holder = 0 # Battle of Dan-no-ura
     }
-    1441.08.14 = {
-        liege = d_shgnt_suo # 
-        holder = 10057008 # Ouchi Norihiro
+    1330.01.01 = {
+        holder = 10056908 # Hironaka Kanetane
     }
-    1465.09.23 = {
-        holder = 10057007 # Ouchi Masahiro
+    1350.01.01 = {
+        holder = 10056909 # Hironaka Kaneyoshi
     }
-    1495.10.06 = {
-        holder = 10057001 # Ouchi Yoshioki
+    1380.01.01 = {
+        holder = 10056910 # Hironaka Kanesada
     }
-    1529.01.29 = {
-        holder = 10057002 # Ouchi Yoshitaka
+    1400.01.01 = {
+        liege = k_shgnt_western_chugoku # 
+        holder = 10056911 # Hironaka Kanekatsu
+    }
+    1440.01.01 = {
+        holder = 10056912 # Hironaka Takemune
+    }
+    1490.01.01 = {
+        holder = 10056902 # Hironaka Hironobu
+    }
+    1520.01.01 = {
+        holder = 10056900 # Hironaka Okikatsu
+    }
+    1542.01.01 = {
+        holder = 10056901 # Hironaka Takakane
     }
     1547.01.01 = {
         liege = d_shgnt_suo # 
-        holder = 10057302 # Sugimori Takayasu
 		effect = {
 			title:b_shgnt_kuga_4 = {
 				set_title_name = b_shgnt_kuga_4_1 # Rengeyama
 			}
 		}
     }
+    1555.10.28 = {
+        liege = d_shgnt_aki # 
+        holder = 10056004 # Mori Motonari
+    }
+    1571.07.06 = {
+        holder = 10056025 # Mori Terumoto
+    }
 }
 c_shgnt_kumage = {
     0001.01.01 = { change_development_level = 20 }
     1100.01.01 = { change_development_level = 20 }
-    1331.01.01 = { change_development_level = 20 }
     0100.01.01 = {
     }
     1179.12.18 = {
@@ -343,23 +500,32 @@ c_shgnt_kumage = {
         liege = 0 # 
         holder = 0 # Taira's escape to the west
     }
-    1468.12.27 = {
-        holder = 10057101 # Sue Hiromori
+    1341.01.01 = {
+        holder = 10057314 # Ota Tokinao
     }
-    1482.06.13 = {
-        holder = 10057101 # Sue Takemori
+    1400.01.01 = {
+        holder = 10057313 # Ota Kiyoyasu
     }
-    1492.01.01 = {
-        holder = 10057105 # Sue Okiaki
+    1450.01.01 = {
+        liege = k_shgnt_western_chugoku # 
+        holder = 10057303 # Sugimori Masayasu
     }
-    1495.02.18 = {
-        holder = 10057100 # Sue Okifusa
+    1470.01.01 = {
+        holder = 10057301 # Sugimori Hiroyasu
     }
-    1539.05.06 = {
-        holder = 10057102 # Sue Harukata
+    1513.01.01 = {
+        holder = 10057300 # Sugimori Fusayasu
+    }
+    1547.01.01 = {
+        holder = 10057302 # Sugimori Takayasu
     }
     1555.10.16 = {
-        holder = 10057116 # Sue Nagafusa
+        liege = d_shgnt_aki # 
+        holder = 10058902 # Murakami Takeyoshi
+    }
+}
+c_shgnt_toyota = {
+    0001.01.01 = {
     }
     1557.04.01 = {
         holder = 10056004 # Mori Motonari
@@ -374,14 +540,39 @@ c_shgnt_kumage = {
 c_shgnt_toyota = {
     0001.01.01 = { change_development_level = 10 }
     1100.01.01 = { change_development_level = 10 }
-    1331.01.01 = { change_development_level = 10 }
+    1206.01.01 = { change_development_level = 10 }
     1180.01.01 = {
         liege = d_shgnt_iyo # 
         holder = 12660501 # Nuta Jiro
     }
     1185.04.25 = {
-        liege = 0 # 
-        holder = 0 # Battle of Dan-no-ura
+        holder = 12216100 # Dohi Toohira
+    }
+    1200.01.01 = {
+        holder = 12216102 # Dohi Kagehira
+    }
+    1207.01.01 = {
+        holder = 10056333 # Kobayakawa Shigehira
+    }
+    1264.03.14 = {
+        holder = 10056330 # Kobayakawa Masahira
+    }
+    1298.08.26 = {
+        holder = 10056329 # Kobayakawa Asahira
+    }
+    1341.01.01 = {
+        holder = 10056328 # Kobayakawa Nobuhira
+    }
+    1348.01.01 = {
+        liege = d_shgnt_aki # 
+        holder = 10056327 # Kobayakawa Sadahira
+    }
+    1375.03.21 = {
+        holder = 10056326 # Kobayakawa Haruhira
+    }
+    1402.02.09 = {
+        liege = e_shgnt_japan # 
+        holder = 10056323 # Kobayakawa Norihira
     }
 	1206.01.01 = {
 		effect = {
@@ -391,17 +582,16 @@ c_shgnt_toyota = {
 		}
 	}
     1433.02.16 = {
-        liege = e_shgnt_japan # ã€€/ Hokoshu (a military post in Muromachi Shogunate)
-        holder = 10056314 # ã€€Kobayakawa Hirohira
+        liege = e_shgnt_japan # 　/ Hokoshu (a military post in Muromachi Shogunate)
+        holder = 10056314 # 　Kobayakawa Hirohira
     }
-    1480.01.01 = {
-        liege = k_shgnt_western_chugoku # 
+    1473.01.01 = {
         holder = 10056303 # Kobayakawa Takahira
     }
-    1499.05.02 = {
+    1499.05.26 = {
         holder = 10056302 # Kobayakawa Sukehira
     }
-    1508.02.04 = {
+    1508.02.14 = {
         holder = 10056301 # Kobayakawa Okihira
     }
     1527.01.28 = {
@@ -418,21 +608,48 @@ c_shgnt_toyota = {
 c_shgnt_mine = {
     0001.01.01 = { change_development_level = 10 }
     1100.01.01 = { change_development_level = 10 }
-    1331.01.01 = { change_development_level = 10 }
+    1200.01.01 = { change_development_level = 10 }
     1180.01.01 = {
         liege = d_shgnt_nagato # 
-        holder = 12661100 # Kii Michisuke
+        holder = 12660900 # Toyota Tanehiro
     }
-    1183.08.17 = {
-        holder = 10110043 # Taira Tomomori # Taira's escape to the west
+    1186.07.30 = {
+        holder = 12660900 # Toyota Tanehiro
     }
-    1185.03.22 = {
-        liege = 0 # 
-        holder = 0 # Battle of Yashima
+    1200.01.01 = {
+        holder = 12660901 # Toyota Tanetaka
+    }
+    1230.01.01 = {
+        holder = 12660905 # Toyota Tanetsuna
+    }
+    1260.01.01 = {
+        holder = 12660907 # Toyota Taneuji
+    }
+    1290.01.01 = {
+        holder = 12660909 # Toyota Tanesada
+    }
+    1320.01.01 = {
+        holder = 12660920 # Toyota Tanenaga
+    }
+    1350.01.01 = {
+        holder = 12660925 # Toyota Tanefuji
+    }
+    1380.01.01 = {
+        liege = k_shgnt_western_chugoku # 
+        holder = 10057013 # Ouchi Yoshihiro
+    }
+    1400.01.17 = {
+        holder = 10057010 # Ouchi Moriharu
+    }
+    1431.08.06 = {
+        holder = 10057015 # Ouchi Mochiyo
+    }
+    1441.08.14 = {
+        holder = 10057008 # Ouchi Norihiro
     }
     1465.09.23 = {
         liege = d_shgnt_nagato # Ouchi Masahiro
-        holder = 10057009 # ã€€Ouchi Doton [Noriyuki]
+        holder = 10057009 # 　Ouchi Doton [Noriyuki]
     }
     1472.01.01 = {
         holder = 10057007 # Ouchi Masahiro
@@ -443,19 +660,21 @@ c_shgnt_mine = {
     1529.01.29 = {
         holder = 10057002 # Ouchi Yoshitaka
     }
-    1556.01.01 = {
-        holder = 10056004 # Mori Motonari
-    }
-    1562.01.01 = {
+    1551.09.30 = {
         liege = k_shgnt_western_chugoku # 
-        holder = 10056013 # Mori Takamoto
+        holder = 10057500 # Aokage Takaakira
     }
-    1563.09.28 = {
-        holder = 10056025 # Mori Terumoto
+    1556.01.01 = {
+        holder = 10064003 # Ouchi Yoshinaga
+    }
+    1557.05.01 = {
+        liege = k_shgnt_western_chugoku # 
+        holder = 10056228 # Ichikawa Tsuneyoshi
     }
 }
 c_shgnt_iwami_mino = {
-    0001.01.01 = { change_development_level = 20 }
+    0001.01.01 = { change_development_level = 10 }
+    1324.01.01 = { change_development_level = 20 }
     0100.01.01 = {
     }
     1180.01.01 = {
@@ -463,28 +682,42 @@ c_shgnt_iwami_mino = {
         holder = 12661200 # Masuda Kanehide
     }
     1190.01.01 = {
-        liege = 0 # 
-        holder = 0 # Taira's escape to the west
+        holder = 12661205 # Masuda Kanetaka
     }
-    1391.10.14 = {
-        liege = d_shgnt_iwami # 
+    1200.01.01 = {
+        holder = 12661210 # Masuda Kanesue
+    }
+    1220.01.01 = {
+        holder = 12661215 # Masuda Kanetoki
+    }
+    1260.01.01 = {
+        holder = 12661230 # Masuda Kanesuke
+    }
+    1310.01.01 = {
+        holder = 10055932 # Masuda Kanehiro
+    }
+    1320.01.01 = {
+        holder = 10055929 # Masuda Kanekata
+    }
+    1330.01.01 = {
+        holder = 10055928 # Masuda Kanemi
+    }
+    1391.11.10 = {
         holder = 10055927 # Masuda Kaneyo
     }
     1407.01.18 = {
-        liege = d_shgnt_iwami # 
         holder = 10055926 # Masuda Hidekane
     }
     1419.03.12 = {
-        liege = d_shgnt_iwami # 
+        liege = k_shgnt_western_chugoku # 
         holder = 10055920 # Masuda Kanemichi
     }
     1431.08.06 = {
-        liege = d_shgnt_iwami # 
-        holder = 10055914 # ã€€Masudaã€€Kanetaka
+        holder = 10055914 # Masuda Kanetaka
     }
     1461.01.01 = {
         liege = k_shgnt_western_chugoku # 
-        holder = 10055901 # ã€€Masuda Sadakane
+        holder = 10055901 # Masuda Sadakane
     }
     1483.01.01 = {
         holder = 10055900 # Masuda Munekane
@@ -492,56 +725,117 @@ c_shgnt_iwami_mino = {
     1544.02.12 = {
         holder = 10055903 # Masuda Fujikane
     }
+    1582.01.01 = {
+        holder = 10055953 # Masuda Motonaga
+    }
 }
 c_shgnt_saba = {
     0001.01.01 = { change_development_level = 10 }
     1100.01.01 = { change_development_level = 10 }
-    1331.01.01 = { change_development_level = 10 }
-    1179.12.18 = {
+    1180.01.01 = { change_development_level = 10 }
+    1410.01.01 = { change_development_level = 10 }
+    1180.01.01 = {
         liege = d_shgnt_suo # 
-        holder = 10110143 # Taira Noritsune
+        holder = 12661450 # Migita Moritsuna
     }
-    1183.08.17 = {
-        liege = 0 # 
-        holder = 0 # Taira's escape to the west
+    1220.01.01 = {
+        holder = 12661451 # Migita Moritoshi
     }
-    1441.08.14 = {
+    1260.01.01 = {
+        holder = 12661454 # Migita Hirotoshi
+    }
+    1270.01.01 = {
+        holder = 12661455 # Migita Shigetoshi
+    }
+    1325.01.01 = {
         liege = d_shgnt_suo # 
-        holder = 10057008 # Ouchi Norihiro
+        holder = 12661456 # Migita Shigesada
     }
-    1465.09.23 = {
-        holder = 10057007 # Ouchi Masahiro
+    1360.01.01 = {
+        liege = d_shgnt_suo # 
+        holder = 12661462 # Migita Hironao
     }
-    1495.10.06 = {
-        holder = 10057001 # Ouchi Yoshioki
+    1400.01.17 = {
+        holder = 12661466 # Migita Sadakatsu
     }
-    1529.01.29 = {
-        holder = 10057002 # Ouchi Yoshitaka
+    1410.01.01 = {
+        holder = 12661496 # Sue Morimasa
     }
-    1551.09.30 = {
+    1445.01.01 = {
+        holder = 12661497 # Sue Hiromasa
+    }
+    1466.08.26 = {
+        holder = 12661498 # Sue Hirofusa
+    }
+    1468.12.27 = {
+        holder = 10057101 # Sue Hiromori
+    }
+    1482.06.13 = {
+        holder = 10057101 # Sue Takemori
+    }
+    1492.01.01 = {
+        holder = 10057105 # Sue Okiaki
+    }
+    1495.03.09 = {
+        holder = 10057100 # Sue Okifusa
+    }
+    1539.05.06 = {
         holder = 10057102 # Sue Harukata
     }
     1555.10.16 = {
         holder = 10057116 # Sue Nagafusa
     }
     1557.04.01 = {
+        liege = d_shgnt_aki # 
         holder = 10056004 # Mori Motonari
     }
-    1557.04.30 = {
-        liege = "k_shgnt_western_chugoku" # 
+    1557.05.01 = {
+        liege = k_shgnt_western_chugoku # 
         holder = 10057402 # Yoshimi Masayori
     }
 }
 c_shgnt_sasei = {
-    0001.01.01 = { change_development_level = 30 }
-    1100.01.01 = { change_development_level = 30 }
+    0001.01.01 = { change_development_level = 20 }
+    1100.01.01 = { change_development_level = 20 }
+    1221.07.06 = { change_development_level = 30 }
     1331.01.01 = { change_development_level = 30 }
+    1541.05.01 = { change_development_level = 40 }
     1180.01.01 = {
         holder = 12660401 # Saeki Kagehiro
     }
     1200.01.01 = {
         liege = 0
         holder = 0
+    }
+    1221.07.06 = {
+        liege = d_shgnt_aki # 
+        holder = 12360103 # Takeda Nobumitsu
+    }
+    1248.12.21 = {
+        holder = 12360112 # Takeda Nobumasa
+    }
+    1265.01.06 = {
+        holder = 12360120 # Takeda Nobutoki
+    }
+    1289.03.02 = {
+        holder = 12360132 # Takeda Tokitsuna
+    }
+    1307.08.01 = {
+        holder = 12360155 # Takeda Nobumune
+    }
+    1330.12.19 = {
+        holder = 12360160 # Takeda Nobutake
+    }
+    1359.08.07 = {
+        liege = d_shgnt_aki # 
+        holder = 12360171 # Takeda Ujinobu
+    }
+    1370.12.01 = {
+        liege = e_shgnt_japan # 
+        holder = 12360171 # Takeda Ujinobu
+    }
+    1380.06.11 = {
+        holder = 10056107 # Takeda Nobuari
     }
     1403.01.01 = {
         holder = 10056106 # Takeda Nobumori
@@ -550,9 +844,6 @@ c_shgnt_sasei = {
         holder = 10056105 # Takeda Nobushige
     }
     1465.11.28 = {
-        holder = 10056104 # Takeda Nobukata
-    }
-    1471.06.20 = {
         holder = 10056103 # Takeda Mototsuna
     }
     1505.03.30 = {
@@ -561,11 +852,11 @@ c_shgnt_sasei = {
     1517.11.05 = {
         holder = 10056100 # Takeda Mitsukazu
     }
-    1540.06.09 = {
+    1540.07.12 = {
         holder = 10056102 # Takeda Nobuzane
     }
     1541.05.01 = {
-        liege = k_shgnt_western_chugoku # 
+        liege = d_shgnt_aki # 
         holder = 10056004 # Mori Motonari
     }
     1571.07.06 = {
@@ -575,15 +866,32 @@ c_shgnt_sasei = {
 c_shgnt_takata = {
     0001.01.01 = { change_development_level = 20 }
     1100.01.01 = { change_development_level = 20 }
-    1331.01.01 = { change_development_level = 20 }
+    1221.07.06 = { change_development_level = 20 }
+    1337.01.01 = { change_development_level = 30 }
     1180.01.01 = {
         liege = 0 # 
         holder = 12660200 # Hayama Yorimune
     }
-#    1189.12.07 = {
-#        liege = 0
-#        holder = 0
-#    }
+    1189.12.07 = {
+        liege = 0
+        holder = 0
+    }
+    1221.07.06 = {
+        holder = 12221013 # Mori Suemitsu
+    }
+    1247.07.08 = {
+        holder = 12221103 # Mori Tsunemitsu
+    }
+    1270.01.01 = {
+        holder = 12270784 # Mori Tokichika
+    }
+    1334.07.01 = {
+        liege = d_shgnt_aki # 
+        holder = 12666010 # Mori Motoharu
+    }
+    1386.01.01 = {
+        holder = 12666030 # Mori Mitsufusa
+    }
 	1394.01.01 = {
 		effect = {
 			title:b_shgnt_takata_3 = {
@@ -591,8 +899,6 @@ c_shgnt_takata = {
 			}
 		}
 	}
-#    1400.01.01 = {
-#    }
     1436.01.01 = {
         liege = d_shgnt_aki # 
         holder = 12666040 # Mori Hiromoto
@@ -623,9 +929,17 @@ c_shgnt_takata = {
 }
 c_shgnt_bunsai = {
     0001.01.01 = { change_development_level = 20 }
+    1378.01.01 = { change_development_level = 20 }
     1180.01.01 = {
         liege = d_shgnt_nagato # 
-        holder = 12660900 # Toyota Tanehiro
+        holder = 12661100 # Kii Michisuke
+    }
+    1183.08.17 = {
+        holder = 10110043 # Taira Tomomori # Taira's escape to the west
+    }
+    1185.03.22 = {
+        liege = 0 # 
+        holder = 0 # Battle of Yashima
     }
     1186.07.30 = {
         liege = d_shgnt_nagato # Sasaki Takatsuna
@@ -747,25 +1061,30 @@ c_shgnt_bunsai = {
 c_shgnt_tsuno = {
     0001.01.01 = { change_development_level = 10 }
     1100.01.01 = { change_development_level = 10 }
-    1331.01.01 = { change_development_level = 10 }
+    1221.07.06 = { change_development_level = 10 }
+    1354.01.01 = { change_development_level = 10 }
     1180.01.01 = {
         liege = d_shgnt_suo # 
         holder = 12661510 # Naito Moriie
     }
-    1231.08.29 = {
-        liege = 0
-        holder = 0
+    1221.07.06 = {
+        holder = 12661417 # Ouchi Hironari
     }
-    1330.01.01 = {
+    1244.10.21 = {
+        holder = 12661418 # Ouchi Hirosada
+    }
+    1296.07.29 = {
+        holder = 12661419 # Ouchi Hiroie
+    }
+    1300.04.17 = {
         holder = 10057025 # Washizu Nagahiro
     }
-    1345.01.01 = {
-        holder = 10057151 # Washizu Sadakazu
-    }
-    1352.01.01 = {
+    1351.01.01 = {
+        liege = d_shgnt_suo # 
         holder = 10057152 # Washizu Sadahiro
     }
-    1353.01.01 = {
+    1354.01.01 = {
+        liege = d_shgnt_suo # 
         holder = 12661481 # Sue Hiromasa
     }
     1360.01.01 = {
@@ -799,7 +1118,7 @@ c_shgnt_tsuno = {
     1492.01.01 = {
         holder = 10057105 # Sue Okiaki
     }
-    1495.02.18 = {
+    1495.03.09 = {
         holder = 10057100 # Sue Okifusa
     }
     1539.05.06 = {
@@ -809,19 +1128,19 @@ c_shgnt_tsuno = {
         holder = 10057116 # Sue Nagafusa
     }
     1557.04.01 = {
+        liege = d_shgnt_aki # 
         holder = 10056004 # Mori Motonari
     }
-    1562.01.01 = {
-        holder = 10056013 # Mori Takamoto
-    }
-    1563.09.28 = {
+    1571.07.06 = {
         holder = 10056025 # Mori Terumoto
     }
 }
 c_shgnt_aki_yamakata = {
     0001.01.01 = { change_development_level = 10 }
     1100.01.01 = { change_development_level = 10 }
-    1331.01.01 = { change_development_level = 10 }
+    1300.01.01 = { change_development_level = 10 }
+    1370.01.01 = { change_development_level = 10 }
+    1550.01.01 = { change_development_level = 10 }
     1180.01.01 = {
         liege = 0 # 
         holder = 12660600 # Yamagata Tametsuna
@@ -829,6 +1148,12 @@ c_shgnt_aki_yamakata = {
     1200.01.01 = {
         liege = 0
         holder = 0
+    }
+    1221.07.06 = {
+        holder = 10056236 # Kikkawa Tsunemitsu
+    }
+    1268.10.24 = {
+        holder = 10056235 # Kikkawa Tsunetaka
     }
 	1313.01.01 = {
 		effect = {
@@ -844,6 +1169,19 @@ c_shgnt_aki_yamakata = {
 			}
 		}
 	}
+    1323.09.03 = {
+        holder = 10056234 # Kikkawa Tsunemori
+    }
+    1357.11.03 = {
+        liege = e_shgnt_japan # 
+        holder = 10056233 # Kikkawa Tsuneaki
+    }
+    1383.01.07 = {
+        holder = 10056231 # Kikkawa Tsunemi
+    }
+    1435.02.21 = {
+        holder = 10056230 # Kikkawa Tsunenobu
+    }
     1456.03.16 = {
         liege = d_shgnt_aki # 
         holder = 10056204 # Kikkawa Yukitsune
@@ -853,9 +1191,11 @@ c_shgnt_aki_yamakata = {
         holder = 10056203 # Kikkawa Tsunemoto
     }
     1509.01.01 = {
-        holder = 10056202 # KIkkawa Kunitsune
+        liege = k_shgnt_western_chugoku # 
+        holder = 10056202 # Kikkawa Kunitsune
     }
     1531.05.04 = {
+        liege = k_shgnt_western_chugoku # 
         holder = 10056200 # Kikkawa Okitsune
     }
 	1546.01.01 = {
@@ -871,9 +1211,10 @@ c_shgnt_aki_yamakata = {
     }
 }
 c_shgnt_yoshiki = {
-    0001.01.01 = { change_development_level = 30 }
-    1100.01.01 = { change_development_level = 30 }
-    1331.01.01 = { change_development_level = 40 }
+    0001.01.01 = { change_development_level = 20 }
+    1100.01.01 = { change_development_level = 20 }
+    1360.01.01 = { change_development_level = 30 }
+    1557.05.01 = { change_development_level = 40 }
     1180.01.01 = {
         liege = d_shgnt_suo # 
         holder = 12661415 # Ouchi Hiromori
@@ -932,10 +1273,12 @@ c_shgnt_yoshiki = {
         holder = 10064003 # Ouchi Yoshinaga
     }
     1557.04.01 = {
+        liege = d_shgnt_aki # 
         holder = 10056004 # Mori Motonari
     }
     1557.05.01 = {
-        holder = 10056228 # Kikkawa Tsuneyoshi
+        liege = k_shgnt_western_chugoku # 
+        holder = 10056228 # Ichikawa Tsuneyoshi
     }
 }
 d_shgnt_aki = {
@@ -952,13 +1295,13 @@ d_shgnt_aki = {
         holder = 0
     }
     1031.03.08 = {
-        holder = 10120036 # ã€€Minamoto no Yorikiyo
+        holder = 10120036 # Minamoto no Yorikiyo
     }
     1032.01.01 = {
         holder = 0
     }
     1098.03.02 = {
-        holder = 11006330 # ã€€Fujiwara no Tsunetada
+        holder = 11006330 # Fujiwara no Tsunetada
     }
     1106.04.16 = {
         holder = 0
@@ -982,7 +1325,7 @@ d_shgnt_aki = {
         holder = 0
     }
     1156.10.03 = {
-        holder = 10110031 # ã€€Taira no Tsunemori
+        holder = 10110031 # Taira no Tsunemori
     }
     1156.10.08 = {
         holder = 10110033 # Taira no Yorimori
@@ -1003,7 +1346,7 @@ d_shgnt_aki = {
     }
     1196.01.01 = {
         liege = e_shgnt_japan # 
-        holder = 12660700 # ã€€Sou Takachika
+        holder = 12660700 # Sou Takachika
     }
     1221.07.22 = {
         liege = 0
@@ -1015,28 +1358,28 @@ d_shgnt_aki = {
 		set_capital_county = title:c_shgnt_sato
     }
     1235.06.01 = {
-        holder = 0 # ã€€Fujiwara no Chikazane
+        holder = 0 # Fujiwara no Chikazane
     }
     1243.01.01 = {
         holder = 12360120 # Takeda Nobutoki
     }
     1284.01.01 = {
-        holder = 10132022 # ã€€Hojo Munenaga
+        holder = 10132022 # Hojo Munenaga
     }
     1309.08.28 = {
-        holder = 12360155 # ã€€Takeda Nobumune
+        holder = 12360155 # Takeda Nobumune
     }
     1332.01.01 = {
-        holder = 10020001 # ã€€Takeda Nobutake
+        holder = 12360160 # Takeda Nobutake
     }
     1336.04.01 = {
         holder = 12187221 # Momonoi Yoshimori
     }
     1336.07.05 = {
-        holder = 10020001 # ã€€Takeda Nobutake
+        holder = 12360160 # Takeda Nobutake
     }
     1351.01.01 = {
-        holder = 10020003 # ã€€Takeda Ujinobu
+        holder = 12360171 # Takeda Ujinobu
     }
     1370.12.01 = {
         liege = 0
@@ -1044,23 +1387,24 @@ d_shgnt_aki = {
     }
     1371.03.01 = {
         liege = e_shgnt_japan # 
-        holder = 12395221 # ã€€Imagawa Sadayo
+        holder = 12395221 # Imagawa Sadayo
     }
     1454.11.01 = {
         liege = e_shgnt_japan # 
         holder = 10050044 # Yamana Noritoyo
     }
     1462.01.01 = {
-        holder = 10050041 # ã€€Yamana Koretoyo
+        holder = 10050041 # Yamana Koretoyo
     }
     1475.11.01 = {
-        holder = 10050044 # ã€€Yamana Masatoyo
+        liege = 0 # 　TODO
+        holder = 10050044 # Yamana Masatoyo
     }
-    1499.03.13 = {
+    1493.05.08 = {
         liege = 0
         holder = 0
     }
-    1550.01.01 = {
+    1541.05.01 = {
         liege = k_shgnt_western_chugoku # 
         holder = 10056004 # Mori Motonari
 		set_capital_county = title:c_shgnt_takata
@@ -1127,10 +1471,7 @@ d_shgnt_iwami = {
     1404.09.01 = {
         holder = 10050085 # Yamana Tokihisa
     }
-    1406.01.01 = {
-        holder = 10050008 # Yamana Yoshitada
-    }
-    1410.01.01 = {
+    1429.01.01 = {
         holder = 10050028 # Yamana Norikiyo
     }
     1437.01.01 = {
@@ -1253,19 +1594,13 @@ d_shgnt_nagato = {
         holder = 10057002 # Ouchi Yoshitaka
     }
     1551.09.30 = {
-        holder = 10057102 # Sue Harukata
+        liege = k_shgnt_western_chugoku # 
+        holder = 10064003 # Ouchi Yoshinaga
     }
-    1555.10.16 = {
-        holder = 10057116 # Sue Nagafusa
-    }
-    1557.04.01 = {
+    1557.05.01 = {
         holder = 10056004 # Mori Motonari
     }
-    1562.01.01 = {
-        liege = k_shgnt_western_chugoku # 
-        holder = 10056013 # Mori Takamoto
-    }
-    1563.09.28 = {
+    1571.07.06 = {
         holder = 10056025 # Mori Terumoto
     }
 }
@@ -1303,6 +1638,7 @@ d_shgnt_suo = {
         holder = 10057002 # Ouchi Yoshitaka
     }
     1551.09.30 = {
+        liege = k_shgnt_western_chugoku # 
         holder = 10057102 # Sue Harukata
     }
     1555.10.16 = {

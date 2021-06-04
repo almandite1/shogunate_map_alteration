@@ -156,7 +156,6 @@ window = {
 
 												text_single = {
 													layoutpolicy_horizontal = expanding
-													#text = "[Character.GetNameNoTooltip]"
 													text = "[Character.Custom('JP_GetShortUINameNoTooltip')]"
 													using = Font_Size_Medium
 													autoresize = no

@@ -1410,3 +1410,69 @@ house_shgnt_hoshiai = { # Murakami Genji [Minamoto]
 		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 } }		
 	}
 }
+10000600 = { #Shimazu
+	pattern = "pattern_solid.dds"	
+	color1 = "dark_green"
+	colored_emblem = {
+		texture = "ce_kutsuwa_cc_1.dds"
+		color1 = "white"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+}
+house_shgnt_shimazu_izaku = { #Shimazu
+	pattern = "pattern_solid.dds"	
+	color1 = "hanarokusho_iro"
+	colored_emblem = {
+		texture = "ce_kutsuwa_cc_1.dds"
+		color1 = "black"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+}
+house_shgnt_shimazu_soshu = { #Shimazu
+	pattern = "pattern_solid.dds"
+	color1 = "aomidori_iro"
+	colored_emblem = {
+		texture = "ce_kutsuwa_cc_1.dds"
+		color1 = "black"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+}
+house_shgnt_shimazu_sasshu = { #Shimazu
+	pattern = "pattern_solid.dds"	
+	color1 = "sabiasagi_iro"
+	colored_emblem = {
+		texture = "ce_kutsuwa_cc_1.dds"
+		color1 = "black"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+}
+house_shgnt_shimazu_hosshu = { #Shimazu
+	pattern = "pattern_solid.dds"	
+	color1 = "omeshicha"
+	colored_emblem = {
+		texture = "ce_kutsuwa_cc_1.dds"
+		color1 = "black"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+}
+
+10000604 = { #Hongo
+	pattern = "pattern_solid.dds"	
+	color1 = "yellow"
+	colored_emblem = {
+		texture = "ce_kutsuwa_cc_1.dds"
+		color1 = "black"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+}
+house_shgnt_shimazu_hongo = 10000604
+10000606 = { #Ijuin
+	pattern = "pattern_solid.dds"	
+	color1 = "white"
+	colored_emblem = {
+		texture = "ce_h_ijuin.dds"
+		color1 = "blue"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+}
+house_shgnt_shimazu_ijuin = 10000606

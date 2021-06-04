@@ -203,7 +203,6 @@ widget = {
 				}
 
 				text_label_left = {
-					#text = "[PotentialTaskLocationWindow.GetActiveTask.GetCouncillor.GetUINameNoTooltip]"
 					text = "[PotentialTaskLocationWindow.GetActiveTask.GetCouncillor.Custom('JP_GetUINameNoTooltip')]"
 					margin = { 5 5 }
 					layoutpolicy_horizontal = expanding
@@ -564,7 +563,6 @@ types CouncilWindow
 
 					text_single = {
 						layoutpolicy_horizontal = expanding
-						#text = "[Character.GetShortUINameNoTooltip]"
 						text = "[Character.Custom('JP_GetShortUINameNoTooltip')]"
 						default_format = "#high"
 						align = nobaseline

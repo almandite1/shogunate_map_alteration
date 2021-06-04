@@ -3,7 +3,6 @@
 	dynasty=10007142 # Usuki
 	religion="shinto"
 	culture="central_kyushu"
-	prowess=11
 	1080.1.1={
 		birth=yes
 	}
@@ -17,7 +16,6 @@
 	father=12780000 # Usuki Korehira
 	religion="shinto"
 	culture="central_kyushu"
-	prowess=11
 	1110.1.1={
 		birth=yes
 	}
@@ -31,7 +29,6 @@
 	father=12780001 # Usuki Koremochi
 	religion="shinto"
 	culture="central_kyushu"
-	prowess=9
 	1135.1.1={
 		birth=yes
 	}
@@ -48,9 +45,11 @@
 	father=12780001 # Usuki Koremochi
 	religion="shinto"
 	culture="central_kyushu"
-	prowess=10
 	1145.1.1={
 		birth=yes
+	}
+	1161.1.1={
+		give_nickname="nick_shiro"
 	}
 	1185.12.16={
 		death=yes
@@ -62,7 +61,6 @@
 	father=12780002 # Usuki Koretaka
 	religion="shinto"
 	culture="central_kyushu"
-	prowess=11
 	1160.1.1={
 		birth=yes
 	}
@@ -76,11 +74,19 @@
 	father=12780001 # Usuki Koremochi
 	religion="shinto"
 	culture="central_kyushu"
+	diplomacy=8
+	martial=9
+	stewardship=8
+	intrigue=7
+	learning=4
 	trait="education_martial_3"
 	trait="intellect_good_2"
-	prowess=12
+	prowess=19
 	1143.1.1={
 		birth=yes
+	}
+	1159.1.1={
+		give_nickname="nick_saburo"
 	}
 	1180.9.8 = {
 		add_pressed_claim=e_shgnt_japan
@@ -95,7 +101,6 @@
 	father=12780100 # Ogata Koreyoshi
 	religion="shinto"
 	culture="central_kyushu"
-	prowess=11
 	1163.1.1={
 		birth=yes
 	}
@@ -109,7 +114,6 @@
 	father=12780100 # Ogata Koreyoshi
 	religion="shinto"
 	culture="central_kyushu"
-	prowess=10
 	1165.1.1={
 		birth=yes
 	}
@@ -123,7 +127,6 @@
 	father=12780000 # Usuki Korehira
 	religion="shinto"
 	culture="central_kyushu"
-	prowess=12
 	1130.1.1={
 		birth=yes
 	}
@@ -137,7 +140,6 @@
 	father=12780200
 	religion="shinto"
 	culture="central_kyushu"
-	prowess=10
 	1165.1.1={
 		birth=yes
 	}
@@ -151,7 +153,6 @@
 	father=12780200
 	religion="shinto"
 	culture="central_kyushu"
-	prowess=10
 	1170.1.1={
 		birth=yes
 	}
@@ -165,7 +166,6 @@
 	father=12780205
 	religion="shinto"
 	culture="central_kyushu"
-	prowess=9
 	1195.1.1={
 		birth=yes
 	}
@@ -179,7 +179,6 @@
 	father=12780205
 	religion="shinto"
 	culture="central_kyushu"
-	prowess=11
 	1200.1.1={
 		birth=yes
 	}
@@ -193,7 +192,6 @@
 	father=12780210
 	religion="shinto"
 	culture="central_kyushu"
-	prowess=11
 	1240.1.1={
 		birth=yes
 	}
@@ -207,7 +205,6 @@
 	father=12780215
 	religion="shinto"
 	culture="central_kyushu"
-	prowess=11
 	1285.1.1={
 		birth=yes
 	}
@@ -221,7 +218,6 @@
 	father=12780220
 	religion="shinto"
 	culture="central_kyushu"
-	prowess=11
 	1320.1.1={
 		birth=yes
 	}
@@ -235,7 +231,6 @@
 	father=12780220
 	religion="shinto"
 	culture="central_kyushu"
-	prowess=10
 	1330.1.1={
 		birth=yes
 	}
@@ -249,7 +244,6 @@
 	father=12780225
 	religion="shinto"
 	culture="central_kyushu"
-	prowess=9
 	1340.1.1={
 		birth=yes
 	}
@@ -259,11 +253,10 @@
 }
 12780300={
 	name=character_name_12780300 # Korezumi
-	dynasty=10000666 # Bekki
+	dynasty=10000642 # Saeki
 	father=12780200 # Saeki Koreie
 	religion="shinto"
 	culture="central_kyushu"
-	prowess=10
 	1160.1.1={
 		birth=yes
 	}
@@ -276,7 +269,6 @@
 	dynasty=10007144 # Togo
 	religion="shinto"
 	culture="central_kyushu"
-	prowess=10
 	1160.1.1={
 		birth=yes
 	}
@@ -290,7 +282,6 @@
 	father=12780400 # Togo Iezane
 	religion="shinto"
 	culture="central_kyushu"
-	prowess=11
 	1190.1.1={
 		birth=yes
 	}
@@ -304,7 +295,6 @@
 	father=12780401 # Togo Koreie
 	religion="shinto"
 	culture="central_kyushu"
-	prowess=12
 	1220.1.1={
 		birth=yes
 	}
@@ -318,7 +308,6 @@
 	father=12780401 # Togo Koreie
 	religion="shinto"
 	culture="central_kyushu"
-	prowess=10
 	1225.1.1={
 		birth=yes
 	}
@@ -331,7 +320,6 @@
 	dynasty=10007145 # Hita
 	religion="shinto"
 	culture="central_kyushu"
-	prowess=11
 	1056.1.1={
 		birth=yes
 	}
@@ -345,7 +333,6 @@
 	father=12780500 # Hita Nagasue
 	religion="shinto"
 	culture="central_kyushu"
-	prowess=11
 	1100.1.1={
 		birth=yes
 	}
@@ -359,7 +346,6 @@
 	father=12780501 # Hita Nagahira
 	religion="shinto"
 	culture="central_kyushu"
-	prowess=9
 	1130.1.1={
 		birth=yes
 	}
@@ -373,7 +359,6 @@
 	father=12780502 # Hita Nagahide
 	religion="shinto"
 	culture="central_kyushu"
-	prowess=9
 	1175.1.1={
 		birth=yes
 	}
@@ -387,7 +372,6 @@
 	father=12780503 # Hita Naganobu
 	religion="shinto"
 	culture="central_kyushu"
-	prowess=10
 	1205.1.1={
 		birth=yes
 	}
@@ -401,7 +385,6 @@
 	father=12780504 # Hita Nagamoto
 	religion="shinto"
 	culture="central_kyushu"
-	prowess=9
 	1235.1.1={
 		birth=yes
 	}
@@ -415,7 +398,6 @@
 	father=10240100 #Takagi Fumitoki?
 	religion="shinto"
 	culture="central_kyushu"
-	prowess=9
 	997.1.1={
 		birth=yes
 	}
@@ -430,7 +412,6 @@
 	religion="shinto"
 	culture="central_kyushu"
 	trait="shogoi_jo"
-	prowess=10
 	1029.1.1={
 		birth=yes
 	}
@@ -444,7 +425,6 @@
 	father=12780600
 	religion="shinto"
 	culture="central_kyushu"
-	prowess=10
 	1025.1.1={
 		birth=yes
 	}
@@ -462,7 +442,6 @@
 	religion="shinto"
 	culture="central_kyushu"
 	trait="jushii_ge"
-	prowess=9
 	1053.1.1={
 		birth=yes
 	}
@@ -476,7 +455,6 @@
 	father=12780605
 	religion="shinto"
 	culture="central_kyushu"
-	prowess=10
 	1050.1.1={
 		birth=yes
 	}
@@ -490,7 +468,6 @@
 	father=12780605
 	religion="shinto"
 	culture="central_kyushu"
-	prowess=11
 	1057.1.1={
 		birth=yes
 	}
@@ -504,7 +481,6 @@
 	father=12780605
 	religion="shinto"
 	culture="central_kyushu"
-	prowess=10
 	1059.1.1={
 		birth=yes
 	}
@@ -519,7 +495,6 @@
 	religion="shinto"
 	culture="central_kyushu"
 	trait="jushii_ge"
-	prowess=12
 	1073.1.1={
 		birth=yes
 	}
@@ -536,7 +511,6 @@
 	father=12780610
 	religion="shinto"
 	culture="central_kyushu"
-	prowess=11
 	1072.1.1={
 		birth=yes
 	}
@@ -550,7 +524,6 @@
 	father=12780610
 	religion="shinto"
 	culture="central_kyushu"
-	prowess=11
 	1085.1.1={
 		birth=yes
 	}
@@ -564,7 +537,6 @@
 	father=12780610
 	religion="shinto"
 	culture="central_kyushu"
-	prowess=12
 	1090.1.1={
 		birth=yes
 	}
@@ -582,7 +554,6 @@
 	religion="shinto"
 	culture="central_kyushu"
 	trait="jugoi_ge"
-	prowess=9
 	1096.1.1={
 		birth=yes
 	}
@@ -596,7 +567,6 @@
 	father=12780620
 	religion="shinto"
 	culture="central_kyushu"
-	prowess=11
 	1100.1.1={
 		birth=yes
 	}
@@ -610,7 +580,6 @@
 	father=12780620
 	religion="shinto"
 	culture="central_kyushu"
-	prowess=12
 	1111.1.1={
 		birth=yes
 	}
@@ -627,7 +596,6 @@
 	father=12780620
 	religion="shinto"
 	culture="central_kyushu"
-	prowess=12
 	1115.1.1={
 		birth=yes
 	}
@@ -644,7 +612,6 @@
 	father=12780620
 	religion="shinto"
 	culture="central_kyushu"
-	prowess=9
 	1120.1.1={
 		birth=yes
 	}
@@ -661,7 +628,6 @@
 	father=12780620
 	religion="shinto"
 	culture="central_kyushu"
-	prowess=10
 	1122.1.1={
 		birth=yes
 	}
@@ -676,7 +642,6 @@
 	religion="shinto"
 	culture="central_kyushu"
 	trait="jushii_ge"
-	prowess=10
 	1111.1.1={
 		birth=yes
 	}
@@ -693,9 +658,10 @@
 	father=12780640
 	religion="shinto"
 	culture="central_kyushu"
+	martial=8
 	trait="education_martial_3"
 	trait="brave"
-	prowess=14
+	prowess=18
 	1146.1.1={
 		birth=yes
 	}
@@ -703,12 +669,11 @@
 		give_nickname="nick_jio"
 	}
 	1180.1.1={
-		trait="jugoi_ge"
-		effect={
-			set_realm_capital=title:c_shgnt_kukuchi
+		give_nickname="nick_gon_no_kami"
+		effect = {
+			set_realm_capital = title:c_shgnt_kukuchi
+			add_trait = "jugoi_ge"
 		}
-	}
-	1180.9.8 = {
 	}
 	1185.11.1={
 		death={
@@ -723,7 +688,6 @@
 	father=12780640
 	religion="shinto"
 	culture="central_kyushu"
-	prowess=11
 	1150.1.1={
 		birth=yes
 	}
@@ -737,7 +701,6 @@
 	father=12780645
 	religion="shinto"
 	culture="central_kyushu"
-	prowess=11
 	1165.1.1={
 		birth=yes
 	}
@@ -757,7 +720,6 @@
 	religion="shinto"
 	culture="central_kyushu"
 	trait="jugoi_ge"
-	prowess=12
 	1167.1.1={
 		birth=yes
 	}
@@ -774,7 +736,6 @@
 	father=12780645
 	religion="shinto"
 	culture="central_kyushu"
-	prowess=11
 	1168.1.1={
 		birth=yes
 	}
@@ -789,11 +750,10 @@
 }
 12780653 = {
 	name=character_name_12780653 # Naokata
-	dynasty=10000660 # Kikuchi
+	dynasty=10007348 # Koshi
 	father=12780645
 	religion="shinto"
 	culture="central_kyushu"
-	prowess=11
 	1169.1.1={
 		birth=yes
 	}
@@ -807,7 +767,6 @@
 	father=12780645
 	religion="shinto"
 	culture="central_kyushu"
-	prowess=11
 	1170.1.1={
 		birth=yes
 	}
@@ -824,7 +783,6 @@
 	father=12780651
 	religion="shinto"
 	culture="central_kyushu"
-	prowess=12
 	1187.1.1={
 		birth=yes
 	}
@@ -841,7 +799,6 @@
 	father=12780651
 	religion="shinto"
 	culture="central_kyushu"
-	prowess=11
 	1189.1.1={
 		birth=yes
 	}
@@ -858,7 +815,6 @@
 	father=12780651
 	religion="shinto"
 	culture="central_kyushu"
-	prowess=11
 	1190.1.1={
 		birth=yes
 	}
@@ -875,7 +831,6 @@
 	father=12780651
 	religion="shinto"
 	culture="central_kyushu"
-	prowess=9
 	1191.1.1={
 		birth=yes
 	}
@@ -892,7 +847,6 @@
 	father=12780651
 	religion="shinto"
 	culture="central_kyushu"
-	prowess=11
 	1192.1.1={
 		birth=yes
 	}
@@ -909,7 +863,6 @@
 	father=12780651
 	religion="shinto"
 	culture="central_kyushu"
-	prowess=11
 	1195.1.1={
 		birth=yes
 	}
@@ -923,7 +876,6 @@
 	father=12780651
 	religion="shinto"
 	culture="central_kyushu"
-	prowess=10
 	1210.1.1={
 		birth=yes
 	}
@@ -941,7 +893,6 @@
 	religion="shinto"
 	culture="central_kyushu"
 	trait="jugoi_ge"
-	prowess=12
 	1201.1.1={
 		birth=yes
 	}
@@ -956,7 +907,6 @@
 	religion="shinto"
 	culture="central_kyushu"
 	trait="jugoi_ge"
-	prowess=9
 	1225.1.1={
 		birth=yes
 	}
@@ -976,7 +926,6 @@
 	father=12780670
 	religion="shinto"
 	culture="central_kyushu"
-	prowess=11
 	1226.1.1={
 		birth=yes
 	}
@@ -993,7 +942,6 @@
 	father=12780670
 	religion="shinto"
 	culture="central_kyushu"
-	prowess=11
 	1230.1.1={
 		birth=yes
 	}
@@ -1010,7 +958,6 @@
 	father=12780670
 	religion="shinto"
 	culture="central_kyushu"
-	prowess=10
 	1235.1.1={
 		birth=yes
 	}
@@ -1027,7 +974,6 @@
 	father=12780670
 	religion="shinto"
 	culture="central_kyushu"
-	prowess=10
 	1240.1.1={
 		birth=yes
 	}
@@ -1042,7 +988,6 @@
 	mother=10064036
 	religion="shinto"
 	culture="central_kyushu"
-	prowess=10
 	1245.1.1={
 		birth=yes
 	}
@@ -1060,7 +1005,6 @@
 	mother=10064036
 	religion="shinto"
 	culture="central_kyushu"
-	prowess=10
 	1247.1.1={
 		birth=yes
 	}
@@ -1070,12 +1014,11 @@
 }
 12780682 = {
 	name=character_name_12780682 # Aritaka
-	dynasty=10000660 # Kikuchi
+	dynasty=10007341 # Akahoshi
 	father=12780675
 	mother=10064036
 	religion="shinto"
 	culture="central_kyushu"
-	prowess=9
 	1250.1.1={
 		birth=yes
 	}
@@ -1092,7 +1035,6 @@
 	father=12780680
 	religion="shinto"
 	culture="central_kyushu"
-	prowess=11
 	1271.1.1={
 		birth=yes
 	}
@@ -1103,13 +1045,25 @@
 		death=yes
 	}
 }
+12780686={
+	name=character_name_12780686 # Takemoto
+	dynasty=10000660 # Kikuchi
+	father=12780680 # Kikuchi Takefusa
+	religion="shinto"
+	culture="central_kyushu"
+	1273.1.1={
+		birth=yes
+	}
+	1304.1.1={
+		death=yes
+	}
+}
 12780690 = {
 	name=character_name_12780690 # Tokitaka
 	dynasty=10000660 # Kikuchi
 	father=12780685
 	religion="shinto"
 	culture="central_kyushu"
-	prowess=12
 	1287.1.1={
 		birth=yes
 	}
@@ -1126,12 +1080,16 @@
 	father=12780633 # Kikuchi Tsuneto
 	religion="shinto"
 	culture="northern_kyushu"
+	martial=8
 	trait="education_martial_3"
 	trait="strong"
 	trait="cynical"
-	prowess=13
+	prowess=18
 	1140.1.1={
 		birth=yes
+	}
+	1156.1.1={
+		give_nickname="nick_Toji"
 	}
 	1185.4.25={
 		death=yes
@@ -1143,7 +1101,6 @@
 	father=10240108 #Takagi Suenaga
 	religion="shinto"
 	culture="central_kyushu"
-	prowess=10
 	1130.1.1={
 		birth=yes
 	}
@@ -1157,7 +1114,6 @@
 	father=12780800
 	religion="shinto"
 	culture="central_kyushu"
-	prowess=12
 	1160.1.1={
 		birth=yes
 	}
@@ -1171,7 +1127,6 @@
 	father=12780800
 	religion="shinto"
 	culture="central_kyushu"
-	prowess=11
 	1165.1.1={
 		birth=yes
 	}
@@ -1185,7 +1140,6 @@
 	father=12780805
 	religion="shinto"
 	culture="central_kyushu"
-	prowess=10
 	1190.1.1={
 		birth=yes
 	}
@@ -1199,7 +1153,6 @@
 	father=12780810
 	religion="shinto"
 	culture="central_kyushu"
-	prowess=10
 	1215.1.1={
 		birth=yes
 	}
@@ -1213,7 +1166,6 @@
 	father=12780815
 	religion="shinto"
 	culture="central_kyushu"
-	prowess=10
 	1235.1.1={
 		birth=yes
 	}
@@ -1227,7 +1179,6 @@
 	father=12780815
 	religion="shinto"
 	culture="central_kyushu"
-	prowess=10
 	1240.1.1={
 		birth=yes
 	}
@@ -1241,7 +1192,6 @@
 	father=12780815
 	religion="shinto"
 	culture="central_kyushu"
-	prowess=11
 	1245.1.1={
 		birth=yes
 	}
@@ -1254,7 +1204,6 @@
 	dynasty=10007147 # Hirakawa
 	religion="shinto"
 	culture="central_kyushu"
-	prowess=12
 	1150.1.1={
 		birth=yes
 	}
@@ -1268,7 +1217,6 @@
 	father=12780900 # Hirakawa Yositaka
 	religion="shinto"
 	culture="central_kyushu"
-	prowess=10
 	1175.1.1={
 		birth=yes
 	}
@@ -1282,7 +1230,6 @@
 	father=12780900 # Hirakawa Yositaka
 	religion="shinto"
 	culture="central_kyushu"
-	prowess=11
 	1176.1.1={
 		birth=yes
 	}
@@ -1296,7 +1243,6 @@
 	father=12780900 # Hirakawa Yositaka
 	religion="shinto"
 	culture="central_kyushu"
-	prowess=9
 	1177.1.1={
 		birth=yes
 	}
@@ -1310,7 +1256,6 @@
 	father=12780900 # Hirakawa Yositaka
 	religion="shinto"
 	culture="central_kyushu"
-	prowess=12
 	1178.1.1={
 		birth=yes
 	}
@@ -1325,7 +1270,6 @@
 	father=10252251 # Okura Tanetsuna
 	religion="shinto"
 	culture="central_kyushu"
-	prowess=10
 	1145.1.1={
 		birth=yes
 	}
@@ -1340,7 +1284,6 @@
 	father=12781000 # Amakusa Tanesada
 	religion="shinto"
 	culture="central_kyushu"
-	prowess=12
 	1175.1.1={
 		birth=yes
 	}
@@ -1355,7 +1298,6 @@
 	father=12781000 # Amakusa Tanesada
 	religion="shinto"
 	culture="central_kyushu"
-	prowess=11
 	1177.1.1={
 		birth=yes
 	}
@@ -1370,7 +1312,6 @@
 	father=12781001 # Amakusa Taneari
 	religion="shinto"
 	culture="central_kyushu"
-	prowess=10
 	1205.1.1={
 		birth=yes
 	}
@@ -1385,7 +1326,6 @@
 	father=12781001 # Amakusa Taneari
 	religion="shinto"
 	culture="central_kyushu"
-	prowess=10
 	1207.1.1={
 		birth=yes
 	}
@@ -1400,11 +1340,662 @@
 	father=12781004 # Amakusa Tanesuke
 	religion="shinto"
 	culture="central_kyushu"
-	prowess=10
 	1235.1.1={
 		birth=yes
 	}
 	1295.1.1={
+		death=yes
+	}
+}
+12800100={
+	name=character_name_12800100 # Takemura
+	dynasty=10000660 # Kikuchi
+	father=12780686 # Kikuchi Takemoto
+	religion="shinto"
+	culture="central_kyushu"
+	1290.1.1={
+		birth=yes
+	}
+	1330.1.1={
+		death=yes
+	}
+}
+12800101={
+	name=character_name_12800101 # Shigemura
+	dynasty=10007339 # Kai
+	father=12800100 # Kikuchi Takemura
+	religion="shinto"
+	culture="central_kyushu"
+	1320.1.1={
+		birth=yes
+	}
+	1390.1.1={
+		death=yes
+	}
+}
+12800103={
+	name=character_name_12800103 # Shigeyasu
+	dynasty=10007339 # Kai
+	father=12800101 # Kai Shigemura
+	religion="shinto"
+	culture="central_kyushu"
+	1370.1.1={
+		birth=yes
+	}
+	1430.1.1={
+		death=yes
+	}
+}
+12800107={
+	name=character_name_12800107 # Shigetsuna
+	dynasty=10007339 # Kai
+	father=12800103 # Kai Shigeyasu
+	religion="shinto"
+	culture="central_kyushu"
+	1420.1.1={
+		birth=yes
+	}
+	1490.1.1={
+		death=yes
+	}
+}
+12800110={
+	name=character_name_12800110 # Chikanobu
+	dynasty=10007339 # Kai
+	father=12800107 # Kai Shigetsuna
+	religion="shinto"
+	culture="central_kyushu"
+	1470.1.1={
+		birth=yes
+	}
+	1540.1.1={
+		death=yes
+	}
+}
+12800113={
+	name=character_name_12800113 # Chikanao # a.k.a. Kai Soun
+	dynasty=10007339 # Kai
+	father=12800110 # Kai Chikanobu
+	religion="shinto"
+	culture="central_kyushu"
+	diplomacy=7
+	martial=8
+	stewardship=7
+	intrigue=7
+	learning=5
+	trait="education_martial_3"
+	trait="strategist"
+	trait="intellect_good_2"
+	prowess=18
+	1515.1.1={
+		birth=yes
+	}
+	1583.8.22={
+		death=yes
+	}
+}
+12800117={
+	name=character_name_12800117 # Chikahdie
+	dynasty=10007339 # Kai
+	father=12800113 # Kai Chikanao
+	religion="shinto"
+	culture="central_kyushu"
+	martial=9
+	trait="education_martial_2"
+	prowess=17
+	1550.1.1={
+		birth=yes
+	}
+	1587.9.18={
+		death=yes
+	}
+}
+12800200={
+	name=character_name_12800200 # Takayori
+	dynasty=10007340 # Jo
+	father=12780678 # Kikuchi Takatsune
+	religion="shinto"
+	culture="central_kyushu"
+	1255.1.1={
+		birth=yes
+	}
+	1310.1.1={
+		death=yes
+	}
+}
+12800201={
+	name=character_name_12800201 # Takaaki
+	dynasty=10007340 # Jo
+	father=12800200 # Jo Takayori
+	religion="shinto"
+	culture="central_kyushu"
+	1290.1.1={
+		birth=yes
+	}
+	1330.1.1={
+		death=yes
+	}
+}
+12800202={
+	name=character_name_12800202 # Takeaki
+	dynasty=10007340 # Jo
+	father=12800200 # Jo Takayori
+	religion="shinto"
+	culture="central_kyushu"
+	1320.1.1={
+		birth=yes
+	}
+	1372.11.1={
+		death=yes
+	}
+}
+12800203={
+	name=character_name_12800203 # Takemine
+	dynasty=10007340 # Jo
+	father=12800200 # Jo Takayori
+	religion="shinto"
+	culture="central_kyushu"
+	1322.1.1={
+		birth=yes
+	}
+	1380.1.1={
+		death=yes
+	}
+}
+12800207={
+	name=character_name_12800207 # Kanetoshi
+	dynasty=10007340 # Jo
+	father=12800203 # Jo Takemine
+	religion="shinto"
+	culture="central_kyushu"
+	1340.1.1={
+		birth=yes
+	}
+	1400.1.1={
+		death=yes
+	}
+}
+12800210={
+	name=character_name_12800210 # Tamemasa
+	dynasty=10007340 # Jo
+	father=12800207 # Jo Kanetoshi
+	religion="shinto"
+	culture="central_kyushu"
+	1360.1.1={
+		birth=yes
+	}
+	1420.1.1={
+		death=yes
+	}
+}
+12800213={
+	name=character_name_12800213 # Tamekazu
+	dynasty=10007340 # Jo
+	father=12800210 # Jo Tamemasa
+	religion="shinto"
+	culture="central_kyushu"
+	1380.1.1={
+		birth=yes
+	}
+	1440.1.1={
+		death=yes
+	}
+}
+12800217={
+	name=character_name_12800217 # Tamekata
+	dynasty=10007340 # Jo
+	father=12800213 # Jo Tamekazu
+	religion="shinto"
+	culture="central_kyushu"
+	1400.1.1={
+		birth=yes
+	}
+	1460.1.1={
+		death=yes
+	}
+}
+12800220={
+	name=character_name_12800220 # Fuyutoki
+	dynasty=10007340 # Jo
+	father=12800217 # Jo Tamekata
+	religion="shinto"
+	culture="central_kyushu"
+	1420.1.1={
+		birth=yes
+	}
+	1480.1.1={
+		death=yes
+	}
+}
+12800223={
+	name=character_name_12800223 # Tamefuyu
+	dynasty=10007340 # Jo
+	father=12800220 # Jo Fuyutoki
+	religion="shinto"
+	culture="central_kyushu"
+	1450.1.1={
+		birth=yes
+	}
+	1510.1.1={
+		death=yes
+	}
+}
+12800226={
+	name=character_name_12800226 # Toshimine
+	dynasty=10007340 # Jo
+	father=12800223 # Jo Tamefuyu
+	religion="shinto"
+	culture="central_kyushu"
+	1470.1.1={
+		birth=yes
+	}
+	1500.1.1={
+		death=yes
+	}
+}
+12800227={
+	name=character_name_12800227 # Shigemine
+	dynasty=10007340 # Jo
+	father=12800223 # Jo Tamefuyu
+	religion="shinto"
+	culture="central_kyushu"
+	1480.1.1={
+		birth=yes
+	}
+	1540.1.1={
+		death=yes
+	}
+}
+12800230={
+	name=character_name_12800230 # Yorimine
+	dynasty=10007340 # Jo
+	father=12800226 # Jo Toshimine
+	religion="shinto"
+	culture="central_kyushu"
+	1490.1.1={
+		birth=yes
+	}
+	1530.1.1={
+		death=yes
+	}
+}
+12800240={
+	name=character_name_12800240 # Chikafuyu
+	dynasty=10007340 # Jo
+	father=12800227 # Jo Shigemine
+	religion="shinto"
+	culture="central_kyushu"
+	martial=9
+	trait="education_martial_2"
+	prowess=17
+	1510.1.1={
+		birth=yes
+	}
+	1570.1.1={
+		death=yes
+	}
+}
+12800243={
+	name=character_name_12800243 # Chikakata
+	dynasty=10007340 # Jo
+	father=12800240 # Jo Chikafuyu
+	religion="shinto"
+	culture="central_kyushu"
+	martial=9
+	trait="education_martial_2"
+	prowess=17
+	1540.1.1={
+		birth=yes
+	}
+	1582.1.23={
+		death=yes
+	}
+}
+12800244={
+	name=character_name_12800244 # Chikamoto
+	dynasty=10007340 # Jo
+	father=12800240 # Jo Chikafuyu
+	religion="shinto"
+	culture="central_kyushu"
+	1542.1.1={
+		birth=yes
+	}
+	1593.1.1={
+		death=yes
+	}
+}
+12800246={
+	name=character_name_12800246 # Hisamoto
+	dynasty=10007340 # Jo
+	father=12800243 # Jo Chikakata
+	religion="shinto"
+	culture="central_kyushu"
+	1576.1.1={
+		birth=yes
+	}
+	1592.1.1={
+		death=yes
+	}
+}
+12800247={
+	name=character_name_12800247 # Takefusa
+	dynasty=10007340 # Jo
+	father=12800243 # Jo Chikakata
+	religion="shinto"
+	culture="central_kyushu"
+	1580.1.1={
+		birth=yes
+	}
+	1640.1.1={
+		death=yes
+	}
+}
+12800300={
+	name=character_name_12800300 # Takaaki
+	dynasty=10007341 # Akahoshi
+	father=12780682 # Akahoshi Aritaka
+	religion="shinto"
+	culture="central_kyushu"
+	1280.1.1={
+		birth=yes
+	}
+	1340.1.1={
+		death=yes
+	}
+}
+12800301={
+	name=character_name_12800301 # Taketsura
+	dynasty=10007341 # Akahoshi
+	father=12800300 # Akahoshi Takaaki
+	religion="shinto"
+	culture="central_kyushu"
+	1300.1.1={
+		birth=yes
+	}
+	1359.8.29={
+		death=yes
+	}
+}
+12800310={
+	name=character_name_12800310 # Takeo
+	dynasty=10000660 # Kikuchi
+	father=10066032 # Kikuchi Taketoki
+	religion="shinto"
+	culture="central_kyushu"
+	1320.1.1={
+		birth=yes
+	}
+	1359.8.29={
+		dynasty=10007341 # Akahoshi
+		effect = {
+			set_father = character:12800301
+			set_real_father = character:10066032
+			add_trait = "child_of_adoption"
+		}
+	}
+	1380.1.1={
+		death=yes
+	}
+}
+12800313={
+	name=character_name_12800313 # Taketsugu
+	dynasty=10007341 # Akahoshi
+	father=12800310 # Akahoshi Takeo
+	religion="shinto"
+	culture="central_kyushu"
+	1350.1.1={
+		birth=yes
+	}
+	1410.1.1={
+		death=yes
+	}
+}
+12800317={
+	name=character_name_12800317 # Takenori
+	dynasty=10007341 # Akahoshi
+	father=12800313 # Akahoshi Taketsugu
+	religion="shinto"
+	culture="central_kyushu"
+	1370.1.1={
+		birth=yes
+	}
+	1430.1.1={
+		death=yes
+	}
+}
+12800320={
+	name=character_name_12800320 # Kanenori
+	dynasty=10007341 # Akahoshi
+	father=12800317 # Akahoshi Takenori
+	religion="shinto"
+	culture="central_kyushu"
+	1390.1.1={
+		birth=yes
+	}
+	1450.1.1={
+		death=yes
+	}
+}
+12800323={
+	name=character_name_12800323 # Ietsugu
+	dynasty=10007341 # Akahoshi
+	father=12800320 # Akahoshi Kanenori
+	religion="shinto"
+	culture="central_kyushu"
+	1410.1.1={
+		birth=yes
+	}
+	1470.1.1={
+		death=yes
+	}
+}
+12800327={
+	name=character_name_12800327 # Masatsugu
+	dynasty=10007341 # Akahoshi
+	father=12800323 # Akahoshi Ietsugu
+	religion="shinto"
+	culture="central_kyushu"
+	1430.1.1={
+		birth=yes
+	}
+	1490.1.1={
+		death=yes
+	}
+}
+12800330={
+	name=character_name_12800330 # Shigenori
+	dynasty=10007341 # Akahoshi
+	father=12800327 # Akahoshi Masatsugu
+	religion="shinto"
+	culture="central_kyushu"
+	1450.1.1={
+		birth=yes
+	}
+	1510.1.1={
+		death=yes
+	}
+}
+12800333={
+	name=character_name_12800333 # Takenori
+	dynasty=10007341 # Akahoshi
+	father=12800330 # Akahoshi Shigenori
+	religion="shinto"
+	culture="central_kyushu"
+	1470.1.1={
+		birth=yes
+	}
+	1530.1.1={
+		death=yes
+	}
+}
+12800337={
+	name=character_name_12800337 # Shigetaka
+	dynasty=10007341 # Akahoshi
+	father=12800333 # Akahoshi Takenori
+	religion="shinto"
+	culture="central_kyushu"
+	1490.1.1={
+		birth=yes
+	}
+	1540.1.1={
+		death=yes
+	}
+}
+12800340={
+	name=character_name_12800340 # Chikaie
+	dynasty=10007341 # Akahoshi
+	father=12800337 # Akahoshi Shigetaka
+	religion="shinto"
+	culture="central_kyushu"
+	martial=9
+	trait="education_martial_2"
+	prowess=17
+	1510.1.1={
+		birth=yes
+	}
+	1570.1.1={
+		death=yes
+	}
+}
+12800343={
+	name=character_name_12800343 # Muneie
+	dynasty=10007341 # Akahoshi
+	father=12800340 # Akahoshi Chikaie
+	religion="shinto"
+	culture="central_kyushu"
+	martial=9
+	health=8
+	trait="education_martial_2"
+	prowess=17
+	1530.1.1={
+		birth=yes
+	}
+	1619.1.1={
+		death=yes
+	}
+}
+12800347={
+	name=character_name_12800347 # Chikatake
+	dynasty=10007341 # Akahoshi
+	father=12800343 # Akahoshi Muneie
+	religion="shinto"
+	culture="central_kyushu"
+	1560.1.1={
+		birth=yes
+	}
+	1615.6.3={
+		death=yes
+	}
+}
+12800400={
+	name=character_name_12800400 # Tadanao
+	dynasty=10007342 # Kumabe
+	religion="shinto"
+	culture="central_kyushu"
+	1426.1.1={
+		birth=yes
+	}
+	1494.1.1={
+		death=yes
+	}
+}
+12800401={
+	name=character_name_12800401 # Motonari
+	dynasty=10007342 # Kumabe
+	father=12800400 # Kumabe Tadanao
+	religion="shinto"
+	culture="central_kyushu"
+	1442.1.1={
+		birth=yes
+	}
+	1500.1.1={
+		death=yes
+	}
+}
+12800402={
+	name=character_name_12800402 # Chikatomo
+	dynasty=10007342 # Kumabe
+	father=12800401 # Kumabe Motonari
+	religion="shinto"
+	culture="central_kyushu"
+	1458.1.1={
+		birth=yes
+	}
+	1510.1.1={
+		death=yes
+	}
+}
+12800403={
+	name=character_name_12800403 # Takeharu
+	dynasty=10007342 # Kumabe
+	father=12800402 # Kumabe Chikatomo
+	religion="shinto"
+	culture="central_kyushu"
+	1474.1.1={
+		birth=yes
+	}
+	1520.1.1={
+		death=yes
+	}
+}
+12800404={
+	name=character_name_12800404 # Sadaaki
+	dynasty=10007342 # Kumabe
+	father=12800403 # Kumabe Takeharu
+	religion="shinto"
+	culture="central_kyushu"
+	1490.1.1={
+		birth=yes
+	}
+	1537.1.1={
+		death=yes
+	}
+}
+12800405={
+	name=character_name_12800405 # Chikaie
+	dynasty=10007342 # Kumabe
+	father=12800404 # Kumabe Sadaaki
+	religion="shinto"
+	culture="central_kyushu"
+	1510.1.1={
+		birth=yes
+	}
+	1550.1.1={
+		death=yes
+	}
+}
+12800406={
+	name=character_name_12800406 # Chikanaga
+	dynasty=10007342 # Kumabe
+	father=12800405 # Kumabe Chikaie
+	religion="shinto"
+	culture="central_kyushu"
+	martial=9
+	trait="education_martial_3"
+	prowess=19
+	1530.1.1={
+		birth=yes
+	}
+	1546.1.1={
+		give_nickname="nick_tajima_no_kami"
+	}
+	1588.6.20={
+		death=yes
+	}
+}
+12800407={
+	name=character_name_12800407 # Chikayasu
+	dynasty=10007342 # Kumabe
+	father=12800406 # Kumabe Chikanaga
+	religion="shinto"
+	culture="central_kyushu"
+	martial=9
+	trait="education_martial_2"
+	prowess=17
+	1550.1.1={
+		birth=yes
+	}
+	1588.6.20={
 		death=yes
 	}
 }

@@ -30,8 +30,13 @@ shogunate_gekokujo.0001 = {
 
 	trigger = {
 		NOT = { has_perk = meritocracy_perk }
+		NOT = { has_character_flag = got_gekokujo_perk }
 		is_sengoku_era_trigger = yes
 		is_end_of_sengoku_era_trigger = no
+	}
+
+	immediate = {
+		add_character_flag = got_gekokujo_perk
 	}
 
 	option = {

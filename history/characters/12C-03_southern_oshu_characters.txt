@@ -5,7 +5,6 @@
 	religion="shinto"
 	culture="southern_oshu"
 	trait="education_martial_2"
-	prowess=13
 	1010.1.1={
 		birth=yes
 	}
@@ -20,7 +19,6 @@
 	religion="shinto"
 	culture="southern_oshu"
 	trait="education_martial_2"
-	prowess=13
 	1030.1.1={
 		birth=yes
 	}
@@ -35,7 +33,6 @@
 	religion="shinto"
 	culture="southern_oshu"
 	trait="education_martial_2"
-	prowess=14
 	1050.1.1={
 		birth=yes
 	}
@@ -50,7 +47,6 @@
 	religion="shinto"
 	culture="southern_oshu"
 	trait="education_martial_2"
-	prowess=13
 	1070.1.1={
 		birth=yes
 	}
@@ -64,8 +60,7 @@
 	father=12060015
 	religion="shinto"
 	culture="southern_oshu"
-	learning=6
-	prowess=12
+	learning=1
 	1090.1.1={
 		birth=yes
 	}
@@ -80,7 +75,6 @@
 	religion="shinto"
 	culture="southern_oshu"
 	trait="education_martial_2"
-	prowess=12
 	1120.1.1={
 		birth=yes
 	}
@@ -98,7 +92,6 @@
 	religion="shinto"
 	culture="southern_oshu"
 	trait="education_martial_2"
-	prowess=11
 	1122.1.1={
 		birth=yes
 	}
@@ -115,12 +108,18 @@
 	father=12060050 # Sato Moroharu
 	religion="shinto"
 	culture="southern_oshu"
-	learning=6
+	martial=6
+	diplomacy=9
+	learning=1
+	health=8
 	trait="education_martial_3"
 	trait="strategist"
-	prowess=14
+	prowess=16
 	1113.1.1={
 		birth=yes
+	}
+	1129.1.1={
+		give_nickname="nick_shoji"
 	}
 	1157.1.1={
 		add_spouse=12030042
@@ -135,9 +134,8 @@
 	father=12060060 # Sato Motoharu
 	religion="shinto"
 	culture="southern_oshu"
-	learning=5
+	learning=1
 	trait="legitimized_bastard"
-	prowess=11
 	1140.1.1={
 		birth=yes
 	}
@@ -151,9 +149,8 @@
 	father=12060060 # Sato Motoharu
 	religion="shinto"
 	culture="southern_oshu"
-	learning=7
+	learning=1
 	trait="legitimized_bastard"
-	prowess=10
 	1145.1.1={
 		birth=yes
 	}
@@ -168,13 +165,17 @@
 	mother=12030042 # Fujiwara Towako
 	religion="shinto"
 	culture="southern_oshu"
-	learning=6
+	martial=9
+	learning=1
 	trait="education_martial_3"
 	trait="brave"
-	prowess=13
+	prowess=19
 	1158.1.1={
 		birth=yes
 		employer=12030020 # Fujiwara Hidehira
+	}
+	1174.1.1={
+		give_nickname="nick_Saburobee"
 	}
 	1180.11.10={
 		employer=10120075 # Minamoto Yoritomo
@@ -193,13 +194,17 @@
 	mother=12030042 # Fujiwara Towako
 	religion="shinto"
 	culture="southern_oshu"
-	learning=6
+	martial=8
+	learning=1
 	trait="education_martial_3"
 	trait="strong"
-	prowess=15
+	prowess=18
 	1161.1.1={
 		birth=yes
 		employer=12030020 # Fujiwara Hidehira
+	}
+	1177.1.1={
+		give_nickname="nick_Shirobee"
 	}
 	1180.11.10={
 		employer=10120075 # Minamoto Yoritomo
@@ -219,8 +224,7 @@
 	mother=12030042 # Fujiwara Towako
 	religion="shinto"
 	culture="southern_oshu"
-	learning=8
-	prowess=10
+	learning=1
 	1163.1.1={
 		birth=yes
 	}
@@ -236,8 +240,7 @@
 	mother=12030042 # Fujiwara Towako
 	religion="shinto"
 	culture="southern_oshu"
-	learning=6
-	prowess=10
+	learning=1
 	1164.1.1={
 		birth=yes
 	}
@@ -251,8 +254,7 @@
 	father=10120151 # Minamoto Arimitsu
 	religion="shinto"
 	culture="southern_oshu"
-	learning=6
-	prowess=11
+	learning=1
 	1057.1.1={
 		birth=yes
 	}
@@ -266,8 +268,7 @@
 	father=10120151 # Minamoto Arimitsu
 	religion="shinto"
 	culture="southern_oshu"
-	learning=5
-	prowess=12
+	learning=1
 	1058.1.1={
 		birth=yes
 	}
@@ -281,8 +282,7 @@
 	father=10120151 # Minamoto Arimitsu
 	religion="shinto"
 	culture="southern_oshu"
-	learning=8
-	prowess=11
+	learning=1
 	1060.1.1={
 		birth=yes
 	}
@@ -296,8 +296,7 @@
 	father=10120151 # Minamoto Arimitsu
 	religion="shinto"
 	culture="southern_oshu"
-	learning=7
-	prowess=10
+	learning=1
 	1061.1.1={
 		birth=yes
 	}
@@ -311,8 +310,7 @@
 	father=10120151 # Minamoto Arimitsu
 	religion="shinto"
 	culture="southern_oshu"
-	learning=6
-	prowess=10
+	learning=1
 	1062.1.1={
 		birth=yes
 	}
@@ -327,8 +325,7 @@
 	father=10120151 # Minamoto Arimitsu
 	religion="shinto"
 	culture="southern_oshu"
-	learning=6
-	prowess=10
+	learning=1
 	1063.1.1={
 		birth=yes
 	}
@@ -342,8 +339,7 @@
 	father=10120151 # Minamoto Arimitsu
 	religion="shinto"
 	culture="southern_oshu"
-	learning=5
-	prowess=11
+	learning=1
 	1064.1.1={
 		birth=yes
 	}
@@ -357,8 +353,7 @@
 	father=10120151 # Minamoto Arimitsu
 	religion="shinto"
 	culture="southern_oshu"
-	learning=5
-	prowess=12
+	learning=1
 	1065.1.1={
 		birth=yes
 	}
@@ -372,8 +367,7 @@
 	father=10120151 # Minamoto Arimitsu
 	religion="shinto"
 	culture="southern_oshu"
-	learning=7
-	prowess=10
+	learning=1
 	1066.1.1={
 		birth=yes
 	}
@@ -387,8 +381,7 @@
 	father=12060502 # Ishikawa Motomitsu
 	religion="shinto"
 	culture="southern_oshu"
-	learning=7
-	prowess=11
+	learning=1
 	1080.1.1={
 		birth=yes
 	}
@@ -402,8 +395,7 @@
 	father=12060502 # Ishikawa Motomitsu
 	religion="shinto"
 	culture="southern_oshu"
-	learning=7
-	prowess=11
+	learning=1
 	1082.1.1={
 		birth=yes
 	}
@@ -417,8 +409,7 @@
 	father=12060502 # Ishikawa Motomitsu
 	religion="shinto"
 	culture="southern_oshu"
-	learning=7
-	prowess=12
+	learning=1
 	1083.1.1={
 		birth=yes
 	}
@@ -432,8 +423,7 @@
 	father=12060502 # Ishikawa Motomitsu
 	religion="shinto"
 	culture="southern_oshu"
-	learning=5
-	prowess=9
+	learning=1
 	1084.1.1={
 		birth=yes
 	}
@@ -447,8 +437,7 @@
 	father=12060502 # Ishikawa Motomitsu
 	religion="shinto"
 	culture="southern_oshu"
-	learning=5
-	prowess=10
+	learning=1
 	1086.1.1={
 		birth=yes
 	}
@@ -462,8 +451,7 @@
 	father=12060502 # Ishikawa Motomitsu
 	religion="shinto"
 	culture="southern_oshu"
-	learning=6
-	prowess=11
+	learning=1
 	1088.1.1={
 		birth=yes
 	}
@@ -477,8 +465,7 @@
 	father=12060502 # Ishikawa Motomitsu
 	religion="shinto"
 	culture="southern_oshu"
-	learning=5
-	prowess=11
+	learning=1
 	1090.1.1={
 		birth=yes
 	}
@@ -492,8 +479,7 @@
 	father=12060502 # Ishikawa Motomitsu
 	religion="shinto"
 	culture="southern_oshu"
-	learning=5
-	prowess=11
+	learning=1
 	1092.1.1={
 		birth=yes
 	}
@@ -508,8 +494,7 @@
 	father=12060511 # Ishikawa Mitsuyoshi
 	religion="shinto"
 	culture="southern_oshu"
-	learning=4
-	prowess=10
+	learning=1
 	1107.1.1={
 		birth=yes
 	}
@@ -523,8 +508,7 @@
 	father=12060511 # Ishikawa Mitsuyoshi
 	religion="shinto"
 	culture="southern_oshu"
-	learning=6
-	prowess=9
+	learning=1
 	1109.1.1={
 		birth=yes
 	}
@@ -538,8 +522,7 @@
 	father=12060511 # Ishikawa Mitsuyoshi
 	religion="shinto"
 	culture="southern_oshu"
-	learning=5
-	prowess=10
+	learning=1
 	1111.1.1={
 		birth=yes
 	}
@@ -554,8 +537,7 @@
 	father=12060511 # Ishikawa Mitsuyoshi
 	religion="shinto"
 	culture="southern_oshu"
-	learning=4
-	prowess=10
+	learning=1
 	1112.1.1={
 		birth=yes
 	}
@@ -570,8 +552,7 @@
 	father=12060511 # Ishikawa Mitsuyoshi
 	religion="shinto"
 	culture="southern_oshu"
-	learning=5
-	prowess=10
+	learning=1
 	1114.1.1={
 		birth=yes
 	}
@@ -585,8 +566,7 @@
 	father=12060511 # Ishikawa Mitsuyoshi
 	religion="shinto"
 	culture="southern_oshu"
-	learning=8
-	prowess=12
+	learning=1
 	1115.1.1={
 		birth=yes
 	}
@@ -604,8 +584,7 @@
 	father=12060511 # Ishikawa Mitsuyoshi
 	religion="shinto"
 	culture="southern_oshu"
-	learning=7
-	prowess=10
+	learning=1
 	1116.1.1={
 		birth=yes
 	}
@@ -619,8 +598,7 @@
 	father=12060511 # Ishikawa Mitsuyoshi
 	religion="shinto"
 	culture="southern_oshu"
-	learning=6
-	prowess=10
+	learning=1
 	1117.1.1={
 		birth=yes
 	}
@@ -637,8 +615,7 @@
 	father=12060521 # Ishikawa Yoshisue
 	religion="shinto"
 	culture="southern_oshu"
-	learning=7
-	prowess=9
+	learning=1
 	1129.1.1={
 		birth=yes
 	}
@@ -652,8 +629,7 @@
 	father=12060521 # Ishikawa Yoshisue
 	religion="shinto"
 	culture="southern_oshu"
-	learning=8
-	prowess=11
+	learning=1
 	1139.1.1={
 		birth=yes
 	}
@@ -670,8 +646,7 @@
 	father=12060531 # Ishikawa Motomitsu
 	religion="shinto"
 	culture="southern_oshu"
-	learning=7
-	prowess=12
+	learning=1
 	1168.1.1={
 		birth=yes
 	}
@@ -688,8 +663,7 @@
 	father=12061110
 	religion="shinto"
 	culture="southern_oshu"
-	learning=5
-	prowess=10
+	learning=1
 	1150.1.1={
 		birth=yes
 	}
@@ -703,8 +677,7 @@
 	father=12061000
 	religion="shinto"
 	culture="southern_oshu"
-	learning=8
-	prowess=9
+	learning=1
 	1180.1.1={
 		birth=yes
 	}
@@ -718,8 +691,7 @@
 	father=12061001
 	religion="shinto"
 	culture="southern_oshu"
-	learning=6
-	prowess=9
+	learning=1
 	1210.1.1={
 		birth=yes
 	}
@@ -733,8 +705,7 @@
 	father=12061002
 	religion="shinto"
 	culture="southern_oshu"
-	learning=5
-	prowess=12
+	learning=1
 	1240.1.1={
 		birth=yes
 	}
@@ -748,8 +719,7 @@
 	father=12061003
 	religion="shinto"
 	culture="southern_oshu"
-	learning=5
-	prowess=11
+	learning=1
 	1270.1.1={
 		birth=yes
 	}
@@ -763,8 +733,7 @@
 	father=12061004
 	religion="shinto"
 	culture="southern_oshu"
-	learning=4
-	prowess=10
+	learning=1
 	1300.1.1={
 		birth=yes
 	}
@@ -778,8 +747,7 @@
 	father=12061004
 	religion="shinto"
 	culture="southern_oshu"
-	learning=4
-	prowess=11
+	learning=1
 	1305.1.1={
 		birth=yes
 	}
@@ -793,8 +761,7 @@
 	father=12061005
 	religion="shinto"
 	culture="southern_oshu"
-	learning=8
-	prowess=12
+	learning=1
 	1330.1.1={
 		birth=yes
 	}
@@ -810,8 +777,7 @@
 	father=12061007
 	religion="shinto"
 	culture="southern_oshu"
-	learning=6
-	prowess=12
+	learning=1
 	1360.1.1={
 		birth=yes
 	}
@@ -827,8 +793,7 @@
 	father=12061006
 	religion="shinto"
 	culture="southern_oshu"
-	learning=7
-	prowess=10
+	learning=1
 	1340.1.1={
 		birth=yes
 	}
@@ -842,8 +807,7 @@
 	father=12061009
 	religion="shinto"
 	culture="southern_oshu"
-	learning=5
-	prowess=10
+	learning=1
 	1375.1.1={
 		birth=yes
 	}
@@ -857,8 +821,7 @@
 	father=12061010
 	religion="shinto"
 	culture="southern_oshu"
-	learning=6
-	prowess=11
+	learning=1
 	1410.1.1={
 		birth=yes
 	}
@@ -872,8 +835,7 @@
 	father=10252036
 	religion="shinto"
 	culture="southern_oshu"
-	learning=5
-	prowess=10
+	learning=1
 	820.1.1={
 		birth=yes
 	}
@@ -887,8 +849,7 @@
 	father=12061100
 	religion="shinto"
 	culture="southern_oshu"
-	learning=7
-	prowess=9
+	learning=1
 	850.1.1={
 		birth=yes
 	}
@@ -902,8 +863,7 @@
 	father=12061101
 	religion="shinto"
 	culture="southern_oshu"
-	learning=5
-	prowess=11
+	learning=1
 	880.1.1={
 		birth=yes
 	}
@@ -917,8 +877,7 @@
 	father=12061102
 	religion="shinto"
 	culture="southern_oshu"
-	learning=6
-	prowess=9
+	learning=1
 	910.1.1={
 		birth=yes
 	}
@@ -932,8 +891,7 @@
 	father=12061103
 	religion="shinto"
 	culture="southern_oshu"
-	learning=6
-	prowess=11
+	learning=1
 	940.1.1={
 		birth=yes
 	}
@@ -947,8 +905,7 @@
 	father=12061104
 	religion="shinto"
 	culture="southern_oshu"
-	learning=6
-	prowess=11
+	learning=1
 	970.1.1={
 		birth=yes
 	}
@@ -962,8 +919,7 @@
 	father=12061105
 	religion="shinto"
 	culture="southern_oshu"
-	learning=6
-	prowess=11
+	learning=1
 	1000.1.1={
 		birth=yes
 	}
@@ -977,8 +933,7 @@
 	father=12061106
 	religion="shinto"
 	culture="southern_oshu"
-	learning=5
-	prowess=11
+	learning=1
 	1030.1.1={
 		birth=yes
 	}
@@ -992,8 +947,7 @@
 	father=12061107
 	religion="shinto"
 	culture="southern_oshu"
-	learning=4
-	prowess=10
+	learning=1
 	1060.1.1={
 		birth=yes
 	}
@@ -1007,8 +961,7 @@
 	father=12061108
 	religion="shinto"
 	culture="southern_oshu"
-	learning=4
-	prowess=9
+	learning=1
 	1090.1.1={
 		birth=yes
 	}
@@ -1022,8 +975,7 @@
 	father=12061109
 	religion="shinto"
 	culture="southern_oshu"
-	learning=6
-	prowess=10
+	learning=1
 	1120.1.1={
 		birth=yes
 	}
@@ -1036,8 +988,7 @@
 	dynasty=10000072 # Iwaki
 	religion="shinto"
 	culture="southern_oshu"
-	learning=6
-	prowess=9
+	learning=1
 	1100.1.1={
 		birth=yes
 	}
@@ -1051,8 +1002,7 @@
 	father=12061550 # Iwaki Tadakiyo
 	religion="shinto"
 	culture="southern_oshu"
-	learning=5
-	prowess=11
+	learning=1
 	1140.1.1={
 		birth=yes
 	}
@@ -1066,8 +1016,7 @@
 	father=12061560 # Iwaki Kiyotaka
 	religion="shinto"
 	culture="southern_oshu"
-	learning=6
-	prowess=11
+	learning=1
 	1170.1.1={
 		birth=yes
 	}
@@ -1081,7 +1030,6 @@
 	father=12061570 # Iwaki Morotaka
 	religion="shinto"
 	culture="aristocrats"
-	prowess=9
 	1190.1.1={
 		birth=yes
 	}
@@ -1095,7 +1043,6 @@
 	father=12061570 # Iwaki Morotaka
 	religion="shinto"
 	culture="aristocrats"
-	prowess=10
 	1192.1.1={
 		birth=yes
 	}
@@ -1109,7 +1056,6 @@
 	father=12061570 # Iwaki Morotaka
 	religion="shinto"
 	culture="aristocrats"
-	prowess=11
 	1195.1.1={
 		birth=yes
 	}
@@ -1126,7 +1072,6 @@
 	father=12061572 # Iwaki Takayuki
 	religion="shinto"
 	culture="aristocrats"
-	prowess=11
 	1215.1.1={
 		birth=yes
 	}
@@ -1143,7 +1088,6 @@
 	father=12061580 # Iwaki Takahira
 	religion="shinto"
 	culture="aristocrats"
-	prowess=10
 	1236.1.1={
 		birth=yes
 	}
@@ -1160,7 +1104,6 @@
 	father=12061590 # Iwaki Takamori
 	religion="shinto"
 	culture="aristocrats"
-	prowess=10
 	1256.1.1={
 		birth=yes
 	}
@@ -1177,7 +1120,6 @@
 	father=12061600 # Iwaki Yoshihira
 	religion="shinto"
 	culture="aristocrats"
-	prowess=10
 	1277.1.1={
 		birth=yes
 	}
@@ -1194,7 +1136,6 @@
 	father=12061610 # Iwaki Teruhira
 	religion="shinto"
 	culture="aristocrats"
-	prowess=9
 	1297.1.1={
 		birth=yes
 	}
@@ -1211,7 +1152,6 @@
 	father=12061620 # Iwaki Teruyoshi
 	religion="shinto"
 	culture="aristocrats"
-	prowess=11
 	1318.1.1={
 		birth=yes
 	}
@@ -1228,7 +1168,6 @@
 	father=12061630 # Iwaki Tomoyoshi 
 	religion="shinto"
 	culture="aristocrats"
-	prowess=11
 	1338.1.1={
 		birth=yes
 	}
@@ -1245,7 +1184,6 @@
 	father=12061640 # Iwaki Tsunetomo
 	religion="shinto"
 	culture="aristocrats"
-	prowess=11
 	1359.1.1={
 		birth=yes
 	}
@@ -1261,10 +1199,11 @@
 	dynasty=10006148 # Natori
 	religion="shinto"
 	culture="southern_oshu"
-	learning=6
+	martial=9
+	learning=1
 	trait="education_learning_2"
 	trait="strategist"
-	prowess=10
+	prowess=13
 	1140.1.1={
 		birth=yes
 	}
@@ -1278,10 +1217,11 @@
 	father=12061700 # Natori Hidetsuna
 	religion="shinto"
 	culture="southern_oshu"
-	learning=6
+	martial=9
+	learning=1
 	trait="education_learning_2"
 	trait="brave"
-	prowess=10
+	prowess=13
 	1173.1.1={
 		birth=yes
 	}
@@ -1294,8 +1234,7 @@
 	dynasty=10006149 # Kon
 	religion="shinto"
 	culture="southern_oshu"
-	learning=5
-	prowess=12
+	learning=1
 	1120.1.1={
 		birth=yes
 	}
@@ -1309,8 +1248,7 @@
 	father=12061900 # Kon Hidetoki
 	religion="shinto"
 	culture="southern_oshu"
-	learning=6
-	prowess=10
+	learning=1
 	1140.1.1={
 		birth=yes
 	}
@@ -1324,8 +1262,7 @@
 	father=12061910 # Kon Tametoshi
 	religion="shinto"
 	culture="southern_oshu"
-	learning=6
-	prowess=10
+	learning=1
 	1170.1.1={
 		birth=yes
 	}
@@ -1338,8 +1275,7 @@
 	dynasty=10006150 # Nagasaki
 	religion="shinto"
 	culture="southern_oshu"
-	learning=6
-	prowess=9
+	learning=1
 	1160.1.1={
 		birth=yes
 	}
@@ -1352,8 +1288,7 @@
 	dynasty=10006151 # Terui
 	religion="shinto"
 	culture="southern_oshu"
-	learning=6
-	prowess=11
+	learning=1
 	1160.1.1={
 		birth=yes
 	}
@@ -1366,7 +1301,6 @@
 	dynasty=10007257 # Tachikawa
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=11
 	1154.1.1={
 		birth=yes
 	}
@@ -1379,7 +1313,6 @@
 	dynasty=10007258 # Oze
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=10
 	1145.1.1={
 		birth=yes
 	}
@@ -1393,8 +1326,7 @@
 	father=12150491 # Kokubu Moritane
 	religion="shinto"
 	culture="southern_oshu"
-	learning=8
-	prowess=11
+	learning=1
 	1345.1.1={
 		birth=yes
 	}
@@ -1410,7 +1342,6 @@
 	father=10010225 # 
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=9
 	1230.1.1={
 		birth=yes
 	}
@@ -1427,7 +1358,6 @@
 	father=12064000 # 
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=10
 	1266.1.1={
 		birth=yes
 	}
@@ -1435,8 +1365,10 @@
 		give_nickname="nick_kamitsukeno_no_suke"
 	}
 	1338.10.5={
-		trait="ill"
 		death=yes
+		effect = {
+			add_trait = "ill"
+		}
 	}
 }
 12064010={
@@ -1445,7 +1377,6 @@
 	father=12064005 # 
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=11
 	1290.1.1={
 		birth=yes
 	}
@@ -1462,7 +1393,6 @@
 	father=12064005 # 
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=11
 	1292.1.1={
 		birth=yes
 	}
@@ -1482,7 +1412,6 @@
 	father=12064010 # 
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=11
 	1320.1.1={
 		birth=yes
 	}
@@ -1499,7 +1428,6 @@
 	father=12064015 # 
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=10
 	1350.1.1={
 		birth=yes
 	}
@@ -1516,7 +1444,6 @@
 	father=12064020 # 
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=11
 	1380.1.1={
 		birth=yes
 	}
@@ -1533,7 +1460,6 @@
 	father=10130571 # 
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=12
 	1210.1.1={
 		birth=yes
 	}
@@ -1547,7 +1473,6 @@
 	father=12064500 # 
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=9
 	1250.1.1={
 		birth=yes
 	}
@@ -1561,7 +1486,6 @@
 	father=12064505 # 
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=10
 	1290.1.1={
 		birth=yes
 	}
@@ -1575,7 +1499,6 @@
 	father=12064510 # 
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=10
 	1330.1.1={
 		birth=yes
 	}
@@ -1589,7 +1512,6 @@
 	father=12064515 # 
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=10
 	1365.1.1={
 		birth=yes
 	}
@@ -1603,7 +1525,6 @@
 	father=12064520 # 
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=9
 	1400.1.1={
 		birth=yes
 	}
@@ -1617,7 +1538,6 @@
 	father=12064525 # 
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=10
 	1430.1.1={
 		birth=yes
 	}
@@ -1631,7 +1551,6 @@
 	father=12211223 # Ashina Mitsumori
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=9
 	1238.1.1={
 		birth=yes
 	}
@@ -1648,7 +1567,6 @@
 	father=12211223 # Ashina Mitsumori
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=9
 	1245.1.1={
 		birth=yes
 	}
@@ -1665,7 +1583,6 @@
 	father=12211223 # Ashina Mitsumori
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=11
 	1250.1.1={
 		birth=yes
 	}
@@ -1682,7 +1599,6 @@
 	father=12070001 # Asahina Yasumori
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=10
 	1270.1.1={
 		birth=yes
 	}
@@ -1705,7 +1621,6 @@
 	father=12070001 # Asahina Yasumori
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=11
 	1275.1.1={
 		birth=yes
 	}
@@ -1722,7 +1637,6 @@
 	father=12070001 # Asahina Yasumori
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=10
 	1280.1.1={
 		birth=yes
 	}
@@ -1736,7 +1650,6 @@
 	father=12070005 # Asahina Morimune
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=11
 	1296.1.1={
 		birth=yes
 	}
@@ -1750,7 +1663,6 @@
 	father=12070010 # Asahina Morikazu
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=11
 	1316.1.1={
 		birth=yes
 	}
@@ -1764,7 +1676,6 @@
 	father=12070010 # Asahina Morikazu
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=11
 	1323.1.1={
 		birth=yes
 	}
@@ -1778,7 +1689,6 @@
 	father=12070016 # Ashina Naomori
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=10
 	1345.1.1={
 		birth=yes
 	}
@@ -1792,7 +1702,6 @@
 	father=12070016 # Ashina Naomori
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=10
 	1347.1.1={
 		birth=yes
 	}
@@ -1806,7 +1715,6 @@
 	father=12070016 # Ashina Naomori
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=11
 	1346.1.1={
 		birth=yes
 	}
@@ -1820,7 +1728,6 @@
 	father=12070020 # Ashina Akimori
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=10
 	1386.1.1={
 		birth=yes
 	}
@@ -1834,7 +1741,6 @@
 	father=12070020 # Ashina Akimori
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=11
 	1390.1.1={
 		birth=yes
 	}
@@ -1849,7 +1755,6 @@
 	father=12070020 # Ashina Akimori
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=9
 	1365.1.1={
 		birth=yes
 	}
@@ -1863,7 +1768,6 @@
 	father=12070025 # Ashina Morimasa
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=10
 	1405.1.1={
 		birth=yes
 	}
@@ -1877,7 +1781,6 @@
 	father=12070025 # Ashina Morimasa
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=9
 	1408.1.1={
 		birth=yes
 	}
@@ -1890,7 +1793,6 @@
 	dynasty=10000084 # Kanagami
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=10
 	1233.1.1={
 		birth=yes
 	}
@@ -1904,7 +1806,6 @@
 	father=12070500 # Kanagami Morihiro
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=11
 	1252.1.1={
 		birth=yes
 	}
@@ -1918,7 +1819,6 @@
 	father=12070501 # Kanagami Morihito
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=9
 	1271.1.1={
 		birth=yes
 	}
@@ -1932,7 +1832,6 @@
 	father=12070501 # Kanagami Morihito
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=9
 	1290.1.1={
 		birth=yes
 	}
@@ -1946,7 +1845,6 @@
 	father=12070502 # Kanagami Masashige
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=10
 	1309.1.1={
 		birth=yes
 	}
@@ -1960,7 +1858,6 @@
 	father=12070504 # Kanagami Kunimura
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=10
 	1328.1.1={
 		birth=yes
 	}
@@ -1971,10 +1868,9 @@
 12071000={
 	name = character_name_12071000 # Tokitsuna
 	dynasty = 10006120	#Isa
-	religion="shinto"
+	religion = "shinto"
 	culture = "eastern_kanto"
 	father =12121002	#Isa Tameshige
-	prowess=10
 	1182.1.1 = {
 		birth=yes
 	}
@@ -1988,10 +1884,9 @@
 12071001={
 	name = character_name_12071001 # Yoshihiro
 	dynasty = 10006120	#Isa
-	religion="shinto"
+	religion = "shinto"
 	culture = "eastern_kanto"
 	father =12121002	#Isa Tameshige
-	prowess=9
 	1185.1.1 = {
 		birth=yes
 	}
@@ -1999,7 +1894,9 @@
 		dynasty =10000010	#Date Clan
 	}
 	1225.1.1 = {
-		trait="jugoi_ge"
+		effect = {
+			add_trait = "jugoi_ge"
+		}
 	}
 	1256.10.12 = {
 		death=yes
@@ -2008,15 +1905,16 @@
 12071005={
 	name = character_name_12071005 # Masayori
 	dynasty = 10000010	#Date
-	religion="shinto"
+	religion = "shinto"
 	culture = "eastern_kanto"
 	father =12071001	#Isa Yoshihiro
-	prowess=10
 	1227.1.1 = {
 		birth=yes
 	}
 	1267.1.1 = {
-		trait="jugoi_ge"
+		effect = {
+			add_trait = "jugoi_ge"
+		}
 	}
 	1301.8.13 = {
 		death=yes
@@ -2028,7 +1926,6 @@
 	father=12071001 # Date Yoshihiro
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=12
 	1210.1.1={
 		birth=yes
 	}
@@ -2042,7 +1939,6 @@
 	father=12071005 # Date Masayori
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=10
 	1254.1.1={
 		birth=yes
 	}
@@ -2056,7 +1952,6 @@
 	father=12071010 # Date Masayori
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=11
 	1280.1.1={
 		birth=yes
 	}
@@ -2070,7 +1965,6 @@
 	father=12071010 # Date Masayori
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=11
 	1290.1.1={
 		birth=yes
 	}
@@ -2084,7 +1978,6 @@
 	father=12071015 # Date Masayori
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=11
 	1291.1.1={
 		birth=yes
 	}
@@ -2098,7 +1991,6 @@
 	father=12071020 # Date Masayori
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=10
 	1324.1.1={
 		birth=yes
 	}
@@ -2112,7 +2004,6 @@
 	father=12071025 # Date Masayori
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=10
 	1353.1.1={
 		birth=yes
 	}
@@ -2126,7 +2017,6 @@
 	father=12071025 # Date Masayori
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=10
 	1355.1.1={
 		birth=yes
 	}
@@ -2141,7 +2031,6 @@
 	father=12071025 # Date Masayori
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=10
 	1344.1.1={
 		birth=yes
 	}
@@ -2155,7 +2044,6 @@
 	father=12071030 # Date Masayori
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=10
 	1371.1.1={
 		birth=yes
 	}
@@ -2169,7 +2057,6 @@
 	father=12071033 # Date Masayori
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=10
 	1393.1.1={
 		birth=yes
 	}
@@ -2186,12 +2073,17 @@
 	religion="shinto"
 	culture="southern_oshu"
 	father=12071035 # Date Mochimune
-	prowess=11
 	1435.1.1={
 		birth=yes
 	}
 	1450.1.1={
 		add_spouse=10001017
+	}
+	1469.2.19={
+		give_nickname="nick_the_hyobu_no_sho"
+		effect = {
+			add_trait = "jushii_jo"
+		}
 	}
 	1487.10.11={
 		death=yes
@@ -2203,7 +2095,6 @@
 	father=12071035 # Date Mochimune
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=11
 	1440.1.1={
 		birth=yes
 	}
@@ -2221,7 +2112,6 @@
 	culture="southern_oshu"
 	father=12071040 # Date Narimune
 	mother=10001017
-	prowess=12
 	1453.1.1={
 		birth=yes
 	}
@@ -2229,8 +2119,10 @@
 		add_spouse=10001015
 	}
 	1487.10.11={
-		effect={
-			set_realm_capital=title:c_shgnt_idate
+		give_nickname="nick_the_daizen_daihu"
+		effect = {
+			set_realm_capital = title:c_shgnt_idate
+			add_trait = "jugoi_ge"
 		}
 	}
 	1514.5.28={
@@ -2243,7 +2135,6 @@
 	father=12071041 # Koyanagawa Narimune
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=11
 	1467.1.1={
 		birth=yes
 	}
@@ -2257,15 +2148,16 @@
 	father=12071041 # Koyanagawa Narimune
 	religion="shinto"
 	culture="southern_oshu"
-	martial=5
-	diplomacy=6
-	intrigue=6
-	stewardship=7
-	learning=6
+	martial=11
+	diplomacy=10
+	intrigue=11
+	stewardship=9
+	learning=5
+	health=9
 	trait="education_martial_2"
 	trait="strategist"
 	trait="brave"
-	prowess=14
+	prowess=19
 	1469.1.1={
 		birth=yes
 	}
@@ -2279,7 +2171,6 @@
 	father=12071200 # Koyanagawa Chikatomo
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=10
 	1497.1.1={
 		birth=yes
 	}
@@ -2293,10 +2184,10 @@
 	father=12071201 # Koyanagawa Munetomo
 	religion="shinto"
 	culture="southern_oshu"
-	martial=4
-	diplomacy=5
-	intrigue=7
-	prowess=12
+	martial=10
+	diplomacy=10
+	intrigue=9
+	prowess=14
 	1510.1.1={
 		birth=yes
 	}
@@ -2310,7 +2201,6 @@
 	father=12071202 # Koyanagawa Chikamune
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=11
 	1523.1.1={
 		birth=yes
 	}
@@ -2324,7 +2214,6 @@
 	father=12071204 # Koyanagawa Morimune
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=11
 	1545.1.1={
 		birth=yes
 	}
@@ -2338,7 +2227,6 @@
 	father=12071031 # Oeda Masayori
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=11
 	1380.1.1={
 		birth=yes
 	}
@@ -2352,7 +2240,6 @@
 	father=12071220 # Oeda Munekage
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=11
 	1410.1.1={
 		birth=yes
 	}
@@ -2366,7 +2253,6 @@
 	father=12071221 # Oeda Munemoto
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=12
 	1435.1.1={
 		birth=yes
 	}
@@ -2380,7 +2266,6 @@
 	father=12071222 # Oeda Munesumi
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=10
 	1465.1.1={
 		birth=yes
 	}
@@ -2394,7 +2279,6 @@
 	father=12071006 # Kori Masayori
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=11
 	1245.1.1={
 		birth=yes
 	}
@@ -2408,7 +2292,6 @@
 	father=12071250 # Kori Masanaga
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=10
 	1280.1.1={
 		birth=yes
 	}
@@ -2422,7 +2305,6 @@
 	father=12071251 # Kori Muneyasu
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=9
 	1315.1.1={
 		birth=yes
 	}
@@ -2436,7 +2318,6 @@
 	father=12071252 # Kori Yasunaga
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=10
 	1345.1.1={
 		birth=yes
 	}
@@ -2450,7 +2331,6 @@
 	father=12071253 # Kori Yorinaga
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=12
 	1380.1.1={
 		birth=yes
 	}
@@ -2464,7 +2344,6 @@
 	father=12071254 # Kori Kuninaga
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=10
 	1410.1.1={
 		birth=yes
 	}
@@ -2478,7 +2357,6 @@
 	father=12071255 # Kori Munehide
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=10
 	1445.1.1={
 		birth=yes
 	}
@@ -2492,7 +2370,6 @@
 	father=12071256 # Kori Muneyasu
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=9
 	1475.1.1={
 		birth=yes
 	}
@@ -2506,7 +2383,6 @@
 	father=12071016 # Senoue Yukitsuna
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=11
 	1315.1.1={
 		birth=yes
 	}
@@ -2520,7 +2396,6 @@
 	father=12071300 # Senoue Yukiyasu
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=11
 	1339.1.1={
 		birth=yes
 	}
@@ -2534,7 +2409,6 @@
 	father=12071301 # Senoue Muneyasu
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=11
 	1363.1.1={
 		birth=yes
 	}
@@ -2548,7 +2422,6 @@
 	father=12071302 # Senoue Yasukiyo
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=11
 	1387.1.1={
 		birth=yes
 	}
@@ -2562,7 +2435,6 @@
 	father=12071303 # Senoue Munekiyo
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=11
 	1410.1.1={
 		birth=yes
 	}
@@ -2576,7 +2448,6 @@
 	father=12071304 # Senoue Yasutoshi
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=11
 	1434.1.1={
 		birth=yes
 	}
@@ -2590,7 +2461,6 @@
 	father=12071305 # Senoue Yasuie
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=10
 	1458.1.1={
 		birth=yes
 	}
@@ -2604,7 +2474,6 @@
 	father=12071306 # Senoue Yasuhide
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=10
 	1481.1.1={
 		birth=yes
 	}
@@ -2618,7 +2487,6 @@
 	father=12071308 # Senoue Muneyasu
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=11
 	1505.1.1={
 		birth=yes
 	}
@@ -2632,7 +2500,6 @@
 	father=12071309 # Senoue Nobuyasu
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=11
 	1529.1.1={
 		birth=yes
 	}
@@ -2646,7 +2513,6 @@
 	father=12071310 # Senoue Sadayasu
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=12
 	1553.1.1={
 		birth=yes
 	}
@@ -2657,10 +2523,9 @@
 12071400={
 	name = character_name_12071400 # Tamemasa
 	dynasty = 10000010	#Date
-	religion="shinto"
+	religion = "shinto"
 	culture = "eastern_kanto"
 	father =12121004	#Isa Tameie
-	prowess=10
 	1190.1.1 = {
 		birth=yes
 	}
@@ -2671,10 +2536,9 @@
 12071401={
 	name = character_name_12071401 # Tsuneie
 	dynasty = 10000010	#Date
-	religion="shinto"
+	religion = "shinto"
 	culture = "eastern_kanto"
 	father =12121004	#Isa Tameie
-	prowess=10
 	1193.1.1 = {
 		birth=yes
 	}
@@ -2685,10 +2549,9 @@
 12071402={
 	name = character_name_12071402 # Tsunekata
 	dynasty = 10000010	#Date
-	religion="shinto"
+	religion = "shinto"
 	culture = "eastern_kanto"
 	father =12121004	#Isa Tameie
-	prowess=11
 	1195.1.1 = {
 		birth=yes
 	}
@@ -2699,10 +2562,9 @@
 12071403={
 	name = character_name_12071403 # Tsunemitsu
 	dynasty = 10000010	#Date
-	religion="shinto"
+	religion = "shinto"
 	culture = "eastern_kanto"
 	father =12121004	#Isa Tameie
-	prowess=12
 	1198.1.1 = {
 		birth=yes
 	}
@@ -2713,11 +2575,10 @@
 12071404={
 	name = character_name_12071404 # Myoen
 	dynasty = 10000010	#Date
-	religion="shinto"
+	religion = "shinto"
 	culture = "eastern_kanto"
 	father=12121004 # Isa Tameie
 	trait="devoted"
-	prowess=12
 	1200.1.1 = {
 		birth=yes
 	}
@@ -2728,10 +2589,9 @@
 12071405={
 	name = character_name_12071405 # Shichiro
 	dynasty = 10000010	#Date
-	religion="shinto"
+	religion = "shinto"
 	culture = "eastern_kanto"
 	father =12121004	#Isa Tameie
-	prowess=11
 	1201.1.1 = {
 		birth=yes
 	}
@@ -2742,10 +2602,9 @@
 12071406={
 	name = character_name_12071406 # Tokiie
 	dynasty = 10000010	#Date
-	religion="shinto"
+	religion = "shinto"
 	culture = "eastern_kanto"
 	father =12121004	#Isa Tameie
-	prowess=11
 	1203.1.1 = {
 		birth=yes
 	}
@@ -2756,11 +2615,10 @@
 12071407={
 	name = character_name_12071407 # Tameko
 	dynasty = 10000010	#Date
-	religion="shinto"
+	religion = "shinto"
 	culture = "eastern_kanto"
 	female = yes
 	father =12071400	#Date Tamemasa
-	prowess=9
 	1210.1.1 = {
 		birth=yes
 	}
@@ -2771,10 +2629,9 @@
 12071410={
 	name = character_name_12071410 # Tsunetomo
 	dynasty = 10000010	#Date
-	religion="shinto"
+	religion = "shinto"
 	culture = "eastern_kanto"
 	father =12071401	#Date Tsuneie
-	prowess=11
 	1213.1.1 = {
 		birth=yes
 	}
@@ -2785,10 +2642,9 @@
 12071411={
 	name = character_name_12071411 # Iemitsu
 	dynasty = 10000010	#Date
-	religion="shinto"
+	religion = "shinto"
 	culture = "eastern_kanto"
 	father =12071401	#Date Tsuneie
-	prowess=10
 	1215.1.1 = {
 		birth=yes
 	}
@@ -2799,10 +2655,9 @@
 12071412={
 	name = character_name_12071412 # Tsunemasa
 	dynasty = 10000010	#Date
-	religion="shinto"
+	religion = "shinto"
 	culture = "eastern_kanto"
 	father =12071401	#Date Tsuneie
-	prowess=10
 	1216.1.1 = {
 		birth=yes
 	}
@@ -2813,10 +2668,9 @@
 12071413={
 	name = character_name_12071413 # Tsunemitsu
 	dynasty = 10000010	#Date
-	religion="shinto"
+	religion = "shinto"
 	culture = "eastern_kanto"
 	father =12071401	#Date Tsuneie
-	prowess=10
 	1219.1.1 = {
 		birth=yes
 	}
@@ -2827,10 +2681,9 @@
 12071414={
 	name = character_name_12071414 # Ietoki
 	dynasty = 10000010	#Date
-	religion="shinto"
+	religion = "shinto"
 	culture = "eastern_kanto"
 	father =12071401	#Date Tsuneie
-	prowess=10
 	1220.1.1 = {
 		birth=yes
 	}
@@ -2841,10 +2694,9 @@
 12071415={
 	name = character_name_12071415 # Tadatsugu
 	dynasty = 10000010	#Date
-	religion="shinto"
+	religion = "shinto"
 	culture = "eastern_kanto"
 	father =12071410	#Date Tsunetomo
-	prowess=10
 	1243.1.1 = {
 		birth=yes
 	}
@@ -2855,10 +2707,9 @@
 12071416={
 	name = character_name_12071416 # Munenaga
 	dynasty = 10006123	#Ishida
-	religion="shinto"
+	religion = "shinto"
 	culture = "eastern_kanto"
 	father =12071410	#Date Tsunetomo
-	prowess=10
 	1245.1.1 = {
 		birth=yes
 	}
@@ -2869,10 +2720,9 @@
 12071420={
 	name = character_name_12071420 # Tadatsune
 	dynasty = 10000010	#Date
-	religion="shinto"
+	religion = "shinto"
 	culture = "eastern_kanto"
 	father =12071412	#Date Tsunemasa
-	prowess=11
 	1236.1.1 = {
 		birth=yes
 	}
@@ -2883,10 +2733,9 @@
 12071421={
 	name = character_name_12071421 # Munenori
 	dynasty = 10000010	#Date
-	religion="shinto"
+	religion = "shinto"
 	culture = "eastern_kanto"
 	father =12071412	#Date Tsunemasa
-	prowess=11
 	1237.1.1 = {
 		birth=yes
 	}
@@ -2897,10 +2746,9 @@
 12071422={
 	name = character_name_12071422 # Yukitsune
 	dynasty = 10000010	#Date
-	religion="shinto"
+	religion = "shinto"
 	culture = "eastern_kanto"
 	father =12071412	#Date Tsunemasa
-	prowess=11
 	1239.1.1 = {
 		birth=yes
 	}
@@ -2911,10 +2759,9 @@
 12071423={
 	name = character_name_12071423 # Yasutsune
 	dynasty = 10000010	#Date
-	religion="shinto"
+	religion = "shinto"
 	culture = "eastern_kanto"
 	father =12071412	#Date Tsunemasa
-	prowess=11
 	1242.1.1 = {
 		birth=yes
 	}
@@ -2925,10 +2772,9 @@
 12071424={
 	name = character_name_12071424 # Tsunesada
 	dynasty = 10000010	#Date
-	religion="shinto"
+	religion = "shinto"
 	culture = "eastern_kanto"
 	father =12071420	#Date Tadatsune
-	prowess=11
 	1266.1.1 = {
 		birth=yes
 	}
@@ -2939,10 +2785,9 @@
 12071425={
 	name = character_name_12071425 # Tsunemori
 	dynasty = 10006124	#Yabe
-	religion="shinto"
+	religion = "shinto"
 	culture = "eastern_kanto"
 	father =12071420	#Date Tadatsune
-	prowess=12
 	1267.1.1 = {
 		birth=yes
 	}
@@ -2953,10 +2798,9 @@
 12071450={
 	name = character_name_12071450 # Tametoki
 	dynasty = 10006121	#Tsukame
-	religion="shinto"
+	religion = "shinto"
 	culture = "eastern_kanto"
 	mother=12121013	#Date Tameko
-	prowess=11
 	1230.1.1 = {
 		birth=yes
 	}
@@ -2967,10 +2811,9 @@
 12071451={
 	name = character_name_12071451 # Iemasa
 	dynasty = 10006121	#Tsukame
-	religion="shinto"
+	religion = "shinto"
 	culture = "eastern_kanto"
 	father =12071450	#Tsukame Tametoki
-	prowess=9
 	1260.1.1 = {
 		birth=yes
 	}
@@ -2981,10 +2824,9 @@
 12071452={
 	name = character_name_12071452 # Ietsuna
 	dynasty = 10006121	#Tsukame
-	religion="shinto"
+	religion = "shinto"
 	culture = "eastern_kanto"
 	father =12071450	#Tsukame Tametoki
-	prowess=11
 	1265.1.1 = {
 		birth=yes
 	}
@@ -2995,10 +2837,9 @@
 12071453={
 	name = character_name_12071453 # Ienobu
 	dynasty = 10006121	#Tsukame
-	religion="shinto"
+	religion = "shinto"
 	culture = "eastern_kanto"
 	father =12071452	#Tsukame Ietsuna
-	prowess=12
 	1285.1.1 = {
 		birth=yes
 	}
@@ -3009,10 +2850,9 @@
 12071454={
 	name = character_name_12071454 # Masanobu
 	dynasty = 10006122	#Izaka
-	religion="shinto"
+	religion = "shinto"
 	culture = "eastern_kanto"
 	father =12071452	#Tsukame Ietsuna
-	prowess=11
 	1286.1.1 = {
 		birth=yes
 	}
@@ -3023,10 +2863,9 @@
 12071500={
 	name = character_name_12071500 # Sukemitsu
 	dynasty = 10006127	#Iida
-	religion="shinto"
+	religion = "shinto"
 	culture = "eastern_kanto"
 	father = 12121003 # Isa Suketsuna
-	prowess=10
 	1195.1.1 = {
 		birth=yes
 	}
@@ -3040,7 +2879,6 @@
 	father=11005860 # Fujiwara Kanenaka
 	religion="shinto"
 	culture="aristocrats"
-	prowess=10
 	1080.1.1={
 		birth=yes
 	}
@@ -3055,7 +2893,6 @@
 	religion="shinto"
 	culture="aristocrats"
 	trait="education_diplomacy_3"
-	prowess=10
 	1140.1.1={
 		birth=yes
 	}
@@ -3078,7 +2915,6 @@
 	father=12080005 # Isawa Iekage
 	religion="shinto"
 	culture="aristocrats"
-	prowess=11
 	1180.1.1={
 		birth=yes
 	}
@@ -3095,7 +2931,6 @@
 	father=12080010 # Rusu Iemoto
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=11
 	1200.1.1={
 		birth=yes
 	}
@@ -3109,7 +2944,6 @@
 	father=12080015 # Rusu Iehiro
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=11
 	1220.1.1={
 		birth=yes
 	}
@@ -3123,7 +2957,6 @@
 	father=12080020 # Rusu Tsuneie
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=10
 	1240.1.1={
 		birth=yes
 	}
@@ -3137,7 +2970,6 @@
 	father=12080025 # Rusu Ienobu
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=12
 	1260.1.1={
 		birth=yes
 	}
@@ -3151,7 +2983,6 @@
 	father=12080030 # Rusu Iesuke
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=11
 	1280.1.1={
 		birth=yes
 	}
@@ -3165,7 +2996,6 @@
 	father=12080035 # Rusu Ietaka
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=12
 	1300.1.1={
 		birth=yes
 	}
@@ -3179,7 +3009,6 @@
 	father=12080040 # Rusu Iefuyu
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=10
 	1320.1.1={
 		birth=yes
 	}
@@ -3193,7 +3022,6 @@
 	father=12080045 # Rusu Ieto
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=11
 	1340.1.1={
 		birth=yes
 	}
@@ -3207,7 +3035,6 @@
 	father=12080050 # Rusu Iemasa
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=9
 	1360.1.1={
 		birth=yes
 	}
@@ -3221,7 +3048,6 @@
 	father=12080055 # Rusu Ieaki
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=12
 	1380.1.1={
 		birth=yes
 	}
@@ -3235,7 +3061,6 @@
 	father=12080055 # Rusu Ieaki
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=9
 	1390.1.1={
 		birth=yes
 	}
@@ -3249,7 +3074,6 @@
 	father=12131006 # Ujiie Kimitsugu
 	religion="shinto"
 	culture="northern_kanto"
-	prowess=11
 	1270.1.1={
 		birth=yes
 	}
@@ -3263,7 +3087,6 @@
 	father=12081000 # Ujiie Munetsugu
 	religion="shinto"
 	culture="northern_kanto"
-	prowess=12
 	1300.1.1={
 		birth=yes
 	}
@@ -3277,7 +3100,6 @@
 	father=12081001 # Ujiie Sadatsugu
 	religion="shinto"
 	culture="northern_kanto"
-	prowess=11
 	1325.1.1={
 		birth=yes
 	}
@@ -3291,7 +3113,6 @@
 	father=12081005 # Ujiie Akitsugu
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=12
 	1350.1.1={
 		birth=yes
 	}
@@ -3305,7 +3126,6 @@
 	father=12081010 # Ujiie Naotsugu
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=10
 	1375.1.1={
 		birth=yes
 	}
@@ -3319,7 +3139,6 @@
 	father=12081015 # Ujiie Naotaka
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=10
 	1400.1.1={
 		birth=yes
 	}
@@ -3333,7 +3152,6 @@
 	father=12081015 # Ujiie Naotaka
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=11
 	1402.1.1={
 		birth=yes
 	}
@@ -3347,7 +3165,6 @@
 	father=12081020 # Ujiie Takatsugu
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=12
 	1425.1.1={
 		birth=yes
 	}
@@ -3361,7 +3178,6 @@
 	father=12081020 # Ujiie Takatsugu
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=10
 	1427.1.1={
 		birth=yes
 	}
@@ -3375,7 +3191,6 @@
 	father=12081020 # Ujiie Takatsugu
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=11
 	1429.1.1={
 		birth=yes
 	}
@@ -3389,7 +3204,6 @@
 	father=12081026 # Ujiie Takatoki
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=10
 	1450.1.1={
 		birth=yes
 	}
@@ -3403,7 +3217,6 @@
 	father=12081026 # Ujiie Takatoki
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=11
 	1452.1.1={
 		birth=yes
 	}
@@ -3417,7 +3230,6 @@
 	father=12081026 # Ujiie Takatoki
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=10
 	1454.1.1={
 		birth=yes
 	}
@@ -3431,7 +3243,6 @@
 	father=12081026 # Ujiie Takatoki
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=11
 	1456.1.1={
 		birth=yes
 	}
@@ -3445,7 +3256,6 @@
 	father=12081030 # Ujiie Naotoshi
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=11
 	1480.1.1={
 		birth=yes
 	}
@@ -3459,7 +3269,6 @@
 	father=12081030 # Ujiie Naotoshi
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=10
 	1482.1.1={
 		birth=yes
 	}
@@ -3473,7 +3282,6 @@
 	father=12081030 # Ujiie Naotoshi
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=10
 	1482.1.1={
 		birth=yes
 	}
@@ -3487,9 +3295,8 @@
 	father=12081035 # Ujiie Naomasu
 	religion="shinto"
 	culture="southern_oshu"
-	diplomacy=4
+	diplomacy=8
 	trait="education_diplomacy_3"
-	prowess=10
 	1510.1.1={
 		birth=yes
 	}
@@ -3503,7 +3310,6 @@
 	father=12081035 # Ujiie Naomasu
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=12
 	1512.1.1={
 		birth=yes
 	}
@@ -3517,7 +3323,6 @@
 	father=12081035 # Ujiie Naomasu
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=10
 	1514.1.1={
 		birth=yes
 	}
@@ -3531,7 +3336,6 @@
 	father=12081035 # Ujiie Naomasu
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=12
 	1516.1.1={
 		birth=yes
 	}
@@ -3545,7 +3349,6 @@
 	father=12081035 # Ujiie Naomasu
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=12
 	1518.1.1={
 		birth=yes
 	}
@@ -3559,9 +3362,8 @@
 	father=12081040 # Ujiie Takatsugu
 	religion="shinto"
 	culture="southern_oshu"
-	diplomacy=5
+	diplomacy=8
 	trait="education_diplomacy_3"
-	prowess=12
 	1530.1.1={
 		birth=yes
 	}
@@ -3576,7 +3378,6 @@
 	father=12081050 # Ujiie Yoshitsugu
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=10
 	1560.1.1={
 		birth=yes
 	}
@@ -3590,7 +3391,6 @@
 	father=12081041 # Ujiie Naoaki
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=10
 	1532.1.1={
 		birth=yes
 	}
@@ -3604,7 +3404,6 @@
 	father=12081060 # Ujiie Naotoki
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=10
 	1562.1.1={
 		birth=yes
 	}
@@ -3618,7 +3417,6 @@
 	father=12030001 # Fujiwara Tsunemoto
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=11
 	1080.1.1={
 		birth=yes
 	}
@@ -3632,7 +3430,6 @@
 	father=12082000 # Katta Motokane
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=9
 	1106.1.1={
 		birth=yes
 	}
@@ -3646,7 +3443,6 @@
 	father=12082001 # Katta Mototsugu
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=11
 	1128.1.1={
 		birth=yes
 	}
@@ -3660,7 +3456,6 @@
 	father=12082005 # Katta Hidetsugu
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=12
 	1159.1.1={
 		birth=yes
 	}
@@ -3674,7 +3469,6 @@
 	father=12082005 # Katta Hidetsugu
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=9
 	1175.1.1={
 		birth=yes
 	}
@@ -3688,7 +3482,6 @@
 	father=12082011 # Katta Hidenaga
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=9
 	1203.1.1={
 		birth=yes
 	}
@@ -3702,7 +3495,6 @@
 	father=12082015 # Katta Nagamasa
 	religion="shinto"
 	culture="southern_oshu"
-	prowess=9
 	1231.1.1={
 		birth=yes
 	}

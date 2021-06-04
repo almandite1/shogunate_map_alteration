@@ -5,7 +5,6 @@
 	father=10120111 # Minamoto (Takeda) Nobuyoshi
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1150.1.1={
 		birth=yes
 	}
@@ -27,7 +26,6 @@
 	father=10120111 # Minamoto (Takeda) Nobuyoshi
 	religion="shinto"
 	culture="koshin"
-	prowess=9
 	1154.1.1={
 		birth=yes
 	}
@@ -46,7 +44,6 @@
 	father=10120111 # Minamoto (Takeda) Nobuyoshi
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1158.1.1={
 		birth=yes
 	}
@@ -61,17 +58,17 @@
 	father=10120111 # Minamoto (Takeda) Nobuyoshi
 	religion="shinto"
 	culture="koshin"
+	martial=9
+	health=8
 	trait="education_martial_3"
 	trait="intellect_good_2"
-	trait="strong"
-	prowess=14
+	trait="sharpshooter"
+	prowess=19
 	1162.1.1={
 		birth=yes
 	}
 	1186.1.1={
 		add_spouse=12185007 # Nitta Shigeko
-	}
-	1186.3.31={
 	}
 	1248.12.21={
 		death=yes
@@ -84,7 +81,6 @@
 	father=12360103 # Takeda Nobumitsu
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1182.1.1={
 		birth=yes
 	}
@@ -98,7 +94,6 @@
 	father=12360103 # Takeda Nobumitsu
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1185.1.1={
 		birth=yes
 	}
@@ -113,11 +108,8 @@
 	mother=12185007 # Nitta Shigeko
 	religion="shinto"
 	culture="koshin"
-	prowess=9
 	1196.1.1={
 		birth=yes
-	}
-	1248.12.21={
 	}
 	1265.1.6={
 		death=yes
@@ -130,7 +122,7 @@
 	mother=12185007 # Nitta Shigeko
 	religion="shinto"
 	culture="koshin"
-	prowess=12
+	trait="sharpshooter"
 	1198.1.1={
 		birth=yes
 	}
@@ -146,7 +138,6 @@
 	father=12360103 # Takeda Nobumitsu
 	religion="shinto"
 	culture="koshin"
-	prowess=12
 	1179.1.1={
 		birth=yes
 	}
@@ -161,12 +152,9 @@
 	father=12360112 # Takeda Nobumasa
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1220.6.19={
 		birth=yes
 	}
-#	1265.1.6={
-#	}
 	1289.3.2={
 		death=yes
 	}
@@ -177,7 +165,6 @@
 	father=12360112 # Takeda Nobumasa
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1223.1.1={
 		birth=yes
 	}
@@ -191,7 +178,6 @@
 	father=12360112 # Takeda Nobumasa
 	religion="shinto"
 	culture="koshin"
-	prowess=9
 	1225.1.1={
 		birth=yes
 	}
@@ -205,7 +191,6 @@
 	father=12360112 # Takeda Nobumasa
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1229.1.1={
 		birth=yes
 	}
@@ -219,7 +204,6 @@
 	father=12360112 # Takeda Nobumasa
 	religion="shinto"
 	culture="koshin"
-	prowess=9
 	1234.1.1={
 		birth=yes
 	}
@@ -233,7 +217,6 @@
 	father=12360120 # Takeda Nobutoki
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1238.1.1={
 		birth=yes
 	}
@@ -247,7 +230,6 @@
 	father=12360120 # Takeda Nobutoki
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1240.1.1={
 		birth=yes
 	}
@@ -261,12 +243,9 @@
 	father=12360120 # Takeda Nobutoki
 	religion="shinto"
 	culture="koshin"
-	prowess=12
 	1245.2.1={
 		birth=yes
 	}
-#	1289.3.2={
-#	}
 	1307.8.1={
 		death=yes
 	}
@@ -277,7 +256,6 @@
 	father=12360120 # Takeda Nobutoki
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1250.1.1={
 		birth=yes
 	}
@@ -291,7 +269,6 @@
 	father=12360121 # Takeda Masatsuna
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1245.1.1={
 		birth=yes
 	}
@@ -305,7 +282,6 @@
 	father=12360140 # Takeda Nobuie
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1265.1.1={
 		birth=yes
 	}
@@ -319,7 +295,6 @@
 	father=12360145 # Takeda Sadanobu
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1295.1.1={
 		birth=yes
 	}
@@ -333,7 +308,6 @@
 	father=12360145 # Takeda Sadanobu
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1297.1.1={
 		birth=yes
 	}
@@ -347,12 +321,9 @@
 	father=12360132 # Takeda Tokitsuna
 	religion="shinto"
 	culture="koshin"
-	prowess=12
 	1269.8.29={
 		birth=yes
 	}
-#	1307.8.1={
-#	}
 	1309.1.1={
 		give_nickname="nick_the_izu_no_kami"
 	}
@@ -364,24 +335,22 @@
 	name=character_name_12360160 # Nobutake
 	dynasty=10000200 # Takeda
 	father=12360155 # Takeda Nobumune
-	martial=4
-	diplomacy=6
-	intrigue=5
-	stewardship=5
-	learning=5
+	martial=8
+	diplomacy=9
+	intrigue=9
+	stewardship=8
+	learning=7
 	religion="shinto"
 	culture="koshin"
 	trait="education_martial_2"
 	trait="diligent"
-	prowess=12
+	prowess=16
 	1292.1.1={
 		birth=yes
 	}
 	1312.1.1={
 		give_nickname="nick_hyogo_no_suke"
 	}
-#	1331.12.19={
-#	}
 	1332.1.1={
 		give_nickname="nick_the_kai_no_kami"
 	}
@@ -396,20 +365,18 @@
 	name=character_name_12360170 # Nobunari
 	dynasty=10000200 # Takeda
 	father=12360160
-	martial=5
-	diplomacy=6
-	intrigue=5
-	stewardship=5
-	learning=6
+	martial=8
+	diplomacy=7
+	intrigue=9
+	stewardship=8
+	learning=7
 	religion="shinto"
 	culture="koshin"
 	trait="education_diplomacy_2"
-	prowess=9
+	prowess=12
 	1319.1.1={
 		birth=yes
 	}
-#	1359.8.7={
-#	}
 	1394.7.11={
 		death=yes
 	}
@@ -419,14 +386,14 @@
 	dynasty=10000200 # Takeda
 	father=12360160
 	martial=7
-	diplomacy=6
-	intrigue=7
-	stewardship=6
-	learning=4
+	diplomacy=7
+	intrigue=9
+	stewardship=8
+	learning=7
 	religion="shinto"
 	culture="western_chugoku"
 	trait="education_stewardship_2"
-	prowess=10
+	prowess=11
 	1325.1.1={
 		birth=yes
 	}
@@ -441,7 +408,6 @@
 	father=12360160 # Takeda Nobutake
 	religion="shinto"
 	culture="koshin"
-	prowess=12
 	1330.1.1={
 		birth=yes
 	}
@@ -455,7 +421,6 @@
 	father=12360160 # Takeda Nobutake
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1332.1.1={
 		birth=yes
 	}
@@ -467,20 +432,18 @@
 	name=character_name_12360180 # Nobuharu
 	dynasty=10000200 # Takeda
 	father=12360170
-	martial=5
-	diplomacy=6
-	intrigue=7
+	martial=8
+	diplomacy=7
+	intrigue=8
 	stewardship=7
-	learning=6
+	learning=7
 	religion="shinto"
 	culture="koshin"
 	trait="education_diplomacy_1"
-	prowess=10
+	prowess=12
 	1345.1.1={
 		birth=yes
 	}
-#	1394.7.11={
-#	}
 	1413.11.16={
 		death={
 			death_reason=death_suicide
@@ -492,22 +455,20 @@
 	dynasty=10000200 # Takeda
 	father=12360180
 	martial=7
-	diplomacy=6
+	diplomacy=7
 	intrigue=7
-	stewardship=6
-	learning=7
+	stewardship=7
+	learning=8
 	religion="shinto"
 	culture="koshin"
 	trait="education_diplomacy_1"
-	prowess=12
+	prowess=11
 	1370.1.1={
 		birth=yes
 	}
 	1386.1.1={
 		add_spouse=10020106 # daughter of 20104:Oyamada Nobusumi
 	}
-#	1413.11.16={
-#	}
 	1417.2.22={
 		death=yes
 	}
@@ -518,7 +479,6 @@
 	father=12360180 # Takeda Nobuharu
 	religion="shinto"
 	culture="koshin"
-	prowess=9
 	1372.1.1={
 		birth=yes
 	}
@@ -533,7 +493,6 @@
 	father=12360180 # Takeda Nobuharu
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1360.1.1={
 		birth=yes
 	}
@@ -548,7 +507,6 @@
 	father=12360180 # Takeda Nobuharu
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1375.1.1={
 		birth=yes
 	}
@@ -561,11 +519,11 @@
 	dynasty=10000200 # Takeda
 	father=12360190
 	mother=10020106 # daughter of 20104:Oyamada Nobusumi
-	martial=5
-	diplomacy=5
+	martial=7
+	diplomacy=8
 	intrigue=7
-	stewardship=5
-	learning=5
+	stewardship=8
+	learning=8
 	religion="shinto"
 	culture="koshin"
 	trait="education_intrigue_1"
@@ -573,8 +531,6 @@
 	1386.1.1={
 		birth=yes
 	}
-#	1417.2.22={
-#	}
 	1450.12.28={
 		death={
 			death_reason=death_murder
@@ -587,7 +543,6 @@
 	father=12360190 # Takeda Nobumitsu
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1403.1.1={
 		birth=yes
 	}
@@ -600,10 +555,10 @@
 	dynasty=10000200 # Takeda
 	father=12360200
 	martial=7
-	diplomacy=5
-	intrigue=7
-	stewardship=5
-	learning=7
+	diplomacy=7
+	intrigue=8
+	stewardship=7
+	learning=6
 	religion="shinto"
 	culture="koshin"
 	trait="education_intrigue_1"
@@ -611,8 +566,6 @@
 	1402.1.1={
 		birth=yes
 	}
-#	1450.12.28={
-#	}
 	1455.6.25={
 		death=yes
 	}
@@ -621,27 +574,27 @@
 	name=character_name_12360220 # Nobumasa
 	dynasty=10000200 # Takeda
 	father=12360210
-	martial=7
+	martial=9
 	diplomacy=8
-	intrigue=7
-	stewardship=6
-	learning=7
+	intrigue=8
+	stewardship=8
+	learning=5
 	religion="shinto"
 	culture="koshin"
 	trait="education_intrigue_2"
 	trait="brave"
 	trait="arbitrary"
-	prowess=10
+	prowess=13
 	1447.1.1={
 		birth=yes
 	}
 	1455.1.1={
-		effect={
+		give_nickname="nick_the_gyobu_daihu"
+		effect = {
 			set_realm_capital=title:c_shgnt_yatsushiro
+			add_trait = "jugoi_ge"
 		}
 	}
-#	1455.1.2={
-#	}
 	1469.1.1={
 		add_concubine=10020054
 	}
@@ -656,26 +609,29 @@
 	name=character_name_12360230 # Nobutsuna
 	dynasty=10000200 # Takeda
 	father=12360220
-	martial=7
-	diplomacy=6
+	martial=8
+	diplomacy=8
 	intrigue=8
-	stewardship=7
-	learning=6
+	stewardship=8
+	learning=5
 	religion="shinto"
 	culture="koshin"
 	trait="education_martial_2"
-	prowess=14
+	prowess=16
 	1471.1.1={
 		birth=yes
 	}
+	1487.1.1={
+		give_nickname="nick_goro"
+	}
 	1492.1.1={
 		add_pressed_claim=c_shgnt_yamanashi
-		effect={
+		give_nickname="nick_the_sakyo_dayu"
+		effect = {
 			set_realm_capital=title:c_shgnt_yatsushiro
+			add_trait = "jushii_ge"
 		}
 	}
-#	1492.1.2={
-#	}
 	1507.3.27={
 		death=yes
 	}
@@ -688,8 +644,8 @@
 	culture="koshin"
 	trait="education_martial_3"
 	trait="ambitious"
-	martial=6
-	prowess=14
+	martial=7
+	prowess=17
 	1473.1.1={
 		birth=yes
 	}
@@ -706,7 +662,6 @@
 	father=12360220 # Takeda Nobumasa
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1475.1.1={
 		birth=yes
 	}
@@ -723,12 +678,13 @@
 	culture="koshin"
 	trait="education_martial_3"
 	trait="lustful"
-	prowess=13
 	1164.1.1={
 		birth=yes
 	}
 	1185.9.25={
-		trait="jugoi_ge"
+		effect = {
+			add_trait = "jugoi_ge"
+		}
 	}
 	1193.12.23={
 		death={
@@ -744,7 +700,6 @@
 	father=10120112 # Kagami Tomitsu
 	religion="shinto"
 	culture="koshin"
-	prowess=12
 	1161.1.1={
 		birth=yes
 	}
@@ -768,7 +723,7 @@
 	mother=12211500 # daughter of Sugimoto Yoshimune
 	religion="shinto"
 	culture="koshin"
-	prowess=10
+	trait="sharpshooter"
 	1162.4.20={
 		birth=yes
 	}
@@ -782,7 +737,9 @@
 		dynasty=10000214 # Ogasawara
 	}
 	1240.1.1={
-		trait="shoshii_ge"
+		effect = {
+			add_trait = "shoshii_ge"
+		}
 	}
 	1242.8.12={
 		death=yes
@@ -797,7 +754,6 @@
 	religion="shinto"
 	culture="koshin"
 	trait="education_intrigue_2"
-	prowess=11
 	1165.1.1={
 		birth=yes
 	}
@@ -816,7 +772,6 @@
 	mother=12211500 # daughter of Sugimoto Yoshimune
 	religion="shinto"
 	culture="koshin"
-	prowess=12
 	1167.1.1={
 		birth=yes
 	}
@@ -832,7 +787,6 @@
 	mother=12211500 # daughter of Sugimoto Yoshimune
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1170.1.1={
 		birth=yes
 	}
@@ -848,7 +802,6 @@
 	mother=12211500 # daughter of Sugimoto Yoshimune
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1174.1.1={
 		birth=yes
 	}
@@ -865,7 +818,6 @@
 	mother=12211500 # daughter of Sugimoto Yoshimune
 	religion="shinto"
 	culture="koshin"
-	prowess=12
 	1164.1.1={
 		birth=yes
 	}
@@ -880,7 +832,6 @@
 	father=12360501 # Ogasawara Nagakiyo
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1179.6.23={
 		birth=yes
 	}
@@ -888,7 +839,9 @@
 		dynasty=10000214 # Ogasawara
 	}
 	1240.1.1={
-		trait="jushii_jo"
+		effect = {
+			add_trait = "jushii_jo"
+		}
 	}
 	1247.12.3={
 		death=yes
@@ -900,7 +853,6 @@
 	father=12360501 # Ogasawara Nagakiyo
 	religion="shinto"
 	culture="koshin"
-	prowess=9
 	1181.1.1={
 		birth=yes
 	}
@@ -914,7 +866,6 @@
 	father=12360501 # Ogasawara Nagakiyo
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1182.1.1={
 		birth=yes
 	}
@@ -928,7 +879,6 @@
 	father=12360501 # Ogasawara Nagakiyo
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1183.1.1={
 		birth=yes
 	}
@@ -942,7 +892,6 @@
 	father=12360501 # Ogasawara Nagakiyo
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1190.1.1={
 		birth=yes
 	}
@@ -959,7 +908,6 @@
 	father=12360501 # Ogasawara Nagakiyo
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1198.1.1={
 		birth=yes
 	}
@@ -976,7 +924,6 @@
 	father=12360501 # Ogasawara Nagakiyo
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1200.1.1={
 		birth=yes
 	}
@@ -990,7 +937,6 @@
 	father=12360501 # Ogasawara Nagakiyo
 	religion="shinto"
 	culture="koshin"
-	prowess=9
 	1203.1.1={
 		birth=yes
 	}
@@ -1004,7 +950,6 @@
 	father=12360501 # Ogasawara Nagakiyo
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1204.1.1={
 		birth=yes
 	}
@@ -1018,7 +963,6 @@
 	father=12360501 # Ogasawara Nagakiyo
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1206.1.1={
 		birth=yes
 	}
@@ -1032,7 +976,6 @@
 	father=12360501 # Ogasawara Nagakiyo
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1209.1.1={
 		birth=yes
 	}
@@ -1046,7 +989,6 @@
 	father=12360501 # Ogasawara Nagakiyo
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1210.1.1={
 		birth=yes
 	}
@@ -1060,7 +1002,6 @@
 	father=12360501 # Ogasawara Nagakiyo
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1212.1.1={
 		birth=yes
 	}
@@ -1074,7 +1015,6 @@
 	father=12360501 # Ogasawara Nagakiyo
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1215.1.1={
 		birth=yes
 	}
@@ -1088,7 +1028,6 @@
 	father=12360501 # Ogasawara Nagakiyo
 	religion="shinto"
 	culture="koshin"
-	prowess=12
 	1216.1.1={
 		birth=yes
 	}
@@ -1102,7 +1041,6 @@
 	father=12360501 # Ogasawara Nagakiyo
 	religion="shinto"
 	culture="koshin"
-	prowess=9
 	1218.1.1={
 		birth=yes
 	}
@@ -1116,7 +1054,6 @@
 	father=12360501 # Ogasawara Nagakiyo
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1221.1.1={
 		birth=yes
 	}
@@ -1130,7 +1067,6 @@
 	father=12360501 # Ogasawara Nagakiyo
 	religion="shinto"
 	culture="koshin"
-	prowess=9
 	1223.1.1={
 		birth=yes
 	}
@@ -1144,7 +1080,6 @@
 	father=12360604 # Tomono Tokinaga
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1210.1.1={
 		birth=yes
 	}
@@ -1158,7 +1093,6 @@
 	father=12360604 # Tomono Tokinaga
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1212.1.1={
 		birth=yes
 	}
@@ -1173,7 +1107,6 @@
 	father=12360604 # Tomono Tokinaga
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1214.1.1={
 		birth=yes
 	}
@@ -1187,7 +1120,6 @@
 	father=12360620 # Tomono Tokinao
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1240.1.1={
 		birth=yes
 	}
@@ -1201,7 +1133,6 @@
 	father=12360620 # Tomono Tokinao
 	religion="shinto"
 	culture="koshin"
-	prowess=9
 	1242.1.1={
 		birth=yes
 	}
@@ -1215,7 +1146,6 @@
 	father=12360630 # Tomono Nagayasu
 	religion="shinto"
 	culture="koshin"
-	prowess=9
 	1260.1.1={
 		birth=yes
 	}
@@ -1229,7 +1159,6 @@
 	father=12360630 # Tomono Nagayasu
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1262.1.1={
 		birth=yes
 	}
@@ -1243,7 +1172,6 @@
 	father=12360630 # Tomono Nagayasu
 	religion="shinto"
 	culture="koshin"
-	prowess=9
 	1264.1.1={
 		birth=yes
 	}
@@ -1257,7 +1185,6 @@
 	father=12360630 # Tomono Nagayasu
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1266.1.1={
 		birth=yes
 	}
@@ -1271,7 +1198,6 @@
 	father=12360630 # Tomono Nagayasu
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1268.1.1={
 		birth=yes
 	}
@@ -1285,7 +1211,6 @@
 	father=12360643 # Tomono Yasuyuki
 	religion="shinto"
 	culture="tokai"
-	prowess=9
 	1300.1.1={
 		birth=yes
 	}
@@ -1300,7 +1225,6 @@
 	father=12360630
 	religion="shinto"
 	culture="tokai"
-	prowess=11
 	1256.1.1={
 		birth=yes
 	}
@@ -1314,8 +1238,8 @@
 	father=12360600 # Ogasawara Nagatsune
 	religion="shinto"
 	culture="shikoku"
-	martial=6
-	prowess=9
+	martial=11
+	prowess=21
 	1213.1.1={
 		birth=yes
 	}
@@ -1329,12 +1253,13 @@
 	father=12360600 # Ogasawara Nagatsune
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1202.5.19={
 		birth=yes
 	}
 	1260.1.1={
-		trait="jushii_ge"
+		effect = {
+			add_trait = "jushii_ge"
+		}
 	}
 	1264.11.23={
 		death=yes
@@ -1346,7 +1271,6 @@
 	father=12360600 # Ogasawara Nagatsune
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1204.1.1={
 		birth=yes
 	}
@@ -1360,7 +1284,6 @@
 	father=12360600 # Ogasawara Nagatsune
 	religion="shinto"
 	culture="koshin"
-	prowess=9
 	1206.1.1={
 		birth=yes
 	}
@@ -1374,7 +1297,6 @@
 	father=12360600 # Ogasawara Nagatsune
 	religion="shinto"
 	culture="koshin"
-	prowess=9
 	1209.1.1={
 		birth=yes
 	}
@@ -1388,7 +1310,6 @@
 	father=12360600 # Ogasawara Nagatsune
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1211.1.1={
 		birth=yes
 	}
@@ -1402,7 +1323,6 @@
 	father=12360600 # Ogasawara Nagatsune
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1212.1.1={
 		birth=yes
 	}
@@ -1417,7 +1337,6 @@
 	religion="shinto"
 	culture="koshin"
 	trait="devoted"
-	prowess=12
 	1214.1.1={
 		birth=yes
 	}
@@ -1431,7 +1350,6 @@
 	father=12360600 # Ogasawara Nagatsune
 	religion="shinto"
 	culture="koshin"
-	prowess=9
 	1216.1.1={
 		birth=yes
 	}
@@ -1445,7 +1363,6 @@
 	father=12360600 # Ogasawara Nagatsune
 	religion="shinto"
 	culture="koshin"
-	prowess=9
 	1217.1.1={
 		birth=yes
 	}
@@ -1459,12 +1376,13 @@
 	father=12360681 # Ogasawara Nagatada
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1222.1.1={
 		birth=yes
 	}
 	1290.1.1={
-		trait="jushii_ge"
+		effect = {
+			add_trait = "jushii_ge"
+		}
 	}
 	1294.8.26={
 		death=yes
@@ -1476,7 +1394,6 @@
 	father=12360681 # Ogasawara Nagatada
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1223.1.1={
 		birth=yes
 	}
@@ -1490,7 +1407,6 @@
 	father=12360681 # Ogasawara Nagatada
 	religion="shinto"
 	culture="koshin"
-	prowess=9
 	1224.1.1={
 		birth=yes
 	}
@@ -1505,7 +1421,6 @@
 	religion="shinto"
 	culture="koshin"
 	trait="devoted"
-	prowess=11
 	1222.1.1={
 		birth=yes
 	}
@@ -1519,7 +1434,6 @@
 	father=12360690 # Ogasawara Nagamasa
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1246.1.1={
 		birth=yes
 	}
@@ -1527,7 +1441,9 @@
 		add_spouse=12360646 # Tomono Nagako
 	}
 	1305.1.1={
-		trait="jushii_ge"
+		effect = {
+			add_trait = "jushii_ge"
+		}
 	}
 	1310.9.16={
 		death=yes
@@ -1539,7 +1455,6 @@
 	father=12360690 # Ogasawara Nagamasa
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1247.1.1={
 		birth=yes
 	}
@@ -1553,7 +1468,6 @@
 	father=12360690 # Ogasawara Nagamasa
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1248.1.1={
 		birth=yes
 	}
@@ -1567,7 +1481,6 @@
 	father=12360690 # Ogasawara Nagamasa
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1249.1.1={
 		birth=yes
 	}
@@ -1581,7 +1494,6 @@
 	father=12360690 # Ogasawara Nagamasa
 	religion="shinto"
 	culture="koshin"
-	prowess=9
 	1250.1.1={
 		birth=yes
 	}
@@ -1595,7 +1507,6 @@
 	father=12360690 # Ogasawara Nagamasa
 	religion="shinto"
 	culture="koshin"
-	prowess=9
 	1251.1.1={
 		birth=yes
 	}
@@ -1609,7 +1520,6 @@
 	father=12360690 # Ogasawara Nagamasa
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1252.1.1={
 		birth=yes
 	}
@@ -1624,12 +1534,13 @@
 	mother=12360646 # Tomono Nagako. TODO:Research - Tomono Nagafusa's daughter
 	religion="shinto"
 	culture="koshin"
-	prowess=9
 	1272.1.1={
 		birth=yes
 	}
 	1325.1.1={
-		trait="jugoi_ge"
+		effect = {
+			add_trait = "jugoi_ge"
+		}
 	}
 	1330.10.18={
 		death=yes
@@ -1642,7 +1553,6 @@
 	mother=12360646 # Tomono Nagako. TODO:Research - Tomono Nagafusa's daughter
 	religion="shinto"
 	culture="koshin"
-	prowess=12
 	1273.1.1={
 		birth=yes
 	}
@@ -1657,7 +1567,6 @@
 	religion="shinto"
 	culture="koshin"
 	trait="legitimized_bastard"
-	prowess=12
 	1275.1.1={
 		birth=yes
 	}
@@ -1672,7 +1581,6 @@
 	mother=12360646 # Tomono Nagako. TODO:Research - Tomono Nagafusa's daughter
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1273.2.1={
 		birth=yes
 	}
@@ -1687,7 +1595,6 @@
 	religion="shinto"
 	culture="koshin"
 	trait="legitimized_bastard"
-	prowess=10
 	1274.1.1={
 		birth=yes
 	}
@@ -1702,7 +1609,6 @@
 	mother=12360646 # Tomono Nagako. TODO:Research - Tomono Nagafusa's daughter
 	religion="shinto"
 	culture="koshin"
-	prowess=12
 	1275.1.1={
 		birth=yes
 	}
@@ -1717,7 +1623,6 @@
 	religion="shinto"
 	culture="koshin"
 	trait="legitimized_bastard"
-	prowess=11
 	1276.1.1={
 		birth=yes
 	}
@@ -1732,7 +1637,6 @@
 	religion="shinto"
 	culture="koshin"
 	trait="legitimized_bastard"
-	prowess=11
 	1278.1.1={
 		birth=yes
 	}
@@ -1748,7 +1652,6 @@
 	religion="shinto"
 	culture="koshin"
 	trait="legitimized_bastard"
-	prowess=11
 	1279.1.1={
 		birth=yes
 	}
@@ -1760,15 +1663,17 @@
 	name=character_name_12360710 # Sadamune 
 	dynasty=10000214 # Ogasawara
 	father=12360701 # Ogasawara Munenaga
-	martial=6
+	martial=14
 	religion="shinto"
 	culture="koshin"
-	prowess=11
+	prowess=18
 	1292.4.30={
 		birth=yes
 	}
 	1345.1.1={
-		trait="shosanmi"
+		effect = {
+			add_trait = "shosanmi"
+		}
 	}
 	1347.7.5={
 		death=yes
@@ -1780,7 +1685,6 @@
 	father=12360701 # Ogasawara Munenaga
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1292.4.30={
 		birth=yes
 	}
@@ -1794,7 +1698,6 @@
 	father=12360701 # Ogasawara Munenaga
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1292.4.30={
 		birth=yes
 	}
@@ -1809,7 +1712,6 @@
 	father=12360701 # Ogasawara Munenaga
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1292.4.30={
 		birth=yes
 	}
@@ -1823,12 +1725,13 @@
 	father=12360710 # Ogasawara Sadamune
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1319.7.28={
 		birth=yes
 	}
 	1355.1.1={
-		trait="jushii_jo"
+		effect = {
+			add_trait = "jushii_jo"
+		}
 	}
 	1365.4.12={
 		death=yes
@@ -1840,7 +1743,6 @@
 	father=12360710 # Ogasawara Sadamune
 	religion="shinto"
 	culture="koshin"
-	prowess=9
 	1320.1.1={
 		birth=yes
 	}
@@ -1855,7 +1757,6 @@
 	father=12360710 # Ogasawara Sadamune
 	religion="shinto"
 	culture="koshin"
-	prowess=12
 	1321.1.1={
 		birth=yes
 	}
@@ -1870,7 +1771,6 @@
 	father=12360710 # Ogasawara Sadamune
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1322.7.28={
 		birth=yes
 	}
@@ -1884,7 +1784,6 @@
 	father=12360710 # Ogasawara Sadamune
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1324.1.1={
 		birth=yes
 	}
@@ -1898,7 +1797,6 @@
 	father=12360710 # Ogasawara Sadamune
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1325.1.1={
 		birth=yes
 	}
@@ -1912,7 +1810,6 @@
 	father=12360720 # Ogasawara Masanaga
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1347.3.9={
 		birth=yes
 	}
@@ -1920,7 +1817,9 @@
 		add_spouse=12360192 # Takeda Sakura (Takeda Nobuharu's daughter)
 	}
 	1400.1.1={
-		trait="jushii_jo"
+		effect = {
+			add_trait = "jushii_jo"
+		}
 	}
 	1407.11.5={
 		death=yes
@@ -1932,7 +1831,6 @@
 	father=12360720 # Ogasawara Masanaga
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1360.1.1={
 		birth=yes
 	}
@@ -1947,12 +1845,13 @@
 	mother=12360192 # Takeda Nobuharu's daughter
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1376.5.5={
 		birth=yes
 	}
 	1442.1.1={
-		trait="jushii_jo"
+		effect = {
+			add_trait = "jushii_jo"
+		}
 	}
 	1442.9.22={
 		death=yes
@@ -1964,12 +1863,13 @@
 	father=12360730 # Ogasawara Nagamoto
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1366.10.22={
 		birth=yes
 	}
 	1420.1.1={
-		trait="jushii_ge"
+		effect = {
+			add_trait = "jushii_ge"
+		}
 	}
 	1424.4.14={
 		death=yes
@@ -1981,7 +1881,6 @@
 	father=12360740 # Ogasawara Masayasu
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1396.7.27={
 		birth=yes
 	}
@@ -1989,7 +1888,9 @@
 		add_pressed_claim=d_shgnt_shinano
 	}
 	1455.1.1={
-		trait="jushii_jo"
+		effect = {
+			add_trait = "jushii_jo"
+		}
 	}
 	1462.7.21={
 		death=yes
@@ -2001,7 +1902,6 @@
 	father=12360750 # Ogasawara Mochinaga
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1417.2.2={
 		birth=yes
 	}
@@ -2019,7 +1919,6 @@
 	religion="shinto"
 	culture="koshin"
 	trait="devoted"
-	prowess=9
 	1419.1.1={
 		birth=yes
 	}
@@ -2033,7 +1932,6 @@
 	father=12360750 # Ogasawara Mochinaga
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1420.1.1={
 		birth=yes
 	}
@@ -2047,7 +1945,6 @@
 	father=12360750 # Ogasawara Mochinaga
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1421.1.1={
 		birth=yes
 	}
@@ -2061,14 +1958,14 @@
 	father=12360760 # Ogasawara Kiyomune
 	religion="shinto"
 	culture="koshin"
-	diplomacy=4
-	martial=6
-	stewardship=5
-	intrigue=6
-	learning=5
+	diplomacy=8
+	martial=7
+	stewardship=7
+	intrigue=7
+	learning=7
 	trait="education_martial_2"
 	trait="diligent"
-	prowess=13
+	prowess=15
 	1443.11.25={
 		birth=yes
 	}
@@ -2085,7 +1982,6 @@
 	father=12360760 # Ogasawara Kiyomune
 	religion="shinto"
 	culture="koshin"
-	prowess=9
 	1445.1.1={
 		birth=yes
 	}
@@ -2100,7 +1996,6 @@
 	father=12360760 # Ogasawara Kiyomune
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1448.1.1={
 		birth=yes
 	}
@@ -2115,7 +2010,6 @@
 	father=12360760 # Ogasawara Kiyomune
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1449.1.1={
 		birth=yes
 	}
@@ -2127,9 +2021,9 @@
 	name=character_name_12360780 # Sadatomo
 	dynasty=10000214 # Ogasawara
 	father=12360770 # Ogasawara Nagatomo
-	martial=8
+	martial=7
 	diplomacy=8
-	intrigue=6
+	intrigue=8
 	stewardship=7
 	learning=7
 	religion="shinto"
@@ -2137,7 +2031,7 @@
 	trait="education_martial_2"
 	trait="diligent"
 	trait="mystic_1"
-	prowess=13
+	prowess=15
 	1461.10.21={
 		birth=yes
 	}
@@ -2155,7 +2049,6 @@
 	religion="shinto"
 	culture="koshin"
 	trait="education_martial_2"
-	prowess=12
 	1463.1.1={
 		birth=yes
 	}
@@ -2171,7 +2064,6 @@
 	religion="shinto"
 	culture="koshin"
 	trait="education_martial_2"
-	prowess=14
 	1484.1.1={
 		birth=yes
 	}
@@ -2187,7 +2079,6 @@
 	religion="shinto"
 	culture="koshin"
 	trait="education_martial_2"
-	prowess=14
 	1483.1.1={
 		birth=yes
 	}
@@ -2201,7 +2092,6 @@
 	father=12360731 # Ogasawara Nagaoki
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1400.1.1={
 		birth=yes
 	}
@@ -2215,7 +2105,6 @@
 	father=12360605 # Oi Tomomitsu
 	religion="shinto"
 	culture="koshin"
-	prowess=12
 	1219.1.1={
 		birth=yes
 	}
@@ -2232,7 +2121,6 @@
 	father=12360605 # Oi Tomomitsu
 	religion="shinto"
 	culture="koshin"
-	prowess=9
 	1220.1.1={
 		birth=yes
 	}
@@ -2249,7 +2137,6 @@
 	father=12361000 # Oi Mitsunaga
 	religion="shinto"
 	culture="koshin"
-	prowess=9
 	1240.1.1={
 		birth=yes
 	}
@@ -2263,7 +2150,6 @@
 	father=12361000 # Oi Mitsunaga
 	religion="shinto"
 	culture="koshin"
-	prowess=12
 	1249.1.1={
 		birth=yes
 	}
@@ -2277,7 +2163,6 @@
 	father=12361000 # Oi Mitsunaga
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1250.1.1={
 		birth=yes
 	}
@@ -2291,7 +2176,6 @@
 	father=12361000 # Oi Mitsunaga
 	religion="shinto"
 	culture="koshin"
-	prowess=12
 	1252.1.1={
 		birth=yes
 	}
@@ -2305,7 +2189,6 @@
 	father=12361000 # Oi Mitsunaga
 	religion="shinto"
 	culture="koshin"
-	prowess=12
 	1254.1.1={
 		birth=yes
 	}
@@ -2319,7 +2202,6 @@
 	father=12361000 # Oi Mitsunaga
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1256.1.1={
 		birth=yes
 	}
@@ -2333,7 +2215,6 @@
 	father=12361000 # Oi Mitsunaga
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1258.1.1={
 		birth=yes
 	}
@@ -2347,7 +2228,6 @@
 	father=12361012 # Oi Yukimitsu
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1280.1.1={
 		birth=yes
 	}
@@ -2361,7 +2241,6 @@
 	father=12361012 # Oi Yukimitsu
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1282.1.1={
 		birth=yes
 	}
@@ -2375,7 +2254,6 @@
 	father=12361021 # Oi Yukitoki
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1310.1.1={
 		birth=yes
 	}
@@ -2389,7 +2267,6 @@
 	father=12361025 # Oi Mitsushige
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1337.1.1={
 		birth=yes
 	}
@@ -2403,7 +2280,6 @@
 	father=12361030 # Oi Mitsunori
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1380.1.1={
 		birth=yes
 	}
@@ -2417,7 +2293,6 @@
 	father=12361035 # Oi Mochimitsu
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1420.1.1={
 		birth=yes
 	}
@@ -2431,7 +2306,6 @@
 	father=12361035 # Oi Mochimitsu
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1422.1.1={
 		birth=yes
 	}
@@ -2445,7 +2319,6 @@
 	father=12361040 # Oi Masamitsu
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1460.1.1={
 		birth=yes
 	}
@@ -2459,7 +2332,6 @@
 	father=12361040 # Oi Masamitsu
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1465.1.1={
 		birth=yes
 	}
@@ -2473,7 +2345,6 @@
 	father=12361010 # Oi Tokimitsu
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1270.1.1={
 		birth=yes
 	}
@@ -2487,7 +2358,6 @@
 	father=12361050 # Oi Mitsuie
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1310.1.1={
 		birth=yes
 	}
@@ -2501,7 +2371,6 @@
 	father=12361055 # Oi Mitsunaga
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1350.1.1={
 		birth=yes
 	}
@@ -2515,7 +2384,6 @@
 	father=12361060 # Oi Yukimitsu
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1390.1.1={
 		birth=yes
 	}
@@ -2529,7 +2397,6 @@
 	father=12361065 # Oi Tomomitsu
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1434.1.1={
 		birth=yes
 	}
@@ -2542,7 +2409,6 @@
 	dynasty=10000759 # Oi
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1440.1.1={
 		birth=yes
 	}
@@ -2556,7 +2422,6 @@
 	father=12361080 # Oi Haruyoshi
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1470.1.1={
 		birth=yes
 	}
@@ -2570,7 +2435,6 @@
 	father=12361081 # Oi Yasumitsu
 	religion="shinto"
 	culture="koshin"
-	prowess=12
 	1500.1.1={
 		birth=yes
 	}
@@ -2587,15 +2451,17 @@
 	trait="education_martial_3"
 	trait="brave"
 	trait="patient"
-	martial=5
-	prowess=13
+	martial=7
+	prowess=17
 	1502.1.1={
 		birth=yes
 	}
 	1518.1.1={
-		name=character_name_12361086_1 # Genshin
 		dynasty = 10001202 # Hiraga
-		trait="devoted"
+		effect = {
+			change_first_name = character_name_12361086_1 # Genshin
+			add_trait = "devoted"
+		}
 	}
 	1537.2.6={
 		death=yes
@@ -2607,7 +2473,6 @@
 	father=12361081 # Oi Yasumitsu
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1520.1.1={
 		birth=yes
 	}
@@ -2621,7 +2486,6 @@
 	father=12361087 # Oi Sadakiyo
 	religion="shinto"
 	culture="koshin"
-	prowess=9
 	1540.1.1={
 		birth=yes
 	}
@@ -2635,7 +2499,6 @@
 	father=12360645 # Tomono Nagafusa
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1330.1.1={
 		birth=yes
 	}
@@ -2649,7 +2512,6 @@
 	father=12361200 # Tomono Naganobu
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1360.1.1={
 		birth=yes
 	}
@@ -2663,7 +2525,6 @@
 	father=12361201 # Tomono KazusaNoSuke
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1390.1.1={
 		birth=yes
 	}
@@ -2677,7 +2538,6 @@
 	father=12361201 # Tomono KazusaNoSuke
 	religion="shinto"
 	culture="koshin"
-	prowess=9
 	1415.1.1={
 		birth=yes
 	}
@@ -2691,7 +2551,6 @@
 	father=12361205 # Tomono KazusaNoSuke
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1420.1.1={
 		birth=yes
 	}
@@ -2705,7 +2564,6 @@
 	father=12361206 # Tomono Mitsutoshi
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1440.1.1={
 		birth=yes
 	}
@@ -2719,7 +2577,6 @@
 	father=12361215 # Tomono Mitsunobu
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1471.1.1={
 		birth=yes
 	}
@@ -2733,7 +2590,6 @@
 	father=12361220 # Tomono Sadayoshi
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1510.1.1={
 		birth=yes
 	}
@@ -2747,7 +2603,6 @@
 	father=12361220 # Tomono Sadayoshi
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1512.1.1={
 		birth=yes
 	}
@@ -2761,7 +2616,6 @@
 	father=12361225 # Tomono Nobumori
 	religion="shinto"
 	culture="koshin"
-	prowess=9
 	1550.1.1={
 		birth=yes
 	}
@@ -2777,11 +2631,11 @@
 	trait="education_diplomacy_3"
 	trait="arrogant"
 	diplomacy=6
-	martial=6
-	stewardship=6
-	intrigue=4
-	learning=6
-	prowess=11
+	martial=8
+	stewardship=9
+	intrigue=12
+	learning=5
+	prowess=12
 	1390.1.1={
 		birth=yes
 	}
@@ -2797,8 +2651,7 @@
 	culture="koshin"
 	trait="education_diplomacy_3"
 	trait="arrogant"
-	diplomacy=5
-	prowess=9
+	diplomacy=7
 	1420.1.1={
 		birth=yes
 	}
@@ -2812,7 +2665,6 @@
 	father=12360102 # Takeda Ariyoshi
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1200.1.1={
 		birth=yes
 	}
@@ -2826,7 +2678,6 @@
 	father=12361500 # Henmi Arinobu
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1240.1.1={
 		birth=yes
 	}
@@ -2840,7 +2691,6 @@
 	father=12361501 # Henmi Aritomo
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1280.1.1={
 		birth=yes
 	}
@@ -2854,7 +2704,6 @@
 	father=12361505 # Henmi Aritsuna
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1320.1.1={
 		birth=yes
 	}
@@ -2868,7 +2717,6 @@
 	father=12361510 # Henmi Arimasa
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1350.1.1={
 		birth=yes
 	}
@@ -2884,8 +2732,8 @@
 	culture="koshin"
 	trait="education_martial_2"
 	trait="ambitious"
-	martial=6
-	prowess=14
+	martial=8
+	prowess=16
 	1380.1.1={
 		birth=yes
 	}
@@ -2900,7 +2748,6 @@
 	father=10120110 # Henmi Mitsunaga
 	religion="shinto"
 	culture="koshin"
-	prowess=9
 	1160.1.1={
 		birth=yes
 	}
@@ -2915,7 +2762,6 @@
 	father=12361550 # Henmi Motoyoshi
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1180.1.1={
 		birth=yes
 	}
@@ -2930,7 +2776,6 @@
 	father=12361550 # Henmi Motoyoshi
 	religion="shinto"
 	culture="koshin"
-	prowess=9
 	1182.1.1={
 		birth=yes
 	}
@@ -2945,7 +2790,6 @@
 	father=12361550 # Henmi Motoyoshi
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1184.1.1={
 		birth=yes
 	}
@@ -2960,7 +2804,6 @@
 	father=12361553 # Henmi Yoshinobu
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1200.1.1={
 		birth=yes
 	}
@@ -2975,7 +2818,6 @@
 	father=12361555 # Henmi Yoshishige
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1230.1.1={
 		birth=yes
 	}
@@ -2990,7 +2832,6 @@
 	father=12361560 # Henmi Shigeuji
 	religion="shinto"
 	culture="western_chubu"
-	prowess=9
 	1260.1.1={
 		birth=yes
 	}
@@ -3005,7 +2846,6 @@
 	father=12361565 # Henmi Yoshiuji
 	religion="shinto"
 	culture="western_chubu"
-	prowess=10
 	1290.1.1={
 		birth=yes
 	}
@@ -3020,7 +2860,6 @@
 	father=12361570 # Henmi Yasuuji
 	religion="shinto"
 	culture="western_chubu"
-	prowess=11
 	1320.1.1={
 		birth=yes
 	}
@@ -3034,7 +2873,6 @@
 	father=10120116 # Asari Yoshito
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1190.1.1={
 		birth=yes
 	}
@@ -3048,7 +2886,6 @@
 	father=12365001 # Asari Tomoyoshi
 	religion="shinto"
 	culture="koshin"
-	prowess=9
 	1215.1.1={
 		birth=yes
 	}
@@ -3062,7 +2899,6 @@
 	religion="shinto"
 	culture="koshin"
 	trait="education_martial_2"
-	prowess=13
 	1130.1.1={
 		birth=yes
 	}
@@ -3081,7 +2917,6 @@
 	culture="koshin"
 	trait="education_martial_2"
 	trait="strong"
-	prowess=12
 	1160.1.1={
 		birth=yes
 	}
@@ -3097,7 +2932,6 @@
 	dynasty=10007262 # Muto
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1140.1.1={
 		birth=yes
 	}
@@ -3114,7 +2948,6 @@
 	father=10120095 # Minamoto (Hiraga) Moriyoshi
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1135.1.1={
 		birth=yes
 	}
@@ -3128,7 +2961,6 @@
 	father=10120095 # Minamoto (Hiraga) Moriyoshi
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1140.1.1={
 		birth=yes
 	}
@@ -3142,16 +2974,23 @@
 	father=10120095 # Minamoto (Hiraga) Moriyoshi
 	religion="shinto"
 	culture="koshin"
+	diplomacy=9
+	stewardship=8
 	trait="education_stewardship_3"
-	prowess=12
 	1143.1.1={
 		birth=yes
+	}
+	1159.1.1={
+		give_nickname="nick_shiro"
 	}
 	1184.1.1={
 		add_spouse=12204339 # daughter of Hiki Tomune
 	}
 	1184.7.1={
-		trait="jugoi_jo"
+		give_nickname="nick_the_musashi_no_kami"
+		effect = {
+			add_trait = "jugoi_jo"
+		}
 	}
 	1207.2.1={
 		death=yes
@@ -3163,7 +3002,6 @@
 	father=10120095 # Minamoto (Hiraga) Moriyoshi
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1145.1.1={
 		birth=yes
 	}
@@ -3177,7 +3015,6 @@
 	father=10120095 # Minamoto (Hiraga) Moriyoshi
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1147.1.1={
 		birth=yes
 	}
@@ -3191,7 +3028,6 @@
 	father=10120095 # Minamoto (Hiraga) Moriyoshi
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1149.1.1={
 		birth=yes
 	}
@@ -3205,7 +3041,6 @@
 	father=10120095 # Minamoto (Hiraga) Moriyoshi
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1150.1.1={
 		birth=yes
 	}
@@ -3219,27 +3054,37 @@
 	father=12370002 # Hiraga Yoshinobu
 	religion="shinto"
 	culture="koshin"
+	diplomacy=9
 	trait="education_diplomacy_3"
-	prowess=12
 	1163.1.1={
 		birth=yes
 	}
 	1179.1.1={
+		give_nickname="nick_kaja"
 		add_spouse=10130463
 	}
 	1184.1.1={
 		dynasty=10006137 # Ouchi
 	}
 	1185.9.11={
-		trait="jugoi_ge"
+		give_nickname="nick_the_sagami_no_kami"
+		effect = {
+			add_trait = "jugoi_ge"
+		}
 	}
 	1195.1.1={
-		remove_trait="jugoi_ge"
-		trait="jugoi_jo"
+		give_nickname="nick_the_musashi_no_kami"
+		effect = {
+			remove_trait = "jugoi_ge"
+			add_trait = "jugoi_jo"
+		}
 	}
 	1219.1.1={
-		remove_trait="jugoi_jo"
-		trait="shogoi_ge"
+		give_nickname="nick_the_shuri_daibu"
+		effect = {
+			remove_trait = "jugoi_jo"
+			add_trait = "shogoi_ge"
+		}
 	}
 	1220.1.1={
 		death=yes
@@ -3251,7 +3096,6 @@
 	father=12370002 # Hiraga Yoshinobu
 	religion="shinto"
 	culture="koshin"
-	prowess=9
 	1166.1.1={
 		birth=yes
 	}
@@ -3265,7 +3109,6 @@
 	father=12370002 # Hiraga Yoshinobu
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1171.1.1={
 		birth=yes
 	}
@@ -3280,13 +3123,17 @@
 	mother=12204339 # daughter of Hiki Tomune
 	religion="shinto"
 	culture="koshin"
+	diplomacy=7
+	intrigue=9
 	trait="education_diplomacy_3"
-	prowess=10
 	1185.1.1={
 		birth=yes
 	}
 	1199.1.1={
-		trait="jugoi_jo"
+		give_nickname="nick_the_musashi_no_kami"
+		effect = {
+			add_trait = "jugoi_jo"
+		}
 	}
 	1202.1.1={
 		add_spouse=10131656 # daughter of Hojo Tokimasa
@@ -3302,13 +3149,16 @@
 	mother=10130463
 	religion="shinto"
 	culture="central_kinai"
+	diplomacy=7
 	trait="education_diplomacy_3"
-	prowess=10
 	1185.1.1={
 		birth=yes
 	}
 	1221.1.1={
-		trait="shogoi_ge"
+		give_nickname="nick_the_suruga_no_kami"
+		effect = {
+			add_trait = "shogoi_ge"
+		}
 	}
 	1235.1.1={
 		death=yes
@@ -3321,7 +3171,6 @@
 	mother=10130463
 	religion="shinto"
 	culture="central_kinai"
-	prowess=12
 	1187.1.1={
 		birth=yes
 	}
@@ -3336,7 +3185,6 @@
 	mother=10130463
 	religion="shinto"
 	culture="central_kinai"
-	prowess=10
 	1190.1.1={
 		birth=yes
 	}
@@ -3351,7 +3199,6 @@
 	mother=10130463
 	religion="shinto"
 	culture="central_kinai"
-	prowess=11
 	1194.1.1={
 		birth=yes
 	}
@@ -3367,7 +3214,6 @@
 	mother=10130463
 	religion="shinto"
 	culture="central_kinai"
-	prowess=10
 	1204.1.1={
 		birth=yes
 	}
@@ -3381,7 +3227,6 @@
 	father=10041424 # Kanesashi Kuratari
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	0595.1.1={
 		birth=yes
 	}
@@ -3395,7 +3240,6 @@
 	father=12375484 # Kanesashi Sukimaro
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	0620.1.1={
 		birth=yes
 	}
@@ -3409,7 +3253,6 @@
 	father=12375485 # Kanesashi Komushi
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	0645.1.1={
 		birth=yes
 	}
@@ -3423,7 +3266,6 @@
 	father=12375486 # Kanesashi Ishitsugi
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	0670.1.1={
 		birth=yes
 	}
@@ -3437,7 +3279,6 @@
 	father=12375487 # Kanesashi Otsugu
 	religion="shinto"
 	culture="koshin"
-	prowess=12
 	0700.1.1={
 		birth=yes
 	}
@@ -3451,7 +3292,6 @@
 	father=12375488 # Kanesashi Kanefuku
 	religion="shinto"
 	culture="koshin"
-	prowess=12
 	0725.1.1={
 		birth=yes
 	}
@@ -3465,7 +3305,6 @@
 	father=12375489 # Kanesashi Shiromushi
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	0750.1.1={
 		birth=yes
 	}
@@ -3479,7 +3318,6 @@
 	father=12375490 # Kanesashi Hirosaki
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	0775.01.01={
 		birth=yes
 	}
@@ -3493,7 +3331,6 @@
 	father=12375491 # Kanesashi Sadamaro
 	religion="shinto"
 	culture="koshin"
-	prowess=12
 	0805.1.1={
 		birth=yes
 	}
@@ -3507,7 +3344,6 @@
 	father=12375492 # Kanesashi Sadanaga
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	0836.1.1={
 		birth=yes
 	}
@@ -3521,7 +3357,6 @@
 	father=12375493 # Kanesashi Sadatsugu
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	0870.1.1={
 		birth=yes
 	}
@@ -3535,7 +3370,6 @@
 	father=12375494 # Kanesashi Masunari
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	0905.1.1={
 		birth=yes
 	}
@@ -3549,7 +3383,6 @@
 	father=12375495 # Kanesashi Arihisa
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	0935.01.01={
 		birth=yes
 	}
@@ -3563,7 +3396,6 @@
 	father=12375496 # Kanesashi Takehisa
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	0965.1.1={
 		birth=yes
 	}
@@ -3577,7 +3409,6 @@
 	father=12375497 # Kanesashi Arinori
 	religion="shinto"
 	culture="koshin"
-	prowess=12
 	0995.1.1={
 		birth=yes
 	}
@@ -3591,7 +3422,6 @@
 	father=12375497 # Kanesashi Arinori
 	religion="shinto"
 	culture="koshin"
-	prowess=12
 	1000.1.1={
 		birth=yes
 	}
@@ -3605,7 +3435,6 @@
 	father=12375499 # Kanesashi Arinobu
 	religion="shinto"
 	culture="koshin"
-	prowess=12
 	1030.1.1={
 		birth=yes
 	}
@@ -3619,7 +3448,6 @@
 	father=12375500 # Kanesashi Kiyonobu
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1060.1.1={
 		birth=yes
 	}
@@ -3633,7 +3461,6 @@
 	father=12375500 # Kanesashi Kiyonobu
 	religion="shinto"
 	culture="koshin"
-	prowess=9
 	1062.1.1={
 		birth=yes
 	}
@@ -3647,7 +3474,6 @@
 	father=12375500 # Kanesashi Kiyonobu
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1064.1.1={
 		birth=yes
 	}
@@ -3664,7 +3490,6 @@
 	father=12375502 # Kanesashi Kiyochika
 	religion="shinto"
 	culture="koshin"
-	prowess=12
 	1087.01.01={
 		birth=yes
 	}
@@ -3679,7 +3504,6 @@
 	father=12375502 # Kanesashi Kiyochika
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1090.01.01={
 		birth=yes
 	}
@@ -3693,7 +3517,6 @@
 	father=12375504 # Kanesashi Yoshikata
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1112.1.1={
 		birth=yes
 	}
@@ -3707,7 +3530,6 @@
 	mother=12375505 # Kanesashi Chikako
 	religion="shinto"
 	culture="koshin"
-	prowess=9
 	1110.01.01={
 		birth=yes
 	}
@@ -3721,7 +3543,6 @@
 	father=12375507 # Kanesashi Nobusumi
 	religion="shinto"
 	culture="koshin"
-	prowess=12
 	1135.01.01={
 		birth=yes
 	}
@@ -3735,7 +3556,6 @@
 	father=12375503 # Tezuka Mitsukiyo
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1089.1.1={
 		birth=yes
 	}
@@ -3749,7 +3569,6 @@
 	father=12375503 # Tezuka Mitsukiyo
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1091.1.1={
 		birth=yes
 	}
@@ -3763,7 +3582,6 @@
 	father=12375503 # Tezuka Mitsukiyo
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1093.01.01={
 		birth=yes
 	}
@@ -3777,7 +3595,6 @@
 	father=12375510 # Tezuka Tadakiyo
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1114.1.1={
 		birth=yes
 	}
@@ -3792,7 +3609,6 @@
 	religion="shinto"
 	culture="koshin"
 	trait="strong"
-	prowess=10
 	1139.01.01={
 		birth=yes
 	}
@@ -3809,7 +3625,6 @@
 	father=12375517 # Tezuka Kiyofusa
 	religion="shinto"
 	culture="koshin"
-	prowess=12
 	1164.1.1={
 		birth=yes
 	}
@@ -3825,7 +3640,6 @@
 	father=12375517 # Tezuka Kiyofusa
 	religion="shinto"
 	culture="koshin"
-	prowess=12
 	1166.01.01={
 		birth=yes
 	}
@@ -3839,7 +3653,6 @@
 	father=12375517 # Tezuka Kiyofusa
 	religion="shinto"
 	culture="koshin"
-	prowess=12
 	1170.01.01={
 		birth=yes
 	}
@@ -3853,7 +3666,6 @@
 	father=12375522 # Tezuka Iekiyo
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1195.01.01={
 		birth=yes
 	}
@@ -3867,7 +3679,6 @@
 	father=12375523 # Tezuka Fusamichi
 	religion="shinto"
 	culture="koshin"
-	prowess=12
 	1220.1.1={
 		birth=yes
 	}
@@ -3881,7 +3692,6 @@
 	father=12375525 # Tezuka Fusatada
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1245.1.1={
 		birth=yes
 	}
@@ -3895,7 +3705,6 @@
 	father=12375527 # Tezuka Tadatoki
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1270.01.01={
 		birth=yes
 	}
@@ -3909,7 +3718,6 @@
 	father=12375512 # Tezuka Mitsutsugu
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1118.01.01={
 		birth=yes
 	}
@@ -3923,7 +3731,6 @@
 	father=12375512 # Tezuka Mitsutsugu
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1120.01.01={
 		birth=yes
 	}
@@ -3937,7 +3744,6 @@
 	father=12375530 # Tezuka Mitsuyori
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1143.01.01={
 		birth=yes
 	}
@@ -3956,7 +3762,6 @@
 	father=12375535 # Tezuka Mitsumori
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1168.01.01={
 		birth=yes
 	}
@@ -3976,7 +3781,6 @@
 	father=12375535 # Tezuka Mitsumori
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1170.01.01={
 		birth=yes
 	}
@@ -3993,7 +3797,6 @@
 	father=12375535 # Tezuka Mitsumori
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1173.1.1={
 		birth=yes
 	}
@@ -4010,7 +3813,6 @@
 	father=12375537 # Tezuka Mitsukiyo
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1193.01.01={
 		birth=yes
 	}
@@ -4024,7 +3826,6 @@
 	father=12375540 # Tezuka Mitsuyuki
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1218.01.01={
 		birth=yes
 	}
@@ -4038,7 +3839,6 @@
 	father=12375540 # Tezuka Mitsuyuki
 	religion="shinto"
 	culture="koshin"
-	prowess=12
 	1220.1.1={
 		birth=yes
 	}
@@ -4052,7 +3852,6 @@
 	father=12375540 # Tezuka Mitsuyuki
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1222.01.01={
 		birth=yes
 	}
@@ -4066,7 +3865,6 @@
 	father=12375542 # Tezuka Mitsuto
 	religion="shinto"
 	culture="koshin"
-	prowess=9
 	1250.1.1={
 		birth=yes
 	}
@@ -4080,7 +3878,6 @@
 	father=12375545 # Tezuka Mitsusumi
 	religion="shinto"
 	culture="koshin"
-	prowess=12
 	1275.01.01={
 		birth=yes
 	}
@@ -4094,7 +3891,6 @@
 	father=12375547 # Tezuka Mitsukata
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1300.01.01={
 		birth=yes
 	}
@@ -4110,7 +3906,6 @@
 	father=12375549 # Tezuka Mitsutsune
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1325.01.01={
 		birth=yes
 	}
@@ -4124,7 +3919,6 @@
 	father=12375549 # Tezuka Mitsutsune
 	religion="shinto"
 	culture="koshin"
-	prowess=9
 	1330.01.01={
 		birth=yes
 	}
@@ -4138,7 +3932,6 @@
 	father=12375550 # Tezuka Mitsutaka
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1350.1.1={
 		birth=yes
 	}
@@ -4152,7 +3945,6 @@
 	father=12375552 # Tezuka Mitsuhira
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1375.01.01={
 		birth=yes
 	}
@@ -4166,7 +3958,6 @@
 	father=12375553 # Tezuka Mitsuzane
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1400.1.1={
 		birth=yes
 	}
@@ -4180,7 +3971,6 @@
 	father=12375553 # Tezuka Mitsuzane
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1405.1.1={
 		birth=yes
 	}
@@ -4194,7 +3984,6 @@
 	father=12375554 # Tezuka Mitsuie
 	religion="shinto"
 	culture="koshin"
-	prowess=12
 	1425.1.1={
 		birth=yes
 	}
@@ -4208,7 +3997,6 @@
 	father=12375556 # Tezuka Mitsunaga
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1450.1.1={
 		birth=yes
 	}
@@ -4222,7 +4010,6 @@
 	father=12375557 # Tezuka Mitsunao
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1475.1.1={
 		birth=yes
 	}
@@ -4236,7 +4023,6 @@
 	father=12375558 # Tezuka Mitsusada
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1500.01.01={
 		birth=yes
 	}
@@ -4250,7 +4036,6 @@
 	father=12375555 # Tezuka Mitsunobu
 	religion="shinto"
 	culture="koshin"
-	prowess=9
 	1430.1.1={
 		birth=yes
 	}
@@ -4264,7 +4049,6 @@
 	father=12375555 # Tezuka Mitsunobu
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1435.1.1={
 		birth=yes
 	}
@@ -4278,7 +4062,6 @@
 	father=12375555 # Tezuka Mitsunobu
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1440.1.1={
 		birth=yes
 	}
@@ -4292,7 +4075,6 @@
 	father=12375560 # Tezuka Mitsuhisa
 	religion="shinto"
 	culture="koshin"
-	prowess=12
 	1455.1.1={
 		birth=yes
 	}
@@ -4306,7 +4088,6 @@
 	father=12375563 # Tezuka Mitsuyori
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1480.1.1={
 		birth=yes
 	}
@@ -4320,7 +4101,6 @@
 	father=12375564 # Tezuka Mitsutoshi
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1505.1.1={
 		birth=yes
 	}
@@ -4334,7 +4114,6 @@
 	father=12375565 # Tezuka Mitsutoki
 	religion="shinto"
 	culture="koshin"
-	prowess=9
 	1530.1.1={
 		birth=yes
 	}
@@ -4348,7 +4127,6 @@
 	father=12375561 # Tezuka Mitsutsugu
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1465.1.1={
 		birth=yes
 	}
@@ -4362,7 +4140,6 @@
 	father=12375567 # Tezuka Moritsugu
 	religion="shinto"
 	culture="koshin"
-	prowess=9
 	1500.1.1={
 		birth=yes
 	}
@@ -4376,7 +4153,6 @@
 	father=12375568 # Tezuka Moritaka
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1535.1.1={
 		birth=yes
 	}
@@ -4393,7 +4169,6 @@
 	father=12375563 # Tezuka Mitsuyori
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1480.1.1={
 		birth=yes
 	}
@@ -4407,7 +4182,6 @@
 	father=12375570 # Tezuka Mitsukiyo
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1505.1.1={
 		birth=yes
 	}
@@ -4421,7 +4195,6 @@
 	father=12375571 # Tezuka Mitsusumi
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1530.1.1={
 		birth=yes
 	}
@@ -4435,7 +4208,6 @@
 	father=12375539 # Tezuka Mitsuie
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1198.1.1={
 		birth=yes
 	}
@@ -4449,7 +4221,6 @@
 	father=12375539 # Tezuka Mitsuie
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1200.01.01={
 		birth=yes
 	}
@@ -4463,7 +4234,6 @@
 	father=12375531 # Tezuka Mitsukata
 	religion="shinto"
 	culture="koshin"
-	prowess=9
 	1145.01.01={
 		birth=yes
 	}
@@ -4480,7 +4250,6 @@
 	father=12375531 # Tezuka Mitsukata
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1150.01.01={
 		birth=yes
 	}
@@ -4500,7 +4269,6 @@
 	father=12375586 # Tezuka Morikata
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1175.01.01={
 		birth=yes
 		employer=12375910 # Suwa Atsumitsu
@@ -4515,7 +4283,6 @@
 	father=12375586 # Tezuka Morikata
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1177.1.1={
 		birth=yes
 		employer=12375910 # Suwa Atsumitsu
@@ -4530,7 +4297,6 @@
 	father=12375586 # Tezuka Morikata
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1180.01.01={
 		birth=yes
 		employer=12375910 # Suwa Atsumitsu
@@ -4545,7 +4311,6 @@
 	father=12375591 # Takei Moriyoshi
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1202.1.1={
 		birth=yes
 	}
@@ -4560,7 +4325,6 @@
 	father=12375591 # Takei Moriyoshi
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1204.01.01={
 		birth=yes
 	}
@@ -4574,7 +4338,6 @@
 	father=12375594 # Takei Yoshitsugu
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1227.1.1={
 		birth=yes
 	}
@@ -4588,7 +4351,6 @@
 	father=12375592 # Takei Moriharu
 	religion="shinto"
 	culture="koshin"
-	prowess=12
 	1200.01.01={
 		birth=yes
 	}
@@ -4602,7 +4364,6 @@
 	father=12375592 # Takei Moriharu
 	religion="shinto"
 	culture="koshin"
-	prowess=9
 	1202.1.1={
 		birth=yes
 	}
@@ -4616,7 +4377,6 @@
 	father=12375592 # Takei Moriharu
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1204.01.01={
 		birth=yes
 	}
@@ -4631,7 +4391,6 @@
 	father=12375592 # Takei Moriharu
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1201.01.01={
 		birth=yes
 	}
@@ -4645,7 +4404,6 @@
 	father=12375601 # Takei Kiyosuke
 	religion="shinto"
 	culture="koshin"
-	prowess=12
 	1227.1.1={
 		birth=yes
 	}
@@ -4659,7 +4417,6 @@
 	father=12375605 # Takei Morisuke
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1247.1.1={
 		birth=yes
 	}
@@ -4673,7 +4430,6 @@
 	father=12375605 # Takei Morisuke
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1249.1.1={
 		birth=yes
 	}
@@ -4687,7 +4443,6 @@
 	father=12375605 # Takei Morisuke
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1251.1.1={
 		birth=yes
 	}
@@ -4701,7 +4456,6 @@
 	father=12375605 # Takei Morisuke
 	religion="shinto"
 	culture="koshin"
-	prowess=12
 	1253.1.1={
 		birth=yes
 	}
@@ -4715,7 +4469,6 @@
 	father=12375606 # Takei Nobumori
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1272.1.1={
 		birth=yes
 	}
@@ -4731,7 +4484,6 @@
 	father=12375610 # Takei Nobukata
 	religion="shinto"
 	culture="koshin"
-	prowess=9
 	1297.1.1={
 		birth=yes
 	}
@@ -4747,7 +4499,6 @@
 	father=12375611 # Takei Nobuyoshi
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1322.1.1={
 		birth=yes
 	}
@@ -4761,7 +4512,6 @@
 	father=12375612 # Takei Nobunori
 	religion="shinto"
 	culture="koshin"
-	prowess=12
 	1347.1.1={
 		birth=yes
 	}
@@ -4775,7 +4525,6 @@
 	father=12375612 # Takei Nobunori
 	religion="shinto"
 	culture="koshin"
-	prowess=9
 	1350.1.1={
 		birth=yes
 	}
@@ -4789,7 +4538,6 @@
 	father=12375616 # Takei Tsunenori
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1375.1.1={
 		birth=yes
 	}
@@ -4803,7 +4551,6 @@
 	father=12375616 # Takei Tsunenori
 	religion="shinto"
 	culture="koshin"
-	prowess=12
 	1377.1.1={
 		birth=yes
 	}
@@ -4817,7 +4564,6 @@
 	father=12375618 # Takei Tsunehiro
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1402.01.01={
 		birth=yes
 	}
@@ -4831,7 +4577,6 @@
 	father=12375621 # Takei Tsunenobu
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1427.1.1={
 		birth=yes
 	}
@@ -4845,7 +4590,6 @@
 	father=12375622 # Takei Norinobu
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1452.1.1={
 		birth=yes
 	}
@@ -4859,7 +4603,6 @@
 	father=12375623 # Takei Kuninobu
 	religion="shinto"
 	culture="koshin"
-	prowess=12
 	1477.1.1={
 		birth=yes
 	}
@@ -4873,7 +4616,6 @@
 	father=12375624 # Takei Toshinobu
 	religion="shinto"
 	culture="koshin"
-	prowess=9
 	1502.1.1={
 		birth=yes
 	}
@@ -4887,7 +4629,6 @@
 	father=12375624 # Takei Toshinobu
 	religion="shinto"
 	culture="koshin"
-	prowess=12
 	1505.1.1={
 		birth=yes
 	}
@@ -4902,7 +4643,6 @@
 	religion="shinto"
 	culture="koshin"
 	trait="education_learning_4"
-	prowess=10
 	578.1.1={
 		birth=yes
 	}
@@ -4917,7 +4657,6 @@
 	religion="shinto"
 	culture="koshin"
 	trait="education_learning_4"
-	prowess=10
 	600.1.1={
 		birth=yes
 	}
@@ -4932,7 +4671,6 @@
 	religion="shinto"
 	culture="koshin"
 	trait="education_learning_4"
-	prowess=11
 	630.1.1={
 		birth=yes
 	}
@@ -4947,7 +4685,6 @@
 	religion="shinto"
 	culture="koshin"
 	trait="education_learning_4"
-	prowess=11
 	660.1.1={
 		birth=yes
 	}
@@ -4962,7 +4699,6 @@
 	religion="shinto"
 	culture="koshin"
 	trait="education_learning_4"
-	prowess=12
 	690.1.1={
 		birth=yes
 	}
@@ -4977,7 +4713,6 @@
 	religion="shinto"
 	culture="koshin"
 	trait="education_learning_4"
-	prowess=9
 	720.1.1={
 		birth=yes
 	}
@@ -4991,7 +4726,6 @@
 	father=12375802 # Miwahitobe Satano
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	0738.1.1={
 		birth=yes
 	}
@@ -5005,7 +4739,6 @@
 	father=12375802 # Miwahitobe Satano
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	0739.1.1={
 		birth=yes
 	}
@@ -5020,7 +4753,6 @@
 	religion="shinto"
 	culture="koshin"
 	trait="education_learning_4"
-	prowess=10
 	740.1.1={
 		birth=yes
 	}
@@ -5035,7 +4767,6 @@
 	religion="shinto"
 	culture="koshin"
 	trait="education_learning_4"
-	prowess=11
 	760.1.1={
 		birth=yes
 	}
@@ -5049,7 +4780,6 @@
 	father=12375805 # Miwahitobe Takatori
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	0765.1.1={
 		birth=yes
 	}
@@ -5064,7 +4794,6 @@
 	religion="shinto"
 	culture="koshin"
 	trait="education_learning_4"
-	prowess=9
 	780.1.1={
 		birth=yes
 	}
@@ -5079,7 +4808,6 @@
 	religion="shinto"
 	culture="koshin"
 	trait="education_learning_4"
-	prowess=10
 	790.1.1={
 		birth=yes
 	}
@@ -5093,7 +4821,6 @@
 	father=12375806 # Miwahitobe Shigeuo
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	0793.1.1={
 		birth=yes
 	}
@@ -5107,12 +4834,13 @@
 	father=12375806 # Miwahitobe Shigeuo
 	religion="shinto"
 	culture="koshin"
-	prowess=12
 	0796.1.1={
 		birth=yes
 	}
 	0806.1.1={
-		trait="devoted"
+		effect = {
+			add_trait = "devoted"
+		}
 	}
 	0846.1.1={
 		death=yes
@@ -5124,7 +4852,6 @@
 	father=12375809 # Miwahitobe Kiyosada
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	0815.01.01={
 		birth=yes
 	}
@@ -5139,7 +4866,6 @@
 	religion="shinto"
 	culture="koshin"
 	trait="education_learning_4"
-	prowess=10
 	820.1.1={
 		birth=yes
 	}
@@ -5153,7 +4879,6 @@
 	father=12375809 # Miwahitobe Kiyosada
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	0822.1.1={
 		birth=yes
 	}
@@ -5167,7 +4892,6 @@
 	father=12375809 # Miwahitobe Kiyosada
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	0824.1.1={
 		birth=yes
 	}
@@ -5181,7 +4905,6 @@
 	father=12375812 # Miwahitobe Kazushige
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	0840.01.01={
 		birth=yes
 	}
@@ -5195,7 +4918,6 @@
 	father=12375813 # Miwahitobe Kiyomasa
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	0845.1.1={
 		birth=yes
 	}
@@ -5209,7 +4931,6 @@
 	father=12375810 # Miwahitobe Kiyonori
 	religion="shinto"
 	culture="koshin"
-	prowess=9
 	0818.1.1={
 		birth=yes
 	}
@@ -5224,7 +4945,6 @@
 	religion="shinto"
 	culture="koshin"
 	trait="education_learning_4"
-	prowess=10
 	800.1.1={
 		birth=yes
 	}
@@ -5238,7 +4958,6 @@
 	father=12375808 # Miwahitobe Kiyonushi
 	religion="shinto"
 	culture="koshin"
-	prowess=12
 	0803.1.1={
 		birth=yes
 	}
@@ -5252,7 +4971,6 @@
 	father=12375808 # Miwahitobe Kiyonushi
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	0806.1.1={
 		birth=yes
 	}
@@ -5267,7 +4985,6 @@
 	religion="shinto"
 	culture="koshin"
 	trait="education_learning_4"
-	prowess=11
 	820.1.1={
 		birth=yes
 	}
@@ -5282,7 +4999,6 @@
 	religion="shinto"
 	culture="koshin"
 	trait="education_learning_4"
-	prowess=10
 	830.1.1={
 		birth=yes
 	}
@@ -5297,7 +5013,6 @@
 	religion="shinto"
 	culture="koshin"
 	trait="education_learning_4"
-	prowess=12
 	835.1.1={
 		birth=yes
 	}
@@ -5311,7 +5026,6 @@
 	father=12375823 # Miwahitobe Takesada
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	0845.1.1={
 		birth=yes
 	}
@@ -5325,7 +5039,6 @@
 	father=12375823 # Miwahitobe Takesada
 	religion="shinto"
 	culture="koshin"
-	prowess=9
 	0850.1.1={
 		birth=yes
 	}
@@ -5339,7 +5052,6 @@
 	father=12375825 # Miwahitobe Ototake
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	0860.01.01={
 		birth=yes
 	}
@@ -5353,7 +5065,6 @@
 	father=12375825 # Miwahitobe Ototake
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	0865.1.1={
 		birth=yes
 	}
@@ -5367,7 +5078,6 @@
 	father=12375828 # Miwahitobe Aritake
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	0885.1.1={
 		birth=yes
 	}
@@ -5381,7 +5091,6 @@
 	father=12375829 # Miwahitobe Sadamitsu
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	0890.01.01={
 		birth=yes
 	}
@@ -5396,7 +5105,6 @@
 	religion="shinto"
 	culture="koshin"
 	trait="education_learning_4"
-	prowess=11
 	860.1.1={
 		birth=yes
 	}
@@ -5410,7 +5118,6 @@
 	father=12375824 # Miwahitobe Takekata
 	religion="shinto"
 	culture="koshin"
-	prowess=12
 	0864.1.1={
 		birth=yes
 	}
@@ -5425,7 +5132,6 @@
 	religion="shinto"
 	culture="koshin"
 	trait="education_learning_4"
-	prowess=10
 	880.1.1={
 		birth=yes
 	}
@@ -5440,7 +5146,6 @@
 	religion="shinto"
 	culture="koshin"
 	trait="education_learning_4"
-	prowess=12
 	890.1.1={
 		birth=yes
 	}
@@ -5455,7 +5160,6 @@
 	religion="shinto"
 	culture="koshin"
 	trait="education_learning_4"
-	prowess=11
 	890.1.1={
 		birth=yes
 	}
@@ -5470,7 +5174,6 @@
 	religion="shinto"
 	culture="koshin"
 	trait="education_learning_4"
-	prowess=9
 	920.1.1={
 		birth=yes
 	}
@@ -5484,7 +5187,6 @@
 	father=12375836 # Miwahitobe Arimasu
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	0922.1.1={
 		birth=yes
 	}
@@ -5498,7 +5200,6 @@
 	father=12375836 # Miwahitobe Arimasu
 	religion="shinto"
 	culture="koshin"
-	prowess=9
 	0925.1.1={
 		birth=yes
 	}
@@ -5512,7 +5213,6 @@
 	father=12375838 # Miwahitobe Morimitsu
 	religion="shinto"
 	culture="koshin"
-	prowess=9
 	0947.1.1={
 		birth=yes
 	}
@@ -5526,7 +5226,6 @@
 	father=12375838 # Miwahitobe Morimitsu
 	religion="shinto"
 	culture="koshin"
-	prowess=12
 	0950.01.01={
 		birth=yes
 	}
@@ -5541,7 +5240,6 @@
 	religion="shinto"
 	culture="koshin"
 	trait="education_learning_4"
-	prowess=10
 	950.1.1={
 		birth=yes
 	}
@@ -5556,7 +5254,6 @@
 	religion="shinto"
 	culture="koshin"
 	trait="education_learning_4"
-	prowess=11
 	970.1.1={
 		birth=yes
 	}
@@ -5570,7 +5267,6 @@
 	father=12375842 # Miwahitobe Sadayori
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	0972.1.1={
 		birth=yes
 	}
@@ -5584,7 +5280,6 @@
 	father=12375842 # Miwahitobe Sadayori
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	0974.1.1={
 		birth=yes
 	}
@@ -5598,7 +5293,6 @@
 	father=12375842 # Miwahitobe Sadayori
 	religion="shinto"
 	culture="koshin"
-	prowess=12
 	0976.1.1={
 		birth=yes
 	}
@@ -5612,7 +5306,6 @@
 	father=12375845 # Miwahitobe Yoritaka
 	religion="shinto"
 	culture="koshin"
-	prowess=12
 	0999.1.1={
 		birth=yes
 	}
@@ -5626,7 +5319,6 @@
 	father=12375846 # Miwahitobe Yoritsugu
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1001.1.1={
 		birth=yes
 	}
@@ -5640,7 +5332,6 @@
 	father=12375846 # Miwahitobe Yoritsugu
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1004.1.1={
 		birth=yes
 	}
@@ -5655,7 +5346,6 @@
 	religion="shinto"
 	culture="koshin"
 	trait="education_learning_4"
-	prowess=10
 	990.1.1={
 		birth=yes
 	}
@@ -5669,7 +5359,6 @@
 	father=12375843 # Miwahitobe Yorihira
 	religion="shinto"
 	culture="koshin"
-	prowess=12
 	0995.1.1={
 		birth=yes
 	}
@@ -5684,7 +5373,6 @@
 	religion="shinto"
 	culture="koshin"
 	trait="education_learning_4"
-	prowess=11
 	1020.1.1={
 		birth=yes
 	}
@@ -5698,7 +5386,6 @@
 	father=12375850 # Miwahitobe Arinobu
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1022.1.1={
 		birth=yes
 	}
@@ -5712,7 +5399,6 @@
 	father=12375850 # Miwahitobe Arinobu
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1024.1.1={
 		birth=yes
 	}
@@ -5727,7 +5413,6 @@
 	religion="shinto"
 	culture="koshin"
 	trait="education_learning_4"
-	prowess=11
 	1045.1.1={
 		birth=yes
 	}
@@ -5744,7 +5429,6 @@
 	religion="shinto"
 	culture="koshin"
 	trait="education_learning_4"
-	prowess=10
 	1050.1.1={
 		birth=yes
 	}
@@ -5759,7 +5443,6 @@
 	religion="shinto"
 	culture="koshin"
 	trait="education_learning_4"
-	prowess=9
 	1055.1.1={
 		birth=yes
 	}
@@ -5774,7 +5457,6 @@
 	religion="shinto"
 	culture="koshin"
 	trait="education_learning_4"
-	prowess=10
 	1060.1.1={
 		birth=yes
 	}
@@ -5788,7 +5470,6 @@
 	father=12375852 # Miwahitobe tamenobu
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1062.1.1={
 		birth=yes
 	}
@@ -5803,7 +5484,6 @@
 	religion="shinto"
 	culture="koshin"
 	trait="education_learning_4"
-	prowess=10
 	1070.1.1={
 		birth=yes
 	}
@@ -5817,7 +5497,6 @@
 	father=12375860 # Suwa tamemori
 	religion="shinto"
 	culture="koshin"
-	prowess=12
 	1095.1.1={
 		birth=yes
 	}
@@ -5831,7 +5510,6 @@
 	father=12375861 # Suwa Moriyuki
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1120.01.01={
 		birth=yes
 	}
@@ -5845,7 +5523,6 @@
 	father=12375861 # Suwa Moriyuki
 	religion="shinto"
 	culture="koshin"
-	prowess=9
 	1122.1.1={
 		birth=yes
 	}
@@ -5859,7 +5536,6 @@
 	father=12375861 # Suwa Moriyuki
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1124.1.1={
 		birth=yes
 	}
@@ -5873,7 +5549,6 @@
 	father=12375861 # Suwa Moriyuki
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1127.1.1={
 		birth=yes
 	}
@@ -5887,7 +5562,6 @@
 	father=12375862 # Suwa Yukinaga
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1145.01.01={
 		birth=yes
 	}
@@ -5901,7 +5575,6 @@
 	father=12375862 # Suwa Yukinaga
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1147.01.01={
 		birth=yes
 	}
@@ -5915,7 +5588,6 @@
 	father=12375862 # Suwa Yukinaga
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1150.01.01={
 		birth=yes
 	}
@@ -5929,7 +5601,6 @@
 	father=12375862 # Suwa Yukinaga
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1154.01.01={
 		birth=yes
 	}
@@ -5943,7 +5614,6 @@
 	father=12375864 # Suwa Yukisuke
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1149.1.1={
 		birth=yes
 	}
@@ -5957,7 +5627,6 @@
 	father=12375864 # Suwa Yukisuke
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1151.1.1={
 		birth=yes
 	}
@@ -5971,7 +5640,6 @@
 	father=12375864 # Suwa Yukisuke
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1154.01.01={
 		birth=yes
 	}
@@ -5985,7 +5653,6 @@
 	father=12375864 # Suwa Yukisuke
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1156.01.01={
 		birth=yes
 	}
@@ -5999,7 +5666,6 @@
 	father=12375864 # Suwa Yukisuke
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1159.1.1={
 		birth=yes
 	}
@@ -6013,7 +5679,6 @@
 	father=12375872 # Suwa Yukikata
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1179.01.01={
 		birth=yes
 	}
@@ -6027,7 +5692,6 @@
 	father=12375874 # Suwa Yukikage
 	religion="shinto"
 	culture="koshin"
-	prowess=12
 	1184.1.1={
 		birth=yes
 	}
@@ -6041,7 +5705,6 @@
 	father=12375856 # Suwa tametsuna
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1075.01.01={
 		birth=yes
 	}
@@ -6055,7 +5718,6 @@
 	father=12375856 # Suwa tametsuna
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1080.01.01={
 		birth=yes
 	}
@@ -6069,7 +5731,6 @@
 	father=12375857 # Suwa tametsugu
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1080.01.01={
 		birth=yes
 	}
@@ -6083,7 +5744,6 @@
 	father=12375860 # Suwa tamemori
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1095.01.01={
 		birth=yes
 	}
@@ -6098,7 +5758,6 @@
 	religion="shinto"
 	culture="koshin"
 	trait="education_learning_4"
-	prowess=11
 	1080.1.1={
 		birth=yes
 	}
@@ -6112,7 +5771,6 @@
 	father=12375858 # Suwa tamesada
 	religion="shinto"
 	culture="koshin"
-	prowess=12
 	1085.1.1={
 		birth=yes
 	}
@@ -6126,7 +5784,6 @@
 	father=12375885 # Suwa Yorisada
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1110.01.01={
 		birth=yes
 	}
@@ -6141,7 +5798,6 @@
 	religion="shinto"
 	culture="koshin"
 	trait="education_learning_4"
-	prowess=10
 	1100.1.1={
 		birth=yes
 	}
@@ -6155,7 +5811,6 @@
 	father=12375884 # Suwa Atsusada
 	religion="shinto"
 	culture="koshin"
-	prowess=9
 	1102.1.1={
 		birth=yes
 	}
@@ -6169,7 +5824,6 @@
 	father=12375884 # Suwa Atsusada
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1105.1.1={
 		birth=yes
 	}
@@ -6183,7 +5837,6 @@
 	father=12375884 # Suwa Atsusada
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1107.1.1={
 		birth=yes
 	}
@@ -6198,7 +5851,6 @@
 	religion="shinto"
 	culture="koshin"
 	trait="education_learning_4"
-	prowess=10
 	1120.1.1={
 		birth=yes
 	}
@@ -6212,7 +5864,6 @@
 	father=12375890 # Suwa Sadakata
 	religion="shinto"
 	culture="koshin"
-	prowess=9
 	1122.1.1={
 		birth=yes
 	}
@@ -6226,7 +5877,6 @@
 	father=12375890 # Suwa Sadakata
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1125.01.01={
 		birth=yes
 	}
@@ -6240,7 +5890,6 @@
 	father=12375890 # Suwa Sadakata
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1127.1.1={
 		birth=yes
 	}
@@ -6254,7 +5903,6 @@
 	father=12375890 # Suwa Sadakata
 	religion="shinto"
 	culture="koshin"
-	prowess=9
 	1129.01.01={
 		birth=yes
 	}
@@ -6268,7 +5916,6 @@
 	father=12375890 # Suwa Sadakata
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1132.01.01={
 		birth=yes
 	}
@@ -6282,7 +5929,6 @@
 	father=12375900 # Suwa Norisada
 	religion="shinto"
 	culture="koshin"
-	prowess=9
 	1157.01.01={
 		birth=yes
 	}
@@ -6296,7 +5942,6 @@
 	father=12375891 # Suwa Atsuzane
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1120.1.1={
 		birth=yes
 	}
@@ -6310,7 +5955,6 @@
 	father=12375891 # Suwa Atsuzane
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1122.01.01={
 		birth=yes
 	}
@@ -6327,7 +5971,6 @@
 	father=12375902 # Suwa Norizane
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1152.01.01={
 		birth=yes
 	}
@@ -6341,7 +5984,6 @@
 	father=12375893 # Suwa Sadataka
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1132.1.1={
 		birth=yes
 	}
@@ -6355,7 +5997,6 @@
 	father=12375893 # Suwa Sadataka
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1134.1.1={
 		birth=yes
 	}
@@ -6369,7 +6010,7 @@
 	father=12375893 # Suwa Sadataka
 	religion="shinto"
 	culture="koshin"
-	prowess=11
+	trait="sharpshooter"
 	1136.1.1={
 		birth=yes
 	}
@@ -6383,7 +6024,6 @@
 	father=12375893 # Suwa Sadataka
 	religion="shinto"
 	culture="koshin"
-	prowess=9
 	1138.1.1={
 		birth=yes
 	}
@@ -6397,7 +6037,6 @@
 	father=12375893 # Suwa Sadataka
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1140.1.1={
 		birth=yes
 	}
@@ -6412,7 +6051,6 @@
 	religion="shinto"
 	culture="koshin"
 	trait="education_learning_4"
-	prowess=9
 	1150.1.1={
 		birth=yes
 	}
@@ -6426,7 +6064,6 @@
 	father=12375895 # Suwa Sadamitsu
 	religion="shinto"
 	culture="koshin"
-	prowess=9
 	1153.01.01={
 		birth=yes
 	}
@@ -6440,7 +6077,6 @@
 	father=12375895 # Suwa Sadamitsu
 	religion="shinto"
 	culture="koshin"
-	prowess=9
 	1156.01.01={
 		birth=yes
 	}
@@ -6454,7 +6090,6 @@
 	father=12375911 # Suwa Kiyosada
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1178.1.1={
 		birth=yes
 	}
@@ -6468,7 +6103,6 @@
 	father=12375911 # Suwa Kiyosada
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1180.01.01={
 		birth=yes
 	}
@@ -6482,7 +6116,6 @@
 	father=12375911 # Suwa Kiyosada
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1183.01.01={
 		birth=yes
 	}
@@ -6497,7 +6130,6 @@
 	religion="shinto"
 	culture="koshin"
 	trait="education_learning_4"
-	prowess=10
 	1170.1.1={
 		birth=yes
 	}
@@ -6511,7 +6143,6 @@
 	father=12375910 # Suwa Atsumitsu
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1172.01.01={
 		birth=yes
 	}
@@ -6525,7 +6156,6 @@
 	father=12375910 # Suwa Atsumitsu
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1174.1.1={
 		birth=yes
 	}
@@ -6539,7 +6169,6 @@
 	father=12375910 # Suwa Atsumitsu
 	religion="shinto"
 	culture="koshin"
-	prowess=12
 	1176.1.1={
 		birth=yes
 	}
@@ -6553,7 +6182,6 @@
 	father=12375910 # Suwa Atsumitsu
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1178.1.1={
 		birth=yes
 	}
@@ -6567,7 +6195,6 @@
 	father=12375910 # Suwa Atsumitsu
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1180.01.01={
 		birth=yes
 	}
@@ -6582,7 +6209,6 @@
 	religion="shinto"
 	culture="koshin"
 	trait="education_learning_4"
-	prowess=12
 	1190.1.1={
 		birth=yes
 	}
@@ -6596,7 +6222,6 @@
 	father=12375920 # Suwa Atsutada
 	religion="shinto"
 	culture="koshin"
-	prowess=9
 	1192.01.01={
 		birth=yes
 	}
@@ -6612,7 +6237,6 @@
 	father=12375920 # Suwa Atsutada
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1194.1.1={
 		birth=yes
 	}
@@ -6627,7 +6251,6 @@
 	religion="shinto"
 	culture="koshin"
 	trait="education_learning_4"
-	prowess=10
 	1190.1.1={
 		birth=yes
 	}
@@ -6641,7 +6264,6 @@
 	father=12375920 # Suwa Atsutada
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1202.1.1={
 		birth=yes
 	}
@@ -6655,7 +6277,6 @@
 	father=12375930 # Suwa Atsunobu
 	religion="shinto"
 	culture="koshin"
-	prowess=12
 	1206.01.01={
 		birth=yes
 	}
@@ -6670,7 +6291,6 @@
 	religion="shinto"
 	culture="koshin"
 	trait="education_learning_4"
-	prowess=10
 	1210.1.1={
 		birth=yes
 	}
@@ -6684,7 +6304,6 @@
 	father=12375930 # Suwa Atsunobu
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1213.01.01={
 		birth=yes
 	}
@@ -6698,7 +6317,6 @@
 	father=12375936 # Suwa Nobutoki
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1235.1.1={
 		birth=yes
 	}
@@ -6713,7 +6331,6 @@
 	father=12375936 # Suwa Nobutoki
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1238.1.1={
 		birth=yes
 	}
@@ -6728,7 +6345,6 @@
 	mother=12375941 # Suwa Nobuko
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1258.1.1={
 		birth=yes
 	}
@@ -6742,7 +6358,6 @@
 	father=12375940 # Suwa Nobutada
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1260.1.1={
 		birth=yes
 	}
@@ -6756,7 +6371,6 @@
 	father=12375935 # Suwa Nobushige
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1231.1.1={
 		birth=yes
 	}
@@ -6770,7 +6384,6 @@
 	father=12375935 # Suwa Nobushige
 	religion="shinto"
 	culture="koshin"
-	prowess=12
 	1234.1.1={
 		birth=yes
 	}
@@ -6784,7 +6397,6 @@
 	father=12375935 # Suwa Nobushige
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1236.1.1={
 		birth=yes
 	}
@@ -6798,7 +6410,6 @@
 	father=12375937 # Suwa Nobushige
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1238.1.1={
 		birth=yes
 	}
@@ -6812,7 +6423,6 @@
 	father=12375950 # Suwa Korenaga
 	religion="shinto"
 	culture="koshin"
-	prowess=9
 	1263.1.1={
 		birth=yes
 	}
@@ -6826,7 +6436,6 @@
 	father=12375951 # Suwa Yasushige
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1288.1.1={
 		birth=yes
 	}
@@ -6840,7 +6449,6 @@
 	father=12375951 # Suwa Yasushige
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1290.1.1={
 		birth=yes
 	}
@@ -6854,7 +6462,6 @@
 	father=12375952 # Suwa Nobuuji
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1313.1.1={
 		birth=yes
 	}
@@ -6868,7 +6475,6 @@
 	father=12375952 # Suwa Nobuuji
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1315.1.1={
 		birth=yes
 	}
@@ -6883,7 +6489,6 @@
 	religion="shinto"
 	culture="koshin"
 	trait="education_learning_4"
-	prowess=10
 	1210.1.1={
 		birth=yes
 	}
@@ -6898,7 +6503,6 @@
 	religion="shinto"
 	culture="koshin"
 	trait="education_learning_4"
-	prowess=11
 	1240.1.1={
 		birth=yes
 	}
@@ -6912,7 +6516,6 @@
 	father=12375960 # Suwa Morishige
 	religion="shinto"
 	culture="koshin"
-	prowess=12
 	1242.01.01={
 		birth=yes
 	}
@@ -6926,7 +6529,6 @@
 	father=12375960 # Suwa Morishige
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1244.1.1={
 		birth=yes
 	}
@@ -6940,7 +6542,6 @@
 	father=12375960 # Suwa Morishige
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1246.1.1={
 		birth=yes
 	}
@@ -6954,7 +6555,6 @@
 	father=12375960 # Suwa Morishige
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1248.1.1={
 		birth=yes
 	}
@@ -6968,7 +6568,6 @@
 	father=12375960 # Suwa Morishige
 	religion="shinto"
 	culture="koshin"
-	prowess=9
 	1250.01.01={
 		birth=yes
 	}
@@ -6983,7 +6582,6 @@
 	religion="shinto"
 	culture="koshin"
 	trait="education_learning_4"
-	prowess=10
 	1270.1.1={
 		birth=yes
 	}
@@ -6997,7 +6595,6 @@
 	father=12375961 # Suwa Yorishige
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1273.1.1={
 		birth=yes
 	}
@@ -7011,7 +6608,6 @@
 	father=12375961 # Suwa Yorishige
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1276.1.1={
 		birth=yes
 	}
@@ -7026,7 +6622,6 @@
 	religion="shinto"
 	culture="koshin"
 	trait="education_learning_4"
-	prowess=11
 	1305.1.1={
 		birth=yes
 	}
@@ -7041,7 +6636,6 @@
 	religion="shinto"
 	culture="koshin"
 	trait="education_learning_4"
-	prowess=11
 	1310.1.1={
 		birth=yes
 	}
@@ -7058,7 +6652,6 @@
 	religion="shinto"
 	culture="koshin"
 	trait="education_learning_4"
-	prowess=11
 	1315.1.1={
 		birth=yes
 	}
@@ -7072,7 +6665,6 @@
 	father=12375971 # Suwa Yoritsugu
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1330.01.01={
 		birth=yes
 	}
@@ -7087,7 +6679,6 @@
 	religion="shinto"
 	culture="koshin"
 	trait="education_learning_4"
-	prowess=11
 	1329.1.1={
 		birth=yes
 	}
@@ -7102,7 +6693,6 @@
 	religion="shinto"
 	culture="koshin"
 	trait="education_learning_4"
-	prowess=10
 	1330.1.1={
 		birth=yes
 	}
@@ -7116,7 +6706,6 @@
 	father=12375972 # Suwa Tsugumune
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1345.1.1={
 		birth=yes
 	}
@@ -7131,7 +6720,6 @@
 	religion="shinto"
 	culture="koshin"
 	trait="education_learning_4"
-	prowess=9
 	1360.1.1={
 		birth=yes
 	}
@@ -7146,7 +6734,6 @@
 	religion="shinto"
 	culture="koshin"
 	trait="education_learning_4"
-	prowess=10
 	1390.1.1={
 		birth=yes
 	}
@@ -7160,7 +6747,6 @@
 	father=12375979 # Takato Taigen
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1420.1.1={
 		birth=yes
 	}
@@ -7174,7 +6760,6 @@
 	father=12375980 # Takato Etsuzan
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1450.1.1={
 		birth=yes
 	}
@@ -7189,7 +6774,6 @@
 	father=12375980 # Takato Etsuzan
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1460.1.1={
 		birth=yes
 	}
@@ -7202,14 +6786,14 @@
 	dynasty=10000212 # Takato
 	father=12375981 # Takato Tsugumune
 	martial=7
-	diplomacy=6
-	intrigue=6
-	stewardship=7
-	learning=6
+	diplomacy=8
+	intrigue=7
+	stewardship=8
+	learning=8
 	religion="shinto"
 	culture="koshin"
 	trait="education_intrigue_1"
-	prowess=9
+	prowess=15
 	1480.1.1={
 		birth=yes
 	}
@@ -7221,11 +6805,11 @@
 	name=character_name_12375984 # Yoritsugu
 	dynasty=10000212 # Takato
 	father=12375983 # Takato Mitsutsugu
-	martial=5
-	diplomacy=6
-	intrigue=6
+	martial=7
+	diplomacy=8
+	intrigue=8
 	stewardship=7
-	learning=6
+	learning=8
 	religion="shinto"
 	culture="koshin"
 	trait="education_intrigue_1"
@@ -7249,7 +6833,6 @@
 	father=12375983 # Takato Mitsutsugu
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1515.1.1={
 		birth=yes
 	}
@@ -7267,7 +6850,6 @@
 	religion="shinto"
 	culture="koshin"
 	trait="education_learning_4"
-	prowess=10
 	1340.1.1={
 		birth=yes
 	}
@@ -7282,7 +6864,6 @@
 	religion="shinto"
 	culture="koshin"
 	trait="education_learning_4"
-	prowess=9
 	1370.1.1={
 		birth=yes
 	}
@@ -7296,7 +6877,6 @@
 	father=12375990 # Suwa Tadayori
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1373.1.1={
 		birth=yes
 	}
@@ -7311,7 +6891,6 @@
 	religion="shinto"
 	culture="koshin"
 	trait="education_learning_4"
-	prowess=12
 	1400.1.1={
 		birth=yes
 	}
@@ -7326,7 +6905,6 @@
 	religion="shinto"
 	culture="koshin"
 	trait="education_learning_4"
-	prowess=11
 	1425.1.1={
 		birth=yes
 	}
@@ -7340,7 +6918,6 @@
 	father=12375993 # Suwa Aritsugu
 	religion="shinto"
 	culture="koshin"
-	prowess=12
 	1422.1.1={
 		birth=yes
 	}
@@ -7355,7 +6932,6 @@
 	religion="shinto"
 	culture="koshin"
 	trait="education_learning_4"
-	prowess=11
 	1450.1.1={
 		birth=yes
 	}
@@ -7370,7 +6946,6 @@
 	religion="shinto"
 	culture="koshin"
 	trait="education_learning_4"
-	prowess=11
 	1455.1.1={
 		birth=yes
 	}
@@ -7384,7 +6959,6 @@
 	father=12375994
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1455.1.1={
 		birth=yes
 	}
@@ -7400,7 +6974,6 @@
 	father=12375994
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1460.1.1={
 		birth=yes
 	}
@@ -7414,7 +6987,6 @@
 	father=12375994 # Suwa Nobumitsu
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1462.1.1={
 		birth=yes
 	}
@@ -7428,7 +7000,6 @@
 	father=12375994 # Suwa Nobumitsu
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1464.1.1={
 		birth=yes
 	}
@@ -7442,7 +7013,6 @@
 	father=12375994 # Suwa Nobumitsu
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1466.1.1={
 		birth=yes
 	}
@@ -7456,7 +7026,6 @@
 	father=12376000
 	religion="shinto"
 	culture="koshin"
-	prowess=12
 	1471.1.1={
 		birth=yes
 	}
@@ -7470,7 +7039,6 @@
 	father=12376000
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1472.1.1={
 		birth=yes
 	}
@@ -7484,15 +7052,15 @@
 	father=12376000
 	religion="shinto"
 	culture="koshin"
-	diplomacy=6
-	martial=6
-	stewardship=8
-	intrigue=6
-	learning=6
+	diplomacy=7
+	martial=7
+	stewardship=9
+	intrigue=9
+	learning=10
 	trait="education_diplomacy_3"
 	trait="intellect_good_2"
 	trait="brave"
-	prowess=10
+	prowess=11
 	1473.1.1={
 		birth=yes
 	}
@@ -7507,7 +7075,6 @@
 	father=12376000
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1477.1.1={
 		birth=yes
 	}
@@ -7521,7 +7088,6 @@
 	father=12376001
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1480.1.1={
 		birth=yes
 	}
@@ -7535,7 +7101,6 @@
 	father=12376001
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1485.1.1={
 		birth=yes
 	}
@@ -7549,7 +7114,6 @@
 	father=12376006
 	religion="shinto"
 	culture="koshin"
-	prowess=9
 	1490.1.1={
 		birth=yes
 	}
@@ -7561,16 +7125,16 @@
 	name=character_name_12376012 # Yoritaka
 	dynasty=10000210 # Suwa
 	father=12376007
-	martial=6
-	diplomacy=6
-	intrigue=6
-	stewardship=5
-	learning=6
+	martial=7
+	diplomacy=9
+	intrigue=7
+	stewardship=7
+	learning=10
 	religion="shinto"
 	culture="koshin"
 	trait="education_intrigue_2"
 	trait="brave"
-	prowess=12
+	prowess=11
 	1490.1.1={
 		birth=yes
 	}
@@ -7584,7 +7148,6 @@
 	father=12376007
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1495.1.1={
 		birth=yes
 	}
@@ -7598,13 +7161,13 @@
 	father=12376007
 	religion="shinto"
 	culture="koshin"
-	diplomacy=6
+	diplomacy=7
 	martial=7
 	stewardship=7
-	intrigue=5
-	learning=8
+	intrigue=7
+	learning=10
 	trait="education_martial_2"
-	prowess=14
+	prowess=15
 	1501.1.1={
 		birth=yes
 	}
@@ -7618,7 +7181,6 @@
 	father=12376007
 	religion="shinto"
 	culture="koshin"
-	prowess=9
 	1510.1.1={
 		birth=yes
 	}
@@ -7635,7 +7197,6 @@
 	father=12376007
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1515.1.1={
 		birth=yes
 	}
@@ -7649,7 +7210,6 @@
 	father=12375992 # Suwa Yorisada
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1398.1.1={
 		birth=yes
 	}
@@ -7663,7 +7223,6 @@
 	father=12375992 # Suwa Yorisada
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1400.01.01={
 		birth=yes
 	}
@@ -7677,7 +7236,6 @@
 	father=12376021 # Suwa Mitsuari
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1425.01.01={
 		birth=yes
 	}
@@ -7691,7 +7249,6 @@
 	father=12376021 # Suwa Mitsuari
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1428.1.1={
 		birth=yes
 	}
@@ -7705,7 +7262,6 @@
 	father=12376021 # Suwa Mitsuari
 	religion="shinto"
 	culture="koshin"
-	prowess=9
 	1430.1.1={
 		birth=yes
 	}
@@ -7719,7 +7275,6 @@
 	father=12376024 # Suwa Shogetsu
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1455.01.01={
 		birth=yes
 	}
@@ -7733,7 +7288,6 @@
 	father=12375934 # Suwa Suketada
 	religion="shinto"
 	culture="koshin"
-	prowess=9
 	1227.1.1={
 		birth=yes
 	}
@@ -7747,7 +7301,6 @@
 	father=12376030 # Suwa Yoritada
 	religion="shinto"
 	culture="koshin"
-	prowess=12
 	1260.1.1={
 		birth=yes
 	}
@@ -7761,7 +7314,6 @@
 	father=12376030 # Suwa Yoritada
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1265.01.01={
 		birth=yes
 	}
@@ -7776,7 +7328,6 @@
 	father=12376030 # Suwa Yoritada
 	religion="shinto"
 	culture="koshin"
-	prowess=12
 	1262.1.1={
 		birth=yes
 	}
@@ -7790,7 +7341,6 @@
 	father=12376032 # Suwa Tokimitsu
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1290.1.1={
 		birth=yes
 	}
@@ -7804,7 +7354,6 @@
 	father=12376031 # Suwa Moritada
 	religion="shinto"
 	culture="koshin"
-	prowess=12
 	1295.1.1={
 		birth=yes
 	}
@@ -7821,7 +7370,6 @@
 	father=12376035 # Suwa Mitsutada
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1320.1.1={
 		birth=yes
 	}
@@ -7838,7 +7386,6 @@
 	father=12376035 # Suwa Mitsutada
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1325.1.1={
 		birth=yes
 	}
@@ -7855,7 +7402,6 @@
 	father=12376035 # Suwa Mitsutada
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1330.01.01={
 		birth=yes
 	}
@@ -7873,7 +7419,6 @@
 	father=12376036 # Suwa Sadatsugu
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1345.1.1={
 		birth=yes
 		employer=12139028 # Ashikaga Takauji
@@ -7889,7 +7434,6 @@
 	father=12376037 # Suwa Yasutsugu
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1345.1.1={
 		birth=yes
 		employer=12139028 # Ashikaga Takauji
@@ -7905,7 +7449,6 @@
 	father=12395035 # Kira Mitsusada
 	religion="shinto"
 	culture="koshin"
-	prowess=12
 	1365.01.01={
 		birth=yes
 		employer=10040002 # Ashikaga Yoshiakira
@@ -7920,7 +7463,6 @@
 	father=12376042 # Suwa Mitsutsugu
 	religion="shinto"
 	culture="koshin"
-	prowess=12
 	1390.01.01={
 		birth=yes
 		employer=10040003 # Ashikaga Yoshimitsu
@@ -7935,7 +7477,6 @@
 	father=12376042 # Suwa Mitsutsugu
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1392.1.1={
 		birth=yes
 		employer=10040003 # Ashikaga Yoshimitsu
@@ -7950,13 +7491,14 @@
 	father=12376042 # Suwa Mitsutsugu
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1394.1.1={
 		birth=yes
 		employer=10040004 # Ashikaga Yoshimochi
 	}
 	1404.1.1={
-		trait="devoted"
+		effect = {
+			add_trait = "devoted"
+		}
 	}
 	1444.1.1={
 		death=yes
@@ -7968,13 +7510,14 @@
 	father=12376042 # Suwa Mitsutsugu
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1396.1.1={
 		birth=yes
 		employer=10040004 # Ashikaga Yoshimochi
 	}
 	1406.1.1={
-		trait="devoted"
+		effect = {
+			add_trait = "devoted"
+		}
 	}
 	1446.1.1={
 		death=yes
@@ -7986,7 +7529,6 @@
 	father=12376042 # Suwa Mitsutsugu
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1398.1.1={
 		birth=yes
 		employer=10040004 # Ashikaga Yoshimochi
@@ -8001,7 +7543,6 @@
 	father=12376042 # Suwa Mitsutsugu
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1400.1.1={
 		birth=yes
 		employer=10040004 # Ashikaga Yoshimochi
@@ -8016,7 +7557,6 @@
 	father=12376048 # Suwa Arinobu
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1425.01.01={
 		birth=yes
 		employer=10040005 # Ashikaga Yoshikazu
@@ -8031,7 +7571,6 @@
 	father=12376050 # Suwa Tadayasu
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1450.01.01={
 		birth=yes
 		employer=10040008 # Ashikaga Yoshimasa
@@ -8046,14 +7585,15 @@
 	father=12376050 # Suwa Tadayasu
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1455.01.01={
 		birth=yes
 		employer=10040008 # Ashikaga Yoshimasa
 	}
 	1465.1.1={
-		trait="devoted"
-#		trait="zen_buddhist"
+		effect = {
+			add_trait = "devoted"
+#			add_trait = "zen_buddhist"
+		}
 	}
 	1505.01.01={
 		death=yes
@@ -8065,7 +7605,6 @@
 	father=12376043 # Suwa Tadatsugu
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1425.01.01={
 		birth=yes
 		employer=10040005 # Ashikaga Yoshikazu
@@ -8080,7 +7619,6 @@
 	father=12376043 # Suwa Tadatsugu
 	religion="shinto"
 	culture="koshin"
-	prowess=12
 	1427.01.01={
 		birth=yes
 		employer=10040004 # Ashikaga Yoshimochi
@@ -8095,7 +7633,6 @@
 	father=12376055 # Suwa Tadasato
 	religion="shinto"
 	culture="koshin"
-	prowess=9
 	1445.1.1={
 		birth=yes
 	}
@@ -8103,7 +7640,9 @@
 		employer=10040008 # Ashikaga Yoshimasa
 	}
 	1465.1.1={
-		trait="jugoi_ge"
+		effect = {
+			add_trait = "jugoi_ge"
+		}
 	}
 	1515.1.1={
 		death=yes
@@ -8115,7 +7654,6 @@
 	father=12376055 # Suwa Tadasato
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1450.1.1={
 		birth=yes
 		employer=10040008 # Ashikaga Yoshimasa
@@ -8131,7 +7669,6 @@
 	father=12376055 # Suwa Tadasato
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1447.01.01={
 		birth=yes
 		employer=10040008 # Ashikaga Yoshimasa
@@ -8146,7 +7683,6 @@
 	father=12376060 # Suwa Sadamichi
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1470.1.1={
 		birth=yes
 		employer=10040008 # Ashikaga Yoshimasa
@@ -8161,7 +7697,6 @@
 	father=12376064 # Suwa Sadatsugu
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1490.1.1={
 		birth=yes
 	}
@@ -8178,13 +7713,14 @@
 	father=12376066 # Suwa Nagatoshi
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1510.1.1={
 		birth=yes
 		employer=10040011 # Ashikaga Yoshiki
 	}
 	1530.1.1={
-		trait="jugoi_ge"
+		effect = {
+			add_trait = "jugoi_ge"
+		}
 	}
 	1570.1.1={
 		death=yes
@@ -8196,7 +7732,6 @@
 	father=12376070 # Suwa Harunaga
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1530.01.01={
 		birth=yes
 		employer=10040000 # Ashikaga Yoshiharu
@@ -8211,7 +7746,6 @@
 	father=12375903 # Suwa Mitsuchika
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1142.01.01={
 		birth=yes
 	}
@@ -8230,7 +7764,6 @@
 	father=12375903 # Suwa Mitsuchika
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1144.01.01={
 		birth=yes
 	}
@@ -8247,7 +7780,7 @@
 	father=12376101 # Chino Kiyosada
 	religion="shinto"
 	culture="koshin"
-	prowess=10
+	trait="sharpshooter"
 	1162.01.01={
 		birth=yes
 	}
@@ -8261,7 +7794,6 @@
 	father=12376102 # Fujisawa Kiyochika
 	religion="shinto"
 	culture="koshin"
-	prowess=9
 	1187.1.1={
 		birth=yes
 	}
@@ -8275,7 +7807,6 @@
 	father=12376102 # Fujisawa Kiyochika
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1189.1.1={
 		birth=yes
 	}
@@ -8289,7 +7820,6 @@
 	father=12376102 # Fujisawa Kiyochika
 	religion="shinto"
 	culture="koshin"
-	prowess=9
 	1191.01.01={
 		birth=yes
 	}
@@ -8303,7 +7833,6 @@
 	father=12376105 # Fujisawa Kiyomasa
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1210.1.1={
 		birth=yes
 	}
@@ -8317,7 +7846,6 @@
 	father=12376105 # Fujisawa Kiyomasa
 	religion="shinto"
 	culture="koshin"
-	prowess=12
 	1213.01.01={
 		birth=yes
 	}
@@ -8331,7 +7859,6 @@
 	father=12376107 # Fujisawa Mitsukiyo
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1216.01.01={
 		birth=yes
 	}
@@ -8345,7 +7872,6 @@
 	father=12376107 # Fujisawa Mitsukiyo
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1218.1.1={
 		birth=yes
 	}
@@ -8359,7 +7885,6 @@
 	father=12376114 # Fujisawa Kiyotoki
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1243.01.01={
 		birth=yes
 	}
@@ -8373,7 +7898,6 @@
 	father=12376111 # Fujisawa Kiyonobu
 	religion="shinto"
 	culture="koshin"
-	prowess=12
 	1238.01.01={
 		birth=yes
 	}
@@ -8387,7 +7911,6 @@
 	father=12376110 # Fujisawa Tomokiyo
 	religion="shinto"
 	culture="koshin"
-	prowess=9
 	1235.1.1={
 		birth=yes
 	}
@@ -8401,7 +7924,6 @@
 	father=12376120 # Fujisawa Masayori
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1255.01.01={
 		birth=yes
 	}
@@ -8415,7 +7937,6 @@
 	father=12376121 # Fujisawa Masatsune
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1280.1.1={
 		birth=yes
 	}
@@ -8429,7 +7950,6 @@
 	father=12376122 # Fujisawa Nobumasa
 	religion="shinto"
 	culture="koshin"
-	prowess=9
 	1300.01.01={
 		birth=yes
 	}
@@ -8443,7 +7963,6 @@
 	father=12376122 # Fujisawa Nobumasa
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1303.1.1={
 		birth=yes
 	}
@@ -8457,7 +7976,6 @@
 	father=12376124 # Fujisawa Tsunemasa
 	religion="shinto"
 	culture="koshin"
-	prowess=9
 	1328.1.1={
 		birth=yes
 	}
@@ -8471,7 +7989,6 @@
 	father=12376125 # Fujisawa Nobukiyo
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1353.1.1={
 		birth=yes
 	}
@@ -8485,7 +8002,6 @@
 	father=12376126 # Fujisawa Yorikiyo
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1378.1.1={
 		birth=yes
 	}
@@ -8499,7 +8015,6 @@
 	father=12376127 # Fujisawa Ariie
 	religion="shinto"
 	culture="koshin"
-	prowess=12
 	1408.1.1={
 		birth=yes
 	}
@@ -8513,7 +8028,6 @@
 	father=12376128 # Fujisawa Arimasa
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1438.1.1={
 		birth=yes
 	}
@@ -8527,7 +8041,6 @@
 	father=12376129 # Fujisawa Nobuari
 	religion="shinto"
 	culture="koshin"
-	prowess=12
 	1463.1.1={
 		birth=yes
 	}
@@ -8541,7 +8054,6 @@
 	father=12376130 # Fujisawa Mitsuie
 	religion="shinto"
 	culture="koshin"
-	prowess=12
 	1493.1.1={
 		birth=yes
 	}
@@ -8554,12 +8066,17 @@
 	dynasty=10005603 # Nakahara
 	religion="shinto"
 	culture="koshin"
-	learning=6
+	martial=7
+	diplomacy=9
+	learning=1
 	trait="education_martial_2"
 	trait="compassionate"
-	prowess=14
+	prowess=15
 	1121.1.1={
 		birth=yes
+	}
+	1180.1.1={
+		give_nickname="nick_gon_no_kami"
 	}
 	1181.1.1={
 		death=yes
@@ -8571,12 +8088,16 @@
 	father=12380100 # Nakahara Kaneto
 	religion="shinto"
 	culture="koshin"
-	learning=7
+	martial=8
+	learning=1
 	trait="education_martial_3"
 	trait="intellect_good_2"
-	prowess=14
+	prowess=18
 	1152.1.1={
 		birth=yes
+	}
+	1168.1.1={
+		give_nickname="nick_jio"
 	}
 	1180.6.15={
 		employer=10120084 # Minamoto Yoshinaka
@@ -8591,12 +8112,16 @@
 	father=12380100 # Nakahara Kaneto
 	religion="shinto"
 	culture="koshin"
-	learning=5
+	martial=9
+	learning=1
 	trait="education_martial_3"
 	trait="brave"
-	prowess=15
+	prowess=19
 	1154.1.1={
 		birth=yes
+	}
+	1170.1.1={
+		give_nickname="nick_shiro"
 	}
 	1180.6.15={
 		employer=10120084 # Minamoto Yoshinaka
@@ -8612,11 +8137,13 @@
 	father=12380100 # Nakahara Kaneto
 	religion="shinto"
 	culture="koshin"
-	learning=7
+	martial=9
+	learning=1
 	trait="education_martial_3"
 	trait="strong"
-	trait="beauty_good_2"
-	prowess=14
+	trait="beauty_good_3"
+#	trait="female_commander"
+	prowess=19
 	1156.1.1={
 		birth=yes
 	}
@@ -8630,10 +8157,15 @@
 	father=12380100 # Nakahara Kaneto
 	religion="shinto"
 	culture="koshin"
-	learning=4
-	prowess=10
+	martial=7
+	learning=1
+	trait="education_martial_3"
+	prowess=17
 	1158.1.1={
 		birth=yes
+	}
+	1174.1.1={
+		give_nickname="nick_goro"
 	}
 	1180.6.15={
 		employer=10120084 # Minamoto Yoshinaka
@@ -8648,8 +8180,7 @@
 	father=10260413 # Shigeno Tamemichi
 	religion="shinto"
 	culture="koshin"
-	learning=6
-	prowess=10
+	learning=1
 	1040.1.1={
 		birth=yes
 	}
@@ -8663,8 +8194,7 @@
 	father=12380300 # Mochizuki Norishige
 	religion="shinto"
 	culture="koshin"
-	learning=5
-	prowess=11
+	learning=1
 	1065.1.1={
 		birth=yes
 	}
@@ -8678,8 +8208,7 @@
 	father=12380300 # Mochizuki Norishige
 	religion="shinto"
 	culture="koshin"
-	learning=6
-	prowess=10
+	learning=1
 	1067.1.1={
 		birth=yes
 	}
@@ -8693,8 +8222,7 @@
 	father=12380300 # Mochizuki Norishige
 	religion="shinto"
 	culture="koshin"
-	learning=6
-	prowess=11
+	learning=1
 	1070.1.1={
 		birth=yes
 	}
@@ -8708,8 +8236,7 @@
 	father=12380301 # Mochizuki Shigemichi
 	religion="shinto"
 	culture="koshin"
-	learning=7
-	prowess=10
+	learning=1
 	1100.1.1={
 		birth=yes
 	}
@@ -8723,8 +8250,7 @@
 	father=12380304 # Unno Hiromichi
 	religion="shinto"
 	culture="koshin"
-	learning=6
-	prowess=11
+	learning=1
 	1125.1.1={
 		birth=yes
 	}
@@ -8738,10 +8264,12 @@
 	father=12380304 # Unno Hiromichi
 	religion="shinto"
 	culture="koshin"
-	learning=5
-	prowess=10
+	learning=1
 	1130.1.1={
 		birth=yes
+	}
+	1146.1.1={
+		give_nickname="nick_Tarotaro"
 	}
 	1184.3.4={
 		death=yes
@@ -8753,10 +8281,12 @@
 	father=12380306 # Unno Yukichika
 	religion="shinto"
 	culture="koshin"
-	learning=5
-	prowess=9
+	learning=1
 	1150.1.1={
 		birth=yes
+	}
+	1166.1.1={
+		give_nickname="nick_Heishiro"
 	}
 	1183.11.17={
 		death=yes
@@ -8768,13 +8298,14 @@
 	father=12380306 # Unno Yukichika
 	religion="shinto"
 	culture="koshin"
-	learning=6
-	prowess=9
+	learning=1
 	1157.1.1={
 		birth=yes
 	}
 	1177.1.1={
-		trait="devoted"
+		effect = {
+			add_trait = "devoted"
+		}
 	}
 	1221.6.28={
 		death=yes
@@ -8786,12 +8317,16 @@
 	father=12380310 # Unno Yukihiro
 	religion="shinto"
 	culture="koshin"
-	learning=7
+	martial=8
+	learning=1
 	trait="education_martial_3"
-	trait="strong"
-	prowess=14
+	trait="sharpshooter"
+	prowess=18
 	1172.1.1={
 		birth=yes
+	}
+	1188.1.1={
+		give_nickname="nick_Tarotaro"
 	}
 	1251.1.1={
 		death=yes
@@ -8803,8 +8338,7 @@
 	father=12380310 # Unno Yukihiro
 	religion="shinto"
 	culture="koshin"
-	learning=5
-	prowess=10
+	learning=1
 	1175.1.1={
 		birth=yes
 	}
@@ -8818,8 +8352,7 @@
 	father=12380312 # Unno Yukiuji
 	religion="shinto"
 	culture="koshin"
-	learning=6
-	prowess=10
+	learning=1
 	1190.1.1={
 		birth=yes
 	}
@@ -8833,8 +8366,7 @@
 	father=12380312 # Unno Yukiuji
 	religion="shinto"
 	culture="koshin"
-	learning=6
-	prowess=11
+	learning=1
 	1192.1.1={
 		birth=yes
 	}
@@ -8848,8 +8380,7 @@
 	father=12380312 # Unno Yukiuji
 	religion="shinto"
 	culture="koshin"
-	learning=4
-	prowess=9
+	learning=1
 	1193.1.1={
 		birth=yes
 	}
@@ -8863,8 +8394,7 @@
 	father=12380312 # Unno Yukiuji
 	religion="shinto"
 	culture="koshin"
-	learning=4
-	prowess=10
+	learning=1
 	1225.1.1={
 		birth=yes
 	}
@@ -8878,8 +8408,7 @@
 	father=12380312 # Unno Yukiuji
 	religion="shinto"
 	culture="koshin"
-	learning=7
-	prowess=11
+	learning=1
 	1230.1.1={
 		birth=yes
 	}
@@ -8893,8 +8422,7 @@
 	father=12380315 # Unno Yukifusa
 	religion="shinto"
 	culture="koshin"
-	learning=7
-	prowess=11
+	learning=1
 	1208.1.1={
 		birth=yes
 	}
@@ -8908,8 +8436,7 @@
 	father=12380315 # Unno Yukifusa
 	religion="shinto"
 	culture="koshin"
-	learning=7
-	prowess=12
+	learning=1
 	1209.1.1={
 		birth=yes
 	}
@@ -8923,8 +8450,7 @@
 	father=12380315 # Unno Yukifusa
 	religion="shinto"
 	culture="koshin"
-	learning=6
-	prowess=9
+	learning=1
 	1210.1.1={
 		birth=yes
 	}
@@ -8938,8 +8464,7 @@
 	father=12380315 # Unno Yukifusa
 	religion="shinto"
 	culture="koshin"
-	learning=7
-	prowess=10
+	learning=1
 	1211.1.1={
 		birth=yes
 	}
@@ -8953,8 +8478,7 @@
 	father=12380315 # Unno Yukifusa
 	religion="shinto"
 	culture="koshin"
-	learning=8
-	prowess=10
+	learning=1
 	1212.1.1={
 		birth=yes
 	}
@@ -8968,8 +8492,7 @@
 	father=12380315 # Unno Yukifusa
 	religion="shinto"
 	culture="koshin"
-	learning=5
-	prowess=10
+	learning=1
 	1213.1.1={
 		birth=yes
 	}
@@ -8983,8 +8506,7 @@
 	father=12380317 # Unno Yukifusa
 	religion="shinto"
 	culture="koshin"
-	learning=5
-	prowess=11
+	learning=1
 	1225.1.1={
 		birth=yes
 	}
@@ -8998,8 +8520,7 @@
 	father=12380330 # Unno Yukifusa
 	religion="shinto"
 	culture="koshin"
-	learning=6
-	prowess=11
+	learning=1
 	1250.1.1={
 		birth=yes
 	}
@@ -9013,8 +8534,7 @@
 	father=12380335 # Unno Yukifusa
 	religion="shinto"
 	culture="koshin"
-	learning=5
-	prowess=12
+	learning=1
 	1275.1.1={
 		birth=yes
 	}
@@ -9028,8 +8548,7 @@
 	father=12380340 # Unno Yukifusa
 	religion="shinto"
 	culture="koshin"
-	learning=4
-	prowess=9
+	learning=1
 	1300.1.1={
 		birth=yes
 	}
@@ -9043,8 +8562,7 @@
 	father=12380340 # Unno Yukifusa
 	religion="shinto"
 	culture="koshin"
-	learning=7
-	prowess=12
+	learning=1
 	1302.1.1={
 		birth=yes
 	}
@@ -9058,8 +8576,7 @@
 	father=12380345 # Unno Yukifusa
 	religion="shinto"
 	culture="koshin"
-	learning=5
-	prowess=10
+	learning=1
 	1330.1.1={
 		birth=yes
 	}
@@ -9073,8 +8590,7 @@
 	father=12380350 # Unno Yukifusa
 	religion="shinto"
 	culture="koshin"
-	learning=6
-	prowess=10
+	learning=1
 	1360.1.1={
 		birth=yes
 	}
@@ -9088,8 +8604,7 @@
 	father=12380350 # Unno Yukifusa
 	religion="shinto"
 	culture="koshin"
-	learning=5
-	prowess=11
+	learning=1
 	1362.1.1={
 		birth=yes
 	}
@@ -9104,7 +8619,6 @@
 	religion="shinto"
 	culture="koshin"
 	trait="education_martial_1"
-	prowess=10
 	1390.1.1={
 		birth=yes
 	}
@@ -9118,13 +8632,13 @@
 	father=12380360
 	religion="shinto"
 	culture="koshin"
-	martial=6
-	diplomacy=6
-	intrigue=7
-	stewardship=6
-	learning=7
+	martial=7
+	diplomacy=9
+	intrigue=6
+	stewardship=7
+	learning=5
 	trait="education_martial_2"
-	prowess=13
+	prowess=15
 	1410.1.1={
 		birth=yes
 	}
@@ -9137,14 +8651,14 @@
 	dynasty=10000211 # Unno
 	father=12380365
 	martial=7
-	diplomacy=6
+	diplomacy=8
 	intrigue=7
-	stewardship=7
-	learning=6
+	stewardship=8
+	learning=5
 	religion="shinto"
 	culture="koshin"
 	trait="education_martial_2"
-	prowess=13
+	prowess=15
 	1430.1.1={
 		birth=yes
 	}
@@ -9158,7 +8672,6 @@
 	father=12380365 # Unno Mochiyuki
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1432.1.1={
 		birth=yes
 	}
@@ -9170,15 +8683,15 @@
 	name=character_name_12380375 # Yukimune
 	dynasty=10000211 # Unno
 	father=12380370
-	martial=6
-	diplomacy=5
-	intrigue=6
-	stewardship=5
-	learning=6
+	martial=8
+	diplomacy=7
+	intrigue=8
+	stewardship=7
+	learning=5
 	religion="shinto"
 	culture="koshin"
 	trait="education_martial_2"
-	prowess=13
+	prowess=16
 	1460.1.1={
 		birth=yes
 	}
@@ -9192,8 +8705,7 @@
 	father=12380302 # Mochizuki Naoie
 	religion="shinto"
 	culture="koshin"
-	learning=5
-	prowess=11
+	learning=1
 	1100.1.1={
 		birth=yes
 	}
@@ -9207,8 +8719,7 @@
 	father=12380400 # Nedu Michinao
 	religion="shinto"
 	culture="koshin"
-	learning=7
-	prowess=10
+	learning=1
 	1125.1.1={
 		birth=yes
 	}
@@ -9222,8 +8733,7 @@
 	father=12380400 # Nedu Michinao
 	religion="shinto"
 	culture="koshin"
-	learning=6
-	prowess=11
+	learning=1
 	1130.1.1={
 		birth=yes
 	}
@@ -9237,8 +8747,7 @@
 	father=12380401 # Nedu Sadanao
 	religion="shinto"
 	culture="koshin"
-	learning=6
-	prowess=11
+	learning=1
 	1150.1.1={
 		birth=yes
 	}
@@ -9252,8 +8761,7 @@
 	father=12380401 # Nedu Sadanao
 	religion="shinto"
 	culture="koshin"
-	learning=6
-	prowess=11
+	learning=1
 	1152.1.1={
 		birth=yes
 	}
@@ -9267,8 +8775,7 @@
 	father=12380401 # Nedu Sadanao
 	religion="shinto"
 	culture="koshin"
-	learning=6
-	prowess=12
+	learning=1
 	1155.1.1={
 		birth=yes
 	}
@@ -9282,8 +8789,7 @@
 	father=12380401 # Nedu Sadanao
 	religion="shinto"
 	culture="koshin"
-	learning=7
-	prowess=11
+	learning=1
 	1157.1.1={
 		birth=yes
 	}
@@ -9297,8 +8803,7 @@
 	father=12380401 # Nedu Sadanao
 	religion="shinto"
 	culture="koshin"
-	learning=7
-	prowess=11
+	learning=1
 	1160.1.1={
 		birth=yes
 	}
@@ -9315,8 +8820,7 @@
 	father=12380410 # Nedu Munenao
 	religion="shinto"
 	culture="koshin"
-	learning=7
-	prowess=9
+	learning=1
 	1170.1.1={
 		birth=yes
 	}
@@ -9330,8 +8834,7 @@
 	father=12380420 # Nedu Munemichi
 	religion="shinto"
 	culture="koshin"
-	learning=7
-	prowess=10
+	learning=1
 	1190.1.1={
 		birth=yes
 	}
@@ -9345,8 +8848,7 @@
 	father=12380425 # Nedu Atsumune
 	religion="shinto"
 	culture="koshin"
-	learning=7
-	prowess=11
+	learning=1
 	1210.1.1={
 		birth=yes
 	}
@@ -9360,8 +8862,7 @@
 	father=12380430 # Nedu Munehira
 	religion="shinto"
 	culture="koshin"
-	learning=6
-	prowess=11
+	learning=1
 	1230.1.1={
 		birth=yes
 	}
@@ -9375,8 +8876,7 @@
 	father=12380435 # Nedu Mitsunaga
 	religion="shinto"
 	culture="koshin"
-	learning=7
-	prowess=11
+	learning=1
 	1250.1.1={
 		birth=yes
 	}
@@ -9390,8 +8890,7 @@
 	father=12380440 # Nedu Mitsuyoshi
 	religion="shinto"
 	culture="koshin"
-	learning=4
-	prowess=10
+	learning=1
 	1270.1.1={
 		birth=yes
 	}
@@ -9405,8 +8904,7 @@
 	father=12380440 # Nedu Mitsuyoshi
 	religion="shinto"
 	culture="koshin"
-	learning=6
-	prowess=11
+	learning=1
 	1272.1.1={
 		birth=yes
 	}
@@ -9420,7 +8918,6 @@
 	father=12380414 # Kasuga Sadachika
 	religion="shinto"
 	culture="koshin"
-	prowess=9
 	1180.01.01={
 		birth=yes
 	}
@@ -9434,7 +8931,6 @@
 	father=12380414 # Kasuga Sadachika
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1183.01.01={
 		birth=yes
 	}
@@ -9448,7 +8944,6 @@
 	father=12380445 # Nedu Shigetsuna
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1290.1.1={
 		birth=yes
 	}
@@ -9462,7 +8957,6 @@
 	father=12380445 # Nedu Shigetsuna
 	religion="shinto"
 	culture="koshin"
-	prowess=9
 	1292.1.1={
 		birth=yes
 	}
@@ -9476,7 +8970,6 @@
 	father=12380445 # Nedu Shigetsuna
 	religion="shinto"
 	culture="koshin"
-	prowess=12
 	1294.1.1={
 		birth=yes
 	}
@@ -9490,7 +8983,6 @@
 	father=12380452 # Nedu Yukisada
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1320.1.1={
 		birth=yes
 	}
@@ -9504,7 +8996,6 @@
 	father=12380455 # Nedu Munesada
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1340.1.1={
 		birth=yes
 	}
@@ -9519,7 +9010,6 @@
 	father=12380460 # Nedu Tomitsu
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1360.1.1={
 		birth=yes
 	}
@@ -9533,7 +9023,6 @@
 	mother=12380461 # Nedu Totoumi
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1380.1.1={
 		birth=yes
 	}
@@ -9547,7 +9036,6 @@
 	father=12380463 # Nedu Tokisada
 	religion="shinto"
 	culture="koshin"
-	prowess=12
 	1410.1.1={
 		birth=yes
 	}
@@ -9561,7 +9049,6 @@
 	father=12380466 # Nedu Nobusada
 	religion="shinto"
 	culture="koshin"
-	prowess=9
 	1430.1.1={
 		birth=yes
 	}
@@ -9575,7 +9062,6 @@
 	father=12380470 # Nedu Mitsunao
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1460.1.1={
 		birth=yes
 	}
@@ -9589,7 +9075,6 @@
 	father=12380473 # Nedu Tadanao
 	religion="shinto"
 	culture="koshin"
-	prowess=9
 	1490.1.1={
 		birth=yes
 	}
@@ -9603,7 +9088,6 @@
 	father=12380473 # Nedu Tadanao
 	religion="shinto"
 	culture="koshin"
-	prowess=12
 	1500.1.1={
 		birth=yes
 	}
@@ -9619,8 +9103,8 @@
 	culture="koshin"
 	trait="education_martial_3"
 	trait="falconer"
-	martial=4
-	prowess=13
+	martial=8
+	prowess=18
 	1520.1.1={
 		birth=yes
 	}
@@ -9634,7 +9118,6 @@
 	father=12380476 # Nedu Motonao
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1522.1.1={
 		birth=yes
 	}
@@ -9649,7 +9132,6 @@
 	father=12380476 # Nedu Motonao
 	religion="shinto"
 	culture="koshin"
-	prowess=12
 	1527.1.1={
 		birth=yes
 	}
@@ -9663,7 +9145,6 @@
 	father=12380480 # Nedu Masanao
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1550.1.1={
 		birth=yes
 	}
@@ -9677,7 +9158,6 @@
 	father=12380481 # Nedu Nobutada
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1560.1.1={
 		birth=yes
 	}
@@ -9691,7 +9171,6 @@
 	father=12380477 # Nedu Nobunao
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1540.1.1={
 		birth=yes
 	}
@@ -9705,8 +9184,7 @@
 	father=12380303 # Mochizuki Shigetoshi
 	religion="shinto"
 	culture="koshin"
-	learning=6
-	prowess=9
+	learning=1
 	1090.1.1={
 		birth=yes
 	}
@@ -9720,8 +9198,7 @@
 	father=12380303 # Mochizuki Shigetoshi
 	religion="shinto"
 	culture="koshin"
-	learning=6
-	prowess=10
+	learning=1
 	1095.1.1={
 		birth=yes
 	}
@@ -9735,8 +9212,7 @@
 	father=12380303 # Mochizuki Shigetoshi
 	religion="shinto"
 	culture="koshin"
-	learning=6
-	prowess=10
+	learning=1
 	1096.1.1={
 		birth=yes
 	}
@@ -9750,8 +9226,7 @@
 	father=12380303 # Mochizuki Shigetoshi
 	religion="shinto"
 	culture="koshin"
-	learning=7
-	prowess=10
+	learning=1
 	1098.1.1={
 		birth=yes
 	}
@@ -9765,8 +9240,7 @@
 	father=12380500 # Mochizuki Hiroshige
 	religion="shinto"
 	culture="koshin"
-	learning=5
-	prowess=9
+	learning=1
 	1110.1.1={
 		birth=yes
 	}
@@ -9780,8 +9254,7 @@
 	father=12380500 # Mochizuki Hiroshige
 	religion="shinto"
 	culture="koshin"
-	learning=6
-	prowess=10
+	learning=1
 	1111.1.1={
 		birth=yes
 	}
@@ -9795,8 +9268,7 @@
 	father=12380500 # Mochizuki Hiroshige
 	religion="shinto"
 	culture="koshin"
-	learning=6
-	prowess=10
+	learning=1
 	1113.1.1={
 		birth=yes
 	}
@@ -9810,13 +9282,14 @@
 	father=12380500 # Mochizuki Hiroshige
 	religion="shinto"
 	culture="koshin"
-	learning=7
-	prowess=9
+	learning=1
 	1116.1.1={
 		birth=yes
 	}
 	1126.1.1={
-		trait="devoted"
+		effect = {
+			add_trait = "devoted"
+		}
 	}
 	1176.1.1={
 		death=yes
@@ -9828,8 +9301,7 @@
 	father=12380500 # Mochizuki Hiroshige
 	religion="shinto"
 	culture="koshin"
-	learning=7
-	prowess=10
+	learning=1
 	1120.1.1={
 		birth=yes
 	}
@@ -9843,8 +9315,7 @@
 	father=12380505 # Mochizuki Kunishige
 	religion="shinto"
 	culture="koshin"
-	learning=6
-	prowess=11
+	learning=1
 	1128.1.1={
 		birth=yes
 	}
@@ -9858,8 +9329,7 @@
 	father=12380505 # Mochizuki Kunishige
 	religion="shinto"
 	culture="koshin"
-	learning=6
-	prowess=10
+	learning=1
 	1129.1.1={
 		birth=yes
 	}
@@ -9873,8 +9343,7 @@
 	father=12380505 # Mochizuki Kunishige
 	religion="shinto"
 	culture="koshin"
-	learning=5
-	prowess=10
+	learning=1
 	1130.1.1={
 		birth=yes
 	}
@@ -9888,8 +9357,7 @@
 	father=12380505 # Mochizuki Kunishige
 	religion="shinto"
 	culture="koshin"
-	learning=7
-	prowess=10
+	learning=1
 	1131.1.1={
 		birth=yes
 	}
@@ -9903,8 +9371,7 @@
 	father=12380505 # Mochizuki Kunishige
 	religion="shinto"
 	culture="koshin"
-	learning=6
-	prowess=10
+	learning=1
 	1132.1.1={
 		birth=yes
 	}
@@ -9918,8 +9385,7 @@
 	father=12380505 # Mochizuki Kunishige
 	religion="shinto"
 	culture="koshin"
-	learning=5
-	prowess=11
+	learning=1
 	1133.1.1={
 		birth=yes
 	}
@@ -9933,8 +9399,7 @@
 	father=12380505 # Mochizuki Kunishige
 	religion="shinto"
 	culture="koshin"
-	learning=6
-	prowess=12
+	learning=1
 	1134.1.1={
 		birth=yes
 	}
@@ -9948,11 +9413,16 @@
 	father=12380505 # Mochizuki Kunishige
 	religion="shinto"
 	culture="koshin"
-	learning=5
+	martial=8
+	stewardship=8
+	learning=1
 	trait="education_martial_3"
-	prowess=14
+	prowess=18
 	1135.1.1={
 		birth=yes
+	}
+	1151.1.1={
+		give_nickname="nick_shiro"
 	}
 	1155.1.1={
 		dynasty=10006162 # Nenoi
@@ -9967,10 +9437,12 @@
 	father=12380506 # Nagase Chikashige
 	religion="shinto"
 	culture="koshin"
-	learning=6
-	prowess=10
+	learning=1
 	1135.1.1={
 		birth=yes
+	}
+	1180.1.1={
+		give_nickname="nick_hangandai"
 	}
 	1180.6.15={
 		employer=10120084 # Minamoto Yoshinaka
@@ -9985,8 +9457,7 @@
 	father=12380510 # Mochizuki Yukishige
 	religion="shinto"
 	culture="koshin"
-	learning=6
-	prowess=11
+	learning=1
 	1150.1.1={
 		birth=yes
 	}
@@ -10000,8 +9471,7 @@
 	father=12380511 # Mochizuki Kunichika
 	religion="shinto"
 	culture="koshin"
-	learning=8
-	prowess=10
+	learning=1
 	1155.1.1={
 		birth=yes
 	}
@@ -10015,8 +9485,7 @@
 	father=12380511 # Mochizuki Kunichika
 	religion="shinto"
 	culture="koshin"
-	learning=7
-	prowess=10
+	learning=1
 	1157.1.1={
 		birth=yes
 	}
@@ -10030,10 +9499,11 @@
 	father=12380511 # Mochizuki Kunichika
 	religion="shinto"
 	culture="koshin"
-	learning=5
+	martial=9
+	learning=1
 	trait="education_martial_2"
-	trait="strong"
-	prowess=12
+	trait="sharpshooter"
+	prowess=17
 	1160.1.1={
 		birth=yes
 	}
@@ -10047,9 +9517,8 @@
 	father=12380514 # Mochizuki Shigeyasu
 	religion="shinto"
 	culture="koshin"
-	learning=6
+	learning=1
 	trait="education_martial_3"
-	prowess=14
 	1152.1.1={
 		birth=yes
 	}
@@ -10063,8 +9532,7 @@
 	father=12380514 # Mochizuki Shigeyasu
 	religion="shinto"
 	culture="koshin"
-	learning=5
-	prowess=11
+	learning=1
 	1155.1.1={
 		birth=yes
 	}
@@ -10078,8 +9546,7 @@
 	father=12380516 # Mochizuki Kunitsuna
 	religion="shinto"
 	culture="koshin"
-	learning=7
-	prowess=10
+	learning=1
 	1154.1.1={
 		birth=yes
 	}
@@ -10093,8 +9560,7 @@
 	father=12380517 # Nenoi Yukichika
 	religion="shinto"
 	culture="koshin"
-	learning=6
-	prowess=11
+	learning=1
 	1155.1.1={
 		birth=yes
 	}
@@ -10108,10 +9574,12 @@
 	father=12380517 # Nenoi Yukichika
 	religion="shinto"
 	culture="koshin"
-	learning=6
-	prowess=11
+	learning=1
 	1160.1.1={
 		birth=yes
+	}
+	1176.1.1={
+		give_nickname="nick_rokuro"
 	}
 	1184.3.4={
 		death=yes
@@ -10123,8 +9591,7 @@
 	father=12380517 # Nenoi Yukichika
 	religion="shinto"
 	culture="koshin"
-	learning=6
-	prowess=10
+	learning=1
 	1153.1.1={
 		birth=yes
 	}
@@ -10138,8 +9605,7 @@
 	father=12380517 # Nenoi Yukichika
 	religion="shinto"
 	culture="koshin"
-	learning=5
-	prowess=11
+	learning=1
 	1154.1.1={
 		birth=yes
 	}
@@ -10153,8 +9619,7 @@
 	father=12380523 # Mochizuki Shigetaka
 	religion="shinto"
 	culture="koshin"
-	learning=8
-	prowess=11
+	learning=1
 	1190.1.1={
 		birth=yes
 	}
@@ -10168,8 +9633,7 @@
 	father=12380523 # Mochizuki Shigetaka
 	religion="shinto"
 	culture="koshin"
-	learning=6
-	prowess=11
+	learning=1
 	1191.1.1={
 		birth=yes
 	}
@@ -10183,8 +9647,7 @@
 	father=12380540 # Mochizuki Morishige
 	religion="shinto"
 	culture="koshin"
-	learning=5
-	prowess=11
+	learning=1
 	1220.1.1={
 		birth=yes
 	}
@@ -10198,8 +9661,7 @@
 	father=12380540 # Mochizuki Morishige
 	religion="shinto"
 	culture="koshin"
-	learning=6
-	prowess=11
+	learning=1
 	1222.1.1={
 		birth=yes
 	}
@@ -10213,8 +9675,7 @@
 	father=12380540 # Mochizuki Morishige
 	religion="shinto"
 	culture="koshin"
-	learning=7
-	prowess=11
+	learning=1
 	1225.1.1={
 		birth=yes
 	}
@@ -10228,8 +9689,7 @@
 	father=12380545 # Mochizuki Muneshige
 	religion="shinto"
 	culture="koshin"
-	learning=7
-	prowess=11
+	learning=1
 	1250.1.1={
 		birth=yes
 	}
@@ -10243,8 +9703,7 @@
 	father=12380545 # Mochizuki Muneshige
 	religion="shinto"
 	culture="koshin"
-	learning=7
-	prowess=12
+	learning=1
 	1255.1.1={
 		birth=yes
 	}
@@ -10258,8 +9717,7 @@
 	father=12380546 # Mochizuki Sukeshige
 	religion="shinto"
 	culture="koshin"
-	learning=6
-	prowess=9
+	learning=1
 	1242.1.1={
 		birth=yes
 	}
@@ -10273,8 +9731,7 @@
 	father=12380550 # Mochizuki Shigemasa
 	religion="shinto"
 	culture="koshin"
-	learning=7
-	prowess=10
+	learning=1
 	1275.1.1={
 		birth=yes
 	}
@@ -10288,8 +9745,7 @@
 	father=12380551 # Mochizuki Harushige
 	religion="shinto"
 	culture="koshin"
-	learning=5
-	prowess=9
+	learning=1
 	1285.1.1={
 		birth=yes
 	}
@@ -10303,8 +9759,7 @@
 	father=12380553 # Mochizuki Yukishige
 	religion="shinto"
 	culture="koshin"
-	learning=6
-	prowess=12
+	learning=1
 	1272.1.1={
 		birth=yes
 	}
@@ -10318,8 +9773,7 @@
 	father=12380553 # Mochizuki Yukishige
 	religion="shinto"
 	culture="koshin"
-	learning=7
-	prowess=11
+	learning=1
 	1275.1.1={
 		birth=yes
 	}
@@ -10333,7 +9787,6 @@
 	father=12380545 # Mochiduki Muneshige
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1260.1.1={
 		birth=yes
 	}
@@ -10347,7 +9800,6 @@
 	father=12380560 # Mochiduki Shigekore
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1290.1.1={
 		birth=yes
 	}
@@ -10361,7 +9813,6 @@
 	father=12380563 # Mochiduki Shigenobu
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1320.1.1={
 		birth=yes
 	}
@@ -10375,7 +9826,6 @@
 	father=12380566 # Mochiduki Mitsutsune
 	religion="shinto"
 	culture="koshin"
-	prowess=12
 	1350.1.1={
 		birth=yes
 	}
@@ -10389,7 +9839,6 @@
 	father=12380570 # Mochiduki Moriyo
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1380.1.1={
 		birth=yes
 	}
@@ -10403,7 +9852,6 @@
 	father=12380573 # Mochiduki Moritsune
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1410.1.1={
 		birth=yes
 	}
@@ -10417,7 +9865,6 @@
 	father=12380576 # Mochiduki Mitsumori
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1440.1.1={
 		birth=yes
 	}
@@ -10431,7 +9878,6 @@
 	father=12380580 # Mochiduki Mitsushige
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1470.1.1={
 		birth=yes
 	}
@@ -10445,7 +9891,6 @@
 	father=12380583 # Mochiduki Morimasa
 	religion="shinto"
 	culture="koshin"
-	prowess=9
 	1490.1.1={
 		birth=yes
 	}
@@ -10459,7 +9904,6 @@
 	father=12380583 # Mochiduki Morimasa
 	religion="shinto"
 	culture="koshin"
-	prowess=12
 	1492.1.1={
 		birth=yes
 	}
@@ -10474,7 +9918,6 @@
 	father=12380583 # Mochiduki Morimasa
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1520.1.1={
 		birth=yes
 	}
@@ -10488,7 +9931,6 @@
 	father=12380587 # Mochiduki Moritoki
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1518.1.1={
 		birth=yes
 	}
@@ -10502,7 +9944,6 @@
 	father=12380411 # Nedu Sadayuki
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1190.1.1={
 		birth=yes
 	}
@@ -10516,7 +9957,6 @@
 	father=12380600 # Kosaka Munekiyo
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1220.1.1={
 		birth=yes
 	}
@@ -10530,7 +9970,6 @@
 	father=12380603 # Kosaka Muneatsu
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1250.1.1={
 		birth=yes
 	}
@@ -10544,7 +9983,6 @@
 	father=12380606 # Kosaka Munezane
 	religion="shinto"
 	culture="koshin"
-	prowess=9
 	1280.1.1={
 		birth=yes
 	}
@@ -10558,7 +9996,6 @@
 	father=12380606 # Kosaka Munezane
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1282.1.1={
 		birth=yes
 	}
@@ -10572,7 +10009,6 @@
 	father=12380611 # Kosaka Munekuni
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1320.1.1={
 		birth=yes
 	}
@@ -10586,7 +10022,6 @@
 	father=12380611 # Kosaka Munekuni
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1322.1.1={
 		birth=yes
 	}
@@ -10600,7 +10035,6 @@
 	father=12380613 # Kosaka Takamune
 	religion="shinto"
 	culture="koshin"
-	prowess=12
 	1350.1.1={
 		birth=yes
 	}
@@ -10614,7 +10048,6 @@
 	father=12380614 # Kosaka Takayuki
 	religion="shinto"
 	culture="koshin"
-	prowess=9
 	1352.1.1={
 		birth=yes
 	}
@@ -10628,7 +10061,6 @@
 	father=12380620 # Kosaka Tokumoto
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1380.1.1={
 		birth=yes
 	}
@@ -10642,7 +10074,6 @@
 	father=12380623 # Kosaka Munetane
 	religion="shinto"
 	culture="koshin"
-	prowess=9
 	1410.1.1={
 		birth=yes
 	}
@@ -10656,7 +10087,6 @@
 	father=12380626 # Kosaka Arimune
 	religion="shinto"
 	culture="koshin"
-	prowess=9
 	1440.1.1={
 		birth=yes
 	}
@@ -10670,7 +10100,6 @@
 	father=12380630 # Kosaka Tadamune
 	religion="shinto"
 	culture="koshin"
-	prowess=12
 	1470.1.1={
 		birth=yes
 	}
@@ -10684,7 +10113,6 @@
 	father=12380633 # Kosaka Munetoshi
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1500.1.1={
 		birth=yes
 	}
@@ -10699,7 +10127,6 @@
 	father=12380636 # Kosaka Muneshige
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1530.1.1={
 		birth=yes
 	}
@@ -10714,7 +10141,6 @@
 	religion="shinto"
 	culture="koshin"
 	trait="bastard"
-	prowess=9
 	1185.1.1={
 		birth=yes
 	}
@@ -10728,7 +10154,6 @@
 	father=12381000 # 
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1205.1.1={
 		birth=yes
 	}
@@ -10742,7 +10167,6 @@
 	father=12381005 # 
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1230.1.1={
 		birth=yes
 	}
@@ -10756,7 +10180,6 @@
 	father=12381010 # 
 	religion="shinto"
 	culture="koshin"
-	prowess=12
 	1250.1.1={
 		birth=yes
 	}
@@ -10770,7 +10193,6 @@
 	father=12381015 # 
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1270.1.1={
 		birth=yes
 	}
@@ -10784,7 +10206,6 @@
 	father=12381020 # 
 	religion="shinto"
 	culture="koshin"
-	prowess=12
 	1292.1.1={
 		birth=yes
 	}
@@ -10798,7 +10219,6 @@
 	father=12381020 # 
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1294.1.1={
 		birth=yes
 	}
@@ -10812,7 +10232,6 @@
 	father=12381026 # 
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1320.1.1={
 		birth=yes
 	}
@@ -10826,7 +10245,6 @@
 	father=12381030 # 
 	religion="shinto"
 	culture="koshin"
-	prowess=9
 	1340.1.1={
 		birth=yes
 	}
@@ -10840,7 +10258,6 @@
 	father=12381035 # 
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1360.1.1={
 		birth=yes
 	}
@@ -10854,7 +10271,6 @@
 	father=12381040 # 
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1380.1.1={
 		birth=yes
 	}
@@ -10868,7 +10284,6 @@
 	father=12381045 # 
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1400.1.1={
 		birth=yes
 	}
@@ -10882,8 +10297,7 @@
 	father=10120225 # Minamoto Morimitsu
 	religion="shinto"
 	culture="koshin"
-	learning=5
-	prowess=11
+	learning=1
 	1125.1.1={
 		birth=yes
 	}
@@ -10897,8 +10311,7 @@
 	father=12385000 # Murakami Tamekuni
 	religion="shinto"
 	culture="koshin"
-	learning=5
-	prowess=10
+	learning=1
 	1143.1.1={
 		birth=yes
 	}
@@ -10912,8 +10325,7 @@
 	father=12385000 # Murakami Tamekuni
 	religion="shinto"
 	culture="koshin"
-	learning=6
-	prowess=9
+	learning=1
 	1145.1.1={
 		birth=yes
 	}
@@ -10927,13 +10339,14 @@
 	father=12385000 # Murakami Tamekuni
 	religion="shinto"
 	culture="koshin"
-	learning=7
-	prowess=11
+	learning=1
 	1145.1.1={
 		birth=yes
 	}
 	1165.1.1={
-		trait="jugoi_ge"
+		effect = {
+			add_trait = "jugoi_ge"
+		}
 	}
 	1205.1.1={
 		death=yes
@@ -10945,13 +10358,14 @@
 	father=12385000 # Murakami Tamekuni
 	religion="shinto"
 	culture="koshin"
-	learning=5
-	prowess=10
+	learning=1
 	1150.1.1={
 		birth=yes
 	}
 	1170.1.1={
-		trait="jushii_ge"
+		effect = {
+			add_trait = "jushii_ge"
+		}
 	}
 	1210.1.1={
 		death=yes
@@ -10963,8 +10377,7 @@
 	father=12385000 # Murakami Tamekuni
 	religion="shinto"
 	culture="koshin"
-	learning=6
-	prowess=11
+	learning=1
 	1155.1.1={
 		birth=yes
 	}
@@ -10979,11 +10392,8 @@
 	religion="shinto"
 	culture="koshin"
 	trait="devoted"
-	prowess=9
 	1156.1.1={
 		birth=yes
-	}
-	1166.1.1={
 	}
 	1200.1.1={
 		death=yes
@@ -10995,8 +10405,7 @@
 	father=12385012 # Murakami Nobukuni
 	religion="shinto"
 	culture="koshin"
-	learning=6
-	prowess=10
+	learning=1
 	1175.1.1={
 		birth=yes
 	}
@@ -11010,7 +10419,6 @@
 	father=12385020 # 
 	religion="shinto"
 	culture="koshin"
-	prowess=12
 	1200.1.1={
 		birth=yes
 	}
@@ -11024,7 +10432,6 @@
 	father=12385025 # 
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1225.1.1={
 		birth=yes
 	}
@@ -11038,7 +10445,6 @@
 	father=12385030 # 
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1250.1.1={
 		birth=yes
 	}
@@ -11052,7 +10458,6 @@
 	father=12385035 # 
 	religion="shinto"
 	culture="koshin"
-	prowess=12
 	1280.1.1={
 		birth=yes
 	}
@@ -11066,7 +10471,6 @@
 	father=12385035 # 
 	religion="shinto"
 	culture="koshin"
-	prowess=12
 	1290.1.1={
 		birth=yes
 	}
@@ -11080,7 +10484,6 @@
 	father=12385035 # 
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1292.1.1={
 		birth=yes
 	}
@@ -11094,7 +10497,6 @@
 	father=12385041 # 
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1320.1.1={
 		birth=yes
 	}
@@ -11108,7 +10510,6 @@
 	father=12385045 # 
 	religion="shinto"
 	culture="koshin"
-	prowess=12
 	1350.1.1={
 		birth=yes
 	}
@@ -11122,7 +10523,6 @@
 	father=12385050 # 
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1375.1.1={
 		birth=yes
 	}
@@ -11136,7 +10536,6 @@
 	father=12385055 # 
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1400.1.1={
 		birth=yes
 	}
@@ -11150,7 +10549,6 @@
 	father=12385042 # 
 	religion="shinto"
 	culture="koshin"
-	prowess=9
 	1322.1.1={
 		birth=yes
 	}
@@ -11164,7 +10562,6 @@
 	father=12385070 # 
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1350.1.1={
 		birth=yes
 	}
@@ -11178,7 +10575,6 @@
 	father=12385070 # 
 	religion="shinto"
 	culture="koshin"
-	prowess=9
 	1390.1.1={
 		birth=yes
 	}
@@ -11192,7 +10588,6 @@
 	father=12385075 # 
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1370.1.1={
 		birth=yes
 	}
@@ -11206,7 +10601,6 @@
 	father=12385080 # 
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1410.1.1={
 		birth=yes
 	}
@@ -11220,8 +10614,7 @@
 	father=10120037 # Minamoto Yorisue
 	religion="shinto"
 	culture="koshin"
-	learning=6
-	prowess=9
+	learning=1
 	1030.1.1={
 		birth=yes
 	}
@@ -11235,8 +10628,7 @@
 	father=12386100 # Inoue Mitsuzane
 	religion="shinto"
 	culture="koshin"
-	learning=6
-	prowess=10
+	learning=1
 	1060.1.1={
 		birth=yes
 	}
@@ -11250,8 +10642,7 @@
 	father=12386100 # Inoue Mitsuzane
 	religion="shinto"
 	culture="koshin"
-	learning=6
-	prowess=9
+	learning=1
 	1065.1.1={
 		birth=yes
 	}
@@ -11265,8 +10656,7 @@
 	father=12386100 # Inoue Mitsuzane
 	religion="shinto"
 	culture="koshin"
-	learning=6
-	prowess=10
+	learning=1
 	1070.1.1={
 		birth=yes
 	}
@@ -11280,8 +10670,7 @@
 	father=12386110 # Inoue Mitsuhira
 	religion="shinto"
 	culture="koshin"
-	learning=6
-	prowess=11
+	learning=1
 	1090.1.1={
 		birth=yes
 	}
@@ -11295,8 +10684,7 @@
 	father=12386120 # Inoue Mitsunaga
 	religion="shinto"
 	culture="koshin"
-	learning=7
-	prowess=12
+	learning=1
 	1120.1.1={
 		birth=yes
 	}
@@ -11310,8 +10698,7 @@
 	father=12386120 # Inoue Mitsunaga
 	religion="shinto"
 	culture="koshin"
-	learning=6
-	prowess=12
+	learning=1
 	1130.1.1={
 		birth=yes
 	}
@@ -11325,8 +10712,7 @@
 	father=12386130 # Inoue Kiyonaga
 	religion="shinto"
 	culture="koshin"
-	learning=6
-	prowess=10
+	learning=1
 	1140.1.1={
 		birth=yes
 	}
@@ -11340,8 +10726,7 @@
 	father=12386131 # Inoue Mitsumori
 	religion="shinto"
 	culture="koshin"
-	learning=7
-	prowess=11
+	learning=1
 	1160.1.1={
 		birth=yes
 	}
@@ -11355,8 +10740,7 @@
 	father=12386111 # Inoue Iemitsu
 	religion="shinto"
 	culture="koshin"
-	learning=8
-	prowess=11
+	learning=1
 	1095.1.1={
 		birth=yes
 	}
@@ -11370,8 +10754,7 @@
 	father=12386160 # Inoue Tadayoshi
 	religion="shinto"
 	culture="koshin"
-	learning=7
-	prowess=11
+	learning=1
 	1125.1.1={
 		birth=yes
 	}
@@ -11385,8 +10768,7 @@
 	father=12386170 # Murayama Yoshinao
 	religion="shinto"
 	culture="koshin"
-	learning=7
-	prowess=11
+	learning=1
 	1155.1.1={
 		birth=yes
 	}
@@ -11400,7 +10782,6 @@
 	father=10120022 # Minamoto Mitsukuni
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	980.1.1={
 		birth=yes
 	}
@@ -11414,7 +10795,6 @@
 	father=12386500 # Minamoto Tamemitsu
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1005.1.1={
 		birth=yes
 	}
@@ -11428,7 +10808,6 @@
 	father=12386501 # Minamoto Tametomo
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1040.1.1={
 		birth=yes
 	}
@@ -11442,7 +10821,6 @@
 	father=12386501 # Minamoto Tametomo
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1042.1.1={
 		birth=yes
 	}
@@ -11456,7 +10834,6 @@
 	father=12386501 # Minamoto Tametomo
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1044.1.1={
 		birth=yes
 	}
@@ -11470,7 +10847,6 @@
 	father=12386501 # Minamoto Tametomo
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1048.1.1={
 		birth=yes
 	}
@@ -11484,7 +10860,6 @@
 	father=12386506 # Minamoto Tamesuke
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1070.1.1={
 		birth=yes
 	}
@@ -11498,7 +10873,6 @@
 	father=12386506 # Minamoto Tamesuke
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1072.1.1={
 		birth=yes
 	}
@@ -11512,7 +10886,6 @@
 	father=12386506 # Minamoto Tamesuke
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1076.1.1={
 		birth=yes
 	}
@@ -11526,7 +10899,6 @@
 	father=12386501 # Minamoto Tametomo
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1046.1.1={
 		birth=yes
 	}
@@ -11540,7 +10912,6 @@
 	father=12386520 # Katagiri Tamemoto
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1080.1.1={
 		birth=yes
 	}
@@ -11555,7 +10926,6 @@
 	religion="shinto"
 	culture="koshin"
 	trait="education_martial_2"
-	prowess=13
 	1110.1.1={
 		birth=yes
 	}
@@ -11570,7 +10940,6 @@
 	religion="shinto"
 	culture="koshin"
 	trait="education_martial_2"
-	prowess=13
 	1140.1.1={
 		birth=yes
 	}
@@ -11584,7 +10953,6 @@
 	father=12386506 # Minamoto Tamesuke
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1078.1.1={
 		birth=yes
 	}
@@ -11598,7 +10966,6 @@
 	father=12386580 # Izumi Kagehira
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1122.1.1={
 		birth=yes
 	}
@@ -11612,7 +10979,6 @@
 	father=12386580 # Izumi Kagehira
 	religion="shinto"
 	culture="koshin"
-	prowess=9
 	1124.1.1={
 		birth=yes
 	}
@@ -11629,7 +10995,6 @@
 	trait="education_martial_2"
 	trait="strong"
 	trait="impatient"
-	prowess=12
 	1160.1.1={
 		birth=yes
 	}
@@ -11647,7 +11012,6 @@
 	religion="shinto"
 	culture="koshin"
 	trait="education_martial_2"
-	prowess=11
 	1190.1.1={
 		birth=yes
 	}
@@ -11661,7 +11025,6 @@
 	father=12386506 # Minamoto Tamesuke
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1074.1.1={
 		birth=yes
 	}
@@ -11676,7 +11039,6 @@
 	religion="shinto"
 	culture="koshin"
 	trait="education_martial_2"
-	prowess=12
 	1120.1.1={
 		birth=yes
 	}
@@ -11690,7 +11052,6 @@
 	father=12386601 # Yoda Sanenobu
 	religion="shinto"
 	culture="koshin"
-	prowess=12
 	1150.1.1={
 		birth=yes
 	}
@@ -11704,7 +11065,6 @@
 	father=12386605 # Yoda Yukitoshi
 	religion="shinto"
 	culture="koshin"
-	prowess=9
 	1180.1.1={
 		birth=yes
 	}
@@ -11718,7 +11078,6 @@
 	father=12386610 # Yoda Sukeyuki
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1210.1.1={
 		birth=yes
 	}
@@ -11732,7 +11091,6 @@
 	father=12386615 # Yoda Yuishin
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1240.1.1={
 		birth=yes
 	}
@@ -11746,7 +11104,6 @@
 	father=12386615 # Yoda Yuishin
 	religion="shinto"
 	culture="koshin"
-	prowess=9
 	1242.1.1={
 		birth=yes
 	}
@@ -11760,7 +11117,6 @@
 	father=12386621 # Yoda Tomoyuki
 	religion="shinto"
 	culture="koshin"
-	prowess=12
 	1270.1.1={
 		birth=yes
 	}
@@ -11774,7 +11130,6 @@
 	father=12386625 # Yoda Morinaga
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1310.1.1={
 		birth=yes
 	}
@@ -11788,7 +11143,6 @@
 	father=12386630 # Yoda Tsunemitsu
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1340.1.1={
 		birth=yes
 	}
@@ -11802,7 +11156,6 @@
 	father=12386635 # Yoda Tokitomo
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1370.1.1={
 		birth=yes
 	}
@@ -11816,7 +11169,6 @@
 	father=12386640 # Yoda Tsunemitsu
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1400.1.1={
 		birth=yes
 	}
@@ -11830,7 +11182,6 @@
 	father=12386645 # Ashida Mitsunori
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1430.1.1={
 		birth=yes
 	}
@@ -11844,7 +11195,6 @@
 	father=12386650 # Ashida Mitsuharu
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1460.1.1={
 		birth=yes
 	}
@@ -11858,7 +11208,6 @@
 	father=12386650 # Ashida Takaharu
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1470.1.1={
 		birth=yes
 	}
@@ -11875,8 +11224,8 @@
 	trait="education_martial_3"
 	trait="brave"
 	trait="patient"
-	martial=6
-	prowess=12
+	martial=8
+	prowess=18
 	1530.1.1={
 		birth=yes
 	}
@@ -11895,8 +11244,8 @@
 	trait="brave"
 	trait="patient"
 	trait="honest"
-	martial=4
-	prowess=15
+	martial=7
+	prowess=17
 	1548.1.1={
 		birth=yes
 	}
@@ -11911,8 +11260,8 @@
 	religion="shinto"
 	culture="koshin"
 	trait="education_martial_3"
-	martial=7
-	prowess=15
+	martial=8
+	prowess=18
 	1550.1.1={
 		birth=yes
 	}
@@ -11929,7 +11278,7 @@
 	trait="education_martial_3"
 	trait="brave"
 	martial=7
-	prowess=15
+	prowess=17
 	1570.1.1={
 		birth=yes
 	}
@@ -11945,8 +11294,8 @@
 	culture="koshin"
 	trait="education_martial_3"
 	trait="impatient"
-	martial=6
-	prowess=13
+	martial=7
+	prowess=17
 	1574.1.1={
 		birth=yes
 	}
@@ -11960,8 +11309,7 @@
 	father=12386112 # Takanashi Morimitsu
 	religion="shinto"
 	culture="koshin"
-	learning=5
-	prowess=10
+	learning=1
 	1100.1.1={
 		birth=yes
 	}
@@ -11975,7 +11323,6 @@
 	father=12386112 # 
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1110.1.1={
 		birth=yes
 	}
@@ -11989,8 +11336,7 @@
 	father=12387000 # Takanashi Tadamitsu
 	religion="shinto"
 	culture="koshin"
-	learning=6
-	prowess=10
+	learning=1
 	1130.1.1={
 		birth=yes
 	}
@@ -12004,8 +11350,7 @@
 	father=12387010 # Takanashi Tadanao
 	religion="shinto"
 	culture="koshin"
-	learning=6
-	prowess=10
+	learning=1
 	1160.1.1={
 		birth=yes
 	}
@@ -12019,7 +11364,6 @@
 	father=12387001 # 
 	religion="shinto"
 	culture="koshin"
-	prowess=12
 	1150.1.1={
 		birth=yes
 	}
@@ -12033,7 +11377,6 @@
 	father=12387030 # 
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1180.1.1={
 		birth=yes
 	}
@@ -12047,7 +11390,6 @@
 	father=12387035 # 
 	religion="shinto"
 	culture="koshin"
-	prowess=12
 	1220.1.1={
 		birth=yes
 	}
@@ -12061,7 +11403,6 @@
 	father=12387040 # 
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1250.1.1={
 		birth=yes
 	}
@@ -12075,7 +11416,6 @@
 	father=12387045 # 
 	religion="shinto"
 	culture="koshin"
-	prowess=9
 	1280.1.1={
 		birth=yes
 	}
@@ -12089,7 +11429,6 @@
 	father=12387050 # 
 	religion="shinto"
 	culture="koshin"
-	prowess=9
 	1310.1.1={
 		birth=yes
 	}
@@ -12103,7 +11442,6 @@
 	father=12387055 # 
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1340.1.1={
 		birth=yes
 	}
@@ -12117,7 +11455,6 @@
 	father=12387060 # 
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1360.1.1={
 		birth=yes
 	}
@@ -12131,7 +11468,6 @@
 	father=12387065 # 
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1380.1.1={
 		birth=yes
 	}
@@ -12145,7 +11481,6 @@
 	father=12033070 # Abe Yasuhira
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1095.1.1={
 		birth=yes
 	}
@@ -12159,7 +11494,6 @@
 	father=12387200 # Ando Tomoto
 	religion="shinto"
 	culture="koshin"
-	prowess=12
 	1120.1.1={
 		birth=yes
 	}
@@ -12173,7 +11507,6 @@
 	father=12387205 # Ando Tomohira
 	religion="shinto"
 	culture="koshin"
-	prowess=9
 	1145.1.1={
 		birth=yes
 	}
@@ -12189,7 +11522,6 @@
 	dynasty=10007267 # Komuro
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1140.1.1={
 		birth=yes
 	}
@@ -12208,7 +11540,6 @@
 	culture="koshin"
 	trait="education_martial_2"
 	trait="strong"
-	prowess=13
 	1170.1.1={
 		birth=yes
 	}
@@ -12222,7 +11553,6 @@
 	father=12387300 # Nakano Yoshinari
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1200.1.1={
 		birth=yes
 	}
@@ -12237,7 +11567,6 @@
 	father=12387305 # Nakano Tadayoshi
 	religion="shinto"
 	culture="koshin"
-	prowess=9
 	1250.1.1={
 		birth=yes
 	}
@@ -12250,7 +11579,6 @@
 	dynasty=10000762 # Ichikawa
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1230.1.1={
 		birth=yes
 	}
@@ -12267,7 +11595,6 @@
 	father=12387320 # Ichikawa Shigefusa
 	religion="shinto"
 	culture="koshin"
-	prowess=9
 	1260.1.1={
 		birth=yes
 	}
@@ -12281,7 +11608,6 @@
 	father=12387321 # Ichikawa Morifusa
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1290.1.1={
 		birth=yes
 	}
@@ -12295,7 +11621,6 @@
 	father=12387321 # Ichikawa Morifusa
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1292.1.1={
 		birth=yes
 	}
@@ -12309,7 +11634,6 @@
 	father=12387321 # Ichikawa Morifusa
 	religion="shinto"
 	culture="koshin"
-	prowess=12
 	1294.1.1={
 		birth=yes
 	}
@@ -12323,7 +11647,6 @@
 	father=12387322 # Ichikawa Sukefusa
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1330.1.1={
 		birth=yes
 	}
@@ -12337,7 +11660,6 @@
 	father=12387322 # Ichikawa Sukefusa
 	religion="shinto"
 	culture="koshin"
-	prowess=12
 	1332.1.1={
 		birth=yes
 	}
@@ -12351,7 +11673,6 @@
 	father=12387325 # Ichikawa Yorifusa
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1370.1.1={
 		birth=yes
 	}
@@ -12365,7 +11686,6 @@
 	father=12387326 # Ichikawa Tsunetaka
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1372.1.1={
 		birth=yes
 	}
@@ -12378,8 +11698,7 @@
 	dynasty=10000217 # Nishina
 	religion="shinto"
 	culture="koshin"
-	learning=5
-	prowess=11
+	learning=1
 	1110.1.1={
 		birth=yes
 	}
@@ -12393,8 +11712,7 @@
 	father=12388000 # Nishina Morimitsu
 	religion="shinto"
 	culture="koshin"
-	learning=6
-	prowess=12
+	learning=1
 	1145.1.1={
 		birth=yes
 	}
@@ -12408,8 +11726,7 @@
 	father=12388000 # Nishina Morimitsu
 	religion="shinto"
 	culture="koshin"
-	learning=6
-	prowess=10
+	learning=1
 	1150.1.1={
 		birth=yes
 	}
@@ -12423,8 +11740,7 @@
 	father=12388011 # Nishina Moriie
 	religion="shinto"
 	culture="koshin"
-	learning=6
-	prowess=10
+	learning=1
 	1175.1.1={
 		birth=yes
 	}
@@ -12438,7 +11754,6 @@
 	father=12388020 # 
 	religion="shinto"
 	culture="koshin"
-	prowess=12
 	1200.1.1={
 		birth=yes
 	}
@@ -12452,7 +11767,6 @@
 	father=12388025 # 
 	religion="shinto"
 	culture="koshin"
-	prowess=10
 	1220.1.1={
 		birth=yes
 	}
@@ -12466,7 +11780,6 @@
 	father=12388030 # 
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1275.1.1={
 		birth=yes
 	}
@@ -12480,7 +11793,6 @@
 	father=12388035 # 
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1330.1.1={
 		birth=yes
 	}
@@ -12494,7 +11806,6 @@
 	father=12388040 # 
 	religion="shinto"
 	culture="koshin"
-	prowess=11
 	1370.1.1={
 		birth=yes
 	}
@@ -12507,11 +11818,15 @@
 	dynasty=10006160 # Kasahara
 	religion="shinto"
 	culture="koshin"
-	learning=7
+	martial=8
+	learning=1
 	trait="education_martial_3"
-	prowess=14
+	prowess=18
 	1140.1.1={
 		birth=yes
+	}
+	1156.1.1={
+		give_nickname="nick_Heigoro"
 	}
 	1181.7.25={
 		death=yes
@@ -12523,10 +11838,12 @@
 	father=12388500 # Kasahara Yorinao
 	religion="shinto"
 	culture="koshin"
-	learning=5
-	prowess=9
+	learning=1
 	1160.1.1={
 		birth=yes
+	}
+	1176.1.1={
+		give_nickname="nick_kaja"
 	}
 	1180.9.30={
 		death=yes
@@ -12538,7 +11855,6 @@
 	father=12380503
 	religion="shinto"
 	culture="koshin"
-	prowess=12
 	1120.1.1={
 		birth=yes
 	}
@@ -12553,7 +11869,6 @@
 	religion="shinto"
 	culture="koshin"
 	trait="education_martial_2"
-	prowess=11
 	1140.1.1={
 		birth=yes
 	}
@@ -12570,7 +11885,6 @@
 	religion="shinto"
 	culture="koshin"
 	trait="education_martial_2"
-	prowess=13
 	1140.1.1={
 		birth=yes
 	}
@@ -12587,7 +11901,6 @@
 	religion="shinto"
 	culture="koshin"
 	trait="education_martial_2"
-	prowess=11
 	1150.1.1={
 		birth=yes
 	}

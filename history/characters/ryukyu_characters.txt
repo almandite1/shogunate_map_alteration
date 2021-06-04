@@ -5,11 +5,11 @@
 	culture="okinawa"
 	father=10140007
 	mother=10140016
-	diplomacy=6
+	diplomacy=9
 	martial=8
-	stewardship=5
-	intrigue=7
-	learning=6
+	stewardship=3
+	intrigue=8
+	learning=5
 	trait="education_stewardship_3"
 	trait="strategist"
 	prowess=12
@@ -46,7 +46,6 @@
 	religion="shinto"
 	culture="okinawa"
 	father=10142193 # Shunten Ihyaa
-	prowess=10
 	1390.1.1={
 		birth=yes
 	}
@@ -63,7 +62,6 @@
 	dynasty=10001450 # Ijina
 	religion="shinto"
 	culture="okinawa"
-	prowess=10
 	1392.1.1={
 		birth=yes
 	}
@@ -79,7 +77,6 @@
 	culture="okinawa"
 	father=10140001
 	mother=10140002
-	prowess=11
 	1412.1.1={
 		birth=yes
 	}
@@ -94,17 +91,18 @@
 	culture="okinawa"
 	father=10140001
 	mother=10140002
-	diplomacy=5
-	martial=8
-	stewardship=6
-	intrigue=4
-	learning=8
+	diplomacy=8
+	martial=3
+	stewardship=7
+	intrigue=7
+	learning=3
 	trait="education_intrigue_4"
 	trait="ambitious"
 	trait="intellect_good_2"
+	trait="greedy"
 	trait="administrator"
 	trait="patient"
-	prowess=14
+	prowess=7
 	1415.1.1={
 		birth=yes
 	}
@@ -122,13 +120,13 @@
 	culture="okinawa"
 	father=10140001
 	mother=10140002
-	diplomacy=7
+	diplomacy=8
 	martial=5
-	stewardship=7
-	intrigue=6
-	learning=6
+	stewardship=6
+	intrigue=4
+	learning=3
 	trait="education_stewardship_2"
-	prowess=12
+	prowess=9
 	1430.1.1={
 		birth=yes
 	}
@@ -142,21 +140,23 @@
 	dynasty=10001451 # Sui # Fictional
 	religion="shinto"
 	culture="okinawa"
-	diplomacy=5
-	martial=6
-	stewardship=6
-	intrigue=5
-	learning=6
+	diplomacy=8
+	martial=1
+	stewardship=8
+	intrigue=7
+	learning=9
 	trait="education_intrigue_4"
 	trait="mystic_2"
 	trait="callous"
 	trait="schemer"
-	prowess=12
+	prowess=5
 	1445.1.1={
 		birth=yes
 	}
 	1460.1.1={
-		name=character_name_10140006_1 # Gekko
+		effect = {
+			change_first_name = character_name_10140006_1 # Gekko
+		}
 	}
 	1505.4.4={
 		death=yes
@@ -169,17 +169,17 @@
 	culture="okinawa"
 	father=10140004
 	mother=10140006
-	diplomacy=6
+	diplomacy=8
 	martial=6
-	stewardship=6
-	intrigue=5
-	learning=6
+	stewardship=2
+	intrigue=6
+	learning=3
 	trait="education_stewardship_3"
 	trait="intellect_good_2"
 	trait="administrator"
 	trait="just"
 	trait="zealous"
-	prowess=9
+	prowess=10
 	1465.1.1={
 		birth=yes
 	}
@@ -212,7 +212,6 @@
 	trait="education_learning_4"
 	trait="mystic_2"
 	trait="celibate"
-	prowess=11
 	1468.1.1={
 		birth=yes
 	}
@@ -226,13 +225,14 @@
 	religion="shinto"
 	culture="okinawa"
 	father=10140005
-	prowess=11
 	1455.1.1={
 		birth=yes
 	}
 	1477.1.12={
 		dynasty=10001401 # Goya
-		name=character_name_10140009_1 # Chori
+		effect = {
+			change_first_name = character_name_10140009_1 # Chori
+		}
 	}
 	1534.12.1={
 		death=yes
@@ -244,13 +244,14 @@
 	religion="shinto"
 	culture="okinawa"
 	father=10140005
-	prowess=11
 	1457.1.1={
 		birth=yes
 	}
 	1477.12.1={
 		dynasty=10001425 # Misatu
-		name=character_name_10140010_1 # Chori
+		effect = {
+			change_first_name = character_name_10140010_1 # Chori
+		}
 	}
 	1520.1.1={
 		add_spouse=10140019
@@ -266,7 +267,6 @@
 	religion="shinto"
 	culture="okinawa"
 	father=10140005
-	prowess=12
 	1475.1.1={
 		birth=yes
 	}
@@ -281,15 +281,16 @@
 	culture="okinawa"
 	father=10140007
 	mother=10140011
-	prowess=11
 	1494.1.1={
 		birth=yes
 	}
 	1508.1.1={
-		trait="bastard"
 		dynasty=10001402 # Urashii
-		name=character_name_10140012_1 # Choman
 		employer=10140201 # Tumai Sogi
+		effect = {
+			add_trait = "bastard"
+			change_first_name = character_name_10140012_1 # Choman
+		}
 	}
 	1510.1.1={
 		add_spouse=10140202 # Tumai Umiutu
@@ -305,7 +306,6 @@
 	culture="okinawa"
 	father=10140007
 	trait="bastard"
-	prowess=11
 	1495.1.1={
 		birth=yes
 	}
@@ -320,13 +320,14 @@
 	culture="okinawa"
 	father=10140007
 	trait="bastard"
-	prowess=11
 	1496.1.1={
 		birth=yes
 	}
 	1520.1.1={
 		dynasty=10001404 # Nachijin
-		name=character_name_10140014_1 # Choten
+		effect = {
+			change_first_name = character_name_10140014_1 # Choten
+		}
 	}
 	1550.1.1={
 		death=yes
@@ -339,13 +340,14 @@
 	culture="okinawa"
 	father=10140007
 	trait="bastard"
-	prowess=10
 	1496.6.1={
 		birth=yes
 	}
 	1520.1.1={
 		dynasty=10001405 # Goya
-		name=character_name_10140015_1 # Chofuku
+		effect = {
+			change_first_name = character_name_10140015_1 # Chofuku
+		}
 	}
 	1596.1.1={
 		death=yes
@@ -358,7 +360,6 @@
 	religion="shinto"
 	culture="okinawa"
 	mother=10141340 # Ufusatu Makadu
-	prowess=10
 	1478.1.1={
 		birth=yes
 	}
@@ -376,7 +377,6 @@
 	culture="okinawa"
 	father=10140007
 	trait="bastard"
-	prowess=11
 	1498.1.1={
 		birth=yes
 	}
@@ -391,7 +391,6 @@
 	culture="okinawa"
 	father=10140007
 	trait="bastard"
-	prowess=11
 	1502.1.1={
 		birth=yes
 	}
@@ -407,7 +406,6 @@
 	culture="okinawa"
 	father=10140007
 	trait="bastard"
-	prowess=11
 	1498.1.1={
 		birth=yes
 	}
@@ -422,7 +420,6 @@
 	religion="shinto"
 	culture="okinawa"
 	trait="bastard"
-	prowess=11
 	1507.1.1={
 		birth=yes
 	}
@@ -437,7 +434,6 @@
 	culture="okinawa"
 	father=10140010
 	mother=10140019
-	prowess=11
 	1522.1.1={
 		birth=yes
 	}
@@ -451,7 +447,6 @@
 	dynasty=10001406 # Mo
 	religion="shinto"
 	culture="okinawa"
-	prowess=10
 	1502.1.1={
 		birth=yes
 		employer=10140007 # Sho Shin
@@ -466,7 +461,6 @@
 	dynasty=10001407 # Jana
 	religion="shinto"
 	culture="okinawa"
-	prowess=10
 	1504.1.1={
 		birth=yes
 		employer=10140007 # Sho Shin
@@ -481,7 +475,6 @@
 	dynasty=10001408 # Gaku
 	religion="shinto"
 	culture="okinawa"
-	prowess=11
 	1499.1.1={
 		birth=yes
 		employer=10140007 # Sho Shin
@@ -496,7 +489,6 @@
 	dynasty=10001409 # Wannu
 	religion="shinto"
 	culture="okinawa"
-	prowess=11
 	1508.1.1={
 		birth=yes
 		employer=10140007 # Sho Shin
@@ -511,7 +503,6 @@
 	dynasty=10001452 # Arakachi
 	religion="shinto"
 	culture="okinawa"
-	prowess=10
 	1510.1.1={
 		birth=yes
 		employer=10140007 # Sho Shin
@@ -527,7 +518,6 @@
 	culture="okinawa"
 	father=10140000
 	mother=10140023
-	prowess=12
 	1524.1.1={
 		birth=yes
 	}
@@ -544,7 +534,6 @@
 	mother=10140021
 	trait="education_diplomacy_3"
 	trait="strategist"
-	prowess=11
 	1528.3.5={
 		birth=yes
 	}
@@ -576,7 +565,6 @@
 	culture="okinawa"
 	father=10140000
 	trait="bastard"
-	prowess=12
 	1529.1.1={
 		birth=yes
 	}
@@ -591,7 +579,6 @@
 	culture="okinawa"
 	father=10140000
 	trait="bastard"
-	prowess=11
 	1530.1.1={
 		birth=yes
 	}
@@ -606,7 +593,6 @@
 	culture="okinawa"
 	father=10140000
 	trait="bastard"
-	prowess=11
 	1531.1.1={
 		birth=yes
 	}
@@ -621,7 +607,6 @@
 	culture="okinawa"
 	father=10140000
 	trait="bastard"
-	prowess=11
 	1532.1.1={
 		birth=yes
 	}
@@ -636,13 +621,14 @@
 	culture="okinawa"
 	father=10140000
 	mother=10140022
-	prowess=11
 	1538.1.1={
 		birth=yes
 	}
 	1548.1.1={
 		dynasty=10001410 # Ii
-		name=character_name_10140032_1 # Chogi
+		effect = {
+			change_first_name = character_name_10140032_1 # Chogi
+		}
 	}
 	1586.1.1={
 		death=yes
@@ -655,7 +641,6 @@
 	culture="okinawa"
 	father=10140000
 	mother=10140024
-	prowess=10
 	1540.1.1={
 		birth=yes
 	}
@@ -669,7 +654,6 @@
 	religion="shinto"
 	culture="okinawa"
 	father=10140000
-	prowess=10
 	1542.1.1={
 		birth=yes
 	}
@@ -684,7 +668,6 @@
 	culture="okinawa"
 	father=10140000
 	mother=10140025
-	prowess=10
 	1545.1.1={
 		birth=yes
 	}
@@ -700,7 +683,6 @@
 	culture="okinawa"
 	father=10140000
 	trait="bastard"
-	prowess=12
 	1527.1.1={
 		birth=yes
 	}
@@ -716,7 +698,6 @@
 	culture="okinawa"
 	father=10140000
 	trait="bastard"
-	prowess=10
 	1530.1.1={
 		birth=yes
 	}
@@ -732,7 +713,6 @@
 	culture="okinawa"
 	trait="education_learning_4"
 	trait="mystic_2"
-	prowess=9
 	1530.1.1={
 		birth=yes
 		employer=10140000 # Sho Sei
@@ -747,7 +727,6 @@
 	dynasty=10001454 # Unaga
 	religion="shinto"
 	culture="okinawa"
-	prowess=10
 	1532.1.1={
 		birth=yes
 		employer=10140000 # Sho Sei
@@ -763,7 +742,6 @@
 	father=10140038 # Aragushiku Anki
 	religion="shinto"
 	culture="okinawa"
-	prowess=12
 	1535.1.1={
 		birth=yes
 	}
@@ -778,7 +756,6 @@
 	father=10140221 # Tumigushiku Seiyo
 	religion="shinto"
 	culture="okinawa"
-	prowess=12
 	1530.1.1={
 		birth=yes
 	}
@@ -794,7 +771,6 @@
 	mother=10140039 # Baigaku
 	religion="shinto"
 	culture="okinawa"
-	prowess=10
 	1546.1.1={
 		birth=yes
 	}
@@ -810,7 +786,6 @@
 	religion="shinto"
 	culture="okinawa"
 	trait="bastard"
-	prowess=10
 	1557.11.15={
 		birth=yes
 	}
@@ -826,7 +801,6 @@
 	religion="shinto"
 	culture="okinawa"
 	trait="education_stewardship_2"
-	prowess=11
 	1559.1.1={
 		birth=yes
 	}
@@ -849,7 +823,6 @@
 	mother=10140041 # Aragushiku Bairei
 	religion="shinto"
 	culture="okinawa"
-	prowess=10
 	1560.11.15={
 		birth=yes
 	}
@@ -864,7 +837,6 @@
 	father=10140030 # Sho Kan
 	religion="shinto"
 	culture="okinawa"
-	prowess=10
 	1562.1.1={
 		birth=yes
 	}
@@ -880,7 +852,6 @@
 	mother=10140047 # Sho Shinko
 	religion="shinto"
 	culture="okinawa"
-	prowess=10
 	1580.1.1={
 		birth=yes
 	}
@@ -898,7 +869,6 @@
 	culture="okinawa"
 	trait="education_learning_4"
 	trait="mystic_2"
-	prowess=11
 	1584.1.1={
 		birth=yes
 	}
@@ -913,7 +883,6 @@
 	mother=10140202 # Tumai Umiutu
 	religion="shinto"
 	culture="okinawa"
-	prowess=11
 	1512.1.1={
 		birth=yes
 	}
@@ -934,7 +903,6 @@
 	trait="education_learning_4"
 	trait="mystic_2"
 	trait="celibate"
-	prowess=10
 	1515.1.1={
 		birth=yes
 	}
@@ -951,7 +919,6 @@
 	father=10140012 # Urashii Choman
 	religion="shinto"
 	culture="okinawa"
-	prowess=12
 	1517.1.1={
 		birth=yes
 	}
@@ -965,7 +932,6 @@
 	father=10140012 # Urashii Choman
 	religion="shinto"
 	culture="okinawa"
-	prowess=10
 	1520.6.7={
 		birth=yes
 	}
@@ -980,7 +946,6 @@
 	father=10140018 # Sho Gendo
 	religion="shinto"
 	culture="okinawa"
-	prowess=10
 	1519.1.1={
 		birth=yes
 	}
@@ -995,7 +960,6 @@
 	mother=10140054 # Sho Jiko
 	religion="shinto"
 	culture="okinawa"
-	prowess=11
 	1544.1.1={
 		birth=yes
 	}
@@ -1013,7 +977,6 @@
 	mother=10140054 # Sho Jiko
 	religion="shinto"
 	culture="okinawa"
-	prowess=11
 	1546.1.1={
 		birth=yes
 	}
@@ -1028,7 +991,6 @@
 	mother=10140054 # Sho Jiko
 	religion="shinto"
 	culture="okinawa"
-	prowess=11
 	1548.1.1={
 		birth=yes
 	}
@@ -1043,7 +1005,6 @@
 	mother=10140054 # Sho Jiko
 	religion="shinto"
 	culture="okinawa"
-	prowess=11
 	1550.1.1={
 		birth=yes
 	}
@@ -1058,7 +1019,6 @@
 	mother=10140054 # Sho Jiko
 	religion="shinto"
 	culture="okinawa"
-	prowess=11
 	1552.1.1={
 		birth=yes
 	}
@@ -1073,7 +1033,6 @@
 	mother=10140054 # Sho Jiko
 	religion="shinto"
 	culture="okinawa"
-	prowess=10
 	1554.1.1={
 		birth=yes
 	}
@@ -1088,7 +1047,6 @@
 	mother=10140043 # Sho Isshi
 	religion="shinto"
 	culture="okinawa"
-	prowess=11
 	1564.1.1={
 		birth=yes
 	}
@@ -1106,7 +1064,6 @@
 	mother=10140043 # Sho Isshi
 	religion="shinto"
 	culture="okinawa"
-	prowess=12
 	1578.5.20={
 		birth=yes
 	}
@@ -1120,7 +1077,6 @@
 	father=10140014 # Nachijin Choten
 	religion="shinto"
 	culture="okinawa"
-	prowess=9
 	1530.1.1={
 		birth=yes
 	}
@@ -1134,7 +1090,6 @@
 	father=10140100 # Nachijin Choshu 
 	religion="shinto"
 	culture="okinawa"
-	prowess=11
 	1550.1.1={
 		birth=yes
 	}
@@ -1148,7 +1103,6 @@
 	father=10140101 # Nachijin Choton 
 	religion="shinto"
 	culture="okinawa"
-	prowess=12
 	1580.1.1={
 		birth=yes
 	}
@@ -1162,7 +1116,6 @@
 	father=10140101 # Nachijin Choton 
 	religion="shinto"
 	culture="okinawa"
-	prowess=10
 	1582.1.1={
 		birth=yes
 	}
@@ -1176,7 +1129,6 @@
 	father=10140015 # Goya Chofuku
 	religion="shinto"
 	culture="okinawa"
-	prowess=11
 	1553.1.1={
 		birth=yes
 	}
@@ -1189,12 +1141,11 @@
 	dynasty=10001421 # Tumai
 	religion="shinto"
 	culture="okinawa"
-	diplomacy=5
+	diplomacy=8
 	trait="education_diplomacy_2"
 	trait="temperate"
 	trait="compassionate"
 	trait="content"
-	prowess=11
 	1440.1.1={
 		birth=yes
 	}
@@ -1212,9 +1163,8 @@
 	mother=10141027 # Sho Chugaku
 	religion="shinto"
 	culture="okinawa"
-	diplomacy=7
+	diplomacy=9
 	trait="education_diplomacy_3"
-	prowess=10
 	1465.1.1={
 		birth=yes
 	}
@@ -1229,7 +1179,6 @@
 	father=10140201 # Tumai Sogi
 	religion="shinto"
 	culture="okinawa"
-	prowess=11
 	1482.1.1={
 		birth=yes
 	}
@@ -1243,9 +1192,9 @@
 	father=10141232 # Yuntanza Gusamaru
 	religion="shinto"
 	culture="okinawa"
-	martial=6
+	martial=7
 	trait="education_martial_2"
-	prowess=12
+	prowess=15
 	1457.1.1={
 		birth=yes
 	}
@@ -1262,7 +1211,6 @@
 	father=10140220 # Tumigushiku Seishin
 	religion="shinto"
 	culture="okinawa"
-	prowess=12
 	1500.1.1={
 		birth=yes
 	}
@@ -1276,7 +1224,6 @@
 	father=10140221 # Tumigushiku Seiyo
 	religion="shinto"
 	culture="okinawa"
-	prowess=11
 	1535.1.1={
 		birth=yes
 	}
@@ -1290,7 +1237,6 @@
 	father=10140222 # Tumigushiku Seisho
 	religion="shinto"
 	culture="okinawa"
-	prowess=10
 	1560.1.1={
 		birth=yes
 	}
@@ -1303,17 +1249,17 @@
 	dynasty=10001465 # Yuan
 	religion="shinto"
 	culture="amami"
-	diplomacy=5
+	diplomacy=9
 	martial=6
-	stewardship=6
-	intrigue=7
-	learning=5
+	stewardship=8
+	intrigue=8
+	learning=3
 	trait="education_martial_3"
 	trait="intellect_good_2"
 	trait="administrator"
 	trait="just"
 	trait="brave"
-	prowess=14
+	prowess=16
 	1470.1.1={
 		birth=yes
 	}
@@ -1330,7 +1276,6 @@
 	trait="education_martial_3"
 	trait="strong"
 	trait="brave"
-	prowess=12
 	1490.1.1={
 		birth=yes
 	}
@@ -1348,7 +1293,6 @@
 	religion="shinto"
 	culture="okinawa"
 	trait="education_stewardship_3"
-	prowess=10
 	1510.1.1={
 		birth=yes
 	}
@@ -1366,7 +1310,6 @@
 	father=10140245 # Nagu Ryoken 
 	religion="shinto"
 	culture="okinawa"
-	prowess=10
 	1530.1.1={
 		birth=yes
 	}
@@ -1384,7 +1327,6 @@
 	father=10140246 # Nagu Ryoin 
 	religion="shinto"
 	culture="okinawa"
-	prowess=10
 	1550.1.1={
 		birth=yes
 	}
@@ -1398,9 +1340,8 @@
 	father=10140246 # Nagu Ryoin 
 	religion="shinto"
 	culture="okinawa"
-	stewardship=5
+	stewardship=8
 	trait="education_stewardship_3"
-	prowess=12
 	1551.1.1={
 		birth=yes
 	}
@@ -1413,7 +1354,6 @@
 	dynasty=10001423 # Kunjan
 	religion="shinto"
 	culture="okinawa"
-	prowess=10
 	1460.1.1={
 		birth=yes
 	}
@@ -1427,7 +1367,6 @@
 	father=10140260 # Kunjan Seiin
 	religion="shinto"
 	culture="okinawa"
-	prowess=12
 	1485.1.1={
 		birth=yes
 	}
@@ -1441,7 +1380,6 @@
 	father=10140261 # Kunjan Seikan
 	religion="shinto"
 	culture="okinawa"
-	prowess=11
 	1511.1.1={
 		birth=yes
 	}
@@ -1455,7 +1393,6 @@
 	father=10140262 # Kunjan Seikaku
 	religion="shinto"
 	culture="okinawa"
-	prowess=10
 	1535.1.1={
 		birth=yes
 	}
@@ -1469,7 +1406,6 @@
 	father=10140263 # Kunjan Seichi
 	religion="shinto"
 	culture="okinawa"
-	prowess=11
 	1560.1.1={
 		birth=yes
 	}
@@ -1482,12 +1418,12 @@
 	dynasty=10001426 # Kyo-Afagun
 	religion="shinto"
 	culture="okinawa"
-	martial=6
+	martial=12
 	trait="education_martial_2"
 	trait="strong"
 	trait="brave"
 	trait="blademaster_2"
-	prowess=14
+	prowess=20
 	1490.1.1={
 		birth=yes
 	}
@@ -1508,15 +1444,15 @@
 	dynasty=10001427 # Gushikuma
 	religion="shinto"
 	culture="okinawa"
-	diplomacy=5
-	martial=5
-	stewardship=5
-	intrigue=6
-	learning=7
+	diplomacy=9
+	martial=3
+	stewardship=7
+	intrigue=3
+	learning=9
 	trait="education_diplomacy_3"
 	trait="mystic_1"
 	trait="trusting"
-	prowess=12
+	prowess=7
 	1542.4.10={
 		birth=yes
 	}
@@ -1538,17 +1474,17 @@
 	dynasty=10001428 # Jana
 	religion="shinto"
 	culture="okinawa"
-	diplomacy=6
-	martial=4
+	diplomacy=9
+	martial=10
 	stewardship=5
-	intrigue=6
-	learning=6
+	intrigue=9
+	learning=5
 	trait="education_intrigue_3"
 	trait="intellect_good_2"
 	trait="arrogant"
 	trait="callous"
 	trait="strong"
-	prowess=13
+	prowess=14
 	1549.1.1={
 		birth=yes
 	}
@@ -1572,9 +1508,9 @@
 	dynasty=10001424 # Chinaha
 	religion="shinto"
 	culture="okinawa"
-	martial=4
+	martial=8
 	trait="education_martial_3"
-	prowess=14
+	prowess=18
 	1440.1.1={
 		birth=yes
 	}
@@ -1588,9 +1524,9 @@
 	father=10140300 # Chinaha Chinaha
 	religion="shinto"
 	culture="okinawa"
-	martial=7
+	martial=9
 	trait="education_martial_3"
-	prowess=15
+	prowess=19
 	1460.1.1={
 		birth=yes
 	}
@@ -1604,9 +1540,9 @@
 	father=10140300 # Chinaha Chinaha
 	religion="shinto"
 	culture="okinawa"
-	martial=6
+	martial=8
 	trait="education_martial_3"
-	prowess=13
+	prowess=18
 	1465.1.1={
 		birth=yes
 	}
@@ -1620,10 +1556,10 @@
 	father=10140300 # Chinaha Chinaha
 	religion="shinto"
 	culture="okinawa"
-	martial=4
+	martial=9
 	trait="education_martial_3"
-	trait="beauty_good_2"
-	prowess=13
+	trait="beauty_good_3"
+	prowess=19
 	1475.1.1={
 		birth=yes
 	}
@@ -1636,7 +1572,6 @@
 	dynasty=10001429 # Yunanmi
 	religion="shinto"
 	culture="okinawa"
-	prowess=11
 	1320.1.1={
 		birth=yes
 	}
@@ -1649,7 +1584,6 @@
 	dynasty=10001430 # Suhara
 	religion="shinto"
 	culture="okinawa"
-	prowess=11
 	1350.1.1={
 		birth=yes
 	}
@@ -1665,7 +1599,6 @@
 	religion="shinto"
 	culture="okinawa"
 	trait="celibate"
-	prowess=12
 	1390.1.1={
 		birth=yes
 	}
@@ -1678,7 +1611,6 @@
 	dynasty=10001431 # Gushichaa
 	religion="shinto"
 	culture="okinawa"
-	prowess=10
 	1400.1.1={
 		birth=yes
 	}
@@ -1692,7 +1624,6 @@
 	father=10140313 # Gushichaa Matafutsu
 	religion="shinto"
 	culture="okinawa"
-	prowess=11
 	1430.1.1={
 		birth=yes
 	}
@@ -1707,7 +1638,6 @@
 	religion="shinto"
 	culture="okinawa"
 	trait="bastard"
-	prowess=12
 	1290.1.1={
 		birth=yes
 	}
@@ -1721,7 +1651,6 @@
 	father=10141000 # Sho Yagura
 	religion="shinto"
 	culture="okinawa"
-	prowess=10
 	1320.1.1={
 		birth=yes
 	}
@@ -1736,7 +1665,6 @@
 	religion="shinto"
 	culture="okinawa"
 	trait="education_diplomacy_1"
-	prowess=11
 	1354.1.1={
 		birth=yes
 	}
@@ -1750,17 +1678,17 @@
 	father=10141002 # Sho Shisho
 	religion="shinto"
 	culture="okinawa"
-	diplomacy=5
-	martial=7
-	stewardship=6
-	intrigue=6
-	learning=5
+	diplomacy=6
+	martial=9
+	stewardship=12
+	intrigue=8
+	learning=3
 	trait="education_diplomacy_4"
 	trait="intellect_good_3"
 	trait="ambitious"
 	trait="diligent"
 	trait="administrator"
-	prowess=10
+	prowess=13
 	1372.1.1={
 		birth=yes
 	}
@@ -1777,7 +1705,6 @@
 	father=10141002 # Sho Shisho
 	religion="shinto"
 	culture="okinawa"
-	prowess=12
 	1374.1.1={
 		birth=yes
 	}
@@ -1791,7 +1718,6 @@
 	father=10141002 # Sho Shisho
 	religion="shinto"
 	culture="okinawa"
-	prowess=10
 	1376.1.1={
 		birth=yes
 	}
@@ -1806,9 +1732,8 @@
 	mother=10141206 # Ifa Machirugi
 	religion="shinto"
 	culture="okinawa"
-	diplomacy=6
+	diplomacy=7
 	trait="education_diplomacy_3"
-	prowess=10
 	1391.1.1={
 		birth=yes
 	}
@@ -1823,7 +1748,6 @@
 	religion="shinto"
 	culture="okinawa"
 	trait="bastard"
-	prowess=10
 	1394.1.1={
 		birth=yes
 	}
@@ -1838,7 +1762,6 @@
 	religion="shinto"
 	culture="okinawa"
 	trait="bastard"
-	prowess=11
 	1396.1.1={
 		birth=yes
 	}
@@ -1854,7 +1777,6 @@
 	religion="shinto"
 	culture="okinawa"
 	trait="education_diplomacy_1"
-	prowess=12
 	1398.1.1={
 		birth=yes
 	}
@@ -1871,7 +1793,6 @@
 	trait="education_diplomacy_2"
 	trait="impatient"
 	trait="ambitious"
-	prowess=11
 	1400.1.1={
 		birth=yes
 	}
@@ -1888,7 +1809,6 @@
 	culture="okinawa"
 	trait="education_stewardship_2"
 	trait="zealous"
-	prowess=12
 	1415.1.1={
 		birth=yes
 	}
@@ -1906,7 +1826,6 @@
 	religion="shinto"
 	culture="okinawa"
 	trait="bastard"
-	prowess=12
 	1420.1.1={
 		birth=yes
 	}
@@ -1921,7 +1840,6 @@
 	religion="shinto"
 	culture="okinawa"
 	trait="education_diplomacy_1"
-	prowess=11
 	1408.1.1={
 		birth=yes
 	}
@@ -1936,7 +1854,6 @@
 	religion="shinto"
 	culture="okinawa"
 	trait="education_intrigue_1"
-	prowess=11
 	1430.1.1={
 		birth=yes
 	}
@@ -1950,13 +1867,13 @@
 	father=10141015 # Sho Taikyu
 	religion="shinto"
 	culture="okinawa"
-	diplomacy=5
-	martial=5
-	stewardship=7
-	intrigue=7
-	learning=6
+	diplomacy=9
+	martial=8
+	stewardship=5
+	intrigue=3
+	learning=3
 	trait="education_martial_2"
-	prowess=12
+	prowess=16
 	1441.1.1={
 		birth=yes
 	}
@@ -1973,8 +1890,7 @@
 	religion="shinto"
 	culture="okinawa"
 	trait="education_diplomacy_1"
-	trait="beauty_good_2"
-	prowess=10
+	trait="beauty_good_3"
 	1435.1.1={
 		birth=yes
 	}
@@ -1989,7 +1905,6 @@
 	father=10141015 # Sho Taikyu
 	religion="shinto"
 	culture="okinawa"
-	prowess=10
 	1445.1.1={
 		birth=yes
 	}
@@ -2003,7 +1918,6 @@
 	father=10141025 # Sho Toku
 	religion="shinto"
 	culture="okinawa"
-	prowess=10
 	1460.1.1={
 		birth=yes
 	}
@@ -2019,7 +1933,6 @@
 	father=10142202 # Eiso Wakugaa
 	religion="shinto"
 	culture="okinawa"
-	prowess=11
 	1270.1.1={
 		birth=yes
 	}
@@ -2033,7 +1946,6 @@
 	father=10141100 # Nachijin Wakugaa
 	religion="shinto"
 	culture="okinawa"
-	prowess=12
 	1290.1.1={
 		birth=yes
 	}
@@ -2047,7 +1959,6 @@
 	father=10141100 # Nachijin Wakugaa
 	religion="shinto"
 	culture="okinawa"
-	prowess=10
 	1292.1.1={
 		birth=yes
 	}
@@ -2063,16 +1974,16 @@
 	father=10141102 # Nachijin Nachijin
 	religion="shinto"
 	culture="okinawa"
-	diplomacy=6
-	martial=7
-	stewardship=7
-	intrigue=7
-	learning=7
+	diplomacy=7
+	martial=8
+	stewardship=9
+	intrigue=8
+	learning=3
 	trait="education_martial_3"
 	trait="intellect_good_2"
 	trait="patient"
 	trait="diligent"
-	prowess=14
+	prowess=18
 	1310.1.1={
 		birth=yes
 	}
@@ -2089,7 +2000,6 @@
 	dynasty=10001433 # Shinabi
 	religion="shinto"
 	culture="okinawa"
-	prowess=10
 	1312.1.1={
 		birth=yes
 	}
@@ -2103,7 +2013,6 @@
 	father=10141102 # Nachijin Nachijin
 	religion="shinto"
 	culture="okinawa"
-	prowess=11
 	1312.1.1={
 		birth=yes
 	}
@@ -2117,7 +2026,6 @@
 	father=10141102 # Nachijin Nachijin
 	religion="shinto"
 	culture="okinawa"
-	prowess=10
 	1314.1.1={
 		birth=yes
 	}
@@ -2131,7 +2039,6 @@
 	father=10141102 # Nachijin Nachijin
 	religion="shinto"
 	culture="okinawa"
-	prowess=11
 	1316.1.1={
 		birth=yes
 	}
@@ -2146,13 +2053,13 @@
 	mother=10141111 # Shinabi Matamatsu
 	religion="shinto"
 	culture="okinawa"
-	diplomacy=6
+	diplomacy=7
 	martial=6
-	stewardship=5
+	stewardship=7
 	intrigue=4
-	learning=5
+	learning=3
 	trait="education_diplomacy_1"
-	prowess=12
+	prowess=10
 	1330.1.1={
 		birth=yes
 	}
@@ -2168,7 +2075,6 @@
 	father=10141112 # Nachijin Nagu
 	religion="shinto"
 	culture="okinawa"
-	prowess=11
 	1340.1.1={
 		birth=yes
 	}
@@ -2182,7 +2088,6 @@
 	father=10141113 # Nachijin Haniji
 	religion="shinto"
 	culture="okinawa"
-	prowess=10
 	1342.1.1={
 		birth=yes
 	}
@@ -2196,7 +2101,6 @@
 	father=10141114 # Nachijin Kunjan
 	religion="shinto"
 	culture="okinawa"
-	prowess=11
 	1344.1.1={
 		birth=yes
 	}
@@ -2210,7 +2114,6 @@
 	father=10141121 # Nachijin Nagu
 	religion="shinto"
 	culture="okinawa"
-	prowess=10
 	1370.1.1={
 		birth=yes
 	}
@@ -2224,7 +2127,6 @@
 	father=10141122 # Nachijin Haniji
 	religion="shinto"
 	culture="okinawa"
-	prowess=11
 	1372.1.1={
 		birth=yes
 	}
@@ -2238,7 +2140,6 @@
 	father=10141123 # Nachijin Kunjan
 	religion="shinto"
 	culture="okinawa"
-	prowess=10
 	1374.1.1={
 		birth=yes
 	}
@@ -2252,16 +2153,16 @@
 	father=10141101 # Nachijin Wakugaa
 	religion="shinto"
 	culture="okinawa"
-	diplomacy=6
-	martial=6
-	stewardship=6
-	intrigue=6
-	learning=6
+	diplomacy=8
+	martial=7
+	stewardship=8
+	intrigue=8
+	learning=3
 	trait="education_diplomacy_3"
 	trait="intellect_good_2"
 	trait="ambitious"
 	trait="greedy"
-	prowess=12
+	prowess=11
 	1320.1.1={
 		birth=yes
 	}
@@ -2275,7 +2176,6 @@
 	father=10141101 # Nachijin Wakugaa
 	religion="shinto"
 	culture="okinawa"
-	prowess=9
 	1322.1.1={
 		birth=yes
 	}
@@ -2291,7 +2191,6 @@
 	culture="okinawa"
 	diplomacy=8
 	trait="education_diplomacy_3"
-	prowess=10
 	1350.1.1={
 		birth=yes
 	}
@@ -2305,9 +2204,8 @@
 	father=10141130 # Haniji Haniji
 	religion="shinto"
 	culture="okinawa"
-	stewardship=6
+	stewardship=9
 	trait="education_diplomacy_3"
-	prowess=11
 	1360.1.1={
 		birth=yes
 	}
@@ -2325,7 +2223,6 @@
 	culture="okinawa"
 	diplomacy=7
 	trait="education_diplomacy_3"
-	prowess=11
 	1362.1.1={
 		birth=yes
 	}
@@ -2339,15 +2236,15 @@
 	father=10141135 # Haniji Min
 	religion="shinto"
 	culture="okinawa"
-	diplomacy=4
-	martial=6
-	stewardship=5
-	intrigue=6
-	learning=6
+	diplomacy=8
+	martial=9
+	stewardship=7
+	intrigue=5
+	learning=3
 	trait="education_martial_3"
 	trait="strong"
 	trait="impatient"
-	prowess=14
+	prowess=19
 	1370.1.1={
 		birth=yes
 	}
@@ -2366,7 +2263,6 @@
 	father=10141135 # Haniji Min
 	religion="shinto"
 	culture="okinawa"
-	prowess=11
 	1372.1.1={
 		birth=yes
 	}
@@ -2380,7 +2276,6 @@
 	dynasty=10001435 # Shinzatu
 	religion="shinto"
 	culture="okinawa"
-	prowess=12
 	1390.1.1={
 		birth=yes
 	}
@@ -2395,7 +2290,6 @@
 	mother=10141142 # Shinzatu Makadu
 	religion="shinto"
 	culture="okinawa"
-	prowess=11
 	1410.1.1={
 		birth=yes
 	}
@@ -2410,7 +2304,6 @@
 	mother=10141142 # Shinzatu Makadu
 	religion="shinto"
 	culture="okinawa"
-	prowess=11
 	1412.1.1={
 		birth=yes
 	}
@@ -2424,7 +2317,6 @@
 	father=10141140 # Haniji Hananchi
 	religion="shinto"
 	culture="okinawa"
-	prowess=10
 	1413.1.1={
 		birth=yes
 	}
@@ -2438,7 +2330,6 @@
 	father=10141140 # Haniji Hananchi
 	religion="shinto"
 	culture="okinawa"
-	prowess=11
 	1414.1.1={
 		birth=yes
 	}
@@ -2452,7 +2343,6 @@
 	father=10141140 # Haniji Hananchi
 	religion="shinto"
 	culture="okinawa"
-	prowess=10
 	1416.1.1={
 		birth=yes
 	}
@@ -2467,7 +2357,6 @@
 	father=10141140 # Haniji Hananchi
 	religion="shinto"
 	culture="okinawa"
-	prowess=11
 	1415.1.1={
 		birth=yes
 	}
@@ -2481,9 +2370,8 @@
 	father=10141120 # Nachijin Nakazuni
 	religion="shinto"
 	culture="okinawa"
-	stewardship=6
+	stewardship=9
 	trait="education_stewardship_3"
-	prowess=11
 	1346.1.1={
 		birth=yes
 	}
@@ -2498,7 +2386,6 @@
 	religion="shinto"
 	culture="okinawa"
 	trait="education_stewardship_3"
-	prowess=11
 	1362.1.1={
 		birth=yes
 	}
@@ -2512,7 +2399,6 @@
 	father=10141200 # Ifa Ifa
 	religion="shinto"
 	culture="okinawa"
-	prowess=11
 	1363.1.1={
 		birth=yes
 	}
@@ -2526,7 +2412,6 @@
 	father=10141200 # Ifa Ifa
 	religion="shinto"
 	culture="okinawa"
-	prowess=10
 	1364.1.1={
 		birth=yes
 	}
@@ -2540,7 +2425,6 @@
 	father=10141200 # Ifa Ifa
 	religion="shinto"
 	culture="okinawa"
-	prowess=10
 	1365.1.1={
 		birth=yes
 	}
@@ -2554,7 +2438,6 @@
 	father=10141200 # Ifa Ifa
 	religion="shinto"
 	culture="okinawa"
-	prowess=11
 	1370.1.1={
 		birth=yes
 	}
@@ -2569,7 +2452,6 @@
 	father=10141200 # Ifa Ifa
 	religion="shinto"
 	culture="okinawa"
-	prowess=11
 	1375.1.1={
 		birth=yes
 	}
@@ -2583,7 +2465,6 @@
 	father=10141201 # Ifa Ifa
 	religion="shinto"
 	culture="okinawa"
-	prowess=9
 	1390.1.1={
 		birth=yes
 	}
@@ -2597,7 +2478,6 @@
 	father=10141205 # Ifa Katchin
 	religion="shinto"
 	culture="okinawa"
-	prowess=11
 	1392.1.1={
 		birth=yes
 	}
@@ -2611,7 +2491,6 @@
 	father=10141215 # Ifa Hamagaa
 	religion="shinto"
 	culture="okinawa"
-	prowess=9
 	1410.1.1={
 		birth=yes
 	}
@@ -2625,7 +2504,6 @@
 	father=10141204 # Ifa Agina-Ufugaa
 	religion="shinto"
 	culture="okinawa"
-	prowess=12
 	1390.1.1={
 		birth=yes
 	}
@@ -2639,7 +2517,6 @@
 	father=10141204 # Ifa Agina-Ufugaa
 	religion="shinto"
 	culture="okinawa"
-	prowess=10
 	1392.1.1={
 		birth=yes
 	}
@@ -2653,7 +2530,6 @@
 	father=10141204 # Ifa Agina-Ufugaa
 	religion="shinto"
 	culture="okinawa"
-	prowess=12
 	1394.1.1={
 		birth=yes
 	}
@@ -2670,7 +2546,6 @@
 	father=10141222 # Ifa Kyan
 	religion="shinto"
 	culture="okinawa"
-	prowess=11
 	1410.1.1={
 		birth=yes
 	}
@@ -2684,7 +2559,6 @@
 	father=10141202 # Ifa Yamada
 	religion="shinto"
 	culture="okinawa"
-	prowess=10
 	1379.1.1={
 		birth=yes
 	}
@@ -2698,7 +2572,6 @@
 	father=10141230 # Yuntanza Yamada
 	religion="shinto"
 	culture="okinawa"
-	prowess=10
 	1391.1.1={
 		birth=yes
 	}
@@ -2712,17 +2585,17 @@
 	father=10141230 # Yuntanza Yamada
 	religion="shinto"
 	culture="okinawa"
-	diplomacy=6
-	martial=5
-	stewardship=5
+	diplomacy=8
+	martial=7
+	stewardship=8
 	intrigue=8
-	learning=7	
+	learning=3	
 	trait="education_martial_4"
 	trait="intellect_good_2"
 	trait="brave"
 	trait="ambitious"
 	trait="administrator"
-	prowess=13
+	prowess=19
 	1393.1.1={
 		birth=yes
 	}
@@ -2741,14 +2614,14 @@
 	father=10141230 # Yuntanza Yamada
 	religion="shinto"
 	culture="okinawa"
-	diplomacy=5
-	martial=6
-	stewardship=5
-	intrigue=6
-	learning=6
+	diplomacy=9
+	martial=5
+	stewardship=7
+	intrigue=8
+	learning=11
 	trait="education_learning_2"
 	trait="mystic_2"
-	prowess=12
+	prowess=9
 	1400.1.1={
 		birth=yes
 	}
@@ -2761,7 +2634,6 @@
 	female=yes
 	religion="shinto"
 	culture="okinawa"
-	prowess=10
 	1410.1.1={
 		birth=yes
 	}
@@ -2778,7 +2650,6 @@
 	father=10141232 # Yuntanza Gusamaru
 	religion="shinto"
 	culture="okinawa"
-	prowess=11
 	1410.1.1={
 		birth=yes
 	}
@@ -2793,9 +2664,9 @@
 	mother=10141234 # Arakachi
 	religion="shinto"
 	culture="okinawa"
-	martial=7
+	martial=9
 	trait="education_martial_2"
-	prowess=12
+	prowess=17
 	1430.1.1={
 		birth=yes
 	}
@@ -2812,9 +2683,9 @@
 	mother=10141234 # Arakachi
 	religion="shinto"
 	culture="okinawa"
-	martial=5
+	martial=8
 	trait="education_martial_2"
-	prowess=11
+	prowess=16
 	1440.1.1={
 		birth=yes
 	}
@@ -2830,7 +2701,6 @@
 	dynasty=10001439 # Ufugushiku
 	religion="shinto"
 	culture="okinawa"
-	prowess=10
 	1410.1.1={
 		birth=yes
 	}
@@ -2846,15 +2716,16 @@
 	religion="shinto"
 	culture="okinawa"
 	diplomacy=6
-	martial=8
-	stewardship=5
+	martial=9
+	stewardship=6
 	intrigue=5
-	learning=5
+	learning=3
 	trait="education_martial_3"
 	trait="strong"
 	trait="brave"
 	trait="content"
-	prowess=14
+	trait="humble"
+	prowess=19
 	1430.1.1={
 		birth=yes
 	}
@@ -2873,6 +2744,11 @@
 	1458.9.1={
 		add_spouse=10141026 # Sho MomotoFumiagari
 	}
+	1467.1.1={
+		effect = {
+			set_relation_rival = character:10140004
+		}
+	}
 	1469.6.1={
 		death=yes
 	}
@@ -2884,9 +2760,9 @@
 	mother=10141240 # Ufugushiku Makadu
 	religion="shinto"
 	culture="okinawa"
-	martial=5
+	martial=9
 	trait="education_martial_2"
-	prowess=12
+	prowess=17
 	1432.1.1={
 		birth=yes
 	}
@@ -2913,9 +2789,9 @@
 	mother=10141240 # Ufugushiku Makadu
 	religion="shinto"
 	culture="okinawa"
-	martial=5
+	martial=8
 	trait="education_martial_2"
-	prowess=13
+	prowess=16
 	1434.1.1={
 		birth=yes
 	}
@@ -2941,9 +2817,9 @@
 	father=10141241 # Ufugushiku Kenyu
 	religion="shinto"
 	culture="okinawa"
-	martial=7
+	martial=9
 	trait="education_martial_2"
-	prowess=11
+	prowess=17
 	1450.1.1={
 		birth=yes
 	}
@@ -2956,7 +2832,6 @@
 	dynasty=10001440 # Mochiduki
 	religion="shinto"
 	culture="okinawa"
-	prowess=11
 	1410.1.1={
 		birth=yes
 	}
@@ -2969,11 +2844,11 @@
 	dynasty=10001441 # Katchin
 	religion="shinto"
 	culture="okinawa"
-	diplomacy=6
-	martial=7
-	stewardship=6
-	intrigue=6
-	learning=5
+	diplomacy=7
+	martial=6
+	stewardship=8
+	intrigue=8
+	learning=3
 	trait="education_stewardship_4"
 	trait="intellect_good_2"
 	trait="ambitious"
@@ -2998,7 +2873,6 @@
 	father=10142205 # Eiso Ufusatu
 	religion="shinto"
 	culture="okinawa"
-	prowess=9
 	1280.1.1={
 		birth=yes
 	}
@@ -3012,10 +2886,9 @@
 	father=10141300 # Ufusatu Ufusatu
 	religion="shinto"
 	culture="okinawa"
-	diplomacy=5
+	diplomacy=8
 	trait="education_diplomacy_3"
 	trait="ambitious"
-	prowess=11
 	1310.1.1={
 		birth=yes
 	}
@@ -3029,9 +2902,8 @@
 	father=10141305 # Ufusatu Ufusatu
 	religion="shinto"
 	culture="okinawa"
-	diplomacy=6
+	diplomacy=8
 	trait="education_diplomacy_3"
-	prowess=10
 	1330.1.1={
 		birth=yes
 	}
@@ -3045,14 +2917,14 @@
 	father=10141305 # Ufusatu Ufusatu
 	religion="shinto"
 	culture="okinawa"
-	diplomacy=7
-	martial=6
-	stewardship=5
-	intrigue=7
-	learning=6
+	diplomacy=8
+	martial=7
+	stewardship=8
+	intrigue=8
+	learning=3
 	trait="education_intrigue_3"
 	trait="ambitious"
-	prowess=13
+	prowess=11
 	1332.1.1={
 		birth=yes
 	}
@@ -3066,7 +2938,6 @@
 	father=10141305 # Ufusatu Ufusatu
 	religion="shinto"
 	culture="okinawa"
-	prowess=12
 	1334.1.1={
 		birth=yes
 	}
@@ -3081,7 +2952,6 @@
 	religion="shinto"
 	culture="okinawa"
 	trait="education_diplomacy_1"
-	prowess=11
 	1360.1.1={
 		birth=yes
 	}
@@ -3097,7 +2967,6 @@
 	culture="okinawa"
 	trait="education_intrigue_2"
 	trait="ambitious"
-	prowess=12
 	1370.1.1={
 		birth=yes
 	}
@@ -3112,7 +2981,6 @@
 	religion="shinto"
 	culture="okinawa"
 	trait="education_diplomacy_2"
-	prowess=10
 	1372.1.1={
 		birth=yes
 	}
@@ -3126,7 +2994,6 @@
 	father=10141311 # Ufusatu Yeeji
 	religion="shinto"
 	culture="okinawa"
-	prowess=11
 	1374.1.1={
 		birth=yes
 	}
@@ -3140,7 +3007,6 @@
 	father=10141320 # Ufusatu Tafuchi
 	religion="shinto"
 	culture="okinawa"
-	prowess=11
 	1390.1.1={
 		birth=yes
 	}
@@ -3155,7 +3021,6 @@
 	religion="shinto"
 	culture="okinawa"
 	trait="education_intrigue_1"
-	prowess=10
 	1400.1.1={
 		birth=yes
 	}
@@ -3169,7 +3034,6 @@
 	father=10141321 # Ufusatu Uusu
 	religion="shinto"
 	culture="okinawa"
-	prowess=10
 	1410.1.1={
 		birth=yes
 	}
@@ -3183,9 +3047,8 @@
 	father=10141331 # Ufusatu Shuchu
 	religion="shinto"
 	culture="okinawa"
-	diplomacy=6
+	diplomacy=7
 	trait="education_diplomacy_3"
-	prowess=10
 	1440.1.1={
 		birth=yes
 	}
@@ -3209,7 +3072,6 @@
 	father=10141335 # Ufusatu Shuchi
 	religion="shinto"
 	culture="okinawa"
-	prowess=10
 	1460.1.1={
 		birth=yes
 	}
@@ -3232,10 +3094,10 @@
 	father=10142232 # Eiso Ufugushiku
 	religion="shinto"
 	culture="okinawa"
-	martial=7
+	martial=8
 	trait="education_martial_2"
 	trait="brave"
-	prowess=12
+	prowess=16
 	1360.1.1={
 		birth=yes
 	}
@@ -3249,9 +3111,9 @@
 	father=10141400 # Ufugushiku Shinbu
 	religion="shinto"
 	culture="okinawa"
-	martial=6
+	martial=9
 	trait="education_martial_2"
-	prowess=12
+	prowess=17
 	1390.1.1={
 		birth=yes
 	}
@@ -3270,7 +3132,6 @@
 	father=10141401 # Ufugushiku Shinso
 	religion="shinto"
 	culture="okinawa"
-	prowess=10
 	1416.1.1={
 		birth=yes
 	}
@@ -3284,7 +3145,6 @@
 	father=10141402 # Jima Shinpuku
 	religion="shinto"
 	culture="okinawa"
-	prowess=11
 	1460.1.1={
 		birth=yes
 	}
@@ -3298,7 +3158,6 @@
 	father=10141403 # Jima Shinmo
 	religion="shinto"
 	culture="okinawa"
-	prowess=10
 	1500.1.1={
 		birth=yes
 	}
@@ -3312,10 +3171,9 @@
 	father=10141404 # Jima Shinmei
 	religion="shinto"
 	culture="okinawa"
-	stewardship=7
+	stewardship=9
 	trait="education_stewardship_3"
 	trait="administrator"
-	prowess=10
 	1557.1.1={
 		birth=yes
 	}
@@ -3339,7 +3197,6 @@
 	religion="shinto"
 	culture="okinawa"
 	trait="bastard"
-	prowess=11
 	1259.1.1={
 		birth=yes
 	}
@@ -3353,11 +3210,11 @@
 	father=10141450 # Mutubu Mutubu
 	religion="shinto"
 	culture="okinawa"
-	diplomacy=5
-	martial=5
-	stewardship=4
-	intrigue=7
-	learning=8
+	diplomacy=7
+	martial=8
+	stewardship=6
+	intrigue=8
+	learning=3
 	trait="education_intrigue_3"
 	trait="ambitious"
 	trait="arrogant"
@@ -3381,7 +3238,6 @@
 	father=10141451 # Mutubu Mutubu
 	religion="shinto"
 	culture="okinawa"
-	prowess=10
 	1320.1.1={
 		birth=yes
 	}
@@ -3395,14 +3251,14 @@
 	father=10141452 # Mutubu Mutubu
 	religion="shinto"
 	culture="okinawa"
-	diplomacy=6
-	martial=5
+	diplomacy=7
+	martial=8
 	stewardship=6
-	intrigue=5
-	learning=5
+	intrigue=8
+	learning=3
 	trait="education_intrigue_3"
 	trait="ambitious"
-	prowess=14
+	prowess=12
 	1370.1.1={
 		birth=yes
 	}
@@ -3427,7 +3283,6 @@
 	father=10147027 # Tenson Umiguru
 	religion="shinto"
 	culture="okinawa"
-	prowess=10
 	1050.1.1={
 		birth=yes
 	}
@@ -3441,7 +3296,6 @@
 	father=10142000 # Umitukutaru
 	religion="shinto"
 	culture="okinawa"
-	prowess=10
 	1080.1.1={
 		birth=yes
 	}
@@ -3455,7 +3309,6 @@
 	father=10142000 # Umitukutaru
 	religion="shinto"
 	culture="okinawa"
-	prowess=10
 	1085.1.1={
 		birth=yes
 	}
@@ -3470,14 +3323,14 @@
 	religion="shinto"
 	culture="okinawa"
 	diplomacy=6
-	martial=4
-	stewardship=7
-	intrigue=6
+	martial=3
+	stewardship=5
+	intrigue=3
 	learning=5
 	trait="education_diplomacy_1"
 	trait="compassionate"
 	trait="trusting"
-	prowess=11
+	prowess=7
 	1120.1.1={
 		birth=yes
 	}
@@ -3496,7 +3349,6 @@
 	dynasty=10001455 # Kunjan
 	religion="shinto"
 	culture="okinawa"
-	prowess=10
 	1150.1.1={
 		birth=yes
 	}
@@ -3510,7 +3362,6 @@
 	father=10142003 # Umikanimatsu
 	religion="shinto"
 	culture="okinawa"
-	prowess=11
 	1150.1.1={
 		birth=yes
 	}
@@ -3526,7 +3377,6 @@
 	father=10142003 # Umikanimatsu
 	religion="shinto"
 	culture="okinawa"
-	prowess=10
 	1152.1.1={
 		birth=yes
 	}
@@ -3540,7 +3390,6 @@
 	father=10142003 # Umikanimatsu
 	religion="shinto"
 	culture="okinawa"
-	prowess=10
 	1154.1.1={
 		birth=yes
 	}
@@ -3554,7 +3403,6 @@
 	father=10142003 # Umikanimatsu
 	religion="shinto"
 	culture="okinawa"
-	prowess=10
 	1156.1.1={
 		birth=yes
 	}
@@ -3568,7 +3416,6 @@
 	father=10142003 # Umikanimatsu
 	religion="shinto"
 	culture="okinawa"
-	prowess=11
 	1158.1.1={
 		birth=yes
 	}
@@ -3582,7 +3429,6 @@
 	father=10142003 # Umikanimatsu
 	religion="shinto"
 	culture="okinawa"
-	prowess=9
 	1160.1.1={
 		birth=yes
 	}
@@ -3596,7 +3442,6 @@
 	father=10142003 # Umikanimatsu
 	religion="shinto"
 	culture="okinawa"
-	prowess=10
 	1162.1.1={
 		birth=yes
 	}
@@ -3610,7 +3455,6 @@
 	father=10142003 # Umikanimatsu
 	religion="shinto"
 	culture="okinawa"
-	prowess=12
 	1164.1.1={
 		birth=yes
 	}
@@ -3624,7 +3468,6 @@
 	father=10142003 # Umikanimatsu
 	religion="shinto"
 	culture="okinawa"
-	prowess=10
 	1166.1.1={
 		birth=yes
 	}
@@ -3638,7 +3481,6 @@
 	father=10142003 # Umikanimatsu
 	religion="shinto"
 	culture="okinawa"
-	prowess=10
 	1168.1.1={
 		birth=yes
 	}
@@ -3653,7 +3495,6 @@
 	father=10142003 # Umikanimatsu
 	religion="shinto"
 	culture="okinawa"
-	prowess=12
 	1170.1.1={
 		birth=yes
 	}
@@ -3667,7 +3508,6 @@
 	father=10142008 # Umijiru
 	religion="shinto"
 	culture="okinawa"
-	prowess=12
 	1190.1.1={
 		birth=yes
 	}
@@ -3681,7 +3521,6 @@
 	father=10142002 # Nachijin
 	religion="shinto"
 	culture="okinawa"
-	prowess=11
 	1115.1.1={
 		birth=yes
 	}
@@ -3695,7 +3534,6 @@
 	father=10142002 # Nachijin
 	religion="shinto"
 	culture="okinawa"
-	prowess=11
 	1120.1.1={
 		birth=yes
 	}
@@ -3709,9 +3547,8 @@
 	father=10142017 # Ufusatu
 	religion="shinto"
 	culture="okinawa"
-	diplomacy=6
+	diplomacy=9
 	trait="education_diplomacy_2"
-	prowess=10
 	1135.1.1={
 		birth=yes
 	}
@@ -3729,7 +3566,6 @@
 	father=10142017 # Ufusatu
 	religion="shinto"
 	culture="okinawa"
-	prowess=11
 	1140.1.1={
 		birth=yes
 	}
@@ -3742,11 +3578,11 @@
 	dynasty=10001456 # Kukushi
 	religion="shinto"
 	culture="okinawa"
-	diplomacy=5
+	diplomacy=8
 	martial=6
-	stewardship=5
-	intrigue=8
-	learning=6
+	stewardship=3
+	intrigue=15
+	learning=4
 	trait="education_learning_4"
 	trait="intellect_good_2"
 	trait="mystic_2"
@@ -3755,12 +3591,14 @@
 	trait="zealous"
 	trait="ambitious"
 	trait="possessed_1"
-	prowess=11
+	prowess=10
 	1130.1.1={
 		birth=yes
 	}
 	1140.1.1={
-		trait="devoted"
+		effect = {
+			add_trait = "devoted"
+		}
 	}
 	1180.1.1={
 		employer=10142003 # Umikanimatsu
@@ -3776,16 +3614,16 @@
 	religion="shinto"
 	culture="okinawa"
 	diplomacy=8
-	martial=5
-	stewardship=6
-	intrigue=6
-	learning=6
+	martial=1
+	stewardship=5
+	intrigue=12
+	learning=9
 	trait="education_learning_3"
 	trait="callous"
 	trait="paranoid"
 	trait="mystic_2"
 	trait="celibate"
-	prowess=10
+	prowess=5
 	1120.1.1={
 		birth=yes
 	}
@@ -3802,14 +3640,14 @@
 	religion="shinto"
 	culture="okinawa"
 	diplomacy=6
-	martial=8
-	stewardship=5
-	intrigue=4
-	learning=6
+	martial=9
+	stewardship=6
+	intrigue=9
+	learning=7
 	trait="education_martial_3"
 	trait="intellect_good_2"
 	trait="brave"
-	prowess=13
+	prowess=19
 	1150.1.1={
 		birth=yes
 	}
@@ -3825,16 +3663,16 @@
 	dynasty=10001413 # Ri
 	religion="shinto"
 	culture="okinawa"
-	diplomacy=7
-	martial=6
-	stewardship=6
+	diplomacy=9
+	martial=8
+	stewardship=8
 	intrigue=8
-	learning=5
+	learning=3
 	trait="education_intrigue_3"
 	trait="ambitious"
 	trait="greedy"
 	trait="paranoid"
-	prowess=13
+	prowess=12
 	1145.1.1={
 		birth=yes
 	}
@@ -3850,7 +3688,6 @@
 	female=yes
 	religion="shinto"
 	culture="okinawa"
-	prowess=10
 	1150.1.1={
 		birth=yes
 	}
@@ -3865,7 +3702,6 @@
 	mother=10142091 # Jin
 	religion="shinto"
 	culture="okinawa"
-	prowess=12
 	1175.1.1={
 		birth=yes
 	}
@@ -3880,17 +3716,17 @@
 	mother=10142020 # Manabitaru
 	religion="shinto"
 	culture="okinawa"
-	martial=7
-	diplomacy=7
-	intrigue=5
-	stewardship=4
-	learning=7
+	martial=6
+	diplomacy=6
+	intrigue=7
+	stewardship=8
+	learning=3
 	trait="education_martial_4"
 	trait="bastard"
 	trait="intellect_good_3"
 	trait="brave"
 	trait="military_engineer"
-	prowess=14
+	prowess=18
 	1166.1.1={
 		birth=yes
 	}
@@ -3911,11 +3747,11 @@
 	father=10120070 # Minamoto Tametomo
 	religion="shinto"
 	culture="okinawa"
-	martial=6
+	martial=8
 	trait="education_martial_2"
 	trait="bastard"
 	trait="strong"
-	prowess=13
+	prowess=16
 	1166.1.1={
 		birth=yes
 	}
@@ -3933,7 +3769,6 @@
 	father=10142082 # To Matsuju
 	religion="shinto"
 	culture="okinawa"
-	prowess=10
 	1167.1.1={
 		birth=yes
 	}
@@ -3952,7 +3787,6 @@
 	religion="shinto"
 	culture="okinawa"
 	trait="education_stewardship_2"
-	prowess=10
 	1185.1.1={
 		birth=yes
 	}
@@ -3967,7 +3801,6 @@
 	mother=10142102 # Kohagi
 	religion="shinto"
 	culture="okinawa"
-	prowess=12
 	1187.1.1={
 		birth=yes
 	}
@@ -3982,7 +3815,6 @@
 	mother=10142102 # Kohagi
 	religion="shinto"
 	culture="okinawa"
-	prowess=9
 	1190.1.1={
 		birth=yes
 	}
@@ -3997,7 +3829,6 @@
 	religion="shinto"
 	culture="okinawa"
 	trait="education_diplomacy_1"
-	prowess=10
 	1206.1.1={
 		birth=yes
 	}
@@ -4011,7 +3842,6 @@
 	father=10142110 # Shunbajunki
 	religion="shinto"
 	culture="okinawa"
-	prowess=9
 	1210.1.1={
 		birth=yes
 	}
@@ -4025,7 +3855,6 @@
 	father=10142110 # Shunbajunki
 	religion="shinto"
 	culture="okinawa"
-	prowess=9
 	1215.1.1={
 		birth=yes
 	}
@@ -4039,7 +3868,6 @@
 	father=10142110 # Shunbajunki
 	religion="shinto"
 	culture="okinawa"
-	prowess=10
 	1220.1.1={
 		birth=yes
 	}
@@ -4053,7 +3881,6 @@
 	father=10142120 # Gihon
 	religion="shinto"
 	culture="okinawa"
-	prowess=10
 	1230.1.1={
 		birth=yes
 	}
@@ -4067,7 +3894,6 @@
 	father=10142120 # Gihon
 	religion="shinto"
 	culture="okinawa"
-	prowess=10
 	1232.1.1={
 		birth=yes
 	}
@@ -4081,7 +3907,6 @@
 	father=10142120 # Gihon
 	religion="shinto"
 	culture="okinawa"
-	prowess=11
 	1235.1.1={
 		birth=yes
 	}
@@ -4095,7 +3920,6 @@
 	father=10142120 # Gihon
 	religion="shinto"
 	culture="okinawa"
-	prowess=9
 	1240.1.1={
 		birth=yes
 	}
@@ -4109,7 +3933,6 @@
 	father=10142111 # Shunten Haniji
 	religion="shinto"
 	culture="okinawa"
-	prowess=11
 	1210.1.1={
 		birth=yes
 	}
@@ -4123,7 +3946,6 @@
 	father=10142112 # Nakagushiku
 	religion="shinto"
 	culture="okinawa"
-	prowess=10
 	1210.1.1={
 		birth=yes
 	}
@@ -4137,7 +3959,6 @@
 	father=10142112 # Nakagushiku
 	religion="shinto"
 	culture="okinawa"
-	prowess=9
 	1212.1.1={
 		birth=yes
 	}
@@ -4151,7 +3972,6 @@
 	father=10142112 # Nakagushiku
 	religion="shinto"
 	culture="okinawa"
-	prowess=12
 	1215.1.1={
 		birth=yes
 	}
@@ -4165,7 +3985,6 @@
 	father=10142101 # Taishun
 	religion="shinto"
 	culture="okinawa"
-	prowess=10
 	1186.1.1={
 		birth=yes
 	}
@@ -4179,7 +3998,6 @@
 	father=10142150 # Nachijin
 	religion="shinto"
 	culture="okinawa"
-	prowess=9
 	1206.1.1={
 		birth=yes
 	}
@@ -4193,7 +4011,6 @@
 	father=10142130 # Shunten Urashii
 	religion="shinto"
 	culture="okinawa"
-	prowess=11
 	1260.1.1={
 		birth=yes
 	}
@@ -4207,7 +4024,6 @@
 	father=10142190 # Shunten Chin
 	religion="shinto"
 	culture="okinawa"
-	prowess=11
 	1290.1.1={
 		birth=yes
 	}
@@ -4221,7 +4037,6 @@
 	father=10142191 # Shunten Chin
 	religion="shinto"
 	culture="okinawa"
-	prowess=9
 	1320.1.1={
 		birth=yes
 	}
@@ -4235,7 +4050,6 @@
 	father=10142192 # Shunten Ihyaa
 	religion="shinto"
 	culture="okinawa"
-	prowess=11
 	1355.1.1={
 		birth=yes
 	}
@@ -4249,15 +4063,15 @@
 	father=10142016 # Tenson Eso
 	religion="shinto"
 	culture="okinawa"
-	diplomacy=6
+	diplomacy=9
 	martial=7
-	stewardship=6
-	intrigue=7
-	learning=6
+	stewardship=9
+	intrigue=8
+	learning=5
 	trait="education_martial_3"
 	trait="brave"
 	trait="intellect_good_3"
-	prowess=13
+	prowess=17
 	1229.1.1={
 		birth=yes
 	}
@@ -4271,7 +4085,6 @@
 	father=10142200 # Eiso Eiso
 	religion="shinto"
 	culture="okinawa"
-	prowess=11
 	1247.1.1={
 		birth=yes
 	}
@@ -4285,7 +4098,6 @@
 	father=10142200 # Eiso Eiso
 	religion="shinto"
 	culture="okinawa"
-	prowess=12
 	1250.1.1={
 		birth=yes
 	}
@@ -4299,7 +4111,6 @@
 	father=10142200 # Eiso Eiso
 	religion="shinto"
 	culture="okinawa"
-	prowess=11
 	1252.1.1={
 		birth=yes
 	}
@@ -4313,7 +4124,6 @@
 	father=10142200 # Eiso Eiso
 	religion="shinto"
 	culture="okinawa"
-	prowess=11
 	1254.1.1={
 		birth=yes
 	}
@@ -4327,7 +4137,6 @@
 	father=10142200 # Eiso Eiso
 	religion="shinto"
 	culture="okinawa"
-	prowess=10
 	1256.1.1={
 		birth=yes
 	}
@@ -4341,7 +4150,6 @@
 	father=10142201 # Eiso Taisei
 	religion="shinto"
 	culture="okinawa"
-	prowess=10
 	1265.1.1={
 		birth=yes
 	}
@@ -4355,7 +4163,6 @@
 	father=10142201 # Eiso Taisei
 	religion="shinto"
 	culture="okinawa"
-	prowess=11
 	1268.1.1={
 		birth=yes
 	}
@@ -4369,7 +4176,6 @@
 	father=10142201 # Eiso Taisei
 	religion="shinto"
 	culture="okinawa"
-	prowess=12
 	1270.1.1={
 		birth=yes
 	}
@@ -4383,7 +4189,6 @@
 	father=10142201 # Eiso Taisei
 	religion="shinto"
 	culture="okinawa"
-	prowess=11
 	1272.1.1={
 		birth=yes
 	}
@@ -4397,7 +4202,6 @@
 	father=10142201 # Eiso Taisei
 	religion="shinto"
 	culture="okinawa"
-	prowess=10
 	1274.1.1={
 		birth=yes
 	}
@@ -4411,7 +4215,6 @@
 	father=10142211 # Eiso Eiji
 	religion="shinto"
 	culture="okinawa"
-	prowess=11
 	1290.1.1={
 		birth=yes
 	}
@@ -4425,7 +4228,6 @@
 	father=10142211 # Eiso Eiji
 	religion="shinto"
 	culture="okinawa"
-	prowess=11
 	1292.1.1={
 		birth=yes
 	}
@@ -4439,7 +4241,6 @@
 	father=10142211 # Eiso Eiji
 	religion="shinto"
 	culture="okinawa"
-	prowess=9
 	1294.1.1={
 		birth=yes
 	}
@@ -4453,7 +4254,6 @@
 	father=10142211 # Eiso Eiji
 	religion="shinto"
 	culture="okinawa"
-	prowess=11
 	1296.1.1={
 		birth=yes
 	}
@@ -4467,7 +4267,6 @@
 	father=10142211 # Eiso Eiji
 	religion="shinto"
 	culture="okinawa"
-	prowess=10
 	1298.1.1={
 		birth=yes
 	}
@@ -4482,7 +4281,6 @@
 	father=10142211 # Eiso Eiji
 	religion="shinto"
 	culture="okinawa"
-	prowess=10
 	1300.1.1={
 		birth=yes
 	}
@@ -4496,7 +4294,6 @@
 	father=10142223 # Eiso Tamagushiku
 	religion="shinto"
 	culture="okinawa"
-	prowess=10
 	1328.1.1={
 		birth=yes
 	}
@@ -4510,7 +4307,6 @@
 	father=10142223 # Eiso Tamagushiku
 	religion="shinto"
 	culture="okinawa"
-	prowess=10
 	1330.1.1={
 		birth=yes
 	}
@@ -4524,7 +4320,6 @@
 	father=10142223 # Eiso Tamagushiku
 	religion="shinto"
 	culture="okinawa"
-	prowess=12
 	1332.1.1={
 		birth=yes
 	}
@@ -4538,7 +4333,6 @@
 	father=10142223 # Eiso Tamagushiku
 	religion="shinto"
 	culture="okinawa"
-	prowess=11
 	1334.1.1={
 		birth=yes
 	}
@@ -4552,7 +4346,6 @@
 	father=10142214 # Eiso Katchin
 	religion="shinto"
 	culture="okinawa"
-	prowess=10
 	1290.1.1={
 		birth=yes
 	}
@@ -4567,7 +4360,6 @@
 	father=10142240 # Eiso Katchin
 	religion="shinto"
 	culture="okinawa"
-	prowess=11
 	1320.1.1={
 		birth=yes
 	}
@@ -4581,7 +4373,6 @@
 	father=10142240 # Eiso Katchin
 	religion="shinto"
 	culture="okinawa"
-	prowess=11
 	1310.1.1={
 		birth=yes
 	}
@@ -4595,7 +4386,6 @@
 	father=10142242 # Eiso Katchin
 	religion="shinto"
 	culture="okinawa"
-	prowess=9
 	1330.1.1={
 		birth=yes
 	}
@@ -4609,7 +4399,6 @@
 	father=10142243 # Eiso Katchin
 	religion="shinto"
 	culture="okinawa"
-	prowess=9
 	1350.1.1={
 		birth=yes
 	}
@@ -4623,7 +4412,6 @@
 	father=10142203 # Eiso Nakagushiku
 	religion="shinto"
 	culture="okinawa"
-	prowess=10
 	1270.1.1={
 		birth=yes
 	}
@@ -4637,7 +4425,6 @@
 	father=10142203 # Eiso Nakagushiku
 	religion="shinto"
 	culture="okinawa"
-	prowess=10
 	1272.1.1={
 		birth=yes
 	}
@@ -4651,7 +4438,6 @@
 	father=10142250 # Eiso Nakagushiku
 	religion="shinto"
 	culture="okinawa"
-	prowess=11
 	1300.1.1={
 		birth=yes
 	}
@@ -4665,7 +4451,6 @@
 	father=10142252 # Eiso Nakagushiku
 	religion="shinto"
 	culture="okinawa"
-	prowess=11
 	1330.1.1={
 		birth=yes
 	}
@@ -4678,9 +4463,8 @@
 	dynasty=10001447 # Ukuma
 	religion="shinto"
 	culture="okinawa"
-	stewardship=6
+	stewardship=8
 	trait="education_stewardship_3"
-	prowess=10
 	1290.1.1={
 		birth=yes
 	}
@@ -4698,14 +4482,14 @@
 	mother=10142225 # Eiso Majini
 	religion="shinto"
 	culture="okinawa"
-	diplomacy=6
-	martial=5
-	stewardship=5
-	intrigue=6
-	learning=7
+	diplomacy=7
+	martial=6
+	stewardship=7
+	intrigue=7
+	learning=3
 	trait="education_stewardship_3"
 	trait="intellect_good_2"
-	prowess=11
+	prowess=10
 	1321.1.1={
 		birth=yes
 	}
@@ -4722,15 +4506,15 @@
 	father=10142300 # Ukuma Ukuma
 	religion="shinto"
 	culture="okinawa"
-	diplomacy=5
-	martial=5
-	stewardship=7
+	diplomacy=8
+	martial=7
+	stewardship=8
 	intrigue=8
-	learning=4
+	learning=3
 	trait="education_diplomacy_3"
 	trait="intellect_good_2"
 	trait="administrator"
-	prowess=12
+	prowess=11
 	1330.1.1={
 		birth=yes
 	}
@@ -4746,7 +4530,6 @@
 	religion="shinto"
 	culture="okinawa"
 	trait="education_diplomacy_2"
-	prowess=9
 	1356.1.1={
 		birth=yes
 	}
@@ -4761,7 +4544,6 @@
 	mother=10142241 # Eiso Manabitaru
 	religion="shinto"
 	culture="okinawa"
-	prowess=9
 	1358.1.1={
 		birth=yes
 	}
@@ -4776,7 +4558,6 @@
 	mother=10142241 # Eiso Manabitaru
 	religion="shinto"
 	culture="okinawa"
-	prowess=11
 	1360.1.1={
 		birth=yes
 	}
@@ -4791,7 +4572,6 @@
 	mother=10142241 # Eiso Manabitaru
 	religion="shinto"
 	culture="okinawa"
-	prowess=11
 	1362.1.1={
 		birth=yes
 	}
@@ -4805,7 +4585,6 @@
 	father=10142305 # Satto Bunei
 	religion="shinto"
 	culture="okinawa"
-	prowess=10
 	1385.1.1={
 		birth=yes
 	}
@@ -4819,12 +4598,11 @@
 	dynasty=10001412 # Tenson
 	religion="shinto"
 	culture="okinawa"
-	learning=6
+	learning=10
 	trait="education_learning_4"
 	trait="mystic_2"
 	trait="intellect_good_3"
-	trait="beauty_good_2"
-	prowess=11
+	trait="beauty_good_3"
 	170.1.1={
 		birth=yes
 	}
@@ -4837,7 +4615,6 @@
 	dynasty=10001449 # Asumui
 	religion="shinto"
 	culture="okinawa"
-	prowess=9
 	170.1.1={
 		birth=yes
 	}
@@ -4856,7 +4633,6 @@
 	religion="shinto"
 	culture="okinawa"
 	trait="education_diplomacy_4"
-	prowess=10
 	200.1.1={
 		birth=yes
 	}
@@ -4872,7 +4648,6 @@
 	religion="shinto"
 	culture="okinawa"
 	trait="education_martial_3"
-	prowess=14
 	202.1.1={
 		birth=yes
 	}
@@ -4888,7 +4663,6 @@
 	religion="shinto"
 	culture="okinawa"
 	trait="education_stewardship_3"
-	prowess=11
 	204.1.1={
 		birth=yes
 	}
@@ -4906,7 +4680,6 @@
 	culture="okinawa"
 	trait="education_learning_4"
 	trait="mystic_2"
-	prowess=11
 	206.1.1={
 		birth=yes
 	}
@@ -4924,7 +4697,6 @@
 	culture="okinawa"
 	trait="education_learning_4"
 	trait="mystic_2"
-	prowess=10
 	208.1.1={
 		birth=yes
 	}
@@ -4938,7 +4710,6 @@
 	father=10147002 # Tenson Tensonshi
 	religion="shinto"
 	culture="okinawa"
-	prowess=9
 	240.1.1={
 		birth=yes
 	}
@@ -4952,7 +4723,6 @@
 	father=10147007 # Tenson Ryu
 	religion="shinto"
 	culture="okinawa"
-	prowess=11
 	280.1.1={
 		birth=yes
 	}
@@ -4966,7 +4736,6 @@
 	father=10147008 # Tenson Kyu
 	religion="shinto"
 	culture="okinawa"
-	prowess=10
 	320.1.1={
 		birth=yes
 	}
@@ -4980,7 +4749,6 @@
 	father=10147009 # Tenson Gyoku
 	religion="shinto"
 	culture="okinawa"
-	prowess=11
 	360.1.1={
 		birth=yes
 	}
@@ -4994,7 +4762,6 @@
 	father=10147010 # Tenson Zui
 	religion="shinto"
 	culture="okinawa"
-	prowess=12
 	400.1.1={
 		birth=yes
 	}
@@ -5008,7 +4775,6 @@
 	father=10147011 # Tenson Rei
 	religion="shinto"
 	culture="okinawa"
-	prowess=11
 	440.1.1={
 		birth=yes
 	}
@@ -5022,7 +4788,6 @@
 	father=10147012 # Tenson Yo
 	religion="shinto"
 	culture="okinawa"
-	prowess=11
 	480.1.1={
 		birth=yes
 	}
@@ -5036,7 +4801,6 @@
 	father=10147013 # Tenson Ro
 	religion="shinto"
 	culture="okinawa"
-	prowess=10
 	520.1.1={
 		birth=yes
 	}
@@ -5050,7 +4814,6 @@
 	father=10147014 # Tenson Heki
 	religion="shinto"
 	culture="okinawa"
-	prowess=10
 	560.1.1={
 		birth=yes
 	}
@@ -5064,7 +4827,6 @@
 	father=10147015 # Tenson So
 	religion="shinto"
 	culture="okinawa"
-	prowess=10
 	600.1.1={
 		birth=yes
 	}
@@ -5078,7 +4840,6 @@
 	father=10147016 # Tenson Sho
 	religion="shinto"
 	culture="okinawa"
-	prowess=9
 	640.1.1={
 		birth=yes
 	}
@@ -5092,7 +4853,6 @@
 	father=10147017 # Tenson Kohaku
 	religion="shinto"
 	culture="okinawa"
-	prowess=9
 	680.1.1={
 		birth=yes
 	}
@@ -5106,7 +4866,6 @@
 	father=10147018 # Tenson Taimai
 	religion="shinto"
 	culture="okinawa"
-	prowess=10
 	720.1.1={
 		birth=yes
 	}
@@ -5120,7 +4879,6 @@
 	father=10147019 # Tenson Chinju
 	religion="shinto"
 	culture="okinawa"
-	prowess=11
 	760.1.1={
 		birth=yes
 	}
@@ -5134,7 +4892,6 @@
 	father=10147020 # Tenson Meno
 	religion="shinto"
 	culture="okinawa"
-	prowess=11
 	800.1.1={
 		birth=yes
 	}
@@ -5148,7 +4905,6 @@
 	father=10147021 # Tenson Sango
 	religion="shinto"
 	culture="okinawa"
-	prowess=10
 	840.1.1={
 		birth=yes
 	}
@@ -5162,7 +4918,6 @@
 	father=10147022 # Tenson Ruri
 	religion="shinto"
 	culture="okinawa"
-	prowess=10
 	875.1.1={
 		birth=yes
 	}
@@ -5176,7 +4931,6 @@
 	father=10147023 # Tenson Harin
 	religion="shinto"
 	culture="okinawa"
-	prowess=10
 	910.1.1={
 		birth=yes
 	}
@@ -5190,7 +4944,6 @@
 	father=10147024 # Tenson Umitaru
 	religion="shinto"
 	culture="okinawa"
-	prowess=10
 	945.1.1={
 		birth=yes
 	}
@@ -5204,7 +4957,6 @@
 	father=10147025 # Tenson Umijiru
 	religion="shinto"
 	culture="okinawa"
-	prowess=10
 	980.1.1={
 		birth=yes
 	}
@@ -5218,7 +4970,6 @@
 	father=10147026 # Tenson Masanru
 	religion="shinto"
 	culture="okinawa"
-	prowess=11
 	1015.1.1={
 		birth=yes
 	}
@@ -5232,11 +4983,11 @@
 	father=10120070 # Minamoto Tametomo
 	religion="shinto"
 	culture="amami"
-	martial=6
+	martial=8
 	trait="education_martial_2"
 	trait="bastard"
 	trait="strong"
-	prowess=13
+	prowess=16
 	1166.1.1={
 		birth=yes
 	}
@@ -5249,10 +5000,10 @@
 	dynasty=10001471 # Hakina
 	religion="shinto"
 	culture="amami"
-	martial=7
+	martial=8
 	trait="education_martial_2"
 	trait="strong"
-	prowess=12
+	prowess=16
 	1200.1.1={
 		birth=yes
 	}
@@ -5266,15 +5017,15 @@
 	father=10142120 # Shunten Gihon
 	religion="shinto"
 	culture="amami"
-	diplomacy=8
-	martial=7
-	stewardship=5
+	diplomacy=7
+	martial=8
+	stewardship=8
 	intrigue=8
-	learning=6
+	learning=3
 	trait="education_diplomacy_3"
 	trait="brave"
 	trait="bastard"
-	prowess=9
+	prowess=12
 	1260.1.1={
 		birth=yes
 	}
@@ -5291,7 +5042,6 @@
 	father=10148100 # Shunten Keiko
 	religion="shinto"
 	culture="amami"
-	prowess=10
 	1290.1.1={
 		birth=yes
 	}
@@ -5305,7 +5055,6 @@
 	father=10148101 # Shinyohoo Iko
 	religion="shinto"
 	culture="amami"
-	prowess=11
 	1320.1.1={
 		birth=yes
 	}
@@ -5319,7 +5068,6 @@
 	father=10148102 # Shinyohoo Irai
 	religion="shinto"
 	culture="amami"
-	prowess=11
 	1350.1.1={
 		birth=yes
 	}
@@ -5333,7 +5081,6 @@
 	father=10148103 # Shinyohoo Ike
 	religion="shinto"
 	culture="amami"
-	prowess=9
 	1375.1.1={
 		birth=yes
 	}
@@ -5347,7 +5094,6 @@
 	father=10148104 # Shinyohoo Ikei
 	religion="shinto"
 	culture="amami"
-	prowess=10
 	1400.1.1={
 		birth=yes
 	}
@@ -5361,7 +5107,6 @@
 	father=10148105 # Shinyohoo Isei
 	religion="shinto"
 	culture="amami"
-	prowess=10
 	1425.1.1={
 		birth=yes
 	}
@@ -5375,7 +5120,6 @@
 	father=10148106 # Shinyohoo Iki
 	religion="shinto"
 	culture="amami"
-	prowess=12
 	1450.1.1={
 		birth=yes
 	}
@@ -5389,7 +5133,6 @@
 	father=10148107 # Shinyohoo Ichu
 	religion="shinto"
 	culture="amami"
-	prowess=11
 	1475.1.1={
 		birth=yes
 	}
@@ -5403,7 +5146,6 @@
 	father=10148108 # Shinyohoo Isei
 	religion="shinto"
 	culture="amami"
-	prowess=12
 	1500.1.1={
 		birth=yes
 	}
@@ -5417,7 +5159,6 @@
 	father=10148109 # Shinyohoo Iso
 	religion="shinto"
 	culture="amami"
-	prowess=11
 	1525.1.1={
 		birth=yes
 	}
@@ -5431,7 +5172,6 @@
 	father=10148110 # Shinyohoo Yoyosetomi
 	religion="shinto"
 	culture="amami"
-	prowess=10
 	1550.1.1={
 		birth=yes
 	}
@@ -5445,7 +5185,6 @@
 	father=10148111 # Shinyohoo Karuji
 	religion="shinto"
 	culture="amami"
-	prowess=11
 	1580.1.1={
 		birth=yes
 	}
@@ -5458,7 +5197,6 @@
 	dynasty=10001473 # Arachi
 	religion="shinto"
 	culture="amami"
-	prowess=10
 	1410.1.1={
 		birth=yes
 	}
@@ -5471,7 +5209,6 @@
 	dynasty=10001474 # Kasan
 	religion="shinto"
 	culture="okinawa"
-	prowess=11
 	1482.1.1={
 		birth=yes
 	}
@@ -5485,7 +5222,6 @@
 	father=10148130 # Kasan Ishun
 	religion="shinto"
 	culture="amami"
-	prowess=9
 	1500.1.1={
 		birth=yes
 	}
@@ -5499,7 +5235,6 @@
 	father=10148131 # Kasan Iju
 	religion="shinto"
 	culture="amami"
-	prowess=11
 	1520.1.1={
 		birth=yes
 	}
@@ -5513,7 +5248,6 @@
 	father=10148132 # Kasan Imei
 	religion="shinto"
 	culture="amami"
-	prowess=10
 	1550.1.1={
 		birth=yes
 	}
@@ -5527,7 +5261,6 @@
 	father=10148133 # Kasan Ikitsu
 	religion="shinto"
 	culture="amami"
-	prowess=10
 	1570.1.1={
 		birth=yes
 	}
@@ -5540,12 +5273,12 @@
 	dynasty=10001466 # Kumi
 	religion="shinto"
 	culture="amami"
-	martial=8
+	martial=9
 	trait="education_intrigue_3"
 	trait="strong"
 	trait="greedy"
 	trait="ambitious"
-	prowess=12
+	prowess=13
 	1480.1.1={
 		birth=yes
 	}
@@ -5568,7 +5301,7 @@
 	trait="education_martial_3"
 	trait="brave"
 	trait="impatient"
-	prowess=14
+	prowess=17
 	1500.1.1={
 		birth=yes
 		employer=10140240	# Yuan
@@ -5583,11 +5316,11 @@
 	father=10120070 # Minamoto Tametomo
 	religion="shinto"
 	culture="amami"
-	martial=6
+	martial=8
 	trait="education_martial_2"
 	trait="bastard"
 	trait="strong"
-	prowess=13
+	prowess=16
 	1166.1.1={
 		birth=yes
 	}
@@ -5600,9 +5333,8 @@
 	dynasty=10001476 # Kamiyaki
 	religion="shinto"
 	culture="amami"
-	stewardship=6
+	stewardship=8
 	trait="education_stewardship_2"
-	prowess=11
 	1150.1.1={
 		birth=yes
 	}
@@ -5616,9 +5348,8 @@
 	father=10148510 # Kamiyaki Kamiyaki
 	religion="shinto"
 	culture="amami"
-	stewardship=7
+	stewardship=8
 	trait="education_stewardship_2"
-	prowess=11
 	1180.1.1={
 		birth=yes
 	}
@@ -5634,7 +5365,6 @@
 	culture="amami"
 	stewardship=8
 	trait="education_stewardship_2"
-	prowess=10
 	1210.1.1={
 		birth=yes
 	}
@@ -5647,7 +5377,6 @@
 	dynasty=10001477 # Shimaji
 	religion="shinto"
 	culture="amami"
-	prowess=11
 	1300.1.1={
 		birth=yes
 	}
@@ -5662,7 +5391,6 @@
 	culture="amami"
 	trait="education_martial_3"
 	trait="intellect_good_2"
-	prowess=14
 	1320.1.1={
 		birth=yes
 	}
@@ -5676,7 +5404,6 @@
 	father=10148521 # Fuugushiku Tokuwan
 	religion="shinto"
 	culture="amami"
-	prowess=10
 	1360.1.1={
 		birth=yes
 	}
@@ -5689,7 +5416,6 @@
 	dynasty=10001479 # Isin
 	religion="shinto"
 	culture="amami"
-	prowess=9
 	1390.1.1={
 		birth=yes
 	}
@@ -5702,10 +5428,10 @@
 	dynasty=10001480 # Guraru
 	religion="shinto"
 	culture="amami"
-	martial=6
+	martial=8
 	trait="education_martial_3"
 	trait="brave"
-	prowess=13
+	prowess=18
 	1370.1.1={
 		birth=yes
 	}
@@ -5727,7 +5453,7 @@
 	martial=5
 	trait="education_martial_3"
 	trait="intellect_good_2"
-	prowess=12
+	prowess=15
 	1370.1.1={
 		birth=yes
 	}
@@ -5749,7 +5475,6 @@
 	dynasty=10001462 # Nima
 	religion="shinto"
 	culture="sakishima"
-	prowess=10
 	1160.1.1={
 		birth=yes
 	}
@@ -5762,7 +5487,6 @@
 	dynasty=10001482 # Bura
 	religion="shinto"
 	culture="sakishima"
-	prowess=10
 	1200.1.1={
 		birth=yes
 	}
@@ -5776,7 +5500,6 @@
 	father=10149001 # Bura Bura
 	religion="shinto"
 	culture="sakishima"
-	prowess=11
 	1230.1.1={
 		birth=yes
 	}
@@ -5790,7 +5513,6 @@
 	father=10149002 # Bura Bura
 	religion="shinto"
 	culture="sakishima"
-	prowess=10
 	1260.1.1={
 		birth=yes
 	}
@@ -5803,7 +5525,6 @@
 	dynasty=10001483 # Nima
 	religion="shinto"
 	culture="sakishima"
-	prowess=10
 	1290.1.1={
 		birth=yes
 	}
@@ -5817,7 +5538,6 @@
 	father=10149020 # Nima Nima
 	religion="shinto"
 	culture="sakishima"
-	prowess=10
 	1320.1.1={
 		birth=yes
 	}
@@ -5831,14 +5551,14 @@
 	father=10149021 # Nima Tsunugaara
 	religion="shinto"
 	culture="sakishima"
-	diplomacy=5
+	diplomacy=8
 	martial=7
-	stewardship=7
-	intrigue=5
-	learning=5
+	stewardship=8
+	intrigue=8
+	learning=3
 	trait="education_martial_3"
 	trait="intellect_good_2"
-	prowess=14
+	prowess=17
 	1350.1.1={
 		birth=yes
 	}
@@ -5852,7 +5572,6 @@
 	father=10149022 # Nima Miguramui
 	religion="shinto"
 	culture="sakishima"
-	prowess=11
 	1380.1.1={
 		birth=yes
 	}
@@ -5866,7 +5585,6 @@
 	father=10149023 # Nima Mazu-Yunufa
 	religion="shinto"
 	culture="sakishima"
-	prowess=12
 	1410.1.1={
 		birth=yes
 	}
@@ -5880,7 +5598,6 @@
 	father=10149024 # Nima Fusamui
 	religion="shinto"
 	culture="sakishima"
-	prowess=9
 	1430.1.1={
 		birth=yes
 	}
@@ -5893,10 +5610,10 @@
 	dynasty=10001484 # Yunafa
 	religion="shinto"
 	culture="sakishima"
-	martial=5
+	martial=8
 	trait="education_martial_3"
 	trait="impatient"
-	prowess=13
+	prowess=18
 	1340.1.1={
 		birth=yes
 	}
@@ -5910,10 +5627,9 @@
 	father=10149050 # Yunafa Sata
 	religion="shinto"
 	culture="sakishima"
-	diplomacy=4
+	diplomacy=9
 	trait="education_diplomacy_3"
 	trait="gregarious"
-	prowess=9
 	1367.1.1={
 		birth=yes
 	}
@@ -5928,7 +5644,6 @@
 	religion="shinto"
 	culture="sakishima"
 	trait="education_diplomacy_3"
-	prowess=10
 	1383.1.1={
 		birth=yes
 	}
@@ -5942,9 +5657,8 @@
 	father=10149052 # Yunafa Taigaa
 	religion="shinto"
 	culture="sakishima"
-	diplomacy=6
+	diplomacy=9
 	trait="education_diplomacy_3"
-	prowess=11
 	1405.1.1={
 		birth=yes
 	}
@@ -5958,18 +5672,18 @@
 	father=10149025 # Nima Mayunufa
 	religion="shinto"
 	culture="sakishima"
-	diplomacy=7
-	martial=6
-	stewardship=5
-	intrigue=5
-	learning=6
+	diplomacy=8
+	martial=8
+	stewardship=3
+	intrigue=8
+	learning=4
 	trait="education_stewardship_3"
 	trait="intellect_good_2"
 	trait="strategist"
 	trait="generous"
 	trait="just"
 	trait="brave"
-	prowess=11
+	prowess=12
 	1457.1.1={
 		birth=yes
 	}
@@ -5987,9 +5701,9 @@
 	mother=10149205 # Utsumega
 	religion="shinto"
 	culture="sakishima"
-	martial=6
+	martial=9
 	trait="education_martial_2"
-	prowess=12
+	prowess=17
 	1472.1.1={
 		birth=yes
 	}
@@ -6004,9 +5718,9 @@
 	mother=10149205 # Utsumega
 	religion="shinto"
 	culture="sakishima"
-	martial=6
+	martial=8
 	trait="education_martial_2"
-	prowess=12
+	prowess=16
 	1473.1.1={
 		birth=yes
 	}
@@ -6021,9 +5735,9 @@
 	mother=10149205 # Utsumega
 	religion="shinto"
 	culture="sakishima"
-	martial=6
+	martial=8
 	trait="education_martial_2"
-	prowess=13
+	prowess=16
 	1475.1.1={
 		birth=yes
 	}
@@ -6038,7 +5752,6 @@
 	mother=10149205 # Utsumega
 	religion="shinto"
 	culture="sakishima"
-	prowess=11
 	1480.1.1={
 		birth=yes
 	}
@@ -6051,7 +5764,6 @@
 	female=yes
 	religion="shinto"
 	culture="sakishima"
-	prowess=10
 	1457.1.1={
 		birth=yes
 	}
@@ -6065,11 +5777,11 @@
 	father=10149200 # Nakazuni Nakazuni
 	religion="shinto"
 	culture="sakishima"
-	martial=7
+	martial=8
 	trait="education_martial_3"
 	trait="brave"
 	trait="bastard"
-	prowess=14
+	prowess=18
 	1474.1.1={
 		birth=yes
 	}
@@ -6083,11 +5795,11 @@
 	father=10149200 # Nakazuni Nakazuni
 	religion="shinto"
 	culture="sakishima"
-	martial=5
+	martial=7
 	trait="education_martial_3"
 	trait="brave"
 	trait="bastard"
-	prowess=14
+	prowess=17
 	1476.1.1={
 		birth=yes
 	}
@@ -6100,7 +5812,6 @@
 	dynasty=10001463 # Akayama
 	religion="shinto"
 	culture="sakishima"
-	prowess=11
 	1160.1.1={
 		birth=yes
 	}
@@ -6113,16 +5824,16 @@
 	dynasty=10001468 # Oyake
 	religion="shinto"
 	culture="sakishima"
-	diplomacy=8
+	diplomacy=5
 	martial=8
 	stewardship=6
-	intrigue=7
-	learning=6
+	intrigue=5
+	learning=3
 	trait="education_martial_3"
 	trait="strong"
 	trait="brave"
 	trait="ambitious"
-	prowess=15
+	prowess=18
 	1460.1.1={
 		birth=yes
 	}
@@ -6136,7 +5847,6 @@
 	father=10149700 # Oyake Akahachi
 	religion="shinto"
 	culture="sakishima"
-	prowess=10
 	1480.1.1={
 		birth=yes
 	}
@@ -6149,10 +5859,9 @@
 	dynasty=10001486 # Teedun
 	religion="shinto"
 	culture="sakishima"
-	stewardship=6
+	stewardship=9
 	trait="education_stewardship_3"
 	trait="architect"
-	prowess=10
 	1488.1.1={
 		birth=yes
 	}
@@ -6171,9 +5880,8 @@
 	dynasty=10001487 # Otake-Sonaido
 	religion="shinto"
 	culture="sakishima"
-	stewardship=7
+	stewardship=8
 	trait="education_stewardship_3"
-	prowess=9
 	1420.1.1={
 		birth=yes
 	}
@@ -6186,10 +5894,9 @@
 	dynasty=10001464 # Dunandagi
 	religion="shinto"
 	culture="sakishima"
-	learning=5
+	learning=10
 	trait="education_learning_4"
 	trait="mystic_2"
-	prowess=11
 	1160.1.1={
 		birth=yes
 	}
@@ -6203,16 +5910,17 @@
 	dynasty=10001469 # Sanai
 	religion="shinto"
 	culture="sakishima"
-	diplomacy=6
-	martial=5
-	stewardship=5
+	diplomacy=5
+	martial=6
+	stewardship=6
 	intrigue=6
-	learning=6
+	learning=7
 	trait="education_martial_3"
 	trait="strong"
 	trait="brave"
 	trait="celibate"
-	prowess=14
+#	trait="female_commander"
+	prowess=16
 	1450.1.1={
 		birth=yes
 	}
@@ -6226,7 +5934,6 @@
 	mother=10149900 # Sanai Isoba
 	religion="shinto"
 	culture="sakishima"
-	prowess=11
 	1480.1.1={
 		birth=yes
 	}
@@ -6244,7 +5951,7 @@
 	trait="strong"
 	trait="brave"
 	trait="ambitious"
-	prowess=14
+	prowess=17
 	1475.1.1={
 		birth=yes
 	}
@@ -6262,7 +5969,6 @@
 	father=10149910 # Kazumata Unitora
 	religion="shinto"
 	culture="sakishima"
-	prowess=11
 	1505.1.1={
 		birth=yes
 	}

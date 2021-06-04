@@ -330,7 +330,6 @@ types DynastyTreeView
 						elide = right
 
 						align = center
-						#text = "[DynastyTreeItem.GetCharacter.GetShortUINameNotMeNoTooltip]"
 						text = "[DynastyTreeItem.GetCharacter.Custom('JP_GetShortUINameNotMeNoTooltip')]"
 						default_format = "#high"
 						fontsize = 20

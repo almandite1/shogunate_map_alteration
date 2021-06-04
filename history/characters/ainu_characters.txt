@@ -1,10 +1,10 @@
 ﻿10150000 = {
 	name=character_name_10150000 # Tanatsakashi
 	dynasty=10001500 # Shiripet
-	martial=6
-	diplomacy=6
-	intrigue=6
-	stewardship=6
+	martial=9
+	diplomacy=7
+	intrigue=2
+	stewardship=8
 	learning=5
 	trait="education_martial_3"
 	trait="ambitious"
@@ -13,13 +13,13 @@
 	trait="physique_good_2"
 	religion="ainu"
 	culture="donan_ainu"
-	prowess=14
+	prowess=19
 	1475.1.1={
 		birth=yes
 	}
 	1490.1.1={
-		effect={
-			set_realm_capital=title:c_shgnt_setana
+		effect = {
+			set_realm_capital = title:c_shgnt_setana
 		}
 	}
 	1529.3.26={
@@ -35,7 +35,6 @@
 	father=10150000
 	religion="ainu"
 	culture="donan_ainu"
-	prowess=11
 	1510.1.1={
 		birth=yes
 	}
@@ -48,11 +47,11 @@
 10150002 = {
 	name=character_name_10150002 # Taarikonam
 	dynasty=10001500 # Shiripet
-	martial=6
+	martial=10
 	diplomacy=6
-	intrigue=6
-	stewardship=6
-	learning=6
+	intrigue=2
+	stewardship=9
+	learning=7
 	trait="education_martial_3"
 	trait="arbitrary"
 	trait="impatient"
@@ -60,7 +59,7 @@
 	trait="lazy"
 	religion="ainu"
 	culture="donan_ainu"
-	prowess=14
+	prowess=20
 	1505.1.1={
 		birth=yes
 	}
@@ -68,8 +67,8 @@
 		add_spouse=10150001
 	}
 	1530.1.1={
-		effect={
-			set_realm_capital=title:c_shgnt_setana
+		effect = {
+			set_realm_capital = title:c_shgnt_setana
 		}
 	}
 	1536.6.23={
@@ -81,11 +80,11 @@
 10150003 = {
 	name=character_name_10150003 # Hashitayn
 	dynasty=10001501 # Ssetanay
-	martial=7
-	diplomacy=6
-	intrigue=6
-	stewardship=7
-	learning=6
+	martial=6
+	diplomacy=9
+	intrigue=10
+	stewardship=11
+	learning=9
 	trait="education_stewardship_3"
 	trait="diligent"
 	trait="humble"
@@ -93,7 +92,7 @@
 	trait="shrewd"
 	religion="ainu"
 	culture="donan_ainu"
-	prowess=11
+	prowess=10
 	1510.1.1={
 		birth=yes
 		employer=10150000
@@ -110,7 +109,6 @@
 	dynasty=10001502 # wokomshiri
 	religion="ainu"
 	culture="donan_ainu"
-	prowess=10
 	1530.1.1={
 		birth=yes
 		employer=10150002
@@ -124,7 +122,6 @@
 	dynasty=10001503 # Pitoro
 	religion="ainu"
 	culture="donan_ainu"
-	prowess=10
 	1430.1.1={
 		birth=yes
 	}
@@ -135,11 +132,11 @@
 10150500 = {
 	name=character_name_10150500 # Koshamayn
 	dynasty=10001510 # Yamakushinai
-	martial=5
-	diplomacy=5
-	intrigue=6
-	stewardship=6
-	learning=6
+	martial=11
+	diplomacy=7
+	intrigue=2
+	stewardship=11
+	learning=5
 	trait="education_martial_4"
 	trait="diligent"
 	trait="humble"
@@ -147,7 +144,7 @@
 	trait="physique_good_2"
 	religion="ainu"
 	culture="donan_ainu"
-	prowess=14
+	prowess=23
 	1410.1.1={
 		birth=yes
 	}
@@ -161,11 +158,11 @@
 	name=character_name_10150501 # Sankur
 	dynasty=10001510 # Yamakushinai
 	father=10150500
-	martial=8
-	diplomacy=7
-	intrigue=7
-	stewardship=7
-	learning=7
+	martial=10
+	diplomacy=9
+	intrigue=1
+	stewardship=8
+	learning=4
 	trait="education_martial_3"
 	trait="compassionate"
 	trait="humble"
@@ -173,7 +170,7 @@
 	trait="physique_good_2"
 	religion="ainu"
 	culture="donan_ainu"
-	prowess=14
+	prowess=20
 	1430.1.1={
 		birth=yes
 	}
@@ -187,11 +184,11 @@
 	name=character_name_10150502 # Shoya
 	dynasty=10001510 # Yamakushinai
 	father=10150501
-	martial=5
-	diplomacy=7
-	intrigue=5
-	stewardship=7
-	learning=6
+	martial=10
+	diplomacy=9
+	intrigue=1
+	stewardship=8
+	learning=4
 	trait="education_martial_3"
 	trait="compassionate"
 	trait="sadistic"
@@ -199,7 +196,7 @@
 	trait="physique_good_2"
 	religion="ainu"
 	culture="donan_ainu"
-	prowess=15
+	prowess=20
 	1455.1.1={
 		birth=yes
 	}
@@ -213,11 +210,11 @@
 	name=character_name_10150503 # Kohupci
 	dynasty=10001510 # Yamakushinai
 	father=10150501
-	martial=7
-	diplomacy=6
-	intrigue=4
-	stewardship=7
-	learning=7
+	martial=9
+	diplomacy=7
+	intrigue=0
+	stewardship=11
+	learning=6
 	trait="education_martial_3"
 	trait="physique_good_2"
 	trait="compassionate"
@@ -225,7 +222,7 @@
 	trait="dull"
 	religion="ainu"
 	culture="donan_ainu"
-	prowess=12
+	prowess=19
 	1457.1.1={
 		birth=yes
 	}
@@ -238,11 +235,11 @@
 10150504 = {
 	name=character_name_10150504 # Cikomotayn
 	dynasty=10001511 # Cirioti
-	martial=6
-	diplomacy=7
-	intrigue=7
-	stewardship=7
-	learning=5
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=11
+	learning=10
 	trait="education_stewardship_3"
 	trait="diligent"
 	trait="content"
@@ -250,7 +247,7 @@
 	trait="brave"
 	religion="ainu"
 	culture="donan_ainu"
-	prowess=11
+	prowess=12
 	1500.1.1={
 		birth=yes
 		employer=10150502
@@ -264,7 +261,6 @@
 	dynasty=10001512 # Worikakoy
 	religion="ainu"
 	culture="donan_ainu"
-	prowess=10
 	1530.1.1={
 		birth=yes
 		employer=10150504
@@ -278,7 +274,6 @@
 	dynasty=10001513 # Aptapet
 	religion="ainu"
 	culture="donan_ainu"
-	prowess=11
 	1550.1.1={
 		birth=yes
 		employer=10150504
@@ -293,7 +288,6 @@
 	religion="ainu"
 	culture="doo_ainu"
 	father=10151098
-	prowess=11
 	1450.1.1={
 		birth=yes
 	}
@@ -307,7 +301,6 @@
 	religion="ainu"
 	culture="doo_ainu"
 	father=10151000
-	prowess=10
 	1480.1.1={
 		birth=yes
 	}
@@ -321,7 +314,6 @@
 	religion="ainu"
 	culture="doo_ainu"
 	father=10151001
-	prowess=10
 	1500.1.1={
 		birth=yes
 	}
@@ -335,7 +327,6 @@
 	religion="ainu"
 	culture="doo_ainu"
 	father=10151002
-	prowess=10
 	1530.1.1={
 		birth=yes
 	}
@@ -349,7 +340,6 @@
 	religion="ainu"
 	culture="doo_ainu"
 	father=10151003
-	prowess=10
 	1560.1.1={
 		birth=yes
 	}
@@ -363,7 +353,6 @@
 	religion="ainu"
 	culture="doo_ainu"
 	father=10151004
-	prowess=10
 	1590.1.1={
 		birth=yes
 	}
@@ -377,7 +366,6 @@
 	religion="ainu"
 	culture="doo_ainu"
 	father=10151005
-	prowess=10
 	1620.1.1={
 		birth=yes
 	}
@@ -391,7 +379,6 @@
 	religion="ainu"
 	culture="doo_ainu"
 	father=10151006
-	prowess=11
 	1650.1.1={
 		birth=yes
 	}
@@ -405,7 +392,6 @@
 	religion="ainu"
 	culture="doo_ainu"
 	father=10151006
-	prowess=11
 	1660.1.1={
 		birth=yes
 	}
@@ -419,7 +405,6 @@
 	religion="ainu"
 	culture="doo_ainu"
 	father=10151007
-	prowess=11
 	1680.1.1={
 		birth=yes
 	}
@@ -433,7 +418,6 @@
 	religion="ainu"
 	culture="doo_ainu"
 	father=10151009
-	prowess=10
 	1710.1.1={
 		birth=yes
 	}
@@ -447,7 +431,6 @@
 	religion="ainu"
 	culture="doo_ainu"
 	father=10151010
-	prowess=10
 	1740.1.1={
 		birth=yes
 	}
@@ -461,7 +444,6 @@
 	religion="ainu"
 	culture="doo_ainu"
 	father=10151011
-	prowess=10
 	1775.1.1={
 		birth=yes
 	}
@@ -475,7 +457,6 @@
 	religion="ainu"
 	culture="doo_ainu"
 	father=10151011
-	prowess=10
 	1780.1.1={
 		birth=yes
 	}
@@ -489,7 +470,6 @@
 	religion="ainu"
 	culture="doo_ainu"
 	father=10151011
-	prowess=10
 	1785.1.1={
 		birth=yes
 	}
@@ -503,7 +483,6 @@
 	religion="ainu"
 	culture="doo_ainu"
 	father=10151012
-	prowess=11
 	1810.1.1={
 		birth=yes
 	}
@@ -517,7 +496,6 @@
 	religion="ainu"
 	culture="doo_ainu"
 	father=10151012
-	prowess=10
 	1815.1.1={
 		birth=yes
 	}
@@ -531,7 +509,6 @@
 	religion="ainu"
 	culture="doo_ainu"
 	father=10151016
-	prowess=11
 	1850.1.1={
 		birth=yes
 	}
@@ -545,7 +522,6 @@
 	religion="ainu"
 	culture="doo_ainu"
 	father=10151015
-	prowess=12
 	1850.1.1={
 		birth=yes
 	}
@@ -559,7 +535,6 @@
 	religion="ainu"
 	culture="doo_ainu"
 	father=10151018
-	prowess=11
 	1890.1.1={
 		birth=yes
 	}
@@ -573,7 +548,6 @@
 	religion="ainu"
 	culture="doo_ainu"
 	father=10151019
-	prowess=9
 	1920.1.1={
 		birth=yes
 	}
@@ -586,7 +560,6 @@
 	dynasty=10001520 # Sar
 	religion="ainu"
 	culture="doo_ainu"
-	prowess=11
 	1400.1.1={
 		birth=yes
 	}
@@ -600,7 +573,6 @@
 	religion="ainu"
 	culture="doo_ainu"
 	father=10151099
-	prowess=10
 	1430.1.1={
 		birth=yes
 	}
@@ -613,7 +585,6 @@
 	dynasty=10001523 # Poronay
 	religion="ainu"
 	culture="dohoku_ainu"
-	prowess=10
 	1435.1.1={
 		birth=yes
 	}
@@ -626,7 +597,6 @@
 	dynasty=10001521 # Mopet
 	religion="ainu"
 	culture="dohoku_ainu"
-	prowess=11
 	1500.1.1={
 		birth=yes
 	}
@@ -639,7 +609,6 @@
 	dynasty=10001522 # Yupet
 	religion="ainu"
 	culture="dohoku_ainu"
-	prowess=12
 	1540.1.1={
 		birth=yes
 	}
@@ -652,7 +621,6 @@
 	dynasty=10001523 # Esausi
 	religion="ainu"
 	culture="dohoku_ainu"
-	prowess=9
 	1430.1.1={
 		birth=yes
 	}
@@ -665,7 +633,6 @@
 	dynasty=10001532 # sipicar
 	religion="ainu"
 	culture="doto_ainu"
-	prowess=11
 	1470.1.1={
 		birth=yes
 	}
@@ -679,7 +646,6 @@
 	religion="ainu"
 	culture="doto_ainu"
 	father=10151500
-	prowess=10
 	1500.1.1={
 		birth=yes
 	}
@@ -693,7 +659,6 @@
 	religion="ainu"
 	culture="doto_ainu"
 	father=10151501
-	prowess=10
 	1530.1.1={
 		birth=yes
 	}
@@ -707,7 +672,6 @@
 	religion="ainu"
 	culture="doto_ainu"
 	father=10151502
-	prowess=10
 	1570.1.1={
 		birth=yes
 	}
@@ -721,7 +685,6 @@
 	religion="ainu"
 	culture="doto_ainu"
 	father=10151503
-	prowess=11
 	1600.1.1={
 		birth=yes
 	}
@@ -735,7 +698,6 @@
 	religion="ainu"
 	culture="doto_ainu"
 	father=10151504
-	prowess=11
 	1630.1.1={
 		birth=yes
 	}
@@ -749,7 +711,6 @@
 	religion="ainu"
 	culture="doto_ainu"
 	father=10151505
-	prowess=11
 	1660.1.1={
 		birth=yes
 	}
@@ -763,7 +724,6 @@
 	religion="ainu"
 	culture="doto_ainu"
 	father=10151506
-	prowess=10
 	1690.1.1={
 		birth=yes
 	}
@@ -777,7 +737,6 @@
 	religion="ainu"
 	culture="doto_ainu"
 	father=10151506
-	prowess=10
 	1695.1.1={
 		birth=yes
 	}
@@ -791,7 +750,6 @@
 	religion="ainu"
 	culture="doto_ainu"
 	father=10151507
-	prowess=9
 	1720.1.1={
 		birth=yes
 	}
@@ -805,7 +763,6 @@
 	religion="ainu"
 	culture="doto_ainu"
 	father=10151507
-	prowess=10
 	1725.1.1={
 		birth=yes
 	}
@@ -819,7 +776,6 @@
 	religion="ainu"
 	culture="doto_ainu"
 	father=10151510
-	prowess=10
 	1760.1.1={
 		birth=yes
 	}
@@ -833,7 +789,6 @@
 	religion="ainu"
 	culture="doto_ainu"
 	father=10151509
-	prowess=11
 	1760.1.1={
 		birth=yes
 	}
@@ -847,7 +802,6 @@
 	religion="ainu"
 	culture="doto_ainu"
 	father=10151511
-	prowess=9
 	1800.1.1={
 		birth=yes
 	}
@@ -861,7 +815,6 @@
 	religion="ainu"
 	culture="doto_ainu"
 	father=10151511
-	prowess=10
 	1850.1.1={
 		birth=yes
 	}
@@ -875,7 +828,6 @@
 	religion="ainu"
 	culture="doto_ainu"
 	father=10151509
-	prowess=10
 	1770.1.1={
 		birth=yes
 	}
@@ -889,7 +841,6 @@
 	religion="ainu"
 	culture="doto_ainu"
 	father=10151515
-	prowess=12
 	1800.1.1={
 		birth=yes
 	}
@@ -903,7 +854,6 @@
 	religion="ainu"
 	culture="doto_ainu"
 	father=10151515
-	prowess=11
 	1830.1.1={
 		birth=yes
 	}
@@ -917,7 +867,6 @@
 	religion="ainu"
 	culture="doto_ainu"
 	father=10151515
-	prowess=10
 	1835.1.1={
 		birth=yes
 	}
@@ -931,7 +880,6 @@
 	religion="ainu"
 	culture="doto_ainu"
 	father=10151512
-	prowess=11
 	1790.1.1={
 		birth=yes
 	}
@@ -945,7 +893,6 @@
 	religion="ainu"
 	culture="doto_ainu"
 	father=10151519
-	prowess=11
 	1820.1.1={
 		birth=yes
 	}
@@ -959,7 +906,6 @@
 	religion="ainu"
 	culture="doto_ainu"
 	father=10151519
-	prowess=10
 	1850.1.1={
 		birth=yes
 	}
@@ -973,7 +919,6 @@
 	religion="ainu"
 	culture="doto_ainu"
 	father=10151519
-	prowess=12
 	1855.1.1={
 		birth=yes
 	}
@@ -987,7 +932,6 @@
 	religion="ainu"
 	culture="doto_ainu"
 	father=10151519
-	prowess=12
 	1863.2.27={
 		birth=yes
 	}
@@ -1002,7 +946,6 @@
 	religion="ainu"
 	culture="doto_ainu"
 	father=10151523
-	prowess=9
 	1890.1.1={
 		birth=yes
 	}
@@ -1016,7 +959,6 @@
 	religion="ainu"
 	culture="doto_ainu"
 	father=10151516
-	prowess=9
 	1830.1.1={
 		birth=yes
 	}
@@ -1030,7 +972,6 @@
 	religion="ainu"
 	culture="doto_ainu"
 	father=10151516
-	prowess=11
 	1840.1.1={
 		birth=yes
 	}
@@ -1044,7 +985,6 @@
 	religion="ainu"
 	culture="doto_ainu"
 	father=10151517
-	prowess=10
 	1880.1.1={
 		birth=yes
 	}
@@ -1058,7 +998,6 @@
 	religion="ainu"
 	culture="doto_ainu"
 	father=10151517
-	prowess=9
 	1890.1.1={
 		birth=yes
 	}
@@ -1072,7 +1011,6 @@
 	religion="ainu"
 	culture="doto_ainu"
 	father=10151517
-	prowess=11
 	1895.1.1={
 		birth=yes
 	}
@@ -1086,7 +1024,6 @@
 	religion="ainu"
 	culture="doto_ainu"
 	father=10151518
-	prowess=10
 	1880.1.1={
 		birth=yes
 	}
@@ -1100,7 +1037,6 @@
 	religion="ainu"
 	culture="doto_ainu"
 	father=10151518
-	prowess=12
 	1890.1.1={
 		birth=yes
 	}
@@ -1114,7 +1050,6 @@
 	religion="ainu"
 	culture="doto_ainu"
 	father=10151518
-	prowess=11
 	1895.1.1={
 		birth=yes
 	}
@@ -1128,7 +1063,6 @@
 	religion="ainu"
 	culture="doto_ainu"
 	father=10151518
-	prowess=11
 	1900.1.1={
 		birth=yes
 	}
@@ -1141,7 +1075,6 @@
 	dynasty=10001534 # Sachinay
 	religion="ainu"
 	culture="doto_ainu"
-	prowess=12
 	1350.1.1={
 		birth=yes
 	}
@@ -1155,7 +1088,6 @@
 	father = 10151550
 	religion="ainu"
 	culture="doto_ainu"
-	prowess=10
 	1380.1.1={
 		birth=yes
 	}
@@ -1168,7 +1100,6 @@
 	dynasty=10001535 # Rikuunpet
 	religion="ainu"
 	culture="doto_ainu"
-	prowess=9
 	1370.1.1={
 		birth=yes
 	}
@@ -1182,7 +1113,6 @@
 	father = 10151555
 	religion="ainu"
 	culture="doto_ainu"
-	prowess=10
 	1420.1.1={
 		birth=yes
 	}
@@ -1195,7 +1125,6 @@
 	dynasty=10001530 # Piporo
 	religion="ainu"
 	culture="doto_ainu"
-	prowess=11
 	1470.1.1={
 		birth=yes
 	}
@@ -1208,7 +1137,6 @@
 	dynasty=10001531 # cipasir
 	religion="ainu"
 	culture="doto_ainu"
-	prowess=9
 	1500.1.1={
 		birth=yes
 		employer=10151800
@@ -1222,7 +1150,6 @@
 	dynasty=10001533 # Tokoro
 	religion="ainu"
 	culture="doto_ainu"
-	prowess=10
 	1530.1.1={
 		birth=yes
 		employer=10151801
@@ -1236,7 +1163,6 @@
 	dynasty=10001536 # Yupet
 	religion="ainu"
 	culture="doto_ainu"
-	prowess=11
 	1390.1.1={
 		birth=yes
 	}
@@ -1250,7 +1176,6 @@
 	father=10151603
 	religion="ainu"
 	culture="doto_ainu"
-	prowess=12
 	1410.1.1={
 		birth=yes
 	}
@@ -1264,7 +1189,6 @@
 	religion="ainu"
 	culture="doto_ainu"
 	father=10152098
-	prowess=9
 	1450.1.1={
 		birth=yes
 	}
@@ -1281,7 +1205,6 @@
 	religion="ainu"
 	culture="doto_ainu"
 	female=yes
-	prowess=10
 	1460.1.1={
 		birth=yes
 	}
@@ -1297,7 +1220,6 @@
 	female=yes
 	father=10152000
 	mother=10152001
-	prowess=11
 	1485.1.1={
 		birth=yes
 	}
@@ -1311,7 +1233,6 @@
 	religion="ainu"
 	culture="doto_ainu"
 	mother=10152002
-	prowess=10
 	1510.1.1={
 		birth=yes
 	}
@@ -1325,7 +1246,6 @@
 	religion="ainu"
 	culture="doto_ainu"
 	father=10152003
-	prowess=10
 	1540.1.1={
 		birth=yes
 	}
@@ -1339,7 +1259,6 @@
 	religion="ainu"
 	culture="doto_ainu"
 	father=10152004
-	prowess=9
 	1570.1.1={
 		birth=yes
 	}
@@ -1353,7 +1272,6 @@
 	religion="ainu"
 	culture="doto_ainu"
 	father=10152005
-	prowess=12
 	1600.1.1={
 		birth=yes
 	}
@@ -1367,7 +1285,6 @@
 	religion="ainu"
 	culture="doto_ainu"
 	father=10152006
-	prowess=11
 	1640.1.1={
 		birth=yes
 	}
@@ -1381,7 +1298,6 @@
 	religion="ainu"
 	culture="doto_ainu"
 	father=10152007
-	prowess=12
 	1670.1.1={
 		birth=yes
 	}
@@ -1398,7 +1314,6 @@
 	religion="ainu"
 	culture="doto_ainu"
 	father=10152006
-	prowess=11
 	1630.1.1={
 		birth=yes
 	}
@@ -1412,7 +1327,6 @@
 	religion="ainu"
 	culture="doto_ainu"
 	father=10152009
-	prowess=11
 	1650.1.1={
 		birth=yes
 	}
@@ -1427,7 +1341,6 @@
 	culture="doto_ainu"
 	female=yes
 	father=10152010
-	prowess=9
 	1680.1.1={
 		birth=yes
 	}
@@ -1442,7 +1355,6 @@
 	culture="doto_ainu"
 	father=10152008
 	mother=10152011
-	prowess=9
 	1700.1.1={
 		birth=yes
 	}
@@ -1457,7 +1369,6 @@
 	culture="doto_ainu"
 	father=10152008
 	mother=10152011
-	prowess=12
 	1705.1.1={
 		birth=yes
 	}
@@ -1471,7 +1382,6 @@
 	religion="ainu"
 	culture="doto_ainu"
 	father=10152013
-	prowess=10
 	1730.1.1={
 		birth=yes
 	}
@@ -1485,7 +1395,6 @@
 	religion="ainu"
 	culture="doto_ainu"
 	father=10152013
-	prowess=10
 	1740.1.1={
 		birth=yes
 	}
@@ -1499,7 +1408,6 @@
 	religion="ainu"
 	culture="doto_ainu"
 	father=10152015
-	prowess=11
 	1760.1.1={
 		birth=yes
 	}
@@ -1513,7 +1421,6 @@
 	religion="ainu"
 	culture="doto_ainu"
 	father=10152016
-	prowess=10
 	1780.1.1={
 		birth=yes
 	}
@@ -1527,7 +1434,6 @@
 	religion="ainu"
 	culture="doto_ainu"
 	father=10152017
-	prowess=9
 	1810.1.1={
 		birth=yes
 	}
@@ -1541,7 +1447,6 @@
 	religion="ainu"
 	culture="doto_ainu"
 	father=10152018
-	prowess=11
 	1830.1.1={
 		birth=yes
 	}
@@ -1554,7 +1459,6 @@
 	dynasty=10001541 # Kusiri
 	religion="ainu"
 	culture="tohoku_ainu"
-	prowess=10
 	1210.1.1={
 		birth=yes
 	}
@@ -1568,7 +1472,6 @@
 	religion="ainu"
 	culture="doto_ainu"
 	father=10152091
-	prowess=11
 	1240.1.1={
 		birth=yes
 	}
@@ -1582,7 +1485,6 @@
 	religion="ainu"
 	culture="doto_ainu"
 	father=10152092
-	prowess=11
 	1270.1.1={
 		birth=yes
 	}
@@ -1596,7 +1498,6 @@
 	religion="ainu"
 	culture="doto_ainu"
 	father=10152093
-	prowess=9
 	1300.1.1={
 		birth=yes
 	}
@@ -1610,7 +1511,6 @@
 	religion="ainu"
 	culture="doto_ainu"
 	father=10152094
-	prowess=10
 	1330.1.1={
 		birth=yes
 	}
@@ -1624,7 +1524,6 @@
 	religion="ainu"
 	culture="doto_ainu"
 	father=10152095
-	prowess=12
 	1360.1.1={
 		birth=yes
 	}
@@ -1638,7 +1537,6 @@
 	religion="ainu"
 	culture="doto_ainu"
 	father=10152096
-	prowess=11
 	1390.1.1={
 		birth=yes
 	}
@@ -1652,7 +1550,6 @@
 	religion="ainu"
 	culture="doto_ainu"
 	father=10152097
-	prowess=11
 	1420.1.1={
 		birth=yes
 	}
@@ -1665,7 +1562,6 @@
 	dynasty=10001540 # Kutcaro
 	religion="ainu"
 	culture="doto_ainu"
-	prowess=12
 	1485.1.1={
 		birth=yes
 	}
@@ -1678,7 +1574,6 @@
 	dynasty=10001550 # Onnepet
 	religion="ainu"
 	culture="doto_ainu"
-	prowess=11
 	1475.1.1={
 		birth=yes
 	}
@@ -1691,7 +1586,6 @@
 	dynasty=10001551 # Menashi
 	religion="ainu"
 	culture="doto_ainu"
-	prowess=10
 	1530.1.1={
 		birth=yes
 		employer=10152500
@@ -1705,7 +1599,6 @@
 	dynasty=10001553 # Shari
 	religion="ainu"
 	culture="doto_ainu"
-	prowess=12
 	1430.1.1={
 		birth=yes
 	}
@@ -1718,7 +1611,6 @@
 	dynasty=10001560 # Kinasir
 	religion="ainu"
 	culture="chishima_ainu"
-	prowess=11
 	1450.1.1={
 		birth=yes
 	}
@@ -1731,7 +1623,6 @@
 	dynasty=10001561 # Etuoroop
 	religion="ainu"
 	culture="chishima_ainu"
-	prowess=10
 	1510.1.1={
 		birth=yes
 	}
@@ -1744,7 +1635,6 @@
 	dynasty=10001570 # Kamchatka
 	religion="ainu"
 	culture="chishima_ainu"
-	prowess=10
 	1440.1.1={
 		birth=yes
 	}
@@ -1757,7 +1647,6 @@
 	dynasty=10001571 # Kamchatka
 	religion="ainu"
 	culture="chishima_ainu"
-	prowess=9
 	1500.1.1={
 		birth=yes
 	}
@@ -1770,7 +1659,6 @@
 	dynasty=10001572 # Kamchatka
 	religion="ainu"
 	culture="chishima_ainu"
-	prowess=11
 	1540.1.1={
 		birth=yes
 	}
@@ -1783,7 +1671,6 @@
 	dynasty=10001580 # Iskarpet
 	religion="ainu"
 	culture="doo_ainu"
-	prowess=11
 	1480.1.1={
 		birth=yes
 	}
@@ -1796,7 +1683,6 @@
 	dynasty=10001581 # Maske
 	religion="ainu"
 	culture="doo_ainu"
-	prowess=11
 	1530.1.1={
 		birth=yes
 		employer=10154000
@@ -1810,7 +1696,6 @@
 	dynasty=10001582 # Yuparo
 	religion="ainu"
 	culture="doo_ainu"
-	prowess=12
 	1430.1.1={
 		birth=yes
 	}
@@ -1823,7 +1708,6 @@
 	dynasty=10001590 # Huranui
 	religion="ainu"
 	culture="dohoku_ainu"
-	prowess=9
 	1460.1.1={
 		birth=yes
 	}
@@ -1836,7 +1720,6 @@
 	dynasty=10001591 # Sipet
 	religion="ainu"
 	culture="dohoku_ainu"
-	prowess=11
 	1520.1.1={
 		birth=yes
 	}
@@ -1849,7 +1732,6 @@
 	dynasty=10001592 # Sorapci
 	religion="ainu"
 	culture="doo_ainu"
-	prowess=10
 	1430.1.1={
 		birth=yes
 	}
@@ -1862,7 +1744,6 @@
 	dynasty=10001600 # Hurpira
 	religion="ainu"
 	culture="doo_ainu"
-	prowess=10
 	1470.1.1={
 		birth=yes
 	}
@@ -1875,7 +1756,6 @@
 	dynasty=10001601 # Iwawnay
 	religion="ainu"
 	culture="doo_ainu"
-	prowess=12
 	1500.1.1={
 		birth=yes
 		employer=10155000
@@ -1889,7 +1769,6 @@
 	dynasty=10001602 # Iochi
 	religion="ainu"
 	culture="doo_ainu"
-	prowess=9
 	1540.1.1={
 		birth=yes
 		employer=10155001
@@ -1903,7 +1782,6 @@
 	dynasty=10001603 # Otanay
 	religion="ainu"
 	culture="doo_ainu"
-	prowess=12
 	1430.1.1={
 		birth=yes
 	}
@@ -1916,7 +1794,6 @@
 	dynasty=10001610 # Shuronkur
 	religion="ainu"
 	culture="karafuto_ainu"
-	prowess=10
 	1450.1.1={
 		birth=yes
 	}
@@ -1930,7 +1807,6 @@
 	religion="ainu"
 	culture="karafuto_ainu"
 	father=10155500
-	prowess=12
 	1490.1.1={
 		birth=yes
 	}
@@ -1944,7 +1820,6 @@
 	religion="ainu"
 	culture="karafuto_ainu"
 	father=10155501
-	prowess=10
 	1530.1.1={
 		birth=yes
 	}
@@ -1958,7 +1833,6 @@
 	religion="ainu"
 	culture="karafuto_ainu"
 	father=10155502
-	prowess=11
 	1570.1.1={
 		birth=yes
 	}
@@ -1971,7 +1845,6 @@
 	dynasty=10001620 # Pontukes
 	religion="ainu"
 	culture="karafuto_ainu"
-	prowess=11
 	1455.1.1={
 		birth=yes
 	}
@@ -1984,7 +1857,6 @@
 	dynasty=10001621 # Enrumkuomanay
 	religion="ainu"
 	culture="karafuto_ainu"
-	prowess=9
 	1515.1.1={
 		birth=yes
 	}
@@ -1997,7 +1869,6 @@
 	dynasty=10001622 # Tominay
 	religion="ainu"
 	culture="karafuto_ainu"
-	prowess=10
 	1550.1.1={
 		birth=yes
 		employer=10156001
@@ -2011,7 +1882,6 @@
 	dynasty=10001630 # Yadan
 	religion="ainu"
 	culture="karafuto_ainu"
-	prowess=11
 	1435.1.1={
 		birth=yes
 	}
@@ -2025,7 +1895,6 @@
 	religion="ainu"
 	culture="karafuto_ainu"
 	father=10156500
-	prowess=9
 	1475.1.1={
 		birth=yes
 	}
@@ -2039,7 +1908,6 @@
 	religion="ainu"
 	culture="karafuto_ainu"
 	father=10156500
-	prowess=9
 	1495.1.1={
 		birth=yes
 	}
@@ -2053,7 +1921,6 @@
 	religion="ainu"
 	culture="karafuto_ainu"
 	father=10156502
-	prowess=11
 	1530.1.1={
 		birth=yes
 	}
@@ -2067,7 +1934,6 @@
 	religion="ainu"
 	culture="karafuto_ainu"
 	father=10156503
-	prowess=10
 	1560.1.1={
 		birth=yes
 	}
@@ -2081,7 +1947,6 @@
 	religion="ainu"
 	culture="karafuto_ainu"
 	father=10156503
-	prowess=11
 	1565.1.1={
 		birth=yes
 	}
@@ -2095,7 +1960,6 @@
 	religion="ainu"
 	culture="karafuto_ainu"
 	father=10156504
-	prowess=12
 	1590.1.1={
 		birth=yes
 	}
@@ -2109,7 +1973,6 @@
 	religion="ainu"
 	culture="karafuto_ainu"
 	father=10156506
-	prowess=10
 	1620.1.1={
 		birth=yes
 	}
@@ -2123,7 +1986,6 @@
 	religion="ainu"
 	culture="karafuto_ainu"
 	father=10156507
-	prowess=10
 	1650.1.1={
 		birth=yes
 	}
@@ -2137,7 +1999,6 @@
 	religion="ainu"
 	culture="karafuto_ainu"
 	father=10156508
-	prowess=10
 	1680.1.1={
 		birth=yes
 	}
@@ -2151,7 +2012,6 @@
 	religion="ainu"
 	culture="karafuto_ainu"
 	father=10156509
-	prowess=10
 	1710.1.1={
 		birth=yes
 	}
@@ -2165,7 +2025,6 @@
 	religion="ainu"
 	culture="karafuto_ainu"
 	father=10156510
-	prowess=12
 	1730.1.1={
 		birth=yes
 	}
@@ -2179,7 +2038,6 @@
 	religion="ainu"
 	culture="karafuto_ainu"
 	father=10156510
-	prowess=11
 	1740.1.1={
 		birth=yes
 	}
@@ -2193,7 +2051,6 @@
 	religion="ainu"
 	culture="karafuto_ainu"
 	father=10156512
-	prowess=10
 	1770.1.1={
 		birth=yes
 	}
@@ -2207,7 +2064,6 @@
 	religion="ainu"
 	culture="karafuto_ainu"
 	father=10156512
-	prowess=10
 	1780.1.1={
 		birth=yes
 	}
@@ -2221,7 +2077,6 @@
 	religion="ainu"
 	culture="karafuto_ainu"
 	father=10156514
-	prowess=11
 	1800.1.1={
 		birth=yes
 	}
@@ -2235,7 +2090,6 @@
 	religion="ainu"
 	culture="karafuto_ainu"
 	father=10156515
-	prowess=12
 	1830.1.1={
 		birth=yes
 	}
@@ -2249,7 +2103,6 @@
 	religion="ainu"
 	culture="karafuto_ainu"
 	father=10156515
-	prowess=9
 	1840.1.1={
 		birth=yes
 	}
@@ -2263,7 +2116,6 @@
 	religion="nivkh"
 	culture="uilta"
 	father=10157012
-	prowess=10
 	1490.1.1={
 		birth=yes
 	}
@@ -2277,7 +2129,6 @@
 	religion="nivkh"
 	culture="uilta"
 	father=10157000
-	prowess=10
 	1520.1.1={
 		birth=yes
 	}
@@ -2291,7 +2142,6 @@
 	religion="nivkh"
 	culture="uilta"
 	father=10157001
-	prowess=11
 	1550.1.1={
 		birth=yes
 	}
@@ -2305,7 +2155,6 @@
 	religion="nivkh"
 	culture="uilta"
 	father=10157002
-	prowess=9
 	1580.1.1={
 		birth=yes
 	}
@@ -2318,7 +2167,6 @@
 	dynasty=10001640 # dowaha
 	religion="nivkh"
 	culture="uilta"
-	prowess=9
 	1400.1.1={
 		birth=yes
 	}
@@ -2332,7 +2180,6 @@
 	religion="nivkh"
 	culture="uilta"
 	father=10157010
-	prowess=11
 	1430.1.1={
 		birth=yes
 	}
@@ -2346,7 +2193,6 @@
 	religion="nivkh"
 	culture="uilta"
 	father=10157011
-	prowess=11
 	1460.1.1={
 		birth=yes
 	}
@@ -2360,7 +2206,6 @@
 	religion="nivkh"
 	culture="nivkh"
 	father=10157510
-	prowess=11
 	1460.1.1={
 		birth=yes
 	}
@@ -2374,7 +2219,6 @@
 	religion="nivkh"
 	culture="nivkh"
 	father=10157500
-	prowess=11
 	1500.1.1={
 		birth=yes
 	}
@@ -2388,7 +2232,6 @@
 	religion="nivkh"
 	culture="nivkh"
 	father=10157501
-	prowess=9
 	1540.1.1={
 		birth=yes
 	}
@@ -2402,7 +2245,6 @@
 	religion="nivkh"
 	culture="nivkh"
 	father=10157502
-	prowess=12
 	1580.1.1={
 		birth=yes
 	}
@@ -2415,7 +2257,6 @@
 	dynasty=10001650 # Romo
 	religion="nivkh"
 	culture="nivkh"
-	prowess=12
 	1390.1.1={
 		birth=yes
 	}
@@ -2429,7 +2270,6 @@
 	religion="nivkh"
 	culture="nivkh"
 	father=10158012
-	prowess=10
 	1450.1.1={
 		birth=yes
 	}
@@ -2443,7 +2283,6 @@
 	religion="nivkh"
 	culture="nivkh"
 	father=10158000
-	prowess=11
 	1490.1.1={
 		birth=yes
 	}
@@ -2457,7 +2296,6 @@
 	religion="nivkh"
 	culture="nivkh"
 	father=10158001
-	prowess=9
 	1520.1.1={
 		birth=yes
 	}
@@ -2471,7 +2309,6 @@
 	religion="nivkh"
 	culture="nivkh"
 	father=10158002
-	prowess=11
 	1550.1.1={
 		birth=yes
 	}
@@ -2485,7 +2322,6 @@
 	religion="nivkh"
 	culture="nivkh"
 	father=10158003
-	prowess=11
 	1580.1.1={
 		birth=yes
 	}
@@ -2498,7 +2334,6 @@
 	dynasty=10001651 # Neode
 	religion="nivkh"
 	culture="nivkh"
-	prowess=12
 	1360.1.1={
 		birth=yes
 	}
@@ -2512,7 +2347,6 @@
 	religion="nivkh"
 	culture="nivkh"
 	father=10158010
-	prowess=11
 	1390.1.1={
 		birth=yes
 	}
@@ -2526,7 +2360,6 @@
 	religion="nivkh"
 	culture="nivkh"
 	father=10158011
-	prowess=10
 	1420.1.1={
 		birth=yes
 	}
@@ -2539,18 +2372,18 @@
 	dynasty=10001524 # Piratur
 	religion="ainu"
 	culture="doo_ainu"
-	martial=8
-	diplomacy=6
-	intrigue=6
-	stewardship=5
-	learning=5
+	martial=10
+	diplomacy=10
+	intrigue=10
+	stewardship=10
+	learning=10
 	trait="education_learning_4"
 	trait="intellect_good_2"
 	trait="humble"
 	trait="brave"
 	trait="just"
 	trait="zealous"
-	prowess=9
+	prowess=14
 	1050.1.1={
 		birth=yes
 	}
@@ -2563,18 +2396,18 @@
 	dynasty=10001525 # Iskar
 	religion="ainu"
 	culture="doo_ainu"
-	martial=6
-	diplomacy=7
-	intrigue=6
-	stewardship=4
-	learning=6
+	martial=10
+	diplomacy=10
+	intrigue=10
+	stewardship=10
+	learning=10
 	trait="education_martial_4"
 	trait="diligent"
 	trait="sadistic"
 	trait="brave"
 	trait="impatient"
 	trait="zealous"
-	prowess=14
+	prowess=22
 	1050.1.1={
 		birth=yes
 	}
@@ -2587,18 +2420,18 @@
 	dynasty=10001592 # Kamuy Kotan
 	religion="ainu"
 	culture="dohoku_ainu"
-	martial=5
-	diplomacy=7
-	intrigue=5
-	stewardship=6
-	learning=5
+	martial=10
+	diplomacy=10
+	intrigue=10
+	stewardship=10
+	learning=10
 	trait="education_martial_4"
 	trait="intellect_good_2"
 	trait="humble"
 	trait="brave"
 	trait="just"
 	trait="impatient"
-	prowess=13
+	prowess=22
 	1050.1.1={
 		birth=yes
 	}
@@ -2611,18 +2444,18 @@
 	dynasty=10001552 # Kusir
 	religion="ainu"
 	culture="doto_ainu"
-	martial=4
-	diplomacy=6
-	intrigue=7
-	stewardship=4
-	learning=5
+	martial=10
+	diplomacy=10
+	intrigue=10
+	stewardship=10
+	learning=10
 	trait="education_martial_4"
 	trait="diligent"
 	trait="content"
 	trait="brave"
 	trait="humble"
 	trait="trusting"
-	prowess=13
+	prowess=22
 	1050.1.1={
 		birth=yes
 	}
@@ -2635,18 +2468,18 @@
 	dynasty=10001514 # Saito
 	religion="ainu"
 	culture="donan_ainu"
-	martial=6
-	diplomacy=8
-	intrigue=8
-	stewardship=7
-	learning=6
+	martial=10
+	diplomacy=10
+	intrigue=10
+	stewardship=10
+	learning=10
 	trait="education_learning_4"
 	trait="intellect_good_2"
 	trait="humble"
 	trait="diligent"
 	trait="generous"
 	trait="compassionate"
-	prowess=10
+	prowess=14
 	1050.1.1={
 		birth=yes
 	}
@@ -2659,7 +2492,6 @@
 	dynasty=10001700 # Kumausi
 	religion="ainu"
 	culture="donan_ainu"
-	prowess=11
 	1150.1.1={
 		birth=yes
 	}
@@ -2672,7 +2504,6 @@
 	dynasty=10001701 # Kaminokuni
 	religion="ainu"
 	culture="donan_ainu"
-	prowess=10
 	1150.1.1={
 		birth=yes
 	}
@@ -2686,7 +2517,6 @@
 	religion="ainu"
 	culture="donan_ainu"
 	trait="education_diplomacy_2"
-	prowess=10
 	1150.1.1={
 		birth=yes
 	}
@@ -2700,7 +2530,6 @@
 	religion="ainu"
 	culture="donan_ainu"
 	trait="education_martial_2"
-	prowess=13
 	1150.1.1={
 		birth=yes
 	}
@@ -2713,7 +2542,6 @@
 	dynasty=10001704 # Setanay
 	religion="ainu"
 	culture="donan_ainu"
-	prowess=10
 	1150.1.1={
 		birth=yes
 	}
@@ -2728,7 +2556,6 @@
 	culture="donan_ainu"
 	trait="education_martial_2"
 	trait="impatient"
-	prowess=12
 	1150.1.1={
 		birth=yes
 	}
@@ -2741,7 +2568,6 @@
 	dynasty=10001706 # Iwawnay
 	religion="ainu"
 	culture="donan_ainu"
-	prowess=11
 	1150.1.1={
 		birth=yes
 	}
@@ -2756,7 +2582,6 @@
 	father=10150106 # Cipa
 	religion="ainu"
 	culture="donan_ainu"
-	prowess=11
 	1175.1.1={
 		birth=yes
 	}
@@ -2769,7 +2594,6 @@
 	dynasty=10001729 # Tsumo
 	religion="ainu"
 	culture="tohoku_ainu"
-	prowess=11
 	1140.1.1={
 		birth=yes
 	}
@@ -2782,7 +2606,6 @@
 	dynasty=10001707 # Toya
 	religion="ainu"
 	culture="donan_ainu"
-	prowess=10
 	1150.1.1={
 		birth=yes
 	}
@@ -2795,7 +2618,6 @@
 	dynasty=10001708 # Taoromai
 	religion="ainu"
 	culture="doo_ainu"
-	prowess=10
 	1150.1.1={
 		birth=yes
 	}
@@ -2808,7 +2630,6 @@
 	dynasty=10001709 # Otai
 	religion="ainu"
 	culture="doo_ainu"
-	prowess=10
 	1150.1.1={
 		birth=yes
 	}
@@ -2821,7 +2642,6 @@
 	dynasty=10001710 # Piratur
 	religion="ainu"
 	culture="doo_ainu"
-	prowess=11
 	1150.1.1={
 		birth=yes
 	}
@@ -2836,7 +2656,6 @@
 	father=10151102 # Homakay
 	religion="ainu"
 	culture="doo_ainu"
-	prowess=11
 	1175.1.1={
 		birth=yes
 	}
@@ -2851,7 +2670,6 @@
 	culture="doo_ainu"
 	trait="education_intrigue_4"
 	trait="zealous"
-	prowess=13
 	1150.1.1={
 		birth=yes
 	}
@@ -2864,7 +2682,6 @@
 	dynasty=10001712 # Misoku
 	religion="ainu"
 	culture="doto_ainu"
-	prowess=10
 	1150.1.1={
 		birth=yes
 	}
@@ -2877,7 +2694,6 @@
 	dynasty=10001731 # Kusir
 	religion="ainu"
 	culture="doto_ainu"
-	prowess=11
 	1150.1.1={
 		birth=yes
 	}
@@ -2892,7 +2708,6 @@
 	culture="doto_ainu"
 	trait="education_intrigue_2"
 	trait="greedy"
-	prowess=12
 	1150.1.1={
 		birth=yes
 	}
@@ -2903,9 +2718,8 @@
 10153100={
 	name=character_name_10153100 # Atoi # fictional
 	dynasty=10001714 # Ponkinasir
-	religion="ainu"
+	religion="nivkh"
 	culture="old_okhotsk"
-	prowess=11
 	1150.1.1={
 		birth=yes
 	}
@@ -2916,9 +2730,8 @@
 10153600={
 	name=character_name_10153600 # Hankuru # fictional
 	dynasty=10001715 # Kamchatka
-	religion="ainu"
+	religion="nivkh"
 	culture="old_okhotsk"
-	prowess=12
 	1150.1.1={
 		birth=yes
 	}
@@ -2933,7 +2746,6 @@
 	culture="doo_ainu"
 	trait="education_martial_3"
 	trait="arrogant"
-	prowess=13
 	1150.1.1={
 		birth=yes
 	}
@@ -2946,7 +2758,6 @@
 	dynasty=10001717 # Amamsuke
 	religion="ainu"
 	culture="doo_ainu"
-	prowess=11
 	1150.1.1={
 		birth=yes
 	}
@@ -2961,7 +2772,6 @@
 	father=10154101 # Tomipase
 	religion="ainu"
 	culture="doo_ainu"
-	prowess=11
 	1175.1.1={
 		birth=yes
 	}
@@ -2974,7 +2784,6 @@
 	dynasty=10001718 # Ryuen
 	religion="ainu"
 	culture="dohoku_ainu"
-	prowess=12
 	1150.1.1={
 		birth=yes
 	}
@@ -2987,7 +2796,6 @@
 	dynasty=10001719 # Hikoku
 	religion="ainu"
 	culture="dohoku_ainu"
-	prowess=11
 	1150.1.1={
 		birth=yes
 	}
@@ -3001,7 +2809,6 @@
 	dynasty=10001720 # Okudo
 	religion="ainu"
 	culture="dohoku_ainu"
-	prowess=10
 	1150.1.1={
 		birth=yes
 	}
@@ -3016,7 +2823,6 @@
 	mother=10154602 # Shuren
 	religion="ainu"
 	culture="dohoku_ainu"
-	prowess=9
 	1175.1.1={
 		birth=yes
 	}
@@ -3031,7 +2837,6 @@
 	culture="doo_ainu"
 	trait="education_stewardship_2"
 	trait="greedy"
-	prowess=9
 	1150.1.1={
 		birth=yes
 	}
@@ -3046,7 +2851,6 @@
 	father=10155100 # Manheisu
 	religion="ainu"
 	culture="doo_ainu"
-	prowess=11
 	1175.1.1={
 		birth=yes
 	}
@@ -3059,7 +2863,6 @@
 	dynasty=10001722 # Sikutut
 	religion="ainu"
 	culture="doo_ainu"
-	prowess=11
 	1150.1.1={
 		birth=yes
 	}
@@ -3074,7 +2877,6 @@
 	father=10155102 # Sitakapet
 	religion="ainu"
 	culture="doo_ainu"
-	prowess=12
 	1175.1.1={
 		birth=yes
 	}
@@ -3085,9 +2887,8 @@
 10155600={
 	name=character_name_10155600 # Naebo # fictional
 	dynasty=10001723 # Takoi
-	religion="ainu"
+	religion="nivkh"
 	culture="old_okhotsk"
-	prowess=10
 	1150.1.1={
 		birth=yes
 	}
@@ -3098,9 +2899,8 @@
 10156100={
 	name=character_name_10156100 # Maukaaino # fictional
 	dynasty=10001724 # Ruotak
-	religion="ainu"
+	religion="nivkh"
 	culture="old_okhotsk"
-	prowess=11
 	1150.1.1={
 		birth=yes
 	}
@@ -3111,9 +2911,8 @@
 10156600={
 	name=character_name_10156600 # Chiuere # fictional
 	dynasty=10001725 # Nayoro
-	religion="ainu"
+	religion="nivkh"
 	culture="old_okhotsk"
-	prowess=11
 	1150.1.1={
 		birth=yes
 	}
@@ -3127,7 +2926,6 @@
 	religion="nivkh"
 	culture="uilta"
 	father=10157011
-	prowess=11
 	1150.1.1={
 		birth=yes
 	}
@@ -3138,9 +2936,8 @@
 10157600={
 	name=character_name_10157600 # Welakka # fictional
 	dynasty=10001726 # Idoi
-	religion="ainu"
+	religion="nivkh"
 	culture="old_okhotsk"
-	prowess=10
 	1150.1.1={
 		birth=yes
 	}
@@ -3153,7 +2950,6 @@
 	dynasty=10001750 # Esausi 
 	religion="ainu"
 	culture="donan_ainu"
-	prowess=12
 	1250.1.1={
 		birth=yes
 	}
@@ -3166,7 +2962,6 @@
 	dynasty=10001751 # Usor
 	religion="ainu"
 	culture="doo_ainu"
-	prowess=11
 	1250.1.1={
 		birth=yes
 	}
@@ -3179,7 +2974,6 @@
 	dynasty=10001752 # Satporopet
 	religion="ainu"
 	culture="doo_ainu"
-	prowess=11
 	1250.1.1={
 		birth=yes
 	}
@@ -3192,7 +2986,6 @@
 	dynasty=10001753 # Omu
 	religion="ainu"
 	culture="dohoku_ainu"
-	prowess=11
 	1250.1.1={
 		birth=yes
 	}
@@ -3205,7 +2998,6 @@
 	dynasty=10001754 # Atsam
 	religion="ainu"
 	culture="dohoku_ainu"
-	prowess=10
 	1250.1.1={
 		birth=yes
 	}
@@ -3218,7 +3010,6 @@
 	dynasty=10001755 # Nganivo
 	religion="nivkh"
 	culture="nivkh"
-	prowess=11
 	1250.1.1={
 		birth=yes
 	}
@@ -3231,7 +3022,6 @@
 	dynasty=10001756 # Kuuji
 	religion="nivkh"
 	culture="nivkh"
-	prowess=9
 	1250.1.1={
 		birth=yes
 	}
@@ -3244,7 +3034,6 @@
 	dynasty=10001757 # Noyausi
 	religion="nivkh"
 	culture="nivkh"
-	prowess=10
 	1250.1.1={
 		birth=yes
 	}
@@ -3257,7 +3046,6 @@
 	dynasty=10001758 # Sirutor
 	religion="nivkh"
 	culture="nivkh"
-	prowess=11
 	1260.1.1={
 		birth=yes
 	}
@@ -3270,7 +3058,6 @@
 	dynasty=10001759 # Cipesani
 	religion="nivkh"
 	culture="nivkh"
-	prowess=10
 	1260.1.1={
 		birth=yes
 	}

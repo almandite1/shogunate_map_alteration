@@ -710,7 +710,7 @@ c_shgnt_inba = {
     1430.05.12 = {
         holder = 12151160 # Usui Noritane
     }
-    1469.01.01 = {
+    1465.05.22 = {
         holder = 10011606 # Chiba Suketane
     }
     1492.03.13 = {
@@ -823,7 +823,7 @@ c_shgnt_ishimi = {
 c_shgnt_kamitsuga = {
     0001.01.01 = { change_development_level = 10 }
     1000.01.01 = { change_development_level = 10 }
-    1462.01.01 = { change_development_level = 20 }
+    1455.01.15 = { change_development_level = 20 }
     1180.01.01 = {
         liege = 0 # 
         holder = 12136004 # Seki Ryusen, Rinnoji
@@ -834,7 +834,11 @@ c_shgnt_kamitsuga = {
     1251.01.01 = {
         holder = 0
     }
-    1462.01.01 = {
+    1455.01.15 = {
+        liege = k_nmih_kanto_kanrei # 
+        holder = 10040079 # Ashikaga Seijun(Yoshiuji)
+    }
+    1458.06.01 = {
         liege = d_nmih_oyama # 
         holder = 10015001 # Mibu Tanenari
     }
@@ -1037,7 +1041,15 @@ c_shgnt_katsushika = {
     1430.01.01 = {
         holder = 10011672 # Hara Tanefusa
     }
-    1471.10.22 = {
+    1456.11.28 = {
+        liege = d_shgnt_sagami # 
+        holder = 10011615 # Musashi=Chiba Sanetane
+    }
+    1462.01.01 = {
+        holder = 10011617 # Musashi=Chiba Yoritane
+    }
+    1483.01.06 = {
+        liege = d_shgnt_shimousa # 
         holder = 10011670 # Hara Tanetaka
     }
     1536.07.10 = {
@@ -1165,6 +1177,7 @@ c_shgnt_kochi = {
         holder = 10010405 # Oda Tomohisa
     }
     1455.06.05 = {
+        liege = k_nmih_kamakura_kubo # Kyotoku War
         holder = 10010403 # Oda Shigeharu
     }
     1514.01.01 = {
@@ -1407,10 +1420,7 @@ c_shgnt_moda = {
 			}
 		}
     }
-    1477.01.01 = {
-        holder = 10011808 # Takeda Nobutaka
-    }
-    1480.01.01 = {
+    1462.01.01 = {
         holder = 10011807 # Mariyatsu Nobuoki
     }
     1506.01.01 = {
@@ -1496,7 +1506,7 @@ c_shgnt_musa = {
     1456.11.28 = {
         holder = 10011606 # Chiba Suketane
     }
-    1488.01.01 = {
+    1466.01.01 = {
         liege = 0 # 
         holder = 10011705 # Sakai Sadataka
     }
@@ -1602,7 +1612,7 @@ c_shgnt_nagara = {
     1456.01.01 = {
         holder = 10011809 # Takeda Nobunaga
     }
-    1477.01.01 = {
+    1463.01.01 = {
         holder = 10011808 # Takeda Nobutaka
     }
     1480.01.01 = {
@@ -2435,6 +2445,7 @@ c_shgnt_tsukuha = {
         holder = 10010405 # Oda Tomohisa
     }
     1455.06.05 = {
+        liege = k_nmih_kamakura_kubo # Kyotoku War
         holder = 10010403 # Oda Shigeharu
     }
     1514.01.01 = {
@@ -2733,11 +2744,12 @@ d_shgnt_boshu = {
         holder = 10017022 # Uesugi Fusaaki
     }
     1456.01.01 = {
-        liege = k_nmih_kamakura_kubo # 
+        liege = 0 # 
         holder = 12186066 # Satomi Yoshizane
     }
-    1488.05.18 = {
-        holder = 10011907 # Satomi Yoshimichi
+    1483.01.06 = {
+        liege = 0 # 
+        holder = 12186066 # Satomi Yoshizane
     }
     1525.01.01 = {
         holder = 10011908
@@ -3012,6 +3024,7 @@ d_shgnt_kazusa = {
         holder = 10040059 # Ashikaga Shigeuji
     }
     1456.01.01 = {
+        liege = 0 # 
         holder = 10011809 # Takeda Nobunaga
     }
     1477.01.01 = {
