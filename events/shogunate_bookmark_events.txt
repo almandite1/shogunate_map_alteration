@@ -211,6 +211,21 @@ shogunate_bookmark.0002 = {
 	}
 }
 
+# 1467 : Onin War
+shogunate_bookmark.0002 = {
+	hidden = yes
+
+	trigger = {
+		game_start_date = 1467.6.27
+	}
+
+	immediate = {
+	}
+
+	effect = {
+	}
+}
+
 # 1493 : Meiou Coup
 shogunate_bookmark.0003 = {
 	hidden = yes
@@ -265,7 +280,7 @@ shogunate_bookmark.0005 = {
 	hidden = yes
 
 	trigger = {
-		game_start_date = 1511.9.25
+		game_start_date = 1511.9.15
 	}
 
 	immediate = {
@@ -353,12 +368,12 @@ shogunate_bookmark.0009 = {
 	immediate = {
 		# Battle of Itsukushima
 		character:10056004 = {							# Mori Motonari
-			start_war = {
-				casus_belli = sengoku_invasion_war
-				target = character:10057102				# Sue Harukata
-				target_title = title:d_shgnt_suo
-				target_title = title:d_shgnt_nagato
-			}
+#			start_war = {
+#				casus_belli = sengoku_invasion_war
+#				target = character:10057102				# Sue Harukata
+#				target_title = title:d_nmih_suo
+#				target_title = title:d_nmih_nagato
+#			}
 			add_character_modifier = {
 				modifier = surprise_attack_modifier
 				months = 60
@@ -424,7 +439,7 @@ shogunate_bookmark.0011 = {
 	hidden = yes
 
 	trigger = {
-		game_start_date = 1568.1.1
+		game_start_date = 1568.9.27
 	}
 
 	immediate = {

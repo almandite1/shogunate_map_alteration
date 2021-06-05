@@ -361,6 +361,11 @@ c_shgnt_kawamura = {
     }
     1366.01.01 = {
         holder = 10050107 # Nanjo Sadamune
+		effect = {
+			title:b_shgnt_kawamura_2 = {
+				set_title_name = b_shgnt_kawamura_2_1 # Ueshi
+			}
+		}
     }
     1391.01.01 = {
         holder = 10050106 # Nanjo Kagemune
@@ -743,6 +748,13 @@ c_shgnt_takakusa = {
     1459.05.25 = {
         holder = 10050019 # Yamana Toyouji
     }
+	1466.01.01 = {
+		effect = {
+			title:b_shgnt_takakusa_1 = {
+				set_title_name = b_shgnt_takakusa_1_1 # Tenjinyama
+			}
+		}
+	}
     1475.01.01 = {
         holder = 10050032 # Yamana Toyotoki
     }
@@ -758,6 +770,13 @@ c_shgnt_takakusa = {
     1527.01.01 = {
         holder = 10050035 # Yamana Nobumichi
     }
+	1532.01.01 = {
+		effect = {
+			title:b_shgnt_takakusa_3 = {
+				set_title_name = b_shgnt_takakusa_3_1 # Hiyodorio
+			}
+		}
+	}
     1546.01.01 = {
         holder = 10050048 # Yamana Toyosada
     }
@@ -1603,6 +1622,13 @@ c_shgnt_iwami = {
         liege = 0
         holder = 0
     }
+	1352.01.01 = {
+		effect = {
+			title:b_shgnt_iwami_2 = {
+				set_title_name = b_shgnt_iwami_2_1 # Futagamiyama
+			}
+		}
+	}
     1475.01.01 = {
         holder = 10050032 # Yamana Toyotoki
     }

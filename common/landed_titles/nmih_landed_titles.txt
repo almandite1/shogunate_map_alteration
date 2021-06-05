@@ -1,1 +1,291 @@
-﻿
+﻿e_nmih_rebels = {
+	color={ 0 0 0 }
+	color2={ 0 0 0 }
+}
+e_nmih_pirates = {
+	color={ 0 0 0 }
+	color2={ 0 0 0 }
+}
+#e_nmih_tenno = {
+#	color={ 225 152 180 } # Momohanairo
+#	color2={ 255 255 255 }
+#
+#	definite_form = yes
+#	ruler_uses_title_name = no
+#	landless = yes
+#
+#	destroy_if_invalid_heir = yes
+#	no_automatic_claims = yes
+#	always_follows_primary_heir = yes
+#	de_jure_drift_disabled = yes
+#
+#	male_names = {
+#		character_name_20400001 character_name_20400002 character_name_20400003 character_name_20400004 character_name_20400005 character_name_20400006 character_name_20400007 character_name_20400008 character_name_20400009 character_name_20400010 character_name_20400011 character_name_20400012 character_name_20400013 character_name_20400014 character_name_20400015 character_name_20400016 character_name_20400017 character_name_20400018 character_name_20400019 character_name_20400020 character_name_20400021 character_name_20400022 character_name_20400023 character_name_20400024 character_name_20400025 character_name_20400026 character_name_20400027 character_name_20400028 character_name_20400029 character_name_20400030 character_name_20400031 character_name_20400032 character_name_20400033 character_name_20400034 character_name_20400035 character_name_20400036 character_name_20400037 character_name_20400038 character_name_20400039 character_name_20400040 character_name_20400041 character_name_20400042 character_name_20400043 character_name_20400044 character_name_20400045 character_name_20400046 character_name_20400047 character_name_20400048 character_name_20400049 character_name_20400050 character_name_20400051 character_name_20400052 character_name_20400053 character_name_20400054 character_name_20400055 character_name_20400056 character_name_20400057 character_name_20400058 character_name_20400059 character_name_20400060 character_name_20400061 character_name_20400062 character_name_20400063 character_name_20400064 character_name_20400065 character_name_20400066 character_name_20400067 character_name_20400068 character_name_20400069 character_name_20400070 character_name_20400071 character_name_20400072 character_name_20400073 character_name_20400074 character_name_20400075 character_name_20400076 character_name_20400077 character_name_20400078 character_name_20400079 character_name_20400080 character_name_20400081 character_name_20400082 character_name_20400083 character_name_20400084 character_name_20400085 character_name_20400086 character_name_20400087 character_name_20400088 character_name_20400089 character_name_20400090 character_name_20400091 character_name_20400092 character_name_20400093 character_name_20400094 character_name_20400095 character_name_20400096 character_name_20400097 character_name_20400098 character_name_20400099 character_name_20400100 character_name_20400101 character_name_20400102 character_name_20400103 character_name_20400104 character_name_20400105 character_name_20400106 character_name_20400107 character_name_20400108 character_name_20400109 character_name_20400110 character_name_20400111
+#	}
+#
+#	female_names = {
+#		character_name_20450001 character_name_20450002 character_name_20450003 character_name_20450004 character_name_20450005 character_name_20450006 character_name_20450007 character_name_20450008 character_name_20450009 character_name_20450010 character_name_20450011 character_name_20450012 character_name_20450013 character_name_20450014 character_name_20450015 character_name_20450016 character_name_20450017 character_name_20450018 character_name_20450019 character_name_20450020 character_name_20450021 character_name_20450022 character_name_20450023 character_name_20450024 character_name_20450025 character_name_20450026 character_name_20450027 character_name_20450028 character_name_20450029 character_name_20450030 character_name_20450031 character_name_20450032 character_name_20450033 character_name_20450034 character_name_20450035 character_name_20450036 character_name_20450037 character_name_20450038 character_name_20450039 character_name_20450040 character_name_20450041 character_name_20450042 character_name_20450043 character_name_20450044 character_name_20450045 character_name_20450046 character_name_20450047 character_name_20450048 character_name_20450049 character_name_20450050 character_name_20450051 character_name_20450052 character_name_20450053 character_name_20450054
+#	}
+#}
+e_nmih_nancho = {
+	color={ 225 169 140 }
+	color2={ 255 255 255 }
+	
+	definite_form = yes
+	ruler_uses_title_name = no
+	landless = yes
+
+	destroy_if_invalid_heir = yes
+	no_automatic_claims = yes
+	always_follows_primary_heir = yes
+	de_jure_drift_disabled = yes
+
+	male_names = {
+		character_name_20500001 character_name_20500002 character_name_20500003 character_name_20500004 character_name_20500005 character_name_20500006 character_name_20500007 character_name_20500008 character_name_20500009 character_name_20500010 character_name_20500011 character_name_20500012 character_name_20500013 character_name_20500014 character_name_20500015 character_name_20500016 character_name_20500017 character_name_20500018 character_name_20500019 character_name_20500020 character_name_20500021 character_name_20500022 character_name_20500023 character_name_20500024 character_name_20500025 character_name_20500026 character_name_20500027 character_name_20500028 character_name_20500029 character_name_20500030 character_name_20500031 character_name_20500032 character_name_20500033 character_name_20500034 character_name_20500035 character_name_20500036 character_name_20500037 character_name_20500038 character_name_20500039 character_name_20500040 character_name_20500041 character_name_20500042 character_name_20500043 character_name_20500044 character_name_20500045 character_name_20500046 character_name_20500047 character_name_20500048 character_name_20500049 character_name_20500050 character_name_20500051 character_name_20500052 character_name_20500053 character_name_20500054 character_name_20500055 character_name_20500056 character_name_20500057 character_name_20500058 character_name_20500059 character_name_20500060 character_name_20500061 character_name_20500062 character_name_20500063 character_name_20500064 character_name_20500065 character_name_20500066 character_name_20500067 character_name_20500068 character_name_20500069 character_name_20500070 character_name_20500071 character_name_20500072 character_name_20500073 character_name_20500074 character_name_20500075 character_name_20500076 character_name_20500077 character_name_20500078 character_name_20500079 character_name_20500080 character_name_20500081 character_name_20500082 character_name_20500083 character_name_20500084 character_name_20500085 character_name_20500086 character_name_20500087 character_name_20500088 character_name_20500089 character_name_20500090 character_name_20500091 character_name_20500092 character_name_20500093 character_name_20500094 character_name_20500095
+	}
+
+	female_names = {
+		character_name_20550001 character_name_20550002 character_name_20550003 character_name_20550004 character_name_20550005 character_name_20550006 character_name_20550007 character_name_20550008 character_name_20550009 character_name_20550010 character_name_20550011 character_name_20550012 character_name_20550013 character_name_20550014 character_name_20550015 character_name_20550016 character_name_20550017 character_name_20550018 character_name_20550019 character_name_20550020 character_name_20550021 character_name_20550022 character_name_20550023 character_name_20550024 character_name_20550025 character_name_20550026 character_name_20550027 character_name_20550028 character_name_20550029 character_name_20550030 character_name_20550031 character_name_20550032 character_name_20550033 character_name_20550034 character_name_20550035 character_name_20550036 character_name_20550037 character_name_20550038 character_name_20550039 character_name_20550040 character_name_20550041 character_name_20550042 character_name_20550043 character_name_20550044 character_name_20550045 character_name_20550046 character_name_20550047 character_name_20550048 character_name_20550049 character_name_20550050 character_name_20550051 character_name_20550052 character_name_20550053 character_name_20550054 character_name_20550055 character_name_20550056 character_name_20550057 character_name_20550058 character_name_20550059 character_name_20550060 character_name_20550061 character_name_20550062 character_name_20550063 character_name_20550064 character_name_20550065 character_name_20550066 character_name_20550067 character_name_20550068
+	}
+}
+e_nmih_kanpaku = {
+	color={ 101 49 142 } # Honmurasaki
+	color2={ 255 255 255 }
+
+	definite_form = yes
+	ruler_uses_title_name = no
+}
+k_nmih_kanrei = {
+	color={ 200 85 84 } # Ginshu
+	color2={ 255 255 255 }
+
+	definite_form = yes
+	ruler_uses_title_name = no
+}
+k_nmih_honganji = {
+	color={ 100 11 37 } # Ebiiro
+	color2={ 255 255 255 }
+
+	capital = c_nmih_nishinari
+
+	definite_form = yes
+}
+k_nmih_ushu_tandai = {
+	color={ 128 152 155 } # Minatonezumi
+	color2={ 220 220 220 }
+
+	definite_form = yes
+	ruler_uses_title_name = no
+}
+k_nmih_oshu_tandai = {
+	color={ 71 136 94 } # Rokushoiro
+	color2={ 255 255 255 }
+
+	definite_form = yes
+	ruler_uses_title_name = no
+}
+k_nmih_kamakura_kubo = {
+	color={ 170 50 50 } 
+	color2={ 255 255 255 }
+
+	definite_form = yes
+	ruler_uses_title_name = no
+}
+k_nmih_kanto_kanrei = {
+	color={ 123 141 66 } # Kusairo
+	color2={ 255 255 255 }
+
+	definite_form = yes
+	ruler_uses_title_name = no
+}
+k_nmih_hyogo = {
+	color={ 183 40 46 } # Akane
+	color2={ 255 255 255 }
+
+	definite_form = yes
+}
+k_nmih_kyushu_tandai = {
+	color={ 132 185 203 } # Asahanada
+	color2={ 255 255 255 }
+
+	definite_form = yes
+	ruler_uses_title_name = no
+}
+
+d_nmih_enryakuji = {
+	color={ 230 70 70 } 
+	color2={ 255 255 255 }
+
+	definite_form = yes
+	ruler_uses_title_name = yes
+	landless = yes
+	
+	capital = c_shgnt_shiga
+	
+	ai_primary_priority = {
+		add = @always_primary_score
+	}
+
+	destroy_if_invalid_heir = yes
+	no_automatic_claims = yes
+	always_follows_primary_heir = yes
+	de_jure_drift_disabled = yes
+}
+d_nmih_aizu = {
+	color={ 20 140 20 } 
+	color2={ 255 255 255 }
+
+	definite_form = yes
+}
+d_nmih_oshu_shugo = {
+	color={ 90 210 90 } 
+	color2={ 255 255 255 }
+
+	definite_form = yes
+}
+d_nmih_southern_omi = {
+	color={ 210 90 50 } 
+	color2={ 255 255 255 }
+
+	definite_form = yes
+}
+d_nmih_northern_omi = {
+	color={ 210 50 90 } 
+	color2={ 255 255 255 }
+
+	definite_form = yes
+}
+d_nmih_eastern_hyogo = {
+	color={ 241 144 114 } 
+	color2={ 255 255 255 }
+
+	definite_form = yes
+}
+d_nmih_simenasi_kur = {
+	color = { 156 187 33 } 
+	color2={ 255 255 255 }
+
+	capital = c_nmih_kushiro
+
+	definite_form = yes
+}
+d_nmih_menasi_kur = {
+	color = { 49 170 39 } 
+	color2={ 255 255 255 }
+
+	definite_form = yes
+}
+d_nmih_sum_kur = {
+	color={ 10 122 81 } 
+	color2={ 255 255 255 }
+
+	capital = c_nmih_setana
+
+	definite_form = yes
+}
+d_nmih_wulie_wei = {
+	color={ 246 173 73 }
+	color2={ 255 255 255 }
+
+	capital = c_nmih_nue
+
+	definite_form = yes
+}
+d_nmih_nanghael_wei = {
+	color={ 246 162 83 } 
+	color2={ 255 255 255 }
+
+	capital = c_nmih_nanio
+
+	definite_form = yes
+}
+d_nmih_boluo_wei = {
+	color={ 247 220 138 } 
+	color2={ 255 255 255 }
+
+	capital = c_nmih_shisuka
+
+	definite_form = yes
+}
+e_nmih_qing = {
+	color = { 9  32  140 }
+
+	definite_form = yes
+}
+d_nmih_hakata = {
+	color={ 122 245 193 }
+	color2={ 255 255 255 }
+
+	definite_form = yes
+}
+d_nmih_sakai = {
+	color={ 0 136 153 }
+	color2={ 255 255 255 }
+
+	definite_form = yes
+}
+d_nmih_wajinchi = {
+	color={ 20 76 62 }
+	color2={ 255 255 255 }
+
+	definite_form = yes
+}
+d_nmih_matsumae = {
+	color={ 76 62 20 }
+	color2={ 255 255 255 }
+
+	definite_form = yes
+}
+d_nmih_shimokuni = {
+	color={ 62 20 76 }
+	color2={ 255 255 255 }
+
+	definite_form = yes
+}
+d_nmih_amago_revival_army = {
+	color={ 100 200 80 }
+	color2={ 255 255 255 }
+
+	capital = c_nmih_shimane
+
+	definite_form = yes
+}
+k_nmih_yamashiro = {
+	color={ 225 152 180 } # Momohanairo
+	color2={ 255 255 255 }
+}
+k_nmih_shinano = {
+	color={ 101 49 142 } # Honmurasaki
+	color2={ 255 255 255 }		
+}
+k_nmih_chuzan = {
+	color={ 28 48 92 } # 
+	color2={ 255 255 255 }	
+}
+k_nmih_hokuzan = {
+	color={ 92 28 48 }
+	color2={ 255 255 255 }
+}
+k_nmih_nanzan = {
+	color={ 48 92 28 }
+	color2={ 255 255 255 }	
+}
+d_nmih_oyama = {
+	color = { 53 74 65 }
+	color2={ 255 255 255 }
+}
+d_nmih_utsunomiya = {
+	color = { 83 74 75 }
+	color2={ 255 255 255 }
+}
+d_nmih_ashikaga = {
+	color = { 93 74 65 }
+	color2={ 255 255 255 }
+}
+e_nmih_grand_governer_of_zhejiang = { # Grand Governer of Zhejiang, where the most Japanese traders were active.
+	color={ 245 240 10 }
+	color2={ 220 220 0 }
+
+	capital = c_nmih_mikasa
+}
+}

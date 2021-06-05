@@ -29,20 +29,28 @@
 
 # Special Titles
 
-SHOGUN = {
-	type = character
-	special = holder
-	tier = empire
-	priority = 300
-	titles = { e_shgnt_japan }
-}
-
 TENNO = {
 	type = character
 	special = holder
 	tier = empire
-	priority = 300
+	priority = 290
 	titles = { e_shgnt_tenno }
+}
+
+NANCHO = {
+	type = character
+	special = holder
+	tier = empire
+	priority = 285
+	titles = { e_nmih_nancho }
+}
+
+SHOGUN = {
+	type = character
+	special = holder
+	tier = empire
+	priority = 280
+	titles = { e_shgnt_japan }
 }
 
 KANPAKU = {
@@ -57,7 +65,7 @@ KANREI = {
 	type = character
 	special = holder
 	tier = kingdom
-	priority = 100
+	priority = 95
 	titles = { k_nmih_kanrei }
 }
 
@@ -65,7 +73,7 @@ HONGANJI = {
 	type = character
 	special = holder
 	tier = kingdom
-	priority = 100
+	priority = 90
 	cultures = { kinai_buddhist }
 	titles = { k_nmih_honganji }
 }
@@ -74,7 +82,7 @@ Ushu-Tandai = {
 	type = character
 	special = holder
 	tier = kingdom
-	priority = 100
+	priority = 90
 	titles = { k_nmih_ushu_tandai }
 }
 
@@ -82,15 +90,23 @@ Oshu-Tandai = {
 	type = character
 	special = holder
 	tier = kingdom
-	priority = 100
+	priority = 90
 	titles = { k_nmih_oshu_tandai }
+}
+
+Kyushu-Tandai = {
+	type = character
+	special = holder
+	tier = kingdom
+	priority = 90
+	titles = { k_nmih_kyushu_tandai }
 }
 
 Kamakura-Kubo = {
 	type = character
 	special = holder
 	tier = kingdom
-	priority = 100
+	priority = 98
 	titles = { k_nmih_kamakura_kubo }
 }
 
@@ -98,7 +114,7 @@ KANTO_KANREI = {
 	type = character
 	special = holder
 	tier = kingdom
-	priority = 100
+	priority = 90
 	titles = { k_nmih_kanto_kanrei }
 }
 
@@ -106,7 +122,7 @@ HYOGO = {
 	type = character
 	special = holder
 	tier = kingdom
-	priority = 100
+	priority = 85
 	titles = { k_nmih_hyogo }
 }
 
@@ -114,7 +130,7 @@ ENRYAKUJI = {
 	type = character
 	special = holder
 	tier = duchy
-	priority = 100
+	priority = 45
 	cultures = { kinai_buddhist }
 	titles = { d_nmih_enryakuji }
 }
@@ -123,7 +139,7 @@ AIZU = {
 	type = character
 	special = holder
 	tier = duchy
-	priority = 50
+	priority = 45
 	titles = { d_nmih_aizu }
 }
 
@@ -131,7 +147,7 @@ OSHUSHUGO = {
 	type = character
 	special = holder
 	tier = duchy
-	priority = 50
+	priority = 45
 	titles = { d_nmih_oshu_shugo }
 }
 
@@ -139,7 +155,7 @@ SOUTHERNOMI = {
 	type = character
 	special = holder
 	tier = duchy
-	priority = 50
+	priority = 45
 	titles = { d_nmih_southern_omi }
 }
 
@@ -147,7 +163,7 @@ NORTHERNOMI = {
 	type = character
 	special = holder
 	tier = duchy
-	priority = 50
+	priority = 45
 	titles = { d_nmih_northern_omi }
 }
 
@@ -155,6 +171,568 @@ EASTERNHYOGO = {
 	type = character
 	special = holder
 	tier = duchy
-	priority = 50
+	priority = 40
 	titles = { d_nmih_eastern_hyogo }
+}
+
+
+
+##### Ezo ######
+
+tribal_empire_ainu = {
+	type = title
+	tier = empire
+	priority = 300
+	culture_groups = { ainu_group }
+}
+
+tribal_empire_uilta = {
+	type = title
+	tier = empire
+	priority = 300
+	cultures = { uilta }
+}
+
+tribal_empire_nivkh = {
+	type = title
+	tier = empire
+	priority = 300
+	cultures = { nivkh old_okhotsk }
+}
+
+tribal_emperor_ainu = {
+	type = character
+	special = holder
+	tier = empire
+	gender = male
+	priority = 300
+	culture_groups = { ainu_group }
+}
+
+tribal_emperor_female_ainu = {
+	type = character
+	special = holder
+	tier = empire
+	gender = female
+	priority = 300
+	culture_groups = { ainu_group }
+}
+
+tribal_emperor_uilta = {
+	type = character
+	special = holder
+	tier = empire
+	gender = male
+	priority = 300
+	cultures = { uilta }
+}
+
+tribal_emperor_female_uilta = {
+	type = character
+	special = holder
+	tier = empire
+	gender = female
+	priority = 300
+	cultures = { uilta }
+}
+
+tribal_emperor_nivkh = {
+	type = character
+	special = holder
+	tier = empire
+	gender = male
+	priority = 300
+	cultures = { nivkh old_okhotsk }
+}
+
+tribal_emperor_female_nivkh = {
+	type = character
+	special = holder
+	tier = empire
+	gender = female
+	priority = 300
+	cultures = { nivkh old_okhotsk }
+}
+
+
+tribal_kingdom_ainu = {
+	type = title
+	tier = kingdom
+	priority = 100
+	culture_groups = { ainu_group }
+}
+
+tribal_kingdom_uilta = {
+	type = title
+	tier = kingdom
+	priority = 100
+	cultures = { uilta }
+}
+
+tribal_kingdom_nivkh = {
+	type = title
+	tier = kingdom
+	priority = 100
+	cultures = { nivkh old_okhotsk }
+}
+
+tribal_king_ainu = {
+	type = character
+	special = holder
+	tier = kingdom
+	gender = male
+	priority = 100
+	culture_groups = { ainu_group }
+}
+
+tribal_king_female_ainu = {
+	type = character
+	special = holder
+	tier = kingdom
+	gender = female
+	priority = 100
+	culture_groups = { ainu_group }
+}
+
+tribal_king_uilta = {
+	type = character
+	special = holder
+	tier = kingdom
+	gender = male
+	priority = 100
+	cultures = { uilta }
+}
+
+tribal_king_female_uilta = {
+	type = character
+	special = holder
+	tier = kingdom
+	gender = female
+	priority = 100
+	cultures = { uilta }
+}
+
+tribal_king_nivkh = {
+	type = character
+	special = holder
+	tier = kingdom
+	gender = male
+	priority = 100
+	cultures = { nivkh old_okhotsk }
+}
+
+tribal_king_female_nivkh = {
+	type = character
+	special = holder
+	tier = kingdom
+	gender = female
+	priority = 100
+	cultures = { nivkh old_okhotsk }
+}
+
+
+tribal_duchy_ainu = {
+	type = title
+	tier = duchy
+	priority = 50
+	culture_groups = { ainu_group }
+}
+
+tribal_duchy_uilta = {
+	type = title
+	tier = duchy
+	priority = 50
+	cultures = { uilta }
+}
+
+tribal_duchy_nivkh = {
+	type = title
+	tier = duchy
+	priority = 50
+	cultures = { nivkh old_okhotsk }
+}
+
+tribal_duke_ainu = {
+	type = character
+	special = holder
+	tier = duchy
+	gender = male
+	priority = 50
+	culture_groups = { ainu_group }
+}
+
+tribal_duke_female_ainu = {
+	type = character
+	special = holder
+	tier = duchy
+	gender = female
+	priority = 50
+	culture_groups = { ainu_group }
+}
+
+tribal_duke_uilta = {
+	type = character
+	special = holder
+	tier = duchy
+	gender = male
+	priority = 50
+	cultures = { uilta }
+}
+
+tribal_duke_female_uilta = {
+	type = character
+	special = holder
+	tier = duchy
+	gender = female
+	priority = 50
+	cultures = { uilta }
+}
+
+tribal_duke_nivkh = {
+	type = character
+	special = holder
+	tier = duchy
+	gender = male
+	priority = 50
+	cultures = { nivkh old_okhotsk }
+}
+
+tribal_duke_female_nivkh = {
+	type = character
+	special = holder
+	tier = duchy
+	gender = female
+	priority = 50
+	cultures = { nivkh old_okhotsk }
+}
+
+
+tribal_county_ainu = {
+	type = title
+	tier = county
+	priority = 20
+	culture_groups = { ainu_group }
+}
+
+tribal_county_uilta = {
+	type = title
+	tier = county
+	priority = 20
+	cultures = { uilta }
+}
+
+tribal_county_nivkh = {
+	type = title
+	tier = county
+	priority = 20
+	cultures = { nivkh old_okhotsk }
+}
+
+tribal_count_ainu = {
+	type = character
+	special = holder
+	tier = county
+	gender = male
+	priority = 20
+	culture_groups = { ainu_group }
+}
+
+tribal_count_female_ainu = {
+	type = character
+	special = holder
+	tier = county
+	gender = female
+	priority = 20
+	culture_groups = { ainu_group }
+}
+
+tribal_count_uilta = {
+	type = character
+	special = holder
+	tier = county
+	gender = male
+	priority = 20
+	cultures = { uilta }
+}
+
+tribal_count_female_uilta = {
+	type = character
+	special = holder
+	tier = county
+	gender = female
+	priority = 20
+	cultures = { uilta }
+}
+
+tribal_count_nivkh = {
+	type = character
+	special = holder
+	tier = county
+	gender = male
+	priority = 20
+	cultures = { nivkh old_okhotsk }
+}
+
+tribal_count_female_nivkh = {
+	type = character
+	special = holder
+	tier = county
+	gender = female
+	priority = 20
+	cultures = { nivkh old_okhotsk }
+}
+
+
+tribal_barony_ainu = {
+	type = title
+	tier = barony
+	priority = 10
+	culture_groups = { ainu_group }
+}
+
+tribal_barony_uilta = {
+	type = title
+	tier = barony
+	priority = 10
+	cultures = { uilta }
+}
+
+tribal_barony_nivkh = {
+	type = title
+	tier = barony
+	priority = 10
+	cultures = { nivkh old_okhotsk }
+}
+
+tribal_baron_ainu = {
+	type = character
+	special = holder
+	tier = barony
+	gender = male
+	priority = 10
+	culture_groups = { ainu_group }
+}
+
+tribal_baron_female_ainu = {
+	type = character
+	special = holder
+	tier = barony
+	gender = female
+	priority = 10
+	culture_groups = { ainu_group }
+}
+
+tribal_baron_uilta = {
+	type = character
+	special = holder
+	tier = barony
+	gender = male
+	priority = 10
+	cultures = { uilta }
+}
+
+tribal_baron_female_uilta = {
+	type = character
+	special = holder
+	tier = barony
+	gender = female
+	priority = 10
+	cultures = { uilta }
+}
+
+tribal_baron_nivkh = {
+	type = character
+	special = holder
+	tier = barony
+	gender = male
+	priority = 10
+	cultures = { nivkh old_okhotsk }
+}
+
+tribal_baron_female_nivkh = {
+	type = character
+	special = holder
+	tier = barony
+	gender = female
+	priority = 10
+	cultures = { nivkh old_okhotsk }
+}
+
+
+
+##### Ryukyu ######
+
+empire_ryukyu = {
+	type = title
+	tier = empire
+	priority = 300
+	culture_groups = { ryukyu_group }
+}
+
+emperor_ryukyu = {
+	type = character
+	special = holder
+	tier = empire
+	gender = male
+	priority = 300
+	culture_groups = { ryukyu_group }
+}
+
+emperor_female_ryukyu = {
+	type = character
+	special = holder
+	tier = empire
+	gender = female
+	priority = 300
+	culture_groups = { ryukyu_group }
+}
+
+kingdom_ryukyu = {
+	type = title
+	tier = kingdom
+	priority = 100
+	culture_groups = { ryukyu_group }
+}
+
+king_ryukyu = {
+	type = character
+	special = holder
+	tier = kingdom
+	gender = male
+	priority = 100
+	culture_groups = { ryukyu_group }
+}
+
+king_female_ryukyu = {
+	type = character
+	special = holder
+	tier = kingdom
+	gender = female
+	priority = 100
+	culture_groups = { ryukyu_group }
+}
+
+duchy_ryukyu = {
+	type = title
+	tier = duchy
+	priority = 50
+	culture_groups = { ryukyu_group }
+}
+
+duke_ryukyu = {
+	type = character
+	special = holder
+	tier = duchy
+	gender = male
+	priority = 50
+	culture_groups = { ryukyu_group }
+}
+
+duke_female_ryukyu = {
+	type = character
+	special = holder
+	tier = duchy
+	gender = female
+	priority = 50
+	culture_groups = { ryukyu_group }
+}
+
+county_ryukyu = {
+	type = title
+	tier = county
+	priority = 20
+	culture_groups = { ryukyu_group }
+}
+
+count_ryukyu = {
+	type = character
+	special = holder
+	tier = county
+	gender = male
+	priority = 20
+	culture_groups = { ryukyu_group }
+}
+
+count_female_ryukyu = {
+	type = character
+	special = holder
+	tier = county
+	gender = female
+	priority = 20
+	culture_groups = { ryukyu_group }
+}
+
+barony_ryukyu = {
+	type = title
+	tier = barony
+	priority = 10
+	culture_groups = { ryukyu_group }
+}
+
+baron_ryukyu = {
+	type = character
+	special = holder
+	tier = barony
+	gender = male
+	priority = 10
+	culture_groups = { ryukyu_group }
+}
+
+baron_female_ryukyu = {
+	type = character
+	special = holder
+	tier = barony
+	gender = female
+	priority = 10
+	culture_groups = { ryukyu_group }
+}
+
+
+
+##### Imperial Family ######
+
+imperial_kingdom = {
+	type = title
+	tier = kingdom
+	priority = 100
+	titles = { k_shgnt_tenno }
+}
+
+imperial_duchy = {
+	type = title
+	tier = duchy
+	priority = 50
+	titles = { d_shgnt_tenno }
+}
+
+imperial_county = {
+	type = title
+	tier = county
+	priority = 20
+	titles = { c_shgnt_tenno }
+}
+
+imperial_barony = {
+	type = title
+	tier = barony
+	priority = 10
+	titles = { b_shgnt_tenno }
+}
+
+imperial_prince = {
+	type = character
+	special = ruler_child
+	tier = empire
+	gender = male
+	priority = 250
+	cultures = { imperial_family }
+}
+
+imperial_princess = {
+	type = character
+	special = ruler_child
+	tier = empire
+	gender = female
+	priority = 250
+	cultures = { imperial_family }
 }

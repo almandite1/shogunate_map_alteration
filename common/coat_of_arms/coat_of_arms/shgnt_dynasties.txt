@@ -1189,6 +1189,61 @@ house_shgnt_hachiya = { #Osaki
 	}
 }
 house_shgnt_arima = 10000441
+house_shgnt_shichijo = { # Akamatsu=Shichijo
+	pattern = "pattern_solid.dds"	
+	color1 = "purple"
+	colored_emblem = {
+		texture = "ce_h_arima_settsu.dds"
+		color1 = "black"
+		instance = { position = { 0.50 0.50 } scale = { 0.9 0.9 }  }
+	}
+}
+house_shgnt_akamatsu_arita = { # Akamatsu=Arita
+	pattern = "pattern_solid.dds"	
+	color1 = "purple"
+	colored_emblem = {
+		texture = "ce_h_arima_settsu.dds"
+		color1 = "yellow"
+		instance = { position = { 0.50 0.50 } scale = { 0.9 0.9 }  }
+	}
+}
+house_shgnt_akamatsu_izu = { # Akamatsu=Izu, Kasugabe
+	pattern = "pattern_solid.dds"	
+	color1 = "purple"
+	colored_emblem = {
+		texture = "ce_h_arima_settsu.dds"
+		color1 = "blue_light"
+		instance = { position = { 0.50 0.50 } scale = { 0.9 0.9 }  }
+	}
+}
+house_shgnt_akamatsu_ueno = { # Akamatsu=Ueno
+	pattern = "pattern_solid.dds"	
+	color1 = "purple"
+	colored_emblem = {
+		texture = "ce_h_arima_settsu.dds"
+		color1 = "green_light"
+		instance = { position = { 0.50 0.50 } scale = { 0.9 0.9 }  }
+	}
+}
+house_shgnt_akamatsu_okochi = { # Akamatsu=Okochi
+	pattern = "pattern_solid.dds"	
+	color1 = "purple"
+	colored_emblem = {
+		texture = "ce_h_arima_settsu.dds"
+		color1 = "yellow_light"
+		instance = { position = { 0.50 0.50 } scale = { 0.9 0.9 }  }
+	}
+}
+10000537 = { #Bessho
+	pattern = "pattern_solid.dds"	
+	color1 = "white"
+	colored_emblem = {
+		texture = "ce_tomoe_cc_13.dds"
+		color1 = "black"
+		instance = { position = { 0.50 0.50 } scale = { 0.9 0.9 }  }
+	}
+}
+house_shgnt_akamatsu_bessho = 10000537
 10000207 = { #Aki Takeda
 	pattern = "pattern_solid.dds"
 	color1 = "blue"
@@ -1476,3 +1531,57 @@ house_shgnt_shimazu_hongo = 10000604
 	}
 }
 house_shgnt_shimazu_ijuin = 10000606
+house_shgnt_kono_yoshu = { #Kono
+	pattern = "pattern_solid.dds"	
+	color1 = "blue_light"
+	colored_emblem = {
+		texture = "circular_combo_24.dds"
+		color1 = "yellow"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+	colored_emblem = {
+		texture = "ce_kaku_cc_1.dds"
+		color1 = "yellow"
+		instance = { position = { 0.5 0.5 } scale = { 0.57 0.57 }  }
+	}
+}
+
+10000328 = { # Echigo=Shibata
+	pattern = "pattern_solid.dds"	
+	color1 = "oitake_iro"
+	colored_emblem = {
+		texture = "ce_hoshi_cc_13.dds"
+		color1 = "black"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+}
+
+10000010 = { #Date
+	pattern = "pattern_solid.dds"
+	color1 = "koiai"
+	colored_emblem = {
+		texture = "ce_hikiryou_cn_7.dds"
+		color1 = "ki_iro"		
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 } }		
+	}
+}
+
+10000223 = { # Kasuga
+	pattern = "pattern_solid.dds"	
+	color1 = "shu_iro"
+	colored_emblem = {
+		texture = "ce_hoshi_cc_1.dds"
+		color1 = "black"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+}
+
+10000294 = { # Mino=Mori
+	pattern = "pattern_solid.dds"	
+	color1 = "shiro"
+	colored_emblem = {
+		texture = "ce_tsuru_cc_1.dds"
+		color1 = "nakasuo"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+}
