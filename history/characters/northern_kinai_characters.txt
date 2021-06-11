@@ -203,7 +203,8 @@
 	}
 	1440.6.14={
 		death={
-		death_reason=death_suicide
+			death_reason=death_suicide
+			killer = 10042001 # Takeda Nobuhide
 		}
 	}
 }
@@ -709,8 +710,19 @@
 	1413.1.1={
 		birth=yes
 	}
+	1429.01.01 = {
+		give_nickname = "nick_kuro"
+	}
+	1436.01.01 = {
+		give_nickname = "nick_the_jibu_no_sho"
+		effect = {
+			add_trait = "jugoi_ge"
+		}
+	}
 	1440.8.20={
-		death=yes
+		death = {
+			death_reason = death_natural_causes
+		}
 	}
 }
 10042002 = {
@@ -792,10 +804,29 @@
 	1461.1.1={
 		birth=yes
 	}
+	1490.07.15 = { # 延徳二年六月二十八日以前
+		give_nickname = "nick_the_izu_no_kami"
+	}
+	1501.02.01 = {
+		add_trait = "jushii_ge"
+	}
+	1506.06.01 = {
+		effect = {
+			add_pressed_claim = d_shgnt_tango
+		}
+	}
+	1508.01.01 = {
+		effect = {
+			remove_claim = d_shgnt_tango
+		}
+	}
 	1514.8.22={
 		effect = {
 			set_realm_capital=title:c_shgnt_onifu
 		}
+	}
+	1521.11.22 = {
+		add_trait = "jusanmi"
 	}
 	1521.12.3={
 		death=yes

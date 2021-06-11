@@ -391,6 +391,11 @@ c_shgnt_iwami_ochi = {
     }
     1346.08.18 = {
         holder = 10055733 # Ogasawara Nagauji
+		effect = {
+			title:b_shgnt_iwami_ochi_2 = {
+				set_title_name = b_shgnt_iwami_ochi_2_1 # Nukuyu
+			}
+		}
     }
     1383.04.06 = {
         holder = 10055730 # Ogasawara Nagayoshi
@@ -434,6 +439,13 @@ c_shgnt_iwami_ochi = {
         liege = k_shgnt_western_chugoku # 
         holder = 12666507 # Kuchiba Michiyoshi
     }
+	1582.01.01 = {
+		effect = {
+			title:b_shgnt_iwami_ochi_2 = {
+				set_title_name = b_shgnt_iwami_ochi_2_3 # Maruyama
+			}
+		}
+	}
 }
 c_shgnt_kuga = {
     0001.01.01 = { change_development_level = 10 }
@@ -686,6 +698,11 @@ c_shgnt_iwami_mino = {
     }
     1200.01.01 = {
         holder = 12661210 # Masuda Kanesue
+		effect = {
+			title:b_shgnt_iwami_mino_1 = {
+				set_title_name = b_shgnt_iwami_mino_1_1 # Nanao
+			}
+		}
     }
     1220.01.01 = {
         holder = 12661215 # Masuda Kanetoki

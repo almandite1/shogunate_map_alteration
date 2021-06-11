@@ -109,6 +109,9 @@
 	1306.1.1={
 		birth=yes
 	}
+	1351.5.4={
+		dynasty_house = "house_shgnt_akamatsu_izu"
+	}
 	1374.1.1={
 		death=yes
 	}
@@ -122,6 +125,9 @@
 	trait="education_intrigue_1"
 	1320.1.1={
 		birth=yes
+	}
+	1351.5.4={
+		dynasty_house = "house_shgnt_shichijo"
 	}
 	1381.10.28={
 		death=yes
@@ -155,6 +161,9 @@
 	1363.1.1={
 		birth=yes
 	}
+	1372.1.13={
+		dynasty_house = "house_shgnt_akamatsu_ueno"
+	}
 	1410.1.1={
 		death=yes
 	}
@@ -168,6 +177,9 @@
 	trait="education_diplomacy_1"
 	1366.1.1={
 		birth=yes
+	}
+	1372.1.13={
+		dynasty_house = "house_shgnt_akamatsu_okochi"
 	}
 	1392.1.24={
 		death=yes
@@ -190,7 +202,7 @@
 10053511 = {
 	name=character_name_10053511 #  Mitsusuke
 	dynasty=10000535 # Akamatsu
-	father=10053507
+	father = 10053507 # Akamatsu Yoshinori
 	religion="shinto"
 	culture="sanyo"
 	diplomacy=4
@@ -202,13 +214,15 @@
 		birth=yes
 	}
 	1441.9.25={
-		death=yes
+		death = { # 嘉吉の乱
+			death_reason = death_suicide
+		}
 	}
 }
 10053512 = {
 	name=character_name_10053512 # Yoshimasa
 	dynasty=10000535 # Akamatsu
-	father=10053507
+	father = 10053507 # Akamatsu Yoshinori
 	religion="shinto"
 	culture="sanyo"
 	trait="education_diplomacy_1"
@@ -216,13 +230,15 @@
 		birth=yes
 	}
 	1441.10.3={
-		death=yes
+		death = { # 嘉吉の乱
+			death_reason = death_suicide
+		}
 	}
 }
 10053513 = {
 	name=character_name_10053513 # Norishige
 	dynasty=10000535 # Akamatsu
-	father=10053507
+	father = 10053507 # Akamatsu Yoshinori
 	religion="shinto"
 	culture="sanyo"
 	trait="education_diplomacy_1"
@@ -235,7 +251,8 @@
 }
 10053514 = {
 	name=character_name_10053514 # Mitsumasa
-	dynasty=10000535 # Akamatsu
+#	dynasty=10000535 # Akamatsu
+	dynasty_house = "house_shgnt_akamatsu_okochi"
 	father=10053509
 	religion="shinto"
 	culture="sanyo"
@@ -388,7 +405,8 @@
 }
 10053521 = {
 	name=character_name_10053521 # Mochisada
-	dynasty=10000535 # Akamatsu
+#	dynasty=10000535 # Akamatsu
+	dynasty_house = "house_shgnt_akamatsu_izu"
 	father=10053524
 	religion="shinto"
 	culture="sanyo"
@@ -402,7 +420,8 @@
 }
 10053522 = {
 	name=character_name_10053522 # Sadamura
-	dynasty=10000535 # Akamatsu
+#	dynasty=10000535 # Akamatsu
+	dynasty_house = "house_shgnt_akamatsu_izu"
 	father=10053525
 	religion="shinto"
 	culture="sanyo"
@@ -417,7 +436,7 @@
 10053523 = {
 	name=character_name_10053523 # Sukehisa
 	dynasty=10000535 # Akamatsu
-	father=10053507
+	father = 10053507 # Akamatsu Yoshinori
 	religion="shinto"
 	culture="sanyo"
 	trait="education_intrigue_1"
@@ -430,7 +449,8 @@
 }
 10053524 = {
 	name=character_name_10053524 # Akinori
-	dynasty=10000535 # Akamatsu
+#	dynasty=10000535 # Akamatsu
+	dynasty_house = "house_shgnt_akamatsu_izu"
 	father=10053505
 	religion="shinto"
 	culture="sanyo"
@@ -444,7 +464,8 @@
 }
 10053525 = {
 	name=character_name_10053525 # Mitsusada
-	dynasty=10000535 # Akamatsu
+#	dynasty=10000535 # Akamatsu
+	dynasty_house = "house_shgnt_akamatsu_izu"
 	father=10053526
 	religion="shinto"
 	culture="sanyo"
@@ -458,7 +479,8 @@
 }
 10053526 = {
 	name=character_name_10053526 # Yorinori
-	dynasty=10000535 # Akamatsu
+#	dynasty=10000535 # Akamatsu
+	dynasty_house = "house_shgnt_akamatsu_izu"
 	father=10053505
 	religion="shinto"
 	culture="sanyo"
@@ -472,7 +494,8 @@
 }
 10053527 = {
 	name=character_name_10053527 # Noritsugu
-	dynasty=10000535 # Akamatsu
+#	dynasty=10000535 # Akamatsu
+	dynasty_house = "house_shgnt_akamatsu_okochi"
 	father=10053509
 	religion="shinto"
 	culture="sanyo"
@@ -486,7 +509,8 @@
 }
 10053528 = {
 	name=character_name_10053528 # Norihiro
-	dynasty=10000535 # Akamatsu
+#	dynasty=10000535 # Akamatsu
+	dynasty_house = "house_shgnt_akamatsu_okochi"
 	father=10053527
 	religion="shinto"
 	culture="sanyo"
@@ -500,7 +524,8 @@
 }
 10053529 = {
 	name=character_name_10053529 # Motohisa
-	dynasty=10000535 # Akamatsu
+#	dynasty=10000535 # Akamatsu
+	dynasty_house = "house_shgnt_akamatsu_okochi"
 	father=10053528
 	religion="shinto"
 	culture="sanyo"
@@ -514,7 +539,8 @@
 }
 10053530 = {
 	name=character_name_10053530 # Masasuke
-	dynasty=10000535 # Akamatsu
+#	dynasty=10000535 # Akamatsu
+	dynasty_house = "house_shgnt_akamatsu_okochi"
 	father=10053529
 	religion="shinto"
 	culture="sanyo"
@@ -547,7 +573,8 @@
 }
 10053532 = {
 	name=character_name_10053532 # Sadako #Ashikaga Yoshinori's consort wife
-	dynasty=10000535 # Akamatsu
+#	dynasty=10000535 # Akamatsu
+	dynasty_house = "house_shgnt_akamatsu_izu"
 	father=10053526
 	female=yes
 	religion="shinto"
@@ -953,7 +980,8 @@
 }
 10053561 = {
 	name=character_name_10053561 # Norisada
-	dynasty=10000537 # Bessho
+#	dynasty=10000537 # Bessho
+	house_shgnt_akamatsu_bessho
 	father=10053564
 	religion="shinto"
 	culture="sanyo"
@@ -966,7 +994,8 @@
 }
 10053562 = {
 	name=character_name_10053562 # Nariharu
-	dynasty=10000537 # Bessho
+#	dynasty=10000537 # Bessho
+	house_shgnt_akamatsu_bessho
 	father=10053561
 	religion="shinto"
 	culture="sanyo"
@@ -990,7 +1019,8 @@
 }
 10053563 = {
 	name=character_name_10053563 # Yasuharu
-	dynasty=10000537 # Bessho
+#	dynasty=10000537 # Bessho
+	house_shgnt_akamatsu_bessho
 	father=10053562
 	religion="shinto"
 	culture="sanyo"
@@ -1010,7 +1040,8 @@
 }
 10053564 = {
 	name=character_name_10053564 # Noriharu
-	dynasty=10000537 # Bessho
+#	dynasty=10000537 # Bessho
+	house_shgnt_akamatsu_bessho
 	father=10053567
 	religion="shinto"
 	culture="sanyo"
@@ -1032,7 +1063,8 @@
 		birth=yes
 	}
 	1410.1.1={
-		dynasty=10000537 # Bessho
+#		dynasty=10000537 # Bessho
+		dynasty_house = "house_shgnt_akamatsu_bessho"
 	}
 	1430.1.1={
 		death=yes
@@ -1040,7 +1072,8 @@
 }
 10053567 = {
 	name=character_name_10053567 # Sukenori
-	dynasty=10000537 # Bessho
+#	dynasty=10000537 # Bessho
+	house_shgnt_akamatsu_bessho
 	father=10053566
 	religion="shinto"
 	culture="sanyo"
@@ -1054,7 +1087,8 @@
 }
 10053568 = {
 	name=character_name_10053568 # Nagaharu
-	dynasty=10000537 # Bessho
+#	dynasty=10000537 # Bessho
+	house_shgnt_akamatsu_bessho
 	father=10053563
 	religion="shinto"
 	culture="sanyo"
@@ -1086,7 +1120,8 @@
 }
 10053569 = {
 	name=character_name_10053569 # Yoshichika
-	dynasty=10000537 # Bessho
+#	dynasty=10000537 # Bessho
+	house_shgnt_akamatsu_bessho
 	father=10053562
 	religion="shinto"
 	culture="sanyo"
@@ -1099,7 +1134,8 @@
 }
 10053570 = {
 	name=character_name_10053570 # Shigemune
-	dynasty=10000537 # Bessho
+#	dynasty=10000537 # Bessho
+	house_shgnt_akamatsu_bessho
 	father=10053562
 	religion="shinto"
 	culture="sanyo"
@@ -1117,7 +1153,8 @@
 }
 10053571 = {
 	name=character_name_10053571 # Sane #Ouga Sadanori's wife
-	dynasty=10000537 # Bessho
+#	dynasty=10000537 # Bessho
+	house_shgnt_akamatsu_bessho
 	father=10053562
 	female=yes
 	religion="shinto"
@@ -1131,7 +1168,8 @@
 }
 10053572 = {
 	name=character_name_10053572 # Yoshiharu
-	dynasty=10000537 # Bessho
+#	dynasty=10000537 # Bessho
+	house_shgnt_akamatsu_bessho
 	father=10053570
 	religion="shinto"
 	culture="sanyo"
@@ -1145,7 +1183,8 @@
 }
 10053573 = {
 	name=character_name_10053573 # Mitsunori
-	dynasty=10000537 # Bessho
+#	dynasty=10000537 # Bessho
+	house_shgnt_akamatsu_bessho
 	father=10053567
 	religion="shinto"
 	culture="sanyo"
@@ -1158,7 +1197,8 @@
 }
 10053574 = {
 	name=character_name_10053574 # Harumitsu
-	dynasty=10000537 # Bessho
+#	dynasty=10000537 # Bessho
+	house_shgnt_akamatsu_bessho
 	father=10053573
 	religion="shinto"
 	culture="sanyo"
@@ -1171,7 +1211,8 @@
 }
 10053575 = {
 	name=character_name_10053575 # Harusada
-	dynasty=10000537 # Bessho
+#	dynasty=10000537 # Bessho
+	house_shgnt_akamatsu_bessho
 	father=10053574
 	religion="shinto"
 	culture="sanyo"
@@ -1184,7 +1225,8 @@
 }
 10053576 = {
 	name=character_name_10053576 # Shizuharu
-	dynasty=10000537 # Bessho
+#	dynasty=10000537 # Bessho
+	house_shgnt_akamatsu_bessho
 	father=10053575
 	religion="shinto"
 	culture="sanyo"
@@ -1197,7 +1239,8 @@
 }
 10053577 = {
 	name=character_name_10053577 # Shigeharu
-	dynasty=10000537 # Bessho
+#	dynasty=10000537 # Bessho
+	house_shgnt_akamatsu_bessho
 	father=10053576
 	religion="shinto"
 	culture="sanyo"
@@ -1210,7 +1253,8 @@
 }
 10053578 = {
 	name=character_name_10053578 # Yoshiko #Shinmen Muni's wife?
-	dynasty=10000537 # Bessho
+#	dynasty=10000537 # Bessho
+	house_shgnt_akamatsu_bessho
 	father=10053577
 	female=yes
 	religion="shinto"
@@ -2195,12 +2239,15 @@
 }
 10053760={
 	name=character_name_10053760 # Tomonori
-	dynasty=10000539 # Arita
+	dynasty=10000535 # Akamatsu
 	father=10053501 # Akamatsu Norisuke
 	religion="shinto"
 	culture="sanyo"
 	1340.1.1={
 		birth=yes
+	}
+	1351.5.4={
+		dynasty_house = "house_shgnt_akamatsu_arita"
 	}
 	1400.1.1={
 		death=yes
@@ -2208,7 +2255,8 @@
 }
 10053761={
 	name=character_name_10053761 # Noriyasu
-	dynasty=10000539 # Arita
+#	dynasty=10000539 # Arita
+	dynasty_house = "house_shgnt_akamatsu_arita"
 	father=10053760 # Arita Tomonori
 	religion="shinto"
 	culture="sanyo"
@@ -2221,7 +2269,8 @@
 }
 10053762={
 	name=character_name_10053762 # Mochitada
-	dynasty=10000539 # Arita
+#	dynasty=10000539 # Arita
+	dynasty_house = "house_shgnt_akamatsu_arita"
 	father=10053761 # Arita Noriyasu
 	religion="shinto"
 	culture="sanyo"
@@ -2234,7 +2283,8 @@
 }
 10053763={
 	name=character_name_10053763 # Toyotada
-	dynasty=10000539 # Arita
+#	dynasty=10000539 # Arita
+	dynasty_house = "house_shgnt_akamatsu_arita"
 	father=10053761 # Arita Noriyasu
 	religion="shinto"
 	culture="sanyo"
@@ -2247,7 +2297,8 @@
 }
 10053764={
 	name=character_name_10053764 # Norimori
-	dynasty=10000539 # Arita
+#	dynasty=10000539 # Arita
+	dynasty_house = "house_shgnt_akamatsu_arita"
 	father=10053762 # Arita Mochitada
 	religion="shinto"
 	culture="sanyo"
@@ -2260,7 +2311,8 @@
 }
 10053765={
 	name=character_name_10053765 # Tadanaga
-	dynasty=10000539 # Arita
+#	dynasty=10000539 # Arita
+	dynasty_house = "house_shgnt_akamatsu_arita"
 	father=10053763 # Arita Toyotada
 	religion="shinto"
 	culture="sanyo"
@@ -2273,7 +2325,8 @@
 }
 10053766={
 	name=character_name_10053766 # Muranaga
-	dynasty=10000539 # Arita
+#	dynasty=10000539 # Arita
+	dynasty_house = "house_shgnt_akamatsu_arita"
 	father=10053765 # Arita Tadanaga
 	religion="shinto"
 	culture="sanyo"
@@ -2286,7 +2339,8 @@
 }
 10053767={
 	name=character_name_10053767 # Motonaga
-	dynasty=10000539 # Arita
+#	dynasty=10000539 # Arita
+	dynasty_house = "house_shgnt_akamatsu_arita"
 	father=10053766 # Arita Muranaga
 	religion="shinto"
 	culture="sanyo"

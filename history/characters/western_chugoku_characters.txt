@@ -4561,7 +4561,7 @@
 	name=character_name_10056103 # Mototsuna
 #	dynasty=10000207 # Takeda (Aki=Takeda)
 	dynasty_house = house_shgnt_akitakeda
-	father= 10056105
+	father= 10056105 # Aki=Takeda Nobushige
 	martial=8
 	diplomacy=8
 	intrigue=7
@@ -4587,7 +4587,7 @@
 	name=character_name_10056104 # Nobukata
 #	dynasty=10000207 # Takeda (Aki=Takeda)
 	dynasty_house = house_shgnt_akitakeda
-	father= 10056105
+	father= 10056105 # Aki=Takeda Nobushige
 	martial=8
 	diplomacy=8
 	intrigue=7
@@ -4603,8 +4603,19 @@
 	1440.8.20={
 		give_nickname="nick_jibu_no_sho"
 	}
-	1471.6.20={
-		death=yes
+	1448.01.28 = { # 文安四年十二月二十二日
+		give_nickname = "nick_the_daizen_daihu"
+		effect = {
+			add_trait = "shogoi_jo"
+		}
+	}
+	1471.06.17 = { # 文明三年五月二十九日以前
+		give_nickname = "nick_the_mutsu_no_kami"
+	}
+	1471.6.20={	
+		death = {
+			death_reason = death_cancer # 本来は腫れ物
+		}
 	}
 }
 10056105 = {
@@ -4623,6 +4634,9 @@
 	prowess=12
 	1390.1.1={
 		birth=yes
+	}
+	1420.01.01 = {
+		give_nickname = "nick_the_izu_no_kami"
 	}
 	1465.11.28={
 		death=yes

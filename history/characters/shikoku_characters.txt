@@ -2374,13 +2374,17 @@
 	1388.1.1={
 		give_nickname="nick_rokuro"
 	}
+	1400.1.1={
+		dynasty_house = "house_shgnt_kono_yoshu"
+	}
 	1467.1.1={
 		death=yes
 	}
 }
 10058618 = {
 	name=character_name_10058618 # Michimoto
-	dynasty=10000584 # Kono
+#	dynasty=10000584 # Kono
+	dynasty_house = "house_shgnt_kono_yoshu"
 	father=10058617
 	religion="shinto"
 	culture="shikoku"
@@ -2396,7 +2400,8 @@
 }
 10058619 = {
 	name=character_name_10058619 # Michiharu
-	dynasty=10000584 # Kono
+#	dynasty=10000584 # Kono
+	dynasty_house = "house_shgnt_kono_yoshu"
 	father=10058618
 	religion="shinto"
 	culture="shikoku"
@@ -2409,7 +2414,8 @@
 }
 10058620 = {
 	name=character_name_10058620 # Michiatsu
-	dynasty=10000584 # Kono
+#	dynasty=10000584 # Kono
+	dynasty_house = "house_shgnt_kono_yoshu"
 	father=10058619
 	religion="shinto"
 	culture="shikoku"
@@ -2422,7 +2428,8 @@
 }
 10058621 = {
 	name=character_name_10058621 # Michimasa
-	dynasty=10000584 # Kono
+#	dynasty=10000584 # Kono
+	dynasty_house = "house_shgnt_kono_yoshu"
 	father=10058620
 	religion="shinto"
 	culture="shikoku"

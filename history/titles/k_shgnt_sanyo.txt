@@ -551,6 +551,13 @@ c_shgnt_shonan = {
         liege = e_shgnt_japan # 
         holder = 12635105 # Arimoto Sukehisa
     }
+	1394.01.01 = {
+		effect = {
+			title:b_shgnt_shonan_2 = {
+				set_title_name = b_shgnt_shonan_2_1 # Mitsuboshi
+			}
+		}
+	}
     1420.01.01 = {
         holder = 12635106 # Arimoto Sukekuni
     }
@@ -846,6 +853,11 @@ c_shgnt_mashima = {
     }
     1360.01.01 = {
         holder = 10053607 # Miura Noritsura
+		effect = {
+			title:b_shgnt_mashima_1 = {
+				set_title_name = b_shgnt_mashima_1_1 # Takada
+			}
+		}
     }
     1400.01.01 = {
         liege = d_shgnt_mimasaka # 
@@ -2473,6 +2485,13 @@ c_shgnt_mimasaka_aita = {
         liege = 0 # 
         holder = 0 # Battle of Ichi-no-Tani
     }
+	1361.01.01 = {
+		effect = {
+			title:b_shgnt_mimasaka_aita_1 = {
+				set_title_name = b_shgnt_mino_atsumi_1_1 #　Hayashino
+			}
+		}
+	}
     1460.01.01 = {
         liege = k_shgnt_sanin # 
         holder = 10053903 # Emi Hisazane
