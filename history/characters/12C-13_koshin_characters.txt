@@ -727,6 +727,9 @@
 	1162.4.20={
 		birth=yes
 	}
+	1178.04.20={
+		give_nickname = "nick_jio"
+	}
 	1179.12.18={
 		employer=10110025 # Taira Kiyomori
 	}
@@ -735,6 +738,12 @@
 	}
 	1184.1.1={
 		dynasty=10000214 # Ogasawara
+	}
+	1185.09.11 = { # 文治元年八月十六日
+		give_nickname = "nick_the_shinano_no_kami"
+		effect = {
+			add_trait = "jugoi_ge"
+		}
 	}
 	1240.1.1={
 		effect = {
@@ -838,6 +847,9 @@
 	1184.1.1={
 		dynasty=10000214 # Ogasawara
 	}
+	1195.6.23={
+		give_nickname = "nick_Yataro"
+	}
 	1240.1.1={
 		effect = {
 			add_trait = "jushii_jo"
@@ -896,7 +908,8 @@
 		birth=yes
 	}
 	1210.1.1={
-		dynasty=10006139 # Tomono
+#		dynasty=10006139 # Tomono
+		dynasty_house = "house_shgnt_tomono"
 	}
 	1265.1.1={
 		death=yes
@@ -912,7 +925,8 @@
 		birth=yes
 	}
 	1221.7.6={
-		dynasty=10006140 # Oi
+#		dynasty=10006140 # Ōi
+		dynasty_house = "house_shgnt_ogasawara_oi"
 	}
 	1225.1.1={
 		death=yes
@@ -1076,7 +1090,8 @@
 }
 12360620={
 	name=character_name_12360620 # Tokinao
-	dynasty=10006139 # Tomono
+#	dynasty=10006139 # Tomono
+	dynasty_house = "house_shgnt_tomono"
 	father=12360604 # Tomono Tokinaga
 	religion="shinto"
 	culture="koshin"
@@ -1089,7 +1104,8 @@
 }
 12360621={
 	name=character_name_12360621 # Nagatomo
-	dynasty=10006139 # Tomono
+#	dynasty=10006139 # Tomono
+	dynasty_house = "house_shgnt_tomono"
 	father=12360604 # Tomono Tokinaga
 	religion="shinto"
 	culture="koshin"
@@ -1103,7 +1119,8 @@
 12360622={
 	female=yes
 	name=character_name_12360622 # Aoi
-	dynasty=10006139 # Tomono
+#	dynasty=10006139 # Tomono
+	dynasty_house = "house_shgnt_tomono"
 	father=12360604 # Tomono Tokinaga
 	religion="shinto"
 	culture="koshin"
@@ -1116,7 +1133,8 @@
 }
 12360630={
 	name=character_name_12360630 # Nagayasu
-	dynasty=10006139 # Tomono
+#	dynasty=10006139 # Tomono
+	dynasty_house = "house_shgnt_tomono"
 	father=12360620 # Tomono Tokinao
 	religion="shinto"
 	culture="koshin"
@@ -1129,7 +1147,8 @@
 }
 12360631={
 	name=character_name_12360631 # Yasunao
-	dynasty=10006139 # Tomono
+#	dynasty=10006139 # Tomono
+	dynasty_house = "house_shgnt_tomono"
 	father=12360620 # Tomono Tokinao
 	religion="shinto"
 	culture="koshin"
@@ -1142,7 +1161,8 @@
 }
 12360640={
 	name=character_name_12360640 # Moritoki
-	dynasty=10006139 # Tomono
+#	dynasty=10006139 # Tomono
+	dynasty_house = "house_shgnt_tomono"
 	father=12360630 # Tomono Nagayasu
 	religion="shinto"
 	culture="koshin"
@@ -1155,7 +1175,8 @@
 }
 12360641={
 	name=character_name_12360641 # Naganao
-	dynasty=10006139 # Tomono
+#	dynasty=10006139 # Tomono
+	dynasty_house = "house_shgnt_tomono"
 	father=12360630 # Tomono Nagayasu
 	religion="shinto"
 	culture="koshin"
@@ -1168,7 +1189,8 @@
 }
 12360642={
 	name=character_name_12360642 # Nagamori
-	dynasty=10006139 # Tomono
+#	dynasty=10006139 # Tomono
+	dynasty_house = "house_shgnt_tomono"
 	father=12360630 # Tomono Nagayasu
 	religion="shinto"
 	culture="koshin"
@@ -1181,7 +1203,8 @@
 }
 12360643={
 	name=character_name_12360643 # Yasuyuki
-	dynasty=10006139 # Tomono
+#	dynasty=10006139 # Tomono
+	dynasty_house = "house_shgnt_tomono"
 	father=12360630 # Tomono Nagayasu
 	religion="shinto"
 	culture="koshin"
@@ -1194,7 +1217,8 @@
 }
 12360644={
 	name=character_name_12360644 # Nagasada
-	dynasty=10006139 # Tomono
+#	dynasty=10006139 # Tomono
+	dynasty_house = "house_shgnt_tomono"
 	father=12360630 # Tomono Nagayasu
 	religion="shinto"
 	culture="koshin"
@@ -1207,7 +1231,8 @@
 }
 12360645={
 	name=character_name_12360645 # Nagafusa
-	dynasty=10006139 # Tomono
+#	dynasty=10006139 # Tomono
+	dynasty_house = "house_shgnt_tomono"
 	father=12360643 # Tomono Yasuyuki
 	religion="shinto"
 	culture="tokai"
@@ -1221,7 +1246,8 @@
 12360646={
 	female=yes
 	name=character_name_12360646 # Nagako
-	dynasty=10006139 # Tomono
+#	dynasty=10006139 # Tomono
+	dynasty_house = "house_shgnt_tomono"
 	father=12360630
 	religion="shinto"
 	culture="tokai"
@@ -1242,6 +1268,9 @@
 	prowess=21
 	1213.1.1={
 		birth=yes
+	}
+	1229.1.1={
+		give_nickname = "nick_Matataro"
 	}
 	1276.1.1={
 		death=yes
@@ -1541,6 +1570,7 @@
 		effect = {
 			add_trait = "jugoi_ge"
 		}
+		give_nickname = "nick_the_shinano_no_kami"
 	}
 	1330.10.18={
 		death=yes
@@ -1670,6 +1700,9 @@
 	1292.4.30={
 		birth=yes
 	}
+	1334.01.01 = {
+		dynasty_house = "house_shgnt_ogasawara_shinano"
+	}
 	1345.1.1={
 		effect = {
 			add_trait = "shosanmi"
@@ -1728,6 +1761,9 @@
 	1319.7.28={
 		birth=yes
 	}
+	1334.01.01 = {
+		dynasty_house = "house_shgnt_ogasawara_shinano"
+	}
 	1355.1.1={
 		effect = {
 			add_trait = "jushii_jo"
@@ -1746,6 +1782,9 @@
 	1320.1.1={
 		birth=yes
 	}
+	1334.01.01 = {
+		dynasty_house = "house_shgnt_ogasawara_shinano"
+	}
 	1375.1.1={
 		death=yes
 	}
@@ -1759,6 +1798,9 @@
 	culture="koshin"
 	1321.1.1={
 		birth=yes
+	}
+	1334.01.01 = {
+		dynasty_house = "house_shgnt_ogasawara_shinano"
 	}
 	1375.1.1={
 		death=yes
@@ -1774,6 +1816,9 @@
 	1322.7.28={
 		birth=yes
 	}
+	1334.01.01 = {
+		dynasty_house = "house_shgnt_ogasawara_shinano"
+	}
 	1365.4.12={
 		death=yes
 	}
@@ -1786,6 +1831,9 @@
 	culture="koshin"
 	1324.1.1={
 		birth=yes
+	}
+	1334.01.01 = {
+		dynasty_house = "house_shgnt_ogasawara_shinano"
 	}
 	1375.1.1={
 		death=yes
@@ -1800,13 +1848,17 @@
 	1325.1.1={
 		birth=yes
 	}
+	1334.01.01 = {
+		dynasty_house = "house_shgnt_ogasawara_shinano"
+	}
 	1375.1.1={
 		death=yes
 	}
 }
 12360730 = {
 	name=character_name_12360730 # Nagamoto
-	dynasty=10000214 # Ogasawara
+#	dynasty=10000214 # Ogasawara
+	dynasty_house = "house_shgnt_ogasawara_shinano"
 	father=12360720 # Ogasawara Masanaga
 	religion="shinto"
 	culture="koshin"
@@ -1827,7 +1879,8 @@
 }
 12360731 = {
 	name=character_name_12360731 # Nagaoki
-	dynasty=10000214 # Ogasawara
+#	dynasty=10000214 # Ogasawara
+	dynasty_house = "house_shgnt_ogasawara_shinano"
 	father=12360720 # Ogasawara Masanaga
 	religion="shinto"
 	culture="koshin"
@@ -1840,7 +1893,8 @@
 }
 12360740 = {
 	name=character_name_12360740 # Masayasu
-	dynasty=10000214 # Ogasawara
+#	dynasty=10000214 # Ogasawara
+	dynasty_house = "house_shgnt_ogasawara_shinano"
 	father=12360730 # Ogasawara Nagamoto
 	mother=12360192 # Takeda Nobuharu's daughter
 	religion="shinto"
@@ -1848,7 +1902,22 @@
 	1376.5.5={
 		birth=yes
 	}
-	1442.1.1={
+	1399.11.08 = { # 応永6(1399)年十月十日
+		give_nickname = "nick_uma_no_suke"
+	}
+	1425.02.21 = { # 応永32(1425)年二月三日
+		give_nickname = "nick_the_daizen_daihu"
+		effect = {
+			add_trait = "shogoi_jo"
+		}
+	}
+	1426.01.23 = {
+		effect={
+			set_realm_capital=title:c_shgnt_tsukama # Igawa, 守護補任のこれ以降に守護所を府中井川館に移す
+		}
+	}
+	1442.1.1 = {
+		give_nickname = "nick_the_jibu_daihu"
 		effect = {
 			add_trait = "jushii_jo"
 		}
@@ -1859,7 +1928,8 @@
 }
 12360741 = {
 	name=character_name_12360741 # Nagahide
-	dynasty=10000214 # Ogasawara
+#	dynasty=10000214 # Ogasawara
+	dynasty_house = "house_shgnt_ogasawara_shinano"
 	father=12360730 # Ogasawara Nagamoto
 	religion="shinto"
 	culture="koshin"
@@ -1877,15 +1947,30 @@
 }
 12360750 = {
 	name=character_name_12360750 # Mochinaga
-	dynasty=10000214 # Ogasawara
+#	dynasty=10000214 # Ogasawara
+	dynasty_house = "house_shgnt_ogasawara_shinano"
 	father=12360740 # Ogasawara Masayasu
 	religion="shinto"
 	culture="koshin"
 	1396.7.27={
 		birth=yes
 	}
+	1412.7.27={
+		give_nickname = "nick_Hikojio"
+	}
 	1442.9.13={
 		add_pressed_claim=d_shgnt_shinano
+	}
+	1442.9.22={
+		effect = {
+			set_relation_rival = character:10021431 # Ogasawara Muneyasu
+		}
+	}
+	1447.08.12 = {
+		give_nickname = "nick_the_daizen_daihu"
+		effect = {
+			add_trait = "shogoi_ge"
+		}
 	}
 	1455.1.1={
 		effect = {
@@ -1898,7 +1983,8 @@
 }
 12360760 = {
 	name=character_name_12360760 # Kiyomune
-	dynasty=10000214 # Ogasawara
+#	dynasty=10000214 # Ogasawara
+	dynasty_house = "house_shgnt_ogasawara_shinano"
 	father=12360750 # Ogasawara Mochinaga
 	religion="shinto"
 	culture="koshin"
@@ -1907,14 +1993,22 @@
 	}
 	1462.7.21={
 		add_pressed_claim=d_shgnt_shinano
+		give_nickname = "nick_the_shinano_no_kami"
+		effect = {
+			add_trait = "jugoi_ge"
+			set_relation_rival = character:10021436 # Ogasawara Masahide
+		}
 	}
-	1478.4.1={
-		death=yes
+	1468.12.17 = { # 1468(応仁2)年十一月四日
+		death = {
+			death_reason = death_lunatic
+		}
 	}
 }
 12360761 = {
 	name=character_name_12360761 # Shunso
-	dynasty=10000214 # Ogasawara
+#	dynasty=10000214 # Ogasawara
+	dynasty_house = "house_shgnt_ogasawara_shinano"
 	father=12360750 # Ogasawara Mochinaga
 	religion="shinto"
 	culture="koshin"
@@ -1928,7 +2022,8 @@
 }
 12360762 = {
 	name=character_name_12360762 # Munenori
-	dynasty=10000214 # Ogasawara
+#	dynasty=10000214 # Ogasawara
+	dynasty_house = "house_shgnt_ogasawara_shinano"
 	father=12360750 # Ogasawara Mochinaga
 	religion="shinto"
 	culture="koshin"
@@ -1941,7 +2036,8 @@
 }
 12360763 = {
 	name=character_name_12360763 # Masatoyo
-	dynasty=10000214 # Ogasawara
+#	dynasty=10000214 # Ogasawara
+	dynasty_house = "house_shgnt_ogasawara_shinano"
 	father=12360750 # Ogasawara Mochinaga
 	religion="shinto"
 	culture="koshin"
@@ -1954,7 +2050,8 @@
 }
 12360770 = {
 	name=character_name_12360770 # Nagatomo
-	dynasty=10000214 # Ogasawara
+#	dynasty=10000214 # Ogasawara
+	dynasty_house = "house_shgnt_ogasawara_shinano"
 	father=12360760 # Ogasawara Kiyomune
 	religion="shinto"
 	culture="koshin"
@@ -1969,8 +2066,9 @@
 	1443.11.25={
 		birth=yes
 	}
-	1478.3.22={
+	1468.12.17 = {
 		add_pressed_claim=d_shgnt_shinano
+		give_nickname = "nick_minbu_daihu"
 	}
 	1501.9.24={
 		death=yes
@@ -1978,7 +2076,8 @@
 }
 12360771 = {
 	name=character_name_12360771 # Mitsumasa
-	dynasty=10000214 # Ogasawara
+#	dynasty=10000214 # Ogasawara
+	dynasty_house = "house_shgnt_ogasawara_shinano"
 	father=12360760 # Ogasawara Kiyomune
 	religion="shinto"
 	culture="koshin"
@@ -1991,7 +2090,8 @@
 }
 12360772 = {
 	name=character_name_12360772 # Masako # TODO:Nishina Morifuyu's wife
-	dynasty=10000214 # Ogasawara
+#	dynasty=10000214 # Ogasawara
+	dynasty_house = "house_shgnt_ogasawara_shinano"
 	female=yes
 	father=12360760 # Ogasawara Kiyomune
 	religion="shinto"
@@ -2005,7 +2105,8 @@
 }
 12360773 = {
 	name=character_name_12360773 # Yuko # TODO:Kasuga Morioki's wife
-	dynasty=10000214 # Ogasawara
+#	dynasty=10000214 # Ogasawara
+	dynasty_house = "house_shgnt_ogasawara_shinano"
 	female=yes
 	father=12360760 # Ogasawara Kiyomune
 	religion="shinto"
@@ -2019,7 +2120,8 @@
 }
 12360780 = {
 	name=character_name_12360780 # Sadatomo
-	dynasty=10000214 # Ogasawara
+#	dynasty=10000214 # Ogasawara
+	dynasty_house = "house_shgnt_ogasawara_shinano"
 	father=12360770 # Ogasawara Nagatomo
 	martial=7
 	diplomacy=8
@@ -2044,7 +2146,8 @@
 }
 12360781 = {
 	name=character_name_12360781 # Sadamasa
-	dynasty=10000214 # Ogasawara
+#	dynasty=10000214 # Ogasawara
+	dynasty_house = "house_shgnt_ogasawara_shinano"
 	father=12360770 # Ogasawara Nagatomo
 	religion="shinto"
 	culture="koshin"
@@ -2058,7 +2161,8 @@
 }
 12360782 = {
 	name=character_name_12360782 # Kane #Nishina Morikuni's wife
-	dynasty=10000214 # Ogasawara
+#	dynasty=10000214 # Ogasawara
+	dynasty_house = "house_shgnt_ogasawara_shinano"
 	female=yes
 	father=12360770 # Ogasawara Nagatomo
 	religion="shinto"
@@ -2073,7 +2177,8 @@
 }
 12360783 = {
 	name=character_name_12360783 # Umi # TODO:Ooka's wife
-	dynasty=10000214 # Ogasawara
+#	dynasty=10000214 # Ogasawara
+	dynasty_house = "house_shgnt_ogasawara_shinano"
 	female=yes
 	father=12360770 # Ogasawara Nagatomo
 	religion="shinto"
@@ -2109,7 +2214,8 @@
 		birth=yes
 	}
 	1221.7.6={
-		dynasty=10006140 # Oi
+#		dynasty=10006140 # Oi
+		dynasty_house = "house_shgnt_ogasawara_oi"
 	}
 	1280.1.1={
 		death=yes
@@ -2125,7 +2231,8 @@
 		birth=yes
 	}
 	1221.7.6={
-		dynasty=10006140 # Oi
+#		dynasty=10006140 # Oi
+		dynasty_house = "house_shgnt_ogasawara_oi"
 	}
 	1280.1.1={
 		death=yes
@@ -2133,7 +2240,8 @@
 }
 12361010={
 	name=character_name_12361010 # Tokimitsu
-	dynasty=10006140 # Oi
+#	dynasty=10006140 # Ōi
+	dynasty_house = "house_shgnt_ogasawara_oi"
 	father=12361000 # Oi Mitsunaga
 	religion="shinto"
 	culture="koshin"
@@ -2146,7 +2254,8 @@
 }
 12361011={
 	name=character_name_12361011 # Mitsuyasu
-	dynasty=10006140 # Oi
+#	dynasty=10006140 # Ōi
+	dynasty_house = "house_shgnt_ogasawara_oi"
 	father=12361000 # Oi Mitsunaga
 	religion="shinto"
 	culture="koshin"
@@ -2159,7 +2268,8 @@
 }
 12361012={
 	name=character_name_12361012 # Yukimitsu
-	dynasty=10006140 # Oi
+#	dynasty=10006140 # Ōi
+	dynasty_house = "house_shgnt_ogasawara_oi"
 	father=12361000 # Oi Mitsunaga
 	religion="shinto"
 	culture="koshin"
@@ -2172,7 +2282,8 @@
 }
 12361013={
 	name=character_name_12361013 # Yukiuji
-	dynasty=10006140 # Oi
+#	dynasty=10006140 # Ōi
+	dynasty_house = "house_shgnt_ogasawara_oi"
 	father=12361000 # Oi Mitsunaga
 	religion="shinto"
 	culture="koshin"
@@ -2185,7 +2296,8 @@
 }
 12361014={
 	name=character_name_12361014 # Munemitsu
-	dynasty=10006140 # Oi
+#	dynasty=10006140 # Ōi
+	dynasty_house = "house_shgnt_ogasawara_oi"
 	father=12361000 # Oi Mitsunaga
 	religion="shinto"
 	culture="koshin"
@@ -2198,7 +2310,8 @@
 }
 12361015={
 	name=character_name_12361015 # Mitsumori
-	dynasty=10006140 # Oi
+#	dynasty=10006140 # Ōi
+	dynasty_house = "house_shgnt_ogasawara_oi"
 	father=12361000 # Oi Mitsunaga
 	religion="shinto"
 	culture="koshin"
@@ -2211,7 +2324,8 @@
 }
 12361016={
 	name=character_name_12361016 # Mitsunobu
-	dynasty=10006140 # Oi
+#	dynasty=10006140 # Ōi
+	dynasty_house = "house_shgnt_ogasawara_oi"
 	father=12361000 # Oi Mitsunaga
 	religion="shinto"
 	culture="koshin"
@@ -2224,7 +2338,8 @@
 }
 12361020={
 	name=character_name_12361020 # Tomoyuki
-	dynasty=10006140 # Oi
+#	dynasty=10006140 # Ōi
+	dynasty_house = "house_shgnt_ogasawara_oi"
 	father=12361012 # Oi Yukimitsu
 	religion="shinto"
 	culture="koshin"
@@ -2237,7 +2352,8 @@
 }
 12361021={
 	name=character_name_12361021 # Yukitoki
-	dynasty=10006140 # Oi
+#	dynasty=10006140 # Ōi
+	dynasty_house = "house_shgnt_ogasawara_oi"
 	father=12361012 # Oi Yukimitsu
 	religion="shinto"
 	culture="koshin"
@@ -2250,7 +2366,8 @@
 }
 12361025={
 	name=character_name_12361025 # Mitsushige
-	dynasty=10006140 # Oi
+#	dynasty=10006140 # Ōi
+	dynasty_house = "house_shgnt_ogasawara_oi"
 	father=12361021 # Oi Yukitoki
 	religion="shinto"
 	culture="koshin"
@@ -2263,7 +2380,8 @@
 }
 12361030={
 	name=character_name_12361030 # Mitsunori
-	dynasty=10006140 # Oi
+#	dynasty=10006140 # Ōi
+	dynasty_house = "house_shgnt_ogasawara_oi"
 	father=12361025 # Oi Mitsushige
 	religion="shinto"
 	culture="koshin"
@@ -2276,7 +2394,8 @@
 }
 12361035={
 	name=character_name_12361035 # Mochimitsu
-	dynasty=10006140 # Oi
+#	dynasty=10006140 # Ōi
+	dynasty_house = "house_shgnt_ogasawara_oi"
 	father=12361030 # Oi Mitsunori
 	religion="shinto"
 	culture="koshin"
@@ -2289,7 +2408,8 @@
 }
 12361040={
 	name=character_name_12361040 # Masamitsu
-	dynasty=10006140 # Oi
+#	dynasty=10006140 # Ōi
+	dynasty_house = "house_shgnt_ogasawara_oi"
 	father=12361035 # Oi Mochimitsu
 	religion="shinto"
 	culture="koshin"
@@ -2302,7 +2422,8 @@
 }
 12361041={
 	name=character_name_12361041 # Mitsuteru
-	dynasty=10006140 # Oi
+#	dynasty=10006140 # Ōi
+	dynasty_house = "house_shgnt_ogasawara_oi"
 	father=12361035 # Oi Mochimitsu
 	religion="shinto"
 	culture="koshin"
@@ -2315,7 +2436,8 @@
 }
 12361045={
 	name=character_name_12361045 # Masatomo
-	dynasty=10006140 # Oi
+#	dynasty=10006140 # Ōi
+	dynasty_house = "house_shgnt_ogasawara_oi"
 	father=12361040 # Oi Masamitsu
 	religion="shinto"
 	culture="koshin"
@@ -2328,7 +2450,8 @@
 }
 12361046={
 	name=character_name_12361046 # Masanori
-	dynasty=10006140 # Oi
+#	dynasty=10006140 # Ōi
+	dynasty_house = "house_shgnt_ogasawara_oi"
 	father=12361040 # Oi Masamitsu
 	religion="shinto"
 	culture="koshin"
@@ -2341,7 +2464,8 @@
 }
 12361050={
 	name=character_name_12361050 # Mitsuie
-	dynasty=10006140 # Oi
+#	dynasty=10006140 # Ōi
+	dynasty_house = "house_shgnt_ogasawara_oi"
 	father=12361010 # Oi Tokimitsu
 	religion="shinto"
 	culture="koshin"
@@ -2354,7 +2478,8 @@
 }
 12361055={
 	name=character_name_12361055 # Mitsunaga
-	dynasty=10006140 # Oi
+#	dynasty=10006140 # Ōi
+	dynasty_house = "house_shgnt_ogasawara_oi"
 	father=12361050 # Oi Mitsuie
 	religion="shinto"
 	culture="koshin"
@@ -2367,7 +2492,8 @@
 }
 12361060={
 	name=character_name_12361060 # Yukimitsu
-	dynasty=10006140 # Oi
+#	dynasty=10006140 # Ōi
+	dynasty_house = "house_shgnt_ogasawara_oi"
 	father=12361055 # Oi Mitsunaga
 	religion="shinto"
 	culture="koshin"
@@ -2380,7 +2506,8 @@
 }
 12361065={
 	name=character_name_12361065 # Tomomitsu
-	dynasty=10006140 # Oi
+#	dynasty=10006140 # Ōi
+	dynasty_house = "house_shgnt_ogasawara_oi"
 	father=12361060 # Oi Yukimitsu
 	religion="shinto"
 	culture="koshin"
@@ -2393,7 +2520,8 @@
 }
 12361070={
 	name=character_name_12361070 # Tomokiyo
-	dynasty=10006140 # Oi
+#	dynasty=10006140 # Ōi
+	dynasty_house = "house_shgnt_ogasawara_oi"
 	father=12361065 # Oi Tomomitsu
 	religion="shinto"
 	culture="koshin"
@@ -2495,7 +2623,8 @@
 }
 12361200={
 	name=character_name_12361200 # Naganobu
-	dynasty=10006139 # Tomono
+#	dynasty=10006139 # Tomono
+	dynasty_house = "house_shgnt_tomono"
 	father=12360645 # Tomono Nagafusa
 	religion="shinto"
 	culture="koshin"
@@ -2508,7 +2637,8 @@
 }
 12361201={
 	name=character_name_12361201 # KazusaNoSuke
-	dynasty=10006139 # Tomono
+#	dynasty=10006139 # Tomono
+	dynasty_house = "house_shgnt_tomono"
 	father=12361200 # Tomono Naganobu
 	religion="shinto"
 	culture="koshin"
@@ -2521,7 +2651,8 @@
 }
 12361205={
 	name=character_name_12361205 # KazusaNoSuke
-	dynasty=10006139 # Tomono
+#	dynasty=10006139 # Tomono
+	dynasty_house = "house_shgnt_tomono"
 	father=12361201 # Tomono KazusaNoSuke
 	religion="shinto"
 	culture="koshin"
@@ -2534,7 +2665,8 @@
 }
 12361206={
 	name=character_name_12361206 # Mitsutoshi
-	dynasty=10006139 # Tomono
+#	dynasty=10006139 # Tomono
+	dynasty_house = "house_shgnt_tomono"
 	father=12361201 # Tomono KazusaNoSuke
 	religion="shinto"
 	culture="koshin"
@@ -2547,7 +2679,8 @@
 }
 12361210={
 	name=character_name_12361210 # Sadamune
-	dynasty=10006139 # Tomono
+#	dynasty=10006139 # Tomono
+	dynasty_house = "house_shgnt_tomono"
 	father=12361205 # Tomono KazusaNoSuke
 	religion="shinto"
 	culture="koshin"
@@ -2560,7 +2693,8 @@
 }
 12361215={
 	name=character_name_12361215 # Mitsunobu
-	dynasty=10006139 # Tomono
+#	dynasty=10006139 # Tomono
+	dynasty_house = "house_shgnt_tomono"
 	father=12361206 # Tomono Mitsutoshi
 	religion="shinto"
 	culture="koshin"
@@ -2573,7 +2707,8 @@
 }
 12361220={
 	name=character_name_12361220 # Sadayoshi
-	dynasty=10006139 # Tomono
+#	dynasty=10006139 # Tomono
+	dynasty_house = "house_shgnt_tomono"
 	father=12361215 # Tomono Mitsunobu
 	religion="shinto"
 	culture="koshin"
@@ -2586,7 +2721,8 @@
 }
 12361225={
 	name=character_name_12361225 # Nobumori
-	dynasty=10006139 # Tomono
+#	dynasty=10006139 # Tomono
+	dynasty_house = "house_shgnt_tomono"
 	father=12361220 # Tomono Sadayoshi
 	religion="shinto"
 	culture="koshin"
@@ -2599,7 +2735,8 @@
 }
 12361226={
 	name=character_name_12361226 # Nobutoyo
-	dynasty=10006139 # Tomono
+#	dynasty=10006139 # Tomono
+	dynasty_house = "house_shgnt_tomono"
 	father=12361220 # Tomono Sadayoshi
 	religion="shinto"
 	culture="koshin"
@@ -2612,7 +2749,8 @@
 }
 12361230={
 	name=character_name_12361230 # Sadanaga
-	dynasty=10006139 # Tomono
+#	dynasty=10006139 # Tomono
+	dynasty_house = "house_shgnt_tomono"
 	father=12361225 # Tomono Nobumori
 	religion="shinto"
 	culture="koshin"
@@ -10301,6 +10439,9 @@
 	1125.1.1={
 		birth=yes
 	}
+	1155.01.01 = {
+		give_nickname = "nick_hangandai"
+	}
 	1185.1.1={
 		death=yes
 	}
@@ -10348,8 +10489,14 @@
 			add_trait = "jugoi_ge"
 		}
 	}
-	1205.1.1={
-		death=yes
+	1183.08.01 = {
+		give_nickname = "nick_uma_no_suke"
+	}
+	1184.01.18 = { # 寿永2(1183)年十二月三日以降
+		death = {
+			death_reason = death_murder
+			killer = 10120084 # Minamoto Yoshinaka
+		}
 	}
 }
 12385013={
@@ -10366,8 +10513,9 @@
 		effect = {
 			add_trait = "jushii_ge"
 		}
+		give_nickname = "nick_uma_no_suke"
 	}
-	1210.1.1={
+	1200.1.1={ # 1195(建久6)年を下らない時期に死没
 		death=yes
 	}
 }
@@ -10378,10 +10526,16 @@
 	religion="shinto"
 	culture="koshin"
 	learning=1
-	1155.1.1={
+	1155.1.1={ # TODO 保元の乱に参加できる年齢に変更
 		birth=yes
 	}
-	1215.1.1={
+	1156.01.01 = { # 保元の乱（1156年）以前
+		give_nickname = "nick_hangandai"
+	}
+	1157.01.01 = {
+		give_nickname = "nick_kurodo" # 八条院蔵人
+	}
+	1205.1.1={ # 建久8(1197)年をあまりくだらない時期に死没
 		death=yes
 	}
 }
@@ -10395,6 +10549,10 @@
 	1156.1.1={
 		birth=yes
 	}
+	1176.01.01 = {
+		dynasty=10000764 # Kurita
+		give_nickname = "nick_betto" # 栗田寺別当大法師
+	}
 	1200.1.1={
 		death=yes
 	}
@@ -10402,14 +10560,17 @@
 12385020={
 	name=character_name_12385020 # Yasunobu
 	dynasty=10000215 # Murakami
-	father=12385012 # Murakami Nobukuni
+	father=12385012 # Murakami Nobukuni, TODO 村上為国に変更
 	religion="shinto"
 	culture="koshin"
 	learning=1
 	1175.1.1={
 		birth=yes
 	}
-	1235.1.1={
+	1191.01.01 = {
+		give_nickname = "nick_saburo" # 三郎判官代
+	}
+	1235.1.1={ #　TODO 1184.01.03 法住寺合戦で戦死
 		death=yes
 	}
 }
@@ -10421,6 +10582,9 @@
 	culture="koshin"
 	1200.1.1={
 		birth=yes
+	}
+	1220.01.01 = {
+		give_nickname = "nick_shuri_no_suke"
 	}
 	1260.1.1={
 		death=yes
@@ -10434,6 +10598,9 @@
 	culture="koshin"
 	1225.1.1={
 		birth=yes
+	}
+	1260.1.1 = {
+		give_nickname = "nick_shuri_no_suke"
 	}
 	1285.1.1={
 		death=yes
@@ -10461,8 +10628,11 @@
 	1280.1.1={
 		birth=yes
 	}
-	1333.2.3={
-		death=yes
+	1333.3.17 = {
+		death = {
+			death_reason = death_battle # 護良親王の身代わりになって自害
+			killer = 12220371 # 二階堂道蘊
+		}
 	}
 }
 12385041={
@@ -10572,7 +10742,7 @@
 12385076={
 	name=character_name_12385076 # Mitsuteru
 	dynasty=10000229 # Yashiro
-	father=12385070 # 
+	father=12385070 # Murakami Yorikuni
 	religion="shinto"
 	culture="koshin"
 	1390.1.1={

@@ -899,6 +899,7 @@
 	}
 	1219.1.1={
 		death=yes
+		dynasty=10000500 # Yamana
 	}
 }
 12185002={
@@ -2894,11 +2895,13 @@
 	}
 	1197.1.1={
 		death=yes
+		dynasty=10000500 # Yamana
 	}
 }
 12186201={
 	name=character_name_12186201 # Shigeie
-	dynasty=10000500 # Yamana
+	dynasty_house = house_shgnt_yamana
+#	dynasty=10000500 # Yamana
 	father=12186200 # Yamana Yoshitaka
 	religion="shinto"
 	culture="western_kanto"
@@ -2907,11 +2910,13 @@
 	}
 	1244.1.1={
 		death=yes
+		dynasty=10000500 # Yamana
 	}
 }
 12186202={
 	name=character_name_12186202 # Shigekuni
-	dynasty=10000500 # Yamana
+#	dynasty=10000500 # Yamana
+	dynasty_house = house_shgnt_yamana
 	father=12186200 # Yamana Yoshitaka
 	religion="shinto"
 	culture="western_kanto"
@@ -2920,6 +2925,7 @@
 	}
 	1249.1.1={
 		death=yes
+		dynasty=10000500 # Yamana
 	}
 }
 12186205={
