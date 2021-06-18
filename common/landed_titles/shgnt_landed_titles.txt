@@ -412,14 +412,16 @@
                 b_shgnt_gamafu_8 = {
                     province = 756
                 }
+			}
+			c_shgnt_gamafu_hino = {
+                b_shgnt_gamafu_11 = {
+                    province = 759 # Hino
+                }
                 b_shgnt_gamafu_9 = {
                     province = 757
                 }
                 b_shgnt_gamafu_10 = {
                     province = 758
-                }
-                b_shgnt_gamafu_11 = {
-                    province = 759
                 }
                 b_shgnt_gamafu_12 = {
                     province = 760
@@ -4927,19 +4929,20 @@
             }
         }
         d_shgnt_iwaki = {
-                color = {0 164 151}
-                color2 = {255 255 255}
-            c_shgnt_katta = {
+            color = {0 164 151}
+            color2 = {255 255 255}
+            
+			c_shgnt_katta = {
                 color = {0 144 151}
                 color2 = {255 255 255}
+                b_shgnt_katta_3 = {
+                    province = 1143 # Shiroishi
+                }
                 b_shgnt_katta_1 = {
                     province = 1141
                 }
                 b_shgnt_katta_2 = {
                     province = 1142
-                }
-                b_shgnt_katta_3 = {
-                    province = 1143
                 }
                 b_shgnt_katta_4 = {
                     province = 1144
@@ -7987,6 +7990,9 @@
                 color = {251 210 107}
                 color2 = {255 255 255}
             c_shgnt_mino = {
+                b_shgnt_mino_4 = {
+                    province = 1884 # Shikata, Okayama
+                }
                 b_shgnt_mino_1 = {
                     province = 1881
                 }
@@ -7995,9 +8001,6 @@
                 }
                 b_shgnt_mino_3 = {
                     province = 1883
-                }
-                b_shgnt_mino_4 = {
-                    province = 1884
                 }
             }
             c_shgnt_tsudaka = {

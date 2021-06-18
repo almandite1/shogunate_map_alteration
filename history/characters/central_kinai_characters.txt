@@ -1596,7 +1596,7 @@
 	}
 	1540.1.1={
 #		dynasty=10000401 # Hosokawa
-		dynasty_house = house_shgnt_izumikamihosokaw
+		dynasty_house = house_shgnt_izumikamihosokawa
 		effect = {
 			set_father = character:10040520
 			set_real_father = character:10040521
@@ -1799,7 +1799,7 @@
 10040220={
 	name=character_name_10040220 # Tadaoki
 #	dynasty=10000401 # Hosokawa
-	dynasty_house = house_shgnt_izumikamihosokaw
+	dynasty_house = house_shgnt_izumikamihosokawa
 	father=10040203 # Hosokawa Fujitaka
 	religion="shinto"
 	culture="central_kinai"
@@ -1843,7 +1843,7 @@
 10040221={
 	name=character_name_10040221 # Okimoto
 #	dynasty=10000401 # Hosokawa
-	dynasty_house = house_shgnt_izumikamihosokaw
+	dynasty_house = house_shgnt_izumikamihosokawa
 	father=10040203 # Hosokawa Fujitaka
 	religion="shinto"
 	culture="central_kinai"
@@ -1860,7 +1860,7 @@
 10040222={
 	name=character_name_10040222 # Yukitaka
 #	dynasty=10000401 # Hosokawa
-	dynasty_house = house_shgnt_izumikamihosokaw
+	dynasty_house = house_shgnt_izumikamihosokawa
 	father=10040203 # Hosokawa Fujitaka
 	religion="shinto"
 	culture="central_kinai"
@@ -1892,7 +1892,7 @@
 	female=yes
 	name=character_name_10040224 # Iya
 #	dynasty=10000401 # Hosokawa
-	dynasty_house = house_shgnt_izumikamihosokaw
+	dynasty_house = house_shgnt_izumikamihosokawa
 	father=10040203 # Hosokawa Fujitaka
 	religion="shinto"
 	culture="central_kinai"
@@ -1910,7 +1910,7 @@
 	female=yes
 	name=character_name_10040225 # Osen
 #	dynasty=10000401 # Hosokawa
-	dynasty_house = house_shgnt_izumikamihosokaw
+	dynasty_house = house_shgnt_izumikamihosokawa
 	father=10040203 # Hosokawa Fujitaka
 	religion="shinto"
 	culture="central_kinai"
@@ -4477,7 +4477,7 @@
 }
 10040650 = {
 	name=character_name_10040650 # Murahide
-	dynasty=10000441 # Arima
+#	dynasty=10000441 # Arima
 	dynasty_house = house_shgnt_arima
 	father=10040652
 	martial=8
@@ -4497,7 +4497,7 @@
 }
 10040651 = {
 	name=character_name_10040651 # Kunihide
-	dynasty=10000441 # Arima
+#	dynasty=10000441 # Arima
 	dynasty_house = house_shgnt_arima
 	father=10040650
 	martial=8
@@ -4517,7 +4517,7 @@
 }
 10040652 = {
 	name=character_name_10040652 # Muranori
-	dynasty=10000441 # Arima
+#	dynasty=10000441 # Arima
 	dynasty_house = house_shgnt_arima
 	father=10040653
 	religion="shinto"
@@ -4531,7 +4531,7 @@
 }
 10040653 = {
 	name=character_name_10040653 # Suminori
-	dynasty=10000441 # Arima
+#	dynasty=10000441 # Arima
 	dynasty_house = house_shgnt_arima
 	father=10040654
 	religion="shinto"
@@ -4545,7 +4545,7 @@
 }
 10040654 = {
 	name=character_name_10040654 # Norihide
-	dynasty=10000441 # Arima
+#	dynasty=10000441 # Arima
 	dynasty_house = house_shgnt_arima
 	father=10040655
 	religion="shinto"
@@ -4559,7 +4559,7 @@
 }
 10040655 = {
 	name=character_name_10040655 # Motoie
-	dynasty=10000441 # Arima
+#	dynasty=10000441 # Arima
 	dynasty_house = house_shgnt_arima
 	father=10040657
 	religion="shinto"
@@ -4573,7 +4573,7 @@
 }
 10040656={
 	name=character_name_10040656 # Yoshisuke
-	dynasty=10000441 # Arima
+#	dynasty=10000441 # Arima
 	dynasty_house = house_shgnt_arima
 	father=10053503 # Akamatsu Norisuke
 	religion="shinto"
@@ -4587,7 +4587,7 @@
 }
 10040657={
 	name=character_name_10040657 # Mochiie
-	dynasty=10000441 # Arima
+#	dynasty=10000441 # Arima
 	dynasty_house = house_shgnt_arima
 	father=10040656 # Arima Yoshisuke
 	religion="shinto"
@@ -9148,7 +9148,8 @@
 }
 10043440={
 	name=character_name_10043440 # Takatada
-	dynasty=10000772 # Taga
+#	dynasty=10000772 # Taga
+	dynasty_house = house_shgnt_sasaki_taga
 	father=10044208 # Kyogoku Takakazu
 	religion="shinto"
 	culture="central_kinai"
@@ -9168,7 +9169,8 @@
 }
 10043441={
 	name=character_name_10043441 # Takaie
-	dynasty=10000772 # Taga
+#	dynasty=10000772 # Taga
+	dynasty_house = house_shgnt_sasaki_taga
 	father=10043440 # Taga Takatada
 	religion="shinto"
 	culture="central_kinai"
@@ -9181,7 +9183,8 @@
 }
 10043442={
 	name=character_name_10043442 # Takafusa
-	dynasty=10000772 # Taga
+#	dynasty=10000772 # Taga
+	dynasty_house = house_shgnt_sasaki_taga
 	father=10043441 # Taga Takaie
 	religion="shinto"
 	culture="central_kinai"
@@ -9465,7 +9468,8 @@
 }
 10044000 = {
 	name=character_name_10044000 # Sadayori
-	dynasty=10000450 # Rokkaku
+#	dynasty=10000450 # Rokkaku
+	dynasty_house = house_shgnt_rokkaku
 	father=10044001
 	martial=9
 	diplomacy=12
@@ -9505,7 +9509,8 @@
 }
 10044001 = {
 	name=character_name_10044001 # Takayori
-	dynasty=10000450 # Rokkaku
+#	dynasty=10000450 # Rokkaku
+	dynasty_house = house_shgnt_rokkaku
 	father=10044011
 	martial=8
 	diplomacy=8
@@ -9531,7 +9536,8 @@
 }
 10044002 = {
 	name=character_name_10044002 # Ujitsuna
-	dynasty=10000450 # Rokkaku
+#	dynasty=10000450 # Rokkaku
+	dynasty_house = house_shgnt_rokkaku
 	father=10044001
 	martial=7
 	diplomacy=7
@@ -9551,7 +9557,8 @@
 }
 10044003 = {
 	name=character_name_10044003 # Yoshikata
-	dynasty=10000450 # Rokkaku
+#	dynasty=10000450 # Rokkaku
+	dynasty_house = house_shgnt_rokkaku
 	father=10044000
 	martial=9
 	diplomacy=9
@@ -9591,7 +9598,8 @@
 }
 10044004 = {
 	name=character_name_10044004 # Yasutsuna
-	dynasty=10000450 # Rokkaku
+#	dynasty=10000450 # Rokkaku
+	dynasty_house = house_shgnt_rokkaku
 	father=12510073 # Sasaki Nobutsuna
 	religion="shinto"
 	culture="central_kinai"
@@ -9605,7 +9613,8 @@
 }
 10044005 = {
 	name=character_name_10044005 # Yoritsuna
-	dynasty=10000450 # Rokkaku
+#	dynasty=10000450 # Rokkaku
+	dynasty_house = house_shgnt_rokkaku
 	father=10044004
 	religion="shinto"
 	culture="central_kinai"
@@ -9619,7 +9628,8 @@
 }
 10044006 = {
 	name=character_name_10044006 # Tokinobu
-	dynasty=10000450 # Rokkaku
+#	dynasty=10000450 # Rokkaku
+	dynasty_house = house_shgnt_rokkaku
 	father=10044005
 	religion="shinto"
 	culture="central_kinai"
@@ -9633,7 +9643,8 @@
 }
 10044007 = {
 	name=character_name_10044007 # Ujiyori
-	dynasty=10000450 # Rokkaku
+#	dynasty=10000450 # Rokkaku
+	dynasty_house = house_shgnt_rokkaku
 	father=10044006
 	religion="shinto"
 	culture="central_kinai"
@@ -9647,7 +9658,8 @@
 }
 10044008 = {
 	name=character_name_10044008 # Mitsutaka
-	dynasty=10000450 # Rokkaku
+#	dynasty=10000450 # Rokkaku
+	dynasty_house = house_shgnt_rokkaku
 	father=10044007
 	religion="shinto"
 	culture="central_kinai"
@@ -9661,7 +9673,8 @@
 }
 10044009 = {
 	name=character_name_10044009 # Yoshinobu
-	dynasty=10000450 # Rokkaku
+#	dynasty=10000450 # Rokkaku
+	dynasty_house = house_shgnt_rokkaku
 	father=10044007
 	religion="shinto"
 	culture="central_kinai"
@@ -9675,7 +9688,8 @@
 }
 10044010 = {
 	name=character_name_10044010 # Mitsutsuna
-	dynasty=10000450 # Rokkaku
+#	dynasty=10000450 # Rokkaku
+	dynasty_house = house_shgnt_rokkaku
 	father=10044008
 	religion="shinto"
 	culture="central_kinai"
@@ -9684,12 +9698,16 @@
 		birth=yes
 	}
 	1445.3.1={
-		death=yes
+		death={
+			death_reason = death_battle
+			killer = 10044012 # Rokkaku Tokitsuna
+		}
 	}
 }
 10044011 = {
 	name=character_name_10044011 # Hisayori
-	dynasty=10000450 # Rokkaku
+#	dynasty=10000450 # Rokkaku
+	dynasty_house = house_shgnt_rokkaku
 	father=10044010
 	religion="shinto"
 	culture="central_kinai"
@@ -9697,13 +9715,30 @@
 	1424.1.1={
 		birth=yes
 	}
+	1446.03.26 = {
+		give_nickname = "nick_shiro" # 文安3(1446)年二月二十九日元服
+	}
+	1447.03.01 = {
+		give_nickname = "nick_the_omi_no_kami"
+		effect = {
+			add_trait = "jugoi_jo"
+		}
+	}
+	1450.01.01 = {
+		effect = {
+			set_relation_rival = character:10044210 # Kyōgoku Mochikiyo
+		}
+	}
 	1456.11.8={
-		death=yes
+		death = {
+			death_reason = death_suicide
+		}
 	}
 }
 10044012 = {
 	name=character_name_10044012 # Tokitsuna
-	dynasty=10000450 # Rokkaku
+#	dynasty=10000450 # Rokkaku
+	dynasty_house = house_shgnt_rokkaku
 	father=10044010
 	religion="shinto"
 	culture="central_kinai"
@@ -9712,12 +9747,16 @@
 		birth=yes
 	}
 	1446.10.4={
-		death=yes
+		death={
+			death_reason = death_battle
+			killer = 10044011 # Rokkaku Hisayori
+		}
 	}
 }
 10044013 = {
 	name=character_name_10044013 # Mochitsuna
-	dynasty=10000450 # Rokkaku
+#	dynasty=10000450 # Rokkaku
+	dynasty_house = house_shgnt_rokkaku
 	father=10044010
 	religion="shinto"
 	culture="central_kinai"
@@ -9725,13 +9764,20 @@
 	1420.1.1={
 		birth=yes
 	}
+	1436.01.01 = {
+		give_nickname = "nick_shiro"
+	}
 	1445.3.1={
-		death=yes
+		death={
+			death_reason = death_battle
+			killer = 10044012 # Rokkaku Tokitsuna
+		}
 	}
 }
 10044014 = {
 	name=character_name_10044014 # Masataka
-	dynasty=10000450 # Rokkaku
+#	dynasty=10000450 # Rokkaku
+	dynasty_house = house_shgnt_rokkaku
 	father=10044012
 	religion="shinto"
 	culture="central_kinai"
@@ -9746,7 +9792,8 @@
 10044015={
 	name=character_name_10044015 # Sadako # Hosokawa Harumoto's wife
 	female=yes
-	dynasty=10000450 # Rokkaku
+#	dynasty=10000450 # Rokkaku
+	dynasty_house = house_shgnt_rokkaku
 	father=10044000 # 
 	religion="shinto"
 	culture="central_kinai"
@@ -9759,7 +9806,8 @@
 }
 10044016={
 	name=character_name_10044016 # Yoshiharu
-	dynasty=10000450 # Rokkaku
+#	dynasty=10000450 # Rokkaku
+	dynasty_house = house_shgnt_rokkaku
 	father=10044003 # 
 	mother=10031009 # 
 	religion="shinto"
@@ -9783,7 +9831,8 @@
 10044017={
 	name=character_name_10044017 # Yoriko
 	female=yes
-	dynasty=10000450 # Rokkaku
+#	dynasty=10000450 # Rokkaku
+	dynasty_house = house_shgnt_rokkaku
 	father=10044000 # Rokkaku Sadayori
 	religion="shinto"
 	culture="central_kinai"
@@ -9797,7 +9846,8 @@
 10044018={
 	name=character_name_10044018 # Omi
 	female=yes
-	dynasty=10000450 # Rokkaku
+#	dynasty=10000450 # Rokkaku
+	dynasty_house = house_shgnt_rokkaku
 	father=10044000 # Rokkaku Sadayori
 	religion="shinto"
 	culture="central_kinai"
@@ -9811,7 +9861,8 @@
 10044019={
 	name=character_name_10044019 # Kita
 	female=yes
-	dynasty=10000450 # Rokkaku
+#	dynasty=10000450 # Rokkaku
+	dynasty_house = house_shgnt_rokkaku
 	father=10044000 # Rokkaku Sadayori
 	religion="shinto"
 	culture="central_kinai"
@@ -9904,7 +9955,8 @@
 }
 10044205 = {
 	name=character_name_10044205 # Takahide
-	dynasty=10000452 # Kyogoku
+#	dynasty=10000452 # Kyogoku
+	dynasty_house = house_shgnt_kyogoku
 	father=10044203
 	religion="shinto"
 	culture="central_kinai"
@@ -9917,7 +9969,8 @@
 }
 10044206 = {
 	name=character_name_10044206 # Takanori
-	dynasty=10000452 # Kyogoku
+#	dynasty=10000452 # Kyogoku
+	dynasty_house = house_shgnt_kyogoku
 	father=10044205
 	religion="shinto"
 	culture="central_kinai"
@@ -9930,7 +9983,8 @@
 }
 10044207 = {
 	name=character_name_10044207 # Takanori
-	dynasty=10000452 # Kyogoku
+#	dynasty=10000452 # Kyogoku
+	dynasty_house = house_shgnt_kyogoku
 	father=10044206
 	religion="shinto"
 	culture="central_kinai"
@@ -9943,7 +9997,8 @@
 }
 10044208 = {
 	name=character_name_10044208 # Takakazu
-	dynasty=10000452 # Kyogoku
+#	dynasty=10000452 # Kyogoku
+	dynasty_house = house_shgnt_kyogoku
 	father=10044206
 	religion="shinto"
 	culture="central_kinai"
@@ -9956,7 +10011,8 @@
 }
 10044209 = {
 	name=character_name_10044209 # Mochitaka
-	dynasty=10000452 # Kyogoku
+#	dynasty=10000452 # Kyogoku
+	dynasty_house = house_shgnt_kyogoku
 	father=10044207
 	religion="shinto"
 	culture="central_kinai"
@@ -9969,7 +10025,8 @@
 }
 10044210 = {
 	name=character_name_10044210 # Mochikiyo
-	dynasty=10000452 # Kyogoku
+#	dynasty=10000452 # Kyogoku
+	dynasty_house = house_shgnt_kyogoku
 	father=10044207
 	religion="shinto"
 	culture="central_kinai"
@@ -9989,7 +10046,8 @@
 }
 10044211 = {
 	name=character_name_10044211 # Katsuhide
-	dynasty=10000452 # Kyogoku
+#	dynasty=10000452 # Kyogoku
+	dynasty_house = house_shgnt_kyogoku
 	father=10044210
 	religion="shinto"
 	culture="central_kinai"
@@ -10002,7 +10060,8 @@
 }
 10044212 = {
 	name=character_name_10044212 # Masamitsu
-	dynasty=10000452 # Kyogoku
+#	dynasty=10000452 # Kyogoku
+	dynasty_house = house_shgnt_kyogoku
 	father=10044210
 	religion="shinto"
 	culture="central_kinai"
@@ -10015,7 +10074,8 @@
 }
 10044213 = {
 	name=character_name_10044213 # Masatsune
-	dynasty=10000452 # Kyogoku
+#	dynasty=10000452 # Kyogoku
+	dynasty_house = house_shgnt_kyogoku
 	father=10044210
 	religion="shinto"
 	culture="central_kinai"
@@ -10028,7 +10088,8 @@
 }
 10044214 = {
 	name=character_name_10044214 # Takakiyo
-	dynasty=10000452 # Kyogoku
+#	dynasty=10000452 # Kyogoku
+	dynasty_house = house_shgnt_kyogoku
 	father=10044211
 	religion="shinto"
 	culture="central_kinai"
@@ -10053,7 +10114,8 @@
 }
 10044215 = {
 	name=character_name_10044215 # Magodojimaru
-	dynasty=10000452 # Kyogoku
+#	dynasty=10000452 # Kyogoku
+	dynasty_house = house_shgnt_kyogoku
 	father=10044211
 	religion="shinto"
 	culture="central_kinai"
@@ -10066,7 +10128,8 @@
 }
 10044216 = {
 	name=character_name_10044216 # Kimune
-	dynasty=10000452 # Kyogoku
+#	dynasty=10000452 # Kyogoku
+	dynasty_house = house_shgnt_kyogoku
 	father=10044213
 	religion="shinto"
 	culture="central_kinai"
@@ -10079,7 +10142,8 @@
 }
 10044217 = {
 	name=character_name_10044217 # Takanobu
-	dynasty=10000452 # Kyogoku
+#	dynasty=10000452 # Kyogoku
+	dynasty_house = house_shgnt_kyogoku
 	father=10044214
 	religion="shinto"
 	culture="central_kinai"
@@ -10097,7 +10161,8 @@
 }
 10044218 = {
 	name=character_name_10044218 # Takayoshi
-	dynasty=10000452 # Kyogoku
+#	dynasty=10000452 # Kyogoku
+	dynasty_house = house_shgnt_kyogoku
 	father=10044214
 	religion="shinto"
 	culture="central_kinai"
@@ -10121,7 +10186,8 @@
 }
 10044219={
 	name=character_name_10044219 # Takatsugu
-	dynasty=10000452 # Kyogoku
+#	dynasty=10000452 # Kyogoku
+	dynasty_house = house_shgnt_kyogoku
 	father=10044218 # Kyogoku Takayoshi
 	mother=10043022 # Azai Maria
 	religion="shinto"
@@ -10144,7 +10210,8 @@
 10044220={
 	name=character_name_10044220 # Tatsuko
 	female=yes
-	dynasty=10000452 # Kyogoku
+#	dynasty=10000452 # Kyogoku
+	dynasty_house = house_shgnt_kyogoku
 	father=10044218 # Kyogoku Takayoshi
 	mother=10043022 # Azai Maria
 	religion="shinto"
@@ -10159,7 +10226,8 @@
 }
 10044221={
 	name=character_name_10044221 # Takatomo
-	dynasty=10000452 # Kyogoku
+#	dynasty=10000452 # Kyogoku
+	dynasty_house = house_shgnt_kyogoku
 	father=10044218 # Kyogoku Takayoshi
 	mother=10043022 # Azai Maria
 	religion="shinto"
@@ -10174,7 +10242,8 @@
 10044222={
 	name=character_name_10044222 # Shoun
 	female=yes
-	dynasty=10000452 # Kyogoku
+#	dynasty=10000452 # Kyogoku
+	dynasty_house = house_shgnt_kyogoku
 	father=10044218 # Kyogoku Takayoshi
 	mother=10043022 # Azai Maria
 	religion="shinto"
@@ -10189,7 +10258,8 @@
 10044223={
 	name=character_name_10044223 # Magdalena
 	female=yes
-	dynasty=10000452 # Kyogoku
+#	dynasty=10000452 # Kyogoku
+	dynasty_house = house_shgnt_kyogoku
 	father=10044218 # Kyogoku Takayoshi
 	mother=10043022 # Azai Maria
 	religion="catholic"
@@ -11132,7 +11202,8 @@
 }
 10045500 = {
 	name=character_name_10045500 # Tanetsuna
-	dynasty=10000451 # Kutsuki
+#	dynasty=10000451 # Kutsuki
+	dynasty_house = house_shgnt_kutsuki
 	father=10045501
 	martial=9
 	diplomacy=9
@@ -11152,7 +11223,8 @@
 }
 10045501 = {
 	name=character_name_10045501 # Sadakiyo
-	dynasty=10000451 # Kutsuki
+#	dynasty=10000451 # Kutsuki
+	dynasty_house = house_shgnt_kutsuki
 	father=10045503
 	martial=7
 	diplomacy=8
@@ -11172,7 +11244,8 @@
 }
 10045502 = {
 	name=character_name_10045502 # Harutsuna
-	dynasty=10000451 # Kutsuki
+#	dynasty=10000451 # Kutsuki
+	dynasty_house = house_shgnt_kutsuki
 	father=10045500
 	martial=8
 	diplomacy=8
@@ -11192,7 +11265,8 @@
 }
 10045503 = {
 	name=character_name_10045503 # Sadatsuna
-	dynasty=10000451 # Kutsuki
+#	dynasty=10000451 # Kutsuki
+	dynasty_house = house_shgnt_kutsuki
 	father=12510345 # Kutsuki Sadataka
 	religion="shinto"
 	culture="central_kinai"
@@ -11205,7 +11279,8 @@
 }
 10045504 = {
 	name=character_name_10045504 # Mototsuna
-	dynasty=10000451 # Kutsuki
+#	dynasty=10000451 # Kutsuki
+	dynasty_house = house_shgnt_kutsuki
 	father=10045502 # Kutsuki Harutsuna
 	religion="shinto"
 	culture="central_kinai"

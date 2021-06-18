@@ -1159,7 +1159,9 @@ d_shgnt_tosa = {
     1569.09.21 = {
         liege = 0 # 
         holder = 10059104 # Chosokabe Motochika
-		set_capital_county = title:c_shgnt_nagaoka
+		effect = {
+			set_capital_county = title:c_shgnt_nagaoka
+		}
     }
 }
 c_shgnt_awa_miyoshi = {

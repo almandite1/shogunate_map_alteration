@@ -423,6 +423,13 @@ c_shgnt_haga = {
     1334.01.01 = {
         holder = 12130530 # Haga Takana
     }
+	1362.01.01 = {
+		effect = {
+			title:b_shgnt_haga_7 = {
+				set_title_name = b_shgnt_haga_7_1 # Haga
+			}
+		}
+	}
     1372.01.01 = {
         holder = 12130535 # Haga Takatomo
     }
@@ -591,6 +598,13 @@ c_shgnt_ubaraki = {
     1567.08.20 = {
         holder = 10010110 # Edo Shigemichi
     }
+	1594.01.01 = {
+		effect = {
+			title:b_shgnt_ubaraki_6 = {
+				set_title_name = b_shgnt_ubaraki_6_1 # Mito
+			}
+		}
+	}
 }
 c_shgnt_hitachi_yoshida = {
     0001.01.01 = { change_development_level = 10 }
@@ -1101,6 +1115,11 @@ c_shgnt_shimotsuke_kawachi = {
     }
     1407.11.02 = {
         holder = 12130120 # Nimo Mochitsuna -> Utsunomiya Mochitsuna
+		effect = {
+			title:b_shgnt_shimotsuke_kawachi_6 = {
+				set_title_name = b_shgnt_shimotsuke_kawachi_6_1 # Utsunomiya
+			}
+		}
     }
     1423.09.13 = {
         holder = 10010911 # Utsunomiya Hitotsuna
@@ -1180,6 +1199,13 @@ c_shgnt_kochi = {
         liege = k_nmih_kamakura_kubo # Kyotoku War
         holder = 10010403 # Oda Shigeharu
     }
+	1500.01.01 = {
+		effect = {
+			title:b_shgnt_kochi_3 = {
+				set_title_name = b_shgnt_kochi_3_1 # Ryūgasaki
+			}
+		}
+	}
     1514.01.01 = {
         holder = 10010401 # Oda Masaharu
     }
@@ -1311,6 +1337,11 @@ c_shgnt_makabe = {
     1455.04.01 = {
         liege = k_nmih_kamakura_kubo # 
         holder = 10010706 # Tagaya Ujiie
+		effect = {
+			title:b_shgnt_makabe_7 = {
+				set_title_name = b_shgnt_makabe_7_1 # Shimotsuma
+			}
+		}
     }
     1465.07.12 = {
         holder = 10010712 # Tagaya Takatsune
@@ -1651,6 +1682,11 @@ c_shgnt_namekata = {
     }
     1300.01.01 = {
         holder = 12120624 # Shimazaki Shigemoto
+		effect = {
+			title:b_shgnt_namekata_4 = {
+				set_title_name = b_shgnt_namekata_4_1 # Shimazaki
+			}
+		}
     }
     1350.01.01 = {
         holder = 12120625 # Shimazaki Yoshimoto
@@ -1714,6 +1750,13 @@ c_shgnt_nasu = {
         liege = 0 # 
         holder = 12140190 # Nasu Sukeyuki
     }
+	1418.01.01 = {
+		effect = {
+			title:b_shgnt_nasu_9 = {
+				set_title_name = b_shgnt_nasu_9_1 # Karasuyama
+			}
+		}
+	}
     1428.01.01 = {
         holder = 12140192 # Nasu Sukeshige
     }
@@ -1769,6 +1812,13 @@ c_shgnt_niihari = {
         liege = 0 # 
         holder = 12120210 # Daijo Morimoto
     }
+	1346.01.01 = {
+		effect = {
+			title:b_shgnt_niihari_2 = {
+				set_title_name = b_shgnt_niihari_2_1 # Fuchū
+			}
+		}
+	}
     1360.01.01 = {
         holder = 12120220 # Daijo Takamoto
     }
@@ -1822,6 +1872,11 @@ c_shgnt_shimotsuke_aso = {
     }
     1177.01.01 = {
         holder = 12180150 # Sano Mototsuna
+		effect = {
+			title:b_shgnt_shimotsuke_aso_6 = {
+				set_title_name = c_shgnt_shimotsuke_aso # Karasawayama Jō
+			}
+		}
     }
     1207.01.01 = {
         holder = 12180501 # Sano Kunimoto
@@ -2139,6 +2194,13 @@ c_shgnt_hitachi_shida = {
     1353.01.16 = {
         holder = 12127560 # Oda Takatomo
     }
+	1388.01.01 = {
+		effect = {
+			title:b_shgnt_hitachi_shida_4 = {
+				set_title_name = b_shgnt_hitachi_shida_4_1 # Edosaki
+			}
+		}
+	}
     1388.06.22 = {
         liege = k_nmih_kanto_kanrei # 
         holder = 10017011 # Uesugi Norikata
@@ -2235,6 +2297,11 @@ c_shgnt_soma = {
     1350.01.01 = {
         liege = k_nmih_kamakura_kubo # 
         holder = 10006760 # Soma Tanenaga
+		effect = {
+			title:b_shgnt_soma_3 = {
+				set_title_name = b_shgnt_soma_3_1 # Moriya
+			}
+		}
     }
     1370.01.01 = {
         liege = k_nmih_kamakura_kubo # 
@@ -2413,6 +2480,13 @@ c_shgnt_tsukuha = {
     1160.01.01 = {
         holder = 12120135 # Daijo Yoshimoto
     }
+	1185.01.01 = {
+		effect = {
+			title:b_shgnt_tsukuha_3 = {
+				set_title_name = b_shgnt_tsukuha_3_1 # Oda
+			}
+		}
+	}
     1193.07.29 = {
         holder = 12130005 # Hatta Tomoie
     }
@@ -3966,6 +4040,11 @@ c_shgnt_kazusa_yamanobe = {
     }
     1480.01.01 = {
         holder = 10011810 # Takeda Michinobu
+		effect = {
+			title:b_shgnt_kazusa_yamanobe_3 = {
+				set_title_name = b_shgnt_kazusa_yamanobe_3_1 # Toke
+			}
+		}
     }
     1484.01.01 = {
         holder = 10011811 # Takeda Munenobu

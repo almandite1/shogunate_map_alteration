@@ -3093,6 +3093,11 @@
 	1514.1.1={
 		birth=yes
 	}
+	1532.01.01 = {
+		effect={
+			set_realm_capital=title:c_shgnt_shimo_niikawa #　Matsukura
+		}
+    }
 	1576.3.1={
 		death=yes
 	}
@@ -3197,7 +3202,8 @@
 }
 10032000 = {
 	name=character_name_10032000 # Tamekage
-	dynasty=10000320 # Nagao
+#	dynasty=10000320 # Nagao
+	dynasty_house = house_shgnt_nagao_sanjo
 	father=10032008
 	martial=4
 	diplomacy=14
@@ -3239,7 +3245,8 @@
 }
 10032001 = {
 	name=character_name_10032001 # Fusanaga # Nagao Fusanaga (Ueda=Nagao)
-	dynasty=10000320 # Nagao
+#	dynasty=10000320 # Nagao
+	dynasty_house = house_shgnt_nagao_ueda
 	father=10032024
 	martial=7
 	diplomacy=9
@@ -3259,7 +3266,8 @@
 }
 10032003 = {
 	name=character_name_10032003 # Takakage
-	dynasty=10000320 # Nagao
+#	dynasty=10000320 # Nagao
+	dynasty_house = house_shgnt_nagao_sanjo
 	father=12215326 # Nagao Kagetsune
 	martial=9
 	diplomacy=4
@@ -3279,7 +3287,8 @@
 }
 10032004 = {
 	name=character_name_10032004 # Kunikage
-	dynasty=10000320 # Nagao
+#	dynasty=10000320 # Nagao
+	dynasty_house = house_shgnt_nagao_sanjo
 	father=10032003
 	martial=8
 	diplomacy=5
@@ -3301,7 +3310,8 @@
 }
 10032005 = {
 	name=character_name_10032005 # Kagefusa
-	dynasty=10000320 # Nagao
+#	dynasty=10000320 # Nagao
+	dynasty_house = house_shgnt_nagao_sanjo
 	father=10032003
 	martial=7
 	diplomacy=7
@@ -3321,7 +3331,8 @@
 }
 10032006 = {
 	name=character_name_10032006 # Yorikage
-	dynasty=10000320 # Nagao
+#	dynasty=10000320 # Nagao
+	dynasty_house = house_shgnt_nagao_sanjo
 	father=10032005
 	martial=9
 	diplomacy=11
@@ -3341,7 +3352,8 @@
 }
 10032007 = {
 	name=character_name_10032007 # Shigekage
-	dynasty=10000320 # Nagao
+#	dynasty=10000320 # Nagao
+	dynasty_house = house_shgnt_nagao_sanjo
 	father=10032006
 	martial=8
 	diplomacy=9
@@ -3361,7 +3373,8 @@
 }
 10032008 = {
 	name=character_name_10032008 # Yoshikage
-	dynasty=10000320 # Nagao
+#	dynasty=10000320 # Nagao
+	dynasty_house = house_shgnt_nagao_sanjo
 	father=10032007
 	martial=8
 	diplomacy=5
@@ -3389,7 +3402,8 @@
 }
 10032009 = {
 	name=character_name_10032009 # Harukage
-	dynasty=10000320 # Nagao
+#	dynasty=10000320 # Nagao
+	dynasty_house = house_shgnt_nagao_sanjo
 	father=10032000
 	martial=5
 	diplomacy=12
@@ -3415,7 +3429,8 @@
 }
 10032010 = {
 	name=character_name_10032010 # Aya # a.k.a. Sentoin
-	dynasty=10000320 # Nagao
+#	dynasty=10000320 # Nagao
+	dynasty_house = house_shgnt_nagao_sanjo
 	female=yes
 	father=10032000
 	martial=11
@@ -3438,7 +3453,8 @@
 }
 10032011= {
 	name=character_name_10032011 # Kagetora # a.k.a Uesugi Kenshin
-	dynasty=10000320 # Nagao
+#	dynasty=10000320 # Nagao
+	dynasty_house = house_shgnt_nagao_sanjo
 	father=10032000
 	mother=10032019
 	martial=14
@@ -3480,11 +3496,19 @@
 		}
 	}
 	1561.3.16={
-		dynasty=10000100 # Uesugi
+		#dynasty=10000100 # Uesugi
+		dynasty_house = house_shgnt_uesugi_yonezawa
 		effect = {
-			set_father = character:10017000
-			set_real_father = character:10032000
 			change_first_name = character_name_10032011_1 # Masatora
+			add_opinion = {
+				target = character:10017000
+				modifier = received_title_kingdom
+			}
+			add_opinion = {
+				target = title:k_shgnt_western_kanto.holder
+				modifier = hate_opinion
+				opinion = -100
+			}
 		}
 	}
 	1561.12.1={
@@ -3503,7 +3527,8 @@
 }
 10032012 = {
 	name=character_name_10032012 # Kageharu
-	dynasty=10000320 # Nagao
+#	dynasty=10000320 # Nagao
+	dynasty_house = house_shgnt_nagao_koshi
 	father=12215326 # Nagao Kagetsune
 	martial=10
 	diplomacy=9
@@ -3523,7 +3548,8 @@
 }
 10032013 = {
 	name=character_name_10032013 # Munekage
-	dynasty=10000320 # Nagao
+#	dynasty=10000320 # Nagao
+	dynasty_house = house_shgnt_nagao_koshi
 	father=10032012
 	martial=8
 	diplomacy=8
@@ -3543,7 +3569,8 @@
 }
 10032014 = {
 	name=character_name_10032014 # Hidekage
-	dynasty=10000320 # Nagao
+#	dynasty=10000320 # Nagao
+	dynasty_house = house_shgnt_nagao_koshi
 	father=10032013
 	martial=6
 	diplomacy=7
@@ -3563,7 +3590,8 @@
 }
 10032015 = {
 	name=character_name_10032015 # Shiro
-	dynasty=10000320 # Nagao
+#	dynasty=10000320 # Nagao
+	dynasty_house = house_shgnt_nagao_koshi
 	father=10032014
 	martial=8
 	diplomacy=6
@@ -3583,7 +3611,8 @@
 }
 10032016 = {
 	name=character_name_10032016 # Takakage
-	dynasty=10000320 # Nagao
+#	dynasty=10000320 # Nagao
+	dynasty_house = house_shgnt_nagao_koshi
 	father=10032015
 	martial=7
 	diplomacy=8
@@ -3603,7 +3632,8 @@
 }
 10032017 = {
 	name=character_name_10032017 # Fusakage
-	dynasty=10000320 # Nagao
+#	dynasty=10000320 # Nagao
+	dynasty_house = house_shgnt_nagao_koshi
 	father=10032016
 	martial=7
 	diplomacy=8
@@ -3623,7 +3653,8 @@
 }
 10032018 = {
 	name=character_name_10032018 # Kagenobu
-	dynasty=10000320 # Nagao
+#	dynasty=10000320 # Nagao
+	dynasty_house = house_shgnt_nagao_koshi
 	father=10032017
 	martial=7
 	diplomacy=9
@@ -3643,7 +3674,8 @@
 }
 10032019 = {
 	name=character_name_10032019 # Fusako
-	dynasty=10000320 # Nagao
+#	dynasty=10000320 # Nagao
+	dynasty_house = house_shgnt_nagao_koshi
 	female=yes
 	father=10032017
 	martial=6
@@ -3665,7 +3697,8 @@
 }
 10032020 = {
 	name=character_name_10032020 # Nagakage
-	dynasty=10000320 # Nagao
+#	dynasty=10000320 # Nagao
+	dynasty_house = house_shgnt_nagao_ueda
 	father=12215326 # Nagao Kagetsune
 	martial=8
 	diplomacy=7
@@ -3685,7 +3718,8 @@
 }
 10032021 = {
 	name=character_name_10032021 # Fusakage
-	dynasty=10000320 # Nagao
+#	dynasty=10000320 # Nagao
+	dynasty_house = house_shgnt_nagao_ueda
 	father=10032020
 	martial=6
 	diplomacy=7
@@ -3705,7 +3739,8 @@
 }
 10032022 = {
 	name=character_name_10032022 # Norikage
-	dynasty=10000320 # Nagao
+#	dynasty=10000320 # Nagao
+	dynasty_house = house_shgnt_nagao_ueda
 	father=10032021
 	martial=8
 	diplomacy=8
@@ -3725,7 +3760,8 @@
 }
 10032023 = {
 	name=character_name_10032023 # Norinaga
-	dynasty=10000320 # Nagao
+#	dynasty=10000320 # Nagao
+	dynasty_house = house_shgnt_nagao_ueda
 	father=10032022
 	martial=7
 	diplomacy=6
@@ -3745,7 +3781,8 @@
 }
 10032024 = {
 	name=character_name_10032024 # Kagetaka
-	dynasty=10000320 # Nagao
+#	dynasty=10000320 # Nagao
+	dynasty_house = house_shgnt_nagao_ueda
 	father=10032023
 	martial=8
 	diplomacy=7
@@ -3765,7 +3802,8 @@
 }
 10032025 = {
 	name=character_name_10032025 # Masakage
-	dynasty=10000320 # Nagao (Ueda-Nagao)
+#	dynasty=10000320 # Nagao (Ueda-Nagao)
+	dynasty_house = house_shgnt_nagao_ueda
 	father=10032001
 	martial=8
 	diplomacy=9
@@ -3789,7 +3827,8 @@
 10032026={
 	female=yes
 	name=character_name_10032026 # Ran
-	dynasty=10000320 # Nagao (Ueda-Nagao)
+#	dynasty=10000320 # Nagao (Ueda-Nagao)
+	dynasty_house = house_shgnt_nagao_ueda
 	father=10032001 # Nagao Fusanaga
 	religion="shinto"
 	culture="eastern_hokuriku"
@@ -3802,7 +3841,8 @@
 }
 10032027={
 	name=character_name_10032027 # Kagekuni
-	dynasty=10000320 # Nagao (Ueda-Nagao)
+#	dynasty=10000320 # Nagao (Ueda-Nagao)
+	dynasty_house = house_shgnt_nagao_ueda
 	father=10032001 # Nagao Fusanaga
 	religion="shinto"
 	culture="eastern_hokuriku"
@@ -3817,7 +3857,8 @@
 }
 10032028={
 	name=character_name_10032028 # Tsutensontatsu
-	dynasty=10000320 # Nagao (Ueda-Nagao)
+#	dynasty=10000320 # Nagao (Ueda-Nagao)
+	dynasty_house = house_shgnt_nagao_ueda
 	father=10032001 # Nagao Fusanaga
 	religion="shinto"
 	culture="eastern_hokuriku"
@@ -3838,7 +3879,8 @@
 }
 10032030={
 	name=character_name_10032030 # Yoshikage
-	dynasty=10000320 # Nagao (Ueda-Nagao)
+#	dynasty=10000320 # Nagao (Ueda-Nagao)
+	dynasty_house = house_shgnt_nagao_ueda
 	father=10032025 # Nagao Masakage
 	mother=10032010 # Nagao Aya (Sento-in)
 	religion="shinto"
@@ -3854,7 +3896,8 @@
 10032031={
 	female=yes
 	name=character_name_10032031 # Seien-in
-	dynasty=10000320 # Nagao (Ueda-Nagao)
+#	dynasty=10000320 # Nagao (Ueda-Nagao)
+	dynasty_house = house_shgnt_nagao_ueda
 	father=10032025 # Nagao Masakage
 	religion="shinto"
 	culture="eastern_hokuriku"
@@ -3869,7 +3912,8 @@
 }
 10032032={
 	name=character_name_10032032 # Akikage # a.k.a Uesugi Kagekatsu
-	dynasty=10000320 # Nagao (Ueda-Nagao)
+#	dynasty=10000320 # Nagao (Ueda-Nagao)
+	dynasty_house = house_shgnt_nagao_ueda
 	father=10032025 # Nagao Masakage
 	mother=10032010 # Nagao Aya (Sento-in)
 	religion="shinto"
@@ -3896,7 +3940,8 @@
 		}
 	}
 	1575.1.1={
-		dynasty=10000100 # Uesugi
+		#dynasty=10000100 # Uesugi
+		dynasty_house = house_shgnt_uesugi_yonezawa
 		give_nickname="nick_danjo_shohitsu"
 		effect = {
 			change_first_name = character_name_10032032_2 # Kagekatsu
@@ -3907,7 +3952,7 @@
 	}
 	1578.4.19={
 		effect = {
-			set_realm_capital = title:c_nmih_higashi_kubiki
+			set_realm_capital = title:c_shgnt_naka_kubiki
 		}
 	}
 	1579.9.1={
@@ -3931,7 +3976,8 @@
 10032033={
 	female=yes
 	name=character_name_10032033 # Sumire
-	dynasty=10000320 # Nagao (Ueda-Nagao)
+#	dynasty=10000320 # Nagao (Ueda-Nagao)
+	dynasty_house = house_shgnt_nagao_ueda
 	father=10032025 # Nagao Masakage
 	mother=10032010 # Nagao Aya (Sento-in)
 	religion="shinto"
@@ -3946,7 +3992,8 @@
 10032035={
 	female=yes
 	name=character_name_10032035 # Tsuyu
-	dynasty=10000320 # Nagao (Fuchu[Sanjo]-Nagao)
+#	dynasty=10000320 # Nagao (Fuchu[Sanjo]-Nagao)
+	dynasty_house = house_shgnt_nagao_sanjo
 	father=10032000 # Nagao Tamekage
 	religion="shinto"
 	culture="eastern_hokuriku"
@@ -3960,7 +4007,8 @@
 10032036={
 	female=yes
 	name=character_name_10032036 # Tokiwa
-	dynasty=10000320 # Nagao (Fuchu[Sanjo]-Nagao)
+#	dynasty=10000320 # Nagao (Fuchu[Sanjo]-Nagao)
+	dynasty_house = house_shgnt_nagao_sanjo
 	father=10032000 # Nagao Tamekage
 	religion="shinto"
 	culture="eastern_hokuriku"
@@ -3974,7 +4022,8 @@
 10032037={
 	female=yes
 	name=character_name_10032037 # Momo
-	dynasty=10000320 # Nagao (Koshi-Nagao)
+#	dynasty=10000320 # Nagao (Koshi-Nagao)
+	dynasty_house = house_shgnt_nagao_sanjo
 	father=10032000 # Nagao Tamekage
 	religion="shinto"
 	culture="eastern_hokuriku"
@@ -3987,7 +4036,8 @@
 }
 10032300={
 	name=character_name_10032300 # Yukitane
-	dynasty=10007098 # Kaji
+#	dynasty=10007098 # Kaji
+	dynasty_house = house_shgnt_kaji
 	father=12270425 # Kaji Taneyasu
 	religion="shinto"
 	culture="eastern_hokuriku"
@@ -4000,7 +4050,8 @@
 }
 10032301={
 	name=character_name_10032301 # Nagatane
-	dynasty=10007098 # Kaji
+#	dynasty=10007098 # Kaji
+	dynasty_house = house_shgnt_kaji
 	father=12270425 # Kaji Taneyasu
 	religion="shinto"
 	culture="eastern_hokuriku"
@@ -4013,7 +4064,8 @@
 }
 10032303={
 	name=character_name_10032303 # Akitsuna
-	dynasty=10007098 # Kaji
+#	dynasty=10007098 # Kaji
+	dynasty_house = house_shgnt_kaji
 	father=10032301 # Kaji Nagatane
 	religion="shinto"
 	culture="eastern_hokuriku"
@@ -4026,7 +4078,8 @@
 }
 10032304={
 	name=character_name_10032304 # Tanenobu
-	dynasty=10007098 # Kaji
+#	dynasty=10007098 # Kaji
+	dynasty_house = house_shgnt_kaji
 	father=10032301 # Kaji Nagatane
 	religion="shinto"
 	culture="eastern_hokuriku"
@@ -4039,7 +4092,8 @@
 }
 10032306={
 	name=character_name_10032306 # Nagatsuna
-	dynasty=10007098 # Kaji
+#	dynasty=10007098 # Kaji
+	dynasty_house = house_shgnt_kaji
 	father=10032300 # Kaji Yukitane
 	religion="shinto"
 	culture="eastern_hokuriku"
@@ -4052,7 +4106,8 @@
 }
 10032308={
 	name=character_name_10032308 # Nagatsune
-	dynasty=10000328 # Shibata
+#	dynasty=10000328 # Shibata
+	dynasty_house = house_shgnt_sasaki_shibata
 	father=10032306 # Kaji Nagatsuna
 	religion="shinto"
 	culture="eastern_hokuriku"
@@ -4065,7 +4120,8 @@
 }
 10032310={
 	name=character_name_10032310 # Tsunetsuna
-	dynasty=10000328 # Shibata
+#	dynasty=10000328 # Shibata
+	dynasty_house = house_shgnt_sasaki_shibata
 	father=10032308 # Shibata Nagatsune
 	religion="shinto"
 	culture="eastern_hokuriku"
@@ -4078,7 +4134,8 @@
 }
 10032312={
 	name=character_name_10032312 # Harutsuna
-	dynasty=10000328 # Shibata
+#	dynasty=10000328 # Shibata
+	dynasty_house = house_shgnt_sasaki_shibata
 	father=10032310 # Shibata Tsunetsuna
 	religion="shinto"
 	culture="eastern_hokuriku"
@@ -4091,7 +4148,8 @@
 }
 10032314={
 	name=character_name_10032314 # Nagatsuna
-	dynasty=10000328 # Shibata
+#	dynasty=10000328 # Shibata
+	dynasty_house = house_shgnt_sasaki_shibata
 	father=10032312 # Shibata Harutsuna
 	religion="shinto"
 	culture="eastern_hokuriku"
@@ -4104,7 +4162,8 @@
 }
 10032316={
 	name=character_name_10032316 # Tsunasada
-	dynasty=10000328 # Shibata
+#	dynasty=10000328 # Shibata
+	dynasty_house = house_shgnt_sasaki_shibata
 	father=10032314 # Shibata Nagatsuna
 	religion="shinto"
 	culture="eastern_hokuriku"
@@ -4121,7 +4180,8 @@
 }
 10032317={
 	name=character_name_10032317 # Korehide
-	dynasty=10000328 # Shibata
+#	dynasty=10000328 # Shibata
+	dynasty_house = house_shgnt_sasaki_shibata
 	father=10032314 # Shibata Nagatsuna
 	religion="shinto"
 	culture="eastern_hokuriku"
@@ -4134,7 +4194,8 @@
 }
 10032319={
 	name=character_name_10032319 # Nagaatsu
-	dynasty=10000328 # Shibata
+#	dynasty=10000328 # Shibata
+	dynasty_house = house_shgnt_sasaki_shibata
 	father=10032316 # Shibata Tsunasada
 	religion="shinto"
 	culture="eastern_hokuriku"
@@ -4155,7 +4216,8 @@
 }
 10032320={
 	name=character_name_10032320 # Shigeie
-	dynasty=10000328 # Shibata
+#	dynasty=10000328 # Shibata
+	dynasty_house = house_shgnt_sasaki_shibata
 	father=10032316 # Shibata Tsunasada
 	religion="shinto"
 	culture="eastern_hokuriku"
@@ -4177,7 +4239,8 @@
 10032321={
 	female=yes
 	name=character_name_10032321 # Tsuru
-	dynasty=10000328 # Shibata
+#	dynasty=10000328 # Shibata
+	dynasty_house = house_shgnt_sasaki_shibata
 	father=10032316 # Shibata Tsunasada
 	religion="shinto"
 	culture="eastern_hokuriku"
@@ -4190,7 +4253,8 @@
 }
 10032322={
 	name=character_name_10032322 # Moriyoshi
-	dynasty=10000328 # Shibata
+#	dynasty=10000328 # Shibata
+	dynasty_house = house_shgnt_sasaki_shibata
 	father=10032316 # Shibata Tsunasada
 	religion="shinto"
 	culture="eastern_hokuriku"
@@ -4204,7 +4268,8 @@
 10032323={
 	female=yes
 	name=character_name_10032323 # Kame
-	dynasty=10000328 # Shibata
+#	dynasty=10000328 # Shibata
+	dynasty_house = house_shgnt_sasaki_shibata
 	father=10032316 # Shibata Tsunasada
 	religion="shinto"
 	culture="eastern_hokuriku"
@@ -4217,7 +4282,8 @@
 }
 10032330={
 	name=character_name_10032330 # Norihide
-	dynasty=10007098 # Kaji
+#	dynasty=10007098 # Kaji
+	dynasty_house = house_shgnt_kaji
 	father=12270466 # Kaji Sukehide
 	religion="shinto"
 	culture="eastern_hokuriku"
@@ -4230,7 +4296,8 @@
 }
 10032332={
 	name=character_name_10032332 # Hirohide
-	dynasty=10007098 # Kaji
+#	dynasty=10007098 # Kaji
+	dynasty_house = house_shgnt_kaji
 	father=10032330 # Kaji Norihide
 	religion="shinto"
 	culture="eastern_hokuriku"
@@ -4243,7 +4310,8 @@
 }
 10032334={
 	name=character_name_10032334 # Atsuhide
-	dynasty=10007098 # Kaji
+#	dynasty=10007098 # Kaji
+	dynasty_house = house_shgnt_kaji
 	father=10032332 # Kaji Hirohide
 	religion="shinto"
 	culture="eastern_hokuriku"
@@ -4256,7 +4324,8 @@
 }
 10032336={
 	name=character_name_10032336 # Masahide
-	dynasty=10007098 # Kaji
+#	dynasty=10007098 # Kaji
+	dynasty_house = house_shgnt_kaji
 	father=10032334 # Kaji Atsuhide
 	religion="shinto"
 	culture="eastern_hokuriku"
@@ -4269,7 +4338,8 @@
 }
 10032338={
 	name=character_name_10032338 # Sukehide
-	dynasty=10007098 # Kaji
+#	dynasty=10007098 # Kaji
+	dynasty_house = house_shgnt_kaji
 	father=10032336 # Kaji Masahide
 	religion="shinto"
 	culture="eastern_hokuriku"
@@ -4282,7 +4352,8 @@
 }
 10032340={
 	name=character_name_10032340 # Akihide
-	dynasty=10007098 # Kaji
+#	dynasty=10007098 # Kaji
+	dynasty_house = house_shgnt_kaji
 	father=10032338 # Kaji Sukehide
 	religion="shinto"
 	culture="eastern_hokuriku"
@@ -4295,7 +4366,8 @@
 }
 10032341={
 	name=character_name_10032341 # Hidetsune
-	dynasty=10007098 # Kaji
+#	dynasty=10007098 # Kaji
+	dynasty_house = house_shgnt_kaji
 	father=10032338 # Kaji Sukehide
 	religion="shinto"
 	culture="eastern_hokuriku"
@@ -4308,7 +4380,8 @@
 }
 10032343={
 	name=character_name_10032343 # Matasaburo
-	dynasty=10007098 # Kaji
+#	dynasty=10007098 # Kaji
+	dynasty_house = house_shgnt_kaji
 	father=10032340 # Kaji Akihide
 	religion="shinto"
 	culture="eastern_hokuriku"
@@ -4321,7 +4394,8 @@
 }
 10032345={
 	name=character_name_10032345 # Harutsuna
-	dynasty=10007098 # Kaji
+#	dynasty=10007098 # Kaji
+	dynasty_house = house_shgnt_kaji
 	father=10032341 # Kaji Hidetsune
 	religion="shinto"
 	culture="eastern_hokuriku"
@@ -4337,7 +4411,8 @@
 }
 10032347={
 	name=character_name_10032347 # Hidetsuna
-	dynasty=10007098 # Kaji
+#	dynasty=10007098 # Kaji
+	dynasty_house = house_shgnt_kaji
 	father=10032345 # Kaji Harutsuna
 	mother=10032035 # Nagao Tsuyu, daughter of 32000:Nagao Tamekage
 	religion="shinto"
@@ -4353,7 +4428,8 @@
 }
 10032349={
 	name=character_name_10032349 # Kagetsuna
-	dynasty=10007098 # Kaji
+#	dynasty=10007098 # Kaji
+	dynasty_house = house_shgnt_kaji
 	father=10032347 # Kaji Hidetsuna
 	religion="shinto"
 	culture="eastern_hokuriku"

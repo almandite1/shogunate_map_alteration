@@ -1172,11 +1172,11 @@ c_shgnt_sayo = {
 }
 b_shgnt_shikito_1 = {
 	1545.01.01 = {
-		liege = c_shgnt_shikito
+#		liege = c_shgnt_shikito
 		holder = 10055201 # Kuroda Mutotaka
 	}
 	1567.01.01 = {
-		liege = c_shgnt_shikito
+#		liege = c_shgnt_shikito
 		holder = 10055204 # Kuroda Yoshitaka
 	}
 }
@@ -2011,6 +2011,9 @@ d_shgnt_bizen = {
     }
     1582.02.01 = {
         holder = 10055101 # Ukita Hideie
+		effect = {
+			set_capital_county = title:c_shgnt_mino # Okayama
+		}
     }
 }
 d_shgnt_harima = {
@@ -2050,7 +2053,9 @@ d_shgnt_harima = {
     1467.06.27 = {
         liege = e_shgnt_japan # 
         holder = 10053518 # Akamatsu Masanori
-		set_capital_county = title:c_shgnt_shikisai
+		effect = {
+			set_capital_county = title:c_shgnt_shikisai
+		}
     }
     1496.06.06 = {
         holder = 10053519 # Akamatsu Yoshimura

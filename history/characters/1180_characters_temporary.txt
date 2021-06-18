@@ -20964,19 +20964,15 @@
 				levies = 150
 				location = 2 # Rokuhara
 				origin = 236 # Ise, Iitaka
-				war = war_1180_prince_mochihito_rebellion
+				#war = war_1180_prince_mochihito_rebellion
 				inheritable = no
-				army = army
-				army = {
-					assign_commander = character:10131576
-				}
 				save_scope_as = new_army
 			}
 		}
 	}
 	1185.6.15={
-		death={
-			death_reason=death_execution
+		death = {
+			death_reason = death_execution
 		}
 	}
 }
@@ -21032,13 +21028,13 @@
 				levies = 150
 				location = 2 # Rokuhara
 				origin = 886 # Hida, Araki
-				war = war_1180_prince_mochihito_rebellion
+				#war = war_1180_prince_mochihito_rebellion
 				inheritable = no
-				army = army
-				army = {
-					assign_commander = character:10131579
-				}
-				save_scope_as = new_army
+				#army = army
+				#army = {
+				#	assign_commander = character:10131579
+				#}
+				#save_scope_as = new_army
 			}
 		}
 	}

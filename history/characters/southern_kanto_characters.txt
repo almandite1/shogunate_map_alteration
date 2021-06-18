@@ -615,7 +615,8 @@
 		give_nickname="nick_saburo"
 	}
 	1570.4.11={
-		dynasty=10000100 # Uesugi
+		#dynasty=10000100 # Uesugi
+		dynasty_house = house_shgnt_uesugi_yonezawa
 		employer=10032011 # Uesugi Kenshin
 		effect = {
 			set_father = character:10032011
@@ -632,6 +633,7 @@
 	1579.4.19={
 		death={
 			death_reason=death_suicide
+			killer = 10032032 # Uesugi Kagekatsu
 		}
 	}
 }
@@ -1837,7 +1839,7 @@
 		dynasty=10000166	#Daidoji
 		effect = {
 			set_father = character:10016603
-			set_real_father = character:
+#			set_real_father = character:
 			add_trait = "child_of_adoption"
 		}
 	}

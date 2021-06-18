@@ -1372,7 +1372,9 @@ d_shgnt_aki = {
     1222.01.01 = {
         liege = e_shgnt_japan # 
         holder = 12360103 # Takeda Nobumitsu
-		set_capital_county = title:c_shgnt_sato
+		effect = {
+			set_capital_county = title:c_shgnt_sato
+		}
     }
     1235.06.01 = {
         holder = 0 # Fujiwara no Chikazane
@@ -1424,7 +1426,9 @@ d_shgnt_aki = {
     1541.05.01 = {
         liege = k_shgnt_western_chugoku # 
         holder = 10056004 # Mori Motonari
-		set_capital_county = title:c_shgnt_takata
+		effect = {
+			set_capital_county = title:c_shgnt_takata
+		}
     }
     1571.07.06 = {
         holder = 10056025 # Mori Terumoto

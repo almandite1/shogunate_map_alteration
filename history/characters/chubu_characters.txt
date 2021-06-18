@@ -1550,7 +1550,7 @@
 	1530.1.1={
 		effect = {
 			set_father = character:10025504
-			set_real_father = character:
+#			set_real_father = character:
 		}
 	}
 	1532.1.1={
@@ -2522,6 +2522,10 @@
 	1571.9.30={
 		effect = {
 			set_realm_capital=title:c_shgnt_shiga
+			add_opinion = {
+				target = liege
+				modifier = received_title_county
+			}
 		}
 	}
 	1575.7.1={
@@ -2532,6 +2536,14 @@
 	}
 	1575.8.1={
 		add_pressed_claim=d_shgnt_tanba
+	}
+	1576.05.30 = {
+		effect={
+			add_opinion = {
+				target = liege
+				modifier = received_title_county
+			}
+		}
 	}
 	1582.7.2={
 		death=yes
@@ -5087,7 +5099,8 @@
 }
 10027300 = {
 	name=character_name_10027300 # Takazane
-	dynasty=10000450 # Rokkaku
+#	dynasty=10000450 # Rokkaku
+	dynasty_house = house_shgnt_rokkaku
 	father=10044001 # Rokkaku Takayori
 	martial=8
 	diplomacy=8
@@ -8646,6 +8659,14 @@
 	1575.10.1={
 		effect = {
 			set_realm_capital = title:c_shgnt_asuha
+			add_opinion = {
+				target = liege
+				modifier = received_title_duchy
+			}
+			add_opinion = {
+				target = liege
+				modifier = received_title_county
+			}
 		}
 	}
 	1582.6.21={ # Honno-ji Incident
@@ -9304,9 +9325,29 @@
 	1551.04.08={
 		employer=10029120 # Oda Nobunaga
 	}
+	1567.01.01 = {
+		effect={
+			add_opinion = {
+				target = character:10029120 # Oda Nobunaga
+				modifier = received_title_county
+			}
+		}
+	}
+	1574.11.01 = {
+		effect={
+			add_opinion = {
+				target = character:10029120 # Oda Nobunaga
+				modifier = received_title_county
+			}
+		}
+	}
 	1582.4.15={
 		effect={
 			set_realm_capital=title:c_shgnt_seta
+			add_opinion = {
+				target = character:10029120 # Oda Nobunaga
+				modifier = received_title_duchy
+			}
 		}
 	}
 	1586.10.21={
@@ -9609,6 +9650,22 @@
 	}
 	1558.1.1={
 		add_spouse=10029373
+	}
+	1575.10.01 = {
+		effect={
+			add_opinion = {
+				target = liege
+				modifier = received_title_county
+			}
+		}
+	}
+	1581.10.29 = {
+		effect={
+			add_opinion = {
+				target = liege
+				modifier = received_title_duchy
+			}
+		}
 	}
 	1599.4.27={
 		death=yes
@@ -9973,6 +10030,18 @@
 	1570.8.9={
 		effect={
 			set_realm_capital=title:c_shgnt_sakata
+			add_opinion = {
+				target = liege # Oda Nobunaga
+				modifier = received_title_county
+			}
+		}
+	}
+	1573.10.07 = {
+		effect={
+			add_opinion = {
+				target = liege
+				modifier = received_title_county
+			}
 		}
 	}
 	1574.1.1={

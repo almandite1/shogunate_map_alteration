@@ -704,6 +704,11 @@ c_shgnt_hanishina = {
     1553.09.01 = {
         liege = d_shgnt_kai # Takeda Shingen
         holder = 10020010 # Takeda Shingen
+		effect = {
+			title:b_shgnt_hanishina_1 = {
+				set_title_name = b_shgnt_hanishina_1_1 # Kaizu
+			}
+		}
     }
     1556.01.01 = {
         holder = 12380636 # Kosaka Muneshige
@@ -731,6 +736,13 @@ c_shgnt_hanishina = {
         liege = d_shgnt_echigo # Uesugi Kagekatsu
         holder = 10021503 # Murakami Kunikiyo
     }
+	1600.02.01 = {
+		effect = {
+			title:b_shgnt_hanishina_1 = {
+				set_title_name = b_shgnt_hanishina_1_2 # Matsushiro
+			}
+		}
+	}
 }
 c_shgnt_hazu = {
     0001.01.01 = { change_development_level = 10 }
@@ -1659,7 +1671,7 @@ c_shgnt_minochi = {
 }
 b_shgnt_nukata_1 = {
 	1549.04.03 = {
-        liege = c_shgnt_nukata # Matsudaira Motonobu
+#        liege = c_shgnt_nukata # Matsudaira Motonobu
         holder = 10024150 # Ishikawa Kiyokane
     }
 }
@@ -1825,7 +1837,12 @@ c_shgnt_saku = {
         holder = 12361087 # Oi Sadakiyo
     }
     1546.08.01 = {
+		liege = d_shgnt_kai # Takeda Shingen
         holder = 10020202 # Oyamada Toramitsu
+    }
+	1559.01.01 = {
+        liege = d_shgnt_shinano # Takeda Shingen
+		holder = 10020202 # Oyamada Toramitsu
     }
     1579.10.22 = {
         liege = d_shgnt_shinano # 
@@ -3018,7 +3035,9 @@ d_shgnt_kai = {
     }
     1507.03.27 = {
         holder = 10020000 # Takeda Nobutora
-		set_capital_county = title:c_shgnt_yamanashi
+		effect = {
+			set_capital_county = title:c_shgnt_yamanashi
+		}
     }
     1541.06.14 = {
         holder = 10020010 # Takeda Shingen
@@ -3379,7 +3398,9 @@ d_shgnt_suruga = {
     1338.01.01 = {
         liege = 0 # 
         holder = 12395214 # Imagawa Norikuni
-		set_capital_county = title:c_shgnt_udo
+		effect = {
+			set_capital_county = title:c_shgnt_udo
+		}
     }
     1353.08.01 = {
         holder = 12395220 # Imagawa Noriuji

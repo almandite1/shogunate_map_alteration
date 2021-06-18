@@ -2066,6 +2066,9 @@ d_shgnt_satsuma = {
     }
     1519.05.12 = {
         holder = 10060002 # Shimazu Katsuhisa
+		effect = {
+			set_capital_county = title:c_shgnt_kagoshima
+		}
     }
     1527.01.01 = {
         holder = 10060000 # Shimazu Takahisa

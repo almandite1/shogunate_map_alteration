@@ -2,8 +2,7 @@
     0001.01.01 = { change_development_level = 10 }
     1100.01.01 = { change_development_level = 10 }
     1420.01.01 = { change_development_level = 10 }
-    0100.01.01 = {
-    }
+
     1180.01.01 = {
         liege = k_shgnt_northern_oshu # 
         holder = 12032010 # Hei Takekuni
@@ -33,6 +32,13 @@
     1366.01.01 = {
         holder = 12052025 # Hei Hisatomo
     }
+	1375.01.01 = {
+		effect = {
+			title:b_shgnt_hei_3 = {
+				set_title_name = b_shgnt_hei_3_1 # Takusari
+			}
+		}
+	}
     1420.01.01 = {
         liege = 0 # 
         holder = 10005201 # Takusari Juro
@@ -55,8 +61,7 @@ c_shgnt_hienuki = {
     1100.01.01 = { change_development_level = 10 }
     1189.10.03 = { change_development_level = 10 }
     1341.01.01 = { change_development_level = 10 }
-    0100.01.01 = {
-    }
+
     1088.01.01 = {
         holder = 12030000 # Fujiwara Kiyohira
     }
@@ -76,6 +81,11 @@ c_shgnt_hienuki = {
     }
     1341.01.01 = {
         holder = 12051015 # Hienuki Ieshige
+		effect = {
+			title:b_shgnt_hienuki_2 = {
+				set_title_name = b_shgnt_hienuki_2_1 # Kosegawa
+			}
+		}
     }
     1365.01.01 = {
         holder = 12051020 # Hienuki Shigeto
@@ -90,6 +100,13 @@ c_shgnt_hienuki = {
         liege = 0 # 
         holder = 12051035 # Hienuki Ietaka
     }
+	1450.01.01
+		effect = {
+			title:b_shgnt_hienuki_2 = {
+				set_title_name = b_shgnt_hienuki_2_2 # Sakari
+			}
+		}
+	}
     1460.01.01 = {
         holder = 12051040 # Hienuki Tamenaka
     }
@@ -102,6 +119,13 @@ c_shgnt_hienuki = {
     1504.01.01 = {
         holder = 10003401 # Hienuki Haruie
     }
+	1528.01.01 = {
+		effect = {
+			title:b_shgnt_hienuki_2 = {
+				set_title_name = b_shgnt_hienuki_2_3 # Toyagasaki
+			}
+		}
+	}
     1564.01.02 = {
         holder = 10003402 # Hienuki Terutoki
     }
@@ -169,6 +193,13 @@ c_shgnt_inaka = {
     1450.01.01 = {
         holder = 10004006 # Namioka Akiyoshi
     }
+	1460.01.01 = {
+		effect = {
+			title:b_shgnt_inaka_1 = {
+				set_title_name = b_shgnt_inaka_1_1 # Namioka
+			}
+		}
+	}
     1492.01.01 = {
         holder = 10004005 # Namioka Akitomo
     }
@@ -192,8 +223,7 @@ c_shgnt_isawa = {
     0001.01.01 = { change_development_level = 30 }
     1100.01.01 = { change_development_level = 30 }
     1189.10.03 = { change_development_level = 30 }
-    0100.01.01 = {
-    }
+
     1088.01.01 = {
         holder = 12030000 # Fujiwara Kiyohira
     }
@@ -262,8 +292,7 @@ c_shgnt_isawa = {
 c_shgnt_iwai = {
     0001.01.01 = { change_development_level = 40 }
     1189.10.03 = { change_development_level = 40 }
-    0100.01.01 = {
-    }
+
     1088.01.01 = {
         holder = 12030000 # Fujiwara Kiyohira
     }
@@ -336,8 +365,7 @@ c_shgnt_iwate = {
     1100.01.01 = { change_development_level = 30 }
     1189.11.15 = { change_development_level = 30 }
     1335.01.01 = { change_development_level = 30 }
-    0100.01.01 = {
-    }
+
     1088.01.01 = {
         holder = 12030000 # Fujiwara Kiyohira
     }
@@ -424,8 +452,7 @@ c_shgnt_kazuno = {
     0001.01.01 = { change_development_level = 10 }
     1100.01.01 = { change_development_level = 10 }
     1331.01.01 = { change_development_level = 10 }
-    0100.01.01 = {
-    }
+
     1157.04.29 = {
         liege = k_shgnt_northern_oshu # 
         holder = 12030020 # Fujiwara Hidehira
@@ -483,8 +510,7 @@ c_shgnt_kita = {
     0001.01.01 = { change_development_level = 0 }
     1100.01.01 = { change_development_level = 0 }
     1189.10.03 = { change_development_level = 10 }
-    0100.01.01 = {
-    }
+
     1160.01.01 = {
         liege = d_shgnt_mutsu # 
         holder = 10150108 # Akarogu
@@ -541,8 +567,7 @@ c_shgnt_kunohe = {
     0001.01.01 = { change_development_level = 10 }
     1100.01.01 = { change_development_level = 10 }
     1470.01.01 = { change_development_level = 10 }
-    0100.01.01 = {
-    }
+
     1157.04.29 = {
         liege = k_shgnt_northern_oshu # 
         holder = 12030020 # Fujiwara Hidehira
@@ -590,8 +615,7 @@ c_shgnt_ninohe = {
     0001.01.01 = { change_development_level = 10 }
     1100.01.01 = { change_development_level = 10 }
     1470.01.01 = { change_development_level = 10 }
-    0100.01.01 = {
-    }
+
     1157.04.29 = {
         liege = k_shgnt_northern_oshu # 
         holder = 12030020 # Fujiwara Hidehira
@@ -621,6 +645,11 @@ c_shgnt_ninohe = {
     }
     1470.01.01 = {
         holder = 10003210 # Kunohe Mitsumasa
+		effect = {
+			title:b_shgnt_ninohe_1 = {
+				set_title_name = b_shgnt_ninohe_1_1 # Kunohe
+			}
+		}
     }
     1480.01.01 = {
         holder = 10003211 # Kunohe Tsurayasu
@@ -643,8 +672,7 @@ c_shgnt_sannohe = {
     0001.01.01 = { change_development_level = 0 }
     1189.10.03 = { change_development_level = 10 }
     1500.01.01 = { change_development_level = 20 }
-    0100.01.01 = {
-    }
+
     1160.01.01 = {
         liege = d_shgnt_mutsu # 
         holder = 10150108 # Akarogu
@@ -712,8 +740,7 @@ c_shgnt_sannohe = {
 c_shgnt_tono = {
     0001.01.01 = { change_development_level = 10 }
     1100.01.01 = { change_development_level = 10 }
-    0100.01.01 = {
-    }
+
     1180.01.01 = {
         liege = k_shgnt_northern_oshu # 
         holder = 12032010 # Hei Takekuni
@@ -724,6 +751,11 @@ c_shgnt_tono = {
     }
     1189.11.15 = {
         holder = 12180151 # Asonuma Hirotsuna
+		effect = {
+			title:b_shgnt_tono_1 = {
+				set_title_name = b_shgnt_tono_1_1 # Yokota
+			}
+		}
     }
     1208.01.01 = {
         holder = 12180701 # Asonuma Chikatsuna
@@ -765,13 +797,19 @@ c_shgnt_tono = {
     1565.01.01 = {
         holder = 10004102 # Asonuma Hirosato
     }
+	1565.01.01 = {
+		effect = {
+			title:b_shgnt_tono_1 = {
+				set_title_name = b_shgnt_tono_1_2 # Nabekura
+			}
+		}
+	}
 }
 c_shgnt_tsugaru = {
     0001.01.01 = { change_development_level = 40 }
     1100.01.01 = { change_development_level = 40 }
     1443.01.01 = { change_development_level = 40 }
-    0100.01.01 = {
-    }
+
     1180.01.01 = {
         liege = k_shgnt_northern_oshu # 
         holder = 12030210 # Ando Suetoshi
@@ -863,8 +901,7 @@ c_shgnt_waga = {
     0001.01.01 = { change_development_level = 10 }
     1100.01.01 = { change_development_level = 10 }
     1331.01.01 = { change_development_level = 10 }
-    0100.01.01 = {
-    }
+
     1088.01.01 = {
         holder = 12030000 # Fujiwara Kiyohira
     }
@@ -882,6 +919,13 @@ c_shgnt_waga = {
         liege = 0
         holder = 0
     }
+	1401.04.28 = {
+		effect = {
+			title:b_shgnt_waga_2 = {
+				set_title_name = b_shgnt_waga_2_1 # Futago
+			}
+		}
+	}
     1440.01.01 = {
         liege = 0 # 
         holder = 10003512 # Waga Sadayoshi
@@ -964,8 +1008,7 @@ d_shgnt_mutsu = {
     }
 }
 d_shgnt_rikuchu = {
-    0100.01.01 = {
-    }
+
     1180.01.01 = {
         holder = 12030020 # Fujiwara Hidehira
     }
@@ -1027,8 +1070,7 @@ c_shgnt_esasi = {
     0001.01.01 = { change_development_level = 10 }
     1100.01.01 = { change_development_level = 10 }
     1331.01.01 = { change_development_level = 10 }
-    0100.01.01 = {
-    }
+
     1088.01.01 = {
         holder = 12030000 # Fujiwara Kiyohira
     }
@@ -1071,8 +1113,7 @@ c_shgnt_shiwa = {
     1100.01.01 = { change_development_level = 10 }
     1189.10.03 = { change_development_level = 10 }
     1341.01.01 = { change_development_level = 10 }
-    0100.01.01 = {
-    }
+
     1088.01.01 = {
         holder = 12030000 # Fujiwara Kiyohira
     }
@@ -1129,8 +1170,7 @@ c_shgnt_sotogahama = {
     0001.01.01 = { change_development_level = 40 }
     1100.01.01 = { change_development_level = 40 }
     1443.01.01 = { change_development_level = 40 }
-    0100.01.01 = {
-    }
+
     1180.01.01 = {
         liege = k_shgnt_northern_oshu # 
         holder = 12030210 # Ando Suetoshi
@@ -1215,8 +1255,7 @@ c_shgnt_hanawa = {
     0001.01.01 = { change_development_level = 40 }
     1100.01.01 = { change_development_level = 40 }
     1443.01.01 = { change_development_level = 40 }
-    0100.01.01 = {
-    }
+
     1180.01.01 = {
         liege = k_shgnt_northern_oshu # 
         holder = 12030210 # Ando Suetoshi
@@ -1301,8 +1340,7 @@ c_shgnt_hiraga = {
     0001.01.01 = { change_development_level = 40 }
     1100.01.01 = { change_development_level = 40 }
     1443.01.01 = { change_development_level = 40 }
-    0100.01.01 = {
-    }
+
     1180.01.01 = {
         liege = k_shgnt_northern_oshu # 
         holder = 12030210 # Ando Suetoshi
