@@ -82,6 +82,13 @@ c_shgnt_arima = {
         liege = e_shgnt_japan # 
         holder = 10040656 # Arima Yoshisuke
     }
+	1394.01.01 = {
+		effect = {
+			title:b_shgnt_arima_3 = {
+				set_title_name = b_shgnt_arima_3_1 # Sanda
+			}
+		}
+	}
     1421.10.22 = {
         holder = 10040657 # Arima Mochiie
     }
@@ -321,6 +328,13 @@ c_shgnt_funai = {
         liege = 0 # 
         holder = 0 # Taira's escape to the west
     }
+	1335.01.01 = {
+		effect = {
+			title:b_shgnt_funai_4 = {
+				set_title_name = b_shgnt_funai_4_1 # Yagi
+			}
+		}
+	}
     1397.06.02 = {
         liege = d_shgnt_tanba # 
         holder = 10040536 # Hosokawa Mitsumoto
@@ -444,6 +458,13 @@ c_shgnt_gamafu = {
     1520.10.09 = {
         holder = 10044000 # Rokkaku Sadayori
     }
+	1533.01.01 = {
+		effect = {
+			title:b_shgnt_gamafu_12 = {
+				set_title_name = b_shgnt_gamafu_12_1 # Hino
+			}
+		}
+	}
     1552.01.21 = {
         holder = 10044003 # Rokkaku Yoshikata
     }
@@ -558,6 +579,13 @@ c_shgnt_hikami = {
         liege = d_shgnt_tanba # 
         holder = 12480220 # Akai Iekiyo
     }
+	1334.01.01 = {
+		effect = {
+			title:b_shgnt_hikami_4 = {
+				set_title_name = b_shgnt_hikami_4_1 # Kuroi
+			}
+		}
+	}
     1360.01.01 = {
         holder = 12480225 # Akai Iemoto
     }
@@ -990,6 +1018,13 @@ c_shgnt_kasa = {
         liege = 0 # 
         holder = 0 # Taira's escape to the west
     }
+	1336.01.01 = {
+		effect = {
+			title:b_shgnt_kasa_5 = {
+				set_title_name = b_shgnt_kasa_5_1 # Tatebeyama
+			}
+		}
+	}
     1392.01.24 = {
         liege = d_shgnt_tango # 
         holder = 10049509 # Isshiki Mitsunori
@@ -1021,6 +1056,13 @@ c_shgnt_kasa = {
     1558.01.01 = {
         holder = 10049525 # Isshiki Yoshimichi
     }
+	1579.01.01 = {
+		effect = {
+			title:b_shgnt_kasa_5 = {
+				set_title_name = b_shgnt_kasa_5_2 # Nakayama
+			}
+		}
+	}
     1580.01.01 = {
         liege = e_shgnt_japan # 
         holder = 10040203 # Hosokawa Fujitaka(Yusai)
@@ -1233,6 +1275,13 @@ c_shgnt_koka = {
     1221.07.22 = {
         holder = 12510073 # Sasaki Nobutsuna / the Jokyu War
     }
+	1226.01.01 = {
+		effect = {
+			title:b_shgnt_koka_2 = {
+				set_title_name = b_shgnt_koka_2_1 # Yamanaka
+			}
+		}
+	}
     1242.04.07 = {
         holder = 10044004 # Rokkaku [Sasaki] Yasutsuna
     }
@@ -1329,6 +1378,13 @@ c_shgnt_kurumoto = {
     1416.12.06 = {
         holder = 10044010 # Rokkaku Mitsutsuna
     }
+	1429.01.01 = {
+		effect = {
+			title:b_shgnt_kurumoto_5 = {
+				set_title_name = b_shgnt_kurumoto_5_1 # Seta
+			}
+		}
+	}
     1440.01.01 = {
         holder = 10044660 # Iba Mitsutaka
     }
@@ -1438,6 +1494,13 @@ c_shgnt_mikata = {
         liege = 0
         holder = 0
     }
+	1290.01.01 = {
+		effect = {
+			title:b_shgnt_mikata_1 = {
+				set_title_name = b_shgnt_mikata_1_1 # Kuniyoshi
+			}
+		}
+	}
     1440.01.01 = {
         holder = 10042001 # Takeda Nobuhide
     }
@@ -2045,6 +2108,13 @@ c_shgnt_otokuni = {
 			set_title_name = c_shgnt_otokuni_1
 		}
     }
+	1457.01.01 = {
+		effect = {
+			title:b_shgnt_otokuni_2 = {
+				set_title_name = b_shgnt_otokuni_2_1 # Shōryuji
+			}
+		}
+	}
     1469.04.01 = {
         liege = d_shgnt_kawachi # 
         holder = 10048115 # Hatakeyama Yoshinari
@@ -2525,6 +2595,11 @@ c_shgnt_takashima = {
     }
     1290.01.01 = {
         holder = 12510310 # Kutsuki Yoshitsuna
+		effect = {
+			title:b_shgnt_takashima_6 = {
+				set_title_name = b_shgnt_takashima_6_1 # Kutsuki
+			}
+		}
     }
     1310.01.01 = {
         holder = 12510315 # Kutsuki Tokitsune
@@ -2919,6 +2994,13 @@ c_shgnt_yasu = {
     1311.01.22 = {
         holder = 10044006 # Rokkaku [Sasaki] Tokinobu
     }
+	1333.01.01 = {
+		effect = {
+			title:b_shgnt_yasu_2 = {
+				set_title_name = b_shgnt_yasu_2_1 # Konohama
+			}
+		}
+	}
     1334.01.01 = {
         liege = d_nmih_southern_omi # 
         holder = 10044007 # Rokkaku Ujiyori
@@ -3082,6 +3164,11 @@ c_shgnt_yosa = {
     }
     1409.01.25 = {
         holder = 10049512 # Isshiki Yoshitsura
+		effect = {
+			title:b_shgnt_yosa_2 = {
+				set_title_name = b_shgnt_yosa_2_1 # Yuminoki
+			}
+		}
     }
     1429.01.01 = {
         liege = d_shgnt_tango # 

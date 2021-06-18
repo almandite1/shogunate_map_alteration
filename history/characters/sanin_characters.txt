@@ -1,6 +1,7 @@
 ﻿10050005 = {
 	name=character_name_10050005 # Suketoyo
-	dynasty=10000500 # Yamana
+#	dynasty=10000500 # Yamana
+	dynasty_house = "house_shgnt_yamana_munetoyo"
 	father=10050045
 	religion="shinto"
 	culture="sanin"
@@ -20,6 +21,7 @@
 			set_real_father = character:10050045
 			add_trait = "child_of_adoption"
 		}
+		dynasty_house = "house_shgnt_yamana_nobutoyo"
 	}
 	1528.3.4={
 		effect = {
@@ -67,6 +69,9 @@
 	1337.1.1={
 		birth=yes
 	}
+	1371.4.14={
+		dynasty_house = "house_shgnt_yamana_yoshitada"
+	}
 	1395.1.1={
 		death=yes
 	}
@@ -95,8 +100,13 @@
 	1344.1.1={
 		birth=yes
 	}
+	1371.4.14={
+		dynasty_house = "house_shgnt_yamana_ujikiyo"
+	}
 	1392.1.24={
-		death=yes
+		death = {
+			death_reason=death_battle
+		}
 	}
 }
 10050011 = {
@@ -108,6 +118,9 @@
 	culture="sanin"
 	1346.1.1={
 		birth=yes
+	}
+	1371.4.14={
+		dynasty_house = "house_shgnt_yamana_tokiyoshi"
 	}
 	1389.5.29={
 		death=yes
@@ -137,6 +150,9 @@
 	1363.1.1={
 		birth=yes
 	}
+	1394.1.4 = {
+		dynasty_house = "house_shgnt_yamana_hoki"
+	}
 	1415.1.1={
 		give_nickname="nick_the_daizen_daihu"
 	}
@@ -155,7 +171,10 @@
 		birth=yes
 	}
 	1395.3.31={
-		death=yes
+		death = {
+			death_reason = death_execution
+			killer = 10040003 # Ashikaga Yoshimitsu
+		}
 	}
 }
 10050015 = {
@@ -182,13 +201,17 @@
 	1393.1.1={
 		birth=yes
 	}
+	1394.1.4 = {
+		dynasty_house = "house_shgnt_yamana_hoki"
+	}
 	1460.1.1={
 		death=yes
 	}
 }
 10050017 = {
 	name=character_name_10050017 # Noriyuki
-	dynasty=10000500 # Yamana
+#	dynasty=10000500 # Yamana
+	dynasty_house = "house_shgnt_yamana_hoki"
 	father=10050016
 	trait="education_diplomacy_1"
 	religion="shinto"
@@ -215,7 +238,8 @@
 }
 10050018 = {
 	name=character_name_10050018 # Toyoyuki
-	dynasty=10000500 # Yamana
+#	dynasty=10000500 # Yamana
+	dynasty_house = "house_shgnt_yamana_hoki"
 	father=10050017 # Yamana Noriyuki
 	trait="education_diplomacy_1"
 	religion="shinto"
@@ -239,7 +263,8 @@
 }
 10050019 = {
 	name=character_name_10050019 # Toyouji
-	dynasty=10000500 # Yamana
+#	dynasty=10000500 # Yamana
+	dynasty_house = "house_shgnt_yamana_hoki"
 	father=10050017
 	trait="education_stewardship_1"
 	religion="shinto"
@@ -253,6 +278,7 @@
 			set_real_father = character:10050017
 			add_trait = "child_of_adoption"
 		}
+		dynasty_house = "house_shgnt_yamana_takayoshi"
 	}
 	1475.1.1={
 		death=yes
@@ -260,7 +286,8 @@
 }
 10050020 = {
 	name=character_name_10050020 # Yukihiro
-	dynasty=10000500 # Yamana
+#	dynasty=10000500 # Yamana
+	dynasty_house = "house_shgnt_yamana_hoki"
 	father=10050017
 	trait="education_diplomacy_1"
 	religion="shinto"
@@ -279,7 +306,8 @@
 }
 10050021 = {
 	name=character_name_10050021 # Motoyuki
-	dynasty=10000500 # Yamana
+#	dynasty=10000500 # Yamana
+	dynasty_house = "house_shgnt_yamana_hoki"
 	father=10050017
 	trait="education_intrigue_1"
 	religion="shinto"
@@ -301,7 +329,8 @@
 }
 10050022 = {
 	name=character_name_10050022 # Kotaro
-	dynasty=10000500 # Yamana
+#	dynasty=10000500 # Yamana
+	dynasty_house = "house_shgnt_yamana_hoki"
 	father=10050017
 	trait="education_intrigue_1"
 	religion="shinto"
@@ -315,7 +344,8 @@
 }
 10050023 = {
 	name=character_name_10050023 # Masayuki
-	dynasty=10000500 # Yamana
+#	dynasty=10000500 # Yamana
+	dynasty_house = "house_shgnt_yamana_hoki"
 	father=10050018
 	trait="education_intrigue_1"
 	religion="shinto"
@@ -334,7 +364,8 @@
 }
 10050024 = {
 	name=character_name_10050024 # Hisayuki
-	dynasty=10000500 # Yamana
+#	dynasty=10000500 # Yamana
+	dynasty_house = "house_shgnt_yamana_hoki"
 	father=10050018
 	trait="education_intrigue_1"
 	religion="shinto"
@@ -358,7 +389,8 @@
 }
 10050025 = {
 	name=character_name_10050025 # Ujitoyo
-	dynasty=10000500 # Yamana
+#	dynasty=10000500 # Yamana
+	dynasty_house = "house_shgnt_yamana_hoki"
 	father=10050023
 	trait="education_intrigue_1"
 	religion="shinto"
@@ -387,7 +419,8 @@
 }
 10050026 = {
 	name=character_name_10050026 # Sumiyuki
-	dynasty=10000500 # Yamana
+#	dynasty=10000500 # Yamana
+	dynasty_house = "house_shgnt_yamana_hoki"
 	father=10050020
 	trait="education_intrigue_1"
 	religion="shinto"
@@ -414,13 +447,17 @@
 	1360.1.1={
 		birth=yes
 	}
+	1371.4.14={
+		dynasty_house = "house_shgnt_yamana_yoshitada"
+	}
 	1420.1.1={
 		death=yes
 	}
 }
 10050028 = {
 	name=character_name_10050028 # Norikiyo
-	dynasty=10000500 # Yamana
+#	dynasty=10000500 # Yamana
+	dynasty_house = "house_shgnt_yamana_yoshitada"
 	father=10050027
 	trait="education_intrigue_1"
 	religion="shinto"
@@ -442,13 +479,17 @@
 	1370.1.1={
 		birth=yes
 	}
+	1371.4.14={
+		dynasty_house = "house_shgnt_yamana_ujifuyu"
+	}
 	1430.1.1={
 		death=yes
 	}
 }
 10050030 = {
 	name=character_name_10050030 # Hirotaka
-	dynasty=10000500 # Yamana
+#	dynasty=10000500 # Yamana
+	dynasty_house = "house_shgnt_yamana_ujifuyu"
 	father=10050029
 	trait="education_diplomacy_1"
 	religion="shinto"
@@ -462,7 +503,8 @@
 }
 10050031 = {
 	name=character_name_10050031 # Katsutoyo
-	dynasty=10000500 # Yamana
+#	dynasty=10000500 # Yamana
+	dynasty_house = "house_shgnt_yamana_tokiyoshi"
 	father=10050039 # Yamana Sozen (Mochitoyo)
 	trait="education_diplomacy_1"
 	religion="shinto"
@@ -476,6 +518,7 @@
 			set_real_father = character:10050039
 			add_trait = "child_of_adoption"
 		}
+		dynasty_house = "house_shgnt_yamana_ujifuyu"
 	}
 	1452.1.1={
 		give_nickname="nick_the_saemon_no_suke"
@@ -492,7 +535,8 @@
 }
 10050032 = {
 	name=character_name_10050032 # Toyotoki
-	dynasty=10000500 # Yamana
+#	dynasty=10000500 # Yamana
+	dynasty_house = "house_shgnt_yamana_ujifuyu"
 	father=10050031
 	martial=10
 	trait="education_intrigue_1"
@@ -507,30 +551,24 @@
 		birth=yes
 	}
 	1472.1.1={
-		give_nickname="nick_jibu_no_sho"
-	}
-	1472.1.1={
-		give_nickname="nick_jibu_no_sho"
-	}
-	1472.1.1={
-		give_nickname="nick_jibu_no_sho"
+		give_nickname="nick_the_jibu_no_sho"
+		effect = {
+			add_trait = jugoi_ge
+		}
 	}
 	1475.1.1={
 		effect = {
 			set_realm_capital=title:c_shgnt_takakusa
 		}
 	}
+	# 1479年時点で因幡守護
+	# 1481(文明13)年一月に「御供結審　一番」＝御供衆
 	1487.1.1={
 		give_nickname="nick_saemon_no_suke"
 	}
+	# 1488(長享2)年八月時点で因幡守護
 	1497.1.1={
-		give_nickname="nick_iyo_no_kami"
-	}
-	1487.1.1={
-		give_nickname="nick_saemon_no_suke"
-	}
-	1497.1.1={
-		give_nickname="nick_iyo_no_kami"
+		give_nickname="nick_the_iyo_no_kami"
 	}
 	1515.1.1={
 		death=yes
@@ -538,7 +576,8 @@
 }
 10050033 = {
 	name=character_name_10050033 # Toyoyori
-	dynasty=10000500 # Yamana
+#	dynasty=10000500 # Yamana
+	dynasty_house = "house_shgnt_yamana_ujifuyu"
 	father=10050032
 	trait="education_diplomacy_1"
 	religion="shinto"
@@ -547,20 +586,22 @@
 		birth=yes
 	}
 	1505.1.1={
-		give_nickname="nick_sama_no_suke"
+		give_nickname="nick_the_sama_no_suke"
 	}
 	1512.12.1={
 		effect = {
 			set_realm_capital=title:c_shgnt_takakusa
 		}
+		dynasty_house = "house_shgnt_yamana_toyoyori"
 	}
 	1521.1.1={
 		death=yes
 	}
 }
 10050034 = {
-	name=character_name_10050034 # Toyoharu
-	dynasty=10000500 # Yamana
+	name=character_name_10050034 # Toyoharu, 豊治
+#	dynasty=10000500 # Yamana
+	dynasty_house = "house_shgnt_yamana_ujifuyu"
 	father=10050057
 	trait="education_diplomacy_1"
 	religion="shinto"
@@ -568,7 +609,16 @@
 	1494.1.1={
 		birth=yes
 	}
-	1521.1.1={
+	1510.01.01 = {
+		give_nickname = "nick_Kojio" # 小次郎
+	}
+	1520.01.01 = { # 1527(大永7)年五月六日以前に治部少輔
+		give_nickname = "nick_the_jibu_no_sho"
+		effect = {
+			add_trait = jugoi_ge
+		}
+	}
+	1521.1.1={ # 1516(永正13)年十月以前に因幡守護
 		effect = {
 			set_realm_capital=title:c_shgnt_takakusa
 		}
@@ -580,8 +630,9 @@
 	}
 }
 10050035 = {
-	name=character_name_10050035 # Nobumichi
-	dynasty=10000500 # Yamana
+	name=character_name_10050035 # Nobumichi, 誠通
+#	dynasty=10000500 # Yamana
+	dynasty_house = "house_shgnt_yamana_ujifuyu"
 	father=10050033
 	trait="education_diplomacy_1"
 	religion="shinto"
@@ -589,17 +640,23 @@
 	1515.1.1={
 		birth=yes
 	}
+	1512.12.1={
+		dynasty_house = "house_shgnt_yamana_toyoyori"
+	}
 	1525.1.1={
 		give_nickname="nick_the_sama_no_suke"
 		effect = {
 			add_trait = "jugoi_ge"
 		}
 	}
-	1527.1.1={
+	1527.1.1={ # 1532(享禄5)年閏十一月以前に因幡守護
 		effect = {
 			set_realm_capital=title:c_shgnt_takakusa
 		}
 	}
+#	1543.01.01 = { # 1542(天文11)年三月～十二年十月の時点
+#		name = # Hisamichi, 久通：尼子の傘下 TODO
+#	}
 	1546.1.1={
 		death={
 		death_reason=death_battle
@@ -619,6 +676,9 @@
 	1367.1.1={
 		birth=yes
 	}
+	1371.4.14={
+		dynasty_house = "house_shgnt_yamana_tokiyoshi"
+	}
 	1395.1.1={
 		add_spouse=10050061
 	}
@@ -628,7 +688,8 @@
 }
 10050037 = {
 	name=character_name_10050037 # Mitsuoki
-	dynasty=10000500 # Yamana
+#	dynasty=10000500 # Yamana
+	dynasty_house = "house_shgnt_yamana_tokiyoshi"
 	father=10050036
 	mother=10050061
 	trait="education_diplomacy_1"
@@ -643,7 +704,8 @@
 }
 10050038 = {
 	name=character_name_10050038 # Mochihiro
-	dynasty=10000500 # Yamana
+#	dynasty=10000500 # Yamana
+	dynasty_house = "house_shgnt_yamana_tokiyoshi"
 	father=10050036
 	mother=10050061
 	trait="education_diplomacy_1"
@@ -653,12 +715,16 @@
 		birth=yes
 	}
 	1437.7.1={
-		death=yes
+		death = {
+			death_reason = death_battle
+			killer = 10050039 # Yamana Mochitoyo
+		}
 	}
 }
 10050039 = {
 	name=character_name_10050039 # Mochitoyo # Yamana Sozen
-	dynasty=10000500 # Yamana
+#	dynasty=10000500 # Yamana
+	dynasty_house = "house_shgnt_yamana_tokiyoshi"
 	father=10050036
 	mother=10050061
 	religion="shinto"
@@ -710,7 +776,8 @@
 }
 10050040 = {
 	name=character_name_10050040 # Noritoyo
-	dynasty=10000500 # Yamana
+#	dynasty=10000500 # Yamana
+	dynasty_house = "house_shgnt_yamana_tokiyoshi"
 	father=10050039
 	religion="shinto"
 	culture="sanin"
@@ -741,7 +808,8 @@
 }
 10050041 = {
 	name=character_name_10050041 # Koretoyo
-	dynasty=10000500 # Yamana
+#	dynasty=10000500 # Yamana
+	dynasty_house = "house_shgnt_yamana_tokiyoshi"
 	father=10050039
 	trait="education_martial_1"
 	religion="shinto"
@@ -762,7 +830,8 @@
 }
 10050043 = {
 	name=character_name_10050043 # Toyohisa
-	dynasty=10000500 # Yamana
+#	dynasty=10000500 # Yamana
+	dynasty_house = "house_shgnt_yamana_tokiyoshi"
 	father=10050039
 	trait="education_diplomacy_1"
 	religion="shinto"
@@ -781,7 +850,8 @@
 }
 10050044 = {
 	name=character_name_10050044 # Masatoyo
-	dynasty=10000500 # Yamana
+#	dynasty=10000500 # Yamana
+	dynasty_house = "house_shgnt_yamana_tokiyoshi"
 	father=10050040
 	martial=9
 	diplomacy=4
@@ -824,7 +894,8 @@
 }
 10050045 = {
 	name=character_name_10050045 # Munetoyo
-	dynasty=10000500 # Yamana
+#	dynasty=10000500 # Yamana
+	dynasty_house = "house_shgnt_yamana_tokiyoshi"
 	father=10050044
 	trait="education_intrigue_1"
 	religion="shinto"
@@ -844,6 +915,7 @@
 		effect = {
 			set_realm_capital=title:c_shgnt_kinosaki
 		}
+		dynasty_house = "house_shgnt_yamana_munetoyo"
 	}
 	1536.1.1={
 		death=yes
@@ -851,7 +923,8 @@
 }
 10050046 = {
 	name=character_name_10050046 # Nobutoyo
-	dynasty=10000500 # Yamana
+#	dynasty=10000500 # Yamana
+	dynasty_house = "house_shgnt_yamana_tokiyoshi"
 	father=10050044
 	trait="education_diplomacy_1"
 	religion="shinto"
@@ -864,6 +937,9 @@
 	1495.1.1={
 		give_nickname="nick_uemon_no_kami"
 	}
+	1499.3.13={
+		dynasty_house = "house_shgnt_yamana_nobutoyo"
+	}
 	1512.1.1={
 		effect = {
 			set_realm_capital = title:c_shgnt_kinosaki
@@ -875,7 +951,8 @@
 }
 10050048= {
 	name=character_name_10050048 # Toyosada
-	dynasty=10000500 # Yamana
+#	dynasty=10000500 # Yamana
+	dynasty_house = "house_shgnt_yamana_munetoyo"
 	father=10050045
 	religion="shinto"
 	culture="sanin"
@@ -903,7 +980,8 @@
 }
 10050049= {
 	name=character_name_10050049 # Toyohiro
-	dynasty=10000500 # Yamana
+#	dynasty=10000500 # Yamana
+	dynasty_house = "house_shgnt_yamana_munetoyo"
 	father=10050045
 	trait="education_intrigue_1"
 	religion="shinto"
@@ -917,7 +995,8 @@
 }
 10050051= {
 	name=character_name_10050051 # Toyokazu
-	dynasty=10000500 # Yamana
+#	dynasty=10000500 # Yamana
+	dynasty_house = "house_shgnt_yamana_munetoyo"
 	father=10050048
 	trait="education_intrigue_1"
 	religion="shinto"
@@ -946,6 +1025,9 @@
 	1349.1.1={
 		birth=yes
 	}
+	1371.4.14={
+		dynasty_house = "house_shgnt_yamana_takayoshi"
+	}
 	1400.4.11={
 		death=yes
 	}
@@ -960,13 +1042,17 @@
 	1370.1.1={
 		birth=yes
 	}
+	1371.4.14={
+		dynasty_house = "house_shgnt_yamana_takayoshi"
+	}
 	1453.1.1={
 		death=yes
 	}
 }
 10050054= {
 	name=character_name_10050054 # Hiroyuki
-	dynasty=10000500 # Yamana
+#	dynasty=10000500 # Yamana
+	dynasty_house = "house_shgnt_yamana_takayoshi"
 	father=10050053
 	trait="education_intrigue_1"
 	religion="shinto"
@@ -980,7 +1066,8 @@
 }
 10050055= {
 	name=character_name_10050055 # Masayasu
-	dynasty=10000500 # Yamana
+#	dynasty=10000500 # Yamana
+	dynasty_house = "house_shgnt_yamana_takayoshi"
 	father=10050053
 	trait="education_intrigue_1"
 	religion="shinto"
@@ -994,7 +1081,8 @@
 }
 10050056= {
 	name=character_name_10050056 # Masazane
-	dynasty=10000500 # Yamana
+#	dynasty=10000500 # Yamana
+	dynasty_house = "house_shgnt_yamana_takayoshi"
 	father=10050055
 	trait="education_intrigue_1"
 	religion="shinto"
@@ -1002,18 +1090,27 @@
 	1421.1.1={
 		birth=yes
 	}
+	1437.01.01 = {
+		give_nickname = "nick_Magojuro"
+	}
+	1488.09.18 = { # 長享2(1488)年八月十三日
+		add_pressed_claim = title:d_shgnt_inaba #　浦上宗則の策略により因幡守護に任命
+	}
 	1488.1.1={
 		effect = {
 			set_realm_capital=title:c_shgnt_takakusa
 		}
 	}
-	1489.12.18={
-		death=yes
+	1489.12.18={ # 延徳元年（1489年）十一月二十日
+		death = {
+			death_reason = death_suicide
+		}
 	}
 }
 10050057 = {
 	name=character_name_10050057 # Toyoshige
-	dynasty=10000500 # Yamana
+#	dynasty=10000500 # Yamana
+	dynasty_house = "house_shgnt_yamana_ujifuyu"
 	father=10050032 # Yamana Toyotoki
 	diplomacy=6
 	stewardship=7
@@ -1024,14 +1121,14 @@
 	1469.1.1={
 		birth=yes
 	}
-	1489.1.1={
-		give_nickname="nick_jibu_no_sho"
+	1485.01.01 = {
+		give_nickname = "nick_Kojio"
 	}
-	1489.1.1={
-		give_nickname="nick_jibu_no_sho"
-	}
-	1489.1.1={
-		give_nickname="nick_jibu_no_sho"
+	1492.1.1={ # 1491(延徳3)年九月～1492(延徳4)年二月の時点
+		give_nickname="nick_the_jibu_no_sho"
+		effect = {
+			add_trait = jugoi_ge
+		}
 	}
 	1504.1.1={
 		effect = {
@@ -1046,7 +1143,8 @@
 }
 10050058 = {
 	name=character_name_10050058 # Toyooki
-	dynasty=10000500 # Yamana
+#	dynasty=10000500 # Yamana
+	dynasty_house = "house_shgnt_yamana_hoki"
 	father=10050026
 	religion="shinto"
 	culture="sanin"
@@ -1064,7 +1162,8 @@
 }
 10050059 = {
 	name=character_name_10050059 # Toshitoyo
-	dynasty=10000500 # Yamana
+#	dynasty=10000500 # Yamana
+	dynasty_house = "house_shgnt_yamana_tokiyoshi"
 	father=10050044
 	religion="shinto"
 	culture="sanin"
@@ -1083,7 +1182,8 @@
 }
 10050060 = {
 	name=character_name_10050060 # Toyokuni
-	dynasty=10000500 # Yamana
+#	dynasty=10000500 # Yamana
+	dynasty_house = "house_shgnt_yamana_munetoyo"
 	father=10050048 # Yamana Toyosada
 	martial=7
 	diplomacy=7
@@ -1131,7 +1231,8 @@
 }
 10050062 = {
 	name=character_name_10050062 # Toyotaka
-	dynasty=10000500 # Yamana
+#	dynasty=10000500 # Yamana
+	dynasty_house = "house_shgnt_yamana_hoki"
 	father=10050026
 	religion="shinto"
 	culture="sanin"
@@ -1144,7 +1245,8 @@
 }
 10050063 = {
 	name=character_name_10050063 # Masakiyo
-	dynasty=10000500 # Yamana
+#	dynasty=10000500 # Yamana
+	dynasty_house = "house_shgnt_yamana_yoshitada"
 	father=10050028 #Norikiyo
 	trait="education_intrigue_1"
 	religion="shinto"
@@ -1161,7 +1263,8 @@
 }
 10050064= {
 	name=character_name_10050064 # Hinako #Ouchi Norihito's wife
-	dynasty=10000500 # Yamana
+#	dynasty=10000500 # Yamana
+	dynasty_house = "house_shgnt_yamana_ujifuyu"
 	father=10050030
 	female=yes
 	trait="education_intrigue_1"
@@ -1176,7 +1279,8 @@
 }
 10050065= {
 	name=character_name_10050065 # Tokiko #Hosokawa Katsumoto's wife
-	dynasty=10000500 # Yamana
+#	dynasty=10000500 # Yamana
+	dynasty_house = "house_shgnt_yamana_ujifuyu"
 	father=10050030
 	female=yes
 	trait="education_intrigue_1"
@@ -1191,7 +1295,8 @@
 }
 10050066 = {
 	name=character_name_10050066 # Acha #Ashikaga Yoshitane's wife
-	dynasty=10000500 # Yamana
+#	dynasty=10000500 # Yamana
+	dynasty_house = "house_shgnt_yamana_ujifuyu"
 	father=10050057
 	female=yes
 	trait="education_diplomacy_1"
@@ -1206,7 +1311,8 @@
 }
 10050070 = {
 	name=character_name_10050070 # Munetoyo
-	dynasty=10000500 # Yamana
+#	dynasty=10000500 # Yamana
+	dynasty_house = "house_shgnt_yamana_nobutoyo"
 	father=10050005 #Yamana Suketoyo
 	mother=10049522
 	religion="shinto"
@@ -1220,7 +1326,8 @@
 }
 10050071 = {
 	name=character_name_10050071 # Yoshichika
-	dynasty=10000500 # Yamana
+#	dynasty=10000500 # Yamana
+	dynasty_house = "house_shgnt_yamana_nobutoyo"
 	father=10050005 #Yamana Suketoyo
 	mother=10049522
 	religion="shinto"
@@ -1234,7 +1341,8 @@
 }
 10050072 = {
 	name=character_name_10050072 # Akihiro
-	dynasty=10000500 # Yamana
+#	dynasty=10000500 # Yamana
+	dynasty_house = "house_shgnt_yamana_nobutoyo"
 	father=10050005 #Yamana Suketoyo
 	mother=10049522
 	religion="shinto"
@@ -1264,7 +1372,8 @@
 }
 10050074 = {
 	name=character_name_10050074 # Hikari #Yamana Toyokuni's wife
-	dynasty=10000500 # Yamana
+#	dynasty=10000500 # Yamana
+	dynasty_house = "house_shgnt_yamana_nobutoyo"
 	father=10050005 #Yamana Suketoyo
 	female=yes
 	religion="shinto"
@@ -1278,7 +1387,8 @@
 }
 10050076 = {
 	name=character_name_10050076 # Toyomasa
-	dynasty=10000500 # Yamana
+#	dynasty=10000500 # Yamana
+	dynasty_house = "house_shgnt_yamana_munetoyo"
 	father=10050060 # Yamana Toyokuni
 	mother=10050074
 	martial=7
@@ -1300,7 +1410,8 @@
 }
 10050077 = {
 	name=character_name_10050077 # Akane #Toyotomi Hideyoshi's consort wife
-	dynasty=10000500 # Yamana
+#	dynasty=10000500 # Yamana
+	dynasty_house = "house_shgnt_yamana_munetoyo"
 	father=10050060 # Yamana Toyokuni
 	mother=10050074
 	female=yes
@@ -1323,7 +1434,8 @@
 }
 10050078 = {
 	name=character_name_10050078 # Toyoyoshi
-	dynasty=10000500 # Yamana
+#	dynasty=10000500 # Yamana
+	dynasty_house = "house_shgnt_yamana_munetoyo"
 	father=10050060 # Yamana Toyokuni
 	mother=10050074
 	martial=7
@@ -1345,7 +1457,8 @@
 }
 10050079 = {
 	name=character_name_10050079 # Toyoharu
-	dynasty=10000500 # Yamana
+#	dynasty=10000500 # Yamana
+	dynasty_house = "house_shgnt_yamana_munetoyo"
 	father=10050060 # Yamana Toyokuni
 	mother=10050074
 	martial=7
@@ -1374,6 +1487,9 @@
 	1364.1.1={
 		birth=yes
 	}
+	1371.4.14={
+		dynasty_house = "house_shgnt_yamana_ujikiyo"
+	}
 	1380.1.1={
 		give_nickname="nick_sakonoe_shogen"
 	}
@@ -1392,6 +1508,9 @@
 	culture="sanin"
 	1366.1.1={
 		birth=yes
+	}
+	1371.4.14={
+		dynasty_house = "house_shgnt_yamana_ujikiyo"
 	}
 	1382.1.1={
 		give_nickname="nick_Kojio"
@@ -1412,6 +1531,9 @@
 	1367.1.1={
 		birth=yes
 	}
+	1371.4.14={
+		dynasty_house = "house_shgnt_yamana_ujikiyo"
+	}
 	1392.1.1={
 		death=yes
 	}
@@ -1424,6 +1546,9 @@
 	culture="sanin"
 	1368.1.1={
 		birth=yes
+	}
+	1371.4.14={
+		dynasty_house = "house_shgnt_yamana_ujikiyo"
 	}
 	1418.1.1={
 		death=yes
@@ -1438,6 +1563,9 @@
 	1370.1.1={
 		birth=yes
 	}
+	1371.4.14={
+		dynasty_house = "house_shgnt_yamana_ujikiyo"
+	}
 	1395.1.1={
 		give_nickname="nick_sakyo_no_suke"
 	}
@@ -1449,7 +1577,8 @@
 }
 10050085={
 	name=character_name_10050085 # Tokihisa
-	dynasty=10000500 # Yamana
+#	dynasty=10000500 # Yamana
+	dynasty_house = "house_shgnt_yamana_ujikiyo"
 	father=10050082 # Yamana Norihisa
 	religion="shinto"
 	culture="sanin"
@@ -1514,7 +1643,8 @@
 }
 10050090={
 	name=character_name_10050090 # Tadamasa
-	dynasty=10000500 # Yamana
+#	dynasty=10000500 # Yamana
+	dynasty_house = "house_shgnt_yamana_yoshitada"
 	father=10050027 # Yamana Yoshikiyo
 	religion="shinto"
 	culture="sanin"
@@ -1527,7 +1657,8 @@
 }
 10050091={
 	name=character_name_10050091 # Masatada
-	dynasty=10000500 # Yamana
+#	dynasty=10000500 # Yamana
+	dynasty_house = "house_shgnt_yamana_yoshitada"
 	father=10050063 # Yamana Masakiyo
 	religion="shinto"
 	culture="sanin"

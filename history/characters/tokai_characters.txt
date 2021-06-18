@@ -5420,6 +5420,10 @@
 	1502.1.1={
 		birth=yes
 	}
+	1515.7.14={
+		employer=10023003 # Imagawa Ujichika
+		dynasty_house = "house_shgnt_ogasawara_kotenjin"
+	}
 	1572.6.24={
 		death=yes
 	}
@@ -5432,6 +5436,10 @@
 	culture="tokai"
 	1504.01.01={
 		birth=yes
+	}
+	1515.7.14={
+		employer=10023003 # Imagawa Ujichika
+		dynasty_house = "house_shgnt_ogasawara_kotenjin"
 	}
 	1554.1.1={
 		death=yes
@@ -5446,6 +5454,10 @@
 	1506.01.01={
 		birth=yes
 	}
+	1515.7.14={
+		employer=10023003 # Imagawa Ujichika
+		dynasty_house = "house_shgnt_ogasawara_kotenjin"
+	}
 	1556.1.1={
 		death=yes
 	}
@@ -5458,6 +5470,10 @@
 	culture="tokai"
 	1508.01.01={
 		birth=yes
+	}
+	1515.7.14={
+		employer=10023003 # Imagawa Ujichika
+		dynasty_house = "house_shgnt_ogasawara_kotenjin"
 	}
 	1558.01.01={
 		death=yes
@@ -5472,13 +5488,18 @@
 	1510.01.01={
 		birth=yes
 	}
+	1515.7.14={
+		employer=10023003 # Imagawa Ujichika
+		dynasty_house = "house_shgnt_ogasawara_kotenjin"
+	}
 	1560.1.1={
 		death=yes
 	}
 }
 10024755={
 	name=character_name_10024755 # Ujioki
-	dynasty=10000214 # Ogasawara
+#	dynasty=10000214 # Ogasawara
+	dynasty_house = "house_shgnt_ogasawara_kotenjin"
 	father=10024750 # Ogasawara Haruyoshi
 	religion="shinto"
 	culture="tokai"
@@ -5492,7 +5513,8 @@
 }
 10024756={
 	name=character_name_10024756 # Tsunauji
-	dynasty=10000214 # Ogasawara
+#	dynasty=10000214 # Ogasawara
+	dynasty_house = "house_shgnt_ogasawara_kotenjin"
 	father=10024750 # Ogasawara Haruyoshi
 	religion="shinto"
 	culture="tokai"
@@ -5505,7 +5527,8 @@
 }
 10024757={
 	name=character_name_10024757 # Kiyohiro
-	dynasty=10000214 # Ogasawara
+#	dynasty=10000214 # Ogasawara
+	dynasty_house = "house_shgnt_ogasawara_kotenjin"
 	father=10024750 # Ogasawara Haruyoshi
 	religion="shinto"
 	culture="tokai"
@@ -5519,7 +5542,8 @@
 }
 10024758={
 	name=character_name_10024758 # Yoshiyori
-	dynasty=10000214 # Ogasawara
+#	dynasty=10000214 # Ogasawara
+	dynasty_house = "house_shgnt_ogasawara_kotenjin"
 	father=10024750 # Ogasawara Haruyoshi
 	religion="shinto"
 	culture="tokai"
@@ -5538,7 +5562,8 @@
 }
 10024759={
 	name=character_name_10024759 # Ujisuke
-	dynasty=10000214 # Ogasawara
+#	dynasty=10000214 # Ogasawara
+	dynasty_house = "house_shgnt_ogasawara_kotenjin"
 	father=10024755 # Ogasawara Ujioki
 	religion="shinto"
 	culture="tokai"

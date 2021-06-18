@@ -658,6 +658,11 @@ c_shgnt_hanishina = {
     1334.01.01 = {
         liege = d_shgnt_shinano # 
         holder = 12360710 # Ogasawara Sadamune
+		effect = {
+			title:b_shgnt_hanishina_2 = {
+				set_title_name = b_shgnt_hanishina_2_1 # Funeyama
+			}
+		}
     }
     1337.01.01 = {
         holder = 12385041 # Murakami Nobusada
@@ -1567,6 +1572,11 @@ c_shgnt_minochi = {
     }
     1333.07.04 = {
         holder = 12380610 # Kosaka Shinkaku
+		effect = {
+			title:b_shgnt_minochi_6 = {
+				set_title_name = b_shgnt_minochi_6_1 # Zenkōji
+			}
+		}
     }
     1338.01.01 = {
         liege = d_shgnt_shinano # 
@@ -1984,17 +1994,17 @@ c_shgnt_shimoin = {
         liege = d_shgnt_shinano # 
         holder = 12360710 # Ogasawara Sadamune
     }
-    1347.07.05 = {
-        holder = 12360720 # Ogasawara Masanaga
+	1344.12.17 = { # 康永三年十一月十二日
+        holder = 12360720 # Ogasawara Masanaga, 小笠原貞宗は所領・守護職を嫡子政長に譲る、信濃小笠原氏の本拠伊賀良を含む
     }
     1365.04.12 = {
         holder = 12360730 # Ogasawara Nagamoto
     }
-    1400.02.01 = {
-        holder = 12360741 # Ogasawara Nagahide
-    }
-    1405.01.01 = {
-        holder = 12360740 # Ogasawara Masayasu
+	1383.03.17 = { # 永徳三(1383)年二月十三日
+		holder = 12360730 # Ogasawara Nagahide, 小笠原長基は子息の長秀に所領を譲る
+	}
+    1405.11.30 = { # 応永12(1405)年十一月九日
+        holder = 12360740 # Ogasawara Masayasu, 小笠原長秀は弟の政康に所領を譲る
     }
     1442.09.13 = {
         liege = 0 # 
@@ -2557,7 +2567,7 @@ c_shgnt_tsukama = {
         liege = 0 # 
         holder = 12360760 # Ogasawara Kiyomune
     }
-    1478.03.22 = {
+    1468.12.17 = { # 1468(応仁2)年十一月四日
         holder = 12360770 # Ogasawara Nagatomo
     }
     1501.09.24 = {
@@ -3118,8 +3128,6 @@ d_shgnt_mikawa = {
     }
 }
 d_shgnt_shinano = {
-    0001.01.01 = {
-    }
     0250.01.01 = {
         holder = 10041306 # Takeiotake
     }
@@ -3236,13 +3244,16 @@ d_shgnt_shinano = {
         liege = e_shgnt_japan # 
         holder = 12360710 # Ogasawara Sadamune
     }
+	1336.01.01 = {
+		holder = 12385041 # Murakami Nobusada
+	}
     1340.01.01 = {
         holder = 12395030 # Kira Mitsuyoshi
     }
     1341.01.01 = {
         holder = 12360710 # Ogasawara Sadamune
     }
-    1347.07.05 = {
+    1344.12.17 = { # 康永三年十一月十二日
         holder = 12360720 # Ogasawara Masanaga
     }
     1365.04.12 = {
@@ -3272,13 +3283,33 @@ d_shgnt_shinano = {
     1423.03.18 = {
         holder = 10040005 # Ashikaga Yoshikazu
     }
-    1425.01.01 = {
-        holder = 12360740 # Ogasawara Masayasu
+    1426.01.23 = { # 応永32(1425)年十二月十五日
+        holder = 12360740 # Ogasawara Masayasu, 小笠原政康、信濃守護に補任
     }
     1442.09.13 = {
-        liege = 0
-        holder = 0
+        liege = e_shgnt_japan # 室町幕府
+        holder = 10021431 # Ogasawara Muneyasu
     }
+	1446.8.31 = {
+		liege = e_shgnt_japan # 室町幕府
+		holder = 10021432 # Ogasawara Mitsuyasu, 小笠原光康、宗康死後所領を受け継ぎ守護職に補任
+	}
+	1447.08.12 = { # 文安4(1447)年七月から十一月
+		liege = e_shgnt_japan # 室町幕府
+		holder = 12360750 # Ogasawara Mochinaga, 小笠原持長、畠山氏の後援により守護職に補任
+	}
+	1448.01.01 = {
+		liege = e_shgnt_japan # 室町幕府
+		holder = 10021432 # Ogasawara Mitsuyasu
+	}
+	1452.01.01 = { # 宝徳4(1452)年時点
+		liege = e_shgnt_japan # 室町幕府
+		holder = 12360750 # Ogasawara Mochinaga
+	}
+	1457.01.01 = { # 康正2(1456)年以降のある時点
+		liege = e_shgnt_japan # 室町幕府
+		holder = 10021436 # Ogasawara Masahide
+	}
     1559.01.01 = {
         holder = 10020010 # Takeda Shingen
     }

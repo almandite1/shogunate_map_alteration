@@ -307,20 +307,17 @@ c_shgnt_kita_uwa = {
     0001.01.01 = { change_development_level = 10 }
     1100.01.01 = { change_development_level = 10 }
     1331.01.01 = { change_development_level = 30 }
-    1180.01.01 = {
-        liege = d_shgnt_iyo # 
-        holder = 12691005 # Kono Michikiyo
+	1180.01.01 = {
+        liege = 0 # 
+        holder = 12690607 # Tachibana Kiminaga
     }
-    1181.02.07 = {
+    1181.01.06 = {
         liege = d_shgnt_awa # 
         holder = 12690001 # Awata Shigeyoshi
     }
     1185.01.01 = {
         liege = 0
         holder = 0
-    }
-    1369.09.19 = {
-        holder = 10058806 # Utsunomiya Muneyasu
     }
 	1394.01.01 = {
 		effect = {
@@ -329,21 +326,14 @@ c_shgnt_kita_uwa = {
 			}
 		}
 	}
-    1400.01.01 = {
-        holder = 10058805 # Utsunomiya Yasusuke
+    1440.01.01 = {
+        holder = 10058707 # Saionji Kintoshi
     }
-    1430.01.01 = {
-        liege = 0 # 
-        holder = 10058804 # Utsunomiya Ietsuna
+    1480.01.01 = {
+        holder = 10058701 # Saionji Kinsue
     }
-    1460.01.01 = {
-        holder = 10058803 # Utsunomiya Yasutsuna
-    }
-    1490.01.01 = {
-        holder = 10058801 # Utsunomiya Nobutsuna
-    }
-    1518.01.01 = {
-        holder = 10058800 # Utsunomiya Kiyotsuna
+    1504.01.01 = {
+        holder = 10058700 # Saionji Kinie
     }
 	1533.01.01 = {
 		effect = {
@@ -352,12 +342,11 @@ c_shgnt_kita_uwa = {
 			}
 		}
 	}
-    1548.01.01 = {
-        holder = 10058802 # Utsunomiya Toyotsuna
+    1544.01.01 = {
+        holder = 10058702 # Saionji Sanemitsu
     }
-    1568.12.01 = {
-        liege = d_shgnt_iyo # 
-        holder = 10058673 # Ono Naoyuki
+    1565.01.01 = {
+        holder = 10058714 # Saionji Kinhiro
     }
 }
 c_shgnt_kuwamura = {
@@ -915,6 +904,26 @@ d_shgnt_awa = {
         liege = 0 # 
         holder = 0 # Battle of Dan-no-ura
     }
+	1221.08.01 = {
+		liege = e_shgnt_japan
+		holder = 12360501 # Ogasawara Nagakiyo
+	}
+	1223.01.01 = {
+		liege = e_shgnt_japan
+		holder = 12360600 # Ogasawara Nagatsune
+	}
+	1237.01.01={ # 仮定
+		liege = e_shgnt_japan
+		holder = 12360680 # Ogasawara Nagafusa
+	}
+	1247.1.1={ # 仮定
+		liege = e_shgnt_japan
+		holder = 10055742 # Ogasawara Nagahisa
+	}
+	1250.1.1={
+		liege = e_shgnt_japan
+		holder = 0
+	}
     1392.03.25 = {
         holder = 10040524 # Hosokawa Yoshiyuki
     }

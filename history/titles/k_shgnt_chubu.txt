@@ -42,9 +42,21 @@
     1330.01.01 = {
         holder = 12186086 # Satomi Yoshimune
     }
+	1338.01.01 = {
+		effect = {
+			title:b_shgnt_ahachi_3 = {
+				set_title_name = b_shgnt_ahachi_3_1 # Ōgaki
+			}
+		}
+	}
     1350.02.12 = {
         liege = d_shgnt_mino # 
         holder = 12131015 # Ujiie Shigekuni
+		effect = {
+			title:b_shgnt_ahachi_2 = {
+				set_title_name = b_shgnt_ahachi_2_2 # Gakuden
+			}
+		}
     }
     1360.01.01 = {
         holder = 12131020 # Ujiie Sadakuni
@@ -71,6 +83,13 @@
     1571.06.04 = {
         holder = 10025756 # Ujiie Naomasa
     }
+	1558.01.01 = {
+		effect = {
+			title:b_shgnt_ahachi_2 = {
+				set_title_name = b_shgnt_ahachi_2_1 # Sone
+			}
+		}
+	}
 }
 c_shgnt_aichi = {
     0001.01.01 = { change_development_level = 10 }
@@ -1392,6 +1411,11 @@ c_shgnt_kuwana = {
     1492.01.01 = {
         liege = k_nmih_honganji # 
         holder = 10042204 # Ganshoji Renjun
+		effect = {
+			title:b_shgnt_kuwana_1 = {
+				set_title_name = b_shgnt_kuwana_1_1 # Ganshōji
+			}
+		}
     }
     1550.09.08 = {
         holder = 10042247 # Ganshoji Shoe
@@ -1405,6 +1429,11 @@ c_shgnt_kuwana = {
     1574.10.23 = {
         liege = k_shgnt_chubu # 29120 Oda Nobunaga
         holder = 10029120 # Oda Nobunaga
+		effect = {
+			title:b_shgnt_kuwana_1 = {
+				set_title_name = b_shgnt_kuwana_1_2 # Nagashima
+			}
+		}
     }
     1574.11.01 = {
         holder = 10029330 # Takigawa Kazumasu

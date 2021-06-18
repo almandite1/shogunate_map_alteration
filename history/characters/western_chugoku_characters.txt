@@ -8241,7 +8241,8 @@
 }
 10056700= {
 	name=character_name_10056700 # Tadaoki
-	dynasty=10000500 # Yamana
+#	dynasty=10000500 # Yamana
+	dynasty_house = "house_shgnt_yamana_yoshitada"
 	father=10056701
 	martial=8
 	diplomacy=8
@@ -8262,7 +8263,8 @@
 }
 10056701= {
 	name=character_name_10056701 # Tokioki
-	dynasty=10000500 # Yamana
+#	dynasty=10000500 # Yamana
+	dynasty_house = "house_shgnt_yamana_yoshitada"
 	father=10050091
 	religion="shinto"
 	culture="western_chugoku"
@@ -8275,7 +8277,8 @@
 }
 10056702= {
 	name=character_name_10056702 # Tadakatsu
-	dynasty=10000500 # Yamana
+#	dynasty=10000500 # Yamana
+	dynasty_house = "house_shgnt_yamana_tokiyoshi"
 	father=10050059
 	religion="shinto"
 	culture="western_chugoku"
@@ -8288,7 +8291,8 @@
 }
 10056703= {
 	name=character_name_10056703 # Naomori
-	dynasty=10000500 # Yamana
+#	dynasty=10000500 # Yamana
+	dynasty_house = "house_shgnt_yamana_yoshitada"
 	father=10056700
 	religion="shinto"
 	culture="western_chugoku"
@@ -8304,7 +8308,8 @@
 }
 10056704= {
 	name=character_name_10056704 # Naoyoshi
-	dynasty=10000500 # Yamana
+#	dynasty=10000500 # Yamana
+	dynasty_house = "house_shgnt_yamana_yoshitada"
 	father=10056700
 	religion="shinto"
 	culture="western_chugoku"
@@ -8819,7 +8824,8 @@
 }
 10055700 = {
 	name=character_name_10055700 # Naganori
-	dynasty=10000214 # Ogasawara
+#	dynasty=10000214 # Ogasawara
+	dynasty_house = "house_shgnt_ogasawara_iwami"
 	father=10055701
 	martial=8
 	diplomacy=6
@@ -8839,7 +8845,8 @@
 }
 10055701 = {
 	name=character_name_10055701 # Nagataka
-	dynasty=10000214 # Ogasawara
+#	dynasty=10000214 # Ogasawara
+	dynasty_house = "house_shgnt_ogasawara_iwami"
 	father=10055703
 	martial=7
 	diplomacy=8
@@ -8859,7 +8866,8 @@
 }
 10055702 = {
 	name=character_name_10055702 # Nagakatsu
-	dynasty=10000214 # Ogasawara
+#	dynasty=10000214 # Ogasawara
+	dynasty_house = "house_shgnt_ogasawara_iwami"
 	father=10055700
 	martial=6
 	diplomacy=8
@@ -8882,7 +8890,8 @@
 }
 10055703 = {
 	name=character_name_10055703 # Nagasada
-	dynasty=10000214 # Ogasawara
+#	dynasty=10000214 # Ogasawara
+	dynasty_house = "house_shgnt_ogasawara_iwami"
 	father=10055715
 	religion="shinto"
 	culture="western_chugoku"
@@ -8895,7 +8904,8 @@
 }
 10055704 = {
 	name=character_name_10055704 # Takaaki
-	dynasty=10000214 # Ogasawara
+#	dynasty=10000214 # Ogasawara
+	dynasty_house = "house_shgnt_ogasawara_iwami"
 	father=10055700
 	trait="education_diplomacy_1"
 	religion="shinto"
@@ -8909,7 +8919,8 @@
 }
 10055705 = {
 	name=character_name_10055705 # Nagasuke
-	dynasty=10000214 # Ogasawara
+#	dynasty=10000214 # Ogasawara
+	dynasty_house = "house_shgnt_ogasawara_iwami"
 	father=10055701
 	trait="education_intrigue_1"
 	religion="shinto"
@@ -8923,7 +8934,8 @@
 }
 10055706 = {
 	name=character_name_10055706 # Masaaki
-	dynasty=10000214 # Ogasawara
+#	dynasty=10000214 # Ogasawara
+	dynasty_house = "house_shgnt_ogasawara_iwami"
 	father=10055701
 	trait="education_intrigue_1"
 	religion="shinto"
@@ -8937,7 +8949,8 @@
 }
 10055707 = {
 	name=character_name_10055707 # Nagasane
-	dynasty=10000214 # Ogasawara
+#	dynasty=10000214 # Ogasawara
+	dynasty_house = "house_shgnt_ogasawara_iwami"
 	father=10055701
 	trait="education_intrigue_1"
 	religion="shinto"
@@ -8951,7 +8964,8 @@
 }
 10055708 = {
 	name=character_name_10055708 # Nagami
-	dynasty=10000214 # Ogasawara
+#	dynasty=10000214 # Ogasawara
+	dynasty_house = "house_shgnt_ogasawara_iwami"
 	father=10055701
 	trait="education_intrigue_1"
 	religion="shinto"
@@ -8965,7 +8979,8 @@
 }
 10055709 = {
 	name=character_name_10055709 # Akari #Yamana Shikibu no sho's wife
-	dynasty=10000214 # Ogasawara
+#	dynasty=10000214 # Ogasawara
+	dynasty_house = "house_shgnt_ogasawara_iwami"
 	female=yes
 	father=10055701
 	trait="education_intrigue_1"
@@ -8980,7 +8995,8 @@
 }
 10055710 = {
 	name=character_name_10055710 # Nagamichi
-	dynasty=10000214 # Ogasawara
+#	dynasty=10000214 # Ogasawara
+	dynasty_house = "house_shgnt_ogasawara_iwami"
 	father=10055703
 	trait="education_diplomacy_2"
 	religion="shinto"
@@ -8994,7 +9010,8 @@
 }
 10055711 = {
 	name=character_name_10055711 # Michi #Takahashi Nanigashi's wife
-	dynasty=10000214 # Ogasawara
+#	dynasty=10000214 # Ogasawara
+	dynasty_house = "house_shgnt_ogasawara_iwami"
 	female=yes
 	father=10055703
 	trait="education_diplomacy_2"
@@ -9009,7 +9026,8 @@
 }
 10055712 = {
 	name=character_name_10055712 # Sanae #Fukuya Nanigashi's wife
-	dynasty=10000214 # Ogasawara
+#	dynasty=10000214 # Ogasawara
+	dynasty_house = "house_shgnt_ogasawara_iwami"
 	female=yes
 	father=10055703
 	trait="education_diplomacy_2"
@@ -9024,7 +9042,8 @@
 }
 10055713 = {
 	name=character_name_10055713 # Tachibana #Kaneko Nanigashi's wife
-	dynasty=10000214 # Ogasawara
+#	dynasty=10000214 # Ogasawara
+	dynasty_house = "house_shgnt_ogasawara_iwami"
 	female=yes
 	father=10055703
 	trait="education_diplomacy_2"
@@ -9039,7 +9058,8 @@
 }
 10055714 = {
 	name=character_name_10055714 # Kuni #Oie Nanigashi's wife
-	dynasty=10000214 # Ogasawara
+#	dynasty=10000214 # Ogasawara
+	dynasty_house = "house_shgnt_ogasawara_iwami"
 	female=yes
 	father=10055703
 	trait="education_diplomacy_2"
@@ -9054,7 +9074,8 @@
 }
 10055715 = {
 	name=character_name_10055715 # Nagamasa
-	dynasty=10000214 # Ogasawara
+#	dynasty=10000214 # Ogasawara
+	dynasty_house = "house_shgnt_ogasawara_iwami"
 	father=10055718
 	religion="shinto"
 	culture="western_chugoku"
@@ -9067,7 +9088,8 @@
 }
 10055716 = {
 	name=character_name_10055716 # Minori #Fukumitsu Nanigashi's wife
-	dynasty=10000214 # Ogasawara
+#	dynasty=10000214 # Ogasawara
+	dynasty_house = "house_shgnt_ogasawara_iwami"
 	female=yes
 	father=10055715
 	religion="shinto"
@@ -9081,7 +9103,8 @@
 }
 10055717 = {
 	name=character_name_10055717 # Shizuka # Hane Tootouminokami Yasutsugu's wife
-	dynasty=10000214 # Ogasawara
+#	dynasty=10000214 # Ogasawara
+	dynasty_house = "house_shgnt_ogasawara_iwami"
 	female=yes
 	father=10055715
 	religion="shinto"
@@ -9095,7 +9118,8 @@
 }
 10055718 = {
 	name=character_name_10055718 # Nagahiro
-	dynasty=10000214 # Ogasawara
+#	dynasty=10000214 # Ogasawara
+	dynasty_house = "house_shgnt_ogasawara_iwami"
 	father=10055721
 	religion="shinto"
 	culture="western_chugoku"
@@ -9108,7 +9132,8 @@
 }
 10055719 = {
 	name=character_name_10055719 # Mikoto #Takahashi Daikuro's wife
-	dynasty=10000214 # Ogasawara
+#	dynasty=10000214 # Ogasawara
+	dynasty_house = "house_shgnt_ogasawara_iwami"
 	female=yes
 	father=10055721
 	religion="shinto"
@@ -9122,7 +9147,8 @@
 }
 10055720 = {
 	name=character_name_10055720 # Kane # Yoshimi Nanigashi's wife
-	dynasty=10000214 # Ogasawara
+#	dynasty=10000214 # Ogasawara
+	dynasty_house = "house_shgnt_ogasawara_iwami"
 	female=yes
 	father=10055721
 	religion="shinto"
@@ -9136,7 +9162,8 @@
 }
 10055721 = {
 	name=character_name_10055721 # Naganao
-	dynasty=10000214 # Ogasawara
+#	dynasty=10000214 # Ogasawara
+	dynasty_house = "house_shgnt_ogasawara_iwami"
 	father=10055722
 	religion="shinto"
 	culture="western_chugoku"
@@ -9149,7 +9176,8 @@
 }
 10055722 = {
 	name=character_name_10055722 # Naganari
-	dynasty=10000214 # Ogasawara
+#	dynasty=10000214 # Ogasawara
+	dynasty_house = "house_shgnt_ogasawara_iwami"
 	father=10055726
 	religion="shinto"
 	culture="western_chugoku"
@@ -9162,7 +9190,8 @@
 }
 10055723 = {
 	name=character_name_10055723 # Nagasada
-	dynasty=10000214 # Ogasawara
+#	dynasty=10000214 # Ogasawara
+	dynasty_house = "house_shgnt_ogasawara_iwami"
 	father=10055726
 	religion="shinto"
 	culture="western_chugoku"
@@ -9175,7 +9204,8 @@
 }
 10055724 = {
 	name=character_name_10055724 # Yoshikane
-	dynasty=10000214 # Ogasawara
+#	dynasty=10000214 # Ogasawara
+	dynasty_house = "house_shgnt_ogasawara_iwami"
 	father=10055726
 	religion="shinto"
 	culture="western_chugoku"
@@ -9188,7 +9218,8 @@
 }
 10055725 = {
 	name=character_name_10055725 # Nagasuke
-	dynasty=10000214 # Ogasawara
+#	dynasty=10000214 # Ogasawara
+	dynasty_house = "house_shgnt_ogasawara_iwami"
 	father=10055726
 	religion="shinto"
 	culture="western_chugoku"
@@ -9201,7 +9232,8 @@
 }
 10055726 = {
 	name=character_name_10055726 # Naganori
-	dynasty=10000214 # Ogasawara
+#	dynasty=10000214 # Ogasawara
+	dynasty_house = "house_shgnt_ogasawara_iwami"
 	father=10055730
 	religion="shinto"
 	culture="western_chugoku"
@@ -9214,7 +9246,8 @@
 }
 10055727 = {
 	name=character_name_10055727 # Nagasuke
-	dynasty=10000214 # Ogasawara
+#	dynasty=10000214 # Ogasawara
+	dynasty_house = "house_shgnt_ogasawara_iwami"
 	father=10055730
 	religion="shinto"
 	culture="western_chugoku"
@@ -9227,7 +9260,8 @@
 }
 10055728 = {
 	name=character_name_10055728 # Nagayoshi
-	dynasty=10000214 # Ogasawara
+#	dynasty=10000214 # Ogasawara
+	dynasty_house = "house_shgnt_ogasawara_iwami"
 	father=10055730
 	religion="shinto"
 	culture="western_chugoku"
@@ -9240,7 +9274,8 @@
 }
 10055729 = {
 	name=character_name_10055729 # Nagatatsu
-	dynasty=10000214 # Ogasawara
+#	dynasty=10000214 # Ogasawara
+	dynasty_house = "house_shgnt_ogasawara_iwami"
 	father=10055730
 	religion="shinto"
 	culture="western_chugoku"
@@ -9253,7 +9288,8 @@
 }
 10055730 = {
 	name=character_name_10055730 # Nagayoshi
-	dynasty=10000214 # Ogasawara
+#	dynasty=10000214 # Ogasawara
+	dynasty_house = "house_shgnt_ogasawara_iwami"
 	father=10055733
 	religion="shinto"
 	culture="western_chugoku"
@@ -9266,7 +9302,8 @@
 }
 10055731 = {
 	name=character_name_10055731 # Nana #Dewa's wife
-	dynasty=10000214 # Ogasawara
+#	dynasty=10000214 # Ogasawara
+	dynasty_house = "house_shgnt_ogasawara_iwami"
 	female=yes
 	father=10055733
 	religion="shinto"
@@ -9280,7 +9317,8 @@
 }
 10055732 = {
 	name=character_name_10055732 # Ujiyoshi
-	dynasty=10000214 # Ogasawara
+#	dynasty=10000214 # Ogasawara
+	dynasty_house = "house_shgnt_ogasawara_iwami"
 	father=10055733
 	religion="shinto"
 	culture="western_chugoku"
@@ -9293,7 +9331,8 @@
 }
 10055733 = {
 	name=character_name_10055733 # Nagauji
-	dynasty=10000214 # Ogasawara
+#	dynasty=10000214 # Ogasawara
+	dynasty_house = "house_shgnt_ogasawara_iwami"
 	father=10055736
 	religion="shinto"
 	culture="western_chugoku"
@@ -9306,7 +9345,8 @@
 }
 10055734 = {
 	name=character_name_10055734 # Nagayoshi
-	dynasty=10000214 # Ogasawara
+#	dynasty=10000214 # Ogasawara
+	dynasty_house = "house_shgnt_ogasawara_iwami"
 	father=10055736
 	religion="shinto"
 	culture="western_chugoku"
@@ -9319,7 +9359,8 @@
 }
 10055735 = {
 	name=character_name_10055735 # Ichi # Masuda Gemba no kami(kanekata)'s wife
-	dynasty=10000214 # Ogasawara
+#	dynasty=10000214 # Ogasawara
+	dynasty_house = "house_shgnt_ogasawara_iwami"
 	female=yes
 	father=10055736
 	religion="shinto"
@@ -9333,7 +9374,8 @@
 }
 10055736 = {
 	name=character_name_10055736 # Nagatane
-	dynasty=10000214 # Ogasawara
+#	dynasty=10000214 # Ogasawara
+	dynasty_house = "house_shgnt_ogasawara_iwami"
 	father=10055738
 	religion="shinto"
 	culture="western_chugoku"
@@ -9346,7 +9388,8 @@
 }
 10055738 = {
 	name=character_name_10055738 # Ienaga
-	dynasty=10000214 # Ogasawara
+#	dynasty=10000214 # Ogasawara
+	dynasty_house = "house_shgnt_ogasawara_iwami"
 	father=10055741
 	mother=12661222
 	religion="shinto"
@@ -9354,13 +9397,17 @@
 	1260.1.1={
 		birth=yes
 	}
+	1290.01.01 = {
+		dynasty_house = "house_shgnt_ogasawara_iwami"
+	}
 	1333.5.4={
 		death=yes
 	}
 }
 10055739 = {
 	name=character_name_10055739 # Nagamitsu
-	dynasty=10000214 # Ogasawara
+#	dynasty=10000214 # Ogasawara
+	dynasty_house = "house_shgnt_ogasawara_iwami"
 	father=10055741
 	mother=12661222
 	religion="shinto"
@@ -9374,7 +9421,8 @@
 }
 10055740 = {
 	name=character_name_10055740 # Nagayuki
-	dynasty=10000214 # Ogasawara
+#	dynasty=10000214 # Ogasawara
+	dynasty_house = "house_shgnt_ogasawara_iwami"
 	father=10055741
 	mother=12661222
 	religion="shinto"
@@ -9412,6 +9460,7 @@
 		birth=yes
 	}
 	1250.1.1={
+		give_nickname = "nick_the_sahyoe_no_jo"
 		death=yes
 	}
 }
@@ -9461,7 +9510,8 @@
 }
 10055749 = {
 	name=character_name_10055749 # Nagahata
-	dynasty=10000214 # Ogasawara
+#	dynasty=10000214 # Ogasawara
+	dynasty_house = "house_shgnt_ogasawara_iwami"
 	father=10055702
 	mother=10056227
 	trait="education_diplomacy_1"
@@ -9477,7 +9527,8 @@
 }
 10055750 = {
 	name=character_name_10055750 # Chiyo
-	dynasty=10000214 # Ogasawara
+#	dynasty=10000214 # Ogasawara
+	dynasty_house = "house_shgnt_ogasawara_iwami"
 	female=yes
 	father=10055749
 	trait="education_diplomacy_1"
@@ -9492,7 +9543,8 @@
 }
 10055751 = {
 	name=character_name_10055751 # Naganori
-	dynasty=10000214 # Ogasawara
+#	dynasty=10000214 # Ogasawara
+	dynasty_house = "house_shgnt_ogasawara_iwami"
 	father=10055702
 	mother=10056227
 	trait="education_diplomacy_1"
@@ -9512,7 +9564,8 @@
 }
 10055752 = {
 	name=character_name_10055752 # Motonaga
-	dynasty=10000214 # Ogasawara
+#	dynasty=10000214 # Ogasawara
+	dynasty_house = "house_shgnt_ogasawara_iwami"
 	father=10055751
 	trait="education_diplomacy_1"
 	religion="shinto"
@@ -9526,7 +9579,8 @@
 }
 10055753 = {
 	name=character_name_10055753 # Nagachika
-	dynasty=10000214 # Ogasawara
+#	dynasty=10000214 # Ogasawara
+	dynasty_house = "house_shgnt_ogasawara_iwami"
 	father=10055751
 	trait="education_diplomacy_1"
 	religion="shinto"
@@ -9543,7 +9597,8 @@
 }
 10055754={
 	name=character_name_10055754 # Naganobu
-	dynasty=10000868 # Sasuka
+#	dynasty=10000868 # Sasuka
+	dynasty_house = "house_shgnt_ogasawara_iwami"
 	father=10055701 # Ogasawara Nagataka
 	religion="shinto"
 	culture="western_chugoku"

@@ -3,6 +3,12 @@
 	culture = western_chubu
 	religion = shinto
 	holding = none
+	1492.01.01 = {
+		holding = church_holding # Ganshōji
+	}
+	1574.10.23 = {
+		holding = none
+	}
 }
 191 = { # Kuwana_2
 	culture = western_chubu
@@ -654,11 +660,17 @@
 	culture = western_chubu
 	religion = shinto
 	holding = none
+	1350.02.12 = {
+		holding = castle_holding
+	}
 }
 826 = { # Ahachi_3
 	culture = western_chubu
 	religion = shinto
 	holding = none
+	1338.01.01 = {
+		holding = castle_holding # Ōgaki
+	}
 }
 827 = { # Ahachi_4
 	culture = western_chubu

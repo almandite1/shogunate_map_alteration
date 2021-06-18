@@ -66,6 +66,9 @@
 	culture = southern_kinai
 	religion = shinto
 	holding = none
+	1394.01.01 = {
+		holding = castle_holding # Tsutsui, Kōriyama
+	}
 }
 45 = { # Heguri_1
 	culture = southern_kinai
@@ -121,6 +124,9 @@
 	culture = southern_kinai
 	religion = shinto
 	holding = castle_holding
+	1573.01.01 = {
+		holding = none
+	}
 }
 56 = { # Shikinokami_1
 	culture = southern_kinai
@@ -146,6 +152,12 @@
 	culture = southern_kinai
 	religion = shinto
 	holding = none
+	1200.01.01 = {
+		holding = castle_holding # Tōichi
+	}
+	1578.02.23 = {
+		holding = none
+	}
 }
 61 = { # Tochi_2
 	culture = southern_kinai
@@ -607,6 +619,12 @@
 	culture = southern_kinai
 	religion = shinto
 	holding = none
+	1550.01.01 = {
+		holding = castle_holding # Hanzak
+	}
+	1585.01.01 = {
+		holding = none
+	}
 }
 2058 = { # Naga_5
 	culture = southern_kinai
@@ -677,6 +695,12 @@
 	culture = southern_kinai
 	religion = shinto
 	holding = none
+	1550.01.01 = {
+		holding = castle_holding # Saika
+	}
+	1585.01.01 = {
+		holding = none
+	}
 }
 2072 = { # Ama_3
 	culture = southern_kinai
@@ -767,6 +791,9 @@
 	culture = southern_kinai
 	religion = shinto
 	holding = church_holding
+	1573.01.01 = {
+		holding = castle_holding
+	}
 }
 2091 = { # Muro_7
 	culture = southern_kinai
