@@ -757,6 +757,9 @@
 	1210.1.1={
 		birth=yes
 	}
+	1230.01.01 = {
+		dynasty_house = house_shgnt_takashima
+	}
 	1270.1.1={
 		death=yes
 	}
@@ -878,7 +881,8 @@
 }
 12510300={
 	name=character_name_12510300 # Yasunobu
-	dynasty=10007331 # Takashima
+#	dynasty=10007331 # Takashima
+	dynasty_house = house_shgnt_takashima
 	father=12510082 # Sasaki Takanobu
 	religion="shinto"
 	culture="central_kinai"
@@ -891,7 +895,8 @@
 }
 12510301={
 	name=character_name_12510301 # Yoritsuna
-	dynasty=10007331 # Takashima
+#	dynasty=10007331 # Takashima
+	dynasty_house = house_shgnt_takashima
 	father=12510082 # Sasaki Takanobu
 	religion="shinto"
 	culture="central_kinai"
@@ -904,7 +909,8 @@
 }
 12510310={
 	name=character_name_12510310 # Yoshitsuna
-	dynasty=10000451 # Kutsuki
+#	dynasty=10000451 # Kutsuki
+	dynasty_house = house_shgnt_kutsuki
 	father=12510301 # Takashima Yoritsuna
 	religion="shinto"
 	culture="central_kinai"
@@ -917,7 +923,8 @@
 }
 12510315={
 	name=character_name_12510315 # Tokitsune
-	dynasty=10000451 # Kutsuki
+#	dynasty=10000451 # Kutsuki
+	dynasty_house = house_shgnt_kutsuki
 	father=12510310 # Kutsuki Yoshitsuna
 	religion="shinto"
 	culture="central_kinai"
@@ -930,7 +937,8 @@
 }
 12510320={
 	name=character_name_12510320 # Yoshiuji
-	dynasty=10000451 # Kutsuki
+#	dynasty=10000451 # Kutsuki
+	dynasty_house = house_shgnt_kutsuki
 	father=12510315 # Kutsuki Tokitsune
 	religion="shinto"
 	culture="central_kinai"
@@ -943,7 +951,8 @@
 }
 12510325={
 	name=character_name_12510325 # Tsuneuji
-	dynasty=10000451 # Kutsuki
+#	dynasty=10000451 # Kutsuki
+	dynasty_house = house_shgnt_kutsuki
 	father=12510320 # Kutsuki Yoshiuji
 	religion="shinto"
 	culture="central_kinai"
@@ -956,7 +965,8 @@
 }
 12510330={
 	name=character_name_12510330 # Ujihide
-	dynasty=10000451 # Kutsuki
+#	dynasty=10000451 # Kutsuki
+	dynasty_house = house_shgnt_kutsuki
 	father=12510325 # Kutsuki Tsuneuji
 	religion="shinto"
 	culture="central_kinai"
@@ -969,7 +979,8 @@
 }
 12510331={
 	name=character_name_12510331 # Ujitsuna
-	dynasty=10000451 # Kutsuki
+#	dynasty=10000451 # Kutsuki
+	dynasty_house = house_shgnt_kutsuki
 	father=12510325 # Kutsuki Tsuneuji
 	religion="shinto"
 	culture="central_kinai"
@@ -982,7 +993,8 @@
 }
 12510335={
 	name=character_name_12510335 # Yoshitsuna
-	dynasty=10000451 # Kutsuki
+#	dynasty=10000451 # Kutsuki
+	dynasty_house = house_shgnt_kutsuki
 	father=12510331 # Kutsuki Ujitsuna
 	religion="shinto"
 	culture="central_kinai"
@@ -995,7 +1007,8 @@
 }
 12510340={
 	name=character_name_12510340 # Tokitsuna
-	dynasty=10000451 # Kutsuki
+#	dynasty=10000451 # Kutsuki
+	dynasty_house = house_shgnt_kutsuki
 	father=12510335 # Kutsuki Yoshitsuna
 	religion="shinto"
 	culture="central_kinai"
@@ -1008,7 +1021,8 @@
 }
 12510345={
 	name=character_name_12510345 # Sadataka
-	dynasty=10000451 # Kutsuki
+#	dynasty=10000451 # Kutsuki
+	dynasty_house = house_shgnt_kutsuki
 	father=12510340 # Kutsuki Tokitsuna
 	religion="shinto"
 	culture="central_kinai"

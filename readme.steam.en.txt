@@ -1,7 +1,7 @@
-Shogunate Map alteration MOD alpha Version 0.4.6 'Atoiya'
+Shogunate Map alteration MOD alpha Version 0.4.8 'Atoiya'
 
 [h1]※ This is a public upload test, so it will unexpectedly become private[/h1]
-[h1]Shogunate MOD Map alteration sub MOD alpha version Version 0.4.6 'Atoiya'[/h1]
+[h1]Shogunate MOD Map alteration sub MOD alpha version Version 0.4.8 'Atoiya'[/h1]
 ====
 
 Shogunate Map alteration sub MOD is a submod of the Shogunate mod. It replaces map with a high-resolution one and increases the Provence-Baron territory.
@@ -29,6 +29,9 @@ The increased number of Provinces will give you more strategic and tactical opti
 Counties that existed in the 15th century have been reorganized to appear in the game, and the number of {z} county territories has been increased compared to the main mod.
 Some counties were divided like counties that existed in modern times because they had a large number of Provinces or a large area.
 Towns such as "Kyoto", "Osaka", "Nara", and "Sakai" were set up as independent county territories.
+
+[h3]Road map[/h3]
+You can see what we are currently working [url=https://github.com/almandite1/shogunate_map_alteration/issues?q=is%3Aopen+assignee%3Aalmandite1]on here[/url].
 
 [h3]Known Issues & Unimplemented Features[/h3]
 [url=https://github.com/almandite1/shogunate_map_alteration/issues?q=is%3Aissue+is%3Aopen+label%3A%22known+issues+%26+not+yet+installed%22]List of Known Issues & Unimplemented Features.[/url]

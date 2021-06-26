@@ -1,7 +1,7 @@
-Alteración del mapa del Shogunato MOD versión 0.4.7 'Atoiya'
+Alteración del mapa del Shogunato MOD versión 0.4.8 'Atoiya'
 
 [h1]※ Esta es una prueba de subida pública, por lo que inesperadamente se convertirá en privada[/h1]
-[h1]Shogunate MOD Alteración del mapa sub MOD versión alfa Versión 0.4.7 'Atoiya'[/h1]
+[h1]Shogunate MOD Alteración del mapa sub MOD versión alfa Versión 0.4.8 'Atoiya'[/h1]
 ====
 
 Shogunate Alteración del mapa sub-MOD es un submod del mod Shogunate. Sustituye el mapa por uno de alta resolución y aumenta el territorio de Provenza-Barón.

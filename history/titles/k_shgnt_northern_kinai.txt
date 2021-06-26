@@ -496,6 +496,79 @@ c_shgnt_gamafu = {
         holder = 10029400 # Hashiba Hideyoshi
     }
 }
+c_shgnt_gamafu_hino = {
+    0001.01.01 = { change_development_level = 40 }
+    1100.01.01 = { change_development_level = 40 }
+    1331.01.01 = { change_development_level = 40 }
+    1180.01.01 = {
+        holder = 12515000 # Yamamoto Yoshitsune
+    }
+    1180.12.24 = {
+        liege = e_shgnt_japan # 
+        holder = 10110025 # Taira Kiyomori / Battle of Omi
+    }
+    1181.03.20 = {
+        holder = 10110042 # Taira Munemori
+    }
+    1183.08.17 = {
+        liege = d_shgnt_omi # Yamamoto Yoshitsune
+        holder = 12515000 # Yamamoto Yoshitsune / Taira's escape to the west
+    }
+    1184.03.04 = {
+        liege = k_shgnt_western_kanto # 
+        holder = 12510030 # Sasaki Hideyoshi / Battle of Awazu
+    }
+    1184.08.26 = {
+        liege = d_shgnt_omi # 
+        holder = 12510060 # Sasaki Sadatsuna / the three-day rebellion of the Taira clan
+    }
+    1205.04.29 = {
+        holder = 12510070 # Sasaki Hirotsuna
+    }
+    1221.07.22 = {
+        holder = 12510073 # Sasaki Nobutsuna / the Jokyu War
+    }
+    1242.04.07 = {
+        holder = 12510083 # Sasaki [Kyogoku] Ujinobu
+    }
+    1295.01.01 = {
+        holder = 12510090 # Sasaki [Kyogoku] Munetsuna
+    }
+    1297.09.27 = {
+        holder = 12510100 # Sasaki [Kyogoku] Sadamune
+    }
+    1305.05.31 = {
+        holder = 10044201 # Sasaki [Kyogoku] Muneuji
+    }
+    1329.08.11 = {
+        holder = 10044203 # Sasaki [Kyogoku] Takauji
+    }
+    1440.01.01 = {
+        liege = d_nmih_southern_omi # 
+        holder = 10044660 # Iba Mitsutaka
+    }
+    1460.01.01 = {
+        holder = 10044661 # Iba Sadataka
+    }
+    1467.01.01 = {
+        liege = e_shgnt_japan # 
+        holder = 10044500 # Gamo Sadahide
+    }
+    1514.03.30 = {
+        holder = 10044503 # Gamo Hidenori
+    }
+    1523.04.23 = {
+        holder = 10044504 # Gamo Sadahide
+    }
+    1568.10.12 = {
+        liege = k_shgnt_chubu # vassal of Oda
+        holder = 10044505 # Gamo Katahide
+    }
+    1582.06.21 = {
+        liege = d_shgnt_harima # 
+        holder = 10044508 # Gamo Ujisato
+    }
+}
 c_shgnt_higashinari = {
     0001.01.01 = { change_development_level = 20 }
     1331.01.01 = { change_development_level = 40 }

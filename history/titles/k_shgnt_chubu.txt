@@ -199,6 +199,13 @@ c_shgnt_ano = {
     1239.01.01 = {
         holder = 10026510 # Nagano Sukemasa
     }
+	1274.01.01 = {
+		effect = {
+			title:b_shgnt_ano_6 = {
+				set_title_name = b_shgnt_ano_6_1 # Nagano
+			}
+		}
+	}
     1280.01.01 = {
         holder = 10026511 # Nagano Sukefuji
     }
@@ -711,6 +718,13 @@ c_shgnt_ichishi = {
         liege = 0 # 
         holder = 0 # Failure of Taira's Three-day rebellion
     }
+	1343.01.01 = {
+		effect = {
+			title:b_shgnt_ichishi_7 = {
+				set_title_name = b_shgnt_ichishi_7_1 # Kiriyama
+			}
+		}
+	}
     1383.07.01 = {
         holder = 10026050 # Kitabatake Akiyasu
     }
@@ -2355,7 +2369,9 @@ d_shgnt_mino = {
     1567.10.01 = {
         liege = k_shgnt_chubu # 
         holder = 10029120 # Oda Nobunaga
-		set_capital_county = title:c_shgnt_mino_atsumi
+		effect = {
+			set_capital_county = title:c_shgnt_mino_atsumi
+		}
     }
     1575.12.30 = {
         holder = 10029160 # Oda Nobutada

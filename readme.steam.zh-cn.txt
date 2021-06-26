@@ -1,7 +1,7 @@
-Shogunate 大修地图替代 MOD α版 Version 0.4.7 'Atoiya'
+Shogunate 大修地图替代 MOD α版 Version 0.4.8 'Atoiya'
 
 [h1]＊此为上传测试，将不另行通知。[/h1]
-[h1]Shogunate 大修地图替代 MOD α版 Version 0.4.7 'Atoiya'[/h1]
+[h1]Shogunate 大修地图替代 MOD α版 Version 0.4.8 'Atoiya'[/h1]
 ====
 
 Shogunate 大修地图替代 MOD α版是Shogunate（幕府）MOD的一个子模式。

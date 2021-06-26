@@ -793,14 +793,17 @@
 926 = { # Hanishina_1
 	culture = koshin
 	religion = shinto
-	holding = castle_holding
+	holding = none
+	1553.09.01 = {
+		holding = castle_holding # Kaizu, Matsushiro
+	}
 }
 927 = { # Hanishina_2
 	culture = koshin
 	religion = shinto
-	holding = none
-	1392.01.01 = {
-		holding = castle_holding # Katsurao
+	holding = castle_holding # Katsurao
+	1553.09.01 = {
+		holding = none
 	}
 }
 928 = { # Sarashina_1

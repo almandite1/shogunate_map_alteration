@@ -2606,7 +2606,8 @@
 }
 10017300 = {
 	name=character_name_10017300 # Kagetaka
-	dynasty=10000320 # Nagao
+#	dynasty=10000320 # Nagao
+	dynasty_house = house_shgnt_nagao_soja
 	father=10017301
 	martial=7
 	diplomacy=6
@@ -2626,7 +2627,8 @@
 }
 10017301 = {
 	name=character_name_10017301 # Akikage
-	dynasty=10000320 # Nagao
+#	dynasty=10000320 # Nagao
+	dynasty_house = house_shgnt_nagao_soja
 	father=10017304
 	martial=7
 	diplomacy=7
@@ -2646,7 +2648,8 @@
 }
 10017302 = {
 	name=character_name_10017302 # Norikage
-	dynasty=10000320 # Nagao
+#	dynasty=10000320 # Nagao
+	dynasty_house = house_shgnt_nagao_soja
 	father=10017301
 	martial=7
 	diplomacy=6
@@ -2666,6 +2669,7 @@
 			set_real_father = character:10017301
 			add_trait = "child_of_adoption"
 		}
+		dynasty_house = house_shgnt_nagao_shiroi
 	}
 	1583.5.23={
 		death=yes
@@ -2673,7 +2677,8 @@
 }
 10017303 = {
 	name=character_name_10017303 # Kagefusa
-	dynasty=10000320 # Nagao
+#	dynasty=10000320 # Nagao
+	dynasty_house = house_shgnt_nagao_soja
 	father=10017301
 	martial=6
 	diplomacy=7
@@ -2693,7 +2698,8 @@
 }
 10017304 = {
 	name=character_name_10017304 # Sadaaki
-	dynasty=10000320 # Nagao
+#	dynasty=10000320 # Nagao
+	dynasty_house = house_shgnt_nagao_soja
 	father=10017305
 	religion="shinto"
 	culture="western_kanto"
@@ -2706,7 +2712,8 @@
 }
 10017305 = {
 	name=character_name_10017305 # Norikage
-	dynasty=10000320 # Nagao
+#	dynasty=10000320 # Nagao
+	dynasty_house = house_shgnt_nagao_soja
 	father=10017306
 	religion="shinto"
 	culture="western_kanto"
@@ -2719,7 +2726,8 @@
 }
 10017306 = {
 	name=character_name_10017306 # Saneaki
-	dynasty=10000320 # Nagao
+#	dynasty=10000320 # Nagao
+	dynasty_house = house_shgnt_nagao_soja
 	father=10017307
 	religion="shinto"
 	culture="western_kanto"
@@ -2732,7 +2740,8 @@
 }
 10017307 = {
 	name=character_name_10017307 # Saneaki
-	dynasty=10000320 # Nagao
+#	dynasty=10000320 # Nagao
+	dynasty_house = house_shgnt_nagao_soja
 	father=10017308
 	religion="shinto"
 	culture="western_kanto"
@@ -2745,7 +2754,8 @@
 }
 10017308 = {
 	name=character_name_10017308 # Kageaki
-	dynasty=10000320 # Nagao
+#	dynasty=10000320 # Nagao
+	dynasty_house = house_shgnt_nagao_soja
 	father=10017309
 	religion="shinto"
 	culture="western_kanto"
@@ -2758,7 +2768,8 @@
 }
 10017309 = {
 	name=character_name_10017309 # Noriaki
-	dynasty=10000320 # Nagao
+#	dynasty=10000320 # Nagao
+	dynasty_house = house_shgnt_nagao_soja
 	father=10017310
 	religion="shinto"
 	culture="western_kanto"
@@ -2771,7 +2782,8 @@
 }
 10017310 = {
 	name=character_name_10017310 # Tadatsuna
-	dynasty=10000320 # Nagao
+#	dynasty=10000320 # Nagao
+	dynasty_house = house_shgnt_nagao_soja
 	father=10017311
 	religion="shinto"
 	culture="western_kanto"
@@ -2791,13 +2803,17 @@
 	1330.1.1={
 		birth=yes
 	}
+	1360.01.01 = {
+		dynasty_house = house_shgnt_nagao_soja
+	}
 	1390.1.1={
 		death=yes
 	}
 }
 10017314 = {
 	name=character_name_10017314 # Tadamasa
-	dynasty=10000320 # Nagao
+#	dynasty=10000320 # Nagao
+	dynasty_house = house_shgnt_nagao_soja
 	father=10017310
 	religion="shinto"
 	culture="western_kanto"
@@ -2810,7 +2826,8 @@
 }
 10017315 = {
 	name=character_name_10017315 # Noriaki
-	dynasty=10000320 # Nagao
+#	dynasty=10000320 # Nagao
+	dynasty_house = house_shgnt_nagao_soja
 	father=10017310
 	religion="shinto"
 	culture="western_kanto"
@@ -2823,7 +2840,8 @@
 }
 10017316 = {
 	name=character_name_10017316 # Kagemune
-	dynasty=10000320 # Nagao
+#	dynasty=10000320 # Nagao
+	dynasty_house = house_shgnt_nagao_soja
 	father=10017314
 	religion="shinto"
 	culture="western_kanto"
@@ -2836,7 +2854,8 @@
 }
 10017317 = {
 	name=character_name_10017317 # Yoshizumi
-	dynasty=10000320 # Nagao
+#	dynasty=10000320 # Nagao
+	dynasty_house = house_shgnt_nagao_soja
 	father=10017314
 	religion="shinto"
 	culture="western_kanto"
@@ -2856,13 +2875,17 @@
 	1340.1.1={
 		birth=yes
 	}
+	1370.01.01 = {
+		dynasty_house = house_shgnt_nagao_shiroi
+	}
 	1410.1.1={
 		death=yes
 	}
 }
 10017319 = {
 	name=character_name_10017319 # Kagemori
-	dynasty=10000320 # Nagao
+#	dynasty=10000320 # Nagao
+	dynasty_house = house_shgnt_nagao_shiroi
 	father=10017318
 	religion="shinto"
 	culture="western_kanto"
@@ -2896,6 +2919,7 @@
 			set_real_father = character:10017336
 			add_trait = "child_of_adoption"
 		}
+		dynasty_house = house_shgnt_nagao_shiroi
 	}
 	1463.10.8={
 		death=yes
@@ -2903,7 +2927,8 @@
 }
 10017321 = {
 	name=character_name_10017321 # Kagenobu
-	dynasty=10000320 # Nagao
+#	dynasty=10000320 # Nagao
+	dynasty_house = house_shgnt_nagao_shiroi
 	father=10017320
 	religion="shinto"
 	culture="western_kanto"
@@ -2924,7 +2949,8 @@
 }
 10017322 = {
 	name=character_name_10017322 # Tadakage
-	dynasty=10000320 # Nagao
+#	dynasty=10000320 # Nagao
+	dynasty_house = house_shgnt_nagao_shiroi
 	father=10017320
 	religion="shinto"
 	culture="western_kanto"
@@ -2942,6 +2968,7 @@
 			set_real_father = character:10017320
 			add_trait = "child_of_adoption"
 		}
+		dynasty_house = house_shgnt_nagao_soja
 	}
 	1501.8.5={
 		death=yes
@@ -2949,7 +2976,8 @@
 }
 10017323 = {
 	name=character_name_10017323 # Kageaki
-	dynasty=10000320 # Nagao
+#	dynasty=10000320 # Nagao
+	dynasty_house = house_shgnt_nagao_shiroi
 	father=10017320
 	religion="shinto"
 	culture="western_kanto"
@@ -2962,7 +2990,8 @@
 }
 10017324 = {
 	name=character_name_10017324 # Kageharu
-	dynasty=10000320 # Nagao
+#	dynasty=10000320 # Nagao
+	dynasty_house = house_shgnt_nagao_shiroi
 	father=10017321
 	religion="shinto"
 	culture="western_kanto"
@@ -2991,7 +3020,8 @@
 }
 10017325 = {
 	name=character_name_10017325 # Kagehide
-	dynasty=10000320 # Nagao
+#	dynasty=10000320 # Nagao
+	dynasty_house = house_shgnt_nagao_shiroi
 	father=10017324
 	religion="shinto"
 	culture="western_kanto"
@@ -3007,7 +3037,8 @@
 }
 10017326 = {
 	name=character_name_10017326 # Kagetada
-	dynasty=10000320 # Nagao
+#	dynasty=10000320 # Nagao
+	dynasty_house = house_shgnt_nagao_shiroi
 	father=10017324
 	religion="shinto"
 	culture="western_kanto"
@@ -3020,7 +3051,8 @@
 }
 10017327 = {
 	name=character_name_10017327 # Kagenobu
-	dynasty=10000320 # Nagao
+#	dynasty=10000320 # Nagao
+	dynasty_house = house_shgnt_nagao_shiroi
 	father=10017325
 	mother=10017258 # daughter of 17251:Nagano Norinari
 	religion="shinto"
@@ -3034,7 +3066,8 @@
 }
 10017328 = {
 	name=character_name_10017328 # Akitada
-	dynasty=10000320 # Nagao
+#	dynasty=10000320 # Nagao
+	dynasty_house = house_shgnt_nagao_soja
 	father=10017322
 	religion="shinto"
 	culture="western_kanto"
@@ -3047,7 +3080,8 @@
 }
 10017329 = {
 	name=character_name_10017329 # Kagemune
-	dynasty=10000320 # Nagao
+#	dynasty=10000320 # Nagao
+	dynasty_house = house_shgnt_nagao_soja
 	father=10017322
 	religion="shinto"
 	culture="western_kanto"
@@ -3073,7 +3107,8 @@
 }
 10017331 = {
 	name=character_name_10017331 # Akikata
-	dynasty=10000320 # Nagao
+#	dynasty=10000320 # Nagao
+	dynasty_house = house_shgnt_nagao_soja
 	father=10017329
 	religion="shinto"
 	culture="western_kanto"
@@ -3243,7 +3278,8 @@
 }
 10017343={
 	name=character_name_10017343 # Kagehide
-	dynasty=10000320 # Nagao
+#	dynasty=10000320 # Nagao
+	dynasty_house = house_shgnt_nagao_soja
 	father=10017303 # Nagao Kagefusa
 	religion="shinto"
 	culture="eastern_hokuriku"
@@ -3256,7 +3292,8 @@
 }
 10017344={
 	name=character_name_10017344 # Nobutsuna
-	dynasty=10000320 # Nagao
+#	dynasty=10000320 # Nagao
+	dynasty_house = house_shgnt_nagao_soja
 	father=10017343 # Nagao Kagehide
 	religion="shinto"
 	culture="eastern_hokuriku"
@@ -4024,7 +4061,8 @@
 }
 10018101 = {
 	name=character_name_10018101 # Kageyasu
-	dynasty=10000320 # Nagao
+#	dynasty=10000320 # Nagao
+	dynasty_house = house_shgnt_nagao_soja
 	father=10017322
 	martial=7
 	diplomacy=8

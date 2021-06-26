@@ -537,6 +537,12 @@
 	culture = western_hokuriku
 	religion = shinto
 	holding = none
+	1500.01.01 = {
+		holding = castle_holding
+	}
+	1589.01.01 = {
+		holding = none
+	}
 }
 1521 = { # Noto_4
 	culture = western_hokuriku
@@ -622,16 +628,28 @@
 	culture = eastern_hokuriku
 	religion = shinto
 	holding = none
+	1335.01.01 = {
+		holding = castle_holding #　Matsukura
+	}
+	1596.01.01 = {
+		holding = none
+	}
 }
 1538 = { # Naka_Niikawa_1
 	culture = eastern_hokuriku
 	religion = shinto
-	holding = castle_holding
+	holding = none
 }
 1539 = { # Naka_Niikawa_2
 	culture = eastern_hokuriku
 	religion = shinto
 	holding = none
+	1394.01.01 = {
+		holding = castle_holding # 弓庄城
+	}
+	1595.01.01 = {
+		holding = none
+	}
 }
 1540 = { # Naka_Niikawa_3
 	culture = eastern_hokuriku
@@ -646,7 +664,10 @@
 1542 = { # Naka_Niikawa_5
 	culture = eastern_hokuriku
 	religion = shinto
-	holding = none
+	holding = castle_holding # 〔平安〕「日置庄」
+	1394.01.01 = {
+		holding = none
+	}
 }
 1543 = { # Kami_Niikawa_1
 	culture = eastern_hokuriku
@@ -842,6 +863,12 @@
 	culture = eastern_hokuriku
 	religion = shinto
 	holding = none
+	1519.01.01 = {
+		holding = church_holding # Shōkōji
+	}
+	1581.01.01 = {
+		holding = none
+	}
 }
 1582 = { # Nishi_Tonami_4
 	culture = eastern_hokuriku
@@ -947,6 +974,12 @@
 	culture = eastern_hokuriku
 	religion = shinto
 	holding = none
+	1573.02.03 = {
+		holding = castle_holding # Nechi
+	}
+	1599.01.01 = {
+		holding = none
+	}
 }
 1603 = { # Nishi_Kubiki_3
 	culture = eastern_hokuriku
@@ -967,6 +1000,9 @@
 	culture = eastern_hokuriku
 	religion = shinto
 	holding = none
+	1500.01.01 = {
+		holding = castle_holding # Murakami
+	}
 }
 1607 = { # Iwafune_4
 	culture = eastern_hokuriku
@@ -992,6 +1028,9 @@
 	culture = eastern_hokuriku
 	religion = shinto
 	holding = none
+	1201.03.28 = {
+		holding = castle_holding # Shibata
+	}
 }
 1612 = { # Nutari_5
 	culture = eastern_hokuriku
@@ -1042,6 +1081,12 @@
 	culture = eastern_hokuriku
 	religion = shinto
 	holding = none
+	1000.01.01 = {
+		holding = castle_holding # Gomadō; Sanjō
+	}
+	1642.01.01 = {
+		holding = none
+	}
 }
 1622 = { # Kambara_7
 	culture = eastern_hokuriku
@@ -1122,6 +1167,9 @@
 	culture = eastern_hokuriku
 	religion = shinto
 	holding = castle_holding
+	1579.2.28 = {
+		holding = none
+	}
 }
 1638 = { # Mishima_3
 	culture = eastern_hokuriku
@@ -1187,6 +1235,12 @@
 	culture = eastern_hokuriku
 	religion = shinto
 	holding = none
+	1392.01.01 = {
+		holding = castle_holding # Sakado
+	}
+	1609.01.01 = {
+		holding = none
+	}
 }
 1651 = { # Iwonuma_6
 	culture = eastern_hokuriku
@@ -1197,16 +1251,28 @@
 	culture = eastern_hokuriku
 	religion = shinto
 	holding = castle_holding
+	1616.01.01 = {
+		holding = none
+	}
 }
 1653 = { # Koshi_2
 	culture = eastern_hokuriku
 	religion = shinto
 	holding = none
+	1392.01.01 = {
+		holding = castle_holding # Tochio
+	}
+	1610.01.01 = {
+		holding = none
+	}
 }
 1654 = { # Koshi_3
 	culture = eastern_hokuriku
 	religion = shinto
 	holding = none
+	1504.01.01 = {
+		holding = castle_holding #　Suyoshi
+	}
 }
 1655 = { # Koshi_4
 	culture = eastern_hokuriku
@@ -1222,6 +1288,12 @@
 	culture = eastern_hokuriku
 	religion = shinto
 	holding = none
+	1550.01.01 = {
+		holding = castle_holding #　Yoita
+	}
+	1599.01.01 = {
+		holding = none
+	}
 }
 1658 = { # Santo_3
 	culture = eastern_hokuriku

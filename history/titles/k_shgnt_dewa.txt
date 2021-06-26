@@ -97,6 +97,13 @@
     1579.07.16 = {
         holder = 10000145 # Ando Michisue
     }
+	1580.01.01 = {
+		effect = {
+			title:b_shgnt_aita_8 = {
+				set_title_name = b_shgnt_aita_8_1 # Ōdate
+			}
+		}
+	}
 }
 c_shgnt_akumi = {
     0001.01.01 = { change_development_level = 10 }
@@ -146,6 +153,11 @@ c_shgnt_akumi = {
     1400.01.01 = {
         liege = 0 # 
         holder = 10000503 # Sagoshi Ujinobu
+		effect = {
+			title:b_shgnt_akumi_4 = {
+				set_title_name = b_shgnt_akumi_4_1 # Sagoshi
+			}
+		}
     }
     1443.01.01 = {
         holder = 10000504 # Sagoshi Ujimasu
@@ -286,6 +298,11 @@ c_shgnt_mogami = {
     }
     1375.01.01 = {
         holder = 12015001 # Mogami Naoie
+		effect = {
+			title:b_shgnt_mogami_1 = {
+				set_title_name = b_shgnt_mogami_1_1 # Tendō
+			}
+		}
     }
     1410.02.09 = {
         holder = 12015002 # Mogami Mitsunao
@@ -355,6 +372,13 @@ c_shgnt_murayama = {
     1474.01.01 = {
         holder = 12015150 # Shimizu Mitsuhisa
     }
+	1476.01.01 = {
+		effect = {
+			title:b_shgnt_murayama_5 = {
+				set_title_name = b_shgnt_murayama_5_1 # Shimizu
+			}
+		}
+	}
     1480.01.01 = {
         holder = 12015151 # Shimizu Yoshihisa
     }
@@ -589,6 +613,11 @@ c_shgnt_takawa = {
     }
     1189.11.15 = {
         holder = 10130546 # Muto Sukeyori
+		effect = {
+			title:b_shgnt_takawa_2 = {
+				set_title_name = b_shgnt_takawa_2_1 # Tsurugaoka
+			}
+		}
     }
     1209.01.01 = {
         holder = 10130548 # Muto Ujihira
@@ -695,6 +724,13 @@ c_shgnt_yamamoto = {
     1400.01.01 = {
         holder = 12031090 # Tozawa Toyomori
     }
+	1424.01.01 = {
+		effect = {
+			title:b_shgnt_yamamoto_3 = {
+				set_title_name = b_shgnt_yamamoto_3_1 # Kakunodate
+			}
+		}
+	}
     1425.01.01 = {
         liege = 0 # 
         holder = 12031110 # Tozawa Iemori
@@ -763,6 +799,13 @@ c_shgnt_yuri = {
         liege = 0 # 
         holder = 12361070 # Nikaho Tomokiyo
     }
+	1468.01.01 = {
+		effect = {
+			title:b_shgnt_yuri_5 = {
+				set_title_name = b_shgnt_yuri_5_1 # Yamane
+			}
+		}
+	}
     1503.01.01 = {
         holder = 10000555 # Nikaho Kiyomasa
     }
@@ -1068,10 +1111,10 @@ c_shgnt_hinai = {
 	1189.10.14 = { change_development_level = 10 }
 
 	0712.9.23={
-		liege="k_nmih_dewa"
+		liege="k_shgnt_dewa"
 	}
 	1180.1.1={
-		liege="k_nmih_northern_oshu" # Fujiwara Hidehira
+		liege="k_shgnt_northern_oshu" # Fujiwara Hidehira
 		holder=12000400 # Kawada Moritsugu
 	}
 	1189.10.3={
@@ -1079,11 +1122,11 @@ c_shgnt_hinai = {
 		holder=12000400 # Kawada Moritsugu / Fall of Hiraizumi
 	}
 	1189.10.14={
-		liege="k_nmih_western_kanto"
+		liege="k_shgnt_western_kanto"
 		holder=10120075 # Minamoto Yoritomo
 	}
 	1189.11.15={
-		liege="k_nmih_western_kanto"
+		liege="k_shgnt_western_kanto"
 		holder=10120116 # Asari Yoshito
 	}
 	1190.1.1={
@@ -1091,7 +1134,7 @@ c_shgnt_hinai = {
 		holder=12000011 # Okawa Kaneto
 	}
 	1190.4.16={
-		liege="k_nmih_western_kanto" # End of Okawa Kaneto's rebellion
+		liege="k_shgnt_western_kanto" # End of Okawa Kaneto's rebellion
 		holder=10120116 # Asari Yoshito
 	}
 	1221.1.1={

@@ -19,7 +19,9 @@
     1524.01.01 = {
         liege = 0 # 
         holder = 10051501 # Amago Tsunehisa
-		set_capital_county = title:c_shgnt_nogi
+		effect = {
+			set_capital_county = title:c_shgnt_nogi
+		}
     }
     1534.08.10 = {
         holder = 10051501 # Amago Tsunehisa

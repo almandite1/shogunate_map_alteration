@@ -206,6 +206,11 @@ c_shgnt_fugeshi = {
     }
     1218.11.16 = {
         holder = 12305100 # Cho Tomotsura
+		effect = {
+			title:b_shgnt_fugeshi_4 = {
+				set_title_name = b_shgnt_fugeshi_4_1 # Anamizu
+			}
+		}
     }
     1250.01.01 = {
         holder = 12305110 # Cho Masatsura
@@ -783,6 +788,13 @@ c_shgnt_iwafune = {
     1480.01.01 = {
         holder = 10032406 # Honjo Akinaga
     }
+	1500.01.01 = {
+		effect = {
+			title:b_shgnt_iwafune_3 = {
+				set_title_name = b_shgnt_iwafune_3_1 # Murakami
+			}
+		}
+	}
     1502.01.01 = {
         holder = 10032408 # Honjo Nagakazu
     }
@@ -957,6 +969,11 @@ c_shgnt_kambara = {
     1360.01.01 = {
         liege = d_shgnt_echigo # 
         holder = 12215326 # Nagao Kagetsune
+		effect = {
+			title:b_shgnt_kambara_6 = {
+				set_title_name = b_shgnt_kambara_6_1 # Sanjō
+			}
+		}
     }
     1367.01.01 = {
         holder = 10032003 # Nagao Takakage
@@ -1004,6 +1021,13 @@ c_shgnt_mishima = {
         liege = 0
         holder = 0
     }
+	1332.1.1={
+		effect = {
+			title:b_shgnt_mishima_2 = {
+				set_title_name = b_shgnt_mishima_2_1 # Kitajō
+			}
+		}
+	}
     1368.10.31 = {
         holder = 10032801 # Uesugi Noriyoshi
     }
@@ -1107,12 +1131,26 @@ c_shgnt_koshi = {
         liege = 0
         holder = 0
     }
+	1337.01.01 = {
+		effect = {
+			title:b_shgnt_koshi_1 = {
+				set_title_name = b_shgnt_koshi_1_1 # Zaōdō
+			}
+		}
+	}
     1360.01.01 = {
         holder = 10032012 # Nagao Kageharu
     }
     1384.01.01 = {
         holder = 10032013 # Nagao Munekage
     }
+	1392.01.01 = {
+		effect = {
+			title:b_shgnt_koshi_2 = {
+				set_title_name = b_shgnt_koshi_2_1 # Tochio
+			}
+		}
+	}
     1411.01.01 = {
         holder = 10032014 # Nagao Hidekage
     }
@@ -1126,6 +1164,13 @@ c_shgnt_koshi = {
         liege = d_shgnt_echigo # 
         holder = 10032017 # Nagao Fusakage
     }
+	1504.01.01 = {
+		effect = {
+			title:b_shgnt_koshi_3 = {
+				set_title_name = b_shgnt_koshi_3_1 #　Suyoshi
+			}
+		}
+	}
     1531.01.01 = {
         holder = 10032018 # Nagao Kagenobu
     }
@@ -1155,6 +1200,13 @@ c_shgnt_iwonuma = {
     1378.01.01 = {
         holder = 10032021 # Nagao Fusakage
     }
+	1392.01.01 = {
+		effect = {
+			title:b_shgnt_iwonuma_5 = {
+				set_title_name = b_shgnt_iwonuma_5_1 # Sakado
+			}
+		}
+	}
     1415.01.01 = {
         holder = 10032022 # Nagao Norikage
     }
@@ -1429,6 +1481,11 @@ c_shgnt_nishi_kubiki = {
     }
     1573.02.03 = {
         holder = 10032011 # Uesugi Kenshin
+		effect = {
+			title:b_shgnt_nishi_kubiki_2 = {
+				set_title_name = b_shgnt_nishi_kubiki_2_1 # Nechi
+			}
+		}
     }
     1578.04.19 = {
         liege = d_shgnt_kozuke # 16020 Uesugi Kagetora
@@ -1474,6 +1531,13 @@ c_shgnt_nishi_tonami = {
         liege = k_nmih_honganji # 
         holder = 10042207 # Kokyoji Rensei
     }
+	1519.01.01 = {
+		effect = {
+			title:b_shgnt_nishi_tonami_3 = {
+				set_title_name = b_shgnt_nishi_tonami_3_1 # Shōkōji
+			}
+		}
+	}
     1521.09.07 = {
         holder = 10042231 # Shokoji Jitsugen
     }
@@ -1696,6 +1760,11 @@ c_shgnt_noto = {
     }
     1500.01.01 = {
         holder = 10031006 # Hatakeyama Yoshimune
+		effect = {
+			title:b_shgnt_noto_3 = {
+				set_title_name = b_shgnt_noto_3_1 # Nanao
+			}
+		}
     }
     1506.01.01 = {
         holder = 10031005 # Hatakeyama Yoshimoto
@@ -1762,6 +1831,11 @@ c_shgnt_nutari = {
     }
     1201.03.28 = {
         holder = 10120086 # Minamoto Yoriie
+		effect = {
+			title:b_shgnt_nutari_4 = {
+				set_title_name = b_shgnt_nutari_4_1 # Shibata
+			}
+		}
     }
     1201.04.01 = {
         holder = 12211502 # Wada Yoshimochi
@@ -1983,6 +2057,13 @@ c_shgnt_santo = {
     1539.01.01 = {
         holder = 10032652 # Naoe Kagetsuna
     }
+	1550.01.01 = {
+		effect = {
+			title:b_shgnt_santo_2 = {
+				set_title_name = b_shgnt_santo_2_1 #　Yoita
+			}
+		}
+	}
     1577.03.24 = {
         holder = 10017344 # Naoe Nobutsuna
     }
@@ -2089,6 +2170,13 @@ c_shgnt_shimo_niikawa = {
     1310.01.01 = {
         holder = 12281001 # Shiina Yoritane
     }
+	1335.01.01 = {
+		effect = {
+			title:b_shgnt_shimo_niikawa_6 = {
+				set_title_name = b_shgnt_shimo_niikawa_6_1 #　
+			}
+		}
+	}
     1358.07.03 = {
         holder = 12281002 # Shiina Jiro
     }
@@ -2624,7 +2712,9 @@ d_shgnt_echizen = {
     1471.06.09 = {
         liege = e_shgnt_japan # 
         holder = 10030007 # Asakura Takakage
-		set_capital_county = title:c_shgnt_asuha
+		effect = {
+			set_capital_county = title:c_shgnt_asuha
+		}
     }
     1481.08.21 = {
         holder = 10030008 # Asakura Ujikage

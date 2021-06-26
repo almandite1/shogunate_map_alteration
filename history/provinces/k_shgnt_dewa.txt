@@ -42,7 +42,7 @@
 1250 = { # Mogami_1
 	culture = dewa
 	religion = shinto
-	holding = castle_holding
+	holding = castle_holding # Nariu, Tendo
 }
 1251 = { # Mogami_2
 	culture = dewa
@@ -78,6 +78,9 @@
 	culture = dewa
 	religion = shinto
 	holding = none
+	1356.01.01 = {
+		holding = castle_holding # Yamagata
+	}
 }
 1258 = { # Mogami_9
 	culture = dewa
@@ -168,6 +171,9 @@
 	culture = dewa
 	religion = shinto
 	holding = none
+	1476.01.01 = {
+		holding = castle_holding # Shimizu
+	}
 }
 1276 = { # Nishi_Okitaka_1
 	culture = dewa
@@ -316,6 +322,9 @@
 	culture = dewa
 	religion = shinto
 	holding = none
+	1400.01.01 = {
+		holding = castle_holding
+	}
 }
 1305 = { # Aita_1
 	culture = dewa
@@ -359,6 +368,9 @@
 	culture = dewa
 	religion = shinto
 	holding = none
+	1580.01.01 = {
+		holding = castle_holding # Ōdate
+	}
 }
 1313 = { # Aita_9
 	culture = dewa
@@ -407,6 +419,12 @@
 	culture = dewa
 	religion = shinto
 	holding = none
+	1424.01.01 = {
+		holding = castle_holding # Kakunodate
+	}
+	1620.01.01 = {
+		holding = none
+	}
 }
 1322 = { # Yamamoto_4
 	culture = dewa
@@ -492,6 +510,9 @@
 	culture = dewa
 	religion = shinto
 	holding = none
+	1468.01.01 = {
+		holding = castle_holding # Yamane
+	}
 }
 1339 = { # Ugo_Toshima_1
 	culture = dewa

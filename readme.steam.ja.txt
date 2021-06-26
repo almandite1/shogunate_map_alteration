@@ -1,5 +1,5 @@
 [h1]※ アップロードテストのための公開なので予告なく非公開になります[/h1]
-[h1]Shogunate 地図改変サブ MOD 日本語 アルファ版 Version 0.4.7 'Atoiya'[/h1]
+[h1]Shogunate 地図改変サブ MOD 日本語 アルファ版 Version 0.4.8 'Atoiya'[/h1]
 ====
 
 Shogunate 地図改変サブ MOD アルファ版は [url=https://steamcommunity.com/workshop/filedetails/?id=2253279956]Shogunate MOD [/url]のサブ MOD です。地図を高解像なものに置き換え、プロヴィンス＝男爵領を増やします。
@@ -26,6 +26,9 @@ Shogunate 地図改変サブ MOD アルファ版は [url=https://steamcommunity.
 15世紀に存在した郡がゲーム中に伯爵領として出現するように再編し、メイン MOD に比べてz個伯爵領が増加しています。
 一部の郡はプロヴィンス数が多かったり、面積が広かったりしたので近代に存在した郡のように分割しました。
 京都、大阪、奈良、堺といった町は独立した伯爵領として設定しました。
+
+[h3]ロードマップ[/h3]
+現在作業中の内容は[url=https://github.com/almandite1/shogunate_map_alteration/issues?q=is%3Aopen+assignee%3Aalmandite1]ここ[/url]からご覧いただけます。
 
 [h3]既知の問題と未実装[/h3]
 [url=https://github.com/almandite1/shogunate_map_alteration/issues?q=is%3Aissue+is%3Aopen+label%3A%22known+issues+%26+not+yet+installed%22]既知の問題と未実装の一覧[/url]

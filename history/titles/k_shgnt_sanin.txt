@@ -1165,16 +1165,22 @@ d_shgnt_izumo = {
     1486.08.01 = {
         liege = 0 # 
         holder = 10051501 # Amago Tsunehisa
-		set_capital_county = c_shgnt_nogi
+		effect = {
+			set_capital_county = c_shgnt_nogi
+		}
     }
     1530.04.01 = {
         holder = 10051511 # Enya Okihisa
-		set_capital_county = c_shgnt_izumo
+		effect = {
+			set_capital_county = c_shgnt_izumo
+		}
     }
     1534.08.10 = {
         liege = k_shgnt_sanin # 
         holder = 10051501 # Amago Tsunehisa
-		set_capital_county = c_shgnt_nogi
+		effect = {
+			set_capital_county = c_shgnt_nogi
+		}
     }
     1541.11.30 = {
         holder = 10051508 # Amago Haruhisa

@@ -39,6 +39,27 @@
 	religion = shinto
 	holding = castle_holding
 }
+3141 = { # Hei_2
+	culture = northern_oshu
+	religion = shinto
+	holding = none
+}
+3142 = { # Hei_3
+	culture = northern_oshu
+	religion = shinto
+	holding = none
+	1375.01.01 = {
+		holding = castle_holding
+	}
+	1591.01.01 = {
+		holding = none
+	}
+}
+3143 = { # Hei_4
+	culture = northern_oshu
+	religion = shinto
+	holding = none
+}
 1349 = { # Tono_1
 	culture = northern_oshu
 	religion = shinto
@@ -53,6 +74,9 @@
 	culture = northern_oshu
 	religion = shinto
 	holding = none
+	1341.01.01 = {
+		holding = castle_holding # Kosegawa
+	}
 }
 1352 = { # Waga_1
 	culture = northern_oshu
@@ -63,6 +87,9 @@
 	culture = northern_oshu
 	religion = shinto
 	holding = none
+	1401.04.28 = {
+		holding = castle_holding # Futago
+	}
 }
 1354 = { # Waga_3
 	culture = northern_oshu
@@ -152,7 +179,7 @@
 1371 = { # Ninohe_1
 	culture = northern_oshu
 	religion = shinto
-	holding = castle_holding
+	holding = castle_holding # Kunohe
 }
 1372 = { # Ninohe_2
 	culture = northern_oshu
@@ -256,6 +283,12 @@
 	culture = northern_oshu
 	religion = shinto
 	holding = none
+	1460.01.01 = {
+		holding = castle_holding # Namioka
+	}
+	1578.08.23 = {
+		holding = none
+	}
 }
 1392 = { # Inaka_2
 	culture = northern_oshu
