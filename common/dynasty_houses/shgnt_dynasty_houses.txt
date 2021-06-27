@@ -331,13 +331,6 @@ house_shgnt_itai = {
 	motto = "koji_O09_motto"
 }
 
-# Hizen=Matura
-house_shgnt_uku = {
-	name = "dynn_Uku" # 宇久
-	dynasty = 10000684 # Matsura
-	motto = "koji_O08_motto"
-}
-
 # Suo=Tatara
 house_shgnt_ouchi = {
 	name = "dynn_Ouchi" # 大内
@@ -508,6 +501,11 @@ house_shgnt_echigouesugi = {
 	name = "dynn_EchigoUesugi" # 越後上杉
 	dynasty = 10000100 # Uesugi
 	motto = "koji_I24_motto"
+}
+house_shgnt_inugakeuesugi = {
+	name = "dynn_InugakeUesugi" # 犬懸上杉
+	dynasty = 10000100 # Uesugi
+	motto = "kojiI_TO06_motto"
 }
 
 # Ashikaga
@@ -966,4 +964,162 @@ house_shgnt_uesugi_yonezawa = {
 	name = "dynn_Uesugi" # 米沢上杉氏
 	dynasty = 10000320 # Nagao
 	motto = "kojiI_TU01_motto"
+}
+
+# Mutō, 武藤
+house_shgnt_shoni = {
+	name = "dynn_Shoni" # 少弐
+	dynasty = 10006045 # Muto
+	motto = "kojiI_TU02_motto"
+}
+house_shgnt_daihoji = {
+	name = "dynn_Daihoji" # 大宝寺
+	dynasty = 10006045 # Muto
+	motto = "kojiI_TU03_motto"
+}
+house_shgnt_kenmotsu = {
+	name = "dynn_Kenmotsu" # 監物
+	dynasty = 10006045 # Muto
+	motto = "kojiI_TU04_motto"
+}
+#house_shgnt_muto_matsuura = {
+#	name = "dynn_Matsuura" # 松浦
+#	dynasty = 10006045 # Muto
+#	motto = "kojiI_TU05_motto"
+#}
+house_shgnt_nabeshima = {
+	name = "dynn_Nabeshima" # 鍋島
+	dynasty = 10006045 # Muto
+	motto = "kojiI_TE01_motto"
+}
+house_shgnt_baba = {
+	name = "dynn_Baba" # 馬場
+	dynasty = 10006045 # Muto
+	motto = "kojiI_TE02_motto"
+}
+house_shgnt_yokodake = {
+	name = "dynn_Yokodake" # 横岳
+	dynasty = 10006045 # Muto
+	motto = "kojiI_TE03_motto"
+}
+house_shgnt_tsukushi = {
+	name = "dynn_Tsukushi" # 筑紫
+	dynasty = 10006045 # Muto
+	motto = "kojiI_TE04_motto"
+}
+house_shgnt_sagoshi = {
+	name = "dynn_Sagoshi" # 砂越
+	dynasty = 10006045 # Muto
+	motto = "kojiI_TE05_motto"
+}
+
+# Honganji
+house_shgnt_shokoji = {
+	name = "dynn_Shokoji" # 松岡寺
+	dynasty = 10000430 # Honganji
+	motto = "kojiI_TE06_motto"
+}
+house_shgnt_kokyoji = {
+	name = "dynn_Kokyoji" # 光教寺
+	dynasty = 10000430 # Honganji
+	motto = "kojiI_TE07_motto"
+}
+house_shgnt_ganshoji = {
+	name = "dynn_Ganshoji" # 願証寺
+	dynasty = 10000430 # Honganji
+	motto = "kojiI_TE08_motto"
+}
+house_shgnt_honsenji = {
+	name = "dynn_Honsenji" # 本泉寺
+	dynasty = 10000430 # Honganji
+	motto = "kojiI_TE09_motto"
+}
+house_shgnt_choshoji = {
+	name = "dynn_Choshoji" # 超勝寺
+	dynasty = 10000430 # Honganji
+	motto = "kojiI_TE10_motto"
+}
+house_shgnt_shokoji2 = {
+	name = "dynn_shokoji2" # 勝興寺
+	dynasty = 10000430 # Honganji
+	motto = "kojiI_TO01_motto"
+}
+
+# Ōtomo, 大友
+house_shgnt_tahara = {
+	name = "dynn_Tahara" # 田原
+	dynasty = 10000640 # Otomo
+	motto = "kojiI_TO02_motto"
+}
+house_shgnt_tachibana = {
+	name = "dynn_Tachibana" # 立花
+	dynasty = 10000640 # Otomo
+	motto = "kojiI_TO03_motto"
+}
+house_shgnt_bekki = {
+	name = "dynn_Bekki" # 戸次
+	dynasty = 10000640 # Otomo
+	motto = "kojiI_TO04_motto"
+}
+house_shgnt_shiga = {
+	name = "dynn_Shiga" # 志賀
+	dynasty = 10000640 # Otomo
+	motto = "kojiI_TO05_motto"
+}
+house_shgnt_ichimata = {
+	name = "dynn_Ichimata" # 一万田
+	dynasty = 10000640 # Otomo
+	motto = "kojiI_TO06_motto"
+}
+house_shgnt_yoshihiro = {
+	name = "dynn_Yoshihiro" # 吉弘
+	dynasty = 10000640 # Otomo
+	motto = "kojiI_TO07_motto"
+}
+house_shgnt_usuki = {
+	name = "dynn_Usuki" # 臼杵
+	dynasty = 10000640 # Otomo
+	motto = "kojiI_TO08_motto"
+}
+house_shgnt_otomo_takahashi = {
+	name = "dynn_Takahashi" # 高橋
+	dynasty = 10000640 # Otomo
+	motto = "kojiI_TO09_motto"
+}
+
+# Matsūra, Matsura, 松浦
+house_shgnt_matsura_hata = {
+	name = "dynn_Hata" # 波多
+	dynasty = 10000684 # Matsura
+	motto = "kojiI_TO10_motto"
+}
+house_shgnt_uku = {
+	name = "dynn_Uku" # 宇久
+	dynasty = 10000684 # Matsura
+	motto = "koji_O08_motto"
+}
+house_shgnt_shisa = {
+	name = "dynn_Shisa" # 志佐
+	dynasty = 10000684 # Matsura
+	motto = "kojiI_TO01_motto"
+}
+house_shgnt_tamanoura = {
+	name = "dynn_Tamanoura" # 玉之浦
+	dynasty = 10000684 # Matsura
+	motto = "kojiI_TO02_motto"
+}
+house_shgnt_matsura_hirado = {
+	name = "dynn_Matsura" # 平戸松浦
+	dynasty = 10000684 # Matsura
+	motto = "kojiI_TO03_motto"
+}
+house_shgnt_yamashiro = {
+	name = "dynn_Yamashiro" # 山代
+	dynasty = 10000684 # Matsura
+	motto = "kojiI_TO04_motto"
+}
+house_shgnt_arita = {
+	name = "dynn_Arita" # 有田
+	dynasty = 10000684 # Matsura
+	motto = "kojiI_TO05_motto"
 }

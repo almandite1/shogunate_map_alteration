@@ -173,8 +173,8 @@ c_shgnt_hino = {
         holder = 0
     }
     1424.11.01 = {
-        liege = d_shgnt_hoki # 　Yamana Noriyuki
-        holder = 10050017 # 　Yamana Noriyuki
+        liege = d_shgnt_hoki #   Yamana Noriyuki
+        holder = 10050017 #   Yamana Noriyuki
     }
     1453.01.01 = {
         holder = 10050018 # Yamana Toyoyuki
@@ -220,8 +220,7 @@ c_shgnt_homi = {
     1100.01.01 = { change_development_level = 10 }
     1331.01.01 = { change_development_level = 10 }
     1520.01.01 = { change_development_level = 10 }
-    0100.01.01 = {
-    }
+
     1180.01.01 = {
         liege = k_shgnt_sanin # 
         holder = 10260208 # Ifukube Tsunemasa
@@ -370,13 +369,13 @@ c_shgnt_kawamura = {
         holder = 10050106 # Nanjo Kagemune
     }
     1424.11.01 = {
-        holder = 10050017 # 　Yamana Noriyuki
+        holder = 10050017 #   Yamana Noriyuki
     }
     1453.01.01 = {
-        holder = 10050018 # 　Yamana Toyoyuki
+        holder = 10050018 #   Yamana Toyoyuki
     }
     1471.10.31 = {
-        holder = 10050103 # 　Nanjo Munenori
+        holder = 10050103 #   Nanjo Munenori
     }
     1480.10.03 = {
         liege = d_shgnt_hoki # Yamana Masayuki; subordination
@@ -410,8 +409,7 @@ c_shgnt_kinosaki = {
     0001.01.01 = { change_development_level = 20 }
     1100.01.01 = { change_development_level = 20 }
     1520.01.01 = { change_development_level = 30 }
-    0100.01.01 = {
-    }
+
     1179.12.18 = {
         liege = d_shgnt_tajima # 
         holder = 10110031 # Taira Tsunemori
@@ -570,7 +568,7 @@ c_shgnt_oki_no_shima = {
         holder = 10044210 # Kyogoku Mochikiyo
     }
     1470.08.30 = {
-        holder = 10044215 # 　Kyogoku Magodojimaru
+        holder = 10044215 #   Kyogoku Magodojimaru
     }
     1471.01.01 = {
         holder = 10044213 # Kyogoku Masatsune
@@ -662,8 +660,7 @@ c_shgnt_shitsumi = {
     0001.01.01 = { change_development_level = 10 }
     1100.01.01 = { change_development_level = 10 }
     1331.01.01 = { change_development_level = 10 }
-    0100.01.01 = {
-    }
+
     0670.01.01 = {
         holder = 10240017 # Kusakabe Uwayome
     }
@@ -706,7 +703,12 @@ c_shgnt_shitsumi = {
     1575.01.01 = {
         holder = 10050159 # Kakiya Mitsunari
     }
+	1580.01.01 = {
+		liege = d_shgnt_harima # # Hashiba Hideyoshi
+#		holder = 10050159 # Kakiya Mitsunari
+	}
     1582.01.01 = {
+#		liege = d_shgnt_harima # # Hashiba Hideyoshi
         holder = 10050160 # Kakiya Tsunefusa
     }
 }
@@ -715,8 +717,7 @@ c_shgnt_takakusa = {
     1000.01.01 = { change_development_level = 20 }
     1331.01.01 = { change_development_level = 20 }
     1563.01.01 = { change_development_level = 20 }
-    0100.01.01 = {
-    }
+
     1176.01.01 = {
         liege = k_shgnt_sanin # 
         holder = 12600201 # Nagata Sanetsune
@@ -804,8 +805,7 @@ c_shgnt_inaba_yakami = {
     0001.01.01 = { change_development_level = 10 }
     1185.04.25 = { change_development_level = 10 }
     1200.01.01 = { change_development_level = 20 }
-    0100.01.01 = {
-    }
+
     1180.01.01 = {
         liege = k_shgnt_sanin # 
         holder = 12600100 # Saji Michisada
@@ -1218,7 +1218,7 @@ d_shgnt_oki = {
     }
     1486.08.01 = {
         liege = 0 # 
-        holder = 10051501 # 　Amago Tsunehisa
+        holder = 10051501 #   Amago Tsunehisa
     }
     1541.01.01 = {
         holder = 0
@@ -1325,8 +1325,7 @@ c_shgnt_yafu = {
     0001.01.01 = { change_development_level = 20 }
     1100.01.01 = { change_development_level = 20 }
     1331.01.01 = { change_development_level = 20 }
-    0100.01.01 = {
-    }
+
     0698.01.01 = {
         holder = 10240020 # Kusakabe Arashima
     }
@@ -1423,8 +1422,7 @@ c_shgnt_futakata = {
     0001.01.01 = { change_development_level = 10 }
     1100.01.01 = { change_development_level = 10 }
     1331.01.01 = { change_development_level = 10 }
-    0100.01.01 = {
-    }
+
     0670.01.01 = {
         holder = 10240017 # Kusakabe Uwayome
     }
@@ -1478,8 +1476,7 @@ c_shgnt_futakata = {
 c_shgnt_tajima_keta = {
     0001.01.01 = { change_development_level = 30 }
     1331.01.01 = { change_development_level = 30 }
-    0100.01.01 = {
-    }
+
     1179.12.18 = {
         liege = d_shgnt_tajima # 
         holder = 10110031 # Taira Tsunemori
@@ -1524,8 +1521,7 @@ c_shgnt_tajima_keta = {
 c_shgnt_mikumi = {
     0001.01.01 = { change_development_level = 30 }
     1331.01.01 = { change_development_level = 30 }
-    0100.01.01 = {
-    }
+
     1179.12.18 = {
         liege = d_shgnt_tajima # 
         holder = 10110031 # Taira Tsunemori
@@ -1570,8 +1566,7 @@ c_shgnt_mikumi = {
 c_shgnt_itsushi = {
     0001.01.01 = { change_development_level = 30 }
     1331.01.01 = { change_development_level = 30 }
-    0100.01.01 = {
-    }
+
     1179.12.18 = {
         liege = d_shgnt_tajima # 
         holder = 10110031 # Taira Tsunemori
@@ -1617,8 +1612,7 @@ c_shgnt_iwami = {
     0001.01.01 = { change_development_level = 20 }
     1100.01.01 = { change_development_level = 20 }
     1331.01.01 = { change_development_level = 20 }
-    0100.01.01 = {
-    }
+
     1180.01.01 = {
         liege = k_shgnt_sanin # 
         holder = 10260208 # Ifukube Tsunemasa
@@ -1677,8 +1671,7 @@ c_shgnt_hatto = {
     0001.01.01 = { change_development_level = 20 }
     1100.01.01 = { change_development_level = 20 }
     1331.01.01 = { change_development_level = 20 }
-    0100.01.01 = {
-    }
+
     1180.01.01 = {
         liege = k_shgnt_sanin # 
         holder = 12600100 # Saji Michisada
@@ -1729,8 +1722,7 @@ c_shgnt_chizu = {
     0001.01.01 = { change_development_level = 20 }
     1100.01.01 = { change_development_level = 20 }
     1331.01.01 = { change_development_level = 20 }
-    0100.01.01 = {
-    }
+
     1180.01.01 = {
         liege = k_shgnt_sanin # 
         holder = 12600100 # Saji Michisada
@@ -1780,8 +1772,7 @@ c_shgnt_chizu = {
 c_shgnt_omi = {
     0001.01.01 = { change_development_level = 10 }
     1331.01.01 = { change_development_level = 10 }
-    0100.01.01 = {
-    }
+
     1176.01.01 = {
         liege = k_shgnt_sanin # 
         holder = 12600201 # Nagata Sanetsune
@@ -1831,8 +1822,7 @@ c_shgnt_omi = {
 c_shgnt_keta = {
     0001.01.01 = { change_development_level = 10 }
     1331.01.01 = { change_development_level = 10 }
-    0100.01.01 = {
-    }
+
     1176.01.01 = {
         liege = k_shgnt_sanin # 
         holder = 12600201 # Nagata Sanetsune

@@ -1,5 +1,5 @@
 [h1]※ アップロードテストのための公開なので予告なく非公開になります[/h1]
-[h1]Shogunate 地図改変サブ MOD 日本語 アルファ版 Version 0.4.8 'Atoiya'[/h1]
+[h1]Shogunate 地図改変サブ MOD 日本語 アルファ版 Version 0.4.9 'Atoiya'[/h1]
 ====
 
 Shogunate 地図改変サブ MOD アルファ版は [url=https://steamcommunity.com/workshop/filedetails/?id=2253279956]Shogunate MOD [/url]のサブ MOD です。地図を高解像なものに置き換え、プロヴィンス＝男爵領を増やします。

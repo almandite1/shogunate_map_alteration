@@ -507,6 +507,11 @@ c_shgnt_kita_muro = {
     1450.01.01 = {
         liege = 0 # 
         holder = 10048503 # Horiuchi Ujitada
+		effect = {
+			title:b_shgnt_kita_muro_7 = {
+				set_title_name = b_shgnt_kita_muro_7_1 # Kuki[九鬼]
+			}
+		}
     }
     1480.01.01 = {
         holder = 10048502 # Horiuchi Ujisada

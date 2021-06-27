@@ -295,6 +295,11 @@ c_shgnt_araki = {
     1460.01.01 = {
         liege = 0 # 
         holder = 10025204 # Ema Samanosuke
+		effect = {
+			title:b_shgnt_araki_1 = {
+				set_title_name = b_shgnt_araki_1_1 # Takaharasuwa
+			}
+		}
     }
     1500.01.01 = {
         holder = 10025202 # Ema Tokitsune
@@ -308,6 +313,13 @@ c_shgnt_araki = {
     1582.11.22 = {
         liege = d_shgnt_hida # 
         holder = 10025109 # Anegakoji(Miki) Yoritsuna
+    }
+	1584.01.01 = {
+		effect = {
+			title:b_shgnt_araki_1 = {
+				set_title_name = b_shgnt_araki_1_2 # Kamioka
+			}
+		}
     }
 }
 c_shgnt_chita = {
@@ -348,6 +360,13 @@ c_shgnt_chita = {
     1451.12.21 = {
         holder = 10049518 # Isshiki Yoshito
     }
+	1469.01.01 = {
+		effect = {
+			title:b_shgnt_chita_3 = {
+				set_title_name = b_shgnt_chita_3_1 # Ogawa
+			}
+		}
+	}
     1478.01.01 = {
         liege = d_shgnt_owari # 
         holder = 10029490 # Saji Tametsuna
@@ -539,6 +558,13 @@ c_shgnt_gujo = {
     1221.07.06 = {
         holder = 12150305 # To Taneyuki
     }
+	1230.01.01 = {
+		effect = {
+			title:b_shgnt_gujo_1 = {
+				set_title_name = b_shgnt_gujo_1_1 # Shinowaki
+			}
+		}
+	}
     1244.01.01 = {
         holder = 12150311 # To Yukiuji
     }
@@ -581,6 +607,11 @@ c_shgnt_gujo = {
     }
     1559.08.14 = {
         holder = 10025860 # Endo Morikazu
+		effect = {
+			title:b_shgnt_gujo_2 = {
+				set_title_name = b_shgnt_gujo_2_1 # Hachiman
+			}
+		}
     }
     1562.11.10 = {
         holder = 10025861 # Endo Yoshitaka
@@ -701,6 +732,20 @@ c_shgnt_hida_ono = {
         liege = k_shgnt_chubu # 
         holder = 10025109 # Anegakoji(Miki) Yoritsuna
     }
+	1579.01.01 = {
+		effect = {
+			title:b_shgnt_hida_ono_3 = {
+				set_title_name = b_shgnt_hida_ono_3_1 # Matsukura
+			}
+		}
+	}
+	1585.01.01 = {
+		effect = {
+			title:b_shgnt_hida_ono_3 = {
+				set_title_name = b_shgnt_hida_ono_3_2 # Takayama
+			}
+		}
+	}
 }
 c_shgnt_ichishi = {
     0001.01.01 = { change_development_level = 20 }
@@ -1222,6 +1267,11 @@ c_shgnt_kako = {
     1568.01.01 = {
         liege = d_shgnt_mino # 29120 Oda Nobunaga
         holder = 10025420 # Mori Yoshinari
+		effect = {
+			title:b_shgnt_kako_1 = {
+				set_title_name = b_shgnt_kako_1_1 # Kaneyama
+			}
+		}
     }
     1570.10.19 = {
         holder = 10025421 # Mori Nagayoshi
@@ -1973,6 +2023,11 @@ c_shgnt_toshi = {
     }
     1532.01.01 = {
         holder = 10028000 # Kuki Sadataka
+		effect = {
+			title:b_shgnt_toshi_1 = {
+				set_title_name = b_shgnt_toshi_1_1 # Tashiro[田城城]
+			}
+		}
     }
     1551.01.01 = {
         holder = 10028004 # Kuki Kiyotaka
@@ -1987,6 +2042,13 @@ c_shgnt_toshi = {
         liege = k_shgnt_chubu # 29120 Oda Nobunaga
         holder = 10028005 # Kuki Yoshitaka
     }
+	1594.01.01 = {
+		effect = {
+			title:b_shgnt_toshi_1 = {
+				set_title_name = b_shgnt_toshi_1_2 # Toba[鳥羽城]
+			}
+		}
+	}
 }
 c_shgnt_suzuka = {
     0001.01.01 = { change_development_level = 10 }

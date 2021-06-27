@@ -4169,8 +4169,11 @@
             }
         }
         d_shgnt_hitachi = {
-                color = {110 121 85}
-                color2 = {255 255 255}
+            color = {110 121 85}
+            color2 = {255 255 255}
+			
+			capital = c_shgnt_niihari
+			
             c_shgnt_ubaraki = {
                 color = {120 121 95}
                 color2 = {255 255 255}
@@ -4256,6 +4259,9 @@
             c_shgnt_kuji = {
                 color = {110 111 75}
                 color2 = {255 255 255}
+                b_shgnt_kuji_9 = {
+                    province = 677 # Ōta[太田城]
+                }
                 b_shgnt_kuji_1 = {
                     province = 669
                 }
@@ -4279,9 +4285,6 @@
                 }
                 b_shgnt_kuji_8 = {
                     province = 676
-                }
-                b_shgnt_kuji_9 = {
-                    province = 677
                 }
                 b_shgnt_kuji_10 = {
                     province = 678
@@ -4312,11 +4315,11 @@
             c_shgnt_niihari = {
                 color = {120 131 85}
                 color2 = {255 255 255}
+                b_shgnt_niihari_2 = {
+                    province = 686 # Hitachi Kokufu[常陸国府]
+                }
                 b_shgnt_niihari_1 = {
                     province = 685
-                }
-                b_shgnt_niihari_2 = {
-                    province = 686
                 }
                 b_shgnt_niihari_3 = {
                     province = 687
@@ -4480,11 +4483,17 @@
             }
         }
         d_shgnt_shimotsuke = {
-                color = {73 74 65}
-                color2 = {255 255 255}
+            color = {73 74 65}
+            color2 = {255 255 255}
+			
+			capital = c_shgnt_shimotsuga
+
             c_shgnt_shimotsuke_kawachi = {
                 color = {73 74 65}
                 color2 = {255 255 255}
+                b_shgnt_shimotsuke_kawachi_6 = {
+                    province = 1023 # Utsunomiya
+                }
                 b_shgnt_shimotsuke_kawachi_1 = {
                     province = 1018
                 }
@@ -4499,9 +4508,6 @@
                 }
                 b_shgnt_shimotsuke_kawachi_5 = {
                     province = 1022
-                }
-                b_shgnt_shimotsuke_kawachi_6 = {
-                    province = 1023
                 }
                 b_shgnt_shimotsuke_kawachi_7 = {
                     province = 1024
@@ -5331,9 +5337,18 @@
                 color = {92 146 145}
                 color2 = {255 255 255}
         d_shgnt_uzen = {
-                color = {91 126 145}
-                color2 = {255 255 255}
+            color = {91 126 145}
+            color2 = {255 255 255}
+			
+			capital = c_shgnt_mogami
+			
             c_shgnt_kita_mogami = {
+                b_shgnt_kita_mogami_8 = {
+                    province = 1249 # Odajima no Shō[小田嶋庄]
+                }
+                b_shgnt_mogami_1 = {
+                    province = 1250 # Naryu no Shō[成生荘], Tendō[天童城]
+                }
                 b_shgnt_kita_mogami_1 = {
                     province = 1242
                 }
@@ -5355,16 +5370,10 @@
                 b_shgnt_kita_mogami_7 = {
                     province = 1248
                 }
-                b_shgnt_kita_mogami_8 = {
-                    province = 1249
-                }
             }
             c_shgnt_mogami = {
                 color = {81 116 145}
                 color2 = {255 255 220}
-                b_shgnt_mogami_1 = {
-                    province = 1250
-                }
                 b_shgnt_mogami_2 = {
                     province = 1251
                 }

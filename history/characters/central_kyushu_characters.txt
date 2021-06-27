@@ -532,7 +532,8 @@
 		birth=yes
 	}
 	1580.10.1 = {
-		dynasty=10000644 # Tawara
+		#dynasty=10000644 # Tawara
+		dynasty_house = "house_shgnt_tahara"
 		effect = {
 			set_father = character:10067111
 			set_real_father = character:10064002
@@ -682,7 +683,8 @@
 		birth=yes
 	}
 	1581.1.1 = {
-		dynasty=10000644 # Tawara
+		#dynasty=10000644 # Tawara
+		dynasty_house = "house_shgnt_tahara"
 		effect = {
 			set_father = character:10064444
 			set_real_father = character:10064002
@@ -770,7 +772,8 @@
 }
 10064100 = {
 	name=character_name_10064100 # Chikamasu
-	dynasty=10000641 # Shiga
+#	dynasty=10000641 # Shiga
+	dynasty_house = "house_shgnt_shiga"
 	father=10064101
 	martial=10
 	diplomacy=7
@@ -796,7 +799,8 @@
 }
 10064101 = {
 	name=character_name_10064101 # Chikakazu
-	dynasty=10000641 # Shiga
+#	dynasty=10000641 # Shiga
+	dynasty_house = "house_shgnt_shiga"
 	father=10064106
 	martial=8
 	diplomacy=9
@@ -816,7 +820,8 @@
 }
 10064102 = {
 	name=character_name_10064102 # Chikamori
-	dynasty=10000641 # Shiga
+#	dynasty=10000641 # Shiga
+	dynasty_house = "house_shgnt_shiga"
 	father=10064100
 	martial=8
 	diplomacy=8
@@ -853,7 +858,8 @@
 }
 10064103 = {
 	name=character_name_10064103 # Chikanori
-	dynasty=10000641 # Shiga
+#	dynasty=10000641 # Shiga
+	dynasty_house = "house_shgnt_shiga"
 	father=10064102
 	martial=8
 	diplomacy=9
@@ -875,7 +881,8 @@
 }
 10064104 = {
 	name=character_name_10064104 # Chika #Yoshihiro Muneyuki'S wife
-	dynasty=10000641 # Shiga
+#	dynasty=10000641 # Shiga
+	dynasty_house = "house_shgnt_shiga"
 	father=10064102
 	female=yes
 	trait="education_diplomacy_2"
@@ -890,7 +897,8 @@
 }
 10064105 = {
 	name=character_name_10064105 # Chikatsugu
-	dynasty=10000641 # Shiga
+#	dynasty=10000641 # Shiga
+	dynasty_house = "house_shgnt_shiga"
 	father=10064102
 	religion="shinto"
 	culture="central_kyushu"
@@ -911,7 +919,8 @@
 }
 10064106 = {
 	name=character_name_10064106 # Mitsunobu
-	dynasty=10000641 # Shiga
+#	dynasty=10000641 # Shiga
+	dynasty_house = "house_shgnt_shiga"
 	father=10064107
 	religion="shinto"
 	culture="central_kyushu"
@@ -930,7 +939,8 @@
 }
 10064107 = {
 	name=character_name_10064107 # Chikayasu
-	dynasty=10000641 # Shiga
+#	dynasty=10000641 # Shiga
+	dynasty_house = "house_shgnt_shiga"
 	father=10064108
 	religion="shinto"
 	culture="central_kyushu"
@@ -946,7 +956,8 @@
 }
 10064108 = {
 	name=character_name_10064108 # Chikaie
-	dynasty=10000641 # Shiga
+#	dynasty=10000641 # Shiga
+	dynasty_house = "house_shgnt_shiga"
 	father=10064109
 	religion="shinto"
 	culture="central_kyushu"
@@ -959,7 +970,8 @@
 }
 10064109 = {
 	name=character_name_10064109 # Chikamasa
-	dynasty=10000641 # Shiga
+#	dynasty=10000641 # Shiga
+	dynasty_house = "house_shgnt_shiga"
 	father=10064110
 	religion="shinto"
 	culture="central_kyushu"
@@ -972,7 +984,8 @@
 }
 10064110 = {
 	name=character_name_10064110 # Chikayoshi
-	dynasty=10000641 # Shiga
+#	dynasty=10000641 # Shiga
+	dynasty_house = "house_shgnt_shiga"
 	father=10064111
 	religion="shinto"
 	culture="central_kyushu"
@@ -985,7 +998,8 @@
 }
 10064111 = {
 	name=character_name_10064111 # Chikaaki
-	dynasty=10000641 # Shiga
+#	dynasty=10000641 # Shiga
+	dynasty_house = "house_shgnt_shiga"
 	father=10064114
 	religion="shinto"
 	culture="central_kyushu"
@@ -998,7 +1012,8 @@
 }
 10064112 = {
 	name=character_name_10064112 # Yorisuke
-	dynasty=10000641 # Shiga
+#	dynasty=10000641 # Shiga
+	dynasty_house = "house_shgnt_shiga"
 	father=10064114
 	religion="shinto"
 	culture="central_kyushu"
@@ -1011,7 +1026,8 @@
 }
 10064113 = {
 	name=character_name_10064113 # Chikatada
-	dynasty=10000641 # Shiga
+#	dynasty=10000641 # Shiga
+	dynasty_house = "house_shgnt_shiga"
 	father=10064114
 	religion="shinto"
 	culture="central_kyushu"
@@ -1024,7 +1040,8 @@
 }
 10064114 = {
 	name=character_name_10064114 # Ujifusa
-	dynasty=10000641 # Shiga
+#	dynasty=10000641 # Shiga
+	dynasty_house = "house_shgnt_shiga"
 	father=10064115
 	religion="shinto"
 	culture="central_kyushu"
@@ -1037,7 +1054,8 @@
 }
 10064115 = {
 	name=character_name_10064115 # Yorifusa
-	dynasty=10000641 # Shiga
+#	dynasty=10000641 # Shiga
+	dynasty_house = "house_shgnt_shiga"
 	father=10064116
 	religion="shinto"
 	culture="central_kyushu"
@@ -1050,7 +1068,8 @@
 }
 10064116 = {
 	name=character_name_10064116 # Sadatomo
-	dynasty=10000641 # Shiga
+#	dynasty=10000641 # Shiga
+	dynasty_house = "house_shgnt_shiga"
 	father=10064117
 	religion="shinto"
 	culture="central_kyushu"
@@ -1063,7 +1082,8 @@
 }
 10064117 = {
 	name=character_name_10064117 # Yasutomo
-	dynasty=10000641 # Shiga
+#	dynasty=10000641 # Shiga
+	dynasty_house = "house_shgnt_shiga"
 	father=10064118
 	religion="shinto"
 	culture="central_kyushu"
@@ -1076,7 +1096,8 @@
 }
 10064118 = {
 	name=character_name_10064118 # Yoshisato
-	dynasty=10000641 # Shiga
+#	dynasty=10000641 # Shiga
+	dynasty_house = "house_shgnt_shiga"
 	father=10130538
 	religion="shinto"
 	culture="central_kyushu"
@@ -1089,7 +1110,8 @@
 }
 10064150 = {
 	name=character_name_10064150 # Tokikage
-	dynasty=10000667 # Ichimata
+#	dynasty=10000667 # Ichimata
+	dynasty_house = "house_shgnt_ichimata"
 	father=10130538
 	religion="shinto"
 	culture="central_kyushu"
@@ -1102,7 +1124,8 @@
 }
 10064151 = {
 	name=character_name_10064151 # Mitsukage
-	dynasty=10000667 # Ichimata
+#	dynasty=10000667 # Ichimata
+	dynasty_house = "house_shgnt_ichimata"
 	father=10064150
 	religion="shinto"
 	culture="central_kyushu"
@@ -1115,7 +1138,8 @@
 }
 10064152 = {
 	name=character_name_10064152 # Chikasada
-	dynasty=10000667 # Ichimata
+#	dynasty=10000667 # Ichimata
+	dynasty_house = "house_shgnt_ichimata"
 	father=10064150
 	religion="shinto"
 	culture="central_kyushu"
@@ -1128,7 +1152,8 @@
 }
 10064153 = {
 	name=character_name_10064153 # Yoriaki
-	dynasty=10000667 # Ichimata
+#	dynasty=10000667 # Ichimata
+	dynasty_house = "house_shgnt_ichimata"
 	father=10064150
 	religion="shinto"
 	culture="central_kyushu"
@@ -1141,7 +1166,8 @@
 }
 10064154 = {
 	name=character_name_10064154 # Nobukage
-	dynasty=10000667 # Ichimata
+#	dynasty=10000667 # Ichimata
+	dynasty_house = "house_shgnt_ichimata"
 	father=10064151
 	religion="shinto"
 	culture="central_kyushu"
@@ -1154,7 +1180,8 @@
 }
 10064155 = {
 	name=character_name_10064155 # Nobumasa
-	dynasty=10000667 # Ichimata
+#	dynasty=10000667 # Ichimata
+	dynasty_house = "house_shgnt_ichimata"
 	father=10064154
 	religion="shinto"
 	culture="central_kyushu"
@@ -1167,7 +1194,8 @@
 }
 10064156 = {
 	name=character_name_10064156 # Sanemasa
-	dynasty=10000667 # Ichimata
+#	dynasty=10000667 # Ichimata
+	dynasty_house = "house_shgnt_ichimata"
 	father=10064155
 	religion="shinto"
 	culture="central_kyushu"
@@ -1180,7 +1208,8 @@
 }
 10064157 = {
 	name=character_name_10064157 # Sadasato
-	dynasty=10000667 # Ichimata
+#	dynasty=10000667 # Ichimata
+	dynasty_house = "house_shgnt_ichimata"
 	father=10064155
 	religion="shinto"
 	culture="central_kyushu"
@@ -1193,7 +1222,8 @@
 }
 10064158 = {
 	name=character_name_10064158 # Sadanao
-	dynasty=10000667 # Ichimata
+#	dynasty=10000667 # Ichimata
+	dynasty_house = "house_shgnt_ichimata"
 	father=10064156
 	religion="shinto"
 	culture="central_kyushu"
@@ -1206,7 +1236,8 @@
 }
 10064159 = {
 	name=character_name_10064159 # Sadayo
-	dynasty=10000667 # Ichimata
+#	dynasty=10000667 # Ichimata
+	dynasty_house = "house_shgnt_ichimata"
 	father=10064156
 	religion="shinto"
 	culture="central_kyushu"
@@ -1219,7 +1250,8 @@
 }
 10064160 = {
 	name=character_name_10064160 # Naomasa
-	dynasty=10000667 # Ichimata
+#	dynasty=10000667 # Ichimata
+	dynasty_house = "house_shgnt_ichimata"
 	father=10064158
 	religion="shinto"
 	culture="central_kyushu"
@@ -1232,7 +1264,8 @@
 }
 10064161 = {
 	name=character_name_10064161 # Sadamasa
-	dynasty=10000667 # Ichimata
+#	dynasty=10000667 # Ichimata
+	dynasty_house = "house_shgnt_ichimata"
 	father=10064158
 	religion="shinto"
 	culture="central_kyushu"
@@ -1245,7 +1278,8 @@
 }
 10064162 = {
 	name=character_name_10064162 # Naohiro
-	dynasty=10000667 # Ichimata
+#	dynasty=10000667 # Ichimata
+	dynasty_house = "house_shgnt_ichimata"
 	father=10064158
 	religion="shinto"
 	culture="central_kyushu"
@@ -1258,7 +1292,8 @@
 }
 10064163 = {
 	name=character_name_10064163 # Naoyasu
-	dynasty=10000667 # Ichimata
+#	dynasty=10000667 # Ichimata
+	dynasty_house = "house_shgnt_ichimata"
 	father=10064160
 	religion="shinto"
 	culture="central_kyushu"
@@ -1271,7 +1306,8 @@
 }
 10064164 = {
 	name=character_name_10064164 # Tsuneyasu
-	dynasty=10000667 # Ichimata
+#	dynasty=10000667 # Ichimata
+	dynasty_house = "house_shgnt_ichimata"
 	father=10064163
 	religion="shinto"
 	culture="central_kyushu"
@@ -1284,7 +1320,8 @@
 }
 10064165 = {
 	name=character_name_10064165 # Nagayasu
-	dynasty=10000667 # Ichimata
+#	dynasty=10000667 # Ichimata
+	dynasty_house = "house_shgnt_ichimata"
 	father=10064164
 	religion="shinto"
 	culture="central_kyushu"
@@ -1297,7 +1334,8 @@
 }
 10064166 = {
 	name=character_name_10064166 # Chikayasu
-	dynasty=10000667 # Ichimata
+#	dynasty=10000667 # Ichimata
+	dynasty_house = "house_shgnt_ichimata"
 	father=10064164
 	religion="shinto"
 	culture="central_kyushu"
@@ -1310,7 +1348,8 @@
 }
 10064167 = {
 	name=character_name_10064167 # Chikasane
-	dynasty=10000667 # Ichimata
+#	dynasty=10000667 # Ichimata
+	dynasty_house = "house_shgnt_ichimata"
 	father=10064166
 	religion="shinto"
 	culture="central_kyushu"
@@ -1323,7 +1362,8 @@
 }
 10064168 = {
 	name=character_name_10064168 # Akisane
-	dynasty=10000667 # Ichimata
+#	dynasty=10000667 # Ichimata
+	dynasty_house = "house_shgnt_ichimata"
 	father=10064167
 	religion="shinto"
 	culture="central_kyushu"
@@ -1341,7 +1381,8 @@
 }
 10064169 = {
 	name=character_name_10064169 # Shigesane
-	dynasty=10000667 # Ichimata
+#	dynasty=10000667 # Ichimata
+	dynasty_house = "house_shgnt_ichimata"
 	father=10064168
 	religion="shinto"
 	culture="central_kyushu"
@@ -1361,7 +1402,8 @@
 }
 10064170 = {
 	name=character_name_10064170 # Akikage
-	dynasty=10000667 # Ichimata
+#	dynasty=10000667 # Ichimata
+	dynasty_house = "house_shgnt_ichimata"
 	father=10064167
 	religion="shinto"
 	culture="central_kyushu"
@@ -1374,7 +1416,8 @@
 }
 10064171 = {
 	name=character_name_10064171 # Akimichi
-	dynasty=10000667 # Ichimata
+#	dynasty=10000667 # Ichimata
+	dynasty_house = "house_shgnt_ichimata"
 	father=10064167
 	religion="shinto"
 	culture="central_kyushu"
@@ -1387,7 +1430,8 @@
 }
 10064172 = {
 	name=character_name_10064172 # Shigenori
-	dynasty=10000667 # Ichimata
+#	dynasty=10000667 # Ichimata
+	dynasty_house = "house_shgnt_ichimata"
 	father=10064167
 	religion="shinto"
 	culture="central_kyushu"
@@ -1640,7 +1684,8 @@
 }
 10064300 = {
 	name=character_name_10064300 # Akitsugu
-	dynasty=10000643 # Usuki
+#	dynasty=10000643 # Usuki
+	dynasty_house = "house_shgnt_usuki"
 	father=10064301
 	religion="shinto"
 	culture="central_kyushu"
@@ -1662,7 +1707,8 @@
 }
 10064301 = {
 	name=character_name_10064301 # Nagakage
-	dynasty=10000643 # Usuki
+#	dynasty=10000643 # Usuki
+	dynasty_house = "house_shgnt_usuki"
 	father=10064309
 	martial=8
 	diplomacy=7
@@ -1682,7 +1728,8 @@
 }
 10064302 = {
 	name=character_name_10064302 # Akiyoshi
-	dynasty=10000643 # Usuki
+#	dynasty=10000643 # Usuki
+	dynasty_house = "house_shgnt_usuki"
 	father=10064301
 	martial=8
 	diplomacy=8
@@ -1702,7 +1749,8 @@
 }
 10064303 = {
 	name=character_name_10064303 # Akisada
-	dynasty=10000643 # Usuki
+#	dynasty=10000643 # Usuki
+	dynasty_house = "house_shgnt_usuki"
 	father=10064301
 	martial=7
 	diplomacy=8
@@ -1722,7 +1770,8 @@
 }
 10064304 = {
 	name=character_name_10064304 # Akiyoshi
-	dynasty=10000643 # Usuki
+#	dynasty=10000643 # Usuki
+	dynasty_house = "house_shgnt_usuki"
 	father=10064301
 	martial=8
 	diplomacy=6
@@ -1742,7 +1791,8 @@
 }
 10064305 = {
 	name=character_name_10064305 # Shigetsugu
-	dynasty=10000643 # Usuki
+#	dynasty=10000643 # Usuki
+	dynasty_house = "house_shgnt_usuki"
 	father=10064301
 	martial=7
 	diplomacy=9
@@ -1764,7 +1814,8 @@
 }
 10064306 = {
 	name=character_name_10064306 # Shigeuji
-	dynasty=10000643 # Usuki
+#	dynasty=10000643 # Usuki
+	dynasty_house = "house_shgnt_usuki"
 	father=10064301
 	martial=8
 	diplomacy=7
@@ -1784,7 +1835,8 @@
 }
 10064307 = {
 	name=character_name_10064307 # Shigenobu
-	dynasty=10000643 # Usuki
+#	dynasty=10000643 # Usuki
+	dynasty_house = "house_shgnt_usuki"
 	father=10064301
 	martial=8
 	diplomacy=8
@@ -1804,7 +1856,8 @@
 }
 10064308 = {
 	name=character_name_10064308 # Munemitsu
-	dynasty=10000643 # Usuki
+#	dynasty=10000643 # Usuki
+	dynasty_house = "house_shgnt_usuki"
 	father=10064301
 	martial=8
 	diplomacy=7
@@ -1824,7 +1877,8 @@
 }
 10064309 = {
 	name=character_name_10064309 # Yoshinao
-	dynasty=10000643 # Usuki
+#	dynasty=10000643 # Usuki
+	dynasty_house = "house_shgnt_usuki"
 	father=10064310
 	religion="shinto"
 	culture="central_kyushu"
@@ -1837,7 +1891,8 @@
 }
 10064310= {
 	name=character_name_10064310 # Yoshichika
-	dynasty=10000643 # Usuki
+#	dynasty=10000643 # Usuki
+	dynasty_house = "house_shgnt_usuki"
 	father=10064326
 	religion="shinto"
 	culture="central_kyushu"
@@ -1850,7 +1905,8 @@
 }
 10064311 = {
 	name=character_name_10064311 # Akisumi
-	dynasty=10000643 # Usuki
+#	dynasty=10000643 # Usuki
+	dynasty_house = "house_shgnt_usuki"
 	father=10064301
 	religion="shinto"
 	culture="central_kyushu"
@@ -1872,7 +1928,8 @@
 }
 10064312 = {
 	name=character_name_10064312 # Shigetatsu
-	dynasty=10000643 # Usuki
+#	dynasty=10000643 # Usuki
+	dynasty_house = "house_shgnt_usuki"
 	father=10064302
 	trait="education_stewardship_1"
 	religion="shinto"
@@ -1886,7 +1943,8 @@
 }
 10064313 = {
 	name=character_name_10064313 # Munekage
-	dynasty=10000643 # Usuki
+#	dynasty=10000643 # Usuki
+	dynasty_house = "house_shgnt_usuki"
 	father=10064311
 	martial=7
 	diplomacy=8
@@ -1908,7 +1966,8 @@
 }
 10064314 = {
 	name=character_name_10064314 # Shigesada
-	dynasty=10000643 # Usuki
+#	dynasty=10000643 # Usuki
+	dynasty_house = "house_shgnt_usuki"
 	father=10064303
 	trait="education_stewardship_1"
 	religion="shinto"
@@ -1922,7 +1981,8 @@
 }
 10064315 = {
 	name=character_name_10064315 # Munehisa
-	dynasty=10000643 # Usuki
+#	dynasty=10000643 # Usuki
+	dynasty_house = "house_shgnt_usuki"
 	father=10064314
 	trait="education_stewardship_1"
 	religion="shinto"
@@ -1936,7 +1996,8 @@
 }
 10064316 = {
 	name=character_name_10064316 # Shigenaga
-	dynasty=10000643 # Usuki
+#	dynasty=10000643 # Usuki
+	dynasty_house = "house_shgnt_usuki"
 	father=10064304
 	trait="education_stewardship_1"
 	religion="shinto"
@@ -1950,7 +2011,8 @@
 }
 10064317 = {
 	name=character_name_10064317 # Shigenobu
-	dynasty=10000643 # Usuki
+#	dynasty=10000643 # Usuki
+	dynasty_house = "house_shgnt_usuki"
 	father=10064304
 	trait="education_stewardship_1"
 	religion="shinto"
@@ -1964,7 +2026,8 @@
 }
 10064318 = {
 	name=character_name_10064318 # Shigenao
-	dynasty=10000643 # Usuki
+#	dynasty=10000643 # Usuki
+	dynasty_house = "house_shgnt_usuki"
 	father=10064307
 	martial=7
 	diplomacy=8
@@ -1984,7 +2047,8 @@
 }
 10064319 = {
 	name=character_name_10064319 # Shigemasa
-	dynasty=10000643 # Usuki
+#	dynasty=10000643 # Usuki
+	dynasty_house = "house_shgnt_usuki"
 	father=10064318
 	trait="education_stewardship_1"
 	religion="shinto"
@@ -1998,7 +2062,8 @@
 }
 10064320 = {
 	name=character_name_10064320 # Muneatsu
-	dynasty=10000643 # Usuki
+#	dynasty=10000643 # Usuki
+	dynasty_house = "house_shgnt_usuki"
 	father=10064308
 	trait="education_stewardship_1"
 	religion="shinto"
@@ -2012,7 +2077,8 @@
 }
 10064321 = {
 	name=character_name_10064321 # Chikatsura
-	dynasty=10000643 # Usuki
+#	dynasty=10000643 # Usuki
+	dynasty_house = "house_shgnt_usuki"
 	father=10064310
 	religion="shinto"
 	culture="central_kyushu"
@@ -2025,7 +2091,8 @@
 }
 10064322 = {
 	name=character_name_10064322 # Chikatsugu
-	dynasty=10000643 # Usuki
+#	dynasty=10000643 # Usuki
+	dynasty_house = "house_shgnt_usuki"
 	father=10064321
 	religion="shinto"
 	culture="central_kyushu"
@@ -2040,7 +2107,8 @@
 }
 10064323 = {
 	name=character_name_10064323 # Munekatsu
-	dynasty=10000643 # Usuki
+#	dynasty=10000643 # Usuki
+	dynasty_house = "house_shgnt_usuki"
 	father=10064322
 	religion="shinto"
 	culture="central_kyushu"
@@ -2053,7 +2121,8 @@
 }
 10064324={
 	name=character_name_10064324 # Naotoki
-	dynasty=10000666 # Bekki
+	#dynasty=10000666 # Bekki
+	dynasty_house = "house_shgnt_bekki"
 	father=10064352 # Bekki Shigeyori
 	religion="shinto"
 	culture="central_kyushu"
@@ -2066,7 +2135,8 @@
 }
 10064325={
 	name=character_name_10064325 # Tokinao
-	dynasty=10000643 # Usuki
+#	dynasty=10000643 # Usuki
+	dynasty_house = "house_shgnt_usuki"
 	father=10064324 # Bekki Naotoki
 	religion="shinto"
 	culture="central_kyushu"
@@ -2079,7 +2149,8 @@
 }
 10064326={
 	name=character_name_10064326 # Chikayasu
-	dynasty=10000643 # Usuki
+#	dynasty=10000643 # Usuki
+	dynasty_house = "house_shgnt_usuki"
 	father=10064325 # Usuki Tokinao
 	religion="shinto"
 	culture="central_kyushu"
@@ -2092,7 +2163,8 @@
 }
 10064327={
 	name=character_name_10064327 # Chikanori
-	dynasty=10000643 # Usuki
+#	dynasty=10000643 # Usuki
+	dynasty_house = "house_shgnt_usuki"
 	father=10064326 # Usuki Chikayasu
 	religion="shinto"
 	culture="central_kyushu"
@@ -2105,7 +2177,8 @@
 }
 10064350 = {
 	name=character_name_10064350 # Shigehide
-	dynasty=10000666 # Bekki
+	#dynasty=10000666 # Bekki
+	dynasty_house = "house_shgnt_bekki"
 	father=10064005
 	religion="shinto"
 	culture="central_kyushu"
@@ -2121,7 +2194,8 @@
 }
 10064351 = {
 	name=character_name_10064351 # Tokichika
-	dynasty=10000666 # Bekki
+	#dynasty=10000666 # Bekki
+	dynasty_house = "house_shgnt_bekki"
 	father=10064350
 	religion="shinto"
 	culture="central_kyushu"
@@ -2137,7 +2211,8 @@
 }
 10064352 = {
 	name=character_name_10064352 # Shigeyori
-	dynasty=10000666 # Bekki
+	#dynasty=10000666 # Bekki
+	dynasty_house = "house_shgnt_bekki"
 	father=10064350
 	religion="shinto"
 	culture="central_kyushu"
@@ -2150,7 +2225,8 @@
 }
 10064353 = {
 	name=character_name_10064353 # Yorichika
-	dynasty=10000666 # Bekki
+	#dynasty=10000666 # Bekki
+	dynasty_house = "house_shgnt_bekki"
 	father=10064350
 	religion="shinto"
 	culture="central_kyushu"
@@ -2163,7 +2239,8 @@
 }
 10064354 = {
 	name=character_name_10064354 # Yorinao
-	dynasty=10000666 # Bekki
+	#dynasty=10000666 # Bekki
+	dynasty_house = "house_shgnt_bekki"
 	father=10064350
 	religion="shinto"
 	culture="central_kyushu"
@@ -2176,7 +2253,8 @@
 }
 10064355 = {
 	name=character_name_10064355 # Naotoki
-	dynasty=10000666 # Bekki
+	#dynasty=10000666 # Bekki
+	dynasty_house = "house_shgnt_bekki"
 	father=10064351
 	religion="shinto"
 	culture="central_kyushu"
@@ -2192,7 +2270,8 @@
 }
 10064356 = {
 	name=character_name_10064356 # Tomonao
-	dynasty=10000666 # Bekki
+	#dynasty=10000666 # Bekki
+	dynasty_house = "house_shgnt_bekki"
 	father=10064351
 	religion="shinto"
 	culture="central_kyushu"
@@ -2205,7 +2284,8 @@
 }
 10064357 = {
 	name=character_name_10064357 # Naosada
-	dynasty=10000666 # Bekki
+	#dynasty=10000666 # Bekki
+	dynasty_house = "house_shgnt_bekki"
 	father=10064351
 	religion="shinto"
 	culture="central_kyushu"
@@ -2218,7 +2298,8 @@
 }
 10064358 = {
 	name=character_name_10064358 # Chikanori
-	dynasty=10000666 # Bekki
+	#dynasty=10000666 # Bekki
+	dynasty_house = "house_shgnt_bekki"
 	father=10064351
 	religion="shinto"
 	culture="central_kyushu"
@@ -2231,7 +2312,8 @@
 }
 10064359 = {
 	name=character_name_10064359 # Sadayoshi
-	dynasty=10000666 # Bekki
+	#dynasty=10000666 # Bekki
+	dynasty_house = "house_shgnt_bekki"
 	father=10064351
 	religion="shinto"
 	culture="central_kyushu"
@@ -2244,7 +2326,8 @@
 }
 10064360 = {
 	name=character_name_10064360 # Naoko #Otomo Chikatoki's wife
-	dynasty=10000666 # Bekki
+	#dynasty=10000666 # Bekki
+	dynasty_house = "house_shgnt_bekki"
 	father=10064351
 	female=yes
 	religion="shinto"
@@ -2258,7 +2341,8 @@
 }
 10064361 = {
 	name=character_name_10064361 # Takasada
-	dynasty=10000666 # Bekki
+	#dynasty=10000666 # Bekki
+	dynasty_house = "house_shgnt_bekki"
 	father=10064357
 	religion="shinto"
 	culture="central_kyushu"
@@ -2271,7 +2355,8 @@
 }
 10064362 = {
 	name=character_name_10064362 # Yoritoki
-	dynasty=10000666 # Bekki
+	#dynasty=10000666 # Bekki
+	dynasty_house = "house_shgnt_bekki"
 	father=10064357
 	religion="shinto"
 	culture="central_kyushu"
@@ -2287,7 +2372,8 @@
 }
 10064363 = {
 	name=character_name_10064363 # Sadashige
-	dynasty=10000666 # Bekki
+	#dynasty=10000666 # Bekki
+	dynasty_house = "house_shgnt_bekki"
 	father=10064357
 	religion="shinto"
 	culture="central_kyushu"
@@ -2300,7 +2386,8 @@
 }
 10064364 = {
 	name=character_name_10064364 # Naomitsu
-	dynasty=10000666 # Bekki
+	#dynasty=10000666 # Bekki
+	dynasty_house = "house_shgnt_bekki"
 	father=10064362
 	religion="shinto"
 	culture="central_kyushu"
@@ -2316,7 +2403,8 @@
 }
 10064365 = {
 	name=character_name_10064365 # Naotoki
-	dynasty=10000666 # Bekki
+	#dynasty=10000666 # Bekki
+	dynasty_house = "house_shgnt_bekki"
 	father=10064362
 	religion="shinto"
 	culture="central_kyushu"
@@ -2329,7 +2417,8 @@
 }
 10064366 = {
 	name=character_name_10064366 # Naomasa
-	dynasty=10000666 # Bekki
+	#dynasty=10000666 # Bekki
+	dynasty_house = "house_shgnt_bekki"
 	father=10064362
 	religion="shinto"
 	culture="central_kyushu"
@@ -2342,7 +2431,8 @@
 }
 10064367 = {
 	name=character_name_10064367 # Tokimitsu
-	dynasty=10000666 # Bekki
+	#dynasty=10000666 # Bekki
+	dynasty_house = "house_shgnt_bekki"
 	father=10064362
 	religion="shinto"
 	culture="central_kyushu"
@@ -2355,7 +2445,8 @@
 }
 10064368 = {
 	name=character_name_10064368 # Mitsunaga
-	dynasty=10000666 # Bekki
+	#dynasty=10000666 # Bekki
+	dynasty_house = "house_shgnt_bekki"
 	father=10064362
 	religion="shinto"
 	culture="central_kyushu"
@@ -2368,7 +2459,8 @@
 }
 10064369 = {
 	name=character_name_10064369 # Hosen
-	dynasty=10000666 # Bekki
+	#dynasty=10000666 # Bekki
+	dynasty_house = "house_shgnt_bekki"
 	father=10064364
 	religion="shinto"
 	culture="central_kyushu"
@@ -2386,7 +2478,8 @@
 }
 10064370 = {
 	name=character_name_10064370 # Naoyo
-	dynasty=10000666 # Bekki
+	#dynasty=10000666 # Bekki
+	dynasty_house = "house_shgnt_bekki"
 	father=10064364
 	religion="shinto"
 	culture="central_kyushu"
@@ -2399,7 +2492,8 @@
 }
 10064371 = {
 	name=character_name_10064371 # Toshimitsu
-	dynasty=10000666 # Bekki
+	#dynasty=10000666 # Bekki
+	dynasty_house = "house_shgnt_bekki"
 	father=10064364
 	religion="shinto"
 	culture="central_kyushu"
@@ -2412,7 +2506,8 @@
 }
 10064372 = {
 	name=character_name_10064372 # Takanori
-	dynasty=10000666 # Bekki
+	#dynasty=10000666 # Bekki
+	dynasty_house = "house_shgnt_bekki"
 	father=10064370
 	religion="shinto"
 	culture="central_kyushu"
@@ -2428,7 +2523,8 @@
 }
 10064373 = {
 	name=character_name_10064373 # Shigeyo
-	dynasty=10000666 # Bekki
+	#dynasty=10000666 # Bekki
+	dynasty_house = "house_shgnt_bekki"
 	father=10064370
 	religion="shinto"
 	culture="central_kyushu"
@@ -2444,7 +2540,8 @@
 }
 10064374 = {
 	name=character_name_10064374 # Sadatane
-	dynasty=10000666 # Bekki
+	#dynasty=10000666 # Bekki
+	dynasty_house = "house_shgnt_bekki"
 	father=10064370
 	religion="shinto"
 	culture="central_kyushu"
@@ -2457,7 +2554,8 @@
 }
 10064375 = {
 	name=character_name_10064375 # Chikanori
-	dynasty=10000666 # Bekki
+	#dynasty=10000666 # Bekki
+	dynasty_house = "house_shgnt_bekki"
 	father=10064370
 	religion="shinto"
 	culture="central_kyushu"
@@ -2473,7 +2571,8 @@
 }
 10064376 = {
 	name=character_name_10064376 # Ujiakira
-	dynasty=10000666 # Bekki
+	#dynasty=10000666 # Bekki
+	dynasty_house = "house_shgnt_bekki"
 	father=10064370
 	religion="shinto"
 	culture="central_kyushu"
@@ -2486,7 +2585,8 @@
 }
 10064377 = {
 	name=character_name_10064377 # Naoshige
-	dynasty=10000666 # Bekki
+	#dynasty=10000666 # Bekki
+	dynasty_house = "house_shgnt_bekki"
 	father=10064372
 	religion="shinto"
 	culture="central_kyushu"
@@ -2499,7 +2599,8 @@
 }
 10064378 = {
 	name=character_name_10064378 # Naokuni
-	dynasty=10000666 # Bekki
+	#dynasty=10000666 # Bekki
+	dynasty_house = "house_shgnt_bekki"
 	father=10064373
 	religion="shinto"
 	culture="central_kyushu"
@@ -2512,7 +2613,8 @@
 }
 10064379 = {
 	name=character_name_10064379 # Chikasada
-	dynasty=10000666 # Bekki
+	#dynasty=10000666 # Bekki
+	dynasty_house = "house_shgnt_bekki"
 	father=10064375
 	religion="shinto"
 	culture="central_kyushu"
@@ -2530,7 +2632,8 @@
 }
 10064380 = {
 	name=character_name_10064380 # Naoyori
-	dynasty=10000666 # Bekki
+	#dynasty=10000666 # Bekki
+	dynasty_house = "house_shgnt_bekki"
 	father=10064376
 	religion="shinto"
 	culture="central_kyushu"
@@ -2543,7 +2646,8 @@
 }
 10064381 = {
 	name=character_name_10064381 # Yoshiyasu
-	dynasty=10000666 # Bekki
+	#dynasty=10000666 # Bekki
+	dynasty_house = "house_shgnt_bekki"
 	father=10064378
 	religion="shinto"
 	culture="central_kyushu"
@@ -2556,7 +2660,8 @@
 }
 10064382 = {
 	name=character_name_10064382 # Chikatsugu
-	dynasty=10000666 # Bekki
+	#dynasty=10000666 # Bekki
+	dynasty_house = "house_shgnt_bekki"
 	father=10064379
 	religion="shinto"
 	culture="central_kyushu"
@@ -2569,7 +2674,8 @@
 }
 10064383 = {
 	name=character_name_10064383 # Chikahisa
-	dynasty=10000666 # Bekki
+	#dynasty=10000666 # Bekki
+	dynasty_house = "house_shgnt_bekki"
 	father=10064382
 	religion="shinto"
 	culture="central_kyushu"
@@ -2585,7 +2691,8 @@
 }
 10064384 = {
 	name=character_name_10064384 # Chikanobu
-	dynasty=10000666 # Bekki
+	#dynasty=10000666 # Bekki
+	dynasty_house = "house_shgnt_bekki"
 	father=10064379
 	religion="shinto"
 	culture="central_kyushu"
@@ -2598,7 +2705,8 @@
 }
 10064385 = {
 	name=character_name_10064385 # Chikaie
-	dynasty=10000666 # Bekki
+	#dynasty=10000666 # Bekki
+	dynasty_house = "house_shgnt_bekki"
 	father=10064384
 	religion="shinto"
 	culture="central_kyushu"
@@ -2611,7 +2719,8 @@
 }
 10064386 = {
 	name=character_name_10064386 # Akikata
-	dynasty=10000666 # Bekki
+	#dynasty=10000666 # Bekki
+	dynasty_house = "house_shgnt_bekki"
 	father=10064385
 	religion="shinto"
 	culture="central_kyushu"
@@ -2629,7 +2738,8 @@
 }
 10064387 = {
 	name=character_name_10064387 # Shigetsura
-	dynasty=10000666 # Bekki
+	#dynasty=10000666 # Bekki
+	dynasty_house = "house_shgnt_bekki"
 	father=10064386
 	religion="shinto"
 	culture="central_kyushu"
@@ -2645,7 +2755,8 @@
 }
 10064388 = {
 	name=character_name_10064388 # Munetsura #Munetsune
-	dynasty=10000666 # Bekki
+	#dynasty=10000666 # Bekki
+	dynasty_house = "house_shgnt_bekki"
 	father=10064387
 	religion="shinto"
 	culture="central_kyushu"
@@ -2664,7 +2775,8 @@
 }
 10064389 = {
 	name=character_name_10064389 # Nobutsune
-	dynasty=10000666 # Bekki
+	#dynasty=10000666 # Bekki
+	dynasty_house = "house_shgnt_bekki"
 	father=10064388
 	mother=10064467
 	religion="shinto"
@@ -2678,7 +2790,8 @@
 }
 10064390 = {
 	name=character_name_10064390 # Munetoshi
-	dynasty=10000666 # Bekki
+	#dynasty=10000666 # Bekki
+	dynasty_house = "house_shgnt_bekki"
 	father=10064387
 	religion="shinto"
 	culture="central_kyushu"
@@ -2691,7 +2804,8 @@
 }
 10064391 = {
 	name=character_name_10064391 # Shigetoshi
-	dynasty=10000666 # Bekki
+	#dynasty=10000666 # Bekki
+	dynasty_house = "house_shgnt_bekki"
 	father=10064386
 	religion="shinto"
 	culture="central_kyushu"
@@ -2704,7 +2818,8 @@
 }
 10064392 = {
 	name=character_name_10064392 # Toshimitsu
-	dynasty=10000666 # Bekki
+	#dynasty=10000666 # Bekki
+	dynasty_house = "house_shgnt_bekki"
 	father=10064357
 	religion="shinto"
 	culture="central_kyushu"
@@ -2717,7 +2832,8 @@
 }
 10064393 = {
 	name=character_name_10064393 # Naokage
-	dynasty=10000666 # Bekki
+	#dynasty=10000666 # Bekki
+	dynasty_house = "house_shgnt_bekki"
 	father=10064357
 	religion="shinto"
 	culture="central_kyushu"
@@ -2730,7 +2846,8 @@
 }
 10064394 = {
 	name=character_name_10064394 # Naosue
-	dynasty=10000666 # Bekki
+	#dynasty=10000666 # Bekki
+	dynasty_house = "house_shgnt_bekki"
 	father=10064357
 	religion="shinto"
 	culture="central_kyushu"
@@ -2743,7 +2860,8 @@
 }
 10064400 = {
 	name=character_name_10064400 # Chikatada
-	dynasty=10000644 # Tawara
+#	dynasty=10000644 # Tawara
+	dynasty_house = "house_shgnt_tahara"
 	father=10064401
 	mother=10064211
 	martial=8
@@ -2764,7 +2882,8 @@
 }
 10064401 = {
 	name=character_name_10064401 # Chikanobu
-	dynasty=10000644 # Tawara
+#	dynasty=10000644 # Tawara
+	dynasty_house = "house_shgnt_tahara"
 	father=10064403
 	martial=7
 	diplomacy=8
@@ -2787,7 +2906,8 @@
 }
 10064402 = {
 	name=character_name_10064402 # Chikahiro
-	dynasty=10000644 # Tawara
+#	dynasty=10000644 # Tawara
+	dynasty_house = "house_shgnt_tahara"
 	father=10064401
 	mother=10064211
 	religion="shinto"
@@ -2808,7 +2928,8 @@
 }
 10064403 = {
 	name=character_name_10064403 # Chikamune
-	dynasty=10000644 # Tawara
+#	dynasty=10000644 # Tawara
+	dynasty_house = "house_shgnt_tahara"
 	father=10064404
 	religion="shinto"
 	culture="central_kyushu"
@@ -2821,7 +2942,8 @@
 }
 10064404 = {
 	name=character_name_10064404 # Ujitada
-	dynasty=10000644 # Tawara
+#	dynasty=10000644 # Tawara
+	dynasty_house = "house_shgnt_tahara"
 	father=10064409
 	religion="shinto"
 	culture="central_kyushu"
@@ -2840,7 +2962,8 @@
 }
 10064405 = {
 	name=character_name_10064405 # Uku #Akizuki Tanesane's wife
-	dynasty=10000644 # Tawara
+#	dynasty=10000644 # Tawara
+	dynasty_house = "house_shgnt_tahara"
 	father=10064402
 	female=yes
 	religion="shinto"
@@ -2854,7 +2977,8 @@
 }
 10064406 = {
 	name=character_name_10064406 # Yoshi #Tawara Chikatsura's wife
-	dynasty=10000644 # Tawara
+#	dynasty=10000644 # Tawara
+	dynasty_house = "house_shgnt_tahara"
 	father=10064402
 	female=yes
 	religion="shinto"
@@ -2868,7 +2992,8 @@
 }
 10064408 = {
 	name=character_name_10064408 # Chikakuni
-	dynasty=10000644 # Tawara
+#	dynasty=10000644 # Tawara
+	dynasty_house = "house_shgnt_tahara"
 	father=10067111
 	mother=10064406
 	female=yes
@@ -2883,7 +3008,8 @@
 }
 10064409 = {
 	name=character_name_10064409 # Chikayuki
-	dynasty=10000644 # Tawara
+#	dynasty=10000644 # Tawara
+	dynasty_house = "house_shgnt_tahara"
 	father=10064411
 	religion="shinto"
 	culture="central_kyushu"
@@ -2896,7 +3022,8 @@
 }
 10064410 = {
 	name=character_name_10064410 # Chikanori
-	dynasty=10000644 # Tawara
+#	dynasty=10000644 # Tawara
+	dynasty_house = "house_shgnt_tahara"
 	father=10064409
 	religion="shinto"
 	culture="central_kyushu"
@@ -2909,7 +3036,8 @@
 }
 10064411 = {
 	name=character_name_10064411 # Chikasada
-	dynasty=10000644 # Tawara
+#	dynasty=10000644 # Tawara
+	dynasty_house = "house_shgnt_tahara"
 	father=10064412
 	religion="shinto"
 	culture="central_kyushu"
@@ -2922,7 +3050,8 @@
 }
 10064412 = {
 	name=character_name_10064412 # Ujiyoshi
-	dynasty=10000644 # Tawara
+#	dynasty=10000644 # Tawara
+	dynasty_house = "house_shgnt_tahara"
 	father=10064413
 	religion="shinto"
 	culture="central_kyushu"
@@ -2935,7 +3064,8 @@
 }
 10064413 = {
 	name=character_name_10064413 # Sadahiro
-	dynasty=10000644 # Tawara
+#	dynasty=10000644 # Tawara
+	dynasty_house = "house_shgnt_tahara"
 	father=10064414
 	religion="shinto"
 	culture="central_kyushu"
@@ -2948,7 +3078,8 @@
 }
 10064414 = {
 	name=character_name_10064414 # Naosada
-	dynasty=10000644 # Tawara
+#	dynasty=10000644 # Tawara
+	dynasty_house = "house_shgnt_tahara"
 	father=10064415
 	religion="shinto"
 	culture="central_kyushu"
@@ -2961,7 +3092,8 @@
 }
 10064415 = {
 	name=character_name_10064415 # Motonao
-	dynasty=10000644 # Tawara
+#	dynasty=10000644 # Tawara
+	dynasty_house = "house_shgnt_tahara"
 	father=10064416
 	religion="shinto"
 	culture="central_kyushu"
@@ -2974,7 +3106,8 @@
 }
 10064416 = {
 	name=character_name_10064416 # Yasuhiro
-	dynasty=10000644 # Tawara
+#	dynasty=10000644 # Tawara
+	dynasty_house = "house_shgnt_tahara"
 	father=10130538
 	religion="shinto"
 	culture="central_kyushu"
@@ -3068,7 +3201,8 @@
 		birth=yes
 	}
 	1555.1.1 = {
-		dynasty=10000644 # Tawara
+	#	dynasty=10000644 # Tawara
+	dynasty_house = "house_shgnt_tahara"
 		effect = {
 			set_father = character:10064401
 			set_real_father = character:10064441
@@ -3081,7 +3215,8 @@
 }
 10064450 = {
 	name=character_name_10064450 # Masakata
-	dynasty=10000665 # Yoshihiro
+#	dynasty=10000665 # Yoshihiro
+	dynasty_house = "house_shgnt_yoshihiro"
 	father=10064414
 	religion="shinto"
 	culture="central_kyushu"
@@ -3094,7 +3229,8 @@
 }
 10064451 = {
 	name=character_name_10064451 # Ujihiro
-	dynasty=10000665 # Yoshihiro
+#	dynasty=10000665 # Yoshihiro
+	dynasty_house = "house_shgnt_yoshihiro"
 	father=10064450
 	religion="shinto"
 	culture="central_kyushu"
@@ -3107,7 +3243,8 @@
 }
 10064452 = {
 	name=character_name_10064452 # Ujisuke
-	dynasty=10000665 # Yoshihiro
+#	dynasty=10000665 # Yoshihiro
+	dynasty_house = "house_shgnt_yoshihiro"
 	father=10064451
 	religion="shinto"
 	culture="central_kyushu"
@@ -3120,7 +3257,8 @@
 }
 10064453 = {
 	name=character_name_10064453 # Naosuke
-	dynasty=10000665 # Yoshihiro
+#	dynasty=10000665 # Yoshihiro
+	dynasty_house = "house_shgnt_yoshihiro"
 	father=10064451
 	religion="shinto"
 	culture="central_kyushu"
@@ -3133,7 +3271,8 @@
 }
 10064454 = {
 	name=character_name_10064454 # Ujisato
-	dynasty=10000665 # Yoshihiro
+#	dynasty=10000665 # Yoshihiro
+	dynasty_house = "house_shgnt_yoshihiro"
 	father=10064451
 	religion="shinto"
 	culture="central_kyushu"
@@ -3146,7 +3285,8 @@
 }
 10064455 = {
 	name=character_name_10064455 # Naooki
-	dynasty=10000665 # Yoshihiro
+#	dynasty=10000665 # Yoshihiro
+	dynasty_house = "house_shgnt_yoshihiro"
 	father=10064453
 	religion="shinto"
 	culture="central_kyushu"
@@ -3159,7 +3299,8 @@
 }
 10064456 = {
 	name=character_name_10064456 # Gokei
-	dynasty=10000665 # Yoshihiro
+#	dynasty=10000665 # Yoshihiro
+	dynasty_house = "house_shgnt_yoshihiro"
 	father=10064455
 	religion="shinto"
 	culture="central_kyushu"
@@ -3177,7 +3318,8 @@
 }
 10064457 = {
 	name=character_name_10064457 # Tsunashige
-	dynasty=10000665 # Yoshihiro
+#	dynasty=10000665 # Yoshihiro
+	dynasty_house = "house_shgnt_yoshihiro"
 	father=10064455
 	religion="shinto"
 	culture="central_kyushu"
@@ -3193,7 +3335,8 @@
 }
 10064458 = {
 	name=character_name_10064458 # Enchu
-	dynasty=10000665 # Yoshihiro
+#	dynasty=10000665 # Yoshihiro
+	dynasty_house = "house_shgnt_yoshihiro"
 	father=10064457
 	religion="shinto"
 	culture="central_kyushu"
@@ -3211,7 +3354,8 @@
 }
 10064459 = {
 	name=character_name_10064459 # Chikatoshi
-	dynasty=10000665 # Yoshihiro
+#	dynasty=10000665 # Yoshihiro
+	dynasty_house = "house_shgnt_yoshihiro"
 	father=10064457
 	religion="shinto"
 	culture="central_kyushu"
@@ -3224,7 +3368,8 @@
 }
 10064460 = {
 	name=character_name_10064460 # Chikanobu
-	dynasty=10000665 # Yoshihiro
+#	dynasty=10000665 # Yoshihiro
+	dynasty_house = "house_shgnt_yoshihiro"
 	father=10064459
 	religion="shinto"
 	culture="central_kyushu"
@@ -3240,7 +3385,8 @@
 }
 10064461 = {
 	name=character_name_10064461 # Ujinao
-	dynasty=10000665 # Yoshihiro
+#	dynasty=10000665 # Yoshihiro
+	dynasty_house = "house_shgnt_yoshihiro"
 	father=10064460
 	religion="shinto"
 	culture="central_kyushu"
@@ -3256,7 +3402,8 @@
 }
 10064462 = {
 	name=character_name_10064462 # Akimasa
-	dynasty=10000665 # Yoshihiro
+#	dynasty=10000665 # Yoshihiro
+	dynasty_house = "house_shgnt_yoshihiro"
 	father=10064461
 	religion="shinto"
 	culture="central_kyushu"
@@ -3273,7 +3420,8 @@
 }
 10064463 = {
 	name=character_name_10064463 # Akihiro
-	dynasty=10000665 # Yoshihiro
+#	dynasty=10000665 # Yoshihiro
+	dynasty_house = "house_shgnt_yoshihiro"
 	father=10064461
 	religion="shinto"
 	culture="central_kyushu"
@@ -3286,7 +3434,8 @@
 }
 10064464 = {
 	name=character_name_10064464 # Shigenobu
-	dynasty=10000665 # Yoshihiro
+#	dynasty=10000665 # Yoshihiro
+	dynasty_house = "house_shgnt_yoshihiro"
 	father=10064462
 	religion="shinto"
 	culture="central_kyushu"
@@ -3304,7 +3453,8 @@
 }
 10064465 = {
 	name=character_name_10064465 # Muneyuki
-	dynasty=10000665 # Yoshihiro
+#	dynasty=10000665 # Yoshihiro
+	dynasty_house = "house_shgnt_yoshihiro"
 	father=10064464
 	religion="shinto"
 	culture="central_kyushu"
@@ -3323,7 +3473,8 @@
 }
 10064466 = {
 	name=character_name_10064466 # Munekazu
-	dynasty=10000665 # Yoshihiro
+#	dynasty=10000665 # Yoshihiro
+	dynasty_house = "house_shgnt_yoshihiro"
 	father=10064464
 	religion="shinto"
 	culture="central_kyushu"
@@ -3336,7 +3487,8 @@
 }
 10064467 = {
 	name=character_name_10064467 # Omi #Bekki Munetsune's wife
-	dynasty=10000665 # Yoshihiro
+#	dynasty=10000665 # Yoshihiro
+	dynasty_house = "house_shgnt_yoshihiro"
 	father=10064464
 	female=yes
 	religion="shinto"
@@ -3350,7 +3502,8 @@
 }
 10064468 = {
 	name=character_name_10064468 # Masanobu
-	dynasty=10000665 # Yoshihiro
+#	dynasty=10000665 # Yoshihiro
+	dynasty_house = "house_shgnt_yoshihiro"
 	father=10064465
 	mother=10064104
 	religion="shinto"
@@ -3364,7 +3517,8 @@
 }
 10064469 = {
 	name=character_name_10064469 # Munesada
-	dynasty=10000665 # Yoshihiro
+#	dynasty=10000665 # Yoshihiro
+	dynasty_house = "house_shgnt_yoshihiro"
 	father=10064464
 	religion="shinto"
 	culture="central_kyushu"
@@ -3377,7 +3531,8 @@
 }
 10064470 = {
 	name=character_name_10064470 # Akishige
-	dynasty=10000665 # Yoshihiro
+#	dynasty=10000665 # Yoshihiro
+	dynasty_house = "house_shgnt_yoshihiro"
 	father=10064464
 	religion="shinto"
 	culture="central_kyushu"
@@ -5146,7 +5301,8 @@
 }
 10064818 = {
 	name=character_name_10064818 # Chikamune
-	dynasty=10000667 # Ichimata
+#	dynasty=10000667 # Ichimata
+	dynasty_house = "house_shgnt_ichimata"
 	father=10064166
 	religion="shinto"
 	culture="central_kyushu"
@@ -5213,7 +5369,8 @@
 }
 10064822 = {
 	name=character_name_10064822 # Shigesato
-	dynasty=10000665 # Yoshihiro
+#	dynasty=10000665 # Yoshihiro
+	dynasty_house = "house_shgnt_yoshihiro"
 	father=10064462
 	martial=12
 	diplomacy=5

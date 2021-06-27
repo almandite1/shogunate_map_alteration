@@ -1,7 +1,7 @@
-Shogunate 大修地图替代 MOD α版 Version 0.4.8 'Atoiya'
+Shogunate 大修地图替代 MOD α版 Version 0.4.9 'Atoiya'
 
 [h1]＊此为上传测试，将不另行通知。[/h1]
-[h1]Shogunate 大修地图替代 MOD α版 Version 0.4.8 'Atoiya'[/h1]
+[h1]Shogunate 大修地图替代 MOD α版 Version 0.4.9 'Atoiya'[/h1]
 ====
 
 Shogunate 大修地图替代 MOD α版是Shogunate（幕府）MOD的一个子模式。
@@ -41,7 +41,7 @@ Shogunate 大修地图替代 MOD α版是Shogunate（幕府）MOD的一个子模
 [*] 有一个湖泊普罗旺斯比非通航的湖泊更适合作为海洋。
 [*] 没有定位器，定位器位置重复。
 [*] 新增加的县级历史数据只是连接现有历史数据的副本。
-[*] 男爵爵位名称历史数据在Shogunate　MOD中没有体现。
+[*] 男爵爵位名称历史数据在Shogunate  MOD中没有体现。
 [*] Shogunate MOD并没有涵盖所有的信息，可以根据年龄改变男爵的头衔名称。
 [*] CK3 1.3版本中增加的冬季功能无法使用。
 [*] 人的发型、服装来自香草步--蒙古族文化。 笔者对3D CG建模并不熟悉，所以没有实现日式发型和服装的计划。

@@ -1,7 +1,7 @@
-Shogunate Map alteration MOD alpha Version 0.4.8 'Atoiya'
+Shogunate Map alteration MOD alpha Version 0.4.9 'Atoiya'
 
 [h1]※ This is a public upload test, so it will unexpectedly become private[/h1]
-[h1]Shogunate MOD Map alteration sub MOD alpha version Version 0.4.8 'Atoiya'[/h1]
+[h1]Shogunate MOD Map alteration sub MOD alpha version Version 0.4.9 'Atoiya'[/h1]
 ====
 
 Shogunate Map alteration sub MOD is a submod of the Shogunate mod. It replaces map with a high-resolution one and increases the Provence-Baron territory.

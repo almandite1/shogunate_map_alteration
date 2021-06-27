@@ -342,12 +342,18 @@
 1771 = { # Niita_1
 	culture = sanin
 	religion = shinto
-	holding = castle_holding
+	holding = none
 }
 1772 = { # Niita_2
 	culture = sanin
 	religion = shinto
-	holding = none
+	holding = castle_holding # 三沢荘
+	1222.01.01 = {
+		holding = castle_holding # 三沢城
+	}
+	1589.01.01 = {
+		holding = none
+	}
 }
 1773 = { # Ohara_1
 	culture = sanin

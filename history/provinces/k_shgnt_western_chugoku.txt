@@ -199,7 +199,7 @@
 1993 = { # Aki_Kamo_1
 	culture = western_chugoku
 	religion = shinto
-	holding = castle_holding
+	holding = none
 }
 1994 = { # Aki_Kamo_2
 	culture = western_chugoku
@@ -217,7 +217,10 @@
 1996 = { # Aki_Kamo_4
 	culture = western_chugoku
 	religion = shinto
-	holding = none
+	holding = castle_holding # 高屋保
+	1601.01.01 = {
+		holding = none
+	}
 }
 1997 = { # Aki_Kamo_5
 	culture = western_chugoku

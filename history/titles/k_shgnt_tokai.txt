@@ -115,6 +115,13 @@ c_shgnt_aomi = {
     1514.01.01 = {
         holder = 10024500 # Mizuno Tadamasa
     }
+	1533.01.01 = {
+		effect = {
+			title:b_shgnt_aomi_3 = {
+				set_title_name = b_shgnt_aomi_3_1 # Kariya
+			}
+		}
+	}
     1543.08.22 = {
         liege = 0 # 
         holder = 10024502 # Mizuno Nobumoto
@@ -1246,6 +1253,13 @@ c_shgnt_kiko = {
     1439.01.01 = {
         holder = 12390275 # Yokochi Nagahide
     }
+	1446.01.01 = {
+		effect = {
+			title:b_shgnt_kiko_6 = {
+				set_title_name = b_shgnt_kiko_6_1 # Takatenjin[高天神城]
+			}
+		}
+	}
     1476.01.01 = {
         liege = d_shgnt_suruga # 
         holder = 10023250 # Kushima Sukeharu
@@ -1736,6 +1750,10 @@ c_shgnt_nukata = {
         liege = 0 # Independence
         holder = 10024006 # Matsudaira Motoyasu
     }
+	1566.01.01 = {
+		liege = d_shgnt_mikawa # Tokugawa Ieyasu
+		#holder = 10024006 # Tokugawa Ieyasu
+	}
     1570.01.01 = {
         holder = 10024027 # Matsudaira Nobuyasu
     }
@@ -1827,6 +1845,13 @@ c_shgnt_saku = {
     1484.02.01 = {
         holder = 12361080 # Oi Genkei
     }
+	1487.01.01 = {
+		effect = {
+			title:b_shgnt_saku_5 = {
+				set_title_name = b_shgnt_saku_5_1 # Komoro[小諸城]
+			}
+		}
+	}
     1493.01.01 = {
         holder = 12361081 # Oi Yasumitsu
     }
@@ -3690,6 +3715,11 @@ c_shgnt_haibara = {
     1574.06.18 = {
         liege = d_shgnt_suruga # 20033 Takeda Katsuyori
         holder = 10020033 # Takeda Katsuyori
+		effect = {
+			title:b_shgnt_haibara_3 = {
+				set_title_name = b_shgnt_haibara_3_1 # Koyama[小山城]
+			}
+		}
     }
     1575.01.01 = {
         holder = 10023163 # Okabe Motonobu
@@ -3745,6 +3775,13 @@ c_shgnt_sano = {
     1475.01.01 = {
         holder = 10023101 # Asahina Yasuhiro
     }
+	1469.01.01 = {
+		effect = {
+			title:b_shgnt_sano_2 = {
+				set_title_name = b_shgnt_sano_2_1 # Kakegawa
+			}
+		}
+	}
     1512.01.01 = {
         holder = 10023100 # Asahina Yasuyoshi
     }

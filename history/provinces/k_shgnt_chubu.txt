@@ -316,6 +316,9 @@
 	culture = western_chubu
 	religion = shinto
 	holding = castle_holding
+	1532.01.01 = {
+		holding = castle_holding # 「泊浦御厨」,「鳥羽浦」,Tashiro[田城城],Toba[鳥羽城]
+	}
 }
 250 = { # Toshi_2
 	culture = western_chubu
@@ -325,7 +328,10 @@
 251 = { # Ago_1
 	culture = western_chubu
 	religion = shinto
-	holding = castle_holding
+	holding = none
+	1363.01.01 = {
+		holding = castle_holding # Nakiri[波切城]
+	}
 }
 252 = { # Aichi_1
 	culture = western_chubu
@@ -591,11 +597,17 @@
 	culture = western_chubu
 	religion = shinto
 	holding = none
+	1469.01.01 = {
+		holding = castle_holding # Ogawa
+	}
 }
 302 = { # Chita_4
 	culture = western_chubu
 	religion = shinto
 	holding = none
+	1407.01.01 = {
+		holding = castle_holding # Ōno
+	}
 }
 303 = { # Chita_5
 	culture = western_chubu
@@ -842,11 +854,17 @@
 	culture = western_chubu
 	religion = shinto
 	holding = castle_holding
+	1541.01.01 = {
+		holding = none
+	}
 }
 860 = { # Gujo_2
 	culture = western_chubu
 	religion = shinto
 	holding = none
+	1409.01.01 = {
+		holding = castle_holding # Akadaniyama, Hachiman
+	}
 }
 861 = { # Gujo_3
 	culture = western_chubu
@@ -926,7 +944,13 @@
 876 = { # Kako_1
 	culture = western_chubu
 	religion = shinto
-	holding = castle_holding
+	holding = none
+	1568.01.01 = {
+		holding = castle_holding # Kaneyama
+	}
+	1601.01.01 = {
+		holding = none
+	}
 }
 877 = { # Kako_2
 	culture = western_chubu
@@ -967,11 +991,20 @@
 	culture = koshin
 	religion = shinto
 	holding = none
+	1579.01.01 = {
+		holding = castle_holding # Matsukura, Takayama
+	}
+	1695.01.01 = {
+		holding = none
+	}
 }
 885 = { # Araki_1
 	culture = koshin
 	religion = shinto
 	holding = castle_holding
+	1584.01.01 = {
+		holding = none
+	}
 }
 886 = { # Araki_2
 	culture = koshin
@@ -987,6 +1020,12 @@
 	culture = koshin
 	religion = shinto
 	holding = none
+	1420.01.01 = {
+		holding = castle_holding
+	}
+	1585.01.01 = {
+		holding = none
+	}
 }
 889 = { # Mashita_3
 	culture = koshin

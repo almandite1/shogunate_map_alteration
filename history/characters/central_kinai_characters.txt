@@ -5448,7 +5448,8 @@
 		birth=yes
 	}
 	1481.1.1={
-		dynasty=10000285 # Ganshoji
+		#dynasty=10000285 # Ganshoji
+		dynasty_house = "house_shgnt_ganshoji"
 		effect = {
 			change_first_name = character_name_10042204_1 # Renjun
 		}
@@ -5470,7 +5471,8 @@
 		birth=yes
 	}
 	1467.1.1={
-		dynasty=10000372 # Shokoji
+		#dynasty=10000372 # Shokoji
+		dynasty_house = "house_shgnt_shokoji" # 松岡寺
 		effect = {
 			change_first_name = character_name_10042205_1 # Renko
 		}
@@ -5493,7 +5495,8 @@
 		birth=yes
 	}
 	1485.1.1={
-		dynasty=10000373 # Honsenji
+		#dynasty=10000373 # Honsenji
+		dynasty_house = "house_shgnt_honsenji"
 		effect = {
 			change_first_name = character_name_10042206_1 # Rengo
 		}
@@ -5521,7 +5524,8 @@
 		birth=yes
 	}
 	1472.1.1={
-		dynasty=10000374 # Kokyoji
+		#dynasty=10000374 # Kokyoji
+		dynasty_house = "house_shgnt_kokyoji"
 		effect = {
 			change_first_name = character_name_10042207_1 # Rensei
 		}
@@ -6173,7 +6177,8 @@
 }
 10042240={
 	name=character_name_10042240 # Jitsujun
-	dynasty=10000285 # Ganshoji
+#	dynasty=10000285 # Ganshoji
+	dynasty_house = "house_shgnt_ganshoji"
 	father=10042204 # Ganshoji Renjun
 	religion="shinto"
 	culture="kinai_buddhist"
@@ -6188,7 +6193,8 @@
 }
 10042241={
 	name=character_name_10042241 # Jitsue
-	dynasty=10000285 # Ganshoji
+#	dynasty=10000285 # Ganshoji
+	dynasty_house = "house_shgnt_ganshoji"
 	father=10042204 # Ganshoji Renjun
 	religion="shinto"
 	culture="kinai_buddhist"
@@ -6204,7 +6210,8 @@
 10042242={
 	female=yes
 	name=character_name_10042242 # Jitsnyo
-	dynasty=10000285 # Ganshoji
+#	dynasty=10000285 # Ganshoji
+	dynasty_house = "house_shgnt_ganshoji"
 	father=10042204 # Ganshoji Renjun
 	religion="shinto"
 	culture="kinai_buddhist"
@@ -6218,7 +6225,8 @@
 10042243={
 	female=yes
 	name=character_name_10042243 # Jitsumyo
-	dynasty=10000285 # Ganshoji
+#	dynasty=10000285 # Ganshoji
+	dynasty_house = "house_shgnt_ganshoji"
 	father=10042204 # Ganshoji Renjun
 	religion="shinto"
 	culture="kinai_buddhist"
@@ -6232,7 +6240,8 @@
 10042244={
 	female=yes
 	name=character_name_10042244 # Chinei
-	dynasty=10000285 # Ganshoji
+#	dynasty=10000285 # Ganshoji
+	dynasty_house = "house_shgnt_ganshoji"
 	father=10042204 # Ganshoji Renjun
 	religion="shinto"
 	culture="kinai_buddhist"
@@ -6246,7 +6255,8 @@
 10042245={
 	female=yes
 	name=character_name_10042245 # Myoyu
-	dynasty=10000285 # Ganshoji
+#	dynasty=10000285 # Ganshoji
+	dynasty_house = "house_shgnt_ganshoji"
 	father=10042204 # Ganshoji Renjun
 	religion="shinto"
 	culture="kinai_buddhist"
@@ -6259,7 +6269,8 @@
 }
 10042247={
 	name=character_name_10042247 # Shoe
-	dynasty=10000285 # Ganshoji
+#	dynasty=10000285 # Ganshoji
+	dynasty_house = "house_shgnt_ganshoji"
 	father=10042241 # Ganshoji Jitsue
 	religion="shinto"
 	culture="kinai_buddhist"
@@ -6282,7 +6293,8 @@
 }
 10042248={
 	name=character_name_10042248 # Enshin #a.k.a Keikoji Keicho
-	dynasty=10000285 # Ganshoji
+#	dynasty=10000285 # Ganshoji
+	dynasty_house = "house_shgnt_ganshoji"
 	father=10042241 # Ganshoji Jitsue
 	religion="shinto"
 	culture="kinai_buddhist"
@@ -6295,7 +6307,8 @@
 }
 10042249={
 	name=character_name_10042249 # Shojun #a.k.a Kenshoji Shojun
-	dynasty=10000285 # Ganshoji
+#	dynasty=10000285 # Ganshoji
+	dynasty_house = "house_shgnt_ganshoji"
 	father=10042241 # Ganshoji Jitsue
 	religion="shinto"
 	culture="kinai_buddhist"
@@ -6309,7 +6322,8 @@
 10042250={
 	female=yes
 	name=character_name_10042250 # Nyoei
-	dynasty=10000285 # Ganshoji
+#	dynasty=10000285 # Ganshoji
+	dynasty_house = "house_shgnt_ganshoji"
 	father=10042240 # Ganshoji Jitsujun
 	religion="shinto"
 	culture="kinai_buddhist"
@@ -6322,7 +6336,8 @@
 }
 10042251={
 	name=character_name_10042251 # Shoi
-	dynasty=10000285 # Ganshoji
+#	dynasty=10000285 # Ganshoji
+	dynasty_house = "house_shgnt_ganshoji"
 	father=10042247 # Ganshoji Shoe
 	mother=10042250 # Nyoei
 	religion="shinto"
@@ -6345,7 +6360,8 @@
 }
 10042252={
 	name=character_name_10042252 # Kennin
-	dynasty=10000285 # Ganshoji
+#	dynasty=10000285 # Ganshoji
+	dynasty_house = "house_shgnt_ganshoji"
 	father=10042251 # Ganshoji Shoi
 	religion="shinto"
 	culture="kinai_buddhist"
@@ -6358,7 +6374,8 @@
 }
 10042253={
 	name=character_name_10042253 # Kenei
-	dynasty=10000285 # Ganshoji
+#	dynasty=10000285 # Ganshoji
+	dynasty_house = "house_shgnt_ganshoji"
 	father=10042251 # Ganshoji Shoi
 	religion="shinto"
 	culture="kinai_buddhist"
