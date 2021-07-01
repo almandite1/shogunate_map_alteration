@@ -6397,8 +6397,9 @@
 }
 10130545={
 	name=character_name_10130545 # Yorikata
-	dynasty=10007201 # Kenmotsu
-	father=10130537 # 
+	#dynasty=10007201 # Kenmotsu
+	dynasty_house = "house_shgnt_kenmotsu"
+	father=10130537 # Muto Yorihira
 	religion="shinto"
 	culture="central_kinai"
 	trait="education_martial_2"
@@ -6498,7 +6499,8 @@
 	1228.9.24={
 		give_nickname="nick_the_dazai_shoni"
 		trait="shogoi_ge"
-		dynasty=10000683	#Shoni
+		#dynasty=10000683	#Shoni
+		dynasty_house = "house_shgnt_shoni"
 	}
 	1281.8.28={
 		death={

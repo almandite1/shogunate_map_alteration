@@ -206,19 +206,19 @@ c_shgnt_ashita = {
 	}
     1221.08.01 = {
         liege = d_shgnt_bingo # 
-        holder = 12221011 # 　Nagai Tokihiro
+        holder = 12221011 #   Nagai Tokihiro
     }
     1241.07.08 = {
-        holder = 0 # 　Nagai Tokihiro died
+        holder = 0 #   Nagai Tokihiro died
     }
     1264.01.01 = {
-        holder = 12221016 # 　Nagai Yasushige
+        holder = 12221016 #   Nagai Yasushige
     }
     1280.01.01 = {
-        holder = 12665010 # 　Nagai Sadashige / Nagai Yasushige died
+        holder = 12665010 #   Nagai Sadashige / Nagai Yasushige died
     }
     1320.01.01 = {
-        holder = 12665020 # 　Nagai Sadashige / Nagai Sadashige died
+        holder = 12665020 #   Nagai Sadashige / Nagai Sadashige died
     }
     1331.03.21 = {
         holder = 0 # Nagai Sadashige died
@@ -260,7 +260,7 @@ c_shgnt_eso = {
     }
     1221.08.15 = {
         liege = d_shgnt_bingo # 
-        holder = 10130585 # 　Yamanouchi Munetoshi
+        holder = 10130585 #   Yamanouchi Munetoshi
     }
     1316.01.01 = {
         holder = 10130598 # Yamanouchi Michisuke
@@ -279,14 +279,14 @@ c_shgnt_eso = {
 	}
     1451.07.18 = {
         liege = d_shgnt_bingo # 
-        holder = 10056503 # 　Yamanouchi Yasumichi
+        holder = 10056503 #   Yamanouchi Yasumichi
     }
     1467.06.27 = {
         liege = 0 # 
-        holder = 10056503 # 　Yamanouchi Yasumichi
+        holder = 10056503 #   Yamanouchi Yasumichi
     }
     1490.01.01 = {
-        liege = d_shgnt_bingo # 　Yamana Toyotoshi
+        liege = d_shgnt_bingo #   Yamana Toyotoshi
         holder = 10056501 # Yamanouchi Toyoshige
     }
     1507.01.01 = {
@@ -516,6 +516,10 @@ c_shgnt_shimotsumichi = {
         liege = d_shgnt_bitchu # 
         holder = 10054901 # Mimura Chikashige
     }
+	1575.07.09 = {
+		liege = k_shgnt_western_chugoku # 10056025 # Mori Terumoto
+#		holder = 10054901 # Mimura Chikashige
+	}
 }
 c_shgnt_shonan = {
     0001.01.01 = { change_development_level = 10 }
@@ -1045,7 +1049,7 @@ c_shgnt_miyoshi = {
     }
     1436.08.26 = {
         liege = d_shgnt_bingo # 
-        holder = 10057709 # 　Wachi Tokizane
+        holder = 10057709 #   Wachi Tokizane
     }
     1460.01.01 = {
         holder = 10057703 # Wachi Toyozane
@@ -1469,21 +1473,21 @@ c_shgnt_yasuna = {
         holder = 0
     }
     1336.01.01 = {
-        liege = d_shgnt_bingo # 　Asayama Kagetsura
-        holder = 12601006 # 　Asayama Kagetsura
+        liege = d_shgnt_bingo #   Asayama Kagetsura
+        holder = 12601006 #   Asayama Kagetsura
     }
     1338.03.01 = {
         holder = 0
     }
     1349.01.01 = {
-        holder = 10040036 # 　Ashikaga Tadafuyu
+        holder = 10040036 #   Ashikaga Tadafuyu
     }
     1363.10.01 = {
         liege = d_shgnt_bingo
         holder = 0
     }
     1433.10.01 = {
-        holder = 10050039 # 　Yamana Mochitoyo
+        holder = 10050039 #   Yamana Mochitoyo
     }
 	1443.01.01 = {
 		effect = {
@@ -1496,10 +1500,10 @@ c_shgnt_yasuna = {
         holder = 10050040 # Yamana Noritoyo
     }
     1460.01.01 = {
-        holder = 10050041 # 　Yamana Koretoyo
+        holder = 10050041 #   Yamana Koretoyo
     }
     1475.11.01 = {
-        holder = 10050044 # 　Yamana Masatoyo
+        holder = 10050044 #   Yamana Masatoyo
     }
     1488.01.01 = {
         holder = 10050059 # Yamana Toshitoyo
@@ -1520,12 +1524,12 @@ c_shgnt_yasuna = {
         holder = 10056700 # Yamana Tadaoki
     }
     1549.09.24 = {
-        liege = k_shgnt_western_chugoku # 　Ouchi Yoshitaka
-        holder = 10057002 # 　Ouchi Yoshitaka
+        liege = k_shgnt_western_chugoku #   Ouchi Yoshitaka
+        holder = 10057002 #   Ouchi Yoshitaka
     }
     1549.11.21 = {
-        liege = k_shgnt_western_chugoku # 　Ouchi Yoshitaka
-        holder = 10057500 # 　Aokage Takaakira / castle keeper
+        liege = k_shgnt_western_chugoku #   Ouchi Yoshitaka
+        holder = 10057500 #   Aokage Takaakira / castle keeper
     }
     1554.01.01 = {
         liege = d_shgnt_aki # 
@@ -1683,7 +1687,7 @@ d_shgnt_bingo = {
         holder = 10050041 # Yamana Koretoyo
     }
     1475.11.01 = {
-        liege = 0 # 　TODO
+        liege = 0 #   TODO
         holder = 10050044 # Yamana Masatoyo
     }
     1488.01.01 = {
@@ -2493,7 +2497,7 @@ c_shgnt_mimasaka_aita = {
 	1361.01.01 = {
 		effect = {
 			title:b_shgnt_mimasaka_aita_1 = {
-				set_title_name = b_shgnt_mino_atsumi_1_1 #　Hayashino
+				set_title_name = b_shgnt_mino_atsumi_1_1 #  Hayashino
 			}
 		}
 	}

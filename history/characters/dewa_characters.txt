@@ -1026,7 +1026,8 @@
 }
 10000501 = {
 	name=character_name_10000501 # Ujifusa
-	dynasty=10000006 # Daihoji
+#	dynasty=10000006 # Daihoji
+	dynasty_house = "house_shgnt_daihoji"
 	father=10000602
 	martial=6
 	diplomacy=5
@@ -1039,7 +1040,8 @@
 		birth=yes
 	}
 	1518.1.1={
-		dynasty=10000005 # Sagoshi
+		#dynasty=10000005 # Sagoshi
+		dynasty_house = "house_shgnt_sagoshi"
 	}
 	1588.1.1={
 		death=yes
@@ -1173,7 +1175,8 @@
 }
 10000601={
 	name=character_name_10000601 # Takeuji
-	dynasty=10000006 # Daihoji
+#	dynasty=10000006 # Daihoji
+	dynasty_house = "house_shgnt_daihoji"
 	father=12010140 # Daihoji Kiyouji
 	religion="shinto"
 	culture="dewa"
@@ -1186,7 +1189,8 @@
 }
 10000602 = {
 	name=character_name_10000602 # Masauji
-	dynasty=10000006 # Daihoji
+#	dynasty=10000006 # Daihoji
+	dynasty_house = "house_shgnt_daihoji"
 	father=10000601 # Daihoji Takeuji
 	religion="shinto"
 	culture="dewa"
@@ -1199,7 +1203,8 @@
 }
 10000603 = {
 	name=character_name_10000603 # Sumiuji
-	dynasty=10000006 # Daihoji
+#	dynasty=10000006 # Daihoji
+	dynasty_house = "house_shgnt_daihoji"
 	father=10000602 # Daihoji Masauji
 	religion="shinto"
 	culture="dewa"
@@ -1212,7 +1217,8 @@
 }
 10000604 = {
 	name=character_name_10000604 # Ujitoki
-	dynasty=10000006 # Daihoji
+#	dynasty=10000006 # Daihoji
+	dynasty_house = "house_shgnt_daihoji"
 	father=10000602 # Daihoji Masauji
 	religion="shinto"
 	culture="dewa"
@@ -1225,7 +1231,8 @@
 }
 10000605 = {
 	name=character_name_10000605 # Kurou
-	dynasty=10000006 # Daihoji
+#	dynasty=10000006 # Daihoji
+	dynasty_house = "house_shgnt_daihoji"
 	father=10000602 # Daihoji Masauji
 	religion="shinto"
 	culture="dewa"
@@ -1238,7 +1245,8 @@
 }
 10000606 = {
 	name=character_name_10000606 # Harutoki
-	dynasty=10000006 # Daihoji
+#	dynasty=10000006 # Daihoji
+	dynasty_house = "house_shgnt_daihoji"
 	father=10000604 # Daihoji Ujitoki
 	martial=5
 	diplomacy=3
@@ -1256,7 +1264,8 @@
 }
 10000607 = {
 	name=character_name_10000607 # Yoshimasu
-	dynasty=10000006 # Daihoji
+#	dynasty=10000006 # Daihoji
+	dynasty_house = "house_shgnt_daihoji"
 	father=10000605 # Daihoji Kurou
 	martial=5
 	diplomacy=4
@@ -1274,7 +1283,8 @@
 }
 10000608 = {
 	name=character_name_10000608 # Yoshiuji
-	dynasty=10000006 # Daihoji
+#	dynasty=10000006 # Daihoji
+	dynasty_house = "house_shgnt_daihoji"
 	father=10000607 # Daihoji Yoshimasu
 	religion="shinto"
 	culture="dewa"
@@ -1297,7 +1307,8 @@
 }
 10000609 = {
 	name=character_name_10000609 # Yoshioki
-	dynasty=10000006 # Daihoji
+#	dynasty=10000006 # Daihoji
+	dynasty_house = "house_shgnt_daihoji"
 	father=10000607 # Daihoji Yoshimasu
 	religion="shinto"
 	culture="dewa"

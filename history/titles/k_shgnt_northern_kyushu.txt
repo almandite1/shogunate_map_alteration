@@ -181,6 +181,11 @@ c_shgnt_minami_matsura = {
     }
     1521.01.01 = {
         holder = 10068800 # Uku Morisada
+		effect = {
+			title:b_shgnt_minami_matsura_1 = {
+				set_title_name = b_shgnt_minami_matsura_1_1 # Egawa[江川]
+			}
+		}
     }
     1548.01.01 = {
         holder = 10068802 # Uku Sumisada
@@ -380,6 +385,11 @@ c_shgnt_ikuha = {
     }
     1313.01.01 = {
         holder = 10064616 # Monchusho Yasutsura
+		effect = {
+			title:b_shgnt_ikuha_1 = {
+				set_title_name = b_shgnt_ikuha_1_1
+			}
+		}
     }
     1340.01.01 = {
         holder = 10064615 # Monchusho Ujiyasu
@@ -566,6 +576,13 @@ c_shgnt_kasuya = {
         liege = 0 # 
         holder = 0 # Battle of Ashiya-no-ura
     }
+	1334.01.01 = {
+		effect = {
+			title:b_shgnt_kasuya_3 = {
+				set_title_name = b_shgnt_kasuya_3_1 # 立花山城
+			}
+		}
+	}
     1387.01.01 = {
         liege = d_shgnt_chikuzen # 
         holder = 10068013 # Shoni Sadayori
@@ -665,12 +682,24 @@ c_shgnt_kiku = {
     1532.01.01 = {
         holder = 10067100 # Nagano Fusamori
     }
+	1550.01.01 = {
+		effect = {
+			title:b_shgnt_kiku_2 = {
+				set_title_name = b_shgnt_kiku_2_1 # 小三岳城
+			}
+		}
+	}
     1562.01.01 = {
         holder = 10067102 # Nagano Tanemori
     }
     1568.09.05 = {
         liege = k_shgnt_western_chugoku # 
         holder = 10056004 # Mori Motonari
+		effect = {
+			title:b_shgnt_kiku_2 = {
+				set_title_name = b_shgnt_kiku_2 # 企救
+			}
+		}
     }
     1569.08.01 = {
         liege = d_shgnt_bungo # 
@@ -1055,6 +1084,20 @@ c_shgnt_mikasa = {
     1529.01.01 = {
         holder = 10067600 # Harada Takatane
     }
+	1532.01.01 = {
+		effect = {
+			title:b_shgnt_mikasa_1 = {
+				set_title_name = b_shgnt_mikasa_1_1 # 岩屋城
+			}
+		}
+	}
+	1597.1.15 = {
+		effect = {
+			title:b_shgnt_mikasa_1 = {
+				set_title_name = b_shgnt_mikasa_1 # 太宰府
+			}
+		}
+	}
 }
 c_shgnt_mike = {
     0001.01.01 = { change_development_level = 30 }
@@ -2856,6 +2899,13 @@ c_shgnt_onga = {
     1190.01.01 = {
         holder = 10068500 # Aso Iemasa
     }
+	1194.01.01 = {
+		effect = {
+			title:b_shgnt_onga_3 = {
+				set_title_name = b_shgnt_onga_3_1 # 花尾城
+			}
+		}
+	}
     1230.01.01 = {
         holder = 10068501 # Aso Tokiie
     }
@@ -2896,6 +2946,13 @@ c_shgnt_onga = {
     1540.01.01 = {
         holder = 10068528 # Aso Okimasu
     }
+	1569.01.01 = {
+		effect = {
+			title:b_shgnt_onga_3 = {
+				set_title_name = b_shgnt_onga_3 # 花尾
+			}
+		}
+	}
     1570.01.01 = {
         holder = 10068530 # Aso Takasane
     }
@@ -2987,6 +3044,20 @@ c_shgnt_chikuzen_yasu = {
         liege = 0 # 
         holder = 0 # Battle of Ashiya-no-ura
     }
+	1203.01.01 = {
+		effect = {
+			title:b_shgnt_chikuzen_yasu_2 = {
+				set_title_name = b_shgnt_chikuzen_yasu_2_1 # 古処山城
+			}
+		}
+	}
+	1587.01.01 = {
+		effect = {
+			title:b_shgnt_chikuzen_yasu_2 = {
+				set_title_name = b_shgnt_chikuzen_yasu_2 # 古処山
+			}
+		}
+	}
 }
 c_shgnt_mushirota = {
     0001.01.01 = { change_development_level = 20 }
@@ -3226,6 +3297,12 @@ c_shgnt_takano = {
         liege = 0 # 
         holder = 0 # Battle of Ashiya-no-ura
     }
+	1460.01.01 = {
+		holder = 10064605 # Monchusho Shigeyasu
+	}
+	1475.01.01 = {
+		holder = 10064604 # Monchusho Chikanori
+	}
     1480.01.01 = {
         holder = 10064603 # Monchusho Chikayasu
     }
@@ -3270,6 +3347,12 @@ c_shgnt_chikugo_yamamoto = {
         liege = 0 # 
         holder = 0 # Battle of Ashiya-no-ura
     }
+	1460.01.01 = {
+		holder = 10064605 # Monchusho Shigeyasu
+	}
+	1475.01.01 = {
+		holder = 10064604 # Monchusho Chikanori
+	}
     1480.01.01 = {
         holder = 10064603 # Monchusho Chikayasu
     }
@@ -3285,6 +3368,13 @@ c_shgnt_chikugo_yamamoto = {
     1575.01.01 = {
         holder = 10064621 # Monchusho Munekage
     }
+	1578.01.01 = {
+		effect = {
+			title:b_shgnt_chikugo_yamamoto_1 = {
+				set_title_name = b_shgnt_chikugo_yamamoto_1_1 # Hosshin[発心城]
+			}
+		}
+	}
 }
 c_shgnt_mihara = {
     0001.01.01 = { change_development_level = 20 }
@@ -3314,7 +3404,10 @@ c_shgnt_mihara = {
         liege = 0
         holder = 0
     }
-    1480.01.01 = {
+	1420.01.01= {
+		holder = 10064804 # Takahashi Noritane
+	}
+    1450.01.01 = {
         holder = 10064803 # Takahashi Masatane
     }
     1500.01.01 = {
@@ -3360,6 +3453,12 @@ c_shgnt_kamutsuma = {
         liege = 0 # 
         holder = 0 # Battle of Ashiya-no-ura
     }
+	1460.01.01 = {
+		holder = 10064605 # Monchusho Shigeyasu
+	}
+	1475.01.01 = {
+		holder = 10064604 # Monchusho Chikanori
+	}
     1480.01.01 = {
         holder = 10064603 # Monchusho Chikayasu
     }
@@ -3404,6 +3503,9 @@ c_shgnt_shimotsuma = {
         liege = 0 # 
         holder = 0 # Battle of Ashiya-no-ura
     }
+	1460.01.01 = {
+		holder = 10064505 # Kamachi Tadahisa
+	}
     1470.01.01 = {
         holder = 10064502 # Kamachi Takehisa
     }

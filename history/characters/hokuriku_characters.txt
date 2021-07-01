@@ -1985,7 +1985,8 @@
 }
 10030500 = {
 	name=character_name_10030500 # Jikken
-	dynasty=10000370 # Choshoji
+#	dynasty=10000370 # Choshojii
+	dynasty_house = "house_shgnt_choshoji"
 	father=10030505 # Choshoji Koren
 	martial=7
 	diplomacy=14
@@ -2012,7 +2013,8 @@
 }
 10030501={
 	name=character_name_10030501 # Jissho
-	dynasty=10000370 # Choshoji
+#	dynasty=10000370 # Choshojii
+	dynasty_house = "house_shgnt_choshoji"
 	father=10030500 # Choshoji Jikken
 	mother=10042243 # Ganshoji Renjun's daughter
 	religion="shinto"
@@ -2033,7 +2035,8 @@
 }
 10030502={
 	name=character_name_10030502 # Kenyu
-	dynasty=10000370 # Choshoji
+#	dynasty=10000370 # Choshojii
+	dynasty_house = "house_shgnt_choshoji"
 	father=10030500 # Choshoji Jikken
 	mother=10042243 # Ganshoji Renjun's daughter
 	religion="shinto"
@@ -2048,7 +2051,8 @@
 }
 10030505 = {
 	name=character_name_10030505 # Koren
-	dynasty=10000370 # Choshoji
+#	dynasty=10000370 # Choshojii
+	dynasty_house = "house_shgnt_choshoji"
 	father=10030506
 	martial=7
 	diplomacy=10
@@ -2068,7 +2072,8 @@
 }
 10030506 = {
 	name=character_name_10030506 # Genkei
-	dynasty=10000370 # Choshoji
+#	dynasty=10000370 # Choshojii
+	dynasty_house = "house_shgnt_choshoji"
 	father=10030507
 	martial=7
 	diplomacy=10
@@ -2108,7 +2113,8 @@
 		birth=yes
 	}
 	1400.1.1={
-		dynasty=10000370 # Choshoji
+		#dynasty=10000370 # Choshoji
+		dynasty_house = "house_shgnt_shokoji"
 		effect = {
 			change_first_name = character_name_10030507_1 # Tonen
 		}
@@ -3095,7 +3101,7 @@
 	}
 	1532.01.01 = {
 		effect={
-			set_realm_capital=title:c_shgnt_shimo_niikawa #　Matsukura
+			set_realm_capital=title:c_shgnt_shimo_niikawa #  Matsukura
 		}
     }
 	1576.3.1={
@@ -6988,7 +6994,8 @@
 }
 10042230={
 	name=character_name_10042230 # Genso
-	dynasty=10000374 # Kokyoji
+#	dynasty=10000374 # Kokyoji
+	dynasty_house = "house_shgnt_kokyoji"
 	father=10042207 # Kokyoji Rensei
 	religion="shinto"
 	culture="hokuriku_buddhist"
@@ -7006,7 +7013,8 @@
 }
 10042231 = {
 	name=character_name_10042231 # Kengei # a.k.a. Shokoji Jitsugen
-	dynasty=10000374 # Kokyoji
+#	dynasty=10000374 # Kokyoji
+	dynasty_house = "house_shgnt_kokyoji"
 	father=10042207 # Kokyoji Rensei
 	religion="shinto"
 	culture="kinai_buddhist"
@@ -7017,7 +7025,8 @@
 		birth=yes
 	}
 	1503.1.1={
-		dynasty=10000375 # Shokoji
+		#dynasty=10000375 # Shokoji
+		dynasty_house = house_shgnt_shokoji2
 		effect = {
 			change_first_name = character_name_10042231_1 # Jitsugen
 		}
@@ -7031,7 +7040,8 @@
 }
 10042232={
 	name=character_name_10042232 # Kenjun
-	dynasty=10000374 # Kokyoji
+#	dynasty=10000374 # Kokyoji
+	dynasty_house = "house_shgnt_kokyoji"
 	father=10042207 # Kokyoji Rensei
 	religion="shinto"
 	culture="hokuriku_buddhist"
@@ -7050,7 +7060,8 @@
 10042233={
 	female=yes
 	name=character_name_10042233 # Myokei
-	dynasty=10000374 # Kokyoji
+#	dynasty=10000374 # Kokyoji
+	dynasty_house = "house_shgnt_kokyoji"
 	father=10042207 # Kokyoji Rensei
 	religion="shinto"
 	culture="hokuriku_buddhist"
@@ -7064,7 +7075,8 @@
 10042234={
 	female=yes
 	name=character_name_10042234 # Jitsumyo
-	dynasty=10000375 # Shokoji
+	#dynasty=10000375 # Shokoji
+	dynasty_house = "house_shgnt_shokoji2" #  勝興寺
 	father=10042231 # Shokoji Jitsugen
 	mother=10042242 # Ganshoji Renjun's daughter
 	religion="shinto"
@@ -7078,7 +7090,8 @@
 }
 10042235={
 	name=character_name_10042235 # Shogen
-	dynasty=10000375 # Shokoji
+	#dynasty=10000375 # Shokoji
+	dynasty_house = "house_shgnt_shokoji2" #  勝興寺
 	father=10042231 # Shokoji Jitsugen
 	mother=10042242 # Ganshoji Renjun's daughter
 	religion="shinto"
@@ -7092,7 +7105,8 @@
 }
 10042236={
 	name=character_name_10042236 # Kyogei
-	dynasty=10000375 # Shokoji
+	#dynasty=10000375 # Shokoji
+	dynasty_house = "house_shgnt_shokoji2" #  勝興寺
 	father=10042231 # Shokoji Jitsugen
 	mother=10042242 # Ganshoji Renjun's daughter
 	religion="shinto"
@@ -7111,7 +7125,8 @@
 }
 10042237={
 	name=character_name_10042237 # Geisho
-	dynasty=10000375 # Shokoji
+	#dynasty=10000375 # Shokoji
+	dynasty_house = "house_shgnt_shokoji2" #  勝興寺
 	father=10042231 # Shokoji Jitsugen
 	mother=10042242 # Ganshoji Renjun's daughter
 	religion="shinto"
@@ -7130,7 +7145,8 @@
 }
 10042238={
 	name=character_name_10042238 # Kenko
-	dynasty=10000375 # Shokoji
+	#dynasty=10000375 # Shokoji
+	dynasty_house = "house_shgnt_shokoji2" #  勝興寺
 	father=10042237 # Shokoji Kenei
 	religion="shinto"
 	culture="hokuriku_buddhist"

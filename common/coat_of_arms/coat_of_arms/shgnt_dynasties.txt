@@ -545,21 +545,6 @@ house_shgnt_itai = { #Itai
 		instance = { position = { 0.50 0.50 } scale = { 0.9 0.9 }  }
 	}
 }
-10000617 = { #Uku (Goto)
-	pattern = "pattern_solid.dds"	
-	color1 = "blue_light"
-	colored_emblem = {
-		texture = "circular_combo_1.dds"
-		color1 = "black"
-		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
-	}
-	colored_emblem = {
-		texture = "ce_hanabishi_cc_1.dds"
-		color1 = "black"
-		instance = { position = { 0.5 0.5 } scale = { 0.68 0.68 }  }
-	}
-}
-house_shgnt_uku = 10000617
 
 10005511 = { # Tatara
 	pattern = "pattern_solid.dds"	
@@ -937,6 +922,15 @@ house_shgnt_kobanawa = { #Uesugi
 	}
 }
 house_shgnt_echigouesugi = { #Uesugi
+	pattern = "pattern_solid.dds"	
+	color1 = "hisui_iro"
+	colored_emblem = {
+		texture = "ce_h_uesugi.dds"
+		color1 = "black"
+		instance = { position = { 0.50 0.50 } scale = { 0.9 0.9 }  }
+	}
+}
+house_shgnt_inugakeuesugi = { #Uesugi
 	pattern = "pattern_solid.dds"	
 	color1 = "hisui_iro"
 	colored_emblem = {
@@ -1788,7 +1782,7 @@ house_shgnt_ogasawara_shinano = { #Ogasawara
 	}
 }
 
-10000225 = { Kai=Naitō
+10000225 = { # Kai=Naitō
 	pattern = "pattern_solid.dds"	
 	color1 = "ki_iro"
 	colored_emblem = {
@@ -1968,6 +1962,304 @@ house_shgnt_nagao_soja = { #Nagao
 	colored_emblem = {
 		texture = "ce_h_nagao.dds"
 		color1 = "kuwacha"
+		instance = { position = { 0.50 0.50 } scale = { 0.9 0.9 }  }
+	}
+}
+
+10006045 = { #Muto
+	pattern = "pattern_solid.dds"	
+	color1 = "white"
+	colored_emblem = {
+		texture = "ce_yotsume_cc_1.dds"
+		color1 = "black"
+		instance = { position = { 0.50 0.50 } scale = { 0.9 0.9 }  }
+	}
+}
+10000683 = { #Shoni
+	pattern = "pattern_solid.dds"	
+	color1 = "white"
+	colored_emblem = {
+		texture = "ce_yotsume_cc_1.dds"
+		color1 = "tetsukon"
+		instance = { position = { 0.50 0.50 } scale = { 0.9 0.9 }  }
+	}
+}
+house_shgnt_shoni = 10000683
+10000006 = { #Daihoji
+	pattern = "pattern_solid.dds"	
+	color1 = "black"
+	colored_emblem = {
+		texture = "ce_h_daihoji.dds"
+		color1 = "yellow"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+}
+house_shgnt_daihoji = 10000006
+10007201 = { #Kenmotsu
+	pattern = "pattern_solid.dds"	
+	color1 = "white"
+	colored_emblem = {
+		texture = "ce_h_daihoji.dds"
+		color1 = "azuki_iro"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+}
+house_shgnt_kenmotsu = 10007201
+10000692 = { #Nabeshima
+	pattern = "pattern_solid.dds"	
+	color1 = "black"
+	colored_emblem = {
+		texture = "ce_h_nabeshima.dds"
+		color1 = "mid_red"
+		instance = { position = { 0.50 0.50 } scale = { 0.9 0.9 }  }
+	}
+}
+house_shgnt_nabeshima = 10000692
+10000877 = { #Baba
+	pattern = "pattern_solid.dds"	
+	color1 = "black"
+	colored_emblem = {
+		texture = "ce_yotsume_cc_1.dds"
+		color1 = "awafuji_iro"
+		instance = { position = { 0.50 0.50 } scale = { 0.9 0.9 }  }
+	}
+}
+house_shgnt_baba = 10000877
+10000878 = { #Sagoshi
+	pattern = "pattern_solid.dds"	
+	color1 = "white"
+	colored_emblem = {
+		texture = "ce_h_sagoshi.dds"
+		color1 = "shikoku"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+}
+house_shgnt_yokodake = 10000878
+10000677 = { #Tsukushi
+	pattern = "pattern_solid.dds"	
+	color1 = "black"
+	colored_emblem = {
+		texture = "ce_yotsume_cc_1.dds"
+		color1 = "yellow"
+		instance = { position = { 0.50 0.50 } scale = { 0.9 0.9 }  }
+	}
+}
+house_shgnt_tsukushi = 10000677
+10000005 = { #Sagoshi
+	pattern = "pattern_solid.dds"	
+	color1 = "white"
+	colored_emblem = {
+		texture = "ce_h_sagoshi.dds"
+		color1 = "black"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+}
+house_shgnt_sagoshi = 10000005
+10000372 = { #Honganji
+	pattern = "pattern_solid.dds"	
+	color1 = "kokutan"
+	colored_emblem = {
+		texture = "ce_h_honganji.dds"
+		color1 = "yellow"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+}
+house_shgnt_shokoji = 10000372
+10000374 = { #Honganji
+	pattern = "pattern_solid.dds"	
+	color1 = "shikon"
+	colored_emblem = {
+		texture = "ce_h_honganji.dds"
+		color1 = "yellow"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+}
+house_shgnt_kokyoji = 10000374
+10000285 = { #Honganji
+	pattern = "pattern_solid.dds"	
+	color1 = "kurotobi"
+	colored_emblem = {
+		texture = "ce_h_honganji.dds"
+		color1 = "yellow"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+}
+house_shgnt_ganshoji = 10000285
+10000373 = { #Honganji
+	pattern = "pattern_solid.dds"	
+	color1 = "anko_shoku"
+	colored_emblem = {
+		texture = "ce_h_honganji.dds"
+		color1 = "yellow"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+}
+house_shgnt_honsenji = 10000373
+10000370 = { #Honganji
+	pattern = "pattern_solid.dds"	
+	color1 = "kurobeni"
+	colored_emblem = {
+		texture = "ce_h_honganji.dds"
+		color1 = "yellow"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+}
+house_shgnt_choshoji = 10000370
+10000375 = { #Honganji
+	pattern = "pattern_solid.dds"	
+	color1 = "akasumi"
+	colored_emblem = {
+		texture = "ce_h_honganji.dds"
+		color1 = "yellow"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+}
+house_shgnt_shokoji2 = 10000375
+10000644 = { # 抱き杏葉
+	pattern = "pattern_solid.dds"	
+	color1 = "mizuasagi"
+	colored_emblem = {
+		texture = "ce_gyouyou_cc_1.dds"
+		color1 = "black"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+}
+house_shgnt_tahara = 10000644
+10000674 = { #Tachibana
+	pattern = "pattern_solid.dds"	
+	color1 = "black"
+	colored_emblem = {
+		texture = "ce_h_tachibana.dds"
+		color1 = "mid_red"
+		instance = { position = { 0.50 0.50 } scale = { 0.9 0.9 }  }
+	}
+}
+house_shgnt_tachibana = 10000674
+10000666 = { # 抱き杏葉
+	pattern = "pattern_solid.dds"	
+	color1 = "kamenozoki"
+	colored_emblem = {
+		texture = "ce_gyouyou_cc_1.dds"
+		color1 = "black"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+}
+house_shgnt_bekki = 10000666
+10000641 = { #Shiga
+	pattern = "pattern_solid.dds"	
+	color1 = "red"
+	colored_emblem = {
+		texture = "ce_h_tabaru.dds"
+		color1 = "white"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+}
+house_shgnt_shiga = 10000641
+10000667 = { #Ichimata
+	pattern = "pattern_solid.dds"	
+	color1 = "mid_red"
+	colored_emblem = {
+		texture = "ce_h_tabaru.dds"
+		color1 = "black"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+}
+house_shgnt_ichimata = 10000667
+10000665 = { #Yoshihiro
+	pattern = "pattern_solid.dds"	
+	color1 = "black"
+	colored_emblem = {
+		texture = "ce_h_tabaru.dds"
+		color1 = "white"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+}
+house_shgnt_yoshihiro = 10000665
+10000643 = { #Usuki
+	pattern = "pattern_solid.dds"	
+	color1 = "yellow"
+	colored_emblem = {
+		texture = "ce_h_tabaru.dds"
+		color1 = "red"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+}
+house_shgnt_usuki = 10000643
+10000648 = { #Takahashi
+	pattern = "pattern_solid.dds"	
+	color1 = "white"
+	colored_emblem = {
+		texture = "ce_hiiragi_cc_3.dds"
+		color1 = "red"
+		instance = { position = { 0.50 0.50 } scale = { 0.9 0.9 }  }
+	}
+}
+house_shgnt_otomo_takahashi = 10000648
+10000688 = { #Hata
+	pattern = "pattern_solid.dds"	
+	color1 = "black"
+	colored_emblem = {
+		texture = "ce_h_hata.dds"
+		color1 = "mid_red"
+		instance = { position = { 0.50 0.50 } scale = { 0.9 0.9 }  }
+	}
+}
+house_shgnt_matsura_hata = 10000688
+10000617 = { #丸に花菱
+	pattern = "pattern_solid.dds"	
+	color1 = "blue_light"
+	colored_emblem = {
+		texture = "circular_combo_1.dds"
+		color1 = "black"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+	colored_emblem = {
+		texture = "ce_hanabishi_cc_1.dds"
+		color1 = "black"
+		instance = { position = { 0.5 0.5 } scale = { 0.68 0.68 }  }
+	}
+}
+house_shgnt_uku = 10000617
+10007338 = { #三星
+	pattern = "pattern_solid.dds"	
+	color1 = "white"
+	colored_emblem = {
+		texture = "ce_h_matsura.dds"
+		color1 = "korainando"
+		instance = { position = { 0.50 0.50 } scale = { 0.9 0.9 }  }
+	}
+}
+house_shgnt_shisa = 10007338
+10000618 = { #丸に花菱
+	pattern = "pattern_solid.dds"	
+	color1 = "chojizome"
+	colored_emblem = {
+		texture = "circular_combo_1.dds"
+		color1 = "black"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+	colored_emblem = {
+		texture = "ce_hanabishi_cc_1.dds"
+		color1 = "black"
+		instance = { position = { 0.5 0.5 } scale = { 0.68 0.68 }  }
+	}
+}
+house_shgnt_tamanoura = 10000618
+house_shgnt_matsura_hirado = { #三星
+	pattern = "pattern_solid.dds"	
+	color1 = "white"
+	colored_emblem = {
+		texture = "ce_h_matsura.dds"
+		color1 = "usuai_iro"
+		instance = { position = { 0.50 0.50 } scale = { 0.9 0.9 }  }
+	}
+}
+house_shgnt_yamashiro = { #三星
+	pattern = "pattern_solid.dds"	
+	color1 = "white"
+	colored_emblem = {
+		texture = "ce_h_matsura.dds"
+		color1 = "byakugun"
 		instance = { position = { 0.50 0.50 } scale = { 0.9 0.9 }  }
 	}
 }

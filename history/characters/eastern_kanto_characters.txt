@@ -773,6 +773,11 @@
 	1484.1.2={
 		birth=yes
 	}
+    1511.01.19 = {
+        effect={
+			set_realm_capital=title:c_shgnt_hitachi_yoshida # 馬場城
+		}
+    }
 	1530.1.1={
 		add_spouse=10010104 # Haga
 	}
@@ -795,6 +800,11 @@
 	1528.1.1={
 		add_spouse=10010103
 	}
+	1535.08.10 = {
+        effect={
+			set_realm_capital=title:c_shgnt_hitachi_yoshida # 馬場城
+		}
+    }
 	1564.7.13={
 		death=yes
 	}
@@ -839,6 +849,11 @@
 	1462.1.2={
 		birth=yes
 	}
+    1494.12.09 = {
+        effect={
+			set_realm_capital=title:c_shgnt_hitachi_yoshida # 馬場城
+		}
+    }
 	1511.1.19={
 		death=yes
 	}
@@ -868,6 +883,11 @@
 	1450.1.1={
 		birth=yes
 	}
+	1465.05.27 = {
+        effect={
+			set_realm_capital=title:c_shgnt_hitachi_yoshida # 馬場城
+		}
+    }
 	1494.12.9={
 		death=yes
 	}
@@ -885,6 +905,11 @@
 	1538.1.1={
 		birth=yes
 	}
+	1564.07.13 = {
+        effect={
+			set_realm_capital=title:c_shgnt_hitachi_yoshida # 馬場城
+		}
+    }
 	1567.8.20={
 		death=yes
 	}
@@ -901,6 +926,11 @@
 	1556.1.1={
 		birth=yes
 	}
+	1567.08.20 = {
+        effect={
+			set_realm_capital=title:c_shgnt_hitachi_yoshida # 馬場城
+		}
+    }
 	1598.10.30={
 		death=yes
 	}
@@ -3111,6 +3141,7 @@
 		give_nickname="nick_the_shimotsukeno_no_kami"
 		effect = {
 			add_trait = "jushii_ge"
+			set_realm_capital=title:c_shgnt_shimotsuke_kawachi
 		}
 	}
 	1536.9.1={
@@ -3137,6 +3168,11 @@
 			add_trait = "child_of_adoption"
 		}
 	}
+	1463.11.23 = {
+        effect={
+			set_realm_capital=title:c_shgnt_shimotsuke_kawachi
+		}
+    }
 	1471.1.1={
 		give_nickname="nick_the_shimotsukeno_no_kami"
 		effect = {
@@ -3169,6 +3205,7 @@
 		give_nickname="nick_the_shimotsukeno_no_kami"
 		effect = {
 			add_trait = "jushii_ge"
+			set_realm_capital=title:c_shgnt_shimotsuke_kawachi
 		}
 	}
 	1516.12.1={
@@ -3188,6 +3225,7 @@
 		give_nickname="nick_the_shimotsukeno_no_kami"
 		effect = {
 			add_trait = "jugoi_ge"
+			set_realm_capital=title:c_shgnt_shimotsuke_kawachi
 		}
 	}
 	1527.8.12={
@@ -3276,6 +3314,7 @@
 		give_nickname="nick_the_shimotsukeno_no_kami"
 		effect = {
 			add_trait = "jushii_ge"
+			set_realm_capital=title:c_shgnt_shimotsuke_kawachi
 		}
 	}
 	1549.10.7={
@@ -3302,6 +3341,11 @@
 			add_trait = "jushii_ge"
 		}
 	}
+	1557.01.01 = {
+        effect={
+			set_realm_capital=title:c_shgnt_shimotsuke_kawachi
+		}
+    }
 	1566.1.1={
 		add_spouse=10010834 # Satake Nanryo, daughter of 10802:Satake Yoshiaki
 	}
@@ -3323,6 +3367,7 @@
 		give_nickname="nick_the_shimotsukeno_no_kami"
 		effect = {
 			add_trait = "jushii_ge"
+			set_realm_capital=title:c_shgnt_shimotsuke_kawachi
 		}
 	}
 	1608.1.9={

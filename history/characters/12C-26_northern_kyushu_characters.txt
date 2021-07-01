@@ -783,6 +783,9 @@
 	1138.1.1={
 		birth=yes
 	}
+	1168.01.01 = {
+		dynasty_house="house_shgnt_arita"
+	}
 	1200.1.1={
 		death=yes
 	}
@@ -825,6 +828,9 @@
 	1145.1.1={
 		birth=yes
 	}
+	1175.01.01 = {
+		dynasty_house = "house_shgnt_yamashiro"
+	}
 	1215.1.1={
 		death=yes
 	}
@@ -859,7 +865,8 @@
 }
 12750631={
 	name=character_name_12750631 # Tadashi
-	dynasty=10007338 # Shisa
+#	dynasty=10007338 # Shisa
+	dynasty_house = "house_shgnt_shisa"
 	father=12750621 # Matsura Kiyoshi
 	religion="shinto"
 	culture="northern_kyushu"
@@ -1055,12 +1062,13 @@
 	}
 	1225.1.1={
 		death=yes
-		dynasty=10000617 # Uku
+		#dynasty=10000617 # Uku
 	}
 }
 12750675 = {
 	name=character_name_12750675 # Futoshi #Uku Futoshi
-	dynasty=10000617 # Uku
+#	dynasty=10000617 # Uku
+	dynasty_house = "house_shgnt_uku"
 	father=12750670
 	trait="education_martial_2"
 	religion="shinto"
@@ -1077,7 +1085,8 @@
 }
 12750680 = {
 	name=character_name_12750680 # Susumu
-	dynasty=10000617 # Uku
+#	dynasty=10000617 # Uku
+	dynasty_house = "house_shgnt_uku"
 	father=12750675
 	mother=12750665
 	trait="education_martial_2"
@@ -1101,13 +1110,17 @@
 	1230.1.1={
 		birth=yes
 	}
+	1250.01.01 = {
+		dynasty_house = "house_shgnt_matsura_hirado"
+	}
 	1290.1.1={
 		death=yes
 	}
 }
 12750685 = {
 	name=character_name_12750685 # Kiou
-	dynasty=10000617 # Uku
+#	dynasty=10000617 # Uku
+	dynasty_house = "house_shgnt_uku"
 	father=12750680
 	trait="education_martial_2"
 	religion="shinto"
@@ -1121,7 +1134,8 @@
 }
 12750690 = {
 	name=character_name_12750690 # Hiraku
-	dynasty=10000617 # Uku
+#	dynasty=10000617 # Uku
+	dynasty_house = "house_shgnt_uku"
 	father=12750685
 	trait="education_martial_2"
 	religion="shinto"
@@ -1135,7 +1149,8 @@
 }
 12750691 = {
 	name=character_name_12750691 # Tadasu
-	dynasty=10000618 # Tamanoura
+	#dynasty=10000618 # Tamanoura
+	dynasty_house = "house_shgnt_tamanoura"
 	father=12750685
 	trait="education_martial_2"
 	religion="shinto"
@@ -1149,7 +1164,8 @@
 }
 12750695 = {
 	name=character_name_12750695 # Tsuyoshi
-	dynasty=10000617 # Uku
+#	dynasty=10000617 # Uku
+	dynasty_house = "house_shgnt_uku"
 	father=12750690
 	trait="education_martial_2"
 	religion="shinto"
@@ -1224,7 +1240,8 @@
 }
 12750800={
 	name=character_name_12750800 # Tadashu
-	dynasty=10007338 # Shisa
+#	dynasty=10007338 # Shisa
+	dynasty_house = "house_shgnt_shisa"
 	father=12750631 # Shisa Tadashi
 	religion="shinto"
 	culture="northern_kyushu"
@@ -1237,7 +1254,8 @@
 }
 12750801={
 	name=character_name_12750801 # Iwau
-	dynasty=10007338 # Shisa
+#	dynasty=10007338 # Shisa
+	dynasty_house = "house_shgnt_shisa"
 	father=12750800 # Shisa Tadashu
 	religion="shinto"
 	culture="northern_kyushu"
@@ -1250,7 +1268,8 @@
 }
 12750802={
 	name=character_name_12750802 # Tamotsu
-	dynasty=10007338 # Shisa
+#	dynasty=10007338 # Shisa
+	dynasty_house = "house_shgnt_shisa"
 	father=12750801 # Shisa Iwau
 	religion="shinto"
 	culture="northern_kyushu"
@@ -1263,7 +1282,8 @@
 }
 12750803={
 	name=character_name_12750803 # Sadamu
-	dynasty=10007338 # Shisa
+#	dynasty=10007338 # Shisa
+	dynasty_house = "house_shgnt_shisa"
 	father=12750802 # Shisa Tamotsu
 	religion="shinto"
 	culture="northern_kyushu"
@@ -1276,7 +1296,8 @@
 }
 12750804={
 	name=character_name_12750804 # Shirabu
-	dynasty=10007338 # Shisa
+#	dynasty=10007338 # Shisa
+	dynasty_house = "house_shgnt_shisa"
 	father=12750803 # Shisa Sadamu
 	religion="shinto"
 	culture="northern_kyushu"
@@ -1289,7 +1310,8 @@
 }
 12750805={
 	name=character_name_12750805 # Shigeshi
-	dynasty=10007338 # Shisa
+#	dynasty=10007338 # Shisa
+	dynasty_house = "house_shgnt_shisa"
 	father=12750804 # Shisa Shirabu
 	religion="shinto"
 	culture="northern_kyushu"
@@ -1302,7 +1324,8 @@
 }
 12750806={
 	name=character_name_12750806 # Yoroshi
-	dynasty=10007338 # Shisa
+#	dynasty=10007338 # Shisa
+	dynasty_house = "house_shgnt_shisa"
 	father=12750805 # Shisa Shigeshi
 	religion="shinto"
 	culture="northern_kyushu"
@@ -1315,7 +1338,8 @@
 }
 12750807={
 	name=character_name_12750807 # Sumikatsu
-	dynasty=10007338 # Shisa
+#	dynasty=10007338 # Shisa
+	dynasty_house = "house_shgnt_shisa"
 	father=12750806 # Shisa Yoroshi
 	religion="shinto"
 	culture="northern_kyushu"

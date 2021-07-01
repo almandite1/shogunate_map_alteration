@@ -260,9 +260,11 @@ c_shgnt_fugeshi = {
         holder = 10031112 # Nukui Kagetaka
     }
     1581.03.28 = {
+		liege = d_shgnt_noto
         holder = 10029241 # Sugaya Nagayori
     }
     1581.10.29 = {
+		liege = d_shgnt_noto # Maeda Toshiie
         holder = 10031050 # Cho Tsuratatsu
     }
 }
@@ -564,6 +566,13 @@ c_shgnt_imatachi = {
     1383.01.01 = {
         holder = 12320000 # Kai Norimitsu
     }
+	1394.01.01 = {
+		effect = {
+			title:b_shgnt_imatachi_2 = {
+				set_title_name = b_shgnt_imatachi_2_1 # Kuratani
+			}
+		}
+	}
     1395.01.01 = {
         holder = 12320001 # Kai Yukinori
     }
@@ -607,6 +616,13 @@ c_shgnt_imatachi = {
         liege = d_shgnt_kaga # 42324 Shimotsuma Raisho
         holder = 10042324 # Shimotsuma Raisho
     }
+	1575.01.01 = {
+		effect = {
+			title:b_shgnt_imatachi_2 = {
+				set_title_name = b_shgnt_imatachi_2_2 # Komaru
+			}
+		}
+	}
     1575.09.25 = {
         liege = 0 # 
         holder = 10029120 # Oda Nobunaga
@@ -1167,7 +1183,7 @@ c_shgnt_koshi = {
 	1504.01.01 = {
 		effect = {
 			title:b_shgnt_koshi_3 = {
-				set_title_name = b_shgnt_koshi_3_1 #　Suyoshi
+				set_title_name = b_shgnt_koshi_3_1 #  Suyoshi
 			}
 		}
 	}
@@ -1955,6 +1971,11 @@ c_shgnt_echizen_ono = {
     1575.10.06 = {
         liege = d_shgnt_echizen # 29280 Shibata Katsuie
         holder = 10025930 # Kanamori Nagachika
+		effect = {
+			title:b_shgnt_echizen_ono_7 = {
+				set_title_name = b_shgnt_echizen_ono_7_1 # Ōno
+			}
+		}
     }
 }
 c_shgnt_echizen_sakai = {
@@ -2060,7 +2081,7 @@ c_shgnt_santo = {
 	1550.01.01 = {
 		effect = {
 			title:b_shgnt_santo_2 = {
-				set_title_name = b_shgnt_santo_2_1 #　Yoita
+				set_title_name = b_shgnt_santo_2_1 #  Yoita
 			}
 		}
 	}
@@ -2173,7 +2194,7 @@ c_shgnt_shimo_niikawa = {
 	1335.01.01 = {
 		effect = {
 			title:b_shgnt_shimo_niikawa_6 = {
-				set_title_name = b_shgnt_shimo_niikawa_6_1 #　
+				set_title_name = b_shgnt_shimo_niikawa_6_1 #  
 			}
 		}
 	}
@@ -2268,6 +2289,7 @@ c_shgnt_suzu = {
         holder = 10031150 # Yusa Tsugumitsu
     }
     1581.03.28 = {
+		liege = d_shgnt_noto
         holder = 10029241 # Sugaya Nagayori
     }
     1581.10.29 = {

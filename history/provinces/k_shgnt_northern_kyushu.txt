@@ -13,6 +13,12 @@
 	culture = northern_kyushu
 	religion = shinto
 	holding = none
+	1194.01.01 = {
+		holding = castle_holding # 花尾城
+	}
+	1569.01.01 = {
+		holding = none
+	}
 }
 2253 = { # Onga_4
 	culture = northern_kyushu
@@ -138,6 +144,12 @@
 	culture = northern_kyushu
 	religion = shinto
 	holding = none
+	1203.01.01 = {
+		holding = castle_holding # 古処山城
+	}
+	1587.01.01 = {
+		holding = none
+	}
 }
 2278 = { # Chikuzen_Yasu_3
 	culture = northern_kyushu
@@ -147,7 +159,13 @@
 2279 = { # Mikasa_1
 	culture = northern_kyushu
 	religion = shinto
-	holding = castle_holding
+	holding = castle_holding # 太宰府
+	1532.01.01 = {
+		holding = castle_holding # 岩屋城
+	}
+	1597.1.15 = {
+		holding = none # 落城
+	}
 }
 2280 = { # Mikasa_2
 	culture = northern_kyushu
@@ -178,6 +196,12 @@
 	culture = northern_kyushu
 	religion = shinto
 	holding = none
+	1334.01.01 = {
+		holding = castle_holding # 立花山城
+	}
+	1600.01.01 = {
+		holding = none
+	}
 }
 2286 = { # Kasuya_4
 	culture = northern_kyushu
@@ -197,7 +221,7 @@
 2289 = { # Chikuzen_Naka_1
 	culture = northern_kyushu
 	religion = shinto
-	holding = city
+	holding = city_holding
 }
 2290 = { # Chikuzen_Naka_2
 	culture = northern_kyushu
@@ -280,7 +304,13 @@
 2305 = { # Ikuha_1
 	culture = central_kyushu
 	religion = shinto
-	holding = castle_holding
+	holding = none
+	1313.01.01 = {
+		holding = castle_holding # 長岩城
+	}
+	1587.01.01 = {
+		holding = none
+	}
 }
 2306 = { # Ikuha_2
 	culture = central_kyushu
@@ -301,6 +331,9 @@
 	culture = central_kyushu
 	religion = shinto
 	holding = castle_holding
+	1587.01.01 = {
+		holding = none
+	}
 }
 2310 = { # Mihara_1
 	culture = central_kyushu
@@ -459,6 +492,12 @@
 	culture = northern_kyushu
 	religion = shinto
 	holding = none
+	1550.01.01 = {
+		holding = castle_holding # 小三岳城
+	}
+	1568.09.05 = {
+		holding = none
+	}
 }
 2341 = { # Kiku_3
 	culture = northern_kyushu
@@ -947,12 +986,18 @@
 2436 = { # Higashi_Matsura_1
 	culture = northern_kyushu
 	religion = shinto
-	holding = castle_holding
+	holding = none
 }
 2437 = { # Higashi_Matsura_2
 	culture = northern_kyushu
 	religion = shinto
 	holding = none
+	1110.01.01 = {
+		holding = castle_holding # 波多城
+	}
+	1593.01.01 = {
+		holding = none
+	}
 }
 2438 = { # Higashi_Matsura_3
 	culture = northern_kyushu
@@ -1008,6 +1053,12 @@
 	culture = northern_kyushu
 	religion = shinto
 	holding = castle_holding
+	1521.01.01 = {
+		holding = castle_holding # Egawa[江川]
+	}
+	1614.01.01 = {
+		holding = none
+	}
 }
 2449 = { # Kishima_1
 	culture = northern_kyushu
