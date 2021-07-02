@@ -1042,6 +1042,13 @@ c_shgnt_katsushika = {
     1294.02.12 = {
         holder = 12150155 # Chiba Tanesada
     }
+	1333.07.04 = {
+		effect = {
+			title:b_shgnt_katsushika_2 = {
+				set_title_name = b_shgnt_katsushika_2_1 # Kōnodai, 国府台
+			}
+		}
+	}
     1336.12.22 = {
         liege = d_shgnt_shimousa # 
         holder = 12150187 # Chiba Tanetsugu
@@ -1315,6 +1322,11 @@ c_shgnt_makabe = {
     }
     1343.11.11 = {
         holder = 12120730 # Oguri Shigemasa
+		effect = {
+			title:b_shgnt_makabe_1 = {
+				set_title_name = b_shgnt_makabe_1_1 # Kugeta, 久下田
+			}
+		}
     }
     1350.01.01 = {
         holder = 12120735 # Oguri Shigesada
@@ -2044,6 +2056,16 @@ c_shgnt_shimotsuga = {
     1191.01.01 = {
         holder = 12135001 # Oyama Tomomasa
     }
+	1200.01.01 = {
+		effect = {
+			title:b_shgnt_shimotsuga_4 = {
+				set_title_name = b_shgnt_shimotsuga_4_1 # Ōmiya, 大宮
+			}
+			title:b_shgnt_shimotsuga_8 = {
+				set_title_name = b_shgnt_shimotsuga_8_1 # Oyama, 小山城
+			}
+		}
+	}
     1238.05.15 = {
         holder = 12135010 # Oyama Nagamura
     }
@@ -3739,6 +3761,13 @@ c_shgnt_ichihara = {
     1184.02.03 = {
         holder = 12211501 # Wada Yoshimori
     }
+	1200.01.01 = {
+		effect = {
+			title:b_shgnt_ichihara_1 = {
+				set_title_name = b_shgnt_ichihara_1_1 # Ichihara, 市原
+			}
+		}
+	}
     1213.05.24 = {
         holder = 10131653 # Hojo Yoshitoki / the Battle of Wada
     }

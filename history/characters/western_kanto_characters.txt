@@ -1052,13 +1052,17 @@
 	1337.1.1={
 		birth=yes
 	}
+	1360.01.01 = {
+		dynasty_house = "house_shgnt_inugakeuesugi"
+	}
 	1414.10.8={
 		death=yes
 	}
 }
 10017048 = {
 	name=character_name_10017048 # Ujinori
-	dynasty=10000100 # Uesugi
+	#dynasty=10000100 # Uesugi
+	dynasty_house = "house_shgnt_inugakeuesugi"
 	father=10017047
 	martial=7
 	diplomacy=8
@@ -1242,7 +1246,8 @@
 }
 10017062={
 	name=character_name_10017062 # Norikata
-	dynasty=10000100 # Uesugi
+	#dynasty=10000100 # Uesugi
+	dynasty_house = "house_shgnt_inugakeuesugi"
 	father=10017048 # Uesugi Zenshu
 	mother=12360193 # Takeda Haru
 	religion="shinto"
@@ -1258,7 +1263,8 @@
 }
 10017063={
 	name=character_name_10017063 # Noriaki
-	dynasty=10000100 # Uesugi
+	#dynasty=10000100 # Uesugi
+	dynasty_house = "house_shgnt_inugakeuesugi"
 	father=10017048 # Uesugi Zenshu
 	mother=12360193 # Takeda Haru
 	religion="shinto"
@@ -1274,7 +1280,8 @@
 }
 10017064={
 	name=character_name_10017064 # Noriharu
-	dynasty=10000100 # Uesugi
+	#dynasty=10000100 # Uesugi
+	dynasty_house = "house_shgnt_inugakeuesugi"
 	father=10017048 # Uesugi Zenshu
 	mother=12360193 # Takeda Haru
 	religion="shinto"
@@ -1288,7 +1295,8 @@
 }
 10017065={
 	name=character_name_10017065 # Mochifusa
-	dynasty=10000100 # Uesugi
+	#dynasty=10000100 # Uesugi
+	dynasty_house = "house_shgnt_inugakeuesugi"
 	father=10017048 # Uesugi Zenshu
 	mother=12360193 # Takeda Haru
 	religion="shinto"
@@ -1302,7 +1310,8 @@
 }
 10017066={
 	name=character_name_10017066 # Noritomo
-	dynasty=10000100 # Uesugi
+	#dynasty=10000100 # Uesugi
+	dynasty_house = "house_shgnt_inugakeuesugi"
 	father=10017048 # Uesugi Zenshu
 	mother=12360193 # Takeda Haru
 	religion="shinto"
@@ -1317,7 +1326,8 @@
 10017067={
 	name=character_name_10017067 # Natsu
 	female=yes
-	dynasty=10000100 # Uesugi
+	#dynasty=10000100 # Uesugi
+	dynasty_house = "house_shgnt_inugakeuesugi"
 	father=10017048 # Uesugi Zenshu
 	religion="shinto"
 	culture="western_kanto"
@@ -1331,7 +1341,8 @@
 10017068={
 	name=character_name_10017068 # Aki
 	female=yes
-	dynasty=10000100 # Uesugi
+	#dynasty=10000100 # Uesugi
+	dynasty_house = "house_shgnt_inugakeuesugi"
 	father=10017048 # Uesugi Zenshu
 	religion="shinto"
 	culture="western_kanto"
@@ -1345,7 +1356,8 @@
 10017069={
 	name=character_name_10017069 # Fuyu
 	female=yes
-	dynasty=10000100 # Uesugi
+	#dynasty=10000100 # Uesugi
+	dynasty_house = "house_shgnt_inugakeuesugi"
 	father=10017048 # Uesugi Zenshu
 	religion="shinto"
 	culture="western_kanto"
@@ -1358,7 +1370,8 @@
 }
 10017070={
 	name=character_name_10017070 # Norifusa
-	dynasty=10000100 # Uesugi
+	#dynasty=10000100 # Uesugi
+	dynasty_house = "house_shgnt_inugakeuesugi"
 	father=10017065 # Uesugi Mochifusa
 	religion="shinto"
 	culture="western_kanto"
@@ -1371,7 +1384,8 @@
 }
 10017071={
 	name=character_name_10017071 # Masanori
-	dynasty=10000100 # Uesugi
+	#dynasty=10000100 # Uesugi
+	dynasty_house = "house_shgnt_inugakeuesugi"
 	father=10017066 # Uesugi Noritomo
 	religion="shinto"
 	culture="western_kanto"

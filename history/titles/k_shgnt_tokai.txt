@@ -825,6 +825,13 @@ c_shgnt_hoi = {
         liege = 0
         holder = 0
     }
+	1333.07.04 = {
+		effect = {
+			title:b_shgnt_hoi_5 = {
+				set_title_name = b_shgnt_hoi_5_1 # Nagasawa, 長沢
+			}
+		}
+	}
     1379.04.01 = {
         liege = d_shgnt_mikawa # 
         holder = 10049505 # Isshiki Norimitsu
@@ -1387,6 +1394,13 @@ c_shgnt_kita-koma = {
     1300.01.01 = {
         holder = 12361505 # Henmi Aritsuna
     }
+	1333.07.04 = {
+		effect = {
+		title:b_shgnt_kita-koma_2 = {
+			set_title_name = b_shgnt_kita-koma_2_1 # Amari, 甘利
+		}
+	}
+	}
     1340.01.01 = {
         liege = d_shgnt_kai # 
         holder = 12361510 # Henmi Arimasa
@@ -1465,6 +1479,13 @@ c_shgnt_koma = {
     1332.12.31 = {
         holder = 12040215 # Nanbu Nagatsugu
     }
+	1333.07.04 = {
+		effect = {
+			title:b_shgnt_koma_4 = {
+				set_title_name = b_shgnt_koma_4_1 # Akiyama, 秋山
+			}
+		}
+	}
     1352.01.01 = {
         holder = 12040156 # Nanbu Masanaga
     }
@@ -2915,6 +2936,16 @@ c_shgnt_yatsushiro = {
     1331.01.01 = {
         holder = 12360150 # Takeda Masayoshi
     }
+	1333.07.04 = {
+		effect = {
+			title:b_shgnt_yatsushiro_6 = {
+				set_title_name = b_shgnt_yatsushiro_6_1 # Isawa, 石和
+			}
+			title:b_shgnt_yatsushiro_5 = {
+				set_title_name = b_shgnt_yatsushiro_5_1 # Iwasaki, 岩崎
+			}
+		}
+	}
     1343.01.01 = {
         liege = d_shgnt_kai # 
         holder = 12360160 # Takeda Nobutake
@@ -3814,6 +3845,13 @@ c_shgnt_toyoda = {
     1330.01.01 = {
         holder = 12390512 # Ii Yukinao
     }
+	1333.07.04 = {
+		effect = {
+			title:b_shgnt_toyoda_3 = {
+				set_title_name = b_shgnt_toyoda_3_1 # Sagisaka, 匂坂
+			}
+		}
+	}
     1404.01.01 = {
         holder = 12390513 # Ii Kagenao
     }

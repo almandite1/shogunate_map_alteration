@@ -229,6 +229,13 @@ c_shgnt_homi = {
         liege = 0
         holder = 0
     }
+	1333.07.04 = {
+		effect = {
+			title:b_shgnt_homi_2 = {
+				set_title_name = b_shgnt_homi_2_1 # Ube, 宇倍神社
+			}
+		}
+	}
     1363.09.01 = {
         liege = d_shgnt_inaba # 
         holder = 12186256 # Yamana Tokiuji
@@ -1485,6 +1492,13 @@ c_shgnt_tajima_keta = {
         liege = 0 # 
         holder = 0 # Taira's escape to the west
     }
+	1333.07.04 = {
+		effect = {
+			title:b_shgnt_tajima_keta_2 = {
+				set_title_name = b_shgnt_tajima_keta_2_1 # Yoida, 宵田
+			}
+		}
+	}
     1433.01.01 = {
         holder = 10050039 # Yamana Mochitoyo
     }
@@ -1883,6 +1897,13 @@ c_shgnt_kume = {
         liege = 0
         holder = 0
     }
+	1333.07.04 = {
+		effect = {
+			title:b_shgnt_kume_1 = {
+				set_title_name = b_shgnt_kume_1_1 # Kokubunji, 国分寺
+			}
+		}
+	}
     1366.01.01 = {
         holder = 10050107 # Nanjo Sadamune
     }
@@ -1890,13 +1911,13 @@ c_shgnt_kume = {
         holder = 10050106 # Nanjo Kagemune
     }
     1424.11.01 = {
-        holder = 10050017 # ã€€Yamana Noriyuki
+        holder = 10050017 # Yamana Noriyuki
     }
     1453.01.01 = {
-        holder = 10050018 # ã€€Yamana Toyoyuki
+        holder = 10050018 # Yamana Toyoyuki
     }
     1471.10.31 = {
-        holder = 10050103 # ã€€Nanjo Munenori
+        holder = 10050103 # Nanjo Munenori
     }
     1480.10.03 = {
         liege = d_shgnt_hoki # Yamana Masayuki; subordination

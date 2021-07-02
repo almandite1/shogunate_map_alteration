@@ -182,7 +182,10 @@
 2507 = { # Takuma_1
 	culture = central_kyushu
 	religion = shinto
-	holding = castle_holding
+	holding = castle_holding # 肥後国府
+	1333.07.04 = {
+		holding = none # Suizenji, 水前寺
+	}
 }
 2508 = { # Takuma_2
 	culture = central_kyushu
@@ -518,7 +521,10 @@
 2573 = { # Kuwahara_3
 	culture = southern_kyushu
 	religion = shinto
-	holding = castle_holding
+	holding = castle_holding # 大隅国府
+	1333.07.04 = {
+		holding = church_holding # Kagoshima, 鹿児嶋神社
+	}
 }
 2574 = { # So_1
 	culture = southern_kyushu
@@ -643,7 +649,7 @@
 2598 = { # Kawanohe_1
 	culture = southern_kyushu
 	religion = shinto
-	holding = castle_holding
+	holding = castle_holding # Beppu, 別府城
 }
 2599 = { # Kawanohe_2
 	culture = southern_kyushu
@@ -753,7 +759,10 @@
 2620 = { # Takaki_1
 	culture = southern_kyushu
 	religion = shinto
-	holding = castle_holding
+	holding = castle_holding # 薩摩国府
+	1333.07.04 = {
+		holding = church_holding # Nitta, 新田神社
+	}
 }
 2621 = { # Koshikishima_1
 	culture = southern_kyushu

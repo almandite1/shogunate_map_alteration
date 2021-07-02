@@ -363,7 +363,10 @@
 2315 = { # Mii_3
 	culture = central_kyushu
 	religion = shinto
-	holding = castle_holding
+	holding = castle_holding # 筑後国府
+	1333.07.04 = {
+		holding = church_holding # Kōra, 高良大社
+	}
 }
 2316 = { # Kamutsuma_1
 	culture = central_kyushu
@@ -542,7 +545,10 @@
 2349 = { # Nakatsu_1
 	culture = northern_kyushu
 	religion = shinto
-	holding = castle_holding
+	holding = castle_holding # 豊前国府
+	1333.07.04 = {
+		holding = none # Saigawa, 犀川
+	}
 }
 2350 = { # Nakatsu_2
 	culture = northern_kyushu
@@ -928,7 +934,10 @@
 2425 = { # Saka_4
 	culture = northern_kyushu
 	religion = shinto
-	holding = castle_holding
+	holding = castle_holding # 肥前国府
+	1333.07.04 = {
+		holding = none # Chifu, 千布
+	}
 }
 2426 = { # Saka_5
 	culture = northern_kyushu
@@ -1132,6 +1141,9 @@
 	culture = northern_kyushu
 	religion = shinto
 	holding = none
+	1571.04.27 = {
+		holding = city_holding # Nagasaki, 長崎港
+	}
 }
 2463 = { # Kita_Takaku_1
 	culture = northern_kyushu

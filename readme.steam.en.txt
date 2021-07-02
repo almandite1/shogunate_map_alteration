@@ -1,34 +1,48 @@
-Shogunate Map alteration MOD alpha Version 0.4.9 'Atoiya'
+Shogunate Map alteration MOD beta Version 0.5.0 'Awabiara Saki'
 
-[h1]※ This is a public upload test, so it will unexpectedly become private[/h1]
-[h1]Shogunate MOD Map alteration sub MOD alpha version Version 0.4.9 'Atoiya'[/h1]
+[h1]Shogunate Map alteration MOD beta Version 0.5.0 'Awabiara Saki'[/h1]
 ====
 
-Shogunate Map alteration sub MOD is a submod of the Shogunate mod. It replaces map with a high-resolution one and increases the Provence-Baron territory.
+Shogunate Map alteration sub MOD is a submod of the Shogunate mod. It replaces the map with a high-resolution one and increases the Provence-Baron territory.
 
 [h2]CAUTION[/h2]
-This mod is an alpha version.
-There are known problems and unimplemented features.
+This mod is a beta version.
+There are unknown bugs, known issues, and unimplemented features.
 Probably when this mod is upgraded, the saved data will no longer be available.
-Please refrain from playing games with the goal of long-term continuation.
 It is not compatible with the main mod, Shogunate save data.
 Since map size is larger than the CK3 vanilla and main mod, a more powerful hardware configuration will be required.
 
 [h2]Description[/h2]
 [h3]Topography[/h3]
-It is based on a newly generated height map from a real DEM (Digital Elevation Model), and currently uses the orthographic projection method centered on Tokyo (this may change in the future).
+It is based on a newly generated height map from a real DEM (Digital Elevation Model) and currently uses We use the [url=https://en.wikipedia.org/wiki/Equal_Earth_projection]Equal Earth projection[/url] method centered on 135°E as the map projection method.
+This map projection will give you the correct ratio of land area.
 Map textures are drawn using elevation and actual land cover information.
 
 [h3]Province[/h3]
-The number of provinces in a county (equivalent to a county in the game) was determined based on the standard of one provincia for every 10,000 KOKU[GOKU]（石） of rice produced in a county (equivalent to a county in the game) at the end of the 15th century, with some exceptions. The number of Provinces in a Count's Domain is subject to change.
+The number of provinces in a county (equivalent to a county in the game) was determined based on the standard of one Provincia for every 10,000 KOKU[GOKU]（石） of rice produced in a county (equivalent to a county in the game) at the end of the 15th century, with some exceptions. The number of Provinces in a Count's Domain is subject to change.
 This is the shape of Province, created by combining the administrative divisions of Japan as of 1920.
-The basic data for the map, heightmap.png and provinces.png, are newly created at 16,384 x 4,096 pixels, twice the size of the main mod. The number of provinces is 3140 about four times the number of the main mod (including sea areas, etc.).
+The basic data for the map, heightmap.png, and provinces.png, were newly created with an area of 12,288 × 8,192 pixels, three times the size of the main mod.
+The number of provinces is 3140 about four times the number of the main mod (including sea areas, etc.).
 The increased number of Provinces will give you more strategic and tactical options and bring you a new gameplay experience!
+Some holdings change their names with the times, such as Inabayama Castle(稲葉山城) changed to Gifu Castle(岐阜城).
+There are impassable zones.
 
 [h3]County[/h3]
-Counties that existed in the 15th century have been reorganized to appear in the game, and the number of {z} county territories has been increased compared to the main mod.
+Counties that existed in the 15th century have been reorganized to appear in the game, and the number of 200 county territories has been increased compared to the main mod.
 Some counties were divided like counties that existed in modern times because they had a large number of Provinces or a large area.
-Towns such as "Kyoto", "Osaka", "Nara", and "Sakai" were set up as independent county territories.
+Towns such as "Kyōto", "Ōsaka", "Nara", and "Sakai" were set up as independent county territories.
+
+[h3]Adding Houses[/h3]
+We have set up several common houses (Cadet Branches) that are not in the main mod.
+As of version 0.5, there are 230 houses.
+The newly added house mottoes are based on sayings and Japanese proverbs.
+
+[h3]MISC[/h3]
+Changed a small amount of character data to be more historically accurate.
+Changed some title historical data to be more historically accurate.
+Family crests have been set for clans that are not set in the main mod.
+Ten new family crest image files have been added, including "Ōnakaguro"(大中黒), the family crest of the Nitta clan of the Yoshikuni school of the Seiwa Minamoto clan.
+x_buddhist Set the male characters with culture to lose their hair.
 
 [h3]Road map[/h3]
 You can see what we are currently working [url=https://github.com/almandite1/shogunate_map_alteration/issues?q=is%3Aopen+assignee%3Aalmandite1]on here[/url].
@@ -47,38 +61,14 @@ We are looking for people who can help us in the following areas:
 [olist]
 [*] Making sure that the title names of the baronies are historically appropriate.
 [*] Using the map editor to adjust the position of the map locator to the appropriate location.
-[*] Using the map editor to place the tree map objects.
+[*] Using the map editor to place the treemap objects.
 [*] Translating the title name and content of this Steam Workshop into English, French, German, Korean, Russian, Simplified Chinese, Spanish, and other languages.
 [*] 3D modeling of character hair and clothes in Maya or Blender, exporting them in PDX format, and adjusting them so that they work in-game. I've put together a post on the Paradox Forum about the 3D models needed for this mod or the main mod. [url=https://forum.paradoxplaza.com/forum/threads/mod-public-alpha-shogunate-map-alteration-sub-mod.1467780/post-27623098]See also[/url].
 [/olist]
 It would be helpful if you could inform us in advance to avoid conflicts in the deliverables. Please contact us through [url=https://forum.paradoxplaza.com/forum/threads/mod-public-alpha-shogunate-map-alteration-sub-mod.1467780/]Paradox Forum[/url].
 
 [h2]Credit[/h2]
-[h3]gfx / map / terrain / *.*[/h3]
-[list]
-[*][url=https://globalmaps.github.io/glcnmo.html]Land Cover (GLCNMO) - Global version[/url] / Geospatial Information Authority of Japan, Chiba University and collaborating organizations.
-[/list]
-[h3]history / *.* ほか[/h3]
-Shogunate MOD を一部改変
-[h3]map_data / heightmap.png[/h3]
-[list]
-[*][url=https://globalmaps.github.io/el.html]Elevation - Global version[/url] / Geospatial Information Authority of Japan.
-[/list]
-[h3]map_data / rivers.png[/h3]
-[list]
-[*][url=https://osmdata.openstreetmap.de]Land polygons - Data Derived from OpenStreetMap for Download[/url] / The OpenStreetMap project
-[*][url=https://nlftp.mlit.go.jp/ksj]「国土数値情報（湖沼データ）」（国土交通省）[/url]を加工して作成
-[*][url=https://nlftp.mlit.go.jp/ksj]「国土数値情報（河川データ）」（国土交通省）[/url]を加工して作成
-[/list]
-[h3]map_data / provinces.png[/h3]
-[list]
-[*][url=https://nlftp.mlit.go.jp/ksj]「国土数値情報（行政区域データ）」（国土交通省）[/url]を加工して作成
-[/list]
-
-[h3]thumbnail.png[/h3]
-[list]
-[*]© Kanenori, [url=https://pixabay.com/ja/users/kanenori-4749850/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2297961]Plz do not use photos showing people for commercial uses.[/url]による[url=https://pixabay.com/ja/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2297961]Pixabay[/url]からの画像
-[/list]
+It can be found [url=https://github.com/almandite1/shogunate_map_alteration/tree/main#credit]here[/url].
 
 [h3]This content[/h3]
 Translated by www.DeepL.com/Translator.

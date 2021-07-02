@@ -186,6 +186,13 @@ c_shgnt_chichibu = {
         liege = 0 # 
         holder = 0 # the HATAKEYAMA Shigetada Rebellion
     }
+	1333.07.04 = {
+		effect = {
+			title:b_shgnt_chichibu_2 = {
+				set_title_name = b_shgnt_chichibu_2_1 # Chichibu, 秩父
+			}
+		}
+	}
     1441.01.01 = {
         liege = d_shgnt_musashi # 
         holder = 10017320 # Nagao Kagenaka
@@ -283,6 +290,13 @@ c_shgnt_kuruma = {
         liege = 0
         holder = 0
     }
+	1333.07.04 = {
+		effect = {
+			title:b_shgnt_kuruma_7 = {
+				set_title_name = b_shgnt_kuruma_7_1 # Sōja, 総社
+			}
+		}
+	}
     1336.03.10 = {
         liege = d_shgnt_kozuke # 
         holder = 12215325 # Nagao Kagetada
@@ -296,6 +310,13 @@ c_shgnt_kuruma = {
     1420.01.01 = {
         holder = 10017320 # Nagao Kagenaka
     }
+	1429.01.01 = {
+		effect = {
+			title:b_shgnt_kuruma_7 = {
+				set_title_name = b_shgnt_kuruma_7_2 # Ōmi, 蒼海城
+			}
+		}
+	}
     1463.10.08 = {
         holder = 10017321 # Nagao Kagenobu
     }
@@ -455,6 +476,11 @@ c_shgnt_hiki = {
     1203.10.08 = {
         liege = 0
         holder = 0
+		effect = {
+			title:b_shgnt_hiki_5 = {
+				set_title_name = b_shgnt_hiki_5_1 # Kawajima, 川島
+			}
+		}
     }
     1399.01.01 = {
         holder = 10018425 # Ueda Tomonao
@@ -748,6 +774,13 @@ c_shgnt_kita_adachi = {
         liege = 0
         holder = 0
     }
+	1333.07.04 = {
+		effect = {
+			title:b_shgnt_kita_adachi_4 = {
+				set_title_name = b_shgnt_kita_adachi_4_1 # Mitsugi, 三ツ木城
+			}
+		}
+	}
     1430.01.01 = {
         liege = d_shgnt_sagami # 
         holder = 10018350 # Ota Sukekiyo
@@ -1214,7 +1247,13 @@ c_shgnt_miura = {
         holder = 12211050 # Miura Yasumura
     }
     1247.07.09 = {
-        holder = 10131824 # Hojo Tokiyori / The battle of Hoji
+        holder = 10131824 # Hojo Tokiyori / The battle of Hōji
+		effect = {
+			set_title_name = c_shgnt_miura_1 # Miura, 三浦
+			title:b_shgnt_miura_1 = {
+				set_title_name = b_shgnt_miura_1_1 # Yokosuka, 横須賀
+			}
+		}
     }
     1248.01.01 = {
         holder = 12211224 # Miura [Sahara] Moritoki
@@ -1295,6 +1334,11 @@ c_shgnt_nifuta = {
     }
     1347.01.01 = {
         holder = 12187030 # Iwamatsu Tadakuni
+		effect = {
+			title:b_shgnt_nifuta_6 = {
+				set_title_name = b_shgnt_nifuta_6_1 # Iwamatsu, 岩松館
+			}
+		}
     }
     1390.01.01 = {
         liege = k_nmih_kamakura_kubo # 
@@ -1830,6 +1874,13 @@ c_shgnt_tato = {
 		liege=0
 		holder=0
 	}
+	1333.07.04 = {
+		effect = {
+			title:b_shgnt_tama_7 = {
+				set_title_name = b_shgnt_tama_7_1 # Fuchū, 府中
+			}
+		}
+	}
 	1457.1.1={
 		liege="d_shgnt_musashi"
 		holder=10017037 # Uesugi Mochitomo
@@ -1885,6 +1936,11 @@ c_shgnt_tasei = {
     }
     1213.05.25 = {
         holder = 10131653 # Hojo Yoshitoki
+		effect = {
+			title:b_shgnt_tama_1 = {
+				set_title_name = b_shgnt_tama_1_1 # Yokoyama, 横山
+			}
+		}
     }
     1224.07.01 = {
         liege = 0
@@ -2048,6 +2104,16 @@ c_shgnt_toshima = {
     1330.01.01 = {
         holder = 12201041 # Toshima Kagemura
     }
+	1333.07.04 = {
+		effect = {
+			title:b_shgnt_toshima_3 = {
+				set_title_name = b_shgnt_toshima_3_1 # Toshima, 豊島
+			}
+			title:b_shgnt_toshima_1 = {
+				set_title_name = b_shgnt_toshima_1_1 # Edo, 江戸
+			}
+		}
+	}
     1350.01.01 = {
         holder = 12201045 # Toshima Tomoyasu
     }
@@ -2069,6 +2135,13 @@ c_shgnt_toshima = {
     1456.01.01 = {
         holder = 10018351 # Ota Sukenaga(Dokan)
     }
+	1457.01.01 = {
+		effect = {
+			title:b_shgnt_toshima_1 = {
+				set_title_name = b_shgnt_toshima_1_2 # Edo, 江戸城
+			}
+		}
+	}
     1486.08.25 = {
         holder = 10017040 # Uesugi Sadamasa
     }
@@ -3275,6 +3348,13 @@ c_shgnt_musashi_koma = {
         liege = 0 # 
         holder = 0 # the HATAKEYAMA Shigetada Rebellion
     }
+	1333.07.04 = {
+		effect = {
+			title:b_shgnt_musashi_koma_2 = {
+				set_title_name = b_shgnt_musashi_koma_2_1 # Onakage, 女影
+			}
+		}
+	}
     1457.01.01 = {
         liege = d_shgnt_musashi # 
         holder = 10017037 # Uesugi Mochitomo
@@ -3326,6 +3406,11 @@ c_shgnt_obusuma = {
     1205.07.10 = {
         liege = 0 # 
         holder = 0 # the HATAKEYAMA Shigetada Rebellion
+		effect = {
+			title:b_shgnt_obusuma_1 = {
+				set_title_name = b_shgnt_obusuma_1_1 # Hachigata, 鉢形
+			}
+		}
     }
     1441.01.01 = {
         liege = d_shgnt_musashi # 

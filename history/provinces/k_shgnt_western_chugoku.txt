@@ -45,7 +45,10 @@
 1788 = { # Iwami_Naka_1
 	culture = western_chugoku
 	religion = shinto
-	holding = castle_holding
+	holding = castle_holding # 石見国府
+	1392.01.01 = {
+		holding = none # Hamada, 浜田
+	}
 }
 1789 = { # Iwami_Naka_2
 	culture = western_chugoku
@@ -240,7 +243,10 @@
 2000 = { # Anan_2
 	culture = western_chugoku
 	religion = shinto
-	holding = castle_holding
+	holding = castle_holding # 安藝国府
+	1333.07.04 = {
+		holding = none # Fuchū, 府中
+	}
 }
 2001 = { # Anan_3
 	culture = western_chugoku
@@ -309,6 +315,9 @@
 	1470.01.01 = {
 		holding = castle_holding # Wakayama
 	}
+	1557.04.01 = {
+		holding = none # Fukugawa, 福川
+	}
 }
 2014 = { # Tsuno_5
 	culture = western_chugoku
@@ -323,7 +332,10 @@
 2016 = { # Saba_2
 	culture = western_chugoku
 	religion = shinto
-	holding = castle_holding
+	holding = castle_holding # 周防国府
+	1333.07.04 = {
+		holding = church_holding # Matsuzaki, 松崎天満宮
+	}
 }
 2017 = { # Saba_3
 	culture = western_chugoku
@@ -384,6 +396,12 @@
 	holding = none
 	1450.01.01 = {
 		holding = castle_holding # Yamaguchi
+	}
+	1551.09.30 = {
+		holding = none # Kōnomine, 高嶺城
+	}
+	1556.01.01 = {
+		holding = castle_holding
 	}
 }
 2028 = { # Kumage_1
@@ -464,12 +482,15 @@
 2043 = { # Koto_1
 	culture = western_chugoku
 	religion = shinto
-	holding = castle_holding
+	holding = none
 }
 2044 = { # Koto_2
 	culture = western_chugoku
 	religion = shinto
-	holding = none
+	holding = castle_holding # 霜降山城
+	1358.01.01 = {
+		holding = none
+	}
 }
 2045 = { # Koto_3
 	culture = western_chugoku

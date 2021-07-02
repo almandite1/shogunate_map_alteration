@@ -1048,12 +1048,15 @@
 1690 = { # Yosa_1
 	culture = northern_kinai
 	religion = shinto
-	holding = castle_holding
+	holding = none
 }
 1691 = { # Yosa_2
 	culture = northern_kinai
 	religion = shinto
-	holding = none
+	holding = castle_holding # 丹後国府
+	1333.07.04 = {
+		holding = none
+	}
 	1409.01.25 = {
 		holding = castle_holding # Yuminoki
 	}
