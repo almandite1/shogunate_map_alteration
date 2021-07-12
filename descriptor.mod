@@ -9,7 +9,6 @@ replace_path = {
   "common/decisions/DLC/FP1"
   "events/dlc/fp1"
   "history/characters"
-  "history/cultures"
   "history/provinces"
   "history/titles"
   "history/wars"
