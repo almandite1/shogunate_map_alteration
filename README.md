@@ -12,6 +12,7 @@ Shogunate Map alteration sub MOD is a submod of the Shogunate mod. It replaces m
 
 ## map_data / heightmap.png
 - [Elevation - Global version](https://globalmaps.github.io/el.html) / Geospatial Information Authority of Japan.
+- [ASTER 全球3次元地形データ（ASTER GDEM）](https://www.jspacesystems.or.jp/ersdac/GDEM/J/)
 
 ## map_data / rivers.png
 - [Land polygons - Data Derived from OpenStreetMap for Download](https://osmdata.openstreetmap.de) / The OpenStreetMap project
