@@ -42,7 +42,10 @@
 1714 = { # Tajima_Keta_2
 	culture = sanin
 	religion = shinto
-	holding = none
+	holding = castle_holding # 但馬国府
+	1333.07.04 = {
+		holding = none
+	}
 }
 1715 = { # Mikumi_1
 	culture = sanin
@@ -168,6 +171,9 @@
 	culture = sanin
 	religion = shinto
 	holding = castle_holding
+	1333.07.04 = {
+		holding = none
+	}
 }
 1737 = { # Kume_2
 	culture = sanin

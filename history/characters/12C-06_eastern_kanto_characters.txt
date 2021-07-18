@@ -499,6 +499,9 @@
 	1268.10.31={
 		birth=yes
 	}
+	1275.09.07 = {
+		dynasty_house = "house_shgnt_shimousa_chiba"
+	}
 	1291.1.1={
 		add_spouse=10132095 # daughter of Hojo Akitoki
 	}
@@ -539,7 +542,8 @@
 }
 12150160={
 	name=character_name_12150160 # Sadatane
-	dynasty=10000116 # Chiba
+	#dynasty=10000116 # Chiba
+	dynasty_house = "house_shgnt_shimousa_chiba"
 	father=12150151 # Chiba Tanemune
 	mother=10132095 # daughter of Hojo Akitoki
 	religion="shinto"
@@ -557,7 +561,8 @@
 }
 12150165={
 	name=character_name_12150165 # Kazutane
-	dynasty=10000116 # Chiba
+	#dynasty=10000116 # Chiba
+	dynasty_house = "house_shgnt_shimousa_chiba"
 	father=12150160 # Chiba Sadatane
 	religion="shinto"
 	culture="eastern_kanto"
@@ -573,7 +578,8 @@
 }
 12150166={
 	name=character_name_12150166 # Ujitane
-	dynasty=10000116 # Chiba
+	#dynasty=10000116 # Chiba
+	dynasty_house = "house_shgnt_shimousa_chiba"
 	father=12150160 # Chiba Sadatane
 	religion="shinto"
 	culture="eastern_kanto"
@@ -595,7 +601,8 @@
 12150167={
 	female=yes
 	name=character_name_12150167 # Otoduru
-	dynasty=10000116 # Chiba
+	#dynasty=10000116 # Chiba
+	dynasty_house = "house_shgnt_shimousa_chiba"
 	father=12150160 # Chiba Sadatane
 	religion="shinto"
 	culture="eastern_kanto"
@@ -609,7 +616,8 @@
 }
 12150170={
 	name=character_name_12150170 # Mitsutane
-	dynasty=10000116 # Chiba
+	#dynasty=10000116 # Chiba
+	dynasty_house = "house_shgnt_shimousa_chiba"
 	father=12150166 # Chiba Ujitane
 	mother=12185046 # Nitta Yoshisada's daughter
 	religion="shinto"
@@ -627,7 +635,8 @@
 }
 12150171={
 	name=character_name_12150171 # Shigetane
-	dynasty=10000116 # Chiba
+	#dynasty=10000116 # Chiba
+	dynasty_house = "house_shgnt_shimousa_chiba"
 	father=12150166 # Chiba Ujitane
 	mother=12185046 # Nitta Yoshisada's daughter
 	religion="shinto"
@@ -642,7 +651,8 @@
 }
 12150172={
 	name=character_name_12150172 # Shoso
-	dynasty=10000116 # Chiba
+	#dynasty=10000116 # Chiba
+	dynasty_house = "house_shgnt_shimousa_chiba"
 	father=12150166 # Chiba Ujitane
 	religion="shinto"
 	culture="eastern_kanto"
@@ -662,7 +672,8 @@
 }
 12150173={
 	name=character_name_12150173 # Tanetaka
-	dynasty=10000126 # Hara
+	#dynasty=10000126 # Hara
+	dynasty_house = "house_shgnt_chiba_hara"
 	father=12150166 # Chiba Ujitane
 	religion="shinto"
 	culture="eastern_kanto"
@@ -675,7 +686,8 @@
 }
 12150175={
 	name=character_name_12150175 # Kanetane
-	dynasty=10000116 # Chiba
+	#dynasty=10000116 # Chiba
+	dynasty_house = "house_shgnt_shimousa_chiba"
 	father=12150170 # Chiba Mitsutane
 	religion="shinto"
 	culture="eastern_kanto"
@@ -692,13 +704,17 @@
 }
 12150176={
 	name=character_name_12150176 # Yasutane
-	dynasty=10000116 # Chiba
+	#dynasty=10000116 # Chiba
+	dynasty_house = "house_shgnt_shimousa_chiba"
 	father=12150170 # Chiba Mitsutane
 	religion="shinto"
 	culture="eastern_kanto"
 	learning=4
 	1398.1.1={
 		birth=yes
+	}
+	1428.01.01 = {
+		dynasty_house = "house_shgnt_makuwari"
 	}
 	1456.11.28={
 		death={
@@ -769,6 +785,9 @@
 	culture="eastern_kanto"
 	1314.1.1={
 		birth=yes
+	}
+	1334.01.01 = {
+		dynasty_house = "house_shgnt_chiba_chida"
 	}
 	1370.1.1={
 		death=yes

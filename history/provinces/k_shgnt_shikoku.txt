@@ -118,7 +118,13 @@
 2132 = { # Nakatanohigashi_1
 	culture = shikoku
 	religion = shinto
-	holding = castle_holding
+	holding = castle_holding # 阿波国府
+	1333.07.04 = {
+		holding = none # Inozu, 渭津
+	}
+	1585.01.01 = {
+		holding = castle_holding # Tokushima, 徳島
+	}
 }
 2133 = { # Nakatanohigashi_2
 	culture = shikoku

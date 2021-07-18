@@ -535,7 +535,7 @@
 1518 = { # Noto_1
 	culture = western_hokuriku
 	religion = shinto
-	holding = castle_holding
+	holding = none
 }
 1519 = { # Noto_2
 	culture = western_hokuriku
@@ -545,9 +545,12 @@
 1520 = { # Noto_3
 	culture = western_hokuriku
 	religion = shinto
-	holding = none
+	holding = castle_holding # 能登国府
+	1333.07.04 = {
+		holding = none
+	}
 	1500.01.01 = {
-		holding = castle_holding
+		holding = castle_holding # 七尾城
 	}
 	1589.01.01 = {
 		holding = none
@@ -948,7 +951,10 @@
 1594 = { # Naka_Kubiki_3
 	culture = eastern_hokuriku
 	religion = shinto
-	holding = castle_holding
+	holding = castle_holding # 越後国府
+	1333.07.04 = {
+		holding = none
+	}
 }
 1595 = { # Naka_Kubiki_4
 	culture = eastern_hokuriku

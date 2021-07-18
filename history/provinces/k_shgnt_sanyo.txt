@@ -514,7 +514,7 @@
 	religion = shinto
 	holding = castle_holding
 	1336.01.01 = {
-		holding = none
+		holding = none # Myōzenji, 明禅寺
 	}
 }
 1903 = { # Kamitsumichi_2
@@ -641,7 +641,10 @@
 1926 = { # Kaya_1
 	culture = sanyo
 	religion = shinto
-	holding = castle_holding
+	holding = castle_holding # 備中国府
+	1333.07.04 = {
+		holding = church_holding # Sōja, 総社宮
+	}
 }
 1927 = { # Kaya_2
 	culture = sanyo
@@ -836,6 +839,9 @@
 	culture = western_chugoku
 	religion = shinto
 	holding = castle_holding
+	1333.07.04 = {
+		holding = none # Fuchū, 府中
+	}
 }
 1964 = { # Kameshi_1
 	culture = western_chugoku

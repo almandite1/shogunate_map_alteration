@@ -1,8 +1,7 @@
 ﻿c_shgnt_amakusa = {
     0001.01.01 = { change_development_level = 10 }
     1100.01.01 = { change_development_level = 10 }
-    0100.01.01 = {
-    }
+
     0220.01.01 = {
         holder = 10041352 # Takekukuchi a.k.a Kukuchihiko
     }
@@ -74,8 +73,7 @@ c_shgnt_ashikita = {
     0001.01.01 = { change_development_level = 10 }
     1100.01.01 = { change_development_level = 10 }
     1331.01.01 = { change_development_level = 20 }
-    0100.01.01 = {
-    }
+
     0220.01.01 = {
         liege = d_shgnt_higo # 
         holder = 10290320 # Takekaya
@@ -148,8 +146,7 @@ c_shgnt_ashikita = {
 c_shgnt_aso = {
     0001.01.01 = { change_development_level = 20 }
     1100.01.01 = { change_development_level = 20 }
-    0100.01.01 = {
-    }
+
     0220.01.01 = {
         holder = 10041352 # Takekukuchi a.k.a Kukuchihiko
     }
@@ -351,8 +348,7 @@ c_shgnt_hioki = {
 c_shgnt_ibusuki = {
     0001.01.01 = { change_development_level = 20 }
     1100.01.01 = { change_development_level = 20 }
-    0010.01.01 = {
-    }
+
     0020.01.01 = {
         holder = 10290300 # Sori
     }
@@ -428,8 +424,7 @@ c_shgnt_ibusuki = {
 c_shgnt_satsuma_izumi = {
     0001.01.01 = { change_development_level = 20 }
     1100.01.01 = { change_development_level = 20 }
-    0010.01.01 = {
-    }
+
     0020.01.01 = {
         holder = 10290300 # Sori
     }
@@ -611,8 +606,7 @@ c_shgnt_kagoshima = {
 c_shgnt_kawanohe = {
     0001.01.01 = { change_development_level = 30 }
     1100.01.01 = { change_development_level = 30 }
-    0010.01.01 = {
-    }
+
     0020.01.01 = {
         holder = 10290300 # Sori
     }
@@ -693,8 +687,7 @@ c_shgnt_kukuchi = {
     0001.01.01 = { change_development_level = 20 }
     1100.01.01 = { change_development_level = 20 }
     1180.01.01 = { change_development_level = 30 }
-    0100.01.01 = {
-    }
+
     0220.01.01 = {
         holder = 10041352 # Takekukuchi a.k.a Kukuchihiko
     }
@@ -766,6 +759,13 @@ c_shgnt_kukuchi = {
     1343.01.01 = {
         holder = 10066022 # Kikuchi Takemitsu
     }
+	1346.01.01 = {
+		effect = {
+			title:b_shgnt_kukuchi_1 = {
+				set_title_name = b_shgnt_kukuchi_1_1 # Kikuchi, 菊池城 a.k.a. 隈府城
+			}
+		}
+	}
     1373.12.29 = {
         holder = 10066021 # Kikuchi Takemasa
     }
@@ -815,8 +815,7 @@ c_shgnt_koyu = {
     0001.01.01 = { change_development_level = 10 }
     1100.01.01 = { change_development_level = 10 }
     1335.01.01 = { change_development_level = 10 }
-    0100.01.01 = {
-    }
+
     0220.01.01 = {
         holder = 10041352 # Takekukuchi a.k.a Kukuchihiko
     }
@@ -868,8 +867,7 @@ c_shgnt_kuma = {
     0001.01.01 = { change_development_level = 10 }
     1100.01.01 = { change_development_level = 10 }
     1205.01.01 = { change_development_level = 20 }
-    0100.01.01 = {
-    }
+
     0220.01.01 = {
         liege = d_shgnt_higo # 
         holder = 10290320 # Takekaya
@@ -957,8 +955,7 @@ c_shgnt_kuwahara = {
     1100.01.01 = { change_development_level = 20 }
     1486.01.01 = { change_development_level = 30 }
     1574.01.01 = { change_development_level = 20 }
-    0100.01.01 = {
-    }
+
     0130.01.01 = {
         holder = 10290303 # Hishimochi
     }
@@ -979,6 +976,13 @@ c_shgnt_kuwahara = {
         liege = 0
         holder = 0
     }
+	1333.07.04 = {
+		effect = {
+			title:b_shgnt_kuwahara_3 = {
+				set_title_name = b_shgnt_kuwahara_3_1 # Kagoshima, 鹿児嶋神社
+			}
+		}
+	}
     1380.01.01 = {
         holder = 10060207 # Gamo Kiyoaki
     }
@@ -1013,8 +1017,7 @@ c_shgnt_kami_mashiki = {
     0001.01.01 = { change_development_level = 10 }
     1100.01.01 = { change_development_level = 10 }
     1331.01.01 = { change_development_level = 30 }
-    0100.01.01 = {
-    }
+
     0220.01.01 = {
         liege = d_shgnt_higo # 
         holder = 10290080 # Uchisatu
@@ -1094,8 +1097,7 @@ c_shgnt_miyazaki = {
     1100.01.01 = { change_development_level = 10 }
     1333.01.01 = { change_development_level = 20 }
     1458.01.01 = { change_development_level = 30 }
-    0100.01.01 = {
-    }
+
     0220.01.01 = {
         holder = 10041352 # Takekukuchi a.k.a Kukuchihiko
     }
@@ -1140,8 +1142,7 @@ c_shgnt_morokata = {
     0001.01.01 = { change_development_level = 10 }
     1100.01.01 = { change_development_level = 10 }
     1331.01.01 = { change_development_level = 20 }
-    0100.01.01 = {
-    }
+
     0220.01.01 = {
         holder = 10041352 # Takekukuchi a.k.a Kukuchihiko
     }
@@ -1198,8 +1199,7 @@ c_shgnt_osumi = {
     0001.01.01 = { change_development_level = 20 }
     1100.01.01 = { change_development_level = 20 }
     1336.01.01 = { change_development_level = 30 }
-    0100.01.01 = {
-    }
+
     0130.01.01 = {
         holder = 10290303 # Hishimochi
     }
@@ -1257,8 +1257,7 @@ c_shgnt_osumi = {
 c_shgnt_satsuma = {
     0001.01.01 = { change_development_level = 10 }
     1100.01.01 = { change_development_level = 30 }
-    0010.01.01 = {
-    }
+
     0020.01.01 = {
         holder = 10290300 # Sori
     }
@@ -1347,8 +1346,7 @@ c_shgnt_so = {
     0001.01.01 = { change_development_level = 10 }
     1100.01.01 = { change_development_level = 10 }
     1200.01.01 = { change_development_level = 10 }
-    0100.01.01 = {
-    }
+
     0220.01.01 = {
         liege = d_shgnt_higo # 
         holder = 10290320 # Takekaya
@@ -1415,8 +1413,7 @@ c_shgnt_takuma = {
     1100.01.01 = { change_development_level = 10 }
     1185.04.25 = { change_development_level = 30 }
     1521.01.01 = { change_development_level = 30 }
-    0100.01.01 = {
-    }
+
     0220.01.01 = {
         holder = 10041352 # Takekukuchi a.k.a Kukuchihiko
     }
@@ -1443,6 +1440,13 @@ c_shgnt_takuma = {
         liege = 0 # 
         holder = 0 # Battle of Dan-no-ura
     }
+	1333.07.04 = {
+		effect = {
+			title:b_shgnt_takuma_1 = {
+				set_title_name = b_shgnt_takuma_1_1 # Suizenji, 水前寺
+			}
+		}
+	}
     1407.04.25 = {
         liege = d_shgnt_higo # 
         holder = 10066019 # Kikuchi Kanetomo
@@ -1489,8 +1493,7 @@ c_shgnt_takuma = {
 c_shgnt_tamaina = {
     0001.01.01 = { change_development_level = 10 }
     1300.01.01 = { change_development_level = 20 }
-    0100.01.01 = {
-    }
+
     0230.01.01 = {
         liege = d_shgnt_higo # 
         holder = 10290330 # Tsurara
@@ -1541,8 +1544,7 @@ c_shgnt_tamaina = {
 c_shgnt_kumake = {
     0001.01.01 = { change_development_level = 20 }
     1331.01.01 = { change_development_level = 20 }
-    0100.01.01 = {
-    }
+
     0130.01.01 = {
         holder = 10290303 # Hishimochi
     }
@@ -1609,8 +1611,7 @@ c_shgnt_kumake = {
 c_shgnt_usuki = {
     0001.01.01 = { change_development_level = 10 }
     1100.01.01 = { change_development_level = 10 }
-    0100.01.01 = {
-    }
+
     0220.01.01 = {
         holder = 10041352 # Takekukuchi a.k.a Kukuchihiko
     }
@@ -1667,8 +1668,7 @@ c_shgnt_uto = {
     0001.01.01 = { change_development_level = 10 }
     1100.01.01 = { change_development_level = 10 }
     1331.01.01 = { change_development_level = 20 }
-    0100.01.01 = {
-    }
+
     0220.01.01 = {
         holder = 10041352 # Takekukuchi
     }
@@ -1739,8 +1739,7 @@ c_shgnt_uto = {
     }
 }
 d_shgnt_higo = {
-    0100.01.01 = {
-    }
+
     0220.01.01 = {
         holder = 10041352 # Takekukuchi a.k.a Kukuchihiko
     }
@@ -1913,8 +1912,7 @@ d_shgnt_hyuga = {
     }
 }
 d_shgnt_osumi = {
-    0100.01.01 = {
-    }
+
     0130.01.01 = {
         holder = 10290303 # Hishimochi
     }
@@ -2000,8 +1998,7 @@ d_shgnt_osumi = {
     }
 }
 d_shgnt_satsuma = {
-    0010.01.01 = {
-    }
+
     0020.01.01 = {
         holder = 10290300 # Sori
     }
@@ -2081,8 +2078,7 @@ c_shgnt_higo_yatsushiro = {
     0001.01.01 = { change_development_level = 10 }
     1100.01.01 = { change_development_level = 10 }
     1205.01.01 = { change_development_level = 10 }
-    0100.01.01 = {
-    }
+
     0220.01.01 = {
         liege = d_shgnt_higo # 
         holder = 10290320 # Takekaya
@@ -2144,8 +2140,7 @@ c_shgnt_higo_yatsushiro = {
 c_shgnt_shimo_mashiki = {
     0001.01.01 = { change_development_level = 20 }
     1100.01.01 = { change_development_level = 20 }
-    0100.01.01 = {
-    }
+
     0220.01.01 = {
         liege = d_shgnt_higo # 
         holder = 10290080 # Uchisatu
@@ -2184,8 +2179,7 @@ c_shgnt_akita = {
     0001.01.01 = { change_development_level = 30 }
     1100.01.01 = { change_development_level = 30 }
     1331.01.01 = { change_development_level = 30 }
-    0100.01.01 = {
-    }
+
     0220.01.01 = {
         holder = 10041352 # Takekukuchi a.k.a Kukuchihiko
     }
@@ -2239,8 +2233,7 @@ c_shgnt_akita = {
 }
 c_shgnt_kahashi = {
     0001.01.01 = { change_development_level = 20 }
-    0100.01.01 = {
-    }
+
     0220.01.01 = {
         holder = 10041352 # Takekukuchi a.k.a Kukuchihiko
     }
@@ -2354,8 +2347,7 @@ c_shgnt_kahashi = {
 }
 c_shgnt_higo_yamamoto = {
     0001.01.01 = { change_development_level = 20 }
-    0100.01.01 = {
-    }
+
     0220.01.01 = {
         holder = 10041352 # Takekukuchi a.k.a Kukuchihiko
     }
@@ -2469,8 +2461,7 @@ c_shgnt_higo_yamamoto = {
 }
 c_shgnt_yamaga = {
     0001.01.01 = { change_development_level = 20 }
-    0100.01.01 = {
-    }
+
     0220.01.01 = {
         holder = 10041352 # Takekukuchi a.k.a Kukuchihiko
     }
@@ -2586,8 +2577,7 @@ c_shgnt_minami_morokata = {
     0001.01.01 = { change_development_level = 20 }
     1100.01.01 = { change_development_level = 20 }
     1331.01.01 = { change_development_level = 20 }
-    0100.01.01 = {
-    }
+
     0220.01.01 = {
         holder = 10041352 # Takekukuchi a.k.a Kukuchihiko
     }
@@ -2631,8 +2621,7 @@ c_shgnt_hyuga_naka = {
     0001.01.01 = { change_development_level = 20 }
     1100.01.01 = { change_development_level = 20 }
     1331.01.01 = { change_development_level = 20 }
-    0100.01.01 = {
-    }
+
     0220.01.01 = {
         holder = 10041352 # Takekukuchi a.k.a Kukuchihiko
     }
@@ -2675,8 +2664,7 @@ c_shgnt_hyuga_naka = {
 c_shgnt_hishikari = {
     0001.01.01 = { change_development_level = 20 }
     1100.01.01 = { change_development_level = 20 }
-    0100.01.01 = {
-    }
+
     0130.01.01 = {
         holder = 10290303 # Hishimochi
     }
@@ -2727,8 +2715,7 @@ c_shgnt_hishikari = {
 }
 c_shgnt_aira = {
     0001.01.01 = { change_development_level = 30 }
-    0100.01.01 = {
-    }
+
     0130.01.01 = {
         holder = 10290303 # Hishimochi
     }
@@ -2782,8 +2769,7 @@ c_shgnt_aira = {
 }
 c_shgnt_kimotsuki = {
     0001.01.01 = { change_development_level = 30 }
-    0100.01.01 = {
-    }
+
     0130.01.01 = {
         holder = 10290303 # Hishimochi
     }
@@ -2837,8 +2823,7 @@ c_shgnt_kimotsuki = {
 }
 c_shgnt_gomu = {
     0001.01.01 = { change_development_level = 20 }
-    0100.01.01 = {
-    }
+
     0130.01.01 = {
         holder = 10290303 # Hishimochi
     }
@@ -2946,8 +2931,7 @@ c_shgnt_kiire = {
     0001.01.01 = { change_development_level = 20 }
     1100.01.01 = { change_development_level = 20 }
     1331.01.01 = { change_development_level = 30 }
-    0010.01.01 = {
-    }
+
     0020.01.01 = {
         holder = 10290300 # Sori
     }
@@ -3004,8 +2988,7 @@ c_shgnt_chiran = {
     0001.01.01 = { change_development_level = 20 }
     1100.01.01 = { change_development_level = 20 }
     1331.01.01 = { change_development_level = 30 }
-    0010.01.01 = {
-    }
+
     0020.01.01 = {
         holder = 10290300 # Sori
     }
@@ -3062,8 +3045,7 @@ c_shgnt_eno = {
     0001.01.01 = { change_development_level = 20 }
     1100.01.01 = { change_development_level = 20 }
     1331.01.01 = { change_development_level = 30 }
-    0010.01.01 = {
-    }
+
     0020.01.01 = {
         holder = 10290300 # Sori
     }
@@ -3189,8 +3171,7 @@ c_shgnt_isaku = {
     0001.01.01 = { change_development_level = 30 }
     1100.01.01 = { change_development_level = 30 }
     1331.01.01 = { change_development_level = 30 }
-    0010.01.01 = {
-    }
+
     0020.01.01 = {
         holder = 10290300 # Sori
     }
@@ -3249,8 +3230,7 @@ c_shgnt_takaki = {
     0001.01.01 = { change_development_level = 30 }
     1100.01.01 = { change_development_level = 30 }
     1331.01.01 = { change_development_level = 30 }
-    0010.01.01 = {
-    }
+
     0020.01.01 = {
         holder = 10290300 # Sori
     }
@@ -3277,6 +3257,13 @@ c_shgnt_takaki = {
         liege = 0 # 
         holder = 0 # Battle of Dan-no-ura
     }
+	1333.07.04 = {
+		effect = {
+			title:b_shgnt_takaki_1 = {
+				set_title_name = b_shgnt_takaki_1_1 # Nitta, 新田神社
+			}
+		}
+	}
     1422.01.01 = {
         holder = 10060004 # Shimazu Hisatoyo
     }
@@ -3309,8 +3296,7 @@ c_shgnt_koshikishima = {
     0001.01.01 = { change_development_level = 20 }
     1100.01.01 = { change_development_level = 20 }
     1331.01.01 = { change_development_level = 30 }
-    0010.01.01 = {
-    }
+
     0020.01.01 = {
         holder = 10290300 # Sori
     }

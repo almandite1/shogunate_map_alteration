@@ -235,7 +235,8 @@
 		birth=yes
 	}
 	1106.1.1={
-		dynasty=10000105 # Kashima
+		#dynasty=10000105 # Kashima
+		dynasty_house = "house_shgnt_kashima"
 	}
 	1109.1.1={
 		death=yes
@@ -460,7 +461,8 @@
 }
 12120300={
 	name=character_name_12120300 # Tomomoto
-	dynasty=10000103 # Makabe 
+	#dynasty=10000103 # Makabe
+	dynasty_house = "house_shgnt_makabe"
 	father=12120138 # Makabe Nagamoto 
 	religion="shinto"
 	culture="northern_kanto"
@@ -473,7 +475,8 @@
 }
 12120305={
 	name=character_name_12120305 # Tokimoto
-	dynasty=10000103 # Makabe 
+#	dynasty=10000103 # Makabe
+	dynasty_house = "house_shgnt_makabe"
 	father=12120300 # Makabe Tomomoto 
 	religion="shinto"
 	culture="northern_kanto"
@@ -486,7 +489,8 @@
 }
 12120306={
 	name=character_name_12120306 # Yakuomaru
-	dynasty=10000103 # Makabe 
+#	dynasty=10000103 # Makabe
+	dynasty_house = "house_shgnt_makabe"
 	father=12120300 # Makabe Tomomoto 
 	religion="shinto"
 	culture="northern_kanto"
@@ -499,7 +503,8 @@
 }
 12120310={
 	name=character_name_12120310 # Shigemoto
-	dynasty=10000103 # Makabe 
+#	dynasty=10000103 # Makabe
+	dynasty_house = "house_shgnt_makabe"
 	father=12120305 # Makabe Tokimoto
 	religion="shinto"
 	culture="northern_kanto"
@@ -512,7 +517,8 @@
 }
 12120315={
 	name=character_name_12120315 # Moritoki
-	dynasty=10000103 # Makabe 
+#	dynasty=10000103 # Makabe
+	dynasty_house = "house_shgnt_makabe"
 	father=12120310 # Makabe Shigemoto
 	religion="shinto"
 	culture="northern_kanto"
@@ -525,7 +531,8 @@
 }
 12120320={
 	name=character_name_12120320 # Gyobu
-	dynasty=10000103 # Makabe 
+#	dynasty=10000103 # Makabe
+	dynasty_house = "house_shgnt_makabe"
 	father=12120315 # Makabe Moritoki
 	religion="shinto"
 	culture="northern_kanto"
@@ -538,7 +545,8 @@
 }
 12120321={
 	name=character_name_12120321 # Akinokami
-	dynasty=10000103 # Makabe 
+#	dynasty=10000103 # Makabe
+	dynasty_house = "house_shgnt_makabe"
 	father=12120315 # Makabe Moritoki
 	religion="shinto"
 	culture="northern_kanto"
@@ -551,7 +559,8 @@
 }
 12120325={
 	name=character_name_12120325 # Motoshige
-	dynasty=10000103 # Makabe 
+#	dynasty=10000103 # Makabe
+	dynasty_house = "house_shgnt_makabe"
 	father=12120320 # Makabe Gyobu
 	religion="shinto"
 	culture="northern_kanto"
@@ -564,7 +573,8 @@
 }
 12120326={
 	name=character_name_12120326 # Takamoto
-	dynasty=10000103 # Makabe 
+#	dynasty=10000103 # Makabe
+	dynasty_house = "house_shgnt_makabe"
 	father=12120320 # Makabe Gyobu
 	religion="shinto"
 	culture="northern_kanto"
@@ -577,7 +587,8 @@
 }
 12120328={
 	name=character_name_12120328 # Mitsumoto
-	dynasty=10000103 # Makabe 
+#	dynasty=10000103 # Makabe
+	dynasty_house = "house_shgnt_makabe"
 	father=12120321 # Makabe Akinokami
 	religion="shinto"
 	culture="northern_kanto"
@@ -590,7 +601,8 @@
 }
 12120330={
 	name=character_name_12120330 # Kagemoto
-	dynasty=10000103 # Makabe 
+#	dynasty=10000103 # Makabe
+	dynasty_house = "house_shgnt_makabe"
 	father=12120306 # Makabe Yakuomaru
 	religion="shinto"
 	culture="northern_kanto"
@@ -603,7 +615,8 @@
 }
 12120331={
 	name=character_name_12120331 # Kunimoto
-	dynasty=10000103 # Makabe 
+#	dynasty=10000103 # Makabe
+	dynasty_house = "house_shgnt_makabe"
 	father=12120330 # Makabe Kagemoto
 	religion="shinto"
 	culture="northern_kanto"
@@ -616,7 +629,8 @@
 }
 12120332={
 	name=character_name_12120332 # Masamoto
-	dynasty=10000103 # Makabe 
+#	dynasty=10000103 # Makabe
+	dynasty_house = "house_shgnt_makabe"
 	father=12120331 # Makabe Kunimoto
 	religion="shinto"
 	culture="northern_kanto"
@@ -629,7 +643,8 @@
 }
 12120333={
 	name=character_name_12120333 # Tadamoto
-	dynasty=10000103 # Makabe 
+#	dynasty=10000103 # Makabe
+	dynasty_house = "house_shgnt_makabe"
 	father=12120332 # Makabe Masamoto
 	religion="shinto"
 	culture="northern_kanto"
@@ -642,7 +657,8 @@
 }
 12120335={
 	name=character_name_12120335 # Hiromoto
-	dynasty=10000103 # Makabe 
+#	dynasty=10000103 # Makabe
+	dynasty_house = "house_shgnt_makabe"
 	father=12120333 # Makabe Tadamoto
 	religion="shinto"
 	culture="northern_kanto"
@@ -655,7 +671,8 @@
 }
 12120340={
 	name=character_name_12120340 # Akimoto
-	dynasty=10000103 # Makabe 
+#	dynasty=10000103 # Makabe
+	dynasty_house = "house_shgnt_makabe"
 	father=12120335 # Makabe Hiromoto 
 	religion="shinto"
 	culture="northern_kanto"
@@ -668,7 +685,8 @@
 }
 12120341={
 	name=character_name_12120341 # Katsumoto
-	dynasty=10000103 # Makabe 
+#	dynasty=10000103 # Makabe
+	dynasty_house = "house_shgnt_makabe"
 	father=12120335 # Makabe Hiromoto 
 	religion="shinto"
 	culture="northern_kanto"
@@ -681,7 +699,8 @@
 }
 12120345={
 	name=character_name_12120345 # Hidemoto
-	dynasty=10000103 # Makabe 
+#	dynasty=10000103 # Makabe
+	dynasty_house = "house_shgnt_makabe"
 	father=12120340 # Makabe Akimoto
 	religion="shinto"
 	culture="northern_kanto"
@@ -694,7 +713,8 @@
 }
 12120346={
 	name=character_name_12120346 # Kagemoto
-	dynasty=10000103 # Makabe 
+#	dynasty=10000103 # Makabe
+	dynasty_house = "house_shgnt_makabe"
 	father=12120340 # Makabe Akimoto
 	religion="shinto"
 	culture="northern_kanto"
@@ -707,7 +727,8 @@
 }
 12120347={
 	name=character_name_12120347 # Yasumoto
-	dynasty=10000103 # Makabe 
+#	dynasty=10000103 # Makabe
+	dynasty_house = "house_shgnt_makabe"
 	father=12120340 # Makabe Akimoto
 	religion="shinto"
 	culture="northern_kanto"
@@ -720,7 +741,8 @@
 }
 12120350={
 	name=character_name_12120350 # Ujimoto
-	dynasty=10000103 # Makabe 
+#	dynasty=10000103 # Makabe
+	dynasty_house = "house_shgnt_makabe"
 	father=12120345 # Makabe Hidemoto
 	religion="shinto"
 	culture="northern_kanto"
@@ -733,7 +755,8 @@
 }
 12120351={
 	name=character_name_12120351 # Yoshimoto
-	dynasty=10000103 # Makabe 
+#	dynasty=10000103 # Makabe
+	dynasty_house = "house_shgnt_makabe"
 	father=12120345 # Makabe Hidemoto
 	religion="shinto"
 	culture="northern_kanto"
@@ -746,7 +769,8 @@
 }
 12120355={
 	name=character_name_12120355 # Tomomoto
-	dynasty=10000103 # Makabe 
+#	dynasty=10000103 # Makabe
+	dynasty_house = "house_shgnt_makabe"
 	father=12120346 # Makabe Kagemoto
 	religion="shinto"
 	culture="northern_kanto"
@@ -759,7 +783,8 @@
 }
 12120360={
 	name=character_name_12120360 # Hisamoto
-	dynasty=10000103 # Makabe 
+#	dynasty=10000103 # Makabe
+	dynasty_house = "house_shgnt_makabe"
 	father=12120355 # Makabe Tomomoto
 	religion="shinto"
 	culture="northern_kanto"
@@ -772,7 +797,8 @@
 }
 12120365={
 	name=character_name_12120365 # Harumoto
-	dynasty=10000103 # Makabe 
+#	dynasty=10000103 # Makabe
+	dynasty_house = "house_shgnt_makabe"
 	father=12120360 # Makabe Hisamoto
 	religion="shinto"
 	culture="northern_kanto"
@@ -785,7 +811,8 @@
 }
 12120400={
 	name=character_name_12120400 # Masamoto
-	dynasty=10000105 # Kashima
+#	dynasty=10000105 # Kashima
+	dynasty_house = "house_shgnt_kashima"
 	father=12120152 # Kashima Narimoto
 	religion="shinto"
 	culture="northern_kanto"
@@ -798,7 +825,8 @@
 }
 12120401={
 	name=character_name_12120401 # Yorimoto
-	dynasty=10000105 # Kashima
+#	dynasty=10000105 # Kashima
+	dynasty_house = "house_shgnt_kashima"
 	father=12120152 # Kashima Narimoto
 	religion="shinto"
 	culture="northern_kanto"
@@ -811,7 +839,8 @@
 }
 12120410={
 	name=character_name_12120410 # Tanemoto
-	dynasty=10000105 # Kashima
+#	dynasty=10000105 # Kashima
+	dynasty_house = "house_shgnt_kashima"
 	father=12120400 # Kashima Masamoto
 	religion="shinto"
 	culture="northern_kanto"
@@ -824,7 +853,8 @@
 }
 12120411={
 	name=character_name_12120411 # Munemoto
-	dynasty=10000105 # Kashima
+#	dynasty=10000105 # Kashima
+	dynasty_house = "house_shgnt_kashima"
 	father=12120400 # Kashima Masamoto
 	religion="shinto"
 	culture="northern_kanto"
@@ -837,7 +867,8 @@
 }
 12120412={
 	name=character_name_12120412 # Hiromoto
-	dynasty=10000105 # Kashima
+#	dynasty=10000105 # Kashima
+	dynasty_house = "house_shgnt_kashima"
 	father=12120400 # Kashima Masamoto
 	religion="shinto"
 	culture="northern_kanto"
@@ -852,7 +883,8 @@
 }
 12120420={
 	name=character_name_12120420 # Tadamoto
-	dynasty=10000105 # Kashima
+#	dynasty=10000105 # Kashima
+	dynasty_house = "house_shgnt_kashima"
 	father=12120410 # Kashima Tanemoto
 	religion="shinto"
 	culture="northern_kanto"
@@ -865,7 +897,8 @@
 }
 12120430={
 	name=character_name_12120430 # Munemoto
-	dynasty=10000105 # Kashima
+#	dynasty=10000105 # Kashima
+	dynasty_house = "house_shgnt_kashima"
 	father=12120420 # Kashima Tadamoto
 	religion="shinto"
 	culture="northern_kanto"
@@ -878,7 +911,8 @@
 }
 12120440={
 	name=character_name_12120440 # Motokage
-	dynasty=10000105 # Kashima
+#	dynasty=10000105 # Kashima
+	dynasty_house = "house_shgnt_kashima"
 	father=12120430 # Kashima Munemoto
 	religion="shinto"
 	culture="northern_kanto"
@@ -891,7 +925,8 @@
 }
 12120441={
 	name=character_name_12120441 # Tanemoto
-	dynasty=10000105 # Kashima
+#	dynasty=10000105 # Kashima
+	dynasty_house = "house_shgnt_kashima"
 	father=12120430 # Kashima Munemoto
 	religion="shinto"
 	culture="northern_kanto"
@@ -904,7 +939,8 @@
 }
 12120450={
 	name=character_name_12120450 # Motouji
-	dynasty=10000105 # Kashima
+#	dynasty=10000105 # Kashima
+	dynasty_house = "house_shgnt_kashima"
 	father=12120440 # Kashima Motokage
 	religion="shinto"
 	culture="northern_kanto"
@@ -917,7 +953,8 @@
 }
 12120460={
 	name=character_name_12120460 # Motohiro
-	dynasty=10000105 # Kashima
+#	dynasty=10000105 # Kashima
+	dynasty_house = "house_shgnt_kashima"
 	father=12120450 # Kashima Motouji
 	religion="shinto"
 	culture="northern_kanto"
@@ -930,7 +967,8 @@
 }
 12120470={
 	name=character_name_12120470 # Motoshige
-	dynasty=10000105 # Kashima
+#	dynasty=10000105 # Kashima
+	dynasty_house = "house_shgnt_kashima"
 	father=12120460 # Kashima Motohiro
 	religion="shinto"
 	culture="northern_kanto"
@@ -943,7 +981,8 @@
 }
 12120480={
 	name=character_name_12120480 # Norimoto
-	dynasty=10000105 # Kashima
+#	dynasty=10000105 # Kashima
+	dynasty_house = "house_shgnt_kashima"
 	father=12120470 # Kashima Motoshige
 	religion="shinto"
 	culture="northern_kanto"
@@ -956,7 +995,8 @@
 }
 12120490={
 	name=character_name_12120490 # Sanemoto
-	dynasty=10000105 # Kashima
+#	dynasty=10000105 # Kashima
+	dynasty_house = "house_shgnt_kashima"
 	father=12120480 # Kashima Norimoto
 	religion="shinto"
 	culture="northern_kanto"
@@ -970,7 +1010,8 @@
 12120491={
 	name=character_name_12120491 # Noriko
 	female=yes
-	dynasty=10000105 # Kashima
+#	dynasty=10000105 # Kashima
+	dynasty_house = "house_shgnt_kashima"
 	father=12120480 # Kashima Norimoto
 	religion="shinto"
 	culture="northern_kanto"
@@ -983,7 +1024,8 @@
 }
 12120500={
 	name=character_name_12120500 # Takamoto
-	dynasty=10000105 # Kashima
+#	dynasty=10000105 # Kashima
+	dynasty_house = "house_shgnt_kashima"
 	father=12120490 # Kashima Sanemoto
 	religion="shinto"
 	culture="northern_kanto"
@@ -996,7 +1038,8 @@
 }
 12120510={
 	name=character_name_12120510 # Chikamoto
-	dynasty=10000105 # Kashima
+#	dynasty=10000105 # Kashima
+	dynasty_house = "house_shgnt_kashima"
 	father=12120500 # Kashima Takamoto
 	religion="shinto"
 	culture="northern_kanto"
@@ -1009,7 +1052,8 @@
 }
 12120600={
 	name=character_name_12120600 # Kagemoto
-	dynasty=10007275 # Namegata
+#	dynasty=10007275 # Namegata
+	dynasty_house = "house_shgnt_namegata"
 	father=12120151 # Daijo Tadamoto
 	religion="shinto"
 	culture="northern_kanto"
@@ -1022,7 +1066,8 @@
 }
 12120601={
 	name=character_name_12120601 # Tamemoto
-	dynasty=10007275 # Namegata
+#	dynasty=10007275 # Namegata
+	dynasty_house = "house_shgnt_namegata"
 	father=12120600 # Namegata Kagemoto
 	religion="shinto"
 	culture="northern_kanto"
@@ -1035,7 +1080,8 @@
 }
 12120602={
 	name=character_name_12120602 # Takamoto
-	dynasty=10007276 # Shimazaki
+#	dynasty=10007276 # Shimazaki
+	dynasty_house = "house_shgnt_shimazaki"
 	father=12120600 # Namegata Kagemoto
 	religion="shinto"
 	culture="northern_kanto"
@@ -1048,7 +1094,8 @@
 }
 12120603={
 	name=character_name_12120603 # Iemoto
-	dynasty=10007275 # Namegata
+#	dynasty=10007275 # Namegata
+	dynasty_house = "house_shgnt_namegata"
 	father=12120600 # Namegata Kagemoto
 	religion="shinto"
 	culture="northern_kanto"
@@ -1061,7 +1108,8 @@
 }
 12120604={
 	name=character_name_12120604 # Motomasa
-	dynasty=10007275 # Namegata
+#	dynasty=10007275 # Namegata
+	dynasty_house = "house_shgnt_namegata"
 	father=12120600 # Namegata Kagemoto
 	religion="shinto"
 	culture="northern_kanto"
@@ -1074,7 +1122,8 @@
 }
 12120610={
 	name=character_name_12120610 # Tanemoto
-	dynasty=10007275 # Namegata
+#	dynasty=10007275 # Namegata
+	dynasty_house = "house_shgnt_namegata"
 	father=12120601 # Namegata Tamemoto
 	religion="shinto"
 	culture="northern_kanto"
@@ -1087,7 +1136,8 @@
 }
 12120611={
 	name=character_name_12120611 # Tanehira
-	dynasty=10007275 # Namegata
+#	dynasty=10007275 # Namegata
+	dynasty_house = "house_shgnt_namegata"
 	father=12120610 # Namegata Tanemoto
 	religion="shinto"
 	culture="northern_kanto"
@@ -1100,7 +1150,8 @@
 }
 12120612={
 	name=character_name_12120612 # Mototoki
-	dynasty=10007275 # Namegata
+#	dynasty=10007275 # Namegata
+	dynasty_house = "house_shgnt_namegata"
 	father=12120611 # Namegata Tanehira
 	religion="shinto"
 	culture="northern_kanto"
@@ -1113,7 +1164,8 @@
 }
 12120613={
 	name=character_name_12120613 # Tomotoki
-	dynasty=10007275 # Namegata
+#	dynasty=10007275 # Namegata
+	dynasty_house = "house_shgnt_namegata"
 	father=12120611 # Namegata Tanehira
 	religion="shinto"
 	culture="northern_kanto"
@@ -1126,7 +1178,8 @@
 }
 12120620={
 	name=character_name_12120620 # Masamoto
-	dynasty=10007276 # Shimazaki
+#	dynasty=10007276 # Shimazaki
+	dynasty_house = "house_shgnt_shimazaki"
 	father=12120602 # Shimazaki Takamoto
 	religion="shinto"
 	culture="northern_kanto"
@@ -1139,7 +1192,8 @@
 }
 12120621={
 	name=character_name_12120621 # Mitsumoto
-	dynasty=10007276 # Shimazaki
+#	dynasty=10007276 # Shimazaki
+	dynasty_house = "house_shgnt_shimazaki"
 	father=12120602 # Shimazaki Takamoto
 	religion="shinto"
 	culture="northern_kanto"
@@ -1152,7 +1206,8 @@
 }
 12120622={
 	name=character_name_12120622 # Nagamoto
-	dynasty=10007276 # Shimazaki
+#	dynasty=10007276 # Shimazaki
+	dynasty_house = "house_shgnt_shimazaki"
 	father=12120620 # Shimazaki Masamoto
 	religion="shinto"
 	culture="northern_kanto"
@@ -1165,7 +1220,8 @@
 }
 12120623={
 	name=character_name_12120623 # Tadamune
-	dynasty=10007276 # Shimazaki
+#	dynasty=10007276 # Shimazaki
+	dynasty_house = "house_shgnt_shimazaki"
 	father=12120622 # Shimazaki Nagamoto
 	religion="shinto"
 	culture="northern_kanto"
@@ -1178,7 +1234,8 @@
 }
 12120624={
 	name=character_name_12120624 # Shigemoto
-	dynasty=10007276 # Shimazaki
+#	dynasty=10007276 # Shimazaki
+	dynasty_house = "house_shgnt_shimazaki"
 	father=12120623 # Shimazaki Tadamune
 	religion="shinto"
 	culture="northern_kanto"
@@ -1191,7 +1248,8 @@
 }
 12120625={
 	name=character_name_12120625 # Yoshimoto
-	dynasty=10007276 # Shimazaki
+#	dynasty=10007276 # Shimazaki
+	dynasty_house = "house_shgnt_shimazaki"
 	father=12120624 # Shimazaki Shigemoto
 	religion="shinto"
 	culture="northern_kanto"
@@ -1204,7 +1262,8 @@
 }
 12120626={
 	name=character_name_12120626 # Toshimoto
-	dynasty=10007276 # Shimazaki
+#	dynasty=10007276 # Shimazaki
+	dynasty_house = "house_shgnt_shimazaki"
 	father=12120624 # Shimazaki Shigemoto
 	religion="shinto"
 	culture="northern_kanto"
@@ -1217,7 +1276,8 @@
 }
 12120627={
 	name=character_name_12120627 # Nagakuni
-	dynasty=10007276 # Shimazaki
+#	dynasty=10007276 # Shimazaki
+	dynasty_house = "house_shgnt_shimazaki"
 	father=12120626 # Shimazaki Toshimoto
 	religion="shinto"
 	culture="northern_kanto"
@@ -1230,7 +1290,8 @@
 }
 12120628={
 	name=character_name_12120628 # Tadamoto
-	dynasty=10007276 # Shimazaki
+#	dynasty=10007276 # Shimazaki
+	dynasty_house = "house_shgnt_shimazaki"
 	father=12120627 # Shimazaki Nagakuni
 	religion="shinto"
 	culture="northern_kanto"
@@ -1243,7 +1304,8 @@
 }
 12120629={
 	name=character_name_12120629 # Toshimoto
-	dynasty=10007276 # Shimazaki
+#	dynasty=10007276 # Shimazaki
+	dynasty_house = "house_shgnt_shimazaki"
 	father=12120628 # Shimazaki Tadamoto
 	religion="shinto"
 	culture="northern_kanto"
@@ -1256,7 +1318,8 @@
 }
 12120630={
 	name=character_name_12120630 # Ujimoto
-	dynasty=10007276 # Shimazaki
+#	dynasty=10007276 # Shimazaki
+	dynasty_house = "house_shgnt_shimazaki"
 	father=12120629 # Shimazaki Toshimoto
 	religion="shinto"
 	culture="northern_kanto"
@@ -1269,7 +1332,8 @@
 }
 12120631={
 	name=character_name_12120631 # Yasusada
-	dynasty=10007276 # Shimazaki
+#	dynasty=10007276 # Shimazaki
+	dynasty_house = "house_shgnt_shimazaki"
 	father=12120630 # Shimazaki Ujimoto
 	religion="shinto"
 	culture="northern_kanto"
@@ -1282,7 +1346,8 @@
 }
 12120700={
 	name=character_name_12120700 # Shigeie
-	dynasty=10007277 # Oguri
+#	dynasty=10007277 # Oguri
+	dynasty_house = "house_shgnt_oguri"
 	father=12120110 # Daijo Shigemoto
 	religion="shinto"
 	culture="northern_kanto"
@@ -1295,7 +1360,8 @@
 }
 12120701={
 	name=character_name_12120701 # Shigeyoshi
-	dynasty=10007277 # Oguri
+#	dynasty=10007277 # Oguri
+	dynasty_house = "house_shgnt_oguri"
 	father=12120700 # Oguri Shigeie
 	religion="shinto"
 	culture="northern_kanto"
@@ -1308,7 +1374,8 @@
 }
 12120702={
 	name=character_name_12120702 # Shigenari
-	dynasty=10007277 # Oguri
+#	dynasty=10007277 # Oguri
+	dynasty_house = "house_shgnt_oguri"
 	father=12120701 # Oguri Shigeyoshi
 	religion="shinto"
 	culture="northern_kanto"
@@ -1322,7 +1389,8 @@
 }
 12120705={
 	name=character_name_12120705 # Shigehiro
-	dynasty=10007277 # Oguri
+#	dynasty=10007277 # Oguri
+	dynasty_house = "house_shgnt_oguri"
 	father=12120702 # Oguri Shigenari
 	religion="shinto"
 	culture="northern_kanto"
@@ -1335,7 +1403,8 @@
 }
 12120710={
 	name=character_name_12120710 # Shigetomo
-	dynasty=10007277 # Oguri
+#	dynasty=10007277 # Oguri
+	dynasty_house = "house_shgnt_oguri"
 	father=12120705 # Oguri Shigehiro
 	religion="shinto"
 	culture="northern_kanto"
@@ -1348,7 +1417,8 @@
 }
 12120715={
 	name=character_name_12120715 # Shigenobu
-	dynasty=10007277 # Oguri
+#	dynasty=10007277 # Oguri
+	dynasty_house = "house_shgnt_oguri"
 	father=12120710 # Oguri Shigetomo
 	religion="shinto"
 	culture="northern_kanto"
@@ -1361,7 +1431,8 @@
 }
 12120720={
 	name=character_name_12120720 # Yorishige
-	dynasty=10007277 # Oguri
+#	dynasty=10007277 # Oguri
+	dynasty_house = "house_shgnt_oguri"
 	father=12120715 # Oguri Shigenobu
 	religion="shinto"
 	culture="northern_kanto"
@@ -1374,7 +1445,8 @@
 }
 12120725={
 	name=character_name_12120725 # Shigemune
-	dynasty=10007277 # Oguri
+#	dynasty=10007277 # Oguri
+	dynasty_house = "house_shgnt_oguri"
 	father=12120720 # Oguri Yorishige
 	religion="shinto"
 	culture="northern_kanto"
@@ -1387,7 +1459,8 @@
 }
 12120730={
 	name=character_name_12120730 # Shigemasa
-	dynasty=10007277 # Oguri
+#	dynasty=10007277 # Oguri
+	dynasty_house = "house_shgnt_oguri"
 	father=12120725 # Oguri Shigemune
 	religion="shinto"
 	culture="northern_kanto"
@@ -1400,7 +1473,8 @@
 }
 12120735={
 	name=character_name_12120735 # Shigesada
-	dynasty=10007277 # Oguri
+#	dynasty=10007277 # Oguri
+	dynasty_house = "house_shgnt_oguri"
 	father=12120730 # Oguri Shigemasa
 	religion="shinto"
 	culture="northern_kanto"
@@ -1413,7 +1487,8 @@
 }
 12120740={
 	name=character_name_12120740 # Akishige
-	dynasty=10007277 # Oguri
+#	dynasty=10007277 # Oguri
+	dynasty_house = "house_shgnt_oguri"
 	father=12120735 # Oguri Shigesada
 	religion="shinto"
 	culture="northern_kanto"
@@ -1426,7 +1501,8 @@
 }
 12120745={
 	name=character_name_12120745 # Shigehiro
-	dynasty=10007277 # Oguri
+#	dynasty=10007277 # Oguri
+	dynasty_house = "house_shgnt_oguri"
 	father=12120740 # Oguri Akishige
 	religion="shinto"
 	culture="northern_kanto"
@@ -1439,7 +1515,8 @@
 }
 12120746={
 	name=character_name_12120746 # Mitsushige
-	dynasty=10007277 # Oguri
+#	dynasty=10007277 # Oguri
+	dynasty_house = "house_shgnt_oguri"
 	father=12120740 # Oguri Akishige
 	religion="shinto"
 	culture="northern_kanto"
@@ -1455,7 +1532,8 @@
 }
 12120750={
 	name=character_name_12120750 # Sukeshige # a.k.a. Oguri Hangan
-	dynasty=10007277 # Oguri
+#	dynasty=10007277 # Oguri
+	dynasty_house = "house_shgnt_oguri"
 	father=12120746 # Oguri Mitsushige
 	religion="shinto"
 	culture="northern_kanto"
@@ -1500,7 +1578,8 @@
 }
 12120755={
 	name=character_name_12120755 # Sukemasa
-	dynasty=10007277 # Oguri
+#	dynasty=10007277 # Oguri
+	dynasty_house = "house_shgnt_oguri"
 	father=12120750 # Oguri Sukeshige
 	mother=12120751 # Terute
 	religion="shinto"
@@ -4142,7 +4221,8 @@
 }
 12130100={
 	name=character_name_12130100 # Tokitsuna
-	dynasty=10000121 # Nimo
+#	dynasty=10000121 # Nimo
+	dynasty_house = "house_shgnt_nimo"
 	father=12130046 # Nimo Yasumune
 	religion="shinto"
 	culture="northern_kanto"
@@ -4155,7 +4235,8 @@
 }
 12130102={
 	name=character_name_12130102 # Yasufuji
-	dynasty=10000121 # Nimo
+#	dynasty=10000121 # Nimo
+	dynasty_house = "house_shgnt_nimo"
 	father=12130100 # Nimo Tokitsuna
 	religion="shinto"
 	culture="northern_kanto"
@@ -4168,7 +4249,8 @@
 }
 12130103={
 	name=character_name_12130103 # Ujiyasu
-	dynasty=10000121 # Nimo
+#	dynasty=10000121 # Nimo
+	dynasty_house = "house_shgnt_nimo"
 	father=12130100 # Nimo Tokitsuna
 	religion="shinto"
 	culture="northern_kanto"
@@ -4181,7 +4263,8 @@
 }
 12130110={
 	name=character_name_12130110 # Tsunaie
-	dynasty=10000121 # Nimo
+#	dynasty=10000121 # Nimo
+	dynasty_house = "house_shgnt_nimo"
 	father=12130103 # Nimo Ujiyasu
 	religion="shinto"
 	culture="northern_kanto"
@@ -4194,7 +4277,8 @@
 }
 12130120={
 	name=character_name_12130120 # Mochitsuna
-	dynasty=10000121 # Nimo
+#	dynasty=10000121 # Nimo
+	dynasty_house = "house_shgnt_nimo"
 	father=12130110 # Nimo Tsunaie
 	religion="shinto"
 	culture="northern_kanto"

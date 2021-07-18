@@ -122,6 +122,13 @@ c_shgnt_enuma = {
     1320.01.01 = {
         holder = 12310515 # Kano Yorihiro
     }
+	1333.07.04 = {
+		effect = {
+			title:b_shgnt_enuma_4 = {
+				set_title_name = b_shgnt_enuma_4_1 # Matsuyama, 松山
+			}
+		}
+	}
     1340.01.01 = {
         liege = d_shgnt_kaga # 
         holder = 12310530 # Kano Yoshimochi
@@ -750,6 +757,11 @@ c_shgnt_kaga_ishikawa = {
     1570.07.01 = {
         liege = d_shgnt_kaga # 
         holder = 10042350 # Shichiri Yorichika
+		effect = {
+			title:b_shgnt_kaga_ishikawa_4 = {
+				set_title_name = b_shgnt_kaga_ishikawa_4_1 # Nonoichi, 野々市
+			}
+		}
     }
     1576.01.01 = {
         liege = d_shgnt_kaga # 
@@ -1758,6 +1770,13 @@ c_shgnt_noto = {
         liege = 0 # 
         holder = 0 # Battle of Awazu
     }
+	1333.07.04 = {
+		effect = {
+			title:b_shgnt_noto_3 = {
+				set_title_name = b_shgnt_noto_3_2 # Nanao, 七尾
+			}
+		}
+	}
     1391.12.01 = {
         liege = d_shgnt_noto # 
         holder = 10048110 # Hatakeyama Motokuni
@@ -1778,7 +1797,7 @@ c_shgnt_noto = {
         holder = 10031006 # Hatakeyama Yoshimune
 		effect = {
 			title:b_shgnt_noto_3 = {
-				set_title_name = b_shgnt_noto_3_1 # Nanao
+				set_title_name = b_shgnt_noto_3_1 # Nanao, 七尾城
 			}
 		}
     }
@@ -1850,6 +1869,9 @@ c_shgnt_nutari = {
 		effect = {
 			title:b_shgnt_nutari_4 = {
 				set_title_name = b_shgnt_nutari_4_1 # Shibata
+			}
+			title:b_shgnt_nutari_7 = {
+				set_title_name = b_shgnt_nutari_7_1 # Suibara, 水原
 			}
 		}
     }
@@ -3181,6 +3203,13 @@ c_shgnt_naka_kubiki = {
         liege = 0 # 
         holder = 0 # Battle of Awazu
     }
+	1333.07.04 = {
+		effect = {
+			title:b_shgnt_naka_kubiki_3 = {
+				set_title_name = b_shgnt_naka_kubiki_3_2 # Fuchū, 府中
+			}
+		}
+	}
     1360.01.01 = {
         holder = 12215326 # Nagao Kagetsune
     }

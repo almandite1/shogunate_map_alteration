@@ -790,11 +790,11 @@
             c_shgnt_yosa = {
                 color = {204 134 134}
                 color2 = {255 255 255}
+                b_shgnt_yosa_2 = {
+                    province = 1691 # 丹後国府
+                }
                 b_shgnt_yosa_1 = {
                     province = 1690
-                }
-                b_shgnt_yosa_2 = {
-                    province = 1691
                 }
                 b_shgnt_yosa_3 = {
                     province = 1692
@@ -6382,14 +6382,14 @@
             c_shgnt_noto = {
                 color = {123 104 125}
                 color2 = {255 255 255}
+                b_shgnt_noto_3 = {
+                    province = 1520 # 能登国府, 七尾城
+                }
                 b_shgnt_noto_1 = {
                     province = 1518
                 }
                 b_shgnt_noto_2 = {
                     province = 1519
-                }
-                b_shgnt_noto_3 = {
-                    province = 1520
                 }
                 b_shgnt_noto_4 = {
                     province = 1521
@@ -6958,11 +6958,11 @@
                 }
             }
             c_shgnt_tajima_keta = {
+                b_shgnt_tajima_keta_2 = {
+                    province = 1714 # 但馬国府
+                }
                 b_shgnt_tajima_keta_1 = {
                     province = 1713
-                }
-                b_shgnt_tajima_keta_2 = {
-                    province = 1714
                 }
             }
             c_shgnt_mikumi = {
@@ -7644,11 +7644,11 @@
                 }
             }
             c_shgnt_koto = {
+                b_shgnt_koto_2 = {
+                    province = 2044 # 霜降山城
+                }
                 b_shgnt_koto_1 = {
                     province = 2043
-                }
-                b_shgnt_koto_2 = {
-                    province = 2044
                 }
                 b_shgnt_koto_3 = {
                     province = 2045
@@ -10380,7 +10380,7 @@
                 color = {0 73 167}
                 color2 = {255 255 255}
                 b_shgnt_kawanohe_1 = {
-                    province = 2598
+                    province = 2598 # Beppu, 別府城
                 }
                 b_shgnt_kawanohe_2 = {
                     province = 2599
@@ -10477,11 +10477,19 @@
 }
 e_shgnt_ryukyu = {
     k_shgnt_ryukyu = {
-                color = {28 48 92}
-                color2 = {255 255 255}
+        color = {28 48 92}
+        color2 = {255 255 255}
         d_shgnt_amami = {
-                color = {39 74 120}
+            color = {39 74 120}
+            color2 = {255 255 255}
+			
+			c_shgnt_tokara_islands = {
+                color = { 10 73 167 }
                 color2 = {255 255 255}
+                b_shgnt_tokara_islands_1 = {
+                    province = 2626
+                }
+            }
             c_shgnt_kikaishima_island = {
                 color = {33 63 102}
                 color2 = {255 255 255}
@@ -10507,7 +10515,10 @@ e_shgnt_ryukyu = {
                 color = {23 65 119}
                 color2 = {255 255 255}
                 b_shgnt_okinoerabujima_island_1 = {
-                    province = 2633
+                    province = 2633 # 沖永良部島
+                }
+				b_shgnt_okinoerabujima_island_2 = {
+                    province = 3166 # 与論島
                 }
             }
         }
@@ -10541,7 +10552,7 @@ e_shgnt_ryukyu = {
                 color = {31 53 102}
                 color2 = {255 255 255}
                 b_shgnt_shimajiri_1 = {
-                    province = 2639
+                    province = 2639 # 渡嘉敷
                 }
                 b_shgnt_shimajiri_2 = {
                     province = 2640
@@ -10551,6 +10562,9 @@ e_shgnt_ryukyu = {
                 }
                 b_shgnt_shimajiri_4 = {
                     province = 2642
+                }
+                b_shgnt_shimajiri_5 = {
+                    province = 3167 # 久米島
                 }
             }
             c_shgnt_nakagami = {

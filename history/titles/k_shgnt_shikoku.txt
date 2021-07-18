@@ -400,6 +400,13 @@ c_shgnt_awaji_mihara = {
         liege = 0 # 
         holder = 0 # Taira's escape to the west
     }
+	1333.07.04 = {
+		effect = {
+			title:b_shgnt_awaji_mihara_4 = {
+				set_title_name = b_shgnt_awaji_mihara_4_1 # Kashiyū, 賀集
+			}
+		}
+	}
     1336.01.01 = {
         holder = 10040511 # Hosokawa Morouji
     }
@@ -1404,6 +1411,13 @@ c_shgnt_nakatanohigashi = {
         liege = 0 # 
         holder = 0 # Battle of Dan-no-ura
     }
+	1333.07.04 = {
+		effect = {
+			title:b_shgnt_nakatanohigashi_1 = {
+				set_title_name = b_shgnt_nakatanohigashi_1_1 # Inozu, 渭津
+			}
+		}
+	}
     1392.03.25 = {
         holder = 10040524 # Hosokawa Yoshiyuki
     }
@@ -1445,6 +1459,13 @@ c_shgnt_nakatanohigashi = {
         liege = d_shgnt_tosa # 
         holder = 10059104 # Chosokabe Motochika
     }
+	1585.01.01 = {
+		effect = {
+			title:b_shgnt_nakatanohigashi_1 = {
+				set_title_name = b_shgnt_nakatanohigashi_1_2 # Tokushima, 徳島
+			}
+		}
+	}
 }
 c_shgnt_katsura = {
     0001.01.01 = { change_development_level = 10 }
@@ -1711,6 +1732,13 @@ c_shgnt_aya = {
         liege = 0
         holder = 0
     }
+	1333.07.04 = {
+		effect = {
+			title:b_shgnt_aya_1 = {
+				set_title_name = b_shgnt_aya_1_1 # Ayakita, 綾北
+			}
+		}
+	}
     1337.01.01 = {
         holder = 10040579 # Hosokawa Akiuji
     }

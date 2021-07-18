@@ -73,6 +73,9 @@
 	culture = southern_kanto
 	religion = shinto
 	holding = castle_holding
+	1247.07.09 = {
+		holding = none # 宝治合戦
+	}
 }
 440 = { # Miura_2
 	culture = southern_kanto
@@ -217,6 +220,9 @@
 	culture = western_kanto
 	religion = shinto
 	holding = castle_holding
+	1368.07.02 = {
+		holding = none
+	}
 }
 467 = { # Ehara_1
 	culture = western_kanto
@@ -376,6 +382,9 @@
 	culture = western_kanto
 	religion = shinto
 	holding = castle_holding
+	1205.07.10 = {
+		holding = none
+	}
 }
 497 = { # Osato_1
 	culture = western_kanto
@@ -411,6 +420,9 @@
 	culture = western_kanto
 	religion = shinto
 	holding = castle_holding
+	1203.10.08 = {
+		holding = none
+	}
 }
 504 = { # Yokomi_1
 	culture = western_kanto
@@ -783,7 +795,13 @@
 981 = { # Kuruma_7
 	culture = western_kanto
 	religion = shinto
-	holding = castle_holding
+	holding = castle_holding # 上野国府
+	1333.07.04 = {
+		holding = none # Sōja, 総社
+	}
+	1429.01.01 = {
+		holding = castle_holding # Ōmi, 蒼海城
+	}
 }
 982 = { # Kuruma_8
 	culture = western_kanto
