@@ -2097,10 +2097,19 @@
 	culture="southern_oshu"
 	1440.1.1={
 		birth=yes
+        employer = 12071035 # Date Mochimune
 	}
 	1467.1.1={
-		dynasty=10000086 # Koyanagawa
+		#dynasty=10000086 # Koyanagawa
+		dynasty_house = "house_shgnt_koyanagawa"
+		give_nickname = "nick_nakatsukasa_no_sho" # 中務少輔（自称）
 	}
+    1469.02.19 = {
+        employer = 12071040 # Date Narimune
+    }
+    1487.10.11 = {
+        employer  = 12071045 # Date Hisamune
+    }
 	1500.11.19={
 		death=yes
 	}
@@ -2131,20 +2140,32 @@
 }
 12071200={
 	name=character_name_12071200 # Chikatomo
-	dynasty=10000086 # Koyanagawa
+	#dynasty=10000086 # Koyanagawa
+	dynasty_house = "house_shgnt_koyanagawa"
 	father=12071041 # Koyanagawa Narimune
 	religion="shinto"
 	culture="southern_oshu"
 	1467.1.1={
 		birth=yes
+        employer = 12071035 # Date Mochimune
 	}
+    1469.02.19 = {
+        employer = 12071040 # Date Narimune
+    }
+    1487.10.11 = {
+        employer  = 12071045 # Date Hisamune
+    }
+    1514.05.28 = {
+        employer  = 10001001 # Date Tanemune
+    }
 	1520.1.1={
 		death=yes
 	}
 }
 12071201={
 	name=character_name_12071201 # Munetomo
-	dynasty=10000086 # Koyanagawa
+	#dynasty=10000086 # Koyanagawa
+	dynasty_house = "house_shgnt_koyanagawa"
 	father=12071041 # Koyanagawa Narimune
 	religion="shinto"
 	culture="southern_oshu"
@@ -2160,27 +2181,60 @@
 	prowess=19
 	1469.1.1={
 		birth=yes
+        employer = 12071035 # Date Mochimune
 	}
+    1469.02.19 = {
+        employer = 12071040 # Date Narimune
+    }
+    1487.10.11 = {
+        employer  = 12071045 # Date Hisamune
+    }
+    1514.05.28 = {
+        employer  = 10001001 # Date Tanemune
+    }
+    1542.06.01 = {
+        employer  = 10001001 # Date Tanemune
+    }
+    1548.09.01 = {
+        employer = 10001002 # Date Harumune
+    }
+    1564.01.01 = {
+        employer = 10001021 # Date Terumune
+    }
 	1565.7.17={
-		death=yes
+		death = {
+			death_reason = death_suicide # 伊達稙宗に殉死
+		}
 	}
 }
 12071202={
 	name=character_name_12071202 # Chikamune
-	dynasty=10000086 # Koyanagawa
+	#dynasty=10000086 # Koyanagawa
+	dynasty_house = "house_shgnt_koyanagawa"
 	father=12071200 # Koyanagawa Chikatomo
 	religion="shinto"
 	culture="southern_oshu"
 	1497.1.1={
 		birth=yes
+        employer  = 12071045 # Date Hisamune
 	}
+    1514.05.28 = {
+        employer  = 10001001 # Date Tanemune
+    }
+    1542.06.01 = {
+        employer  = 10001001 # Date Tanemune
+    }
+    1548.09.01 = {
+        employer = 10001002 # Date Harumune
+    }
 	1563.1.1={
 		death=yes
 	}
 }
 12071203={
 	name=character_name_12071203 # Munehide
-	dynasty=10000086 # Koyanagawa
+	#dynasty=10000086 # Koyanagawa
+	dynasty_house = "house_shgnt_koyanagawa"
 	father=12071201 # Koyanagawa Munetomo
 	religion="shinto"
 	culture="southern_oshu"
@@ -2190,92 +2244,157 @@
 	prowess=14
 	1510.1.1={
 		birth=yes
-	}
+        employer  = 12071045 # Date Hisamune
+   	}
+    1514.05.28 = {
+        employer  = 10001001 # Date Tanemune
+    }
+    1542.06.01 = {
+        employer  = 10001001 # Date Tanemune
+    }
+    1548.09.01 = {
+        employer = 10001002 # Date Harumune
+    }
+    1564.01.01 = {
+        employer = 10001021 # Date Terumune
+    }
 	1570.4.1={
-		death=yes
+		death={
+			death_reason = death_battle
+		}
 	}
 }
 12071204={
 	name=character_name_12071204 # Morimune
-	dynasty=10000086 # Koyanagawa
+	#dynasty=10000086 # Koyanagawa
+	dynasty_house = "house_shgnt_koyanagawa"
 	father=12071202 # Koyanagawa Chikamune
 	religion="shinto"
 	culture="southern_oshu"
 	1523.1.1={
 		birth=yes
+        employer  = 10001001 # Date Tanemune
 	}
+    1542.06.01 = {
+        employer  = 10001001 # Date Tanemune
+    }
+    1548.09.01 = {
+        employer = 10001002 # Date Harumune
+    }
+    1564.01.01 = {
+        employer = 10001021 # Date Terumune
+    }
+    1584.10.06 = {
+        employer   10001035 # Date Masamune
+    }
 	1595.2.22={
 		death=yes
 	}
 }
 12071205={
 	name=character_name_12071205 # Muneshige
-	dynasty=10000086 # Koyanagawa
+	#dynasty=10000086 # Koyanagawa
+	dynasty_house = "house_shgnt_koyanagawa"
 	father=12071204 # Koyanagawa Morimune
 	religion="shinto"
 	culture="southern_oshu"
 	1545.1.1={
 		birth=yes
+        employer  = 10001001 # Date Tanemune
 	}
+    1548.09.01 = {
+        employer = 10001002 # Date Harumune
+    }
+    1564.01.01 = {
+        employer = 10001021 # Date Terumune
+    }
+    1584.10.06 = {
+        employer   10001035 # Date Masamune
+    }
 	1602.1.1={
 		death=yes
 	}
 }
 12071220={
 	name=character_name_12071220 # Munekage
-	dynasty=10000087 # Oeda
+	#dynasty=10000087 # Oeda
+	dynasty_house = "house_shgnt_date_oeda"
 	father=12071031 # Oeda Masayori
 	religion="shinto"
 	culture="southern_oshu"
 	1380.1.1={
 		birth=yes
 	}
+	1412.08.24 = {
+        employer = 12071035 # Date Mochimune
+    }
 	1430.1.1={
 		death=yes
 	}
 }
 12071221={
 	name=character_name_12071221 # Munemoto
-	dynasty=10000087 # Oeda
+	#dynasty=10000087 # Oeda
+	dynasty_house = "house_shgnt_date_oeda"
 	father=12071220 # Oeda Munekage
 	religion="shinto"
 	culture="southern_oshu"
 	1410.1.1={
 		birth=yes
 	}
+	1412.08.24 = {
+        employer = 12071035 # Date Mochimune
+    }
 	1460.1.1={
 		death=yes
 	}
 }
 12071222={
 	name=character_name_12071222 # Munesumi
-	dynasty=10000087 # Oeda
+	#dynasty=10000087 # Oeda
+	dynasty_house = "house_shgnt_date_oeda"
 	father=12071221 # Oeda Munemoto
 	religion="shinto"
 	culture="southern_oshu"
 	1435.1.1={
 		birth=yes
+        employer = 12071035 # Date Mochimune
 	}
+    1469.02.19 = {
+        employer = 12071040 # Date Narimune
+    }
 	1485.1.1={
 		death=yes
 	}
 }
 12071223={
 	name=character_name_12071223 # Munesuke
-	dynasty=10000087 # Oeda
+	#dynasty=10000087 # Oeda
+	dynasty_house = "house_shgnt_date_oeda"
 	father=12071222 # Oeda Munesumi
 	religion="shinto"
 	culture="southern_oshu"
 	1465.1.1={
 		birth=yes
+        employer = 12071035 # Date Mochimune
 	}
+    1469.02.19 = {
+        employer = 12071040 # Date Narimune
+    }
+    1487.10.11 = {
+        employer  = 12071045 # Date Hisamune
+    }
+    1514.05.28 = {
+        employer  = 10001001 # Date Tanemune
+    }
 	1525.1.1={
 		death=yes
 	}
 }
 12071250={
 	name=character_name_12071250 # Masanaga
-	dynasty=10000082 # Kori
+#	dynasty=10000082 # Kori
+	dynasty_house = "house_shgnt_date_kori"
 	father=12071006 # Kori Masayori
 	religion="shinto"
 	culture="southern_oshu"
@@ -2288,7 +2407,8 @@
 }
 12071251={
 	name=character_name_12071251 # Muneyasu
-	dynasty=10000082 # Kori
+#	dynasty=10000082 # Kori
+	dynasty_house = "house_shgnt_date_kori"
 	father=12071250 # Kori Masanaga
 	religion="shinto"
 	culture="southern_oshu"
@@ -2301,7 +2421,8 @@
 }
 12071252={
 	name=character_name_12071252 # Yasunaga
-	dynasty=10000082 # Kori
+#	dynasty=10000082 # Kori
+	dynasty_house = "house_shgnt_date_kori"
 	father=12071251 # Kori Muneyasu
 	religion="shinto"
 	culture="southern_oshu"
@@ -2314,7 +2435,8 @@
 }
 12071253={
 	name=character_name_12071253 # Yorinaga
-	dynasty=10000082 # Kori
+#	dynasty=10000082 # Kori
+	dynasty_house = "house_shgnt_date_kori"
 	father=12071252 # Kori Yasunaga
 	religion="shinto"
 	culture="southern_oshu"
@@ -2327,59 +2449,84 @@
 }
 12071254={
 	name=character_name_12071254 # Kuninaga
-	dynasty=10000082 # Kori
+#	dynasty=10000082 # Kori
+	dynasty_house = "house_shgnt_date_kori"
 	father=12071253 # Kori Yorinaga
 	religion="shinto"
 	culture="southern_oshu"
 	1380.1.1={
 		birth=yes
 	}
+	1412.08.24 = {
+        employer = 12071035 # Date Mochimune
+    }
 	1430.1.1={
 		death=yes
 	}
 }
 12071255={
 	name=character_name_12071255 # Munehide
-	dynasty=10000082 # Kori
+#	dynasty=10000082 # Kori
+	dynasty_house = "house_shgnt_date_kori"
 	father=12071254 # Kori Kuninaga
 	religion="shinto"
 	culture="southern_oshu"
 	1410.1.1={
 		birth=yes
 	}
+	1412.08.24 = {
+        employer = 12071035 # Date Mochimune
+    }
 	1460.1.1={
 		death=yes
 	}
 }
 12071256={
 	name=character_name_12071256 # Muneyasu
-	dynasty=10000082 # Kori
+#	dynasty=10000082 # Kori
+	dynasty_house = "house_shgnt_date_kori"
 	father=12071255 # Kori Munehide
 	religion="shinto"
 	culture="southern_oshu"
 	1445.1.1={
 		birth=yes
+        employer = 12071035 # Date Mochimune
 	}
+	1469.02.19 = {
+        employer = 12071040 # Date Narimune
+    }
+    1487.10.11 = {
+        employer  = 12071045 # Date Hisamune
+    }
 	1495.1.1={
 		death=yes
 	}
 }
 12071257={
 	name=character_name_12071257 # Munesue
-	dynasty=10000082 # Kori
+#	dynasty=10000082 # Kori
+	dynasty_house = "house_shgnt_date_kori"
 	father=12071256 # Kori Muneyasu
 	religion="shinto"
 	culture="southern_oshu"
 	1475.1.1={
 		birth=yes
+        employer = 12071040 # Date Narimune
 	}
+    1487.10.11 = {
+        employer  = 12071045 # Date Hisamune
+    }
+    1514.05.28 = {
+        employer  = 10001001 # Date Tanemune
+    }
 	1525.1.1={
 		death=yes
 	}
 }
 12071300={
 	name=character_name_12071300 # Yukiyasu
-	dynasty=10000088 # Senoue
+#	dynasty=10000088 # Senoue
+	dynasty_house = "house_shgnt_date_senoue"
 	father=12071016 # Senoue Yukitsuna
 	religion="shinto"
 	culture="southern_oshu"
@@ -2392,7 +2539,8 @@
 }
 12071301={
 	name=character_name_12071301 # Muneyasu
-	dynasty=10000088 # Senoue
+#	dynasty=10000088 # Senoue
+	dynasty_house = "house_shgnt_date_senoue"
 	father=12071300 # Senoue Yukiyasu
 	religion="shinto"
 	culture="southern_oshu"
@@ -2405,117 +2553,180 @@
 }
 12071302={
 	name=character_name_12071302 # Yasukiyo
-	dynasty=10000088 # Senoue
+#	dynasty=10000088 # Senoue
+	dynasty_house = "house_shgnt_date_senoue"
 	father=12071301 # Senoue Muneyasu
 	religion="shinto"
 	culture="southern_oshu"
 	1363.1.1={
 		birth=yes
 	}
+	1412.08.24 = {
+        employer = 12071035 # Date Mochimune
+    }
 	1413.1.1={
 		death=yes
 	}
 }
 12071303={
 	name=character_name_12071303 # Munekiyo
-	dynasty=10000088 # Senoue
+#	dynasty=10000088 # Senoue
+	dynasty_house = "house_shgnt_date_senoue"
 	father=12071302 # Senoue Yasukiyo
 	religion="shinto"
 	culture="southern_oshu"
 	1387.1.1={
 		birth=yes
 	}
+	1412.08.24 = {
+        employer = 12071035 # Date Mochimune
+    }
 	1437.1.1={
 		death=yes
 	}
 }
 12071304={
 	name=character_name_12071304 # Yasutoshi
-	dynasty=10000088 # Senoue
+#	dynasty=10000088 # Senoue
+	dynasty_house = "house_shgnt_date_senoue"
 	father=12071303 # Senoue Munekiyo
 	religion="shinto"
 	culture="southern_oshu"
 	1410.1.1={
 		birth=yes
 	}
+	1412.08.24 = {
+        employer = 12071035 # Date Mochimune
+    }
 	1460.1.1={
 		death=yes
 	}
 }
 12071305={
 	name=character_name_12071305 # Yasuie
-	dynasty=10000088 # Senoue
+#	dynasty=10000088 # Senoue
+	dynasty_house = "house_shgnt_date_senoue"
 	father=12071304 # Senoue Yasutoshi
 	religion="shinto"
 	culture="southern_oshu"
 	1434.1.1={
 		birth=yes
+        employer = 12071035 # Date Mochimune
 	}
+	1469.02.19 = {
+        employer = 12071040 # Date Narimune
+    }
 	1484.1.1={
 		death=yes
 	}
 }
 12071306={
 	name=character_name_12071306 # Yasuhide
-	dynasty=10000088 # Senoue
+#	dynasty=10000088 # Senoue
+	dynasty_house = "house_shgnt_date_senoue"
 	father=12071305 # Senoue Yasuie
 	religion="shinto"
 	culture="southern_oshu"
 	1458.1.1={
 		birth=yes
+        employer = 12071035 # Date Mochimune
 	}
+	1469.02.19 = {
+        employer = 12071040 # Date Narimune
+    }
+	1487.10.11 = {
+        employer  = 12071045 # Date Hisamune
+    }
 	1508.1.1={
 		death=yes
 	}
 }
 12071308={
 	name=character_name_12071308 # Muneyasu
-	dynasty=10000088 # Senoue
+#	dynasty=10000088 # Senoue
+	dynasty_house = "house_shgnt_date_senoue"
 	father=12071306 # Senoue Yasuhide
 	religion="shinto"
 	culture="southern_oshu"
 	1481.1.1={
 		birth=yes
+        employer = 12071040 # Date Narimune
 	}
+    1487.10.11 = {
+        employer  = 12071045 # Date Hisamune
+    }
+    1514.05.28 = {
+        employer  = 10001001 # Date Tanemune
+    }
 	1531.1.1={
 		death=yes
 	}
 }
 12071309={
 	name=character_name_12071309 # Nobuyasu
-	dynasty=10000088 # Senoue
+#	dynasty=10000088 # Senoue
+	dynasty_house = "house_shgnt_date_senoue"
 	father=12071308 # Senoue Muneyasu
 	religion="shinto"
 	culture="southern_oshu"
 	1505.1.1={
 		birth=yes
+        employer  = 12071045 # Date Hisamune
 	}
+    1514.05.28 = {
+        employer  = 10001001 # Date Tanemune
+    }
+    1542.06.01 = {
+        employer  = 10001001 # Date Tanemune
+    }
+    1548.09.01 = {
+        employer = 10001002 # Date Harumune
+    }
 	1555.1.1={
 		death=yes
 	}
 }
 12071310={
 	name=character_name_12071310 # Sadayasu
-	dynasty=10000088 # Senoue
+#	dynasty=10000088 # Senoue
+	dynasty_house = "house_shgnt_date_senoue"
 	father=12071309 # Senoue Nobuyasu
 	religion="shinto"
 	culture="southern_oshu"
 	1529.1.1={
 		birth=yes
+        employer  = 10001001 # Date Tanemune
 	}
+    1542.06.01 = {
+        employer  = 10001001 # Date Tanemune
+    }
+    1548.09.01 = {
+        employer = 10001002 # Date Harumune
+    }
+    1564.01.01 = {
+        employer = 10001021 # Date Terumune
+    }
 	1579.1.1={
 		death=yes
 	}
 }
 12071311={
 	name=character_name_12071311 # Kageyasu
-	dynasty=10000088 # Senoue
+#	dynasty=10000088 # Senoue
+	dynasty_house = "house_shgnt_date_senoue"
 	father=12071310 # Senoue Sadayasu
 	religion="shinto"
 	culture="southern_oshu"
 	1553.1.1={
 		birth=yes
+        employer = 10001002 # Date Harumune
 	}
+    1564.01.01 = {
+        employer = 10001021 # Date Terumune
+    }
+    1584.10.06 = {
+        employer   10001035 # Date Masamune
+    }
 	1617.7.21={
 		death=yes
 	}
@@ -2706,7 +2917,8 @@
 }
 12071416={
 	name = character_name_12071416 # Munenaga
-	dynasty = 10006123	#Ishida
+	#dynasty = 10006123	#Ishida
+	dynasty_house = "house_shgnt_date_ishida"
 	religion = "shinto"
 	culture = "eastern_kanto"
 	father =12071410	#Date Tsunetomo
@@ -2784,7 +2996,8 @@
 }
 12071425={
 	name = character_name_12071425 # Tsunemori
-	dynasty = 10006124	#Yabe
+	#dynasty = 10006124	#Yabe
+	dynasty_house = "house_shgnt_date_yabe"
 	religion = "shinto"
 	culture = "eastern_kanto"
 	father =12071420	#Date Tadatsune
@@ -2862,7 +3075,8 @@
 }
 12071500={
 	name = character_name_12071500 # Sukemitsu
-	dynasty = 10006127	#Iida
+	#dynasty = 10006127	#Iida
+	dynasty_house = "house_shgnt_date_iida"
 	religion = "shinto"
 	culture = "eastern_kanto"
 	father = 12121003 # Isa Suketsuna

@@ -123,11 +123,17 @@
 		birth=yes
 	}
 	1554.1.1={
-		add_spouse=10001027
+		#add_spouse=10001027
+		effect = {
+			create_betrothal = character:10001027
+		}
 	}
 	1562.1.1={
-		remove_spouse=10001027
+		#remove_spouse=10001027
 		add_spouse=10001027 # daughter of Date Harumune (Kyosei-in)
+	}
+	1565.07．16 = { # 伊達稙宗死亡年月日
+		dynasty_house = "house_shgnt_date_watari"
 	}
 	1587.5.23={
 		death=yes
@@ -146,15 +152,20 @@
 	prowess=7
 	1527.1.1={
 		birth=yes
+        employer  = 10001001 # Date Tanemune
 	}
 	1533.1.1={
-		dynasty=10000082 # Kori
+	#	dynasty=10000082 # Kori
+	dynasty_house = "house_shgnt_date_kori"
 		effect = {
 			set_father = character:10001500
 			set_real_father = character:10001001
 			add_trait = "child_of_adoption"
 		}
 	}
+    1542.06.01 = {
+        employer  = 10001001 # Date Tanemune
+    }
 	1543.9.8={
 		death=yes
 	}
@@ -232,10 +243,13 @@
 		birth=yes
 	}
 	1534.1.1={
-		dynasty=10000083 # Watari
+		#dynasty=10000083 # Watari
+		dynasty_house = "house_shgnt_date_watari2"
 	}
 	1543.3.1={
-		death=yes
+		death = {
+			death_reason = death_battle
+		}
 	}
 }
 10001010 = {
@@ -254,7 +268,8 @@
 		birth=yes
 	}
 	1543.1.1={
-		dynasty=10000083 # Watari
+		#dynasty=10000083 # Watari
+		dynasty_house = "house_shgnt_date_watari2"
 	}
 	1594.8.5={
 		death=yes
@@ -416,7 +431,8 @@
 		birth=yes
 	}
 	1567.1.1={
-		dynasty=10000064 #Rusu
+		#dynasty=10000064 #Rusu
+		dynasty_house = "house_shgnt_date_rusu"
 		effect = {
 			set_father = character:10006404
 			set_real_father = character:10001002
@@ -570,7 +586,8 @@
 }
 10001031 = {
 	name=character_name_10001031 # Shigezane
-	dynasty=10000010 # Date
+	#dynasty=10000010 # Date
+	dynasty_house = "house_shgnt_date_watari"
 	martial=9
 	diplomacy=7
 	intrigue=8
@@ -588,10 +605,13 @@
 		birth=yes
 	}
 	1585.1.1={
-		add_spouse=10001033
+		#add_spouse=10001033
+		effect = {
+			create_betrothal = character:10001033
+		}
 	}
 	1586.1.1={
-		remove_spouse=10001033
+		#remove_spouse=10001033
 		add_spouse=10001033 #daughter of Watari Shigemune
 	}
 	1591.1.1={
@@ -603,7 +623,8 @@
 }
 10001032 = {
 	name=character_name_10001032 # Shigemune
-	dynasty=10000083 # Watari
+	#dynasty=10000083 # Watari
+	dynasty_house = "house_shgnt_date_watari2"
 	religion="shinto"
 	culture="southern_oshu"
 	father=10001010
@@ -617,7 +638,8 @@
 10001033 = {
 	name=character_name_10001033 # Motoko
 	female=yes
-	dynasty=10000083 # Watari
+	#dynasty=10000083 # Watari
+	dynasty_house = "house_shgnt_date_watari2"
 	religion="shinto"
 	culture="southern_oshu"
 	father=10001032
@@ -2331,11 +2353,15 @@
 		birth=yes
 	}
 	1500.1.1={
-		dynasty=10000064 # Rusu
-		add_spouse=10006403
+		#dynasty=10000064 # Rusu
+		dynasty_house = "house_shgnt_date_rusu"
+		#add_spouse=10006403
+		effect = {
+			create_betrothal_matrilineal = character:10006403
+		}
 	}
 	1508.1.1={
-		remove_spouse=10006403
+		#remove_spouse=10006403
 		add_matrilineal_spouse=10006403 # daughter of 6402:Rusu Kunimune
 	}
 	1554.1.2={
@@ -2352,7 +2378,8 @@
 		birth=yes
 	}
 	1450.1.1={
-		dynasty=10000064 # Rusu
+		#dynasty=10000064 # Rusu
+		dynasty_house = "house_shgnt_date_rusu"
 	}
 	1495.10.22={
 		death=yes
@@ -2361,7 +2388,8 @@
 10006403 = {
 	name=character_name_10006403 # Kuniko
 	female=yes
-	dynasty=10000064 # Rusu
+	#dynasty=10000064 # Rusu
+	dynasty_house = "house_shgnt_date_rusu"
 	religion="shinto"
 	culture="southern_oshu"
 	father=10006402
@@ -2374,7 +2402,8 @@
 }
 10006404 = {
 	name=character_name_10006404 # Akimune
-	dynasty=10000064 # Rusu
+	#dynasty=10000064 # Rusu
+	dynasty_house = "house_shgnt_date_rusu"
 	martial=3
 	diplomacy=3
 	intrigue=2
@@ -2393,7 +2422,8 @@
 }
 10006405 = {
 	name=character_name_10006405 # Munetoshi
-	dynasty=10000064 # Rusu
+	#dynasty=10000064 # Rusu
+	dynasty_house = "house_shgnt_date_rusu"
 	religion="shinto"
 	culture="southern_oshu"
 	trait="education_diplomacy_2"
@@ -2655,7 +2685,8 @@
 		birth=yes
 	}
 	1276.1.1 ={
-		dynasty=10000066 # Shiroishi
+		#dynasty=10000066 # Shiroishi
+		dynasty_house = "house_shgnt_date_shiroishi"
 	}
 	1339.1.1={
 		death=yes
@@ -2663,7 +2694,8 @@
 }
 10006602={
 	name=character_name_10006602 # Munetsugu
-	dynasty=10000066 # Shiroishi
+#	dynasty=10000066 # Shiroishi
+	dynasty_house = "house_shgnt_date_shiroishi"
 	father=10006601 # Date Munehiro
 	religion="shinto"
 	culture="southern_oshu"
@@ -2676,7 +2708,8 @@
 }
 10006603={
 	name=character_name_10006603 # Muneyoshi
-	dynasty=10000066 # Shiroishi
+#	dynasty=10000066 # Shiroishi
+	dynasty_house = "house_shgnt_date_shiroishi"
 	father=10006602 # Shiroishi Munetsugu
 	religion="shinto"
 	culture="southern_oshu"
@@ -2689,7 +2722,8 @@
 }
 10006604={
 	name=character_name_10006604 # Munechika
-	dynasty=10000066 # Shiroishi
+#	dynasty=10000066 # Shiroishi
+	dynasty_house = "house_shgnt_date_shiroishi"
 	father=10006603 # Shiroishi Muneyoshi
 	religion="shinto"
 	culture="southern_oshu"
@@ -2702,7 +2736,8 @@
 }
 10006605={
 	name=character_name_10006605 # Munenobu
-	dynasty=10000066 # Shiroishi
+#	dynasty=10000066 # Shiroishi
+	dynasty_house = "house_shgnt_date_shiroishi"
 	father=10006604 # Shiroishi Munechika
 	religion="shinto"
 	culture="southern_oshu"
@@ -2715,7 +2750,8 @@
 }
 10006606={
 	name=character_name_10006606 # Muneyasu
-	dynasty=10000066 # Shiroishi
+#	dynasty=10000066 # Shiroishi
+	dynasty_house = "house_shgnt_date_shiroishi"
 	father=10006605 # Shiroishi Munenobu
 	religion="shinto"
 	culture="southern_oshu"
@@ -2728,7 +2764,8 @@
 }
 10006607={
 	name=character_name_10006607 # Munenori
-	dynasty=10000066 # Shiroishi
+#	dynasty=10000066 # Shiroishi
+	dynasty_house = "house_shgnt_date_shiroishi"
 	father=10006605 # Shiroishi Munenobu
 	religion="shinto"
 	culture="southern_oshu"
@@ -2741,7 +2778,8 @@
 }
 10006608={
 	name=character_name_10006608 # Munenaga
-	dynasty=10000066 # Shiroishi
+#	dynasty=10000066 # Shiroishi
+	dynasty_house = "house_shgnt_date_shiroishi"
 	father=10006607 # Shiroishi Munenori
 	religion="shinto"
 	culture="southern_oshu"
@@ -2754,7 +2792,8 @@
 }
 10006609={
 	name=character_name_10006609 # Munekiyo
-	dynasty=10000066 # Shiroishi
+#	dynasty=10000066 # Shiroishi
+	dynasty_house = "house_shgnt_date_shiroishi"
 	father=10006608 # Shiroishi Munenaga
 	religion="shinto"
 	culture="southern_oshu"
@@ -2767,7 +2806,8 @@
 }
 10006610={
 	name=character_name_10006610 # Muneyasu
-	dynasty=10000066 # Shiroishi
+#	dynasty=10000066 # Shiroishi
+	dynasty_house = "house_shgnt_date_shiroishi"
 	father=10006608 # Shiroishi Munenaga
 	religion="shinto"
 	culture="southern_oshu"
@@ -2780,7 +2820,8 @@
 }
 10006611={
 	name=character_name_10006611 # Munetsuna
-	dynasty=10000066 # Shiroishi
+#	dynasty=10000066 # Shiroishi
+	dynasty_house = "house_shgnt_date_shiroishi"
 	father=10006610 # Shiroishi Muneyasu
 	religion="shinto"
 	culture="southern_oshu"
@@ -2793,7 +2834,8 @@
 }
 10006612={
 	name=character_name_10006612 # Munetoshi
-	dynasty=10000066 # Shiroishi
+#	dynasty=10000066 # Shiroishi
+	dynasty_house = "house_shgnt_date_shiroishi"
 	father=10006611 # Shiroishi Munetsuna
 	religion="shinto"
 	culture="southern_oshu"
@@ -2806,7 +2848,8 @@
 }
 10006613={
 	name=character_name_10006613 # Munezane
-	dynasty=10000066 # Shiroishi
+#	dynasty=10000066 # Shiroishi
+	dynasty_house = "house_shgnt_date_shiroishi"
 	father=10006612 # Shiroishi Munetoshi
 	religion="shinto"
 	culture="southern_oshu"
@@ -2824,7 +2867,8 @@
 10006614={
 	name=character_name_10006614 # Shingetsu
 	female=yes
-	dynasty=10000066 # Shiroishi
+#	dynasty=10000066 # Shiroishi
+	dynasty_house = "house_shgnt_date_shiroishi"
 	father=10006613 # Shiroishi Munezane
 	religion="shinto"
 	culture="southern_oshu"
@@ -2854,6 +2898,11 @@
 	prowess=17
 	1508.1.2={
 		birth=yes
+	}
+	1521.07.05 = {
+		effect={
+			set_realm_capital=title:c_shgnt_iwaki_namekata
+		}
 	}
 	1524.1.1={
 		give_nickname="nick_Magojio"
@@ -2889,6 +2938,9 @@
 	}
 	1549.3.1={
 		give_nickname="nick_danjo_daihitsu"
+		effect={
+			set_realm_capital=title:c_shgnt_iwaki_namekata
+		}
 	}
 	1601.11.10={
 		death=yes
@@ -2908,6 +2960,11 @@
 	}
 	1492.7.5={
 		give_nickname="nick_daizen_daihu"
+	}
+	1493.01.01 = {
+		effect={
+			set_realm_capital=title:c_shgnt_iwaki_namekata
+		}
 	}
 	1510.1.1={
 		add_spouse=10006704
@@ -5049,6 +5106,11 @@
 	1459.1.2={
 		birth=yes
 	}
+	1485.01.01 = {
+		effect={
+			set_realm_capital=title:c_shgnt_iwaki_namekata
+		}
+	}
 	1493.1.1={
 		death=yes
 	}
@@ -5061,71 +5123,134 @@
 	1429.1.2={
 		birth=yes
 	}
+	1450.01.01 = {
+		effect={
+			set_realm_capital=title:c_shgnt_iwaki_namekata
+		}
+	}
 	1493.1.1={
 		death=yes
 	}
 }
 10001500={
 	name=character_name_10001500 # Kagenaga
-	dynasty=10000082 # Kori
+#	dynasty=10000082 # Kori
+	dynasty_house = "house_shgnt_date_kori"
 	father=12071257 # Kori Munesue
 	religion="shinto"
 	culture="southern_oshu"
 	1506.1.2={
 		birth=yes
+        employer  = 12071045 # Date Hisamune
 	}
+    1514.05.28 = {
+        employer  = 10001001 # Date Tanemune
+    }
+    1542.06.01 = {
+        employer  = 10001001 # Date Tanemune
+    }
+    1548.09.01 = {
+        employer = 10001002 # Date Harumune
+    }
+    1564.01.01 = {
+        employer = 10001021 # Date Terumune
+    }
 	1577.10.30={
 		death=yes
 	}
 }
 10001501={
 	name=character_name_10001501 # Sadachika
-	dynasty=10000082 # Kori
+#	dynasty=10000082 # Kori
+	dynasty_house = "house_shgnt_date_kori"
 	father=12071257 # Kori Munesue
 	religion="shinto"
 	culture="southern_oshu"
 	1508.1.1={
 		birth=yes
+        employer  = 12071045 # Date Hisamune
 	}
+    1514.05.28 = {
+        employer  = 10001001 # Date Tanemune
+    }
+    1542.06.01 = {
+        employer  = 10001001 # Date Tanemune
+    }
+    1548.09.01 = {
+        employer = 10001002 # Date Harumune
+    }
 	1558.1.1={
 		death=yes
 	}
 }
 10001502={
 	name=character_name_10001502 # Munetame
-	dynasty=10000082 # Kori
+#	dynasty=10000082 # Kori
+	dynasty_house = "house_shgnt_date_kori"
 	father=12071257 # Kori Munesue
 	religion="shinto"
 	culture="southern_oshu"
 	1509.1.1={
 		birth=yes
+        employer  = 12071045 # Date Hisamune
 	}
+    1514.05.28 = {
+        employer  = 10001001 # Date Tanemune
+    }
+    1542.06.01 = {
+        employer  = 10001001 # Date Tanemune
+    }
+    1548.09.01 = {
+        employer = 10001002 # Date Harumune
+    }
 	1559.1.1={
 		death=yes
 	}
 }
 10001503={
 	name=character_name_10001503 # Nobufusa
-	dynasty=10000082 # Kori
+#	dynasty=10000082 # Kori
+	dynasty_house = "house_shgnt_date_kori"
 	father=12071257 # Kori Munesue
 	religion="shinto"
 	culture="southern_oshu"
 	1510.1.1={
 		birth=yes
+        employer  = 12071045 # Date Hisamune
 	}
+    1514.05.28 = {
+        employer  = 10001001 # Date Tanemune
+    }
+    1542.06.01 = {
+        employer  = 10001001 # Date Tanemune
+    }
+    1548.09.01 = {
+        employer = 10001002 # Date Harumune
+    }
 	1560.1.1={
 		death=yes
 	}
 }
 10001504={
 	name=character_name_10001504 # Yoriyasu
-	dynasty=10000082 # Kori
+#	dynasty=10000082 # Kori
+	dynasty_house = "house_shgnt_date_kori"
 	father=12071257 # Kori Munesue
 	religion="shinto"
 	culture="southern_oshu"
 	1512.1.1={
 		birth=yes
+        employer  = 12071045 # Date Hisamune
 	}
+    1514.05.28 = {
+        employer  = 10001001 # Date Tanemune
+    }
+    1542.06.01 = {
+        employer  = 10001001 # Date Tanemune
+    }
+    1548.09.01 = {
+        employer = 10001002 # Date Harumune
+    }
 	1562.1.1={
 		death=yes
 	}
@@ -5133,20 +5258,32 @@
 10001505={
 	female=yes
 	name=character_name_10001505 # Sue
-	dynasty=10000082 # Kori
+#	dynasty=10000082 # Kori
+	dynasty_house = "house_shgnt_date_kori"
 	father=12071257 # Kori Munesue
 	religion="shinto"
 	culture="southern_oshu"
 	1515.1.1={
 		birth=yes
+        employer  = 10001001 # Date Tanemune
 	}
+    1542.06.01 = {
+        employer  = 10001001 # Date Tanemune
+    }
+    1548.09.01 = {
+        employer = 10001002 # Date Harumune
+    }
+    1564.01.01 = {
+        employer = 10001021 # Date Terumune
+    }
 	1565.1.1={
 		death=yes
 	}
 }
 10001507={
 	name=character_name_10001507 # Munesada
-	dynasty=10000082 # Kori
+#	dynasty=10000082 # Kori
+	dynasty_house = "house_shgnt_date_kori"
 	father=10001500 # Kori Kagenaga
 	religion="shinto"
 	culture="southern_oshu"
@@ -5156,59 +5293,125 @@
 	prowess=16
 	1532.1.1={
 		birth=yes
+        employer  = 10001001 # Date Tanemune
 	}
+    1542.06.01 = {
+        employer  = 10001001 # Date Tanemune
+    }
+    1548.09.01 = {
+        employer = 10001002 # Date Harumune
+    }
+    1564.01.01 = {
+        employer = 10001021 # Date Terumune
+    }
+    1584.10.06 = {
+        employer   10001035 # Date Masamune
+    }
 	1601.9.8={
 		death=yes
 	}
 }
 10001508={
 	name=character_name_10001508 # Munemasa
-	dynasty=10000082 # Kori
+#	dynasty=10000082 # Kori
+	dynasty_house = "house_shgnt_date_kori"
 	father=10001500 # Kori Kagenaga
 	religion="shinto"
 	culture="southern_oshu"
 	1535.1.1={
 		birth=yes
+        employer  = 10001001 # Date Tanemune
 	}
+    1542.06.01 = {
+        employer  = 10001001 # Date Tanemune
+    }
+    1548.09.01 = {
+        employer = 10001002 # Date Harumune
+    }
+    1564.01.01 = {
+        employer = 10001021 # Date Terumune
+    }
 	1582.1.1={
 		death=yes
 	}
 }
 10001509={
 	name=character_name_10001509 # Yasunaga
-	dynasty=10000082 # Kori
+#	dynasty=10000082 # Kori
+	dynasty_house = "house_shgnt_date_kori"
 	father=10001500 # Kori Kagenaga
 	religion="shinto"
 	culture="southern_oshu"
 	1537.1.1={
 		birth=yes
+        employer  = 10001001 # Date Tanemune
 	}
+    1542.06.01 = {
+        employer  = 10001001 # Date Tanemune
+    }
+    1548.09.01 = {
+        employer = 10001002 # Date Harumune
+    }
+    1564.01.01 = {
+        employer = 10001021 # Date Terumune
+    }
+    1584.10.06 = {
+        employer   10001035 # Date Masamune
+    }
 	1587.1.1={
 		death=yes
 	}
 }
 10001510={
 	name=character_name_10001510 # Shigesada
-	dynasty=10000082 # Kori
+#	dynasty=10000082 # Kori
+	dynasty_house = "house_shgnt_date_kori"
 	father=10001500 # Kori Kagenaga
 	religion="shinto"
 	culture="southern_oshu"
 	1538.1.1={
 		birth=yes
+        employer  = 10001001 # Date Tanemune
 	}
+    1542.06.01 = {
+        employer  = 10001001 # Date Tanemune
+    }
+    1548.09.01 = {
+        employer = 10001002 # Date Harumune
+    }
+    1564.01.01 = {
+        employer = 10001021 # Date Terumune
+    }
+    1584.10.06 = {
+        employer   10001035 # Date Masamune
+    }
 	1588.1.1={
 		death=yes
 	}
 }
 10001511={
 	name=character_name_10001511 # Munetoshi
-	dynasty=10000082 # Kori
+#	dynasty=10000082 # Kori
+	dynasty_house = "house_shgnt_date_kori"
 	father=10001500 # Kori Kagenaga
 	religion="shinto"
 	culture="southern_oshu"
 	1540.1.1={
 		birth=yes
+        employer  = 10001001 # Date Tanemune
 	}
+    1542.06.01 = {
+        employer  = 10001001 # Date Tanemune
+    }
+    1548.09.01 = {
+        employer = 10001002 # Date Harumune
+    }
+    1564.01.01 = {
+        employer = 10001021 # Date Terumune
+    }
+    1584.10.06 = {
+        employer   10001035 # Date Masamune
+    }
 	1590.1.1={
 		death=yes
 	}
@@ -5216,13 +5419,24 @@
 10001512={
 	female=yes
 	name=character_name_10001512 # Kageko
-	dynasty=10000082 # Kori
+#	dynasty=10000082 # Kori
+	dynasty_house = "house_shgnt_date_kori"
 	father=10001500 # Kori Kagenaga
 	religion="shinto"
 	culture="southern_oshu"
 	1545.1.1={
 		birth=yes
+        employer  = 10001001 # Date Tanemune
 	}
+    1548.09.01 = {
+        employer = 10001002 # Date Harumune
+    }
+    1564.01.01 = {
+        employer = 10001021 # Date Terumune
+    }
+    1584.10.06 = {
+        employer   10001035 # Date Masamune
+    }
 	1595.1.1={
 		death=yes
 	}
@@ -5230,13 +5444,21 @@
 10001513={
 	female=yes
 	name=character_name_10001513 # Nagako
-	dynasty=10000082 # Kori
+#	dynasty=10000082 # Kori
+	dynasty_house = "house_shgnt_date_kori"
 	father=10001500 # Kori Kagenaga
 	religion="shinto"
 	culture="southern_oshu"
 	1553.1.1={
 		birth=yes
+        employer = 10001002 # Date Harumune
 	}
+    1564.01.01 = {
+        employer = 10001021 # Date Terumune
+    }
+    1584.10.06 = {
+        employer   10001035 # Date Masamune
+    }
 	1603.1.1={
 		death=yes
 	}
@@ -5244,13 +5466,27 @@
 10001514={
 	female=yes
 	name=character_name_10001514 # Shigeko
-	dynasty=10000082 # Kori
+#	dynasty=10000082 # Kori
+	dynasty_house = "house_shgnt_date_kori"
 	father=10001500 # Kori Kagenaga
 	religion="shinto"
 	culture="southern_oshu"
 	1539.1.1={
 		birth=yes
+        employer  = 10001001 # Date Tanemune
 	}
+    1542.06.01 = {
+        employer  = 10001001 # Date Tanemune
+    }
+    1548.09.01 = {
+        employer = 10001002 # Date Harumune
+    }
+    1564.01.01 = {
+        employer = 10001021 # Date Terumune
+    }
+    1584.10.06 = {
+        employer   10001035 # Date Masamune
+    }
 	1589.1.1={
 		death=yes
 	}
@@ -5258,13 +5494,21 @@
 10001515={
 	female=yes
 	name=character_name_10001515 # Harima
-	dynasty=10000082 # Kori
+#	dynasty=10000082 # Kori
+	dynasty_house = "house_shgnt_date_kori"
 	father=10001500 # Kori Kagenaga
 	religion="shinto"
 	culture="southern_oshu"
 	1555.1.1={
 		birth=yes
+        employer = 10001002 # Date Harumune
 	}
+    1564.01.01 = {
+        employer = 10001021 # Date Terumune
+    }
+    1584.10.06 = {
+        employer   10001035 # Date Masamune
+    }
 	1605.1.1={
 		death=yes
 	}
@@ -5272,26 +5516,42 @@
 10001516={
 	female=yes
 	name=character_name_10001516 # Ise
-	dynasty=10000082 # Kori
+#	dynasty=10000082 # Kori
+	dynasty_house = "house_shgnt_date_kori"
 	father=10001500 # Kori Kagenaga
 	religion="shinto"
 	culture="southern_oshu"
 	1557.1.1={
 		birth=yes
+        employer = 10001002 # Date Harumune
 	}
+    1564.01.01 = {
+        employer = 10001021 # Date Terumune
+    }
+    1584.10.06 = {
+        employer   10001035 # Date Masamune
+    }
 	1607.1.1={
 		death=yes
 	}
 }
 10001520={
 	name=character_name_10001520 # Masanaga
-	dynasty=10000082 # Kori
+#	dynasty=10000082 # Kori
+	dynasty_house = "house_shgnt_date_kori"
 	father=10001507 # Kori Munesada
 	religion="shinto"
 	culture="southern_oshu"
 	1561.1.1={
 		birth=yes
+        employer = 10001002 # Date Harumune
 	}
+    1564.01.01 = {
+        employer = 10001021 # Date Terumune
+    }
+    1584.10.06 = {
+        employer   10001035 # Date Masamune
+    }
 	1593.8.1={
 		death=yes
 	}
