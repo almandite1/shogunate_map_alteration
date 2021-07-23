@@ -2018,7 +2018,8 @@
 		birth=yes
 	}
 	1570.1.1={
-		dynasty=10000063 # Kurokawa
+		#dynasty=10000063 # Kurokawa
+		dynasty_house = "house_shgnt_kurokawa"
 		effect = {
 			set_father = character:10006303
 			set_real_father = character:10006201
@@ -2106,7 +2107,8 @@
 }
 10006301 = {
 	name=character_name_10006301 # Kageuji
-	dynasty=10000063 # Kurokawa
+#	dynasty=10000063 # Kurokawa
+	dynasty_house = "house_shgnt_kurokawa"
 	martial=5
 	diplomacy=5
 	intrigue=7
@@ -2127,7 +2129,8 @@
 }
 10006302 = {
 	name=character_name_10006302 # Tanekuni
-	dynasty=10000063 # Kurokawa
+#	dynasty=10000063 # Kurokawa
+	dynasty_house = "house_shgnt_kurokawa"
 	religion="shinto"
 	culture="southern_oshu"
 	father=10006301
@@ -2141,7 +2144,8 @@
 }
 10006303 = {
 	name=character_name_10006303 # Haruuji
-	dynasty=10000063 # Kurokawa
+#	dynasty=10000063 # Kurokawa
+	dynasty_house = "house_shgnt_kurokawa"
 	martial=8
 	diplomacy=8
 	intrigue=7
@@ -2164,7 +2168,8 @@
 }
 10006304 = {
 	name=character_name_10006304 # Taneie
-	dynasty=10000063 # Kurokawa
+#	dynasty=10000063 # Kurokawa
+	dynasty_house = "house_shgnt_kurokawa"
 	martial=5
 	diplomacy=6
 	intrigue=6
@@ -2182,7 +2187,8 @@
 }
 10006305 = {
 	name=character_name_10006305 # Ujisada
-	dynasty=10000063 # Kurokawa
+#	dynasty=10000063 # Kurokawa
+	dynasty_house = "house_shgnt_kurokawa"
 	religion="shinto"
 	culture="southern_oshu"
 	father=10006301
@@ -2195,7 +2201,8 @@
 }
 10006306 = {
 	name=character_name_10006306 # Muneuji
-	dynasty=10000063 # Kurokawa
+#	dynasty=10000063 # Kurokawa
+	dynasty_house = "house_shgnt_kurokawa"
 	religion="shinto"
 	culture="southern_oshu"
 	father=10006301
@@ -2208,7 +2215,8 @@
 }
 10006307 = {
 	name=character_name_10006307 # Shigesada
-	dynasty=10000063 # Kurokawa
+#	dynasty=10000063 # Kurokawa
+	dynasty_house = "house_shgnt_kurokawa"
 	religion="shinto"
 	culture="southern_oshu"
 	father=10006301
@@ -2221,7 +2229,8 @@
 }
 10006308 = {
 	name=character_name_10006308 # Sadanao
-	dynasty=10000063 # Kurokawa
+#	dynasty=10000063 # Kurokawa
+	dynasty_house = "house_shgnt_kurokawa"
 	religion="shinto"
 	culture="southern_oshu"
 	father=10006301
@@ -2234,7 +2243,8 @@
 }
 10006309 = {
 	name=character_name_10006309 # Ujinori
-	dynasty=10000063 # Kurokawa
+#	dynasty=10000063 # Kurokawa
+	dynasty_house = "house_shgnt_kurokawa"
 	religion="shinto"
 	culture="southern_oshu"
 	father=10006310
@@ -2247,7 +2257,8 @@
 }
 10006310 = {
 	name=character_name_10006310 # Ujifusa
-	dynasty=10000063 # Kurokawa
+#	dynasty=10000063 # Kurokawa
+	dynasty_house = "house_shgnt_kurokawa"
 	religion="shinto"
 	culture="southern_oshu"
 	father=10006312
@@ -2260,7 +2271,8 @@
 }
 10006311 = {
 	name=character_name_10006311 # Ujitomo
-	dynasty=10000063 # Kurokawa
+#	dynasty=10000063 # Kurokawa
+	dynasty_house = "house_shgnt_kurokawa"
 	religion="shinto"
 	culture="southern_oshu"
 	father=10006310
@@ -2273,7 +2285,8 @@
 }
 10006312 = {
 	name=character_name_10006312 # Akiuji
-	dynasty=10000063 # Kurokawa
+#	dynasty=10000063 # Kurokawa
+	dynasty_house = "house_shgnt_kurokawa"
 	religion="shinto"
 	culture="southern_oshu"
 	father=10006313
@@ -2286,7 +2299,8 @@
 }
 10006313 = {
 	name=character_name_10006313 # Ujinao
-	dynasty=10000063 # Kurokawa
+#	dynasty=10000063 # Kurokawa
+	dynasty_house = "house_shgnt_kurokawa"
 	religion="shinto"
 	culture="southern_oshu"
 	father=12015002 # Mogami Mitsunao, the 3rd header of the Mogami family.
@@ -2299,7 +2313,8 @@
 }
 10006314 = {
 	name=character_name_10006314 # Ujimoto
-	dynasty=10000063 # Kurokawa
+#	dynasty=10000063 # Kurokawa
+	dynasty_house = "house_shgnt_kurokawa"
 	religion="shinto"
 	culture="southern_oshu"
 	father=10006313
@@ -2312,7 +2327,8 @@
 }
 10006315 = {
 	name=character_name_10006315 # Ujitoki
-	dynasty=10000063 # Kurokawa
+#	dynasty=10000063 # Kurokawa
+	dynasty_house = "house_shgnt_kurokawa"
 	religion="shinto"
 	culture="southern_oshu"
 	father=10006313
@@ -2326,7 +2342,8 @@
 10006316 = {
 	name=character_name_10006316 # Haru
 	female=yes
-	dynasty=10000063 # Kurokawa
+#	dynasty=10000063 # Kurokawa
+	dynasty_house = "house_shgnt_kurokawa"
 	religion="shinto"
 	culture="southern_oshu"
 	father=10006303
@@ -5688,7 +5705,8 @@
 }
 10009700={
 	name=character_name_10009700 # Mototsugu
-	dynasty=10000097 # Hamada
+#	dynasty=10000097 # Hamada
+	dynasty_house = "house_shgnt_date_hamada"
 	father=10006118 # Kasai Shigenobu
 	religion="shinto"
 	culture="southern_oshu"
@@ -5701,7 +5719,8 @@
 }
 10009701={
 	name=character_name_10009701 # Tokitane
-	dynasty=10000097 # Hamada
+#	dynasty=10000097 # Hamada
+	dynasty_house = "house_shgnt_date_hamada"
 	father=10009700 # Hamada Mototsugu
 	religion="shinto"
 	culture="southern_oshu"
@@ -5714,7 +5733,8 @@
 }
 10009702={
 	name=character_name_10009702 # Munetsuna
-	dynasty=10000097 # Hamada
+#	dynasty=10000097 # Hamada
+	dynasty_house = "house_shgnt_date_hamada"
 	father=10009701 # Hamada Tokitane
 	religion="shinto"
 	culture="southern_oshu"
@@ -5727,7 +5747,8 @@
 }
 10009703={
 	name=character_name_10009703 # Hirotsuna
-	dynasty=10000097 # Hamada
+#	dynasty=10000097 # Hamada
+	dynasty_house = "house_shgnt_date_hamada"
 	father=10009701 # Hamada Tokitane
 	religion="shinto"
 	culture="southern_oshu"
@@ -5740,7 +5761,8 @@
 }
 10009704={
 	name=character_name_10009704 # Shigetoshi
-	dynasty=10000097 # Hamada
+#	dynasty=10000097 # Hamada
+	dynasty_house = "house_shgnt_date_hamada"
 	father=10009703 # Hamada Hirotsuna
 	religion="shinto"
 	culture="southern_oshu"
@@ -5755,7 +5777,8 @@
 }
 10009705={
 	name=character_name_10009705 # Shigetaka
-	dynasty=10000097 # Hamada
+#	dynasty=10000097 # Hamada
+	dynasty_house = "house_shgnt_date_hamada"
 	father=10009703 # Hamada Hirotsuna
 	religion="shinto"
 	culture="southern_oshu"
@@ -5768,7 +5791,8 @@
 }
 10009706={
 	name=character_name_10009706 # Nobutsuna
-	dynasty=10000097 # Hamada
+#	dynasty=10000097 # Hamada
+	dynasty_house = "house_shgnt_date_hamada"
 	father=10009703 # Hamada Hirotsuna
 	religion="shinto"
 	culture="southern_oshu"
@@ -5925,7 +5949,8 @@
 }
 10009901={
 	name=character_name_10009901 # Kiyotane
-	dynasty=10000099 # Usuginu
+#	dynasty=10000099 # Usuginu
+	dynasty_house = "house_shgnt_date_usuginu"
 	father=10006118 # Kasai Shigenobu
 	religion="shinto"
 	culture="southern_oshu"
@@ -5938,7 +5963,8 @@
 }
 10009902={
 	name=character_name_10009902 # Kiyosada
-	dynasty=10000099 # Usuginu
+#	dynasty=10000099 # Usuginu
+	dynasty_house = "house_shgnt_date_usuginu"
 	father=10009901 # Usuginu Kiyotane
 	religion="shinto"
 	culture="southern_oshu"
@@ -5951,7 +5977,8 @@
 }
 10009903={
 	name=character_name_10009903 # Nobutane
-	dynasty=10000099 # Usuginu
+#	dynasty=10000099 # Usuginu
+	dynasty_house = "house_shgnt_date_usuginu"
 	father=10009901 # Usuginu Kiyotane
 	religion="shinto"
 	culture="southern_oshu"
@@ -5964,7 +5991,8 @@
 }
 10009904={
 	name=character_name_10009904 # Shigeuji
-	dynasty=10000099 # Usuginu
+#	dynasty=10000099 # Usuginu
+	dynasty_house = "house_shgnt_date_usuginu"
 	father=10009901 # Usuginu Kiyotane
 	religion="shinto"
 	culture="southern_oshu"
@@ -5977,7 +6005,8 @@
 }
 10009905={
 	name=character_name_10009905 # Kiyonao
-	dynasty=10000099 # Usuginu
+#	dynasty=10000099 # Usuginu
+	dynasty_house = "house_shgnt_date_usuginu"
 	father=10009902 # Usuginu Kiyosada
 	religion="shinto"
 	culture="southern_oshu"
@@ -5990,7 +6019,8 @@
 }
 10009906={
 	name=character_name_10009906 # Kiyomasa
-	dynasty=10000099 # Usuginu
+#	dynasty=10000099 # Usuginu
+	dynasty_house = "house_shgnt_date_usuginu"
 	father=10009905 # Usuginu Kiyonao
 	religion="shinto"
 	culture="southern_oshu"
@@ -6003,7 +6033,8 @@
 }
 10009907={
 	name=character_name_10009907 # Kiyonori
-	dynasty=10000099 # Usuginu
+#	dynasty=10000099 # Usuginu
+	dynasty_house = "house_shgnt_date_usuginu"
 	father=10009906 # Usuginu Kiyomasa
 	religion="shinto"
 	culture="southern_oshu"
@@ -6016,7 +6047,8 @@
 }
 10009908={
 	name=character_name_10009908 # Tanekatsu
-	dynasty=10000099 # Usuginu
+#	dynasty=10000099 # Usuginu
+	dynasty_house = "house_shgnt_date_usuginu"
 	father=10009907 # Usuginu Kiyonori
 	religion="shinto"
 	culture="southern_oshu"

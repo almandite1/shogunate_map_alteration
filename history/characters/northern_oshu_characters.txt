@@ -1,6 +1,7 @@
 ﻿10003101 = {
 	name=character_name_10003101 # Yasunobu
-	dynasty=10000031
+	#dynasty=10000031
+	dynasty_house = "house_shgnt_nambu_sannohe"
 	martial=4
 	diplomacy=8
 	intrigue=7
@@ -25,7 +26,8 @@
 }
 10003102 = {
 	name=character_name_10003102 # Harumasa
-	dynasty=10000031
+	#dynasty=10000031
+	dynasty_house = "house_shgnt_nambu_sannohe"
 	martial=8
 	diplomacy=9
 	intrigue=4
@@ -57,7 +59,8 @@
 }
 10003130 = {
 	name=character_name_10003130 # Mitsumasa
-	dynasty=10000031
+	#dynasty=10000031
+	dynasty_house = "house_shgnt_nambu_sannohe"
 	religion="shinto"
 	culture="northern_oshu"
 	trait="education_diplomacy_1"
@@ -71,7 +74,8 @@
 }
 10003131 = {
 	name=character_name_10003131 # Tokimasa
-	dynasty=10000031
+	#dynasty=10000031
+	dynasty_house = "house_shgnt_nambu_sannohe"
 	religion="shinto"
 	culture="northern_oshu"
 	trait="education_diplomacy_1"
@@ -90,7 +94,8 @@
 }
 10003132 = {
 	name=character_name_10003132 # Michitsugu
-	dynasty=10000031
+	#dynasty=10000031
+	dynasty_house = "house_shgnt_nambu_sannohe"
 	religion="shinto"
 	culture="northern_oshu"
 	trait="education_diplomacy_1"
@@ -109,7 +114,8 @@
 }
 10003133 = {
 	name=character_name_10003133 # Nobutoki
-	dynasty=10000031
+	#dynasty=10000031
+	dynasty_house = "house_shgnt_nambu_sannohe"
 	religion="shinto"
 	culture="northern_oshu"
 	trait="education_diplomacy_1"
@@ -128,7 +134,8 @@
 }
 10003134 = {
 	name=character_name_10003134 # Nobuyoshi
-	dynasty=10000031
+	#dynasty=10000031
+	dynasty_house = "house_shgnt_nambu_sannohe"
 	religion="shinto"
 	culture="northern_oshu"
 	trait="education_intrigue_1"
@@ -147,7 +154,8 @@
 }
 10003135 = {
 	name=character_name_10003135 # Masayasu
-	dynasty=10000031
+	#dynasty=10000031
+	dynasty_house = "house_shgnt_nambu_sannohe"
 	religion="shinto"
 	culture="northern_oshu"
 	trait="education_diplomacy_1"
@@ -166,7 +174,8 @@
 }
 10003136 = {
 	name=character_name_10003136 # Takanobu # Ishikawa Takanobu
-	dynasty=10000031
+	#dynasty=10000031
+	dynasty_house = "house_shgnt_nambu_sannohe"
 	martial=9
 	diplomacy=8
 	intrigue=8
@@ -183,7 +192,8 @@
 		birth=yes
 	}
 	1530.1.1 = {
-		dynasty = 10000044
+		#dynasty = 10000044
+		dynasty_house = "house_shgnt_nambu_ishikawa"
 	}
 	1571.5.28 = {
 		death=yes
@@ -191,7 +201,8 @@
 }
 10003137 = {
 	name=character_name_10003137 # Nagayoshi # Minami Nagayoshi
-	dynasty=10000031
+	#dynasty=10000031
+	dynasty_house = "house_shgnt_nambu_sannohe"
 	religion="shinto"
 	culture="northern_oshu"
 	trait="education_diplomacy_1"
@@ -200,7 +211,8 @@
 		birth=yes
 	}
 	1530.1.1 = {
-		dynasty = 10000045
+		#dynasty = 10000045
+		dynasty_house = "house_shgnt_nambu_minami"
 	}
 	1560.1.1 = {
 		death=yes
@@ -208,7 +220,8 @@
 }
 10003138 = {
 	name=character_name_10003138 # Nobufusa # Ishigame Nobufusa
-	dynasty=10000031
+	#dynasty=10000031
+	dynasty_house = "house_shgnt_nambu_sannohe"
 	religion="shinto"
 	culture="northern_oshu"
 	trait="education_intrigue_1"
@@ -217,7 +230,8 @@
 		birth=yes
 	}
 	1530.1.1 = {
-		dynasty = 10000046
+		#dynasty = 10000046
+		dynasty_house = "house_shgnt_nambu_ishigame"
 	}
 	1583.1.1 = {
 		death=yes
@@ -225,7 +239,8 @@
 }
 10003139 = {
 	name=character_name_10003139 # Hidenori # Kemanai Hidenori
-	dynasty=10000031
+	#dynasty=10000031
+	dynasty_house = "house_shgnt_nambu_sannohe"
 	religion="shinto"
 	culture="northern_oshu"
 	trait="education_diplomacy_1"
@@ -234,7 +249,8 @@
 		birth=yes
 	}
 	1530.1.1 = {
-		dynasty = 10000047 # Kemanai
+		#dynasty = 10000047 # Kemanai
+		dynasty_house = "house_shgnt_nambu_kemanai"
 	}
 	1585.1.1 = {
 		death=yes
@@ -242,7 +258,8 @@
 }
 10003140 = {
 	name=character_name_10003140 # Munechika # Kita Munechika
-	dynasty=10000048
+#	dynasty=10000048 # Kita
+	dynasty_house = "house_shgnt_nambu_kita"
 	religion="shinto"
 	culture="northern_oshu"
 	trait="education_intrigue_1"
@@ -256,7 +273,8 @@
 }
 10003141 = {
 	name=character_name_10003141 # Nobuchika # Kita Nobuchika
-	dynasty=10000048
+#	dynasty=10000048 # Kita
+	dynasty_house = "house_shgnt_nambu_kita"
 	martial=8
 	diplomacy=9
 	intrigue=8
@@ -278,7 +296,8 @@
 }
 10003142 = {
 	name=character_name_10003142 # Chikakazu # Kita Chikakazu
-	dynasty=10000048
+#	dynasty=10000048 # Kita
+	dynasty_house = "house_shgnt_nambu_kita"
 	religion="shinto"
 	culture="northern_oshu"
 	father=10003140 # TODO : The father, ID 10003140, died 8784 days before this character was born, which is more than the limit of 300 days.
@@ -291,7 +310,8 @@
 }
 10003143 = {
 	name=character_name_10003143 # Hidechika # Kita Hidechika
-	dynasty=10000048
+#	dynasty=10000048 # Kita
+	dynasty_house = "house_shgnt_nambu_kita"
 	religion="shinto"
 	culture="northern_oshu"
 	father=10003140 # TODO : The father, ID 10003140, died 8784 days before this character was born, which is more than the limit of 300 days.
@@ -304,7 +324,8 @@
 }
 10003144 = {
 	name=character_name_10003144 # Naotsugu # Kita Naotsugu
-	dynasty=10000048
+#	dynasty=10000048 # Kita
+	dynasty_house = "house_shgnt_nambu_kita"
 	religion="shinto"
 	culture="northern_oshu"
 	father=10003140 # TODO : The father, ID 10003140, died 8784 days before this character was born, which is more than the limit of 300 days.
@@ -317,7 +338,8 @@
 }
 10003145 = {
 	name=character_name_10003145 # Chikakuni # Kita Chikakuni
-	dynasty=10000048
+#	dynasty=10000048 # Kita
+	dynasty_house = "house_shgnt_nambu_kita"
 	religion="shinto"
 	culture="northern_oshu"
 	father=10003140 # TODO : The father, ID 10003140, died 8784 days before this character was born, which is more than the limit of 300 days.
@@ -330,7 +352,8 @@
 }
 10003146 = {
 	name=character_name_10003146 # Chikahisa # Kita Chikahisa
-	dynasty=10000048
+#	dynasty=10000048 # Kita
+	dynasty_house = "house_shgnt_nambu_kita"
 	religion="shinto"
 	culture="northern_oshu"
 	father=10003140 # TODO : The father, ID 10003140, died 8784 days before this character was born, which is more than the limit of 300 days.
@@ -343,7 +366,8 @@
 }
 10003147 = {
 	name=character_name_10003147 # Nobukage # Kita Nobukage
-	dynasty=10000048
+#	dynasty=10000048 # Kita
+	dynasty_house = "house_shgnt_nambu_kita"
 	religion="shinto"
 	culture="northern_oshu"
 	father=10003140 # TODO : The father, ID 10003140, died 8784 days before this character was born, which is more than the limit of 300 days.
@@ -356,7 +380,8 @@
 }
 10003148 = {
 	name=character_name_10003148 # Naochika # Kita Naochika
-	dynasty=10000048
+#	dynasty=10000048 # Kita
+	dynasty_house = "house_shgnt_nambu_kita"
 	religion="shinto"
 	culture="northern_oshu"
 	father=10003142
@@ -369,7 +394,8 @@
 }
 10003149 = {
 	name=character_name_10003149 # Chikakoto # Kita Chikakoto
-	dynasty=10000048
+#	dynasty=10000048 # Kita
+	dynasty_house = "house_shgnt_nambu_kita"
 	religion="shinto"
 	culture="northern_oshu"
 	father=10003142
@@ -382,7 +408,8 @@
 }
 10003150 = {
 	name=character_name_10003150 # Masatsugu # Kemanai Masatsugu
-	dynasty=10000047 # Kemanai
+	#dynasty=10000047 # Kemanai
+	dynasty_house = "house_shgnt_nambu_kemanai"
 	religion="shinto"
 	culture="northern_oshu"
 	trait="education_diplomacy_1"
@@ -396,7 +423,8 @@
 }
 10003151 = {
 	name=character_name_10003151 # Harutsugu
-	dynasty=10000031
+	#dynasty=10000031
+	dynasty_house = "house_shgnt_nambu_sannohe"
 	religion="shinto"
 	culture="northern_oshu"
 	father=10003102
@@ -410,7 +438,8 @@
 10003152 = {
 	name=character_name_10003152 # Haru
 	female=yes
-	dynasty=10000031
+	#dynasty=10000031
+	dynasty_house = "house_shgnt_nambu_sannohe"
 	religion="shinto"
 	culture="northern_oshu"
 	father=10003102
@@ -424,7 +453,8 @@
 10003153 = {
 	name=character_name_10003153 # Toki
 	female=yes
-	dynasty=10000031
+	#dynasty=10000031
+	dynasty_house = "house_shgnt_nambu_sannohe"
 	religion="shinto"
 	culture="northern_oshu"
 	father=10003102
@@ -437,7 +467,8 @@
 }
 10003154 = {
 	name=character_name_10003154 # Nobunao
-	dynasty=10000044
+	#dynasty=10000044
+	dynasty_house = "house_shgnt_nambu_ishikawa"
 	religion="shinto"
 	culture="northern_oshu"
 	martial=8
@@ -458,7 +489,8 @@
 		give_nickname="nick_kuro"
 	}
 	1565.1.1 = {
-		dynasty = 10000031
+		#dynasty = 10000031
+		dynasty_house = "house_shgnt_nambu_sannohe"
 		add_spouse = 10003152
 		effect = {
 			set_father = character:10003102
@@ -477,7 +509,8 @@
 }
 10003155 = {
 	name=character_name_10003155 # Masanobu
-	dynasty=10000044 # Ishikawa
+	#dynasty=10000044 # Ishikawa
+	dynasty_house = "house_shgnt_nambu_ishikawa"
 	religion="shinto"
 	culture="northern_oshu"
 	father=10003136
@@ -490,7 +523,8 @@
 }
 10003156 = {
 	name=character_name_10003156 # Toshinao
-	dynasty=10000031
+	#dynasty=10000031
+	dynasty_house = "house_shgnt_nambu_sannohe"
 	religion="shinto"
 	culture="northern_oshu"
 	trait="education_stewardship_3"
@@ -505,7 +539,8 @@
 10003157 = {
 	name=character_name_10003157 # Chiyo
 	female=yes
-	dynasty=10000031
+	#dynasty=10000031
+	dynasty_house = "house_shgnt_nambu_sannohe"
 	religion="shinto"
 	culture="northern_oshu"
 	father=10003154
@@ -519,7 +554,8 @@
 10003158 = {
 	name=character_name_10003158 # Sue
 	female=yes
-	dynasty=10000031
+	#dynasty=10000031
+	dynasty_house = "house_shgnt_nambu_sannohe"
 	religion="shinto"
 	culture="northern_oshu"
 	father=10003154
@@ -532,7 +568,8 @@
 }
 10003159 = {
 	name=character_name_10003159 # Nobuzane
-	dynasty=10000031
+	#dynasty=10000031
+	dynasty_house = "house_shgnt_nambu_sannohe"
 	religion="shinto"
 	culture="northern_oshu"
 	father=10003131
@@ -545,7 +582,8 @@
 }
 10003160 = {
 	name=character_name_10003160 # Nobumasa
-	dynasty=10000031
+	#dynasty=10000031
+	dynasty_house = "house_shgnt_nambu_sannohe"
 	religion="shinto"
 	culture="northern_oshu"
 	father=10003159
@@ -558,7 +596,8 @@
 }
 10003161 = {
 	name=character_name_10003161 # Masatsugu
-	dynasty=10000031
+	#dynasty=10000031
+	dynasty_house = "house_shgnt_nambu_sannohe"
 	religion="shinto"
 	culture="northern_oshu"
 	father=10003160
@@ -571,7 +610,8 @@
 }
 10003162 = {
 	name=character_name_10003162 # Harutsugu
-	dynasty=10000031
+	#dynasty=10000031
+	dynasty_house = "house_shgnt_nambu_sannohe"
 	religion="shinto"
 	culture="northern_oshu"
 	father=10003161
@@ -584,7 +624,8 @@
 }
 10003163 = {
 	name=character_name_10003163 # Haruyoshi
-	dynasty=10000031
+	#dynasty=10000031
+	dynasty_house = "house_shgnt_nambu_sannohe"
 	religion="shinto"
 	culture="northern_oshu"
 	father=10003162
@@ -597,7 +638,8 @@
 }
 10003164 = {
 	name=character_name_10003164 # Nobuyoshi
-	dynasty=10000031
+	#dynasty=10000031
+	dynasty_house = "house_shgnt_nambu_sannohe"
 	religion="shinto"
 	culture="northern_oshu"
 	father=10003163
@@ -610,7 +652,8 @@
 }
 10003165 = {
 	name=character_name_10003165 # Tamenobu # Tsugaru Tamenobu
-	dynasty=10000031 # Nanbu
+	#dynasty=10000031 # Nanbu
+	dynasty_house = "house_shgnt_nambu_sannohe"
 	religion="shinto"
 	culture="northern_oshu"
 	martial=9
@@ -625,7 +668,8 @@
 		birth=yes
 	}
 	1567.1.1 = {
-		dynasty=10000033 # Oura
+		#dynasty=10000033 # Oura
+		dynasty_house = "house_shgnt_nambu_oura"
 		effect = {
 			set_father = character:10003301
 			set_real_father = character:10003163
@@ -638,7 +682,8 @@
 }
 10003166 = {
 	name=character_name_10003166 # Naoharu
-	dynasty=10000031
+	#dynasty=10000031
+	dynasty_house = "house_shgnt_nambu_sannohe"
 	religion="shinto"
 	culture="northern_oshu"
 	father=10003164
@@ -819,7 +864,8 @@
 }
 10003350={
 	name=character_name_10003350 # Nobutake
-	dynasty=10000033 # Oura
+#	dynasty=10000033 # Oura
+	dynasty_house = "house_shgnt_nambu_oura"
 	father=10003165 # Oura Tamenobu
 	religion="shinto"
 	culture="northern_oshu"
@@ -833,7 +879,8 @@
 }
 10003351={
 	name=character_name_10003351 # Nobukata
-	dynasty=10000033 # Oura
+#	dynasty=10000033 # Oura
+	dynasty_house = "house_shgnt_nambu_oura"
 	father=10003165 # Oura Tamenobu
 	religion="shinto"
 	culture="northern_oshu"
@@ -846,7 +893,8 @@
 }
 10003352={
 	name=character_name_10003352 # Nobuhira
-	dynasty=10000033 # Oura
+#	dynasty=10000033 # Oura
+	dynasty_house = "house_shgnt_nambu_oura"
 	father=10003165 # Oura Tamenobu
 	religion="shinto"
 	culture="northern_oshu"
@@ -860,7 +908,8 @@
 10003353={
 	name=character_name_10003353 # Tomi
 	female=yes
-	dynasty=10000033 # Oura
+#	dynasty=10000033 # Oura
+	dynasty_house = "house_shgnt_nambu_oura"
 	father=10003165 # Oura Tamenobu
 	religion="shinto"
 	culture="northern_oshu"
@@ -1131,7 +1180,8 @@
 }
 10003301 = {
 	name=character_name_10003301 # Tamenori
-	dynasty=10000033 # Oura
+#	dynasty=10000033 # Oura
+	dynasty_house = "house_shgnt_nambu_oura"
 	martial=3
 	diplomacy=4
 	intrigue=6
@@ -1150,7 +1200,8 @@
 }
 10003302 = {
 	name=character_name_10003302 # Masanobu
-	dynasty=10000033 # Oura
+#	dynasty=10000033 # Oura
+	dynasty_house = "house_shgnt_nambu_oura"
 	father=10003305 # Oura Mitsunobu
 	martial=7
 	diplomacy=2
@@ -1207,7 +1258,8 @@
 		birth=yes
 	}
 	1491.1.1 = {
-		dynasty=10000033 # Oura
+	#	dynasty=10000033 # Oura
+	dynasty_house = "house_shgnt_nambu_oura"
 	}
 	1526.11.12={
 		death=yes
@@ -1223,7 +1275,8 @@
 		birth=yes
 	}
 	1491.1.1 = {
-		dynasty=10000033 # Oura
+	#	dynasty=10000033 # Oura
+	dynasty_house = "house_shgnt_nambu_oura"
 	}
 	1538.10.18={
 		death=yes
@@ -1634,7 +1687,8 @@
 }
 10004901={
 	name=character_name_10004901 # Morimasa
-	dynasty=10000049 # Niida
+#	dynasty=10000049 # Niida
+	dynasty_house = "house_shgnt_nambu_niida"
 	father=12040326 # Niida Kiyotsugu
 	religion="shinto"
 	culture="northern_oshu"
@@ -1647,7 +1701,8 @@
 }
 10004902={
 	name=character_name_10004902 # Yukimasa
-	dynasty=10000049 # Niida
+#	dynasty=10000049 # Niida
+	dynasty_house = "house_shgnt_nambu_niida"
 	father=10004901 # Niida Morimasa
 	religion="shinto"
 	culture="northern_oshu"
@@ -1660,7 +1715,8 @@
 }
 10004903={
 	name=character_name_10004903 # Masayoshi
-	dynasty=10000049 # Niida
+#	dynasty=10000049 # Niida
+	dynasty_house = "house_shgnt_nambu_niida"
 	father=10004902 # Niida Yukimasa
 	religion="shinto"
 	culture="northern_oshu"
@@ -1678,7 +1734,8 @@
 		birth=yes
 	}
 	1548.1.1={
-		dynasty=10000050 # Hachinohe
+		#dynasty=10000050 # Hachinohe
+		dynasty_house = "house_shgnt_nambu_hachinohe2"
 		effect = {
 			set_father = character:10005004
 			set_real_father = character:10004902
@@ -1691,7 +1748,8 @@
 }
 10004904={
 	name=character_name_10004904 # Masamori
-	dynasty=10000049 # Niida
+#	dynasty=10000049 # Niida
+	dynasty_house = "house_shgnt_nambu_niida"
 	father=10004902 # Niida Yukimasa
 	religion="shinto"
 	culture="northern_oshu"
@@ -1704,7 +1762,8 @@
 }
 10004905={
 	name=character_name_10004905 # Naoyoshi
-	dynasty=10000050 # Hachinohe
+#	dynasty=10000050 # Hachinohe
+	dynasty_house = "house_shgnt_nambu_hachinohe2"
 	father=10004903 # Hachinohe Masayoshi
 	religion="shinto"
 	culture="northern_oshu"
@@ -1717,7 +1776,8 @@
 }
 10004906={
 	name=character_name_10004906 # Naomasa
-	dynasty=10000050 # Hachinohe
+#	dynasty=10000050 # Hachinohe
+	dynasty_house = "house_shgnt_nambu_hachinohe2"
 	father=10004903 # Hachinohe Masayoshi
 	religion="shinto"
 	culture="northern_oshu"
@@ -1730,7 +1790,8 @@
 }
 10005001={
 	name=character_name_10005001 # Nobunaga
-	dynasty=10000050 # Hachinohe
+#	dynasty=10000050 # Hachinohe
+	dynasty_house = "house_shgnt_nambu_hachinohe2"
 	father=12040325 # Hachinohe Masatsune
 	religion="shinto"
 	culture="northern_oshu"
@@ -1743,7 +1804,8 @@
 }
 10005002={
 	name=character_name_10005002 # Haruyoshi
-	dynasty=10000050 # Hachinohe
+#	dynasty=10000050 # Hachinohe
+	dynasty_house = "house_shgnt_nambu_hachinohe2"
 	father=10005001 # Hachinohe Nobunaga
 	religion="shinto"
 	culture="northern_oshu"
@@ -1756,7 +1818,8 @@
 }
 10005003={
 	name=character_name_10005003 # Yoshitsugu
-	dynasty=10000050 # Hachinohe
+#	dynasty=10000050 # Hachinohe
+	dynasty_house = "house_shgnt_nambu_hachinohe2"
 	father=10005002 # Hachinohe Haruyoshi
 	religion="shinto"
 	culture="northern_oshu"
@@ -1770,7 +1833,8 @@
 }
 10005004={
 	name=character_name_10005004 # Katsuyoshi
-	dynasty=10000050 # Hachinohe
+#	dynasty=10000050 # Hachinohe
+	dynasty_house = "house_shgnt_nambu_hachinohe2"
 	father=10005002 # Hachinohe Haruyoshi
 	religion="shinto"
 	culture="northern_oshu"

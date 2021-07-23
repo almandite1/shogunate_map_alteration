@@ -467,7 +467,8 @@
 		birth=yes
 	}
 	1368.1.1={
-		dynasty=10000009 # Tendo
+		#dynasty=10000009 # Tendo
+		dynasty_house = "house_shgnt_tendo"
 	}
 	1408.1.1={
 		death=yes
@@ -574,7 +575,8 @@
 		birth=yes
 	}
 	1433.1.1={
-		dynasty=10000013 # Tateoka
+		#dynasty=10000013 # Tateoka
+		dynasty_house = "house_shgnt_tateoka"
 	}
 	1433.1.1={
 		give_nickname="nick_iyo_no_kami"
@@ -836,7 +838,8 @@
 }
 12015100={
 	name=character_name_12015100 # Mitsumasa
-	dynasty=10000013 # Tateoka
+#	dynasty=10000013 # Tateoka
+	dynasty_house = "house_shgnt_tateoka"
 	father=12015011 # Tateoka Mitsukuni
 	religion="shinto"
 	culture="dewa"
@@ -852,7 +855,8 @@
 }
 12015101={
 	name=character_name_12015101 # Yoriie
-	dynasty=10000013 # Tateoka
+#	dynasty=10000013 # Tateoka
+	dynasty_house = "house_shgnt_tateoka"
 	father=12015011 # Tateoka Mitsukuni
 	religion="shinto"
 	culture="dewa"
@@ -865,7 +869,8 @@
 }
 12015102={
 	name=character_name_12015102 # Mitsutsugu
-	dynasty=10000013 # Tateoka
+#	dynasty=10000013 # Tateoka
+	dynasty_house = "house_shgnt_tateoka"
 	father=12015100 # Tateoka Mitsumasa
 	religion="shinto"
 	culture="dewa"
@@ -881,7 +886,8 @@
 }
 12015103={
 	name=character_name_12015103 # Mitsuharu
-	dynasty=10000013 # Tateoka
+#	dynasty=10000013 # Tateoka
+	dynasty_house = "house_shgnt_tateoka"
 	father=12015102 # Tateoka Mitsutsugu
 	religion="shinto"
 	culture="dewa"
@@ -897,7 +903,8 @@
 }
 12015104={
 	name=character_name_12015104 # Mitsuyasu
-	dynasty=10000013 # Tateoka
+#	dynasty=10000013 # Tateoka
+	dynasty_house = "house_shgnt_tateoka"
 	father=12015103 # Tateoka Mitsuharu
 	religion="shinto"
 	culture="dewa"
@@ -913,7 +920,8 @@
 }
 12015105={
 	name=character_name_12015105 # Mitsuhide
-	dynasty=10000013 # Tateoka
+#	dynasty=10000013 # Tateoka
+	dynasty_house = "house_shgnt_tateoka"
 	father=12015104 # Tateoka Mitsuyasu
 	religion="shinto"
 	culture="dewa"
@@ -931,7 +939,8 @@
 }
 12015120={
 	name=character_name_12015120 # Ieyasu
-	dynasty=10000013 # Tateoka
+#	dynasty=10000013 # Tateoka
+	dynasty_house = "house_shgnt_tateoka"
 	father=12015101 # Tateoka Yoriie
 	religion="shinto"
 	culture="dewa"
@@ -944,7 +953,8 @@
 }
 12015121={
 	name=character_name_12015121 # Mitsumune
-	dynasty=10000013 # Tateoka
+#	dynasty=10000013 # Tateoka
+	dynasty_house = "house_shgnt_tateoka"
 	father=12015120 # Tateoka Ieyasu
 	religion="shinto"
 	culture="dewa"
@@ -957,7 +967,8 @@
 }
 12015122={
 	name=character_name_12015122 # Mitsunaga
-	dynasty=10000013 # Tateoka
+#	dynasty=10000013 # Tateoka
+	dynasty_house = "house_shgnt_tateoka"
 	father=12015120 # Tateoka Ieyasu
 	religion="shinto"
 	culture="dewa"
@@ -970,7 +981,8 @@
 }
 12015130={
 	name=character_name_12015130 # Yoshikuni
-	dynasty=10000013 # Tateoka
+#	dynasty=10000013 # Tateoka
+	dynasty_house = "house_shgnt_tateoka"
 	father=12015122 # Tateoka Mitsunaga
 	religion="shinto"
 	culture="dewa"
@@ -983,7 +995,8 @@
 }
 12015131={
 	name=character_name_12015131 # Yoshisuke
-	dynasty=10000013 # Tateoka
+#	dynasty=10000013 # Tateoka
+	dynasty_house = "house_shgnt_tateoka"
 	father=12015130 # Tateoka Yoshikuni
 	religion="shinto"
 	culture="dewa"
@@ -996,7 +1009,8 @@
 }
 12015132={
 	name=character_name_12015132 # Yoshisato
-	dynasty=10000013 # Tateoka
+#	dynasty=10000013 # Tateoka
+	dynasty_house = "house_shgnt_tateoka"
 	father=12015131 # Tateoka Yoshisuke
 	religion="shinto"
 	culture="dewa"
@@ -1009,7 +1023,8 @@
 }
 12015140={
 	name=character_name_12015140 # Yoshisuke
-	dynasty=10000014 # Narisawa
+#	dynasty=10000014 # Narisawa
+	dynasty_house = "house_shgnt_narisawa"
 	father=12015030 # Narisawa Yoshifusa
 	religion="shinto"
 	culture="dewa"
@@ -1025,7 +1040,8 @@
 }
 12015141={
 	name=character_name_12015141 # Yoshikiyo
-	dynasty=10000014 # Narisawa
+#	dynasty=10000014 # Narisawa
+	dynasty_house = "house_shgnt_narisawa"
 	father=12015140 # Narisawa Yoshisuke
 	religion="shinto"
 	culture="dewa"
@@ -1038,7 +1054,8 @@
 }
 12015150={
 	name=character_name_12015150 # Mitsuhisa
-	dynasty=10000008 # Shimizu
+#	dynasty=10000008 # Shimizu
+	dynasty_house = "house_shgnt_shiba_shimizu"
 	father=12015006 # Mogami Kaneyoshi
 	religion="shinto"
 	culture="dewa"
@@ -1054,7 +1071,8 @@
 }
 12015151={
 	name=character_name_12015151 # Yoshihisa
-	dynasty=10000008 # Shimizu
+#	dynasty=10000008 # Shimizu
+	dynasty_house = "house_shgnt_shiba_shimizu"
 	father=12015150 # Shimizu Mitsuhisa
 	religion="shinto"
 	culture="dewa"
@@ -1067,7 +1085,8 @@
 }
 12015152={
 	name=character_name_12015152 # Yoshisue
-	dynasty=10000008 # Shimizu
+#	dynasty=10000008 # Shimizu
+	dynasty_house = "house_shgnt_shiba_shimizu"
 	father=12015151 # Shimizu Yoshihisa
 	religion="shinto"
 	culture="dewa"
@@ -1080,7 +1099,8 @@
 }
 12015153={
 	name=character_name_12015153 # Yoshinori
-	dynasty=10000008 # Shimizu
+#	dynasty=10000008 # Shimizu
+	dynasty_house = "house_shgnt_shiba_shimizu"
 	father=12015152 # Shimizu Yoshisue
 	religion="shinto"
 	culture="dewa"
@@ -1093,7 +1113,8 @@
 }
 12015200={
 	name=character_name_12015200 # Yorikatsu
-	dynasty=10000009 # Tendo
+#	dynasty=10000009 # Tendo
+	dynasty_house = "house_shgnt_tendo"
 	father=12015003 # Tendo Yorinao
 	religion="shinto"
 	culture="dewa"
@@ -1109,7 +1130,8 @@
 }
 12015201={
 	name=character_name_12015201 # Yoriyasu
-	dynasty=10000009 # Tendo
+#	dynasty=10000009 # Tendo
+	dynasty_house = "house_shgnt_tendo"
 	father=12015003 # Tendo Yorinao
 	religion="shinto"
 	culture="dewa"
@@ -1122,7 +1144,8 @@
 }
 12015202={
 	name=character_name_12015202 # Mitsunaga
-	dynasty=10000009 # Tendo
+#	dynasty=10000009 # Tendo
+	dynasty_house = "house_shgnt_tendo"
 	father=12015003 # Tendo Yorinao
 	religion="shinto"
 	culture="dewa"
@@ -1135,7 +1158,8 @@
 }
 12015203={
 	name=character_name_12015203 # Yoritaka
-	dynasty=10000009 # Tendo
+#	dynasty=10000009 # Tendo
+	dynasty_house = "house_shgnt_tendo"
 	father=12015003 # Tendo Yorinao
 	religion="shinto"
 	culture="dewa"
@@ -1148,7 +1172,8 @@
 }
 12015204={
 	name=character_name_12015204 # Yoritane
-	dynasty=10000009 # Tendo
+#	dynasty=10000009 # Tendo
+	dynasty_house = "house_shgnt_tendo"
 	father=12015003 # Tendo Yorinao
 	religion="shinto"
 	culture="dewa"
@@ -1161,7 +1186,8 @@
 }
 12015205={
 	name=character_name_12015205 # Yorimoto
-	dynasty=10000009 # Tendo
+#	dynasty=10000009 # Tendo
+	dynasty_house = "house_shgnt_tendo"
 	father=12015201 # Tendo Yoriyasu
 	religion="shinto"
 	culture="dewa"
@@ -1174,7 +1200,8 @@
 }
 12015206={
 	name=character_name_12015206 # Yoriuji
-	dynasty=10000009 # Tendo
+#	dynasty=10000009 # Tendo
+	dynasty_house = "house_shgnt_tendo"
 	father=12015205 # Tendo Yorimoto
 	religion="shinto"
 	culture="dewa"
@@ -1187,7 +1214,8 @@
 }
 12015207={
 	name=character_name_12015207 # Yorishige
-	dynasty=10000009 # Tendo
+#	dynasty=10000009 # Tendo
+	dynasty_house = "house_shgnt_tendo"
 	father=12015206 # Tendo Yoriuji
 	religion="shinto"
 	culture="dewa"
@@ -1200,7 +1228,8 @@
 }
 12015208={
 	name=character_name_12015208 # Yorihisa
-	dynasty=10000009 # Tendo
+#	dynasty=10000009 # Tendo
+	dynasty_house = "house_shgnt_tendo"
 	father=12015206 # Tendo Yoriuji
 	religion="shinto"
 	culture="dewa"
@@ -1213,7 +1242,8 @@
 }
 12015209={
 	name=character_name_12015209 # Yorimichi
-	dynasty=10000009 # Tendo
+#	dynasty=10000009 # Tendo
+	dynasty_house = "house_shgnt_tendo"
 	father=12015208 # Tendo Yorihisa
 	religion="shinto"
 	culture="dewa"

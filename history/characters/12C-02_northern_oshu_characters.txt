@@ -1161,6 +1161,9 @@
 	1222.1.1 = {
 		birth=yes
 	}
+	1242.01.01 = {
+		dynasty_house = "house_shgnt_nambu_hakii"
+	}
 	1297.10.19 = {
 		death=yes
 	}
@@ -1287,6 +1290,9 @@
 	1263.1.1 = {
 		birth=yes
 	}
+	1283.01.01 = {
+		dynasty_house = "house_shgnt_nambu_sannohe"
+	}
 	1292.6.13 = {
 		death=yes
 	}
@@ -1301,13 +1307,17 @@
 	1280.1.1 = {
 		birth=yes
 	}
+	1283.01.01 = {
+		dynasty_house = "house_shgnt_nambu_sannohe"
+	}
 	1345.1.1 = {
 		death=yes
 	}
 }
 12040151={
 	name=character_name_12040151 # Muneyuki
-	dynasty=10000031 # Nanbu
+	#dynasty=10000031 # Nanbu
+	dynasty_house = "house_shgnt_nambu_sannohe"
 	father=12040125 # Nanbu Yoshimoto
 	religion="shinto"
 	culture="koshin"
@@ -1320,7 +1330,8 @@
 }
 12040152={
 	name=character_name_12040152 # Sukeyuki
-	dynasty=10000031 # Nanbu
+	#dynasty=10000031 # Nanbu
+	dynasty_house = "house_shgnt_nambu_sannohe"
 	father=12040125 # Nanbu Yoshimoto
 	religion="shinto"
 	culture="koshin"
@@ -1353,8 +1364,14 @@
 	1290.1.1={
 		birth=yes
 	}
+	1333.01.01 = {
+		dynasty_house = "house_shgnt_nambu_hachinohe"
+	}
 	1338.6.10={
-		death=yes
+		death={
+			death_reason = death_battle
+			#killer = # 高師直, 石津の戦い
+		}
 	}
 }
 12040156={
@@ -1366,13 +1383,17 @@
 	1295.1.1={
 		birth=yes
 	}
+	1338.6.10 = {
+		dynasty_house = "house_shgnt_nambu_hachinohe"
+	}
 	1360.1.1={
 		death=yes
 	}
 }
 12040160 = {
 	name=character_name_12040160 # Yoshihige
-	dynasty=10000031
+	#dynasty=10000031
+	dynasty_house = "house_shgnt_nambu_sannohe"
 	religion="shinto"
 	culture="northern_oshu"
 	trait="education_martial_1"
@@ -1386,7 +1407,8 @@
 }
 12040161 = {
 	name=character_name_12040161 # Shigetoki
-	dynasty=10000031
+	#dynasty=10000031
+	dynasty_house = "house_shgnt_nambu_sannohe"
 	religion="shinto"
 	culture="northern_oshu"
 	trait="education_martial_1"
@@ -1400,7 +1422,8 @@
 }
 12040162 = {
 	name=character_name_12040162 # Nobunaga
-	dynasty=10000031
+	#dynasty=10000031
+	dynasty_house = "house_shgnt_nambu_sannohe"
 	religion="shinto"
 	culture="northern_oshu"
 	trait="education_diplomacy_1"
@@ -1419,7 +1442,8 @@
 }
 12040163 = {
 	name=character_name_12040163 # Tameshige
-	dynasty=10000031
+	#dynasty=10000031
+	dynasty_house = "house_shgnt_nambu_sannohe"
 	religion="shinto"
 	culture="northern_oshu"
 	trait="education_diplomacy_1"
@@ -1433,7 +1457,8 @@
 }
 12040164 = {
 	name=character_name_12040164 # Sukenaga
-	dynasty=10000031
+	#dynasty=10000031
+	dynasty_house = "house_shgnt_nambu_sannohe"
 	religion="shinto"
 	culture="northern_oshu"
 	trait="education_intrigue_1"
@@ -1447,7 +1472,8 @@
 }
 12040165 = {
 	name=character_name_12040165 # Nobuiki
-	dynasty=10000031
+	#dynasty=10000031
+	dynasty_house = "house_shgnt_nambu_sannohe"
 	religion="shinto"
 	culture="northern_oshu"
 	trait="education_diplomacy_1"
@@ -1461,7 +1487,8 @@
 }
 12040180 = {
 	name=character_name_12040180 # Masayuki
-	dynasty=10000031
+	#dynasty=10000031
+	dynasty_house = "house_shgnt_nambu_sannohe"
 	religion="shinto"
 	culture="northern_oshu"
 	trait="education_diplomacy_2"
@@ -1475,7 +1502,8 @@
 }
 12040190 = {
 	name=character_name_12040190 # Moriyuki
-	dynasty=10000031
+	#dynasty=10000031
+	dynasty_house = "house_shgnt_nambu_sannohe"
 	religion="shinto"
 	culture="northern_oshu"
 	trait="education_intrigue_2"
@@ -1491,7 +1519,8 @@
 }
 12040200 = {
 	name=character_name_12040200 # Yoshimasa
-	dynasty=10000031
+	#dynasty=10000031
+	dynasty_house = "house_shgnt_nambu_sannohe"
 	religion="shinto"
 	culture="northern_oshu"
 	trait="education_intrigue_1"
@@ -1505,7 +1534,8 @@
 }
 12040201 = {
 	name=character_name_12040201 # Masamori
-	dynasty=10000031
+	#dynasty=10000031
+	dynasty_house = "house_shgnt_nambu_sannohe"
 	religion="shinto"
 	culture="northern_oshu"
 	trait="education_diplomacy_1"
@@ -1519,7 +1549,8 @@
 }
 12040202 = {
 	name=character_name_12040202 # Sukemasa
-	dynasty=10000031
+	#dynasty=10000031
+	dynasty_house = "house_shgnt_nambu_sannohe"
 	religion="shinto"
 	culture="northern_oshu"
 	trait="education_diplomacy_1"
@@ -1533,7 +1564,8 @@
 }
 12040203 = {
 	name=character_name_12040203 # Yukinaga
-	dynasty=10000031
+	#dynasty=10000031
+	dynasty_house = "house_shgnt_nambu_sannohe"
 	religion="shinto"
 	culture="northern_oshu"
 	trait="education_intrigue_1"
@@ -1547,7 +1579,8 @@
 }
 12040210={
 	name=character_name_12040210 # Sanetsugu
-	dynasty=10000031 # Nanbu
+	#dynasty=10000031 # Nanbu
+	dynasty_house = "house_shgnt_nambu_hakii"
 	father=12040102 # Nanbu Sanenaga
 	religion="shinto"
 	culture="koshin"
@@ -1560,7 +1593,8 @@
 }
 12040215={
 	name=character_name_12040215 # Nagatsugu
-	dynasty=10000031 # Nanbu
+	#dynasty=10000031 # Nanbu
+	dynasty_house = "house_shgnt_nambu_hakii"
 	father=12040210 # Nanbu Sanetsugu
 	religion="shinto"
 	culture="koshin"
@@ -1580,13 +1614,17 @@
 	1320.1.1={
 		birth=yes
 	}
+	1338.6.10 = {
+		dynasty_house = "house_shgnt_nambu_hachinohe"
+	}
 	1348.2.4={
 		death=yes
 	}
 }
 12040305={
 	name=character_name_12040305 # Nobumitsu
-	dynasty=10000031 # Nanbu
+	#dynasty=10000031 # Nanbu
+	dynasty_house = "house_shgnt_nambu_hachinohe"
 	father=12040301 # Nanbu Nobumasa
 	religion="shinto"
 	culture="northern_oshu"
@@ -1599,7 +1637,8 @@
 }
 12040306={
 	name=character_name_12040306 # Masamitsu
-	dynasty=10000031 # Nanbu
+	#dynasty=10000031 # Nanbu
+	dynasty_house = "house_shgnt_nambu_hachinohe"
 	father=12040301 # Nanbu Nobumasa
 	religion="shinto"
 	culture="northern_oshu"
@@ -1612,7 +1651,8 @@
 }
 12040310={
 	name=character_name_12040310 # Nagatsune
-	dynasty=10000031 # Nanbu
+	#dynasty=10000031 # Nanbu
+	dynasty_house = "house_shgnt_nambu_hachinohe"
 	father=12040305 # Nanbu Nobumitsu
 	religion="shinto"
 	culture="northern_oshu"
@@ -1625,7 +1665,8 @@
 }
 12040311={
 	name=character_name_12040311 # Mitsutsune
-	dynasty=10000031 # Nanbu
+	#dynasty=10000031 # Nanbu
+	dynasty_house = "house_shgnt_nambu_hachinohe"
 	father=12040305 # Nanbu Nobumitsu
 	religion="shinto"
 	culture="northern_oshu"
@@ -1638,7 +1679,8 @@
 }
 12040315={
 	name=character_name_12040315 # Nagayasu
-	dynasty=10000031 # Nanbu
+	#dynasty=10000031 # Nanbu
+	dynasty_house = "house_shgnt_nambu_hachinohe"
 	father=12040311 # Nanbu Mitsutsune
 	religion="shinto"
 	culture="northern_oshu"
@@ -1651,7 +1693,8 @@
 }
 12040320={
 	name=character_name_12040320 # Morikiyo
-	dynasty=10000031 # Nanbu
+	#dynasty=10000031 # Nanbu
+	dynasty_house = "house_shgnt_nambu_hachinohe"
 	father=12040315 # Nanbu Nagayasu
 	religion="shinto"
 	culture="northern_oshu"
@@ -1664,12 +1707,16 @@
 }
 12040321={
 	name=character_name_12040321 # Kiyomasa
-	dynasty=10000049 # Niida
+#	dynasty=10000049 # Niida
+	dynasty_house = "house_shgnt_nambu_hachinohe"
 	father=12040315 # Nanbu Nagayasu
 	religion="shinto"
 	culture="northern_oshu"
 	1402.1.1={
 		birth=yes
+	}
+	1422.01.01 = {
+		dynasty_house = "house_shgnt_nambu_niida"
 	}
 	1460.1.1={
 		death=yes
@@ -1677,7 +1724,8 @@
 }
 12040325={
 	name=character_name_12040325 # Masatsune
-	dynasty=10000050 # Hachinohe
+	#dynasty=10000050 # Hachinohe
+	dynasty_house = "house_shgnt_nambu_hachinohe2"
 	father=12040321 # Niida Kiyomasa
 	religion="shinto"
 	culture="northern_oshu"
@@ -1690,7 +1738,8 @@
 }
 12040326={
 	name=character_name_12040326 # Kiyotsugu
-	dynasty=10000049 # Niida
+#	dynasty=10000049 # Niida
+	dynasty_house = "house_shgnt_nambu_niida"
 	father=12040321 # Niida Kiyomasa
 	religion="shinto"
 	culture="northern_oshu"

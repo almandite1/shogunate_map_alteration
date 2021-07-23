@@ -1628,7 +1628,8 @@
 }
 10000801 = {
 	name=character_name_10000801 # Yoshitaka
-	dynasty=10000008 # Shimizu
+#	dynasty=10000008 # Shimizu
+	dynasty_house = "house_shgnt_shiba_shimizu"
 	father=12015153 # Shimizu Yoshinori
 	martial=5
 	diplomacy=6
@@ -1651,7 +1652,8 @@
 }
 10000802={
 	name=character_name_10000802 # Yoshiuji
-	dynasty=10000008 # Shimizu
+#	dynasty=10000008 # Shimizu
+	dynasty_house = "house_shgnt_shiba_shimizu"
 	father=10000801 # Shimizu Yoshitaka
 	religion="shinto"
 	culture="dewa"
@@ -1668,7 +1670,8 @@
 10000803={
 	female=yes
 	name=character_name_10000803 # Tatsu
-	dynasty=10000008 # Shimizu
+#	dynasty=10000008 # Shimizu
+	dynasty_house = "house_shgnt_shiba_shimizu"
 	father=10000802 # Shimizu Yoshiuji
 	religion="shinto"
 	culture="dewa"
@@ -1681,7 +1684,8 @@
 }
 10000850={
 	name=character_name_10000850 # Mitsushige
-	dynasty=10000013 # Tateoka
+#	dynasty=10000013 # Tateoka
+	dynasty_house = "house_shgnt_tateoka"
 	father=12015132 # Tateoka Yoshisato
 	religion="shinto"
 	culture="dewa"
@@ -1702,7 +1706,8 @@
 }
 10000851={
 	name=character_name_10000851 # Mitsuhiro
-	dynasty=10000013 # Tateoka
+#	dynasty=10000013 # Tateoka
+	dynasty_house = "house_shgnt_tateoka"
 	father=12015132 # Tateoka Yoshisato
 	religion="shinto"
 	culture="dewa"
@@ -1718,7 +1723,8 @@
 }
 10000852={
 	name=character_name_10000852 # Takashige
-	dynasty=10000013 # Tateoka
+#	dynasty=10000013 # Tateoka
+	dynasty_house = "house_shgnt_tateoka"
 	father=12015132 # Tateoka Yoshisato
 	religion="shinto"
 	culture="dewa"
@@ -1734,7 +1740,8 @@
 }
 10000860={
 	name=character_name_10000860 # Michitada
-	dynasty=10000014 # Narisawa
+#	dynasty=10000014 # Narisawa
+	dynasty_house = "house_shgnt_narisawa"
 	father=12015141 # Narisawa Yoshikiyo
 	religion="shinto"
 	culture="dewa"
@@ -1815,7 +1822,8 @@
 }
 10000901 = {
 	name=character_name_10000901 # Yorinaga
-	dynasty=10000009 # Tendo
+#	dynasty=10000009 # Tendo
+	dynasty_house = "house_shgnt_tendo"
 	martial=9
 	diplomacy=7
 	intrigue=7
@@ -1833,7 +1841,8 @@
 }
 10000902 = {
 	name=character_name_10000902 # Yorisada
-	dynasty=10000009 # Tendo
+#	dynasty=10000009 # Tendo
+	dynasty_house = "house_shgnt_tendo"
 	martial=7
 	diplomacy=8
 	intrigue=8
@@ -1851,7 +1860,8 @@
 }
 10000907 = {
 	name=character_name_10000907 # Yorizumi
-	dynasty=10000009 # Tendo
+#	dynasty=10000009 # Tendo
+	dynasty_house = "house_shgnt_tendo"
 	religion="shinto"
 	culture="dewa"
 	father=10000902
@@ -1864,7 +1874,8 @@
 }
 10000908 = {
 	name=character_name_10000908 # Yorikage #a.k.a. Higashine Yorikage
-	dynasty=10000009 # Tendo
+#	dynasty=10000009 # Tendo
+	dynasty_house = "house_shgnt_tendo"
 	religion="shinto"
 	culture="dewa"
 	father=10000902
