@@ -2575,3 +2575,178 @@ house_shgnt_date_yabe = {
 	}
 }
 house_shgnt_date_hienuki = 10000034
+
+10000097 = { #Hamada
+	pattern = "pattern_solid.dds"	
+	color1 = "white"
+	colored_emblem = {
+		texture = "ce_tsuki_cc_3.dds"
+		color1 = "blue"
+		instance = { position = { 0.50 0.50 } scale = { 0.9 0.9 }  }
+	}
+}
+house_shgnt_date_hamada = 10000097
+10000099 = { #Usuginu
+	pattern = "pattern_solid.dds"	
+	color1 = "white"
+	colored_emblem = {
+		texture = "ce_hoshi_cc_7.dds"
+		color1 = "red"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+}
+house_shgnt_date_usuginu = 10000099
+10000063 = { #Kurokawa
+	pattern = "pattern_solid.dds"	
+	color1 = "black"
+	colored_emblem = {
+		texture = "ce_h_yoshimi.dds"
+		color1 = "yellow"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+}
+house_shgnt_kurokawa = 10000063
+house_shgnt_narisawa = { #Mogami
+	pattern = "pattern_solid.dds"	
+	color1 = "yamabukicha"
+	colored_emblem = {
+		texture = "ce_h_ueno.dds"
+		color1 = "kuro"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+}
+10000014 = house_shgnt_narisawa
+house_shgnt_tateoka = { #Mogami
+	pattern = "pattern_solid.dds"
+	color1 = "kyomurasaki"
+	colored_emblem = {
+		texture = "ce_h_ueno.dds"
+		color1 = "kuro"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+}
+10000013 = house_shgnt_tateoka
+10000009 = { #Tendo
+	pattern = "pattern_solid.dds"	
+	color1 = "tsuchi_iro"
+	colored_emblem = {
+		texture = "ce_h_ueno.dds"
+		color1 = "kuro"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+}
+house_shgnt_tendo = 10000009
+10000008 = { #Shimizu
+	pattern = "pattern_solid.dds"	
+	color1 = "black"
+	colored_emblem = {
+		texture = "ce_h_ueno.dds"
+		color1 = "white"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+}
+house_shgnt_shiba_shimizu = 10000008
+house_shgnt_nambu_ishikawa = { #Nanbu
+	pattern = "pattern_solid.dds"
+	color1 = "karashi_iro"
+	colored_emblem = {
+		texture = "ce_h_nanbu.dds"
+		color1 = "kuro"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 } }		
+	}
+}
+10000044 = house_shgnt_nambu_ishikawa
+house_shgnt_nambu_minami = { #Nanbu
+	pattern = "pattern_solid.dds"
+	color1 = "ebizome"
+	colored_emblem = {
+		texture = "ce_h_nanbu.dds"
+		color1 = "kuro"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 } }		
+	}
+}
+10000045 = house_shgnt_nambu_minami
+house_shgnt_nambu_ishigame = { #Nanbu
+	pattern = "pattern_solid.dds"
+	color1 = "kigaracha"
+	colored_emblem = {
+		texture = "ce_h_nanbu.dds"
+		color1 = "kuro"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 } }		
+	}
+}
+10000046 = house_shgnt_nambu_ishigame
+10000047 = { #Kemanai
+	pattern = "pattern_solid.dds"
+	color1 = "white"
+	colored_emblem = {
+		texture = "ce_h_nanbu.dds"
+		color1 = "red"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 } }		
+	}
+}
+house_shgnt_nambu_kemanai = 10000047
+house_shgnt_nambu_kita = { #Nanbu
+	pattern = "pattern_solid.dds"
+	color1 = "mamegaracha"
+	colored_emblem = {
+		texture = "ce_h_nanbu.dds"
+		color1 = "kuro"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 } }		
+	}
+}
+10000048 = house_shgnt_nambu_kita
+10000033 = { #Oura
+	pattern = "pattern_solid.dds"	
+	color1 = "yellow"
+	colored_emblem = {
+		texture = "circular_combo_1.dds"
+		color1 = "black"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+	colored_emblem = {
+		texture = "ce_takanowa_cc_1.dds"
+		color1 = "black"
+		instance = { position = { 0.5 0.5 } scale = { 0.68 0.68 }  }
+	}
+}
+house_shgnt_nambu_oura = 10000033
+house_shgnt_nambu_niida = { #Nanbu
+	pattern = "pattern_solid.dds"
+	color1 = "kuwazome"
+	colored_emblem = {
+		texture = "ce_h_nanbu.dds"
+		color1 = "kuro"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 } }		
+	}
+}
+10000049 = house_shgnt_nambu_niida
+10000050 = { #Hachinohe
+	pattern = "pattern_solid.dds"
+	color1 = "blue"
+	colored_emblem = {
+		texture = "ce_h_nanbu.dds"
+		color1 = "white"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 } }		
+	}
+}
+house_shgnt_nambu_hachinohe = 10000050
+house_shgnt_nambu_hachinohe2 = 10000050
+house_shgnt_nambu_sannohe = { #Nanbu
+	pattern = "pattern_solid.dds"
+	color1 = "shirafuji"
+	colored_emblem = {
+		texture = "ce_h_nanbu.dds"
+		color1 = "shobu_iro"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 } }		
+	}
+}
+house_shgnt_nambu_hakii = { #Nanbu
+	pattern = "pattern_solid.dds"
+	color1 = "usumoegi"
+	colored_emblem = {
+		texture = "ce_h_nanbu.dds"
+		color1 = "kuro"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 } }		
+	}
+}
