@@ -2750,3 +2750,162 @@ house_shgnt_nambu_hakii = { #Nanbu
 		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 } }		
 	}
 }
+house_shgnt_chosokabe_kira = { # 二つ引両
+	pattern = "pattern_solid.dds"
+	color1 = "kijujin"
+	colored_emblem = {
+		texture = "ce_h_yoshimi.dds"
+		color1 = "kuro"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 } }		
+	}
+}
+10000788 = house_shgnt_chosokabe_kira
+house_shgnt_chosokabe_kosokabe = { # 割菱
+	pattern = "pattern_solid.dds"
+	color1 = "benimurasaki"
+	colored_emblem = {
+		texture = "ce_hishi_cc_7.dds"
+		color1 = "kuro"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 } }		
+	}
+}
+10000789 = house_shgnt_chosokabe_kosokabe
+house_shgnt_chosokabe_kagawa = { #Kagawa
+	pattern = "pattern_solid.dds"	
+	color1 = "dark_green"
+	colored_emblem = {
+		texture = "ce_h_nagao.dds"
+		color1 = "white"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+}
+#house_shgnt_miyoshi_akutagawa # 羊歯の丸
+#10000588 = house_shgnt_miyoshi_akutagawa
+10000590 = { #Sogo
+	pattern = "pattern_solid.dds"	
+	color1 = "white"
+	colored_emblem = {
+		texture = "ce_h_sogo.dds"
+		color1 = "blood_orange"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+}
+house_shgnt_miyoshi_sogo = 10000590
+10000589 = { #Atagi
+	pattern = "pattern_solid.dds"
+	color1 = "black"
+	colored_emblem = {
+		texture = "ce_hishi_cc_12.dds"
+		color1 = "white"	
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 } }		
+	}
+}
+house_shgnt_miyoshi_atagi = 10000589
+house_shgnt_miyoshi_1 = { #Miyoshi
+	pattern = "pattern_solid.dds"	
+	color1 = "wakame_iro"
+	colored_emblem = {
+		texture = "ce_h_miyoshi.dds"
+		color1 = "moegi_iro"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+}
+house_shgnt_miyoshi_2 = { #Miyoshi
+	pattern = "pattern_solid.dds"	
+	color1 = hsv360 { 321 48 53 }
+	colored_emblem = {
+		texture = "ce_h_miyoshi.dds"
+		color1 = "rokusho"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+}
+house_shgnt_miyoshi_3 = { #Miyoshi
+	pattern = "pattern_solid.dds"	
+	color1 = "rokusho"
+	colored_emblem = {
+		texture = "ce_h_miyoshi.dds"
+		color1 = "kuro"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+}
+house_shgnt_miyoshi_4 = { #Miyoshi
+	pattern = "pattern_solid.dds"	
+	color1 = "white"
+	colored_emblem = {
+		texture = "ce_h_miyoshi.dds"
+		color1 = "ususuo"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+}
+house_shgnt_ouchi_washizu = { #Ouchi
+	pattern = "pattern_solid.dds"	
+	color1 = "kitsurubami"
+	colored_emblem = {
+		texture = "ce_h_ouchi.dds"
+		color1 = "kuro"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+}
+house_shgnt_ouchi_yata = { #Ouchi
+	pattern = "pattern_solid.dds"	
+	color1 = "ayame_iro"
+	colored_emblem = {
+		texture = "ce_h_ouchi.dds"
+		color1 = "kuro"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+}
+house_shgnt_ouchi_suetake = { #Ouchi
+	pattern = "pattern_solid.dds"	
+	color1 = "mirucha"
+	colored_emblem = {
+		texture = "ce_h_ouchi.dds"
+		color1 = hsv360 { 36	17	80	}
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+}
+house_shgnt_ouchi_kurokawa = { #Ouchi
+	pattern = "pattern_solid.dds"	
+	color1 = "benifuji_iro"
+	colored_emblem = {
+		texture = "ce_h_ouchi.dds"
+		color1 = "kuro"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+}
+house_shgnt_ouchi_egi = { #Ouchi
+	pattern = "pattern_solid.dds"	
+	color1 = "jinzamomi"
+	colored_emblem = {
+		texture = "ce_h_ouchi.dds"
+		color1 = "kuro"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+}
+house_shgnt_ouchi_reizei = { #Ouchi
+	pattern = "pattern_solid.dds"	
+	color1 = "aimirucha"
+	colored_emblem = {
+		texture = "ce_h_ouchi.dds"
+		color1 = "kuro"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+}
+house_shgnt_ouchi_kakinami = { #Ouchi
+	pattern = "pattern_solid.dds"	
+	color1 = "momoshiocha"
+	colored_emblem = {
+		texture = "ce_h_ouchi.dds"
+		color1 = hsv360 { 189	40	80	}
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+}
+house_shgnt_ouchi_wanishi = { #Ouchi
+	pattern = "pattern_solid.dds"	
+	color1 = "asamurasaki"
+	colored_emblem = {
+		texture = "ce_h_ouchi.dds"
+		color1 = "kuro"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+}

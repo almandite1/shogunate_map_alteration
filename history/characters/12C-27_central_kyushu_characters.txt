@@ -401,6 +401,13 @@
 	997.1.1={
 		birth=yes
 	}
+	1017.01.01 = {
+		give_nickname = "nick_the_uhyoe_no_jo"
+	}
+	1020.01.01 = {
+		add_trait = "jugoi_jo" # 従五位上『少右記』『御堂関白記』
+		give_nickname = "nick_the_tsushima_no_kami" # 対馬守『少右記』『御堂関白記』
+	}
 	1064.10.5={
 		death=yes
 	}
@@ -414,6 +421,9 @@
 	trait="shogoi_jo"
 	1029.1.1={
 		birth=yes
+	}
+	1040.01.01 = {
+		add_trait = "jugoi_ge" # 『春記』長暦4(1040)年四月十三日条「五位則孝（隆）」
 	}
 	1101.1.1={
 		death=yes
@@ -445,6 +455,9 @@
 	1053.1.1={
 		birth=yes
 	}
+	1069.01.01 = {
+		give_nickname = "nick_saburo" # 『菊池風土記』所収系図より。他の系図にある「警固太郎」「兵藤警固太郎」は後代の付記
+	}
 	1105.1.1={
 		death=yes
 	}
@@ -458,8 +471,12 @@
 	1050.1.1={
 		birth=yes
 	}
+	1066.01.01 = {
+		give_nickname = "nick_taro"
+	}
 	1100.1.1={
 		death=yes
+		# dynasty_house = "西郷"
 	}
 }
 12780612 = {
@@ -470,6 +487,10 @@
 	culture="central_kyushu"
 	1057.1.1={
 		birth=yes
+	}
+	1073.01.01 = {
+		give_nickname = "nick_jio" # 『新撰事蹟通考』系図より
+		#dynasty_house = "小島"
 	}
 	1100.1.1={
 		death=yes
@@ -527,6 +548,10 @@
 	1085.1.1={
 		birth=yes
 	}
+	1101.01.01 = {
+		give_nickname = "nick_taro" # 『新撰事蹟通』系図より
+		#dynasty_house = "兵藤" # 『新撰事蹟通』系図より
+	}
 	1140.1.1={
 		death=yes
 	}
@@ -542,6 +567,7 @@
 	}
 	1106.1.1={
 		give_nickname="nick_juro"
+		#dynasty_house = "迫間" # 『新撰事蹟通考』系図より
 	}
 	1140.1.1={
 		death=yes
@@ -557,6 +583,10 @@
 	1096.1.1={
 		birth=yes
 	}
+	1122.01.01 = {
+		give_nickname = "nick_taro" # 『新撰事蹟通』系図より
+		# 鳥羽院武者所
+	}
 	1145.1.1={
 		death=yes
 	}
@@ -570,6 +600,10 @@
 	1100.1.1={
 		birth=yes
 	}
+	#1116.01.01 = {
+	#    give_nickname = "兵藤大夫" # 『新撰事蹟通考』系図より
+	#    dynasty_house = "天草" # 『新撰事蹟通考』系図より
+	#}
 	1170.1.1={
 		death=yes
 	}
@@ -584,7 +618,8 @@
 		birth=yes
 	}
 	1127.1.1={
-		give_nickname="nick_saburo"
+		give_nickname="nick_saburo" # 『新撰事蹟通考』系図
+		#dynasty_house = "藤田" # 『新撰事蹟通考』系図より
 	}
 	1170.1.1={
 		death=yes
@@ -600,7 +635,8 @@
 		birth=yes
 	}
 	1131.1.1={
-		give_nickname="nick_shiro"
+		give_nickname="nick_shiro" # 『新撰事蹟通考』系図
+		#dynasty_house = "詫摩" # 『新撰事蹟通考』系図より
 	}
 	1170.1.1={
 		death=yes
@@ -616,7 +652,8 @@
 		birth=yes
 	}
 	1136.1.1={
-		give_nickname="nick_goro"
+		give_nickname="nick_goro" # 『新撰事蹟通考』系図
+		#dynasty_house = "村田" # 『新撰事蹟通考』系図より
 	}
 	1180.1.1={
 		death=yes
@@ -630,6 +667,10 @@
 	culture="central_kyushu"
 	1122.1.1={
 		birth=yes
+	}
+	1138.01.01 = {
+		give_nickname = "nick_rokuro" # 『新撰事蹟通考』系図より
+		#dynasty_house = "井芹" # 『新撰事蹟通考』系図より
 	}
 	1180.1.1={
 		death=yes
@@ -646,7 +687,8 @@
 		birth=yes
 	}
 	1127.1.1={
-		give_nickname="nick_shichiro"
+		give_nickname="nick_shichiro" # 菊池七郎、『新撰事蹟通』系図より
+		# 鳥羽院武者所
 	}
 	1186.1.1={
 		death=yes
@@ -666,7 +708,7 @@
 		birth=yes
 	}
 	1162.1.1={
-		give_nickname="nick_jio"
+		give_nickname="nick_jio" # 『新撰事蹟通考』系図
 	}
 	1180.1.1={
 		give_nickname="nick_gon_no_kami"
@@ -691,6 +733,10 @@
 	1150.1.1={
 		birth=yes
 	}
+	1166.01.01 = {
+		give_nickname = "nick_juro" # 『新撰事蹟通』系図より
+		#dynasty_house = "赤星" # 『新撰事蹟通』系図より
+	}
 	1210.11.1={
 		death=yes
 	}
@@ -705,7 +751,8 @@
 		birth=yes
 	}
 	1181.1.1={
-		give_nickname="nick_taro"
+		give_nickname="nick_taro" # 『新撰事蹟通考』系図
+		#dynasty_house = "永野"　# 『新撰事蹟通考』系図より
 	}
 	1185.4.25={
 		death={
@@ -724,7 +771,7 @@
 		birth=yes
 	}
 	1183.1.1={
-		give_nickname="nick_jio"
+		give_nickname="nick_jio" # 菊池二郎『新撰事蹟通考』系図
 	}
 	1222.2.13={
 		death=yes
@@ -740,7 +787,8 @@
 		birth=yes
 	}
 	1184.1.1={
-		give_nickname="nick_saburo"
+		give_nickname="nick_saburo" # 『新撰事蹟通考』系図
+		#dynasty_house = "砥川" # 『新撰事蹟通考』系図より
 	}
 	1185.4.25={
 		death={
@@ -750,12 +798,17 @@
 }
 12780653 = {
 	name=character_name_12780653 # Naokata
-	dynasty=10007348 # Koshi
+	#dynasty=10007348 # Koshi
+	dynasty=10000660 # Kikuchi
 	father=12780645
 	religion="shinto"
 	culture="central_kyushu"
 	1169.1.1={
 		birth=yes
+	}
+	1185.01.01 = {
+		give_nickname = "nick_shiro" # 『新撰事蹟通考』系図より
+		dynasty=10007348 # Koshi
 	}
 	1245.1.1={
 		death=yes
@@ -771,7 +824,8 @@
 		birth=yes
 	}
 	1186.1.1={
-		give_nickname="nick_goro"
+		give_nickname="nick_goro" # 『新撰事蹟通考』系図
+		#dynasty_house = "八代" # 八代五郎『新撰事蹟通考』系図より
 	}
 	1230.1.1={
 		death=yes
@@ -787,7 +841,8 @@
 		birth=yes
 	}
 	1203.1.1={
-		give_nickname="nick_jio"
+		#give_nickname="nick_jio"
+		give_nickname = "nick_Kojio" # 小次郎『新撰事蹟通考』系図より
 	}
 	1204.1.1={
 		death=yes
@@ -803,7 +858,7 @@
 		birth=yes
 	}
 	1205.1.1={
-		give_nickname="nick_saburo"
+		give_nickname="nick_saburo" # 片角三郎『新撰事蹟通考』系図
 	}
 	1250.1.1={
 		death=yes
@@ -826,7 +881,7 @@
 	}
 }
 12780663 = {
-	name=character_name_12780663 # Sadataka
+	name=character_name_12780663 # Sadataka # 『新撰事蹟通考』系図では大夫五郎家隆
 	dynasty=10000660 # Kikuchi
 	father=12780651
 	religion="shinto"
@@ -851,7 +906,7 @@
 		birth=yes
 	}
 	1208.1.1={
-		give_nickname="nick_shichiro"
+		give_nickname="nick_shichiro" # 伊倉七郎『新撰事蹟通考』系図より
 	}
 	1250.1.1={
 		death=yes
@@ -865,6 +920,9 @@
 	culture="central_kyushu"
 	1195.1.1={
 		birth=yes
+	}
+	1211.01.01 = {
+		give_nickname = "nick_juro" # 九条十郎『新撰事蹟通考』系図より
 	}
 	1280.1.1={
 		death=yes
@@ -880,7 +938,7 @@
 		birth=yes
 	}
 	1226.1.1={
-		give_nickname="nick_Yosaburo"
+		give_nickname="nick_Yosaburo" # 林原与三『新撰事蹟通考』系図
 	}
 	1280.1.1={
 		death=yes
@@ -895,6 +953,9 @@
 	trait="jugoi_ge"
 	1201.1.1={
 		birth=yes
+	}
+	1217.01.01 = {
+		give_nickname = "nick_Yajio" # 弥二郎『新撰事蹟通考』系図より
 	}
 	1258.9.8={
 		death=yes
@@ -911,7 +972,7 @@
 		birth=yes
 	}
 	1241.1.1={
-		give_nickname="nick_Matajio"
+		give_nickname="nick_Matajio" # 『新撰事蹟通考系図では「太郎」
 	}
 	1242.1.1={
 		add_spouse=10064036
@@ -930,7 +991,7 @@
 		birth=yes
 	}
 	1242.1.1={
-		give_nickname="nick_saburo"
+		give_nickname="nick_saburo" # 西郷三郎『新撰事蹟通考』系図より
 	}
 	1280.1.1={
 		death=yes
@@ -946,7 +1007,7 @@
 		birth=yes
 	}
 	1246.1.1={
-		give_nickname="nick_kuro"
+		give_nickname="nick_kuro" # 加恵九郎『新撰事蹟通考』系図より
 	}
 	1290.1.1={
 		death=yes
@@ -977,6 +1038,13 @@
 	1240.1.1={
 		birth=yes
 	}
+	1256.01.01 = {
+	#	give_nickname = "四郎左衛門" # 本郷四郎左衛門『新撰事蹟通考』系図より
+		give_nickname = "nick_shiro" # 四郎
+	}
+	1260.01.01 = {
+		give_nickname = "nick_the_saemon_no_jo" # 左衛門尉
+	}
 	1300.1.1={
 		death=yes
 	}
@@ -992,7 +1060,7 @@
 		birth=yes
 	}
 	1261.1.1={
-		give_nickname="nick_jio"
+		give_nickname="nick_jio" # 次郎『新撰事蹟通考』系図
 	}
 	1285.5.2={
 		death=yes
@@ -1013,7 +1081,7 @@
 	}
 }
 12780682 = {
-	name=character_name_12780682 # Aritaka
+	name=character_name_12780682 # Aritaka # 有隆、有高
 	dynasty=10007341 # Akahoshi
 	father=12780675
 	mother=10064036
@@ -1039,7 +1107,7 @@
 		birth=yes
 	}
 	1287.1.1={
-		give_nickname="nick_Yasaburo"
+		give_nickname="nick_Yasaburo" # 『新撰事蹟通考』系図では『弥四郎』
 	}
 	1293.1.1={
 		death=yes
@@ -1053,6 +1121,9 @@
 	culture="central_kyushu"
 	1273.1.1={
 		birth=yes
+	}
+	1289.01.01 = {
+		give_nickname = "nick_rokuro" # 甲斐六郎『新撰事蹟通考』系図より
 	}
 	1304.1.1={
 		death=yes

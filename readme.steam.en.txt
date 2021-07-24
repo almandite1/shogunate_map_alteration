@@ -1,6 +1,6 @@
-Shogunate Map alteration Sub-MOD beta Version 0.5.2 'Awabiara Saki'
+Shogunate Map alteration Sub-MOD beta Version 0.5.3 'Awabiara Saki'
 
-[h1]Shogunate Map alteration Sub-MOD beta Version 0.5.2 'Awabiara Saki'[/h1]
+[h1]Shogunate Map alteration Sub-MOD beta Version 0.5.3 'Awabiara Saki'[/h1]
 ====
 
 Shogunate Map alteration sub MOD is a submod of the Shogunate mod. It replaces the map with a high-resolution one and increases the Provence-Baron territory.
@@ -65,7 +65,7 @@ We are looking for people who can help us in the following areas:
 [*] Translating the title name and content of this Steam Workshop into English, French, German, Korean, Russian, Simplified Chinese, Spanish, and other languages.
 [*] 3D modeling of character hair and clothes in Maya or Blender, exporting them in PDX format, and adjusting them so that they work in-game. I've put together a post on the Paradox Forum about the 3D models needed for this mod or the main mod. [url=https://forum.paradoxplaza.com/forum/threads/mod-public-alpha-shogunate-map-alteration-sub-mod.1467780/post-27623098]See also[/url].
 [/olist]
-It would be helpful if you could inform us in advance to avoid conflicts in the deliverables. Please contact us through [url=https://forum.paradoxplaza.com/forum/threads/mod-public-alpha-shogunate-map-alteration-sub-mod.1467780/]Paradox Forum[/url].
+It would be helpful if you could inform us in advance to avoid conflicts in the deliverables. Please contact us through [url=https://forum.paradoxplaza.com/forum/threads/mod-public-alpha-shogunate-map-alteration-sub-mod.1467780/]Paradox Forum[/url] or [url=https://discord.gg/jfcSfchJGC]Discord[/url].
 
 [h2]Credit[/h2]
 It can be found [url=https://github.com/almandite1/shogunate_map_alteration/tree/main#credit]here[/url].
