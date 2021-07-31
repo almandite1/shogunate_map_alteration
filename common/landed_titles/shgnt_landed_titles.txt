@@ -6269,6 +6269,8 @@
                 b_shgnt_kaga_ishikawa_10 = {
                     province = 1486
                 }
+			}
+			c_shgnt_kaga_ishikawa2 = {
                 b_shgnt_kaga_ishikawa_11 = {
                     province = 1487
                 }
@@ -6528,12 +6530,12 @@
                 b_shgnt_imizu_2 = {
                     province = 1555
                 }
-                b_shgnt_imizu_3 = {
-                    province = 1556
-                }
-                b_shgnt_imizu_4 = {
-                    province = 1557
-                }
+                #b_shgnt_imizu_3 = {
+                #    province = 1556
+                #}
+                #b_shgnt_imizu_4 = {
+                #    province = 1557
+                #}
                 b_shgnt_imizu_5 = {
                     province = 1558
                 }
@@ -10130,8 +10132,11 @@
             c_shgnt_usuki = {
                 color = {20 173 187}
                 color2 = {255 255 255}
+                b_shgnt_usuki_5 = {
+                    province = 2543 # 井上城
+                }
                 b_shgnt_usuki_1 = {
-                    province = 2539
+                    province = 2539 # 三ヶ所
                 }
                 b_shgnt_usuki_2 = {
                     province = 2540
@@ -10141,9 +10146,6 @@
                 }
                 b_shgnt_usuki_4 = {
                     province = 2542
-                }
-                b_shgnt_usuki_5 = {
-                    province = 2543
                 }
                 b_shgnt_usuki_6 = {
                     province = 2544
@@ -10452,11 +10454,11 @@
             c_shgnt_satsuma_izumi = {
                 color = {0 93 187}
                 color2 = {255 255 255}
-                b_shgnt_satsuma_izumi_1 = {
-                    province = 2617
-                }
-                b_shgnt_satsuma_izumi_2 = {
+				b_shgnt_satsuma_izumi_2 = {
                     province = 2618
+                }
+                b_shgnt_satsuma_izumi_1 = {
+                    province = 2617 # 東長島
                 }
                 b_shgnt_satsuma_izumi_3 = {
                     province = 2619
@@ -10695,6 +10697,18 @@ e_shgnt_ezochi = {
 				
                 b_shgnt_nishi_1 = {
                     province = 2660
+                    cultural_names = {
+						hokkaido_ainu = cn_kuma_us_i
+						chishima_ainu = cn_kuma_us_i
+						karafuto_ainu = cn_kuma_us_i
+						dohoku_ainu = cn_kuma_us_i
+						doto_ainu = cn_kuma_us_i
+						doo_ainu = cn_kuma_us_i
+						donan_ainu = cn_kuma_us_i
+						tohoku_ainu = cn_kuma_us_i
+						nivkh = cn_kuma_us_i
+						uilta = cn_kuma_us_i
+					}
                 }
                 b_shgnt_nishi_2 = {
                     province = 2661
@@ -10758,6 +10772,18 @@ e_shgnt_ezochi = {
 				}
                 b_shgnt_fukushima_1 = {
                     province = 2665
+                    cultural_names = {
+						hokkaido_ainu = cn_o_mu_nay
+						chishima_ainu = cn_o_mu_nay
+						karafuto_ainu = cn_o_mu_nay
+						dohoku_ainu = cn_o_mu_nay
+						doto_ainu = cn_o_mu_nay
+						doo_ainu = cn_o_mu_nay
+						donan_ainu = cn_o_mu_nay
+						tohoku_ainu = cn_o_mu_nay
+						nivkh = cn_o_mu_nay
+						uilta = cn_o_mu_nay
+					}
                 }
             }
             c_shgnt_kamiiso = {
@@ -10797,8 +10823,20 @@ e_shgnt_ezochi = {
 					nivkh = cn_kaya-un-pesh
 					uilta = cn_kaya-un-pesh
 				}
-                b_shgnt_kayabe_1 = {
+                b_shgnt_kayabe_1 = { # Shikabe, 鹿部
                     province = 2668
+                    cultural_names = {
+						hokkaido_ainu = cn_kaya-un-pesh
+						chishima_ainu = cn_kaya-un-pesh
+						karafuto_ainu = cn_kaya-un-pesh
+						dohoku_ainu = cn_kaya-un-pesh
+						doto_ainu = cn_kaya-un-pesh
+						doo_ainu = cn_kaya-un-pesh
+						donan_ainu = cn_kaya-un-pesh
+						tohoku_ainu = cn_kaya-un-pesh
+						nivkh = cn_kaya-un-pesh
+						uilta = cn_kaya-un-pesh
+					}
                 }
                 b_shgnt_kayabe_2 = {
                     province = 2669
@@ -10819,8 +10857,20 @@ e_shgnt_ezochi = {
 					nivkh = cn_hak-casi
 					uilta = cn_hak-casi
 				}
-                b_shgnt_kameda_1 = {
+                b_shgnt_kameda_1 = { # Usukeshi,宇須岸; Hakodate,箱館
                     province = 2670
+                    cultural_names = {
+						hokkaido_ainu = cn_hak-casi
+						chishima_ainu = cn_hak-casi
+						karafuto_ainu = cn_hak-casi
+						dohoku_ainu = cn_hak-casi
+						doto_ainu = cn_hak-casi
+						doo_ainu = cn_hak-casi
+						donan_ainu = cn_hak-casi
+						tohoku_ainu = cn_hak-casi
+						nivkh = cn_hak-casi
+						uilta = cn_hak-casi
+					}
                 }
                 b_shgnt_kameda_2 = {
                     province = 2671
@@ -11183,14 +11233,34 @@ e_shgnt_ezochi = {
             c_shgnt_yoichi = {
                 color = {0 122 81}
                 color2 = {255 255 255}
+                cultural_names = {
+					hokkaido_ainu = cn_i_oci
+					chishima_ainu = cn_i_oci
+					karafuto_ainu = cn_i_oci
+					dohoku_ainu = cn_i_oci
+					doto_ainu = cn_i_oci
+					doo_ainu = cn_i_oci
+					donan_ainu = cn_i_oci
+					tohoku_ainu = cn_i_oci
+				}
                 b_shgnt_yoichi_1 = {
                     province = 2692
                 }
                 b_shgnt_yoichi_2 = {
                     province = 2693
                 }
-                b_shgnt_yoichi_3 = {
+                b_shgnt_yoichi_3 = { # Yoichi, 余市
                     province = 2694
+                    cultural_names = {
+						hokkaido_ainu = cn_i_oci
+						chishima_ainu = cn_i_oci
+						karafuto_ainu = cn_i_oci
+						dohoku_ainu = cn_i_oci
+						doto_ainu = cn_i_oci
+						doo_ainu = cn_i_oci
+						donan_ainu = cn_i_oci
+						tohoku_ainu = cn_i_oci
+					}
                 }
             }
             c_shgnt_oshoro = {
@@ -11477,6 +11547,16 @@ e_shgnt_ezochi = {
             c_shgnt_yufutsu = {
                 color = {66 115 67}
                 color2 = {255 255 255}
+                cultural_names = {
+					hokkaido_ainu = cn_i_put
+					chishima_ainu = cn_i_put
+					karafuto_ainu = cn_i_put
+					dohoku_ainu = cn_i_put
+					doto_ainu = cn_i_put
+					doo_ainu = cn_i_put
+					donan_ainu = cn_i_put
+					tohoku_ainu = cn_i_put
+				}
                 b_shgnt_yufutsu_1 = {
                     province = 2710
                 }
@@ -11487,11 +11567,31 @@ e_shgnt_ezochi = {
             c_shgnt_yufutsu1 = {
                 color = {66 135 47}
                 color2 = {255 255 255}
+                cultural_names = {
+					hokkaido_ainu = cn_si_mukap
+					chishima_ainu = cn_si_mukap
+					karafuto_ainu = cn_si_mukap
+					dohoku_ainu = cn_si_mukap
+					doto_ainu = cn_si_mukap
+					doo_ainu = cn_si_mukap
+					donan_ainu = cn_si_mukap
+					tohoku_ainu = cn_si_mukap
+				}
                 b_shgnt_yufutsu1_1 = {
                     province = 2712
                 }
                 b_shgnt_yufutsu1_2 = {
                     province = 2713
+                    cultural_names = {
+						hokkaido_ainu = cn_si_mukap
+						chishima_ainu = cn_si_mukap
+						karafuto_ainu = cn_si_mukap
+						dohoku_ainu = cn_si_mukap
+						doto_ainu = cn_si_mukap
+						doo_ainu = cn_si_mukap
+						donan_ainu = cn_si_mukap
+						tohoku_ainu = cn_si_mukap
+					}
                 }
             }
             c_shgnt_chitose = {
@@ -11775,8 +11875,28 @@ e_shgnt_ezochi = {
             c_shgnt_kasai1 = {
                 color = {91 181 59}
                 color2 = {255 255 255}
-                b_shgnt_kasai1_1 = {
+                cultural_names = {
+					hokkaido_ainu = cn_o_pere_perke_p
+					chishima_ainu = cn_o_pere_perke_p
+					karafuto_ainu = cn_o_pere_perke_p
+					dohoku_ainu = cn_o_pere_perke_p
+					doto_ainu = cn_o_pere_perke_p
+					doo_ainu = cn_o_pere_perke_p
+					donan_ainu = cn_o_pere_perke_p
+					tohoku_ainu = cn_o_pere_perke_p
+				}
+                b_shgnt_kasai1_1 = { # Obihiro, 帯広
                     province = 2730
+                    cultural_names = {
+						hokkaido_ainu = cn_o_pere_perke_p
+						chishima_ainu = cn_o_pere_perke_p
+						karafuto_ainu = cn_o_pere_perke_p
+						dohoku_ainu = cn_o_pere_perke_p
+						doto_ainu = cn_o_pere_perke_p
+						doo_ainu = cn_o_pere_perke_p
+						donan_ainu = cn_o_pere_perke_p
+						tohoku_ainu = cn_o_pere_perke_p
+					}
                 }
                 b_shgnt_kasai1_2 = {
                     province = 2731
@@ -11845,6 +11965,16 @@ e_shgnt_ezochi = {
             c_shgnt_tokachi = {
                 color = {111 161 59}
                 color2 = {255 255 255}
+                cultural_names = {
+					hokkaido_ainu = cn_tokap_us_i
+					chishima_ainu = cn_tokap_us_i
+					karafuto_ainu = cn_tokap_us_i
+					dohoku_ainu = cn_tokap_us_i
+					doto_ainu = cn_tokap_us_i
+					doo_ainu = cn_tokap_us_i
+					donan_ainu = cn_tokap_us_i
+					tohoku_ainu = cn_tokap_us_i
+				}
                 b_shgnt_tokachi_1 = {
                     province = 2738
                 }
@@ -11855,6 +11985,16 @@ e_shgnt_ezochi = {
             c_shgnt_ashoro1 = {
                 color = {111 181 39}
                 color2 = {255 255 255}
+                cultural_names = {
+					hokkaido_ainu = cn_metot
+					chishima_ainu = cn_metot
+					karafuto_ainu = cn_metot
+					dohoku_ainu = cn_metot
+					doto_ainu = cn_metot
+					doo_ainu = cn_metot
+					donan_ainu = cn_metot
+					tohoku_ainu = cn_metot
+				}
                 b_shgnt_ashoro1_1 = {
                     province = 2740
                 }
@@ -11885,11 +12025,31 @@ e_shgnt_ezochi = {
             c_shgnt_shiranuka = {
                 color = {166 177 18}
                 color2 = {255 255 255}
+                cultural_names = {
+					hokkaido_ainu = cn_sirar_ukaw
+					chishima_ainu = cn_sirar_ukaw
+					karafuto_ainu = cn_sirar_ukaw
+					dohoku_ainu = cn_sirar_ukaw
+					doto_ainu = cn_sirar_ukaw
+					doo_ainu = cn_sirar_ukaw
+					donan_ainu = cn_sirar_ukaw
+					tohoku_ainu = cn_sirar_ukaw
+				}
                 b_shgnt_shiranuka_1 = {
                     province = 2742
                 }
-                b_shgnt_shiranuka_2 = {
+                b_shgnt_shiranuka_2 = { # Shiranuka, 白糠
                     province = 2743
+                    cultural_names = {
+						hokkaido_ainu = cn_sirar_ukaw
+						chishima_ainu = cn_sirar_ukaw
+						karafuto_ainu = cn_sirar_ukaw
+						dohoku_ainu = cn_sirar_ukaw
+						doto_ainu = cn_sirar_ukaw
+						doo_ainu = cn_sirar_ukaw
+						donan_ainu = cn_sirar_ukaw
+						tohoku_ainu = cn_sirar_ukaw
+					}
                 }
             }
             c_shgnt_kushiro = {
@@ -11958,8 +12118,18 @@ e_shgnt_ezochi = {
                 b_shgnt_abashiri1_1 = {
                     province = 2748
                 }
-                b_shgnt_abashiri1_2 = {
+                b_shgnt_abashiri1_2 = { # Piporo, 美幌
                     province = 2749
+                    cultural_names = {
+						hokkaido_ainu = cn_pi_poro
+						chishima_ainu = cn_pi_poro
+						karafuto_ainu = cn_pi_poro
+						dohoku_ainu = cn_pi_poro
+						doto_ainu = cn_pi_poro
+						doo_ainu = cn_pi_poro
+						donan_ainu = cn_pi_poro
+						tohoku_ainu = cn_pi_poro
+					}
                 }
             }
             c_shgnt_kushiro_kawakami = {
@@ -12045,6 +12215,16 @@ e_shgnt_ezochi = {
             c_shgnt_hanasaki = {
                 color = {217 219 62}
                 color2 = {255 255 255}
+                cultural_names = {
+					hokkaido_ainu = cn_poro_not
+					chishima_ainu = cn_poro_not
+					karafuto_ainu = cn_poro_not
+					dohoku_ainu = cn_poro_not
+					doto_ainu = cn_poro_not
+					doo_ainu = cn_poro_not
+					donan_ainu = cn_poro_not
+					tohoku_ainu = cn_poro_not
+				}
                 b_shgnt_hanasaki_1 = {
                     province = 2754
                 }
@@ -12052,6 +12232,16 @@ e_shgnt_ezochi = {
             c_shgnt_notsuke = {
                 color = {217 239 62}
                 color2 = {255 255 255}
+                cultural_names = {
+					hokkaido_ainu = cn_notkew
+					chishima_ainu = cn_notkew
+					karafuto_ainu = cn_notkew
+					dohoku_ainu = cn_notkew
+					doto_ainu = cn_notkew
+					doo_ainu = cn_notkew
+					donan_ainu = cn_notkew
+					tohoku_ainu = cn_notkew
+				}
                 b_shgnt_notsuke_1 = {
                     province = 2755
                 }
@@ -12059,8 +12249,28 @@ e_shgnt_ezochi = {
             c_shgnt_nemuro = {
                 color = {237 219 62}
                 color2 = {255 255 255}
-                b_shgnt_nemuro_1 = {
+                cultural_names = {
+					hokkaido_ainu = cn_ni_mu_oro
+					chishima_ainu = cn_ni_mu_oro
+					karafuto_ainu = cn_ni_mu_oro
+					dohoku_ainu = cn_ni_mu_oro
+					doto_ainu = cn_ni_mu_oro
+					doo_ainu = cn_ni_mu_oro
+					donan_ainu = cn_ni_mu_oro
+					tohoku_ainu = cn_ni_mu_oro
+				}
+                b_shgnt_nemuro_1 = { # Nemuro, 根室
                     province = 2756
+                    cultural_names = {
+						hokkaido_ainu = cn_ni_mu_oro
+						chishima_ainu = cn_ni_mu_oro
+						karafuto_ainu = cn_ni_mu_oro
+						dohoku_ainu = cn_ni_mu_oro
+						doto_ainu = cn_ni_mu_oro
+						doo_ainu = cn_ni_mu_oro
+						donan_ainu = cn_ni_mu_oro
+						tohoku_ainu = cn_ni_mu_oro
+					}
                 }
                 b_shgnt_nemuro_2 = {
                     province = 2757
@@ -12069,24 +12279,81 @@ e_shgnt_ezochi = {
             c_shgnt_shibetsu = {
                 color = {217 219 82}
                 color2 = {255 255 255}
-                b_shgnt_shibetsu_1 = {
+                cultural_names = {
+					hokkaido_ainu = cn_si_pet
+					chishima_ainu = cn_si_pet
+					karafuto_ainu = cn_si_pet
+					dohoku_ainu = cn_si_pet
+					doto_ainu = cn_si_pet
+					doo_ainu = cn_si_pet
+					donan_ainu = cn_si_pet
+					tohoku_ainu = cn_si_pet
+				}
+                b_shgnt_shibetsu_1 = { # Shibetsu, 標津
                     province = 2758
+                    cultural_names = {
+						hokkaido_ainu = cn_si_pet
+						chishima_ainu = cn_si_pet
+						karafuto_ainu = cn_si_pet
+						dohoku_ainu = cn_si_pet
+						doto_ainu = cn_si_pet
+						doo_ainu = cn_si_pet
+						donan_ainu = cn_si_pet
+						tohoku_ainu = cn_si_pet
+					}
                 }
             }
             c_shgnt_menashi = {
                 color = {237 239 82}
                 color2 = {255 255 255}
+                cultural_names = {
+					hokkaido_ainu = cn_menas_tomari
+					chishima_ainu = cn_menas_tomari
+					karafuto_ainu = cn_menas_tomari
+					dohoku_ainu = cn_menas_tomari
+					doto_ainu = cn_menas_tomari
+					doo_ainu = cn_menas_tomari
+					donan_ainu = cn_menas_tomari
+					tohoku_ainu = cn_menas_tomari
+				}
                 b_shgnt_menashi_1 = {
                     province = 2759
                 }
             }
         }
         d_shgnt_chishima = {
-                color = {255 220 0}
-                color2 = {255 255 255}
+            color = {255 220 0}
+            color2 = {255 255 255}
+
+            capital = c_shgnt_kunashiri
+            
+            cultural_names = {
+				hokkaido_ainu = cn_chup_ka_un_kur
+				chishima_ainu = cn_ruru_tom_un_kur
+				karafuto_ainu = cn_chup_ka_un_kur
+				dohoku_ainu = cn_chup_ka_un_kur
+				doto_ainu = cn_chup_ka_un_kur
+				doo_ainu = cn_chup_ka_un_kur
+				donan_ainu = cn_chup_ka_un_kur
+				tohoku_ainu = cn_chup_ka_un_kur
+				nivkh = cn_cup_ka_mif
+				old_okhotsk = cn_cup_ka_mif
+				uilta = cn_inoni_laha_khottoo
+			}
             c_shgnt_kunashiri = {
                 color = {245 210 10}
                 color2 = {255 255 255}
+                cultural_names = {
+					hokkaido_ainu = cn_kina_sir
+					chishima_ainu = cn_kina_sir
+					karafuto_ainu = cn_kina_sir
+					dohoku_ainu = cn_kina_sir
+					doto_ainu = cn_kina_sir
+					doo_ainu = cn_kina_sir
+					donan_ainu = cn_kina_sir
+					tohoku_ainu = cn_kina_sir
+					old_okhotsk = cn_kina_sir
+				}
                 b_shgnt_kunashiri_1 = {
                     province = 2760
                 }
@@ -12097,13 +12364,46 @@ e_shgnt_ezochi = {
             c_shgnt_shana = {
                 color = {235 230 0}
                 color2 = {255 255 255}
+                cultural_names = {
+					hokkaido_ainu = cn_san_nai
+					chishima_ainu = cn_san_nai
+					karafuto_ainu = cn_san_nai
+					dohoku_ainu = cn_san_nai
+					doto_ainu = cn_san_nai
+					doo_ainu = cn_san_nai
+					donan_ainu = cn_san_nai
+					tohoku_ainu = cn_san_nai
+					old_okhotsk = cn_san_nai
+				}
                 b_shgnt_shana_1 = {
                     province = 2762
+                    cultural_names = { # Shana, 紗那
+                        hokkaido_ainu = cn_san_nai
+                        chishima_ainu = cn_san_nai
+                        karafuto_ainu = cn_san_nai
+                        dohoku_ainu = cn_san_nai
+                        doto_ainu = cn_san_nai
+                        doo_ainu = cn_san_nai
+                        donan_ainu = cn_san_nai
+                        tohoku_ainu = cn_san_nai
+                        old_okhotsk = cn_san_nai
+                    }
                 }
             }
             c_shgnt_etorofu = {
                 color = {245 230 10}
                 color2 = {255 255 255}
+                cultural_names = {
+					hokkaido_ainu = cn_etu_oro_o_p
+					chishima_ainu = cn_etu_oro_o_p
+					karafuto_ainu = cn_etu_oro_o_p
+					dohoku_ainu = cn_etu_oro_o_p
+					doto_ainu = cn_etu_oro_o_p
+					doo_ainu = cn_etu_oro_o_p
+					donan_ainu = cn_etu_oro_o_p
+					tohoku_ainu = cn_etu_oro_o_p
+					old_okhotsk = cn_etu_oro_o_p
+				}
                 b_shgnt_etorofu_1 = {
                     province = 2763
                 }
@@ -12118,60 +12418,344 @@ e_shgnt_ezochi = {
             c_shgnt_furibetsu = {
                 color = {235 210 0}
                 color2 = {255 255 255}
-                b_shgnt_furibetsu_1 = {
+                cultural_names = {
+					hokkaido_ainu = cn_si_pet_oro
+					chishima_ainu = cn_si_pet_oro
+					karafuto_ainu = cn_si_pet_oro
+					dohoku_ainu = cn_si_pet_oro
+					doto_ainu = cn_si_pet_oro
+					doo_ainu = cn_si_pet_oro
+					donan_ainu = cn_si_pet_oro
+					tohoku_ainu = cn_si_pet_oro
+					old_okhotsk = cn_si_pet_oro
+				}
+                b_shgnt_furibetsu_1 = { # Shibetoro, 蘂取
                     province = 2765
+                    cultural_names = {
+						hokkaido_ainu = cn_si_pet_oro
+						chishima_ainu = cn_si_pet_oro
+						karafuto_ainu = cn_si_pet_oro
+						dohoku_ainu = cn_si_pet_oro
+						doto_ainu = cn_si_pet_oro
+						doo_ainu = cn_si_pet_oro
+						donan_ainu = cn_si_pet_oro
+						tohoku_ainu = cn_si_pet_oro
+						old_okhotsk = cn_si_pet_oro
+					}
                 }
             }
             c_shgnt_uruppu = {
                 color = {240 235 0}
                 color2 = {255 255 255}
-                b_shgnt_uruppu_1 = {
+                cultural_names = {
+					hokkaido_ainu = cn_urup
+					chishima_ainu = cn_urup
+					karafuto_ainu = cn_urup
+					dohoku_ainu = cn_urup
+					doto_ainu = cn_urup
+					doo_ainu = cn_urup
+					donan_ainu = cn_urup
+					tohoku_ainu = cn_urup
+					old_okhotsk = cn_urup
+				}
+                b_shgnt_uruppu_1 = { # Uruppu, 得撫
                     province = 2766
+                    cultural_names = {
+						hokkaido_ainu = cn_urup
+						chishima_ainu = cn_urup
+						karafuto_ainu = cn_urup
+						dohoku_ainu = cn_urup
+						doto_ainu = cn_urup
+						doo_ainu = cn_urup
+						donan_ainu = cn_urup
+						tohoku_ainu = cn_urup
+						old_okhotsk = cn_urup
+					}
                 }
             }
             c_shgnt_shimushiru = {
                 color = {245 220 20}
                 color2 = {255 255 255}
-                b_shgnt_shimushiru_1 = {
+                cultural_names = {
+					hokkaido_ainu = cn_si_mosir
+					chishima_ainu = cn_si_mosir
+					karafuto_ainu = cn_si_mosir
+					dohoku_ainu = cn_si_mosir
+					doto_ainu = cn_si_mosir
+					doo_ainu = cn_si_mosir
+					donan_ainu = cn_si_mosir
+					tohoku_ainu = cn_si_mosir
+					old_okhotsk = cn_si_mosir
+				}
+                b_shgnt_shimushiru_1 = { # Shimushiru, 新知
                     province = 2767
+                    cultural_names = {
+						hokkaido_ainu = cn_si_mosir
+						chishima_ainu = cn_si_mosir
+						karafuto_ainu = cn_si_mosir
+						dohoku_ainu = cn_si_mosir
+						doto_ainu = cn_si_mosir
+						doo_ainu = cn_si_mosir
+						donan_ainu = cn_si_mosir
+						tohoku_ainu = cn_si_mosir
+						old_okhotsk = cn_si_mosir
+					}
                 }
             }
             c_shgnt_shumushu = {
                 color = {255 210 20}
                 color2 = {255 255 255}
-                b_shgnt_shumushu_1 = {
+                cultural_names = {
+					hokkaido_ainu = cn_shum_us
+					chishima_ainu = cn_shum_us
+					karafuto_ainu = cn_shum_us
+					dohoku_ainu = cn_shum_us
+					doto_ainu = cn_shum_us
+					doo_ainu = cn_shum_us
+					donan_ainu = cn_shum_us
+					tohoku_ainu = cn_shum_us
+					old_okhotsk = cn_shum_us
+				}
+                b_shgnt_shumushu_1 = { # Shumushu, 占守
                     province = 2768
+                    cultural_names = {
+                        hokkaido_ainu = cn_shum_us
+                        chishima_ainu = cn_shum_us
+                        karafuto_ainu = cn_shum_us
+                        dohoku_ainu = cn_shum_us
+                        doto_ainu = cn_shum_us
+                        doo_ainu = cn_shum_us
+                        donan_ainu = cn_shum_us
+                        tohoku_ainu = cn_shum_us
+                        old_okhotsk = cn_shum_us
+                    }
                 }
             }
             c_shgnt_shikotan = {
                 color = {255 230 20}
                 color2 = {255 255 255}
-                b_shgnt_shikotan_1 = {
+                cultural_names = {
+					hokkaido_ainu = cn_si_kotan
+					chishima_ainu = cn_si_kotan
+					karafuto_ainu = cn_si_kotan
+					dohoku_ainu = cn_si_kotan
+					doto_ainu = cn_si_kotan
+					doo_ainu = cn_si_kotan
+					donan_ainu = cn_si_kotan
+					tohoku_ainu = cn_si_kotan
+					old_okhotsk = cn_si_kotan
+				}
+                b_shgnt_shikotan_1 = { # Kamchatka, カムチャッカ
                     province = 2770
+                    cultural_names = {
+						hokkaido_ainu = cn_sak_i_p_kotan
+						chishima_ainu = cn_sak_i_p_kotan
+						karafuto_ainu = cn_sak_i_p_kotan
+						dohoku_ainu = cn_sak_i_p_kotan
+						doto_ainu = cn_sak_i_p_kotan
+						doo_ainu = cn_sak_i_p_kotan
+						donan_ainu = cn_sak_i_p_kotan
+						tohoku_ainu = cn_sak_i_p_kotan
+						old_okhotsk = cn_sak_i_p_kotan
+					}
                 }
             }
         }
         d_shgnt_kamchatka = {
-                color = {230 180 34}
-                color2 = {255 255 255}
+            color = {230 180 34}
+            color2 = {255 255 255}
+
+            capital = c_shgnt_kamchatka
+
+            cultural_names = {
+				northern_oshu = cn_kamusasuka
+				southern_oshu = cn_kamusasuka
+				dewa = cn_kamusasuka
+				tohoku_buddhist = cn_kamusasuka
+				northern_kanto = cn_kamusasuka
+				eastern_kanto = cn_kamusasuka
+				western_kanto = cn_kamusasuka
+				southern_kanto = cn_kamusasuka
+				kanto_buddhist = cn_kamusasuka
+				eastern_hokuriku = cn_kamusasuka
+				western_hokuriku = cn_kamusasuka
+				hokuriku_buddhist = cn_kamusasuka
+				koshin = cn_kamusasuka
+				tokai = cn_kamusasuka
+				western_chubu = cn_kamusasuka
+				chubu_buddhist = cn_kamusasuka
+				northern_kinai = cn_kamusasuka
+				central_kinai = cn_kamusasuka
+				southern_kinai = cn_kamusasuka
+				kinai_buddhist = cn_kamusasuka
+				sanin = cn_kamusasuka
+				sanyo = cn_kamusasuka
+				western_chugoku = cn_kamusasuka
+				shikoku = cn_kamusasuka
+				saigoku_buddhist = cn_kamusasuka
+				northern_kyushu = cn_kamusasuka
+				central_kyushu = cn_kamusasuka
+				southern_kyushu = cn_kamusasuka
+				kyushu_buddhist = cn_kamusasuka
+				imperial_family = cn_kamusasuka
+				aristocrats = cn_kamusasuka
+				hokkaido_wajin = cn_kamusasuka
+				hokkaido_ainu = cn_kur_mosir
+				chishima_ainu = cn_chup_ka_un_kur
+				karafuto_ainu = cn_kur_mosir
+				dohoku_ainu = cn_kur_mosir
+				doto_ainu = cn_kur_mosir
+				doo_ainu = cn_kur_mosir
+				donan_ainu = cn_kur_mosir
+				tohoku_ainu = cn_kur_mosir
+				old_okhotsk = cn_kur_mosir
+			}
             c_shgnt_kamchatka = {
                 color = {220 170 24}
                 color2 = {255 255 255}
-                b_shgnt_kamchatka_1 = {
+                cultural_names = {
+					northern_oshu = cn_kamusasuka
+					southern_oshu = cn_kamusasuka
+					dewa = cn_kamusasuka
+					tohoku_buddhist = cn_kamusasuka
+					northern_kanto = cn_kamusasuka
+					eastern_kanto = cn_kamusasuka
+					western_kanto = cn_kamusasuka
+					southern_kanto = cn_kamusasuka
+					kanto_buddhist = cn_kamusasuka
+					eastern_hokuriku = cn_kamusasuka
+					western_hokuriku = cn_kamusasuka
+					hokuriku_buddhist = cn_kamusasuka
+					koshin = cn_kamusasuka
+					tokai = cn_kamusasuka
+					western_chubu = cn_kamusasuka
+					chubu_buddhist = cn_kamusasuka
+					northern_kinai = cn_kamusasuka
+					central_kinai = cn_kamusasuka
+					southern_kinai = cn_kamusasuka
+					kinai_buddhist = cn_kamusasuka
+					sanin = cn_kamusasuka
+					sanyo = cn_kamusasuka
+					western_chugoku = cn_kamusasuka
+					shikoku = cn_kamusasuka
+					saigoku_buddhist = cn_kamusasuka
+					northern_kyushu = cn_kamusasuka
+					central_kyushu = cn_kamusasuka
+					southern_kyushu = cn_kamusasuka
+					kyushu_buddhist = cn_kamusasuka
+					imperial_family = cn_kamusasuka
+					aristocrats = cn_kamusasuka
+					hokkaido_wajin = cn_kamusasuka
+					hokkaido_ainu = cn_pan_rur_ka
+					chishima_ainu = cn_pan_rur_ka
+					karafuto_ainu = cn_pan_rur_ka
+					dohoku_ainu = cn_pan_rur_ka
+					doto_ainu = cn_pan_rur_ka
+					doo_ainu = cn_pan_rur_ka
+					donan_ainu = cn_pan_rur_ka
+					tohoku_ainu = cn_pan_rur_ka
+					old_okhotsk = cn_pan_rur_ka
+				}
+                b_shgnt_kamchatka_1 = { # Kamchatka, カムチャッカ
                     province = 2769
+                    cultural_names = {
+						northern_oshu = cn_kamusasuka
+						southern_oshu = cn_kamusasuka
+						dewa = cn_kamusasuka
+						tohoku_buddhist = cn_kamusasuka
+						northern_kanto = cn_kamusasuka
+						eastern_kanto = cn_kamusasuka
+						western_kanto = cn_kamusasuka
+						southern_kanto = cn_kamusasuka
+						kanto_buddhist = cn_kamusasuka
+						eastern_hokuriku = cn_kamusasuka
+						western_hokuriku = cn_kamusasuka
+						hokuriku_buddhist = cn_kamusasuka
+						koshin = cn_kamusasuka
+						tokai = cn_kamusasuka
+						western_chubu = cn_kamusasuka
+						chubu_buddhist = cn_kamusasuka
+						northern_kinai = cn_kamusasuka
+						central_kinai = cn_kamusasuka
+						southern_kinai = cn_kamusasuka
+						kinai_buddhist = cn_kamusasuka
+						sanin = cn_kamusasuka
+						sanyo = cn_kamusasuka
+						western_chugoku = cn_kamusasuka
+						shikoku = cn_kamusasuka
+						saigoku_buddhist = cn_kamusasuka
+						northern_kyushu = cn_kamusasuka
+						central_kyushu = cn_kamusasuka
+						southern_kyushu = cn_kamusasuka
+						kyushu_buddhist = cn_kamusasuka
+						imperial_family = cn_kamusasuka
+						aristocrats = cn_kamusasuka
+						hokkaido_wajin = cn_kamusasuka
+						hokkaido_ainu = cn_pan_rur_ka
+						chishima_ainu = cn_pan_rur_ka
+						karafuto_ainu = cn_pan_rur_ka
+						dohoku_ainu = cn_pan_rur_ka
+						doto_ainu = cn_pan_rur_ka
+						doo_ainu = cn_pan_rur_ka
+						donan_ainu = cn_pan_rur_ka
+						tohoku_ainu = cn_pan_rur_ka
+						old_okhotsk = cn_pan_rur_ka
+					}
                 }
             }
         }
     }
     k_shgnt_nishi_ezochi = {
-                color = {105 130 27}
-                color2 = {255 255 255}
+        color = {105 130 27}
+        color2 = {255 255 255}
+
+        capital = c_shgnt_ishikari
+
+        cultural_names = {
+			hokkaido_ainu = cn_sum_un_kur
+			chishima_ainu = cn_sum_un_kur
+			karafuto_ainu = cn_sum_un_kur
+			dohoku_ainu = cn_sum_un_kur
+			doto_ainu = cn_sum_un_kur
+			doo_ainu = cn_sum_un_kur
+			donan_ainu = cn_sum_un_kur
+			tohoku_ainu = cn_sum_un_kur
+			nivkh = cn_west_kugi_mif
+			old_okhotsk = cn_west_kugi_mif
+			uilta = cn_west_kui_khottoo
+		}
         d_shgnt_ishikari = {
-                color = {105 130 27}
-                color2 = {255 255 255}
+            color = {105 130 27}
+            color2 = {255 255 255}
+
+            capital = c_shgnt_ishikari
+
+            cultural_names = {
+				hokkaido_ainu = cn_is_kar_un_kur
+				chishima_ainu = cn_is_kar_un_kur
+				karafuto_ainu = cn_is_kar_un_kur
+				dohoku_ainu = cn_is_kar_un_kur
+				doto_ainu = cn_is_kar_un_kur
+				doo_ainu = cn_is_kar_un_kur
+				donan_ainu = cn_is_kar_un_kur
+				tohoku_ainu = cn_is_kar_un_kur
+				nivkh = cn_is_kar_wei
+				old_okhotsk = cn_is_kar_wei
+				uilta = cn_is_kar_wei
+			}
             c_shgnt_ishikari = {
                 color = {105 130 27}
                 color2 = {255 255 255}
+                cultural_names = {
+					hokkaido_ainu = cn_is_kar_pet
+					chishima_ainu = cn_is_kar_pet
+					karafuto_ainu = cn_is_kar_pet
+					dohoku_ainu = cn_is_kar_pet
+					doto_ainu = cn_is_kar_pet
+					doo_ainu = cn_is_kar_pet
+					donan_ainu = cn_is_kar_pet
+					tohoku_ainu = cn_is_kar_pet
+				}
                 b_shgnt_ishikari_1 = {
                     province = 2771
                 }
@@ -12185,6 +12769,16 @@ e_shgnt_ezochi = {
             c_shgnt_sapporo = {
                 color = {105 130 27}
                 color2 = {255 255 255}
+                cultural_names = {
+					hokkaido_ainu = cn_sat_poro_pet
+					chishima_ainu = cn_sat_poro_pet
+					karafuto_ainu = cn_sat_poro_pet
+					dohoku_ainu = cn_sat_poro_pet
+					doto_ainu = cn_sat_poro_pet
+					doo_ainu = cn_sat_poro_pet
+					donan_ainu = cn_sat_poro_pet
+					tohoku_ainu = cn_sat_poro_pet
+				}
                 b_shgnt_sapporo_1 = {
                     province = 2774
                 }
@@ -12201,19 +12795,49 @@ e_shgnt_ezochi = {
             c_shgnt_yubari = {
                 color = {105 130 27}
                 color2 = {255 255 255}
+                cultural_names = {
+					hokkaido_ainu = cn_yu_paro
+					chishima_ainu = cn_yu_paro
+					karafuto_ainu = cn_yu_paro
+					dohoku_ainu = cn_yu_paro
+					doto_ainu = cn_yu_paro
+					doo_ainu = cn_yu_paro
+					donan_ainu = cn_yu_paro
+					tohoku_ainu = cn_yu_paro
+				}
                 b_shgnt_yubari_1 = {
                     province = 2778
                 }
                 b_shgnt_yubari_2 = {
                     province = 2779
                 }
-                b_shgnt_yubari_3 = {
+                b_shgnt_yubari_3 = { # Yubari, 夕張
                     province = 2780
+                    cultural_names = {
+						hokkaido_ainu = cn_tanne_to
+						chishima_ainu = cn_tanne_to
+						karafuto_ainu = cn_tanne_to
+						dohoku_ainu = cn_tanne_to
+						doto_ainu = cn_tanne_to
+						doo_ainu = cn_tanne_to
+						donan_ainu = cn_tanne_to
+						tohoku_ainu = cn_tanne_to
+					}
                 }
             }
             c_shgnt_kabato = {
                 color = {105 130 27}
                 color2 = {255 255 255}
+                cultural_names = {
+					hokkaido_ainu = cn_kapato
+					chishima_ainu = cn_kapato
+					karafuto_ainu = cn_kapato
+					dohoku_ainu = cn_kapato
+					doto_ainu = cn_kapato
+					doo_ainu = cn_kapato
+					donan_ainu = cn_kapato
+					tohoku_ainu = cn_kapato
+				}
                 b_shgnt_kabato_1 = {
                     province = 2781
                 }
@@ -12224,6 +12848,16 @@ e_shgnt_ezochi = {
             c_shgnt_sorachi = {
                 color = {105 130 27}
                 color2 = {255 255 255}
+                cultural_names = {
+					hokkaido_ainu = cn_so_rapci
+					chishima_ainu = cn_so_rapci
+					karafuto_ainu = cn_so_rapci
+					dohoku_ainu = cn_so_rapci
+					doto_ainu = cn_so_rapci
+					doo_ainu = cn_so_rapci
+					donan_ainu = cn_so_rapci
+					tohoku_ainu = cn_so_rapci
+				}
                 b_shgnt_sorachi_1 = {
                     province = 2783
                 }
@@ -12236,8 +12870,18 @@ e_shgnt_ezochi = {
                 b_shgnt_sorachi_4 = {
                     province = 2786
                 }
-                b_shgnt_sorachi_5 = {
+                b_shgnt_sorachi_5 = { # Iwamisawa, 岩見沢
                     province = 2787
+                    cultural_names = {
+						hokkaido_ainu = cn_poro_moy
+						chishima_ainu = cn_poro_moy
+						karafuto_ainu = cn_poro_moy
+						dohoku_ainu = cn_poro_moy
+						doto_ainu = cn_poro_moy
+						doo_ainu = cn_poro_moy
+						donan_ainu = cn_poro_moy
+						tohoku_ainu = cn_poro_moy
+					}
                 }
                 b_shgnt_sorachi_6 = {
                     province = 2788
@@ -12246,8 +12890,28 @@ e_shgnt_ezochi = {
             c_shgnt_sorachi1 = {
                 color = {105 130 27}
                 color2 = {255 255 255}
-                b_shgnt_sorachi1_1 = {
+                cultural_names = {
+					hokkaido_ainu = cn_si_sorapci
+					chishima_ainu = cn_si_sorapci
+					karafuto_ainu = cn_si_sorapci
+					dohoku_ainu = cn_si_sorapci
+					doto_ainu = cn_si_sorapci
+					doo_ainu = cn_si_sorapci
+					donan_ainu = cn_si_sorapci
+					tohoku_ainu = cn_si_sorapci
+				}
+                b_shgnt_sorachi1_1 = { # Furano, 富良野
                     province = 2789
+                    cultural_names = {
+						hokkaido_ainu = cn_hura_nu_i
+						chishima_ainu = cn_hura_nu_i
+						karafuto_ainu = cn_hura_nu_i
+						dohoku_ainu = cn_hura_nu_i
+						doto_ainu = cn_hura_nu_i
+						doo_ainu = cn_hura_nu_i
+						donan_ainu = cn_hura_nu_i
+						tohoku_ainu = cn_hura_nu_i
+					}
                 }
                 b_shgnt_sorachi1_2 = {
                     province = 2790
@@ -12259,6 +12923,16 @@ e_shgnt_ezochi = {
             c_shgnt_uryu = {
                 color = {105 130 27}
                 color2 = {255 255 255}
+                cultural_names = {
+					hokkaido_ainu = cn_urir_o_pet
+					chishima_ainu = cn_urir_o_pet
+					karafuto_ainu = cn_urir_o_pet
+					dohoku_ainu = cn_urir_o_pet
+					doto_ainu = cn_urir_o_pet
+					doo_ainu = cn_urir_o_pet
+					donan_ainu = cn_urir_o_pet
+					tohoku_ainu = cn_urir_o_pet
+				}
                 b_shgnt_uryu_1 = {
                     province = 2792
                 }
@@ -12268,18 +12942,48 @@ e_shgnt_ezochi = {
                 b_shgnt_uryu_3 = {
                     province = 2794
                 }
-                b_shgnt_uryu_4 = {
+                b_shgnt_uryu_4 = { # Uryu, 雨竜
                     province = 2795
+                    cultural_names = {
+						hokkaido_ainu = cn_urir_o_pet
+						chishima_ainu = cn_urir_o_pet
+						karafuto_ainu = cn_urir_o_pet
+						dohoku_ainu = cn_urir_o_pet
+						doto_ainu = cn_urir_o_pet
+						doo_ainu = cn_urir_o_pet
+						donan_ainu = cn_urir_o_pet
+						tohoku_ainu = cn_urir_o_pet
+					}
                 }
             }
             c_shgnt_kamikawa = {
                 color = {105 130 27}
                 color2 = {255 255 255}
+                cultural_names = {
+					hokkaido_ainu = cn_cup_pet
+					chishima_ainu = cn_cup_pet
+					karafuto_ainu = cn_cup_pet
+					dohoku_ainu = cn_cup_pet
+					doto_ainu = cn_cup_pet
+					doo_ainu = cn_cup_pet
+					donan_ainu = cn_cup_pet
+					tohoku_ainu = cn_cup_pet
+				}
                 b_shgnt_kamikawa_1 = {
                     province = 2796
                 }
-                b_shgnt_kamikawa_2 = {
+                b_shgnt_kamikawa_2 = { # Asahigawa, 旭川
                     province = 2797
+                    cultural_names = {
+						hokkaido_ainu = cn_cup_pet
+						chishima_ainu = cn_cup_pet
+						karafuto_ainu = cn_cup_pet
+						dohoku_ainu = cn_cup_pet
+						doto_ainu = cn_cup_pet
+						doo_ainu = cn_cup_pet
+						donan_ainu = cn_cup_pet
+						tohoku_ainu = cn_cup_pet
+					}
                 }
                 b_shgnt_kamikawa_3 = {
                     province = 2798
@@ -12303,31 +13007,117 @@ e_shgnt_ezochi = {
             c_shgnt_atsuta = {
                 color = {105 130 27}
                 color2 = {255 255 255}
-                b_shgnt_atsuta_1 = {
+                cultural_names = {
+					hokkaido_ainu = cn_at_ta
+					chishima_ainu = cn_at_ta
+					karafuto_ainu = cn_at_ta
+					dohoku_ainu = cn_at_ta
+					doto_ainu = cn_at_ta
+					doo_ainu = cn_at_ta
+					donan_ainu = cn_at_ta
+					tohoku_ainu = cn_at_ta
+				}
+                b_shgnt_atsuta_1 = { # Atsuta, 厚田
                     province = 2804
+                    cultural_names = {
+						hokkaido_ainu = cn_at_ta
+						chishima_ainu = cn_at_ta
+						karafuto_ainu = cn_at_ta
+						dohoku_ainu = cn_at_ta
+						doto_ainu = cn_at_ta
+						doo_ainu = cn_at_ta
+						donan_ainu = cn_at_ta
+						tohoku_ainu = cn_at_ta
+					}
                 }
             }
             c_shgnt_hamamasu = {
                 color = {105 130 27}
                 color2 = {255 255 255}
-                b_shgnt_hamamasu_1 = {
+                cultural_names = {
+					hokkaido_ainu = cn_amam_suke
+					chishima_ainu = cn_amam_suke
+					karafuto_ainu = cn_amam_suke
+					dohoku_ainu = cn_amam_suke
+					doto_ainu = cn_amam_suke
+					doo_ainu = cn_amam_suke
+					donan_ainu = cn_amam_suke
+					tohoku_ainu = cn_amam_suke
+				}
+                b_shgnt_hamamasu_1 = { # Hamamasu, 浜益
                     province = 2805
+                    cultural_names = {
+                        hokkaido_ainu = cn_amam_suke
+                        chishima_ainu = cn_amam_suke
+                        karafuto_ainu = cn_amam_suke
+                        dohoku_ainu = cn_amam_suke
+                        doto_ainu = cn_amam_suke
+                        doo_ainu = cn_amam_suke
+                        donan_ainu = cn_amam_suke
+                        tohoku_ainu = cn_amam_suke
+                    }
                 }
             }
         }
         d_shgnt_teshio = {
-                color = {170 207 83}
-                color2 = {255 255 255}
+            color = {170 207 83}
+            color2 = {255 255 255}
+
+            capital = c_shgnt_mashike
+
+            cultural_names = {
+                hokkaido_ainu = cn_tes_o_un_kur
+                chishima_ainu = cn_tes_o_un_kur
+                karafuto_ainu = cn_tes_o_un_kur
+                dohoku_ainu = cn_tes_o_un_kur
+                doto_ainu = cn_tes_o_un_kur
+                doo_ainu = cn_tes_o_un_kur
+                donan_ainu = cn_tes_o_un_kur
+                tohoku_ainu = cn_tes_o_un_kur
+                nivkh = cn_tes_o_wei
+                old_okhotsk = cn_tes_o_wei
+                uilta = cn_tes_o_wei
+            }
             c_shgnt_mashike = {
                 color = {170 207 83}
                 color2 = {255 255 255}
-                b_shgnt_mashike_1 = {
+                cultural_names = {
+					hokkaido_ainu = cn_mas_ke
+					chishima_ainu = cn_mas_ke
+					karafuto_ainu = cn_mas_ke
+					dohoku_ainu = cn_mas_ke
+					doto_ainu = cn_mas_ke
+					doo_ainu = cn_mas_ke
+					donan_ainu = cn_mas_ke
+					tohoku_ainu = cn_mas_ke
+				}
+                b_shgnt_mashike_1 = { # Mashike, 増毛
                     province = 2806
+                    cultural_names = {
+						hokkaido_ainu = cn_mas_ke
+						chishima_ainu = cn_mas_ke
+						karafuto_ainu = cn_mas_ke
+						dohoku_ainu = cn_mas_ke
+						doto_ainu = cn_mas_ke
+						doo_ainu = cn_mas_ke
+						donan_ainu = cn_mas_ke
+						tohoku_ainu = cn_mas_ke
+					}
                 }
             }
             c_shgnt_rumoi = {
                 color = {170 207 83}
                 color2 = {255 255 255}
+                cultural_names = {
+					hokkaido_ainu = cn_rur_mo_ot_pe
+					chishima_ainu = cn_rur_mo_ot_pe
+					karafuto_ainu = cn_rur_mo_ot_pe
+					dohoku_ainu = cn_rur_mo_ot_pe
+					doto_ainu = cn_rur_mo_ot_pe
+					doo_ainu = cn_rur_mo_ot_pe
+					donan_ainu = cn_rur_mo_ot_pe
+					tohoku_ainu = cn_rur_mo_ot_pe
+				}
                 b_shgnt_rumoi_1 = {
                     province = 2807
                 }
@@ -12338,11 +13128,31 @@ e_shgnt_ezochi = {
             c_shgnt_tomamae = {
                 color = {170 207 83}
                 color2 = {255 255 255}
+                cultural_names = {
+					hokkaido_ainu = cn_toma_oma_i
+					chishima_ainu = cn_toma_oma_i
+					karafuto_ainu = cn_toma_oma_i
+					dohoku_ainu = cn_toma_oma_i
+					doto_ainu = cn_toma_oma_i
+					doo_ainu = cn_toma_oma_i
+					donan_ainu = cn_toma_oma_i
+					tohoku_ainu = cn_toma_oma_i
+				}
                 b_shgnt_tomamae_1 = {
                     province = 2809
                 }
-                b_shgnt_tomamae_2 = {
+                b_shgnt_tomamae_2 = { # Tomamae, 苫前
                     province = 2810
+                    cultural_names = {
+						hokkaido_ainu = cn_toma_oma_i
+						chishima_ainu = cn_toma_oma_i
+						karafuto_ainu = cn_toma_oma_i
+						dohoku_ainu = cn_toma_oma_i
+						doto_ainu = cn_toma_oma_i
+						doo_ainu = cn_toma_oma_i
+						donan_ainu = cn_toma_oma_i
+						tohoku_ainu = cn_toma_oma_i
+					}
                 }
                 b_shgnt_tomamae_3 = {
                     province = 2811
@@ -12351,33 +13161,99 @@ e_shgnt_ezochi = {
             c_shgnt_teshio = {
                 color = {170 207 83}
                 color2 = {255 255 255}
+                cultural_names = {
+					hokkaido_ainu = cn_tes_un_i
+					chishima_ainu = cn_tes_un_i
+					karafuto_ainu = cn_tes_un_i
+					dohoku_ainu = cn_tes_un_i
+					doto_ainu = cn_tes_un_i
+					doo_ainu = cn_tes_un_i
+					donan_ainu = cn_tes_un_i
+					tohoku_ainu = cn_tes_un_i
+				}
                 b_shgnt_teshio_1 = {
                     province = 2812
                 }
-                b_shgnt_teshio_2 = {
+                b_shgnt_teshio_2 = { # Teshio, 天塩
                     province = 2813
+                    cultural_names = {
+						hokkaido_ainu = cn_tes_un_i
+						chishima_ainu = cn_tes_un_i
+						karafuto_ainu = cn_tes_un_i
+						dohoku_ainu = cn_tes_un_i
+						doto_ainu = cn_tes_un_i
+						doo_ainu = cn_tes_un_i
+						donan_ainu = cn_tes_un_i
+						tohoku_ainu = cn_tes_un_i
+					}
                 }
             }
             c_shgnt_nakagawa = {
                 color = {170 207 83}
                 color2 = {255 255 255}
+                cultural_names = {
+					hokkaido_ainu = cn_pon_pira
+					chishima_ainu = cn_pon_pira
+					karafuto_ainu = cn_pon_pira
+					dohoku_ainu = cn_pon_pira
+					doto_ainu = cn_pon_pira
+					doo_ainu = cn_pon_pira
+					donan_ainu = cn_pon_pira
+					tohoku_ainu = cn_pon_pira
+				}
                 b_shgnt_nakagawa_1 = {
                     province = 2814
                 }
                 b_shgnt_nakagawa_2 = {
                     province = 2815
                 }
-                b_shgnt_nakagawa_3 = {
+                b_shgnt_nakagawa_3 = { # Nakagawa, 中川
                     province = 2816
+                    cultural_names = {
+						hokkaido_ainu = cn_pon_pira
+						chishima_ainu = cn_pon_pira
+						karafuto_ainu = cn_pon_pira
+						dohoku_ainu = cn_pon_pira
+						doto_ainu = cn_pon_pira
+						doo_ainu = cn_pon_pira
+						donan_ainu = cn_pon_pira
+						tohoku_ainu = cn_pon_pira
+					}
                 }
             }
         }
         d_shgnt_kitami = {
-                color = {224 235 175}
-                color2 = {255 255 255}
+            color = {224 235 175}
+            color2 = {255 255 255}
+
+            capital = c_shgnt_rishiri
+
+            cultural_names = {
+                hokkaido_ainu = cn_so_ya_un_kur
+                chishima_ainu = cn_so_ya_un_kur
+                karafuto_ainu = cn_so_ya_un_kur
+                dohoku_ainu = cn_so_ya_un_kur
+                doto_ainu = cn_so_ya_un_kur
+                doo_ainu = cn_so_ya_un_kur
+                donan_ainu = cn_so_ya_un_kur
+                tohoku_ainu = cn_so_ya_un_kur
+                nivkh = cn_so_ya_wei
+                old_okhotsk = cn_so_ya_wei
+                uilta = cn_so_ya_wei
+            }
             c_shgnt_rishiri = {
                 color = {224 235 175}
                 color2 = {255 255 255}
+                cultural_names = {
+					hokkaido_ainu = cn_ri_sir
+					chishima_ainu = cn_ri_sir
+					karafuto_ainu = cn_ri_sir
+					dohoku_ainu = cn_ri_sir
+					doto_ainu = cn_ri_sir
+					doo_ainu = cn_ri_sir
+					donan_ainu = cn_ri_sir
+					tohoku_ainu = cn_ri_sir
+				}
                 b_shgnt_rishiri_1 = {
                     province = 2817
                 }
@@ -12388,8 +13264,28 @@ e_shgnt_ezochi = {
             c_shgnt_rebun = {
                 color = {224 235 175}
                 color2 = {255 255 255}
-                b_shgnt_rebun_1 = {
+                cultural_names = {
+					hokkaido_ainu = cn_repuy_sir
+					chishima_ainu = cn_repuy_sir
+					karafuto_ainu = cn_repuy_sir
+					dohoku_ainu = cn_repuy_sir
+					doto_ainu = cn_repuy_sir
+					doo_ainu = cn_repuy_sir
+					donan_ainu = cn_repuy_sir
+					tohoku_ainu = cn_repuy_sir
+				}
+                b_shgnt_rebun_1 = { # Kafukai, 香深
                     province = 2819
+                    cultural_names = {
+						hokkaido_ainu = cn_kap_kay
+						chishima_ainu = cn_kap_kay
+						karafuto_ainu = cn_kap_kay
+						dohoku_ainu = cn_kap_kay
+						doto_ainu = cn_kap_kay
+						doo_ainu = cn_kap_kay
+						donan_ainu = cn_kap_kay
+						tohoku_ainu = cn_kap_kay
+					}
                 }
                 b_shgnt_rebun_2 = {
                     province = 2820
@@ -12398,8 +13294,28 @@ e_shgnt_ezochi = {
             c_shgnt_soya = {
                 color = {224 235 175}
                 color2 = {255 255 255}
-                b_shgnt_soya_1 = {
+                cultural_names = {
+					hokkaido_ainu = cn_so_ya
+					chishima_ainu = cn_so_ya
+					karafuto_ainu = cn_so_ya
+					dohoku_ainu = cn_so_ya
+					doto_ainu = cn_so_ya
+					doo_ainu = cn_so_ya
+					donan_ainu = cn_so_ya
+					tohoku_ainu = cn_so_ya
+				}
+                b_shgnt_soya_1 = { # Soya, 宗谷
                     province = 2821
+                    cultural_names = {
+						hokkaido_ainu = cn_so_ya
+						chishima_ainu = cn_so_ya
+						karafuto_ainu = cn_so_ya
+						dohoku_ainu = cn_so_ya
+						doto_ainu = cn_so_ya
+						doo_ainu = cn_so_ya
+						donan_ainu = cn_so_ya
+						tohoku_ainu = cn_so_ya
+					}
                 }
                 b_shgnt_soya_2 = {
                     province = 2822
@@ -12408,8 +13324,28 @@ e_shgnt_ezochi = {
             c_shgnt_esashi = {
                 color = {224 235 160}
                 color2 = {255 255 255}
-                b_shgnt_esashi_1 = {
+                cultural_names = {
+					hokkaido_ainu = cn_e_sa_us_i
+					chishima_ainu = cn_e_sa_us_i
+					karafuto_ainu = cn_e_sa_us_i
+					dohoku_ainu = cn_e_sa_us_i
+					doto_ainu = cn_e_sa_us_i
+					doo_ainu = cn_e_sa_us_i
+					donan_ainu = cn_e_sa_us_i
+					tohoku_ainu = cn_e_sa_us_i
+				}
+                b_shgnt_esashi_1 = { # Esashi, 枝幸
                     province = 2823
+                    cultural_names = {
+						hokkaido_ainu = cn_e_sa_us_i
+						chishima_ainu = cn_e_sa_us_i
+						karafuto_ainu = cn_e_sa_us_i
+						dohoku_ainu = cn_e_sa_us_i
+						doto_ainu = cn_e_sa_us_i
+						doo_ainu = cn_e_sa_us_i
+						donan_ainu = cn_e_sa_us_i
+						tohoku_ainu = cn_e_sa_us_i
+					}
                 }
                 b_shgnt_esashi_2 = {
                     province = 2824
@@ -12418,14 +13354,34 @@ e_shgnt_ezochi = {
             c_shgnt_monbetsu = {
                 color = {224 245 150}
                 color2 = {255 255 255}
+                cultural_names = {
+					hokkaido_ainu = cn_mopet
+					chishima_ainu = cn_mopet
+					karafuto_ainu = cn_mopet
+					dohoku_ainu = cn_mopet
+					doto_ainu = cn_mopet
+					doo_ainu = cn_mopet
+					donan_ainu = cn_mopet
+					tohoku_ainu = cn_mopet
+				}
                 b_shgnt_monbetsu_1 = {
                     province = 2825
                 }
                 b_shgnt_monbetsu_2 = {
                     province = 2826
                 }
-                b_shgnt_monbetsu_3 = {
+                b_shgnt_monbetsu_3 = { # Monbetsu, 紋別
                     province = 2827
+                    cultural_names = {
+						hokkaido_ainu = cn_mopet
+						chishima_ainu = cn_mopet
+						karafuto_ainu = cn_mopet
+						dohoku_ainu = cn_mopet
+						doto_ainu = cn_mopet
+						doo_ainu = cn_mopet
+						donan_ainu = cn_mopet
+						tohoku_ainu = cn_mopet
+					}
                 }
                 b_shgnt_monbetsu_4 = {
                     province = 2828
@@ -12434,31 +13390,91 @@ e_shgnt_ezochi = {
             c_shgnt_tokoro = {
                 color = {224 255 135}
                 color2 = {255 255 255}
+                cultural_names = {
+					hokkaido_ainu = cn_to_kor_pet
+					chishima_ainu = cn_to_kor_pet
+					karafuto_ainu = cn_to_kor_pet
+					dohoku_ainu = cn_to_kor_pet
+					doto_ainu = cn_to_kor_pet
+					doo_ainu = cn_to_kor_pet
+					donan_ainu = cn_to_kor_pet
+					tohoku_ainu = cn_to_kor_pet
+				}
                 b_shgnt_tokoro_1 = {
                     province = 2829
                 }
                 b_shgnt_tokoro_2 = {
                     province = 2830
                 }
-                b_shgnt_tokoro_3 = {
+                b_shgnt_tokoro_3 = { # Tokoro, 常呂
                     province = 2831
+                    cultural_names = {
+						hokkaido_ainu = cn_to_kor_pet
+						chishima_ainu = cn_to_kor_pet
+						karafuto_ainu = cn_to_kor_pet
+						dohoku_ainu = cn_to_kor_pet
+						doto_ainu = cn_to_kor_pet
+						doo_ainu = cn_to_kor_pet
+						donan_ainu = cn_to_kor_pet
+						tohoku_ainu = cn_to_kor_pet
+					}
                 }
             }
             c_shgnt_abashiri = {
                 color = {224 245 115}
                 color2 = {255 255 255}
+                cultural_names = {
+					hokkaido_ainu = cn_ci_pa_sir
+					chishima_ainu = cn_ci_pa_sir
+					karafuto_ainu = cn_ci_pa_sir
+					dohoku_ainu = cn_ci_pa_sir
+					doto_ainu = cn_ci_pa_sir
+					doo_ainu = cn_ci_pa_sir
+					donan_ainu = cn_ci_pa_sir
+					tohoku_ainu = cn_ci_pa_sir
+				}
                 b_shgnt_abashiri_1 = {
                     province = 2832
                 }
-                b_shgnt_abashiri_2 = {
+                b_shgnt_abashiri_2 = { # Abashiri, 網走
                     province = 2833
+                    cultural_names = {
+						hokkaido_ainu = cn_ci_pa_sir
+						chishima_ainu = cn_ci_pa_sir
+						karafuto_ainu = cn_ci_pa_sir
+						dohoku_ainu = cn_ci_pa_sir
+						doto_ainu = cn_ci_pa_sir
+						doo_ainu = cn_ci_pa_sir
+						donan_ainu = cn_ci_pa_sir
+						tohoku_ainu = cn_ci_pa_sir
+					}
                 }
             }
             c_shgnt_shari = {
                 color = {224 255 105}
                 color2 = {255 255 255}
-                b_shgnt_shari_1 = {
+                cultural_names = {
+                    hokkaido_ainu = cn_sar
+                    chishima_ainu = cn_sar
+                    karafuto_ainu = cn_sar
+                    dohoku_ainu = cn_sar
+                    doto_ainu = cn_sar
+                    doo_ainu = cn_sar
+                    donan_ainu = cn_sar
+                    tohoku_ainu = cn_sar
+                }
+                b_shgnt_shari_1 = { # Shari	斜里
                     province = 2834
+                    cultural_names = {
+                        hokkaido_ainu = cn_sar
+                        chishima_ainu = cn_sar
+                        karafuto_ainu = cn_sar
+                        dohoku_ainu = cn_sar
+                        doto_ainu = cn_sar
+                        doo_ainu = cn_sar
+                        donan_ainu = cn_sar
+                        tohoku_ainu = cn_sar
+                    }
                 }
                 b_shgnt_shari_2 = {
                     province = 2835

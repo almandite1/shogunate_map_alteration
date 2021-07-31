@@ -1,6 +1,6 @@
-Shogunate 地図改変サブ MOD 日本語 ベータ版 Version 0.5.2 'Awabiara Saki'
+Shogunate 地図改変サブ MOD 日本語 ベータ版 Version 0.5.3 'Awabiara Saki'
 
-[h1]Shogunate 地図改変サブ MOD 日本語 ベータ版 Version 0.5.2 'Awabiara Saki'[/h1]
+[h1]Shogunate 地図改変サブ MOD 日本語 ベータ版 Version 0.5.3 'Awabiara Saki'[/h1]
 ====
 
 Shogunate 地図改変サブ MOD ベータ版は [url=https://steamcommunity.com/workshop/filedetails/?id=2253279956]Shogunate MOD [/url]のサブ MOD です。地図を高解像なものに置き換え、プロヴィンス＝ holding を増やします。
@@ -63,7 +63,7 @@ x_buddhist 文化を持つ男性キャラクターの髪がなくなるように
 [*] キャラクターの髪や服を Maya や Blender でモデリングし、PDX形式でエクスポートし、ゲーム内で動くように調整すること。この MOD、あるいはメイン MOD で必要とされる 3D モデルについて Paradox Forum の投稿にまとめています。[url=https://forum.paradoxplaza.com/forum/threads/mod-public-alpha-shogunate-map-alteration-sub-mod.1467780/post-27623098]こちら[/url]もご参照ください。
 [*] その他
 [/olist]
-成果物の競合を避けるため事前に申告いただければ助かります。ご連絡は [url=https://forum.paradoxplaza.com/forum/threads/mod-public-alpha-shogunate-map-alteration-sub-mod.1467780/]Paradox Forum[/url] か Discord からお願いします。
+成果物の競合を避けるため事前に申告いただければ助かります。ご連絡は [url=https://forum.paradoxplaza.com/forum/threads/mod-public-alpha-shogunate-map-alteration-sub-mod.1467780/]Paradox Forum[/url] か [url=https://discord.gg/jfcSfchJGC]Discord[/url] からお願いします。
 
 [h2]クレジット[/h2]
 [url=https://github.com/almandite1/shogunate_map_alteration/tree/main#credit]ここ[/url]からご覧いただけます。

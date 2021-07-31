@@ -776,6 +776,88 @@ c_shgnt_kaga_ishikawa = {
         holder = 10029256 # Tokuyama Norihide
     }
 }
+c_shgnt_kaga_ishikawa2 = {
+    0001.01.01 = { change_development_level = 20 }
+    1100.01.01 = { change_development_level = 20 }
+    1221.07.06 = { change_development_level = 30 }
+    1331.01.01 = { change_development_level = 50 }
+    1580.05.02 = { change_development_level = 50 }
+    1180.01.01 = {
+        liege = d_shgnt_kaga # 
+        holder = 10130716 # Hayashi Mitsuaki
+    }
+    1188.01.01 = {
+        liege = 0
+        holder = 0
+    }
+    1334.01.01 = {
+        liege = d_shgnt_kaga # 
+        holder = 12310130 # Togashi Takaie
+    }
+    1351.01.01 = {
+        holder = 12310140 # Togashi Ujiharu
+    }
+    1358.01.01 = {
+        holder = 12310150 # Togashi Masaie
+    }
+    1387.04.01 = {
+        holder = 12310160 # Togashi Akichika
+    }
+    1392.01.24 = {
+        holder = 12310170 # Togashi Mitsuharu
+    }
+    1427.07.03 = {
+        holder = 12310180 # Togashi Mochiharu
+    }
+    1433.08.24 = {
+        holder = 12310181 # Togashi Noriie
+    }
+    1442.07.31 = {
+        liege = d_shgnt_kaga # 
+        holder = 12310190 # Togashi Shigeharu
+    }
+    1458.09.01 = {
+        liege = k_nmih_kanrei # 
+        holder = 10053518 # Akamatsu Masanori
+    }
+    1467.06.27 = {
+        liege = d_shgnt_kaga # 
+        holder = 12310195 # Togashi Masachika
+    }
+    1488.07.17 = {
+        holder = 12310182 # Togashi Yasutaka
+    }
+    1495.01.01 = {
+        holder = 12310210 # Togashi Taneyasu
+    }
+    1531.11.26 = {
+        holder = 10042200 # Honganji Shonyo
+    }
+    1532.09.23 = {
+        liege = 0 # 
+        holder = 12310220 # Togashi Yasutoshi
+    }
+    1534.01.01 = {
+        liege = d_shgnt_kaga # 
+        holder = 10030550 # Togashi Harusada
+    }
+    1570.07.01 = {
+        liege = d_shgnt_kaga # 
+        holder = 10042350 # Shichiri Yorichika
+    }
+    1576.01.01 = {
+        liege = d_shgnt_kaga # 
+        holder = 10042316 # Shimotsuma Raijun
+    }
+    1580.05.02 = {
+        liege = e_shgnt_japan # Oda Nobunaga
+        holder = 10029280 # Shibata Katsuie
+    }
+    1580.12.07 = {
+        liege = d_shgnt_kaga # 29280 Shibata Katsuie
+        holder = 10029256 # Tokuyama Norihide
+    }
+}
 c_shgnt_iwafune = {
     0001.01.01 = { change_development_level = 20 }
     1100.01.01 = { change_development_level = 20 }

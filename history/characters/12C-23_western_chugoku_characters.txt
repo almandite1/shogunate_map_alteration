@@ -1191,6 +1191,7 @@
 	}
 	1185.1.1={
 		death=yes
+		dynasty=10000570 # Ouchi
 	}
 }
 12661415 = {
@@ -1295,7 +1296,8 @@
 		give_nickname="nick_saburo"
 	}
 	1297.1.1={
-		dynasty=10005525 # Suetake
+		#dynasty=10005525 # Suetake
+		dynasty_house = "house_shgnt_ouchi_suetake"
 	}
 	1327.1.1={
 		death=yes
@@ -1314,7 +1316,8 @@
 		give_nickname="nick_goro"
 	}
 	1242.1.1={
-		dynasty=10005520 # Kurokawa
+		#dynasty=10005520 # Kurokawa
+		dynasty_house = "house_shgnt_ouchi_kurokawa"
 	}
 	1272.1.1={
 		death=yes
@@ -1361,7 +1364,8 @@
 		give_nickname="nick_rokuro"
 	}
 	1250.1.1={
-		dynasty=10005524 # Egi
+		#dynasty=10005524 # Egi
+		dynasty_house = "house_shgnt_ouchi_egi"
 	}
 	1280.1.1={
 		death=yes
@@ -1394,7 +1398,8 @@
 		employer=12661415 # Ouchi Hiromori
 	}
 	1192.1.1={
-		dynasty=10005519 # Wanishi
+		#dynasty=10005519 # Wanishi
+		dynasty_house = "house_shgnt_ouchi_wanishi"
 	}
 	1222.1.1={
 		death=yes
@@ -1460,14 +1465,14 @@
 	}
 	1164.1.1={
 #		dynasty=10005517 # Washizu
-		dynasty_house = house_shgnt_washizu
+		dynasty_house = "house_shgnt_washizu"
 	}
 	1180.1.1={
 		employer=12661415 # Ouchi Hiromori
 	}
 	1194.1.1={
 		death=yes
-		dynasty=10005517 # Washizu
+		dynasty_house = "house_shgnt_ouchi_washizu"
 	}
 }
 12661430={
@@ -3870,7 +3875,7 @@
 	}
 	1219.1.1={
 		death=yes
-		dynasty=10005517 # Washizu
+		dynasty_house = "house_shgnt_ouchi_washizu"
 	}
 }
 12661911={
@@ -3891,7 +3896,7 @@
 	}
 	1221.1.1={
 		death=yes
-		dynasty=10005517 # Washizu
+		dynasty_house = "house_shgnt_ouchi_washizu"
 	}
 }
 12661912={
@@ -3909,13 +3914,14 @@
 	}
 	1224.1.1={
 		death=yes
-		dynasty=10005517 # Washizu
+		dynasty_house = "house_shgnt_ouchi_washizu"
 	}
 }
 12661913={
 	female=yes
 	name=character_name_12661913 # Nizenkei
-	dynasty=10005517 # Washizu
+#	dynasty=10005517 # Washizu
+	dynasty_house = "house_shgnt_ouchi_washizu"
 	father=12661910 # Washizu Chikamori
 	religion="shinto"
 	culture="western_chugoku"
@@ -3934,7 +3940,8 @@
 }
 12661914={
 	name=character_name_12661914 # Chikayasu
-	dynasty=10005517 # Washizu
+#	dynasty=10005517 # Washizu
+	dynasty_house = "house_shgnt_ouchi_washizu"
 	father=12661911 # Washizu Yasuhiro
 	religion="shinto"
 	culture="western_chugoku"
@@ -3947,7 +3954,8 @@
 }
 12661915={
 	name=character_name_12661915 # Yasumitsu
-	dynasty=10005517 # Washizu
+#	dynasty=10005517 # Washizu
+	dynasty_house = "house_shgnt_ouchi_washizu"
 	father=12661911 # Washizu Yasuhiro
 	religion="shinto"
 	culture="western_chugoku"
@@ -3955,7 +3963,8 @@
 		birth=yes
 	}
 	1220.1.1={
-		dynasty=10005519 # Wanishi
+		#dynasty=10005519 # Wanishi
+		dynasty_house = "house_shgnt_ouchi_wanishi"
 	}
 	1250.1.1={
 		death=yes
@@ -3963,7 +3972,8 @@
 }
 12661916={
 	name=character_name_12661916 # Yasunari
-	dynasty=10005517 # Washizu
+#	dynasty=10005517 # Washizu
+	dynasty_house = "house_shgnt_ouchi_washizu"
 	father=12661915 # Washizu Yasumitsu
 	religion="shinto"
 	culture="western_chugoku"
@@ -3979,7 +3989,8 @@
 }
 12661917={
 	name=character_name_12661917 # Yasumori
-	dynasty=10005517 # Washizu
+#	dynasty=10005517 # Washizu
+	dynasty_house = "house_shgnt_ouchi_washizu"
 	father=12661915 # Washizu Yasumitsu
 	religion="shinto"
 	culture="western_chugoku"
@@ -3995,7 +4006,8 @@
 }
 12661918={
 	name=character_name_12661918 # Yasusada
-	dynasty=10005517 # Washizu
+#	dynasty=10005517 # Washizu
+	dynasty_house = "house_shgnt_ouchi_washizu"
 	father=12661915 # Washizu Yasumitsu
 	religion="shinto"
 	culture="western_chugoku"
@@ -4008,7 +4020,8 @@
 }
 12661919={
 	name=character_name_12661919 # Yasuie
-	dynasty=10005517 # Washizu
+#	dynasty=10005517 # Washizu
+	dynasty_house = "house_shgnt_ouchi_washizu"
 	father=12661915 # Washizu Yasumitsu
 	religion="shinto"
 	culture="western_chugoku"
@@ -4021,7 +4034,8 @@
 }
 12661920={
 	name=character_name_12661920 # Yasuhiro
-	dynasty=10005517 # Washizu
+#	dynasty=10005517 # Washizu
+	dynasty_house = "house_shgnt_ouchi_washizu"
 	father=12661915 # Washizu Yasumitsu
 	religion="shinto"
 	culture="western_chugoku"
@@ -4034,7 +4048,8 @@
 }
 12661921={
 	name=character_name_12661921 # Sanukibo
-	dynasty=10005517 # Washizu
+#	dynasty=10005517 # Washizu
+	dynasty_house = "house_shgnt_ouchi_washizu"
 	father=12661916 # Washizu Yasunari
 	religion="shinto"
 	culture="western_chugoku"
@@ -4047,7 +4062,8 @@
 }
 12661923={
 	name=character_name_12661923 # Yasufusa
-	dynasty=10005517 # Washizu
+#	dynasty=10005517 # Washizu
+	dynasty_house = "house_shgnt_ouchi_washizu"
 	father=12661918 # Washizu Yasusada
 	religion="shinto"
 	culture="western_chugoku"
@@ -4060,7 +4076,8 @@
 }
 12661924={
 	name=character_name_12661924 # Yasutake
-	dynasty=10005517 # Washizu
+#	dynasty=10005517 # Washizu
+	dynasty_house = "house_shgnt_ouchi_washizu"
 	father=12661923 # Washizu Yasufusa
 	religion="shinto"
 	culture="western_chugoku"
@@ -4073,7 +4090,8 @@
 }
 12661925={
 	name=character_name_12661925 # Yasusada
-	dynasty=10005517 # Washizu
+#	dynasty=10005517 # Washizu
+	dynasty_house = "house_shgnt_ouchi_washizu"
 	father=12661924 # Washizu Yasutake
 	religion="shinto"
 	culture="western_chugoku"
@@ -4292,7 +4310,8 @@
 }
 12661970={
 	name=character_name_12661970 # Sadamori
-	dynasty=10005519 # Wanishi
+#	dynasty=10005519 # Wanishi
+	dynasty_house = "house_shgnt_ouchi_wanishi"
 	father=12661426 # Ouchi Moriie
 	religion="shinto"
 	culture="western_chugoku"
@@ -4311,7 +4330,8 @@
 }
 12661971={
 	name=character_name_12661971 # Morikiyo
-	dynasty=10005519 # Wanishi
+#	dynasty=10005519 # Wanishi
+	dynasty_house = "house_shgnt_ouchi_wanishi"
 	father=12661426 # Ouchi Moriie
 	religion="shinto"
 	culture="western_chugoku"
@@ -4327,7 +4347,8 @@
 }
 12661972={
 	name=character_name_12661972 # Morinaga
-	dynasty=10005519 # Wanishi
+#	dynasty=10005519 # Wanishi
+	dynasty_house = "house_shgnt_ouchi_wanishi"
 	father=12661426 # Ouchi Moriie
 	religion="shinto"
 	culture="western_chugoku"
@@ -4346,7 +4367,8 @@
 }
 12661973={
 	name=character_name_12661973 # Sadamoto
-	dynasty=10005519 # Wanishi
+#	dynasty=10005519 # Wanishi
+	dynasty_house = "house_shgnt_ouchi_wanishi"
 	father=12661970 # Wanishi Sadamori
 	religion="shinto"
 	culture="western_chugoku"
@@ -4359,7 +4381,8 @@
 }
 12661974={
 	name=character_name_12661974 # Sadayuki
-	dynasty=10005519 # Wanishi
+#	dynasty=10005519 # Wanishi
+	dynasty_house = "house_shgnt_ouchi_wanishi"
 	father=12661970 # Wanishi Sadamori
 	religion="shinto"
 	culture="western_chugoku"
@@ -4375,7 +4398,8 @@
 }
 12661975={
 	name=character_name_12661975 # Sadanobu
-	dynasty=10005519 # Wanishi
+#	dynasty=10005519 # Wanishi
+	dynasty_house = "house_shgnt_ouchi_wanishi"
 	father=12661973 # Wanishi Sadamoto
 	religion="shinto"
 	culture="western_chugoku"
@@ -4394,7 +4418,8 @@
 }
 12661976={
 	name=character_name_12661976 # Sukesada
-	dynasty=10005519 # Wanishi
+#	dynasty=10005519 # Wanishi
+	dynasty_house = "house_shgnt_ouchi_wanishi"
 	father=12661975 # Wanishi Sadanobu
 	religion="shinto"
 	culture="western_chugoku"
@@ -4413,7 +4438,8 @@
 }
 12661977={
 	name=character_name_12661977 # Moritada
-	dynasty=10005519 # Wanishi
+#	dynasty=10005519 # Wanishi
+	dynasty_house = "house_shgnt_ouchi_wanishi"
 	father=12661971 # Wanishi Morikiyo
 	religion="shinto"
 	culture="western_chugoku"
@@ -4426,7 +4452,8 @@
 }
 12661978={
 	name=character_name_12661978 # Morimasa
-	dynasty=10005519 # Wanishi
+#	dynasty=10005519 # Wanishi
+	dynasty_house = "house_shgnt_ouchi_wanishi"
 	father=12661977 # Wanishi Moritada
 	religion="shinto"
 	culture="western_chugoku"
@@ -4439,7 +4466,8 @@
 }
 12661979={
 	name=character_name_12661979 # Moriyori
-	dynasty=10005519 # Wanishi
+#	dynasty=10005519 # Wanishi
+	dynasty_house = "house_shgnt_ouchi_wanishi"
 	father=12661978 # Wanishi Morimasa
 	religion="shinto"
 	culture="western_chugoku"
@@ -4452,7 +4480,8 @@
 }
 12661980={
 	name=character_name_12661980 # Moriyoshi
-	dynasty=10005519 # Wanishi
+#	dynasty=10005519 # Wanishi
+	dynasty_house = "house_shgnt_ouchi_wanishi"
 	father=12661978 # Wanishi Morimasa
 	religion="shinto"
 	culture="western_chugoku"
@@ -4465,7 +4494,8 @@
 }
 12661981={
 	name=character_name_12661981 # Morisuke
-	dynasty=10005519 # Wanishi
+#	dynasty=10005519 # Wanishi
+	dynasty_house = "house_shgnt_ouchi_wanishi"
 	father=12661979 # Wanishi Moriyori
 	religion="shinto"
 	culture="western_chugoku"
@@ -4481,7 +4511,8 @@
 }
 12661982={
 	name=character_name_12661982 # Morichika
-	dynasty=10005519 # Wanishi
+#	dynasty=10005519 # Wanishi
+	dynasty_house = "house_shgnt_ouchi_wanishi"
 	father=12661980 # Wanishi Moriyoshi
 	religion="shinto"
 	culture="western_chugoku"
@@ -4497,7 +4528,8 @@
 }
 12661990={
 	name=character_name_12661990 # Nariyasu
-	dynasty=10005520 # Kurokawa
+#	dynasty=10005520 # Kurokawa
+	dynasty_house = "house_shgnt_ouchi_kurokawa"
 	father=12661421 # Ouchi Sadayasu
 	religion="shinto"
 	culture="western_chugoku"
@@ -4513,7 +4545,8 @@
 }
 12661991={
 	name=character_name_12661991 # Hiromura
-	dynasty=10005520 # Kurokawa
+#	dynasty=10005520 # Kurokawa
+	dynasty_house = "house_shgnt_ouchi_kurokawa"
 	father=12661421 # Ouchi Sadayasu
 	religion="shinto"
 	culture="western_chugoku"
@@ -4529,7 +4562,8 @@
 }
 12661992={
 	name=character_name_12661992 # Sadanobu
-	dynasty=10005520 # Kurokawa
+#	dynasty=10005520 # Kurokawa
+	dynasty_house = "house_shgnt_ouchi_kurokawa"
 	father=12661990 # Kurokawa Nariyasu
 	religion="shinto"
 	culture="western_chugoku"
@@ -4546,7 +4580,8 @@
 12661993={
 	female=yes
 	name=character_name_12661993 # Yasuko
-	dynasty=10005520 # Kurokawa
+#	dynasty=10005520 # Kurokawa
+	dynasty_house = "house_shgnt_ouchi_kurokawa"
 	father=12661990 # Kurokawa Nariyasu
 	religion="shinto"
 	culture="western_chugoku"
@@ -4559,7 +4594,8 @@
 }
 12661994={
 	name=character_name_12661994 # Hiroaki
-	dynasty=10005520 # Kurokawa
+#	dynasty=10005520 # Kurokawa
+	dynasty_house = "house_shgnt_ouchi_kurokawa"
 	father=12661992 # Kurokawa Sadanobu
 	religion="shinto"
 	culture="western_chugoku"
@@ -4575,7 +4611,8 @@
 }
 12661995={
 	name=character_name_12661995 # Sadaakira
-	dynasty=10005520 # Kurokawa
+#	dynasty=10005520 # Kurokawa
+	dynasty_house = "house_shgnt_ouchi_kurokawa"
 	father=12661992 # Kurokawa Sadanobu
 	religion="shinto"
 	culture="western_chugoku"
@@ -4591,7 +4628,8 @@
 }
 12661996={
 	name=character_name_12661996 # IzumoNoKami
-	dynasty=10005520 # Kurokawa
+#	dynasty=10005520 # Kurokawa
+	dynasty_house = "house_shgnt_ouchi_kurokawa"
 	father=12661992 # Kurokawa Sadanobu
 	religion="shinto"
 	culture="western_chugoku"
@@ -4604,7 +4642,8 @@
 }
 12661997={
 	name=character_name_12661997 # HigoNoKami
-	dynasty=10005520 # Kurokawa
+#	dynasty=10005520 # Kurokawa
+	dynasty_house = "house_shgnt_ouchi_kurokawa"
 	father=12661992 # Kurokawa Sadanobu
 	religion="shinto"
 	culture="western_chugoku"
@@ -4617,7 +4656,8 @@
 }
 12661998={
 	name=character_name_12661998 # Soteki
-	dynasty=10005520 # Kurokawa
+#	dynasty=10005520 # Kurokawa
+	dynasty_house = "house_shgnt_ouchi_kurokawa"
 	father=12661997 # Kurokawa HigoNoKami
 	religion="shinto"
 	culture="western_chugoku"
@@ -4636,7 +4676,8 @@
 }
 12662000={
 	name=character_name_12662000 # Hirokuni
-	dynasty=10005524 # Egi
+#	dynasty=10005524 # Egi
+	dynasty_house = "house_shgnt_ouchi_egi"
 	father=12661424 # Ouchi Hirofusa
 	religion="shinto"
 	culture="western_chugoku"
@@ -4652,7 +4693,8 @@
 }
 12662001={
 	name=character_name_12662001 # Arihiro
-	dynasty=10005524 # Egi
+#	dynasty=10005524 # Egi
+	dynasty_house = "house_shgnt_ouchi_egi"
 	father=12662000 # Egi Hirokuni
 	religion="shinto"
 	culture="western_chugoku"
@@ -4668,7 +4710,8 @@
 }
 12662002={
 	name=character_name_12662002 # Hirokane
-	dynasty=10005524 # Egi
+#	dynasty=10005524 # Egi
+	dynasty_house = "house_shgnt_ouchi_egi"
 	father=12662001 # Egi Arihiro
 	religion="shinto"
 	culture="western_chugoku"
@@ -4681,7 +4724,8 @@
 }
 12662003={
 	name=character_name_12662003 # Hiroharu
-	dynasty=10005524 # Egi
+#	dynasty=10005524 # Egi
+	dynasty_house = "house_shgnt_ouchi_egi"
 	father=12662002 # Egi Hirokane
 	religion="shinto"
 	culture="western_chugoku"
@@ -4697,7 +4741,8 @@
 }
 12662004={
 	name=character_name_12662004 # Hiroaki
-	dynasty=10005524 # Egi
+#	dynasty=10005524 # Egi
+	dynasty_house = "house_shgnt_ouchi_egi"
 	father=12662002 # Egi Hirokane
 	religion="shinto"
 	culture="western_chugoku"
@@ -4713,7 +4758,8 @@
 }
 12662005={
 	name=character_name_12662005 # Hirokata
-	dynasty=10005524 # Egi
+#	dynasty=10005524 # Egi
+	dynasty_house = "house_shgnt_ouchi_egi"
 	father=12662004 # Egi Hiroaki
 	religion="shinto"
 	culture="western_chugoku"
@@ -4729,7 +4775,8 @@
 }
 12662010={
 	name=character_name_12662010 # Sadamori
-	dynasty=10005525 # Suetake
+#	dynasty=10005525 # Suetake
+	dynasty_house = "house_shgnt_ouchi_suetake"
 	father=12661420 # Ouchi Hirofuji
 	religion="shinto"
 	culture="western_chugoku"
@@ -4745,7 +4792,8 @@
 }
 12662011={
 	name=character_name_12662011 # Hirouji
-	dynasty=10005525 # Suetake
+#	dynasty=10005525 # Suetake
+	dynasty_house = "house_shgnt_ouchi_suetake"
 	father=12662010 # Suetake Sadamori
 	religion="shinto"
 	culture="western_chugoku"
@@ -4764,7 +4812,8 @@
 }
 12662012={
 	name=character_name_12662012 # Hirotsune
-	dynasty=10005525 # Suetake
+#	dynasty=10005525 # Suetake
+	dynasty_house = "house_shgnt_ouchi_suetake"
 	father=12662010 # Suetake Sadamori
 	religion="shinto"
 	culture="western_chugoku"
@@ -4783,7 +4832,8 @@
 }
 12662013={
 	name=character_name_12662013 # Yoshiyo
-	dynasty=10005525 # Suetake
+#	dynasty=10005525 # Suetake
+	dynasty_house = "house_shgnt_ouchi_suetake"
 	father=12662011 # Suetake Hirouji
 	religion="shinto"
 	culture="western_chugoku"
@@ -4802,7 +4852,8 @@
 }
 12662014={
 	name=character_name_12662014 # Moritame
-	dynasty=10005525 # Suetake
+#	dynasty=10005525 # Suetake
+	dynasty_house = "house_shgnt_ouchi_suetake"
 	father=12662013 # Suetake Yoshiyo
 	religion="shinto"
 	culture="western_chugoku"
@@ -4821,7 +4872,8 @@
 }
 12662015={
 	name=character_name_12662015 # Hironao
-	dynasty=10005525 # Suetake
+#	dynasty=10005525 # Suetake
+	dynasty_house = "house_shgnt_ouchi_suetake"
 	father=12662012 # Suetake Hirotsune
 	religion="shinto"
 	culture="western_chugoku"
@@ -4834,7 +4886,8 @@
 }
 12662016={
 	name=character_name_12662016 # Nobutane
-	dynasty=10005525 # Suetake
+#	dynasty=10005525 # Suetake
+	dynasty_house = "house_shgnt_ouchi_suetake"
 	father=12662012 # Suetake Hirotsune
 	religion="shinto"
 	culture="western_chugoku"
@@ -4850,7 +4903,8 @@
 }
 12662017={
 	name=character_name_12662017 # Ujihisa
-	dynasty=10005525 # Suetake
+#	dynasty=10005525 # Suetake
+	dynasty_house = "house_shgnt_ouchi_suetake"
 	father=12662016 # Suetake Nobutane
 	religion="shinto"
 	culture="western_chugoku"
@@ -4874,7 +4928,8 @@
 }
 12662018={
 	name=character_name_12662018 # Hiroharu
-	dynasty=10005525 # Suetake
+#	dynasty=10005525 # Suetake
+	dynasty_house = "house_shgnt_ouchi_suetake"
 	father=12662017 # Suetake Ujihisa
 	religion="shinto"
 	culture="western_chugoku"
@@ -4894,7 +4949,8 @@
 12662019={
 	female=yes
 	name=character_name_12662019 # Keizen
-	dynasty=10005525 # Suetake
+#	dynasty=10005525 # Suetake
+	dynasty_house = "house_shgnt_ouchi_suetake"
 	father=12662017 # Suetake Ujihisa
 	religion="shinto"
 	culture="western_chugoku"
@@ -4917,7 +4973,8 @@
 }
 12662020={
 	name=character_name_12662020 # Nobutada
-	dynasty=10005525 # Suetake
+#	dynasty=10005525 # Suetake
+	dynasty_house = "house_shgnt_ouchi_suetake"
 	father=12662017 # Suetake Ujihisa
 	religion="shinto"
 	culture="western_chugoku"
@@ -4939,7 +4996,8 @@
 }
 12662021={
 	name=character_name_12662021 # Yukiuji
-	dynasty=10005525 # Suetake
+#	dynasty=10005525 # Suetake
+	dynasty_house = "house_shgnt_ouchi_suetake"
 	father=12662017 # Suetake Ujihisa
 	religion="shinto"
 	culture="western_chugoku"
@@ -4961,7 +5019,8 @@
 }
 12662022={
 	name=character_name_12662022 # Hiroomi
-	dynasty=10005525 # Suetake
+#	dynasty=10005525 # Suetake
+	dynasty_house = "house_shgnt_ouchi_suetake"
 	father=12662017 # Suetake Ujihisa
 	religion="shinto"
 	culture="western_chugoku"
@@ -4981,7 +5040,8 @@
 }
 12662023={
 	name=character_name_12662023 # Nagayasu
-	dynasty=10005525 # Suetake
+#	dynasty=10005525 # Suetake
+	dynasty_house = "house_shgnt_ouchi_suetake"
 	father=12662017 # Suetake Ujihisa
 	religion="shinto"
 	culture="western_chugoku"
@@ -5016,7 +5076,8 @@
 12662024={
 	female=yes
 	name=character_name_12662024 # Hiroko
-	dynasty=10005525 # Suetake
+#	dynasty=10005525 # Suetake
+	dynasty_house = "house_shgnt_ouchi_suetake"
 	father=12662022 # Suetake Hiroomi
 	religion="shinto"
 	culture="western_chugoku"
@@ -5033,7 +5094,8 @@
 }
 12662025={
 	name=character_name_12662025 # Eiki
-	dynasty=10005525 # Suetake
+#	dynasty=10005525 # Suetake
+	dynasty_house = "house_shgnt_ouchi_suetake"
 	father=12662022 # Suetake Hiroomi
 	religion="shinto"
 	culture="western_chugoku"
@@ -5056,7 +5118,8 @@
 }
 12662026={
 	name=character_name_12662026 # Yasufuji
-	dynasty=10005525 # Suetake
+#	dynasty=10005525 # Suetake
+	dynasty_house = "house_shgnt_ouchi_suetake"
 	father=12662022 # Suetake Hiroomi
 	religion="shinto"
 	culture="western_chugoku"
@@ -5076,7 +5139,8 @@
 }
 12662027={
 	name=character_name_12662027 # Naouji
-	dynasty=10005525 # Suetake
+#	dynasty=10005525 # Suetake
+	dynasty_house = "house_shgnt_ouchi_suetake"
 	father=12662023 # Suetake Nagayasu
 	religion="shinto"
 	culture="western_chugoku"
@@ -5097,7 +5161,8 @@
 12662028={
 	female=yes
 	name=character_name_12662028 # Nagako
-	dynasty=10005525 # Suetake
+#	dynasty=10005525 # Suetake
+	dynasty_house = "house_shgnt_ouchi_suetake"
 	father=12662023 # Suetake Nagayasu
 	religion="shinto"
 	culture="western_chugoku"
@@ -5118,7 +5183,8 @@
 12662029={
 	female=yes
 	name=character_name_12662029 # Yasuko
-	dynasty=10005525 # Suetake
+#	dynasty=10005525 # Suetake
+	dynasty_house = "house_shgnt_ouchi_suetake"
 	father=12662023 # Suetake Nagayasu
 	religion="shinto"
 	culture="western_chugoku"
@@ -5139,7 +5205,8 @@
 12662030={
 	female=yes
 	name=character_name_12662030 # Miyako
-	dynasty=10005525 # Suetake
+#	dynasty=10005525 # Suetake
+	dynasty_house = "house_shgnt_ouchi_suetake"
 	father=12662023 # Suetake Nagayasu
 	religion="shinto"
 	culture="western_chugoku"
@@ -5159,7 +5226,8 @@
 }
 12662031={
 	name=character_name_12662031 # Kaneyasu
-	dynasty=10005525 # Suetake
+#	dynasty=10005525 # Suetake
+	dynasty_house = "house_shgnt_ouchi_suetake"
 	father=12662023 # Suetake Nagayasu
 	religion="shinto"
 	culture="western_chugoku"
@@ -5182,7 +5250,8 @@
 }
 12662032={
 	name=character_name_12662032 # Tadauji
-	dynasty=10005525 # Suetake
+#	dynasty=10005525 # Suetake
+	dynasty_house = "house_shgnt_ouchi_suetake"
 	father=12662027 # Suetake Naouji
 	religion="shinto"
 	culture="western_chugoku"
@@ -5202,7 +5271,8 @@
 }
 12662033={
 	name=character_name_12662033 # Sumiuji
-	dynasty=10005525 # Suetake
+#	dynasty=10005525 # Suetake
+	dynasty_house = "house_shgnt_ouchi_suetake"
 	father=12662032 # Suetake Tadauji
 	religion="shinto"
 	culture="western_chugoku"
@@ -5225,7 +5295,8 @@
 }
 12662034={
 	name=character_name_12662034 # Mochihisa
-	dynasty=10005525 # Suetake
+#	dynasty=10005525 # Suetake
+	dynasty_house = "house_shgnt_ouchi_suetake"
 	father=12662033 # Suetake Sumiuji
 	religion="shinto"
 	culture="western_chugoku"
@@ -5311,7 +5382,8 @@
 		birth=yes
 	}
 	1330.1.1={
-		dynasty=10005526 # Yata
+		#dynasty=10005526 # Yata
+		dynasty_house = "house_shgnt_ouchi_yata"
 	}
 	1360.1.1={
 		death=yes
@@ -5480,7 +5552,8 @@
 }
 12662060={
 	name=character_name_12662060 # Morikazu
-	dynasty=10005526 # Yata
+#	dynasty=10005526 # Yata
+	dynasty_house = "house_shgnt_ouchi_yata"
 	father=12662046 # Ouchi Morikata
 	religion="shinto"
 	culture="western_chugoku"
@@ -5496,7 +5569,8 @@
 }
 12662061={
 	name=character_name_12662061 # Sadamune
-	dynasty=10005526 # Yata
+#	dynasty=10005526 # Yata
+	dynasty_house = "house_shgnt_ouchi_yata"
 	father=12662060 # Yata Morikazu
 	religion="shinto"
 	culture="western_chugoku"
@@ -5509,7 +5583,8 @@
 }
 12662062={
 	name=character_name_12662062 # Hiroshige
-	dynasty=10005526 # Yata
+#	dynasty=10005526 # Yata
+	dynasty_house = "house_shgnt_ouchi_yata"
 	father=12662061 # Yata Sadamune
 	religion="shinto"
 	culture="western_chugoku"
@@ -5525,7 +5600,8 @@
 }
 12662063={
 	name=character_name_12662063 # Shigemori
-	dynasty=10005526 # Yata
+#	dynasty=10005526 # Yata
+	dynasty_house = "house_shgnt_ouchi_yata"
 	father=12662062 # Yata Hiroshige
 	religion="shinto"
 	culture="western_chugoku"
@@ -5541,7 +5617,8 @@
 }
 12662064={
 	name=character_name_12662064 # Mitsuhiro
-	dynasty=10005526 # Yata
+#	dynasty=10005526 # Yata
+	dynasty_house = "house_shgnt_ouchi_yata"
 	father=12662062 # Yata Hiroshige
 	religion="shinto"
 	culture="western_chugoku"
@@ -5557,7 +5634,8 @@
 }
 12662065={
 	name=character_name_12662065 # Yukimori
-	dynasty=10005526 # Yata
+#	dynasty=10005526 # Yata
+	dynasty_house = "house_shgnt_ouchi_yata"
 	father=12662064 # Yata Mitsuhiro
 	religion="shinto"
 	culture="western_chugoku"
@@ -5579,7 +5657,8 @@
 }
 12662066={
 	name=character_name_12662066 # Iehiro
-	dynasty=10005526 # Yata
+#	dynasty=10005526 # Yata
+	dynasty_house = "house_shgnt_ouchi_yata"
 	father=12662065 # Yata Yukimori
 	religion="shinto"
 	culture="western_chugoku"
@@ -5598,7 +5677,8 @@
 }
 12662067={
 	name=character_name_12662067 # Morimichi
-	dynasty=10005526 # Yata
+#	dynasty=10005526 # Yata
+	dynasty_house = "house_shgnt_ouchi_yata"
 	father=12662066 # Yata Iehiro
 	religion="shinto"
 	culture="western_chugoku"
@@ -5617,7 +5697,8 @@
 }
 12662068={
 	name=character_name_12662068 # Shigemori
-	dynasty=10005526 # Yata
+#	dynasty=10005526 # Yata
+	dynasty_house = "house_shgnt_ouchi_yata"
 	father=12662067 # Yata Morimichi
 	religion="shinto"
 	culture="western_chugoku"
@@ -5643,7 +5724,8 @@
 }
 12662069={
 	name=character_name_12662069 # Takamori
-	dynasty=10005526 # Yata
+#	dynasty=10005526 # Yata
+	dynasty_house = "house_shgnt_ouchi_yata"
 	father=12662068 # Yata Shigemori
 	religion="shinto"
 	culture="western_chugoku"
@@ -5666,7 +5748,8 @@
 }
 12662070={
 	name=character_name_12662070 # Morisumi
-	dynasty=10005526 # Yata
+#	dynasty=10005526 # Yata
+	dynasty_house = "house_shgnt_ouchi_yata"
 	father=12662069 # Yata Takamori
 	religion="shinto"
 	culture="western_chugoku"
@@ -5692,7 +5775,8 @@
 }
 12662071={
 	name=character_name_12662071 # Yasumichi
-	dynasty=10005526 # Yata
+#	dynasty=10005526 # Yata
+	dynasty_house = "house_shgnt_ouchi_yata"
 	father=12662070 # Yata Morisumi
 	religion="shinto"
 	culture="western_chugoku"
@@ -5717,7 +5801,8 @@
 }
 12662072={
 	name=character_name_12662072 # Yoshinobu
-	dynasty=10005526 # Yata
+#	dynasty=10005526 # Yata
+	dynasty_house = "house_shgnt_ouchi_yata"
 	father=12662071 # Yata Yasumichi
 	religion="shinto"
 	culture="western_chugoku"
@@ -5737,7 +5822,8 @@
 }
 12662073={
 	name=character_name_12662073 # Takamichi
-	dynasty=10005526 # Yata
+#	dynasty=10005526 # Yata
+	dynasty_house = "house_shgnt_ouchi_yata"
 	father=12662071 # Yata Yasumichi
 	religion="shinto"
 	culture="western_chugoku"
@@ -6332,7 +6418,8 @@
 		employer=10057007 # Ouchi Masahiro
 	}
 	1484.1.1={
-		dynasty=10005528 # Kakinami
+		#dynasty=10005528 # Kakinami
+		dynasty_house = "house_shgnt_ouchi_kakinami"
 	}
 	1494.1.1={
 		give_nickname="nick_sado_no_kami"
@@ -6487,7 +6574,8 @@
 }
 12662160={
 	name=character_name_12662160 # Takayuki
-	dynasty=10005528 # Kakinami
+	#dynasty=10005528 # Kakinami
+	dynasty_house = "house_shgnt_ouchi_kakinami"
 	father=12662128 # Ouchi Hiroyoshi
 	religion="shinto"
 	culture="western_chugoku"
@@ -6508,7 +6596,8 @@
 }
 12662161={
 	name=character_name_12662161 # Okiyuki
-	dynasty=10005528 # Kakinami
+	#dynasty=10005528 # Kakinami
+	dynasty_house = "house_shgnt_ouchi_kakinami"
 	father=12662160 # Kakinami Takayuki
 	religion="shinto"
 	culture="western_chugoku"
@@ -6531,7 +6620,8 @@
 }
 12662162={
 	name=character_name_12662162 # Takamasa
-	dynasty=10005528 # Kakinami
+	#dynasty=10005528 # Kakinami
+	dynasty_house = "house_shgnt_ouchi_kakinami"
 	father=12662160 # Kakinami Takayuki
 	religion="shinto"
 	culture="western_chugoku"
@@ -6575,7 +6665,8 @@
 }
 12662164={
 	name=character_name_12662164 # Yukiyoshi
-	dynasty=10005528 # Kakinami
+	#dynasty=10005528 # Kakinami
+	dynasty_house = "house_shgnt_ouchi_kakinami"
 	father=12662162 # Kakinami Takamasa
 	religion="shinto"
 	culture="western_chugoku"
@@ -6751,7 +6842,8 @@
 		give_nickname="nick_goro"
 	}
 	1505.1.1={
-		dynasty=10005529 # Reizei
+		#dynasty=10005529 # Reizei
+		dynasty_house = "house_shgnt_ouchi_reizei"
 	}
 	1510.1.1={
 		give_nickname="nick_minbu_no_sho"
@@ -6765,7 +6857,8 @@
 }
 12662177={
 	name=character_name_12662177 # Takatoyo
-	dynasty=10005529 # Reizei
+	#dynasty=10005529 # Reizei
+	dynasty_house = "house_shgnt_ouchi_reizei"
 	father=12662176 # Ouchi Okitoyo
 	religion="shinto"
 	culture="central_kinai"
@@ -6795,7 +6888,8 @@
 }
 12662178={
 	name=character_name_12662178 # Mototoyo
-	dynasty=10005529 # Reizei
+	#dynasty=10005529 # Reizei
+	dynasty_house = "house_shgnt_ouchi_reizei"
 	father=12662177 # Reizei Takatoyo
 	religion="shinto"
 	culture="central_kinai"
@@ -6815,7 +6909,8 @@
 }
 12662179={
 	name=character_name_12662179 # Motomitsu
-	dynasty=10005529 # Reizei
+	#dynasty=10005529 # Reizei
+	dynasty_house = "house_shgnt_ouchi_reizei"
 	father=12662177 # Reizei Takatoyo
 	religion="shinto"
 	culture="central_kinai"

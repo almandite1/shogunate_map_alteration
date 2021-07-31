@@ -12578,7 +12578,7 @@
 	1180.10.26={
 		employer=10120075 # Minamoto Yoritomo
 	}
-	1193.1.1 = {
+	1191.1.1 = {　# 『蓮生譲状』より建久2(1191)年三月以前に出家、林譲、2005年。
 		effect = {
 			change_first_name = character_name_12207027_1 # Rensho
 			add_trait = "zealous"
@@ -12804,11 +12804,15 @@
 	religion="shinto"
 	culture="western_kanto"
 	trait="education_intrigue_2"
+	learning = 3
 	1125.1.1={
 		birth=yes
 	}
 	1141.1.1={
 		add_spouse=12207022 # daughter of Kumagai Naotaka
+	}
+	1170.01.01 = {
+		give_nickname = "nick_gon_no_kami" #　武蔵権守 『鎌倉幕府地頭職成立史の研究』東京大学出版会、1978年。「山城権督」『久下系図』
 	}
 	1204.1.1={
 		death=yes

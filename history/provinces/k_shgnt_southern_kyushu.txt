@@ -390,14 +390,17 @@
 2548 = { # Morokata_4
 	culture = southern_kyushu
 	religion = shinto
-	holding = castle_holding
+	holding = castle_holding # Shimazu In, 島津院
+	1375.01.01 = {
+		holding = none
+	}
 }
 2549 = { # Morokata_5
 	culture = southern_kyushu
 	religion = shinto
 	holding = none
 	1375.01.01 = {
-		holding = castle_holding # Miyakonojō
+		holding = castle_holding # Miyakonojō, 都城
 	}
 }
 2550 = { # Morokata_6
@@ -744,12 +747,12 @@
 2617 = { # Satsuma_Izumi_1
 	culture = southern_kyushu
 	religion = shinto
-	holding = castle_holding
+	holding = none
 }
 2618 = { # Satsuma_Izumi_2
 	culture = southern_kyushu
 	religion = shinto
-	holding = none
+	holding = castle_holding
 }
 2619 = { # Satsuma_Izumi_3
 	culture = southern_kyushu

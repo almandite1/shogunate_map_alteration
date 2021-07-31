@@ -4238,6 +4238,7 @@
 	}
 	1530.1.1={
 		give_nickname="nick_yamashiro_no_kami"
+		dynasty_house = "house_shgnt_miyoshi_1"
 	}
 	1568.1.1={
 		effect = {
@@ -4250,7 +4251,8 @@
 }
 10059006 = {
 	name=character_name_10059006 # Nagayasu
-	dynasty=10000587 # Miyoshi
+	#dynasty=10000587 # Miyoshi
+	dynasty_house = "house_shgnt_miyoshi_3"
 	father=10059039
 	religion="shinto"
 	culture="shikoku"
@@ -4387,6 +4389,7 @@
 			add_trait = "tea_master"
 			change_first_name = character_name_10059008_1 # Jikkyu
 		}
+		dynasty_house = "house_shgnt_miyoshi_2"
 	}
 	1562.4.8={
 		death=yes
@@ -4394,7 +4397,8 @@
 }
 10059009 = {
 	name=character_name_10059009 # Nagamitsu # Akutagawa Nagamitsu
-	dynasty=10000588 # Akutagawa
+#	dynasty=10000588 # Akutagawa
+	dynasty_house = "house_shgnt_miyoshi_akutagawa"
 	father=10059001
 	trait="education_diplomacy_1"
 	trait="honest"
@@ -4435,7 +4439,8 @@
 		birth=yes
 	}
 	1545.1.1={
-		dynasty=10000589 # Atagi
+		#dynasty=10000589 # Atagi
+		dynasty_house = "house_shgnt_miyoshi_atagi"
 		add_matrilineal_spouse=10058506
 		give_nickname="nick_Zintaro"
 	}
@@ -4470,7 +4475,8 @@
 		birth=yes
 	}
 	1540.1.1={
-		dynasty=10000590 # Sogo
+		#dynasty=10000590 # Sogo
+		dynasty_house = "house_shgnt_miyoshi_sogo"
 	}
 	1548.1.1={
 		give_nickname="nick_saemon_no_jo"
@@ -4485,7 +4491,8 @@
 }
 10059012 = {
 	name=character_name_10059012 # Masanaga
-	dynasty=10000587 # Miyoshi
+	#dynasty=10000587 # Miyoshi
+	dynasty_house = "house_shgnt_miyoshi_4"
 	father=10059013
 	religion="shinto"
 	culture="shikoku"
@@ -4516,13 +4523,17 @@
 	1476.1.1={
 		birth=yes
 	}
+	1500.1.1={
+		dynasty_house = "house_shgnt_miyoshi_4"
+	}
 	1540.6.19={
 		death=yes
 	}
 }
 10059014={
 	name=character_name_10059014 # Yoshitsugu
-	dynasty=10000590 # Sogo
+	#dynasty=10000590 # Sogo
+	dynasty_house = "house_shgnt_miyoshi_sogo"
 	father=10059011 # Miyoshi Kazumasa
 	mother=11000884 # Kujo Yasuko, daughter of Kujo Tanemichi
 	religion="shinto"
@@ -4623,7 +4634,8 @@
 }
 10059018 = {
 	name=character_name_10059018 # Nagaharu
-	dynasty=10000587 # Miyoshi
+	#dynasty=10000587 # Miyoshi
+	dynasty_house = "house_shgnt_miyoshi_2"
 	father=10059008
 	religion="shinto"
 	culture="shikoku"
@@ -4651,7 +4663,8 @@
 }
 10059019 = {
 	name=character_name_10059019 # Masayasu
-	dynasty=10000587 # Miyoshi
+	#dynasty=10000587 # Miyoshi
+	dynasty_house = "house_shgnt_miyoshi_2"
 	father=10059008
 	mother= 10045490
 	religion="shinto"
@@ -4687,7 +4700,8 @@
 }
 10059020 = {
 	name=character_name_10059020 # Masanaga #Senmatumaru
-	dynasty=10000587 # Miyoshi
+	#dynasty=10000587 # Miyoshi
+	dynasty_house = "house_shgnt_miyoshi_2"
 	father=10059019
 	religion="shinto"
 	culture="shikoku"
@@ -4706,7 +4720,8 @@
 }
 10059021 = {
 	name=character_name_10059021 # Masahide
-	dynasty=10000587 # Miyoshi
+	#dynasty=10000587 # Miyoshi
+	dynasty_house = "house_shgnt_miyoshi_2"
 	father=10059019
 	religion="shinto"
 	culture="shikoku"
@@ -4725,7 +4740,8 @@
 }
 10059022 = {
 	name=character_name_10059022 # Jintaro
-	dynasty=10000589 # Atagi
+	#dynasty=10000589 # Atagi
+	dynasty_house = "house_shgnt_miyoshi_atagi"
 	mother=10058506
 	father=10059010
 	religion="shinto"
@@ -4745,7 +4761,8 @@
 }
 10059023 = {
 	name=character_name_10059023 # Jingoro
-	dynasty=10000587 # Miyoshi
+	#dynasty=10000587 # Miyoshi
+	dynasty_house = "house_shgnt_miyoshi_2"
 	father=10059008
 	mother= 10045490
 	religion="shinto"
@@ -4760,7 +4777,8 @@
 		give_nickname="nick_Zingoro"
 	}
 	1572.1.1={
-		dynasty=10000589 # Atagi
+		#dynasty=10000589 # Atagi
+		dynasty_house = "house_shgnt_miyoshi_atagi"
 	}
 	1590.1.1={
 		death=yes
@@ -4768,7 +4786,8 @@
 }
 10059024 = {
 	name=character_name_10059024 # Masayuki
-	dynasty=10000590 # Sogo
+	#dynasty=10000590 # Sogo
+	dynasty_house = "house_shgnt_miyoshi_sogo"
 	father=10059011
 	religion="shinto"
 	culture="shikoku"
@@ -4788,7 +4807,8 @@
 }
 10059025 = {
 	name=character_name_10059025 # Hikaru
-	dynasty=10000590 # Sogo
+	#dynasty=10000590 # Sogo
+	dynasty_house = "house_shgnt_miyoshi_sogo"
 	father=10059011
 	religion="shinto"
 	culture="shikoku"
@@ -4818,7 +4838,8 @@
 }
 10059026 = {
 	name=character_name_10059026 # Masakatsu
-	dynasty=10000587 # Miyoshi
+	#dynasty=10000587 # Miyoshi
+	dynasty_house = "house_shgnt_miyoshi_4"
 	father=10059012
 	martial=9
 	diplomacy=3
@@ -4839,7 +4860,8 @@
 }
 10059027 = {
 	name=character_name_10059027 # Isan
-	dynasty=10000587 # Miyoshi
+	#dynasty=10000587 # Miyoshi
+	dynasty_house = "house_shgnt_miyoshi_4"
 	father=10059012
 	martial=7
 	diplomacy=6
@@ -4861,7 +4883,8 @@
 }
 10059028 = {
 	name=character_name_10059028 # Masa #Ikeda Nobumasa's wife
-	dynasty=10000587 # Miyoshi
+	#dynasty=10000587 # Miyoshi
+	dynasty_house = "house_shgnt_miyoshi_4"
 	father=10059012
 	female=yes
 	martial=7
@@ -4882,7 +4905,8 @@
 }
 10059029 = {
 	name=character_name_10059029 # Yoshimasa
-	dynasty=10000587 # Miyoshi
+	#dynasty=10000587 # Miyoshi
+	dynasty_house = "house_shgnt_miyoshi_4"
 	father=10059027
 	martial=7
 	diplomacy=6
@@ -4902,7 +4926,8 @@
 }
 10059030 = {
 	name=character_name_10059030 # Nagatomi
-	dynasty=10000587 # Miyoshi
+	#dynasty=10000587 # Miyoshi
+	dynasty_house = "house_shgnt_miyoshi_4"
 	father=10059027
 	martial=7
 	diplomacy=6
@@ -4922,7 +4947,8 @@
 }
 10059031 = {
 	name=character_name_10059031 # Ichi #Shinoyama Suketomo's wofe
-	dynasty=10000587 # Miyoshi
+	#dynasty=10000587 # Miyoshi
+	dynasty_house = "house_shgnt_miyoshi_4"
 	father=10059027
 	female=yes
 	martial=7
@@ -5007,7 +5033,8 @@
 }
 10059036 = {
 	name=character_name_10059036 # Yasutoshi
-	dynasty=10000587 # Miyoshi
+	#dynasty=10000587 # Miyoshi
+	dynasty_house = "house_shgnt_miyoshi_1"
 	father=10059005
 	trait="education_intrigue_1"
 	religion="shinto"
@@ -5021,7 +5048,8 @@
 }
 10059037 = {
 	name=character_name_10059037 # Toshinaga
-	dynasty=10000587 # Miyoshi
+	#dynasty=10000587 # Miyoshi
+	dynasty_house = "house_shgnt_miyoshi_1"
 	father=10059036
 	trait="education_intrigue_1"
 	religion="shinto"
@@ -5065,6 +5093,7 @@
 	}
 	1515.1.1={
 		give_nickname="nick_Hikojio"
+		dynasty_house = "house_shgnt_miyoshi_3"
 	}
 	1520.6.7={
 		death={
@@ -5075,7 +5104,8 @@
 }
 10059040={
 	name=character_name_10059040 # Nagatora
-	dynasty=10000587 # Miyoshi
+	#dynasty=10000587 # Miyoshi
+	dynasty_house = "house_shgnt_miyoshi_3"
 	father=10059006 # Miyoshi Nagayasu
 	religion="shinto"
 	culture="shikoku"
@@ -5090,7 +5120,8 @@
 }
 10059050={
 	name=character_name_10059050 # Magojuro
-	dynasty=10000588 # Akutagawa
+#	dynasty=10000588 # Akutagawa
+	dynasty_house = "house_shgnt_miyoshi_akutagawa"
 	father=10059009 # Akutagawa Nagamitsu
 	religion="shinto"
 	culture="shikoku"
@@ -5921,11 +5952,16 @@
 	1559.1.1={
 		give_nickname="nick_kunai_no_sho"
 	}
-	1563.1.10={
-		effect = {
-			set_realm_capital = title:c_shgnt_tosa
+	1560.07.08 = {
+        effect = {
+			set_realm_capital = title:c_shgnt_nagaoka # 岡豊城
 		}
-	}
+    }
+	#1563.1.10={
+	#	effect = {
+	#		set_realm_capital = title:c_shgnt_tosa
+	#	}
+	#}
 	1587.1.20={ # Chosokabe Nobuchika died.
 		effect = {
 			remove_trait = "brave"
@@ -6070,7 +6106,8 @@
 }
 10059114 = {
 	name=character_name_10059114 # Chikasada #Kira Chikasada
-	dynasty=10000788 # Kira
+#	dynasty=10000788 # Kira
+	dynasty_house = "house_shgnt_chosokabe_kira"
 	father=10059102
 	religion="shinto"
 	culture="shikoku"
@@ -6095,7 +6132,8 @@
 }
 10059115 = {
 	name=character_name_10059115 # Chikayasu #Kosokabe Chikayasu
-	dynasty=10000789 # Kosokabe
+#	dynasty=10000789 # Kosokabe
+	dynasty_house = "house_shgnt_chosokabe_kosokabe"
 	father=10059102
 	religion="shinto"
 	culture="shikoku"
@@ -6179,7 +6217,8 @@
 }
 10059120 = {
 	name=character_name_10059120 # Chikasane #Kira Chikasane
-	dynasty=10000788 # Kira
+#	dynasty=10000788 # Kira
+	dynasty_house = "house_shgnt_chosokabe_kira"
 	father=10059114
 	religion="shinto"
 	culture="shikoku"
@@ -6235,7 +6274,8 @@
 	}
 	1581.1.1={
 		add_matrilineal_spouse=10058253
-		dynasty=10000593
+		#dynasty=10000593
+		dynasty_house = "house_shgnt_chosokabe_kagawa"
 	}
 	1587.4.1={
 		death=yes
@@ -6369,7 +6409,8 @@
 }
 10059130 = {
 	name=character_name_10059130 # Chikamasa #Kira Chikamasa
-	dynasty=10000788 # Kira
+#	dynasty=10000788 # Kira
+	dynasty_house = "house_shgnt_chosokabe_kira"
 	father=10059114
 	trait="education_intrigue_1"
 	religion="shinto"
@@ -6385,7 +6426,8 @@
 }
 10059131 = {
 	name=character_name_10059131 # Chikauji #Kosokabe Chikauji
-	dynasty=10000789 # Kosokabe
+#	dynasty=10000789 # Kosokabe
+	dynasty_house = "house_shgnt_chosokabe_kosokabe"
 	father=10059115
 	trait="education_intrigue_1"
 	religion="shinto"
@@ -6401,7 +6443,8 @@
 }
 10059132 = {
 	name=character_name_10059132 # Sadachika #Kosokabe Sadachika
-	dynasty=10000789 # Kosokabe
+#	dynasty=10000789 # Kosokabe
+	dynasty_house = "house_shgnt_chosokabe_kosokabe"
 	father=10059115
 	trait="education_intrigue_1"
 	religion="shinto"
