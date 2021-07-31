@@ -2133,6 +2133,11 @@
 	1512.1.1={
 		birth=yes
 	}
+	1531.04.03 = {
+		effect={
+			set_realm_capital=title:c_shgnt_chikuzen_yasu
+		}
+	}
 	1557.8.6={
 		death=yes
 	}
@@ -2153,6 +2158,11 @@
 	1490.1.1={
 		birth=yes
 	}
+	1512.01.01 = {
+		effect={
+			set_realm_capital=title:c_shgnt_chikuzen_yasu
+		}
+	}
 	1515.1.1={
 		give_nickname="nick_nakatsukasa_daihu"
 	}
@@ -2169,6 +2179,11 @@
 	1450.1.1={
 		birth=yes
 	}
+	1470.01.01 = {
+		effect={
+			set_realm_capital=title:c_shgnt_chikuzen_yasu
+		}
+	}
 	1475.1.1={
 		give_nickname="nick_nakatsukasa_daihu"
 	}
@@ -2184,6 +2199,11 @@
 	culture="northern_kyushu"
 	1410.1.1={
 		birth=yes
+	}
+	1430.01.01 = {
+		effect={
+			set_realm_capital=title:c_shgnt_chikuzen_yasu
+		}
 	}
 	1450.1.1={
 		give_nickname="nick_nakatsukasa_no_sho"
@@ -2222,6 +2242,11 @@
 	prowess=14
 	1548.1.1={
 		birth=yes
+	}
+	1559.01.01 = {
+		effect={
+			set_realm_capital=title:c_shgnt_chikuzen_yasu
+		}
 	}
 	1564.1.1={
 		give_nickname="nick_saemon_no_jo"
@@ -2383,6 +2408,11 @@
 	1370.1.1={
 		birth=yes
 	}
+	1400.01.01 = {
+		effect={
+			set_realm_capital=title:c_shgnt_chikuzen_yasu
+		}
+	}
 	1415.1.1={
 		give_nickname="nick_saemon_no_jo"
 	}
@@ -2399,6 +2429,11 @@
 	1330.1.1={
 		birth=yes
 	}
+	1336.04.13 = {
+		effect={
+			set_realm_capital=title:c_shgnt_chikuzen_yasu
+		}
+	}
 	1400.1.1={
 		death=yes
 	}
@@ -2411,6 +2446,11 @@
 	culture="northern_kyushu"
 	1310.1.1={
 		birth=yes
+	}
+	1333.01.01 = {
+		effect={
+			set_realm_capital=title:c_shgnt_chikuzen_yasu
+		}
 	}
 	1336.4.13={
 		death=yes
@@ -2598,7 +2638,7 @@
 	}
 }
 10067634 = {
-	name=character_name_10067634 # Taneyoshi
+	name=character_name_10067634 # Taneyoshi, 種義
 	dynasty=10000660 # Kikuchi
 	father=10066021 # Kikuchi Takemasa
 	religion="shinto"
@@ -2607,7 +2647,8 @@
 		birth=yes
 	}
 	1395.1.1={
-		dynasty=10000676 # Harada
+		#dynasty=10000676 # Harada
+		dynasty_house = house_shgnt_kikuchi_harada
 		add_matrilineal_spouse=10067611
 	}
 	1430.1.1={

@@ -2,12 +2,12 @@
 1415 = { # Asuha_1
 	culture = western_hokuriku
 	religion = shinto
-	holding = castle_holding
+	holding = none
 }
 1416 = { # Asuha_2
 	culture = western_hokuriku
 	religion = shinto
-	holding = none
+	holding = castle_holding # 稲津
 	1471.01.01 = {
 		holding = castle_holding # Ichijodani
 	}
@@ -28,7 +28,7 @@
 1419 = { # Asuha_5
 	culture = western_hokuriku
 	religion = shinto
-	holding = none
+	holding = castle_holding # Kida, 木田
 }
 1420 = { # Asuha_6
 	culture = western_hokuriku
@@ -38,7 +38,7 @@
 1421 = { # Asuha_7
 	culture = western_hokuriku
 	religion = shinto
-	holding = none
+	holding = castle_holding # Asuwa Mikuriya, 足羽御厨
 	1573.09.16 = {
 		holding = castle_holding # Kitanoshō
 	}
@@ -96,12 +96,12 @@
 1432 = { # Niu_4
 	culture = western_hokuriku
 	religion = shinto
-	holding = castle_holding
+	holding = city_holding # Kuriyaura, 厨浦
 }
 1433 = { # Niu_5
 	culture = western_hokuriku
 	religion = shinto
-	holding = none
+	holding = church_holding # Tsurugi Jinja, 劔神社
 }
 1434 = { # Niu_6
 	culture = western_hokuriku
@@ -182,7 +182,7 @@
 1448 = { # Echizen_Sakai_1
 	culture = western_hokuriku
 	religion = shinto
-	holding = castle_holding
+	holding = none
 }
 1449 = { # Echizen_Sakai_2
 	culture = western_hokuriku
@@ -192,7 +192,7 @@
 1450 = { # Echizen_Sakai_3
 	culture = western_hokuriku
 	religion = shinto
-	holding = none
+	holding = castle_holding # Hikita, 疋田
 }
 1451 = { # Echizen_Sakai_4
 	culture = western_hokuriku
@@ -345,7 +345,7 @@
 1480 = { # Kaga_Ishikawa_4
 	culture = western_hokuriku
 	religion = shinto
-	holding = none
+	holding = castle_holding # Togashi no Tate, 富樫館
 }
 1481 = { # Kaga_Ishikawa_5
 	culture = western_hokuriku
@@ -405,7 +405,7 @@
 1492 = { # Nomi_1
 	culture = western_hokuriku
 	religion = shinto
-	holding = castle_holding
+	holding = castle_holding # Minato, 湊
 }
 1493 = { # Nomi_2
 	culture = western_hokuriku
@@ -430,7 +430,7 @@
 1497 = { # Nomi_6
 	culture = western_hokuriku
 	religion = shinto
-	holding = none
+	holding = castle_holding # Ataka no Seki, 安宅関
 }
 1498 = { # Nomi_7
 	culture = western_hokuriku
@@ -455,7 +455,7 @@
 1502 = { # Nomi_11
 	culture = western_hokuriku
 	religion = shinto
-	holding = castle_holding
+	holding = none
 }
 1503 = { # Enuma_1
 	culture = western_hokuriku
@@ -1076,7 +1076,7 @@
 1616 = { # Kambara_1
 	culture = eastern_hokuriku
 	religion = shinto
-	holding = castle_holding
+	holding = none
 }
 1617 = { # Kambara_2
 	culture = eastern_hokuriku

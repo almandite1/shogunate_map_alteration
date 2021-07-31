@@ -3054,19 +3054,19 @@ c_shgnt_shimotsuasakura = {
     }
 }
 c_shgnt_chikuzen_yasu = {
-    0001.01.01 = { change_development_level = 40 }
-    1331.01.01 = { change_development_level = 40 }
-    0220.01.01 = {
-        liege = d_shgnt_chikuzen # 
-        holder = 10290035 # Shimako
+	0001.01.01 = { change_development_level = 10 }
+    1100.01.01 = { change_development_level = 10 }
+    1331.01.01 = { change_development_level = 20 }
+
+    0180.01.01 = {
+        holder = 10290001 # Himiko
     }
     1180.01.01 = {
         liege = d_shgnt_chikuzen # 
-        holder = 12750100 # Harada Taneto
+        holder = 12750300 # Akizuki Tanekatsu
     }
     1185.03.04 = {
-        liege = 0 # 
-        holder = 0 # Battle of Ashiya-no-ura
+        holder = 12750300 # Akizuki Tanekatsu
     }
 	1203.01.01 = {
 		effect = {
@@ -3075,6 +3075,48 @@ c_shgnt_chikuzen_yasu = {
 			}
 		}
 	}
+    1210.01.01 = {
+        holder = 12750305 # Akizuki Taneaki
+    }
+    1250.01.01 = {
+        holder = 12750310 # Akizuki Tanesada
+    }
+    1280.01.01 = {
+        holder = 12750315 # Akizuki Tanetaka
+    }
+    1310.01.01 = {
+        holder = 12750320 # Akizuki Taneaki
+    }
+    1333.01.01 = {
+        holder = 10067518 # Akizuki Tanemichi
+    }
+    1336.04.13 = {
+        holder = 10067517 # Akizuki Tanetada
+    }
+    1400.01.01 = {
+        liege = d_shgnt_chikuzen # 
+        holder = 10067515 # Akizuki Taneuji
+    }
+    1430.01.01 = {
+        holder = 10067503 # Akizuki Taneteru
+    }
+    1470.01.01 = {
+        holder = 10067502 # Akizuki Tanetomo
+    }
+    1512.01.01 = {
+        holder = 10067501 # Akizuki Tanetoki
+    }
+    1531.04.03 = {
+        holder = 10067500 # Akizuki Fumitane
+    }
+    1557.08.06 = {
+        liege = d_shgnt_bungo # 
+        holder = 10064002 # Otomo Yoshishige
+    }
+    1559.01.01 = {
+        liege = k_shgnt_western_chugoku # 
+        holder = 10067505 # Akizuki Tanesane
+    }
 	1587.01.01 = {
 		effect = {
 			title:b_shgnt_chikuzen_yasu_2 = {

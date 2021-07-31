@@ -139,9 +139,11 @@ c_shgnt_aichi = {
         holder = 10029119 # Oda Michisada
     }
     1513.01.01 = {
+		liege = d_shgnt_owari # 斯波義寛
         holder = 10029101 # Oda Michikatsu
     }
     1532.01.01 = {
+		liege = d_shgnt_owari # 斯波義統
         holder = 10029100 # Oda Nobuhide
     }
 	1534.01.01 = {
@@ -159,6 +161,7 @@ c_shgnt_aichi = {
 		}
 	}
     1551.04.08 = {
+		liege = d_shgnt_owari # 斯波義統
         holder = 10029126 # Oda Nobukatsu
     }
     1557.11.22 = {
@@ -1179,17 +1182,24 @@ c_shgnt_kai-to = {
     1493.01.01 = {
         holder = 10029125 # Oda Sukenobu
     }
+	1508.08.01 = {
+		liege = d_shgnt_owari # 斯波義寛
+		holder = 10029125 # Oda Sukenobu
+	}
     1520.01.01 = {
+		liege = d_shgnt_owari # 斯波義敦
         holder = 10029118 # Oda Nobusada
     }
     1527.01.01 = {
+		liege = d_shgnt_owari # 斯波義統
         holder = 10029100 # Oda Nobuhide
     }
     1551.04.08 = {
+		liege = d_shgnt_owari # 斯波義統
         holder = 10029120 # Oda Nobunaga
     }
     1567.01.01 = {
-        liege = d_shgnt_owari # 
+        liege = d_shgnt_owari #
         holder = 10029330 # Takigawa Kazumasu
     }
 }
@@ -2552,19 +2562,27 @@ d_shgnt_owari = {
         liege = k_shgnt_sanin # 
         holder = 10057621 # Shiba Yoshikado
     }
+	1473.04.15 = {
+		liege = 0 # 山名宗全死亡　(issue #192)
+	}
     1478.01.01 = {
+		liege = 0 # (issue #192)
         holder = 10029021 # Shiba Yoshihiro
     }
     1513.05.21 = {
+		liege = 0 # (issue #192)
         holder = 10029001 # Shiba Yoshitatsu
     }
     1521.11.01 = {
+		liege = 0 # (issue #192)
         holder = 10029000 # Shiba Yoshimune
     }
     1554.08.10 = {
+		liege = 0 # (issue #192)
         holder = 10029024 # Shiba Yoshikane
     }
     1555.01.01 = {
+		liege = 0 # (issue #192)
         holder = 10029120 # Oda Nobunaga
     }
     1567.10.01 = {

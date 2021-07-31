@@ -1,0 +1,101 @@
+﻿12240050={
+	name=character_name_12240050 # Ryoson
+	dynasty=10007299 # Hakonesan
+	religion="shinto"
+	culture="kanto_buddhist"
+	learning=8
+	trait="education_learning_3"
+	1110.01.01={
+		birth=yes
+	}
+	1120.1.1={
+		effect = {
+			add_trait = "devoted"
+#			add_trait = "shugendo_buddhist"
+		}
+	}
+	1170.01.01={
+		death=yes
+	}
+}
+12240051={
+	name=character_name_12240051 # Gyojitsu
+	dynasty=10007299 # Hakonesan
+	father=12240050 # Ryoson
+	religion="shinto"
+	culture="kanto_buddhist"
+	learning=10
+	trait="education_learning_4"
+	1135.01.01={
+		birth=yes
+	}
+	1145.1.1={
+		effect = {
+			add_trait = "devoted"
+#			add_trait = "shugendo_buddhist"
+		}
+	}
+	1195.01.01={
+		death=yes
+	}
+}
+12240052={
+	name=character_name_12240052 # Eijitsu
+	dynasty=10007299 # Hakonesan
+	father=12240050 # Ryoson
+	religion="shinto"
+	culture="kanto_buddhist"
+	learning=9
+	trait="education_learning_3"
+	1140.01.01={
+		birth=yes
+	}
+	1150.1.1={
+		effect = {
+			add_trait = "devoted"
+#			add_trait = "shugendo_buddhist"
+		}
+	}
+	1200.01.01={
+		death=yes
+	}
+}
+12240100={
+	name=character_name_12240100 # Kakuen
+	dynasty=10007300 # Izusan
+	religion="shinto"
+	culture="kanto_buddhist"
+	learning=9
+	trait="education_learning_3"
+	1130.01.01={
+		birth=yes
+	}
+	1140.1.1={
+		effect = {
+			add_trait = "devoted"
+		}
+	}
+	1195.01.01={
+		death=yes
+	}
+}
+12240101={
+	name=character_name_12240101 # Ryosen
+	dynasty=10007299 # Hakonesan
+	father=12240050 # Ryoson
+	religion="shinto"
+	culture="kanto_buddhist"
+	learning=9
+	trait="education_learning_3"
+	1145.01.01={
+		birth=yes
+	}
+	1155.1.1={
+		effect = {
+			add_trait = "devoted"
+		}
+	}
+	1200.01.01={
+		death=yes
+	}
+}

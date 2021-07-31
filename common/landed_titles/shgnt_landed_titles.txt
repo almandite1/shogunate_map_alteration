@@ -2319,20 +2319,20 @@
             c_shgnt_kamo = {
                 color = {175 164 192}
                 color2 = {255 255 255}
+                b_shgnt_kamo_3 = {
+                    province = 313 # 足助荘
+                }
                 b_shgnt_kamo_1 = {
                     province = 311
                 }
                 b_shgnt_kamo_2 = {
                     province = 312
                 }
-                b_shgnt_kamo_3 = {
-                    province = 313
-                }
                 b_shgnt_kamo_4 = {
                     province = 314
                 }
                 b_shgnt_kamo_5 = {
-                    province = 315
+                    province = 315 # 下山荘松平郷
                 }
             }
             c_shgnt_aomi = {
@@ -2444,6 +2444,9 @@
             color2 = {255 255 255}
 			
             c_shgnt_haibara = {
+                b_shgnt_haibara_4 = {
+                    province = 346 # Sagara, 相良
+                }
                 b_shgnt_haibara_1 = {
                     province = 343
                 }
@@ -2452,9 +2455,6 @@
                 }
                 b_shgnt_haibara_3 = {
                     province = 345
-                }
-                b_shgnt_haibara_4 = {
-                    province = 346
                 }
             }
             c_shgnt_kiko = {
@@ -2508,14 +2508,14 @@
             c_shgnt_suchi = {
                 color = {209 228 240}
                 color2 = {255 255 255}
+                b_shgnt_suchi_3 = {
+                    province = 361
+                }
                 b_shgnt_suchi_1 = {
                     province = 359
                 }
                 b_shgnt_suchi_2 = {
                     province = 360
-                }
-                b_shgnt_suchi_3 = {
-                    province = 361
                 }
             }
             c_shgnt_toyoda = {
@@ -3113,14 +3113,14 @@
             c_shgnt_kamakura = {
                 color = {207 85 53}
                 color2 = {255 255 255}
+                b_shgnt_kamakura_3 = {
+                    province = 443 # 鎌倉
+                }
                 b_shgnt_kamakura_1 = {
                     province = 441
                 }
                 b_shgnt_kamakura_2 = {
                     province = 442
-                }
-                b_shgnt_kamakura_3 = {
-                    province = 443
                 }
             }
             c_shgnt_takakura = {
@@ -3207,8 +3207,11 @@
             }
         }
         d_shgnt_musashi = {
-                color = {216 163 115}
-                color2 = {255 255 255}
+            color = {216 163 115}
+            color2 = {255 255 255}
+			
+			capital = c_shgnt_tato # 多東郡武蔵国府
+			
             c_shgnt_toshima = {
                 color = {216 173 125}
                 color2 = {255 255 255}
@@ -3265,14 +3268,14 @@
                 }
             }
 			c_shgnt_tato = {
+                b_shgnt_tama_7 = {
+                    province = 483 # 武蔵国府、府中
+                }
                 b_shgnt_tama_4 = {
                     province = 480
                 }
 				b_shgnt_tama_6 = {
                     province = 482
-                }
-                b_shgnt_tama_7 = {
-                    province = 483
                 }
                 b_shgnt_tama_8 = {
                     province = 484
@@ -3334,11 +3337,11 @@
             c_shgnt_chichibu = {
                 color = {196 163 115}
                 color2 = {255 255 255}
+                b_shgnt_chichibu_2 = {
+                    province = 495 # 秩父
+                }
                 b_shgnt_chichibu_1 = {
                     province = 494
-                }
-                b_shgnt_chichibu_2 = {
-                    province = 495
                 }
             }
             c_shgnt_obusuma = {
@@ -3415,7 +3418,7 @@
                 color = {216 163 135}
                 color2 = {255 255 255}
                 b_shgnt_minami_adachi_1 = {
-                    province = 517
+                    province = 517 # 舎人
                 }
 				b_shgnt_minami_adachi_2 = {
                     province = 513
@@ -3430,8 +3433,11 @@
             c_shgnt_kita_saitama = {
                 color = {216 153 105}
                 color2 = {255 255 255}
+				b_shgnt_kita_saitama_5 = {
+                    province = 522 # Kisai, 騎西
+                }
                 b_shgnt_kita_saitama_1 = {
-                    province = 518
+                    province = 518 # 埼玉郡河原村
                 }
                 b_shgnt_kita_saitama_2 = {
                     province = 519
@@ -3441,9 +3447,6 @@
                 }
                 b_shgnt_kita_saitama_4 = {
                     province = 521
-                }
-                b_shgnt_kita_saitama_5 = {
-                    province = 522
                 }
                 b_shgnt_kita_saitama_6 = {
                     province = 523
@@ -3945,14 +3948,14 @@
                 }
             }
             c_shgnt_kazusa_yamanobe = {
+                b_shgnt_kazusa_yamanobe_3 = {
+                    province = 590 # 山辺南郡土気郷
+                }
                 b_shgnt_kazusa_yamanobe_1 = {
                     province = 588
                 }
                 b_shgnt_kazusa_yamanobe_2 = {
                     province = 589
-                }
-                b_shgnt_kazusa_yamanobe_3 = {
-                    province = 590
                 }
                 b_shgnt_kazusa_yamanobe_4 = {
                     province = 591
@@ -4110,14 +4113,14 @@
             c_shgnt_katori = {
                 color = {147 127 108}
                 color2 = {255 255 255}
+                b_shgnt_katori_3 = {
+                    province = 631 # 香取神宮
+                }
                 b_shgnt_katori_1 = {
                     province = 629
                 }
                 b_shgnt_katori_2 = {
                     province = 630
-                }
-                b_shgnt_katori_3 = {
-                    province = 631
                 }
                 b_shgnt_katori_4 = {
                     province = 632
@@ -4147,14 +4150,14 @@
             c_shgnt_sosa = {
                 color = {157 127 98}
                 color2 = {255 255 255}
+                b_shgnt_sosa_3 = {
+                    province = 642 # 匝瑳郡匝瑳南条
+                }
                 b_shgnt_sosa_1 = {
                     province = 640
                 }
                 b_shgnt_sosa_2 = {
                     province = 641
-                }
-                b_shgnt_sosa_3 = {
-                    province = 642
                 }
             }
             c_shgnt_unakami = {
@@ -4210,7 +4213,7 @@
             }
 			c_shgnt_hitachi_yoshida = {
                 b_shgnt_ubaraki_6 = {
-                    province = 650
+                    province = 650 #　Baba, 馬場; Mito, 水戸
                 }
                 b_shgnt_ubaraki_8 = {
                     province = 652
@@ -4237,6 +4240,9 @@
             c_shgnt_hitachi_naka = {
                 color = {100 121 75}
                 color2 = {255 255 255}
+                b_shgnt_hitachi_naka_7 = {
+                    province = 665 # 戸村
+                }
                 b_shgnt_hitachi_naka_1 = {
                     province = 659
                 }
@@ -4251,9 +4257,6 @@
                 }
                 b_shgnt_hitachi_naka_5 = {
                     province = 663
-                }
-                b_shgnt_hitachi_naka_7 = {
-                    province = 665
                 }
             }
             c_shgnt_kuji = {
@@ -4350,7 +4353,7 @@
                 color = {110 121 105}
                 color2 = {255 255 255}
                 b_shgnt_makabe_1 = {
-                    province = 695
+                    province = 695 # 伊佐城
                 }
                 b_shgnt_makabe_2 = {
                     province = 696
@@ -4386,14 +4389,14 @@
             c_shgnt_tsukuha = {
                 color = {130 121 85}
                 color2 = {255 255 255}
+                b_shgnt_tsukuha_3 = {
+                    province = 708 # 小田
+                }
                 b_shgnt_tsukuha_1 = {
-                    province = 706
+                    province = 706 # 筑波山神社
                 }
                 b_shgnt_tsukuha_2 = {
                     province = 707
-                }
-                b_shgnt_tsukuha_3 = {
-                    province = 708
                 }
                 b_shgnt_tsukuha_4 = {
                     province = 709
@@ -4414,6 +4417,9 @@
             c_shgnt_hitachi_shida = {
                 color = {110 101 85}
                 color2 = {255 255 255}
+                b_shgnt_hitachi_shida_4 = {
+                    province = 717 #　信太; Edozaki, 江戸崎
+                }
                 b_shgnt_hitachi_shida_1 = {
                     province = 714
                 }
@@ -4422,9 +4428,6 @@
                 }
                 b_shgnt_hitachi_shida_3 = {
                     province = 716
-                }
-                b_shgnt_hitachi_shida_4 = {
-                    province = 717
                 }
                 b_shgnt_hitachi_shida_5 = {
                     province = 718
@@ -4455,6 +4458,9 @@
             c_shgnt_namekata = {
                 color = {110 121 65}
                 color2 = {255 255 255}
+                b_shgnt_namekata_4 = {
+                    province = 728 # 行方郡島崎郷
+                }
                 b_shgnt_namekata_1 = {
                     province = 725
                 }
@@ -4464,18 +4470,15 @@
                 b_shgnt_namekata_3 = {
                     province = 727
                 }
-                b_shgnt_namekata_4 = {
-                    province = 728
-                }
             }
             c_shgnt_kashima = {
                 color = {110 141 85}
                 color2 = {255 255 255}
+                b_shgnt_kashima_2 = {
+                    province = 730 # 鹿島神宮
+                }
                 b_shgnt_kashima_1 = {
                     province = 729
-                }
-                b_shgnt_kashima_2 = {
-                    province = 730
                 }
                 b_shgnt_kashima_3 = {
                     province = 731
@@ -4553,11 +4556,11 @@
             c_shgnt_shionoya = {
                 color = {73 94 65}
                 color2 = {255 255 255}
+                b_shgnt_shionoya_2 = {
+                    province = 1037 # 〔平安〕（城）「塩原要害」
+                }
                 b_shgnt_shionoya_1 = {
                     province = 1036
-                }
-                b_shgnt_shionoya_2 = {
-                    province = 1037
                 }
                 b_shgnt_shionoya_3 = {
                     province = 1038
@@ -4572,6 +4575,9 @@
             c_shgnt_nasu = {
                 color = {83 84 65}
                 color2 = {255 255 255}
+				b_shgnt_nasu_7 = {
+                    province = 1047 # 神田城
+                }
                 b_shgnt_nasu_1 = {
                     province = 1041
                 }
@@ -4589,9 +4595,6 @@
                 }
                 b_shgnt_nasu_6 = {
                     province = 1046
-                }
-                b_shgnt_nasu_7 = {
-                    province = 1047
                 }
                 b_shgnt_nasu_8 = {
                     province = 1048
@@ -4802,14 +4805,14 @@
             c_shgnt_kawanuma = {
                 color = {133 171 78}
                 color2 = {255 255 255}
+                b_shgnt_kawanuma_3 = {
+                    province = 1105 # Jingamine Jō, 陣が峯城
+                }
                 b_shgnt_kawanuma_1 = {
                     province = 1103
                 }
                 b_shgnt_kawanuma_2 = {
                     province = 1104
-                }
-                b_shgnt_kawanuma_3 = {
-                    province = 1105
                 }
                 b_shgnt_kawanuma_4 = {
                     province = 1106
@@ -4835,6 +4838,9 @@
                 }
             }
             c_shgnt_iwase = {
+                b_shgnt_iwase_5 = {
+                    province = 1116 # 〔平安〕「岩瀬荘：場所未確認」
+                }
                 b_shgnt_iwase_1 = {
                     province = 1112
                 }
@@ -4847,9 +4853,6 @@
                 b_shgnt_iwase_4 = {
                     province = 1115
                 }
-                b_shgnt_iwase_5 = {
-                    province = 1116
-                }
                 b_shgnt_iwase_6 = {
                     province = 1117
                 }
@@ -4858,14 +4861,14 @@
                 }
             }
             c_shgnt_adachi = {
+                b_shgnt_adachi_3 = {
+                    province = 1121 #　Nihonmatsu, 二本松城
+                }
                 b_shgnt_adachi_1 = {
                     province = 1119
                 }
                 b_shgnt_adachi_2 = {
                     province = 1120
-                }
-                b_shgnt_adachi_3 = {
-                    province = 1121
                 }
                 b_shgnt_adachi_4 = {
                     province = 1122
@@ -4973,6 +4976,9 @@
             c_shgnt_tamura = {
                 color = {20 164 151}
                 color2 = {255 255 255}
+                b_shgnt_tamura_4 = {
+                    province = 1152 # Tamura no Shō, 田村荘; Miharu, 三春
+                }
                 b_shgnt_tamura_1 = {
                     province = 1149
                 }
@@ -4981,9 +4987,6 @@
                 }
                 b_shgnt_tamura_3 = {
                     province = 1151
-                }
-                b_shgnt_tamura_4 = {
-                    province = 1152
                 }
                 b_shgnt_tamura_5 = {
                     province = 1153
@@ -5046,14 +5049,14 @@
                 }
             }
             c_shgnt_iwasaki = {
+                b_shgnt_iwasaki_3 = {
+                    province = 1170 # 〔鎌倉〕（城）「好島荘」
+                }
                 b_shgnt_iwasaki_1 = {
                     province = 1168
                 }
                 b_shgnt_iwasaki_2 = {
                     province = 1169
-                }
-                b_shgnt_iwasaki_3 = {
-                    province = 1170
                 }
                 b_shgnt_iwasaki_4 = {
                     province = 1171
@@ -5063,11 +5066,11 @@
                 }
             }
             c_shgnt_kikuta = {
+                b_shgnt_kikuta_2 = {
+                    province = 1174 #　Kikuta, 菊田荘
+                }
                 b_shgnt_kikuta_1 = {
                     province = 1173
-                }
-                b_shgnt_kikuta_2 = {
-                    province = 1174
                 }
                 b_shgnt_kikuta_3 = {
                     province = 1175
@@ -5244,6 +5247,9 @@
             c_shgnt_miyagi = {
                 color = {59 101 96}
                 color2 = {255 255 255}
+                b_shgnt_miyagi_6 = {
+                    province = 1223 # 多賀城
+                }
                 b_shgnt_miyagi_1 = {
                     province = 1218
                 }
@@ -5258,9 +5264,6 @@
                 }
                 b_shgnt_miyagi_5 = {
                     province = 1222
-                }
-                b_shgnt_miyagi_6 = {
-                    province = 1223
                 }
                 b_shgnt_miyagi_7 = {
                     province = 1224
@@ -5374,11 +5377,11 @@
             c_shgnt_mogami = {
                 color = {81 116 145}
                 color2 = {255 255 220}
+                b_shgnt_mogami_3 = {
+                    province = 1252 # 大曾禰荘
+                }
                 b_shgnt_mogami_2 = {
                     province = 1251
-                }
-                b_shgnt_mogami_3 = {
-                    province = 1252
                 }
                 b_shgnt_mogami_4 = {
                     province = 1253
@@ -5415,6 +5418,9 @@
 #                }
             }
             c_shgnt_nishi_mogami = {
+                b_shgnt_nishi_mogami_6 = {
+                    province = 1269 # 寒河江荘
+                }
                 b_shgnt_nishi_mogami_1 = {
                     province = 1264
                 }
@@ -5429,9 +5435,6 @@
                 }
                 b_shgnt_nishi_mogami_5 = {
                     province = 1268
-                }
-                b_shgnt_nishi_mogami_6 = {
-                    province = 1269
                 }
                 b_shgnt_nishi_mogami_7 = {
                     province = 1270
@@ -5517,11 +5520,11 @@
             c_shgnt_takawa = {
                 color = {91 106 145}
                 color2 = {255 255 255}
+                b_shgnt_takawa_2 = {
+                    province = 1293 # 大泉荘
+                }
                 b_shgnt_takawa_1 = {
                     province = 1292
-                }
-                b_shgnt_takawa_2 = {
-                    province = 1293
                 }
                 b_shgnt_takawa_3 = {
                     province = 1294
@@ -5622,14 +5625,14 @@
             c_shgnt_yamamoto = {
                 color = {57 62 99}
                 color2 = {255 255 255}
+                b_shgnt_yamamoto_3 = {
+                    province = 1321 # Kakunodate, 角館城
+                }
                 b_shgnt_yamamoto_1 = {
                     province = 1319
                 }
                 b_shgnt_yamamoto_2 = {
                     province = 1320
-                }
-                b_shgnt_yamamoto_3 = {
-                    province = 1321
                 }
                 b_shgnt_yamamoto_4 = {
                     province = 1322
@@ -5700,11 +5703,11 @@
             c_shgnt_ogachi = {
                 color = {57 82 79}
                 color2 = {255 255 255}
+                b_shgnt_ogachi_2 = {
+                    province = 1404 # Inaniwa Jō, 稲庭城
+                }
                 b_shgnt_ogachi_1 = {
                     province = 1403
-                }
-                b_shgnt_ogachi_2 = {
-                    province = 1404
                 }
                 b_shgnt_ogachi_3 = {
                     province = 1405
@@ -5780,21 +5783,21 @@
             c_shgnt_hienuki = {
                 color = {82 179 112}
                 color2 = {220 220 220}
+                b_shgnt_hienuki_2 = {
+                    province = 1351 # Segawa, 瀬川; 鳥谷ヶ崎城
+                }
                 b_shgnt_hienuki_1 = {
                     province = 1350
-                }
-                b_shgnt_hienuki_2 = {
-                    province = 1351
                 }
             }
             c_shgnt_waga = {
                 color = {62 179 92}
                 color2 = {255 255 255}
+                b_shgnt_waga_2 = {
+                    province = 1353 # Futago, 二子城
+                }
                 b_shgnt_waga_1 = {
                     province = 1352
-                }
-                b_shgnt_waga_2 = {
-                    province = 1353
                 }
                 b_shgnt_waga_3 = {
                     province = 1354
@@ -6014,7 +6017,7 @@
                 color = {192 198 181}
                 color2 = {255 255 255}
                 b_shgnt_asuha_2 = {
-                    province = 1416 # Ichijodani
+                    province = 1416 # 稲津荘、Ichijodani, 一乗谷城
                 }
 				b_shgnt_asuha_1 = {
                     province = 1415
@@ -6132,14 +6135,14 @@
             c_shgnt_echizen_sakai = {
                 color = {212 198 201}
                 color2 = {255 255 255}
+                b_shgnt_echizen_sakai_3 = {
+                    province = 1450 # Hikita, 疋田
+                }
                 b_shgnt_echizen_sakai_1 = {
                     province = 1448
                 }
                 b_shgnt_echizen_sakai_2 = {
                     province = 1449
-                }
-                b_shgnt_echizen_sakai_3 = {
-                    province = 1450
                 }
                 b_shgnt_echizen_sakai_4 = {
                     province = 1451
@@ -6239,6 +6242,9 @@
             c_shgnt_kaga_ishikawa = {
                 color = {168 148 149}
                 color2 = {255 255 255}
+                b_shgnt_kaga_ishikawa_4 = {
+                    province = 1480 # Togashi no Tate, 富樫館
+                }
                 b_shgnt_kaga_ishikawa_1 = {
                     province = 1477
                 }
@@ -6247,9 +6253,6 @@
                 }
                 b_shgnt_kaga_ishikawa_3 = {
                     province = 1479
-                }
-                b_shgnt_kaga_ishikawa_4 = {
-                    province = 1480
                 }
                 b_shgnt_kaga_ishikawa_5 = {
                     province = 1481
@@ -6464,6 +6467,9 @@
             c_shgnt_naka_niikawa = {
                 color = {89 88 107}
                 color2 = {255 255 255}
+                b_shgnt_naka_niikawa_5 = {
+                    province = 1542 # Hioki, 日置
+                }
                 b_shgnt_naka_niikawa_1 = {
                     province = 1538
                 }
@@ -6475,9 +6481,6 @@
                 }
                 b_shgnt_naka_niikawa_4 = {
                     province = 1541
-                }
-                b_shgnt_naka_niikawa_5 = {
-                    province = 1542
                 }
             }
             c_shgnt_kami_niikawa = {
@@ -6748,6 +6751,9 @@
             c_shgnt_kambara = {
                 color = {56 40 60}
                 color2 = {255 255 255}
+                b_shgnt_kambara_6 = {
+                    province = 1621 # Gomado Jō, 護摩堂城
+                }
                 b_shgnt_kambara_1 = {
                     province = 1616
                 }
@@ -6762,9 +6768,6 @@
                 }
                 b_shgnt_kambara_5 = {
                     province = 1620
-                }
-                b_shgnt_kambara_6 = {
-                    province = 1621
                 }
                 b_shgnt_kambara_7 = {
                     province = 1622
@@ -6818,11 +6821,11 @@
             c_shgnt_mishima = {
                 color = {245 120 175}
                 color2 = {255 255 255}
+                b_shgnt_mishima_2 = {
+                    province = 1637 # Sahashi no Shō, 佐橋荘
+                }
                 b_shgnt_mishima_1 = {
                     province = 1636
-                }
-                b_shgnt_mishima_2 = {
-                    province = 1637
                 }
                 b_shgnt_mishima_3 = {
                     province = 1638
@@ -9075,11 +9078,11 @@
                 }
             }
             c_shgnt_chikuzen_yasu = {
+                b_shgnt_chikuzen_yasu_2 = {
+                    province = 2277 # Koshosan, 古処山城
+                }
                 b_shgnt_chikuzen_yasu_1 = {
                     province = 2276
-                }
-                b_shgnt_chikuzen_yasu_2 = {
-                    province = 2277
                 }
                 b_shgnt_chikuzen_yasu_3 = {
                     province = 2278
