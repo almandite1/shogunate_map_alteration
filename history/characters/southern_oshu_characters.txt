@@ -271,6 +271,11 @@
 		#dynasty=10000083 # Watari
 		dynasty_house = "house_shgnt_date_watari2"
 	}
+    1548.09.01 = {
+		effect={
+			set_realm_capital=title:c_shgnt_watari
+		}
+    }
 	1594.8.5={
 		death=yes
 	}
@@ -371,6 +376,11 @@
 	1566.1.1={
 		add_spouse=10010835 # Satake Keiju-in, daughter of 10802 Satake Yoshiaki
 	}
+	1569.01.01 = {
+        effect={
+			set_realm_capital=title:c_shgnt_iwasaki
+        }
+    }
 	1594.8.25={
 		death=yes
 	}
@@ -3284,6 +3294,11 @@
 	1490.1.2 = {
 		birth=yes
 	}
+	1504.01.01 = {
+        effect={
+			set_realm_capital=title:c_shgnt_iwase
+        }
+    }
 	1542.7.2 = {
 		death=yes
 	}
@@ -3311,6 +3326,11 @@
 		remove_spouse=10006808
 		add_spouse=10006808 # daughter of Date Tanemune
 	}
+	1542.07.02 = {
+        effect={
+			set_realm_capital=title:c_shgnt_iwase
+        }
+    }
 	1564.10.2 = {
 		death=yes
 	}
@@ -3324,6 +3344,11 @@
 	1451.2.12 = {
 		birth=yes
 	}
+	1474.02.11 = {
+        effect={
+			set_realm_capital=title:c_shgnt_iwase
+        }
+    }
 	1495.1.1 = {
 		death=yes
 	}
@@ -3337,6 +3362,11 @@
 	1430.1.1 = {
 		birth=yes
 	}
+	1464.08.05 = {
+        effect={
+			set_realm_capital=title:c_shgnt_iwase
+        }
+    }
 	1474.2.11 = {
 		death=yes
 	}
@@ -3350,6 +3380,11 @@
 	1410.1.1 = {
 		birth=yes
 	}
+	1443.01.01 = {
+        effect={
+			set_realm_capital=title:c_shgnt_iwase
+        }
+    }
 	1464.8.5 = {
 		death=yes
 	}
@@ -3381,6 +3416,11 @@
 	1485.1.1 = {
 		birth=yes
 	}
+	1495.01.01 = {
+        effect={
+			set_realm_capital=title:c_shgnt_iwase
+        }
+    }
 	1504.1.1 = {
 		death=yes
 	}
@@ -3405,6 +3445,11 @@
 		add_spouse=10001026 # Date Onami
 		give_nickname="nick_shinano_no_kami"
 	}
+	1564.10.22 = {
+        effect={
+			set_realm_capital=title:c_shgnt_iwase
+        }
+    }
 	1581.9.23 = {
 		death=yes
 	}
@@ -3453,6 +3498,11 @@
 	1570.1.1 = {
 		birth=yes
 	}
+	1581.09.23 = {
+        effect={
+			set_realm_capital=title:c_shgnt_iwase
+        }
+    }
 	1582.1.1 = {
 		death=yes
 	}
@@ -3467,6 +3517,11 @@
 	1581.1.1 = {
 		birth=yes
 	}
+	1582.01.01 = {
+        effect={
+			set_realm_capital=title:c_shgnt_iwase
+        }
+    }
 	1620.1.1 = {
 		death=yes
 	}
@@ -4099,6 +4154,9 @@
 	}
 	1542.1.1={
 		give_nickname="nick_sakyo_dayu"
+		effect={
+			set_realm_capital=title:c_shgnt_iwasaki
+        }
 	}
 	1569.1.1={
 		death=yes
@@ -4143,6 +4201,11 @@
 	1497.1.1={
 		give_nickname="nick_minbu_daihu"
 	}
+	1505.01.01 = {
+        effect={
+			set_realm_capital=title:c_shgnt_iwasaki
+        }
+    }
 	1508.1.1={
 		add_spouse=10010806 # daughter of 10803:Satake Yoshikiyo
 	}
@@ -4159,6 +4222,11 @@
 	1422.1.1={
 		birth=yes
 	}
+	1480.01.01 = {
+        effect={
+			set_realm_capital=title:c_shgnt_iwasaki
+        }
+    }
 	1485.1.1={
 		give_nickname="nick_shimousa_no_kami"
 	}
@@ -4229,6 +4297,9 @@
 	}
 	1430.1.1={
 		give_nickname="nick_shimousa_no_kami"
+		effect={
+			set_realm_capital=title:c_shgnt_iwasaki
+        }
 	}
 	1485.1.1={
 		death=yes
@@ -4256,6 +4327,11 @@
 	1380.1.1={
 		birth=yes
 	}
+	1400.01.01 = {
+        effect={
+	        set_realm_capital=title:c_shgnt_iwasaki
+        }
+    }
 	1410.1.1={
 		give_nickname="nick_shimousa_no_kami"
 	}
@@ -4273,6 +4349,11 @@
 	1567.1.1={
 		birth=yes
 	}
+	1578.01.01 = {
+        effect={
+			set_realm_capital=title:c_shgnt_iwasaki
+        }
+    }
 	1588.1.1={
 		add_spouse=10006842 #daughter of 6838:Nikaido Moriyoshi
 	}
@@ -5582,6 +5663,11 @@
 	1319.1.1={
 		birth=yes
 	}
+	1339.01.01 = {
+		effect={
+			set_realm_capital=title:c_shgnt_watari
+		}
+    }
 	1381.1.1={
 		death=yes
 	}
@@ -5595,6 +5681,11 @@
 	1343.1.1={
 		birth=yes
 	}
+    1381.01.01 = {
+		effect={
+			set_realm_capital=title:c_shgnt_watari
+		}
+    }
 	1393.1.1={
 		death=yes
 	}
@@ -5608,6 +5699,11 @@
 	1369.1.1={
 		birth=yes
 	}
+    1393.01.01 = {
+		effect={
+			set_realm_capital=title:c_shgnt_watari
+		}
+    }
 	1412.1.1={
 		death=yes
 	}
@@ -5621,6 +5717,11 @@
 	1384.1.1={
 		birth=yes
 	}
+    1412.01.01 = {
+		effect={
+			set_realm_capital=title:c_shgnt_watari
+		}
+    }
 	1441.1.1={
 		death=yes
 	}
@@ -5634,6 +5735,11 @@
 	1408.1.1={
 		birth=yes
 	}
+    1441.01.01 = {
+		effect={
+			set_realm_capital=title:c_shgnt_watari
+		}
+    }
 	1446.1.1={
 		death=yes
 	}
@@ -5647,6 +5753,11 @@
 	1416.1.1={
 		birth=yes
 	}
+    1446.01.01 = {
+		effect={
+			set_realm_capital=title:c_shgnt_watari
+		}
+    }
 	1463.1.1={
 		death=yes
 	}
@@ -5660,6 +5771,11 @@
 	1421.1.1={
 		birth=yes
 	}
+    1463.01.01 = {
+		effect={
+			set_realm_capital=title:c_shgnt_watari
+		}
+    }
 	1481.1.1={
 		death=yes
 	}
@@ -5673,6 +5789,11 @@
 	1446.1.1={
 		birth=yes
 	}
+    1481.01.01 = {
+		effect={
+			set_realm_capital=title:c_shgnt_watari
+		}
+    }
 	1504.1.1={
 		death=yes
 	}
@@ -5685,6 +5806,11 @@
 	culture="southern_oshu"
 	1472.1.1={
 		birth=yes
+	}
+    1504.01.01 = {
+		effect={
+			set_realm_capital=title:c_shgnt_watari
+		}
 	}
 	1531.1.1={
 		death=yes
@@ -5699,6 +5825,11 @@
 	1493.1.1={
 		birth=yes
 	}
+    1531.01.01 = {
+		effect={
+			set_realm_capital=title:c_shgnt_watari
+		}
+    }
 	1556.8.25={
 		death=yes
 	}

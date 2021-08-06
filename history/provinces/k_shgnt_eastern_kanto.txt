@@ -193,7 +193,7 @@
 588 = { # Kazusa_yamano_1
 	culture = eastern_kanto
 	religion = shinto
-	holding = castle_holding
+	holding = none
 }
 589 = { # Kazusa_yamano_2
 	culture = eastern_kanto
@@ -203,10 +203,7 @@
 590 = { # Kazusa_yamano_3
 	culture = eastern_kanto
 	religion = shinto
-	holding = none
-	1488.01.01 = {
-		holding = castle_holding
-	}
+	holding = castle_holding # 山辺南郡土気郷、土気城
 }
 591 = { # Kazusa_yamano_4
 	culture = eastern_kanto
@@ -472,7 +469,7 @@
 642 = { # Sosa_3
 	culture = eastern_kanto
 	religion = shinto
-	holding = castle_holding
+	holding = castle_holding # 匝瑳郡匝瑳南条（匝瑳南条荘、南条荘
 }
 643 = { # Unakami_1
 	culture = eastern_kanto
@@ -512,7 +509,7 @@
 650 = { # Ubaraki_6
 	culture = northern_kanto
 	religion = shinto
-	holding = none
+	holding = castle_holding # Baba, 馬場; Mito, 水戸
 }
 651 = { # Ubaraki_7
 	culture = northern_kanto
@@ -537,7 +534,7 @@
 655 = { # Ubaraki_11
 	culture = northern_kanto
 	religion = shinto
-	holding = castle_holding
+	holding = none
 }
 656 = { # Ubaraki_12
 	culture = northern_kanto
@@ -557,7 +554,7 @@
 659 = { # Hitachi_Naka_1
 	culture = northern_kanto
 	religion = shinto
-	holding = castle_holding
+	holding = none
 }
 660 = { # Hitachi_Naka_2
 	culture = northern_kanto
@@ -587,7 +584,7 @@
 665 = { # Hitachi_Naka_7
 	culture = northern_kanto
 	religion = shinto
-	holding = none
+	holding = castle_holding # Tomura, 戸村
 }
 666 = { # Hitachi_Naka_8
 	culture = northern_kanto
@@ -607,7 +604,7 @@
 669 = { # Kuji_1
 	culture = northern_kanto
 	religion = shinto
-	holding = castle_holding
+	holding = none
 }
 670 = { # Kuji_2
 	culture = northern_kanto
@@ -632,12 +629,12 @@
 674 = { # Kuji_6
 	culture = northern_kanto
 	religion = shinto
-	holding = none
+	holding = castle_holding # 金砂城
 }
 675 = { # Kuji_7
 	culture = northern_kanto
 	religion = shinto
-	holding = none
+	holding = castle_holding # 小野崎城
 }
 676 = { # Kuji_8
 	culture = northern_kanto
@@ -647,7 +644,7 @@
 677 = { # Kuji_9
 	culture = northern_kanto
 	religion = shinto
-	holding = castle_holding
+	holding = castle_holding # 太田城
 }
 678 = { # Kuji_10
 	culture = northern_kanto
@@ -793,12 +790,12 @@
 705 = { # Makabe_11
 	culture = northern_kanto
 	religion = shinto
-	holding = castle_holding
+	holding = none
 }
 706 = { # Tsukuha_1
 	culture = northern_kanto
 	religion = shinto
-	holding = castle_holding
+	holding = church_holding # 筑波山神社
 }
 707 = { # Tsukuha_2
 	culture = northern_kanto
@@ -841,7 +838,7 @@
 714 = { # Hitachi_Shida_1
 	culture = northern_kanto
 	religion = shinto
-	holding = castle_holding
+	holding = none
 }
 715 = { # Hitachi_Shida_2
 	culture = northern_kanto
@@ -856,7 +853,7 @@
 717 = { # Hitachi_Shida_4
 	culture = northern_kanto
 	religion = shinto
-	holding = none
+	holding = castle_holding #　信太郡信太荘信太
 	1388.01.01 = {
 		holding = castle_holding # Edosaki
 	}
@@ -908,7 +905,7 @@
 725 = { # Namekata_1
 	culture = northern_kanto
 	religion = shinto
-	holding = castle_holding
+	holding = none
 }
 726 = { # Namekata_2
 	culture = northern_kanto
@@ -923,9 +920,9 @@
 728 = { # Namekata_4
 	culture = northern_kanto
 	religion = shinto
-	holding = none
+	holding = castle_holding # 行方郡島崎郷
 	1300.01.01 = {
-		holding = castle_holding # Shimazaki
+		holding = castle_holding # Shimazaki, 島崎城
 	}
 	1590.12.31 = {
 		holding = none
@@ -949,7 +946,7 @@
 1018 = { # Shimotsuke_Kawachi_1
 	culture = northern_kanto
 	religion = shinto
-	holding = castle_holding
+	holding = none
 }
 1019 = { # Shimotsuke_Kawachi_2
 	culture = northern_kanto
@@ -974,7 +971,7 @@
 1023 = { # Shimotsuke_Kawachi_6
 	culture = northern_kanto
 	religion = shinto
-	holding = castle_holding
+	holding = castle_holding # 宇都宮
 }
 1024 = { # Shimotsuke_Kawachi_7
 	culture = northern_kanto
@@ -1042,12 +1039,12 @@
 1036 = { # Shionoya_1
 	culture = northern_kanto
 	religion = shinto
-	holding = castle_holding
+	holding = none
 }
 1037 = { # Shionoya_2
 	culture = northern_kanto
 	religion = shinto
-	holding = none
+	holding = castle_holding # 〔平安〕（城）「塩原要害」
 }
 1038 = { # Shionoya_3
 	culture = northern_kanto
@@ -1097,7 +1094,7 @@
 1047 = { # Nasu_7
 	culture = northern_kanto
 	religion = shinto
-	holding = castle_holding
+	holding = castle_holding # 神田城
 }
 1048 = { # Nasu_8
 	culture = northern_kanto

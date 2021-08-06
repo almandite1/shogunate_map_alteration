@@ -68,12 +68,12 @@
 1350 = { # Hienuki_1
 	culture = northern_oshu
 	religion = shinto
-	holding = castle_holding
+	holding = none
 }
 1351 = { # Hienuki_2
 	culture = northern_oshu
 	religion = shinto
-	holding = none
+	holding = castle_holding
 	1341.01.01 = {
 		holding = castle_holding # Kosegawa
 	}
@@ -81,12 +81,12 @@
 1352 = { # Waga_1
 	culture = northern_oshu
 	religion = shinto
-	holding = castle_holding
+	holding = none
 }
 1353 = { # Waga_2
 	culture = northern_oshu
 	religion = shinto
-	holding = none
+	holding = castle_holding
 	1401.04.28 = {
 		holding = castle_holding # Futago
 	}
@@ -99,7 +99,7 @@
 1355 = { # Iwai_1
 	culture = northern_oshu
 	religion = shinto
-	holding = castle_holding
+	holding = castle_holding # 平泉
 }
 1356 = { # Iwai_2
 	culture = northern_oshu

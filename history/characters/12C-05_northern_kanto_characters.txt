@@ -5581,6 +5581,10 @@
 	1261.1.1={
 		add_spouse=10132007 # daughter of Hojo Tokisada
 	}
+	1270.01.01 = {
+		give_nickname = "nick_the_owari_no_kami" # 「尾張守」「中務権大輔」「検非違使」、木下聡『管領斯波氏』。
+		add_trait = "jugoi_ge" # 「従五位下」
+	}
 	1300.1.1={
 		death=yes
 	}
@@ -5929,6 +5933,13 @@
 	1262.1.1={
 		birth=yes
 	}
+	1278.01.01 = {
+		give_nickname = "nick_saburo" # 「足利尾張三郎宗家跡」、『正慶元年（1332）関東裁許条案』
+	}
+	1297.01.01 = {
+		add_trait = "jugoi_ge" # 「左近将監」？、『系図』。
+		give_nickname = "nick_the_sakonoe_shogen" # 「左近将監」？、『系図』。
+	}
 	1320.1.1={
 		death=yes
 	}
@@ -6012,7 +6023,7 @@
 	}
 }
 12139049={
-	name=character_name_12139049 # Takatsune
+	name=character_name_12139049 # Takatsune # 斯波高経、足利高経
 	dynasty=10000400 # Ashikaga
 	father=12139045 # Ashikaga [Shiba] Muneuji
 	mother=12221027 # daughter of Nagai Tokihide
@@ -6020,12 +6031,22 @@
 	trait="ashikaga_family"
 	religion="shinto"
 	culture="western_chubu"
-	1305.1.1={
+	1305.1.1={ # 嘉元3(1305)年生まれ『師守記』。
 		birth=yes
 	}
+	1335.01.01 = {
+		give_nickname = "nick_the_owari_no_kami" # 木下聡『管領斯波氏』。
+		add_trait = "jugoi_ge" # 木下聡『管領斯波氏』。
+	}
+	1342.03.01 = {
+		give_nickname = "nick_the_shuri_daibu" # 暦応五年二月「修理大夫」。
+		add_trait = "jushii_ge # 従四位下
+	}
 	1367.8.9={
-		dynasty=10000279 # Shiba
-		death=yes
+		dynasty=10000279 # Shiba, 斯波。「高経自身は終生足利名字を用いる、斯波義淳の時期から斯波と呼ばれる」、木下聡『管領斯波氏』。
+		death = {
+			death_reason = death_ill # 病死、『師守記』貞治6年七月十三日条。
+		}
 	}
 }
 12139050={
@@ -6038,7 +6059,7 @@
 	1308.1.1={
 		birth=yes
 	}
-	1356.7.11={
+	1356.7.11={ # 延文元(1356)年六月十三日
 #		dynasty=10000062 # Osaki
 		dynasty_house = house_shgnt_osaki
 		death=yes

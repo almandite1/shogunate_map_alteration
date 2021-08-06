@@ -5653,7 +5653,7 @@
 	}
 }
 10029024={
-	name=character_name_10029024 # Yoshikane
+	name=character_name_10029024 # Yoshikane, 義銀、義近、岩龍丸
 	dynasty=10000279 # Shiba
 	father=10029000 # Shiba Yoshimune
 	religion="shinto"
@@ -5670,6 +5670,9 @@
 	1540.1.1={
 		birth=yes
 	}
+	1553.09.01 = {
+		give_nickname = "nick_jibu_daihu" # 治部大輔（自称）、または右兵衛佐
+	}
 	1554.8.10={
 		effect={
 			set_realm_capital=title:c_shgnt_higashi-kasugai
@@ -5684,11 +5687,18 @@
 	1565.1.1={
 		employer=10029120 # Oda Nobunaga
 #		dynasty=10000702 # Tsugawa
-		dynasty_house = house_shgnt_tsugawa
+		dynasty_house = house_shgnt_tsugawa # 織田信長に帰参した際に名字を津川へ改めた、木下聡『管領斯波氏』。
 	}
+	# 元亀2(1571)年七月以降に義近に改名
 	1575.1.1={
 		employer=10029161 # Oda Nobukatsu
 	}
+	# 天正13(1585)年十月六日、公家成り、『兼見卿記』。
+	# 天正15(1587)年以前、豊臣秀吉御伽衆。
+	# 天正17(1589)年正月～十二月に入道名「三松」。
+	# 天正18(1590)年六月末、改易追放。
+	# 天正18(1590)年十二月、会津滞在。
+	# 天正20(1592)年正月以前、秀吉に帰参。
 	1600.9.23={
 		death=yes
 	}
@@ -5712,7 +5722,7 @@
 	}
 }
 10029026={
-	name=character_name_10029026 # Daizentaifu # Kennyu
+	name=character_name_10029026 # Daizentaifu # Kennyu, 謙入
 	dynasty=10000279 # Shiba
 	father=10029000 # Shiba Yoshimune
 	religion="shinto"
@@ -5780,9 +5790,9 @@
 	}
 }
 10029000 = {
-	name=character_name_10029000 # Yoshimune
+	name=character_name_10029000 # Yoshimune, 義統
 	dynasty=10000279 # Shiba
-	father=10029001
+	father=10029001 # 斯波義敦
 	martial=7
 	diplomacy=7
 	intrigue=6
@@ -5815,13 +5825,16 @@
 		}
 	}
 	1554.8.10={
-		death=yes
+		death={
+			death_reason = death_murder
+			#killer = 10029122　#　Oda Nobutomo. 織田彦五郎・坂井大膳
+		}
 	}
 }
 10029001 = {
-	name=character_name_10029001 # Yoshitatsu
+	name=character_name_10029001 # Yoshitatsu, 義敦
 	dynasty=10000279 # Shiba
-	father=10029021
+	father=10029021 # 斯波義寛
 	martial=5
 	diplomacy=6
 	intrigue=6
@@ -5854,12 +5867,13 @@
 			set_realm_capital=title:c_shgnt_higashi-kasugai
 		}
 	}
-	1521.11.1={
+	#永正13(1516)年遠江で、今川氏との戦いに敗れて捕虜、尾張に解放。遠江の支配を完全に失う
+	1521.11.1={ # 大永元(1521)年、『系図纂要』。天文2(1533)年までは生存、『言継卿記』天文二年八月十八日条。
 		death=yes
 	}
 }
 10029006 = {
-	name=character_name_10029006 # Ienaga
+	name=character_name_10029006 # Ienaga, 家長
 	dynasty=10000279 # Shiba
 	father=12139049 # Shiba Takatsune
 	trait="education_intrigue_2"
@@ -5869,12 +5883,19 @@
 	1321.1.1={
 		birth=yes
 	}
-	1338.1.6={
-		death=yes
+	1337.01.01 = {
+		give_nickname = "nick_Yasaburo" # 弥三郎、木下聡『管領斯波氏』。
 	}
+	1338.1.6={
+		death={
+			death_reason = death_battle# 北畠顕家に敗北し自害、木下聡『管領斯波氏』。
+			killer = 10125125 # 北畠顕家
+		}
+	}
+	# 高水寺斯波氏の祖か、木下聡『管領斯波氏』。
 }
 10029007 = {
-	name=character_name_10029007 # Ujitsune
+	name=character_name_10029007 # Ujitsune, 氏経
 	dynasty=10000279 # Shiba
 	father=12139049 # Shiba Takatsune
 	trait="education_diplomacy_2"
@@ -5884,12 +5905,18 @@
 	1325.1.1={
 		birth=yes
 	}
+	1355.01.01 = {
+		give_nickname = "nick_the_minbu_no_sho" # 「民部少輔越前守護」、『賢俊僧正日記』文和4年六月四日条。
+		add_trait = "jugoi_ge" # 従五位下
+	}
+	# 貞治6(1367)年七月十三日以前に遁世して嵯峨辺に居住、『師守記』。
 	1370.1.1={
 		death=yes
 	}
+	# 斯波武衛家外様衆の越前末野氏は子孫、木下聡『管領斯波氏』。
 }
 10029008 = {
-	name=character_name_10029008 # Ujiyori
+	name=character_name_10029008 # Ujiyori, 氏頼
 	dynasty=10000279 # Shiba
 	father=12139049 # Shiba Takatsune
 	trait="education_intrigue_1"
@@ -5904,7 +5931,7 @@
 	}
 }
 10029009 = {
-	name=character_name_10029009 # Yoshiyuki
+	name=character_name_10029009 # Yoshiyuki, 義将
 	dynasty=10000279 # Shiba
 	father=12139049 # Shiba Takatsune
 	trait="education_diplomacy_3"
@@ -5914,15 +5941,23 @@
 	1350.1.1={
 		birth=yes
 	}
-	1374.1.1={
-		add_spouse=12395041 # daughter of Kira Mitsusada
+	1362.01.01 = {
+		give_nickname = "nick_the_jibu_daihu" # 「治部大輔」、木下聡『管領斯波氏』。
+		add_trait = "shogoi_ge" # 正五位下
 	}
-	1410.6.9={
+	1374.1.1={
+		add_spouse=12395041 # daughter of Kira Mitsusada［吉良満貞］
+	}
+	1400.08.16 = {
+		give_nickname = "nick_the_uemon_no_kami" # 「右衛門督」、木下聡『管領斯波氏』。
+		add_trait = "jushii_ge" #　従四位下
+	}
+	1410.6.9={ # 応永17(1410)年五月七日
 		death=yes
 	}
 }
 10029010 = {
-	name=character_name_10029010 # Yoshitane
+	name=character_name_10029010 # Yoshitane, 義種
 	dynasty=10000279 # Shiba
 	father=12139049 # Shiba Takatsune
 	trait="education_intrigue_2"
@@ -5932,12 +5967,22 @@
 	1352.1.1={
 		birth=yes
 	}
+	1362.10.19 = {
+		give_nickname = "nick_the_minbu_no_sho" # 「民部少輔」、木下聡『管領斯波氏』。
+		add_trait = "jugoi_ge" # 従五位下
+	}
+	1379.12.01 = {
+		give_nickname = "nick_the_iyo_no_kami" # 康暦元年十二月以前に「伊予守」、木下聡『管領斯波氏』。
+	}
+	1380.06.01 = {
+		give_nickname = "nick_the_shuri_daibu" # 康暦二年六月以前に「修理大夫」、木下聡『管領斯波氏』。
+	}
 	1408.3.8={
 		death=yes
 	}
 }
 10029011 = {
-	name=character_name_10029011 # Yoshishige
+	name=character_name_10029011 # Yoshishige, 義重〔初名〕、応永9(1402)年正月七日～十五日の間に「義教」と改名、木下聡『管領斯波氏』。
 	dynasty=10000279 # Shiba
 	father=10029009 # Shiba Yoshiyuki
 	mother=12395041 # daughter of Kira Mitsusada
@@ -5948,15 +5993,21 @@
 	1371.1.1={
 		birth=yes
 	}
+	1402.02.08 = { # 応永9(1402)年正月六日
+		add_trait = "jushii_jo" # 従四位上、『吉田家日次記』
+	}
 	1409.1.1={
 		add_spouse=12320002 # Kai Noriko
+	}
+	1403.02.08 = {
+		add_trait = "jusanmi" # 三位
 	}
 	1418.9.10={
 		death=yes
 	}
 }
 10029012 = {
-	name=character_name_10029012 # Yoshiatsu
+	name=character_name_10029012 # Yoshiatsu, 義淳
 	dynasty=10000279 # Shiba
 	father=10029011
 	trait="education_intrigue_2"
@@ -5966,12 +6017,13 @@
 	1397.1.1={
 		birth=yes
 	}
-	1434.1.11={
+	1434.1.11={ # 永享五年十二月一日
 		death=yes
 	}
+	# 先天的に精神的な疾患を抱えていた説は否定される、木下聡『管領斯波氏』。子息義豊の死で引き籠もるほどストレス・管領職辞任。
 }
 10029013 = {
-	name=character_name_10029013 # Yoshisato
+	name=character_name_10029013 # Yoshisato, 義郷、瑞鳳→義郷。次男
 	dynasty=10000279 # Shiba
 	father=10029011
 	mother=12320002 # Kai Noriko
@@ -5982,12 +6034,21 @@
 	1410.1.1={
 		birth=yes
 	}
+	# 相国寺蔵主
+	#1434.1.11={
+	# 兄義淳死後、足利義教の命令で還俗
+	#}
+	#1436.11.06 = {
+	#	# 落馬して重体
+	#}
 	1436.11.8={
-		death=yes
+		death={
+			death_reason = death_horse_riding_accident
+		}
 	}
 }
 10029014 = {
-	name=character_name_10029014 # Mochiari
+	name=character_name_10029014 # Mochiari, 持有。次郎・左衛門佐。三男
 	dynasty=10000279 # Shiba
 	father=10029011
 	mother=12320002 # Kai Noriko
@@ -6003,7 +6064,7 @@
 	}
 }
 10029015 = {
-	name=character_name_10029015 # Yoshitoyo
+	name=character_name_10029015 # Yoshitoyo, 義豊。
 	dynasty=10000279 # Shiba
 	father=10029012
 	trait="education_intrigue_1"
@@ -6016,13 +6077,15 @@
 	1432.7.10={
 		death=yes
 	}
+	# 「器用の人」と評価
 }
 10029016 = {
-	name=character_name_10029016 # Yoshitake
+	name=character_name_10029016 # Yoshitake, 義健。千代徳丸。
 	dynasty=10000279 # Shiba
 	father=10029013
 	trait="education_intrigue_1"
 	trait="ashikaga_family"
+	trait = "wheezing" # ぜんそく
 	religion="shinto"
 	culture="western_chubu"
 	1435.1.1={
@@ -6034,11 +6097,12 @@
 	1452.10.13={
 		death=yes
 	}
+	# 持病を持ちよく発作を起こす、木下聡『管領斯波氏』。
 }
 10029017 = {
-	name=character_name_10029017 # Mitsutane
+	name=character_name_10029017 # Mitsutane, 満種
 	dynasty=10000279 # Shiba
-	father=10029010
+	father=10029010 # Shiba Yoshitane
 	trait="education_intrigue_2"
 	trait="ashikaga_family"
 	religion="shinto"
@@ -6046,19 +6110,21 @@
 	1376.1.1={
 		birth=yes
 	}
+	# 応永21(1414)年に高野山へ遁世
 	1427.7.30={
 		death=yes
 	}
 }
 10029018 = {
-	name=character_name_10029018 # Mochitane
+	name=character_name_10029018 # Mochitane, 持種
 	dynasty=10000279 # Shiba
-	father=10029017
+	father=10029017 # Shiba Mitsutane
+	#mother=佐々木氏
 	trait="education_intrigue_1"
 	trait="ashikaga_family"
 	religion="shinto"
 	culture="western_chubu"
-	1413.1.1={
+	1413.1.1={ # 応永20(1413)年生まれ
 		birth=yes
 	}
 	1475.1.1={
@@ -6066,9 +6132,9 @@
 	}
 }
 10029019 = {
-	name=character_name_10029019 # Yoshitoshi
+	name=character_name_10029019 # Yoshitoshi, 義敏
 	dynasty=10000279 # Shiba
-	father=10029018
+	father=10029018 # Shiba Mochitane
 	diplomacy=7
 	martial=7
 	stewardship=8
@@ -6089,10 +6155,21 @@
 			add_trait = "jugoi_ge"
 		}
 	}
-	1467.6.27={
+	# 康正2(1456)年、甲斐氏との対立が顕在化。木下聡『管領斯波氏』。
+	# 長禄3(1459)年、足利義政から追討命令が出される。
+	# 長禄3(1459)年十二月に家督を退く。
+	#　長禄4(1460)年には丹波に滞在。その後大内氏のもとに滞在。
+	# 寛正4(1463)年に追討命令が解除。
+	# 寛正6(1465)年足利義政と対面。
+	# 文正元(1466)年七月に斯波武衛家家督に復帰。
+	# 文正元(1466)年八月に守護職安堵。
+	# 文正元(1466)年九月十二日の文正の政変で没落。
+	1467.6.27={ # 越前で軍事行動中
 		add_pressed_claim=d_shgnt_owari
 		add_pressed_claim=d_shgnt_echizen
 	}
+	# 応仁2(1468)年に越前を奪取。
+	# 朝倉氏東軍寝返りにより越前を失う
 	1478.7.24={
 		give_nickname="nick_the_sahyoe_no_kami"
 		effect = {
@@ -6100,11 +6177,12 @@
 			add_trait = "jushii_ge"
 		}
 	}
-	1484.8.8={
+	1484.8.8={ #　文明17年
 		effect = {
 			remove_trait = "jushii_ge"
 			add_trait = "jusanmi"
 		}
+		# 出家、在京、政治に関与せず和歌や蹴鞠。
 	}
 	1508.12.8={
 		death=yes
@@ -6126,7 +6204,7 @@
 	}
 }
 10029021 = {
-	name=character_name_10029021 # Yoshihiro
+	name=character_name_10029021 # Yoshihiro, 義寛
 	dynasty=10000279 # Shiba
 	father=10029019
 	diplomacy=8
@@ -6143,6 +6221,9 @@
 	1457.1.1={
 		birth=yes
 	}
+	# = {
+	#	add_spouse = 一色義直娘
+	#}
 	1473.1.1={
 		give_nickname="nick_the_jibu_daihu"
 		effect = {
@@ -6155,10 +6236,10 @@
 		}
 	}
 	1485.8.1={
-		give_nickname="nick_sahyoe_no_suke"
+		give_nickname="nick_sahyoe_no_suke" # 左兵衛佐、『実隆公記』
 		effect = {
 			remove_trait = "jugoi_ge"
-			add_trait = "jushii_ge"
+			add_trait = "jushii_ge" # 従四位下、『実隆公記』
 		}
 	}
 	1493.1.1={
@@ -6168,7 +6249,9 @@
 			add_trait = "jusanmi"
 		}
 	}
-	1513.5.21={
+	#明応2(1493)年五月二十七日、将軍足利義澄に出仕。
+	#明応3(1494)年九月末、尾張に下向し以後上京しなかった。
+	1513.5.21={ # 永正10(1513)年四月十七日
 		death=yes
 	}
 }
@@ -6797,6 +6880,9 @@
 	prowess=12
 	1516.1.1={
 		birth=yes
+	}
+	1532.01.01 = {
+		give_nickname = "nick_Hikogoro" # 彦五郎
 	}
 	1555.5.10={
 		death=yes

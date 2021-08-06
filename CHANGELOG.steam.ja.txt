@@ -1,3 +1,51 @@
+[h1]beta Version 0.5.4[/h1]
+[h2]Game Content[/h2]
+[list]
+[*] [モットーの英語訳を追加しました](https://github.com/almandite1/shogunate_map_alteration/pull/205)。（by @daniel-majonica）
+[*] 平安時代末から鎌倉時代前半の三浦氏に家紋を設定しました。（[url=https://github.com/almandite1/shogunate_map_alteration/issues/182]#182[/url]）
+[*] 地面テクスチャを更新しました。
+[*] heightmap を更新しました。東京湾の一部の海岸線を江戸時代前の位置まで後退させました。
+[*] 木のマップオブジェクトを追加しました。
+[*] モットー「厭離穢土欣求浄土」の英訳を更新しました。
+[*] モットーとして故事成語を追加しました。
+[*] b_shgnt_tsukuha_1を寺社として初期有効化しました。
+[/list]
+[h3]rivers.png の更新[/h3]
+[list]
+[*] 中部地方の河川を再実装しました。（[url=https://github.com/almandite1/shogunate_map_alteration/issues/206]#206[/url]）
+[/list]
+[h3]プロヴィンス形状の改善[/h3]
+[list]
+[*] [url=https://github.com/almandite1/shogunate_map_alteration/issues/202]#202[/url]
+[*] [url=https://github.com/almandite1/shogunate_map_alteration/issues/203]#203[/url]
+[*] [url=https://github.com/almandite1/shogunate_map_alteration/issues/204]#204[/url]
+[*] ほかにも記録していない多数のプロヴィンス形状を改善しました。
+[/list]
+[h3]dynasty house[/h3]
+[list]
+[*] 九州の菊池氏に分家を設定しました。（[url=https://github.com/almandite1/shogunate_map_alteration/issues/181]#181[/url]）
+[/list]
+[h3]首都設定[/h3]
+[list]
+[*] 二階堂氏の首都伯爵領を岩瀬郡にしました。（[url=https://github.com/almandite1/shogunate_map_alteration/issues/195]#195[/url]）
+[*] 岩城氏の首都伯爵領を岩崎郡にしました。（[url=https://github.com/almandite1/shogunate_map_alteration/issues/196]#196[/url]）
+[*] 秋月氏の首都伯爵領を夜須郡にしました。（[url=https://github.com/almandite1/shogunate_map_alteration/issues/200]#200[/url]）
+[*] いろいろな伯爵領の第1 holding を変更しました。（[url=https://github.com/almandite1/shogunate_map_alteration/issues/199]#199[/url]）
+[/list]
+[h3]キャラクターデータ更新[/h3]
+[*] 一部斯波氏キャラクターのデータを歴史的に正確になるように変更しました。
+[h3]タイトル歴史データ更新[/h3]
+[*] 1534年に e_japan 足利義晴が直轄保持していた伯爵領を分配しました。（[url=https://github.com/almandite1/shogunate_map_alteration/issues/185]#185[/url]）
+[h3]Fixed[/h3]
+[list]
+[*] エラー出力削減のためバニラの music.txt を追加しました。
+[*] [url=https://github.com/almandite1/shogunate_map_alteration/issues/180]#180[/url]
+[*] [url=https://github.com/almandite1/shogunate_map_alteration/issues/192]#192[/url]
+[*] 1534年尾張愛知・海東の上位タイトルが今川氏輝になっいたので修正しました。（[url=https://github.com/almandite1/shogunate_map_alteration/issues/193]#193[/url]）
+[*] [url=https://github.com/almandite1/shogunate_map_alteration/issues/198]#198[/url]
+[*] 一部マップオブジェクトロケーターを調整しました
+[/list]
+
 [h1]beta Version 0.5.3[/h1]
 [h2]Game Content[/h2]
 [list]

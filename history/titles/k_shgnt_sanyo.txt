@@ -3,8 +3,7 @@
     1100.01.01 = { change_development_level = 10 }
     1331.01.01 = { change_development_level = 10 }
     1534.01.01 = { change_development_level = 20 }
-    0100.01.01 = {
-    }
+
     1180.01.01 = {
         liege = d_shgnt_bizen # 
         holder = 12630401 # Naniwa Tsuneto
@@ -59,8 +58,7 @@ c_shgnt_akashi = {
     0001.01.01 = { change_development_level = 20 }
     1100.01.01 = { change_development_level = 20 }
     1331.01.01 = { change_development_level = 20 }
-    0100.01.01 = {
-    }
+
     1179.12.18 = {
         liege = k_shgnt_sanyo # 
         holder = 10110042 # Taira Munemori
@@ -98,8 +96,7 @@ c_shgnt_akaho = {
     0001.01.01 = { change_development_level = 20 }
     1100.01.01 = { change_development_level = 20 }
     1467.01.01 = { change_development_level = 20 }
-    0100.01.01 = {
-    }
+
     1180.01.01 = {
         liege = 0 # 
         holder = 12630100 # Akamatsu Norikage
@@ -146,8 +143,7 @@ c_shgnt_asakuchi = {
     1100.01.01 = { change_development_level = 20 }
     1185.04.25 = { change_development_level = 20 }
     1556.01.01 = { change_development_level = 30 }
-    0100.01.01 = {
-    }
+
     1180.01.01 = {
         liege = d_shgnt_bitchu # 
         holder = 12630601 # Suyama Takamitsu
@@ -183,8 +179,7 @@ c_shgnt_asakuchi = {
 c_shgnt_ashita = {
     0001.01.01 = { change_development_level = 20 }
     1100.01.01 = { change_development_level = 20 }
-    0100.01.01 = {
-    }
+
     1180.01.01 = {
         liege = d_shgnt_bingo # 
         holder = 12660301 # Nuka Takanobu
@@ -255,8 +250,7 @@ c_shgnt_eso = {
     1100.01.01 = { change_development_level = 10 }
     1185.04.25 = { change_development_level = 10 }
     1324.01.01 = { change_development_level = 10 }
-    0100.01.01 = {
-    }
+
     1180.01.01 = {
         liege = d_shgnt_bingo # 
         holder = 12660301 # Nuka Takanobu
@@ -310,8 +304,7 @@ c_shgnt_itto = {
     1365.01.01 = { change_development_level = 20 }
     1467.01.01 = { change_development_level = 20 }
     1499.01.01 = { change_development_level = 20 }
-    0100.01.01 = {
-    }
+
     1179.12.18 = {
         liege = d_shgnt_harima # 
         holder = 10110070 # Taira Yukimori
@@ -354,8 +347,7 @@ c_shgnt_kamitsumichi = {
     1331.01.01 = { change_development_level = 40 }
     1544.01.01 = { change_development_level = 40 }
     1573.01.01 = { change_development_level = 40 }
-    0100.01.01 = {
-    }
+
     1180.01.01 = {
         liege = d_shgnt_bizen # 
         holder = 12630401 # Naniwa Tsuneto
@@ -428,8 +420,7 @@ c_shgnt_jinto = {
     1100.01.01 = { change_development_level = 20 }
     1331.01.01 = { change_development_level = 20 }
     1467.01.01 = { change_development_level = 20 }
-    0100.01.01 = {
-    }
+
     1179.12.18 = {
         liege = d_shgnt_harima # 
         holder = 10110070 # Taira Yukimori
@@ -538,8 +529,7 @@ c_shgnt_shimotsumichi = {
 c_shgnt_shonan = {
     0001.01.01 = { change_development_level = 10 }
     1185.04.25 = { change_development_level = 20 }
-    0100.01.01 = {
-    }
+
     1180.01.01 = {
         liege = d_shgnt_mimasaka # 
         holder = 12630300 # Emi Morinobu
@@ -703,8 +693,7 @@ c_shgnt_kojima = {
     0001.01.01 = { change_development_level = 20 }
     1100.01.01 = { change_development_level = 20 }
     1467.01.01 = { change_development_level = 20 }
-    0100.01.01 = {
-    }
+
     1180.01.01 = {
         liege = d_shgnt_bizen # 
         holder = 12630401 # Naniwa Tsuneto
@@ -765,10 +754,16 @@ c_shgnt_kuboya = {
     1100.01.01 = { change_development_level = 20 }
     1300.01.01 = { change_development_level = 20 }
     1575.01.01 = { change_development_level = 20 }
+	0701.1.1={
+		liege="d_shgnt_bitchu"
+	}
     1180.01.01 = {
         liege = d_shgnt_bitchu # 
         holder = 12630700 # Senoo Kaneyasu
     }
+	1183.8.17={
+		liege="k_shgnt_western_chugoku" # Taira's escape to the west
+	}
     1183.11.28 = {
         liege = 0
         holder = 0
@@ -790,12 +785,20 @@ c_shgnt_kuboya = {
     1460.01.01 = {
         holder = 10055000 # Ishikawa Michitsune
     }
+	1493.1.1={
+		liege=0
+		holder = 10055000 # Ishikawa Michitsune
+	}
     1510.01.01 = {
         holder = 10055003 # Ishikawa Iehisa
     }
     1540.01.01 = {
         holder = 10055004 # Ishikawa Hisatomo
     }
+	1561.3.1={
+		liege="d_shgnt_bitchu"
+		holder = 10055004 # Ishikawa Hisatomo
+	}
     1567.08.01 = {
         holder = 10055005 # Ishikawa Hisanori
     }
@@ -812,8 +815,7 @@ c_shgnt_mimasaka_kume = {
     0001.01.01 = { change_development_level = 10 }
     1467.01.01 = { change_development_level = 10 }
     1570.01.01 = { change_development_level = 20 }
-    0100.01.01 = {
-    }
+
     1180.01.01 = {
         liege = d_shgnt_mimasaka # 
         holder = 10210706 # Sugawara Kanetomo
@@ -860,8 +862,7 @@ c_shgnt_mashima = {
     0001.01.01 = { change_development_level = 10 }
     1100.01.01 = { change_development_level = 10 }
     1331.01.01 = { change_development_level = 20 }
-    0100.01.01 = {
-    }
+
     1180.01.01 = {
         liege = d_shgnt_mimasaka # 
         holder = 12630300 # Emi Morinobu
@@ -932,8 +933,7 @@ c_shgnt_minagi = {
     0001.01.01 = { change_development_level = 20 }
     1100.01.01 = { change_development_level = 20 }
     1331.01.01 = { change_development_level = 30 }
-    0100.01.01 = {
-    }
+
     1180.01.01 = {
         liege = 0 # 
         holder = 12630200 # Bessho Yorikiyo
@@ -985,8 +985,7 @@ c_shgnt_mitsuki = {
     1100.01.01 = { change_development_level = 20 }
     1331.01.01 = { change_development_level = 20 }
     1390.01.01 = { change_development_level = 30 }
-    0100.01.01 = {
-    }
+
     1180.01.01 = {
         liege = d_shgnt_bingo # 
         holder = 12660100 # Tachibana Kanetaka
@@ -1049,8 +1048,7 @@ c_shgnt_miyoshi = {
     1100.01.01 = { change_development_level = 10 }
     1221.07.06 = { change_development_level = 20 }
     1331.01.01 = { change_development_level = 20 }
-    0100.01.01 = {
-    }
+
     1180.01.01 = {
         liege = 0 # 
         holder = 12660200 # Hayama Yorimune
@@ -1105,8 +1103,7 @@ c_shgnt_oku = {
     0001.01.01 = { change_development_level = 20 }
     1100.01.01 = { change_development_level = 20 }
     1460.01.01 = { change_development_level = 30 }
-    0100.01.01 = {
-    }
+
     1180.01.01 = {
         liege = d_shgnt_bizen # 
         holder = 12630401 # Naniwa Tsuneto
@@ -1156,8 +1153,7 @@ c_shgnt_sayo = {
     0001.01.01 = { change_development_level = 20 }
     1100.01.01 = { change_development_level = 20 }
     1336.01.01 = { change_development_level = 30 }
-    0100.01.01 = {
-    }
+
     1180.01.01 = {
         liege = d_shgnt_harima # 
         holder = 10210705 # Sugawara Tomosue
@@ -1210,8 +1206,7 @@ c_shgnt_shikito = {
     1000.01.01 = { change_development_level = 20 }
     1310.01.01 = { change_development_level = 30 }
     1331.01.01 = { change_development_level = 40 }
-    0100.01.01 = {
-    }
+
     1179.12.18 = {
         liege = d_shgnt_harima # 
         holder = 10110070 # Taira Yukimori
@@ -1273,8 +1268,7 @@ c_shgnt_harima_taka = {
     0001.01.01 = { change_development_level = 10 }
     1100.01.01 = { change_development_level = 10 }
     1331.01.01 = { change_development_level = 10 }
-    0100.01.01 = {
-    }
+
     1179.12.18 = {
         liege = d_shgnt_harima # 
         holder = 10110070 # Taira Yukimori
@@ -1309,8 +1303,7 @@ c_shgnt_teta = {
     0001.01.01 = { change_development_level = 10 }
     1100.01.01 = { change_development_level = 10 }
     1331.01.01 = { change_development_level = 20 }
-    0100.01.01 = {
-    }
+
     1180.01.01 = {
         liege = d_shgnt_bitchu # 
         holder = 12630500 # Tajibe Motoharu
@@ -1351,8 +1344,7 @@ c_shgnt_tomata = {
     1100.01.01 = { change_development_level = 10 }
     1331.01.01 = { change_development_level = 20 }
     1544.11.01 = { change_development_level = 20 }
-    0100.01.01 = {
-    }
+
     1180.01.01 = {
         liege = d_shgnt_mimasaka # 
         holder = 12630300 # Emi Morinobu
@@ -1398,8 +1390,7 @@ c_shgnt_tsudaka = {
     1100.01.01 = { change_development_level = 10 }
     1469.01.01 = { change_development_level = 10 }
     1521.01.01 = { change_development_level = 20 }
-    0100.01.01 = {
-    }
+
     1180.01.01 = {
         liege = d_shgnt_bizen # 
         holder = 10260012 # Omori Takamori
@@ -1483,8 +1474,7 @@ c_shgnt_yasuna = {
     0001.01.01 = { change_development_level = 10 }
     1100.01.01 = { change_development_level = 10 }
     1331.01.01 = { change_development_level = 30 }
-    0100.01.01 = {
-    }
+
     1180.01.01 = {
         liege = d_shgnt_bingo # 
         holder = 12660301 # Nuka Takanobu
@@ -2159,8 +2149,7 @@ c_shgnt_harima_kako = {
     0001.01.01 = { change_development_level = 20 }
     1100.01.01 = { change_development_level = 20 }
     1331.01.01 = { change_development_level = 20 }
-    0100.01.01 = {
-    }
+
     1179.12.18 = {
         liege = k_shgnt_sanyo # 
         holder = 10110042 # Taira Munemori
@@ -2194,8 +2183,7 @@ c_shgnt_inami = {
     0001.01.01 = { change_development_level = 20 }
     1100.01.01 = { change_development_level = 20 }
     1331.01.01 = { change_development_level = 20 }
-    0100.01.01 = {
-    }
+
     1179.12.18 = {
         liege = k_shgnt_sanyo # 
         holder = 10110042 # Taira Munemori
@@ -2229,8 +2217,7 @@ c_shgnt_kato = {
     0001.01.01 = { change_development_level = 10 }
     1100.01.01 = { change_development_level = 10 }
     1331.01.01 = { change_development_level = 10 }
-    0100.01.01 = {
-    }
+
     1179.12.18 = {
         liege = d_shgnt_harima # 
         holder = 10110070 # Taira Yukimori
@@ -2259,8 +2246,7 @@ c_shgnt_kasai = {
     0001.01.01 = { change_development_level = 10 }
     1100.01.01 = { change_development_level = 10 }
     1331.01.01 = { change_development_level = 10 }
-    0100.01.01 = {
-    }
+
     1179.12.18 = {
         liege = d_shgnt_harima # 
         holder = 10110070 # Taira Yukimori
@@ -2289,8 +2275,7 @@ c_shgnt_jinsai = {
     0001.01.01 = { change_development_level = 20 }
     1100.01.01 = { change_development_level = 20 }
     1331.01.01 = { change_development_level = 20 }
-    0100.01.01 = {
-    }
+
     1179.12.18 = {
         liege = d_shgnt_harima # 
         holder = 10110070 # Taira Yukimori
@@ -2319,8 +2304,7 @@ c_shgnt_shikisai = {
     0001.01.01 = { change_development_level = 40 }
     1100.01.01 = { change_development_level = 40 }
     1331.01.01 = { change_development_level = 40 }
-    0100.01.01 = {
-    }
+
     1179.12.18 = {
         liege = d_shgnt_harima # 
         holder = 10110070 # Taira Yukimori
@@ -2356,8 +2340,7 @@ c_shgnt_issai = {
     0001.01.01 = { change_development_level = 20 }
     1100.01.01 = { change_development_level = 20 }
     1331.01.01 = { change_development_level = 20 }
-    0100.01.01 = {
-    }
+
     1179.12.18 = {
         liege = d_shgnt_harima # 
         holder = 10110070 # Taira Yukimori
@@ -2391,8 +2374,7 @@ c_shgnt_shisawa = {
     0001.01.01 = { change_development_level = 20 }
     1100.01.01 = { change_development_level = 20 }
     1331.01.01 = { change_development_level = 20 }
-    0100.01.01 = {
-    }
+
     1179.12.18 = {
         liege = d_shgnt_harima # 
         holder = 10110070 # Taira Yukimori
@@ -2421,8 +2403,7 @@ c_shgnt_omuha = {
     0001.01.01 = { change_development_level = 20 }
     1100.01.01 = { change_development_level = 20 }
     1331.01.01 = { change_development_level = 20 }
-    0100.01.01 = {
-    }
+
     1180.01.01 = {
         liege = d_shgnt_mimasaka # 
         holder = 12630300 # Emi Morinobu
@@ -2471,8 +2452,7 @@ c_shgnt_shoboku = {
     0001.01.01 = { change_development_level = 30 }
     1100.01.01 = { change_development_level = 30 }
     1331.01.01 = { change_development_level = 30 }
-    0100.01.01 = {
-    }
+
     1180.01.01 = {
         liege = d_shgnt_mimasaka # 
         holder = 12630300 # Emi Morinobu
@@ -2505,8 +2485,7 @@ c_shgnt_mimasaka_aita = {
     0001.01.01 = { change_development_level = 30 }
     1100.01.01 = { change_development_level = 30 }
     1331.01.01 = { change_development_level = 30 }
-    0100.01.01 = {
-    }
+
     1180.01.01 = {
         liege = d_shgnt_mimasaka # 
         holder = 12630300 # Emi Morinobu
@@ -2546,8 +2525,7 @@ c_shgnt_mimasaka_yoshida = {
     0001.01.01 = { change_development_level = 30 }
     1100.01.01 = { change_development_level = 30 }
     1331.01.01 = { change_development_level = 30 }
-    0100.01.01 = {
-    }
+
     1180.01.01 = {
         liege = d_shgnt_mimasaka # 
         holder = 12630300 # Emi Morinobu
@@ -2580,8 +2558,7 @@ c_shgnt_mino = {
     0001.01.01 = { change_development_level = 20 }
     1100.01.01 = { change_development_level = 20 }
     1331.01.01 = { change_development_level = 20 }
-    0100.01.01 = {
-    }
+
     1180.01.01 = {
         liege = d_shgnt_bizen # 
         holder = 10260012 # Omori Takamori
@@ -2628,8 +2605,7 @@ c_shgnt_iwanasu = {
     1100.01.01 = { change_development_level = 10 }
     1331.01.01 = { change_development_level = 10 }
     1554.01.01 = { change_development_level = 20 }
-    0100.01.01 = {
-    }
+
     1180.01.01 = {
         liege = d_shgnt_bizen # 
         holder = 12630401 # Naniwa Tsuneto
@@ -2680,8 +2656,7 @@ c_shgnt_wake = {
     0001.01.01 = { change_development_level = 30 }
     1100.01.01 = { change_development_level = 30 }
     1331.01.01 = { change_development_level = 40 }
-    0100.01.01 = {
-    }
+
     1180.01.01 = {
         liege = d_shgnt_bizen # 
         holder = 12630401 # Naniwa Tsuneto
@@ -2748,10 +2723,16 @@ c_shgnt_jobo = {
     0001.01.01 = { change_development_level = 30 }
     1100.01.01 = { change_development_level = 30 }
     1200.01.01 = { change_development_level = 30 }
+	0701.1.1={
+		liege="d_shgnt_bitchu"
+	}
     1180.01.01 = {
         liege = d_shgnt_bitchu # 
         holder = 10260103 # Kaya Sadayori
     }
+	1183.8.17={
+		liege="k_shgnt_western_chugoku" # Taira's escape to the west
+	}
     1199.01.01 = {
         liege = 0
         holder = 0
@@ -2810,7 +2791,7 @@ c_shgnt_jobo = {
         holder = 12630961 # Akiha Motoshige
     }
     1509.06.01 = {
-        liege = k_shgnt_western_chugoku # Ouchi Yoshioki
+        liege = e_shgnt_japan
         holder = 10055063 # Ueno Yorihisa
     }
     1521.01.01 = {
@@ -2819,7 +2800,7 @@ c_shgnt_jobo = {
     }
     1533.01.01 = {
         liege = 0 # 
-        holder = 10054800 # Sho Motosuke
+        holder = 10054801 # Sho Tamesuke
     }
     1540.01.01 = {
         liege = k_shgnt_sanin # Amago Tsunehisa
@@ -2837,22 +2818,14 @@ c_shgnt_jobo = {
         holder = 10051525 # Amago Yoshihisa
     }
     1561.03.01 = {
-        liege = k_shgnt_western_chugoku # Mori Motonari
+        liege = d_shgnt_bitchu
         holder = 10054900 # Mimura Iechika
     }
     1566.02.24 = {
         holder = 10054906 # Mimura Motochika
     }
-    1568.01.01 = {
-        liege = d_shgnt_bizen # Uragami Munekage
-        holder = 10054804 # Sho Takasuke
-    }
-    1571.02.01 = {
-        liege = k_shgnt_western_chugoku # Mori Motonari
-        holder = 10054906 # Mimura Motochika
-    }
     1575.07.09 = {
-        liege = k_shgnt_western_chugoku # Mori Terumoto
+        liege = d_shgnt_bingo
         holder = 10056016 # Kobayakawa Takakage
     }
 }
@@ -2917,7 +2890,7 @@ c_shgnt_aka = {
         holder = 12630961 # Akiha Motoshige
     }
     1509.06.01 = {
-        liege = k_shgnt_western_chugoku # Ouchi Yoshioki
+        liege = e_shgnt_japan
         holder = 10055063 # Ueno Yorihisa
     }
     1521.01.01 = {
@@ -2926,7 +2899,7 @@ c_shgnt_aka = {
     }
     1533.01.01 = {
         liege = 0 # 
-        holder = 10054800 # Sho Motosuke
+        holder = 10054801 # Sho Tamesuke
     }
     1540.01.01 = {
         liege = k_shgnt_sanin # Amago Tsunehisa
@@ -2944,22 +2917,14 @@ c_shgnt_aka = {
         holder = 10051525 # Amago Yoshihisa
     }
     1561.03.01 = {
-        liege = k_shgnt_western_chugoku # Mori Motonari
+        liege = d_shgnt_bitchu
         holder = 10054900 # Mimura Iechika
     }
     1566.02.24 = {
         holder = 10054906 # Mimura Motochika
     }
-    1568.01.01 = {
-        liege = d_shgnt_bizen # Uragami Munekage
-        holder = 10054804 # Sho Takasuke
-    }
-    1571.02.01 = {
-        liege = k_shgnt_western_chugoku # Mori Motonari
-        holder = 10054906 # Mimura Motochika
-    }
     1575.07.09 = {
-        liege = k_shgnt_western_chugoku # Mori Terumoto
+        liege = d_shgnt_bingo
         holder = 10056016 # Kobayakawa Takakage
     }
 }
@@ -3024,7 +2989,7 @@ c_shgnt_kawakami = {
         holder = 12630961 # Akiha Motoshige
     }
     1509.06.01 = {
-        liege = k_shgnt_western_chugoku # Ouchi Yoshioki
+        liege = e_shgnt_japan
         holder = 10055063 # Ueno Yorihisa
     }
     1521.01.01 = {
@@ -3033,7 +2998,7 @@ c_shgnt_kawakami = {
     }
     1533.01.01 = {
         liege = 0 # 
-        holder = 10054800 # Sho Motosuke
+        holder = 10054801 # Sho Tamesuke
     }
     1540.01.01 = {
         liege = k_shgnt_sanin # Amago Tsunehisa
@@ -3051,22 +3016,14 @@ c_shgnt_kawakami = {
         holder = 10051525 # Amago Yoshihisa
     }
     1561.03.01 = {
-        liege = k_shgnt_western_chugoku # Mori Motonari
+        liege = d_shgnt_bitchu
         holder = 10054900 # Mimura Iechika
     }
     1566.02.24 = {
         holder = 10054906 # Mimura Motochika
     }
-    1568.01.01 = {
-        liege = d_shgnt_bizen # Uragami Munekage
-        holder = 10054804 # Sho Takasuke
-    }
-    1571.02.01 = {
-        liege = k_shgnt_western_chugoku # Mori Motonari
-        holder = 10054906 # Mimura Motochika
-    }
     1575.07.09 = {
-        liege = k_shgnt_western_chugoku # Mori Terumoto
+        liege = d_shgnt_bingo
         holder = 10056016 # Kobayakawa Takakage
     }
 }
@@ -3074,110 +3031,168 @@ c_shgnt_ota = {
     0001.01.01 = { change_development_level = 30 }
     1100.01.01 = { change_development_level = 30 }
     1331.01.01 = { change_development_level = 30 }
-    0100.01.01 = {
-    }
+	1556.1.1 = { change_development_level = 30 }
+
     1180.01.01 = {
         liege = d_shgnt_bitchu # 
         holder = 12630601 # Suyama Takamitsu
     }
+	1183.8.17={
+		liege="k_shgnt_western_chugoku" # Taira's escape to the west
+	}
     1185.04.25 = {
         liege = 0 # 
         holder = 0 # Battle of Dan-no-ura
     }
-    1460.01.01 = {
-        holder = 10040563 # Hosokawa Katsuhisa
-    }
-    1493.01.01 = {
-        holder = 10054800 # Sho Motosuke
-    }
-    1540.01.01 = {
-        holder = 10054801 # Sho Tamesuke
-    }
-    1553.01.01 = {
-        holder = 10054905 # Sho Motosuke
-    }
-    1568.01.01 = {
-        liege = d_shgnt_bizen # 
-        holder = 10054804 # Sho Takasuke
-    }
-    1571.02.01 = {
-        liege = k_shgnt_western_chugoku # 
-        holder = 10056018 # Mori Motokiyo
-    }
+    1400.1.1={
+		liege="d_shgnt_bitchu"
+		holder=12208039 # Sho Sukeaki
+	}
+	1430.1.1={
+		holder=12208040 # Sho Ujisada
+	}
+	1450.1.1={
+		holder=10054803 # Sho Ujitaka
+	}
+	1460.1.1={
+		holder=10054800 # Sho Motosuke
+	}
+	1491.10.1={
+		liege=0
+	}
+	1502.7.1={
+		holder=10054801 # Sho Tamesuke
+	}
+	1540.1.1={
+		liege="k_shgnt_sanin"
+	}
+	1553.2.15={
+		holder=10054804 # Sho Takasuke
+	}
+	1561.3.1={
+		liege=0
+	}
+	1568.1.1={
+		liege="d_shgnt_bizen"
+	}
+	1571.2.1={
+		liege="d_shgnt_bingo"
+		holder=10056018 # Mori(Hoida) Motokiyo
+	}
 }
 c_shgnt_shitsuki = {
     0001.01.01 = { change_development_level = 30 }
     1100.01.01 = { change_development_level = 30 }
     1331.01.01 = { change_development_level = 30 }
-    0100.01.01 = {
-    }
+	1556.1.1 = { change_development_level = 30 }
+
     1180.01.01 = {
         liege = d_shgnt_bitchu # 
         holder = 12630601 # Suyama Takamitsu
     }
+	1183.8.17={
+		liege="k_shgnt_western_chugoku" # Taira's escape to the west
+	}
     1185.04.25 = {
         liege = 0 # 
         holder = 0 # Battle of Dan-no-ura
     }
-    1460.01.01 = {
-        holder = 10040563 # Hosokawa Katsuhisa
-    }
-    1493.01.01 = {
-        holder = 10054800 # Sho Motosuke
-    }
-    1540.01.01 = {
-        holder = 10054801 # Sho Tamesuke
-    }
-    1553.01.01 = {
-        holder = 10054905 # Sho Motosuke
-    }
-    1568.01.01 = {
-        liege = d_shgnt_bizen # 
-        holder = 10054804 # Sho Takasuke
-    }
-    1571.02.01 = {
-        liege = k_shgnt_western_chugoku # 
-        holder = 10056018 # Mori Motokiyo
-    }
+    1400.1.1={
+		liege="d_shgnt_bitchu"
+		holder=12208039 # Sho Sukeaki
+	}
+	1430.1.1={
+		holder=12208040 # Sho Ujisada
+	}
+	1450.1.1={
+		holder=10054803 # Sho Ujitaka
+	}
+	1460.1.1={
+		holder=10054800 # Sho Motosuke
+	}
+	1491.10.1={
+		liege=0
+	}
+	1502.7.1={
+		holder=10054801 # Sho Tamesuke
+	}
+	1540.1.1={
+		liege="k_shgnt_sanin"
+	}
+	1553.2.15={
+		holder=10054804 # Sho Takasuke
+	}
+	1561.3.1={
+		liege=0
+	}
+	1568.1.1={
+		liege="d_shgnt_bizen"
+	}
+	1571.2.1={
+		liege="d_shgnt_bingo"
+		holder=10056018 # Mori(Hoida) Motokiyo
+	}
 }
 c_shgnt_tsu = {
-    0001.01.01 = { change_development_level = 10 }
-    1100.01.01 = { change_development_level = 10 }
-    1331.01.01 = { change_development_level = 10 }
+    0001.01.01 = { change_development_level = 20 }
+    1100.01.01 = { change_development_level = 20 }
+    1300.01.01 = { change_development_level = 20 }
+    1575.01.01 = { change_development_level = 20 }
+	0701.1.1={
+		liege="d_shgnt_bitchu"
+	}
     1180.01.01 = {
         liege = d_shgnt_bitchu # 
         holder = 12630700 # Senoo Kaneyasu
     }
+	1183.8.17={
+		liege="k_shgnt_western_chugoku" # Taira's escape to the west
+	}
     1183.11.28 = {
         liege = 0
         holder = 0
     }
-    1460.01.01 = {
+    1400.01.01 = {
+        liege = d_shgnt_bitchu # 
         holder = 10055002 # Ishikawa Hisatsune
     }
-    1480.01.01 = {
+    1440.01.01 = {
         holder = 10055001 # Ishikawa Hidehisa
     }
-    1510.01.01 = {
+    1460.01.01 = {
         holder = 10055000 # Ishikawa Michitsune
     }
-    1550.01.01 = {
+	1493.1.1={
+		liege=0
+		holder = 10055000 # Ishikawa Michitsune
+	}
+    1510.01.01 = {
         holder = 10055003 # Ishikawa Iehisa
     }
-    1570.01.01 = {
+    1540.01.01 = {
         holder = 10055004 # Ishikawa Hisatomo
     }
+	1561.3.1={
+		liege="d_shgnt_bitchu"
+		holder = 10055004 # Ishikawa Hisatomo
+	}
+    1567.08.01 = {
+        holder = 10055005 # Ishikawa Hisanori
+    }
     1575.07.09 = {
-        liege = k_shgnt_western_chugoku # 
+        liege = d_shgnt_bingo # 
         holder = 10055150 # Shimizu Muneharu
+    }
+    1582.06.23 = {
+        liege = d_shgnt_bizen # 
+        holder = 10055286 # Hanabusa Masanari
     }
 }
 c_shgnt_sera = {
     0001.01.01 = { change_development_level = 30 }
     1100.01.01 = { change_development_level = 30 }
     1331.01.01 = { change_development_level = 30 }
-    0100.01.01 = {
-    }
+
     1180.01.01 = {
         liege = d_shgnt_bingo # 
         holder = 12660100 # Tachibana Kanetaka
@@ -3209,8 +3224,7 @@ c_shgnt_mitani = {
     0001.01.01 = { change_development_level = 20 }
     1100.01.01 = { change_development_level = 20 }
     1331.01.01 = { change_development_level = 20 }
-    0100.01.01 = {
-    }
+
     1180.01.01 = {
         liege = 0 # 
         holder = 12660200 # Hayama Yorimune
@@ -3252,8 +3266,7 @@ c_shgnt_mikami = {
     0001.01.01 = { change_development_level = 10 }
     1100.01.01 = { change_development_level = 10 }
     1331.01.01 = { change_development_level = 10 }
-    0100.01.01 = {
-    }
+
     1180.01.01 = {
         liege = d_shgnt_bingo # 
         holder = 12660301 # Nuka Takanobu
@@ -3293,8 +3306,7 @@ c_shgnt_kono = {
     0001.01.01 = { change_development_level = 10 }
     1100.01.01 = { change_development_level = 10 }
     1331.01.01 = { change_development_level = 10 }
-    0100.01.01 = {
-    }
+
     1180.01.01 = {
         liege = d_shgnt_bingo # 
         holder = 12660301 # Nuka Takanobu
@@ -3334,8 +3346,7 @@ c_shgnt_nunokuma = {
     0001.01.01 = { change_development_level = 20 }
     1100.01.01 = { change_development_level = 20 }
     1331.01.01 = { change_development_level = 20 }
-    0100.01.01 = {
-    }
+
     1180.01.01 = {
         liege = d_shgnt_bingo # 
         holder = 12660301 # Nuka Takanobu
@@ -3391,8 +3402,7 @@ c_shgnt_fukatsu = {
     0001.01.01 = { change_development_level = 20 }
     1100.01.01 = { change_development_level = 20 }
     1331.01.01 = { change_development_level = 30 }
-    0100.01.01 = {
-    }
+
     1180.01.01 = {
         liege = d_shgnt_bingo # 
         holder = 12660301 # Nuka Takanobu
@@ -3469,8 +3479,7 @@ c_shgnt_homuchi = {
     0001.01.01 = { change_development_level = 20 }
     1100.01.01 = { change_development_level = 20 }
     1331.01.01 = { change_development_level = 20 }
-    0100.01.01 = {
-    }
+
     1180.01.01 = {
         liege = d_shgnt_bingo # 
         holder = 12660301 # Nuka Takanobu
@@ -3533,8 +3542,7 @@ c_shgnt_kameshi = {
     0001.01.01 = { change_development_level = 10 }
     1100.01.01 = { change_development_level = 10 }
     1331.01.01 = { change_development_level = 10 }
-    0100.01.01 = {
-    }
+
     1180.01.01 = {
         liege = d_shgnt_bingo # 
         holder = 12660301 # Nuka Takanobu
@@ -3574,8 +3582,7 @@ c_shgnt_nuka = {
     0001.01.01 = { change_development_level = 10 }
     1100.01.01 = { change_development_level = 10 }
     1331.01.01 = { change_development_level = 10 }
-    0100.01.01 = {
-    }
+
     1180.01.01 = {
         liege = d_shgnt_bingo # 
         holder = 12660301 # Nuka Takanobu
@@ -3615,8 +3622,7 @@ c_shgnt_shoudoshima = {
     0001.01.01 = { change_development_level = 20 }
     1100.01.01 = { change_development_level = 20 }
     1331.01.01 = { change_development_level = 20 }
-    0100.01.01 = {
-    }
+
     1180.01.01 = {
         liege = d_shgnt_bizen # 
         holder = 12630401 # Naniwa Tsuneto

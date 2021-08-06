@@ -6065,25 +6065,30 @@
 	}
 }
 10066013 = {
-	name=character_name_10066013 # Tamemitsu
-	dynasty=10000669 # Uto
-	father=10066007
+	name=character_name_10066013 # Tamemitsu, 為光, 宇土為光
+	#dynasty=10000669 # Uto
+	dynasty=10000660 # Kikuchi
+	father=10066007 # 菊池持朝
 	religion="shinto"
 	culture="central_kyushu"
 	1433.1.1={
 		birth=yes
+	}
+	1413.01.01 = {
+		dynasty_house = "house_shgnt_kikuchi_uto"
 	}
 	1449.1.1={
 		give_nickname="nick_danjo_shochu"
 	}
 	1503.1.1={
 		death={
-		killer=10066004 #Kikuchi Yoshitake
+			death_reason = death_decapitated
+			killer=10066004 #Kikuchi Yoshitake
 		}
 	}
 }
 10066014 = {
-	name=character_name_10066014 # Shigemitsu
+	name=character_name_10066014 # Shigemitsu, 重光
 	dynasty=10000660 # Kikuchi
 	father=10066013
 	religion="shinto"
@@ -6093,7 +6098,8 @@
 	}
 	1503.1.1={
 		death={
-		killer=10066004 #Kikuchi Yoshitake
+			death_reason = death_decapitated
+			killer=10066004 #Kikuchi Yoshitake
 		}
 	}
 }
