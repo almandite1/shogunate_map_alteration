@@ -149,14 +149,14 @@ c_shgnt_aichi = {
 	1534.01.01 = {
 		effect = {
 			title:b_shgnt_aichi_6 = {
-				set_title_name = b_shgnt_aichi_6_2 # Furuwatari
+				set_title_name = b_shgnt_aichi_6_2 # Furuwatari, 古渡城
 			}
 		}
 	}
 	1548.01.01 = {
 		effect = {
 			title:b_shgnt_aichi_5 = {
-				set_title_name = b_shgnt_aichi_5_1 # Suemori
+				set_title_name = b_shgnt_aichi_5_1 # Suemori, 末森城
 			}
 		}
 	}
@@ -1151,6 +1151,13 @@ c_shgnt_kai-to = {
         liege = 0 # 
         holder = 0 # Taira's escape to the west
     }
+	1333.07.04 = {
+		effect = {
+				title:b_shgnt_kai-to_1 = {
+					set_title_name = b_shgnt_kai-to_1_1 # Tsushima, 津島湊
+				}
+		}
+	}
     1392.01.24 = {
         liege = e_shgnt_japan # 
         holder = 10045200 # Yuki Mitsufuji
@@ -1865,6 +1872,11 @@ c_shgnt_nakashima = {
     1400.06.01 = {
         liege = d_shgnt_owari # 
         holder = 10029011 # Shiba Yoshishige
+		effect = {
+			title:b_shgnt_nakashima_4 = {
+				set_title_name = b_shgnt_nakashima_4_1 # Orizu, 下津城（Issue #220）
+			}
+		}
     }
     1418.09.10 = {
         holder = 10029012 # Shiba Yoshiatsu
@@ -1890,6 +1902,13 @@ c_shgnt_nakashima = {
     1466.10.23 = {
         holder = 10057621 # Shiba Yoshikado
     }
+	1476.01.01 = {
+		effect = {
+			title:b_shgnt_nakashima_4 = {
+				set_title_name = b_shgnt_nakashima_4_2 # Orizu, 下津（Issue #220）
+			}
+		}
+	}
     1478.01.01 = {
         liege = 0 # 
         holder = 10029108 # Oda Toshihiro
@@ -1967,6 +1986,13 @@ c_shgnt_niwa = {
     1451.01.01 = {
         holder = 10029108 # Oda Toshihiro
     }
+	1479.01.01 = {
+		effect = {
+			title:b_shgnt_niwa_4 = {
+				set_title_name = b_shgnt_niwa_4_1 # Iwakura, 岩倉城（Issue #220）
+			}
+		}
+	}
     1481.03.01 = {
         holder = 10029110 # Oda Tohiro
     }
@@ -1983,6 +2009,11 @@ c_shgnt_niwa = {
     1559.03.01 = {
         liege = d_shgnt_owari # 29120 Oda Nobunaga
         holder = 10029135 # Oda Nobukiyo
+		effect = {
+			title:b_shgnt_niwa_4 = {
+				set_title_name = b_shgnt_niwa_4_2 # Iwakura, 岩倉（Issue #220）
+			}
+		}
     }
     1562.01.01 = {
         liege = 0 # 
@@ -2430,6 +2461,12 @@ d_shgnt_mino = {
     1456.01.01 = {
         holder = 10025324 # Toki Shigeyori
     }
+	1467.6.27={ # Onin War
+		liege="k_shgnt_sanin" # Onin War
+	}
+	1477.12.16={ # End of Onin war
+		liege = 0
+	}
     1497.05.05 = {
         holder = 10025302 # Toki Masafusa
     }
@@ -2936,7 +2973,14 @@ c_shgnt_nishi-kasugai = {
 	1375.01.01 = {
 		effect = {
 			title:b_shgnt_nishi-kasugai_2 = {
-				set_title_name = b_shgnt_nishi-kasugai_2_1 # Kiyosu
+				set_title_name = b_shgnt_nishi-kasugai_2_1 # Kiyosu, 清洲城
+			}
+		}
+	}
+	1400.01.01 = {
+		effect = {
+			title:b_shgnt_nishi-kasugai_4 = {
+				set_title_name = b_shgnt_nishi-kasugai_4_1 # Otai,小田井城（Issue #220）
 			}
 		}
 	}

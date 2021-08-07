@@ -6036,11 +6036,16 @@
 	}
 	1335.01.01 = {
 		give_nickname = "nick_the_owari_no_kami" # 木下聡『管領斯波氏』。
-		add_trait = "jugoi_ge" # 木下聡『管領斯波氏』。
+		effect = {
+			add_trait = "jugoi_ge" # 木下聡『管領斯波氏』。
+		}
 	}
 	1342.03.01 = {
 		give_nickname = "nick_the_shuri_daibu" # 暦応五年二月「修理大夫」。
-		add_trait = "jushii_ge # 従四位下
+		effect = {
+			remove_trait = "jugoi_ge"
+			add_trait="jushii_ge"#従四位下
+		}
 	}
 	1367.8.9={
 		dynasty=10000279 # Shiba, 斯波。「高経自身は終生足利名字を用いる、斯波義淳の時期から斯波と呼ばれる」、木下聡『管領斯波氏』。

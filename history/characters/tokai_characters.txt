@@ -3620,6 +3620,14 @@
 	1563.1.1={
 		add_spouse=10024024 # Matsudaira Usui, daughter of 24000:Matsudaira Kiyoyasu
 	}
+	1566.01.01 = {
+		effect = {
+			add_opinion = {
+			target = liege
+			modifier = received_title_county # 伯爵領を与えられた
+			}
+		}
+	}
 	1596.12.17={
 		death=yes
 	}

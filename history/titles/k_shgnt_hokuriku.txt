@@ -671,6 +671,13 @@ c_shgnt_imizu = {
         liege = 0 # 
         holder = 0 # Battle of Awazu
     }
+	1300.01.01 = {
+		effect = {
+			title:b_shgnt_imizu_2 = {
+				set_title_name = b_shgnt_imizu_2_1 # Hōjōzu, 放生津城
+			}
+		}
+	}
     1380.07.01 = {
         liege = d_shgnt_etchu # 
         holder = 10031205 # Jinbo Kunihisa
@@ -2847,6 +2854,9 @@ d_shgnt_echizen = {
         liege = e_shgnt_japan # 
         holder = 10057621 # Shiba Yoshikado
     }
+	1467.6.27={ # Onin War
+		liege="k_shgnt_sanin"
+	}
     1471.06.09 = {
         liege = e_shgnt_japan # 
         holder = 10030007 # Asakura Takakage
@@ -2854,6 +2864,9 @@ d_shgnt_echizen = {
 			set_capital_county = title:c_shgnt_asuha
 		}
     }
+	1477.12.16={ # End of Onin war
+		liege = 0
+	}
     1481.08.21 = {
         holder = 10030008 # Asakura Ujikage
     }
