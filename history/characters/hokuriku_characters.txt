@@ -5529,6 +5529,14 @@
 	1545.1.1={
 		birth=yes
 	}
+	1562.04.01 = {
+		effect = {
+			add_opinion = {
+				target = liege
+				modifier = received_title_county # 伯爵領を与えられた
+			}
+		}
+	}
 	1568.1.1={
 		add_spouse=10032532 # daughter of 32523:Kitajo Takahiro
 	}

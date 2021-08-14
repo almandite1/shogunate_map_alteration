@@ -283,6 +283,14 @@
 			add_trait = "painter"
 		}
 	}
+	1565.11.07 = {
+		effect = {
+			add_opinion = {
+				target = liege
+				modifier = received_title_county # 伯爵領を与えられた
+			}
+		}
+	}
 	1582.3.30={
 		death=yes
 	}
@@ -1087,6 +1095,14 @@
 	1541.6.14={
 		employer=10020010 # Takeda Harunobu -> Shingen
 	}
+	1555.01.01 = {
+		effect = {
+			add_opinion = {
+				target = liege
+				modifier = received_title_county # 伯爵領を与えられた
+			}
+		}
+	}
 	1575.12.23={
 		death={
 			death_reason=death_execution
@@ -1167,6 +1183,22 @@
 	}
 	1541.6.14={
 		employer=10020010 # Takeda Harunobu -> Shingen
+	}
+	1551.01.01 = {
+		effect = {
+			add_opinion = {
+				target = liege
+				modifier = received_title_county # 伯爵領を与えられた
+			}
+		}
+	}
+	1556.01.01 = {
+		effect = {
+			add_opinion = {
+				target = liege
+				modifier = received_title_county # 伯爵領を与えられた
+			}
+		}
 	}
 	1562.1.1={
 		give_nickname="nick_mino_no_kami"
@@ -1335,6 +1367,22 @@
 	}
 	1558.1.1={
 		give_nickname="nick_danjo_daichu"
+	}
+	1561.09.01 = {
+		effect = {
+			add_opinion = {
+				target = liege
+				modifier = received_title_county # 伯爵領を与えられた
+			}
+			add_opinion = {
+				target = liege
+				modifier = received_title_county # 伯爵領を与えられた
+			}
+			add_opinion = {
+				target = liege
+				modifier = received_title_county # 伯爵領を与えられた
+			}
+		}
 	}
 	1578.6.12={
 		death=yes
@@ -1914,6 +1962,14 @@
 	culture="koshin"
 	1519.01.01={
 		birth=yes
+	}
+	1546.08.01 = {
+		effect = {
+			add_opinion = {
+				target = liege
+				modifier = received_title_county # 伯爵領を与えられた
+			}
+		}
 	}
 	1551.10.1={
 		give_nickname="nick_bitchu_no_kami"
@@ -3331,6 +3387,22 @@
 	1543.1.1={
 		employer=10020010 # Takeda Shingen
 	}
+	1551.07.09 = {
+		effect = {
+			add_opinion = {
+				target = liege
+				modifier = received_title_county # 伯爵領を与えられた
+			}
+		}
+	}
+	1563.01.01 = {
+		effect = {
+			add_opinion = {
+				target = liege
+				modifier = received_title_county # 伯爵領を与えられた
+			}
+		}
+	}
 	1574.6.8={
 		death=yes
 	}
@@ -3431,6 +3503,14 @@
 	1553.1.1={
 		give_nickname="nick_saemon_no_jo"
 		add_spouse=10021612 # Takanashi Okita
+	}
+	1567.01.01 = {
+		effect = {
+			add_opinion = {
+				target = liege
+				modifier = received_title_county # 伯爵領を与えられた
+			}
+		}
 	}
 	1575.6.29={
 		death=yes

@@ -1921,6 +1921,9 @@ d_shgnt_kawachi = {
     }
 }
 d_shgnt_kii = {
+	0701.1.1={
+		liege="e_shgnt_tenno"
+	}
     1179.12.18 = {
         liege = k_shgnt_southern_kinai # 
         holder = 10110033 # Taira Yorimori
@@ -1991,12 +1994,24 @@ d_shgnt_kii = {
     1460.10.04 = {
         holder = 10048121 # Hatakeyama Masanaga
     }
+	1467.6.27={ # Onin war
+		liege = "e_shgnt_japan" # Onin War
+	}
+	1493.05.08 = { # Meiou Coup
+		liege=0
+	}
     1493.06.09 = {
         holder = 10048123 # Hatakeyama Hisanobu
     }
+	1508.7.28={
+		liege="e_shgnt_japan"
+	}
     1517.06.01 = {
         holder = 10048100 # Hatakeyama Tanenaga
     }
+	1543.1.1={
+		liege="k_shgnt_northern_kinai"
+	}
     1545.06.23 = {
         holder = 10048125 # Hatakeyama Masakuni
     }

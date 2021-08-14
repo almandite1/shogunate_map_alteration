@@ -2556,7 +2556,8 @@
 }
 10020352 = {
 	name=character_name_10020352 # Kagenari
-	dynasty=10000127 # Tokihara
+#	dynasty=10000127 # Tokihara
+	dynasty_house = "house_shgnt_toki_tokihara"
 	father=10020358 # Tokihara Kagehide
 	religion="shinto"
 	culture="western_chubu"
@@ -2576,13 +2577,17 @@
 	1275.1.1={
 		birth=yes
 	}
+	1295.01.01 = {
+		dynasty_house = "house_shgnt_toki_hachiya" # （『群書類従』「土岐系図」）
+	}
 	1330.1.1={
 		death=yes
 	}
 }
 10020354={
 	name=character_name_10020354 # Morochika
-	dynasty=10000127 # Tokihara
+#	dynasty=10000127 # Tokihara
+	dynasty_house = "house_shgnt_toki_tokihara"
 	father=10020353 # Toki Sadachika
 	religion="shinto"
 	culture="northern_kanto"
@@ -2595,7 +2600,8 @@
 }
 10020355={
 	name=character_name_10020355 # Morohide
-	dynasty=10000127 # Tokihara
+#	dynasty=10000127 # Tokihara
+	dynasty_house = "house_shgnt_toki_tokihara"
 	father=10020354 # Tokihara Morochika
 	religion="shinto"
 	culture="northern_kanto"
@@ -2608,7 +2614,8 @@
 }
 10020356={
 	name=character_name_10020356 # Hidenari
-	dynasty=10000127 # Tokihara
+#	dynasty=10000127 # Tokihara
+	dynasty_house = "house_shgnt_toki_tokihara"
 	father=10020355 # Tokihara Morohide
 	religion="shinto"
 	culture="northern_kanto"
@@ -2621,7 +2628,8 @@
 }
 10020357={
 	name=character_name_10020357 # Norihide
-	dynasty=10000127 # Tokihara
+#	dynasty=10000127 # Tokihara
+	dynasty_house = "house_shgnt_toki_tokihara"
 	father=10020356 # Tokihara Hidenari
 	religion="shinto"
 	culture="northern_kanto"
@@ -2634,7 +2642,8 @@
 }
 10020358={
 	name=character_name_10020358 # Kagehide
-	dynasty=10000127 # Tokihara
+#	dynasty=10000127 # Tokihara
+	dynasty_house = "house_shgnt_toki_tokihara"
 	father=10020357 # Tokihara Norihide
 	religion="shinto"
 	culture="northern_kanto"
@@ -2647,7 +2656,8 @@
 }
 10020371 = {
 	name=character_name_10020371 # Tameyori
-	dynasty=10000253 # Toki
+	#dynasty=10000253 # Toki
+	dynasty_house = "house_shgnt_toki_mangi"
 	father=10020378
 	religion="shinto"
 	culture="eastern_kanto"
@@ -2727,6 +2737,7 @@
 	}
 	1370.1.1={
 		culture="eastern_kanto"
+		dynasty_house = "house_shgnt_toki_mangi"
 	}
 	1440.1.1={
 		death=yes
@@ -2734,7 +2745,8 @@
 }
 10020377 = {
 	name=character_name_10020377 # Yorifusa
-	dynasty=10000253 # Toki
+	#dynasty=10000253 # Toki
+	dynasty_house = "house_shgnt_toki_mangi"
 	father=10020376
 	trait="education_stewardship_1"
 	religion="shinto"
@@ -2748,7 +2760,8 @@
 }
 10020378 = {
 	name=character_name_10020378 # Yorisada
-	dynasty=10000253 # Toki
+	#dynasty=10000253 # Toki
+	dynasty_house = "house_shgnt_toki_mangi"
 	father=10020377
 	trait="education_stewardship_1"
 	religion="shinto"
@@ -2841,7 +2854,8 @@
 }
 10020385 = {
 	name=character_name_10020385 # Yoriharu # Yorishige
-	dynasty=10000253 # Toki
+	#dynasty=10000253 # Toki
+	dynasty_house = "house_shgnt_toki_mangi"
 	father=10020371
 	religion="shinto"
 	culture="eastern_kanto"
@@ -2854,7 +2868,8 @@
 }
 10020386 = {
 	name=character_name_10020386 # Yorizane # Tamezane
-	dynasty=10000253 # Toki
+	#dynasty=10000253 # Toki
+	dynasty_house = "house_shgnt_toki_mangi"
 	father=10020371
 	religion="shinto"
 	culture="eastern_kanto"
@@ -5751,7 +5766,8 @@
 10011904 = {
 	name=character_name_10011904 # Tameko
 	female=yes
-	dynasty=10000253 # Toki
+	#dynasty=10000253 # Toki
+	dynasty_house = "house_shgnt_toki_mangi"
 	father=10020371
 	religion="shinto"
 	culture="eastern_kanto"

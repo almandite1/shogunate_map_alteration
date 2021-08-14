@@ -1340,6 +1340,13 @@ c_shgnt_hanawa = {
     1491.01.01 = {
         holder = 10003305 # Oura Mitsunobu
     }
+	1502.01.01 = {
+		effect = {
+			title:b_shgnt_hanawa_2 = {
+				set_title_name = b_shgnt_hanawa_2_1 # Ōura, 大浦城
+			}
+		}
+	}
     1526.11.12 = {
         holder = 10003306 # Oura Morinobu
     }
@@ -1376,6 +1383,12 @@ c_shgnt_hiraga = {
     }
     1217.01.01 = {
         holder = 12030220 # Ando Suenobu
+		effect = {
+			title:b_shgnt_hiraga_3 = {
+				set_title_name = b_shgnt_hiraga_3_1 # Daikōji, 大光寺城
+
+			}
+		}
     }
     1230.01.01 = {
         holder = 12030230 # Ando Chikahide
@@ -1393,6 +1406,13 @@ c_shgnt_hiraga = {
         liege = d_nmih_shimokuni # 
         holder = 12030300 # Ando Morosue
     }
+	1334.01.01 = {
+		effect = {
+			title:b_shgnt_hiraga_3 = {
+				set_title_name = b_shgnt_hiraga_3_2 # Ishikawa, 石川城
+			}
+		}
+	}
     1355.01.01 = {
         holder = 10000113 # Ando Norisue
     }
@@ -1437,4 +1457,11 @@ c_shgnt_hiraga = {
     1567.04.25 = {
         holder = 10003165 # Oura Tamenobu
     }
+	1594.01.01 = {
+		effect = {
+			title:b_shgnt_hiraga_3 = {
+				set_title_name = b_shgnt_hiraga_3_3 # Horikoshi, 堀越城
+			}
+		}
+	}
 }

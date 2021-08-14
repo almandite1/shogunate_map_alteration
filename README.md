@@ -10,7 +10,7 @@ Shogunate Map alteration sub MOD is a submod of the Shogunate mod. It replaces m
   - [Shogunate (Japanese version)](https://steamcommunity.com/sharedfiles/filedetails/?id=2253279956)
 - [Nova Monumenta Iaponiae Historica](https://steamcommunity.com/sharedfiles/filedetails/?id=333442855)
 
-## localization / [translation](https://github.com/almandite1/shogunate_map_alteration/pull/205)
+## localization / [translation](https://github.com/almandite1/shogunate_map_alteration/pulls?q=is%3Apr+author%3Adaniel-majonica+is%3Aclosed+)
 - [Daniel Majonica](https://github.com/daniel-majonica)
 
 ## map_data / heightmap.png

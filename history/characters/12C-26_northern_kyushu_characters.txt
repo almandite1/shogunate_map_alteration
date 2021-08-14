@@ -667,12 +667,13 @@
 	1064.1.1={
 		birth=yes
 	}
+	#康和4(1102)年九月十三日時点で宇野御厨検校職。（外山幹夫、『肥前松浦一族』、2008年。）
 	1148.10.29={
 		death=yes
 	}
 }
 12750610 = {
-	name=character_name_12750610 # Naoshi
+	name=character_name_12750610 # Naoshi, 直
 	dynasty=10000684 # Matsura
 	father=12750600
 	trait="education_martial_2"
@@ -681,12 +682,19 @@
 	1090.1.1={
 		birth=yes
 	}
+	# 康和4(1102)年八月二十九日「宇野御厨検校散位」と署名し子息に所領譲与する。（「石志文書」、外山幹夫、『肥前松浦一族』、2008年。）
+	1106.01.01 = {
+		give_nickname = "nick_Genshiro" # 「源四郎太夫」。（「源姓峯氏系図」、外山幹夫、『肥前松浦一族』、2008年。）
+		# 「源太郎大夫」。（「松浦伊万里家之系図」、外山幹夫、『肥前松浦一族』、2008年。）
+	}
+	# TODO 清原是包の銘「三子」と婚姻、のちに離婚。
 	1155.1.1={
 		death=yes
 	}
+	# 「相撲名人」（『尊卑分脈』、外山幹夫、『肥前松浦一族』、2008年。）
 }
 12750611 = {
-	name=character_name_12750611 # Tamotsu
+	name=character_name_12750611 # Tamotsu, 持, 波多持（「源姓峯氏系図」、外山幹夫、『肥前松浦一族』、2008年。）
 	dynasty=10000684 # Matsura
 	father=12750600
 	trait="education_martial_2"
@@ -695,12 +703,15 @@
 	1095.1.1={
 		birth=yes
 	}
+	1111.01.01 = {
+		give_nickname = "nick_Genta" # 「波多源太」（「源姓峯氏系図」、外山幹夫、『肥前松浦一族』、2008年。）
+	}
 	1155.1.1={
 		death=yes
 	}
 }
 12750612 = {
-	name=character_name_12750612 # Suguru
+	name=character_name_12750612 # Suguru, 勝,  「石志増」（「源姓峯氏系図」、外山幹夫、『肥前松浦一族』、2008年。）
 	dynasty=10000684 # Matsura
 	father=12750600
 	trait="education_martial_2"
@@ -709,12 +720,15 @@
 	1100.1.1={
 		birth=yes
 	}
+	1116.01.01 = {
+		give_nickname = "nick_Gensaburo" # 「石志源三郎」（「源姓峯氏系図」、外山幹夫、『肥前松浦一族』、2008年。）
+	}
 	1170.1.1={
 		death=yes
 	}
 }
 12750613 = {
-	name=character_name_12750613 # Kikoyu
+	name=character_name_12750613 # Kikoyu, 聞, 「荒小田聞公文」（「源姓峯氏系図」、外山幹夫、『肥前松浦一族』、2008年。）
 	dynasty=10000684 # Matsura
 	father=12750600
 	trait="education_martial_2"
@@ -723,12 +737,15 @@
 	1105.1.1={
 		birth=yes
 	}
+	1121.01.01 = {
+		give_nickname = "nick_shiro" # 「四郎」（「源姓峯氏系図」、外山幹夫、『肥前松浦一族』、2008年。）
+	}
 	1170.1.1={
 		death=yes
 	}
 }
 12750614 = {
-	name=character_name_12750614 # Hiroshi
+	name=character_name_12750614 # Hiroshi, 広, 神田広（「源姓峯氏系図」、外山幹夫、『肥前松浦一族』、2008年。）
 	dynasty=10000684 # Matsura
 	father=12750600
 	trait="education_martial_2"
@@ -737,12 +754,15 @@
 	1110.1.1={
 		birth=yes
 	}
+	1126.01.01 = {
+		give_nickname = "nick_goro" # 「五郎」（「源姓峯氏系図」、外山幹夫、『肥前松浦一族』、2008年。）
+	}
 	1180.1.1={
 		death=yes
 	}
 }
 12750615 = {
-	name=character_name_12750615 # Shirabu
+	name=character_name_12750615 # Shirabu, 調, 佐志調（「源姓峯氏系図」、外山幹夫、『肥前松浦一族』、2008年。）
 	dynasty=10000684 # Matsura
 	father=12750600
 	trait="education_martial_2"
@@ -750,6 +770,9 @@
 	culture="northern_kyushu"
 	1115.1.1={
 		birth=yes
+	}
+	1131.01.01 = {
+		give_nickname = "nick_rokuro" # 「六郎」（「源姓峯氏系図」、外山幹夫、『肥前松浦一族』、2008年。）
 	}
 	1190.1.1={
 		death=yes
@@ -785,21 +808,28 @@
 	}
 }
 12750621 = {
-	name=character_name_12750621 # Kiyoshi
+	name=character_name_12750621 # Kiyoshi, 清, 御厨清
 	dynasty=10000684 # Matsura
-	father=12750610
+	father=12750610 # 松浦久
 	trait="education_martial_2"
 	religion="shinto"
 	culture="northern_kyushu"
 	1135.1.1={
 		birth=yes
 	}
+	# 「いわひろの尼と婚姻。（外山幹夫、『肥前松浦一族』、2008年。）
+	1151.01.01 = {
+		give_nickname = "nick_Gensaburo" # 「源三郎」（「源姓峯氏系図」、外山幹夫、『肥前松浦一族』、2008年。）
+		# 「源二郎」。（「松浦伊万里家之系図」、外山幹夫、『肥前松浦一族』、2008年。）
+	}
+	# 正治元(1199)年十一月二日幕府御家人として所領安堵。（「伊万里文書」、外山幹夫、『肥前松浦一族』、2008年。）
 	1200.1.1={
 		death=yes
 	}
+	# 御厨執行（「源姓峯氏系図」、外山幹夫、『肥前松浦一族』、2008年。）
 }
 12750622 = {
-	name=character_name_12750622 # Sakau
+	name=character_name_12750622 # Sakau, 栄, 有田栄（「源姓峯氏系図」、外山幹夫、『肥前松浦一族』、2008年。）
 	dynasty=10000684 # Matsura
 	father=12750610
 	trait="education_martial_2"
@@ -807,6 +837,9 @@
 	culture="northern_kyushu"
 	1138.1.1={
 		birth=yes
+	}
+	1154.01.01 = {
+		give_nickname = "nick_shiro" # 「四郎」（「源姓峯氏系図」、外山幹夫、『肥前松浦一族』、2008年。）
 	}
 	1168.01.01 = {
 		dynasty_house="house_shgnt_arita"
@@ -816,7 +849,7 @@
 	}
 }
 12750623 = {
-	name=character_name_12750623 # Asobu
+	name=character_name_12750623 # Asobu, 遊, 大川野遊（「源姓峯氏系図」、外山幹夫、『肥前松浦一族』、2008年。）
 	dynasty=10000684 # Matsura
 	father=12750610
 	trait="education_martial_2"
@@ -825,12 +858,15 @@
 	1140.1.1={
 		birth=yes
 	}
+	1156.01.01 = {
+		give_nickname = "nick_shiro" # 「四郎」（「源姓峯氏系図」、外山幹夫、『肥前松浦一族』、2008年。）
+	}
 	1205.1.1={
 		death=yes
 	}
 }
 12750624 = {
-	name=character_name_12750624 # Hiraku
+	name=character_name_12750624 # Hiraku, 披, 峯披
 	dynasty=10000684 # Matsura
 	father=12750610
 	trait="education_martial_2"
@@ -839,12 +875,18 @@
 	1141.1.1={
 		birth=yes
 	}
+	1157.01.01 = {
+		give_nickname = "nick_goro" # 「五郎」（「源姓峯氏系図」、外山幹夫、『肥前松浦一族』、2008年。）
+	}
+	# 建久3(1192)年六月二日、宇野御厨内紐差浦地頭職安堵。
+	# 正治元(1199)年十一月二日幕府御家人として所領安堵。（「伊万里文書」、外山幹夫、『肥前松浦一族』、2008年。）
+	# 建保6(1218)年八月、子息峯三郎に譲渡。
 	1205.1.1={
 		death=yes
 	}
 }
 12750625 = {
-	name=character_name_12750625 # Kakomu
+	name=character_name_12750625 # Kakomu, 囲, 山代囲
 	dynasty=10000684 # Matsura
 	father=12750610
 	trait="education_martial_2"
@@ -853,24 +895,34 @@
 	1145.1.1={
 		birth=yes
 	}
+	1161.01.01 = {
+		give_nickname = "nick_Genrokuro" # 「源六」（「源姓峯氏系図」、外山幹夫、『肥前松浦一族』、2008年。）
+	}
 	1175.01.01 = {
 		dynasty_house = "house_shgnt_yamashiro"
 	}
+	# 正治元(1199)年十一月二日幕府御家人として所領安堵。（「伊万里文書」、外山幹夫、『肥前松浦一族』、2008年。）
 	1215.1.1={
 		death=yes
 	}
 }
 12750626 = {
-	name=character_name_12750626 # Tsuranu
+	name=character_name_12750626 # Tsuranu, 連, 小値賀連（「源姓峯氏系図」、外山幹夫、『肥前松浦一族』、2008年。）
 	dynasty=10000684 # Matsura
 	father=12750610
+	#TODO mother =　平戸にいた宋船の船頭の後家（中国人）
 	trait="education_martial_2"
 	religion="shinto"
 	culture="northern_kyushu"
 	1150.1.1={
 		birth=yes
 	}
-	1205.1.1={
+	1166.01.01 = {
+		give_nickname = "nick_juro" # 十郎。（外山幹夫、『肥前松浦一族』、2008年。）
+	}
+	# 沙弥定西
+	# 承久元(1219)年六月三日、甥峯持に所領小値賀島を譲る。
+	1220.1.1={
 		death=yes
 	}
 }
@@ -889,15 +941,20 @@
 	}
 }
 12750631={
-	name=character_name_12750631 # Tadashi
+	name=character_name_12750631 # Tadashi, 貞, 志佐貞
 #	dynasty=10007338 # Shisa
 	dynasty_house = "house_shgnt_shisa"
 	father=12750621 # Matsura Kiyoshi
+	#mother = "いわひろの尼"
 	religion="shinto"
 	culture="northern_kyushu"
 	1190.1.1={
 		birth=yes
 	}
+	1206.01.01 = {
+		give_nickname = "nick_rokuro" # 「六郎」。（「山代文書」、外山幹夫、『肥前松浦一族』、2008年。）
+	}
+	# 寛元2(1244)年四月二十三日関東裁許条「志佐六郎貞」
 	1250.1.1={
 		death=yes
 	}
@@ -960,7 +1017,7 @@
 	}
 }
 12750651 = {
-	name=character_name_12750651 # Satoru
+	name=character_name_12750651 # Satoru, 知
 	dynasty=10000684 # Matsura
 	father=12750623
 	trait="education_martial_2"
@@ -997,6 +1054,7 @@
 	1180.1.1={
 		birth=yes
 	}
+	# 承久元(1219)年叔父松浦連（沙弥定西）の嫡子となり、小値賀島地頭職譲り受ける。
 	1255.1.1={
 		death=yes
 	}
@@ -1125,15 +1183,18 @@
 	}
 }
 12750681 = {
-	name=character_name_12750681 # Tatau #Uku Futoshi's son
+	name=character_name_12750681 # Tatau, 湛, 峯湛
 	dynasty=10000684 # Matsura
-	father=12750675
-	mother=12750665
+	father=12750675 #Uku Futoshi's son
+	mother=12750665　# 峯持の娘
 	trait="education_martial_2"
 	religion="shinto"
 	culture="northern_kyushu"
 	1230.1.1={
 		birth=yes
+	}
+	1246.01.01 = {
+		give_nickname = "nick_Matagoro" # 「又五郎」、（外山幹夫、『肥前松浦一族』、2008年。）
 	}
 	1250.01.01 = {
 		dynasty_house = "house_shgnt_matsura_hirado"
@@ -1217,7 +1278,7 @@
 	}
 }
 12750701={
-	name=character_name_12750701 # Takatoshi
+	name=character_name_12750701 # Takatoshi, 高俊。『平治物語』では藤原信頼を六条河原で処刑した人物が松浦重俊。同一人物か。（外山幹夫、『肥前松浦一族』、2008年。）
 	dynasty=10007140 # Matsura
 	father=12750700 # Matsura Saneto
 	religion="shinto"
@@ -1226,11 +1287,16 @@
 	1130.1.1={
 		birth=yes
 	}
+	1146.01.01 = {
+		give_nickname = "nick_taro" # 太郎。（『源平盛衰記』、外山幹夫、『肥前松浦一族』、2008年。）
+	}
 	1150.1.1={
 		add_spouse=12750616
 	}
-	1185.4.25={
-		death=yes
+	1184.03.23={ # 元暦元(1184)年二月十日摂津一ノ谷戦死。（『峯氏系図』、外山幹夫、『肥前松浦一族』、2008年。）
+		death = {
+			death_reason = death_battle
+		}
 	}
 }
 12750705={
@@ -1264,7 +1330,7 @@
 	}
 }
 12750800={
-	name=character_name_12750800 # Tadashu
+	name=character_name_12750800 # Tadashu, 糺, 別名は継（外山幹夫、『肥前松浦一族』、2008年。）
 #	dynasty=10007338 # Shisa
 	dynasty_house = "house_shgnt_shisa"
 	father=12750631 # Shisa Tadashi
@@ -1273,12 +1339,17 @@
 	1220.1.1={
 		birth=yes
 	}
-	1280.1.1={
+	1236.01.01 = {
+		give_nickname = "nick_saburo" # 「志佐三郎兵衛尉継法師」（「山代文書」、外山幹夫、『肥前松浦一族』、2008年。）
+	}
+	# 1281 弘安の役に参戦
+	# 弘安10(1287)年十一月、鎌倉に参訴
+	1290.1.1={
 		death=yes
 	}
 }
 12750801={
-	name=character_name_12750801 # Iwau
+	name=character_name_12750801 # Iwau, 祝
 #	dynasty=10007338 # Shisa
 	dynasty_house = "house_shgnt_shisa"
 	father=12750800 # Shisa Tadashu
@@ -1287,12 +1358,16 @@
 	1250.1.1={
 		birth=yes
 	}
+	1266.01.01 = {
+		give_nickname = "nick_Kojio" # 「志佐小次郎」（「山代文書」、外山幹夫、『肥前松浦一族』、2008年。）
+	}
+	# 1281 弘安の役に参戦
 	1310.1.1={
 		death=yes
 	}
 }
 12750802={
-	name=character_name_12750802 # Tamotsu
+	name=character_name_12750802 # Tamotsu, 有, 別名尚有（外山幹夫、『肥前松浦一族』、2008年。）
 #	dynasty=10007338 # Shisa
 	dynasty_house = "house_shgnt_shisa"
 	father=12750801 # Shisa Iwau
@@ -1301,6 +1376,7 @@
 	1290.1.1={
 		birth=yes
 	}
+	# 1333鎮西探題攻撃に参加
 	1359.8.29={
 		death=yes
 	}
@@ -1320,7 +1396,7 @@
 	}
 }
 12750804={
-	name=character_name_12750804 # Shirabu
+	name=character_name_12750804 # Shirabu, 調
 #	dynasty=10007338 # Shisa
 	dynasty_house = "house_shgnt_shisa"
 	father=12750803 # Shisa Sadamu
@@ -1328,6 +1404,9 @@
 	culture="northern_kyushu"
 	1340.1.1={
 		birth=yes
+	}
+	1384.01.01 = {
+		give_nickname = "nick_iki_no_kami" # 「壱岐守」　# 永徳4(1384)年二月二十三日の一揆許諾条に署名（「山代文書」、外山幹夫、『肥前松浦一族』、2008年。）
 	}
 	1400.1.1={
 		death=yes
@@ -1348,7 +1427,7 @@
 	}
 }
 12750806={
-	name=character_name_12750806 # Yoroshi
+	name=character_name_12750806 # Yoroshi, 義
 #	dynasty=10007338 # Shisa
 	dynasty_house = "house_shgnt_shisa"
 	father=12750805 # Shisa Shigeshi
@@ -1357,12 +1436,13 @@
 	1410.1.1={
 		birth=yes
 	}
+	#文明4(1472)年まで壱岐を佐志・呼子・鴨打・塩津留氏と分割統治
 	1480.1.1={
 		death=yes
 	}
 }
 12750807={
-	name=character_name_12750807 # Sumikatsu
+	name=character_name_12750807 # Sumikatsu, 純勝
 #	dynasty=10007338 # Shisa
 	dynasty_house = "house_shgnt_shisa"
 	father=12750806 # Shisa Yoroshi
@@ -1371,8 +1451,12 @@
 	1440.1.1={
 		birth=yes
 	}
+	# 有馬貴純と平戸氏を攻める
+	#　明応年間(1492.7.19～1501.2.29)に大村・龍造寺に攻められ五島に逃れる
 	1495.1.1={
-		death=yes
+		death　= {
+			death_reason = death_murder #　五島で家臣に討たれる。
+		}
 	}
 }
 12751000={

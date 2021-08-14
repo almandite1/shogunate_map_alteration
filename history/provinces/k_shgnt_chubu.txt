@@ -440,6 +440,9 @@
 	1375.01.01 = {
 		holding = none
 	}
+	1400.01.01 = {
+		holding = castle_holding # Otai,小田井城（Issue #220）
+	}
 }
 270 = { # Nishi-Kasugai_5
 	culture = western_chubu
@@ -449,7 +452,7 @@
 271 = { # Niwa_1
 	culture = western_chubu
 	religion = shinto
-	holding = castle_holding
+	holding = none
 }
 272 = { # Niwa_2
 	culture = western_chubu
@@ -464,7 +467,13 @@
 274 = { # Niwa_4
 	culture = western_chubu
 	religion = shinto
-	holding = none
+	holding = castle_holding # Asano, 浅野
+	1479.01.01 = {
+		holding = castle_holding # Iwakura, 岩倉城
+	}
+	1559.03.01 = {
+		holding = none
+	}
 }
 275 = { # Niwa_5
 	culture = western_chubu
@@ -484,7 +493,7 @@
 278 = { # Haguri_2
 	culture = western_chubu
 	religion = shinto
-	holding = none
+	holding = city_holding # Kuroda, 黒田宿
 }
 279 = { # Haguri_3
 	culture = western_chubu
@@ -499,7 +508,7 @@
 281 = { # Nakashima_1
 	culture = western_chubu
 	religion = shinto
-	holding = castle_holding
+	holding = church_holding # Masumida, 真清田神社
 }
 282 = { # Nakashima_2
 	culture = western_chubu
@@ -515,6 +524,12 @@
 	culture = western_chubu
 	religion = shinto
 	holding = none
+	1400.06.01 = {
+		holding = castle_holding # Orizu,下津城（Issue #220）
+	}
+	1476.01.01 = {
+		holding = city_holding # Orizu,下津（Issue #220）
+	}
 }
 285 = { # Nakashima_5
 	culture = western_chubu
@@ -532,7 +547,10 @@
 287 = { # Kai-To_1
 	culture = western_chubu
 	religion = shinto
-	holding = church_holding
+	holding = church_holding # Tsushima, 津島神社
+	1333.07.04 = {
+		holding = city_holding # Tsushima, 津島湊
+	}
 }
 288 = { # Kai-To_2
 	culture = western_chubu
@@ -542,7 +560,7 @@
 289 = { # Kai-To_3
 	culture = western_chubu
 	religion = shinto
-	holding = none
+	holding = city_holding # Kayazu, 萱津宿
 }
 290 = { # Kai-To_4
 	culture = western_chubu

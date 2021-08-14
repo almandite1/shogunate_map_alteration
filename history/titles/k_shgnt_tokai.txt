@@ -2718,6 +2718,13 @@ c_shgnt_tsuru = {
     1435.01.01 = {
         holder = 10020109 # Oyamada Nobuzane
     }
+	1450.01.01 = {
+		effect = {
+			title:b_shgnt_tsuru_1 = {
+				set_title_name = b_shgnt_tsuru_1_1 # Nakatsumori, 中津森館
+			}
+		}
+	}
     1455.01.01 = {
         holder = 10020111 # Oyamada Nobumitsu
     }
@@ -2727,6 +2734,13 @@ c_shgnt_tsuru = {
     1510.01.01 = {
         holder = 10020120 # Oyamada Nobuari
     }
+	1530.01.01 = {
+		effect = {
+			title:b_shgnt_tsuru_1 = {
+				set_title_name = b_shgnt_tsuru_1_2 # Yamura, 谷村城
+			}
+		}
+	}
     1541.03.09 = {
         liege = d_shgnt_kai # 
         holder = 10020123 # Oyamada Nobuari
@@ -2736,6 +2750,11 @@ c_shgnt_tsuru = {
     }
     1569.09.14 = {
         holder = 10020130 # Oyamada Nobushige
+		effect = {
+			title:b_shgnt_tsuru_2 = {
+				set_title_name = b_shgnt_tsuru_2_1 # Iwadonoyama, 岩殿山城
+			}
+		}
     }
     1582.04.16 = {
         liege = d_shgnt_kai # 

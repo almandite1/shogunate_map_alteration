@@ -4416,7 +4416,7 @@
 	}
 }
 10068200 = {
-	name=character_name_10068200 # Okinobu
+	name=character_name_10068200 # Okinobu, 興信
 	#dynasty=10000684 # Matsura
 	dynasty_house = "house_shgnt_matsura_hirado"
 	father=10068204
@@ -4432,17 +4432,21 @@
 	1488.1.1={
 		birth=yes
 	}
+	# 伯父弘定の娘：布袋と婚姻（外山幹夫、『肥前松浦一族』、2008年。）
+	# 大内義興の偏諱をもらう（外山幹夫、『肥前松浦一族』、2008年。）
+	# 永正11(1514)年ないし永正12(1515)年に伯父弘定から家督を譲られる（外山幹夫、『肥前松浦一族』、2008年。）
 	1515.01.01 = {
         effect={
 			set_realm_capital=title:c_shgnt_kita_matsura
 		}
     }
+	# 配偶者：布袋が病没後、波多下野守の娘の妹と婚姻（外山幹夫、『肥前松浦一族』、2008年。）
 	1541.1.1={
 		death=yes
 	}
 }
 10068201 = {
-	name=character_name_10068201 # Hirosada
+	name=character_name_10068201 # Hirosada, 弘定
 	#dynasty=10000684 # Matsura
 	dynasty_house = "house_shgnt_matsura_hirado"
 	father=10068203
@@ -4458,20 +4462,22 @@
 	1466.1.1={
 		birth=yes
 	}
+	# 大内政弘の偏諱をもらう
 	1498.12.14 = {
         effect={
 			set_realm_capital=title:c_shgnt_kita_matsura
 		}
     }
-	1515.1.1={
-		death=yes
+	1515.07.12={
+		death=yes # 『大曲記』では永正12(1515)年六月。『壺陽録』では永正11(1514)年六月。（外山幹夫、『肥前松浦一族』、2008年。）
 	}
 }
 10068202 = {
-	name=character_name_10068202 # Takanobu
+	name=character_name_10068202 # Takanobu, 隆信、法名：道可
 	#dynasty=10000684 # Matsura
-	dynasty_house = "house_shgnt_matsura_hirado"
-	father=10068200
+	dynasty_house = "house_shgnt_matsura_hirado" # 隆信の代から"松浦"をよく用いる（外山幹夫、『肥前松浦一族』、2008年。）
+	father=10068200 # 松浦興信
+	#mother = # 松浦興信の後妻、波多氏（外山幹夫、『肥前松浦一族』、2008年。）
 	martial=8
 	diplomacy=9
 	intrigue=8
@@ -4482,20 +4488,23 @@
 	religion="shinto"
 	culture="northern_kyushu"
 	prowess=12
-	1529.1.1={
+	1529.1.1={ #　享禄2(1529)年とみられる（外山幹夫、『肥前松浦一族』、2008年。）
 		birth=yes
 	}
+	# 大内義隆の偏諱をもらう（外山幹夫、『肥前松浦一族』、2008年。）
 	1541.01.01 = {
         effect={
 			set_realm_capital=title:c_shgnt_kita_matsura
 		}
+		dynasty=10000684 # Matsura
     }
+	# 永禄11(1568)年、嫡子鎮信に家督を譲る
 	1599.4.30={
 		death=yes
 	}
 }
 10068203 = {
-	name=character_name_10068203 # Toyohisa
+	name=character_name_10068203 # Toyohisa, 豊久, 法名：天翁
 	#dynasty=10000684 # Matsura
 	dynasty_house = "house_shgnt_matsura_hirado"
 	father=10068264
@@ -4516,7 +4525,7 @@
 	}
 }
 10068204 = {
-	name=character_name_10068204 # Sumimoto
+	name=character_name_10068204 # Sumimoto, 純元 ← 田平昌
 	#dynasty=10000684 # Matsura
 	dynasty_house = "house_shgnt_matsura_hirado"
 	father=10068203
@@ -4528,14 +4537,15 @@
 	1450.1.1={
 		birth=yes
 	}
+	# 有馬尚純の偏諱をもらう
 	1490.1.1={
 		death=yes
 	}
 }
 10068205 = {
-	name=character_name_10068205 # Shigenobu
-	#dynasty=10000684 # Matsura
-	dynasty_house = "house_shgnt_matsura_hirado"
+	name=character_name_10068205 # Shigenobu, 鎮信
+	dynasty=10000684 # Matsura
+	#dynasty_house = "house_shgnt_matsura_hirado"
 	father=10068202
 	trait="education_stewardship_3"
 	religion="shinto"
@@ -4543,14 +4553,16 @@
 	1549.1.1={
 		birth=yes
 	}
+	# 大友義鎮から偏諱をもらう（外山幹夫、『肥前松浦一族』、2008年。）
+	# 永禄11(1568)年家督（外山幹夫、『肥前松浦一族』、2008年。）
 	1614.7.3={
 		death=yes
 	}
 }
 10068206 = {
 	name=character_name_10068206 # Koreaki
-	#dynasty=10000684 # Matsura
-	dynasty_house = "house_shgnt_matsura_hirado"
+	dynasty=10000684 # Matsura
+	#dynasty_house = "house_shgnt_matsura_hirado"
 	father=10068202
 	trait="education_stewardship_3"
 	religion="shinto"
@@ -4564,8 +4576,8 @@
 }
 10068207 = {
 	name=character_name_10068207 # Chikashi
-	#dynasty=10000684 # Matsura
-	dynasty_house = "house_shgnt_matsura_hirado"
+	dynasty=10000684 # Matsura
+	#dynasty_house = "house_shgnt_matsura_hirado"
 	father=10068202
 	trait="education_stewardship_3"
 	religion="shinto"
@@ -4579,8 +4591,8 @@
 }
 10068208 = {
 	name=character_name_10068208 # Nobuzane
-	#dynasty=10000684 # Matsura
-	dynasty_house = "house_shgnt_matsura_hirado"
+	dynasty=10000684 # Matsura
+	#dynasty_house = "house_shgnt_matsura_hirado"
 	father=10068202
 	trait="education_stewardship_3"
 	religion="shinto"
@@ -4594,8 +4606,8 @@
 }
 10068209 = {
 	name=character_name_10068209 # Hisanobu
-	#dynasty=10000684 # Matsura
-	dynasty_house = "house_shgnt_matsura_hirado"
+	dynasty=10000684 # Matsura
+	#dynasty_house = "house_shgnt_matsura_hirado"
 	father=10068205
 	trait="education_stewardship_3"
 	religion="shinto"
@@ -4612,8 +4624,8 @@
 }
 10068210 = {
 	name=character_name_10068210 # Nobumasa
-	#dynasty=10000684 # Matsura
-	dynasty_house = "house_shgnt_matsura_hirado"
+	dynasty=10000684 # Matsura
+	#dynasty_house = "house_shgnt_matsura_hirado"
 	father=10068205
 	trait="education_stewardship_3"
 	religion="shinto"
@@ -4627,8 +4639,8 @@
 }
 10068211 = {
 	name=character_name_10068211 # Tamako #Hidaka Nobuyoshi'S wife
-	#dynasty=10000684 # Matsura
-	dynasty_house = "house_shgnt_matsura_hirado"
+	dynasty=10000684 # Matsura
+	#dynasty_house = "house_shgnt_matsura_hirado"
 	female=yes
 	father=10068205
 	trait="education_stewardship_3"
@@ -4643,8 +4655,8 @@
 }
 10068212 = {
 	name=character_name_10068212 # Satoko #Goto Hiroaki'S wife
-	#dynasty=10000684 # Matsura
-	dynasty_house = "house_shgnt_matsura_hirado"
+	dynasty=10000684 # Matsura
+	#dynasty_house = "house_shgnt_matsura_hirado"
 	female=yes
 	father=10068205
 	trait="education_stewardship_3"
@@ -4659,8 +4671,8 @@
 }
 10068213 = {
 	name=character_name_10068213 # Machiko #Saigo Sumishige'S wife
-	#dynasty=10000684 # Matsura
-	dynasty_house = "house_shgnt_matsura_hirado"
+	dynasty=10000684 # Matsura
+	#dynasty_house = "house_shgnt_matsura_hirado"
 	female=yes
 	father=10068205
 	trait="education_stewardship_3"
@@ -4675,8 +4687,8 @@
 }
 10068214 = {
 	name=character_name_10068214 # Sakurako #Momono Nanigashi'S wife
-	#dynasty=10000684 # Matsura
-	dynasty_house = "house_shgnt_matsura_hirado"
+	dynasty=10000684 # Matsura
+	#dynasty_house = "house_shgnt_matsura_hirado"
 	female=yes
 	father=10068205
 	trait="education_stewardship_3"
@@ -4691,8 +4703,8 @@
 }
 10068215 = {
 	name=character_name_10068215 # Ryuko #Nanfusa Nanigashi'S wife
-	#dynasty=10000684 # Matsura
-	dynasty_house = "house_shgnt_matsura_hirado"
+	dynasty=10000684 # Matsura
+	#dynasty_house = "house_shgnt_matsura_hirado"
 	female=yes
 	father=10068205
 	trait="education_stewardship_3"
@@ -4995,7 +5007,7 @@
 	}
 }
 10068264 = {
-	name=character_name_10068264 # Yoroshi
+	name=character_name_10068264 # Yoroshi, 義,別名：是興、字：天叟、法名：一庵
 	#dynasty=10000684 # Matsura
 	dynasty_house = "house_shgnt_matsura_hirado"
 	father=10068262
@@ -5008,9 +5020,12 @@
 	1420.1.1={
 		give_nickname="nick_sakonoe_shogen"
 	}
-	1430.1.1={
-		give_nickname="nick_hizen_no_kami"
+	# 永享7(1435)年官位を求めるため上洛（『家世伝』、外山幹夫、『肥前松浦一族』、2008年。）
+	1437.04.01 = {
+		give_nickname="nick_the_hizen_no_kami" # 「肥前守」、足利義教の好意により得る（『家世伝』、外山幹夫、『肥前松浦一族』、2008年。）
 	}
+	# 長禄2(1458)年、上洛し相国寺普広院に詣で焼香し銭三万疋を寄進。
+	# 長禄4(1460)年五月八日、勘合貿易を足利義教から許可される（『蔭涼軒日録』、外山幹夫、『肥前松浦一族』、2008年。）
 	1470.1.1={
 		death=yes
 	}

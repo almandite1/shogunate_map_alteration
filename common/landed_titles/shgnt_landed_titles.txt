@@ -1764,8 +1764,8 @@
             }
         }
         d_shgnt_shima = {
-                color = {196 163 191}
-                color2 = {255 255 255}
+            color = {196 163 191}
+            color2 = {255 255 255}
             c_shgnt_toshi = {
                 color = {186 153 181}
                 color2 = {255 255 255}
@@ -1856,6 +1856,9 @@
             c_shgnt_niwa = {
                 color = {147 81 149}
                 color2 = {255 255 255}
+				b_shgnt_niwa_4 = {
+                    province = 274 # Asano, 浅野 → Iwakura, 岩倉
+                }
                 b_shgnt_niwa_1 = {
                     province = 271
                 }
@@ -1864,9 +1867,6 @@
                 }
                 b_shgnt_niwa_3 = {
                     province = 273
-                }
-                b_shgnt_niwa_4 = {
-                    province = 274
                 }
                 b_shgnt_niwa_5 = {
                     province = 275
@@ -1898,7 +1898,7 @@
                     province = 285 # Shobata
                 }
 				b_shgnt_nakashima_1 = {
-                    province = 281
+                    province = 281　# Masumida, 真清田神社
                 }
                 b_shgnt_nakashima_2 = {
                     province = 282
@@ -1916,17 +1916,17 @@
             c_shgnt_kai-to = {
                 color = {167 81 149}
                 color2 = {255 255 255}
+				b_shgnt_kai-to_4 = {
+                    province = 290 # 戸田城
+                }
                 b_shgnt_kai-to_1 = {
-                    province = 287
+                    province = 287　# Tsushima, 津島神社
                 }
                 b_shgnt_kai-to_2 = {
                     province = 288
                 }
                 b_shgnt_kai-to_3 = {
                     province = 289
-                }
-                b_shgnt_kai-to_4 = {
-                    province = 290
                 }
                 b_shgnt_kai-to_5 = {
                     province = 291
@@ -1984,8 +1984,8 @@
             }
         }
         d_shgnt_mino = {
-                color = {204 126 177}
-                color2 = {255 255 255}
+            color = {204 126 177}
+            color2 = {255 255 255}
             c_shgnt_fuwa = {
                 color = {194 116 167}
                 color2 = {255 255 255}
@@ -6527,11 +6527,11 @@
             c_shgnt_imizu = {
                 color = {109 88 87}
                 color2 = {255 255 255}
+				b_shgnt_imizu_2 = {
+                    province = 1555 # Ōi, 大袋荘 -> 放生津城
+                }
                 b_shgnt_imizu_1 = {
                     province = 1554
-                }
-                b_shgnt_imizu_2 = {
-                    province = 1555
                 }
                 #b_shgnt_imizu_3 = {
                 #    province = 1556

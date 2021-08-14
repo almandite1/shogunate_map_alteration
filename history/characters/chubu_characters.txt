@@ -586,6 +586,15 @@
 	1185.1.1={
 		birth=yes
 	}
+	1201.01.01 = {
+		give_nickname = "nick_jio" # 「二郎」（『群書類従』「土岐系図」）
+	}
+	1205.01.01 = {
+		dynasty_house = "house_shgnt_toki_asano"
+	}
+	1225.01.01 = {
+		give_nickname = "nick_the_saemon_no_jo" # 「左衛門尉」（『群書類従』「土岐系図」）
+	}
 	1255.1.1={
 		death=yes
 	}
@@ -687,6 +696,12 @@
 	1321.1.1={
 		birth=yes
 	}
+	1341.01.01 = {
+		dynasty_house = "house_shgnt_toki_ibi" # （『群書類従』「土岐系図」）
+	}
+	1351.01.01 = {
+		give_nickname = "nick_the_dewa_no_kami" # 「出羽守蔵人」（『群書類従』「土岐系図」）
+	}
 	1375.1.1={
 		death=yes
 	}
@@ -714,6 +729,12 @@
 	culture="western_chubu"
 	1323.1.1={
 		birth=yes
+	}
+	1343.01.01 = {
+		dynasty_house = "house_shgnt_toki_ikeda" # （『群書類従』「土岐系図」）
+	}
+	1353.01.01 = {
+		give_nickname = "nick_the_gyobu_no_sho" # 「美濃守刑部少輔」（『群書類従』「土岐系図」）
 	}
 	1397.9.2={
 		death=yes
@@ -743,6 +764,12 @@
 	1347.1.1={
 		birth=yes
 	}
+	1367.01.01 = {
+		dynasty_house = "house_shgnt_toki_shimata" # （『群書類従』「土岐系図」）
+	}
+	1377.01.01 = {
+		give_nickname = "nick_the_iyo_no_kami" # （『群書類従』「土岐系図」）
+	}
 	1420.1.1={
 		death=yes
 	}
@@ -756,6 +783,12 @@
 	culture="western_chubu"
 	1344.1.1={
 		birth=yes
+	}
+	1364.01.01 = {
+		dynasty_house = "house_shgnt_toki_hidase" # （『群書類従』「土岐系図」）
+	}
+	1374.01.01 = {
+		give_nickname = "nick_the_kunai_no_sho" # 「肥田瀬宮内少輔」（『群書類従』「土岐系図」）
 	}
 	1399.12.12={
 		death=yes
@@ -771,6 +804,12 @@
 	1351.1.1={
 		birth=yes
 	}
+	1371.01.01 = {
+		dynasty_house = "house_shgnt_toki_kayazu" # （『群書類従』「土岐系図」）
+	}
+	1381.01.01 = {
+		give_nickname = "nick_the_sakyo_dayu" # 「萱津左京大夫」（『群書類従』「土岐系図」）
+	}
 	1414.4.23={
 		death=yes
 	}
@@ -784,6 +823,9 @@
 	culture="western_chubu"
 	1363.1.1={
 		birth=yes
+	}
+	1380.01.01 = {
+		dynasty_house = "house_shgnt_toki_yoyasu"
 	}
 	1430.1.1={
 		death=yes
@@ -805,7 +847,8 @@
 }
 10025323 = {
 	name=character_name_10025323 # Mochiyori
-	dynasty=10000253 # Toki
+	#dynasty=10000253 # Toki
+	dynasty_house = "house_shgnt_toki_yoyasu"
 	father=10025321
 	trait="education_diplomacy_1"
 	religion="shinto"
@@ -858,7 +901,8 @@
 }
 10025325 = {
 	name=character_name_10025325 # Masayasu
-	dynasty=10000253 # Toki
+	#dynasty=10000253 # Toki
+	dynasty_house = "house_shgnt_toki_yoyasu"
 	father=10025323
 	trait="education_diplomacy_1"
 	religion="shinto"
@@ -1106,7 +1150,8 @@
 		employer=10029120 # Oda Nobunaga
 	}
 	1565.10.2={
-		dynasty=10000280 # Oda
+		#dynasty=10000280 # Oda
+		dynasty_house = "house_shgnt_oda_danjo"
 		effect = {
 			set_father = character:10029120
 			set_real_father = character:10025407
@@ -1150,6 +1195,14 @@
 	}
 	1554.1.1={
 		employer=10029120 # Oda Nobunaga
+	}
+	1568.01.01 = {
+		effect = {
+			add_opinion = {
+				target = liege
+				modifier = received_title_county # 伯爵領を与えられた
+			}
+		}
 	}
 	1570.10.19={
 		death={
@@ -1788,6 +1841,14 @@
 	prowess=19
 	1541.1.1={
 		birth=yes
+	}
+	1567.01.01 = {
+		effect = {
+			add_opinion = {
+				target = liege
+				modifier = received_title_county # 伯爵領を与えられた
+			}
+		}
 	}
 	1582.6.21={
 		death=yes
@@ -2448,7 +2509,8 @@
 }
 10025630 = {
 	name=character_name_10025630 # Mitsutsugu
-	dynasty=10000269 # Akechi
+#	dynasty=10000269 # Akechi
+	dynasty_house = "house_shgnt_toki_akechi"
 	father=10025635
 	martial=8
 	diplomacy=7
@@ -2469,7 +2531,8 @@
 }
 10025631 = {
 	name=character_name_10025631 # Mitsutsuna
-	dynasty=10000269 # Akechi
+#	dynasty=10000269 # Akechi
+	dynasty_house = "house_shgnt_toki_akechi"
 	father=10025630
 	martial=8
 	diplomacy=7
@@ -2489,7 +2552,8 @@
 }
 10025632 = {
 	name=character_name_10025632 # Mitsuhide
-	dynasty=10000269 # Akechi
+#	dynasty=10000269 # Akechi
+	dynasty_house = "house_shgnt_toki_akechi"
 	father=10025631
 	martial=8
 	diplomacy=11
@@ -2551,7 +2615,8 @@
 }
 10025633 = {
 	name=character_name_10025633 # Mitsuyasu
-	dynasty=10000269 # Akechi
+#	dynasty=10000269 # Akechi
+	dynasty_house = "house_shgnt_toki_akechi"
 	father=10025630
 	martial=7
 	diplomacy=6
@@ -2572,7 +2637,8 @@
 10025634 = {
 	name=character_name_10025634 # Omi
 	female=yes
-	dynasty=10000269 # Akechi
+#	dynasty=10000269 # Akechi
+	dynasty_house = "house_shgnt_toki_akechi"
 	father=10025630
 	martial=7
 	diplomacy=6
@@ -2592,7 +2658,8 @@
 }
 10025635 = {
 	name=character_name_10025635 # Yorihiro
-	dynasty=10000269 # Akechi
+#	dynasty=10000269 # Akechi
+	dynasty_house = "house_shgnt_toki_akechi"
 	father=12420505 # Akechi Yorihide
 	religion="shinto"
 	culture="western_chubu"
@@ -2605,7 +2672,8 @@
 }
 10025636={
 	name=character_name_10025636 # Mitsuyoshi
-	dynasty=10000269 # Akechi
+#	dynasty=10000269 # Akechi
+	dynasty_house = "house_shgnt_toki_akechi"
 	father=10025632 # Akechi Mitsuhide
 	mother=10025640 # Tsumaki Hiroko
 	religion="shinto"
@@ -2620,7 +2688,8 @@
 10025637={
 	name=character_name_10025637 # Kyo
 	female=yes
-	dynasty=10000269 # Akechi
+#	dynasty=10000269 # Akechi
+	dynasty_house = "house_shgnt_toki_akechi"
 	father=10025632 # Akechi Mitsuhide
 	mother=10025640 # Tsumaki Hiroko
 	religion="shinto"
@@ -2635,7 +2704,8 @@
 10025638={
 	name=character_name_10025638 # Tama # a.k.a Hosokawa Gracia
 	female=yes
-	dynasty=10000269 # Akechi
+#	dynasty=10000269 # Akechi
+	dynasty_house = "house_shgnt_toki_akechi"
 	father=10025632 # Akechi Mitsuhide
 	mother=10025640 # Tsumaki Hiroko
 	religion="shinto"
@@ -2657,7 +2727,8 @@
 }
 10025639={
 	name=character_name_10025639 # Hidemitsu
-	dynasty=10000269 # Akechi
+#	dynasty=10000269 # Akechi
+	dynasty_house = "house_shgnt_toki_akechi"
 	father=10025633 # Akechi Mitsuyasu
 	religion="shinto"
 	culture="western_chubu"
@@ -2703,7 +2774,8 @@
 }
 10025641={
 	name=character_name_10025641 # Mitsutada
-	dynasty=10000269 # Akechi
+#	dynasty=10000269 # Akechi
+	dynasty_house = "house_shgnt_toki_akechi"
 	father=10025642 # Akechi Mitsuhisa
 	religion="shinto"
 	culture="western_chubu"
@@ -2719,7 +2791,8 @@
 }
 10025642={
 	name=character_name_10025642 # Mitsuhisa
-	dynasty=10000269 # Akechi
+#	dynasty=10000269 # Akechi
+	dynasty_house = "house_shgnt_toki_akechi"
 	father=10025630 # Akechi Mitsutsugu
 	religion="shinto"
 	culture="western_chubu"
@@ -3116,7 +3189,8 @@
 }
 10025803 = {
 	name=character_name_10025803 # Shigehisa
-	dynasty=10006074 # Iwade
+#	dynasty=10006074 # Iwade
+	dynasty_house = "house_shgnt_toki_iwade"
 	father=10025804 # Iwade Shigetomo
 	religion="shinto"
 	culture="western_chubu"
@@ -3129,7 +3203,8 @@
 }
 10025804 = {
 	name=character_name_10025804 # Shigetomo
-	dynasty=10006074 # Iwade
+#	dynasty=10006074 # Iwade
+	dynasty_house = "house_shgnt_toki_iwade"
 	father=12420601 # Iwade Yorishige
 	religion="shinto"
 	culture="western_chubu"
@@ -5675,7 +5750,7 @@
 	}
 	1554.8.10={
 		effect={
-			set_realm_capital=title:c_shgnt_higashi-kasugai
+			set_realm_capital=title:c_shgnt_nishi-kasugai
 		}
 	}
 	1555.01.01={
@@ -5808,7 +5883,7 @@
 	}
 	1521.11.1={
 		effect = {
-			set_realm_capital=title:c_shgnt_higashi-kasugai
+			set_realm_capital=title:c_shgnt_nishi-kasugai
 		}
 	}
 	1529.1.1={
@@ -5864,7 +5939,7 @@
 	}
 	1513.5.21={
 		effect = {
-			set_realm_capital=title:c_shgnt_higashi-kasugai
+			set_realm_capital=title:c_shgnt_nishi-kasugai
 		}
 	}
 	#永正13(1516)年遠江で、今川氏との戦いに敗れて捕虜、尾張に解放。遠江の支配を完全に失う
@@ -6232,7 +6307,7 @@
 	}
 	1478.1.1={
 		effect = {
-			set_realm_capital=title:c_shgnt_higashi-kasugai
+			set_realm_capital=title:c_shgnt_nishi-kasugai
 		}
 	}
 	1485.8.1={
@@ -6286,8 +6361,9 @@
 	}
 }
 10029100 = {
-	name=character_name_10029100 # Nobuhide
-	dynasty=10000280 # Oda
+	name=character_name_10029100 # Nobuhide, 信秀
+	#dynasty=10000280 # Oda
+	dynasty_house = "house_shgnt_oda_danjo" # 織田弾正忠家
 	father=10029118
 	martial=8
 	diplomacy=8
@@ -6310,16 +6386,16 @@
 	1527.1.1={
 		give_nickname="nick_danjo_daichu"
 		effect = {
-			set_realm_capital = title:c_shgnt_nakashima # Shobata
+			set_realm_capital = title:c_shgnt_nakashima # Shobata, 勝幡城
 			add_gold = 5000
 		}
 	}
 	1532.1.1={
 		add_spouse=10029158 # Dota Gozen
 	}
-	1539.1.1={
+	1534.01.01 = {
 		effect = {
-			set_realm_capital = title:c_shgnt_aichi # Nagoya, Furuwatari, Suemori
+			set_realm_capital = title:c_shgnt_aichi # Nagoya, 那古野城 → Furuwatari, 古渡城 → Suemori, 末森城
 		}
 	}
 	1540.1.1={
@@ -6334,7 +6410,8 @@
 }
 10029101 = {
 	name=character_name_10029101 # Michikatsu
-	dynasty=10000280 # Oda
+	#dynasty=10000280 # Oda
+	dynasty_house = "house_shgnt_oda_yamato"
 	father=10029119
 	martial=9
 	diplomacy=7
@@ -6368,6 +6445,11 @@
 	1510.1.1={
 		birth=yes
 	}
+	1517.02.16 = {
+        effect={
+			set_realm_capital=title:c_shgnt_niwa
+		}
+    }
 	1530.1.1={
 		add_spouse=10029134 # daughter of 29118:Oda Nobusada
 	}
@@ -6431,6 +6513,9 @@
 	1375.1.1={
 		birth=yes
 	}
+	1400.1.1={
+		dynasty_house = "house_shgnt_oda_yamato"
+	}
 	1436.1.1={
 		death=yes
 	}
@@ -6491,6 +6576,11 @@
 	1422.1.1={
 		birth=yes
 	}
+	1479.01.01 = {
+		effect={
+			set_realm_capital=title:c_shgnt_niwa
+		}
+	}
 	1481.3.1={
 		death=yes
 	}
@@ -6531,6 +6621,11 @@
 	1458.1.1={
 		birth=yes
 	}
+	1481.03.01 = {
+        effect={
+			set_realm_capital=title:c_shgnt_niwa
+		}
+    }
 	1504.1.1={
 		death=yes
 	}
@@ -6552,7 +6647,8 @@
 		birth=yes
 	}
 	1480.1.1={
-		dynasty=10000281 #Tsuda
+		#dynasty=10000281 #Tsuda
+		dynasty_house = "house_shgnt_oda_tsuda"
 		effect = {
 			change_first_name = character_name_10029111_1 # Takenaga
 		}
@@ -6577,13 +6673,19 @@
 	1478.1.1={
 		birth=yes
 	}
+	1504.01.01 = {
+        effect={
+			set_realm_capital=title:c_shgnt_niwa
+		}
+    }
 	1537.1.1={
 		death=yes
 	}
 }
 10029113 = {
 	name=character_name_10029113 # Hisanaga
-	dynasty=10000280 # Oda
+	#dynasty=10000280 # Oda
+	dynasty_house = "house_shgnt_oda_yamato"
 	father=10029105
 	martial=8
 	diplomacy=7
@@ -6606,7 +6708,8 @@
 }
 10029114 = {
 	name=character_name_10029114 # Toshisada
-	dynasty=10000280 # Oda
+	#dynasty=10000280 # Oda
+	dynasty_house = "house_shgnt_oda_yamato"
 	father=10029113
 	mother=10030054
 	martial=9
@@ -6627,7 +6730,8 @@
 }
 10029115 = {
 	name=character_name_10029115 # Tsuneto
-	dynasty=10000280 # Oda
+	#dynasty=10000280 # Oda
+	dynasty_house = "house_shgnt_oda_yamato"
 	father=10029113
 	mother=10030054
 	martial=8
@@ -6642,13 +6746,17 @@
 	1444.1.1={
 		birth=yes
 	}
+	1472.01.01 = {
+		dynasty_house = "house_shgnt_oda_tozaemon"
+	}
 	1487.1.1={
 		death=yes
 	}
 }
 10029116 = {
 	name=character_name_10029116 # Tosada
-	dynasty=10000280 # Oda
+	#dynasty=10000280 # Oda
+	dynasty_house = "house_shgnt_oda_yamato"
 	father=10029114
 	martial=8
 	diplomacy=7
@@ -6668,7 +6776,8 @@
 }
 10029117 = {
 	name=character_name_10029117 # Tomura
-	dynasty=10000280 # Oda
+	#dynasty=10000280 # Oda
+	dynasty_house = "house_shgnt_oda_yamato"
 	father=10029114
 	martial=7
 	diplomacy=7
@@ -6688,7 +6797,8 @@
 }
 10029118 = {
 	name=character_name_10029118 # Nobusada
-	dynasty=10000280 # Oda
+	#dynasty=10000280 # Oda
+	dynasty_house = "house_shgnt_oda_danjo"
 	father=10029125
 	martial=7
 	diplomacy=9
@@ -6706,6 +6816,7 @@
 		effect={
 			set_realm_capital=title:c_shgnt_nakashima # Shobata
 		}
+		give_nickname = "nick_danjo_daichu"
 	}
 	1538.1.1={
 		death=yes
@@ -6713,7 +6824,8 @@
 }
 10029119 = {
 	name=character_name_10029119 # Michisada
-	dynasty=10000280 # Oda
+	#dynasty=10000280 # Oda
+	dynasty_house = "house_shgnt_oda_yamato"
 	father=10029116
 	martial=8
 	diplomacy=8
@@ -6732,9 +6844,10 @@
 	}
 }
 10029120 = {
-	name=character_name_10029120 # Nobunaga
-	dynasty=10000280 # Oda
-	father=10029100
+	name=character_name_10029120 # Nobunaga, 信長
+	#dynasty=10000280 # Oda
+	dynasty_house = "house_shgnt_oda_danjo"
+	father=10029100 # Oda Nobuhide, 織田信秀
 	mother=10029158 # Dota Gozen
 	martial=7
 	diplomacy=8
@@ -6846,7 +6959,8 @@
 }
 10029121 = {
 	name=character_name_10029121 # Nobuhiro
-	dynasty=10000280 # Oda
+	#dynasty=10000280 # Oda
+	dynasty_house = "house_shgnt_oda_danjo"
 	father=10029100
 	martial=7
 	diplomacy=8
@@ -6867,7 +6981,8 @@
 }
 10029122 = {
 	name=character_name_10029122 # Nobutomo
-	dynasty=10000280 # Oda
+	#dynasty=10000280 # Oda
+	dynasty_house = "house_shgnt_oda_yamato"
 	father=10029101
 	martial=8
 	diplomacy=6
@@ -6905,6 +7020,11 @@
 	1531.1.1={
 		birth=yes
 	}
+	1558.01.01 = {
+        effect={
+			set_realm_capital=title:c_shgnt_niwa
+		}
+    }
 	1576.1.1={
 		death=yes
 	}
@@ -6932,17 +7052,23 @@
 }
 10029125 = {
 	name=character_name_10029125 # Sukenobu
-	dynasty=10000280 # Oda
+	#dynasty=10000280 # Oda
+	dynasty_house = "house_shgnt_oda_yamato"
 	father=10029114
 	religion="shinto"
 	culture="western_chubu"
 	1470.1.1={
 		birth=yes
 	}
+	1486.01.01 = {
+		give_nickname = "nick_danjo_daichu"
+		dynasty_house = "house_shgnt_oda_danjo"
+	}
 	1493.01.01 = {
 		effect={
 			set_realm_capital=title:c_shgnt_nakashima
 		}
+		dynasty_house = "house_shgnt_oda_danjochu"
 	}
 	1520.1.1={
 		death=yes
@@ -6950,7 +7076,8 @@
 }
 10029126 = {
 	name=character_name_10029126 # Nobukatsu
-	dynasty=10000280 # Oda
+	#dynasty=10000280 # Oda
+	dynasty_house = "house_shgnt_oda_danjo"
 	father=10029100 # Oda Nobuhide
 	mother=10029158 # Dota Gozen
 	religion="shinto"
@@ -6980,7 +7107,8 @@
 }
 10029127={
 	name=character_name_10029127 # Nobuyasu
-	dynasty=10000280 # Oda
+	#dynasty=10000280 # Oda
+	dynasty_house = "house_shgnt_oda_danjo"
 	father=10029118 # Oda Nobusada
 	religion="shinto"
 	culture="western_chubu"
@@ -6993,7 +7121,8 @@
 }
 10029128 = {
 	name=character_name_10029128 # Nobumitsu
-	dynasty=10000280 # Oda
+	#dynasty=10000280 # Oda
+	dynasty_house = "house_shgnt_oda_danjo"
 	father=10029118 # Oda Nobusada
 	religion="shinto"
 	culture="western_chubu"
@@ -7013,7 +7142,8 @@
 }
 10029129={
 	name=character_name_10029129 # Nobuzane
-	dynasty=10000280 # Oda
+	#dynasty=10000280 # Oda
+	dynasty_house = "house_shgnt_oda_danjo"
 	father=10029118 # Oda Nobusada
 	religion="shinto"
 	culture="western_chubu"
@@ -7026,7 +7156,8 @@
 }
 10029130={
 	name=character_name_10029130 # Nobutsugu
-	dynasty=10000280 # Oda
+	#dynasty=10000280 # Oda
+	dynasty_house = "house_shgnt_oda_danjo"
 	father=10029118 # Oda Nobusada
 	religion="shinto"
 	culture="western_chubu"
@@ -7040,7 +7171,8 @@
 10029131={
 	female=yes
 	name=character_name_10029131 # Aya
-	dynasty=10000280 # Oda
+	#dynasty=10000280 # Oda
+	dynasty_house = "house_shgnt_oda_danjo"
 	father=10029118 # Oda Nobusada
 	religion="shinto"
 	culture="western_chubu"
@@ -7054,7 +7186,8 @@
 10029132={
 	female=yes
 	name=character_name_10029132 # Choeiji
-	dynasty=10000280 # Oda
+	#dynasty=10000280 # Oda
+	dynasty_house = "house_shgnt_oda_danjo"
 	father=10029118 # Oda Nobusada
 	religion="shinto"
 	culture="western_chubu"
@@ -7068,7 +7201,8 @@
 10029133={
 	female=yes
 	name=character_name_10029133 # Otsuya
-	dynasty=10000280 # Oda
+	#dynasty=10000280 # Oda
+	dynasty_house = "house_shgnt_oda_danjo"
 	father=10029118 # Oda Nobusada
 	religion="shinto"
 	culture="western_chubu"
@@ -7082,7 +7216,8 @@
 10029134={
 	female=yes
 	name=character_name_10029134 # Shuetsu-in
-	dynasty=10000280 # Oda
+	#dynasty=10000280 # Oda
+	dynasty_house = "house_shgnt_oda_danjo"
 	father=10029118 # Oda Nobusada
 	religion="shinto"
 	culture="western_chubu"
@@ -7095,7 +7230,8 @@
 }
 10029135 = {
 	name=character_name_10029135 # Nobukiyo
-	dynasty=10000280 # Oda
+	#dynasty=10000280 # Oda
+	dynasty_house = "house_shgnt_oda_danjo"
 	father=10029127 # Oda Nobuyasu
 	religion="shinto"
 	culture="western_chubu"
@@ -7114,7 +7250,8 @@
 }
 10029136={
 	name=character_name_10029136 # Nobuharu
-	dynasty=10000280 # Oda
+	#dynasty=10000280 # Oda
+	dynasty_house = "house_shgnt_oda_danjo"
 	father=10029100 # Oda Nobuhide
 	religion="shinto"
 	culture="western_chubu"
@@ -7127,7 +7264,8 @@
 }
 10029137={
 	name=character_name_10029137 # Nobutoki
-	dynasty=10000280 # Oda
+	#dynasty=10000280 # Oda
+	dynasty_house = "house_shgnt_oda_danjo"
 	father=10029100 # Oda Nobuhide
 	religion="shinto"
 	culture="western_chubu"
@@ -7143,12 +7281,21 @@
 }
 10029138={
 	name=character_name_10029138 # Nobuoki
-	dynasty=10000280 # Oda
+	#dynasty=10000280 # Oda
+	dynasty_house = "house_shgnt_oda_danjo"
 	father=10029100 # Oda Nobuhide
 	religion="shinto"
 	culture="western_chubu"
 	1546.1.1={
 		birth=yes
+	}
+	1568.01.01 = {
+		effect = {
+			add_opinion = {
+				target = liege
+				modifier = received_title_county # 伯爵領を与えられた
+			}
+		}
 	}
 	1570.12.28={
 		death=yes
@@ -7156,7 +7303,8 @@
 }
 10029139={
 	name=character_name_10029139 # Hidetaka
-	dynasty=10000280 # Oda
+	#dynasty=10000280 # Oda
+	dynasty_house = "house_shgnt_oda_danjo"
 	father=10029100 # Oda Nobuhide
 	mother=10029158 # Dota Gozen
 	religion="shinto"
@@ -7172,7 +7320,8 @@
 }
 10029140={
 	name=character_name_10029140 # Hidenari
-	dynasty=10000280 # Oda
+	#dynasty=10000280 # Oda
+	dynasty_house = "house_shgnt_oda_danjo"
 	father=10029100 # Oda Nobuhide
 	religion="shinto"
 	culture="western_chubu"
@@ -7185,7 +7334,8 @@
 }
 10029141={
 	name=character_name_10029141 # Nobuteru
-	dynasty=10000280 # Oda
+	#dynasty=10000280 # Oda
+	dynasty_house = "house_shgnt_oda_danjo"
 	father=10029100 # Oda Nobuhide
 	religion="shinto"
 	culture="western_chubu"
@@ -7199,7 +7349,8 @@
 }
 10029142={
 	name=character_name_10029142 # Nagamasu
-	dynasty=10000280 # Oda
+	#dynasty=10000280 # Oda
+	dynasty_house = "house_shgnt_oda_danjo"
 	father=10029100 # Oda Nobuhide
 	religion="shinto"
 	culture="western_chubu"
@@ -7222,7 +7373,8 @@
 }
 10029143={
 	name=character_name_10029143 # Nagatoshi
-	dynasty=10000280 # Oda
+	#dynasty=10000280 # Oda
+	dynasty_house = "house_shgnt_oda_danjo"
 	father=10029100 # Oda Nobuhide
 	religion="shinto"
 	culture="western_chubu"
@@ -7235,7 +7387,8 @@
 }
 10029144={
 	name=character_name_10029144 # Nobukane
-	dynasty=10000280 # Oda
+	#dynasty=10000280 # Oda
+	dynasty_house = "house_shgnt_oda_danjo"
 	father=10029100 # Oda Nobuhide
 	mother=10029158 # Dota Gozen
 	religion="shinto"
@@ -7260,7 +7413,8 @@
 10029145={
 	female=yes
 	name=character_name_10029145 # Oichi
-	dynasty=10000280 # Oda
+	#dynasty=10000280 # Oda
+	dynasty_house = "house_shgnt_oda_danjo"
 	father=10029100 # Oda Nobuhide
 	mother=10029158 # Dota Gozen
 	religion="shinto"
@@ -7281,7 +7435,8 @@
 10029146={
 	female=yes
 	name=character_name_10029146 # Oinu
-	dynasty=10000280 # Oda
+	#dynasty=10000280 # Oda
+	dynasty_house = "house_shgnt_oda_danjo"
 	father=10029100 # Oda Nobuhide
 	mother=10029158 # Dota Gozen
 	religion="shinto"
@@ -7296,7 +7451,8 @@
 10029147={
 	female=yes
 	name=character_name_10029147 # Nofu
-	dynasty=10000280 # Oda
+	#dynasty=10000280 # Oda
+	dynasty_house = "house_shgnt_oda_danjo"
 	father=10029100 # Oda Nobuhide
 	religion="shinto"
 	culture="western_chubu"
@@ -7310,7 +7466,8 @@
 10029148={
 	female=yes
 	name=character_name_10029148 # Kura
-	dynasty=10000280 # Oda
+	#dynasty=10000280 # Oda
+	dynasty_house = "house_shgnt_oda_danjo"
 	father=10029100 # Oda Nobuhide
 	religion="shinto"
 	culture="western_chubu"
@@ -7324,7 +7481,8 @@
 10029149={
 	female=yes
 	name=character_name_10029149 # Miwa
-	dynasty=10000280 # Oda
+	#dynasty=10000280 # Oda
+	dynasty_house = "house_shgnt_oda_danjo"
 	father=10029100 # Oda Nobuhide
 	religion="shinto"
 	culture="western_chubu"
@@ -7338,7 +7496,8 @@
 10029150={
 	female=yes
 	name=character_name_10029150 # Sayuri
-	dynasty=10000280 # Oda
+	#dynasty=10000280 # Oda
+	dynasty_house = "house_shgnt_oda_danjo"
 	father=10029100 # Oda Nobuhide
 	religion="shinto"
 	culture="western_chubu"
@@ -7352,7 +7511,8 @@
 10029151={
 	female=yes
 	name=character_name_10029151 # Tsuki
-	dynasty=10000280 # Oda
+	#dynasty=10000280 # Oda
+	dynasty_house = "house_shgnt_oda_danjo"
 	father=10029100 # Oda Nobuhide
 	religion="shinto"
 	culture="western_chubu"
@@ -7366,7 +7526,8 @@
 10029152={
 	female=yes
 	name=character_name_10029152 # Inuyama
-	dynasty=10000280 # Oda
+	#dynasty=10000280 # Oda
+	dynasty_house = "house_shgnt_oda_danjo"
 	father=10029100 # Oda Nobuhide
 	religion="shinto"
 	culture="western_chubu"
@@ -7380,7 +7541,8 @@
 10029153={
 	female=yes
 	name=character_name_10029153 # Otoku
-	dynasty=10000280 # Oda
+	#dynasty=10000280 # Oda
+	dynasty_house = "house_shgnt_oda_danjo"
 	father=10029100 # Oda Nobuhide
 	religion="shinto"
 	culture="western_chubu"
@@ -7394,7 +7556,8 @@
 10029154={
 	female=yes
 	name=character_name_10029154 # Eirin-in
-	dynasty=10000280 # Oda
+	#dynasty=10000280 # Oda
+	dynasty_house = "house_shgnt_oda_danjo"
 	father=10029100 # Oda Nobuhide
 	religion="shinto"
 	culture="western_chubu"
@@ -7408,7 +7571,8 @@
 10029155={
 	female=yes
 	name=character_name_10029155 # Hankei
-	dynasty=10000280 # Oda
+	#dynasty=10000280 # Oda
+	dynasty_house = "house_shgnt_oda_danjo"
 	father=10029100 # Oda Nobuhide
 	religion="shinto"
 	culture="western_chubu"
@@ -7422,7 +7586,8 @@
 10029156={
 	female=yes
 	name=character_name_10029156 # Fumi
-	dynasty=10000280 # Oda
+	#dynasty=10000280 # Oda
+	dynasty_house = "house_shgnt_oda_danjo"
 	father=10029100 # Oda Nobuhide
 	religion="shinto"
 	culture="western_chubu"
@@ -7436,7 +7601,8 @@
 10029157={
 	female=yes
 	name=character_name_10029157 # Obata
-	dynasty=10000280 # Oda
+	#dynasty=10000280 # Oda
+	dynasty_house = "house_shgnt_oda_danjo"
 	father=10029100 # Oda Nobuhide
 	religion="shinto"
 	culture="western_chubu"
@@ -7462,7 +7628,8 @@
 }
 10029160 = {
 	name=character_name_10029160 # Nobutada
-	dynasty=10000280 # Oda
+	#dynasty=10000280 # Oda
+	dynasty_house = "house_shgnt_oda_danjo"
 	father=10029120 # Oda Nobunaga
 	religion="shinto"
 	culture="western_chubu"
@@ -7511,7 +7678,7 @@
 	}
 	1576.1.9={
 		effect = {
-			set_realm_capital = title:c_shgnt_kakamu
+			set_realm_capital = title:c_shgnt_mino_atsumi # 岐阜城
 		}
 	}
 	1576.8.4={
@@ -7547,7 +7714,8 @@
 }
 10029161 = {
 	name=character_name_10029161 # Nobukatsu
-	dynasty=10000280 # Oda
+	#dynasty=10000280 # Oda
+	dynasty_house = "house_shgnt_oda_danjo"
 	father=10029120 # Oda Nobunaga
 	religion="shinto"
 	culture="western_chubu"
@@ -7604,7 +7772,8 @@
 }
 10029162 = {
 	name=character_name_10029162 # Nobutaka
-	dynasty=10000280 # Oda
+	#dynasty=10000280 # Oda
+	dynasty_house = "house_shgnt_oda_danjo"
 	father=10029120 # Oda Nobunaga
 	religion="shinto"
 	culture="western_chubu"
@@ -7640,7 +7809,8 @@
 }
 10029163={
 	name=character_name_10029163 # Hidekatsu
-	dynasty=10000280 # Oda
+	#dynasty=10000280 # Oda
+	dynasty_house = "house_shgnt_oda_danjo"
 	father=10029120 # Oda Nobunaga
 	religion="shinto"
 	culture="western_chubu"
@@ -7681,7 +7851,8 @@
 }
 10029164 = {
 	name=character_name_10029164 # Nobufusa # a.k.a. Oda Katsunaga
-	dynasty=10000280 # Oda
+	#dynasty=10000280 # Oda
+	dynasty_house = "house_shgnt_oda_danjo"
 	father=10029120 # Oda Nobunaga
 	religion="shinto"
 	culture="western_chubu"
@@ -7697,7 +7868,8 @@
 }
 10029165={
 	name=character_name_10029165 # Nobuhide
-	dynasty=10000280 # Oda
+	#dynasty=10000280 # Oda
+	dynasty_house = "house_shgnt_oda_danjo"
 	father=10029120 # Oda Nobunaga
 	religion="shinto"
 	culture="western_chubu"
@@ -7710,7 +7882,8 @@
 }
 10029166={
 	name=character_name_10029166 # Nobutaka
-	dynasty=10000280 # Oda
+	#dynasty=10000280 # Oda
+	dynasty_house = "house_shgnt_oda_danjo"
 	father=10029120 # Oda Nobunaga
 	religion="shinto"
 	culture="western_chubu"
@@ -7723,7 +7896,8 @@
 }
 10029167={
 	name=character_name_10029167 # Nobuyoshi
-	dynasty=10000280 # Oda
+	#dynasty=10000280 # Oda
+	dynasty_house = "house_shgnt_oda_danjo"
 	father=10029120 # Oda Nobunaga
 	religion="shinto"
 	culture="western_chubu"
@@ -7736,7 +7910,8 @@
 }
 10029168={
 	name=character_name_10029168 # Nobusada
-	dynasty=10000280 # Oda
+	#dynasty=10000280 # Oda
+	dynasty_house = "house_shgnt_oda_danjo"
 	father=10029120 # Oda Nobunaga
 	religion="shinto"
 	culture="western_chubu"
@@ -7749,7 +7924,8 @@
 }
 10029169={
 	name=character_name_10029169 # Nobuyoshi
-	dynasty=10000280 # Oda
+	#dynasty=10000280 # Oda
+	dynasty_house = "house_shgnt_oda_danjo"
 	father=10029120 # Oda Nobunaga
 	religion="shinto"
 	culture="western_chubu"
@@ -7763,7 +7939,8 @@
 }
 10029170={
 	name=character_name_10029170 # Nagatsugu
-	dynasty=10000280 # Oda
+	#dynasty=10000280 # Oda
+	dynasty_house = "house_shgnt_oda_danjo"
 	father=10029120 # Oda Nobunaga
 	religion="shinto"
 	culture="western_chubu"
@@ -7779,7 +7956,8 @@
 10029172={
 	female=yes
 	name=character_name_10029172 # Toku
-	dynasty=10000280 # Oda
+	#dynasty=10000280 # Oda
+	dynasty_house = "house_shgnt_oda_danjo"
 	father=10029120 # Oda Nobunaga
 	religion="shinto"
 	culture="western_chubu"
@@ -7793,7 +7971,8 @@
 10029173={
 	female=yes
 	name=character_name_10029173 # Fuyu
-	dynasty=10000280 # Oda
+	#dynasty=10000280 # Oda
+	dynasty_house = "house_shgnt_oda_danjo"
 	father=10029120 # Oda Nobunaga
 	religion="shinto"
 	culture="western_chubu"
@@ -7807,7 +7986,8 @@
 10029174={
 	female=yes
 	name=character_name_10029174 # Ei
-	dynasty=10000280 # Oda
+	#dynasty=10000280 # Oda
+	dynasty_house = "house_shgnt_oda_danjo"
 	father=10029120 # Oda Nobunaga
 	religion="shinto"
 	culture="western_chubu"
@@ -7821,7 +8001,8 @@
 10029175={
 	female=yes
 	name=character_name_10029175 # Houon-in
-	dynasty=10000280 # Oda
+	#dynasty=10000280 # Oda
+	dynasty_house = "house_shgnt_oda_danjo"
 	father=10029120 # Oda Nobunaga
 	religion="shinto"
 	culture="western_chubu"
@@ -7835,7 +8016,8 @@
 10029176={
 	female=yes
 	name=character_name_10029176 # Sago
-	dynasty=10000280 # Oda
+	#dynasty=10000280 # Oda
+	dynasty_house = "house_shgnt_oda_danjo"
 	father=10029120 # Oda Nobunaga
 	religion="shinto"
 	culture="western_chubu"
@@ -7849,7 +8031,8 @@
 10029177={
 	female=yes
 	name=character_name_10029177 # Fuji
-	dynasty=10000280 # Oda
+	#dynasty=10000280 # Oda
+	dynasty_house = "house_shgnt_oda_danjo"
 	father=10029120 # Oda Nobunaga
 	religion="shinto"
 	culture="western_chubu"
@@ -7863,7 +8046,8 @@
 10029178={
 	female=yes
 	name=character_name_10029178 # Ofuri
-	dynasty=10000280 # Oda
+	#dynasty=10000280 # Oda
+	dynasty_house = "house_shgnt_oda_danjo"
 	father=10029120 # Oda Nobunaga
 	religion="shinto"
 	culture="western_chubu"
@@ -7877,7 +8061,8 @@
 10029179={
 	female=yes
 	name=character_name_10029179 # Genko-in
-	dynasty=10000280 # Oda
+	#dynasty=10000280 # Oda
+	dynasty_house = "house_shgnt_oda_danjo"
 	father=10029120 # Oda Nobunaga
 	religion="shinto"
 	culture="western_chubu"
@@ -7891,7 +8076,8 @@
 10029180={
 	female=yes
 	name=character_name_10029180 # Sannomaru
-	dynasty=10000280 # Oda
+	#dynasty=10000280 # Oda
+	dynasty_house = "house_shgnt_oda_danjo"
 	father=10029120 # Oda Nobunaga
 	religion="shinto"
 	culture="western_chubu"
@@ -7905,7 +8091,8 @@
 10029181={
 	female=yes
 	name=character_name_10029181 # Tsuru
-	dynasty=10000280 # Oda
+	#dynasty=10000280 # Oda
+	dynasty_house = "house_shgnt_oda_danjo"
 	father=10029120 # Oda Nobunaga
 	religion="shinto"
 	culture="western_chubu"
@@ -7919,7 +8106,8 @@
 10029182={
 	female=yes
 	name=character_name_10029182 # Getsumyo-in
-	dynasty=10000280 # Oda
+	#dynasty=10000280 # Oda
+	dynasty_house = "house_shgnt_oda_danjo"
 	father=10029120 # Oda Nobunaga
 	religion="shinto"
 	culture="western_chubu"
@@ -7933,7 +8121,8 @@
 10029183={
 	female=yes
 	name=character_name_10029183 # Jigen-in
-	dynasty=10000280 # Oda
+	#dynasty=10000280 # Oda
+	dynasty_house = "house_shgnt_oda_danjo"
 	father=10029120 # Oda Nobunaga
 	religion="shinto"
 	culture="western_chubu"
@@ -7946,7 +8135,8 @@
 }
 10029184={
 	name=character_name_10029184 # Hidenobu
-	dynasty=10000280 # Oda
+	#dynasty=10000280 # Oda
+	dynasty_house = "house_shgnt_oda_danjo"
 	father=10029160 # 
 	mother=10040881 # Shiokawa Suzu
 	religion="shinto"
@@ -7960,7 +8150,8 @@
 }
 10029185={
 	name=character_name_10029185 # Hidenori
-	dynasty=10000280 # Oda
+	#dynasty=10000280 # Oda
+	dynasty_house = "house_shgnt_oda_danjo"
 	father=10029160 # Oda Nobutada
 	religion="shinto"
 	culture="western_chubu"
@@ -7973,7 +8164,8 @@
 }
 10029186={
 	name=character_name_10029186 # Nobuzumi
-	dynasty=10000280 # Oda
+	#dynasty=10000280 # Oda
+	dynasty_house = "house_shgnt_oda_danjo"
 	father=10029126 # Oda Nobukatsu
 	religion="shinto"
 	culture="western_chubu"
@@ -7998,7 +8190,8 @@
 }
 10029187={
 	name=character_name_10029187 # Masazumi
-	dynasty=10000280 # Oda
+	#dynasty=10000280 # Oda
+	dynasty_house = "house_shgnt_oda_danjo"
 	father=10029186 # Oda Nobuzumi
 	mother=10025637 # Akechi Kyo
 	religion="shinto"
@@ -8012,7 +8205,8 @@
 }
 10029190={
 	name=character_name_10029190 # Toomoto
-	dynasty=10000280 # Oda
+	#dynasty=10000280 # Oda
+	dynasty_house = "house_shgnt_oda_tozaemon"
 	father=10029115 # Oda Tsuneto
 	religion="shinto"
 	culture="western_chubu"
@@ -8025,7 +8219,8 @@
 }
 10029191={
 	name=character_name_10029191 # Toofusa
-	dynasty=10000280 # Oda
+	#dynasty=10000280 # Oda
+	dynasty_house = "house_shgnt_oda_tozaemon"
 	father=10029190 # Oda Toomoto
 	religion="shinto"
 	culture="western_chubu"
@@ -8038,7 +8233,8 @@
 }
 10029192={
 	name=character_name_10029192 # Nobuharu
-	dynasty=10000280 # Oda
+	#dynasty=10000280 # Oda
+	dynasty_house = "house_shgnt_oda_tozaemon"
 	father=10029190 # Oda Toomoto
 	religion="shinto"
 	culture="western_chubu"
@@ -8206,6 +8402,14 @@
 	}
 	1551.04.08={
 		employer=10029126 # Oda Nobukatsu
+	}
+	1557.11.22 = {
+		effect = {
+			add_opinion = {
+				target = liege
+				modifier = received_title_county # 伯爵領を与えられた
+			}
+		}
 	}
 	1580.11.21={
 		death=yes
@@ -8662,7 +8866,8 @@
 }
 10029260 = {
 	name=character_name_10029260 # Nagayori
-	dynasty=10000127 # Hara
+	#dynasty=10000127 # Hara
+	dynasty_house = "house_shgnt_toki_hara"
 	religion="shinto"
 	culture="western_chubu"
 	1544.1.1={
@@ -9414,7 +9619,7 @@
 	1567.01.01 = {
 		effect={
 			add_opinion = {
-				target = character:10029120 # Oda Nobunaga
+				target = liege # Oda Nobunaga
 				modifier = received_title_county
 			}
 		}
@@ -10110,6 +10315,14 @@
 				modifier = love_opinion
 				target = character:10029433
 				opinion = 40
+			}
+		}
+	}
+	1567.10.02 = {
+		effect = {
+			add_opinion = {
+				target = liege
+				modifier = received_title_county # 伯爵領を与えられた
 			}
 		}
 	}
