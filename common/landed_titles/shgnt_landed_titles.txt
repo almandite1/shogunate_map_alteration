@@ -1534,11 +1534,14 @@
         }
     }
     k_shgnt_chubu = {
-                color = {180 76 151}
-                color2 = {255 255 255}
+        color = {180 76 151}
+        color2 = {255 255 255}
         d_shgnt_ise = {
-                color = {137 91 138}
-                color2 = {255 255 255}
+            color = {137 91 138}
+            color2 = {255 255 255}
+			
+			capital = c_shgnt_suzuka #　Ise Kokufu, 伊勢国府
+			
             c_shgnt_kuwana = {
                 color = {127 81 128}
                 color2 = {255 255 255}
@@ -1550,6 +1553,9 @@
                 }
                 b_shgnt_kuwana_3 = {
                     province = 192
+                }
+				b_shgnt_kuwana_4 = {
+                    province = 3178 # Nagashima, 長島
                 }
             }
             c_shgnt_ano = {
@@ -1813,6 +1819,9 @@
                 b_shgnt_aichi_8 = {
                     province = 259
                 }
+				b_shgnt_aichi_9 = {
+                    province = 295 # Atsuta, 熱田神社
+                }
             }
             c_shgnt_higashi-kasugai = {
                 color = {147 101 129}
@@ -1944,9 +1953,9 @@
             c_shgnt_kai-sai = {
                 color = {167 101 129}
                 color2 = {255 255 255}
-                b_shgnt_kai-sai_1 = {
-                    province = 295
-                }
+                #b_shgnt_kai-sai_1 = {
+                #    province = 295
+                #}
                 b_shgnt_kai-sai_2 = {
                     province = 296
                 }
@@ -2021,6 +2030,9 @@
                 }
                 b_shgnt_ishizu_2 = {
                     province = 823
+                }
+				b_shgnt_ishizu_3 = {
+                    province = 3177
                 }
             }
             c_shgnt_ahachi = {

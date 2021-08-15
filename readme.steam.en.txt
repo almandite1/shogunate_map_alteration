@@ -1,6 +1,6 @@
-Shogunate Map alteration Sub-MOD beta Version 0.5.5 'Awabiara Saki'
+Shogunate Map alteration Sub-MOD beta Version 0.5.6 'Awabiara Saki'
 
-[h1]Shogunate Map alteration Sub-MOD beta Version 0.5.5 'Awabiara Saki'[/h1]
+[h1]Shogunate Map alteration Sub-MOD beta Version 0.5.6 'Awabiara Saki'[/h1]
 ====
 
 Shogunate Map alteration sub MOD is a submod of the Shogunate mod. It replaces the map with a high-resolution one and increases the Provence-Baron territory.

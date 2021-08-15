@@ -3362,3 +3362,32 @@ house_shgnt_toki_kayazu = { #Toki
 		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 } }		
 	}
 }
+10000071 = { #Shirakawa
+	pattern = "pattern_solid.dds"	
+	color1 = "yellow"
+	colored_emblem = {
+		texture = "ce_tomoe_cc_13.dds"
+		color1 = "green"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+}
+house_shgnt_yuki_shirakawa = 10000071
+10000107 = { #Tagaya
+	pattern = "pattern_solid.dds"	
+	color1 = "white"
+	colored_emblem = {
+		texture = "ce_h_tagaya.dds"
+		color1 = "black"
+		instance = { position = { 0.50 0.50 } scale = { 0.9 0.9 }  }
+	}
+}
+house_shgnt_yuki_tagaya = 10000107
+house_shgnt_yuki_oyama = { #Oyama
+	pattern = "pattern_solid.dds"	
+	color1 = "black"
+	colored_emblem = {
+		texture = "ce_tomoe_cc_5.dds"
+		color1 = "white"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+}

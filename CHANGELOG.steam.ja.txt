@@ -1,3 +1,49 @@
+[h1]beta Version 0.5.6[/h1]
+[h2]Game Content[/h2]
+[list]
+[*] 伊勢湾プロヴィンスを分割して新しい海域を追加しました。
+[*] 海津市の西部を美濃国石津郡伯爵領プロヴィンスとして新設しました。
+[*] 伊勢長島を新しいプロヴィンスとして追加しました。
+[*] 尾張国愛智郡熱田を新しいプロヴィンスとして追加しました。
+[*] heightmap を更新しました。伊勢湾、三河湾一部の海岸線を過去の位置まで後退させました。
+[*] 地面テクスチャを更新しました。
+[*] 木のマップオブジェクトを追加しました。
+[*] モットーとして故事成語を追加しました。
+[/list]
+[h3]rivers.png の更新[/h3]
+[list]
+[*] 九州地方の河川を再実装しました。（[url=https://github.com/almandite1/shogunate_map_alteration/issues/223]#223[/url]）
+[/list]
+[h3]プロヴィンス形状の改善[/h3]
+[list]
+[*] [url=https://github.com/almandite1/shogunate_map_alteration/issues/224]#224[/url]
+[*] [url=https://github.com/almandite1/shogunate_map_alteration/issues/225]#225[/url]
+[*] [url=https://github.com/almandite1/shogunate_map_alteration/issues/226]#226[/url]
+[*] [url=https://github.com/almandite1/shogunate_map_alteration/issues/227]#227[/url]
+[*] [url=https://github.com/almandite1/shogunate_map_alteration/issues/229]#229[/url]
+[*] ほかにも記録していない多数のプロヴィンス形状を改善しました。
+[/list]
+[h3]dynasty house[/h3]
+[list]
+[*] 結城氏に分家を設定しました。（[url=https://github.com/almandite1/shogunate_map_alteration/issues/231]#231[/url]）
+[/list]
+[h3]キャラクターデータ更新[/h3]
+[list]
+[*] 一部の伊予河野氏・渋川氏キャラクターのデータを歴史的に正確になるように更新しました。
+[/list]
+[h3]Fixed[/h3]
+[list]
+[*] [url=https://github.com/almandite1/shogunate_map_alteration/issues/233]#233[/url]
+[*] [url=https://github.com/almandite1/shogunate_map_alteration/issues/234]#234[/url]
+[*] [url=https://github.com/almandite1/shogunate_map_alteration/issues/235]#235[/url]
+[*] [url=https://github.com/almandite1/shogunate_map_alteration/issues/236]#236[/url]
+[*] [url=https://github.com/almandite1/shogunate_map_alteration/issues/237]#237[/url]
+[*] [url=https://github.com/almandite1/shogunate_map_alteration/issues/238]#238[/url]
+[*] [url=https://github.com/almandite1/shogunate_map_alteration/issues/239]#239[/url]
+[*] [url=https://github.com/almandite1/shogunate_map_alteration/issues/240]#240[/url]
+[*] 一部マップオブジェクトロケーターを調整しました。
+[/list]
+
 [h1]beta Version 0.5.5[/h1]
 [h2]Game Content[/h2]
 [list]
@@ -33,8 +79,10 @@
 [*] 織田信忠の首都伯爵領を厚見郡に変更しました。（[url=https://github.com/almandite1/shogunate_map_alteration/issues/221]#221[/url]）
 [/list]
 [h3]キャラクターデータ更新[/h3]
+[list]
 [*] 一部の松浦氏キャラクターのデータを歴史的に正確になるように変更しました。
 [*] grant title のオピニオンをキャラクターに反映させました。（[url=https://github.com/almandite1/shogunate_map_alteration/issues/117]#117[/url]）
+[/list]
 [h3]Fixed[/h3]
 [list]
 [*] [url=https://github.com/almandite1/shogunate_map_alteration/issues/180]#208[/url]

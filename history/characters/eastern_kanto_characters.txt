@@ -1206,11 +1206,13 @@
 		birth=yes
 	}
 	1397.1.1={
-		dynasty=10000112 # Oyama
+		#dynasty=10000112 # Oyama
+		dynasty_house = "house_shgnt_yuki_oyama"
+	}
+	1397.1.2={
 		effect = {
-			set_father = character:10011209
-			set_real_father = character:10010213
-			add_trait = "child_of_adoption"
+			set_father = character:10010213
+			remove_trait = "child_of_adoption"
 		}
 	}
 	1413.1.1={
@@ -2882,7 +2884,8 @@
 }
 10010701 = {
 	name=character_name_10010701 # Masatsune
-	dynasty=10000107 # Tagaya
+#	dynasty=10000107 # Tagaya
+	dynasty_house = "house_shgnt_yuki_tagaya"
 	father=10010703
 	religion="shinto"
 	culture="northern_kanto"
@@ -2898,7 +2901,8 @@
 }
 10010702 = {
 	name=character_name_10010702 # Shigetsune
-	dynasty=10000107 # Tagaya
+#	dynasty=10000107 # Tagaya
+	dynasty_house = "house_shgnt_yuki_tagaya"
 	father=10010701
 	religion="shinto"
 	culture="northern_kanto"
@@ -2915,7 +2919,8 @@
 }
 10010703 = {
 	name=character_name_10010703 # Shigemasa
-	dynasty=10000107 # Tagaya
+#	dynasty=10000107 # Tagaya
+	dynasty_house = "house_shgnt_yuki_tagaya"
 	father=10010704
 	religion="shinto"
 	culture="northern_kanto"
@@ -2928,7 +2933,8 @@
 }
 10010704 = {
 	name=character_name_10010704 # Ieshige
-	dynasty=10000107 # Tagaya
+#	dynasty=10000107 # Tagaya
+	dynasty_house = "house_shgnt_yuki_tagaya"
 	father=10010705
 	religion="shinto"
 	culture="northern_kanto"
@@ -2941,7 +2947,8 @@
 }
 10010705 = {
 	name=character_name_10010705 # Ietane
-	dynasty=10000107 # Tagaya
+#	dynasty=10000107 # Tagaya
+	dynasty_house = "house_shgnt_yuki_tagaya"
 	father=10010706
 	religion="shinto"
 	culture="northern_kanto"
@@ -2954,7 +2961,8 @@
 }
 10010706 = {
 	name=character_name_10010706 # Ujiie
-	dynasty=10000107 # Tagaya
+#	dynasty=10000107 # Tagaya
+	dynasty_house = "house_shgnt_yuki_tagaya"
 	father=10010215 # Yuki Mitsuyoshi
 	mother=10010713 # Tagaya Tomoko
 	religion="shinto"
@@ -2971,7 +2979,8 @@
 }
 10010708 = {
 	name=character_name_10010708 # Tunehaku
-	dynasty=10000107 # Tagaya
+#	dynasty=10000107 # Tagaya
+	dynasty_house = "house_shgnt_yuki_tagaya"
 	father=10010703
 	religion="shinto"
 	culture="northern_kanto"
@@ -2984,7 +2993,8 @@
 }
 10010709 = {
 	name=character_name_10010709 # Tunekado
-	dynasty=10000107 # Tagaya
+#	dynasty=10000107 # Tagaya
+	dynasty_house = "house_shgnt_yuki_tagaya"
 	father=10010704
 	religion="shinto"
 	culture="northern_kanto"
@@ -2997,7 +3007,8 @@
 }
 10010710 = {
 	name=character_name_10010710 # Tamehiro
-	dynasty=10000107 # Tagaya
+#	dynasty=10000107 # Tagaya
+	dynasty_house = "house_shgnt_yuki_tagaya"
 	father=10010704
 	religion="shinto"
 	culture="northern_kanto"
@@ -3010,7 +3021,8 @@
 }
 10010711 = {
 	name=character_name_10010711 # Mitsutsune
-	dynasty=10000107 # Tagaya
+#	dynasty=10000107 # Tagaya
+	dynasty_house = "house_shgnt_yuki_tagaya"
 	father=10010702
 	religion="shinto"
 	culture="northern_kanto"
@@ -3023,7 +3035,8 @@
 }
 10010712={
 	name=character_name_10010712 # Takatsune
-	dynasty=10000107 # Tagaya
+#	dynasty=10000107 # Tagaya
+	dynasty_house = "house_shgnt_yuki_tagaya"
 	father=10010215 # Yuki Mitsuyoshi
 	mother=10010713 # Tagaya Tomoko
 	religion="shinto"
@@ -3041,7 +3054,8 @@
 10010713={
 	name=character_name_10010713 # Tomoko
 	female=yes
-	dynasty=10000107 # Tagaya
+#	dynasty=10000107 # Tagaya
+	dynasty_house = "house_shgnt_yuki_tagaya"
 	religion="shinto"
 	culture="northern_kanto"
 	1380.1.1={
@@ -3053,12 +3067,15 @@
 }
 10010750={
 	name=character_name_10010750 # Ujiyoshi
-	dynasty=10000133 # Yamakawa
+	dynasty_house = "house_shgnt_yuki_oyama"
 	father=10010214 # Oyama Yasutomo
 	religion="shinto"
 	culture="eastern_kanto"
 	1400.1.1={
 		birth=yes
+	}
+	1420.01.01 = {
+		dynasty=10000133 # Yamakawa
 	}
 	1460.1.1={
 		death=yes
@@ -3777,7 +3794,8 @@
 }
 10011017 = {
 	name=character_name_10011017 # Sukenaga
-	dynasty=10000071 # Yuki
+	#dynasty=10000071 # Yuki
+	dynasty_house = "house_shgnt_yuki_shirakawa"
 	father=10007104 # Yuki Yoshinaga
 	religion="shinto"
 	culture="northern_kanto"
@@ -3926,7 +3944,8 @@
 		birth=yes
 	}
 	1534.1.1={
-		dynasty=10000112 # Oyama
+		#dynasty=10000112 # Oyama
+		dynasty_house = "house_shgnt_yuki_oyama"
 		give_nickname="nick_shimotsukeno_no_kami"
 		effect = {
 			set_father = character:10011205
@@ -3940,7 +3959,8 @@
 }
 10011202 = {
 	name=character_name_10011202 # Hidetsuna
-	dynasty=10000112 # Oyama
+	#dynasty=10000112 # Oyama
+	dynasty_house = "house_shgnt_yuki_oyama"
 	father=10011201
 	religion="shinto"
 	culture="northern_kanto"
@@ -3960,7 +3980,8 @@
 }
 10011203 = {
 	name=character_name_10011203 # Hidetaka
-	dynasty=10000112 # Oyama
+	#dynasty=10000112 # Oyama
+	dynasty_house = "house_shgnt_yuki_oyama"
 	father=10011201
 	religion="shinto"
 	culture="northern_kanto"
@@ -3973,7 +3994,8 @@
 }
 10011204 = {
 	name=character_name_10011204 # Harutomo
-	dynasty=10000112 # Oyama
+	#dynasty=10000112 # Oyama
+	dynasty_house = "house_shgnt_yuki_oyama"
 	father=10011201
 	religion="shinto"
 	culture="northern_kanto"
@@ -4006,7 +4028,8 @@
 }
 10011205 = {
 	name=character_name_10011205 # Masanaga
-	dynasty=10000112 # Oyama
+	#dynasty=10000112 # Oyama
+	dynasty_house = "house_shgnt_yuki_oyama"
 	father=10011206
 	religion="shinto"
 	culture="northern_kanto"
@@ -4022,7 +4045,8 @@
 }
 10011206 = {
 	name=character_name_10011206 # Shigenaga
-	dynasty=10000112 # Oyama
+	#dynasty=10000112 # Oyama
+	dynasty_house = "house_shgnt_yuki_oyama"
 	father=10011207
 	religion="shinto"
 	culture="northern_kanto"
@@ -4038,7 +4062,8 @@
 }
 10011207 = {
 	name=character_name_10011207 # Mochimasa
-	dynasty=10000112 # Oyama
+	#dynasty=10000112 # Oyama
+	dynasty_house = "house_shgnt_yuki_oyama"
 	father=10011208
 	religion="shinto"
 	culture="northern_kanto"
@@ -4066,7 +4091,8 @@
 }
 10011208 = {
 	name=character_name_10011208 # Mitsuyasu
-	dynasty=10000112 # Oyama
+	#dynasty=10000112 # Oyama
+	dynasty_house = "house_shgnt_yuki_oyama"
 	father=10010214
 	religion="shinto"
 	culture="northern_kanto"
@@ -4100,7 +4126,8 @@
 }
 10011210 = {
 	name=character_name_10011210 # Hidehiro
-	dynasty=10000112 # Oyama
+	#dynasty=10000112 # Oyama
+	dynasty_house = "house_shgnt_yuki_oyama"
 	father=10011202
 	religion="shinto"
 	culture="northern_kanto"
@@ -4116,7 +4143,8 @@
 }
 10011211 = {
 	name=character_name_10011211 # Masatane
-	dynasty=10000112 # Oyama
+	#dynasty=10000112 # Oyama
+	dynasty_house = "house_shgnt_yuki_oyama"
 	father=10011202
 	religion="shinto"
 	culture="northern_kanto"
@@ -4129,7 +4157,8 @@
 }
 10011212 = {
 	name=character_name_10011212 # Takatsuna # Enomoto Takatsuna
-	dynasty=10000112 # Oyama
+	#dynasty=10000112 # Oyama
+	dynasty_house = "house_shgnt_yuki_oyama"
 	father=10011202
 	religion="shinto"
 	culture="northern_kanto"
