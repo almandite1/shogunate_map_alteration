@@ -2057,9 +2057,9 @@
 	}
 }
 10058600 = {
-	name=character_name_10058600 # Michinao #57th
+	name=character_name_10058600 # Michinao, 通直 #57th
 	dynasty=10000584 # Kono
-	father=10058601
+	father=10058601 # 河野通宣
 	mother=10064039
 	martial=9
 	diplomacy=8
@@ -2074,17 +2074,28 @@
 		birth=yes
 	}
 	1516.1.1={
-		give_nickname="nick_taro"
+		give_nickname="nick_taro" # 「太郎」（山内治朋、『伊予河野氏』、2015。）
 	}
-	1572.10.3={
+	# TODO 大友政親の娘と婚姻した可能性が高い（山内治朋、『伊予河野氏』、2015。）
+	1532.01.01 = { # 天文元(1532)年、足利義晴から官途授与（山内治朋、『伊予河野氏』、2015。）
+		give_nickname = "nick_the_danjo_shohitsu" # 「弾正少弼」
+	}
+	1533.04.12 = { # 天文2(1533)年に幕府から官途を拝領
+		give_nickname = "nick_the_gyobu_daihu" # 「刑部大輔」（山内治朋、『伊予河野氏』、2015。）
+	}
+	# 天文8(1539)年頃、将軍家の「御紋」を賜与（山内治朋、『伊予河野氏』、2015。）
+	# 天文8(1539)年十二月四日、御相伴衆に任じられる（山内治朋、『伊予河野氏』、2015。）
+	# 天文11(1542)年から天文12(1543)年の間に、晴通へ家督交替、晴通と対立、しばらく後に家督復帰（山内治朋、『伊予河野氏』、2015。）
+	# 天文19(1550)年頃から晴通と対立しながら権力交替（山内治朋、『伊予河野氏』、2015。）
+	1572.10.3={ # 元亀3(1572)年没（『予陽河野家譜』『河野家御過去帳』）
 		death=yes
 	}
 }
 10058601 = {
-	name=character_name_10058601 # Michinobu #56th
+	name=character_name_10058601 # Michinobu, 通宣 #56th
 	dynasty=10000584 # Kono
-	father=10058604
-	mother=10064040
+	father=10058604 # 河野教通
+	#mother=10064040 # 応仁元(1467)年には父河野教通と連署しているためコメントアウト（山内治朋、『伊予河野氏』、2015。）
 	martial=8
 	diplomacy=8
 	intrigue=7
@@ -2094,24 +2105,27 @@
 	religion="shinto"
 	culture="shikoku"
 	prowess=12
-	1477.1.1={
-		birth=yes
+	1445.1.1={
+		birth=yes　# 応仁元(1467)年には父河野教通と連署（山内治朋、『伊予河野氏』、2015。）
+		# 幼名「代益丸」（山内治朋、『伊予河野氏』、2015。）
 	}
-	1493.1.1={
-		give_nickname="nick_rokuro"
+	1461.01.01 = { # 応仁元(1467)年の所見文書に「六郎」（山内治朋、『伊予河野氏』、2015。）
+		give_nickname="nick_rokuro" # 「六郎」
 	}
 	1498.1.1={
-		add_spouse=10064039
+		add_spouse=10064039 # TODO 大友親繁の娘である可能性が高い（山内治朋、『伊予河野氏』、2015。）
 	}
-	1502.1.1={
-		give_nickname="nick_gyobu_daihu"
+	1502.1.1={ # 永正11(1514)年までに
+		give_nickname="nick_gyobu_daihu" #　「刑部大輔」
 	}
 	1519.1.1={
-		death=yes
+		death = {
+			death_reason = death_ill # 永正16(1519)年に府中北方の来島城にて病没
+		}
 	}
 }
 10058602 = {
-	name=character_name_10058602 # Michimasa #58th
+	name=character_name_10058602 # Michimasa #58th #　TODO 通直次代の河野晴通の存在を確認する
 	dynasty=10000584 # Kono
 	father=10058600
 	martial=9
@@ -2131,9 +2145,9 @@
 	}
 }
 10058603 = {
-	name=character_name_10058603 # Michinobu #59th
+	name=character_name_10058603 # Michinobu, 通宣 #59th
 	dynasty=10000584 # Kono
-	father=10058600
+	father=10058600 #　河野通直の実子とみられる（山内治朋、『伊予河野氏』、2015。）
 	martial=7
 	diplomacy=8
 	intrigue=7
@@ -2149,39 +2163,59 @@
 	1542.1.1={
 		add_spouse=10064038
 	}
-	1553.1.1={
-		give_nickname="nick_sakyo_dayu"
+	# 天文19(1550)年文書上初見（山内治朋、『伊予河野氏』、2015。）
+	# 天文22(1553)年頃父通直と対立して家督を得る（山内治朋、『伊予河野氏』、2015。）
+	# TODO 大友義鑑の娘と婚姻（西尾和美）、または河野晴通（寺川仁）
+	# TODO 宍戸隆家嫡女・毛利元就孫と婚姻、毛利家と同盟（山内治朋、『伊予河野氏』、2015。）
+	1562.1.1={ #　永禄5(1562)年、幕府から官途任官（山内治朋、『伊予河野氏』、2015。）
+		give_nickname="nick_the_sakyo_dayu" #　「左京大夫」
 	}
-	1581.1.1={
+	# 永禄5(1562)年以後、喜多郡宇都宮氏が任官されたことに反発して、喜多郡が騒乱状態になる
+	# TODO この頃眼病、京都の医師半井瑞策が薬を調合したり、治療のために上洛する（山内治朋、『伊予河野氏』、2015。）
+	# 永禄11(1568)年十月、足利義昭に依頼して伊予宇都宮氏を御敵にしてもらう
+	1570.5.1={ #　永禄13(1570)年五月に没（『河野家御過去帳』、山内治朋、『伊予河野氏』、2015。）
 		death=yes
 	}
 }
 10058604 = {
-	name=character_name_10058604 # Norimichi #55th
+	name=character_name_10058604 # Norimichi, 教通 #55th
 	dynasty=10000584 # Kono
-	father=10058615
+	father=10058615 # Kono Michihisa, 河野通久
 	religion="shinto"
 	culture="shikoku"
 	1420.1.1={
-		birth=yes
+		birth=yes # 幼名は「犬正丸」（山内治朋、『伊予河野氏』、2015。）
 	}
-	1436.1.1={
-		give_nickname="nick_kuro"
+	1436.1.1={ # 永享11(1439)年までに元服（山内治朋、『伊予河野氏』、2015。）
+		give_nickname="nick_kuro" # 「九郎」、「教通」はおそらく足利義教の偏諱（山内治朋、『伊予河野氏』、2015。）
 	}
-	1450.1.1={
-		give_nickname="nick_gyobu_daihu"
+	1450.1.1={ # 文安元(1444)年までに
+		give_nickname="nick_the_gyobu_daihu" # 「刑部大輔」（山内治朋、『伊予河野氏』、2015。）
 	}
+	# 享徳4(1455)年に細川勝元に伊予守護職を奪われる（山内治朋、『伊予河野氏』、2015。）
+	# 寛正年間（1460.12.21～1466. 2.28）に予州家の通春と和睦
+	# 応仁3(1469)年五月までに東軍に所属
+	# 文明5(1473)年に伊予守護職を還付
 	1476.1.1={
 		add_spouse=10064040
 	}
+	# 文明9(1477)年頃に細川政元に伊予守護職交替
+	#1471.01.01 = {
+	#	effect = {
+	#		change_first_name = # Michinao, 通直 （山内治朋、『伊予河野氏』、2015。）
+	#	}
+	#}
+	# 文明18(1486)年までに出家、「刑部大輔入道道治」（山内治朋、『伊予河野氏』、2015。）
+	# 明応2(1493)年までに「道基」に改名（山内治朋、『伊予河野氏』、2015。）
 	1500.2.19={
 		death=yes
 	}
 }
 10058605 = {
-	name=character_name_10058605 # Michinao #60th
+	name=character_name_10058605 # Michinao, 通直 #60th　最後の当主 #　元亀3(1572)年から元亀4(1573)年に牛福を使用（山内治朋、『伊予河野氏』、2015。）
 	dynasty=10000584 # Kono
-	father=10058603
+	father=10058603 # 出自が不明確で、従来は河野氏嫡流ではない池原氏出身説が通説となっていた（山内治朋、『伊予河野氏』、2015。）。来島村上通康か河野通直か
+	#mother = # 左京大夫通宣と婚姻した宍戸隆家嫡女 # 新しい有力説（西尾和美、山内治朋、『伊予河野氏』、2015。）
 	martial=7
 	diplomacy=8
 	intrigue=7
@@ -2196,11 +2230,22 @@
 	1564.1.1={
 		birth=yes
 	}
+	# 永禄11(1568)年に家督継承（従来の『予陽河野家譜』の説）
+	# TODO 元亀1(1570)年七月頃、河野通宣死後に家督継承（中平氏の新説、山内治朋、『伊予河野氏』、2015。）
+	# 永禄11(1568)年十一月以降、足利義昭から家督承認を得る
+	# 永禄末から元亀元(1570)年、足利義昭から新居郡・宇摩郡領知の後内書を得る、平岡房実主導。来島牛松は反発。
+	1573.01.01 = {
+		give_nickname = "nick_shiro" # 四郎
+	#	change_first_name = # Michinao, 通直
+	}
+	# TODO 天正9(1581)年、吉見広頼娘・毛利元就姪と婚姻
 	1581.1.1={
 		give_nickname="nick_iyo_no_kami"
 	}
+	# TODO 最後期には「伊予守」を名乗るか（『河野家御過去帳』、『予州河野系図』）
+	# 天正15(1587)年に豊臣秀吉により改易、安芸竹原に移住
 	1587.8.17={
-		death=yes
+		death=yes # 従来説は病没、新説は自害（西尾和美、山内治朋、『伊予河野氏』、2015。）
 	}
 }
 10058606 = {
@@ -2329,9 +2374,9 @@
 	}
 }
 10058615 = {
-	name=character_name_10058615 # Michihisa #54th
+	name=character_name_10058615 # Michihisa, 通久 #54th
 	dynasty=10000584 # Kono
-	father=10058616
+	father=10058616 #　河野通義
 	religion="shinto"
 	culture="shikoku"
 	1395.1.1={
@@ -2340,7 +2385,7 @@
 	1435.7.24={
 		death={
 			death_reason=death_battle
-			killer=10064018 # Otomo Mochinao
+			killer=10064018 # Otomo Mochinao, 大友持直（山内治朋、『伊予河野氏』、2015。）
 		}
 	}
 }
@@ -2363,7 +2408,7 @@
 	}
 }
 10058617 = {
-	name=character_name_10058617 # Michiyuki #53th
+	name=character_name_10058617 # Michiyuki, 通之 #53th　予州家祖
 	dynasty=10000584 # Kono
 	father=10058622
 	religion="shinto"
@@ -2382,15 +2427,16 @@
 	}
 }
 10058618 = {
-	name=character_name_10058618 # Michimoto
+	name=character_name_10058618 # Michimoto, 通元
 #	dynasty=10000584 # Kono
-	dynasty_house = "house_shgnt_kono_yoshu"
+	dynasty_house = "house_shgnt_kono_yoshu" #　予州家
 	father=10058617
 	religion="shinto"
 	culture="shikoku"
 	1400.1.1={
 		birth=yes
 	}
+	# 応永26(1419)年頃、本家通久への対抗姿勢が表面化する
 	1425.1.1={
 		give_nickname="nick_minbu_daihu"
 	}
@@ -2399,21 +2445,23 @@
 	}
 }
 10058619 = {
-	name=character_name_10058619 # Michiharu
+	name=character_name_10058619 # Michiharu, 通春
 #	dynasty=10000584 # Kono
-	dynasty_house = "house_shgnt_kono_yoshu"
+	dynasty_house = "house_shgnt_kono_yoshu" #　予州家
 	father=10058618
 	religion="shinto"
 	culture="shikoku"
 	1421.1.1={
 		birth=yes
 	}
+	# 寛正6(1465)年までに、細川氏と対立
+	# 応仁元(1467)年、西軍として大内軍と上洛
 	1482.8.28={
 		death=yes
 	}
 }
 10058620 = {
-	name=character_name_10058620 # Michiatsu
+	name=character_name_10058620 # Michiatsu, 通篤
 #	dynasty=10000584 # Kono
 	dynasty_house = "house_shgnt_kono_yoshu"
 	father=10058619

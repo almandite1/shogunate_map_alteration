@@ -11463,8 +11463,8 @@
 	}
 }
 10057600 = {
-	name=character_name_10057600 # Yoshitaka
-	dynasty=10000578 # Shibukawa
+	name=character_name_10057600 # Yoshitaka, 義陸、渋川武衛蓬雲軒等祇。（谷口雄太、「中世後期における御一家渋川氏の動向」）
+	dynasty=10000578 # Shibukawa, 渋川、備後国の渋川、近年は京都渋川氏出身説が有力視されている。（谷口雄太、「中世後期における御一家渋川氏の動向」）
 	father=10057601
 	martial=6
 	diplomacy=8
@@ -11479,6 +11479,9 @@
 	1487.1.1={
 		birth=yes
 	}
+	1503.01.01 = {
+		give_nickname = "nick_jio" # 『後法興院記』の「渋河次郎」は義陸か。（谷口雄太、「中世後期における御一家渋川氏の動向」）
+	}
 	1500.1.1={
 		effect = {
 			add_trait = "jugoi_ge"
@@ -11490,7 +11493,7 @@
 }
 10057601 = {
 	name=character_name_10057601 # Tadashige
-	dynasty=10000578 # Shibukawa
+	dynasty=10000578 # Shibukawa, 渋川
 	father=10057615
 	martial=6
 	diplomacy=7
@@ -11509,8 +11512,8 @@
 	}
 }
 10057602 = {
-	name=character_name_10057602 # Yoshimasa
-	dynasty=10000578 # Shibukawa
+	name=character_name_10057602 # Yoshimasa, 義正、渋川武衛義正
+	dynasty=10000578 # Shibukawa, 渋川、備後国の渋川氏
 	father=10057600
 	martial=6
 	diplomacy=7
@@ -11528,13 +11531,14 @@
 	1525.1.1={
 		add_spouse=10056005 # Mori Hachiman, daughter of Mori Hiromoto
 	}
+	#　1549年以降は大内氏の勢力圏内に入ったものと思われる。（谷口雄太、「中世後期における御一家渋川氏の動向」）
 	1565.1.1={
 		death=yes
 	}
 }
 10057603 = {
 	name=character_name_10057603 # Yoshinaga
-	dynasty=10000578 # Shibukawa
+	dynasty=10000578 # Shibukawa, 渋川
 	father=10057601
 	martial=6
 	diplomacy=8
@@ -11553,8 +11557,8 @@
 	}
 }
 10057604 = {
-	name=character_name_10057604 # Yoshimitsu
-	dynasty=10000578 # Shibukawa
+	name=character_name_10057604 # Yoshimitsu, 義満
+	dynasty=10000578 # Shibukawa, 渋川
 	father=10057602
 	mother=10056005 # Mori Hachiman, daughter of Mori Hiromoto
 	trait="ashikaga_family"
@@ -11563,17 +11567,24 @@
 	1530.1.1={
 		birth=yes
 	}
+	1546.01.01 = {
+		give_nickname = "nick_jio" # 「渋川次郎」は義満か。（『天文日記』、谷口雄太、「中世後期における御一家渋川氏の動向」）
+	}
+	# 永禄4(1561)年三月二十八日の雄高山での宴席「渋川宮内大輔殿」
+	1560.01.01 = {
+		give_nickname = "nick_kunai_no_sho" # 永禄4(1561)年閏三月二日の連歌会「渋川宮内少輔」
+	}
 	1567.1.1={
 		effect = {
 			add_trait = "jugoi_ge"
 		}
 	}
-	1573.3.20={
+	1573.3.20={ # 元亀3(1572)年または元亀4(1573)年に死去。（『渋川氏系図』『三原市史』）
 		death=yes
 	}
 }
 10057605 = {
-	name=character_name_10057605 # Yoshiharu
+	name=character_name_10057605 # Yoshiharu, 義春
 	dynasty=10000400 # Ashikaga
 	father=12139013 # Ashikaga Yoshiaki
 	trait="ashikaga_family"
@@ -11582,6 +11593,8 @@
 	1260.1.1={
 		birth=yes
 	}
+	# 文永9(1272)年に佐渡国に配流（『尊卑分脈』）
+	# 文永10(1273)年、配流先から召し返し（『尊卑分脈』）
 	1277.1.1={
 		add_spouse=10131994 # daughter of Hojo Tokihiro
 	}
@@ -11590,9 +11603,9 @@
 	}
 }
 10057606 = {
-	name=character_name_10057606 # Sadayori
+	name=character_name_10057606 # Sadayori, 貞頼
 	dynasty=10000400 # Ashikaga
-	father=10057605
+	father=10057605 # 足利義春
 	mother=10131994 # Hojo Tokihiro's daughter
 	trait="ashikaga_family"
 	religion="shinto"
@@ -11601,15 +11614,15 @@
 		birth=yes
 	}
 	1340.1.1={
-		dynasty=10000578 # Shibukawa
+		dynasty=10000578 # Shibukawa, 渋川、本来は足利名字
 	}
 	1350.1.1={
 		death=yes
 	}
 }
 10057607 = {
-	name=character_name_10057607 # Yoshisue
-	dynasty=10000578 # Shibukawa
+	name=character_name_10057607 # Yoshisue, 義季
+	dynasty=10000578 # Shibukawa, 渋川 #　本来は足利名字
 	father=10057606
 	trait="ashikaga_family"
 	religion="shinto"
@@ -11617,9 +11630,10 @@
 	1314.1.1={
 		birth=yes
 	}
+	# 建武元(1334)年、北条残党征伐の「大将」「鎌倉大将」（『建武年間記』『群書類従』）
 	1335.8.11={
 		death={
-			death_reason=death_battle
+			death_reason=death_battle #　中先代の乱で戦死〔自害〕（『尊卑分脈』）
 		}
 		effect = {
 			add_trait = "jugoi_ge"
@@ -11628,7 +11642,7 @@
 }
 10057608 = {
 	name=character_name_10057608 # Yoshiko #Ashikada Naoyoshi's wife
-	dynasty=10000578 # Shibukawa
+	dynasty=10000578 # Shibukawa, 渋川
 	father=10057606
 	female=yes
 	trait="ashikaga_family"
@@ -11643,7 +11657,7 @@
 }
 10057609 = {
 	name=character_name_10057609 # Yukiko #Ashikaga Yoshiakira's wife
-	dynasty=10000578 # Shibukawa
+	dynasty=10000578 # Shibukawa, 渋川
 	father=10057607
 	female=yes
 	trait="ashikaga_family"
@@ -11657,8 +11671,8 @@
 	}
 }
 10057610 = {
-	name=character_name_10057610 # Tadayori
-	dynasty=10000578 # Shibukawa
+	name=character_name_10057610 # Tadayori, 直頼
+	dynasty=10000578 # Shibukawa, 渋川
 	father=10057607
 	trait="ashikaga_family"
 	religion="shinto"
@@ -11666,42 +11680,51 @@
 	1335.1.1={
 		birth=yes
 	}
-	1356.8.21={
+	# 「直頼」の「直」は足利直義の偏諱と思われる。（谷口雄太、「中世後期における御一家渋川氏の動向」）
+	# TODO 高師直の娘と婚姻
+	# 観応の擾乱では足利直義派から尊氏派へ鞍替え
+	# 観応3(1352)年前後、佐渡国の守護職。（『南北朝遺文』）
+	# 上野国渋河、武蔵国蕨、加賀国野代、備後国御調別宮が後代まで続く所領
+	1356.8.21={ # 延文元(1356)年に死去（『系図纂要』）
 		death=yes
 	}
 }
 10057611 = {
-	name=character_name_10057611 # Yoshiyuki
-	dynasty=10000578 # Shibukawa
-	father=10057610
+	name=character_name_10057611 # Yoshiyuki, 義行
+	dynasty=10000578 # Shibukawa, 渋川
+	father=10057610 # 渋川忠頼
 	trait="ashikaga_family"
 	religion="shinto"
 	culture="western_chugoku"
 	1348.1.1={
 		birth=yes
 	}
-	1375.9.7={
+	# 応永3(1396)年に九州行きから帰京
+	1375.9.7={ #　応永3(1396)年、死去（『尊卑分脈』）
 		death=yes
 	}
 }
 10057612 = {
-	name=character_name_10057612 # Mitsuyori
-	dynasty=10000578 # Shibukawa
-	father=10057611
+	name=character_name_10057612 # Mitsuyori, 満頼
+	dynasty=10000578 # Shibukawa, 渋川
+	father=10057611 # 渋川義行
 	trait="ashikaga_family"
 	religion="shinto"
-	culture="western_chugoku"
+	culture="central_kinai"
 	1372.1.1={
 		birth=yes
 	}
-	1446.4.9={
+	# 摂津守護職、安芸守護職、九州探題職。
+	# 応永31(1424)年、九州から帰京
+	# 正長元(1428)年、備中国惣社宮造営「渋河殿」
+	1446.4.9={ # 文安3(1446)年死去。（『系図纂要』、『渋川系図』）
 		death=yes
 	}
 }
 10057613 = {
-	name=character_name_10057613 # Mitsuyuki
-	dynasty=10000578 # Shibukawa
-	father=10057611
+	name=character_name_10057613 # Mitsuyuki, 満行
+	dynasty=10000578 # Shibukawa, 渋川
+	father=10057611 # 渋川義行
 	trait="ashikaga_family"
 	religion="shinto"
 	culture="western_chugoku"
@@ -11714,7 +11737,7 @@
 }
 10057614 = {
 	name=character_name_10057614 # Mitsunao
-	dynasty=10000578 # Shibukawa
+	dynasty=10000578 # Shibukawa, 渋川
 	father=10057613
 	trait="ashikaga_family"
 	religion="shinto"
@@ -11730,7 +11753,7 @@
 }
 10057615 = {
 	name=character_name_10057615 # Norinao
-	dynasty=10000578 # Shibukawa
+	dynasty=10000578 # Shibukawa, 渋川
 	father=10057614
 	trait="ashikaga_family"
 	religion="shinto"
@@ -11744,7 +11767,7 @@
 }
 10057616 = {
 	name=character_name_10057616 # Masazane
-	dynasty=10000578 # Shibukawa
+	dynasty=10000578 # Shibukawa, 渋川
 	father=10057615
 	trait="ashikaga_family"
 	religion="shinto"
@@ -11758,7 +11781,7 @@
 }
 10057617 = {
 	name=character_name_10057617 # Kuniko #Kira Mitsusada's wife
-	dynasty=10000578 # Shibukawa
+	dynasty=10000578 # Shibukawa, 渋川
 	father=10057611
 	female=yes
 	trait="ashikaga_family"
@@ -11772,13 +11795,13 @@
 	}
 }
 10057618 = {
-	name=character_name_10057618 # Yoshitoshi
-	dynasty=10000578 # Shibukawa
+	name=character_name_10057618 # Yoshitoshi, 義俊
+	dynasty=10000578 # Shibukawa, 渋川
 	martial=2
-	father=10057612
+	father=10057612 #　渋川満頼
 	trait="ashikaga_family"
 	religion="shinto"
-	culture="western_chugoku"
+	culture="central_kinai"
 	prowess=6
 	1400.1.1={
 		birth=yes
@@ -11789,8 +11812,8 @@
 }
 10057619 = {
 	name=character_name_10057619 # Ujishige
-	dynasty=10000578 # Shibukawa
-	father=10057612
+	dynasty=10000578 # Shibukawa, 渋川
+	father=10057612 #　渋川満頼
 	trait="ashikaga_family"
 	religion="shinto"
 	culture="western_chugoku"
@@ -11802,26 +11825,34 @@
 	}
 }
 10057620 = {
-	name=character_name_10057620 # Yoshikane
-	dynasty=10000578 # Shibukawa
-	father=10057618
+	name=character_name_10057620 # Yoshikane, 義鏡
+	dynasty=10000578 # Shibukawa, 渋川
+	father=10057618 #　渋川義俊
 	trait="ashikaga_family"
 	religion="shinto"
-	culture="western_chugoku"
+	culture="central_kinai"
 	1420.1.1={
 		birth=yes
 	}
+	# 渋川満頼の後継者
+	1455.01.01 = {
+		give_nickname = "nick_the_uhyoe_no_kami" # 康正2(1456)年、「渋河右兵衛佐」（『康正二年造内裏段銭并国役引付』）
+	}
+	# 文安3(1446)年頃、京都在住。京都足利氏の御一家。（谷口雄太、「中世後期における御一家渋川氏の動向」）
+	# 長禄元(1457)年、足利政知の補佐役として関東下向。（谷口雄太、「中世後期における御一家渋川氏の動向」）
+	# 寛正3(1462)年から寛正4(1463)年頃、失脚。（谷口雄太、「中世後期における御一家渋川氏の動向」）
+	# 応仁の乱以降、京都に出仕しなくなる。（谷口雄太、「中世後期における御一家渋川氏の動向」）
 	1480.1.1={
 		death=yes
 	}
 }
 10057621 = {
-	name=character_name_10057621 # Yoshikado
-	dynasty=10000578 # Shibukawa
-	father=10057620
+	name=character_name_10057621 # Yoshikado, 義廉、斯波義廉
+	dynasty=10000578 # Shibukawa, 渋川
+	father=10057620 # 渋川義鏡
 	trait="ashikaga_family"
 	religion="shinto"
-	culture="western_kanto"
+	culture="central_kinai"
 	1445.1.1={
 		birth=yes
 	}
@@ -11849,7 +11880,7 @@
 }
 10057622 = {
 	name=character_name_10057622 # Yoshitoshi
-	dynasty=10000578 # Shibukawa
+	dynasty=10000578 # Shibukawa, 渋川
 	father=10057621
 	trait="ashikaga_family"
 	religion="shinto"
@@ -11863,7 +11894,7 @@
 }
 10057623={
 	name=character_name_10057623 # Manjumaru
-	dynasty=10000578 # Shibukawa
+	dynasty=10000578 # Shibukawa, 渋川
 	father=10057615 # Shibukawa Norinao
 	religion="shinto"
 	culture="western_chugoku"

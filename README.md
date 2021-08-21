@@ -2,6 +2,9 @@
 Shogunate Map alteration sub MOD is a submod of the Shogunate mod. It replaces map with a high-resolution one and increases the Provence-Baron territory.
 
 # Credit
+## gfx / map / terrain / flatmap.dds
+- [Paper-co](https://free-paper-texture.com/)
+
 ## gfx / map / terrain / *.*
 -[Land Cover (GLCNMO) - Global version](https://globalmaps.github.io/glcnmo.html) / Geospatial Information Authority of Japan, Chiba University and collaborating organizations.
 

@@ -9131,10 +9131,10 @@
 	}
 }
 10068528 = {
-	name=character_name_10068528 # Okimasu
-#	dynasty=10000616 # Aso
+	name=character_name_10068528 # Okimasu, 興益
+#	dynasty=10000616 # Aso, 麻生
 	dynasty_house = "house_shgnt_utsunomiya_aso"
-	father=10068527
+	father=10068527　# 「麻生氏竪系図」では麻生興春の子。（桑田和明、『戦国時代の筑前国宗像氏』、2016）
 	religion="shinto"
 	culture="northern_kyushu"
 	1510.1.1={
@@ -9146,6 +9146,7 @@
 	1530.1.1={
 		give_nickname="nick_hyobu_daihu"
 	}
+	# 天文10(1541)年以降、大内義隆の勘気により一類が自害、蓄電。（「麻生氏竪系図」、桑田和明、『戦国時代の筑前国宗像氏』、2016）
 	1570.1.1={
 		death=yes
 	}
