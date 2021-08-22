@@ -1298,6 +1298,14 @@
 	1561.3.4={
 		birth=yes
 	}
+	1563.10.05={
+		effect={
+			add_opinion = {
+				target = liege
+				modifier = received_title_county # 伯爵領を与えられた
+			}
+		}
+	}
 	1575.1.1={
 		employer=10024006 # Tokugawa Ieyasu
 	}
@@ -2322,7 +2330,8 @@
 }
 10024000 = {
 	name=character_name_10024000 # Kiyoyasu
-	dynasty=10000240 # Matsudaira
+	#dynasty=10000240 # Matsudaira
+	dynasty_house="house_shgnt_matsudaira_anjo"
 	father=10024001
 	martial=7
 	diplomacy=6
@@ -2352,7 +2361,8 @@
 }
 10024001 = {
 	name=character_name_10024001 # Nobutada
-	dynasty=10000240 # Matsudaira
+	#dynasty=10000240 # Matsudaira
+	dynasty_house="house_shgnt_matsudaira_anjo"
 	father=10024003
 	martial=7
 	diplomacy=7
@@ -2372,8 +2382,9 @@
 }
 10024002 = {
 	name=character_name_10024002 # Hirotada
-	dynasty=10000240 # Matsudaira
-	father=10024000
+	#dynasty=10000240 # Matsudaira
+	dynasty_house="house_shgnt_matsudaira_anjo"
+	father=10024000 # 松平清康
 	martial=7
 	diplomacy=7
 	intrigue=6
@@ -2410,6 +2421,9 @@
 	1473.1.1={
 		birth=yes
 	}
+	1488.08.29={
+		dynasty_house="house_shgnt_matsudaira_anjo"
+	}
 	1496.1.1={
 		effect = {
 			set_realm_capital=title:c_shgnt_nukata
@@ -2429,6 +2443,7 @@
 		birth=yes
 	}
 	1488.8.29={
+		dynasty_house="house_shgnt_matsudaira_anjo"
 		effect = {
 			set_realm_capital=title:c_shgnt_nukata
 		}
@@ -2451,7 +2466,8 @@
 }
 10024006 = {
 	name=character_name_10024006 # Motonobu # Tokugawa Ieyasu, the founder and 1st shogun of the Tokugawa shogunate
-	dynasty=10000240 # Matsudaira
+	#dynasty=10000240 # Matsudaira
+	dynasty_house="house_shgnt_matsudaira_anjo"
 	father=10024002 # Matsudaira Hirotada
 	mother=10024504 # Odai no Kata, Mizuno
 	martial=6
@@ -2504,7 +2520,8 @@
 		}
 	}
 	1567.12.29={
-		dynasty=10000239 # Tokugawa
+		#dynasty=10000239 # Tokugawa
+		dynasty_house="house_shgnt_matsudaira_tokugawa"
 		give_nickname="nick_the_mikawa_no_kami"
 		effect = {
 			add_trait = "jugoi_ge"
@@ -2594,12 +2611,16 @@
 }
 10024007={
 	name=character_name_10024007 # Chikamori
-	dynasty=10000240 # Matsudaira
+	#dynasty=10000240 # Matsudaira
+	dynasty_house="house_shgnt_matsudaira_anjo"
 	father=10024003 # Matsudaira Nagachika
 	religion="shinto"
 	culture="tokai"
 	1503.1.1={
 		birth=yes
+	}
+	1523.01.01={
+		dynasty_house="house_shgnt_matsudaira_fukama"
 	}
 	1530.10.26={
 		death=yes
@@ -2607,7 +2628,8 @@
 }
 10024008={
 	name=character_name_10024008 # Nobusada
-	dynasty=10000240 # Matsudaira
+	#dynasty=10000240 # Matsudaira
+	dynasty_house="house_shgnt_matsudaira_anjo"
 	father=10024003 # Matsudaira Nagachika
 	religion="shinto"
 	culture="tokai"
@@ -2616,6 +2638,7 @@
 	}
 	1529.1.1={
 		add_spouse=10029131 # daughter of 29118:Oda Nobusada
+		dynasty_house="house_shgnt_matsudaira_sakurai"
 	}
 	1538.12.18={
 		death=yes
@@ -2623,12 +2646,16 @@
 }
 10024009={
 	name=character_name_10024009 # Yoshiharu
-	dynasty=10000240 # Matsudaira
+	#dynasty=10000240 # Matsudaira
+	dynasty_house="house_shgnt_matsudaira_anjo"
 	father=10024003 # Matsudaira Nagachika
 	religion="shinto"
 	culture="tokai"
 	1506.1.1={
 		birth=yes
+	}
+	1526.01.01={
+		dynasty_house="house_shgnt_matsudaira_tojo"
 	}
 	1539.1.1={
 		death=yes
@@ -2636,12 +2663,16 @@
 }
 10024010={
 	name=character_name_10024010 # Toshinaga
-	dynasty=10000240 # Matsudaira
+	#dynasty=10000240 # Matsudaira
+	dynasty_house="house_shgnt_matsudaira_anjo"
 	father=10024003 # Matsudaira Nagachika
 	religion="shinto"
 	culture="tokai"
 	1507.1.1={
 		birth=yes
+	}
+	1527.01.01={
+		dynasty_house="house_shgnt_matsudaira_fujii"
 	}
 	1560.1.1={
 		death=yes
@@ -2649,7 +2680,8 @@
 }
 10024011={
 	name=character_name_10024011 # Kiyosada
-	dynasty=10000240 # Matsudaira
+	#dynasty=10000240 # Matsudaira
+	dynasty_house="house_shgnt_matsudaira_sakurai"
 	father=10024008 # Matsudaira Nobusada
 	religion="shinto"
 	culture="tokai"
@@ -2663,7 +2695,8 @@
 10024012={
 	female=yes
 	name=character_name_10024012 # Kiku
-	dynasty=10000240 # Matsudaira
+	#dynasty=10000240 # Matsudaira
+	dynasty_house="house_shgnt_matsudaira_sakurai"
 	father=10024008 # Matsudaira Nobusada
 	religion="shinto"
 	culture="tokai"
@@ -2677,7 +2710,8 @@
 10024013={
 	female=yes
 	name=character_name_10024013 # Ine
-	dynasty=10000240 # Matsudaira
+	#dynasty=10000240 # Matsudaira
+	dynasty_house="house_shgnt_matsudaira_sakurai"
 	father=10024008 # Matsudaira Nobusada
 	religion="shinto"
 	culture="tokai"
@@ -2691,7 +2725,8 @@
 10024014={
 	female=yes
 	name=character_name_10024014 # Tomi
-	dynasty=10000240 # Matsudaira
+	#dynasty=10000240 # Matsudaira
+	dynasty_house="house_shgnt_matsudaira_sakurai"
 	father=10024008 # Matsudaira Nobusada
 	religion="shinto"
 	culture="tokai"
@@ -2705,7 +2740,8 @@
 10024015={
 	female=yes
 	name=character_name_10024015 # Aya
-	dynasty=10000240 # Matsudaira
+	#dynasty=10000240 # Matsudaira
+	dynasty_house="house_shgnt_matsudaira_sakurai"
 	father=10024008 # Matsudaira Nobusada
 	religion="shinto"
 	culture="tokai"
@@ -2718,12 +2754,16 @@
 }
 10024016={
 	name=character_name_10024016 # Nobutaka
-	dynasty=10000240 # Matsudaira
+	#dynasty=10000240 # Matsudaira
+	dynasty_house="house_shgnt_matsudaira_anjo"
 	father=10024001 # Matsudaira Nobutada
 	religion="shinto"
 	culture="tokai"
 	1513.1.1={
 		birth=yes
+	}
+	1533.01.01={
+		dynasty_house="house_shgnt_matsudaira_mitsugi"
 	}
 	1548.5.22={
 		death=yes
@@ -2731,7 +2771,8 @@
 }
 10024017={
 	name=character_name_10024017 # Yasutaka
-	dynasty=10000240 # Matsudaira
+	#dynasty=10000240 # Matsudaira
+	dynasty_house="house_shgnt_matsudaira_anjo"
 	father=10024001 # Matsudaira Nobutada
 	religion="shinto"
 	culture="tokai"
@@ -2745,7 +2786,8 @@
 10024018={
 	female=yes
 	name=character_name_10024018 # Hisa
-	dynasty=10000240 # Matsudaira
+	#dynasty=10000240 # Matsudaira
+	dynasty_house="house_shgnt_matsudaira_anjo"
 	father=10024001 # Matsudaira Nobutada
 	religion="shinto"
 	culture="tokai"
@@ -2759,7 +2801,8 @@
 10024019={
 	female=yes
 	name=character_name_10024019 # Higashi
-	dynasty=10000240 # Matsudaira
+	#dynasty=10000240 # Matsudaira
+	dynasty_house="house_shgnt_matsudaira_anjo"
 	father=10024001 # Matsudaira Nobutada
 	religion="shinto"
 	culture="tokai"
@@ -2773,7 +2816,8 @@
 10024020={
 	female=yes
 	name=character_name_10024020 # Yahagi
-	dynasty=10000240 # Matsudaira
+	#dynasty=10000240 # Matsudaira
+	dynasty_house="house_shgnt_matsudaira_anjo"
 	father=10024001 # Matsudaira Nobutada
 	religion="shinto"
 	culture="tokai"
@@ -2787,7 +2831,8 @@
 10024021={
 	female=yes
 	name=character_name_10024021 # Fuji
-	dynasty=10000240 # Matsudaira
+	#dynasty=10000240 # Matsudaira
+	dynasty_house="house_shgnt_matsudaira_anjo"
 	father=10024001 # Matsudaira Nobutada
 	religion="shinto"
 	culture="tokai"
@@ -2800,7 +2845,8 @@
 }
 10024022={
 	name=character_name_10024022 # Nobuyasu
-	dynasty=10000240 # Matsudaira
+	#dynasty=10000240 # Matsudaira
+	dynasty_house="house_shgnt_matsudaira_anjo"
 	father=10024000 # Matsudaira Kiyoyasu
 	religion="shinto"
 	culture="tokai"
@@ -2814,7 +2860,8 @@
 10024023={
 	female=yes
 	name=character_name_10024023 # Shunkeini
-	dynasty=10000240 # Matsudaira
+	#dynasty=10000240 # Matsudaira
+	dynasty_house="house_shgnt_matsudaira_anjo"
 	father=10024000 # Matsudaira Kiyoyasu
 	religion="shinto"
 	culture="tokai"
@@ -2828,7 +2875,8 @@
 10024024={
 	female=yes
 	name=character_name_10024024 # Usui
-	dynasty=10000240 # Matsudaira
+	#dynasty=10000240 # Matsudaira
+	dynasty_house="house_shgnt_matsudaira_anjo"
 	father=10024000 # Matsudaira Kiyoyasu
 	religion="shinto"
 	culture="tokai"
@@ -2842,7 +2890,8 @@
 10024025={
 	female=yes
 	name=character_name_10024025 # Yata
-	dynasty=10000240 # Matsudaira
+	#dynasty=10000240 # Matsudaira
+	dynasty_house="house_shgnt_matsudaira_anjo"
 	father=10024002 # Matsudaira Hirotada
 	religion="shinto"
 	culture="tokai"
@@ -2856,7 +2905,8 @@
 10024026={
 	female=yes
 	name=character_name_10024026 # Ichiba
-	dynasty=10000240 # Matsudaira
+	#dynasty=10000240 # Matsudaira
+	dynasty_house="house_shgnt_matsudaira_anjo"
 	father=10024002 # Matsudaira Hirotada
 	religion="shinto"
 	culture="tokai"
@@ -2869,7 +2919,8 @@
 }
 10024027={
 	name=character_name_10024027 # Nobuyasu
-	dynasty=10000240 # Matsudaira
+	#dynasty=10000240 # Matsudaira
+	dynasty_house="house_shgnt_matsudaira_anjo"
 	father=10024006 # Tokugawa Ieyasu
 	mother=10023063 # Tsukiyama-dono
 	religion="shinto"
@@ -2890,7 +2941,8 @@
 		birth=yes
 	}
 	1566.12.29={
-		dynasty=10000239 # Tokugawa
+		#dynasty=10000239 # Tokugawa
+		dynasty_house="house_shgnt_matsudaira_tokugawa"
 	}
 	1567.5.1={
 		add_spouse=10029172
@@ -2911,7 +2963,8 @@
 10024028={
 	female=yes
 	name=character_name_10024028 # Kame
-	dynasty=10000240 # Matsudaira
+	#dynasty=10000240 # Matsudaira
+	dynasty_house="house_shgnt_matsudaira_anjo"
 	father=10024006 # Tokugawa Ieyasu
 	mother=10023063 # Tsukiyama-dono
 	religion="shinto"
@@ -2920,7 +2973,8 @@
 		birth=yes
 	}
 	1566.12.29={
-		dynasty=10000239 # Tokugawa
+		#dynasty=10000239 # Tokugawa
+		dynasty_house="house_shgnt_matsudaira_tokugawa"
 	}
 	1625.7.1={
 		death=yes
@@ -2929,7 +2983,8 @@
 10024029={
 	female=yes
 	name=character_name_10024029 # Toku
-	dynasty=10000240 # Matsudaira
+	#dynasty=10000240 # Matsudaira
+	dynasty_house="house_shgnt_matsudaira_anjo"
 	father=10024006 # Tokugawa Ieyasu
 	religion="shinto"
 	culture="tokai"
@@ -2937,7 +2992,8 @@
 		birth=yes
 	}
 	1566.12.29={
-		dynasty=10000239 # Tokugawa
+		#dynasty=10000239 # Tokugawa
+		dynasty_house="house_shgnt_matsudaira_tokugawa"
 	}
 	1615.3.3={
 		death=yes
@@ -2945,7 +3001,8 @@
 }
 10024030={
 	name=character_name_10024030 # Hideyasu # a.k.a. Yuki Hideyasu
-	dynasty=10000239 # Tokugawa
+	#dynasty=10000239 # Tokugawa
+	dynasty_house="house_shgnt_matsudaira_tokugawa"
 	father=10024006 # Tokugawa Ieyasu
 	religion="shinto"
 	culture="tokai"
@@ -2973,7 +3030,8 @@
 }
 10024031={
 	name=character_name_10024031 # Hidetada
-	dynasty=10000239 # Tokugawa
+	#dynasty=10000239 # Tokugawa
+	dynasty_house="house_shgnt_matsudaira_tokugawa"
 	father=10024006 # Tokugawa Ieyasu
 	religion="shinto"
 	culture="tokai"
@@ -2999,7 +3057,8 @@
 }
 10024032={
 	name=character_name_10024032 # Tadayoshi
-	dynasty=10000239 # Tokugawa
+	#dynasty=10000239 # Tokugawa
+	dynasty_house="house_shgnt_matsudaira_tokugawa"
 	father=10024006 # Tokugawa Ieyasu
 	religion="shinto"
 	culture="tokai"
@@ -3023,7 +3082,8 @@
 10024033={
 	female=yes
 	name=character_name_10024033 # Furi
-	dynasty=10000239 # Matsudaira
+	#dynasty=10000239 # Tokugawa
+	dynasty_house="house_shgnt_matsudaira_tokugawa"
 	father=10024006 # Tokugawa Ieyasu
 	religion="shinto"
 	culture="tokai"
@@ -3180,6 +3240,14 @@
 	1534.1.1={
 		birth=yes
 	}
+	1569.05.17={
+		effect={
+			add_opinion = {
+				target = liege
+				modifier = received_title_county # 伯爵領を与えられた
+			}
+		}
+	}
 	1609.11.15={
 		death=yes
 	}
@@ -3264,6 +3332,14 @@
 	}
 	1549.1.1={
 		give_nickname="nick_Yoshichiro"
+	}
+	1579.11.01={
+		effect={
+			add_opinion = {
+				target = liege
+				modifier = received_title_county # 伯爵領を与えられた
+			}
+		}
 	}
 	1580.1.1={
 		give_nickname="nick_the_hoki_no_kami"
@@ -3845,6 +3921,14 @@
 	}
 	1558.3.1={
 		employer = 10024006 # Tokugawa Ieyasu
+	}
+	1575.12.24={
+		effect={
+			add_opinion = {
+				target = liege
+				modifier = received_title_county # 伯爵領を与えられた
+			}
+		}
 	}
 	1594.10.28={
 		death=yes

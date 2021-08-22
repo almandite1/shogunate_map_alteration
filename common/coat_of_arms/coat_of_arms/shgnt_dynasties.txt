@@ -1111,15 +1111,7 @@ house_shgnt_kambara = { #Imagawa
 		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 } }		
 	}
 }
-10000240 = { #Matsudaira
-	pattern = "pattern_solid.dds"
-	color1 = "white"
-	colored_emblem = {
-		texture = "ce_h_tokugawa.dds"
-		color1 = "black"		
-		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 } }		
-	}
-}
+
 house_shgnt_osaki = { #Osaki
 	pattern = "pattern_solid.dds"
 	color1 = "aotake_iro"
@@ -3391,3 +3383,205 @@ house_shgnt_yuki_oyama = { #Oyama
 		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
 	}
 }
+10000240 = { #Matsudaira
+	pattern = "pattern_solid.dds"
+	color1 = "shiro"
+	colored_emblem = {
+		texture = "ce_h_tokugawa.dds"
+		color1 = "kuro"		
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 } }		
+	}
+}
+house_shgnt_matsudaira_sakurai = { #桜
+	pattern = "pattern_solid.dds"
+	color1 = "sakura_iro"
+	colored_emblem = {
+		texture = "ce_sakura_cc_6.dds"
+		color1 = hsv360 { 360	60	100	}
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 } }		
+	}
+}
+house_shgnt_matsudaira_fukama = { #三葉葵
+	pattern = "pattern_solid.dds"
+	color1 = "ao_iro"
+	colored_emblem = {
+		texture = "ce_h_tokugawa.dds"
+		color1 = "kuro"		
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 } }		
+	}
+}
+house_shgnt_matsudaira_tojo = { #三葉葵
+	pattern = "pattern_solid.dds"
+	color1 = "daidai_iro"
+	colored_emblem = {
+		texture = "ce_h_tokugawa.dds"
+		color1 = "kuro"		
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 } }		
+	}
+}
+house_shgnt_matsudaira_fujii = { #丸に酢漿草
+	pattern = "pattern_solid.dds"	
+	color1 = "murasaki"
+	colored_emblem = {
+		texture = "circular_combo_1.dds"
+		color1 = "kuro"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+	colored_emblem = {
+		texture = "ce_katabami_cc_12.dds"
+		color1 = "kuro"		
+		instance = { position = { 0.5 0.5 } scale = { 0.68 0.68 } }		
+	}
+}
+house_shgnt_matsudaira_anjo = { #三葉葵
+	pattern = "pattern_solid.dds"
+	color1 = "midori_iro"
+	colored_emblem = {
+		texture = "ce_h_tokugawa.dds"
+		color1 = "kuro"		
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 } }		
+	}
+}
+house_shgnt_matsudaira_mitsugi = { #丸に蔦
+	pattern = "pattern_solid.dds"	
+	color1 = "ki_iro"
+	colored_emblem = {
+		texture = "circular_combo_1.dds"
+		color1 = "kuro"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+	colored_emblem = {
+		texture = "ce_tsuta_cc_1.dds"
+		color1 = "kuro"		
+		instance = { position = { 0.5 0.5 } scale = { 0.7 0.7 } }		
+	}
+}
+10000239 = { #三葉葵
+	pattern = "pattern_solid.dds"
+	color1 = "shiro"	
+	colored_emblem = {
+		texture = "ce_h_tokugawa.dds"
+		color1 = "konjiki"		
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 } }		
+	}
+}
+house_shgnt_matsudaira_tokugawa = 10000239
+house_shgnt_suwa_chino={ #梶葉
+	pattern = "pattern_solid.dds"
+	color1 = "aka_iro"	
+	colored_emblem = {
+		texture = "ce_kaji_cc_4.dds"
+		color1 = "kuro"		
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 } }		
+	}
+}
+10007164=house_shgnt_suwa_chino
+house_shgnt_suwa_takato={ #梶葉
+	pattern = "pattern_solid.dds"
+	color1 = "ao_iro"	
+	colored_emblem = {
+		texture = "ce_kaji_cc_4.dds"
+		color1 = "kuro"		
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 } }		
+	}
+}
+10000212=house_shgnt_suwa_takato
+10000210={ #梶葉
+	pattern = "pattern_solid.dds"
+	color1 = "shiro"	
+	colored_emblem = {
+		texture = "ce_kaji_cc_4.dds"
+		color1 = "kuro"		
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 } }		
+	}
+}
+house_shgnt_suwa_fujisawa={ #梶葉
+	pattern = "pattern_solid.dds"
+	color1 = "midori_iro"	
+	colored_emblem = {
+		texture = "ce_kaji_cc_4.dds"
+		color1 = "kuro"		
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 } }		
+	}
+}
+10007165=house_shgnt_suwa_fujisawa
+house_shgnt_takeda_oi={ #仮に花菱
+	pattern = "pattern_solid.dds"
+	color1 = "benikaba_iro"	# 紅樺色
+	colored_emblem = {
+		texture = "ce_hanabishi_cc_12.dds"
+		color1 = "kuro"		
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 } }		
+	}
+}
+10000203=house_shgnt_takeda_oi
+house_shgnt_takeda_imai={ #仮に花菱
+	pattern = "pattern_solid.dds"
+	color1 = "ukon_iro" # 鬱金色
+	colored_emblem = {
+		texture = "ce_hanabishi_dn_1.dds"
+		color1 = "kuro"		
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 } }		
+	}
+}
+10000204=house_shgnt_takeda_imai
+house_shgnt_takeda_anayama={ #Anayama, メイン MOD の設定
+	pattern = "pattern_solid.dds"
+	color1 = "mid_red"
+	colored_emblem = {
+		texture = "ce_h_anayama.dds"
+		color1 = "black"	
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 } }		
+	}
+}
+10000219=house_shgnt_takeda_anayama
+house_shgnt_takeda_aburakawa={ #仮に割菱
+	pattern = "pattern_solid.dds"
+	color1 = "mushiao"	# 虫襖
+	colored_emblem = {
+		texture = "ce_hishi_cc_7.dds"
+		color1 = "kuro"		
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 } }		
+	}
+}
+10000202=house_shgnt_takeda_aburakawa
+house_shgnt_takeda_katsunuma={ #仮に割菱
+	pattern = "pattern_solid.dds"
+	color1 = "sumire_iro" # すみれ色
+	colored_emblem = {
+		texture = "ce_hishi_cc_7.dds"
+		color1 = "kuro"		
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 } }		
+	}
+}
+10000201=house_shgnt_takeda_katsunuma
+10000217 = { #Nishina, メイン MOD の設定
+	pattern = "pattern_solid.dds"
+	color1 = "white"
+	colored_emblem = {
+		texture = "ce_h_taira.dds"
+		color1 = "blue"		
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 } }		
+	}
+}
+house_shgnt_takeda_nishina=10000217
+10000236 = { #Katsurayama, メイン MOD の設定
+	pattern = "pattern_solid.dds"
+	color1 = "white"
+	colored_emblem = {
+		texture = "ce_h_katsurayama.dds"
+		color1 = "black"		
+		instance = { position = { 0.5 0.5 } scale = { 1 1 } }		
+	}
+}
+house_shgnt_takeda_katsurayama=10000236
+house_shgnt_takeda_mochizuki={ #九曜
+	pattern = "pattern_solid.dds"
+	color1 = "kokihanada" # 深縹色
+	colored_emblem = {
+		texture = "ce_hoshi_cc_1.dds"
+		color1 = "shu_iro" # 朱色
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 } }		
+	}
+}
+10006161=house_shgnt_takeda_mochizuki

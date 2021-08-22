@@ -1,0 +1,3138 @@
+﻿# Open Decisions
+open_court_post_local_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = toggle_court_post_local_decision_desc
+	confirm_text = toggle_court_post_local_decision_confirm
+	selection_tooltip = toggle_court_post_local_decision_tooltip
+
+	is_shown = {
+		is_male = yes
+		is_shii_or_goi_trigger = yes
+		has_yamato_culture_trigger = yes
+		NOT = { has_character_flag = open_court_post_center }
+		NOT = { has_character_flag = open_court_post_local }
+		NOT = { has_character_flag = post_changed }
+	}
+
+	effect = {
+		add_character_flag = open_court_post_local
+	}
+
+	ai_check_interval = 0
+}
+
+# Close Decisions
+close_court_post_local_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = toggle_court_post_local_decision_desc
+	confirm_text = toggle_court_post_local_decision_confirm
+	selection_tooltip = toggle_court_post_local_decision_tooltip
+
+	is_shown = {
+		has_character_flag = open_court_post_local
+	}
+
+	effect = {
+		remove_character_flag = open_court_post_local
+	}
+
+	ai_check_interval = 0
+}
+
+# Dazai Daini
+gain_court_post_dazai_daini_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_local_decision_desc
+	confirm_text = gain_court_post_local_decision_confirm
+	selection_tooltip = gain_court_post_local_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_local_trigger = yes
+		is_shii_trigger = yes
+		is_under_seventh_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_dazai_daini } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 400 }
+	}
+
+	effect = {
+		give_nickname = nick_the_dazai_daini
+		add_character_flag = eighth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 0
+		modifier = {
+			add = 100
+			has_title = title:k_shgnt_northern_kyushu
+		}
+	}
+}
+
+# Dazai Shoni
+gain_court_post_dazai_shoni_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_local_decision_desc
+	confirm_text = gain_court_post_local_decision_confirm
+	selection_tooltip = gain_court_post_local_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_local_trigger = yes
+		is_goi_trigger = yes
+		is_under_eighth_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_dazai_shoni } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 300 }
+	}
+
+	effect = {
+		give_nickname = nick_the_dazai_shoni
+		add_character_flag = ninth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 0
+		modifier = {
+			add = 100
+			has_title = title:k_shgnt_northern_kyushu
+		}
+		modifier = {
+			add = 100
+			dynasty = dynasty:10000683 # Shoni
+		}
+	}
+}
+
+# Chinjufu Shogun
+gain_court_post_chinjufu_shogun_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_local_decision_desc
+	confirm_text = gain_court_post_local_decision_confirm
+	selection_tooltip = gain_court_post_local_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_local_trigger = yes
+		is_shii_or_goi_trigger = yes
+		is_under_seventh_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_chinjufu_shogun } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 500 }
+	}
+
+	effect = {
+		give_nickname = nick_the_chinjufu_shogun
+		add_character_flag = seventh_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 0
+		modifier = {
+			add = 10
+			OR = {
+				has_title = title:k_shgnt_northern_oshu
+				has_title = title:k_shgnt_southern_oshu
+			}
+		}
+	}
+}
+
+# Yamashiro no Kami
+gain_court_post_yamashiro_no_kami_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_local_decision_desc
+	confirm_text = gain_court_post_local_decision_confirm
+	selection_tooltip = gain_court_post_local_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_local_trigger = yes
+		is_shii_or_goi_trigger = yes
+		is_under_seventh_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_yamashiro_no_kami } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 200 }
+	}
+
+	effect = {
+		give_nickname = nick_the_yamashiro_no_kami
+		add_character_flag = eighth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			add = 100
+			has_title = title:d_shgnt_yamashiro
+		}
+	}
+}
+
+# Settsu no Kami
+gain_court_post_settsu_no_kami_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_local_decision_desc
+	confirm_text = gain_court_post_local_decision_confirm
+	selection_tooltip = gain_court_post_local_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_local_trigger = yes
+		is_shii_or_goi_trigger = yes
+		is_under_seventh_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_settsu_no_kami } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 200 }
+	}
+
+	effect = {
+		give_nickname = nick_the_settsu_no_kami
+		add_character_flag = eighth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			add = 100
+			has_title = title:d_shgnt_settsu
+		}
+	}
+}
+
+# Owari no Kami
+gain_court_post_owari_no_kami_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_local_decision_desc
+	confirm_text = gain_court_post_local_decision_confirm
+	selection_tooltip = gain_court_post_local_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_local_trigger = yes
+		is_shii_or_goi_trigger = yes
+		is_under_seventh_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_owari_no_kami } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 200 }
+	}
+
+	effect = {
+		give_nickname = nick_the_owari_no_kami
+		add_character_flag = eighth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			add = 100
+			has_title = title:d_shgnt_owari
+		}
+	}
+}
+
+# Mikawa no Kami
+gain_court_post_mikawa_no_kami_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_local_decision_desc
+	confirm_text = gain_court_post_local_decision_confirm
+	selection_tooltip = gain_court_post_local_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_local_trigger = yes
+		is_shii_or_goi_trigger = yes
+		is_under_seventh_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_mikawa_no_kami } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 200 }
+	}
+
+	effect = {
+		give_nickname = nick_the_mikawa_no_kami
+		add_character_flag = eighth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			add = 100
+			has_title = title:d_shgnt_mikawa
+		}
+	}
+}
+
+# Totoumi no Kami
+gain_court_post_totoumi_no_kami_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_local_decision_desc
+	confirm_text = gain_court_post_local_decision_confirm
+	selection_tooltip = gain_court_post_local_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_local_trigger = yes
+		is_shii_or_goi_trigger = yes
+		is_under_seventh_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_totoumi_no_kami } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 200 }
+	}
+
+	effect = {
+		give_nickname = nick_the_totoumi_no_kami
+		add_character_flag = eighth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			add = 100
+			has_title = title:d_shgnt_totomi
+		}
+	}
+}
+
+# Suruga no Kami
+gain_court_post_suruga_no_kami_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_local_decision_desc
+	confirm_text = gain_court_post_local_decision_confirm
+	selection_tooltip = gain_court_post_local_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_local_trigger = yes
+		is_shii_or_goi_trigger = yes
+		is_under_seventh_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_suruga_no_kami } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 200 }
+	}
+
+	effect = {
+		give_nickname = nick_the_suruga_no_kami
+		add_character_flag = eighth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			add = 100
+			has_title = title:d_shgnt_suruga
+		}
+	}
+}
+
+# Kai no Kami
+gain_court_post_kai_no_kami_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_local_decision_desc
+	confirm_text = gain_court_post_local_decision_confirm
+	selection_tooltip = gain_court_post_local_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_local_trigger = yes
+		is_shii_or_goi_trigger = yes
+		is_under_seventh_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_kai_no_kami } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 200 }
+	}
+
+	effect = {
+		give_nickname = nick_the_kai_no_kami
+		add_character_flag = eighth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			add = 100
+			has_title = title:d_shgnt_kai
+		}
+	}
+}
+
+# Sagami no Kami
+gain_court_post_sagami_no_kami_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_local_decision_desc
+	confirm_text = gain_court_post_local_decision_confirm
+	selection_tooltip = gain_court_post_local_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_local_trigger = yes
+		is_shii_or_goi_trigger = yes
+		is_under_seventh_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_sagami_no_kami } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 200 }
+	}
+
+	effect = {
+		give_nickname = nick_the_sagami_no_kami
+		add_character_flag = eighth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			add = 100
+			has_title = title:d_shgnt_sagami
+		}
+	}
+}
+
+# Mino no Kami
+gain_court_post_mino_no_kami_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_local_decision_desc
+	confirm_text = gain_court_post_local_decision_confirm
+	selection_tooltip = gain_court_post_local_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_local_trigger = yes
+		is_shii_or_goi_trigger = yes
+		is_under_seventh_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_mino_no_kami } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 200 }
+	}
+
+	effect = {
+		give_nickname = nick_the_mino_no_kami
+		add_character_flag = eighth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			add = 100
+			has_title = title:d_shgnt_mino
+		}
+	}
+}
+
+# Yamato no Kami
+gain_court_post_yamato_no_kami_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_local_decision_desc
+	confirm_text = gain_court_post_local_decision_confirm
+	selection_tooltip = gain_court_post_local_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_local_trigger = yes
+		is_shii_or_goi_trigger = yes
+		is_under_seventh_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_yamato_no_kami } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 200 }
+	}
+
+	effect = {
+		give_nickname = nick_the_yamato_no_kami
+		add_character_flag = eighth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			add = 100
+			has_title = title:d_shgnt_yamato
+		}
+	}
+}
+
+# Kawachi no Kami
+gain_court_post_kawachi_no_kami_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_local_decision_desc
+	confirm_text = gain_court_post_local_decision_confirm
+	selection_tooltip = gain_court_post_local_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_local_trigger = yes
+		is_shii_or_goi_trigger = yes
+		is_under_seventh_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_kawachi_no_kami } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 200 }
+	}
+
+	effect = {
+		give_nickname = nick_the_kawachi_no_kami
+		add_character_flag = eighth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			add = 100
+			has_title = title:d_shgnt_kawachi
+		}
+	}
+}
+
+# Ise no Kami
+gain_court_post_ise_no_kami_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_local_decision_desc
+	confirm_text = gain_court_post_local_decision_confirm
+	selection_tooltip = gain_court_post_local_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_local_trigger = yes
+		is_shii_or_goi_trigger = yes
+		is_under_seventh_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_ise_no_kami } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 200 }
+	}
+
+	effect = {
+		give_nickname = nick_the_ise_no_kami
+		add_character_flag = eighth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			add = 100
+			has_title = title:d_shgnt_ise
+		}
+	}
+}
+
+# Musashi no Kami
+gain_court_post_musashi_no_kami_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_local_decision_desc
+	confirm_text = gain_court_post_local_decision_confirm
+	selection_tooltip = gain_court_post_local_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_local_trigger = yes
+		is_shii_or_goi_trigger = yes
+		is_under_seventh_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_musashi_no_kami } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 200 }
+	}
+
+	effect = {
+		give_nickname = nick_the_musashi_no_kami
+		add_character_flag = eighth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			add = 100
+			has_title = title:d_shgnt_musashi
+		}
+	}
+}
+
+# Shimousa no Kami
+gain_court_post_shimousa_no_kami_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_local_decision_desc
+	confirm_text = gain_court_post_local_decision_confirm
+	selection_tooltip = gain_court_post_local_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_local_trigger = yes
+		is_shii_or_goi_trigger = yes
+		is_under_seventh_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_shimousa_no_kami } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 200 }
+	}
+
+	effect = {
+		give_nickname = nick_the_shimousa_no_kami
+		add_character_flag = eighth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			add = 100
+			has_title = title:d_shgnt_shimousa
+		}
+	}
+}
+
+# Omi no Kami
+gain_court_post_omi_no_kami_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_local_decision_desc
+	confirm_text = gain_court_post_local_decision_confirm
+	selection_tooltip = gain_court_post_local_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_local_trigger = yes
+		is_shii_or_goi_trigger = yes
+		is_under_seventh_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_omi_no_kami } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 200 }
+	}
+
+	effect = {
+		give_nickname = nick_the_omi_no_kami
+		add_character_flag = eighth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			add = 100
+			has_title = title:d_shgnt_omi
+		}
+	}
+}
+
+# Mutsu no Kami
+gain_court_post_mutsu_no_kami_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_local_decision_desc
+	confirm_text = gain_court_post_local_decision_confirm
+	selection_tooltip = gain_court_post_local_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_local_trigger = yes
+		is_shii_or_goi_trigger = yes
+		is_under_seventh_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_mutsu_no_kami } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 200 }
+	}
+
+	effect = {
+		give_nickname = nick_the_mutsu_no_kami
+		add_character_flag = eighth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			add = 100
+			OR = {
+				 has_title = title:d_shgnt_mutsu
+				 has_title = title:d_shgnt_rikuchu
+				 has_title = title:d_shgnt_rikuzen
+				 has_title = title:d_shgnt_iwaki
+				 has_title = title:d_shgnt_iwashiro
+			}
+		}
+	}
+}
+
+# Echizen no Kami
+gain_court_post_echizen_no_kami_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_local_decision_desc
+	confirm_text = gain_court_post_local_decision_confirm
+	selection_tooltip = gain_court_post_local_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_local_trigger = yes
+		is_shii_or_goi_trigger = yes
+		is_under_seventh_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_echizen_no_kami } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 200 }
+	}
+
+	effect = {
+		give_nickname = nick_the_echizen_no_kami
+		add_character_flag = eighth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			add = 100
+			has_title = title:d_shgnt_echizen
+		}
+	}
+}
+
+# Harima no Kami
+gain_court_post_harima_no_kami_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_local_decision_desc
+	confirm_text = gain_court_post_local_decision_confirm
+	selection_tooltip = gain_court_post_local_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_local_trigger = yes
+		is_shii_or_goi_trigger = yes
+		is_under_seventh_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_harima_no_kami } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 200 }
+	}
+
+	effect = {
+		give_nickname = nick_the_harima_no_kami
+		add_character_flag = eighth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			add = 100
+			has_title = title:d_shgnt_harima
+		}
+	}
+}
+
+# Higo no Kami
+gain_court_post_higo_no_kami_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_local_decision_desc
+	confirm_text = gain_court_post_local_decision_confirm
+	selection_tooltip = gain_court_post_local_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_local_trigger = yes
+		is_shii_or_goi_trigger = yes
+		is_under_seventh_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_higo_no_kami } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 200 }
+	}
+
+	effect = {
+		give_nickname = nick_the_higo_no_kami
+		add_character_flag = eighth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			add = 100
+			has_title = title:d_shgnt_higo
+		}
+	}
+}
+
+# Shinano no Kami
+gain_court_post_shinano_no_kami_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_local_decision_desc
+	confirm_text = gain_court_post_local_decision_confirm
+	selection_tooltip = gain_court_post_local_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_local_trigger = yes
+		is_shii_or_goi_trigger = yes
+		is_under_seventh_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_shinano_no_kami } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 200 }
+	}
+
+	effect = {
+		give_nickname = nick_the_shinano_no_kami
+		add_character_flag = eighth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			add = 100
+			has_title = title:d_shgnt_shinano
+		}
+	}
+}
+
+# Shimotsukeno no Kami
+gain_court_post_shimotsukeno_no_kami_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_local_decision_desc
+	confirm_text = gain_court_post_local_decision_confirm
+	selection_tooltip = gain_court_post_local_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_local_trigger = yes
+		is_shii_or_goi_trigger = yes
+		is_under_seventh_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_shimotsukeno_no_kami } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 200 }
+	}
+
+	effect = {
+		give_nickname = nick_the_shimotsukeno_no_kami
+		add_character_flag = eighth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			add = 100
+			has_title = title:d_shgnt_shimotsuke
+		}
+	}
+}
+
+# Kamitsukeno no Suke
+gain_court_post_kamitsukeno_no_suke_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_local_decision_desc
+	confirm_text = gain_court_post_local_decision_confirm
+	selection_tooltip = gain_court_post_local_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_local_trigger = yes
+		is_shii_or_goi_trigger = yes
+		is_under_seventh_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_kamitsukeno_no_suke } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 200 }
+	}
+
+	effect = {
+		give_nickname = nick_the_kamitsukeno_no_suke
+		add_character_flag = eighth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			add = 100
+			has_title = title:d_shgnt_kozuke
+		}
+	}
+}
+
+# Hitachi no Suke
+gain_court_post_hitachi_no_suke_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_local_decision_desc
+	confirm_text = gain_court_post_local_decision_confirm
+	selection_tooltip = gain_court_post_local_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_local_trigger = yes
+		is_shii_or_goi_trigger = yes
+		is_under_seventh_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_hitachi_no_suke } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 200 }
+	}
+
+	effect = {
+		give_nickname = nick_the_hitachi_no_suke
+		add_character_flag = eighth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			add = 100
+			has_title = title:d_shgnt_hitachi
+		}
+	}
+}
+
+# Kazusa no Suke
+gain_court_post_kazusa_no_suke_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_local_decision_desc
+	confirm_text = gain_court_post_local_decision_confirm
+	selection_tooltip = gain_court_post_local_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_local_trigger = yes
+		is_shii_or_goi_trigger = yes
+		is_under_seventh_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_kazusa_no_suke } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 200 }
+	}
+
+	effect = {
+		give_nickname = nick_the_kazusa_no_suke
+		add_character_flag = eighth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			add = 100
+			has_title = title:d_shgnt_kazusa
+		}
+		modifier = {
+			add = 100
+			dynasty = dynasty:10007009 # Kazusa
+		}
+	}
+}
+
+# Dewa no Kami
+gain_court_post_dewa_no_kami_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_local_decision_desc
+	confirm_text = gain_court_post_local_decision_confirm
+	selection_tooltip = gain_court_post_local_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_local_trigger = yes
+		is_shii_or_goi_trigger = yes
+		is_under_seventh_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_dewa_no_kami } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 200 }
+	}
+
+	effect = {
+		give_nickname = nick_the_dewa_no_kami
+		add_character_flag = eighth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			add = 100
+			OR = {
+				 has_title = title:d_shgnt_uzen
+				 has_title = title:d_shgnt_ugo
+			}
+		}
+	}
+}
+
+# Kaga no Kami
+gain_court_post_kaga_no_kami_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_local_decision_desc
+	confirm_text = gain_court_post_local_decision_confirm
+	selection_tooltip = gain_court_post_local_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_local_trigger = yes
+		is_shii_or_goi_trigger = yes
+		is_under_seventh_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_kaga_no_kami } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 200 }
+	}
+
+	effect = {
+		give_nickname = nick_the_kaga_no_kami
+		add_character_flag = eighth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			add = 100
+			has_title = title:d_shgnt_kaga
+		}
+	}
+}
+
+# Etchu no Kami
+gain_court_post_etchu_no_kami_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_local_decision_desc
+	confirm_text = gain_court_post_local_decision_confirm
+	selection_tooltip = gain_court_post_local_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_local_trigger = yes
+		is_shii_or_goi_trigger = yes
+		is_under_seventh_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_etchu_no_kami } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 200 }
+	}
+
+	effect = {
+		give_nickname = nick_the_etchu_no_kami
+		add_character_flag = eighth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			add = 100
+			has_title = title:d_shgnt_etchu
+		}
+	}
+}
+
+# Echigo no Kami
+gain_court_post_echigo_no_kami_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_local_decision_desc
+	confirm_text = gain_court_post_local_decision_confirm
+	selection_tooltip = gain_court_post_local_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_local_trigger = yes
+		is_shii_or_goi_trigger = yes
+		is_under_seventh_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_echigo_no_kami } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 200 }
+	}
+
+	effect = {
+		give_nickname = nick_the_echigo_no_kami
+		add_character_flag = eighth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			add = 100
+			has_title = title:d_shgnt_echigo
+		}
+	}
+}
+
+# Tajima no Kami
+gain_court_post_tajima_no_kami_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_local_decision_desc
+	confirm_text = gain_court_post_local_decision_confirm
+	selection_tooltip = gain_court_post_local_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_local_trigger = yes
+		is_shii_or_goi_trigger = yes
+		is_under_seventh_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_tajima_no_kami } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 200 }
+	}
+
+	effect = {
+		give_nickname = nick_the_tajima_no_kami
+		add_character_flag = eighth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			add = 100
+			has_title = title:d_shgnt_tajima
+		}
+	}
+}
+
+# Inaba no Kami
+gain_court_post_inaba_no_kami_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_local_decision_desc
+	confirm_text = gain_court_post_local_decision_confirm
+	selection_tooltip = gain_court_post_local_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_local_trigger = yes
+		is_shii_or_goi_trigger = yes
+		is_under_seventh_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_inaba_no_kami } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 200 }
+	}
+
+	effect = {
+		give_nickname = nick_the_inaba_no_kami
+		add_character_flag = eighth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+	}
+}
+
+# Hoki no Kami
+gain_court_post_hoki_no_kami_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_local_decision_desc
+	confirm_text = gain_court_post_local_decision_confirm
+	selection_tooltip = gain_court_post_local_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_local_trigger = yes
+		is_shii_or_goi_trigger = yes
+		is_under_seventh_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_hoki_no_kami } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 200 }
+	}
+
+	effect = {
+		give_nickname = nick_the_hoki_no_kami
+		add_character_flag = eighth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			add = 100
+			has_title = title:d_shgnt_inaba
+		}
+	}
+}
+
+# Izumo no Kami
+gain_court_post_izumo_no_kami_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_local_decision_desc
+	confirm_text = gain_court_post_local_decision_confirm
+	selection_tooltip = gain_court_post_local_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_local_trigger = yes
+		is_shii_or_goi_trigger = yes
+		is_under_seventh_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_izumo_no_kami } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 200 }
+	}
+
+	effect = {
+		give_nickname = nick_the_izumo_no_kami
+		add_character_flag = eighth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			add = 100
+			has_title = title:d_shgnt_izumo
+		}
+	}
+}
+
+# Mimasaka no Kami
+gain_court_post_mimasaka_no_kami_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_local_decision_desc
+	confirm_text = gain_court_post_local_decision_confirm
+	selection_tooltip = gain_court_post_local_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_local_trigger = yes
+		is_shii_or_goi_trigger = yes
+		is_under_seventh_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_mimasaka_no_kami } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 200 }
+	}
+
+	effect = {
+		give_nickname = nick_the_mimasaka_no_kami
+		add_character_flag = eighth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			add = 100
+			has_title = title:d_shgnt_mimasaka
+		}
+	}
+}
+
+# Bizen no Kami
+gain_court_post_bizen_no_kami_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_local_decision_desc
+	confirm_text = gain_court_post_local_decision_confirm
+	selection_tooltip = gain_court_post_local_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_local_trigger = yes
+		is_shii_or_goi_trigger = yes
+		is_under_seventh_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_bizen_no_kami } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 200 }
+	}
+
+	effect = {
+		give_nickname = nick_the_bizen_no_kami
+		add_character_flag = eighth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			add = 100
+			has_title = title:d_shgnt_bizen
+		}
+	}
+}
+
+# Bitchu no Kami
+gain_court_post_bitchu_no_kami_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_local_decision_desc
+	confirm_text = gain_court_post_local_decision_confirm
+	selection_tooltip = gain_court_post_local_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_local_trigger = yes
+		is_shii_or_goi_trigger = yes
+		is_under_seventh_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_bitchu_no_kami } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 200 }
+	}
+
+	effect = {
+		give_nickname = nick_the_bitchu_no_kami
+		add_character_flag = eighth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			add = 100
+			has_title = title:d_shgnt_bitchu
+		}
+	}
+}
+
+# Bingo no Kami
+gain_court_post_bingo_no_kami_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_local_decision_desc
+	confirm_text = gain_court_post_local_decision_confirm
+	selection_tooltip = gain_court_post_local_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_local_trigger = yes
+		is_shii_or_goi_trigger = yes
+		is_under_seventh_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_bingo_no_kami } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 200 }
+	}
+
+	effect = {
+		give_nickname = nick_the_bingo_no_kami
+		add_character_flag = eighth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			add = 100
+			has_title = title:d_shgnt_bingo
+		}
+	}
+}
+
+# Aki no Kami
+gain_court_post_aki_no_kami_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_local_decision_desc
+	confirm_text = gain_court_post_local_decision_confirm
+	selection_tooltip = gain_court_post_local_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_local_trigger = yes
+		is_shii_or_goi_trigger = yes
+		is_under_seventh_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_aki_no_kami } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 200 }
+	}
+
+	effect = {
+		give_nickname = nick_the_aki_no_kami
+		add_character_flag = eighth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			add = 100
+			has_title = title:d_shgnt_aki
+		}
+	}
+}
+
+# Suo no Kami
+gain_court_post_suo_no_kami_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_local_decision_desc
+	confirm_text = gain_court_post_local_decision_confirm
+	selection_tooltip = gain_court_post_local_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_local_trigger = yes
+		is_shii_or_goi_trigger = yes
+		is_under_seventh_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_suo_no_kami } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 200 }
+	}
+
+	effect = {
+		give_nickname = nick_the_suo_no_kami
+		add_character_flag = eighth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			add = 100
+			has_title = title:d_shgnt_suo
+		}
+	}
+}
+
+# Kii no Kami
+gain_court_post_kii_no_kami_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_local_decision_desc
+	confirm_text = gain_court_post_local_decision_confirm
+	selection_tooltip = gain_court_post_local_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_local_trigger = yes
+		is_shii_or_goi_trigger = yes
+		is_under_seventh_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_kii_no_kami } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 200 }
+	}
+
+	effect = {
+		give_nickname = nick_the_kii_no_kami
+		add_character_flag = eighth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			add = 100
+			has_title = title:d_shgnt_kii
+		}
+	}
+}
+
+# Awa no Kami
+gain_court_post_awa_no_kami_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_local_decision_desc
+	confirm_text = gain_court_post_local_decision_confirm
+	selection_tooltip = gain_court_post_local_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_local_trigger = yes
+		is_shii_or_goi_trigger = yes
+		is_under_seventh_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_awa_no_kami } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 200 }
+	}
+
+	effect = {
+		give_nickname = nick_the_awa_no_kami
+		add_character_flag = eighth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			add = 100
+			has_title = title:d_shgnt_awa
+		}
+	}
+}
+
+# Sanuki no Kami
+gain_court_post_sanuki_no_kami_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_local_decision_desc
+	confirm_text = gain_court_post_local_decision_confirm
+	selection_tooltip = gain_court_post_local_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_local_trigger = yes
+		is_shii_or_goi_trigger = yes
+		is_under_seventh_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_sanuki_no_kami } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 200 }
+	}
+
+	effect = {
+		give_nickname = nick_the_sanuki_no_kami
+		add_character_flag = eighth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			add = 100
+			has_title = title:d_shgnt_sanuki
+		}
+	}
+}
+
+# Iyo no Kami
+gain_court_post_iyo_no_kami_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_local_decision_desc
+	confirm_text = gain_court_post_local_decision_confirm
+	selection_tooltip = gain_court_post_local_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_local_trigger = yes
+		is_shii_or_goi_trigger = yes
+		is_under_seventh_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_iyo_no_kami } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 200 }
+	}
+
+	effect = {
+		give_nickname = nick_the_iyo_no_kami
+		add_character_flag = eighth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			add = 100
+			has_title = title:d_shgnt_iyo
+		}
+	}
+}
+
+# Buzen no Kami
+gain_court_post_buzen_no_kami_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_local_decision_desc
+	confirm_text = gain_court_post_local_decision_confirm
+	selection_tooltip = gain_court_post_local_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_local_trigger = yes
+		is_shii_or_goi_trigger = yes
+		is_under_seventh_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_buzen_no_kami } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 200 }
+	}
+
+	effect = {
+		give_nickname = nick_the_buzen_no_kami
+		add_character_flag = eighth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			add = 100
+			has_title = title:d_shgnt_buzen
+		}
+	}
+}
+
+# Bungo no Kami
+gain_court_post_bungo_no_kami_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_local_decision_desc
+	confirm_text = gain_court_post_local_decision_confirm
+	selection_tooltip = gain_court_post_local_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_local_trigger = yes
+		is_shii_or_goi_trigger = yes
+		is_under_seventh_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_bungo_no_kami } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 200 }
+	}
+
+	effect = {
+		give_nickname = nick_the_bungo_no_kami
+		add_character_flag = eighth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			add = 100
+			has_title = title:d_shgnt_bungo
+		}
+	}
+}
+
+# Chikuzen no Kami
+gain_court_post_chikuzen_no_kami_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_local_decision_desc
+	confirm_text = gain_court_post_local_decision_confirm
+	selection_tooltip = gain_court_post_local_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_local_trigger = yes
+		is_shii_or_goi_trigger = yes
+		is_under_seventh_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_chikuzen_no_kami } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 200 }
+	}
+
+	effect = {
+		give_nickname = nick_the_chikuzen_no_kami
+		add_character_flag = eighth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			add = 100
+			has_title = title:d_shgnt_chikuzen
+		}
+	}
+}
+
+# Chikugo no Kami
+gain_court_post_chikugo_no_kami_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_local_decision_desc
+	confirm_text = gain_court_post_local_decision_confirm
+	selection_tooltip = gain_court_post_local_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_local_trigger = yes
+		is_shii_or_goi_trigger = yes
+		is_under_seventh_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_chikugo_no_kami } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 200 }
+	}
+
+	effect = {
+		give_nickname = nick_the_chikugo_no_kami
+		add_character_flag = eighth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			add = 100
+			has_title = title:d_shgnt_chikugo
+		}
+	}
+}
+
+# Hizen no Kami
+gain_court_post_hizen_no_kami_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_local_decision_desc
+	confirm_text = gain_court_post_local_decision_confirm
+	selection_tooltip = gain_court_post_local_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_local_trigger = yes
+		is_shii_or_goi_trigger = yes
+		is_under_seventh_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_hizen_no_kami } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 200 }
+	}
+
+	effect = {
+		give_nickname = nick_the_hizen_no_kami
+		add_character_flag = eighth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			add = 100
+			has_title = title:d_shgnt_hizen
+		}
+	}
+}
+
+# Boshu no Kami
+gain_court_post_boshu_no_kami_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_local_decision_desc
+	confirm_text = gain_court_post_local_decision_confirm
+	selection_tooltip = gain_court_post_local_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_local_trigger = yes
+		is_shii_or_goi_trigger = yes
+		is_under_seventh_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_boshu_no_kami } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 200 }
+	}
+
+	effect = {
+		give_nickname = nick_the_boshu_no_kami
+		add_character_flag = eighth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			add = 100
+			has_title = title:d_shgnt_boshu
+		}
+	}
+}
+
+# Wakasa no Kami
+gain_court_post_wakasa_no_kami_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_local_decision_desc
+	confirm_text = gain_court_post_local_decision_confirm
+	selection_tooltip = gain_court_post_local_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_local_trigger = yes
+		is_shii_or_goi_trigger = yes
+		is_under_seventh_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_wakasa_no_kami } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 200 }
+	}
+
+	effect = {
+		give_nickname = nick_the_wakasa_no_kami
+		add_character_flag = eighth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			add = 100
+			has_title = title:d_shgnt_wakasa
+		}
+	}
+}
+
+# Noto no Kami
+gain_court_post_noto_no_kami_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_local_decision_desc
+	confirm_text = gain_court_post_local_decision_confirm
+	selection_tooltip = gain_court_post_local_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_local_trigger = yes
+		is_shii_or_goi_trigger = yes
+		is_under_seventh_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_noto_no_kami } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 200 }
+	}
+
+	effect = {
+		give_nickname = nick_the_noto_no_kami
+		add_character_flag = eighth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			add = 100
+			has_title = title:d_shgnt_noto
+		}
+	}
+}
+
+# Sado no Kami
+gain_court_post_sado_no_kami_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_local_decision_desc
+	confirm_text = gain_court_post_local_decision_confirm
+	selection_tooltip = gain_court_post_local_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_local_trigger = yes
+		is_shii_or_goi_trigger = yes
+		is_under_seventh_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_sado_no_kami } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 200 }
+	}
+
+	effect = {
+		give_nickname = nick_the_sado_no_kami
+		add_character_flag = eighth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			add = 100
+			has_title = title:d_shgnt_sado
+		}
+	}
+}
+
+# Tango no Kami
+gain_court_post_tango_no_kami_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_local_decision_desc
+	confirm_text = gain_court_post_local_decision_confirm
+	selection_tooltip = gain_court_post_local_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_local_trigger = yes
+		is_shii_or_goi_trigger = yes
+		is_under_seventh_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_tango_no_kami } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 200 }
+	}
+
+	effect = {
+		give_nickname = nick_the_tango_no_kami
+		add_character_flag = eighth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			add = 100
+			has_title = title:d_shgnt_tango
+		}
+	}
+}
+
+# Iwami no Kami
+gain_court_post_iwami_no_kami_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_local_decision_desc
+	confirm_text = gain_court_post_local_decision_confirm
+	selection_tooltip = gain_court_post_local_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_local_trigger = yes
+		is_shii_or_goi_trigger = yes
+		is_under_seventh_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_iwami_no_kami } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 200 }
+	}
+
+	effect = {
+		give_nickname = nick_the_iwami_no_kami
+		add_character_flag = eighth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			add = 100
+			has_title = title:d_shgnt_iwami
+		}
+	}
+}
+
+# Nagato no Kami
+gain_court_post_nagato_no_kami_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_local_decision_desc
+	confirm_text = gain_court_post_local_decision_confirm
+	selection_tooltip = gain_court_post_local_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_local_trigger = yes
+		is_shii_or_goi_trigger = yes
+		is_under_seventh_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_nagato_no_kami } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 200 }
+	}
+
+	effect = {
+		give_nickname = nick_the_nagato_no_kami
+		add_character_flag = eighth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			add = 100
+			has_title = title:d_shgnt_nagato
+		}
+	}
+}
+
+# Tosa no Kami
+gain_court_post_tosa_no_kami_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_local_decision_desc
+	confirm_text = gain_court_post_local_decision_confirm
+	selection_tooltip = gain_court_post_local_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_local_trigger = yes
+		is_shii_or_goi_trigger = yes
+		is_under_seventh_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_tosa_no_kami } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 200 }
+	}
+
+	effect = {
+		give_nickname = nick_the_tosa_no_kami
+		add_character_flag = eighth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			add = 100
+			has_title = title:d_shgnt_tosa
+		}
+	}
+}
+
+# Hyuga no Kami
+gain_court_post_hyuga_no_kami_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_local_decision_desc
+	confirm_text = gain_court_post_local_decision_confirm
+	selection_tooltip = gain_court_post_local_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_local_trigger = yes
+		is_shii_or_goi_trigger = yes
+		is_under_seventh_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_hyuga_no_kami } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 200 }
+	}
+
+	effect = {
+		give_nickname = nick_the_hyuga_no_kami
+		add_character_flag = eighth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			add = 100
+			has_title = title:d_shgnt_hyuga
+		}
+	}
+}
+
+# Osumi no Kami
+gain_court_post_osumi_no_kami_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_local_decision_desc
+	confirm_text = gain_court_post_local_decision_confirm
+	selection_tooltip = gain_court_post_local_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_local_trigger = yes
+		is_shii_or_goi_trigger = yes
+		is_under_seventh_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_osumi_no_kami } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 200 }
+	}
+
+	effect = {
+		give_nickname = nick_the_osumi_no_kami
+		add_character_flag = eighth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			add = 100
+			has_title = title:d_shgnt_osumi
+		}
+	}
+}
+
+# Satsuma no Kami
+gain_court_post_satsuma_no_kami_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_local_decision_desc
+	confirm_text = gain_court_post_local_decision_confirm
+	selection_tooltip = gain_court_post_local_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_local_trigger = yes
+		is_shii_or_goi_trigger = yes
+		is_under_seventh_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_satsuma_no_kami } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 200 }
+	}
+
+	effect = {
+		give_nickname = nick_the_satsuma_no_kami
+		add_character_flag = eighth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			add = 100
+			has_title = title:d_shgnt_satsuma
+		}
+	}
+}
+
+# Izumi no Kami
+gain_court_post_izumi_no_kami_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_local_decision_desc
+	confirm_text = gain_court_post_local_decision_confirm
+	selection_tooltip = gain_court_post_local_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_local_trigger = yes
+		is_shii_or_goi_trigger = yes
+		is_under_seventh_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_izumi_no_kami } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 200 }
+	}
+
+	effect = {
+		give_nickname = nick_the_izumi_no_kami
+		add_character_flag = eighth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			add = 100
+			has_title = title:d_shgnt_izumi
+		}
+	}
+}
+
+# Iga no Kami
+gain_court_post_iga_no_kami_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_local_decision_desc
+	confirm_text = gain_court_post_local_decision_confirm
+	selection_tooltip = gain_court_post_local_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_local_trigger = yes
+		is_shii_or_goi_trigger = yes
+		is_under_seventh_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_iga_no_kami } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 200 }
+	}
+
+	effect = {
+		give_nickname = nick_the_iga_no_kami
+		add_character_flag = eighth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			add = 100
+			has_title = title:d_shgnt_iga
+		}
+	}
+}
+
+# Shima no Kami
+gain_court_post_shima_no_kami_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_local_decision_desc
+	confirm_text = gain_court_post_local_decision_confirm
+	selection_tooltip = gain_court_post_local_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_local_trigger = yes
+		is_shii_or_goi_trigger = yes
+		is_under_seventh_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_shima_no_kami } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 200 }
+	}
+
+	effect = {
+		give_nickname = nick_the_shima_no_kami
+		add_character_flag = eighth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			add = 100
+			has_title = title:d_shgnt_shima
+		}
+	}
+}
+
+# Izu no Kami
+gain_court_post_izu_no_kami_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_local_decision_desc
+	confirm_text = gain_court_post_local_decision_confirm
+	selection_tooltip = gain_court_post_local_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_local_trigger = yes
+		is_shii_or_goi_trigger = yes
+		is_under_seventh_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_izu_no_kami } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 200 }
+	}
+
+	effect = {
+		give_nickname = nick_the_izu_no_kami
+		add_character_flag = eighth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			add = 100
+			has_title = title:d_shgnt_izu
+		}
+	}
+}
+
+# Hida no Kami
+gain_court_post_hida_no_kami_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_local_decision_desc
+	confirm_text = gain_court_post_local_decision_confirm
+	selection_tooltip = gain_court_post_local_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_local_trigger = yes
+		is_shii_or_goi_trigger = yes
+		is_under_seventh_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_hida_no_kami } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 200 }
+	}
+
+	effect = {
+		give_nickname = nick_the_hida_no_kami
+		add_character_flag = eighth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			add = 100
+			has_title = title:d_shgnt_hida
+		}
+	}
+}
+
+# Oki no Kami
+gain_court_post_oki_no_kami_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_local_decision_desc
+	confirm_text = gain_court_post_local_decision_confirm
+	selection_tooltip = gain_court_post_local_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_local_trigger = yes
+		is_shii_or_goi_trigger = yes
+		is_under_seventh_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_oki_no_kami } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 200 }
+	}
+
+	effect = {
+		give_nickname = nick_the_oki_no_kami
+		add_character_flag = eighth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			add = 100
+			has_title = title:d_shgnt_oki
+		}
+	}
+}
+
+# Awaji no Kami
+gain_court_post_awaji_no_kami_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_local_decision_desc
+	confirm_text = gain_court_post_local_decision_confirm
+	selection_tooltip = gain_court_post_local_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_local_trigger = yes
+		is_shii_or_goi_trigger = yes
+		is_under_seventh_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_awaji_no_kami } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 200 }
+	}
+
+	effect = {
+		give_nickname = nick_the_awaji_no_kami
+		add_character_flag = eighth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			add = 100
+			has_title = title:d_shgnt_awaji
+		}
+	}
+}
+
+# Iki no Kami
+gain_court_post_iki_no_kami_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_local_decision_desc
+	confirm_text = gain_court_post_local_decision_confirm
+	selection_tooltip = gain_court_post_local_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_local_trigger = yes
+		is_shii_or_goi_trigger = yes
+		is_under_seventh_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_iki_no_kami } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 200 }
+	}
+
+	effect = {
+		give_nickname = nick_the_iki_no_kami
+		add_character_flag = eighth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			add = 100
+			has_title = title:d_shgnt_iki
+		}
+	}
+}
+
+# Tsushima no Kami
+gain_court_post_tsushima_no_kami_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_local_decision_desc
+	confirm_text = gain_court_post_local_decision_confirm
+	selection_tooltip = gain_court_post_local_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_local_trigger = yes
+		is_shii_or_goi_trigger = yes
+		is_under_seventh_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_tsushima_no_kami } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 200 }
+	}
+
+	effect = {
+		give_nickname = nick_the_tsushima_no_kami
+		add_character_flag = eighth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			add = 100
+			has_title = title:d_shgnt_tsushima
+		}
+	}
+}

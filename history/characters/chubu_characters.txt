@@ -7742,10 +7742,26 @@
 			set_realm_capital=title:c_shgnt_watarai
 		}
 	}
+	1575.01.01={
+		effect={
+			add_opinion = {
+				target = character:10029120 # 織田信長
+				modifier = received_title_duchy # 公爵領を与えられた
+			}
+		}
+	}
 	1575.2.1={
 		effect = {
 			remove_trait = "jugoi_ge"
 			add_trait = "shogoi_ge"
+		}
+	}
+	1581.11.06={
+		effect={
+			add_opinion = {
+				target = character:10029120 # 織田信長
+				modifier = received_title_duchy # 公爵領を与えられた
+			}
 		}
 	}
 	1585.3.1={
@@ -8274,6 +8290,14 @@
 	}
 	1575.7.23={
 		give_nickname="nick_nagato_no_kami"
+	}
+	1573.08.25={
+		effect={
+			add_opinion = {
+				target = character:10029120 # 織田信長
+				modifier = received_title_duchy # 公爵領を与えられた
+			}
+		}
 	}
 	1582.6.21={
 		death=yes
@@ -10272,8 +10296,8 @@
 	}
 }
 10029400 = {
-	name=character_name_10029400 # Tokichiro
-	dynasty=10000282 # Kinoshita
+	name=character_name_10029400 # Tokichiro, 藤吉郎
+	dynasty=10000282 # Kinoshita, 木下
 	religion="shinto"
 	culture="western_chubu"
 	father=10029404 # Kinoshita Yaemon
@@ -10293,6 +10317,8 @@
 	fertility = 0.2
 	1537.3.17={
 		birth=yes
+		employer=10029100 # 織田信秀
+		move_to_pool=yes
 	}
 	1553.3.17={
 		give_nickname="nick_tokichiro"
@@ -10410,6 +10436,8 @@
 	prowess=12
 	1540.4.8={
 		birth=yes
+		employer=10029100 # 織田信秀
+		move_to_pool=yes
 	}
 	1556.4.8={
 		give_nickname="nick_Koichiro"
@@ -10443,6 +10471,8 @@
 	culture="western_chubu"
 	1534.1.1={
 		birth=yes
+		employer=10029100 # 織田信秀
+		move_to_pool=yes
 	}
 	1570.8.9={
 		employer = 10029400 # Hashiba Hideyoshi
@@ -10467,6 +10497,8 @@
 	culture="western_chubu"
 	1543.1.1={
 		birth=yes
+		employer=10029100 # 織田信秀
+		move_to_pool=yes
 	}
 	1570.8.9={
 		employer = 10029400 # Hashiba Hideyoshi
@@ -10490,6 +10522,8 @@
 	learning=1
 	1510.1.1={
 		birth=yes
+		employer=10029100 # 織田信秀
+		move_to_pool=yes
 	}
 	1533.1.1={
 		add_spouse=10029405 # Naka
@@ -10515,6 +10549,10 @@
 	1516.1.1={
 		birth=yes
 	}
+	1533.1.1={
+		employer=10029100 # 織田信秀
+		move_to_pool=yes
+	}
 	1570.8.9={
 		employer = 10029400 # Hashiba Hideyoshi
 	}
@@ -10530,6 +10568,8 @@
 	learning=2
 	1480.1.1={
 		birth=yes
+		employer=10029100 # 織田信秀
+		move_to_pool=yes
 	}
 	1520.1.1={
 		death=yes

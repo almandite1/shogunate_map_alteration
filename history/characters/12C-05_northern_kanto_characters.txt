@@ -439,7 +439,7 @@
 	1380.1.1={
 		birth=yes
 	}
-	1429.1.1={
+	1430.01.07={ # 永享元(1429-1430)年十二月十三日
 		death={
 			death_reason=death_murder
 			killer=10040061 # Ashikaga Mochiuji
@@ -698,7 +698,7 @@
 	}
 }
 12120345={
-	name=character_name_12120345 # Hidemoto
+	name=character_name_12120345 # Hidemoto, 秀幹
 #	dynasty=10000103 # Makabe
 	dynasty_house = "house_shgnt_makabe"
 	father=12120340 # Makabe Akimoto
@@ -2632,16 +2632,19 @@
 	}
 }
 12122200={
-	name=character_name_12122200 # Tomoyoshi
+	name=character_name_12122200 # Tomoyoshi, 与義
 	dynasty=10000108 # Satake
-	father=12122121 # Satake Moroyoshi
+	father=12122121 # Satake Moroyoshi、佐竹師義
 	religion="shinto"
 	culture="northern_kanto"
 	1360.1.1={
 		birth=yes
 	}
 	1422.11.27={
-		death=yes
+		death={
+			death_reason=death_suicide # 自害
+			killer=10040061 # 足利持氏の討伐
+		}
 	}
 }
 12122201={

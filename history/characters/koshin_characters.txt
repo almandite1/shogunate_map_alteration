@@ -50,7 +50,8 @@
 }
 10020001={
 	name=character_name_10020001 # Nobutomo
-	dynasty=10000201 # Katsunuma
+#	dynasty=10000201 # Katsunuma
+	dynasty_house="house_shgnt_takeda_katsunuma"
 	father=12360230 # Takeda Nobutsuna
 	religion="shinto"
 	culture="koshin"
@@ -722,15 +723,17 @@
 		add_matrilineal_spouse=10021707 # daughter of Nishina Morimasa
 	}
 	1577.11.1={
-		dynasty=10000217 # Nishina
+		#dynasty=10000217 # Nishina
+		dynasty_house="house_shgnt_takeda_nishina"
 		add_spouse=10021707
 		effect = {
 			change_first_name = character_name_10020035_1 # Morinobu
 		}
 	}
 	1582.3.25={
-		remove_spouse=10021707
+		#remove_spouse=10021707
 		death={
+			death_reason=death_battle
 			killer = 10029160 # Oda Nobutada
 		}
 	}
@@ -746,7 +749,8 @@
 		birth=yes
 	}
 	1572.1.1={
-		dynasty=10000236 # Katsurayama
+		#dynasty=10000236 # Katsurayama
+		dynasty_house="house_shgnt_takeda_katsurayama"
 		add_spouse=10023602 # Katsurayama Fuchi
 	}
 	1582.4.3={
@@ -837,7 +841,8 @@
 }
 10020045={
 	name=character_name_10020045 # Nobuyori
-	dynasty=10006161 # Mochiduki
+	#dynasty=10006161 # Mochiduki
+	dynasty_house="house_shgnt_takeda_mochizuki"
 	father=10020011 # Takeda Nobushige
 	mother=12380588 # Mochiduki Totomi
 	religion="shinto"
@@ -885,7 +890,8 @@
 }
 10020047={
 	name=character_name_10020047 # Nobunaga
-	dynasty=10006161 # Mochiduki
+	#dynasty=10006161 # Mochiduki
+	dynasty_house="house_shgnt_takeda_mochizuki"
 	father=10020011 # Takeda Nobushige
 	mother=12380588 # Mochiduki Totomi
 	religion="shinto"
@@ -918,7 +924,8 @@
 }
 10020050={
 	name=character_name_10020050 # Nobusuke
-	dynasty=10000219 # Anayama
+#	dynasty=10000219 # Anayama
+	dynasty_house="house_shgnt_takeda_anayama"
 	father=12360200 # Takeda Nobushige
 	religion="shinto"
 	culture="koshin"
@@ -931,7 +938,8 @@
 }
 10020051={
 	name=character_name_10020051 # Nobuto
-	dynasty=10000219 # Anayama
+#	dynasty=10000219 # Anayama
+	dynasty_house="house_shgnt_takeda_anayama"
 	father=10020050 # Anayama Nobusuke
 	religion="shinto"
 	culture="koshin"
@@ -947,7 +955,8 @@
 }
 10020052={
 	name=character_name_10020052 # Nobukaze
-	dynasty=10000219 # Anayama
+#	dynasty=10000219 # Anayama
+	dynasty_house="house_shgnt_takeda_anayama"
 	father=10020051 # Anayama Nobuto
 	religion="shinto"
 	culture="koshin"
@@ -960,7 +969,8 @@
 }
 10020053={
 	name=character_name_10020053 # Seigoro
-	dynasty=10000219 # Anayama
+#	dynasty=10000219 # Anayama
+	dynasty_house="house_shgnt_takeda_anayama"
 	father=10020051 # Anayama Nobuto
 	religion="shinto"
 	culture="koshin"
@@ -974,7 +984,8 @@
 10020054={
 	female=yes
 	name=character_name_10020054 # Hosaka
-	dynasty=10000219 # Anayama
+#	dynasty=10000219 # Anayama
+	dynasty_house="house_shgnt_takeda_anayama"
 	father=10020051 # Anayama Nobuto
 	religion="shinto"
 	culture="koshin"
@@ -987,7 +998,8 @@
 }
 10020055={
 	name=character_name_10020055 # Nobutomo
-	dynasty=10000219 # Anayama
+#	dynasty=10000219 # Anayama
+	dynasty_house="house_shgnt_takeda_anayama"
 	father=10020052 # Anayama Nobukaze
 	religion="shinto"
 	culture="koshin"
@@ -1006,7 +1018,8 @@
 }
 10020056={
 	name=character_name_10020056 # Nobutada
-	dynasty=10000219 # Anayama
+#	dynasty=10000219 # Anayama
+	dynasty_house="house_shgnt_takeda_anayama"
 	father=10020055 # Anayama Nobutomo
 	mother=10020021 # Takeda Nansho-in, daughter of 20000:Takeda Nobutora
 	religion="shinto"
@@ -1033,7 +1046,8 @@
 }
 10020057={
 	name=character_name_10020057 # Nobuyoshi
-	dynasty=10000219 # Anayama
+#	dynasty=10000219 # Anayama
+	dynasty_house="house_shgnt_takeda_anayama"
 	father=10020055 # Anayama Nobutomo
 	mother=10020021 # Takeda Nansho-in, daughter of 20000:Takeda Nobutora
 	religion="shinto"
@@ -1049,7 +1063,8 @@
 }
 10020058={
 	name=character_name_10020058 # Nobuharu
-	dynasty=10000219 # Anayama
+#	dynasty=10000219 # Anayama
+	dynasty_house="house_shgnt_takeda_anayama"
 	father=10020056 # Anayama Nobutada
 	mother=10020032 # Takeda Kensho-in, 20010:Takeda Shingen
 	religion="shinto"
@@ -1064,7 +1079,8 @@
 10020059={
 	female=yes
 	name=character_name_10020059 # Maki
-	dynasty=10000219 # Anayama
+#	dynasty=10000219 # Anayama
+	dynasty_house="house_shgnt_takeda_anayama"
 	father=10020056 # Anayama Nobutada
 	religion="shinto"
 	culture="koshin"
@@ -2597,7 +2613,8 @@
 }
 10020300={
 	name=character_name_10020300 # Nobumoto
-	dynasty=10000201 # Katsunuma
+#	dynasty=10000201 # Katsunuma
+	dynasty_house="house_shgnt_takeda_katsunuma"
 	father=10020001 # Katsunuma Nobutomo
 	religion="shinto"
 	culture="koshin"
@@ -2610,7 +2627,8 @@
 }
 10020301={
 	name=character_name_10020301 # Nobuatsu
-	dynasty=10000201 # Katsunuma
+#	dynasty=10000201 # Katsunuma
+	dynasty_house="house_shgnt_takeda_katsunuma"
 	father=10020001 # Katsunuma Nobutomo
 	religion="shinto"
 	culture="koshin"
@@ -2624,7 +2642,8 @@
 10020302={
 	name=character_name_10020302 # Matsuba
 	female=yes
-	dynasty=10000201 # Katsunuma
+#	dynasty=10000201 # Katsunuma
+	dynasty_house="house_shgnt_takeda_katsunuma"
 	father=10020001 # Katsunuma Nobutomo
 	religion="shinto"
 	culture="koshin"
@@ -2637,7 +2656,8 @@
 }
 10020310={
 	name=character_name_10020310 # Nobutomo
-	dynasty=10000202 # Aburakawa
+#	dynasty=10000202 # Aburakawa
+	dynasty_house="house_shgnt_takeda_aburakawa"
 	father=12360231 # Aburakawa Nobuyoshi
 	religion="shinto"
 	culture="koshin"
@@ -2650,7 +2670,8 @@
 }
 10020311={
 	name=character_name_10020311 # Nobumori
-	dynasty=10000202 # Aburakawa
+#	dynasty=10000202 # Aburakawa
+	dynasty_house="house_shgnt_takeda_aburakawa"
 	father=12360231 # Aburakawa Nobuyoshi
 	religion="shinto"
 	culture="koshin"
@@ -2666,7 +2687,8 @@
 }
 10020312={
 	name=character_name_10020312 # Nobutsura
-	dynasty=10000202 # Aburakawa
+#	dynasty=10000202 # Aburakawa
+	dynasty_house="house_shgnt_takeda_aburakawa"
 	father=10020310 # Aburakawa Nobutomo
 	religion="shinto"
 	culture="koshin"
@@ -2680,7 +2702,8 @@
 10020313={
 	name=character_name_10020313 # Eri
 	female=yes
-	dynasty=10000202 # Aburakawa
+#	dynasty=10000202 # Aburakawa
+	dynasty_house="house_shgnt_takeda_aburakawa"
 	father=10020311 # Aburakawa Nobumori
 	mother=10020005 # Takeda Kasumi
 	religion="shinto"
@@ -2694,7 +2717,8 @@
 }
 10020320={
 	name=character_name_10020320 # Haruaki
-	dynasty=10000203 # Oi
+#	dynasty=10000203 # Oi
+	dynasty_house="house_shgnt_takeda_oi"
 	father=12360173 # Oi Nobuaki
 	religion="shinto"
 	culture="koshin"
@@ -2707,7 +2731,8 @@
 }
 10020321={
 	name=character_name_10020321 # Nobuie
-	dynasty=10000203 # Oi
+#	dynasty=10000203 # Oi
+	dynasty_house="house_shgnt_takeda_oi"
 	father=10020320 # Oi Haruaki
 	religion="shinto"
 	culture="koshin"
@@ -2720,7 +2745,8 @@
 }
 10020322={
 	name=character_name_10020322 # Nobufusa
-	dynasty=10000203 # Oi
+#	dynasty=10000203 # Oi
+	dynasty_house="house_shgnt_takeda_oi"
 	father=10020321 # Oi Nobuie
 	religion="shinto"
 	culture="koshin"
@@ -2733,7 +2759,8 @@
 }
 10020323={
 	name=character_name_10020323 # Nobukane
-	dynasty=10000203 # Oi
+#	dynasty=10000203 # Oi
+	dynasty_house="house_shgnt_takeda_oi"
 	father=10020322 # Oi Nobufusa
 	religion="shinto"
 	culture="koshin"
@@ -2746,7 +2773,8 @@
 }
 10020324={
 	name=character_name_10020324 # Nobusato
-	dynasty=10000203 # Oi
+#	dynasty=10000203 # Oi
+	dynasty_house="house_shgnt_takeda_oi"
 	father=10020323 # Oi Nobukane
 	religion="shinto"
 	culture="koshin"
@@ -2765,7 +2793,8 @@
 }
 10020325={
 	name=character_name_10020325 # Nobunari
-	dynasty=10000203 # Oi
+#	dynasty=10000203 # Oi
+	dynasty_house="house_shgnt_takeda_oi"
 	father=10020324 # Oi Nobusato
 	religion="shinto"
 	culture="koshin"
@@ -2783,7 +2812,8 @@
 10020326={
 	name=character_name_10020326 # Zuiun-in
 	female=yes
-	dynasty=10000203 # Oi
+#	dynasty=10000203 # Oi
+	dynasty_house="house_shgnt_takeda_oi"
 	father=10020324 # Oi Nobusato
 	religion="shinto"
 	culture="koshin"
@@ -2796,7 +2826,8 @@
 }
 10020327={
 	name=character_name_10020327 # Nobutsune
-	dynasty=10000203 # Oi
+#	dynasty=10000203 # Oi
+	dynasty_house="house_shgnt_takeda_oi"
 	father=10020324 # Oi Nobusato
 	religion="shinto"
 	culture="koshin"
@@ -2809,7 +2840,8 @@
 }
 10020328={
 	name=character_name_10020328 # Nobutaka
-	dynasty=10000203 # Oi
+#	dynasty=10000203 # Oi
+	dynasty_house="house_shgnt_takeda_oi"
 	father=10020324 # Oi Nobusato
 	religion="shinto"
 	culture="koshin"
@@ -2822,7 +2854,8 @@
 }
 10020329={
 	name=character_name_10020329 # Nobutame
-	dynasty=10000203 # Oi
+#	dynasty=10000203 # Oi
+	dynasty_house="house_shgnt_takeda_oi"
 	father=10020325 # Oi Nobunari
 	religion="shinto"
 	culture="koshin"
@@ -2835,7 +2868,8 @@
 }
 10020340={
 	name=character_name_10020340 # Nobutsune
-	dynasty=10000204 # Imai
+#	dynasty=10000204 # Imai
+	dynasty_house="house_shgnt_takeda_imai"
 	father=12360201 # Imai Nobukage
 	religion="shinto"
 	culture="koshin"
@@ -2848,7 +2882,8 @@
 }
 10020341={
 	name=character_name_10020341 # Nobuyoshi
-	dynasty=10000204 # Imai
+#	dynasty=10000204 # Imai
+	dynasty_house="house_shgnt_takeda_imai"
 	father=10020340 # Imai Nobutsune
 	religion="shinto"
 	culture="koshin"
@@ -2861,7 +2896,8 @@
 }
 10020342={
 	name=character_name_10020342 # Nobukore
-	dynasty=10000204 # Imai
+#	dynasty=10000204 # Imai
+	dynasty_house="house_shgnt_takeda_imai"
 	father=10020341 # Imai Nobuyoshi
 	religion="shinto"
 	culture="koshin"
@@ -2877,7 +2913,8 @@
 }
 10020343={
 	name=character_name_10020343 # Nobumoto
-	dynasty=10000204 # Imai
+#	dynasty=10000204 # Imai
+	dynasty_house="house_shgnt_takeda_imai"
 	father=10020342 # Imai Nobukore
 	religion="shinto"
 	culture="koshin"
@@ -2893,7 +2930,8 @@
 }
 10020344={
 	name=character_name_10020344 # Nobuchika
-	dynasty=10000204 # Imai
+#	dynasty=10000204 # Imai
+	dynasty_house="house_shgnt_takeda_imai"
 	father=10020342 # Imai Nobukore
 	religion="shinto"
 	culture="koshin"
@@ -2906,7 +2944,8 @@
 }
 10020345={
 	name=character_name_10020345 # Nobumasa
-	dynasty=10000204 # Imai
+#	dynasty=10000204 # Imai
+	dynasty_house="house_shgnt_takeda_imai"
 	father=10020344 # Imai Nobuchika
 	religion="shinto"
 	culture="koshin"
@@ -2919,7 +2958,8 @@
 }
 10020346={
 	name=character_name_10020346 # Nobutoshi
-	dynasty=10000204 # Imai
+#	dynasty=10000204 # Imai
+	dynasty_house="house_shgnt_takeda_imai"
 	father=10020345 # Imai Nobumasa
 	religion="shinto"
 	culture="koshin"
@@ -3168,7 +3208,8 @@
 }
 10021050={
 	name=character_name_10021050 # Yorichika
-	dynasty=10007165 # Fujisawa
+#	dynasty=10007165 # Fujisawa
+	dynasty_house="house_shgnt_suwa_fujisawa"
 	father=12376131 # Fujisawa Takachika
 	religion="shinto"
 	culture="koshin"
@@ -3183,7 +3224,8 @@
 }
 10021051={
 	name=character_name_10021051 # Yorihiro
-	dynasty=10007165 # Fujisawa
+#	dynasty=10007165 # Fujisawa
+	dynasty_house="house_shgnt_suwa_fujisawa"
 	father=10021050 # Fujisawa Yorichika
 	mother=10021409 # Ogasawara Mine
 	religion="shinto"

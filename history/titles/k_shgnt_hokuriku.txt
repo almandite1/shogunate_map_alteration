@@ -2900,6 +2900,9 @@ d_shgnt_echizen = {
     }
 }
 d_shgnt_etchu = {
+    0702.10.14={
+		liege="e_shgnt_tenno"
+	}
     0791.07.15 = {
         holder = 11005020 # Fujiwara Takakai {Etchu no Kami}
     }
@@ -2990,9 +2993,18 @@ d_shgnt_etchu = {
     1460.10.04 = {
         holder = 10048121 # Hatakeyama Masanaga
     }
+    1467.6.27={ # Onin war
+		liege = "e_shgnt_japan" # Onin War
+	}
+    1493.5.8={ # Meiou Coup
+		liege=0
+	}
     1493.06.09 = {
         holder = 10048123 # Hatakeyama Hisanobu
     }
+    1508.7.28={
+		liege="e_shgnt_japan"
+	}
     1522.09.07 = {
         liege = 0 # 
         holder = 0 # Hatakeyama Clan lost the control of Etchu
@@ -3001,6 +3013,9 @@ d_shgnt_etchu = {
         liege = e_shgnt_japan # 29120 Oda Nobunaga
         holder = 10029350 # Sassa Narimasa
     }
+    1582.6.21={ # Honno-ji Incident
+		liege="k_shgnt_hokuriku"
+	}
 }
 d_shgnt_kaga = {
     0831.01.22 = {

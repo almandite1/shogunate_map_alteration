@@ -238,7 +238,7 @@ NCharacter = {
 	PARTITION_SCORE_PER_OTHER_COUNTY = 1	# How much score does a county another heir owns take away in Partition when selecting a title? The higher this is, the more we encourage getting a title that other heirs don't have land in
 
 	# How many concubines does a ruler of a given tier desire if their faith allows concubines
-	DESIRED_CONCUBINES_PER_TIER = { 0 0 1 2 2 3 }
+	DESIRED_CONCUBINES_PER_TIER = { 0 0 0 1 2 3 }
 	PRESTIGE_LOSS_PER_MISSING_CONCUBINE = 0.1 # Monthly prestige loss per missing (fertile) concubine
 
 	DEBT_MODIFIER_THRESHOLDS = { # When do the debt modifiers kick in, by months of income of debt
@@ -502,8 +502,8 @@ NCombat = {
 }
 
 NArmy = {
-	MOVEMENT_SPEED_RETREAT = 9					# Movement speed while retreating
-	MOVEMENT_SPEED = 6								# Normal movement speed
+	MOVEMENT_SPEED_RETREAT = 9					    # Movement speed while retreating 退却時の移動速度
+	MOVEMENT_SPEED = 6								# Normal movement speed 通常の移動速度
 	MOVEMENT_SPEED_BONUS_FRIENDLY_AREA = 0.2		# In friendly areas you get a 20% speed bonus
 	REGIMENT_MONTHLY_REINFORCE_SPEED = 0.03			# Monthly reinforcement percentage of unraised chunks [0-1]
 	REGIMENT_MONTHLY_MAA_REINFORCE_SPEED = 0.1		# Monthly reinforcement percentage of unraised MAA chunks [0-1]

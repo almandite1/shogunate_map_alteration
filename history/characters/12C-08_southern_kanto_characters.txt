@@ -295,13 +295,16 @@
 	}
 }
 12211002={
-	name=character_name_12211002 # Tametsugu
+	name=character_name_12211002 # Tametsugu, 『系図纂要』は「為継」、『源平闘諍録』では「為次」
 	dynasty=10007063 # Miura
 	father=12211000 # Miura Tamemichi
 	religion="shinto"
 	culture="southern_kanto"
 	1049.1.1={
 		birth=yes
+	}
+	1065.01.01={
+		give_nickname = "nick_Heitaro" # 後三年合戦で「三浦の平太郎為次」（『奥州後三年記』）
 	}
 	1109.1.1={
 		death=yes
@@ -347,13 +350,16 @@
 	}
 }
 12211010={
-	name=character_name_12211010 # Yoshitsugu
+	name=character_name_12211010 # Yoshitsugu,  『系図纂要』は「義継」、『源平闘諍録』では「義次」
 	dynasty=10007063 # Miura
 	father=12211002 # Miura Tametsugu
 	religion="shinto"
 	culture="southern_kanto"
 	1067.1.1={
 		birth=yes
+	}
+	1109.01.01={
+		give_nickname = "nick_shoji" # 天養元(1144)年十月、「三浦庄司平吉次」（『天養記』）
 	}
 	1159.1.1={
 		death=yes
@@ -373,7 +379,7 @@
 	}
 }
 12211020={
-	name=character_name_12211020 # Yoshiaki
+	name=character_name_12211020 # Yoshiaki, 義明
 	dynasty=10007063 # Miura
 	father=12211010 # Miura Tametsugu
 	religion="shinto"
@@ -390,7 +396,10 @@
 		give_nickname="nick_sagami_no_suke"
 	}
 	1180.9.18={
-		death=yes
+		death={
+			death_reason=death_battle
+			killer=12200300 # 江戸重長
+		}
 	}
 }
 12211021={
@@ -464,7 +473,7 @@
 	}
 }
 12211029={
-	name=character_name_12211029 # Yoshimune
+	name=character_name_12211029 # Yoshimune, 義宗
 	dynasty=10007063 # Miura
 	father=12211020 # Miura Yoshiaki
 	religion="shinto"
@@ -484,7 +493,7 @@
 #	}
 }
 12211030={
-	name=character_name_12211030 # Yoshizumi
+	name=character_name_12211030 # Yoshizumi, 義澄
 	dynasty=10007063 # Miura
 	father=12211020 # Miura Yoshiaki
 	religion="shinto"
@@ -507,7 +516,7 @@
 	1180.1.1={
 		give_nickname="nick_shinsuke"
 	}
-	1200.2.9={
+	1200.2.9={ # 正治二年正月二十三日に七十四歳死去（）
 		death=yes
 	}
 }
@@ -570,7 +579,7 @@
 	}
 }
 12211035={
-	name=character_name_12211035 # Yoshitsura
+	name=character_name_12211035 # Yoshitsura, 義連、佐原義連
 	dynasty=10007063 # Miura
 	father=12211020 # Miura Yoshiaki
 	religion="shinto"
@@ -583,6 +592,9 @@
 	}
 	1195.1.1={
 		add_spouse=12360114 # daughter of Takeda Nobumitsu
+	}
+	1198.11.07={ # 上洛する（『吾妻鏡』建久元年十一月七日条）
+		give_nickname = "nick_the_saemon_no_jo" #  「左衛門尉」
 	}
 	1200.1.1={
 		death=yes
@@ -631,7 +643,7 @@
 	}
 }
 12211040={
-	name=character_name_12211040 # Yoshimura
+	name=character_name_12211040 # Yoshimura, 義村
 	dynasty=10007063 # Miura
 	father=12211030 # Miura Yoshizumi
 	mother=10130069 # daughter of Ito Sukechika
@@ -650,7 +662,11 @@
 		birth=yes
 		employer = 12211020 # Miura Yoshiaki
 	}
+	1198.11.07={ # 上洛する（『吾妻鏡』建久元年十一月七日条）
+		give_nickname = "nick_the_uhyoe_no_jo" #  「右兵衛尉」
+	}
 	1219.11.21={
+		give_nickname="nick_the_suruga_no_kami" # 「駿河守」に補任、北条氏を除く東国出身御家人として初めての例
 		effect = {
 			add_trait = "jugoi_ge"
 		}
@@ -668,7 +684,7 @@
 		}
 	}
 	1239.12.31={
-		death=yes
+		death=yes # TODO 脳卒中「大中風」で死亡（『吾妻鏡』延応元年十二月五日条）
 	}
 }
 12211041={
@@ -702,7 +718,7 @@
 	}
 }
 12211043={
-	name=character_name_12211043 # Taneyoshi
+	name=character_name_12211043 # Taneyoshi, 胤義
 	dynasty=10007063 # Miura
 	father=12211030 # Miura Yoshizumi
 	mother=10130069 # daughter of Ito Sukechika
@@ -717,6 +733,7 @@
 		birth=yes
 		employer = 12211020 # Miura Yoshiaki
 	}
+	#承久の乱では上皇側
 	1221.7.6={
 		death={
 			death_reason=death_suicide
@@ -739,7 +756,7 @@
 	}
 }
 12211050={
-	name=character_name_12211050 # Yasumura
+	name=character_name_12211050 # Yasumura, 泰村
 	dynasty=10007063 # Miura
 	father=12211040 # Miura Yoshimura
 	religion="shinto"
@@ -755,9 +772,10 @@
 			add_trait = "shogoi_jo"
 		}
 	}
-	1247.7.9={
+	# 1242仁治三年後の北条経時執権時に評定衆
+	1247.7.9={ #　宝治合戦（『吾妻鏡』宝治元年六月五日条）
 		death={
-			death_reason=death_suicide
+			death_reason=death_suicide #　鎌倉法華堂で自害
 		}
 	}
 }
@@ -788,7 +806,7 @@
 	}
 }
 12211052={
-	name=character_name_12211052 # Mitsumura
+	name=character_name_12211052 # Mitsumura, 光村、幼名は「駒若丸」
 	dynasty=10007063 # Miura
 	father=12211040 # Miura Yoshimura
 	religion="shinto"
@@ -801,7 +819,9 @@
 			add_trait = "shogoi_ge"
 		}
 	}
-	1247.7.9={
+	# 寛元2(1244)年、評定衆
+	# 若年より将軍藤原頼経に近侍していたため北条氏と対立志向
+	1247.7.9={ #　宝治合戦（『吾妻鏡』宝治元年六月五日条）
 		death={
 			death_reason=death_suicide
 		}
@@ -1430,7 +1450,7 @@
 	}
 }
 12211203={
-	name=character_name_12211203 # Moritsura
+	name=character_name_12211203 # Moritsura, 盛連
 	dynasty=10007064 # Sahara
 	father=12211035 # Sahara Yoshitsura
 	mother=12360114 # daughter of Takeda Nobumitsu
@@ -1442,11 +1462,14 @@
 	1214.1.1={
 		add_spouse=12211060 # Miura Yabe Zenni
 	}
+	# TODO 和泉国守護職を父から引き継ぐ
 	1226.1.1={
 		effect = {
 			add_trait = "jugoi_ge"
 		}
+		give_nickname="nick_the_totoumi_no_kami" # 「遠江守」、三浦一族の中では義村につづいて2人目の受領
 	}
+	#　公家達からのニックネーム「悪遠江」（『明月記』『民経記」）。TODO 特質「酒乱」
 	1233.5.1={
 		death={
 			death_reason=death_execution
@@ -1635,7 +1658,7 @@
 	}
 }
 12211220={
-	name=character_name_12211220 # Tsunetsura
+	name=character_name_12211220 # Tsunetsura, 経連
 	dynasty=10007064 # Sahara
 	father=12211203 # Sahara Moritsura
 	religion="shinto"
@@ -1643,12 +1666,15 @@
 	1213.1.1={
 		birth=yes
 	}
+	1229.01.01={
+		give_nickname="nick_taro" # 「佐原太郎経連」（『吾妻鏡』宝治元年六月五日条）
+	}
 	1247.7.9={
 		death=yes
 	}
 }
 12211221={
-	name=character_name_12211221 # Hiromori
+	name=character_name_12211221 # Hiromori, 広盛
 	dynasty=10007064 # Sahara
 	father=12211203 # Sahara Moritsura
 	religion="shinto"
@@ -1656,12 +1682,15 @@
 	1214.1.1={
 		birth=yes
 	}
+	1230.01.01={
+		give_nickname="nick_jio" # 「比田次郎広盛」（『吾妻鏡』宝治元年六月五日条）、比田＝福島県会津若松市
+	}
 	1247.7.9={
 		death=yes
 	}
 }
 12211222={
-	name=character_name_12211222 # Moriyoshi
+	name=character_name_12211222 # Moriyoshi, 盛義
 	dynasty=10007064 # Sahara
 	father=12211203 # Sahara Moritsura
 	religion="shinto"
@@ -1669,12 +1698,15 @@
 	1215.1.1={
 		birth=yes
 	}
+	1231.01.01={
+		give_nickname="nick_saburo" # 「藤倉三郎盛義」（『吾妻鏡』宝治元年六月五日条）、藤倉＝福島県会津若松市
+	}
 	1247.7.9={
 		death=yes
 	}
 }
 12211223={
-	name=character_name_12211223 # Mitsumori
+	name=character_name_12211223 # Mitsumori, 光盛
 	dynasty=10007064 # Sahara
 	father=12211203 # Sahara Moritsura
 	mother=12211060 # Miura Yabe Zenni
@@ -1686,6 +1718,9 @@
 	1232.1.1={
 		give_nickname="nick_shiro"
 	}
+	1242.01.01={
+		give_nickname="nick_the_saemon_no_jo" # 「次郎左衛門尉光盛」（『吾妻鏡』宝治元年六月五日条）
+	}
 	1246.1.1={
 		dynasty=10000070 # Ashina
 		give_nickname="nick_totoumi_no_kami"
@@ -1695,7 +1730,7 @@
 	}
 }
 12211224={
-	name=character_name_12211224 # Moritoki
+	name=character_name_12211224 # Moritoki, 盛時
 	dynasty=10007064 # Sahara
 	father=12211203 # Sahara Moritsura
 	mother=12211060 # Miura Yabe Zenni
@@ -1704,8 +1739,15 @@
 	1217.1.1={
 		birth=yes
 	}
+	1233.01.01={
+		give_nickname="nick_goro"
+	}
+	1243.01.01={
+		give_nickname="nick_the_saemon_no_jo" # 「五郎左衛門尉盛時」（『吾妻鏡』宝治元年六月五日条）
+	}
+	# 寛元4(1246)年時点、陸奥国糠部五戸地頭代職＝北条得宗家被官的
 	1248.1.1={
-		dynasty=10000542 # Miura
+		dynasty=10000542 # Miura # 「三浦介」
 		effect = {
 			add_trait = "jugoi_ge"
 		}
@@ -1715,7 +1757,7 @@
 	}
 }
 12211225={
-	name=character_name_12211225 # Tokitsura
+	name=character_name_12211225 # Tokitsura, 時連
 	dynasty=10007064 # Sahara
 	father=12211203 # Sahara Moritsura
 	mother=12211060 # Miura Yabe Zenni
@@ -1726,6 +1768,9 @@
 	}
 	1234.1.1={
 		give_nickname="nick_rokuro"
+	}
+	1244.01.01={
+		give_nickname="nick_the_sahyoe_no_jo" # 「六郎兵衛尉時連」（『吾妻鏡』宝治元年六月五日条）
 	}
 	1240.01.01={
 		dynasty=10007065 # Shingu
@@ -1871,7 +1916,7 @@
 	}
 }
 12211251={
-	name=character_name_12211251 # Yorimori
+	name=character_name_12211251 # Yorimori, 頼盛
 	dynasty=10000542 # Miura
 	father=12211224 # Miura Moritoki
 	religion="shinto"
@@ -1902,7 +1947,7 @@
 	}
 }
 12211253={
-	name=character_name_12211253 # Moriuji
+	name=character_name_12211253 # Moriuji, 盛氏
 	dynasty=10000542 # Miura
 	father=12211224 # Miura Moritoki
 	religion="shinto"
@@ -1941,7 +1986,7 @@
 	}
 }
 12211256={
-	name=character_name_12211256 # Muneyoshi
+	name=character_name_12211256 # Muneyoshi, 宗義
 	dynasty=10000542 # Miura
 	father=12211224 # Miura Moritoki
 	religion="shinto"
@@ -1967,7 +2012,7 @@
 	}
 }
 12211260={
-	name=character_name_12211260 # Tokiaki
+	name=character_name_12211260 # Tokiaki, 時明
 	dynasty=10000542 # Miura
 	father=12211251 # Miura Yorimori
 	religion="shinto"
@@ -2011,7 +2056,7 @@
 	}
 }
 12211265={
-	name=character_name_12211265 # Tokitsugu
+	name=character_name_12211265 # Tokitsugu, 時継
 	dynasty=10000542 # Miura
 	father=12211260 # Miura Tokiaki
 	religion="shinto"
@@ -2019,9 +2064,16 @@
 	1282.1.1={
 		birth=yes
 	}
+	# 相模三浦氏の惣領、三浦介
+	# 元徳3(1331)年、鎌倉幕府笠置山包囲軍に従軍（『太平記』、『光明寺残篇』）
+	# 建武政権の鎌倉府に出仕
+	# 1334(建武元)年四月、勲功の賞として武蔵国大谷郷、相模国河内郷を新恩給与（宇都宮氏家蔵文書）
+	# 出仕拒否（『太平記』巻第十二）
+	# 中先代の乱では北条時行に味方
+	# 敗戦後尾張国熱田浦で逮捕、京都で斬首獄門（到津文書、『太平記』）
 	1335.8.1={
 		death={
-			death_reason=death_execution
+			death_reason=death_decapitated
 		}
 	}
 }
@@ -2078,16 +2130,36 @@
 	}
 }
 12211270={
-	name=character_name_12211270 # Takatsugu
+	name=character_name_12211270 # Takatsugu, 高継
 	dynasty=10000542 # Miura
 	father=12211265 # Miura Tokitsugu
 	religion="shinto"
 	culture="southern_kanto"
-	1310.1.1={
+	1310.1.1={ #　TODO 生年月日が遅い気がする
 		birth=yes
 	}
-	1339.5.17={
-		death=yes
+	1335.01.01={ # 仮年月日
+		effect={
+			add_trait=jugoi_ge
+		}
+	}
+	# 建武2(1335)年九月二十七日、足利尊氏から所領安堵、三浦大介、家督（宇都宮氏家蔵文書）
+	# 建武2(1335)年十月、鎌倉鶴岡八幡宮に寄進（鶴岡八幡宮文書）
+	# 建武3(1336)年四月二十七日、足利尊氏から備中・美作の軍勢を率いて美作の敵を討つように命じる（三浦文書）
+	# 建武3(1336)年五月十五日、備中国河原（岡山市）の足利直義の陣に合流（『梅松論』）
+	# 湊川の戦いに参戦
+	# 建武3(1336)年秋頃から建武4年、足利尊氏政権で侍所管領（真鍋淳哉、『三浦道寸』）
+	# 建武4(1337)年六月十日、越後三浦和田茂継の譲り状を保証
+	1337.09.23={ # 建武4(1337)年八月二十八日
+		effect={
+			remove_trait=jugoi_ge
+			add_trait=jugoi_jo # 北朝「従五位上」、それまで従五位下（宇都宮氏家蔵文書）
+		}
+	}
+	# 暦応元(1338)年正月二十八日、美濃青野原の戦いに高継か子の高通が参戦
+	# 暦応元(1338)年二月五日、入京
+	1339.6.24={ # 暦応2(1339)年没。『系図纂要』は五月十七日を追加。『海蔵和尚年録』も五月没と記録
+		death=yes #　おそらく京都で死亡（真鍋淳哉、『三浦道寸』）、葬儀の導師は虎関師錬
 	}
 }
 12211271={
@@ -2130,7 +2202,7 @@
 	}
 }
 12211275={
-	name=character_name_12211275 # Takamichi
+	name=character_name_12211275 # Takamichi, 高通
 	dynasty=10000542 # Miura
 	father=12211270 # Miura Takatsugu
 	religion="shinto"
@@ -2138,7 +2210,20 @@
 	1330.1.1={
 		birth=yes
 	}
-	1376.1.1={
+	1337.05.20={ # 建武4(1337)年四月二十日
+		give_nickname = "nick_the_saemon_no_jo" # 北朝「左衛門少尉」（宇都宮氏家蔵文書）
+	}
+	#　康永3(1344)年四月二十四日以前、相模国小石河公文兄弟を「三浦介」が捕縛。鎌倉で足利義詮の下に出仕し治安維持の任にあったと思われる（真鍋淳哉、『三浦道寸』）
+	# 観応元(1350)年十一月、直義方上杉能憲に味方
+	# 観応2(1351)年十月時点で相模国守護職
+	# 薩埵山合戦で直義方、敗北、三浦に逼塞か
+	# 観応2(1351)年十二月十九日以前、豊後国高田荘を足利尊氏に没収される
+	# 文和元(1352)年閏二月二十八日、新田義興・脇谷義治の鎌倉攻略戦に新田方として参戦
+	# 文和2(1353)年七月以前、相模守護職解任
+	# 康安元(1361)年から貞治元(1362)年頃、幕府に帰順して東国の所領を返還されたか（真鍋淳哉、『三浦道寸』）
+	# 貞治3(1364)年十一月以前、相模守護職
+	#　貞治6(1367)年九月十日、三浦介高通の終見史料（佐々木文書）
+	1376.1.1={ # 貞治6(1367)年から永和2(1376)年の間に死去と思われる（真鍋淳哉、『三浦道寸』）
 		death=yes
 	}
 }
@@ -2195,7 +2280,7 @@
 	}
 }
 12211280={
-	name=character_name_12211280 # Takatsura
+	name=character_name_12211280 # Takatsura, 高連、三浦介高連
 	dynasty=10000542 # Miura
 	father=12211275 # Miura Takamichi
 	religion="shinto"
@@ -2203,7 +2288,9 @@
 	1350.1.1={
 		birth=yes
 	}
-	1410.1.1={
+	# 永和2(1376)年十月二十八日以前、相模守護
+	# 応永2(1395)年九月五日から応永7(1400)年六月十二日の間に出家
+	1407.1.1={ # 応永9(1402)年から応永14(1407)年の間に死去と思われる（真鍋淳哉、『三浦道寸』）
 		death=yes
 	}
 }
@@ -2305,7 +2392,7 @@
 	}
 }
 12211406={
-	name=character_name_12211406 # Muneaki
+	name=character_name_12211406 # Muneaki, 宗明、杉本宗明
 	dynasty=10007065 # Shingu
 	father=12211225 # Sahara Tokitsura
 	religion="shinto"
@@ -2440,7 +2527,7 @@
 	}
 }
 12211425={
-	name=character_name_12211425 # Tokiaki
+	name=character_name_12211425 # Tokiaki, 時明、三浦時明
 	dynasty=10007065 # Shingu
 	father=12211406 # Shingu Muneaki
 	religion="shinto"
@@ -2458,7 +2545,7 @@
 	}
 }
 12211426={
-	name=character_name_12211426 # Sadamune
+	name=character_name_12211426 # Sadamune, 貞宗、三浦貞宗
 	dynasty=10000542 # Miura
 	father=12211406 # Shingu Muneaki
 	religion="shinto"
@@ -2497,7 +2584,7 @@
 	}
 }
 12211430={
-	name=character_name_12211430 # Sadaaki
+	name=character_name_12211430 # Sadaaki, 貞明
 	dynasty=10007065 # Shingu
 	father=12211425 # Shingu Tokiaki
 	religion="shinto"
@@ -2508,11 +2595,14 @@
 	1320.1.1={
 		dynasty=10007066 # Yokosuga
 		effect = {
-			change_first_name = character_name_12211430_1 # Sadatsura
+			change_first_name = character_name_12211430_1 # Sadatsura, 貞連
 		}
 	}
-	1360.1.1={
-		death=yes
+	# 建武政権侍所出仕（真鍋淳哉、『三浦道寸』）
+	1336.1.1={ # 建武3(1336)年正月頃
+		death={
+			death_reason=death_battle # 京都で戦死（真鍋淳哉、『三浦道寸』）
+		}
 	}
 }
 12211431={
@@ -2680,7 +2770,7 @@
 	}
 }
 12211501={
-	name=character_name_12211501 # Yoshimori
+	name=character_name_12211501 # Yoshimori, 義盛, 和田義盛
 #	dynasty=10007067 # Sugimoto
 	dynasty_house = house_shgnt_sugimoto # Sugimoto
 	diplomacy=5
@@ -2711,6 +2801,9 @@
 	1167.1.1={
 #		dynasty=10007068 # Wada
 		dynasty_house = house_shgnt_wada1 # Wada
+	}
+	1198.11.07={ # 上洛する（『吾妻鏡』建久元年十一月七日条）
+		give_nickname = "nick_the_saemon_no_jo" #  「左衛門尉」
 	}
 	1213.5.24={
 		death={

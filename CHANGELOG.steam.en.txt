@@ -1,3 +1,55 @@
+[h1]beta Version 0.5.7[/h1]
+[h2]Game Content[/h2]
+[list]
+[*] Updated heightmap. The coastline of parts of the Seto Inland Sea has receded to its past position.
+[*] I set the barony name to change in the 15th and 16th centuries, and the castle to appear in the holding.（[url=https://github.com/almandite1/shogunate_map_alteration/issues/262]#262[/url]）
+[*] Changed some title history data to follow the main mod or to be more historically accurate.
+[*] Subdivided the sea area Provinces and added Shonan Coast, Shichiri-Mihama, San-in Coast, and Nichinan Coast.
+[*] Added a tree map object.
+[*] Updated ground textures.
+[/list]
+[h3]Updated rivers.png[/h3]
+[list]
+[*] Kyūshū region rivers have been reimplemented.（[url=https://github.com/almandite1/shogunate_map_alteration/issues/261]#261[/url]）
+[/list]
+[h3]Improvement of Provincial Shape[/h3]
+[list]
+[*] [url=https://github.com/almandite1/shogunate_map_alteration/issues/242]#242[/url]
+[*] [url=https://github.com/almandite1/shogunate_map_alteration/issues/243]#243[/url]
+[*] [url=https://github.com/almandite1/shogunate_map_alteration/issues/244]#244[/url]
+[*] [url=https://github.com/almandite1/shogunate_map_alteration/issues/245]#245[/url]
+[*] [url=https://github.com/almandite1/shogunate_map_alteration/issues/246]#246[/url]
+[*] [url=https://github.com/almandite1/shogunate_map_alteration/issues/247]#247[/url]
+[*] [url=https://github.com/almandite1/shogunate_map_alteration/issues/248]#248[/url]
+[/list]
+[h3]dynasty house[/h3]
+[list]
+[*] A branch family has been set up in the Matsudaira[松平] clan.（[url=https://github.com/almandite1/shogunate_map_alteration/issues/249]#249[/url]）
+[*] A branch family has been set up in the Suwa[諏訪] clan.（[url=https://github.com/almandite1/shogunate_map_alteration/issues/250]#250[/url]）
+[*] A branch family has been set up in the Takeda[武田] clan.（[url=https://github.com/almandite1/shogunate_map_alteration/issues/251]#251[/url]）
+[/list]
+[h3]Capital setting[/h3]
+[list]
+[*] Changed the first holding of some county territories.（[url=https://github.com/almandite1/shogunate_map_alteration/issues/263]#263[/url]）
+[*] Default capital county for some duchies has been set.
+[/list]
+[h3]Character data updated[/h3]
+[list]
+[*] Updated data for some Sagami Miura clan characters to be historically accurate.
+[*] Reflected the opinion of the grant title in the character.（[url=https://github.com/almandite1/shogunate_map_alteration/issues/218]#218[/url]）
+[*] I tested that `move_to_pool=yes` would reflect the in-field status.
+[/list]
+[h3]Fixed[/h3]
+[list]
+[*] Changed the title name because the title name in which IVS kanji characters were used was garbled.
+[*] Some map object locators have been adjusted.
+[*] [url=https://github.com/almandite1/shogunate_map_alteration/issues/264]#264[/url]
+[*] [url=https://github.com/almandite1/shogunate_map_alteration/issues/265]#265[/url]
+[*] [url=https://github.com/almandite1/shogunate_map_alteration/issues/266]#266[/url]
+[*] [url=https://github.com/almandite1/shogunate_map_alteration/issues/178]#178[/url]
+[*] Added a dummy file to reduce the error log output.
+[/list]
+
 [h1]beta Version 0.5.6[/h1]
 [h2]Game Content[/h2]
 [list]

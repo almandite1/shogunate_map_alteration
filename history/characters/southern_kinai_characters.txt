@@ -1310,6 +1310,14 @@
 	1549.3.31={
 		birth=yes
 	}
+	1576.06.06={
+		effect={
+			add_opinion = {
+				target = character:10029120 # 織田信長
+				modifier = received_title_duchy # 公爵領を与えられた
+			}
+		}
+	}
 	1580.08.17 = {
 		effect={
 			set_realm_capital=title:c_shgnt_sounoshimo # Kōriyama

@@ -1,3 +1,55 @@
+[h1]beta Version 0.5.7[/h1]
+[h2]Game Content[/h2]
+[list]
+[*] heightmap を更新しました。瀬戸内海の一部の海岸線を過去の位置まで後退させました。
+[*] 15・16世紀に男爵領名が変化すること、holding に城が出現するように設定しました。（[url=https://github.com/almandite1/shogunate_map_alteration/issues/262]#262[/url]）
+[*] 一部のタイトル歴史データを、メイン MOD に追従したり歴史的に正確になるように変更しました。
+[*] 海域プロヴィンスを細分化して、湘南海岸、七里御浜、山陰海岸、日南海岸を追加しました。
+[*] 木のマップオブジェクトを追加しました。
+[*] 地面テクスチャを更新しました。
+[/list]
+[h3]rivers.png の更新[/h3]
+[list]
+[*] 九州地方の河川を再実装しました。（[url=https://github.com/almandite1/shogunate_map_alteration/issues/261]#261[/url]）
+[/list]
+[h3]プロヴィンス形状の改善[/h3]
+[list]
+[*] [url=https://github.com/almandite1/shogunate_map_alteration/issues/242]#242[/url]
+[*] [url=https://github.com/almandite1/shogunate_map_alteration/issues/243]#243[/url]
+[*] [url=https://github.com/almandite1/shogunate_map_alteration/issues/244]#244[/url]
+[*] [url=https://github.com/almandite1/shogunate_map_alteration/issues/245]#245[/url]
+[*] [url=https://github.com/almandite1/shogunate_map_alteration/issues/246]#246[/url]
+[*] [url=https://github.com/almandite1/shogunate_map_alteration/issues/247]#247[/url]
+[*] [url=https://github.com/almandite1/shogunate_map_alteration/issues/248]#248[/url]
+[/list]
+[h3]dynasty house[/h3]
+[list]
+[*] 松平氏に分家を設定しました。（[url=https://github.com/almandite1/shogunate_map_alteration/issues/249]#249[/url]）
+[*] 諏訪氏に分家を設定しました。（[url=https://github.com/almandite1/shogunate_map_alteration/issues/250]#250[/url]）
+[*] 武田氏に分家を追加しました。（[url=https://github.com/almandite1/shogunate_map_alteration/issues/251]#251[/url]）
+[/list]
+[h3]首都設定[/h3]
+[list]
+[*] 一部の伯爵領の第1 holding を変更しました。（[url=https://github.com/almandite1/shogunate_map_alteration/issues/263]#263[/url]）
+[*] 一部の公爵領のデフォルト首都伯爵領を設定しました。
+[/list]
+[h3]キャラクターデータ更新[/h3]
+[list]
+[*] 一部の相模三浦氏キャラクターのデータを歴史的に正確になるように更新しました。
+[*] grant title のオピニオンをキャラクターに反映させました。（[url=https://github.com/almandite1/shogunate_map_alteration/issues/218]#218[/url]）
+[*] move_to_pool=yesで在野状態が反映されるかテストしました。
+[/list]
+[h3]Fixed[/h3]
+[list]
+[*] IVS漢字が使われていたタイトル名が文字化けしていたのでタイトル名を変更しました。
+[*] 一部マップオブジェクトロケーターを調整しました。
+[*] [url=https://github.com/almandite1/shogunate_map_alteration/issues/264]#264[/url]
+[*] [url=https://github.com/almandite1/shogunate_map_alteration/issues/265]#265[/url]
+[*] [url=https://github.com/almandite1/shogunate_map_alteration/issues/266]#266[/url]
+[*] [url=https://github.com/almandite1/shogunate_map_alteration/issues/178]#178[/url]
+[*] エラーログ出力を減らすためにダミーファイルを追加しました。
+[/list]
+
 [h1]beta Version 0.5.6[/h1]
 [h2]Game Content[/h2]
 [list]
