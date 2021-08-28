@@ -19,10 +19,10 @@
 			
             c_shgnt_kyoto = {
                 b_shgnt_kyoto_2 = {
-                    province = 2
+                    province = 2 # 六波羅→下京
                 }
                 b_shgnt_kyoto_1 = {
-                    province = 1
+                    province = 1 #　上京→室町御所→二条城
                 }
             }
             c_shgnt_kadono = {
@@ -1354,14 +1354,14 @@
             c_shgnt_ito = {
                 color = {122 225 203}
                 color2 = {255 255 255}
+				b_shgnt_ito_3 = {
+                    province = 2053 # Kongōbuji, 金剛峯寺
+                }
                 b_shgnt_ito_1 = {
                     province = 2051
                 }
                 b_shgnt_ito_2 = {
                     province = 2052
-                }
-                b_shgnt_ito_3 = {
-                    province = 2053
                 }
             }
             c_shgnt_naga = {
@@ -3605,6 +3605,9 @@
             c_shgnt_nifuta = {
                 color = {193 125 76}
                 color2 = {255 255 255}
+				b_shgnt_nifuta_6 = {
+                    province = 966 # 新田館
+                }
                 b_shgnt_nifuta_1 = {
                     province = 961
                 }
@@ -3619,9 +3622,6 @@
                 }
                 b_shgnt_nifuta_5 = {
                     province = 965
-                }
-                b_shgnt_nifuta_6 = {
-                    province = 966
                 }
             }
             c_shgnt_yamata = {
@@ -4007,8 +4007,11 @@
             }
         }
         d_shgnt_shimousa = {
-                color = {157 137 108}
-                color2 = {255 255 255}
+            color = {157 137 108}
+            color2 = {255 255 255}
+			
+			capital=c_shgnt_katsushika # Shimousa Kokufu, 下総国府
+			
             c_shgnt_katsushika = {
                 color = {137 137 108}
                 color2 = {255 255 255}
@@ -4098,11 +4101,11 @@
             c_shgnt_chiba = {
                 color = {157 157 108}
                 color2 = {255 255 255}
+				b_shgnt_chiba_2 = {
+                    province = 620 # Chiba, 千葉城、Inohana, 亥鼻城
+                }
                 b_shgnt_chiba_1 = {
                     province = 619
-                }
-                b_shgnt_chiba_2 = {
-                    province = 620
                 }
                 b_shgnt_chiba_3 = {
                     province = 621
@@ -4631,11 +4634,11 @@
             c_shgnt_ashikaga = {
                 color = {93 74 65}
                 color2 = {255 255 255}
+                b_shgnt_ashikaga_2 = {
+                    province = 1051 # Ashikaga, 足利荘
+                }
                 b_shgnt_ashikaga_1 = {
                     province = 1050
-                }
-                b_shgnt_ashikaga_2 = {
-                    province = 1051
                 }
                 b_shgnt_ashikaga_3 = {
                     province = 1052
@@ -5179,11 +5182,11 @@
             c_shgnt_kese = {
                 color = {49 121 86}
                 color2 = {255 255 255}
+				b_shgnt_kese_2 = {
+                    province = 1196 # 矢作、高田城、米ヶ崎城
+                }
                 b_shgnt_kese_1 = {
                     province = 1195
-                }
-                b_shgnt_kese_2 = {
-                    province = 1196
                 }
                 b_shgnt_kese_3 = {
                     province = 1197
@@ -5215,11 +5218,11 @@
             c_shgnt_tamatsukuri = {
                 color = {59 141 96}
                 color2 = {200 0 0}
+				b_shgnt_tamatsukuri_2 = {
+                    province = 1204 # 一栗・岩出沢城
+                }
                 b_shgnt_tamatsukuri_1 = {
                     province = 1203
-                }
-                b_shgnt_tamatsukuri_2 = {
-                    province = 1204
                 }
             }
             c_shgnt_kurihara = {
@@ -10724,8 +10727,11 @@ e_shgnt_ezochi = {
 				}
 				
                 b_shgnt_nishi_1 = {
-                    province = 2660
-                    cultural_names = {
+                    province = 2660 # Otobe	乙部、o-to-pe, オトペ
+                }
+                b_shgnt_nishi_2 = {
+                    province = 2661 # Kumaishi	熊石
+					cultural_names = {
 						hokkaido_ainu = cn_kuma_us_i
 						chishima_ainu = cn_kuma_us_i
 						karafuto_ainu = cn_kuma_us_i
@@ -10737,9 +10743,6 @@ e_shgnt_ezochi = {
 						nivkh = cn_kuma_us_i
 						uilta = cn_kuma_us_i
 					}
-                }
-                b_shgnt_nishi_2 = {
-                    province = 2661
                 }
             }
             c_shgnt_hiyama1 = {
@@ -10758,10 +10761,22 @@ e_shgnt_ezochi = {
 					uilta = cn_e_sa_us_i
 				}
                 b_shgnt_hiyama1_1 = {
-                    province = 2662
+                    province = 2662 # Assabu	厚沢部
                 }
                 b_shgnt_hiyama1_2 = {
-                    province = 2663
+                    province = 2663 # Esashi, e-sas-u, 江差、エサシウシ
+					cultural_names = {
+						hokkaido_ainu = cn_e_sa_us_i
+						chishima_ainu = cn_e_sa_us_i
+						karafuto_ainu = cn_e_sa_us_i
+						dohoku_ainu = cn_e_sa_us_i
+						doto_ainu = cn_e_sa_us_i
+						doo_ainu = cn_e_sa_us_i
+						donan_ainu = cn_e_sa_us_i
+						tohoku_ainu = cn_e_sa_us_i
+						nivkh = cn_e_sa_us_i
+						uilta = cn_e_sa_us_i
+					}
                 }
             }
             c_shgnt_tsugaru1 = {
@@ -10780,7 +10795,7 @@ e_shgnt_ezochi = {
 					uilta = cn_mat_oma_i
 				}
                 b_shgnt_tsugaru1_1 = {
-                    province = 2664
+                    province = 2664 # Ōshima	大島
                 }
             }
             c_shgnt_fukushima = {
@@ -10830,10 +10845,22 @@ e_shgnt_ezochi = {
 					uilta = cn_rir_o_nay
 				}
                 b_shgnt_kamiiso_1 = {
-                    province = 2666
+                    province = 2666 # Kikonai, 木古内、rir-o-nay, リロナイ
+					cultural_names = {
+						hokkaido_ainu = cn_rir_o_nay
+						chishima_ainu = cn_rir_o_nay
+						karafuto_ainu = cn_rir_o_nay
+						dohoku_ainu = cn_rir_o_nay
+						doto_ainu = cn_rir_o_nay
+						doo_ainu = cn_rir_o_nay
+						donan_ainu = cn_rir_o_nay
+						tohoku_ainu = cn_rir_o_nay
+						nivkh = cn_rir_o_nay
+						uilta = cn_rir_o_nay
+					}
                 }
                 b_shgnt_kamiiso_2 = {
-                    province = 2667
+                    province = 2667 # Kamiiso, 上磯〔和名〕
                 }
             }
             c_shgnt_kayabe = {
@@ -10867,7 +10894,7 @@ e_shgnt_ezochi = {
 					}
                 }
                 b_shgnt_kayabe_2 = {
-                    province = 2669
+                    province = 2669 # Otoshibe	落部
                 }
             }
             c_shgnt_kameda = {
@@ -10901,7 +10928,7 @@ e_shgnt_ezochi = {
 					}
                 }
                 b_shgnt_kameda_2 = {
-                    province = 2671
+                    province = 2671 # Todohokke, 椴法華、tu-pok-ke, トゥポクケ
                 }
             }
         }
@@ -10939,7 +10966,7 @@ e_shgnt_ezochi = {
 					tohoku_ainu = cn_ku_un_tu
 				}
                 b_shgnt_kudo_1 = {
-                    province = 2672
+                    province = 2672 # Kaitorima, 貝取澗、kaye-uturu, カイェウトゥル
                 }
                 b_shgnt_kudo_2 = { # Kudou
                     province = 2673
@@ -11024,7 +11051,7 @@ e_shgnt_ezochi = {
 					tohoku_ainu = cn_seta_nay
 				}
                 b_shgnt_setana_1 = {
-                    province = 2676
+                    province = 2676 # Toshibetsu, 利別
                 }
                 b_shgnt_setana_2 = { # Setanai
                     province = 2677
@@ -11054,7 +11081,7 @@ e_shgnt_ezochi = {
 					tohoku_ainu = cn_suma_oma_i
 				}
                 b_shgnt_shimamaki_1 = {
-                    province = 2678
+                    province = 2678 # Nishishimamaki, 西島牧
                 }
                 b_shgnt_shimamaki_2 = {
                     province = 2679
@@ -11074,7 +11101,7 @@ e_shgnt_ezochi = {
 					tohoku_ainu = cn_supki_pet
 				}
                 b_shgnt_suttsu_1 = {
-                    province = 2680
+                    province = 2680 # Kuromatsunai, 黒松内、kurmat-nay, クルマッナイ
                 }
                 b_shgnt_suttsu_2 = { # Suttsu
                     province = 2681
@@ -11158,10 +11185,10 @@ e_shgnt_ezochi = {
 					tohoku_ainu = cn_iwaw_nay
 				}
                 b_shgnt_iwanai_1 = {
-                    province = 2684
+                    province = 2684 # Shimano, 島野
                 }
                 b_shgnt_iwanai_2 = {
-                    province = 2685
+                    province = 2685 # Hattari, 発足
                 }
             }
             c_shgnt_furuu = {
@@ -11178,10 +11205,10 @@ e_shgnt_ezochi = {
 					tohoku_ainu = cn_hure_nay
 				}
                 b_shgnt_furuu_1 = {
-                    province = 2686
+                    province = 2686 # Tomarimura, 泊村、moyre-tomari, モイレトマリ
                 }
                 b_shgnt_furuu_2 = {
-                    province = 2687
+                    province = 2687 # Kamuenai, 神恵内、kamuy-nay, カムイナイ
                 }
             }
             c_shgnt_shakotan = {
@@ -11198,10 +11225,10 @@ e_shgnt_ezochi = {
 					tohoku_ainu = cn_sak_kotan
 				}
                 b_shgnt_shakotan_1 = {
-                    province = 2688
+                    province = 2688 # Irika, 入舸
                 }
                 b_shgnt_shakotan_2 = {
-                    province = 2689
+                    province = 2689 # Yobetsu, 余別
                 }
             }
             c_shgnt_bikuni = {
@@ -11272,10 +11299,10 @@ e_shgnt_ezochi = {
 					tohoku_ainu = cn_i_oci
 				}
                 b_shgnt_yoichi_1 = {
-                    province = 2692
+                    province = 2692 # Akaigawa, 赤井川、suma-us-pet, スマウシペッ
                 }
                 b_shgnt_yoichi_2 = {
-                    province = 2693
+                    province = 2693 # Oe, 大江、
                 }
                 b_shgnt_yoichi_3 = { # Yoichi, 余市
                     province = 2694
@@ -11359,7 +11386,7 @@ e_shgnt_ezochi = {
 					tohoku_ainu = cn_ota_nay
 				}
                 b_shgnt_otaru_1 = {
-                    province = 2697
+                    province = 2697 # Asari, 朝里
                 }
                 b_shgnt_otaru_2 = { # Otarunai
                     province = 2698
@@ -11429,10 +11456,10 @@ e_shgnt_ezochi = {
 					tohoku_ainu = cn_yam_us_nay
 				}
                 b_shgnt_yamakoshi_1 = {
-                    province = 2699
+                    province = 2699 # Oshamambe, 長万部、upas-samampe, ウパシサマムペ
                 }
                 b_shgnt_yamakoshi_2 = {
-                    province = 2700
+                    province = 2700 # Yakumo, 八雲、yu-rap, ユー・ラプ
                 }
             }
             c_shgnt_abuta = {
@@ -11462,10 +11489,10 @@ e_shgnt_ezochi = {
 					}
                 }
                 b_shgnt_abuta_2 = {
-                    province = 2702
+                    province = 2702 # Kucchancho, 倶知安、kutu-sani, クトゥサニ
                 }
                 b_shgnt_abuta_3 = {
-                    province = 2703
+                    province = 2703 # Kariputo, 狩太
                 }
             }
             c_shgnt_usu = {
@@ -11482,13 +11509,13 @@ e_shgnt_ezochi = {
 					tohoku_ainu = cn_us_or
 				}
                 b_shgnt_usu_1 = {
-                    province = 2704
+                    province = 2704 # Date, 伊達〔和名〕
                 }
                 b_shgnt_usu_2 = {
-                    province = 2705
+                    province = 2705 # Sopetsu, 壮瞥、so-pet, ソペッ
                 }
                 b_shgnt_usu_3 = {
-                    province = 2706
+                    province = 2706 # Tokushunbetsu, 徳舜瞥、tukusis-un-pet, トゥクシシウン ペッ
                 }
             }
             c_shgnt_muroran = {
@@ -11586,10 +11613,10 @@ e_shgnt_ezochi = {
 					tohoku_ainu = cn_i_put
 				}
                 b_shgnt_yufutsu_1 = {
-                    province = 2710
+                    province = 2710 # Tomakomai,苫小牧、mak-oma-i, トマクオマイ
                 }
                 b_shgnt_yufutsu_2 = {
-                    province = 2711
+                    province = 2711 # Atsuma,厚真、at-oma-p,アッオマプ
                 }
             }
             c_shgnt_yufutsu1 = {
@@ -11606,7 +11633,7 @@ e_shgnt_ezochi = {
 					tohoku_ainu = cn_si_mukap
 				}
                 b_shgnt_yufutsu1_1 = {
-                    province = 2712
+                    province = 2712 # Nian,似湾、
                 }
                 b_shgnt_yufutsu1_2 = {
                     province = 2713
@@ -11636,10 +11663,20 @@ e_shgnt_ezochi = {
 					tohoku_ainu = cn_sikot_toho
 				}
                 b_shgnt_chitose_1 = {
-                    province = 2714
+                    province = 2714 # Eniwa, 恵庭、e-en-iwa,エエンイワ
                 }
                 b_shgnt_chitose_2 = {
-                    province = 2715
+                    province = 2715 # Chitose, 千歳
+					cultural_names = {
+						hokkaido_ainu = cn_sikot_toho
+						chishima_ainu = cn_sikot_toho
+						karafuto_ainu = cn_sikot_toho
+						dohoku_ainu = cn_sikot_toho
+						doto_ainu = cn_sikot_toho
+						doo_ainu = cn_sikot_toho
+						donan_ainu = cn_sikot_toho
+						tohoku_ainu = cn_sikot_toho
+					}
                 }
             }
         }
@@ -11676,16 +11713,16 @@ e_shgnt_ezochi = {
 					tohoku_ainu = cn_sar
 				}
                 b_shgnt_saru_1 = {
-                    province = 2716
+                    province = 2716 # Usappu,右左府
                 }
                 b_shgnt_saru_2 = {
-                    province = 2717
+                    province = 2717 # Nina,荷菜
                 }
                 b_shgnt_saru_3 = {
-                    province = 2718
+                    province = 2718 # Nupukibetsu,貫気別、nupki-pet,ヌプキペッ
                 }
                 b_shgnt_saru_4 = {
-                    province = 2719
+                    province = 2719 # Mombetsu,門別、mo-petモペッ
                 }
             }
             c_shgnt_niikappu = {
@@ -11702,10 +11739,10 @@ e_shgnt_ezochi = {
 					tohoku_ainu = cn_ni_kap
 				}
                 b_shgnt_niikappu_1 = {
-                    province = 2720
+                    province = 2720 # Hakuttsu,泊津
                 }
                 b_shgnt_niikappu_2 = {
-                    province = 2721
+                    province = 2721 # Okaribe,大狩部、o-punkar-us-peヲフンカルシベ
                 }
             }
             c_shgnt_shizunai = {
@@ -11789,7 +11826,7 @@ e_shgnt_ezochi = {
 					}
                 }
                 b_shgnt_urakawa_2 = {
-                    province = 2725
+                    province = 2725 # Ogifushi,荻伏、
                 }
             }
             c_shgnt_samani = {
@@ -11880,7 +11917,7 @@ e_shgnt_ezochi = {
 					tohoku_ainu = cn_pi_or
 				}
                 b_shgnt_hiroo_1 = {
-                    province = 2728
+                    province = 2728 # Taiki,大樹、tayki-us-iタイキウシイ
                 }
             }
             c_shgnt_tobui = {
@@ -11897,7 +11934,7 @@ e_shgnt_ezochi = {
 					tohoku_ainu = cn_to_puy
 				}
                 b_shgnt_tobui_1 = {
-                    province = 2729
+                    province = 2729 #Moyori,茂寄、moy-orモイオロ
                 }
             }
             c_shgnt_kasai1 = {
@@ -11927,17 +11964,17 @@ e_shgnt_ezochi = {
 					}
                 }
                 b_shgnt_kasai1_2 = {
-                    province = 2731
+                    province = 2731 # Sarabetsu,更別、sar-car-petサラチャラペッ
                 }
             }
             c_shgnt_kamikawa2 = {
                 color = {91 181 439}
                 color2 = {255 255 255}
                 b_shgnt_kamikawa2_1 = {
-                    province = 2732
+                    province = 2732 # Kutsutaraushi,屈足
                 }
                 b_shgnt_kamikawa2_2 = {
-                    province = 2733
+                    province = 2733 # Hitomappu,人舞、
                 }
             }
             c_shgnt_nakagawa1 = {
@@ -11954,13 +11991,13 @@ e_shgnt_ezochi = {
 					tohoku_ainu = cn_sey_o_sam
 				}
                 b_shgnt_nakagawa1_1 = {
-                    province = 2734
+                    province = 2734 # Kawai,川合、
                 }
                 b_shgnt_nakagawa1_2 = {
-                    province = 2735
+                    province = 2735 # Toyokoro,豊頃、トプヨカオロ
                 }
                 b_shgnt_nakagawa1_3 = {
-                    province = 2736
+                    province = 2736 # Hombetsu,本別
                 }
             }
             c_shgnt_kato1 = {
@@ -12004,10 +12041,10 @@ e_shgnt_ezochi = {
 					tohoku_ainu = cn_tokap_us_i
 				}
                 b_shgnt_tokachi_1 = {
-                    province = 2738
+                    province = 2738 # Otsu,大津
                 }
                 b_shgnt_tokachi_2 = {
-                    province = 2739
+                    province = 2739 # Uraporo,浦幌、ut-nayウッナイ
                 }
             }
             c_shgnt_ashoro1 = {
@@ -12024,10 +12061,10 @@ e_shgnt_ezochi = {
 					tohoku_ainu = cn_metot
 				}
                 b_shgnt_ashoro1_1 = {
-                    province = 2740
+                    province = 2740 # Ashoro, 足寄、esoro-petエソロペッ
                 }
                 b_shgnt_ashoro1_2 = {
-                    province = 2741
+                    province = 2741 # Rikumpetsu,陸別、ri-kun-petリクンペッ
                 }
             }
         }
@@ -12064,7 +12101,7 @@ e_shgnt_ezochi = {
 					tohoku_ainu = cn_sirar_ukaw
 				}
                 b_shgnt_shiranuka_1 = {
-                    province = 2742
+                    province = 2742 # Shakubetsu, 尺別
                 }
                 b_shgnt_shiranuka_2 = { # Shiranuka, 白糠
                     province = 2743
@@ -12107,7 +12144,7 @@ e_shgnt_ezochi = {
 					}
                 }
                 b_shgnt_kushiro_2 = {
-                    province = 2745
+                    province = 2745 # Konbumori,昆布森、kompu-moyコムプモイ
                 }
             }
             c_shgnt_akan = {
@@ -12124,10 +12161,10 @@ e_shgnt_ezochi = {
 					tohoku_ainu = cn_akam
 				}
                 b_shgnt_akan_1 = {
-                    province = 2746
+                    province = 2746 # Shitakara, 舌辛
                 }
                 b_shgnt_akan_2 = {
-                    province = 2747
+                    province = 2747 # Tsurui, 鶴居〔和名〕
                 }
             }
             c_shgnt_abashiri1 = {
@@ -12144,7 +12181,7 @@ e_shgnt_ezochi = {
 					tohoku_ainu = cn_pi_poro
 				}
                 b_shgnt_abashiri1_1 = {
-                    province = 2748
+                    province = 2748 # Tsubetsu, 津別、tu-petトゥペッ
                 }
                 b_shgnt_abashiri1_2 = { # Piporo, 美幌
                     province = 2749
@@ -12174,10 +12211,7 @@ e_shgnt_ezochi = {
 					tohoku_ainu = cn_tes_ka_ka
 				}
                 b_shgnt_kushiro_kawakami_1 = {
-                    province = 2750
-                }
-                b_shgnt_kushiro_kawakami_2 = { # Teshikaga
-                    province = 2751
+                    province = 2750 # Teshukaga,弟子屈、tes-ka-kaテシカカ
 					cultural_names = {
 						hokkaido_ainu = cn_tes_ka_ka
 						chishima_ainu = cn_tes_ka_ka
@@ -12188,6 +12222,9 @@ e_shgnt_ezochi = {
 						donan_ainu = cn_tes_ka_ka
 						tohoku_ainu = cn_tes_ka_ka
 					}
+                }
+                b_shgnt_kushiro_kawakami_2 = { # Toro塘路、to-or,トオロ
+                    province = 2751
                 }
             }
             c_shgnt_akkeshi = {
@@ -12217,7 +12254,7 @@ e_shgnt_ezochi = {
 					}
                 }
                 b_shgnt_akkeshi_2 = {
-                    province = 2753
+                    province = 2753 # Hamanaka,浜中、ota-noskeオタノシケ
                 }
             }
         }
@@ -12254,7 +12291,7 @@ e_shgnt_ezochi = {
 					tohoku_ainu = cn_poro_not
 				}
                 b_shgnt_hanasaki_1 = {
-                    province = 2754
+                    province = 2754 # Hapamai,歯舞
                 }
             }
             c_shgnt_notsuke = {
@@ -12271,7 +12308,7 @@ e_shgnt_ezochi = {
 					tohoku_ainu = cn_notkew
 				}
                 b_shgnt_notsuke_1 = {
-                    province = 2755
+                    province = 2755 # Bekkai,別海、pet-kayペッカイ
                 }
             }
             c_shgnt_nemuro = {
@@ -12301,7 +12338,7 @@ e_shgnt_ezochi = {
 					}
                 }
                 b_shgnt_nemuro_2 = {
-                    province = 2757
+                    province = 2757 # Hashirikotan,走古丹、asir-kotanアシリコタン
                 }
             }
             c_shgnt_shibetsu = {
@@ -12345,7 +12382,7 @@ e_shgnt_ezochi = {
 					tohoku_ainu = cn_menas_tomari
 				}
                 b_shgnt_menashi_1 = {
-                    province = 2759
+                    province = 2759 # Uempetsu,植別
                 }
             }
         }
@@ -12383,10 +12420,10 @@ e_shgnt_ezochi = {
 					old_okhotsk = cn_kina_sir
 				}
                 b_shgnt_kunashiri_1 = {
-                    province = 2760
+                    province = 2760 # Tomarimura, 泊村、moyre-tomariモイレトマリ
                 }
                 b_shgnt_kunashiri_2 = {
-                    province = 2761
+                    province = 2761 # Ruyobetsu,留夜別
                 }
             }
             c_shgnt_shana = {
@@ -12433,14 +12470,14 @@ e_shgnt_ezochi = {
 					old_okhotsk = cn_etu_oro_o_p
 				}
                 b_shgnt_etorofu_1 = {
-                    province = 2763
+                    province = 2763 # Rubetsu,留別
                 }
             }
             c_shgnt_shibetoro = {
                 color = {240 205 0}
                 color2 = {255 255 255}
                 b_shgnt_shibetoro_1 = {
-                    province = 2764
+                    province = 2764 # Shibetoro,蘂取
                 }
             }
             c_shgnt_furibetsu = {
@@ -12457,7 +12494,7 @@ e_shgnt_ezochi = {
 					tohoku_ainu = cn_si_pet_oro
 					old_okhotsk = cn_si_pet_oro
 				}
-                b_shgnt_furibetsu_1 = { # Shibetoro, 蘂取
+                b_shgnt_furibetsu_1 = { # Furibetsu,振別
                     province = 2765
                     cultural_names = {
 						hokkaido_ainu = cn_si_pet_oro
@@ -12771,7 +12808,7 @@ e_shgnt_ezochi = {
 				old_okhotsk = cn_is_kar_wei
 				uilta = cn_is_kar_wei
 			}
-            c_shgnt_ishikari = {
+            c_shgnt_ishikari = { # 石狩
                 color = {105 130 27}
                 color2 = {255 255 255}
                 cultural_names = {
@@ -12784,14 +12821,24 @@ e_shgnt_ezochi = {
 					donan_ainu = cn_is_kar_pet
 					tohoku_ainu = cn_is_kar_pet
 				}
-                b_shgnt_ishikari_1 = {
-                    province = 2771
+				b_shgnt_ishikari_2 = {
+                    province = 2772 # Ishikari	石狩
+					cultural_names = {
+						hokkaido_ainu = cn_is_kar_pet
+						chishima_ainu = cn_is_kar_pet
+						karafuto_ainu = cn_is_kar_pet
+						dohoku_ainu = cn_is_kar_pet
+						doto_ainu = cn_is_kar_pet
+						doo_ainu = cn_is_kar_pet
+						donan_ainu = cn_is_kar_pet
+						tohoku_ainu = cn_is_kar_pet
+					}
                 }
-                b_shgnt_ishikari_2 = {
-                    province = 2772
+                b_shgnt_ishikari_1 = {
+                    province = 2771 # Shinshinotsu	新篠津、sir-notシリノッ
                 }
                 b_shgnt_ishikari_3 = {
-                    province = 2773
+                    province = 2773 # Tobetsu,当別、to-petトペッ
                 }
             }
             c_shgnt_sapporo = {
@@ -12807,17 +12854,27 @@ e_shgnt_ezochi = {
 					donan_ainu = cn_sat_poro_pet
 					tohoku_ainu = cn_sat_poro_pet
 				}
+				b_shgnt_sapporo_3 = {
+                    province = 2776 # Sapporo, 札幌
+					cultural_names = {
+						hokkaido_ainu = cn_sat_poro_pet
+						chishima_ainu = cn_sat_poro_pet
+						karafuto_ainu = cn_sat_poro_pet
+						dohoku_ainu = cn_sat_poro_pet
+						doto_ainu = cn_sat_poro_pet
+						doo_ainu = cn_sat_poro_pet
+						donan_ainu = cn_sat_poro_pet
+						tohoku_ainu = cn_sat_poro_pet
+					}
+                }
                 b_shgnt_sapporo_1 = {
-                    province = 2774
+                    province = 2774 # Kotoni,琴似
                 }
                 b_shgnt_sapporo_2 = {
-                    province = 2775
-                }
-                b_shgnt_sapporo_3 = {
-                    province = 2776
+                    province = 2775 # Toyohira,豊平、tuy-piraトゥイピラ
                 }
                 b_shgnt_sapporo_4 = {
-                    province = 2777
+                    province = 2777 # Ebetsu,江別、e-petkeエペッケ
                 }
             }
             c_shgnt_yubari = {
@@ -12853,7 +12910,7 @@ e_shgnt_ezochi = {
 					}
                 }
             }
-            c_shgnt_kabato = {
+            c_shgnt_kabato = { # 樺戸
                 color = {105 130 27}
                 color2 = {255 255 255}
                 cultural_names = {
@@ -12867,13 +12924,13 @@ e_shgnt_ezochi = {
 					tohoku_ainu = cn_kapato
 				}
                 b_shgnt_kabato_1 = {
-                    province = 2781
+                    province = 2781 # Uraushi	浦臼
                 }
                 b_shgnt_kabato_2 = {
-                    province = 2782
+                    province = 2782 # Tsukigata	月形
                 }
             }
-            c_shgnt_sorachi = {
+            c_shgnt_sorachi = { # 空知
                 color = {105 130 27}
                 color2 = {255 255 255}
                 cultural_names = {
@@ -13150,7 +13207,17 @@ e_shgnt_ezochi = {
                     province = 2807
                 }
                 b_shgnt_rumoi_2 = {
-                    province = 2808
+                    province = 2808 # Rumoi	留萌
+					cultural_names = {
+						hokkaido_ainu = cn_rur_mo_ot_pe
+						chishima_ainu = cn_rur_mo_ot_pe
+						karafuto_ainu = cn_rur_mo_ot_pe
+						dohoku_ainu = cn_rur_mo_ot_pe
+						doto_ainu = cn_rur_mo_ot_pe
+						doo_ainu = cn_rur_mo_ot_pe
+						donan_ainu = cn_rur_mo_ot_pe
+						tohoku_ainu = cn_rur_mo_ot_pe
+					}
                 }
             }
             c_shgnt_tomamae = {
@@ -13511,11 +13578,12 @@ e_shgnt_ezochi = {
         }
     }
     k_shgnt_kita_ezochi = {
-                color = {248 229 140}
-                color2 = {255 255 255}
+        color = {248 229 140}
+        color2 = {255 255 255}
+		
         d_shgnt_toyohara = {
-                color = {248 229 140}
-                color2 = {255 255 255}
+            color = {248 229 140}
+            color2 = {255 255 255}
             c_shgnt_toyohara = {
                 color = {228 220 138}
                 color2 = {255 255 255}
@@ -13620,8 +13688,8 @@ e_shgnt_ezochi = {
             }
         }
         d_shgnt_maoka = {
-                color = {253 222 165}
-                color2 = {255 255 255}
+            color = {253 222 165}
+            color2 = {255 255 255}
             c_shgnt_tomarioru = {
                 color = {253 222 165}
                 color2 = {255 255 255}
@@ -13652,8 +13720,8 @@ e_shgnt_ezochi = {
             }
         }
         d_shgnt_esutoru = {
-                color = {244 177 122}
-                color2 = {255 255 255}
+            color = {244 177 122}
+            color2 = {255 255 255}
             c_shgnt_kushunnai = {
                 color = {244 177 122}
                 color2 = {255 255 255}
@@ -13677,8 +13745,8 @@ e_shgnt_ezochi = {
             }
         }
         d_shgnt_shisuka = {
-                color = {247 220 98}
-                color2 = {255 255 255}
+            color = {247 220 98}
+            color2 = {255 255 255}
             c_shgnt_mototomari = {
                 color = {247 220 98}
                 color2 = {255 255 255}

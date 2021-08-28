@@ -3890,7 +3890,8 @@
 }
 10021180={
 	name=character_name_10021180 # Masashige
-	dynasty=10000229 # Yashiro
+	#dynasty=10000229 # Yashiro
+	dynasty_house="house_shgnt_murakami_yashiro"
 	father=12385076 # 
 	religion="shinto"
 	culture="koshin"
@@ -3903,7 +3904,8 @@
 }
 10021181={
 	name=character_name_10021181 # Masakuni
-	dynasty=10000229 # Yashiro
+	#dynasty=10000229 # Yashiro
+	dynasty_house="house_shgnt_murakami_yashiro"
 	father=10021180 # 
 	religion="shinto"
 	culture="koshin"
@@ -3919,7 +3921,8 @@
 }
 10021182={
 	name=character_name_10021182 # Hidemasa
-	dynasty=10000229 # Yashiro
+	#dynasty=10000229 # Yashiro
+	dynasty_house="house_shgnt_murakami_yashiro"
 	father=10021181 # 
 	religion="shinto"
 	culture="koshin"
@@ -3933,6 +3936,7 @@
 10021190 = {
 	name=character_name_10021190 # Munekuni
 	dynasty=10000227 # Muroga
+#	dynasty_house="house_shgnt_murakami_muroga"
 	religion="shinto"
 	culture="koshin"
 	trait="education_intrigue_1"
@@ -3946,6 +3950,7 @@
 10021191 = {
 	name=character_name_10021191 # Morikiyo
 	dynasty=10000227 # Muroga
+#	dynasty_house="house_shgnt_murakami_muroga"
 	father=10021190
 	religion="shinto"
 	culture="koshin"
@@ -3960,6 +3965,7 @@
 10021192 = {
 	name=character_name_10021192 # Nobutoshi
 	dynasty=10000227 # Muroga
+#	dynasty_house="house_shgnt_murakami_muroga"
 	father=10021191
 	religion="shinto"
 	culture="koshin"
@@ -3977,6 +3983,7 @@
 	name=character_name_10021193 # Hana # Fictional
 	female=yes
 	dynasty=10000227 # Muroga
+#	dynasty_house="house_shgnt_murakami_muroga"
 	father=10021190
 	religion="shinto"
 	culture="koshin"
@@ -3990,7 +3997,8 @@
 }
 10021194 = {
 	name=character_name_10021194 # Mitsumasa
-	dynasty=10000227 # Muroga
+#	dynasty=10000227 # Muroga
+	dynasty_house="house_shgnt_murakami_muroga"
 	father=10021180
 	mother=10021193
 	religion="shinto"
@@ -4005,7 +4013,8 @@
 }
 10021195 = {
 	name=character_name_10021195 # Masatake
-	dynasty=10000227 # Muroga
+#	dynasty=10000227 # Muroga
+	dynasty_house="house_shgnt_murakami_muroga"
 	father=10021194
 	martial=11
 	diplomacy=8
@@ -4033,7 +4042,8 @@
 }
 10021196 = {
 	name=character_name_10021196 # Mitsutoshi
-	dynasty=10000227 # Muroga
+#	dynasty=10000227 # Muroga
+	dynasty_house="house_shgnt_murakami_muroga"
 	father=10021194
 	religion="shinto"
 	culture="koshin"

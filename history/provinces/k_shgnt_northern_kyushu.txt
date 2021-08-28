@@ -8,6 +8,12 @@
 	culture = northern_kyushu
 	religion = shinto
 	holding = none
+	1469.01.01={
+		holding=castle_holding # Oka, 岡城
+	}
+	1570.01.01={
+		holding=none # TODO 岡城の廃城年月日は要検討
+	}
 }
 2252 = { # Onga_3
 	culture = northern_kyushu
@@ -34,6 +40,12 @@
 	culture = northern_kyushu
 	religion = shinto
 	holding = none
+	1445.01.01={
+		holding=castle_holding # Tsutadake, 蘿岳城
+	}
+	1588.01.01={
+		holding=none # Akama, 赤間
+	}
 }
 2256 = { # Munakata_3
 	culture = northern_kyushu
@@ -171,6 +183,12 @@
 	culture = northern_kyushu
 	religion = shinto
 	holding = none
+	1533.01.01={
+		holding=castle_holding # Hōmanzan, 宝満山城
+	}
+	1586.01.01={
+		holding=none # TODO 宝満山城の廃城年月日については要検討
+	}
 }
 2281 = { # Mikasa_3
 	culture = northern_kyushu
@@ -515,7 +533,7 @@
 2343 = { # Buzen_Takawa_1
 	culture = northern_kyushu
 	religion = shinto
-	holding = none
+	holding = church_holding #　Hikosan, 英彦山
 }
 2344 = { # Buzen_Takawa_2
 	culture = northern_kyushu

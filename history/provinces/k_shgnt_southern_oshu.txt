@@ -627,12 +627,18 @@
 1195 = { # Kese_1
 	culture = southern_oshu
 	religion = shinto
-	holding = castle_holding
+	holding = none
 }
 1196 = { # Kese_2
 	culture = southern_oshu
 	religion = shinto
 	holding = none
+	1333.07.04={ # 仮の年月日
+		holding=castle_holding# Takata,高田城
+	}
+	1589.01.01={# 仮の年月日
+		holding=none
+	}
 }
 1197 = { # Kese_3
 	culture = southern_oshu

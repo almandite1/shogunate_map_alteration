@@ -1951,7 +1951,7 @@
 	}
 }
 12122000={
-	name=character_name_12122000 # Tadayoshi
+	name=character_name_12122000 # Tadayoshi, 忠義
 	dynasty=10000108 # Satake
 	father=10120130 # Satake Masayoshi
 	mother=12030014 # Fujiwara Kiyoko
@@ -1960,14 +1960,18 @@
 	1116.1.1={
 		birth=yes
 	}
+	1132.01.01={
+		give_nickname="nick_taro" # 「太郎」（『デジタル版 日本人名大辞典+Plus』）、（『続羣書類従』第五輯上「佐竹系図」）
+	}
 	1180.11.1={
 		death={
 			death_reason=death_murder
+			killer=10120075 # Minamoto Yoritomo
 		}
 	}
 }
 12122001={
-	name=character_name_12122001 # Yoshihiro
+	name=character_name_12122001 # Yoshihiro, 義弘
 	dynasty=10000108 # Satake
 	father=10120130 # Satake Masayoshi
 	mother=12030014 # Fujiwara Kiyoko
@@ -1976,12 +1980,15 @@
 	1117.1.1={
 		birth=yes
 	}
+	1137.01.01={
+		give_nickname="nick_kurodo" #　「蔵人」（『続羣書類従』第五輯上「佐竹系図」）
+	}
 	1153.1.1={
 		death=yes
 	}
 }
 12122002={
-	name=character_name_12122002 # Takayoshi
+	name=character_name_12122002 # Takayoshi, 隆義
 	dynasty=10000108 # Satake
 	father=10120130 # Satake Masayoshi
 	mother=12030014 # Fujiwara Kiyoko
@@ -1991,6 +1998,9 @@
 	trait="education_diplomacy_3"
 	1118.1.1={
 		birth=yes
+	}
+	1134.01.01={
+		give_nickname="nick_shiro" # 「四郎」（『続羣書類従』第五輯上「佐竹系図」）
 	}
 	1150.1.1={
 		add_spouse=12125150 # Tomura [Fujiwara] Yoshimichi
@@ -2006,7 +2016,7 @@
 	}
 }
 12122003={
-	name=character_name_12122003 # Yoshimune
+	name=character_name_12122003 # Yoshimune, 義宗
 	dynasty=10000108 # Satake
 	father=10120130 # Satake Masayoshi
 	mother=12030014 # Fujiwara Kiyoko
@@ -2015,12 +2025,15 @@
 	1119.1.1={
 		birth=yes
 	}
+	1135.01.01={
+		give_nickname="nick_jio" # 「次郎」（『続羣書類従』第五輯上「佐竹系図」）
+	}
 	1169.1.1={
 		death=yes
 	}
 }
 12122004={
-	name=character_name_12122004 # Chikayoshi
+	name=character_name_12122004 # Chikayoshi, 親義、岡田親義
 	dynasty=10000108 # Satake
 	father=10120130 # Satake Masayoshi
 	mother=12030014 # Fujiwara Kiyoko
@@ -2029,15 +2042,23 @@
 	1120.1.1={
 		birth=yes
 	}
+	# 「信州住」（『続羣書類従』第五輯上「佐竹系図」）
+	1140.01.01={
+		dynasty_house="house_shgnt_satake_okada"
+		give_nickname="nick_kaja" #　「冠者」（『続羣書類従』第五輯上「佐竹系図」）
+	}
 	1180.6.15={
 		employer=10120084 # Minamoto Yoshinaka
 	}
 	1183.6.2={
-		death=yes
+		death={
+			death_reason=death_battle # 「寿永二年五月北国砥並山合戦」
+			killer=10110049 # 三河守平知度（『続羣書類従』第五輯上「佐竹系図」）
+		}
 	}
 }
 12122005={
-	name=character_name_12122005 # Yoshisue
+	name=character_name_12122005 # Yoshisue, 義季
 	dynasty=10000108 # Satake
 	father=10120130 # Satake Masayoshi
 	mother=12030014 # Fujiwara Kiyoko
@@ -2046,12 +2067,15 @@
 	1121.1.1={
 		birth=yes
 	}
+	1137.01.01={
+		give_nickname="nick_goro" # 「佐竹五郎蔵人」（『続羣書類従』第五輯上「佐竹系図」）
+	}
 	1171.1.1={
 		death=yes
 	}
 }
 12122006={
-	name=character_name_12122006 # Masanari
+	name=character_name_12122006 # Masanari, 昌成
 	dynasty=10000108 # Satake
 	father=10120130 # Satake Masayoshi
 	mother=12030014 # Fujiwara Kiyoko
@@ -2059,6 +2083,9 @@
 	culture="northern_kanto"
 	1125.1.1={
 		birth=yes
+	}
+	1150.01.01={
+		give_nickname="nick_kaja" # 「佐竹冠者」（『続羣書類従』第五輯上「佐竹系図」）
 	}
 	1175.1.1={
 		death=yes
@@ -2098,7 +2125,8 @@
 }
 12122015={
 	name=character_name_12122015 # Shigeyoshi
-	dynasty=10000108 # Satake
+	#dynasty=10000108 # Satake
+	dynasty_house="house_shgnt_satake_okada"
 	father=12122004 # Satake Chikayoshi
 	religion="shinto"
 	culture="northern_kanto"
@@ -2166,7 +2194,7 @@
 	}
 }
 12122050={
-	name=character_name_12122050 # Hideyoshi
+	name=character_name_12122050 # Hideyoshi, 秀義
 	dynasty=10000108 # Satake
 	father=12122002 # Satake Takayoshi
 	mother=12125150 # Tomura [Fujiwara] Yoshimichi
@@ -2192,13 +2220,19 @@
 	}
 }
 12122051={
-	name=character_name_12122051 # Yoshishige
+	name=character_name_12122051 # Yoshishige, 義茂
 	dynasty=10000108 # Satake
 	father=12122002 # Satake Takayoshi
 	religion="shinto"
 	culture="northern_kanto"
 	1152.1.1={
 		birth=yes
+	}
+	1168.01.01={
+		give_nickname="nick_rokuro" # 「佐竹六郎」（『続羣書類従』第五輯上「佐竹系図」）
+	}
+	1175.01.01={
+		dynasty_house="house_shgnt_satake_minamisakaide"
 	}
 	1202.1.1={
 		death=yes
@@ -2213,6 +2247,12 @@
 	1154.1.1={
 		birth=yes
 	}
+	1170.01.01={
+		give_nickname="nick_hachiro" # 「佐竹八郎」（『続羣書類従』第五輯上「佐竹系図」）
+	}
+	1180.01.01={
+		dynasty_house="house_shgnt_satake_kitasakaide"
+	}
 	1204.1.1={
 		death=yes
 	}
@@ -2226,13 +2266,17 @@
 	1157.1.1={
 		birth=yes
 	}
+	1177.01.01={
+		dynasty_house="house_shgnt_satake_inamoto"
+	}
 	1207.1.1={
 		death=yes
 	}
 }
 12122060={
 	name=character_name_12122060 # Yoshiyuki
-	dynasty=10000108 # Satake
+	#dynasty=10000108 # Satake
+	dynasty_house="house_shgnt_satake_minamisakaide"
 	father=12122051 # Satake Yoshishige
 	religion="shinto"
 	culture="northern_kanto"
@@ -2246,7 +2290,8 @@
 }
 12122061={
 	name=character_name_12122061 # Yositoshi
-	dynasty=10000108 # Satake
+	#dynasty=10000108 # Satake
+	dynasty_house="house_shgnt_satake_minamisakaide"
 	father=12122060 # Satake Yoshiyuki
 	religion="shinto"
 	culture="northern_kanto"
@@ -2259,7 +2304,8 @@
 }
 12122065={
 	name=character_name_12122065 # Yoshisuke
-	dynasty=10000108 # Satake
+	#dynasty=10000108 # Satake
+	dynasty_house="house_shgnt_satake_kitasakaide"
 	father=12122052 # Satake Sueyoshi
 	religion="shinto"
 	culture="northern_kanto"
@@ -2273,7 +2319,8 @@
 }
 12122066={
 	name=character_name_12122066 # Kimikiyo
-	dynasty=10000108 # Satake
+	#dynasty=10000108 # Satake
+	dynasty_house="house_shgnt_satake_kitasakaide"
 	father=12122052 # Satake Sueyoshi
 	religion="shinto"
 	culture="northern_kanto"
@@ -2286,7 +2333,8 @@
 }
 12122067={
 	name=character_name_12122067 # Tsunayoshi
-	dynasty=10000108 # Satake
+	#dynasty=10000108 # Satake
+	dynasty_house="house_shgnt_satake_kitasakaide"
 	father=12122066 # Satake Kimikiyo
 	religion="shinto"
 	culture="northern_kanto"
@@ -2299,7 +2347,8 @@
 }
 12122068={
 	name=character_name_12122068 # Akiyoshi
-	dynasty=10000108 # Satake
+	#dynasty=10000108 # Satake
+	dynasty_house="house_shgnt_satake_kitasakaide"
 	father=12122065 # Satake Yoshisuke
 	religion="shinto"
 	culture="northern_kanto"
@@ -2312,7 +2361,8 @@
 }
 12122069={
 	name=character_name_12122069 # Yoshizane
-	dynasty=10000108 # Satake
+	#dynasty=10000108 # Satake
+	dynasty_house="house_shgnt_satake_kitasakaide"
 	father=12122068 # Satake Akiyoshi
 	religion="shinto"
 	culture="northern_kanto"
@@ -2325,7 +2375,8 @@
 }
 12122070={
 	name=character_name_12122070 # Yoshinori
-	dynasty=10000108 # Satake
+	#dynasty=10000108 # Satake
+	dynasty_house="house_shgnt_satake_kitasakaide"
 	father=12122068 # Satake Akiyoshi
 	religion="shinto"
 	culture="northern_kanto"
@@ -2338,7 +2389,8 @@
 }
 12122071={
 	name=character_name_12122071 # Yoshiyasu
-	dynasty=10000108 # Satake
+	#dynasty=10000108 # Satake
+	dynasty_house="house_shgnt_satake_kitasakaide"
 	father=12122068 # Satake Akiyoshi
 	religion="shinto"
 	culture="northern_kanto"
@@ -2351,7 +2403,8 @@
 }
 12122072={
 	name=character_name_12122072 # Yoshinaga
-	dynasty=10000108 # Satake
+	#dynasty=10000108 # Satake
+	dynasty_house="house_shgnt_satake_kitasakaide"
 	father=12122070 # Satake Yoshinori
 	religion="shinto"
 	culture="northern_kanto"
@@ -2363,7 +2416,7 @@
 	}
 }
 12122080={
-	name=character_name_12122080 # Yoshishige
+	name=character_name_12122080 # Yoshishige, 義重
 	dynasty=10000108 # Satake
 	father=12122050 # Satake Hideyoshi
 	religion="shinto"
@@ -2371,12 +2424,15 @@
 	1186.1.1={
 		birth=yes
 	}
+	1226.1.17={
+		give_nickname="nick_hitachi_no_suke" # 「常陸介」（『続羣書類従』第五輯上「佐竹系図」）
+	}
 	1252.4.5={
 		death=yes
 	}
 }
 12122081={
-	name=character_name_12122081 # Hideshige
+	name=character_name_12122081 # Hideshige, 秀繁
 	dynasty=10000108 # Satake
 	father=12122050 # Satake Hideyoshi
 	religion="shinto"
@@ -2384,27 +2440,34 @@
 	1190.1.1={
 		birth=yes
 	}
+	1210.01.01={
+		give_nickname="nick_saemon_no_jo" # 「左衛門尉」（『続羣書類従』第五輯上「佐竹系図」）
+	}
 	1221.6.1={
 		death={
-			death_reason=death_battle
+			death_reason=death_battle #　「承久ノ乱宇治ニ戦死」（『続羣書類従』第五輯上「佐竹系図」）
 		}
 	}
 }
 12122082={
-	name=character_name_12122082 # Nagayoshi
+	name=character_name_12122082 # Nagayoshi, 長義
 	dynasty=10000108 # Satake
 	father=12122080 # Satake Shigeyoshi
+	#mother= # 「平忠遠女」（『続羣書類従』第五輯上「佐竹系図」）
 	religion="shinto"
 	culture="northern_kanto"
 	1207.1.1={
 		birth=yes
 	}
-	1272.1.1={
+	1223.01.01={
+		give_nickname="nick_jio" # 「次郎」（『続羣書類従』第五輯上「佐竹系図」）
+	}
+	1272.08.21={ # 「文永9(1272)年七月二十六日六十七卒」（『続羣書類従』第五輯上「佐竹系図」）
 		death=yes
 	}
 }
 12122083={
-	name=character_name_12122083 # Yoshitaka
+	name=character_name_12122083 # Yoshitaka,義高、 『続羣書類従』第五輯上「佐竹系図」では「義隆」、岡田四郎
 	dynasty=10000108 # Satake
 	father=12122080 # Satake Shigeyoshi
 	religion="shinto"
@@ -2412,12 +2475,16 @@
 	1211.1.1={
 		birth=yes
 	}
+	1227.01.01={
+		give_nickname="nick_shiro" # 「四郎」（『続羣書類従』第五輯上「佐竹系図」）
+		dynasty_house="house_shgnt_satake_okada"
+	}
 	1261.1.1={
 		death=yes
 	}
 }
 12122084={
-	name=character_name_12122084 # Yoshinao
+	name=character_name_12122084 # Yoshinao, 義直、童名「伊豆王丸」（『続羣書類従』第五輯上「佐竹系図」）
 	dynasty=10000108 # Satake
 	father=12122080 # Satake Shigeyoshi
 	religion="shinto"
@@ -2425,12 +2492,18 @@
 	1214.1.1={
 		birth=yes
 	}
+	1230.01.01={
+		give_nickname="nick_Yajio" # 「弥次郎」（『続羣書類従』第五輯上「佐竹系図」）
+	}
+	1244.01.01={
+		dynasty_house="house_shgnt_satake_nukata"
+	}
 	1264.1.1={
 		death=yes
 	}
 }
 12122085={
-	name=character_name_12122085 # Yoshizumi
+	name=character_name_12122085 # Yoshizumi,義澄
 	dynasty=10000108 # Satake
 	father=12122080 # Satake Shigeyoshi
 	religion="shinto"
@@ -2443,7 +2516,7 @@
 	}
 }
 12122086={
-	name=character_name_12122086 # Yoshitsuna
+	name=character_name_12122086 # Yoshitsuna,義綱
 	dynasty=10000108 # Satake
 	father=12122080 # Satake Shigeyoshi
 	religion="shinto"
@@ -2456,7 +2529,7 @@
 	}
 }
 12122087={
-	name=character_name_12122087 # Shigeuji
+	name=character_name_12122087 # Shigeuji,重氏
 	dynasty=10000108 # Satake
 	father=12122080 # Satake Shigeyoshi
 	religion="shinto"
@@ -2469,7 +2542,7 @@
 	}
 }
 12122090={
-	name=character_name_12122090 # Yoshitane
+	name=character_name_12122090 # Yoshitane,義胤
 	dynasty=10000108 # Satake
 	father=12122082 # Satake Nagayoshi
 	religion="shinto"
@@ -2477,18 +2550,29 @@
 	1227.1.1={
 		birth=yes
 	}
+	1243.01.01={
+		give_nickname="nick_Magojuro" # 「孫次郎」（『続羣書類従』第五輯上「佐竹系図」）
+	}
+	# TODO: 「奥州岩崎（平氏也）女娶ル」（『続羣書類従』第五輯上「佐竹系図」）
+	1272.08.21={
+		give_nickname="nick_hitachi_no_suke" # 「常陸介」（『続羣書類従』第五輯上「佐竹系図」）
+	}
 	1278.4.30={
 		death=yes
 	}
 }
 12122100={
-	name=character_name_12122100 # Yukiyoshi
+	name=character_name_12122100 # Yukiyoshi,行義
 	dynasty=10000108 # Satake
 	father=12122090 # Satake Yoshitane
+	#mother= # 岩崎女
 	religion="shinto"
 	culture="northern_kanto"
 	1263.1.1={
 		birth=yes
+	}
+	1279.01.01={
+		give_nickname="nick_Hikojio" # 「彦次郎左衛門尉別当」（『続羣書類従』第五輯上「佐竹系図」）
 	}
 	1286.1.1={
 		add_spouse=12220244 # Nikaido Yoritsuna
@@ -2511,7 +2595,7 @@
 	}
 }
 12122103={
-	name=character_name_12122103 # Yoshihiro
+	name=character_name_12122103 # Yoshihiro, 義熈
 	dynasty=10000108 # Satake
 	father=12122090 # Satake Yoshitane
 	religion="shinto"
@@ -2519,12 +2603,15 @@
 	1269.1.1={
 		birth=yes
 	}
+	1299.01.01={
+		dynasty_house="house_shgnt_satake_toyoma"
+	}
 	1319.1.1={
 		death=yes
 	}
 }
 12122104={
-	name=character_name_12122104 # Kageyoshi
+	name=character_name_12122104 # Kageyoshi,景義
 	dynasty=10000108 # Satake
 	father=12122090 # Satake Yoshitane
 	religion="shinto"
@@ -2532,26 +2619,35 @@
 	1271.1.1={
 		birth=yes
 	}
+	1287.01.01={
+		give_nickname="nick_goro" # 「高部五郎」（『続羣書類従』第五輯上「佐竹系図」）
+	}
+	1301.01.01={
+		dynasty_house="house_shgnt_satake_takabe"
+	}
 	1321.1.1={
 		death=yes
 	}
 }
 12122110={
-	name=character_name_12122110 # Sadayoshi
+	name=character_name_12122110 # Sadayoshi,貞義
 	dynasty=10000108 # Satake
 	father=12122100 # Satake Yukiyoshi
-	mother=12220244 # Nikaido Yoritsuna
+	mother=12220244 # Nikaido Yoritsuna, 「二階堂頼綱女」（『続羣書類従』第五輯上「佐竹系図」）
 	religion="shinto"
 	culture="northern_kanto"
 	1287.1.1={
 		birth=yes
+	}
+	1303.01.01={
+		give_nickname="nick_jio" # 「次郎左衛門尉別当遠江権守上総介」（『続羣書類従』第五輯上「佐竹系図」）
 	}
 	1352.10.18={
 		death=yes
 	}
 }
 12122111={
-	name=character_name_12122111 # Yoshitsuna
+	name=character_name_12122111 # Yoshitsuna, 義綱
 	dynasty=10000108 # Satake
 	father=12122100 # Satake Yukiyoshi
 	mother=12220244 # Nikaido Yoritsuna
@@ -2560,12 +2656,18 @@
 	1290.1.1={
 		birth=yes
 	}
+	1306.01.01={
+		give_nickname="nick_saburo" # 「長倉三郎」（『続羣書類従』第五輯上「佐竹系図」）
+	}
+	1320.01.01={
+		dynasty_house="house_shgnt_satake_nagakura"
+	}
 	1340.1.1={
 		death=yes
 	}
 }
 12122112={
-	name=character_name_12122112 # Yoshitaka
+	name=character_name_12122112 # Yoshitaka, 義高
 	dynasty=10000108 # Satake
 	father=12122100 # Satake Yukiyoshi
 	mother=12220244 # Nikaido Yoritsuna
@@ -2574,12 +2676,18 @@
 	1291.1.1={
 		birth=yes
 	}
+	1307.01.01={
+		give_nickname="nick_Yojio" # 「大内與次郎」（『続羣書類従』第五輯上「佐竹系図」）
+	}
+	1321.01.01={
+		dynasty_house="house_shgnt_satake_ouchi"
+	}
 	1341.1.1={
 		death=yes
 	}
 }
 12122113={
-	name=character_name_12122113 # Kageyoshi
+	name=character_name_12122113 # Kageyoshi, 景義
 	dynasty=10000108 # Satake
 	father=12122100 # Satake Yukiyoshi
 	mother=12220244 # Nikaido Yoritsuna
@@ -2588,25 +2696,35 @@
 	1293.1.1={
 		birth=yes
 	}
+	1309.01.01={
+		give_nickname="nick_shiro" # 「馬淵四郎」（『続羣書類従』第五輯上「佐竹系図」）
+	}
+	1323.01.01={
+		dynasty_house="house_shgnt_satake_mabuchi"
+	}
 	1343.1.1={
 		death=yes
 	}
 }
 12122120={
-	name=character_name_12122120 # Yoshiatsu
+	name=character_name_12122120 # Yoshiatsu, 義篤
 	dynasty=10000108 # Satake
 	father=12122110 # Satake Sadayoshi
+	#mother= # TODO: 「海上六郎左衛門平胤泰娘」（『続羣書類従』第五輯上「佐竹系図」）
 	religion="shinto"
 	culture="northern_kanto"
 	1311.1.1={
 		birth=yes
+	}
+	1327.01.01={
+		give_nickname="nick_Kotaro" # 「小太郎刑部大輔左馬権頭左兵衛督」（『続羣書類従』第五輯上「佐竹系図」）
 	}
 	1362.2.7={
 		death=yes
 	}
 }
 12122121={
-	name=character_name_12122121 # Moroyoshi
+	name=character_name_12122121 # Moroyoshi, 師義
 	dynasty=10000108 # Satake
 	father=12122110 # Satake Sadayoshi
 	religion="shinto"
@@ -2614,18 +2732,28 @@
 	1330.1.1={
 		birth=yes
 	}
+	1346.01.01={
+		give_nickname="nick_shichiro" # 「七郎刑部大輔」（『続羣書類従』第五輯上「佐竹系図」）
+	}
+	1352.10.18={
+		dynasty_house="house_shgnt_satake_yamairi"
+	}
 	1397.1.1={
 		death=yes
 	}
 }
 12122130={
-	name=character_name_12122130 # Yoshinobu
+	name=character_name_12122130 # Yoshinobu, 義宣、始名「義香」（『続羣書類従』第五輯上「佐竹系図」）
 	dynasty=10000108 # Satake
 	father=12122120 # Satake Yoshiatsu
+	#mother= # TODO: 「小田左衛門尉知貞女」（『続羣書類従』第五輯上「佐竹系図」）
 	religion="shinto"
 	culture="northern_kanto"
 	1346.1.1={
 		birth=yes
+	}
+	1362.01.01={
+		give_nickname="nick_the_sama_no_suke" # 「左馬介右馬頭左近大夫将監伊予守」（『続羣書類従』第五輯上「佐竹系図」）
 	}
 	1389.8.5={
 		death=yes
@@ -2633,12 +2761,16 @@
 }
 12122200={
 	name=character_name_12122200 # Tomoyoshi, 与義
-	dynasty=10000108 # Satake
+	#dynasty=10000108 # Satake
+	dynasty_house="house_shgnt_satake_yamairi"
 	father=12122121 # Satake Moroyoshi、佐竹師義
 	religion="shinto"
 	culture="northern_kanto"
 	1360.1.1={
 		birth=yes
+	}
+	1390.01.01={
+		give_nickname="nick_the_kazusa_no_suke" # 「上総介」（『続羣書類従』第五輯上「佐竹系図」）
 	}
 	1422.11.27={
 		death={
@@ -2648,16 +2780,21 @@
 	}
 }
 12122201={
-	name=character_name_12122201 # Yoriyoshi
-	dynasty=10000108 # Satake
+	name=character_name_12122201 # Yoriyoshi,自義
+	#dynasty=10000108 # Satake
+	dynasty_house="house_shgnt_satake_yamairi"
 	father=12122121 # Satake Moroyoshi
 	religion="shinto"
 	culture="northern_kanto"
 	1362.1.1={
 		birth=yes
 	}
+	1378.01.01={
+		give_nickname="nick_kuro" # 「小田野九郎」（『続羣書類従』第五輯上「佐竹系図」）
+	}
 	1407.10.22={
 		add_pressed_claim=d_shgnt_hitachi
+		give_nickname="nick_the_owari_no_kami" # 「尾張守」（『続羣書類従』第五輯上「佐竹系図」）
 	}
 	1420.1.1={
 		death=yes
@@ -2665,7 +2802,8 @@
 }
 12122205={
 	name=character_name_12122205 # Yoshisato
-	dynasty=10000108 # Satake
+	#dynasty=10000108 # Satake
+	dynasty_house="house_shgnt_satake_yamairi"
 	father=12122200 # Satake Tomoyoshi
 	religion="shinto"
 	culture="northern_kanto"
@@ -2680,8 +2818,9 @@
 	}
 }
 12122206={
-	name=character_name_12122206 # Sukeyoshi
-	dynasty=10000108 # Satake
+	name=character_name_12122206 # Sukeyoshi,祐義
+	#dynasty=10000108 # Satake
+	dynasty_house="house_shgnt_satake_yamairi"
 	father=12122200 # Satake Tomoyoshi
 	religion="shinto"
 	culture="northern_kanto"
@@ -2690,14 +2829,16 @@
 	}
 	1423.1.1={
 		add_pressed_claim=d_shgnt_hitachi
+		give_nickname="nick_the_gyobu_daihu" # 「刑部大輔」（『続羣書類従』第五輯上「佐竹系図」）
 	}
 	1460.1.1={
 		death=yes
 	}
 }
 12122210={
-	name=character_name_12122210 # Yoshitomo
-	dynasty=10000108 # Satake
+	name=character_name_12122210 # Yoshitomo,義知
+	#dynasty=10000108 # Satake
+	dynasty_house="house_shgnt_satake_yamairi"
 	father=12122206 # Satake Sukeyoshi
 	religion="shinto"
 	culture="northern_kanto"
@@ -2706,14 +2847,16 @@
 	}
 	1460.1.1={
 		add_pressed_claim=d_shgnt_hitachi
+		give_nickname="nick_the_kazusa_no_suke" # 「上総介」（『続羣書類従』第五輯上「佐竹系図」）
 	}
 	1478.1.1={
 		death=yes
 	}
 }
 12122211={
-	name=character_name_12122211 # Yoshizane
-	dynasty=10000108 # Satake
+	name=character_name_12122211 # Yoshizane,義真
+	#dynasty=10000108 # Satake
+	dynasty_house="house_shgnt_satake_yamairi"
 	father=12122206 # Satake Sukeyoshi
 	religion="shinto"
 	culture="northern_kanto"
@@ -2722,6 +2865,7 @@
 	}
 	1478.1.1={
 		add_pressed_claim=d_shgnt_hitachi
+		give_nickname="nick_the_shimousa_no_suke" # 「下総介」（『続羣書類従』第五輯上「佐竹系図」）
 	}
 	1480.1.1={
 		death=yes
@@ -2729,7 +2873,8 @@
 }
 12122215={
 	name=character_name_12122215 # Yoshiaki
-	dynasty=10000108 # Satake
+	#dynasty=10000108 # Satake
+	dynasty_house="house_shgnt_satake_yamairi"
 	father=12122211 # Satake Yoshizane
 	religion="shinto"
 	culture="northern_kanto"
@@ -2742,7 +2887,8 @@
 }
 12122216={
 	name=character_name_12122216 # Yoshifuji
-	dynasty=10000108 # Satake
+	#dynasty=10000108 # Satake
+	dynasty_house="house_shgnt_satake_yamairi"
 	father=12122211 # Satake Yoshizane
 	religion="shinto"
 	culture="northern_kanto"
@@ -2760,7 +2906,8 @@
 }
 12122220={
 	name=character_name_12122220 # Ujiyoshi
-	dynasty=10000108 # Satake
+	#dynasty=10000108 # Satake
+	dynasty_house="house_shgnt_satake_yamairi"
 	father=12122216 # Satake Yoshifuji
 	religion="shinto"
 	culture="northern_kanto"
@@ -2780,7 +2927,8 @@
 }
 12122225={
 	name=character_name_12122225 # Yoshimori
-	dynasty=10000108 # Satake
+	#dynasty=10000108 # Satake
+	dynasty_house="house_shgnt_satake_yamairi"
 	father=12122220 # Satake Ujiyoshi
 	religion="shinto"
 	culture="northern_kanto"
@@ -2795,7 +2943,8 @@
 }
 12122230={
 	name=character_name_12122230 # Yoshito
-	dynasty=10000108 # Satake
+	#dynasty=10000108 # Satake
+	dynasty_house="house_shgnt_satake_yamairi"
 	father=12122225 # Satake Yoshimori
 	religion="shinto"
 	culture="northern_kanto"
@@ -2808,7 +2957,8 @@
 }
 12122231={
 	name=character_name_12122231 # Yoshitsugu
-	dynasty=10000108 # Satake
+	#dynasty=10000108 # Satake
+	dynasty_house="house_shgnt_satake_yamairi"
 	father=12122225 # Satake Yoshimori
 	religion="shinto"
 	culture="northern_kanto"
