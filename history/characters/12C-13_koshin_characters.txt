@@ -67,12 +67,14 @@
 	1162.1.1={
 		birth=yes
 	}
+	1182.01.01={
+		dynasty=10000200 # Takeda
+	}
 	1186.1.1={
 		add_spouse=12185007 # Nitta Shigeko
 	}
 	1248.12.21={
 		death=yes
-		dynasty=10000200 # Takeda
 	}
 }
 12360110={
@@ -417,7 +419,8 @@
 }
 12360173={
 	name=character_name_12360173 # Nobuaki
-	dynasty=10000203 # Oi
+	#dynasty=10000203 # Oi
+	dynasty_house="house_shgnt_takeda_oi"
 	father=12360160 # Takeda Nobutake
 	religion="shinto"
 	culture="koshin"
@@ -451,9 +454,9 @@
 	}
 }
 12360190 = {
-	name=character_name_12360190 # Nobumitsu
+	name=character_name_12360190 # Nobumitsu, 信満
 	dynasty=10000200 # Takeda
-	father=12360180
+	father=12360180 # 武田信春
 	martial=7
 	diplomacy=7
 	intrigue=7
@@ -470,7 +473,10 @@
 		add_spouse=10020106 # daughter of 20104:Oyamada Nobusumi
 	}
 	1417.2.22={
-		death=yes
+		death={
+			death_reason=death_battle # 山梨郡木賊山(東山梨郡大和村)で自害
+			killer=10040061 #　足利持氏、TODO 上杉憲宗に変更
+		}
 	}
 }
 12360191={
@@ -539,7 +545,8 @@
 }
 12360201={
 	name=character_name_12360201 # Nobukage
-	dynasty=10000204 # Imai
+	#dynasty=10000204 # Imai
+	dynasty_house="house_shgnt_takeda_imai"
 	father=12360190 # Takeda Nobumitsu
 	religion="shinto"
 	culture="koshin"
@@ -638,7 +645,8 @@
 }
 12360231={
 	name=character_name_12360231 # Nobuyoshi
-	dynasty=10000202 # Aburakawa
+	#dynasty=10000202 # Aburakawa
+	dynasty_house="house_shgnt_takeda_aburakawa"
 	father=12360220 # Takeda Nobumasa
 	religion="shinto"
 	culture="koshin"
@@ -6097,7 +6105,8 @@
 		birth=yes
 	}
 	1142.1.1={
-		dynasty=10007164 # Chino
+		#dynasty=10007164 # Chino
+		dynasty_house="house_shgnt_suwa_chino"
 	}
 	1172.1.1={
 		death=yes
@@ -6826,7 +6835,8 @@
 }
 12375976={
 	name=character_name_12375976 # Yorichika #Gyoubu daiho, lived in Ina
-	dynasty=10000212 # Takato clan
+#	dynasty=10000212 # Takato clan
+	dynasty_house="house_shgnt_suwa_takato"
 	father=12375972 # Suwa Tsugumune
 	religion="shinto"
 	culture="koshin"
@@ -6853,7 +6863,8 @@
 }
 12375978={
 	name=character_name_12375978 # Yoshimitsu #Shinano no kami, Buddhist name is Yoshimi
-	dynasty=10000212 # Takato clan
+#	dynasty=10000212 # Takato clan
+	dynasty_house="house_shgnt_suwa_takato"
 	father=12375976
 	religion="shinto"
 	culture="koshin"
@@ -6867,7 +6878,8 @@
 }
 12375979={
 	name=character_name_12375979 # Taigen #Shinano no kami, Eikyo 12(1440),Join in yuki Gassen
-	dynasty=10000212 # Takato clan
+#	dynasty=10000212 # Takato clan
+	dynasty_house="house_shgnt_suwa_takato"
 	father=12375978
 	religion="shinto"
 	culture="koshin"
@@ -6881,7 +6893,8 @@
 }
 12375980={
 	name=character_name_12375980 # Etsuzan
-	dynasty=10000212 # Takato
+#	dynasty=10000212 # Takato clan
+	dynasty_house="house_shgnt_suwa_takato"
 	father=12375979 # Takato Taigen
 	religion="shinto"
 	culture="koshin"
@@ -6894,7 +6907,8 @@
 }
 12375981={
 	name=character_name_12375981 # Tsugumune
-	dynasty=10000212 # Takato
+#	dynasty=10000212 # Takato clan
+	dynasty_house="house_shgnt_suwa_takato"
 	father=12375980 # Takato Etsuzan
 	religion="shinto"
 	culture="koshin"
@@ -6908,7 +6922,8 @@
 12375982={
 	female=yes
 	name=character_name_12375982 # Tsuguko
-	dynasty=10000212 # Takato
+#	dynasty=10000212 # Takato clan
+	dynasty_house="house_shgnt_suwa_takato"
 	father=12375980 # Takato Etsuzan
 	religion="shinto"
 	culture="koshin"
@@ -6921,7 +6936,8 @@
 }
 12375983={
 	name=character_name_12375983 # Mitsutsugu
-	dynasty=10000212 # Takato
+#	dynasty=10000212 # Takato clan
+	dynasty_house="house_shgnt_suwa_takato"
 	father=12375981 # Takato Tsugumune
 	martial=7
 	diplomacy=8
@@ -6941,7 +6957,8 @@
 }
 12375984={
 	name=character_name_12375984 # Yoritsugu
-	dynasty=10000212 # Takato
+#	dynasty=10000212 # Takato clan
+	dynasty_house="house_shgnt_suwa_takato"
 	father=12375983 # Takato Mitsutsugu
 	martial=7
 	diplomacy=8
@@ -6967,7 +6984,8 @@
 }
 12375985={
 	name=character_name_12375985 # Yorimune
-	dynasty=10000212 # Takato
+#	dynasty=10000212 # Takato clan
+	dynasty_house="house_shgnt_suwa_takato"
 	father=12375983 # Takato Mitsutsugu
 	religion="shinto"
 	culture="koshin"
@@ -7880,7 +7898,8 @@
 }
 12376100={
 	name=character_name_12376100 # Mitsuhiro
-	dynasty=10007164 # Chino
+	#dynasty=10007164 # Chino
+	dynasty_house="house_shgnt_suwa_chino"
 	father=12375903 # Suwa Mitsuchika
 	religion="shinto"
 	culture="koshin"
@@ -7898,7 +7917,8 @@
 }
 12376101={
 	name=character_name_12376101 # Kiyosada
-	dynasty=10007164 # Chino
+	#dynasty=10007164 # Chino
+	dynasty_house="house_shgnt_suwa_chino"
 	father=12375903 # Suwa Mitsuchika
 	religion="shinto"
 	culture="koshin"
@@ -7914,7 +7934,8 @@
 }
 12376102={
 	name=character_name_12376102 # Kiyochika
-	dynasty=10007165 # Fujisawa
+#	dynasty=10007165 # Fujisawa
+	dynasty_house="house_shgnt_suwa_fujisawa"
 	father=12376101 # Chino Kiyosada
 	religion="shinto"
 	culture="koshin"
@@ -7928,7 +7949,8 @@
 }
 12376105={
 	name=character_name_12376105 # Kiyomasa
-	dynasty=10007165 # Fujisawa
+#	dynasty=10007165 # Fujisawa
+	dynasty_house="house_shgnt_suwa_fujisawa"
 	father=12376102 # Fujisawa Kiyochika
 	religion="shinto"
 	culture="koshin"
@@ -7941,7 +7963,8 @@
 }
 12376106={
 	name=character_name_12376106 # Kiyonao
-	dynasty=10007165 # Fujisawa
+#	dynasty=10007165 # Fujisawa
+	dynasty_house="house_shgnt_suwa_fujisawa"
 	father=12376102 # Fujisawa Kiyochika
 	religion="shinto"
 	culture="koshin"
@@ -7954,7 +7977,8 @@
 }
 12376107={
 	name=character_name_12376107 # Mitsukiyo
-	dynasty=10007165 # Fujisawa
+#	dynasty=10007165 # Fujisawa
+	dynasty_house="house_shgnt_suwa_fujisawa"
 	father=12376102 # Fujisawa Kiyochika
 	religion="shinto"
 	culture="koshin"
@@ -7967,7 +7991,8 @@
 }
 12376110={
 	name=character_name_12376110 # Tomokiyo
-	dynasty=10007165 # Fujisawa
+#	dynasty=10007165 # Fujisawa
+	dynasty_house="house_shgnt_suwa_fujisawa"
 	father=12376105 # Fujisawa Kiyomasa
 	religion="shinto"
 	culture="koshin"
@@ -7980,7 +8005,8 @@
 }
 12376111={
 	name=character_name_12376111 # Kiyonobu
-	dynasty=10007165 # Fujisawa
+#	dynasty=10007165 # Fujisawa
+	dynasty_house="house_shgnt_suwa_fujisawa"
 	father=12376105 # Fujisawa Kiyomasa
 	religion="shinto"
 	culture="koshin"
@@ -7993,7 +8019,8 @@
 }
 12376113={
 	name=character_name_12376113 # Tadakiyo
-	dynasty=10007165 # Fujisawa
+#	dynasty=10007165 # Fujisawa
+	dynasty_house="house_shgnt_suwa_fujisawa"
 	father=12376107 # Fujisawa Mitsukiyo
 	religion="shinto"
 	culture="koshin"
@@ -8006,7 +8033,8 @@
 }
 12376114={
 	name=character_name_12376114 # Kiyotoki
-	dynasty=10007165 # Fujisawa
+#	dynasty=10007165 # Fujisawa
+	dynasty_house="house_shgnt_suwa_fujisawa"
 	father=12376107 # Fujisawa Mitsukiyo
 	religion="shinto"
 	culture="koshin"
@@ -8019,7 +8047,8 @@
 }
 12376116={
 	name=character_name_12376116 # Kiyokata
-	dynasty=10007165 # Fujisawa
+#	dynasty=10007165 # Fujisawa
+	dynasty_house="house_shgnt_suwa_fujisawa"
 	father=12376114 # Fujisawa Kiyotoki
 	religion="shinto"
 	culture="koshin"
@@ -8032,7 +8061,8 @@
 }
 12376118={
 	name=character_name_12376118 # Kiyotsuna
-	dynasty=10007165 # Fujisawa
+#	dynasty=10007165 # Fujisawa
+	dynasty_house="house_shgnt_suwa_fujisawa"
 	father=12376111 # Fujisawa Kiyonobu
 	religion="shinto"
 	culture="koshin"
@@ -8045,7 +8075,8 @@
 }
 12376120={
 	name=character_name_12376120 # Masayori
-	dynasty=10007165 # Fujisawa
+#	dynasty=10007165 # Fujisawa
+	dynasty_house="house_shgnt_suwa_fujisawa"
 	father=12376110 # Fujisawa Tomokiyo
 	religion="shinto"
 	culture="koshin"
@@ -8058,7 +8089,8 @@
 }
 12376121={
 	name=character_name_12376121 # Masatsune
-	dynasty=10007165 # Fujisawa
+#	dynasty=10007165 # Fujisawa
+	dynasty_house="house_shgnt_suwa_fujisawa"
 	father=12376120 # Fujisawa Masayori
 	religion="shinto"
 	culture="koshin"
@@ -8071,7 +8103,8 @@
 }
 12376122={
 	name=character_name_12376122 # Nobumasa
-	dynasty=10007165 # Fujisawa
+#	dynasty=10007165 # Fujisawa
+	dynasty_house="house_shgnt_suwa_fujisawa"
 	father=12376121 # Fujisawa Masatsune
 	religion="shinto"
 	culture="koshin"
@@ -8084,7 +8117,8 @@
 }
 12376123={
 	name=character_name_12376123 # Shigemasa
-	dynasty=10007165 # Fujisawa
+#	dynasty=10007165 # Fujisawa
+	dynasty_house="house_shgnt_suwa_fujisawa"
 	father=12376122 # Fujisawa Nobumasa
 	religion="shinto"
 	culture="koshin"
@@ -8097,7 +8131,8 @@
 }
 12376124={
 	name=character_name_12376124 # Tsunemasa
-	dynasty=10007165 # Fujisawa
+#	dynasty=10007165 # Fujisawa
+	dynasty_house="house_shgnt_suwa_fujisawa"
 	father=12376122 # Fujisawa Nobumasa
 	religion="shinto"
 	culture="koshin"
@@ -8110,7 +8145,8 @@
 }
 12376125={
 	name=character_name_12376125 # Nobukiyo
-	dynasty=10007165 # Fujisawa
+#	dynasty=10007165 # Fujisawa
+	dynasty_house="house_shgnt_suwa_fujisawa"
 	father=12376124 # Fujisawa Tsunemasa
 	religion="shinto"
 	culture="koshin"
@@ -8123,7 +8159,8 @@
 }
 12376126={
 	name=character_name_12376126 # Yorikiyo
-	dynasty=10007165 # Fujisawa
+#	dynasty=10007165 # Fujisawa
+	dynasty_house="house_shgnt_suwa_fujisawa"
 	father=12376125 # Fujisawa Nobukiyo
 	religion="shinto"
 	culture="koshin"
@@ -8136,7 +8173,8 @@
 }
 12376127={
 	name=character_name_12376127 # Ariie
-	dynasty=10007165 # Fujisawa
+#	dynasty=10007165 # Fujisawa
+	dynasty_house="house_shgnt_suwa_fujisawa"
 	father=12376126 # Fujisawa Yorikiyo
 	religion="shinto"
 	culture="koshin"
@@ -8149,7 +8187,8 @@
 }
 12376128={
 	name=character_name_12376128 # Arimasa
-	dynasty=10007165 # Fujisawa
+#	dynasty=10007165 # Fujisawa
+	dynasty_house="house_shgnt_suwa_fujisawa"
 	father=12376127 # Fujisawa Ariie
 	religion="shinto"
 	culture="koshin"
@@ -8162,7 +8201,8 @@
 }
 12376129={
 	name=character_name_12376129 # Nobuari
-	dynasty=10007165 # Fujisawa
+#	dynasty=10007165 # Fujisawa
+	dynasty_house="house_shgnt_suwa_fujisawa"
 	father=12376128 # Fujisawa Arimasa
 	religion="shinto"
 	culture="koshin"
@@ -8175,7 +8215,8 @@
 }
 12376130={
 	name=character_name_12376130 # Mitsuie
-	dynasty=10007165 # Fujisawa
+#	dynasty=10007165 # Fujisawa
+	dynasty_house="house_shgnt_suwa_fujisawa"
 	father=12376129 # Fujisawa Nobuari
 	religion="shinto"
 	culture="koshin"
@@ -8188,7 +8229,8 @@
 }
 12376131={
 	name=character_name_12376131 # Takachika
-	dynasty=10007165 # Fujisawa
+#	dynasty=10007165 # Fujisawa
+	dynasty_house="house_shgnt_suwa_fujisawa"
 	father=12376130 # Fujisawa Mitsuie
 	religion="shinto"
 	culture="koshin"

@@ -1122,7 +1122,7 @@
 	}
 	1441.5.6={
 		death={
-			death_reason=death_battle
+			death_reason=death_battle # 結城合戦で戦死
 		}
 	}
 }
@@ -6269,34 +6269,41 @@
 	}
 }
 10040061 = {
-	name=character_name_10040061 # Mochiuji
+	name=character_name_10040061 # Mochiuji, 持氏
 #	dynasty=10000400 # Ashikaga
 	dynasty_house = house_shgnt_kamakuraashikaga
-	father=10040064
+	father=10040064 # 足利満兼
+	#mother= # 一色氏
 	religion="shinto"
 	culture="eastern_kanto"
 	trait="ashikaga_family"
-	1398.1.1={
-		birth=yes
+	1398.1.1={ # 応永5(1398)年
+		birth=yes # 幼名「幸王丸」
 	}
+	# 応永17(1410)年十二月、元服、将軍足利義持の偏諱
 	1410.1.1={
 		give_nickname="nick_the_sama_no_kami"
 		effect = {
 			add_trait = "jugoi_ge"
 		}
 	}
+	1412.01.01={
+		give_nickname="nick_the_sahyoe_no_kami" # 応永19(1412)年三月、判始め、これ以前「左兵衛督」に任じられる
+	}
 	1418.1.1={
 		add_spouse= 10011403 # Yanada Naoko
 	}
-	1423.1.1={
-		give_nickname="nick_the_sahyoe_no_kami"
+	1421.01.04={ # 応永27(1420)年十二月（植田真平、『足利持氏』、2016）
 		effect = {
 			remove_trait = "jugoi_ge"
 			add_trait = "jusanmi"
 		}
 	}
 	1439.3.24={
-		death=yes
+		death={
+			death_reason=death_suicide # 強制的に自害させられる
+			killer=10040006　# 足利義教
+		}
 	}
 }
 10040062 = {
@@ -6332,18 +6339,20 @@
 	}
 }
 10040064 = {
-	name=character_name_10040064 # Mitsukane
+	name=character_name_10040064 # Mitsukane, 満兼
 #	dynasty=10000400 # Ashikaga
 	dynasty_house = house_shgnt_kamakuraashikaga
-	father=10040066
+	father=10040066 # 足利氏満
 	religion="shinto"
 	culture="eastern_kanto"
 	trait="ashikaga_family"
 	1378.1.1={
 		birth=yes
 	}
-	1409.9.1={
-		death=yes
+	1409.9.1={ # 応永16(1409)年九月
+		death={
+			death_reason=death_ill # 病死（植田真平、『足利持氏』、2016）
+		}
 	}
 }
 10040065 = {
@@ -6396,7 +6405,7 @@
 	}
 }
 10040068 = {
-	name=character_name_10040068 # Mitsunao
+	name=character_name_10040068 # Mitsunao, 満直、「みつただ」とも
 #	dynasty=10000400 # Ashikaga
 	dynasty_house = house_shgnt_kamakuraashikaga
 	father=10040066
@@ -6406,8 +6415,11 @@
 	1383.1.1={
 		birth=yes
 	}
-	1440.1.1={
-		death=yes
+	1440.6.30={ # 永享12(1440)年六月
+		death={
+			death_reason=death_battle
+			#killer= # TODO 石川氏
+		}
 	}
 }
 10040069 = {

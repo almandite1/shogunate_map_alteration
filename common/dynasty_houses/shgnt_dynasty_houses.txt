@@ -625,23 +625,6 @@ house_shgnt_kambara = {
 	motto = "koji_I08_motto"
 }
 
-# Takeda
-house_shgnt_akitakeda = {
-	name = "dynn_AkiTakeda" # 安芸武田
-	dynasty = 10000200 # Takeda
-	motto = "koji_A03_motto"
-}
-house_shgnt_mariyatsu = {
-	name = "dynn_Mariyatsu" # 真里谷
-	dynasty = 10000200 # Takeda
-	motto = "koji_A02_motto"
-}
-house_shgnt_chonan = {
-	name = "dynn_Chonan" # 庁南
-	dynasty = 10000200 # Takeda
-	motto = "koji_A01_motto"
-}
-
 # Hatakeyama
 house_shgnt_nihonmatsu = {
 	name = "dynn_Nihonmatsu" # 二本松/10000073
@@ -1720,5 +1703,116 @@ house_shgnt_yuki_tagaya = { #
 house_shgnt_yuki_oyama = { # 
 	name = "dynn_Oyama" # 小山
 	dynasty=10000102 # Yuki
-	motto = "kojiI_MI08_motto"
+	motto = "kojiI_MI09_motto"
+}
+
+# Matsudaira, 松平
+house_shgnt_matsudaira_sakurai = { # 桜井松平家
+	name = "dynn_Matsudaira" # 松平
+	dynasty=10000240 # Matsudaira
+	motto = "kojiI_MU01_motto"
+}
+house_shgnt_matsudaira_fukama = { # 福釜松平家
+	name = "dynn_Matsudaira" # 松平
+	dynasty=10000240 # Matsudaira
+	motto = "kojiI_MU02_motto"
+}
+house_shgnt_matsudaira_tojo = { # 東条松平家
+	name = "dynn_Matsudaira" # 松平
+	dynasty=10000240 # Matsudaira
+	motto = "kojiI_MU03_motto"
+}
+house_shgnt_matsudaira_fujii = { # 藤井松平家
+	name = "dynn_Matsudaira" # 松平
+	dynasty=10000240 # Matsudaira
+	motto = "kojiI_MU04_motto"
+}
+house_shgnt_matsudaira_anjo = { # 安祥松平家
+	name = "dynn_Matsudaira" # 松平
+	dynasty=10000240 # Matsudaira
+	motto = "kojiI_MU05_motto"
+}
+house_shgnt_matsudaira_mitsugi = { # 三木松平家
+	name = "dynn_Matsudaira" # 松平
+	dynasty=10000240 # Matsudaira
+	motto = "kojiI_MU06_motto"
+}
+house_shgnt_matsudaira_tokugawa = { # 徳川
+	name = "dynn_Tokugawa" # 松平
+	dynasty=10000240 # Matsudaira
+	motto = "dynn_Tokugawa_motto"
+}
+
+# Suwa, 諏訪
+house_shgnt_suwa_chino = {
+	name = "dynn_Chino" # 茅野
+	dynasty=10000210 # Suwa
+	motto = "kojiI_ME01_motto"
+}
+house_shgnt_suwa_takato = {
+	name = "dynn_Takato" # 高遠
+	dynasty=10000210 # Suwa
+	motto = "kojiI_ME02_motto"
+}
+house_shgnt_suwa_fujisawa = {
+	name = "dynn_Fujisawa" # 藤沢
+	dynasty=10000210 # Suwa
+	motto = "kojiI_ME03_motto"
+}
+
+# Takeda, 武田
+house_shgnt_akitakeda = {
+	name = "dynn_AkiTakeda" # 安芸武田
+	dynasty = 10000200 # Takeda
+	motto = "koji_A03_motto"
+}
+house_shgnt_mariyatsu = {
+	name = "dynn_Mariyatsu" # 真里谷
+	dynasty = 10000200 # Takeda
+	motto = "koji_A02_motto"
+}
+house_shgnt_chonan = {
+	name = "dynn_Chonan" # 庁南
+	dynasty = 10000200 # Takeda
+	motto = "koji_A01_motto"
+}
+house_shgnt_takeda_oi = {
+	name = "dynn_Oi" # 大井
+	dynasty = 10000200 # Takeda
+	motto = "kojiI_ME04_motto"
+}
+house_shgnt_takeda_imai={
+	name = "dynn_Imai" # 今井
+	dynasty = 10000200 # Takeda
+	motto = "kojiI_ME05_motto"
+}
+house_shgnt_takeda_anayama={
+	name="dynn_Anayama" # 穴山
+	dynasty=10000200 # Takeda
+	motto="kojiI_ME06_motto"
+}
+house_shgnt_takeda_aburakawa={
+	name="dynn_Aburakawa" # 油川
+	dynasty=10000200 # Takeda
+	motto="kojiI_ME07_motto"
+}
+house_shgnt_takeda_katsunuma={
+	name="dynn_Katsunuma" # 勝沼
+	dynasty=10000200 # Takeda
+	motto="kojiI_ME08_motto"
+}
+house_shgnt_takeda_nishina={
+	name="dynn_Nishina" # 仁科
+	dynasty=10000200 # Takeda
+	motto="kojiI_ME09_motto"
+}
+house_shgnt_takeda_katsurayama={
+	name="dynn_Katsurayama" # 葛山
+	dynasty=10000200 # Takeda
+	motto="kojiI_MO01_motto"
+}
+house_shgnt_takeda_mochizuki={
+	name="dynn_Mochizuki" # 望月
+	dynasty=10000200 # Takeda
+	motto="kojiI_MO02_motto"
 }

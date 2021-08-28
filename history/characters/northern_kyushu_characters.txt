@@ -1481,7 +1481,7 @@
 	}
 }
 10067300 = {
-	name=character_name_10067300 # Masauji
+	name=character_name_10067300 # Masauji, 正氏
 	dynasty=10000673 # Munakata
 	father=10067301
 	martial=8
@@ -1499,6 +1499,7 @@
 	1520.1.1={
 		add_spouse=10067344 # Fumi, Munakata Okiuji's Daughter
 	}
+	# 黒川隆尚に改名
 	1547.1.1={
 		death=yes
 	}
@@ -1770,17 +1771,20 @@
 	}
 }
 10067345 = {
-	name=character_name_10067345 # Ujisada
+	name=character_name_10067345 # Ujisada, 氏貞、黒川鍋寿丸、大宮司
 	dynasty=10000673 # Munakata
-	father=10067300
+	father=10067300 # 宗像正氏、黒川隆尚
 	mother=10067344
 	trait="education_stewardship_1"
 	religion="shinto"
 	culture="northern_kyushu"
-	1545.1.1={
+	1545.1.1={ # 天文14(1545)年
 		birth=yes
 	}
-	1586.1.1={
+	# 弘治4(1558)年？正月二十二日、筑前宗像郡村山田郷古賀原の合戦、立花鑑載と戦う
+	# 永禄4(1561)年三月十五日、許斐要害での戦い
+	# 永禄7(1564)年以前、毛利方、大友方の立花勢と戦う
+	1586.04.22={ # 天正14(1586)年三月四日（桑田和明、『戦国時代の筑前国宗像氏』、2016）
 		death=yes
 	}
 }
@@ -1788,7 +1792,7 @@
 	name=character_name_10067346 # Kiku #Munakata Ujio's wife
 	dynasty=10000673 # Munakata
 	female=yes
-	father=10067300
+	father=10067300 # 宗像正氏、黒川隆尚
 	mother=10067344
 	trait="education_stewardship_1"
 	religion="shinto"
@@ -1907,8 +1911,8 @@
 	}
 }
 10067402 = {
-	name=character_name_10067402 # Akitoshi
-#	dynasty=10000674 # Tachibana
+	name=character_name_10067402 # Akitoshi, 鑑載
+#	dynasty=10000674 # Tachibana, 立花
 	dynasty_house = "house_shgnt_tachibana"
 	father=10067400
 	martial=9
@@ -1924,17 +1928,25 @@
 		birth=yes
 	}
 	1537.1.1={
-		give_nickname="nick_Yajuro"
+		give_nickname="nick_Yajuro" # 「弥十郎」（『大友興廃記』）
 	}
 	1541.1.1={
-		give_nickname="nick_the_sakonoe_shogen"
+		give_nickname="nick_the_sakonoe_shogen" #　「左近将監」（「立花家譜」）
 	}
 	1551.1.1={
-		give_nickname="nick_tajima_no_kami"
+		give_nickname="nick_tajima_no_kami" #　「但馬守」（「立花家譜」、『立斎旧聞記』、『九州諸将軍記』）
 	}
+	#　弘治3(1557)年、大友氏への1度目の反乱（「立花家譜」）
+	# 永禄7(1564)年、大友氏への2度目の反乱（「丹治米多比氏略系」）
+	# 永禄8(1565)年、大友氏への1度目の反乱、五月十八日鑑載自害（『立斎旧聞記』）
+	# 永禄8(1565)年、大友氏への1度目の反乱、鑑載・親善落去（『九州諸将軍記』）
+	# 永禄8(1565)年、大友氏への2度目の反乱、五月十八日鑑載自害（『大友興廃記』）
+	# 永禄10(1567)年、大友氏への2度目の反乱、鑑載・親善父子降伏（「立花家譜」）
 	1568.9.5={
 		death=yes
 	}
+	# 鑑載の大友氏への2度の挙兵説は成立しない（桑田和明、『戦国時代の筑前国宗像氏』、2016）
+	# 鑑載が弥十郎を称した史料はなく、永禄12(1569)年に立花城を大友方に明け渡した立花弥十郎は「親続」のこと（桑田和明、『戦国時代の筑前国宗像氏』、2016）
 }
 10067403 = {
 	name=character_name_10067403 # Chikamasa

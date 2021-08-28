@@ -1,0 +1,2914 @@
+﻿# Open Decisions
+open_court_post_center_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = toggle_court_post_center_decision_desc
+	confirm_text = toggle_court_post_center_decision_confirm
+	selection_tooltip = toggle_court_post_center_decision_tooltip
+
+	is_shown = {
+		is_male = yes
+		has_court_rank_trigger = yes
+		has_yamato_culture_trigger = yes
+		NOT = { has_character_flag = open_court_post_center }
+		NOT = { has_character_flag = open_court_post_local }
+		NOT = { has_character_flag = post_changed }
+	}
+
+	effect = {
+		add_character_flag = open_court_post_center
+	}
+
+	ai_check_interval = 0
+}
+
+# Close Decisions
+close_court_post_center_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = toggle_court_post_center_decision_desc
+	confirm_text = toggle_court_post_center_decision_confirm
+	selection_tooltip = toggle_court_post_center_decision_tooltip
+
+	is_shown = {
+		has_character_flag = open_court_post_center
+	}
+
+	effect = {
+		remove_character_flag = open_court_post_center
+	}
+
+	ai_check_interval = 0
+}
+
+# Taiko
+gain_court_post_taiko_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_center_decision_desc
+	confirm_text = gain_court_post_center_decision_confirm
+	selection_tooltip = gain_court_post_center_decision_tooltip
+
+	is_shown = {
+		has_nickname = nick_the_kampaku
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		prestige = 1000
+	}
+
+	effect = {
+		give_nickname = nick_the_taiko
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		prestige >= 2000
+	}
+
+	ai_will_do = {
+		base = 50
+	}
+}
+
+# Kampaku
+gain_court_post_kampaku_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_center_decision_desc
+	confirm_text = gain_court_post_center_decision_confirm
+	selection_tooltip = gain_court_post_center_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_center_trigger = yes
+		OR = {
+			has_trait = juichii
+			has_trait = shoichii
+		}
+		is_under_highest_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_kampaku } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 100 }
+	}
+
+	effect = {
+		give_nickname = nick_the_kampaku
+		add_character_flag = highest_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 50
+	}
+}
+
+# Daijo Daijin
+gain_court_post_daijo_daijin_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_center_decision_desc
+	confirm_text = gain_court_post_center_decision_confirm
+	selection_tooltip = gain_court_post_center_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_center_trigger = yes
+		OR = {
+			has_trait = shonii
+			has_trait = juichii
+			has_trait = shoichii
+		}
+		is_under_second_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_daijo_daijin } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 100 }
+	}
+
+	effect = {
+		give_nickname = nick_the_daijo_daijin
+		add_character_flag = second_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 50
+	}
+}
+
+# Sa Daijin
+gain_court_post_sa_daijin_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_center_decision_desc
+	confirm_text = gain_court_post_center_decision_confirm
+	selection_tooltip = gain_court_post_center_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_center_trigger = yes
+		OR = {
+			has_trait = shonii
+			has_trait = juichii
+			has_trait = shoichii
+		}
+		is_under_third_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_sa_daijin } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 100 }
+	}
+
+	effect = {
+		give_nickname = nick_the_sa_daijin
+		add_character_flag = third_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 50
+	}
+}
+
+# U Daijin
+gain_court_post_u_daijin_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_center_decision_desc
+	confirm_text = gain_court_post_center_decision_confirm
+	selection_tooltip = gain_court_post_center_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_center_trigger = yes
+		OR = {
+			has_trait = junii
+			has_trait = shonii
+			has_trait = juichii
+			has_trait = shoichii
+		}
+		is_under_fourth_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_u_daijin } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 100 }
+	}
+
+	effect = {
+		give_nickname = nick_the_u_daijin
+		add_character_flag = fourth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 50
+	}
+}
+
+# Nai Daijin
+gain_court_post_nai_daijin_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_center_decision_desc
+	confirm_text = gain_court_post_center_decision_confirm
+	selection_tooltip = gain_court_post_center_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_center_trigger = yes
+		OR = {
+			has_trait = shosanmi
+			has_trait = junii
+			has_trait = shonii
+		}
+		is_under_fifth_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_nai_daijin } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 100 }
+	}
+
+	effect = {
+		give_nickname = nick_the_nai_daijin
+		add_character_flag = fifth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 50
+	}
+}
+
+# Dai Nagon
+gain_court_post_dai_nagon_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_center_decision_desc
+	confirm_text = gain_court_post_center_decision_confirm
+	selection_tooltip = gain_court_post_center_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_center_trigger = yes
+		is_nii_or_sanmi_trigger = yes
+		is_under_sixth_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_dai_nagon } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 100 }
+	}
+
+	effect = {
+		give_nickname = nick_dai_nagon
+		add_character_flag = sixth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 50
+	}
+}
+
+# Gon Dai Nagon
+gain_court_post_gon_dai_nagon_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_center_decision_desc
+	confirm_text = gain_court_post_center_decision_confirm
+	selection_tooltip = gain_court_post_center_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_center_trigger = yes
+		is_nii_or_sanmi_trigger = yes
+		is_under_sixth_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_gon_dai_nagon } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 100 }
+	}
+
+	effect = {
+		give_nickname = nick_gon_dai_nagon
+		add_character_flag = sixth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 50
+	}
+}
+
+# Chu Nagon
+gain_court_post_chu_nagon_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_center_decision_desc
+	confirm_text = gain_court_post_center_decision_confirm
+	selection_tooltip = gain_court_post_center_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_center_trigger = yes
+		is_nii_or_sanmi_trigger = yes
+		is_under_seventh_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_chu_nagon } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 100 }
+	}
+
+	effect = {
+		give_nickname = nick_chu_nagon
+		add_character_flag = seventh_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 50
+	}
+}
+
+# Gon Chu Nagon
+gain_court_post_gon_chu_nagon_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_center_decision_desc
+	confirm_text = gain_court_post_center_decision_confirm
+	selection_tooltip = gain_court_post_center_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_center_trigger = yes
+		is_nii_or_sanmi_trigger = yes
+		is_under_seventh_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_gon_chu_nagon } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 100 }
+	}
+
+	effect = {
+		give_nickname = nick_gon_chu_nagon
+		add_character_flag = seventh_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 50
+	}
+}
+
+# Sangi
+gain_court_post_sangi_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_center_decision_desc
+	confirm_text = gain_court_post_center_decision_confirm
+	selection_tooltip = gain_court_post_center_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_center_trigger = yes
+		is_sanmi_or_shii_trigger = yes
+		is_under_fifth_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_sangi } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 100 }
+	}
+
+	effect = {
+		give_nickname = nick_the_sangi
+		add_character_flag = seventh_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 10
+	}
+}
+
+# Jiju
+gain_court_post_jiju_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_center_decision_desc
+	confirm_text = gain_court_post_center_decision_confirm
+	selection_tooltip = gain_court_post_center_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_center_trigger = yes
+		OR = {
+			has_empire_tier_liege_trigger = yes
+			OR = {
+				has_trait = jusanmi
+				is_shii_or_goi_trigger = yes
+			}
+		}
+		is_under_sixth_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_jiju } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 100 }
+	}
+
+	effect = {
+		give_nickname = nick_the_jiju
+		add_character_flag = ninth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+	}
+}
+
+# Nakatsukasa Kyo
+gain_court_post_nakatsukasa_kyo_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_center_decision_desc
+	confirm_text = gain_court_post_center_decision_confirm
+	selection_tooltip = gain_court_post_center_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_center_trigger = yes
+		is_nii_or_sanmi_trigger = yes
+		is_under_sixth_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_nakatsukasa_kyo } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 100 }
+	}
+
+	effect = {
+		give_nickname = nick_the_nakatsukasa_kyo
+		add_character_flag = seventh_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 10
+	}
+}
+
+# Nakatsukasa Daihu
+gain_court_post_nakatsukasa_daihu_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_center_decision_desc
+	confirm_text = gain_court_post_center_decision_confirm
+	selection_tooltip = gain_court_post_center_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_center_trigger = yes
+		OR = {
+			has_empire_tier_liege_trigger = yes
+			is_shii_trigger = yes
+		}
+		is_under_seventh_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_nakatsukasa_daihu } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 100 }
+	}
+
+	effect = {
+		give_nickname = nick_the_nakatsukasa_daihu
+		add_character_flag = eighth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 5
+	}
+}
+
+# Nakatsukasa Sho
+gain_court_post_nakatsukasa_no_sho_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_center_decision_desc
+	confirm_text = gain_court_post_center_decision_confirm
+	selection_tooltip = gain_court_post_center_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_center_trigger = yes
+		OR = {
+			has_empire_tier_liege_trigger = yes
+			is_goi_trigger = yes
+		}
+		is_under_ninth_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_nakatsukasa_no_sho } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 100 }
+	}
+
+	effect = {
+		give_nickname = nick_the_nakatsukasa_no_sho
+		add_character_flag = ninth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			factor = 0
+			highest_held_title_tier >= tier_duchy
+		}
+	}
+}
+
+# Shikibu Kyo
+gain_court_post_shikibu_kyo_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_center_decision_desc
+	confirm_text = gain_court_post_center_decision_confirm
+	selection_tooltip = gain_court_post_center_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_center_trigger = yes
+		is_nii_or_sanmi_trigger = yes
+		is_under_seventh_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_shikibu_kyo } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 100 }
+	}
+
+	effect = {
+		give_nickname = nick_the_shikibu_kyo
+		add_character_flag = seventh_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 10
+	}
+}
+
+# Shikibu Daihu
+gain_court_post_shikibu_daihu_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_center_decision_desc
+	confirm_text = gain_court_post_center_decision_confirm
+	selection_tooltip = gain_court_post_center_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_center_trigger = yes
+		OR = {
+			has_empire_tier_liege_trigger = yes
+			is_shii_trigger = yes
+		}
+		is_under_eighth_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_shikibu_daihu } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 100 }
+	}
+
+	effect = {
+		give_nickname = nick_the_shikibu_daihu
+		add_character_flag = eighth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 5
+	}
+}
+
+# Shikibu Sho
+gain_court_post_shikibu_no_sho_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_center_decision_desc
+	confirm_text = gain_court_post_center_decision_confirm
+	selection_tooltip = gain_court_post_center_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_center_trigger = yes
+		OR = {
+			has_empire_tier_liege_trigger = yes
+			is_goi_trigger = yes
+		}
+		is_under_ninth_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_shikibu_no_sho } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 100 }
+	}
+
+	effect = {
+		give_nickname = nick_the_shikibu_no_sho
+		add_character_flag = ninth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			factor = 0
+			highest_held_title_tier >= tier_duchy
+		}
+	}
+}
+
+# Jibu Kyo
+gain_court_post_jibu_kyo_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_center_decision_desc
+	confirm_text = gain_court_post_center_decision_confirm
+	selection_tooltip = gain_court_post_center_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_center_trigger = yes
+		is_nii_or_sanmi_trigger = yes
+		is_under_seventh_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_jibu_kyo } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 100 }
+	}
+
+	effect = {
+		give_nickname = nick_the_jibu_kyo
+		add_character_flag = seventh_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 10
+	}
+}
+
+# Jibu Daihu
+gain_court_post_jibu_daihu_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_center_decision_desc
+	confirm_text = gain_court_post_center_decision_confirm
+	selection_tooltip = gain_court_post_center_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_center_trigger = yes
+		OR = {
+			has_empire_tier_liege_trigger = yes
+			is_shii_trigger = yes
+		}
+		is_under_eighth_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_jibu_daihu } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 100 }
+	}
+
+	effect = {
+		give_nickname = nick_the_jibu_daihu
+		add_character_flag = eighth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 5
+	}
+}
+
+# Jibu Sho
+gain_court_post_jibu_no_sho_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_center_decision_desc
+	confirm_text = gain_court_post_center_decision_confirm
+	selection_tooltip = gain_court_post_center_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_center_trigger = yes
+		OR = {
+			has_empire_tier_liege_trigger = yes
+			is_goi_trigger = yes
+		}
+		is_under_ninth_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_jibu_no_sho } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 100 }
+	}
+
+	effect = {
+		give_nickname = nick_the_jibu_no_sho
+		add_character_flag = ninth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			factor = 0
+			highest_held_title_tier >= tier_duchy
+		}
+	}
+}
+
+# Minbu Kyo
+gain_court_post_minbu_kyo_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_center_decision_desc
+	confirm_text = gain_court_post_center_decision_confirm
+	selection_tooltip = gain_court_post_center_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_center_trigger = yes
+		is_nii_or_sanmi_trigger = yes
+		is_under_seventh_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_minbu_kyo } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 100 }
+	}
+
+	effect = {
+		give_nickname = nick_the_minbu_kyo
+		add_character_flag = seventh_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 10
+	}
+}
+
+# Minbu Daihu
+gain_court_post_minbu_daihu_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_center_decision_desc
+	confirm_text = gain_court_post_center_decision_confirm
+	selection_tooltip = gain_court_post_center_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_center_trigger = yes
+		OR = {
+			has_empire_tier_liege_trigger = yes
+			is_shii_trigger = yes
+		}
+		is_under_eighth_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_minbu_daihu } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 100 }
+	}
+
+	effect = {
+		give_nickname = nick_the_minbu_daihu
+		add_character_flag = eighth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 5
+	}
+}
+
+# Minbu Sho
+gain_court_post_minbu_no_sho_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_center_decision_desc
+	confirm_text = gain_court_post_center_decision_confirm
+	selection_tooltip = gain_court_post_center_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_center_trigger = yes
+		OR = {
+			has_empire_tier_liege_trigger = yes
+			is_goi_trigger = yes
+		}
+		is_under_ninth_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_minbu_no_sho } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 100 }
+	}
+
+	effect = {
+		give_nickname = nick_the_minbu_no_sho
+		add_character_flag = ninth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			factor = 0
+			highest_held_title_tier >= tier_duchy
+		}
+	}
+}
+
+# Hyobu Kyo
+gain_court_post_hyobu_kyo_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_center_decision_desc
+	confirm_text = gain_court_post_center_decision_confirm
+	selection_tooltip = gain_court_post_center_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_center_trigger = yes
+		is_nii_or_sanmi_trigger = yes
+		is_under_seventh_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_hyobu_kyo } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 100 }
+	}
+
+	effect = {
+		give_nickname = nick_the_hyobu_kyo
+		add_character_flag = seventh_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 10
+	}
+}
+
+# Hyobu Daihu
+gain_court_post_hyobu_daihu_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_center_decision_desc
+	confirm_text = gain_court_post_center_decision_confirm
+	selection_tooltip = gain_court_post_center_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_center_trigger = yes
+		OR = {
+			has_empire_tier_liege_trigger = yes
+			is_shii_trigger = yes
+		}
+		is_under_eighth_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_hyobu_daihu } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 100 }
+	}
+
+	effect = {
+		give_nickname = nick_the_hyobu_daihu
+		add_character_flag = eighth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 5
+	}
+}
+
+# Hyobu Sho
+gain_court_post_hyobu_no_sho_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_center_decision_desc
+	confirm_text = gain_court_post_center_decision_confirm
+	selection_tooltip = gain_court_post_center_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_center_trigger = yes
+		OR = {
+			has_empire_tier_liege_trigger = yes
+			is_goi_trigger = yes
+		}
+		is_under_ninth_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_hyobu_no_sho } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 100 }
+	}
+
+	effect = {
+		give_nickname = nick_the_hyobu_no_sho
+		add_character_flag = ninth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			factor = 0
+			highest_held_title_tier >= tier_duchy
+		}
+	}
+}
+
+# Gyobu Kyo
+gain_court_post_gyobu_kyo_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_center_decision_desc
+	confirm_text = gain_court_post_center_decision_confirm
+	selection_tooltip = gain_court_post_center_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_center_trigger = yes
+		is_nii_or_sanmi_trigger = yes
+		is_under_seventh_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_gyobu_kyo } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 100 }
+	}
+
+	effect = {
+		give_nickname = nick_the_gyobu_kyo
+		add_character_flag = seventh_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 10
+	}
+}
+
+# Gyobu Daihu
+gain_court_post_gyobu_daihu_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_center_decision_desc
+	confirm_text = gain_court_post_center_decision_confirm
+	selection_tooltip = gain_court_post_center_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_center_trigger = yes
+		OR = {
+			has_empire_tier_liege_trigger = yes
+			is_shii_trigger = yes
+		}
+		is_under_eighth_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_gyobu_daihu } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 100 }
+	}
+
+	effect = {
+		give_nickname = nick_the_gyobu_daihu
+		add_character_flag = eighth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 5
+	}
+}
+
+# Gyobu Sho
+gain_court_post_gyobu_no_sho_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_center_decision_desc
+	confirm_text = gain_court_post_center_decision_confirm
+	selection_tooltip = gain_court_post_center_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_center_trigger = yes
+		OR = {
+			has_empire_tier_liege_trigger = yes
+			is_goi_trigger = yes
+		}
+		is_under_ninth_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_gyobu_no_sho } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 100 }
+	}
+
+	effect = {
+		give_nickname = nick_the_gyobu_no_sho
+		add_character_flag = ninth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			factor = 0
+			highest_held_title_tier >= tier_duchy
+		}
+	}
+}
+
+# Okura Kyo
+gain_court_post_okura_kyo_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_center_decision_desc
+	confirm_text = gain_court_post_center_decision_confirm
+	selection_tooltip = gain_court_post_center_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_center_trigger = yes
+		is_nii_or_sanmi_trigger = yes
+		is_under_seventh_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_okura_kyo } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 100 }
+	}
+
+	effect = {
+		give_nickname = nick_the_okura_kyo
+		add_character_flag = seventh_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 10
+	}
+}
+
+# Okura Daihu
+gain_court_post_okura_daihu_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_center_decision_desc
+	confirm_text = gain_court_post_center_decision_confirm
+	selection_tooltip = gain_court_post_center_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_center_trigger = yes
+		OR = {
+			has_empire_tier_liege_trigger = yes
+			is_shii_trigger = yes
+		}
+		is_under_eighth_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_okura_daihu } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 100 }
+	}
+
+	effect = {
+		give_nickname = nick_the_okura_daihu
+		add_character_flag = eighth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 5
+	}
+}
+
+# Okura Sho
+gain_court_post_okura_no_sho_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_center_decision_desc
+	confirm_text = gain_court_post_center_decision_confirm
+	selection_tooltip = gain_court_post_center_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_center_trigger = yes
+		OR = {
+			has_empire_tier_liege_trigger = yes
+			is_goi_trigger = yes
+		}
+		is_under_ninth_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_okura_no_sho } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 100 }
+	}
+
+	effect = {
+		give_nickname = nick_the_okura_no_sho
+		add_character_flag = ninth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			factor = 0
+			highest_held_title_tier >= tier_duchy
+		}
+	}
+}
+
+# Kunai Kyo
+gain_court_post_kunai_kyo_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_center_decision_desc
+	confirm_text = gain_court_post_center_decision_confirm
+	selection_tooltip = gain_court_post_center_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_center_trigger = yes
+		is_nii_or_sanmi_trigger = yes
+		is_under_seventh_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_kunai_kyo } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 100 }
+	}
+
+	effect = {
+		give_nickname = nick_the_kunai_kyo
+		add_character_flag = seventh_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 10
+	}
+}
+
+# Kunai Daihu
+gain_court_post_kunai_daihu_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_center_decision_desc
+	confirm_text = gain_court_post_center_decision_confirm
+	selection_tooltip = gain_court_post_center_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_center_trigger = yes
+		OR = {
+			has_empire_tier_liege_trigger = yes
+			is_shii_trigger = yes
+		}
+		is_under_eighth_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_kunai_daihu } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 100 }
+	}
+
+	effect = {
+		give_nickname = nick_the_kunai_daihu
+		add_character_flag = eighth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 5
+	}
+}
+
+# Kunai Sho
+gain_court_post_kunai_no_sho_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_center_decision_desc
+	confirm_text = gain_court_post_center_decision_confirm
+	selection_tooltip = gain_court_post_center_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_center_trigger = yes
+		OR = {
+			has_empire_tier_liege_trigger = yes
+			is_goi_trigger = yes
+		}
+		is_under_ninth_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_kunai_no_sho } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 100 }
+	}
+
+	effect = {
+		give_nickname = nick_the_kunai_no_sho
+		add_character_flag = ninth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			factor = 0
+			highest_held_title_tier >= tier_duchy
+		}
+	}
+}
+
+# Shuri Daibu
+gain_court_post_shuri_daibu_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_center_decision_desc
+	confirm_text = gain_court_post_center_decision_confirm
+	selection_tooltip = gain_court_post_center_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_center_trigger = yes
+		OR = {
+			has_empire_tier_liege_trigger = yes
+			is_under_shoshii_trigger = yes
+		}
+		is_under_eighth_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_shuri_daibu } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 100 }
+	}
+
+	effect = {
+		give_nickname = nick_the_shuri_daibu
+		add_character_flag = eighth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 5
+	}
+}
+
+# Sakyo Daibu
+gain_court_post_sakyo_dayu_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_center_decision_desc
+	confirm_text = gain_court_post_center_decision_confirm
+	selection_tooltip = gain_court_post_center_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_center_trigger = yes
+		OR = {
+			has_empire_tier_liege_trigger = yes
+			is_goi_trigger = yes
+		}
+		is_under_eighth_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_sakyo_dayu } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 100 }
+	}
+
+	effect = {
+		give_nickname = nick_the_sakyo_dayu
+		add_character_flag = ninth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+	}
+}
+
+# Ukyo Daibu
+gain_court_post_ukyo_dayu_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_center_decision_desc
+	confirm_text = gain_court_post_center_decision_confirm
+	selection_tooltip = gain_court_post_center_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_center_trigger = yes
+		OR = {
+			has_empire_tier_liege_trigger = yes
+			is_goi_trigger = yes
+		}
+		is_under_eighth_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_ukyo_dayu } }
+		OR = {
+			has_title = title:k_nmih_kanrei
+			has_claim_on = title:k_nmih_kanrei
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 100 }
+	}
+
+	effect = {
+		give_nickname = nick_the_ukyo_dayu
+		add_character_flag = ninth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 0
+		modifier = {
+			add = 100
+			dynasty = dynasty:10000401 # Hosokawa
+		}
+	}
+}
+
+# Daizen Daihu
+gain_court_post_daizen_daihu_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_center_decision_desc
+	confirm_text = gain_court_post_center_decision_confirm
+	selection_tooltip = gain_court_post_center_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_center_trigger = yes
+		OR = {
+			has_empire_tier_liege_trigger = yes
+			is_goi_trigger = yes
+		}
+		is_under_eighth_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_daizen_daihu } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 100 }
+	}
+
+	effect = {
+		give_nickname = nick_the_daizen_daihu
+		add_character_flag = ninth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+	}
+}
+
+# Sama no Kami
+gain_court_post_sama_no_kami_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_center_decision_desc
+	confirm_text = gain_court_post_center_decision_confirm
+	selection_tooltip = gain_court_post_center_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_center_trigger = yes
+		OR = {
+			has_empire_tier_liege_trigger = yes
+			is_goi_trigger = yes
+		}
+		is_under_eighth_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_sama_no_kami } }
+		OR = {
+			has_title = title:e_shgnt_japan
+			has_claim_on = title:e_shgnt_japan
+			father = { has_title = title:e_shgnt_japan }
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 100 }
+	}
+
+	effect = {
+		give_nickname = nick_the_sama_no_kami
+		add_character_flag = ninth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			factor = 0
+			culture_group = culture_group:imperial_court_group
+		}
+		modifier = {
+			factor = 0
+			NOT = { has_trait = ashikaga_family }
+		}
+		modifier = {
+			add = 100
+			dynasty = dynasty:10000400 # Ashikaga
+		}
+	}
+}
+
+# Uma no Kami
+gain_court_post_uma_no_kami_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_center_decision_desc
+	confirm_text = gain_court_post_center_decision_confirm
+	selection_tooltip = gain_court_post_center_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_center_trigger = yes
+		OR = {
+			has_empire_tier_liege_trigger = yes
+			is_goi_trigger = yes
+		}
+		is_under_eighth_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_uma_no_kami } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 100 }
+	}
+
+	effect = {
+		give_nickname = nick_the_uma_no_kami
+		add_character_flag = ninth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			factor = 0
+			culture_group = culture_group:imperial_court_group
+		}
+	}
+}
+
+# Sama no Suke
+gain_court_post_sama_no_suke_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_center_decision_desc
+	confirm_text = gain_court_post_center_decision_confirm
+	selection_tooltip = gain_court_post_center_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_center_trigger = yes
+		OR = {
+			has_empire_tier_liege_trigger = yes
+			is_jugoi_trigger = yes
+		}
+		is_under_ninth_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_sama_no_suke } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 100 }
+	}
+
+	effect = {
+		give_nickname = nick_the_sama_no_suke
+		add_character_flag = tenth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			factor = 0
+			culture_group = culture_group:imperial_court_group
+		}
+	}
+}
+
+# Danjo Daihitsu
+gain_court_post_danjo_daihitsu_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_center_decision_desc
+	confirm_text = gain_court_post_center_decision_confirm
+	selection_tooltip = gain_court_post_center_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_center_trigger = yes
+		is_shoshii_trigger = yes
+		is_under_seventh_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_danjo_daihitsu } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 100 }
+	}
+
+	effect = {
+		give_nickname = nick_the_danjo_daihitsu
+		add_character_flag = eighth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			factor = 0
+			culture_group = culture_group:imperial_court_group
+		}
+	}
+}
+
+# Danjo Shohitsu
+gain_court_post_danjo_shohitsu_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_center_decision_desc
+	confirm_text = gain_court_post_center_decision_confirm
+	selection_tooltip = gain_court_post_center_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_center_trigger = yes
+		is_jushii_trigger = yes
+		is_under_eighth_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_danjo_shohitsu } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 100 }
+	}
+
+	effect = {
+		give_nickname = nick_the_danjo_shohitsu
+		add_character_flag = eighth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			factor = 0
+			culture_group = culture_group:imperial_court_group
+		}
+	}
+}
+
+# Danjo Daichu
+gain_court_post_danjo_daichu_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_center_decision_desc
+	confirm_text = gain_court_post_center_decision_confirm
+	selection_tooltip = gain_court_post_center_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_center_trigger = yes
+		is_shogoi_trigger = yes
+		is_under_eighth_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_danjo_daichu } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 100 }
+	}
+
+	effect = {
+		give_nickname = nick_the_danjo_daichu
+		add_character_flag = ninth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			factor = 0
+			culture_group = culture_group:imperial_court_group
+		}
+	}
+}
+
+# Danjo Shochu
+gain_court_post_danjo_shochu_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_center_decision_desc
+	confirm_text = gain_court_post_center_decision_confirm
+	selection_tooltip = gain_court_post_center_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_center_trigger = yes
+		is_jugoi_trigger = yes
+		is_under_ninth_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_danjo_shochu } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 100 }
+	}
+
+	effect = {
+		give_nickname = nick_the_danjo_shochu
+		add_character_flag = ninth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			factor = 0
+			culture_group = culture_group:imperial_court_group
+		}
+	}
+}
+
+# Sa Konoe Taisho
+gain_court_post_sa_konoe_taisho_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_center_decision_desc
+	confirm_text = gain_court_post_center_decision_confirm
+	selection_tooltip = gain_court_post_center_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_center_trigger = yes
+		OR = {
+			is_nii_trigger = yes
+			is_sanmi_trigger = yes
+		}
+		is_under_fifth_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_sa_konoe_taisho } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 100 }
+	}
+
+	effect = {
+		give_nickname = nick_the_sa_konoe_taisho
+		add_character_flag = seventh_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 10
+	}
+}
+
+# U Konoe Taisho
+gain_court_post_u_konoe_taisho_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_center_decision_desc
+	confirm_text = gain_court_post_center_decision_confirm
+	selection_tooltip = gain_court_post_center_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_center_trigger = yes
+		OR = {
+			is_nii_trigger = yes
+			is_sanmi_trigger = yes
+		}
+		is_under_fifth_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_u_konoe_taisho } }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 100 }
+	}
+
+	effect = {
+		give_nickname = nick_the_u_konoe_taisho
+		add_character_flag = seventh_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 10
+	}
+}
+
+# Sa Konoe Chujo
+gain_court_post_sakonoe_chujo_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_center_decision_desc
+	confirm_text = gain_court_post_center_decision_confirm
+	selection_tooltip = gain_court_post_center_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_center_trigger = yes
+		is_shii_trigger = yes
+		is_under_seventh_higher_post_trigger = yes
+		NOT = {
+			any_ruler = {
+				count = 4
+				has_nickname = nick_the_sakonoe_chujo
+			}
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 100 }
+	}
+
+	effect = {
+		give_nickname = nick_the_sakonoe_chujo
+		add_character_flag = eighth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+	}
+}
+
+# U Konoe Chujo
+gain_court_post_ukonoe_chujo_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_center_decision_desc
+	confirm_text = gain_court_post_center_decision_confirm
+	selection_tooltip = gain_court_post_center_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_center_trigger = yes
+		is_shii_trigger = yes
+		is_under_seventh_higher_post_trigger = yes
+		NOT = {
+			any_ruler = {
+				count = 4
+				has_nickname = nick_the_ukonoe_chujo
+			}
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 100 }
+	}
+
+	effect = {
+		give_nickname = nick_the_ukonoe_chujo
+		add_character_flag = eighth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+	}
+}
+
+# Sa Konoe Shosho
+gain_court_post_sakonoe_shosho_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_center_decision_desc
+	confirm_text = gain_court_post_center_decision_confirm
+	selection_tooltip = gain_court_post_center_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_center_trigger = yes
+		OR = {
+			has_empire_tier_liege_trigger = yes
+			is_goi_trigger = yes
+		}
+		is_under_ninth_higher_post_trigger = yes
+		NOT = {
+			any_ruler = {
+				count = 4
+				has_nickname = nick_the_sakonoe_shosho
+			}
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 100 }
+	}
+
+	effect = {
+		give_nickname = nick_the_sakonoe_shosho
+		add_character_flag = ninth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+	}
+}
+
+# U Konoe Shosho
+gain_court_post_ukonoe_shosho_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_center_decision_desc
+	confirm_text = gain_court_post_center_decision_confirm
+	selection_tooltip = gain_court_post_center_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_center_trigger = yes
+		OR = {
+			has_empire_tier_liege_trigger = yes
+			is_goi_trigger = yes
+		}
+		is_under_ninth_higher_post_trigger = yes
+		NOT = {
+			any_ruler = {
+				count = 4
+				has_nickname = nick_the_ukonoe_shosho
+			}
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 100 }
+	}
+
+	effect = {
+		give_nickname = nick_the_ukonoe_shosho
+		add_character_flag = ninth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+	}
+}
+
+# Sa Emon Kami
+gain_court_post_saemon_no_kami_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_center_decision_desc
+	confirm_text = gain_court_post_center_decision_confirm
+	selection_tooltip = gain_court_post_center_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_center_trigger = yes
+		is_under_shoshii_trigger = yes
+		is_under_seventh_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_saemon_no_kami } }
+		OR = {
+			highest_held_title_tier >= tier_duchy
+			has_trait = ashikaga_family
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 100 }
+	}
+
+	effect = {
+		give_nickname = nick_the_saemon_no_kami
+		add_character_flag = eighth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			factor = 0
+			culture_group = culture_group:imperial_court_group
+		}
+	}
+}
+
+# U Emon Kami
+gain_court_post_uemon_no_kami_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_center_decision_desc
+	confirm_text = gain_court_post_center_decision_confirm
+	selection_tooltip = gain_court_post_center_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_center_trigger = yes
+		is_under_shoshii_trigger = yes
+		is_under_seventh_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_uemon_no_kami } }
+		OR = {
+			highest_held_title_tier >= tier_duchy
+			has_trait = ashikaga_family
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 100 }
+	}
+
+	effect = {
+		give_nickname = nick_the_uemon_no_kami
+		add_character_flag = eighth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			factor = 0
+			culture_group = culture_group:imperial_court_group
+		}
+	}
+}
+
+# Sa Emon Suke
+gain_court_post_saemon_no_suke_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_center_decision_desc
+	confirm_text = gain_court_post_center_decision_confirm
+	selection_tooltip = gain_court_post_center_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_center_trigger = yes
+		is_goi_trigger = yes
+		is_under_eighth_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_saemon_no_suke } }
+		highest_held_title_tier >= tier_county
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 100 }
+	}
+
+	effect = {
+		give_nickname = nick_the_saemon_no_suke
+		add_character_flag = ninth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			factor = 0
+			culture_group = culture_group:imperial_court_group
+		}
+	}
+}
+
+# U Emon Suke
+gain_court_post_uemon_no_suke_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_center_decision_desc
+	confirm_text = gain_court_post_center_decision_confirm
+	selection_tooltip = gain_court_post_center_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_center_trigger = yes
+		is_goi_trigger = yes
+		is_under_eighth_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_uemon_no_suke } }
+		highest_held_title_tier >= tier_county
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 100 }
+	}
+
+	effect = {
+		give_nickname = nick_the_uemon_no_suke
+		add_character_flag = ninth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			factor = 0
+			culture_group = culture_group:imperial_court_group
+		}
+	}
+}
+
+# Sa Emon Jo
+gain_court_post_saemon_no_jo_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_center_decision_desc
+	confirm_text = gain_court_post_center_decision_confirm
+	selection_tooltip = gain_court_post_center_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_center_trigger = yes
+		is_jugoi_trigger = yes
+		is_under_ninth_higher_post_trigger = yes
+		highest_held_title_tier <= tier_barony
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 50 }
+	}
+
+	effect = {
+		give_nickname = nick_the_saemon_no_jo
+		add_character_flag = tenth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			factor = 0
+			culture_group = culture_group:imperial_court_group
+		}
+	}
+}
+
+# U Emon Jo
+gain_court_post_uemon_no_jo_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_center_decision_desc
+	confirm_text = gain_court_post_center_decision_confirm
+	selection_tooltip = gain_court_post_center_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_center_trigger = yes
+		is_jugoi_trigger = yes
+		is_under_ninth_higher_post_trigger = yes
+		highest_held_title_tier <= tier_barony
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 50 }
+	}
+
+	effect = {
+		give_nickname = nick_the_uemon_no_jo
+		add_character_flag = tenth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			factor = 0
+			culture_group = culture_group:imperial_court_group
+		}
+	}
+}
+
+# Sa Hyoe Kami
+gain_court_post_sahyoe_no_kami_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_center_decision_desc
+	confirm_text = gain_court_post_center_decision_confirm
+	selection_tooltip = gain_court_post_center_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_center_trigger = yes
+		is_under_shoshii_trigger = yes
+		is_under_seventh_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_sahyoe_no_kami } }
+		OR = {
+			highest_held_title_tier >= tier_duchy
+			has_trait = ashikaga_family
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 100 }
+	}
+
+	effect = {
+		give_nickname = nick_the_sahyoe_no_kami
+		add_character_flag = eighth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			factor = 0
+			culture_group = culture_group:imperial_court_group
+		}
+	}
+}
+
+# U Hyoe Kami
+gain_court_post_uhyoe_no_kami_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_center_decision_desc
+	confirm_text = gain_court_post_center_decision_confirm
+	selection_tooltip = gain_court_post_center_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_center_trigger = yes
+		is_under_shoshii_trigger = yes
+		is_under_seventh_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_uhyoe_no_kami } }
+		OR = {
+			highest_held_title_tier >= tier_duchy
+			has_trait = ashikaga_family
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 100 }
+	}
+
+	effect = {
+		give_nickname = nick_the_uhyoe_no_kami
+		add_character_flag = eighth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			factor = 0
+			culture_group = culture_group:imperial_court_group
+		}
+	}
+}
+
+# Sa Hyoe Suke
+gain_court_post_sahyoe_no_suke_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_center_decision_desc
+	confirm_text = gain_court_post_center_decision_confirm
+	selection_tooltip = gain_court_post_center_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_center_trigger = yes
+		is_goi_trigger = yes
+		is_under_eighth_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_sahyoe_no_suke } }
+		highest_held_title_tier >= tier_county
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 100 }
+	}
+
+	effect = {
+		give_nickname = nick_the_sahyoe_no_suke
+		add_character_flag = ninth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			factor = 0
+			culture_group = culture_group:imperial_court_group
+		}
+	}
+}
+
+# U Hyoe Suke
+gain_court_post_uhyoe_no_suke_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_center_decision_desc
+	confirm_text = gain_court_post_center_decision_confirm
+	selection_tooltip = gain_court_post_center_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_center_trigger = yes
+		is_goi_trigger = yes
+		is_under_eighth_higher_post_trigger = yes
+		NOT = { any_ruler = { has_nickname = nick_the_uhyoe_no_suke } }
+		highest_held_title_tier >= tier_county
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 100 }
+	}
+
+	effect = {
+		give_nickname = nick_the_uhyoe_no_suke
+		add_character_flag = ninth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			factor = 0
+			culture_group = culture_group:imperial_court_group
+		}
+	}
+}
+
+# Sa Hyoe Jo
+gain_court_post_sahyoe_no_jo_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_center_decision_desc
+	confirm_text = gain_court_post_center_decision_confirm
+	selection_tooltip = gain_court_post_center_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_center_trigger = yes
+		is_jugoi_trigger = yes
+		is_under_ninth_higher_post_trigger = yes
+		highest_held_title_tier <= tier_barony
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 50 }
+	}
+
+	effect = {
+		give_nickname = nick_the_sahyoe_no_jo
+		add_character_flag = tenth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			factor = 0
+			culture_group = culture_group:imperial_court_group
+		}
+	}
+}
+
+# U Hyoe Jo
+gain_court_post_uhyoe_no_jo_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = gain_court_post_center_decision_desc
+	confirm_text = gain_court_post_center_decision_confirm
+	selection_tooltip = gain_court_post_center_decision_tooltip
+
+	is_shown = {
+		can_gain_court_post_center_trigger = yes
+		is_jugoi_trigger = yes
+		is_under_ninth_higher_post_trigger = yes
+		highest_held_title_tier <= tier_barony
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = { value = 50 }
+	}
+
+	effect = {
+		give_nickname = nick_the_uhyoe_no_jo
+		add_character_flag = tenth_higher_post
+		change_imperial_court_post_effect = yes
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			factor = 0
+			culture_group = culture_group:imperial_court_group
+		}
+	}
+}

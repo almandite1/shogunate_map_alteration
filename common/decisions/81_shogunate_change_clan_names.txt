@@ -1,0 +1,146 @@
+﻿# Change Clan Name into Hojo from Ise
+change_clan_name_into_hojo_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = change_clan_name_decision_desc
+	selection_tooltip = change_clan_name_decision_tooltip
+	major = yes
+
+	ai_check_interval = 12
+
+	is_shown = {
+		dynasty = dynasty:10000161							# Ise
+		NOT = { exists = dynasty:10000160.dynast }			# Hojo
+		NOT = { exists = house:house_hojo.house_head }		# Hojo
+		current_date >= 1523.1.1
+	}
+
+	is_valid = {
+		is_independent_ruler = yes
+		has_title = title:d_shgnt_izu
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+		is_at_war = no
+	}
+
+	effect = {
+		house = {
+			save_scope_as = old_house
+		}
+		set_house = house:house_hojo						# Hojo
+		house = {
+			set_coa = dynasty:10000160						# Hojo
+			save_scope_as = new_house
+		}
+		add_prestige = major_prestige_value
+		change_clan_name_effect = yes
+	}
+	
+	ai_potential = {
+		current_date < 1533.1.1
+	}
+
+	ai_will_do = {
+		base = 10
+	}
+}
+
+# Change Clan Name into Tokugawa from Matsudaira
+change_clan_name_into_tokugawa_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = change_clan_name_decision_desc
+	selection_tooltip = change_clan_name_decision_tooltip
+	major = yes
+
+	ai_check_interval = 12
+
+	is_shown = {
+		dynasty = dynasty:10000240							# Matsudaira
+		NOT = { exists = dynasty:10000239.dynast }			# Tokugawa
+		NOT = { exists = house:house_tokugawa.house_head }	# Tokugawa
+		current_date >= 1566.1.1
+	}
+
+	is_valid = {
+		is_independent_ruler = yes
+		has_title = title:d_shgnt_mikawa
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+		is_at_war = no
+	}
+
+	effect = {
+		house = {
+			save_scope_as = old_house
+		}
+		set_house = house:house_tokugawa					# Tokugawa
+		house = {
+			set_coa = dynasty:10000239						# Tokugawa
+			save_scope_as = new_house
+		}
+		add_prestige = major_prestige_value
+		change_clan_name_effect = yes
+	}
+
+	ai_potential = {
+		current_date < 1576.1.1
+	}
+
+	ai_will_do = {
+		base = 10
+	}
+}
+
+# Change Clan Name into Toyotomi from Hashiba
+change_clan_name_into_toyotomi_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = change_clan_name_decision_desc
+	selection_tooltip = change_clan_name_decision_tooltip
+	major = yes
+
+	ai_check_interval = 12
+
+	is_shown = {
+		dynasty = dynasty:10000283							# Hashiba
+		NOT = { exists = dynasty:10000284.dynast }			# Toyotomi
+		NOT = { exists = house:house_toyotomi.house_head }	# Toyotomi
+		current_date >= 1586.1.1
+	}
+
+	is_valid = {
+		is_independent_ruler = yes
+		has_title = title:e_shgnt_japan
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+		is_at_war = no
+	}
+
+	effect = {
+		house = {
+			save_scope_as = old_house
+		}
+		set_house = house:house_toyotomi					# Toyotomi
+		house = {
+			set_coa = dynasty:10000284						# Toyotomi
+			save_scope_as = new_house
+		}
+		add_prestige = major_prestige_value
+		change_clan_name_effect = yes
+	}
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}

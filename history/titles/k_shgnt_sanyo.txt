@@ -2032,10 +2032,16 @@ d_shgnt_bizen = {
     }
 }
 d_shgnt_harima = {
+    0701.1.1={
+		liege="e_shgnt_tenno"
+	}
     1179.12.18 = {
         liege = k_shgnt_sanyo # 
         holder = 10110070 # Taira Yukimori
     }
+    1181.3.20={
+		liege = "e_shgnt_japan"
+	}
     1183.08.17 = {
         liege = 0 # 
         holder = 0 # Taira's escape to the west
@@ -2072,6 +2078,9 @@ d_shgnt_harima = {
 			set_capital_county = title:c_shgnt_shikisai
 		}
     }
+    1477.12.16={ # End of Onin war
+		liege = 0
+	}
     1496.06.06 = {
         holder = 10053519 # Akamatsu Yoshimura
     }
@@ -2088,6 +2097,9 @@ d_shgnt_harima = {
         liege = e_shgnt_japan # 
         holder = 10029400 # Hashiba Hideyoshi
     }
+    1582.6.21={ # Honno-ji Incident
+		liege="k_shgnt_sanyo"
+	}
 }
 d_shgnt_mimasaka = {
     1180.01.01 = {

@@ -3778,9 +3778,9 @@
 	}
 }
 12187041={
-	name=character_name_12187041 # Mitsuzumi
+	name=character_name_12187041 # Mitsuzumi, 満純
 	dynasty=10007280 # Iwamatsu
-	father=12187035 # Iwamatsu Mitsukuni
+	father=12187035 # Iwamatsu Mitsukuni、岩松満国
 	mother=12185051 # Nitta Fuji
 	religion="shinto"
 	culture="western_kanto"
@@ -3791,7 +3791,10 @@
 		add_spouse=10017067 # Uesugi Zenshu's daughter
 	}
 	1417.6.27={
-		death=yes
+		death={
+			death_reason=death_decapitated # 鎌倉で斬首
+			killer=10040061 # 足利持氏
+		}
 	}
 }
 12187042={

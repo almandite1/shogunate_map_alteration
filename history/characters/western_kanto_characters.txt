@@ -392,7 +392,7 @@
 	}
 }
 10017020 = {
-	name=character_name_10017020 # Norizane
+	name=character_name_10017020 # Norizane, 憲実
 #	dynasty=10000100 # Uesugi
 	dynasty_house = house_shgnt_echigouesugi
 	father=10017015
@@ -423,6 +423,10 @@
 	1468.1.19={
 		death=yes
 	}
+	# 上杉憲実の同時代評価、「非常人」「人皆其風、無不敬」
+	# 渡辺世祐、「眼前の形勢にのみとらわれて大勢を察し大局をみるの明」がなく「隠忍巧慧」
+	# 菅原正子、『永享記』における「あくまで主君足利持氏の立場を思う忠臣」は「人物像に史実があてはめられて脚色されたり作り出されたりしている可能性」がある
+	# 対立を辞さない憲実
 }
 10017021 = {
 	name=character_name_10017021 # Noritada
@@ -825,7 +829,7 @@
 	}
 }
 10017038 = {
-	name=character_name_10017038 # Akifusa
+	name=character_name_10017038 # Akifusa, 顕房
 #	dynasty=10000100 # Uesugi
 	dynasty_house = house_shgnt_ogigayatsu # Ogigayatsu
 	father=10017037
@@ -837,7 +841,7 @@
 	religion="shinto"
 	culture="western_kanto"
 	prowess=13
-	1435.1.1={
+	1435.1.1={ # 永享7(1435)年（「上杉系図」）
 		birth=yes
 	}
 	1455.2.10={
@@ -845,7 +849,7 @@
 	}
 }
 10017039 = {
-	name=character_name_10017039 # Takahira
+	name=character_name_10017039 # Takahira, 高救、三浦高救、系図類では「高救」だが史料で確認できる名前は法名「道含どうがん」
 #	dynasty=10000100 # Uesugi
 	dynasty_house = house_shgnt_ogigayatsu # Ogigayatsu
 	father=10017037
@@ -862,14 +866,19 @@
 	}
 	1450.1.1={
 		dynasty=10000542 # Miura
-		add_spouse=10016404 # Omori Ujiyori's daughter
+		add_spouse=10016404 # Omori Ujiyori's daughter、（「大森葛山系図」）、三浦氏への養子入りと婿入りは同時期と推測される（真鍋淳哉、『三浦道寸』）
 		effect = {
 			set_father = character:10016500
 			set_real_father = character:10017037
 			add_trait = "child_of_adoption"
 		}
 	}
-	1497.1.1={
+	# 文明9(1477)年三月十八日頃、太田道灌への扇谷上杉からの援軍として江戸城を守備、（『鎌倉大草紙』巻五の「義同」は「道含」の間違い（真鍋淳哉、『三浦道寸』））
+	# 文明9(1477)年七月頃、道含、相模国内で長尾景春方と数度合戦
+	# 長享2(1488)年六月以降、武蔵須賀谷原の山内上杉陣に道含が在陣→扇谷上杉から山内上杉に鞍替え、道含出家して「不改軒」と称する
+	# 明応5(1496)年時点、道寸は三浦氏当主
+	# 明応8(1499)年頃、生存（「玉穏和尚語録」）
+	1497.1.1={ # 没年は不詳（真鍋淳哉、『三浦道寸』）
 		death=yes
 	}
 }
