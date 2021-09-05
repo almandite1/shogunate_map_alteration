@@ -1,5 +1,5 @@
 ﻿10010801 = {
-	name=character_name_10010801 # Yoshiatsu
+	name=character_name_10010801 # Yoshiatsu, 義篤
 	dynasty=10000108 # Satake
 	father=10010803
 	mother=10010807
@@ -20,25 +20,27 @@
 		add_spouse=10010409
 	}
 	1530.1.1={
-		effect = {
-			add_trait = "jugoi_ge"
-		}
+		trait="jugoi_ge"
+		#effect = {
+		#	add_trait = "jugoi_ge"
+		#}
 	}
 	1540.7.17={
-		give_nickname="nick_the_uma_no_kami"
-		effect = {
-			add_trait = "jushii_ge"
-		}
+		give_nickname="nick_the_uma_no_kami" # 「右馬権頭」（『続羣書類従』第五輯上「佐竹系図」）
+		trait="jushii_ge" # 「従四位下」（『続羣書類従』第五輯上「佐竹系図」）
+		#effect = {
+		#	add_trait = "jushii_ge"
+		#}
 	}
 	1542.1.1={
-		give_nickname="nick_the_daizen_daihu"
+		give_nickname="nick_the_daizen_daihu" # 「大膳大夫」（『続羣書類従』第五輯上「佐竹系図」）
 	}
 	1545.5.19={
 		death=yes
 	}
 }
 10010802 = {
-	name=character_name_10010802 # Yoshiaki
+	name=character_name_10010802 # Yoshiaki, 義昭
 	dynasty=10000108 # Satake
 	father=10010801
 	mother=10010409
@@ -56,17 +58,17 @@
 		}
 	}
 	1547.1.1={
-		give_nickname="nick_jio"
+		give_nickname="nick_jio" # 「次郎」（『続羣書類従』第五輯上「佐竹系図」）
 	}
 	1556.1.1={
-		give_nickname="nick_ukyo_dayu"
+		give_nickname="nick_ukyo_dayu" # 「右京大夫」（『続羣書類従』第五輯上「佐竹系図」）
 	}
 	1565.11.25={
 		death=yes
 	}
 }
 10010803 = {
-	name=character_name_10010803 # Yoshikiyo
+	name=character_name_10010803 # Yoshikiyo,義舜
 	dynasty=10000108 # Satake
 	father=10010808
 	religion="shinto"
@@ -81,7 +83,7 @@
 	trait="brave"
 	trait="just"
 	prowess=12
-	1470.1.1={
+	1470.1.1={ # 「文明2(1470)年生」（『続羣書類従』第五輯上「佐竹系図」）
 		birth=yes
 	}
 	1490.5.14={
@@ -93,17 +95,18 @@
 		add_spouse=10010807
 	}
 	1500.1.1={
-		give_nickname="nick_the_ukyo_dayu"
-		effect = {
-			add_trait = "jushii_ge"
-		}
+		give_nickname="nick_the_ukyo_dayu" # 「右京大夫」（『続羣書類従』第五輯上「佐竹系図」）
+		trait="jushii_ge" # 「従四位少将」（『続羣書類従』第五輯上「佐竹系図」）
+		#effect = {
+		#	add_trait = "jushii_ge"
+		#}
 	}
 	1517.4.3={
 		death=yes
 	}
 }
 10010804 = {
-	name=character_name_10010804 # Yoshimoto
+	name=character_name_10010804 # Yoshimoto, 義元
 	dynasty=10000108 # Satake
 	father=10010803
 	mother=10010807
@@ -113,14 +116,15 @@
 		birth=yes
 	}
 	1524.1.1={
-		give_nickname="nick_shiro"
+		give_nickname="nick_shiro" # 「部垂四郎」（『続羣書類従』第五輯上「佐竹系図」）
+		dynasty_house="house_shgnt_satake_hetare"
 	}
 	1540.4.30={
 		death=yes
 	}
 }
 10010805 = {
-	name=character_name_10010805 # Yoshisato
+	name=character_name_10010805 # Yoshisato, 義里
 	dynasty=10000108 # Satake
 	father=10010803
 	mother=10010807
@@ -163,23 +167,24 @@
 	}
 }
 10010808 = {
-	name=character_name_10010808 # Yoshiharu
+	name=character_name_10010808 # Yoshiharu, 義治
 	dynasty=10000108 # Satake
 	father=10010815 # Satake Yoshitoshi
+	#mother= # TODO: 「母小山大膳大夫女」（『続羣書類従』第五輯上「佐竹系図」）
 	religion="shinto"
 	culture="northern_kanto"
 	1443.1.1={
 		birth=yes
 	}
 	1473.1.1={
-		give_nickname="nick_uma_no_kami"
+		give_nickname="nick_uma_no_kami" # 「左衛門大夫右馬頭」（『続羣書類従』第五輯上「佐竹系図」）
 	}
 	1490.5.14={
 		death=yes
 	}
 }
 10010809 = {
-	name=character_name_10010809 # Yoshitake
+	name=character_name_10010809 # Yoshitake,義武
 	dynasty=10000108 # Satake
 	father=10010808
 	religion="shinto"
@@ -188,16 +193,19 @@
 		birth=yes
 	}
 	1488.1.1={
-		give_nickname="nick_saburo"
+		give_nickname="nick_saburo" # 「久米三郎」（『続羣書類従』第五輯上「佐竹系図」）
+	}
+	1492.01.01={
+		dynasty_house="house_shgnt_satake_kume"
 	}
 	1500.1.1={
 		death={
-			death_reason=death_suicide
+			death_reason=death_suicide #　「ヽヽ生害」（『続羣書類従』第五輯上「佐竹系図」）
 		}
 	}
 }
 10010810 = {
-	name=character_name_10010810 # Yoshinobu
+	name=character_name_10010810 # Yoshinobu, 義信
 	dynasty=10000108 # Satake
 	father=10010808
 	religion="shinto"
@@ -206,15 +214,17 @@
 		birth=yes
 	}
 	1506.1.1={
-		give_nickname="nick_saemon"
+		give_nickname="nick_saemon" # 「左衛門」（『続羣書類従』第五輯上「佐竹系図」）
+		dynasty_house="house_shgnt_satake_kita"
 	}
 	1533.8.31={
 		death=yes
 	}
 }
 10010811 = {
-	name=character_name_10010811 # Yoshizumi
-	dynasty=10000108 # Satake
+	name=character_name_10010811 # Yoshizumi, 
+	#dynasty=10000108 # Satake
+	dynasty_house="house_shgnt_satake_kita"
 	father=10010810
 	religion="shinto"
 	culture="northern_kanto"
@@ -227,7 +237,8 @@
 }
 10010812 = {
 	name=character_name_10010812 # Yoshikado
-	dynasty=10000108 # Satake
+	#dynasty=10000108 # Satake
+	dynasty_house="house_shgnt_satake_kita"
 	father=10010810
 	religion="shinto"
 	culture="northern_kanto"
@@ -239,7 +250,7 @@
 	}
 }
 10010813 = {
-	name=character_name_10010813 # Masayoshi
+	name=character_name_10010813 # Masayoshi, 政義
 	dynasty=10000108 # Satake
 	father=10010808
 	religion="shinto"
@@ -248,7 +259,8 @@
 		birth=yes
 	}
 	1509.1.1={
-		give_nickname="nick_sakonoe_shogen"
+		give_nickname="nick_sakonoe_shogen" # 「左近将監」（『続羣書類従』第五輯上「佐竹系図」）
+		dynasty_house="house_shgnt_satake_higashi"
 	}
 	1534.10.10={
 		death=yes
@@ -265,16 +277,16 @@
 		birth=yes
 	}
 	1440.1.1={
-		give_nickname="nick_iyo_no_kami"
+		give_nickname="nick_iyo_no_kami" #　「伊予守」（『続羣書類従』第五輯上「佐竹系図」）
 	}
 	1477.12.29={
 		death=yes
 	}
 }
 10010816 = {
-	name=character_name_10010816 # Yoshinori
+	name=character_name_10010816 # Yoshinori,義憲、始名「義人」、童名「龍保丸」
 	dynasty=10000100 # Uesugi
-	father=10017016
+	father=10017016 #　上杉憲定
 	martial=7
 	diplomacy=7
 	intrigue=8
@@ -286,9 +298,11 @@
 	1400.1.1={
 		birth=yes
 	}
+	# 「応永10(1403)年当国下着。」（『続羣書類従』第五輯上「佐竹系図」）
 	1407.10.22={
 		dynasty=10000108 # Adoption to the Satake clan
 		culture="northern_kanto"
+		trait="child_of_adoption"
 		effect = {
 			set_father = character:10010821
 			set_real_father = character:10017016
@@ -297,13 +311,14 @@
 		}
 	}
 	1416.1.1={
-		give_nickname="nick_shichiro"
+		give_nickname="nick_shichiro" # 「上杉七郎」（『続羣書類従』第五輯上「佐竹系図」）
 	}
+	# 「十七歳時義人ト改。」（『続羣書類従』第五輯上「佐竹系図」）
 	1417.1.1={
 		give_nickname="nick_the_sama_no_suke"
 	}
 	1430.1.1={
-		give_nickname="nick_ukyo_dayu"
+		give_nickname="nick_ukyo_dayu" #　「佐竹右京大夫」（『続羣書類従』第五輯上「佐竹系図」）
 	}
 	1468.1.19={
 		death=yes
@@ -320,18 +335,20 @@
 		birth=yes
 	}
 	1407.10.22={
-		add_spouse=10010816
+		effect = {
+			create_betrothal_matrilineal = character:10010816
+		}
 	}
 	1415.1.1={
 		remove_spouse=10010816
 		add_matrilineal_spouse=10010816 # Satake Yoshinori
 	}
-	1456.1.1={
+	1456.1.1={ # 「鎌倉ニ卒。五十八歳。法号天徳寺甚山妙幸。」（『続羣書類従』第五輯上「佐竹系図」）
 		death=yes
 	}
 }
 10010818 = {
-	name=character_name_10010818 # Sanesada
+	name=character_name_10010818 # Sanesada, 実定
 	dynasty=10000108 # Satake
 	father=10010816
 	mother=10010817
@@ -341,14 +358,14 @@
 		birth=yes
 	}
 	1445.1.1={
-		give_nickname="nick_uma_no_kami"
+		give_nickname="nick_uma_no_kami" #　「上村右馬頭右京大夫」（『続羣書類従』第五輯上「佐竹系図」）
 	}
 	1465.10.24={
 		death=yes
 	}
 }
 10010819 = {
-	name=character_name_10010819 # Yoshiwa
+	name=character_name_10010819 # Yoshiwa, 義倭
 	dynasty=10000108 # Satake
 	father=10010816
 	mother=10010817
@@ -358,17 +375,18 @@
 		birth=yes
 	}
 	1443.1.1={
-		give_nickname="nick_hachiro"
+		give_nickname="nick_hachiro" #　「戸村八郎」（『続羣書類従』第五輯上「佐竹系図」）
 	}
 	1457.1.1={
-		give_nickname="nick_hitachi_no_suke"
+		give_nickname="nick_hitachi_no_suke" #　「戸村八郎常陸介」（『続羣書類従』第五輯上「佐竹系図」）
+		dynasty_house="house_shgnt_satake_minami" # 「号南ト。」（『続羣書類従』第五輯上「佐竹系図」）
 	}
 	1477.1.1={
 		death=yes
 	}
 }
 10010820 = {
-	name=character_name_10010820 # Yoshimori
+	name=character_name_10010820 # Yoshimori, 「義森」（『続羣書類従』第五輯上「佐竹系図」）
 	dynasty=10000108 # Satake
 	father=10010816
 	mother=10010817
@@ -378,27 +396,32 @@
 		birth=yes
 	}
 	1459.1.1={
-		give_nickname="nick_saemon_no_suke"
+		give_nickname="nick_saemon_no_suke" # 「小野左衛門佐」（『続羣書類従』第五輯上「佐竹系図」）
+		dynasty_house="house_shgnt_satake_ono"
 	}
 	1479.1.1={
 		death=yes
 	}
 }
 10010821 = {
-	name=character_name_10010821 # Yoshimori
+	name=character_name_10010821 # Yoshimori, 義盛
 	dynasty=10000108 # Satake
 	father=12122130 # Satake Yoshinobu
+	#mother= #「河越女」（『続羣書類従』第五輯上「佐竹系図」）
 	religion="shinto"
 	culture="northern_kanto"
 	1365.1.1={
 		birth=yes
+	}
+	1381.01.01={
+		give_nickname="nick_uma_no_kami" # 「右馬権守」
 	}
 	1407.10.22={
 		death=yes
 	}
 }
 10010830 = {
-	name=character_name_10010830 # Yoshishige
+	name=character_name_10010830 # Yoshishige, 義重
 	dynasty=10000108 # Satake
 	father=10010802
 	martial=8
@@ -417,7 +440,7 @@
 		birth=yes
 	}
 	1565.11.25={
-		give_nickname="nick_hitachi_no_suke"
+		give_nickname="nick_hitachi_no_suke" # 「常陸介」（『続羣書類従』第五輯上「佐竹系図」）
 		effect = {
 			set_realm_capital=title:c_shgnt_kuji
 		}
@@ -430,7 +453,7 @@
 	}
 }
 10010831 = {
-	name=character_name_10010831 # Sukeie # Nasu Sukeii
+	name=character_name_10010831 # Sukeie,資家 # Nasu Sukeii
 	dynasty=10000108 # Satake
 	father=10010802
 	religion="shinto"
@@ -443,7 +466,7 @@
 	}
 }
 10010832 = {
-	name=character_name_10010832 # Yoshihisa
+	name=character_name_10010832 # Yoshihisa,義尚
 	dynasty=10000108 # Satake
 	father=10010802
 	religion="shinto"
@@ -452,7 +475,10 @@
 		birth=yes
 	}
 	1566.1.1={
-		give_nickname="nick_goro"
+		give_nickname="nick_goro" # 「五郎」（『続羣書類従』第五輯上「佐竹系図」）
+	}
+	1580.01.01={
+		dynasty_house="house_shgnt_satake_minami" #　「義隣ノ継」（『続羣書類従』第五輯上「佐竹系図」）
 	}
 	1571.9.18={
 		death=yes
@@ -469,6 +495,7 @@
 	}
 	1571.1.1={
 		give_nickname="nick_saburo"
+		dynasty_house="house_shgnt_satake_koba"
 	}
 	1600.1.1={
 		death=yes
@@ -589,7 +616,8 @@
 }
 10010842={
 	name=character_name_10010842 # Yoshitsuna
-	dynasty=10000108 # Satake
+	#dynasty=10000108 # Satake
+	dynasty_house="house_shgnt_satake_kita"
 	father=10010812 # Satake Yoshikado
 	religion="shinto"
 	culture="northern_kanto"
@@ -626,7 +654,8 @@
 }
 10010844={
 	name=character_name_10010844 # Yoshikata
-	dynasty=10000108 # Satake
+	#dynasty=10000108 # Satake
+	dynasty_house="house_shgnt_satake_higashi"
 	father=10010813 # Satake Masayoshi
 	religion="shinto"
 	culture="northern_kanto"
@@ -641,7 +670,8 @@
 }
 10010845={
 	name=character_name_10010845 # Yoshitaka
-	dynasty=10000108 # Satake
+	#dynasty=10000108 # Satake
+	dynasty_house="house_shgnt_satake_higashi"
 	father=10010844 # Satake Yoshikata
 	religion="shinto"
 	culture="northern_kanto"
@@ -654,7 +684,8 @@
 }
 10010846={
 	name=character_name_10010846 # Yoshihisa
-	dynasty=10000108 # Satake
+	#dynasty=10000108 # Satake
+	dynasty_house="house_shgnt_satake_higashi"
 	father=10010844 # Satake Yoshikata
 	religion="shinto"
 	culture="northern_kanto"

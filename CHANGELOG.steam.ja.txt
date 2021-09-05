@@ -1,3 +1,39 @@
+[h1]beta Version 0.5.8[/h1]
+[h2]Game Content[/h2]
+[list]
+[*] 15・16世紀に男爵領名が変化すること、holding に城が出現するように設定しました。（[url=https://github.com/almandite1/shogunate_map_alteration/issues/262]#262[/url]）
+[*] b_shgnt_buzen_takawa_1のデフォルト名を英彦山に変更しました。
+[*] 九州地方の一部のプロヴィンスで province_terrain 設定を変更しました。
+[*] 北海道地方の一部の場所で文化別タイトル名を設定しました。
+[*] heightmap を更新しました。
+[*] 地面テクスチャを更新しました。
+[*] 木のマップオブジェクトを追加しました。
+[/list]
+[h3]rivers.png の更新[/h3]
+[list]
+[*] 九州地方の河川を再実装しました。（[url=https://github.com/almandite1/shogunate_map_alteration/issues/268]#268[/url]）
+[/list]
+[h3]dynasty house[/h3]
+[list]
+[*] 信濃村上氏に分家を設定しました。（[url=https://github.com/almandite1/shogunate_map_alteration/issues/252]#252[/url] ）
+[*] 佐竹氏に分家を設定しました。（[url=https://github.com/almandite1/shogunate_map_alteration/issues/253]#253[/url] ）
+[/list]
+[h3]首都設定[/h3]
+[list]
+[*] 一部の伯爵領の第1 holding を変更しました。（[url=https://github.com/almandite1/shogunate_map_alteration/issues/270]#270[/url]）
+[*] 葛西氏の首都伯爵領を牡鹿郡に変更しました。（[url=https://github.com/almandite1/shogunate_map_alteration/issues/272]#272[/url]）
+[*] 難波田氏の首都伯爵領を松山城のある横見郡に変更しました。（[url=https://github.com/almandite1/shogunate_map_alteration/issues/273]#273[/url]）
+[/list]
+[h3]キャラクターデータ更新[/h3]
+[list]
+[*] 一部の常陸佐竹氏キャラクターのデータで、ニックネーム追加、婚約設定に変更、特質追加方法変更を行いました。
+[/list]
+[h3]Fixed[/h3]
+[list]
+[*] 一部マップオブジェクトロケーターを調整しました。
+[*] エラーログ出力を減らすためにダミーファイルを追加しました。
+[/list]
+
 [h1]beta Version 0.5.7[/h1]
 [h2]Game Content[/h2]
 [list]

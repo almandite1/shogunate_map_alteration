@@ -42,7 +42,7 @@
 559 = { # Boshu_awa_1
 	culture = eastern_kanto
 	religion = shinto
-	holding = castle_holding
+	holding = castle_holding # 沼郷→館山城
 }
 560 = { # Boshu_awa_2
 	culture = eastern_kanto
@@ -52,7 +52,7 @@
 561 = { # Amaha_1
 	culture = eastern_kanto
 	religion = shinto
-	holding = castle_holding
+	holding = castle_holding # 天羽荘→佐貫城
 }
 562 = { # Amaha_2
 	culture = eastern_kanto
@@ -224,6 +224,12 @@
 	culture = eastern_kanto
 	religion = shinto
 	holding = none
+	1394.01.01={
+		holding=castle_holding # Narutō,成東城
+	}
+	1620.01.01={
+		holding=none
+	}
 }
 595 = { # Musa_4
 	culture = eastern_kanto
@@ -359,12 +365,15 @@
 620 = { # Chiba_2
 	culture = eastern_kanto
 	religion = shinto
-	holding = castle_holding
+	holding = castle_holding # Chiba, 千葉城、Inohana, 亥鼻城
 }
 621 = { # Chiba_3
 	culture = eastern_kanto
 	religion = shinto
 	holding = none
+	1333.07.04={
+		holding=castle_holding # Oyumi, 小弓城
+	}
 }
 622 = { # Inba_1
 	culture = eastern_kanto

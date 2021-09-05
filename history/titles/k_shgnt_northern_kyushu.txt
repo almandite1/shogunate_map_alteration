@@ -1098,6 +1098,20 @@ c_shgnt_mikasa = {
 			}
 		}
 	}
+	1533.01.01={
+		effect = {
+			title:b_shgnt_mikasa_2 = {
+				set_title_name = b_shgnt_mikasa_2_1 # Hōmanzan, 宝満山城
+			}
+		}
+	}
+	1586.01.01={
+		effect = {
+			title:b_shgnt_mikasa_2 = {
+				set_title_name = b_shgnt_mikasa_2 # Mikasa, 御笠
+			}
+		}
+	}
 	1597.1.15 = {
 		effect = {
 			title:b_shgnt_mikasa_1 = {
@@ -1432,6 +1446,11 @@ c_shgnt_munakata = {
     }
     1445.01.01 = {
         holder = 10067307 # Munakata Ujitoshi
+		effect = {
+			title:b_shgnt_munakata_2 = {
+				set_title_name = b_shgnt_munakata_2_1 # Tsutadake, 蘿岳城
+			}
+		}
     }
     1470.01.01 = {
         holder = 10067304 # Munakata Ujikuni
@@ -1460,6 +1479,13 @@ c_shgnt_munakata = {
         liege = d_shgnt_chikuzen # 
         holder = 10067345 # Munakata Ujisada
     }
+	1588.01.01={
+		effect = {
+			title:b_shgnt_munakata_2 = {
+				set_title_name = b_shgnt_munakata_2 # Akama, 赤間
+			}
+		}
+	}
 }
 c_shgnt_naori = {
     0001.01.01 = { change_development_level = 30 }
@@ -2958,6 +2984,13 @@ c_shgnt_onga = {
     1436.06.01 = {
         holder = 10068524 # Aso Hiroie
     }
+	1469.01.01={
+		effect = {
+			title:b_shgnt_onga_2 = {
+				set_title_name = b_shgnt_onga_2_1 # Oka, 岡城
+			}
+		}
+	}
     1480.01.01 = {
         holder = 10068525 # Aso Hirokuni
     }
@@ -2979,6 +3012,11 @@ c_shgnt_onga = {
 	}
     1570.01.01 = {
         holder = 10068530 # Aso Takasane
+		effect = {
+			title:b_shgnt_onga_2 = {
+				set_title_name = b_shgnt_onga_2_2 # Oka, 岡
+			}
+		}
     }
 }
 c_shgnt_honami = {

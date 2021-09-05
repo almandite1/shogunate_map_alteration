@@ -539,6 +539,13 @@ c_shgnt_kese = {
     1310.01.01 = {
         holder = 10006144 # Kasai Sadakiyo
     }
+	1333.07.04={ # 仮の年月日
+		effect = {
+			title:b_shgnt_kese_2={
+				set_title_name=b_shgnt_kese_2_1 # Takata,高田城
+			}
+		}
+	}
     1351.04.23 = {
         liege = d_shgnt_rikuchu # 
         holder = 10006145 # Kasai Takakiyo
@@ -563,7 +570,19 @@ c_shgnt_kese = {
     }
     1550.01.01 = {
         holder = 10009703 # Hamada Hirotsuna
+		effect = {
+			title:b_shgnt_kese_2={
+				set_title_name=b_shgnt_kese_2_2 # Yonegasaki,米ヶ崎城 # 名前変更年月日は仮
+			}
+		}
     }
+	1589.01.01={# 仮の年月日
+		effect = {
+			title:b_shgnt_kese_2={
+				set_title_name=b_shgnt_kese_2 # 
+			}
+		}
+	}
 }
 c_shgnt_kurihara = {
     0001.01.01 = { change_development_level = 20 }

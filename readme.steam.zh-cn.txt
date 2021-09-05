@@ -1,4 +1,4 @@
-幕府地图的更改副MODbeta版0.5.7'鮑荒崎'
+幕府地图的更改副MODbeta版0.5.8'鮑荒崎'
 
 [h1]Shogunate Map alteration Sub-MOD beta Version 0.5 'Awabiara Saki'[/h1]
 幕府地图的更改副MOD是幕府mod的一个副mod。

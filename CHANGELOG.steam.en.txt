@@ -1,3 +1,39 @@
+[h1]beta Version 0.5.8[/h1]
+[h2]Game Content[/h2]
+[list]
+[*] I set the barony name to change in the 15th and 16th centuries, and the castle to appear in the holding.（[url=https://github.com/almandite1/shogunate_map_alteration/issues/262]#262[/url]）
+[*] Changed some baronial default names.
+[*] The province_terrain setting has been changed for some Provinces in the Kyushu region.
+[*] Culture-specific title names have been set for some locations in the Hokkaido region.
+[*] Updated heightmap.
+[*] Added a tree map object.
+[*] Updated ground textures.
+[/list]
+[h3]Updated rivers.png[/h3]
+[list]
+[*] Kyūshū region rivers have been reimplemented.（[url=https://github.com/almandite1/shogunate_map_alteration/issues/268]#268[/url]）
+[/list]
+[h3]dynasty house[/h3]
+[list]
+[*] A branch family has been set up in the Shinano-Murakami clan.（[url=https://github.com/almandite1/shogunate_map_alteration/issues/252]#252[/url] ）
+[*] A branch family has been set up in the Satake clan.（[url=https://github.com/almandite1/shogunate_map_alteration/issues/253]#253[/url] ）
+[/list]
+[h3]Capital setting[/h3]
+[list]
+[*] hanged the first holding of some county territories.（[url=https://github.com/almandite1/shogunate_map_alteration/issues/270]#270[/url]）
+[*] The capital county territory of the Kasai clan has been changed to Oshika County.（[url=https://github.com/almandite1/shogunate_map_alteration/issues/272]#272[/url]）
+[*] The capital county territory of the Nambada clan was changed to Yokomi-gun, where Matsuyama Castle is located.（[url=https://github.com/almandite1/shogunate_map_alteration/issues/273]#273[/url]）
+[/list]
+[h3]Character data updated[/h3]
+[list]
+[*] Added nicknames, changed engagement settings, and changed the method of adding traits to the data of some of the Hitachi Satake characters.
+[/list]
+[h3]Fixed[/h3]
+[list]
+[*] Some map object locators have been adjusted.
+[*] Added a dummy file to reduce the error log output.
+[/list]
+
 [h1]beta Version 0.5.7[/h1]
 [h2]Game Content[/h2]
 [list]

@@ -89,6 +89,13 @@
     1480.01.01 = {
         holder = 10011807
     }
+	1504.01.01={
+		effect = {
+			title:b_shgnt_amaha_1 = {
+				set_title_name = b_shgnt_amaha_1_1 # Sanuki,佐貫城
+			}
+		}
+	}
     1506.01.01 = {
         holder = 10011805
     }
@@ -315,6 +322,13 @@ c_shgnt_boshu_awa = {
     1578.07.05 = {
         holder = 10011903 # Satomi Yoshiyori
     }
+	1580.01.01={
+		effect = {
+			title:b_shgnt_boshu_awa_1 = {
+				set_title_name = b_shgnt_boshu_awa_1_1 # Tateyama,館山城
+			}
+		}
+	}
 }
 c_shgnt_chiba = {
     0001.01.01 = { change_development_level = 10 }
@@ -351,6 +365,13 @@ c_shgnt_chiba = {
     1312.05.05 = {
         holder = 12150160 # Chiba Sadatane
     }
+	1333.07.04={
+		effect = {
+			title:b_shgnt_chiba_3 = {
+				set_title_name = b_shgnt_chiba_3_1 # Oyumi, 小弓城
+			}
+		}
+	}
     1351.01.28 = {
         holder = 12150166 # Chiba Ujitane
     }
@@ -820,6 +841,11 @@ c_shgnt_ishimi = {
     }
     1400.01.01 = {
         holder = 10020376 # Toki Yorimoto
+		effect = {
+			title:b_shgnt_ishimi_3 = {
+				set_title_name = b_shgnt_ishimi_3_1 #　Mangi, 万喜城
+			}
+		}
     }
     1440.01.01 = {
         holder = 10020377 # Toki Yorifusa
@@ -833,6 +859,13 @@ c_shgnt_ishimi = {
     1579.01.01 = {
         holder = 10020385 # Toki Yoriharu
     }
+	1591.01.01={
+		effect = {
+			title:b_shgnt_ishimi_3 = {
+				set_title_name = b_shgnt_ishimi_3_2 #　Mangi, 万喜城
+			}
+		}
+	}
 }
 c_shgnt_kamitsuga = {
     0001.01.01 = { change_development_level = 10 }
@@ -1062,6 +1095,13 @@ c_shgnt_katsushika = {
     1430.01.01 = {
         holder = 10011672 # Hara Tanefusa
     }
+	1450.01.01={
+		effect = {
+			title:b_shgnt_katsushika_1 = {
+				set_title_name = b_shgnt_katsushika_1_1 # Kasai, 葛西城
+			}
+		}
+	}
     1456.11.28 = {
         liege = d_shgnt_sagami # 
         holder = 10011615 # Musashi=Chiba Sanetane
@@ -1531,6 +1571,13 @@ c_shgnt_musa = {
     1365.09.28 = {
         holder = 12150170 # Chiba Mitsutane
     }
+	1394.01.01={
+		effect = {
+			title:b_shgnt_musa_3 = {
+				set_title_name = b_shgnt_musa_3_1 # Narutō,成東城
+			}
+		}
+	}
     1417.01.27 = {
         holder = 12150175 # Chiba Kanetane
     }
