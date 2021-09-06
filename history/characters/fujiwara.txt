@@ -4736,23 +4736,60 @@
 	}
 }
 11000297={
-	name=character_name_11000297 # Taneie
+	name=character_name_11000297 # Taneie,稙家
 	dynasty_house = house_shgnt_konoe
 	religion="shinto"
 	culture="aristocrats"
-	father=11000292	#Konoe Hisamichi
+	father=11000292	#Konoe Hisamichi,近衛尚通
 	1502.1.1={
 		birth=yes
+	}
+	1514.07.08={# 永正11(1514)年八月十二日、元服、足利義稙の偏諱
+		#give_nickname="nick_the_ukonoe_gon_shosho" # 「右近衛権少将」（大日本史料総合データベース）
+		give_nickname="nick_the_sakonoe_gon_chujo" # 「稙家を左近衛中将に転ぜしむ」（大日本史料総合データベース）
+		trait="jushii_jo" # 「従四位上」（大日本史料総合データベース）
+	}
+	1515.01.13={ # 永正11(1514)年十二月二十九日
+		trait="jusanmi" # 「従三位」（大日本史料総合データベース
+		effect={
+			remove_trait="jushii_jo"
+		}
+	}
+	1515.09.17={ # 永正12(1515)年八月十日
+		give_nickname="nick_gon_chu_nagon" # 「権中納言」（大日本史料総合データベース）
+	}
+	1516.01.21={ # 永正12(1515)年十二月十八日
+		give_nickname="nick_gon_dai_nagon" # 「権大納言」（大日本史料総合データベース）
+	}
+	1516.05.14={ # 永正13(1516)年四月十三日
+		trait="shosanmi" # 「正三位」（大日本史料総合データベース）
+		effect={
+			remove_trait="jusanmi"
+		}
+	}
+	1525.04.26={# 大永5(1525)年四月四日
+		give_nickname="nick_the_kampaku" # 「関白」（大日本史料総合データベース）
 	}
 	1526.6.9={
 		employer =10041096	#Emperor Go-Nara
 	}
-	1528.1.1={
-		effect = {
-			add_trait = "shonii"
+	1527.05.17={# 大永7(1527)年四月十七日
+		trait="juichii" # 「従一位」（大日本史料総合データベース）
+		effect={
+			remove_trait="shosanmi"
 		}
 	}
-	1566.7.26={
+	1533.02.28={# 天文2(1533)年二月五日
+		give_nickname="nick_the_sa_daijin" # 「左大臣」「關白近衞稙家を罷む」（大日本史料総合データベース）
+	}
+	# 天文4(1535)年十二月十日、「前左大臣」、「左大臣近衞稙家を罷む」（大日本史料総合データベース）
+	1536.12.13={# 天文5(1536)年十一月一日
+		give_nickname="nick_the_kampaku" # 「関白」（大日本史料総合データベース）
+	}
+	# 天文5(1536)年十二月二十一日、「太政大臣」
+	# 天文10(1541)年四月二十九日、「前太政大臣」、「太政大臣近衞稙家を罷む」（大日本史料総合データベース）
+	# 天文10(1541)年四月二十九日、「前太政大臣」、「太政大臣近衞稙家を罷む」（大日本史料総合データベース）
+	1566.7.26={ # 永禄9(1566)年七月十日
 		death=yes
 	}
 }
@@ -4867,7 +4904,7 @@
 	}
 }
 11000303={
-	name=character_name_11000303 # Sakihisa
+	name=character_name_11000303 # Sakihisa,前久
 	dynasty_house = house_shgnt_konoe
 	religion="shinto"
 	culture="aristocrats"
@@ -4900,7 +4937,7 @@
 	}
 }
 11000304={
-	name=character_name_11000304 # Himoji
+	name=character_name_11000304 # Himoji、朝倉義景室
 	dynasty_house = house_shgnt_konoe
 	religion="shinto"
 	culture="aristocrats"
@@ -4915,7 +4952,7 @@
 	}
 }
 11000305={
-	name=character_name_11000305 # Umeko
+	name=character_name_11000305 # Umeko、足利義輝室
 	dynasty_house = house_shgnt_konoe
 	religion="shinto"
 	culture="aristocrats"
@@ -4929,7 +4966,7 @@
 	}
 }
 11000306={
-	name=character_name_11000306 # Yozan
+	name=character_name_11000306 # Yozan,陽山
 	dynasty_house = house_shgnt_konoe
 	religion="shinto"
 	culture="kinai_buddhist"
@@ -4943,7 +4980,7 @@
 	}
 }
 11000307={
-	name=character_name_11000307 # KeikoIn
+	name=character_name_11000307 # KeikoIn,渓江院、赤井直正の継室
 	dynasty_house = house_shgnt_konoe
 	religion="shinto"
 	culture="aristocrats"
@@ -4957,7 +4994,7 @@
 	}
 }
 11000308={
-	name=character_name_11000308 # Docho
+	name=character_name_11000308 # Docho,道澄
 	dynasty_house = house_shgnt_konoe
 	religion="shinto"
 	culture="kinai_buddhist"
@@ -4971,7 +5008,7 @@
 	}
 }
 11000309={
-	name=character_name_11000309 # Sonshin
+	name=character_name_11000309 # Sonshin,尊信
 	dynasty_house = house_shgnt_konoe
 	religion="shinto"
 	culture="kinai_buddhist"
@@ -4985,7 +5022,7 @@
 	}
 }
 11000310={
-	name=character_name_11000310 # Shuzan
+	name=character_name_11000310 # Shuzan,秀山尊性
 	dynasty_house = house_shgnt_konoe
 	religion="shinto"
 	culture="kinai_buddhist"

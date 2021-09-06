@@ -1,6 +1,6 @@
-Shogunate 地図改変サブ MOD 日本語 ベータ版 Version 0.5.8 'Awabiara Saki'
+Shogunate 地図改変サブ MOD 日本語 ベータ版 Version 0.5.9 'Awabiara Saki'
 
-[h1]Shogunate 地図改変サブ MOD 日本語 ベータ版 Version 0.5.8 'Awabiara Saki'[/h1]
+[h1]Shogunate 地図改変サブ MOD 日本語 ベータ版 Version 0.5.9 'Awabiara Saki'[/h1]
 ====
 
 Shogunate 地図改変サブ MOD ベータ版は [url=https://steamcommunity.com/workshop/filedetails/?id=2253279956]Shogunate MOD [/url]のサブ MOD です。地図を高解像なものに置き換え、プロヴィンス＝ holding を増やします。

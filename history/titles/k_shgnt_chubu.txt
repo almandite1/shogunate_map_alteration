@@ -90,6 +90,13 @@
 			}
 		}
 	}
+	1589.01.01={
+		effect = {
+			title:b_shgnt_ahachi_7 = {
+				set_title_name = b_shgnt_ahachi_7_1 # Fukuzuka,福束城
+			}
+		}
+	}
 }
 c_shgnt_aichi = {
     0001.01.01 = { change_development_level = 10 }
@@ -420,6 +427,13 @@ c_shgnt_ena = {
     1380.01.01 = {
         holder = 12425117 # Toyama Kageoki
     }
+	1394.01.01={
+		effect = {
+			title:b_shgnt_ena_3 = {
+				set_title_name = b_shgnt_ena_3_1 # Iwamura,岩村城
+			}
+		}
+	}
     1410.01.01 = {
         holder = 12425118 # Toyama Kageshige
     }
@@ -435,6 +449,13 @@ c_shgnt_ena = {
     1524.02.04 = {
         holder = 10025403 # Toyama Kagesaki
     }
+	1532.01.01={
+		effect = {
+			title:b_shgnt_ena_2 = {
+				set_title_name = b_shgnt_ena_2_1 # Naegi,苗木城
+			}
+		}
+	}
     1556.07.13 = {
         holder = 10025405 # Toyama Kageto
     }
@@ -510,13 +531,20 @@ c_shgnt_fuwa = {
     1490.01.01 = {
         holder = 12420610 # Iwade Nobutada
     }
+	1500.01.01={
+		effect = {
+			title:b_shgnt_fuwa_1 = {
+				set_title_name = b_shgnt_fuwa_1_1 # Bodaiyama菩提山城
+			}
+		}
+	}
     1520.01.01 = {
         holder = 12420611 # Iwade Nobuhisa
     }
     1550.01.01 = {
         holder = 12420612 # Iwade Nobufuyu
     }
-    1558.01.01 = {
+    1558.01.01 = { # 竹中重元が岩手氏を滅ぼして取って代わる。その時期は永禄年間（1558.2.28～1570.4.23）（『新撰美濃志』）、斎藤道三治世（『寛政譜』）の説がある、斎藤義龍時の可能性もある（木下聡、『斎藤氏四代』、2020。）
         liege = d_shgnt_mino # 
         holder = 10025801 # Takenaka Shigemoto
     }
@@ -809,6 +837,12 @@ c_shgnt_ichishi = {
 		effect = {
 			title:b_shgnt_ichishi_2 = {
 				set_title_name = b_shgnt_ichishi_2_1 # Matsugashima
+			}
+			title:b_shgnt_ichishi_5 = {
+				set_title_name = b_shgnt_ichishi_5_1 # Iu,井生
+			}
+			title:b_shgnt_ichishi_1 = {
+				set_title_name = b_shgnt_ichishi_1_1 # Kumozu,雲出
 			}
 		}
 	}
@@ -1828,6 +1862,13 @@ c_shgnt_muge = {
         liege = d_shgnt_mino # 
         holder = 10025329 # Toki Sadayori
     }
+	1550.01.01={
+		effect = {
+			title:b_shgnt_muge_6 = {
+				set_title_name = b_shgnt_muge_6_1 # Nataosan,鉈尾山城
+			}
+		}
+	}
     1510.01.01 = {
         holder = 10025303 # Toki Yoritake
     }
@@ -2002,6 +2043,13 @@ c_shgnt_niwa = {
     1517.02.16 = {
         holder = 10029102 # Oda Nobuyasu
     }
+	1537.01.01={
+		effect = {
+			title:b_shgnt_niwa_6 = {
+				set_title_name = b_shgnt_niwa_6_1 # Inuyama,犬山城（Issue #278）
+			}
+		}
+	}
     1558.01.01 = {
         liege = 0 # 
         holder = 10029123 # Oda Nobukata

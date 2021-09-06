@@ -2943,7 +2943,8 @@
 }
 10006701={
 	name=character_name_10006701 # Akitane
-	dynasty=10000067 # Soma
+	#dynasty=10000067 # Soma
+	dynasty_house="house_shgnt_soma_oshu"
 	martial=7
 	diplomacy=7
 	intrigue=7
@@ -2979,7 +2980,8 @@
 }
 10006702={
 	name=character_name_10006702 # Moritane
-	dynasty=10000067 # Soma
+	#dynasty=10000067 # Soma
+	dynasty_house="house_shgnt_soma_oshu"
 	martial=8
 	diplomacy=8
 	intrigue=6
@@ -3010,7 +3012,8 @@
 }
 10006703={
 	name=character_name_10006703 # Moritane
-	dynasty=10000067 # Soma
+	#dynasty=10000067 # Soma
+	dynasty_house="house_shgnt_soma_oshu"
 	religion="shinto"
 	culture="southern_oshu"
 	father=10006705 # Soma Takatane
@@ -3055,7 +3058,8 @@
 }
 10006705 = {
 	name=character_name_10006705 # Takatane
-	dynasty=10000067 # Soma
+	#dynasty=10000067 # Soma
+	dynasty_house="house_shgnt_soma_oshu"
 	religion="shinto"
 	culture="southern_oshu"
 	father=10006706
@@ -3069,7 +3073,8 @@
 }
 10006706 = {
 	name=character_name_10006706 # Shigetane
-	dynasty=10000067 # Soma
+	#dynasty=10000067 # Soma
+	dynasty_house="house_shgnt_soma_oshu"
 	religion="shinto"
 	culture="southern_oshu"
 	father=10006707
@@ -3082,7 +3087,8 @@
 }
 10006707 = {
 	name=character_name_10006707 # Tanehiro
-	dynasty=10000067 # Soma
+	#dynasty=10000067 # Soma
+	dynasty_house="house_shgnt_soma_oshu"
 	religion="shinto"
 	culture="southern_oshu"
 	father=10006708
@@ -3096,7 +3102,8 @@
 }
 10006708={
 	name=character_name_10006708 # Noritane
-	dynasty=10000067 # Soma
+	#dynasty=10000067 # Soma
+	dynasty_house="house_shgnt_soma_oshu"
 	religion="shinto"
 	culture="southern_oshu"
 	father=10006709
@@ -3110,7 +3117,8 @@
 }
 10006709={
 	name=character_name_10006709 # Taneyori
-	dynasty=10000067 # Soma
+	#dynasty=10000067 # Soma
+	dynasty_house="house_shgnt_soma_oshu"
 	religion="shinto"
 	culture="southern_oshu"
 	father=10006710
@@ -3126,10 +3134,14 @@
 	name=character_name_10006710 # Chikatane
 	dynasty=10000067 # Soma
 	religion="shinto"
-	culture="southern_oshu"
+	culture="eastern_kanto"
 	father=10006711
 	1308.1.1={
 		birth=yes
+	}
+	1323.06.01={ # 元亨3(1323)年四月、重胤、下総国相馬御厨流山から奥州行方郡小高郷に移住
+		culture="southern_oshu"
+		dynasty_house="house_shgnt_soma_oshu"
 	}
 	1324.1.1={
 		give_nickname="nick_Magojio"
@@ -3142,16 +3154,20 @@
 	}
 }
 10006711={
-	name=character_name_10006711 # Shigetane
+	name=character_name_10006711 # Shigetane, 重胤
 	dynasty=10000067 # Soma
 	religion="shinto"
-	culture="southern_oshu"
+	culture="eastern_kanto"
 	father=12150830 # Soma Morotane
 	1288.1.1={
 		birth=yes
 	}
 	1304.1.1={
 		give_nickname="nick_Yagoro"
+	}
+	1323.06.01={ # 元亨3(1323)年四月、重胤、下総国相馬御厨流山から奥州行方郡小高郷に移住
+		culture="southern_oshu"
+		dynasty_house="house_shgnt_soma_oshu"
 	}
 	1337.1.1={
 		death={
@@ -3163,10 +3179,14 @@
 	name=character_name_10006712 # Mitsutane
 	dynasty=10000067 # Soma
 	religion="shinto"
-	culture="southern_oshu"
+	culture="eastern_kanto"
 	father=10006711
 	1310.1.1={
 		birth=yes
+	}
+	1323.06.01={ # 元亨3(1323)年四月、重胤、下総国相馬御厨流山から奥州行方郡小高郷に移住
+		culture="southern_oshu"
+		dynasty_house="house_shgnt_soma_oshu"
 	}
 	1326.1.1={
 		give_nickname="nick_Yajio"
@@ -3179,7 +3199,8 @@
 }
 10006719 = {
 	name=character_name_10006719 # Yoshitane
-	dynasty=10000067 # Soma
+	#dynasty=10000067 # Soma
+	dynasty_house="house_shgnt_soma_oshu"
 	martial=8
 	diplomacy=6
 	intrigue=7
@@ -3203,7 +3224,8 @@
 }
 10006720 = {
 	name=character_name_10006720 # Takatane
-	dynasty=10000067 # Soma
+	#dynasty=10000067 # Soma
+	dynasty_house="house_shgnt_soma_oshu"
 	trait="brave"
 	trait="education_martial_2"
 	religion="shinto"
@@ -3218,7 +3240,8 @@
 }
 10006721 = {
 	name=character_name_10006721 # Satotane
-	dynasty=10000067 # Soma
+	#dynasty=10000067 # Soma
+	dynasty_house="house_shgnt_soma_oshu"
 	religion="shinto"
 	culture="southern_oshu"
 	father=10006702
@@ -3232,7 +3255,8 @@
 10006722 = {
 	name=character_name_10006722 # Taneko
 	female=yes
-	dynasty=10000067 # Soma
+	#dynasty=10000067 # Soma
+	dynasty_house="house_shgnt_soma_oshu"
 	religion="shinto"
 	culture="southern_oshu"
 	father=10006702
@@ -3245,7 +3269,8 @@
 }
 10006723 = {
 	name=character_name_10006723 # Toshitane
-	dynasty=10000067 # Soma
+	#dynasty=10000067 # Soma
+	dynasty_house="house_shgnt_soma_oshu"
 	religion="shinto"
 	culture="southern_oshu"
 	father=10006719
@@ -3261,7 +3286,8 @@
 }
 10006724 = {
 	name=character_name_10006724 # Chikatane
-	dynasty=10000067 # Soma
+	#dynasty=10000067 # Soma
+	dynasty_house="house_shgnt_soma_oshu"
 	religion="shinto"
 	culture="southern_oshu"
 	father=10006719
@@ -3274,7 +3300,8 @@
 }
 10006725 = {
 	name=character_name_10006725 # Hisatane
-	dynasty=10000067 # Soma
+	#dynasty=10000067 # Soma
+	dynasty_house="house_shgnt_soma_oshu"
 	religion="shinto"
 	culture="southern_oshu"
 	father=10006719
@@ -3288,7 +3315,8 @@
 10006726 = {
 	name=character_name_10006726 # Yoshi
 	female=yes
-	dynasty=10000067 # Soma
+	#dynasty=10000067 # Soma
+	dynasty_house="house_shgnt_soma_oshu"
 	religion="shinto"
 	culture="southern_oshu"
 	father=10006719
@@ -3302,7 +3330,8 @@
 10006727 = {
 	name=character_name_10006727 # Yoshi
 	female=yes
-	dynasty=10000067 # Soma
+	#dynasty=10000067 # Soma
+	dynasty_house="house_shgnt_soma_oshu"
 	religion="shinto"
 	culture="southern_oshu"
 	father=10006702

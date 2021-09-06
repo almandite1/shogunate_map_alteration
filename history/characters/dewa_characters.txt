@@ -1,6 +1,7 @@
 ﻿10000101 = {
 	name=character_name_10000101 # Hirosue
-	dynasty=10000001 # Ando
+	#dynasty=10000001 # Ando
+	dynasty_house="house_shgnt_ando_hiyama"
 	martial=6
 	diplomacy=4
 	intrigue=6
@@ -24,7 +25,8 @@
 }
 10000102 = {
 	name=character_name_10000102 # Kiyosue
-	dynasty=10000001 # Ando
+	#dynasty=10000001 # Ando
+	dynasty_house="house_shgnt_ando_hiyama"
 	martial=6
 	diplomacy=8
 	intrigue=7
@@ -48,7 +50,8 @@
 }
 10000103 = {
 	name=character_name_10000103 # Takasue
-	dynasty=10000001 # Ando
+	#dynasty=10000001 # Ando
+	dynasty_house="house_shgnt_ando_minato"
 	father=10000107
 	martial=5
 	diplomacy=7
@@ -70,7 +73,8 @@
 10000104 = {
 	name=character_name_10000104 # Takako
 	female = yes
-	dynasty=10000001 # Ando
+	#dynasty=10000001 # Ando
+	dynasty_house="house_shgnt_ando_minato"
 	martial=3
 	diplomacy=5
 	intrigue=5
@@ -89,7 +93,8 @@
 }
 10000105 = {
 	name=character_name_10000105 # Tadasue
-	dynasty=10000001 # Ando
+	#dynasty=10000001 # Ando
+	dynasty_house="house_shgnt_ando_hiyama"
 	religion="shinto"
 	culture="dewa"
 	father=10000106
@@ -114,6 +119,7 @@
 	}
 	1436.1.1={
 		give_nickname="nick_taro"
+		dynasty_house="house_shgnt_ando_hiyama"
 	}
 	1488.9.15={
 		death=yes
@@ -121,7 +127,8 @@
 }
 10000107 = {
 	name=character_name_10000107 # Nobusue
-	dynasty=10000001 # Ando
+	#dynasty=10000001 # Ando
+	dynasty_house="house_shgnt_ando_minato"
 	father=10000108
 	religion="shinto"
 	culture="dewa"
@@ -134,7 +141,8 @@
 }
 10000108 = {
 	name=character_name_10000108 # Munesue
-	dynasty=10000001 # Ando
+	#dynasty=10000001 # Ando
+	dynasty_house="house_shgnt_ando_minato"
 	father=10000109
 	religion="shinto"
 	culture="dewa"
@@ -147,7 +155,8 @@
 }
 10000109 = {
 	name=character_name_10000109 # Akisue
-	dynasty=10000001 # Ando
+	#dynasty=10000001 # Ando
+	dynasty_house="house_shgnt_ando_minato"
 	father=10000110
 	religion="shinto"
 	culture="dewa"
@@ -160,7 +169,8 @@
 }
 10000110 = {
 	name=character_name_10000110 # Koresue
-	dynasty=10000001 # Ando
+	#dynasty=10000001 # Ando
+	dynasty_house="house_shgnt_ando_minato"
 	father=10000111
 	religion="shinto"
 	culture="dewa"
@@ -173,7 +183,8 @@
 }
 10000111 = {
 	name=character_name_10000111 # Narisue
-	dynasty=10000001 # Ando
+	#dynasty=10000001 # Ando
+	dynasty_house="house_shgnt_ando_minato"
 	father=10000112
 	religion="shinto"
 	culture="dewa"
@@ -192,6 +203,9 @@
 	culture="dewa"
 	1365.1.1={
 		birth=yes
+	}
+	1380.01.01={
+		dynasty_house="house_shgnt_ando_minato"
 	}
 	1423.7.23={
 		death=yes
@@ -277,7 +291,8 @@
 }
 10000119= {
 	name=character_name_10000119 # Iemasa #At the time of Kosamayn war, ruler of Mobetsu
-	dynasty=10001670 # Ando
+	#dynasty=10001670 # Ando
+	dynasty_house="house_shgnt_ando_shimokuni"
 	father=10000118
 	religion="shinto"
 	culture="dewa"
@@ -293,7 +308,8 @@
 }
 10000120= {
 	name=character_name_10000120 # Iesue
-	dynasty=10001670 # Ando
+	#dynasty=10001670 # Ando
+	dynasty_house="house_shgnt_ando_shimokuni"
 	father=10000119
 	religion="shinto"
 	culture="hokkaido_wajin"
@@ -306,7 +322,8 @@
 }
 10000121= {
 	name=character_name_10000121 # Morosue #In 1525,His clan has escaped to Otate from Mobetsu by Ainu's attack
-	dynasty=10001670 # Ando
+	#dynasty=10001670 # Ando
+	dynasty_house="house_shgnt_ando_shimokuni"
 	father=10000120
 	religion="shinto"
 	culture="hokkaido_wajin"
@@ -325,7 +342,8 @@
 }
 10000122= {
 	name=character_name_10000122 # Shigesue
-	dynasty=10001670 # Ando
+	#dynasty=10001670 # Ando
+	dynasty_house="house_shgnt_ando_shimokuni"
 	father=10000121
 	religion="shinto"
 	culture="hokkaido_wajin"
@@ -354,7 +372,8 @@
 }
 10000124= {
 	name=character_name_10000124 # Sadasue#At the time of Kosamayn war, ruler of Mobetsu
-	dynasty=10001671 # Shimokuni
+	#dynasty=10001671 # Shimokuni
+	dynasty_house="house_shgnt_ando_shimokuni"
 	father=10000115
 	religion="shinto"
 	culture="dewa"
@@ -370,7 +389,8 @@
 }
 10000125= {
 	name=character_name_10000125 # Tsunesue
-	dynasty=10001671 # Shimokuni
+	#dynasty=10001671 # Shimokuni
+	dynasty_house="house_shgnt_ando_shimokuni"
 	father=10000124
 	religion="shinto"
 	culture="hokkaido_wajin"
@@ -389,7 +409,8 @@
 }
 10000126 = {
 	name=character_name_10000126 # Munesue
-	dynasty=10000001 # Ando
+	#dynasty=10000001 # Ando
+	dynasty_house="house_shgnt_ando_hiyama"
 	religion="shinto"
 	culture="dewa"
 	father=10000101
@@ -402,7 +423,8 @@
 }
 10000127= {
 	name=character_name_10000127 # Masako #Wife of Takeda Nobuhiro, Mother of Kakizaki Mitsuhiro
-	dynasty=10000001 # Ando
+	#dynasty=10000001 # Ando
+	dynasty_house="house_shgnt_ando_hiyama"
 	female=yes
 	father=10000106
 	religion="shinto"
@@ -416,7 +438,8 @@
 }
 10000128= {
 	name=character_name_10000128 # Naosue
-	dynasty=10001670 # Ando
+	#dynasty=10001670 # Ando
+	dynasty_house="house_shgnt_ando_shimokuni"
 	father=10000121
 	religion="shinto"
 	culture="hokkaido_wajin"
@@ -432,7 +455,8 @@
 }
 10000129= {
 	name=character_name_10000129 # Yoshisue
-	dynasty=10001670 # Ando
+#	dynasty=10001670 # Ando
+	dynasty_house="house_shgnt_ando_shimokuni"
 	father=10000128
 	mother=10159015
 	religion="shinto"
@@ -446,7 +470,8 @@
 }
 10000130= {
 	name=character_name_10000130 # Morisue
-	dynasty=10001670 # Ando
+#	dynasty=10001670 # Ando
+	dynasty_house="house_shgnt_ando_shimokuni"
 	father=10000128
 	mother=10159015
 	religion="shinto"
@@ -460,7 +485,8 @@
 }
 10000131= {
 	name=character_name_10000131 # Hirosue
-	dynasty=10001670 # Ando
+#	dynasty=10001670 # Ando
+	dynasty_house="house_shgnt_ando_shimokuni"
 	father=10000128
 	mother=10159015
 	religion="shinto"
@@ -474,7 +500,8 @@
 }
 10000132= {
 	name=character_name_10000132 # Sueko #Sato Suehira's wife
-	dynasty=10001670 # Ando
+#	dynasty=10001670 # Ando
+	dynasty_house="house_shgnt_ando_shimokuni"
 	female=yes
 	father=10000128
 	mother=10159015
@@ -489,7 +516,8 @@
 }
 10000133= {
 	name=character_name_10000133 # Sakura #Maeda Kan'uemon 's wife
-	dynasty=10001670 # Ando
+#	dynasty=10001670 # Ando
+	dynasty_house="house_shgnt_ando_shimokuni"
 	female=yes
 	father=10000128
 	mother=10159015
@@ -504,7 +532,8 @@
 }
 10000134= {
 	name=character_name_10000134 # Yukari #Matsumae Morihiro's wife
-	dynasty=10001670 # Ando
+	#dynasty=10001670 # Ando
+	dynasty_house="house_shgnt_ando_shimokuni"
 	female=yes
 	father=10000128
 	mother=10159015
@@ -519,7 +548,8 @@
 }
 10000135= {
 	name=character_name_10000135 # Yoshisue
-	dynasty=10001670 # Ando
+#	dynasty=10001670 # Ando
+	dynasty_house="house_shgnt_ando_shimokuni"
 	father=10000129
 	religion="shinto"
 	culture="hokkaido_wajin"
@@ -532,7 +562,8 @@
 }
 10000136 = {
 	name=character_name_10000136 # Chikasue
-	dynasty=10000001 # Ando
+	#dynasty=10000001 # Ando
+	dynasty_house="house_shgnt_ando_hiyama"
 	religion="shinto"
 	culture="dewa"
 	father=10000102 # Ando Kiyosue
@@ -569,7 +600,8 @@
 }
 10000137 = {
 	name=character_name_10000137 # Shigesue
-	dynasty=10000001 # Ando
+	#dynasty=10000001 # Ando
+	dynasty_house="house_shgnt_ando_hiyama"
 	religion="shinto"
 	culture="dewa"
 	father=10000102 # Ando Kiyosue
@@ -590,7 +622,8 @@
 }
 10000138 = {
 	name=character_name_10000138 # Tomosue
-	dynasty=10000001 # Ando
+	#dynasty=10000001 # Ando
+	dynasty_house="house_shgnt_ando_hiyama"
 	religion="shinto"
 	culture="dewa"
 	father=10000102 # Ando Kiyosue
@@ -604,7 +637,8 @@
 }
 10000139 = {
 	name=character_name_10000139 # Suetaka
-	dynasty=10000001 # Ando
+	#dynasty=10000001 # Ando
+	dynasty_house="house_shgnt_ando_hiyama"
 	religion="shinto"
 	culture="dewa"
 	father=10000102 # Ando Kiyosue
@@ -618,7 +652,8 @@
 }
 10000140 = {
 	name=character_name_10000140 # Suekata
-	dynasty=10000001 # Ando
+	#dynasty=10000001 # Ando
+	dynasty_house="house_shgnt_ando_hiyama"
 	religion="shinto"
 	culture="dewa"
 	father=10000102 # Ando Kiyosue
@@ -632,7 +667,8 @@
 }
 10000141 = {
 	name=character_name_10000141 # Narisue
-	dynasty=10000001 # Ando
+	#dynasty=10000001 # Ando
+	dynasty_house="house_shgnt_ando_hiyama"
 	religion="shinto"
 	culture="dewa"
 	father=10000136
@@ -645,7 +681,8 @@
 }
 10000142 = {
 	name=character_name_10000142 # Sanesue
-	dynasty=10000001 # Ando
+	#dynasty=10000001 # Ando
+	dynasty_house="house_shgnt_ando_hiyama"
 	religion="shinto"
 	culture="dewa"
 	father=10000136
@@ -659,7 +696,8 @@
 }
 10000143 = {
 	name=character_name_10000143 # Hidesue
-	dynasty=10000001 # Ando
+	#dynasty=10000001 # Ando
+	dynasty_house="house_shgnt_ando_hiyama"
 	religion="shinto"
 	culture="dewa"
 	father=10000136
@@ -672,7 +710,8 @@
 }
 10000144 = {
 	name=character_name_10000144 # Katsusue
-	dynasty=10000001 # Ando
+	#dynasty=10000001 # Ando
+	dynasty_house="house_shgnt_ando_hiyama"
 	religion="shinto"
 	culture="dewa"
 	father=10000136
@@ -685,7 +724,8 @@
 }
 10000145 = {
 	name=character_name_10000145 # Michisue
-	dynasty=10000001 # Ando
+	#dynasty=10000001 # Ando
+	dynasty_house="house_shgnt_ando_hiyama"
 	father=10000137
 	religion="shinto"
 	culture="dewa"

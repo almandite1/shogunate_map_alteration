@@ -1573,7 +1573,7 @@
 	}
 }
 10025451 = {
-	name=character_name_10025451 # Norihide # a.k.a. Saito Dosan
+	name=character_name_10025451 # Norihide,規秀 # a.k.a. Saito Dosan,斎藤道三
 	dynasty=10000267 # Nagai
 	martial=6
 	diplomacy=8
@@ -1591,7 +1591,7 @@
 	religion="shinto"
 	culture="western_chubu"
 	prowess=10
-	1494.1.1={
+	1494.1.1={ # （木下聡、『斎藤氏四代』、2020。）では永正1(1504)年生まれ説をとる
 		birth=yes
 	}
 	1510.1.1={
@@ -1600,35 +1600,47 @@
 	1526.12.1={
 		add_concubine=10025703 # Inaba Miyoshino
 	}
-	1530.1.1={
-		effect = {
-			set_father = character:10025504
-#			set_real_father = character:
-		}
-	}
+#	1530.1.1={
+#		effect = {
+#			set_father = character:10025504 #　長井利隆
+#			set_real_father = character: # TODO: 長井新左衛門尉
+#		}
+#	}
 	1532.1.1={
 		add_spouse=10025634 # Akechi Omi
 	}
+	# 天文2(1533)年六月、「長井新九郎規秀」（木下聡、『斎藤氏四代』、2020。）
+	# 天文5(1536)年正月二十九日、「長井新九郎」（『天文日記』）
+	# 天文4(1535)年から天文5(1536)年九月頃出家して斎藤名字、「斎藤新九郎入道道三」（木下聡、『斎藤氏四代』、2020。）
+	# 天文7(1538)年か天文8(1539)年の書状で「斎藤新九郎利政」（木下聡、『斎藤氏四代』、2020。）
 	1538.1.1={
 		dynasty=10000900 # Saito
 		effect = {
 			change_first_name = character_name_10025451_1 # Toshimasa
 		}
+		give_nickname="nick_sakonoe_shogen"	# TODO: 天文8(1539)年十二月の禁制に「左近大夫」と署名（「美江寺文書」）、自称であり正式な任官ではない（木下聡、『斎藤氏四代』、2020。）
 	}
+	# 天文10(1541)年十一月八日、「斎藤左近大夫、長井新九郎事なり」（『天文日記』）
 	1542.1.1={
 		give_nickname="nick_yamashiro_no_kami"
 		effect = {
 			set_realm_capital = title:c_shgnt_kakamu
 		}
 	}
-	1549.3.23={
-		add_concubine=10029151
-	}
-	1554.1.1={
+	# 天文13(1544)年九月二十四日、稲葉山城下の戦いで、土岐頼允援軍の尾張方織田新十郎と佐久間藤十郎を討ち取る、土岐頼芸・斎藤道三の勝利
+	# 天文15(1546)年九月以前、土岐頼芸と土岐頼允の和睦、道三娘と頼允の婚約
+	# 天文17(1548)年八月、美濃で土岐頼香の援軍・織田信秀と合戦、道三の勝利、「斎藤左近大夫利政」と署名（木下聡、『斎藤氏四代』、2020。）
+	# 天文17(1548)年八月から十一月頃、土岐頼香と和睦、出家入道・「道三」と名乗るか？（木下聡、『斎藤氏四代』、2020。）
+	# 天文17(1548)年十一月以降、道三、土岐頼允の弟・土岐八郎頼香を暗殺する（木下聡、『斎藤氏四代』、2020。）
+	1549.1.1={ # 天文18(1549)年五月二十二日、「道三」の初見文書（「安藤鉦司氏所蔵文書」）
 		effect = {
 			change_first_name = character_name_10025451_2 # Dosan
 		}
 	}
+	1549.3.23={
+		add_concubine=10029151
+	}
+	# 天文19(1550)年十月十日から天文20(1551)年七月、道三、土岐頼芸を追放
 	1556.5.28={
 		death={
 			killer=10025502 # Saito Yoshitatsu
@@ -1636,7 +1648,7 @@
 	}
 }
 10025452={
-	name=character_name_10025452 # Magoshiro
+	name=character_name_10025452 # Magoshiro,孫四郎、諱「龍重」「龍元」は後世の創作
 	dynasty=10000267 # Nagai
 	father=10025451 # Saito Dosan
 	religion="shinto"
@@ -1655,7 +1667,7 @@
 	}
 }
 10025453={
-	name=character_name_10025453 # Kiheiji
+	name=character_name_10025453 # Kiheiji,喜平次、諱「龍高」「龍定」は後世の創作
 	dynasty=10000267 # Nagai
 	father=10025451 # Saito Dosan
 	religion="shinto"
@@ -1705,9 +1717,10 @@
 	}
 }
 10025456={
-	name=character_name_10025456 # Toshitaka
+	name=character_name_10025456 # Toshitaka,利堯
 	dynasty=10000900 # Saito
 	father=10025451 # Saito Dosan
+	mother=10025703 #　『勢州軍記』に稲葉一鉄甥とあり、『武家事紀』には稲葉一鉄婿（木下聡、『斎藤氏四代』、2020。）
 	religion="shinto"
 	culture="western_chubu"
 	martial=9
@@ -1716,6 +1729,14 @@
 	1540.1.1={
 		birth=yes
 	}
+	# 天正3(1575)年正月十一日に織田信長から方県郡内給付、初見文書（木下聡、『斎藤氏四代』、2020。）
+	# 天正3(1575)年十二月、美濃衆の一員として織田信忠のもとに配属（木下聡、『斎藤氏四代』、2020。）
+	# 本能寺の変直前、新五郎利治の代わりに加治田城を守備（木下聡、『斎藤氏四代』、2020。）
+	# 岐阜市曽我屋が所領
+	# 織田信忠の岐阜留守居役
+	# 清洲会議後の天正10(1582)年十二月？天正11(1583)年四月、森長可の加治田城への攻撃を撃退か（木下聡、『斎藤氏四代』、2020。）
+	# 清洲会議後、岐阜城主織田信孝の配下、利治旧領加治田周辺が所領（木下聡、『斎藤氏四代』、2020。）
+	#　織田信孝滅亡後は消息不明（木下聡、『斎藤氏四代』、2020。）
 	1590.1.1={
 		death=yes
 	}
@@ -1764,9 +1785,10 @@
 }
 10025460={
 	female=yes
-	name=character_name_10025460 # Kicho
+	name=character_name_10025460 # Kicho,帰蝶、「帰蝶」は『美濃匡諸旧記』に見える名前だが江戸時代の創作と思われる（木下聡、『斎藤氏四代』、2020。）
 	dynasty=10000267 # Nagai
 	father=10025451 # Saito Dosan
+	# TODO: mother= 小見の方は江戸時代の書物による、史料はなく不明（木下聡、『斎藤氏四代』、2020。）
 	religion="shinto"
 	culture="western_chubu"
 	diplomacy=8
@@ -1829,7 +1851,7 @@
 	}
 }
 10025464={
-	name=character_name_10025464 # Toshiharu
+	name=character_name_10025464 # Toshiharu,利治、「長龍」は後世の創作（木下聡、『斎藤氏四代』、2020。）
 	dynasty=10000900 # Saito
 	father=10025451 # Saito Dosan
 	religion="shinto"
@@ -1839,9 +1861,15 @@
 	martial=9
 	stewardship=9
 	prowess=19
-	1541.1.1={
+	1541.1.1={ # TODO: 加治田龍福寺位牌や阿弥陀寺帰白院過去帳によれば天文21(1552)年生まれ（木下聡、『斎藤氏四代』、2020。）
 		birth=yes
 	}
+	# 道三死後は織田信長に属するか（木下聡、『斎藤氏四代』、2020。）
+	#1557.01.01={
+	# give_nickname="新五" #　「新五郎」ではなく「新五」と署名呼称される
+	#}
+	# 永禄8(1565)年十一月一日、織田信長から新領二千八十四貫（加治田領、富加町・関市周辺）を給付、佐藤紀伊守の支配領域を継承したのは確実（木下聡、『斎藤氏四代』、2020。）
+	# 天正2(1574)年の伊勢長島攻め以後、織田信忠配下（木下聡、『斎藤氏四代』、2020。）
 	1567.01.01 = {
 		effect = {
 			add_opinion = {
@@ -1851,8 +1879,11 @@
 		}
 	}
 	1582.6.21={
-		death=yes
+		death={
+			death_reason=death_suicide # 織田信忠とともに二条城で自害
+		}
 	}
+	# 利堯より利治が年上か、母親の身分が高かったか（木下聡、『斎藤氏四代』、2020。）
 }
 10025465={
 	name=character_name_10025465 # Yoshioki
@@ -1868,7 +1899,7 @@
 	}
 }
 10025502 = {
-	name=character_name_10025502 # Takamasa
+	name=character_name_10025502 # Takamasa,高政
 	dynasty=10000267 # Nagai
 	father=10025451
 	mother=10025703
@@ -1885,7 +1916,7 @@
 	religion="shinto"
 	culture="western_chubu"
 	prowess=14
-	1527.7.8={
+	1527.7.8={ # 享禄2(1529)年（木下聡、『斎藤氏四代』、2020。）
 		birth=yes
 	}
 	1538.1.1={
@@ -1906,14 +1937,14 @@
 	1558.1.1={
 		give_nickname="nick_the_jibu_daihu"
 		effect = {
-			change_first_name = character_name_10025502_1 # Yoshitatsu
+			change_first_name = character_name_10025502_1 # Yoshitatsu,義龍
 			add_trait = "jugoi_ge"
 		}
 	}
 	1561.1.1={
 		give_nickname="nick_the_sakyo_dayu"
 	}
-	1561.6.23={
+	1561.6.23={ # 永禄4(1561)年（木下聡、『斎藤氏四代』、2020。）
 		death=yes
 	}
 }
@@ -1949,7 +1980,7 @@
 	}
 }
 10025503 = {
-	name=character_name_10025503 # Toshiyasu
+	name=character_name_10025503 # Toshiyasu,利安
 	dynasty=10000267 # Nagai
 	father=10025609
 	religion="shinto"
@@ -1986,9 +2017,9 @@
 	}
 }
 10025505 = {
-	name=character_name_10025505 # Nagahiro
+	name=character_name_10025505 # Nagahiro,長弘
 	dynasty=10000267 # Nagai
-	father=10025504
+	father=10025504 # TODO: 長井利隆ではなく長井越中守（木下聡、『斎藤氏四代』、2020。）
 	religion="shinto"
 	culture="western_chubu"
 	diplomacy=8
@@ -2002,7 +2033,7 @@
 	1480.1.1={
 		birth=yes
 	}
-	1533.2.2={
+	1533.2.2={ # 天文2(1533)年（木下聡、『斎藤氏四代』、2020。）
 		death=yes
 	}
 }
@@ -2190,7 +2221,7 @@
 	}
 }
 10025601 = {
-	name=character_name_10025601 # Toshinaga
+	name=character_name_10025601 # Toshinaga,利良
 	dynasty=10000268 # Saito
 	father=10025602
 	martial=7
@@ -2206,8 +2237,11 @@
 	1490.1.1={
 		birth=yes
 	}
+	# 土岐頼武の美濃守護代
 	1538.9.1={
-		death=yes
+		death={
+			death_murder=death_battle # （木下聡、『斎藤氏四代』、2020。）
+		}
 	}
 }
 10025602 = {
@@ -2260,7 +2294,7 @@
 	}
 }
 10025604 = {
-	name=character_name_10025604 # Matashiro
+	name=character_name_10025604 # Matashiro,又四郎
 	dynasty=10000268 # Saito
 	father=10025603
 	religion="shinto"
@@ -2286,7 +2320,7 @@
 	}
 }
 10025606 = {
-	name=character_name_10025606 # Myochin
+	name=character_name_10025606 # Myochin,妙椿
 	dynasty=10000268 # Saito
 	father=10025607
 	religion="shinto"
@@ -2311,7 +2345,7 @@
 	}
 }
 10025607 = {
-	name=character_name_10025607 # Toshiaki # Soen
+	name=character_name_10025607 # Toshiaki,利明 # Soen,宗円
 	dynasty=10000268 # Saito
 	father=10131561
 	religion="shinto"
@@ -2319,12 +2353,15 @@
 	1389.1.1={
 		birth=yes
 	}
-	1450.10.6={
-		death=yes
+	# 文安元(1444)年閏六月以降、土岐持益の美濃守護代（木下聡、『斎藤氏四代』、2020。）
+	1450.10.6={ # 宝徳2(1450)年九月一日
+		death={
+			death_reason=death_murder # 京都の路上で暗殺（木下聡、『斎藤氏四代』、2020。）
+		}
 	}
 }
 10025608 = {
-	name=character_name_10025608 # Toshinaga
+	name=character_name_10025608 # Toshinaga, 利永
 	dynasty=10000268 # Saito
 	father=10025607
 	religion="shinto"
@@ -2344,12 +2381,13 @@
 	1410.1.1={
 		birth=yes
 	}
+	# 美濃守護代
 	1460.6.16={
-		death=yes
+		death=yes # 長禄4(1460)年五月、美濃で死亡（木下聡、『斎藤氏四代』、2020。）
 	}
 }
 10025609 = {
-	name=character_name_10025609 # Toshifuji
+	name=character_name_10025609 # Toshifuji,利藤
 	dynasty=10000268 # Saito
 	father=10025608
 	religion="shinto"
@@ -2364,6 +2402,9 @@
 	1430.1.1={
 		birth=yes
 	}
+	#1460.6.16={
+	# 美濃守護代
+	#}
 	1498.2.3={
 		death=yes
 	}
@@ -2382,42 +2423,55 @@
 	}
 }
 10025611 = {
-	name=character_name_10025611 # Toshishige
+	name=character_name_10025611 # Toshishige,利茂
 	dynasty=10000268 # Saito
-	father=10025610
+	father=10025610 # 斎藤利為（木下聡、『斎藤氏四代』、2020。）
 	religion="shinto"
 	culture="western_chubu"
 	1490.1.1={
 		birth=yes
 	}
-	1543.1.1={
-		death=yes
+	# 斎藤又四郎の次の守護代（木下聡、『斎藤氏四代』、2020。）
+	1510.01.01={
+		give_nickname="nick_tatewaki" # 「帯刀左衛門尉」（木下聡、『斎藤氏四代』、2020。）
+	}
+	# 永正18(1521)年から活動が記録（木下聡、『斎藤氏四代』、2020。）
+	#　天文17(1548)年七月（『天文日記』）が史料上の終見（木下聡、『斎藤氏四代』、2020。）
+	1548.8.1={
+		death={
+			death_reason=death_murder
+			killer=10025451 # 斎藤「道三に討たれた可能性が高い」（木下聡、『斎藤氏四代』、2020。）
+		}
 	}
 }
 10025612={
-	name=character_name_10025612 # Toshiyasu
+	name=character_name_10025612 # Toshiyasu,利安
 	dynasty=10000268 # Saito
 	father=10025608 # Saito Toshinaga
+	# 斎藤妙純の弟（木下聡、『斎藤氏四代』、2020。）
 	religion="shinto"
 	culture="western_chubu"
 	1440.1.1={
 		birth=yes
 	}
-	1508.1.1={
+	1508.1.1={ # 永正5(1508)年（木下聡、『斎藤氏四代』、2020。）
 		death=yes
 	}
 }
 10025613={
-	name=character_name_10025613 # Toshimasa
+	name=character_name_10025613 # Toshimasa,利匡、入道吸江（木下聡、『斎藤氏四代』、2020。）
 	dynasty=10000268 # Saito
-	father=10025612 # Saito Toshiyasu
+	father=10025612 # Saito Toshiyasu,斎藤利安
 	religion="shinto"
 	culture="western_chubu"
-	1470.1.1={
+	1473.1.1={
 		birth=yes
 	}
-	1530.1.1={
-		death=yes
+	1490.01.01={
+		give_nickname="nick_Shirozaemon" # 「四郎左衛門尉」（木下聡、『斎藤氏四代』、2020。）
+	}
+	1530.1.1={ # 享禄3(1530)年正月
+		death=yes # 美濃国で死亡、五十八歳（『仁岫録』）
 	}
 }
 10025614={
