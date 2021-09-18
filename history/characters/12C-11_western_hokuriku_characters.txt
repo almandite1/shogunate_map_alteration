@@ -1117,7 +1117,7 @@
 	}
 }
 12320001={
-	name=character_name_12320001 # Yukinori
+	name=character_name_12320001 # Yukinori,将教
 	dynasty=10000358 # Kai
 	father=12320000 # Kai Norimitsu
 	religion="shinto"
@@ -1127,7 +1127,11 @@
 	1360.1.1={
 		birth=yes
 	}
-	1420.1.1={
+	1385.01.01={
+		give_nickname="nick_mino_no_kami" # 「美濃守」（松原信之『朝倉氏と戦国村一乗谷』）
+	}
+	# 応永3(1396)年以後、出家、法名沙弥「祐徳」
+	1420.09.23={ # 応永27(1420)年八月十六日
 		death=yes
 	}
 }
@@ -1146,8 +1150,8 @@
 	}
 }
 12320005={
-	name=character_name_12320005 # Yukihisa
-	dynasty=10000358 # Kai
+	name=character_name_12320005 # Yukihisa,将久
+	dynasty=10000358 # Kai,甲斐
 	father=12320001 # Kai Yukinori
 	religion="shinto"
 	culture="western_hokuriku"
@@ -1164,9 +1168,17 @@
 	1390.1.1={
 		birth=yes
 	}
+	1406.01.01={
+		give_nickname="nick_hachiro" # 「八郎」（松原信之『朝倉氏と戦国村一乗谷』）
+	}
+	1396.01.01={
+		give_nickname="nick_mino_no_kami" # 「美濃守」（松原信之『朝倉氏と戦国村一乗谷』）
+	}
+	# 永享年間（1429.9. 5～1441.2.17）、出家、法名沙弥「常治」、美濃入道
 	1459.9.8={
 		death=yes
 	}
+	# TODO: 甲斐常治の妹が幕府政所執事・伊勢貞親の妾（松原信之『朝倉氏と戦国村一乗谷』）
 }
 12320006={
 	name=character_name_12320006 # Norihira
@@ -1177,12 +1189,15 @@
 	1392.1.1={
 		birth=yes
 	}
+	1429.01.01={
+		give_nickname="nick_the_omi_no_kami" # 「近江守」（松原信之『朝倉氏と戦国村一乗谷』）
+	}
 	1440.1.1={
 		death=yes
 	}
 }
 12320010={
-	name=character_name_12320010 # Toshimitsu
+	name=character_name_12320010 # Toshimitsu,敏光
 	dynasty=10000358 # Kai
 	father=12320005 # Kai Yukihisa
 	religion="shinto"
@@ -1197,12 +1212,15 @@
 	1420.1.1={
 		birth=yes
 	}
+	#1436.01.01={
+	#	give_nickname="" # TODO: 「八郎三郎」（松原信之『朝倉氏と戦国村一乗谷』）
+	#}
 	1490.1.1={
 		death=yes
 	}
 }
 12320015={
-	name=character_name_12320015 # Nobuhisa
+	name=character_name_12320015 # Nobuhisa,信久、幼名「千菊丸」
 	dynasty=10000358 # Kai
 	father=12320010 # Kai Toshimitsu
 	religion="shinto"
@@ -1210,9 +1228,14 @@
 	1450.1.1={
 		birth=yes
 	}
-	1472.1.1={
-		death=yes
+	# 寛正6(1465)年十二月、元服
+	1472.09.09={ #　文明4(1472)年八月七日、朝倉孝景の越前府中攻略時に戦死か（松原信之『朝倉氏と戦国村一乗谷』）
+		death={
+			death_reason=death_battle
+			killer=10030007 # 朝倉孝景
+		}
 	}
+	# TODO: character 甲斐八郎次郎
 }
 12320020={
 	name=character_name_12320020 # Hisahira

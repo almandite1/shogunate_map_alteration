@@ -9,10 +9,10 @@
 	religion = shinto
 	holding = castle_holding # 稲津
 	1471.01.01 = {
-		holding = castle_holding # Ichijodani
+		holding = castle_holding # Ichijodani,一乗谷
 	}
 	1573.09.16 = {
-		holding = none
+		holding = castle_holding # Togōmakiyama,東郷槇山城
 	}
 }
 1417 = { # Asuha_3
@@ -34,6 +34,9 @@
 	culture = western_hokuriku
 	religion = shinto
 	holding = none
+	1394.01.01={
+		holding=castle_holding # Ago,安居城
+	}
 }
 1421 = { # Asuha_7
 	culture = western_hokuriku
@@ -62,6 +65,9 @@
 	culture = western_hokuriku
 	religion = shinto
 	holding = none
+	1244.01.01={
+		holding=church_holding # Eiheiji,永平寺
+	}
 }
 1426 = { # Yoshida_5
 	culture = western_hokuriku
@@ -188,6 +194,9 @@
 	culture = western_hokuriku
 	religion = shinto
 	holding = none
+	1394.01.01={
+		holding=castle_holding # 溝江郷 → Kanazu,金津城
+	}
 }
 1450 = { # Echizen_Sakai_3
 	culture = western_hokuriku
@@ -223,6 +232,9 @@
 	culture = western_hokuriku
 	religion = shinto
 	holding = none
+	1576.01.01={
+		holding=castle_holding # Maruoka,丸岡城
+	}
 }
 1457 = { # Echizen_Sakai_10
 	culture = western_hokuriku
@@ -430,7 +442,7 @@
 1497 = { # Nomi_6
 	culture = western_hokuriku
 	religion = shinto
-	holding = castle_holding # Ataka no Seki, 安宅関
+	holding = castle_holding # Ataka no Seki, 安宅関 → Komatsu,小松城
 }
 1498 = { # Nomi_7
 	culture = western_hokuriku

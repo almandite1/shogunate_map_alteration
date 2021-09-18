@@ -187,6 +187,9 @@
 	culture = western_chubu
 	religion = shinto
 	holding = none
+	1580.01.01={
+		holding=castle_holding # Kumozu,雲出
+	}
 }
 226 = { # Ichishi_2
 	culture = western_chubu
@@ -210,6 +213,9 @@
 	culture = western_chubu
 	religion = shinto
 	holding = none
+	1580.01.01={
+		holding=castle_holding # Iu,井生
+	}
 }
 230 = { # Ichishi_6
 	culture = western_chubu
@@ -484,6 +490,9 @@
 	culture = western_chubu
 	religion = shinto
 	holding = none
+	1537.01.01={
+		holding=castle_holding # Inuyama,犬山城（Issue #278）
+	}
 }
 277 = { # Haguri_1
 	culture = western_chubu
@@ -651,7 +660,7 @@
 815 = { # Fuwa_1
 	culture = western_chubu
 	religion = shinto
-	holding = castle_holding
+	holding = castle_holding # 美濃国府→菩提山城
 }
 816 = { # Fuwa_2
 	culture = western_chubu
@@ -733,6 +742,9 @@
 	culture = western_chubu
 	religion = shinto
 	holding = none
+	1589.01.01={
+		holding=castle_holding # Fukuzuka,福束城
+	}
 }
 831 = { # Ikeda_1
 	culture = western_chubu
@@ -874,6 +886,9 @@
 	culture = western_chubu
 	religion = shinto
 	holding = none
+	1550.01.01={
+		holding=castle_holding # Nataosan,鉈尾山城
+	}
 }
 858 = { # Muge_7
 	culture = western_chubu
@@ -940,11 +955,17 @@
 	culture = western_chubu
 	religion = shinto
 	holding = none
+	1532.01.01={
+		holding=castle_holding # Naegi,苗木城
+	}
 }
 870 = { # Ena_3
 	culture = western_chubu
 	religion = shinto
 	holding = none
+	1394.01.01={
+		holding=castle_holding # Iwamura,岩村城
+	}
 }
 871 = { # Ena_4
 	culture = western_chubu

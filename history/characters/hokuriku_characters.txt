@@ -1,8 +1,8 @@
 ﻿10030000 = {
-	name=character_name_10030000 # Takakage
+	name=character_name_10030000 # Takakage,孝景
 	dynasty=10000350 # Asakura
-	father=10030010
-	mother=10025618
+	father=10030010 # 朝倉貞景
+	mother=10025618 # 斎藤利国の娘
 	martial=8
 	diplomacy=13
 	intrigue=13
@@ -16,23 +16,51 @@
 	trait="diligent"
 	trait="compassionate"
 	prowess=12
-	1493.12.30={
+	1493.12.30={ #　明応2(1493)年十一月二十二日（松原信之『朝倉氏と戦国村一乗谷』）
 		birth=yes
 	}
 	1507.12.30={
-		give_nickname="nick_Magojio"
+		give_nickname="nick_Magojio" #　「孫次郎」（松原信之『朝倉氏と戦国村一乗谷』）
 	}
+	# 永正5(1508)年九月、飛鳥井雅康に蹴鞠を習う
 	1512.4.11={
 		effect = {
 			set_realm_capital=title:c_shgnt_asuha
 		}
+		give_nickname="nick_the_saemon_no_jo" # 「弾正左衛門尉」（松原信之『朝倉氏と戦国村一乗谷』）
 	}
-	1548.4.30={
-		death=yes
+	# TODO: 武田大膳大夫元信娘（『若州武田系図』）と婚姻
+	# 永正13(1516)年、白傘袋毛氈鞍覆
+	# 大永8(1528)年五月、御供衆
+	1534.09.01={
+		effect={
+			add_gold=30 # 天文3(1534)年九月、足利義晴の入洛のお祝いとして青銅3000疋ほか献上
+		}
+	}
+	# 天文4(1535)年四月、塗輿御免
+	1535.04.01={
+		effect={
+			add_gold=100 # 塗輿御免のお礼として銭貨1万疋ほか献上
+		}
+	}
+	# 天文4(1535)年二月、富小路資直から歌道の指導を受ける
+	1535.11.01={
+		effect={
+			add_gold=100# 天文4(1535)年十一月、後奈良天皇践祚に1万疋献上
+		}
+	}
+	# 天文7(1538)年四月、御相伴衆
+	1538.04.01={
+		effect={
+			add_gold=1000 # 御相伴のお礼として青銅10万疋ほか献上
+		}
+	}
+	1548.4.30={ # 天文17(1548)年三月二十二日
+		death=yes #　急死
 	}
 }
 10030001 = {
-	name=character_name_10030001 # Hirokage
+	name=character_name_10030001 # Hirokage,広景
 	dynasty=10000350 # Asakura
 	father=10240074
 	martial=8
@@ -41,42 +69,69 @@
 	stewardship=6
 	learning=8
 	religion="shinto"
-	culture="western_hokuriku"
+	culture="sanin"
 	trait="education_stewardship_3"
 	trait="strong"
 	prowess=12
 	1255.1.1={
 		birth=yes
 	}
-	1352.3.15={
+	1271.01.01={
+		give_nickname="nick_Magojio" # 「孫次郎」（松原信之『朝倉氏と戦国村一乗谷』）
+		# 「孫左衛門尉」、異本「孫右衛門尉」（『続群書類従』「朝倉系図」）
+	}
+	1336.01.01={
+		culture="western_hokuriku" # 延元元(1336)年、但馬から越前に移住（松原信之『朝倉氏と戦国村一乗谷』）
+	}
+	1347.01.01={
+		give_nickname="nick_the_mimasaka_no_kami" # 「美作守」（松原信之『朝倉氏と戦国村一乗谷』）
+	}
+	1352.3.15={ # 文和元(1352)年二月二十九日九十八歳（松原信之『朝倉氏と戦国村一乗谷』）
 		death=yes
 	}
 }
 10030002 = {
-	name=character_name_10030002 # Takakage
+	name=character_name_10030002 # Takakage,高景（正景）
 	dynasty=10000350 # Asakura
-	father=10030001
+	father=10030001 # 朝倉広景
 	martial=6
 	diplomacy=8
 	intrigue=9
 	stewardship=7
 	learning=7
 	religion="shinto"
-	culture="western_hokuriku"
+	culture="sanin"
 	trait="education_martial_3"
 	trait="brave"
 	prowess=16
 	1314.1.1={
 		birth=yes
 	}
-	1372.6.3={
+	1330.01.01={
+		give_nickname="nick_Magojio" # 「孫次郎」「彦三郎」（松原信之『朝倉氏と戦国村一乗谷』）
+	}
+	1336.01.01={
+		culture="western_hokuriku" # 延元元(1336)年、但馬から越前に移住（松原信之『朝倉氏と戦国村一乗谷』）
+		give_nickname="nick_Magoemon" # 「孫右衛門」（松原信之『朝倉氏と戦国村一乗谷』）
+	}
+	# 康永元(1342)年、安居に弘祥寺創建（『東海一漚別集』）
+	1350.01.01={
+		give_nickname="nick_the_totoumi_no_kami" # 「遠江守」または「弾正左衛門」（松原信之『朝倉氏と戦国村一乗谷』）
+		#give_nickname="nick_the_shimotsukeno_no_kami" # 『太平記』に見える「朝倉下野守」は高景のことと思われる（松原信之『朝倉氏と戦国村一乗谷』）
+	}
+	# 文和4(1355)年三月十三日、京都東寺の足利直冬軍を破る軍功により足利尊氏から高景氏景父子に「高氏」の名を賜る
+	# 延文2(1357)年十二月二日、足羽北庄預所識（『朝倉家記』所収文書）
+	# 延文5(1360)年、越前河口庄で濫妨（『大日本史料』）
+	# 貞治元(1362)年、河口庄大口郷公文職を押領
+	# 貞治5(1366)年十一月六日、斯波高経誅伐に軍功、「朝倉遠江守法師」に越前国内七か所の地頭職を与えられる（松原信之『朝倉氏と戦国村一乗谷』）
+	1372.6.3={ # 応安5(1372)年五月二十日五十九歳（『東海一漚別集』）
 		death=yes
 	}
 }
 10030003 = {
-	name=character_name_10030003 # Ujikage
+	name=character_name_10030003 # Ujikage,氏景
 	dynasty=10000350 # Asakura
-	father=10030002
+	father=10030002 # 朝倉高景（正景）
 	martial=8
 	diplomacy=7
 	intrigue=7
@@ -89,14 +144,25 @@
 	1339.1.1={
 		birth=yes
 	}
-	1405.1.28={
+	1355.01.01={
+		give_nickname="nick_Magojio" # 「孫次郎」（松原信之『朝倉氏と戦国村一乗谷』）
+	}
+	1360.01.01={
+		give_nickname="nick_Magoemon" # 「孫右衛門尉」（松原信之『朝倉氏と戦国村一乗谷』）
+	}
+	1372.6.3={
+		give_nickname="nick_the_mimasaka_no_kami" # 「美作守」（松原信之『朝倉氏と戦国村一乗谷』）
+	}
+	# 日野河原の白鬼女合戦で敵将・牧野修理亮の鑓を歯で受け止めて首を落とす活躍（称念寺本『朝倉系図』）
+	# 応永の乱時に摂津中之島で勲功、足利義満から「大功」の号を賜る
+	1405.1.28={ # 応永11(1404)年十二月二十八日六十六歳（松原信之『朝倉氏と戦国村一乗谷』）
 		death=yes
 	}
 }
 10030004 = {
-	name=character_name_10030004 # Sadakage
+	name=character_name_10030004 # Sadakage,貞景
 	dynasty=10000350 # Asakura
-	father=10030003
+	father=10030003 # 朝倉氏景
 	martial=8
 	diplomacy=5
 	intrigue=6
@@ -109,14 +175,24 @@
 	1358.1.1={
 		birth=yes
 	}
-	1436.6.30={
+	1374.01.01={
+		give_nickname="nick_Matataro" # 「又太郎」（松原信之『朝倉氏と戦国村一乗谷』）
+	}
+	1380.01.01={
+		give_nickname="nick_Magoemon" # 「孫右衛門尉」（松原信之『朝倉氏と戦国村一乗谷』）
+	}
+	1405.1.28={
+		give_nickname="nick_the_shimotsukeno_no_kami" # 「下野守」（松原信之『朝倉氏と戦国村一乗谷』）
+	}
+	1436.6.30={ # 永享8(1436)年五月十六日（松原信之『朝倉氏と戦国村一乗谷』）
 		death=yes
 	}
+	# 四代貞景の治世についてはあまり伝わらない（松原信之『朝倉氏と戦国村一乗谷』）
 }
 10030005 = {
-	name=character_name_10030005 # Norikage
+	name=character_name_10030005 # Norikage,教景
 	dynasty=10000350 # Asakura
-	father=10030004
+	father=10030004 # 朝倉貞景
 	martial=12
 	diplomacy=7
 	intrigue=8
@@ -130,14 +206,26 @@
 	1380.1.1={
 		birth=yes
 	}
-	1463.9.2={
+	1396.01.01={
+		give_nickname="nick_Kotaro" # 「小太郎」（松原信之『朝倉氏と戦国村一乗谷』）
+	}
+	1400.01.01={
+		give_nickname="nick_Magoemon" # 「孫右衛門」（松原信之『朝倉氏と戦国村一乗谷』）
+	}
+	1436.6.30={
+		give_nickname="nick_the_mimasaka_no_kami" # 「美作守」（松原信之『朝倉氏と戦国村一乗谷』）
+	}
+	# 永享9(1437)年正月十八日、大和の越智維通討伐に出陣
+	# 長禄1(1457)年十一月三日時点、「朝倉美作」（心月寺文書）
+	1463.9.2={ # 寛正4(1463)年七月十九日八十四歳（松原信之『朝倉氏と戦国村一乗谷』）
 		death=yes
 	}
+	# 教景についての明確な資料も文書も残っていない（松原信之『朝倉氏と戦国村一乗谷』）
 }
 10030006 = {
-	name=character_name_10030006 # Iekage
+	name=character_name_10030006 # Iekage,家景、初名「教景」→「家景」→TODO: 「為景」
 	dynasty=10000350 # Asakura
-	father=10030005
+	father=10030005 # 朝倉教景
 	martial=6
 	diplomacy=8
 	intrigue=7
@@ -150,8 +238,15 @@
 	1402.1.1={
 		birth=yes
 	}
+	1418.01.01={
+		give_nickname="nick_Magojio" # 「孫次郎」（松原信之『朝倉氏と戦国村一乗谷』）
+	}
 	1420.1.1={
 		add_spouse=10030065
+		give_nickname="nick_Magoemon" # 「孫右衛門尉」（松原信之『朝倉氏と戦国村一乗谷』）
+	}
+	1432.01.01={
+		give_nickname="nick_the_shimotsukeno_no_kami" # 「下野守」（松原信之『朝倉氏と戦国村一乗谷』）
 	}
 	1440.1.1={
 		add_concubine=10030067
@@ -159,12 +254,12 @@
 	1441.1.1={
 		add_concubine=10030070
 	}
-	1451.1.22={
+	1451.1.22={ # 宝徳2(1450)年十二月二十日四十九歳
 		death=yes
 	}
 }
 10030007 = {
-	name=character_name_10030007 # Takakage
+	name=character_name_10030007 # Takakage,孝景、幼名「小太郎」（松原信之『朝倉氏と戦国村一乗谷』）、教景→敏景、教景
 	dynasty=10000350 # Asakura
 	father=10030006
 	mother=10030065
@@ -184,7 +279,7 @@
 	trait="ambitious"
 	trait="reckless"
 	prowess=15
-	1428.6.2={
+	1428.6.2={ # 正長元(1428)年四月十九日（松原信之『朝倉氏と戦国村一乗谷』）
 		birth=yes
 	}
 	1444.6.2={
@@ -198,18 +293,40 @@
 	}
 	1460.1.1={
 		add_concubine=10030086
+		# TODO: give_nickname="" # 長禄合戦後、「弾正左衛門」「弾正左衛門尉」（松原信之『朝倉氏と戦国村一乗谷』）
 	}
 	1461.1.1={
 		add_concubine=10030089
 	}
-	1481.8.21={
-		death=yes
+	# 寛正5(1464)年六月二十四日、興福寺大乗院が教景の名字を呪詛する、このあと「孝景」と改名
+	# 応仁2(1468)年九月、東軍から勧誘工作がはじまる
+	# 応仁2(1468)年十月二十五日、兄弟3人と京都から越前に下国
+	# 文明3(1471)年二月二十九日頃、東軍に寝返り
+	# 文明3(1471)年五月二十一日、細川勝元が朝倉孝景に越前国守護職補任の御内書
+	#　文明4(1472)年八月七日、越前府中を落として、甲斐方を越前から追い落とす
+	# 文明7(1475)年、斯波義敏の居る大野郡の攻略がはじまる
+	# 文明12(1480)年四月七日時点、大野郡代は朝倉孝景弟・慈視院光玖
+	# 文明11(1479)年九月四日、斯波義良が越前侵攻のため京都から発向する
+	# 文明11(1479)年十一月一日、斯波義良・義孝が豊原へ入部
+	# 文明11(1479)年十一月五・六日、二宮氏が大野郡平泉寺に侵入
+	# 文明12(1480)年七月六日、本江合戦
+	# 文明12(1480)年七月十一日、朝倉孝景方長崎城が陥落
+	# 文明12(1480)年七月十二日、朝倉氏景の金津城・兵庫城・新庄城が陥落
+	# 文明12(1480)年七月十七日、清水山合戦
+	# 文明12(1480)年八月二十八日、芝原合戦
+	1481.03.01={
+		trait="cancer" #　文明13(1481)年三月、腫物で煩っていることが京都に伝わる
+	}
+	1481.8.21={ # 文明13(1481)年七月二十六日
+		death={
+			death_reason=death_cancer # 腫物（腫瘍）で死亡
+		}
 	}
 }
 10030008 = {
-	name=character_name_10030008 # Ujikage
+	name=character_name_10030008 # Ujikage,氏景、孫次郎
 	dynasty=10000350 # Asakura
-	father=10030007
+	father=10030007 # 朝倉孝景（英林）
 	mother=10030073
 	martial=10
 	diplomacy=6
@@ -224,14 +341,14 @@
 		birth=yes
 	}
 	1465.4.27={
-		give_nickname="nick_Magoemon"
+		give_nickname="nick_Magoemon" #　「孫右衛門尉」（松原信之『朝倉氏と戦国村一乗谷』）
 	}
-	1486.8.3={
+	1486.8.3={ # 文明18(1486)年七月四日二十八歳（『朝倉始末記』）、三十八歳（『大乗院寺社雑事記』『蔗軒日録』）で三十八歳が正しい（松原信之『朝倉氏と戦国村一乗谷』）
 		death=yes
 	}
 }
 10030009 = {
-	name=character_name_10030009 # Norikage
+	name=character_name_10030009 # Norikage,教景
 	dynasty=10000350 # Asakura
 	father=10030007
 	mother=10030089
@@ -252,20 +369,30 @@
 	1477.1.1={
 		birth=yes
 	}
+	1493.01.01={
+		give_nickname="nick_saemon_no_jo" # 「太郎左衛門尉」（一乗谷朝倉氏遺跡資料館、「朝倉氏略系図」。）
+	}
     1510.1.1={
 		remove_claim=d_shgnt_echizen
 	}
+	# 大永7(1527)年十月六日、近江坂本にいる将軍・足利義晴への援軍として出陣
+	# 大永7(1527)年十一月十九日、京都下京泉乗寺・西門口合戦で三好方と戦う
+	# 大永7(1527)年十二月二十七日、足利義晴から感状御内書
+	# 大永8(1528)年正月、撤退
 	1534.1.1={
 		effect = {
-			change_first_name = character_name_10030009_1 # Soteki
+			change_first_name = character_name_10030009_1 # Soteki,宗滴
 		}
+	}
+	1555.09.20={
+		trait=ill # 弘治元(1555)年八月十五日夜、病気で倒れる
 	}
 	1555.9.23={
 		death=yes
 	}
 }
 10030010 = {
-	name=character_name_10030010 # Sadakage
+	name=character_name_10030010 # Sadakage,貞景
 	dynasty=10000350 # Asakura
 	father=10030008
 	martial=10
@@ -278,7 +405,7 @@
 	trait="education_diplomacy_3"
 	trait="diligent"
 	prowess=14
-	1473.3.3={
+	1473.3.3={ # 文明5(1473)年二月五日（松原信之『朝倉氏と戦国村一乗谷』）
 		birth=yes
 	}
 	1485.1.1={
@@ -287,19 +414,31 @@
 	1486.8.3={
 		effect = {
 			set_realm_capital=title:c_shgnt_asuha
+			add_gold=21030 # 長享元(1487)年末、旧主斯波氏との裁判で、千貫文を進呈して幕府直臣となる判決。
+				# 長享2(1488)年二月、東山山荘造園で普請、朝倉修理進景冬が足利義政に三千疋（30貫文）を進上
+				# 延徳3(1491)年の結婚式費用が2万貫
 		}
 	}
 	1489.3.3={
-		give_nickname="nick_Magojio"
+		give_nickname="nick_Magojio" # 童名「孫次郎」（松原信之『朝倉氏と戦国村一乗谷』）
 	}
-	1512.4.11={
-		death=yes
+	# TODO: 延徳3(1491)年四月五日、美濃国守護代一族・斎藤利国の娘(19歳)と婚姻、この女性は永正15(1518)年十月十四日死亡、祥山禎公大姉（松原信之『朝倉氏と戦国村一乗谷』）
+	# 延徳3(1491)年十月十一日、将軍・足利義材から斯波義寛に「朝倉孫次郎貞景」退治の御内書が出される（松原信之『朝倉氏と戦国村一乗谷』）
+	1494.03.03={
+		give_nickname="nick_saemon" # TODO: 「弾正左衛門」（松原信之『朝倉氏と戦国村一乗谷』）
 	}
+	1512.4.11={ # 永正9(1512)年三月二十五日
+		death={
+			death_reason=death_hunting_accident # 鷹狩りの路次で死亡（松原信之『朝倉氏と戦国村一乗谷』）
+		}
+	}
+	# 絵が上手（『宣胤卿記』）
 }
 10030011 = {
-	name=character_name_10030011 # Yoshikage
+	name=character_name_10030011 # Yoshikage,義景、幼名「長夜叉丸」（松原信之『朝倉氏と戦国村一乗谷』）
 	dynasty=10000350 # Asakura
-	father=10030000
+	father=10030000 # 朝倉孝景
+	#mother = # TODO: 武田大膳大夫元信娘（『若州武田系図』）、武田中務大輔元信娘（『朝倉系図』）、武田中務大輔娘（越前心月寺本『朝倉系図略』）
 	martial=12
 	diplomacy=10
 	intrigue=9
@@ -313,7 +452,7 @@
 	trait="arrogant"
 	trait="craven"
 	prowess=16
-	1533.10.12={
+	1533.10.12={ # 天文2(1533)年九月二十四日
 		birth=yes
 	}
 	1548.4.30={
@@ -322,37 +461,43 @@
 		}
 	}
 	1549.10.12 ={
-		give_nickname="nick_Magojio"
+		give_nickname="nick_Magojio" # 「孫次郎延景」（松原信之『朝倉氏と戦国村一乗谷』）
 	}
-	1552.6.16={
-		give_nickname="nick_the_sahyoe_no_kami"
+	1552.07.07={ # 天文21(1552)年六月十六日（『寛永諸家系図伝』
+		give_nickname="nick_the_sahyoe_no_kami" #　「左衛門督」（松原信之『朝倉氏と戦国村一乗谷』）
 		effect = {
 			add_trait = "shogoi_jo"
 		}
+		# 足利義輝の偏諱で「義景」と改名
 	}
+	# 細川晴元娘と婚姻、死別
+	# 阿若丸の母・鞍谷殿娘、愛王丸の母・斎藤兵部少輔娘（『朝倉系図』）
+	# 鞍谷嗣知娘・小宰相局
 	1555.1.1={
 		add_spouse=11000304 # Konoe Himoji
 	}
-	1559.11.9={
+	1559.12.07={ # 永禄2(1559)年十一月九日
 		effect = {
 			remove_trait = "shogoi_jo"
-			add_trait = "jushii_ge"
+			add_trait = "jushii_ge" # 「越前守護朝倉義景を従四位下に叙す」（大日本史料総合データベース）
 		}
 	}
 	1560.1.1={
 		remove_spouse=11000304 # Konoe Himoji
 	}
+	# 永禄4(1561)年四月六日、大窪ノ浜で犬追物
+	# 永禄5(1562)年八月二十一日、曲水の宴
 	1569.1.1={
 		add_spouse=10030028 # Saito Koshosho
 	}
-	1573.9.16={
+	1573.9.16={ # 八月廿日
 		death={
-			death_reason=death_suicide
+			death_reason=death_suicide #　越前国大野郡堅松寺で自害（『寛永諸家系図伝』ほか）
 		}
 	}
 }
 10030012 = {
-	name=character_name_10030012 # Kagetaka
+	name=character_name_10030012 # Kagetaka,景高
 	dynasty=10000350 # Asakura
 	father=10030010
 	martial=9
@@ -367,14 +512,25 @@
 	1495.1.1={
 		birth=yes
 	}
+	1511.01.01={
+		give_nickname="nick_Magohachiro" # 「孫八郎」（松原信之『朝倉氏と戦国村一乗谷』）
+	}
+	# 大永年間頃、大野郡司として大野に在城（松原信之『朝倉氏と戦国村一乗谷』）
+	# 烏丸冬光の娘を妾にする
+	1515.01.01={
+		give_nickname="nick_uemon" # TODO: 「右衛門大夫」（一乗谷朝倉氏遺跡資料館、「朝倉氏略系図」。）
+	}
+	# 兄・孝景と仲が悪い、大野郡が朝倉宗家直轄となる、足利義晴の怒りを買い出仕停止される
+	# 若狭武田氏の元に滞在する
+	# 天文12(1543)年四月、若狭から九州へ没落
 	1545.1.1={
 		death=yes
 	}
 }
 10030013 = {
-	name=character_name_10030013 # Kagetoshi
+	name=character_name_10030013 # Kagetoshi,景紀、TODO: （松原信之『朝倉氏と戦国村一乗谷』）では”かげただ”
 	dynasty=10000350 # Asakura
-	father=10030010
+	father=10030010 #　朝倉貞景
 	martial=8
 	diplomacy=8
 	intrigue=6
@@ -388,11 +544,20 @@
 	1505.1.1={
 		birth=yes
 	}
+	# 大永7(1527)年十月六日、近江坂本にいる将軍・足利義晴への援軍として出陣、父・太郎左衛門尉とともに
 	1529.1.1={
 		effect = {
-			set_father = character:10030009
-			set_real_father = character:10030010
+			set_father = character:10030009 # 朝倉教景
+			set_real_father = character:10030010 #　朝倉貞景
 			add_trait = "child_of_adoption"
+		}
+		give_nickname="nick_saemon_no_jo" # 「九郎左衛門尉」（一乗谷朝倉氏遺跡資料館、「朝倉氏略系図」。）または「孫九郎」（松原信之『朝倉氏と戦国村一乗谷』）
+	}
+	# 永禄5(1562)年八月二十一日、曲水の宴に参加、時点でも「九郎左衛門尉景紀」
+	# 永禄10(1567)年頃、敦賀郡司を継承（松原信之『朝倉氏と戦国村一乗谷』）
+	1567.01.01={
+		effect = {
+			set_relation_rival = character:10030022 # 朝倉景鏡と席次を争う
 		}
 	}
 	1572.6.11={
@@ -400,7 +565,7 @@
 	}
 }
 10030014 = {
-	name=character_name_10030014 # Tsunekage
+	name=character_name_10030014 # Tsunekage,経景
 	dynasty=10000350 # Asakura
 	father=10030006
 	mother=10030067
@@ -416,14 +581,18 @@
 	1438.1.1={
 		birth=yes
 	}
-	1491.3.6={
+	1454.01.01={
+		give_nickname="nick_shimotsukeno_no_kami" # 「下野守」（一乗谷朝倉氏遺跡資料館、「朝倉氏略系図」。）
+	}
+	1491.3.6={ # 延徳3(1491)年正月二十六日五十四歳（松原信之『朝倉氏と戦国村一乗谷』）
 		death=yes
 	}
+	# 天文20(1551)年六月七日、孫の朝倉右兵衛尉景隆から「下野入道」と呼ばれる
 }
 10030015 = {
-	name=character_name_10030015 # Kagemoto
+	name=character_name_10030015 # Kagemoto,景職、幼名は「虎松」
 	dynasty=10000350 # Asakura
-	father=10030014
+	father=10030014 # 朝倉経景
 	martial=10
 	diplomacy=5
 	intrigue=8
@@ -438,7 +607,9 @@
 	}
 	1500.1.1={
 		add_spouse = 10030016
+		give_nickname="nick_Yozo" # 「与三右衛門尉」（一乗谷朝倉氏遺跡資料館、「朝倉氏略系図」。）
 	}
+	# 永正3(1506)年の加賀一向一揆の越前侵攻で鳴鹿表の守りとして志比庄の河岸に陣
 	1535.5.14={
 		death=yes
 	}
@@ -465,9 +636,9 @@
 	}
 }
 10030017 = {
-	name=character_name_10030017 # Kagetaka
+	name=character_name_10030017 # Kagetaka,景隆
 	dynasty=10000350 # Asakura
-	father=10030015
+	father=10030015 # 朝倉景職
 	mother=10030016
 	martial=8
 	diplomacy=7
@@ -481,12 +652,16 @@
 	1508.1.1={
 		birth=yes
 	}
+	1524.01.01={
+		give_nickname="nick_uhyoe_no_jo" # 「右兵衛尉」（一乗谷朝倉氏遺跡資料館、「朝倉氏略系図」。）
+	}
+	# 永禄7(1564)年九月一日時点、「右兵衛尉」
 	1570.1.1={
 		death=yes
 	}
 }
 10030018 = {
-	name=character_name_10030018 # Kagefuyu
+	name=character_name_10030018 # Kagefuyu,景冬
 	dynasty=10000350 # Asakura
 	father=10030006
 	mother=10030070
@@ -502,12 +677,21 @@
 	1442.1.1={
 		birth=yes
 	}
-	1495.10.8={
+	1458.01.01={
+		give_nickname="nick_shuri_no_suke" # 「修理亮」（松原信之『朝倉氏と戦国村一乗谷』）
+	}
+	1487.01.01={
+		give_nickname="nick_shuri_no_suke" # 長享元(1487)年十月十九日、朝倉当主・貞景の陣代として鈎の陣・近江坂本に参陣、「朝倉修理亮景冬」（松原信之『朝倉氏と戦国村一乗谷』）別のページには「修理進」とあるのでどちらが正しいのか検証TODO
+	}
+	1488.01.01={
+		give_nickname="nick_totoumi_no_kami" # 「遠江守」（一乗谷朝倉氏遺跡資料館、「朝倉氏略系図」。）
+	}
+	1495.10.8={ # 明応4(1495)年九月二十日、敦賀城主景冬死去（松原信之『朝倉氏と戦国村一乗谷』）
 		death=yes
 	}
 }
 10030019 = {
-	name=character_name_10030019 # Kagetoyo
+	name=character_name_10030019 # Kagetoyo,景豊
 	dynasty=10000350 # Asakura
 	father=10030018
 	martial=5
@@ -523,9 +707,21 @@
 	1472.1.1={
 		birth=yes
 	}
-	1503.4.28={
-		death=yes
+	# 長享元(1487)年末、朝倉氏と旧主斯波氏との裁判で、細川政元の人質となる（松原信之『朝倉氏と戦国村一乗谷』）
+	1488.01.01={
+		give_nickname="nick_Magoshiro" # 「孫四郎」（一乗谷朝倉氏遺跡資料館、「朝倉氏略系図」。）
 	}
+	1490.01.01={
+		add_spouse=10030084 # 朝倉元景（景総）娘と婚姻
+	}
+	# 文亀3(1503)年、朝倉当主に反乱を計画、宗滴の密告で露見
+	1503.4.28={ #　文亀3(1503)年四月三日
+		death={
+			death_reason=death_siege # 敦賀城落城
+			killer=10030010 # 朝倉貞景
+		}
+	}
+	# TODO: 姉妹に朝倉宗滴室、鳥羽右馬助景房室、勝蓮華右京進景継室、堀江石見守景実室（松原信之『朝倉氏と戦国村一乗谷』）
 }
 10030020 = {
 	name=character_name_10030020 # Sadako # Spouse of Toki Yoritake
@@ -550,7 +746,7 @@
 	}
 }
 10030021={
-	name=character_name_10030021 # Kagetake
+	name=character_name_10030021 # Kagetake,景健
 	dynasty=10000350 # Asakura
 	father=10030017 # Asakura Kagetaka
 	religion="shinto"
@@ -558,14 +754,21 @@
 	1536.1.1={
 		birth=yes
 	}
-	1575.9.25={
-		death=yes
+	1552.01.01={
+		give_nickname="nick_Magosaburo" # 「孫三郎」（一乗谷朝倉氏遺跡資料館、「朝倉氏略系図」。）
 	}
+	1573.09.16={
+		dynasty_house="house_shgnt_asakura_ago"
+	}
+	1575.9.25={
+		death=yes # 織田信長に滅ぼされる
+	}
+	# 兄3人が若死に
 }
 10030022={
-	name=character_name_10030022 # Kageakira
+	name=character_name_10030022 # Kageakira,景鏡、土橋信鏡
 	dynasty=10000350 # Asakura
-	father=10030012 # Asakura Kagetaka
+	father=10030012 # Asakura Kagetaka、「孫八郎」というなのりから浅羽本『日下部系図』の景高子説が妥当（松原信之『朝倉氏と戦国村一乗谷』）
 	religion="shinto"
 	culture="western_hokuriku"
 	martial=10
@@ -575,8 +778,26 @@
 	1525.1.1={
 		birth=yes
 	}
-	1574.5.4={
-		death=yes
+	1541.01.01={
+		give_nickname="nick_Magohachiro" # 「孫八郎」（松原信之『朝倉氏と戦国村一乗谷』）
+	}
+	# 永禄7(1564)年九月一日時点、「孫八郎」
+	1566.01.01={ #永禄9(1566)年
+		give_nickname="nick_shikibu_daihu" # 足利義秋から「式部大輔」（一乗谷朝倉氏遺跡資料館、「朝倉氏略系図」。）
+	}
+	1567.01.01={
+		effect = {
+			set_relation_rival = character:10030013 # 朝倉景紀と席次を争う
+		}
+	}
+	# TODO: 織田信長の偏諱で「信鏡」と改名
+	1540.08.01={
+		dynasty_house="house_shgnt_asakura_tsuchihashi"
+	}
+	1574.5.4={ # 天正2(1574)年四月十五日
+		death={
+			death_reason=death_suicide # 自害
+		}
 	}
 }
 10030023={
@@ -593,7 +814,7 @@
 	}
 }
 10030024={
-	name=character_name_10030024 # Arishige
+	name=character_name_10030024 # Arishige,在重
 	dynasty=10000350 # Asakura
 	father=10030012 # Asakura Kagetaka # TODO : The father, ID 10030012, died 732 days before this character was born, which is more than the limit of 300 days.
 	religion="shinto"
@@ -604,9 +825,10 @@
 	1615.12.26={
 		death=yes
 	}
+	# 『駿河記』によると越前から駿河に移住、中村一氏、徳川家康に仕える
 }
 10030025={
-	name=character_name_10030025 # Kagemitsu
+	name=character_name_10030025 # Kagemitsu,景垙
 	dynasty=10000350 # Asakura
 	father=10030013 # Asakura Kagetoshi
 	religion="shinto"
@@ -614,12 +836,18 @@
 	1530.1.1={
 		birth=yes
 	}
-	1564.10.6={
-		death=yes
+	1546.01.01={
+		give_nickname="nick_Magokuro" # 「孫九郎」（松原信之『朝倉氏と戦国村一乗谷』）、（一乗谷朝倉氏遺跡資料館、「朝倉氏略系図」。）では「太郎左衛門尉」
+	}
+	# 永禄初年頃、敦賀郡司を継承したと考えられる（松原信之『朝倉氏と戦国村一乗谷』）
+	1564.10.6={ # 永禄7(1564)年九月二日
+		death={
+			death_reason=death_suicide # 朝倉右兵衛尉景隆と加賀攻略の大将を争い自害
+		}
 	}
 }
 10030026={
-	name=character_name_10030026 # Kagetsune
+	name=character_name_10030026 # Kagetsune,景恒
 	dynasty=10000350 # Asakura
 	father=10030013 # Asakura Kagetoshi
 	religion="shinto"
@@ -627,26 +855,34 @@
 	1533.1.1={
 		birth=yes
 	}
-	1570.10.27={
-		death=yes
+	1564.10.6={ # 景垙の子が2歳幼少のため還俗して敦賀郡司を継承
+		give_nickname="nick_nakatsukasa_daihu" # 「中務大輔」（一乗谷朝倉氏遺跡資料館、「朝倉氏略系図」。）
+	}
+	1570.10.27={ # 元亀3(1572)年五月一日（松原信之『朝倉氏と戦国村一乗谷』）
+		death={
+			death_reason=death_natural_causes
+		}
 	}
 }
 10030027={
-	name=character_name_10030027 # Aiomaru
+	name=character_name_10030027 # Aiomaru,愛王丸
 	dynasty=10000350 # Asakura
-	father=10030011 # 
+	father=10030011 # 朝倉義景
 	mother=10030028 # Saito Koshosho
 	religion="shinto"
 	culture="western_hokuriku"
 	1570.1.1={
 		birth=yes
 	}
-	1573.9.22={
-		death=yes
+	1573.9.22={ #　天正元(1573)年八月二十六日（松原信之『朝倉氏と戦国村一乗谷』）
+		death={
+			death_reason=death_attacked # 朝倉景鏡に捕縛後、京都護送途中で刺殺（松原信之『朝倉氏と戦国村一乗谷』）
+			killer=10030022 # 朝倉景鏡
+		}
 	}
 }
 10030028={
-	name=character_name_10030028 # Koshosho
+	name=character_name_10030028 # Koshosho,小少将
 	female=yes
 	dynasty=10007301 # Saito
 	religion="shinto"
@@ -656,11 +892,14 @@
 		birth=yes
 	}
 	1573.9.22={
-		death=yes
+		death={
+			death_reason=death_attacked # 朝倉景鏡に捕縛後、京都護送途中で刺殺（松原信之『朝倉氏と戦国村一乗谷』）
+			killer=10030022 # 朝倉景鏡
+		}
 	}
 }
 10030029={
-	name=character_name_10030029 # Gukoku
+	name=character_name_10030029 # Gukoku,愚谷
 	dynasty=10000350 # Asakura
 	father=10030001 # Asakura Hirokage
 	religion="shinto"
@@ -668,8 +907,13 @@
 	1320.1.1={
 		birth=yes
 	}
+	1336.01.01={
+		give_nickname="nick_Kotaro" # 「小太郎」（松原信之『朝倉氏と戦国村一乗谷』）
+	}
 	1366.1.1={
-		dynasty=10000359 # Nakano
+		#dynasty=10000359 # Nakano
+		dynasty_house="house_shgnt_asakura_nakano"
+		give_nickname="nick_the_noto_no_kami" # 「能登守」（松原信之『朝倉氏と戦国村一乗谷』）
 	}
 	1380.1.1={
 		death=yes
@@ -684,15 +928,19 @@
 	1345.1.1={
 		birth=yes
 	}
+	1361.01.01={
+		give_nickname="nick_Magosaburo" # 「孫三郎」（松原信之『朝倉氏と戦国村一乗谷』）
+	}
 	1366.1.1={
-		dynasty=10000360 # Matsuo
+		#dynasty=10000360 # Matsuo
+		dynasty_house="house_shgnt_asakura_matsuo" # 本拠地は越前国坂井郡上関にある島田館、朝倉兵部少輔
 	}
 	1405.1.1={
 		death=yes
 	}
 }
 10030031={
-	name=character_name_10030031 # Shigekage # a.k.a. Fumai
+	name=character_name_10030031 # Shigekage,茂景 # a.k.a. Fumai、TODO: （松原信之『朝倉氏と戦国村一乗谷』）では”もちかげ”
 	dynasty=10000350 # Asakura
 	father=10030002 # Asakura Takakage
 	religion="shinto"
@@ -701,7 +949,11 @@
 		birth=yes
 	}
 	1370.1.1={
-		dynasty=10000361 # Abaga
+		#dynasty=10000361 # Abaga,阿波賀、TODO: （松原信之『朝倉氏と戦国村一乗谷』）では”あわが”
+		dynasty_house="house_shgnt_asakura_abaga"
+	}
+	1372.6.3={
+		give_nickname="nick_tajima_no_kami" # 「但馬守」（『朝倉家記』）
 	}
 	1410.1.1={
 		death=yes
@@ -709,7 +961,8 @@
 }
 10030032={
 	name=character_name_10030032 # Musho
-	dynasty=10000361 # Abaga
+#	dynasty=10000361 # Abaga
+	dynasty_house="house_shgnt_asakura_abaga"
 	father=10030031 # Asakura Shigekage
 	religion="shinto"
 	culture="western_hokuriku"
@@ -722,7 +975,8 @@
 }
 10030033={
 	name=character_name_10030033 # Muneyuki
-	dynasty=10000361 # Abaga
+#	dynasty=10000361 # Abaga
+	dynasty_house="house_shgnt_asakura_abaga"
 	father=10030032 # Asakura (Abaga) Fumai
 	religion="shinto"
 	culture="western_hokuriku"
@@ -735,7 +989,8 @@
 }
 10030034={
 	name=character_name_10030034 # Yoshikage
-	dynasty=10000361 # Abaga
+#	dynasty=10000361 # Abaga
+	dynasty_house="house_shgnt_asakura_abaga"
 	father=10030033 # Abaga Muneyuki
 	religion="shinto"
 	culture="western_hokuriku"
@@ -748,7 +1003,8 @@
 }
 10030035={
 	name=character_name_10030035 # Kagetada
-	dynasty=10000361 # Abaga
+#	dynasty=10000361 # Abaga
+	dynasty_house="house_shgnt_asakura_abaga"
 	father=10030034 # Abaga Yoshikage
 	religion="shinto"
 	culture="western_hokuriku"
@@ -761,7 +1017,8 @@
 }
 10030036={
 	name=character_name_10030036 # Soan
-	dynasty=10000361 # Abaga
+#	dynasty=10000361 # Abaga
+	dynasty_house="house_shgnt_asakura_abaga"
 	father=10030035 # Abaga Kagetada
 	religion="shinto"
 	culture="western_hokuriku"
@@ -774,7 +1031,8 @@
 }
 10030037={
 	name=character_name_10030037 # Kagekata
-	dynasty=10000361 # Abaga
+#	dynasty=10000361 # Abaga
+	dynasty_house="house_shgnt_asakura_abaga"
 	father=10030036 # Abaga Soan
 	religion="shinto"
 	culture="western_hokuriku"
@@ -786,7 +1044,7 @@
 	}
 }
 10030038={
-	name=character_name_10030038 # Hisakage # a.k.a. Getsutei
+	name=character_name_10030038 # Hisakage,久景 # a.k.a. Getsutei
 	dynasty=10000350 # Asakura
 	father=10030002 # Asakura Takakage
 	religion="shinto"
@@ -794,15 +1052,19 @@
 	1355.1.1={
 		birth=yes
 	}
+	1372.6.3={
+		give_nickname="nick_the_suruga_no_kami" # 「駿河守」（『朝倉家記』）
+	}
 	1385.1.1={
-		dynasty=10000362 # Mukai
+		#dynasty=10000362 # Mukai,向
+		dynasty_house="house_shgnt_asakura_mukai"
 	}
 	1415.1.1={
 		death=yes
 	}
 }
 10030039={
-	name=character_name_10030039 # Sukekage # a.k.a. Gassan
+	name=character_name_10030039 # Sukekage,弼景 # a.k.a. Gassan、TODO: （松原信之『朝倉氏と戦国村一乗谷』）では”たねかげ”
 	dynasty=10000350 # Asakura
 	father=10030002 # Asakura Takakage
 	religion="shinto"
@@ -811,14 +1073,16 @@
 		birth=yes
 	}
 	1390.1.1={
-		dynasty=10000363 # Sadagasaki
+		#dynasty=10000363 # Sadagasaki
+		dynasty_house="house_shgnt_asakura_sadagasaki"
+		give_nickname="nick_danjo" # 「三反崎弾正忠」（『朝倉家記』）
 	}
 	1420.1.1={
 		death=yes
 	}
 }
 10030040={
-	name=character_name_10030040 # Masakage
+	name=character_name_10030040 # Masakage,正景
 	dynasty=10000350 # Asakura
 	father=10030003 # Asakura Ujikage
 	religion="shinto"
@@ -826,15 +1090,17 @@
 	1365.1.1={
 		birth=yes
 	}
-	1395.1.1={
-		dynasty=10000364 # Togo
+	1405.1.28={
+		#dynasty=10000364 # Togo
+		dynasty_house="house_shgnt_asakura_togo"
+		give_nickname="nick_shimotsukeno_no_kami" #　「東郷下野守」（松原信之『朝倉氏と戦国村一乗谷』）
 	}
 	1425.1.1={
 		death=yes
 	}
 }
 10030041={
-	name=character_name_10030041 # Kageyasu
+	name=character_name_10030041 # Kageyasu,景康
 	dynasty=10000350 # Asakura
 	father=10030003 # Asakura Ujikage
 	religion="shinto"
@@ -842,15 +1108,17 @@
 	1370.1.1={
 		birth=yes
 	}
-	1400.1.1={
-		dynasty=10000365 # Nakajima
+	1405.1.28={
+		#dynasty=10000365 # Nakajima
+		dynasty_house="house_shgnt_asakura_nakajima"
+		give_nickname="nick_suo_no_kami" #　「中嶋周防守」（松原信之『朝倉氏と戦国村一乗谷』）
 	}
 	1430.1.1={
 		death=yes
 	}
 }
 10030042={
-	name=character_name_10030042 # Yorikage
+	name=character_name_10030042 # Yorikage,頼景、初名「京景」（松原信之『朝倉氏と戦国村一乗谷』）
 	dynasty=10000350 # Asakura
 	father=10030004 # Asakura Sadakage
 	religion="shinto"
@@ -858,18 +1126,25 @@
 	1385.1.1={
 		birth=yes
 	}
-	1445.1.1={
+	1415.01.01={
+		dynasty_house="house_shgnt_asakura_kitanosho"
+		give_nickname="nick_totoumi_no_kami" # 「北庄遠江守」（松原信之『朝倉氏と戦国村一乗谷』）
+	}
+	1446.03.28={ # 文安3(1446)年三月一日（永春寺記録）
 		death=yes
 	}
 }
 10030043={
-	name=character_name_10030043 # Kamonnosuke
+	name=character_name_10030043 # Kamonnosuke,掃部助、（一乗谷朝倉氏遺跡資料館、「朝倉氏略系図」。）では「景契」
 	dynasty=10000350 # Asakura
 	father=10030042 # Asakura Yorikage
 	religion="shinto"
 	culture="western_hokuriku"
 	1405.1.1={
 		birth=yes
+	}
+	1415.01.01={
+		dynasty_house="house_shgnt_asakura_kitanosho" # 「北庄」
 	}
 	1459.9.7={
 		death=yes
@@ -950,7 +1225,8 @@
 		birth=yes
 	}
 	1440.1.1={
-		dynasty=10000366 # Kitanosho
+		#dynasty=10000366 # Kitanosho
+		dynasty_house="house_shgnt_asakura_kitanosho"
 	}
 	1470.1.1={
 		death=yes
@@ -958,7 +1234,8 @@
 }
 10030050 = {
 	name=character_name_10030050 # Kageyori
-	dynasty=10000366 # Kitanosho
+	#dynasty=10000366 # Kitanosho
+	dynasty_house="house_shgnt_asakura_kitanosho"
 	father=10030049 # Asakura Kagetane
 	religion="shinto"
 	culture="western_hokuriku"
@@ -971,7 +1248,8 @@
 }
 10030051 = {
 	name=character_name_10030051 # Kagetsugu
-	dynasty=10000366 # Kitanosho
+	#dynasty=10000366 # Kitanosho
+	dynasty_house="house_shgnt_asakura_kitanosho"
 	father=10030050 # Asakura Kageyori
 	religion="shinto"
 	culture="western_hokuriku"
@@ -983,20 +1261,24 @@
 	}
 }
 10030052 = {
-	name=character_name_10030052 # Kagetane
-	dynasty=10000366 # Kitanosho
+	name=character_name_10030052 # Kagetane,景種
+	#dynasty=10000366 # Kitanosho
+	dynasty_house="house_shgnt_asakura_kitanosho"
 	father=10030051 # Asakura Kagetsugu
 	religion="shinto"
 	culture="western_hokuriku"
 	1550.1.1={
 		birth=yes
 	}
+	1566.01.01={
+		give_nickname="nick_Jiroemon" # 「二郎右衛門尉」（一乗谷朝倉氏遺跡資料館、「朝倉氏略系図」。）
+	}
 	1570.1.1={
 		death=yes
 	}
 }
 10030053 = {
-	name=character_name_10030053 # Yukikage
+	name=character_name_10030053 # Yukikage,TODO: 将景、（松原信之『朝倉氏と戦国村一乗谷』）では”まさかげ”
 	dynasty=10000350 # Asakura
 	father=10030005 # Asakura Norikage
 	religion="shinto"
@@ -1004,11 +1286,19 @@
 	1406.1.1={
 		birth=yes
 	}
-	1440.1.1={
-		dynasty=10000367 # Toba
+	1422.01.01={
+		give_nickname="nick_Kotaro" # 「小太郎」（松原信之『朝倉氏と戦国村一乗谷』）
 	}
-	1459.9.7={
-		death=yes
+	1440.1.1={
+		#dynasty=10000367 # Toba
+		dynasty_house="house_shgnt_asakura_toba"
+		give_nickname="nick_bungo_no_kami" # 「豊後守」「弾正左衛門」（松原信之『朝倉氏と戦国村一乗谷』）
+	}
+	1459.9.7={ # 長禄3(1459)年八月十一日、長禄合戦では守護方（反朝倉教景〔孝景〕）で戦死
+		death={
+			death_reason=death_battle
+			killer=10030007 # 朝倉教景〔孝景〕
+		}
 	}
 }
 10030054 = {
@@ -1026,7 +1316,7 @@
 	}
 }
 10030055 = {
-	name=character_name_10030055 # Kagemasa
+	name=character_name_10030055 # Kagemasa,景正
 	dynasty=10000350 # Asakura
 	father=10030053 # Asakura Yukikage
 	religion="shinto"
@@ -1035,46 +1325,62 @@
 		birth=yes
 	}
 	1440.1.1={
-		dynasty=10000367 # Toba
+		#dynasty=10000367 # Toba
+		dynasty_house="house_shgnt_asakura_toba"
+	}
+	1442.01.01={
+		give_nickname="nick_kuro" # 「九郎」（一乗谷朝倉氏遺跡資料館、「朝倉氏略系図」。）
 	}
 	1486.1.1={
 		death=yes
 	}
 }
 10030056 = {
-	name=character_name_10030056 # Kagetada
-	dynasty=10000367 # Toba
+	name=character_name_10030056 # Kagetada,景忠
+	#dynasty=10000367 # Toba
+	dynasty_house="house_shgnt_asakura_toba"
 	father=10030055 # Toba Kagemasa
 	religion="shinto"
 	culture="western_hokuriku"
 	1446.1.1={
 		birth=yes
 	}
+	1462.01.01={
+		give_nickname="nick_dewa_no_kami" # 「出羽守」（一乗谷朝倉氏遺跡資料館、「朝倉氏略系図」。）
+	}
 	1506.1.1={
 		death=yes
 	}
 }
 10030057 = {
-	name=character_name_10030057 # Kagetomi
-	dynasty=10000367 # Toba
+	name=character_name_10030057 # Kagetomi,景富
+	#dynasty=10000367 # Toba
+	dynasty_house="house_shgnt_asakura_toba"
 	father=10030056 # Toba Kagetada
 	religion="shinto"
 	culture="western_hokuriku"
 	1466.1.1={
 		birth=yes
 	}
+	1482.01.01={
+		give_nickname="nick_uma_no_suke" # 「右馬助」（一乗谷朝倉氏遺跡資料館、「朝倉氏略系図」。）
+	}
 	1526.1.1={
 		death=yes
 	}
 }
 10030058 = {
-	name=character_name_10030058 # Kagetada
-	dynasty=10000367 # Toba
+	name=character_name_10030058 # Kagetada,景忠
+	#dynasty=10000367 # Toba
+	dynasty_house="house_shgnt_asakura_toba"
 	father=10030057 # Toba Kagetomi
 	religion="shinto"
 	culture="western_hokuriku"
 	1486.1.1={
 		birth=yes
+	}
+	1502.01.01={
+		give_nickname="nick_Yozo" # 「与三」（一乗谷朝倉氏遺跡資料館、「朝倉氏略系図」。）
 	}
 	1546.1.1={
 		death=yes
@@ -1082,7 +1388,8 @@
 }
 10030059 = {
 	name=character_name_10030059 # Kagetomi
-	dynasty=10000367 # Toba
+	#dynasty=10000367 # Toba
+	dynasty_house="house_shgnt_asakura_toba"
 	father=10030058 # Toba Kagetada
 	religion="shinto"
 	culture="western_hokuriku"
@@ -1095,7 +1402,8 @@
 }
 10030060 = {
 	name=character_name_10030060 # Kagetada
-	dynasty=10000367 # Toba
+	#dynasty=10000367 # Toba
+	dynasty_house="house_shgnt_asakura_toba"
 	father=10030059 # Toba Kagetomi
 	religion="shinto"
 	culture="western_hokuriku"
@@ -1107,7 +1415,7 @@
 	}
 }
 10030061 = {
-	name=character_name_10030061 # Kageyo
+	name=character_name_10030061 # Kageyo,景世
 	dynasty=10000350 # Asakura
 	father=10030053 # Asakura Masakage
 	religion="shinto"
@@ -1116,50 +1424,67 @@
 		birth=yes
 	}
 	1440.1.1={
-		dynasty=10000367 # Toba
+		#dynasty=10000367 # Toba
+		dynasty_house="house_shgnt_asakura_toba"
+	}
+	1446.01.01={
+		give_nickname="nick_omi_no_kami" # 「近江守」（一乗谷朝倉氏遺跡資料館、「朝倉氏略系図」。）
 	}
 	1460.1.1={
-		dynasty=10000368 # Shorenge
+		#dynasty=10000368 # Shorenge
+		dynasty_house="house_shgnt_asakura_shorenge"
 	}
 	1490.1.1={
 		death=yes
 	}
 }
 10030062 = {
-	name=character_name_10030062 # Kagezumi
-	dynasty=10000368 # Shorenge
+	name=character_name_10030062 # Kagezumi,景純
+	#dynasty=10000368 # Shorenge
+	dynasty_house="house_shgnt_asakura_shorenge"
 	father=10030061 # Shorenge Kageyo
 	religion="shinto"
 	culture="western_hokuriku"
 	1460.1.1={
 		birth=yes
 	}
+	#1476.01.01={
+	#	give_nickname="" # TODO: 「右京進」
+	#}
 	1520.1.1={
 		death=yes
 	}
 }
 10030063 = {
-	name=character_name_10030063 # Gikai
-	dynasty=10000368 # Shorenge
+	name=character_name_10030063 # Gikai,義海
+	#dynasty=10000368 # Shorenge
+	dynasty_house="house_shgnt_asakura_shorenge"
 	father=10030062 # Shorenge Kagezumi
 	religion="shinto"
 	culture="western_hokuriku"
 	1480.1.1={
 		birth=yes
 	}
+	1496.01.01={
+		give_nickname="nick_Matataro" # 「又太郎」（一乗谷朝倉氏遺跡資料館、「朝倉氏略系図」。）
+	}
 	1540.1.1={
 		death=yes
 	}
 }
 10030064 = {
-	name=character_name_10030064 # Kageyasu
-	dynasty=10000368 # Shorenge
+	name=character_name_10030064 # Kageyasu,景保
+	#dynasty=10000368 # Shorenge
+	dynasty_house="house_shgnt_asakura_shorenge"
 	father=10030063 # Shorenge Gikai
 	religion="shinto"
 	culture="western_hokuriku"
 	1500.1.1={
 		birth=yes
 	}
+	#1516.01.01={
+	#    give_nickname="" # 「右京進」（一乗谷朝倉氏遺跡資料館、「朝倉氏略系図」。）
+	#}
 	1560.1.1={
 		death=yes
 	}
@@ -1204,7 +1529,7 @@
 	}
 }
 10030068 = {
-	name=character_name_10030068 # Kokyu
+	name=character_name_10030068 # Kokyu,光玖、慈視院玉厳光玖
 	dynasty=10000350 # Asakura
 	father=10030006 # Asakura Iekage
 	mother=10030067
@@ -1213,8 +1538,13 @@
 	1449.1.1={
 		birth=yes
 	}
-	1509.1.1={
-		death=yes
+	1459.01.01={
+		dynasty_house="house_shgnt_asakura_jishiin"
+	}
+	1494.02.10={ # 明応3(1494)年正月五日五十五歳（松原信之『朝倉氏と戦国村一乗谷』）
+		death={
+			death_reason=death_natural_causes
+		}
 	}
 }
 10030069 = {
@@ -1284,7 +1614,8 @@
 		birth=yes
 	}
 	1440.1.1={
-		dynasty=10000367 # Toba
+		#dynasty=10000367 # Toba
+		dynasty_house="house_shgnt_asakura_toba"
 	}
 	1485.1.1={
 		death=yes
@@ -1333,21 +1664,25 @@
 	}
 }
 10030077={
-	name=character_name_10030077 # Kageaki
+	name=character_name_10030077 # Kageaki,景明
 	dynasty=10000350 # Asakura
 	father=10030007
 	mother=10030076
 	religion="shinto"
 	culture="western_hokuriku"
+	trait="child_of_concubine_female"
 	1451.1.1={
 		birth=yes
+	}
+	1467.01.01={
+		give_nickname="nick_Jirozaemon" # 「二郎左衛門」（一乗谷朝倉氏遺跡資料館、「朝倉氏略系図」。）、「孫次郎または次郎左衛門尉」（松原信之『朝倉氏と戦国村一乗谷』）
 	}
 	1511.1.1={
 		death=yes
 	}
 }
 10030078={
-	name=character_name_10030078 # Kagezumi
+	name=character_name_10030078 # Kagezumi,景純
 	dynasty=10000350 # Asakura
 	father=10030077 # Asakura Kageaki
 	religion="shinto"
@@ -1355,12 +1690,15 @@
 	1468.1.1={
 		birth=yes
 	}
+	1484.01.01={
+		give_nickname="nick_Kojio" # 「小次郎」（一乗谷朝倉氏遺跡資料館、「朝倉氏略系図」。）
+	}
 	1528.1.1={
 		death=yes
 	}
 }
 10030079={
-	name=character_name_10030079 # Kageaki # Fictional
+	name=character_name_10030079 # Kageaki # Fictional、TODO: （一乗谷朝倉氏遺跡資料館、「朝倉氏略系図」。）では小次郎景近が小次郎景純の子として釣られる
 	dynasty=10000350 # Asakura
 	father=10030078 # Asakura Kagezumi
 	religion="shinto"
@@ -1373,7 +1711,7 @@
 	}
 }
 10030080={
-	name=character_name_10030080 # Kagezumi
+	name=character_name_10030080 # Kagezumi,景純、TODO: （一乗谷朝倉氏遺跡資料館、「朝倉氏略系図」。）では小次郎景純の子・景近の子・景尚に当たるか
 	dynasty=10000350 # Asakura
 	father=10030079 # Asakura Kageaki
 	religion="shinto"
@@ -1405,32 +1743,51 @@
 	mother=10030076
 	religion="shinto"
 	culture="western_hokuriku"
+	trait="child_of_concubine_female"
 	1454.1.1={
 		birth=yes
 	}
 	1494.1.1={
-		dynasty=10000369 # Minowa
+		#dynasty=10000369 # Minowa
+		dynasty_house="house_shgnt_asakura_minowa"
 	}
 	1514.1.1={
 		death=yes
 	}
 }
 10030083={
-	name=character_name_10030083 # Kagefusa
+	name=character_name_10030083 # Kagefusa,景総
 	dynasty=10000350 # Asakura
 	father=10030007 # Asakura Takakage
-	mother=10030076
+	mother=10030076 # 妾、側室の子（松原信之『朝倉氏と戦国村一乗谷』）
 	religion="shinto"
 	culture="western_hokuriku"
+	trait="child_of_concubine_female"
 	1457.1.1={
 		birth=yes
 	}
-	1505.5.7={
-		death=yes
+	1473.01.01={
+		give_nickname="nick_Magogoro" # 「孫五郎」（一乗谷朝倉氏遺跡資料館、「朝倉氏略系図」。）
+	}
+	1484.8.4={
+		trait="kinslayer_1" # 異母弟を殺害、TODO: kinslayer_2と_3とどちらが合うか検証
+	}
+	1484.10.01={
+		employer=10040544 # 上洛して細川政元に仕える（松原信之『朝倉氏と戦国村一乗谷』）
+	}
+	1485.01.01={
+		give_nickname="nick_danjo" # TODO: 朝倉弾正忠元景と名乗る（松原信之『朝倉氏と戦国村一乗谷』）
+	}
+	# 敦賀城主・朝倉景豊の反乱に協力
+	# 永正元(1504)年八月六日、加賀を拠点に越前に侵攻、敗北
+	1505.5.7={ # 永正2(1505)年四月四日
+		death={
+			death_reason=death_ill # 能登国春木の斎藤館で病死（松原信之『朝倉氏と戦国村一乗谷』）
+		}
 	}
 }
 10030084={
-	name=character_name_10030084 # Fusako
+	name=character_name_10030084 # Fusako、朝倉景豊室
 	female=yes
 	dynasty=10000350 # Asakura
 	father=10030083 # Asakura Kagefusa
@@ -1468,7 +1825,7 @@
 	}
 }
 10030087={
-	name=character_name_10030087 # Tokikage # Alternative name: Kagechika
+	name=character_name_10030087 # Tokikage,時景 # Alternative name: Kagechika
 	dynasty=10000350 # Asakura
 	father=10030007 # Asakura Takakage
 	mother=10030086
@@ -1477,26 +1834,38 @@
 	1465.1.1={
 		birth=yes
 	}
-	1525.1.1={
+	1481.01.01={
+		give_nickname="nick_Magoshichiro" # 「孫七」、「孫七郎」（松原信之『朝倉氏と戦国村一乗谷』）
+	}
+	# 丹生郡織田城主
+	# 明応年間（1492-1500）謀反を起こして越前を追放される（松原信之『朝倉氏と戦国村一乗谷』）
+	1525.1.1={ # 
 		death=yes
 	}
 }
 10030088={
-	name=character_name_10030088 # Kageyoshi
+	name=character_name_10030088 # Kageyoshi,景儀
 	dynasty=10000350 # Asakura
 	father=10030007 # Asakura Takakage
-	mother=10030086
+	mother=10030086 # 兄・時景と同母（松原信之『朝倉氏と戦国村一乗谷』）
 	religion="shinto"
 	culture="western_hokuriku"
 	1470.1.1={
 		birth=yes
 	}
+	1486.01.01={
+		give_nickname="nick_Magokuro" # 「孫九郎」（松原信之『朝倉氏と戦国村一乗谷』）
+	}
+	1490.01.01={
+		give_nickname="nick_saemon_no_jo" # 「左衛門尉」（一乗谷朝倉氏遺跡資料館、「朝倉氏略系図」。）
+	}
+	# 兄・時景追放後丹生郡織田城主
 	1530.1.1={
 		death=yes
 	}
 }
 10030089={
-	name=character_name_10030089 # Tsuneko
+	name=character_name_10030089 # Tsuneko、五位の尼（松原信之『朝倉氏と戦国村一乗谷』）
 	female=yes
 	religion="shinto"
 	culture="western_hokuriku"
@@ -1508,17 +1877,24 @@
 	}
 }
 10030090 = {
-	name=character_name_10030090 # Norikage
+	name=character_name_10030090 # Norikage,教景
 	dynasty=10000350 # Asakura
 	father=10030007 # Asakura Takakage
-	mother=10030089
+	mother=10030089 # 五位の尼（松原信之『朝倉氏と戦国村一乗谷』）
 	religion="shinto"
 	culture="western_hokuriku"
 	1462.1.1={
 		birth=yes
 	}
-	1484.8.4={
-		death=yes
+	1478.01.01={
+		give_nickname="nick_Kotaro" # 「小太郎」（一乗谷朝倉氏遺跡資料館、「朝倉氏略系図」。）
+	}
+	# 慈視院光玖の猶子となる
+	1484.8.4={ # 文明5(1473)年七月十三日
+		death={
+			death_reason=death_murder_known #　TODO: 相撲している最中に故意に殺害される（松原信之『朝倉氏と戦国村一乗谷』）
+			killer=10030083 # 異母兄・朝倉景総（松原信之『朝倉氏と戦国村一乗谷』）
+		}
 	}
 }
 10030091 = {
@@ -1563,7 +1939,7 @@
 	}
 }
 10030094={
-	name=character_name_10030094 # Yoshiko
+	name=character_name_10030094 # Yoshiko、大成明玉、臨済宗南陽寺住持
 	female=yes
 	dynasty=10000350 # Asakura
 	father=10030010 # Asakura Sadakage
@@ -1578,7 +1954,7 @@
 	}
 }
 10030095={
-	name=character_name_10030095 # Kagesato
+	name=character_name_10030095 # Kagesato,景郡
 	dynasty=10000350 # Asakura
 	father=10030010 # Asakura Sadakage
 	mother=10025618
@@ -1587,12 +1963,15 @@
 	1500.1.1={
 		birth=yes
 	}
+	1516.01.01={
+		give_nickname="nick_Kotaro" # 「小太郎」（一乗谷朝倉氏遺跡資料館、「朝倉氏略系図」。）
+	}
 	1560.1.1={
 		death=yes
 	}
 }
 10030096={
-	name=character_name_10030096 # Michisato
+	name=character_name_10030096 # Michisato,道郷
 	dynasty=10000350 # Asakura
 	father=10030010 # Asakura Sadakage
 	mother=10025618
@@ -1600,6 +1979,10 @@
 	culture="western_hokuriku"
 	1507.1.1={
 		birth=yes
+	}
+	1523.01.01={
+		give_nickname="nick_Jirobee" # 「次郎兵衛」（一乗谷朝倉氏遺跡資料館、「朝倉氏略系図」。）
+		dynasty_house="house_shgnt_asakura_hatano"
 	}
 	1567.1.1={
 		death=yes

@@ -22,7 +22,10 @@
 	1394.01.01 = {
 		effect = {
 			title:b_shgnt_asuha_7 = {
-				set_title_name = b_shgnt_asuha_7_1 # Kitanoshō
+				set_title_name = b_shgnt_asuha_7_1 # Kitanoshō,北之庄
+			}
+			title:b_shgnt_asuha_6 = {
+				set_title_name = b_shgnt_asuha_6_1 # Ago,安居城
 			}
 		}
 	}
@@ -42,7 +45,7 @@
 	1471.01.01 = {
 		effect = {
 			title:b_shgnt_asuha_2 = {
-				set_title_name = b_shgnt_asuha_2_1 # Ichijodani
+				set_title_name = b_shgnt_asuha_2_1 # Ichijodani,一乗谷城
 			}
 		}
 	}
@@ -60,6 +63,11 @@
     }
     1573.09.16 = {
         holder = 10029120 # Oda Nobunaga
+		effect = {
+			title:b_shgnt_asuha_2 = {
+				set_title_name = b_shgnt_asuha_2_2 # Togōmakiyama,東郷槇山城
+			}
+		}
     }
     1573.09.24 = {
         liege = d_shgnt_echizen # 30100 Maeba Yoshitsugu
@@ -1853,6 +1861,13 @@ c_shgnt_nomi = {
         liege = e_shgnt_japan # 29120 Oda Nobunaga
         holder = 10029270 # Yanada Hiromasa
     }
+	1576.01.01={
+		effect = {
+			title:b_shgnt_nomi_6 = {
+				set_title_name = b_shgnt_nomi_6_1 # Komatsu,小松城
+			}
+		}
+	}
     1576.10.01 = {
         holder = 10029280 # Shibata Katsuie
     }
@@ -2120,6 +2135,13 @@ c_shgnt_echizen_sakai = {
         liege = 0 # 
         holder = 0 # Battle of Shinohara
     }
+	1394.01.01={
+		effect = {
+			title:b_shgnt_echizen_sakai_2 = {
+				set_title_name = b_shgnt_echizen_sakai_2_1 # 溝江郷 → Kanazu,金津城
+			}
+		}
+	}
     1459.09.07 = {
         liege = d_shgnt_yamato # 
         holder = 11000774 # Kujo Kyokaku
@@ -2156,6 +2178,13 @@ c_shgnt_echizen_sakai = {
         liege = d_shgnt_echizen # 29280 Shibata Katsuie
         holder = 10029280 # Shibata Katsuie
     }
+	1576.01.01={
+		effect = {
+			title:b_shgnt_echizen_sakai_9 = {
+				set_title_name = b_shgnt_echizen_sakai_9_1 # Maruoka,丸岡城
+			}
+		}
+	}
 }
 c_shgnt_santo = {
     0001.01.01 = { change_development_level = 20 }
@@ -2514,6 +2543,13 @@ c_shgnt_yoshida = {
         liege = 0 # 
         holder = 0 # Battle of Shinohara
     }
+	1244.01.01={
+		effect = {
+			title:b_shgnt_yoshida_4 = {
+				set_title_name = b_shgnt_yoshida_4_1 # Eiheiji,永平寺
+			}
+		}
+	}
     1340.01.01 = {
         holder = 10030001 # Asakura Hirokage
     }
