@@ -1,6 +1,6 @@
-Shogunate Kartenveränderung MOD beta Version 0.5.0 'Awabiara Saki'
+Shogunate Kartenveränderung MOD beta Version 0.6 'Benkei'
 
-[h1]Shogunate Kartenveränderung MOD beta Version 0.5.0 'Awabiara Saki'[/h1]
+[h1]Shogunate Kartenveränderung MOD beta Version 0.6 'Benkei'[/h1]
 
 Shogunate Map alteration sub-MOD ist ein submod der Shogunate mod. Sie ersetzt die Karte durch eine hochauflösende und vergrößert das Gebiet der Provence-Baron.
 
