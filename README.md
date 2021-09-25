@@ -39,8 +39,3 @@ We are looking for people who can help us in the following areas:
 - Translating the title name and content of this Steam Workshop into English, French, German, Korean, Russian, Simplified Chinese, Spanish, and other languages.
 - 3D modeling of character hair and clothes in Maya or Blender, exporting them in PDX format, and adjusting them so that they work in-game. I've put together a post on the Paradox Forum about the 3D models needed for this mod or the main mod. [See also](https://forum.paradoxplaza.com/forum/threads/mod-public-alpha-shogunate-map-alteration-sub-mod.1467780/post-27623098).
 It would be helpful if you could inform us in advance to avoid conflicts in the deliverables. Please contact us through [Paradox Forum](https://forum.paradoxplaza.com/forum/threads/mod-public-alpha-shogunate-map-alteration-sub-mod.1467780/) or [Discord](https://discord.gg/jfcSfchJGC).
-
-## Donation
-Donations are also welcome. You can send any amount you wish to the following bitcoin addresses.
-
-BitCoin: `bc1qk4hk26km8jlm8g22rvlgh0dqvv9edunx0t7yma`
