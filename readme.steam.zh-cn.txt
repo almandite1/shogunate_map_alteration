@@ -1,6 +1,6 @@
-幕府地图的更改副MODbeta版0.5.9'鮑荒崎'
+幕府地图的更改副MODbeta版0.6.0'办庆'
 
-[h1]Shogunate Map alteration Sub-MOD beta Version 0.5 'Awabiara Saki'[/h1]
+[h1]Shogunate Map alteration Sub-MOD beta Version 0.6 'Benkei'[/h1]
 幕府地图的更改副MOD是幕府mod的一个副mod。
 它用一个高分辨率的地图取代，并增加了普罗旺斯-沙龙的领土。
 
