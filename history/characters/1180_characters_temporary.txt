@@ -1661,7 +1661,7 @@
 	}
 }
 10130140 = {
-	name=character_name_10130140 # Tsuneyoshi
+	name=character_name_10130140 # Tsuneyoshi,経義
 	dynasty=10006001	#Irie
 	religion="shinto"
 	culture="tokai"
@@ -1671,14 +1671,21 @@
 		birth=yes
 	}
 	1148.1.1={
-		give_nickname="nick_saburo"
+		give_nickname="nick_saburo" # 「三郎」（『近世防長諸家系図綜覧』）
 	}
 	1183.1.1={
-		dynasty=10000561	#Kikkawa Clan
+		dynasty=10000561	#Kikkawa Clan、「吉河」（『近世防長諸家系図綜覧』）
+	}
+	# TODO: 「室　佐竹信濃守昌義女」（『近世防長諸家系図綜覧』）
+	1162.01.01={
+		give_nickname="nick_the_saemon_no_jo" # 「左衛門尉　従四位下」（『近世防長諸家系図綜覧』）
 	}
 	1193.6.28={
-		death=yes
+		death={
+			death_reason=death_natural_causes # 「建久4(1193)年五月二十八日卒62　法号安養本無　吉河邑安養寺ニ葬ル」（『近世防長諸家系図綜覧』）
+		}
 	}
+	# 「駿河国有度郡吉河邑ニ住ス　始吉香　或木河　或吉河　後用吉川　代々為称号」（『近世防長諸家系図綜覧』）
 }
 10130141 = {
 	name=character_name_10130141 # Kagezumi

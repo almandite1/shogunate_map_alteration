@@ -3598,8 +3598,9 @@
 	}
 }
 10056000 = {
-	name=character_name_10056000 # Hiromoto
-	dynasty=10000560 # Mori
+	name=character_name_10056000 # Hiromoto,弘元、「千代寿丸」（『近世防長諸家系図綜覧』）
+	#dynasty=10000560 # Mori
+	dynasty_house="house_shgnt_aki-mori"
 	father=12666050 # Mori Toyomoto
 	martial=8
 	diplomacy=8
@@ -3613,24 +3614,29 @@
 	culture="western_chugoku"
 	prowess=12
 	1466.1.1={
-		birth=yes
+		birth=yes # 「応仁2(1468)年戊子生」（『近世防長諸家系図綜覧』）
 	}
+	# 「少輔太郎」（『近世防長諸家系図綜覧』）
 	1476.6.19={
-		give_nickname="nick_jibu_no_sho"
+		give_nickname="nick_jibu_no_sho" # 「治部少輔」（『近世防長諸家系図綜覧』）
 	}
 	1486.1.1={
-		add_spouse=12666317
+		add_spouse=12666317 # 「室　福原式部大輔広俊女」（『近世防長諸家系図綜覧』）
 	}
 	1500.1.1={
-		give_nickname="nick_bitchu_no_kami"
+		give_nickname="nick_bitchu_no_kami" #　「備中守」（『近世防長諸家系図綜覧』）
 	}
 	1506.2.13={
-		death=yes
+		death={
+			death_reason=death_natural_causes # 「永正3(1506)年丙寅正月廿一日卒於芸州多治比猿掛城三十九　法名悦叟常喜　御寺大通院萩洞春寺」
+		}
 	}
+	# TODO: 「継室　不詳　天文14(1545)年乙巳六月八日卒　法名順徳妙考（大方殿　杉の方）」（『近世防長諸家系図綜覧』）
 }
 10056001 = {
-	name=character_name_10056001 # Kyoko #Kokushi Motozumi's wife
-	dynasty=10000560 # Mori
+	name=character_name_10056001 # Kyoko #Kokushi Motozumi's wife、「国司飛騨守藤原元純室」（『近世防長諸家系図綜覧』）
+	#dynasty=10000560 # Mori
+	dynasty_house="house_shgnt_aki-mori"
 	father=12666050 # Mori Toyomoto
 	female=yes
 	trait="education_diplomacy_1"
@@ -3640,12 +3646,15 @@
 		birth=yes
 	}
 	1526.1.1={
-		death=yes
+		death={
+			death_reason=death_natural_causes
+		}
 	}
 }
 10056002 = {
-	name=character_name_10056002 # Okimoto
-	dynasty=10000560 # Mori
+	name=character_name_10056002 # Okimoto,興元、「幸千代丸」（『近世防長諸家系図綜覧』）
+	#dynasty=10000560 # Mori
+	dynasty_house="house_shgnt_aki-mori"
 	father=10056000 # Mori Hiromoto
 	mother=12666317
 	martial=7
@@ -3660,24 +3669,30 @@
 	culture="western_chugoku"
 	prowess=11
 	1492.1.1={
-		birth=yes
+		birth=yes # 「明応2(1493)年癸丑生」（『近世防長諸家系図綜覧』）
 	}
-	1500.1.1={
-		give_nickname="nick_jibu_no_sho"
+	1508.01.01={
+		give_nickname="nick_taro" # TODO: 「少輔太郎」（『近世防長諸家系図綜覧』）
+	}
+	1510.1.1={
+		give_nickname="nick_jibu_no_sho" # 「治部少輔」（『近世防長諸家系図綜覧』）
 	}
 	1514.1.1={
-		add_spouse=12669233
+		add_spouse=12669233 # 「室　高橋某女（石見国高橋民部少輔元光女カ）」（『近世防長諸家系図綜覧』）
 	}
-	1516.9.21={
-		death=yes
-		death=yes
+	1516.9.21={ # 「永正13(1516)年丙子八月廿五日卒年二十四　法名秀岳院常松　御寺土居山秀岳院」（『近世防長諸家系図綜覧』）
+		death={
+			death_reason=death_drinking_passive # アルコール依存症の代わり
+		}
 	}
 }
 10056003 = {
-	name=character_name_10056003 # Miyako #Takeda Nanigashi's wife
-	dynasty=10000560 # Mori
+	name=character_name_10056003 # Miyako #Takeda Nanigashi's wife、「宮子　武田某室」
+	#dynasty=10000560 # Mori
+	dynasty_house="house_shgnt_aki-mori"
 	female=yes
 	father=10056000 # Mori Hiromoto
+	mother=12666317 #　「母　〔興元〕同」（『近世防長諸家系図綜覧』）
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
@@ -3685,14 +3700,17 @@
 		birth=yes
 	}
 	1511.11.11={
-		death=yes
+		death={
+			death_reason=death_natural_causes # 「永正8(1511)年十月十一日卒　法名瑞川寺幸仲正慶」（『近世防長諸家系図綜覧』）
+		}
 	}
 }
 10056004 = {
-	name=character_name_10056004 # Motonari
-	dynasty=10000560 # Mori
+	name=character_name_10056004 # Motonari,元就
+	#dynasty=10000560 # Mori
+	dynasty_house="house_shgnt_aki-mori"
 	father=10056000 # Mori Hiromoto
-	mother=12666317
+	mother=12666317 #　「母　〔興元〕同」（『近世防長諸家系図綜覧』）
 	martial=5
 	diplomacy=9
 	intrigue=11
@@ -3712,14 +3730,14 @@
 		birth=yes
 	}
 	1513.4.16={
-		give_nickname="nick_Sho_no_jiro"
+		give_nickname="nick_Sho_no_jiro" # 「少輔次郎」（『近世防長諸家系図綜覧』）
 	}
 	1515.4.16={
 		add_spouse = 10056224
 	}
 	1523.8.25={
 		effect = {
-			set_realm_capital=title:c_shgnt_takata
+			set_realm_capital=title:c_shgnt_takata # 「依幸松丸早世継本家」（『近世防長諸家系図綜覧』）
 		}
 	}
 	1524.1.1={
@@ -3757,39 +3775,45 @@
 	}
 }
 10056005 = {
-	name=character_name_10056005 # Hachiman #Shibukawa Yoshimasa's wife
-	dynasty=10000560 # Mori
+	name=character_name_10056005 # Hachiman #Shibukawa Yoshimasa's wife、「八幡上　又称神辺上　備後国御調郡八幡村八幡城主渋川兵部源義正室　渋川義満母」（『近世防長諸家系図綜覧』）
+	#dynasty=10000560 # Mori
+	dynasty_house="house_shgnt_aki-mori"
 	female=yes
 	father=10056000 # Mori Hiromoto
 	trait="education_diplomacy_1"
+	trait="child_of_concubine_female" # 「母　家女房」（『近世防長諸家系図綜覧』）
 	religion="shinto"
 	culture="western_chugoku"
 	1505.1.1={
 		birth=yes
 	}
 	1577.8.6={
-		death=yes
+		death=yes # 「天正5(1577)年七月十二日卒　法名月巌妙秋　御寺秀岳院」（『近世防長諸家系図綜覧』）
 	}
 }
 10056006 = {
-	name=character_name_10056006 # Onokata #Inoue Motomitsu's wife
-	dynasty=10000560 # Mori
+	name=character_name_10056006 # Onokata #Inoue Motomitsu's wife、「井上右衛門大夫源元光室　称相合大方」
+	#dynasty=10000560 # Mori
+	dynasty_house="house_shgnt_aki-mori"
 	female=yes
 	father=10056000 # Mori Hiromoto
 	trait="education_diplomacy_1"
+	trait="child_of_concubine_female" # 「母　同（八幡上の次に記載なので家女房か）」（『近世防長諸家系図綜覧』）
 	religion="shinto"
 	culture="western_chugoku"
 	1497.1.1={
 		birth=yes
 	}
 	1560.1.1={
-		death=yes
+		death=yes # 「元亀元(1570)年十一月十一日卒　法名慈性院念蓮日照妙教」（『近世防長諸家系図綜覧』）
 	}
 }
 10056007 = {
-	name=character_name_10056007 # Mototsuna #Aiou clan
-	dynasty=10000560 # Mori
+	name=character_name_10056007 # Mototsuna,元網 #Aiou clan
+	#dynasty=10000560 # Mori
+	dynasty_house="house_shgnt_aki-mori"
 	father=10056000 # Mori Hiromoto
+	trait="child_of_concubine_female" # TODO: 「母　同（有田氏女）」（『近世防長諸家系図綜覧』）
 	trait="education_martial_2"
 	trait="ambitious"
 	religion="shinto"
@@ -3798,35 +3822,40 @@
 		birth=yes
 	}
 	1515.1.1={
-		give_nickname="nick_shiro"
+		give_nickname="nick_shiro" #　「四郎」（『近世防長諸家系図綜覧』）
+		dynasty_house="house_shgnt_mori_aio" # 「相合」（『近世防長諸家系図綜覧』）
 	}
 	1524.5.11={
 		death={
-			death_reason=death_execution
+			death_reason=death_execution # 「年号不知四月八日依逆意被誅　法名広済寺梅林道魁」（『近世防長諸家系図綜覧』）
 			killer=10056004 # Mori Motonari
 		}
 	}
 }
 10056008 = {
-	name=character_name_10056008 # Matsuko #Kikkawa Mototsune's wife
-	dynasty=10000560 # Mori
+	name=character_name_10056008 # Matsuko #Kikkawa Mototsune's wife、「松子　吉川治部少輔藤原元経室」（『近世防長諸家系図綜覧』）
+	#dynasty=10000560 # Mori
+	dynasty_house="house_shgnt_aki-mori"
 	female=yes
 	father=10056000 # Mori Hiromoto
+	trait="child_of_concubine_female" # 「母　同（有田氏女）」（『近世防長諸家系図綜覧』）
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
 	1491.1.1={
 		birth=yes
 	}
-	1560.1.1={
-		death=yes
+	1523.07.02={
+		death=yes # 「大永3(1523)年癸未七月二日卒　法名昌屋妙繁」
 	}
 }
 10056009 = {
-	name=character_name_10056009 # Takeko #Ihara Motomuro's wife
-	dynasty=10000560 # Mori
+	name=character_name_10056009 # Takeko #Ihara Motomuro's wife、「竹子　井原常陸介藤原元師室」（『近世防長諸家系図綜覧』）
+	#dynasty=10000560 # Mori
+	dynasty_house="house_shgnt_aki-mori"
 	female=yes
 	father=10056000 # Mori Hiromoto
+	trait="child_of_concubine_female" # 「母　同（有田氏女）」（『近世防長諸家系図綜覧』）
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
@@ -3839,9 +3868,11 @@
 	}
 }
 10056010 = {
-	name=character_name_10056010 # Narikatsu
-	dynasty=10000560 # Mori -> Kita
+	name=character_name_10056010 # Narikatsu,就勝
+	#dynasty=10000560 # Mori -> Kita
+	dynasty_house="house_shgnt_aki-mori"
 	father=10056000 # Mori Hiromoto
+	trait="child_of_concubine_female" # TODO: 「母　侍女有田某女」（『近世防長諸家系図綜覧』）
 	trait="education_diplomacy_1"
 	religion="shinto"
 	culture="western_chugoku"
@@ -3849,26 +3880,31 @@
 		birth=yes
 	}
 	1515.1.1={
-		culture="saigoku_buddhist"
+		culture="saigoku_buddhist" # 「初出家為芸州山手常楽寺住持」（『近世防長諸家系図綜覧』）
 		effect = {
 			add_trait = "devoted"
 		}
 	}
 	1525.1.1={
-		culture="western_chugoku"
+		culture="western_chugoku" #　「後還俗称北氏」（『近世防長諸家系図綜覧』）
 		effect = {
 			remove_trait = "devoted"
 		}
+		dynasty_house="house_shgnt_mori_kita"
+		give_nickname="nick_shikibu_no_sho" # 「式部少輔」（『近世防長諸家系図綜覧』）
 	}
 	1557.8.30={
-		death=yes
+		death={ # 「弘治3(1557)年丁巳八月七日卒　法名勝翁就心」（『近世防長諸家系図綜覧』）
+			death_reason=death_natural_causes
+		}
 	}
 }
 10056011 = {
-	name=character_name_10056011 # Komatsumaru
-	dynasty=10000560 # Mori
+	name=character_name_10056011 # Komatsumaru,幸松丸、「第二子」（『近世防長諸家系図綜覧』）
+	#dynasty=10000560 # Mori
+	dynasty_house="house_shgnt_aki-mori"
 	father=10056002
-	mother=12669233
+	mother=12669233 # 「母　高橋某女」（『近世防長諸家系図綜覧』）
 	martial=5
 	diplomacy=7
 	intrigue=7
@@ -3880,15 +3916,18 @@
 	culture="western_chugoku"
 	prowess=13
 	1515.1.1={
-		birth=yes
+		birth=yes # 「永正12(1515)年生」（『近世防長諸家系図綜覧』）
 	}
 	1523.8.25={
-		death=yes
+		death={
+			death_reason=death_ill # 「大永3(1523)年七月十五日早世九歳　法名明巌紹光　御寺大通院又秀岳院」（『近世防長諸家系図綜覧』）
+		}
 	}
 }
 10056012 = {
-	name=character_name_10056012 # Matsuko #Yamanouchi Toyomichi's wife
-	dynasty=10000560 # Mori
+	name=character_name_10056012 # Matsuko #Yamanouchi Toyomichi's wife、
+	#dynasty=10000560 # Mori
+	dynasty_house="house_shgnt_aki-mori"
 	father=10056002
 	female=yes
 	trait="education_diplomacy_1"
@@ -3897,13 +3936,15 @@
 	1506.1.1={
 		birth=yes
 	}
+	# 「嫁山内二郎四郎藤原豊通　豊通死後嫁小早川中務少輔輔平　興景　興景死後嫁杉原某　後又嫁杉原播磨守平盛重」（『近世防長諸家系図綜覧』）
 	1543.8.25={
 		death=yes
 	}
 }
 10056013 = {
 	name=character_name_10056013 # Takamoto
-	dynasty=10000560 # Mori
+	#dynasty=10000560 # Mori
+	dynasty_house="house_shgnt_aki-mori"
 	father=10056004 # Mori Motonari
 	mother=10056224
 	martial=9
@@ -3980,7 +4021,8 @@
 }
 10056014 = {
 	name=character_name_10056014 # Goryu #Shishido Takaie's wife
-	dynasty=10000560 # Mori
+	#dynasty=10000560 # Mori
+	dynasty_house="house_shgnt_aki-mori"
 	female=yes
 	father=10056004 # Mori Motonari
 	mother=10056224
@@ -3996,7 +4038,8 @@
 }
 10056015 = {
 	name=character_name_10056015 # Motoharu # Kikkawa Motoharu
-	dynasty=10000560 # Mori
+	#dynasty=10000560 # Mori
+	dynasty_house="house_shgnt_aki-mori"
 	father=10056004 # Mori Motonari
 	mother=10056224
 	martial=9
@@ -4019,7 +4062,8 @@
 		give_nickname="nick_Sho_no_jiro" # Shojiro
 	}
 	1547.1.1={
-		dynasty=10000561 # Kikkawa
+		#dynasty=10000561 # Kikkawa
+		dynasty_house="house_shgnt_mori_kikkawa"
 		add_pressed_claim=c_shgnt_aki_yamakata
 		add_spouse=10057911
 	}
@@ -4079,7 +4123,8 @@
 }
 10056016 = {
 	name=character_name_10056016 # Takakage # Kobayakawa Takakage
-	dynasty=10000560 # Mori
+	#dynasty=10000560 # Mori
+	dynasty_house="house_shgnt_aki-mori"
 	father=10056004 # Mori Motonari
 	mother=10056224
 	martial=10
@@ -4100,7 +4145,8 @@
 		birth=yes
 	}
 	1541.1.1={
-		dynasty=10000562 # Kobayakawa
+		#dynasty=10000562 # Kobayakawa
+		dynasty_house="house_shgnt_mori_kobayakawa"
 		add_pressed_claim=c_shgnt_toyota
 	}
 	1549.1.1={
@@ -4159,9 +4205,11 @@
 	}
 }
 10056018 = {
-	name=character_name_10056018 # Motokiyo # Hoida Motokiyo
-	dynasty=10000560 # Mori
+	name=character_name_10056018 # Motokiyo,元清 # Hoida Motokiyo
+	#dynasty=10000560 # Mori
+	dynasty_house="house_shgnt_aki-mori"
 	father=10056004 # Mori Motonari
+	# TODO: 「母　乃美弘平女」（『近世防長諸家系図綜覧』）
 	martial=9
 	trait="education_diplomacy_3"
 	trait="architect"
@@ -4170,27 +4218,39 @@
 	culture="western_chugoku"
 	prowess=13
 	1551.1.1={
-		birth=yes
+		birth=yes #　「天文20(1551)年辛亥生」（『近世防長諸家系図綜覧』）
+	}
+	1567.01.01={
+		give_nickname="nick_shiro" # TODO:「少輔四郎」（『近世防長諸家系図綜覧』）
 	}
 	1568.1.1={
 		add_spouse=10058934
 	}
 	1571.1.1={
-		give_nickname="nick_jibu_daihu"
+		give_nickname="nick_jibu_daihu" # 「治部大輔」（『近世防長諸家系図綜覧』）
+	}
+	1575.01.01={
+		dynasty_house="house_shgnt_mori_hoida" # 「嗣備中国小田郡横谷村猿掛城主穂田民部少輔元資家　後復毛利氏」（『近世防長諸家系図綜覧』）
 	}
 	1591.1.1={
-		give_nickname="nick_the_iyo_no_kami"
+		give_nickname="nick_the_iyo_no_kami" # 「伊予守」（『近世防長諸家系図綜覧』）
 		effect = {
-			add_trait = "jugoi_ge"
+			add_trait = "jugoi_ge" #　「従五位下」（『近世防長諸家系図綜覧』）
 		}
 	}
+	1597.08.01={
+		trait="ill"
+	}
 	1597.8.21={
-		death=yes
+		death={ #　「慶長2(1597)年丁酉七月九日卒於芸州佐伯郡広島年四十七　法名洞雲寺笑山常快」（『近世防長諸家系図綜覧』）
+			death_reason=death_ill
+		}
 	}
 }
 10056019 = {
-	name=character_name_10056019 # Motoaki
-	dynasty=10000560 # Mori
+	name=character_name_10056019 # Motoaki,元秋
+	#dynasty=10000560 # Mori
+	dynasty_house="house_shgnt_aki-mori"
 	father=10056004 # Mori Motonari
 	mother=10057756
 	trait="education_diplomacy_3"
@@ -4231,87 +4291,101 @@
 	}
 }
 10056020 = {
-	name=character_name_10056020 # Mototomo # Dewa Mototomo
-	dynasty=10000560 # Mori
+	name=character_name_10056020 # Mototomo,元俱 # Dewa Mototomo、「鶴法師丸」（『近世防長諸家系図綜覧』）
+	#dynasty=10000560 # Mori
+	dynasty_house="house_shgnt_aki-mori"
 	father=10056004 # Mori Motonari
-	mother=10057756
+	mother=10057756 #　「母　三吉某女」（『近世防長諸家系図綜覧』）
 	trait="education_diplomacy_3"
 	trait="child_of_concubine_female"
 	religion="shinto"
 	culture="western_chugoku"
-	1555.1.1={
+	1555.1.1={ #　「弘治元年乙卯生」（『近世防長諸家系図綜覧』）
 		birth=yes
 	}
 	1571.1.1={
-		give_nickname="nick_Magoshiro"
+		give_nickname="nick_Magoshiro" # 「孫四郎」（『近世防長諸家系図綜覧』）
+		dynasty_house="house_shgnt_mori_izuha" # 「為石州邑知郡出羽二山城主出羽民部大輔伴元祐養子」（『近世防長諸家系図綜覧』）
 	}
 	1571.8.30={
-		death=yes
+		death=yes # 「元亀2(1571)年辛未八月十日早世十七　法名天真常照」（『近世防長諸家系図綜覧』）
 	}
 }
 10056021 = {
-	name=character_name_10056021 # Motomasa # Amano Motomasa
-	dynasty=10000560 # Mori
+	name=character_name_10056021 # Motomasa,元政 # Amano Motomasa、「千虎丸」、「薙髪宗休」（『近世防長諸家系図綜覧』）
+	#dynasty=10000560 # Mori
+	dynasty_house="house_shgnt_aki-mori"
 	father=10056004 # Mori Motonari
-	mother=10057756
+	mother=10057756 # 「母　同元清〔乃美弘平女〕」（『近世防長諸家系図綜覧』）
 	trait="education_diplomacy_3"
 	trait="brave"
 	trait="child_of_concubine_female"
 	religion="shinto"
 	culture="western_chugoku"
 	1559.1.1={
-		birth=yes
+		birth=yes # 「永禄2(1559)年己未生」（『近世防長諸家系図綜覧』）
+	}
+	1575.01.01={
+		give_nickname="nick_rokuro" # TODO: 「少輔六郎」（『近世防長諸家系図綜覧』）
+		dynasty_house="house_shgnt_mori_amano" # 「継芸州賀茂郡志芳米山城主天野民部大輔藤原元定家」（『近世防長諸家系図綜覧』）
 	}
 	1579.1.1={
-		give_nickname="nick_saemon_no_jo" # Rokuro-Saemonnojo
+		give_nickname="nick_saemon_no_jo" # TODO: Rokuro-Saemonnojo,「六郎左衛門尉」（『近世防長諸家系図綜覧』）
 	}
 	1589.1.1={
-		give_nickname="nick_kamon_no_kami"
+		give_nickname="nick_kamon_no_kami" #　「掃部頭」（『近世防長諸家系図綜覧』）
 	}
 	1599.1.1={
-		give_nickname="nick_the_sanuki_no_kami"
+		give_nickname="nick_the_sanuki_no_kami" # 「讃岐守」（『近世防長諸家系図綜覧』）
 		effect = {
-			add_trait = "jugoi_ge"
+			add_trait = "jugoi_ge" # 「従五位下」（『近世防長諸家系図綜覧』）
 		}
 	}
 	1609.8.30={
-		death=yes
+		death={ #　「慶長14(1609)年己酉四月廿九日卒於長門萩年五十一　法名天徳寺天徳性真」（『近世防長諸家系図綜覧』）
+			death_reason=death_natural_causes
+		}
 	}
 }
 10056022 = {
-	name=character_name_10056022 # Motoyasu # Suetsugu Motoyasu
-	dynasty=10000560 # Mori
+	name=character_name_10056022 # Motoyasu,元康 # Suetsugu Motoyasu
+	#dynasty=10000560 # Mori
+	dynasty_house="house_shgnt_aki-mori"
 	father=10056004 # Mori Motonari
-	mother=10057756
+	mother=10057756 #　「母　同元秋〔三吉某女〕」（『近世防長諸家系図綜覧』）
 	trait="education_intrigue_3"
 	trait="brave"
 	trait="child_of_concubine_female"
 	religion="shinto"
 	culture="western_chugoku"
 	1560.1.1={
-		birth=yes
+		birth=yes #　「永禄3(1560)年庚申生」（『近世防長諸家系図綜覧』）
 	}
+	1576.01.01={
+		give_nickname="nick_shichiro" # TODO: 「少輔七郎」（『近世防長諸家系図綜覧』）
+	}
+	# 「七郎兵衛尉」（『近世防長諸家系図綜覧』）
 	1580.1.1={
-		give_nickname="nick_hyobu_daihu"
+		give_nickname="nick_hyobu_daihu" # 「兵部大輔」（『近世防長諸家系図綜覧』）
+		dynasty_house="house_shgnt_mori_suetsugu"
 	}
+	#1585.5.31 「嗣兄元秋家　在雲州能儀郡富田月山城　初在同国末次城　時称末次　後復毛利」（『近世防長諸家系図綜覧』）
 	1590.1.1={
-		give_nickname="nick_the_okura_daihu"
-		effect = {
-			add_trait = "jugoi_ge"
-		}
+		give_nickname="nick_the_okura_daihu" #　「大蔵大輔」（『近世防長諸家系図綜覧』）
 	}
 	1595.1.1={
-		effect = {
-			add_trait = "jugoi_ge"
+		effect={
+			add_trait="jugoi_ge" #「従五位下」（『近世防長諸家系図綜覧』）
 		}
 	}
 	1601.8.30={
-		death=yes
+		death=yes # 「慶長6(1601)年辛丑正月十三日卒於摂州東成郡大坂年四十二　法名洞玄寺石心玄也」（『近世防長諸家系図綜覧』）
 	}
 }
 10056023 = {
 	name=character_name_10056023 # Mototsuna
-	dynasty=10000560 # Mori
+	#dynasty=10000560 # Mori
+	dynasty_house="house_shgnt_aki-mori"
 	father=10056004 # Mori Motonari
 	trait="education_martial_3"
 	trait="light_foot_leader"
@@ -4322,7 +4396,8 @@
 		birth=yes
 	}
 	1579.1.1={
-		dynasty=10000562 # Kobayakawa
+		#dynasty=10000562 # Kobayakawa
+		dynasty_house="house_shgnt_mori_kobayakawa"
 		effect = {
 			set_father = character:10056016
 			set_real_father = character:10056004
@@ -4331,7 +4406,7 @@
 		}
 	}
 	1580.1.1={
-		dynasty=10000560 # Mori
+		dynasty_house="house_shgnt_aki-mori"
 		effect = {
 			set_father = character:10056004
 			set_real_father = character:10056004
@@ -4356,8 +4431,9 @@
 	}
 }
 10056024 = {
-	name=character_name_10056024 # Motonori #Shikina clan
-	dynasty=10000560 # Mori
+	name=character_name_10056024 # Motonori,元範 #Shikina clan
+	#dynasty=10000560 # Mori
+	dynasty_house="house_shgnt_mori_aio"
 	father=10056007 # Mori Mototsuna
 	trait="education_diplomacy_1"
 	religion="shinto"
@@ -4365,13 +4441,20 @@
 	1520.1.1={
 		birth=yes
 	}
+	1524.5.11={
+		dynasty_house="house_shgnt_mori_shikina" # 「敷名」（『近世防長諸家系図綜覧』）
+	}
+	1536.01.01={
+		give_nickname="nick_hyobu_daihu" # 「兵部大輔　備後国江田城主」（『近世防長諸家系図綜覧』）
+	}
 	1580.1.1={
 		death=yes
 	}
 }
 10056025 = {
 	name=character_name_10056025 # Terumoto
-	dynasty=10000560 # Mori
+	#dynasty=10000560 # Mori
+	dynasty_house="house_shgnt_aki-mori"
 	father=10056013 # Mori Takamoto
 	mother=10057252
 	martial=8
@@ -4455,7 +4538,8 @@
 }
 10056026 = {
 	name=character_name_10056026 # Tsuwano#Yoshimi Hiroyori's wife
-	dynasty=10000560 # Mori
+	#dynasty=10000560 # Mori
+	dynasty_house="house_shgnt_aki-mori"
 	female=yes
 	father=10056013 # Mori Takamoto
 	mother=10057252
@@ -4471,7 +4555,8 @@
 }
 10056030 = {
 	name=character_name_10056030 # Hidemoto
-	dynasty=10000560 # Mori
+	#dynasty=10000560 # Mori
+	dynasty_house="house_shgnt_mori_hoida"
 	father=10056018 # Mori Motokiyo
 	mother=10058934 #Murakami Michiyasu's daughter
 	martial=9
@@ -4811,7 +4896,7 @@
 	}
 }
 10056200 = {
-	name=character_name_10056200 # Okitsune
+	name=character_name_10056200 # Okitsune,興経、「千法師」（『近世防長諸家系図綜覧』）
 	dynasty=10000561 # Kikkawa
 	father=10056201 # Kikkawa Mototsune
 	mother=10056008 # Mori Matsuko, daughter of Mori Hiromoto
@@ -4829,17 +4914,23 @@
 		birth=yes
 	}
 	1524.1.1={
-		give_nickname="nick_Jirosaburo"
+		give_nickname="nick_Jirosaburo" # 「次郎三郎」（『近世防長諸家系図綜覧』）
 	}
+	# TODO: 「室　宍戸安芸守元源女」（『近世防長諸家系図綜覧』）
+	# TODO: 「継室　武田刑部少輔元繁女」（『近世防長諸家系図綜覧』）
 	1533.1.1={
-		give_nickname="nick_jibu_no_sho"
+		give_nickname="nick_jibu_no_sho" # 「治部少輔」（『近世防長諸家系図綜覧』）
 	}
-	1550.11.5={
-		death=yes
+	# 「天文18(1549)年居城ヲ譲リ安芸布川ニ隠居ス」（『近世防長諸家系図綜覧』）
+	1550.11.5={ # 「天文19(1550)年九月廿七日卒行年43」（『近世防長諸家系図綜覧』）
+		death={
+			death_reason=death_plotting # 「元就によって実子とともに殺害」（『デジタル版 日本人名大辞典+Plus』）
+			killer=10056004
+		}
 	}
 }
 10056201 = {
-	name=character_name_10056201 # Mototsune
+	name=character_name_10056201 # Mototsune,元経
 	dynasty=10000561 # Kikkawa
 	father=10056202
 	martial=8
@@ -4855,23 +4946,25 @@
 		birth=yes
 	}
 	1475.1.1={
-		give_nickname="nick_Jirosaburo"
+		give_nickname="nick_Jirosaburo" # 「次郎三郎」（『近世防長諸家系図綜覧』）
 	}
 	1489.1.1={
-		give_nickname="nick_jibu_no_sho"
+		give_nickname="nick_jibu_no_sho" # 「治部少輔」（『近世防長諸家系図綜覧』）
 	}
 	1499.1.1={
-		give_nickname="nick_iyo_no_kami"
+		give_nickname="nick_iyo_no_kami" # 「伊予守」（『近世防長諸家系図綜覧』）
 	}
 	1508.1.1={
-		add_spouse=10056008 # Mori Matsuko, daughter of Mori Hiromoto
+		add_spouse=10056008 # Mori Matsuko, daughter of Mori Hiromoto、「毛利治部少輔弘元女」（『近世防長諸家系図綜覧』）
 	}
 	1522.4.2={
-		death=yes
+		death={
+			death_reason=death_natural_causes # 「大永2(1522)年三月六日卒64」（『近世防長諸家系図綜覧』）
+		}
 	}
 }
 10056202 = {
-	name=character_name_10056202 # Kunitsune
+	name=character_name_10056202 # Kunitsune,国経
 	dynasty=10000561 # Kikkawa
 	father=10056203
 	religion="shinto"
@@ -4880,20 +4973,24 @@
 		birth=yes
 	}
 	1459.1.1={
-		give_nickname="nick_Jirosaburo"
+		give_nickname="nick_Jirosaburo" # 「次郎三郎」（『近世防長諸家系図綜覧』）
 	}
+	# TODO: 「室　高橋越前守直信女」（『近世防長諸家系図綜覧』）
+	# TODO: 「継室　石州小笠原越前守某女」（『近世防長諸家系図綜覧』）
 	1463.1.1={
-		give_nickname="nick_jibu_no_sho"
+		give_nickname="nick_jibu_no_sho" # 「治部少輔」（『近世防長諸家系図綜覧』）
 	}
 	1473.1.1={
-		give_nickname="nick_izu_no_kami"
+		give_nickname="nick_izu_no_kami" # 「伊豆守」（『近世防長諸家系図綜覧』）
 	}
 	1531.5.4={
-		death=yes
+		death={
+			death_reason=death_old_age # 「享禄4(1531)年四月十八日（六月十六日イ）卒89」
+		}
 	}
 }
 10056203 = {
-	name=character_name_10056203 # Tsunemoto
+	name=character_name_10056203 # Tsunemoto,経基、「初元経　千松」（『近世防長諸家系図綜覧』）
 	dynasty=10000561 # Kikkawa
 	father=10056204 # Kikkawa Yukitsune
 	religion="shinto"
@@ -4902,20 +4999,23 @@
 		birth=yes
 	}
 	1444.1.1={
-		give_nickname="nick_Jirosaburo"
+		give_nickname="nick_Jirosaburo" # 「次郎三郎」（『近世防長諸家系図綜覧』）
 	}
+	# TODO: 「室　佐波常陸介秀連女」
 	1453.1.1={
-		give_nickname="nick_kamon_no_suke"
+		give_nickname="nick_kamon_no_suke" # 「掃部助」（『近世防長諸家系図綜覧』）
 	}
 	1476.1.13={
-		give_nickname="nick_the_suruga_no_kami"
+		give_nickname="nick_the_suruga_no_kami" # 「駿河守」（『近世防長諸家系図綜覧』）
 	}
 	1520.1.28={
-		death=yes
+		death={
+			death_reason=death_old_age # 「永正17(1520)年正月八日卒93」（『近世防長諸家系図綜覧』）
+		}
 	}
 }
 10056204 = {
-	name=character_name_10056204 # Yukitsune
+	name=character_name_10056204 # Yukitsune,之経、「初経幸」
 	dynasty=10000561 # Kikkawa
 	father=10056230
 	religion="shinto"
@@ -4923,15 +5023,20 @@
 	1415.1.1={
 		birth=yes
 	}
+	1435.01.01={
+		give_nickname="nick_saemon" # TODO: 「左衛門太夫」（『近世防長諸家系図綜覧』）
+	}
 	1476.1.13={
-		give_nickname="nick_the_izu_no_kami"
+		give_nickname="nick_the_izu_no_kami" # 「伊豆守」（『近世防長諸家系図綜覧』）
 	}
 	1477.1.21={
-		death=yes
+		death={
+			death_reason=death_natural_causes # 「文明9(1477)年正月七日卒63」（『近世防長諸家系図綜覧』）
+		}
 	}
 }
 10056205 = {
-	name=character_name_10056205 # Tsunekiyo
+	name=character_name_10056205 # Tsunekiyo,経清
 	dynasty=10000561 # Kikkawa
 	father=10056204
 	religion="shinto"
@@ -4940,14 +5045,16 @@
 		birth=yes
 	}
 	1460.1.1={
-		give_nickname="nick_kamon_no_kami"
+		give_nickname="nick_kamon_no_kami" # 「掃部頭」（『近世防長諸家系図綜覧』）
 	}
 	1500.1.1={
-		death=yes
+		death={
+			death_reason=death_natural_causes
+		}
 	}
 }
 10056206 = {
-	name=character_name_10056206 # Akari #Dewa Sukemori's wife
+	name=character_name_10056206 # Akari #Dewa Sukemori's wife、「石州出羽民部大輔祐盛室」（『近世防長諸家系図綜覧』）
 	dynasty=10000561 # Kikkawa
 	father=10056204
 	female=yes
@@ -4957,11 +5064,13 @@
 		birth=yes
 	}
 	1520.1.28={
-		death=yes
+		death={
+			death_reason=death_natural_causes # 「天文6(1537)年卒」（『近世防長諸家系図綜覧』）
+		}
 	}
 }
 10056207 = {
-	name=character_name_10056207 # Yui #Fukuya Norikane's wife
+	name=character_name_10056207 # Yui #Fukuya Norikane's wife、「石州福屋石見守教兼室」（『近世防長諸家系図綜覧』）
 	dynasty=10000561 # Kikkawa
 	father=10056204
 	female=yes
@@ -4971,11 +5080,13 @@
 		birth=yes
 	}
 	1520.1.28={
-		death=yes
+		death={
+			death_reason=death_natural_causes
+		}
 	}
 }
 10056208 = {
-	name=character_name_10056208 # Yukari #Amago Tsunehisa's wife
+	name=character_name_10056208 # Yukari #Amago Tsunehisa's wife、「尼子伊予守経久室」（『近世防長諸家系図綜覧』）
 	dynasty=10000561 # Kikkawa
 	father=10056203
 	female=yes
@@ -4989,7 +5100,7 @@
 	}
 }
 10056209 = {
-	name=character_name_10056209 # Mariko #Kasama Gyoubusyouho Nanigashi's wife
+	name=character_name_10056209 # Mariko #Kasama Gyoubusyouho Nanigashi's wife、「笠間刑部少輔室」（『近世防長諸家系図綜覧』）
 	dynasty=10000561 # Kikkawa
 	father=10056203
 	female=yes
@@ -5003,7 +5114,7 @@
 	}
 }
 10056210 = {
-	name=character_name_10056210 # Sakae# Idumo Taga Nanigashi's wife
+	name=character_name_10056210 # Sakae# Idumo Taga Nanigashi's wife、「雲州多賀某室」（『近世防長諸家系図綜覧』）
 	dynasty=10000561 # Kikkawa
 	father=10056203
 	female=yes
@@ -5017,7 +5128,7 @@
 	}
 }
 10056211 = {
-	name=character_name_10056211 # Shinobu #Okawachi Kiyonobu's wife
+	name=character_name_10056211 # Shinobu #Okawachi Kiyonobu's wife、「小河内左京亮清信室」（『近世防長諸家系図綜覧』）
 	dynasty=10000561 # Kikkawa
 	father=10056203
 	female=yes
@@ -5031,7 +5142,7 @@
 	}
 }
 10056212 = {
-	name=character_name_10056212 # Tsunemori
+	name=character_name_10056212 # Tsunemori,経守
 	dynasty=10000561 # Kikkawa
 	father=10056203
 	religion="shinto"
@@ -5040,14 +5151,19 @@
 		birth=yes
 	}
 	1471.1.1={
-		give_nickname="nick_shichiro"
+		give_nickname="nick_shichiro" # TODO: 「七郎兵衛尉」（『近世防長諸家系図綜覧』）
+	}
+	1485.01.01={
+		dynasty_house="house_shgnt_kikkawa_ishi" # 「称石　岩国石家祖」（『近世防長諸家系図綜覧』）
 	}
 	1535.8.10={
-		death=yes
+		death={
+			death_reason=death_old_age # 「天文6(1537)年十二月十六日卒」（『近世防長諸家系図綜覧』）
+		}
 	}
 }
 10056213 = {
-	name=character_name_10056213 # Hikaru #Watanuki Tadasumi's wife
+	name=character_name_10056213 # Hikaru #Watanuki Tadasumi's wife、「綿貫周防守忠澄室」（『近世防長諸家系図綜覧』）
 	dynasty=10000561 # Kikkawa
 	father=10056203
 	female=yes
@@ -5056,24 +5172,14 @@
 	1460.1.1={
 		birth=yes
 	}
-	1476.1.1={
-		give_nickname="nick_Matajuro"
-	}
-	1480.1.1={
-		give_nickname="nick_danjo_daichu"
-	}
-	1490.1.1={
-		give_nickname="nick_chikuzen_no_kami"
-	}
-	1500.1.1={
-		give_nickname="nick_aki_no_kami"
-	}
-	1530.1.1={
-		death=yes
+	1538.01.16={
+		death={
+			death_reason=death_old_age # 「天文6(1537)年十二月十六日卒」（『近世防長諸家系図綜覧』）
+		}
 	}
 }
 10056214 = {
-	name=character_name_10056214 # Mitsutsune 
+	name=character_name_10056214 # Mitsutsune,光経、「初光維　或光継」（『近世防長諸家系図綜覧』）
 	dynasty=10000561 # Kikkawa
 	father=10056203
 	religion="shinto"
@@ -5082,14 +5188,19 @@
 		birth=yes
 	}
 	1500.1.1={
-		give_nickname="nick_kawachi_no_kami"
+		give_nickname="nick_kawachi_no_kami" # 「河内守」（『近世防長諸家系図綜覧』）
+	}
+	1500.01.01={ # 「称国衙　岩国国衙家祖」（『近世防長諸家系図綜覧』）
+		dynasty_house="house_shgnt_kikkawa_kokuga"
 	}
 	1560.2.7={
-		death=yes
+		death={
+			death_reason=death_old_age # 「永禄3(1560)年正月十一日卒」（『近世防長諸家系図綜覧』）
+		}
 	}
 }
 10056215 = {
-	name=character_name_10056215 # Sumi# Misu Kiyonari's wife
+	name=character_name_10056215 # Sumi# Misu Kiyonari's wife、「飯室　三須孫兵衛清成室」（『近世防長諸家系図綜覧』）
 	dynasty=10000561 # Kikkawa
 	father=10056203
 	female=yes
@@ -5103,7 +5214,7 @@
 	}
 }
 10056216 = {
-	name=character_name_10056216 # Tsunehisa
+	name=character_name_10056216 # Tsunehisa,経久、「或経純」（『近世防長諸家系図綜覧』）
 	dynasty=10000561 # Kikkawa
 	father=10056203
 	religion="shinto"
@@ -5112,17 +5223,23 @@
 		birth=yes
 	}
 	1520.1.1={
-		give_nickname="nick_omi_no_kami"
+		give_nickname="nick_omi_no_kami" # 「近江守」（『近世防長諸家系図綜覧』）
+	}
+	# TODO: 「室　山名左衛門佐某女」（『近世防長諸家系図綜覧』）
+	1520.01.01={
+		dynasty_house="house_shgnt_kikkawa_eda" # TODO: 「称江田　岩国江田家祖」（『近世防長諸家系図綜覧』）
 	}
 	1530.1.1={
-		give_nickname="nick_hoki_no_kami"
+		give_nickname="nick_hoki_no_kami" # 「伯耆守」（『近世防長諸家系図綜覧』）
 	}
 	1542.4.14={
-		death=yes
+		death={
+			death_reason=death_natural_causes # 「天文11(1542)年三月廿九日卒」（『近世防長諸家系図綜覧』）
+		}
 	}
 }
 10056217 = {
-	name=character_name_10056217 # Aiko# Namine Yasutsugu's wife
+	name=character_name_10056217 # Aiko# Namine Yasutsugu's wife、「雲州波根遠江守泰次室」（『近世防長諸家系図綜覧』）
 	dynasty=10000561 # Kikkawa
 	father=10056203
 	female=yes
@@ -5136,7 +5253,7 @@
 	}
 }
 10056218 = {
-	name=character_name_10056218 # Tsunenori
+	name=character_name_10056218 # Tsunenori,経法
 	dynasty=10000561 # Kikkawa
 	father=10056203
 	religion="shinto"
@@ -5145,20 +5262,26 @@
 		birth=yes
 	}
 	1516.1.1={
-		give_nickname="nick_Genshiro"
+		give_nickname="nick_Genshiro" # 「源四郎」（『近世防長諸家系図綜覧』）
 	}
 	1520.1.1={
-		give_nickname="nick_minbu_no_sho"
+		give_nickname="nick_minbu_no_sho" # 「民部少輔」（『近世防長諸家系図綜覧』）
 	}
 	1530.1.1={
-		give_nickname="nick_kamon_no_suke"
+		give_nickname="nick_kamon_no_suke" # 「掃部助」（『近世防長諸家系図綜覧』）
+	}
+	# TODO: 「室　山県土佐守信政女」（『近世防長諸家系図綜覧』）
+	1530.01.01={
+		dynasty_house="house_shgnt_kikkawa_ikada" # TODO: 「称筏　岩国筏家祖」（『近世防長諸家系図綜覧』）
 	}
 	1569.10.19={
-		death=yes
+		death={
+			death_reason=death_old_age # 「永禄12(1569)年九月十日卒」（『近世防長諸家系図綜覧』）
+		}
 	}
 }
 10056219 = {
-	name=character_name_10056219 # Kimie# Kehi shrine daiguji's wife
+	name=character_name_10056219 # Kimie# Kehi shrine daiguji's wife、「越前気比大宮司某室」（『近世防長諸家系図綜覧』）
 	dynasty=10000561 # Kikkawa
 	father=10056203
 	female=yes
@@ -5172,7 +5295,7 @@
 	}
 }
 10056220 = {
-	name=character_name_10056220 # Futo# Washizu Kampaku Kanetsugu's wife
+	name=character_name_10056220 # Futo# Washizu Kampaku Kanetsugu's wife、「鷹司関白兼輔室（万里小路賢房室イ）」（『近世防長諸家系図綜覧』）
 	dynasty=10000561 # Kikkawa
 	father=10056203
 	female=yes
@@ -5186,7 +5309,7 @@
 	}
 }
 10056221 = {
-	name=character_name_10056221 # Tsunenaga
+	name=character_name_10056221 # Tsunenaga,経長
 	dynasty=10000561 # Kikkawa
 	father=10056202
 	trait="education_martial_1"
@@ -5196,14 +5319,20 @@
 		birth=yes
 	}
 	1490.1.1={
-		give_nickname="nick_okura_daihu"
+		give_nickname="nick_okura_daihu" # 「大蔵太輔」（『近世防長諸家系図綜覧』）
 	}
-	1530.1.1={
-		death=yes
+	1500.01.01={
+		dynasty_house="house_shgnt_kikkawa_otsuka" # TODO: 「称大塚　岩国大塚家祖」（『近世防長諸家系図綜覧』）
+	}
+	1522.04.02={
+		death={
+			death_reason=death_battle # 「大永2(1522)年三月六日備中赤屋ニテ戦死」（『近世防長諸家系図綜覧』）
+			# TODO: killer=
+		}
 	}
 }
 10056222 = {
-	name=character_name_10056222 # Tsuneyo
+	name=character_name_10056222 # Tsuneyo,経世
 	dynasty=10000561 # Kikkawa
 	father=10056202
 	trait="education_martial_1"
@@ -5213,14 +5342,20 @@
 		birth=yes
 	}
 	1540.1.1={
-		give_nickname="nick_izu_no_kami"
+		give_nickname="nick_izu_no_kami" # 「伊予守」（『近世防長諸家系図綜覧』）
 	}
+	1520.01.01={
+		dynasty_house="house_shgnt_kikkawa_1" # TODO: 「岩国老臣吉川家祖　子孫或称市川　福山（経好）」（『近世防長諸家系図綜覧』）
+	}
+	# TODO: 「室　境山城主経重女」（『近世防長諸家系図綜覧』）
 	1566.11.10={
-		death=yes
+		death={
+			death_reason=death_old_age # 「永禄9(1566)年九月廿九日卒」（『近世防長諸家系図綜覧』）
+		}
 	}
 }
 10056223 = {
-	name=character_name_10056223 # Nagako #Fukuya Takakane's wife
+	name=character_name_10056223 # Nagako #Fukuya Takakane's wife、「石州福屋越中守隆兼室」（『近世防長諸家系図綜覧』）
 	dynasty=10000561 # Kikkawa
 	father=10056202
 	female=yes
@@ -5231,11 +5366,13 @@
 		birth=yes
 	}
 	1530.1.1={
-		death=yes
+		death={
+			death_reason=death_natural_causes
+		}
 	}
 }
 10056224 = {
-	name=character_name_10056224 # Myoukyu #Mori Motonari's wife
+	name=character_name_10056224 # Myoukyu #Mori Motonari's wife、「毛利陸奥守元就室」（『近世防長諸家系図綜覧』）
 	dynasty=10000561 # Kikkawa
 	father=10056202
 	female=yes
@@ -5246,11 +5383,13 @@
 		birth=yes
 	}
 	1546.1.1={
-		death=yes
+		death={
+			death_reason=death_natural_causes # 「天文14(1545)年十一月晦日卒47法号成室妙玖」（『近世防長諸家系図綜覧』）
+		}
 	}
 }
 10056225 = {
-	name=character_name_10056225 # Yae #Takeda Mitsukazu's wife
+	name=character_name_10056225 # Yae #Takeda Mitsukazu's wife、「芸州武田刑部少輔光和室」（『近世防長諸家系図綜覧』）
 	dynasty=10000561 # Kikkawa
 	father=10056201
 	mother=10056008 # Mori Matsuko, daughter of Mori Hiromoto
@@ -5261,12 +5400,12 @@
 	1510.1.1={
 		birth=yes
 	}
-	1570.1.1={
-		death=yes
+	1559.1.1={
+		death=yes # 「永禄2(1559)年卒　法号昌岩妙秀」（『近世防長諸家系図綜覧』）
 	}
 }
 10056226 = {
-	name=character_name_10056226 # Miyuki #Yamagata Mitsuyori's wife
+	name=character_name_10056226 # Miyuki #Yamagata Mitsuyori's wife、「山県上総介光頼室」（『近世防長諸家系図綜覧』）
 	dynasty=10000561 # Kikkawa
 	father=10056201
 	mother=10056008 # Mori Matsuko, daughter of Mori Hiromoto
@@ -5277,12 +5416,14 @@
 	1515.1.1={
 		birth=yes
 	}
-	1570.1.1={
-		death=yes
+	1577.07.07={
+		death={
+			death_reason=death_natural_causes # 「天正5(1577)年六月廿二日卒　法号花桂祐葩」（『近世防長諸家系図綜覧』）
+		}
 	}
 }
 10056227 = {
-	name=character_name_10056227 # Myouko #Ogasawara Nagakatsu(55702)'s wife
+	name=character_name_10056227 # Myouko #Ogasawara Nagakatsu(55702)'s wife、「石州小笠原弥次郎長雄室」（『近世防長諸家系図綜覧』）
 	dynasty=10000561 # Kikkawa
 	father=10056201
 	mother=10056008 # Mori Matsuko, daughter of Mori Hiromoto
@@ -5294,12 +5435,14 @@
 		birth=yes
 	}
 	1570.1.1={
-		death=yes
+		death={
+			death_reason=death_natural_causes
+		}
 	}
 }
 10056228 = {
 	name=character_name_10056228 # Tsuneyoshi
-	dynasty=10000887 # Ichikawa
+	dynasty_house="house_shgnt_kikkawa_1"
 	father=10056222
 	religion="shinto"
 	culture="western_chugoku"
@@ -5308,13 +5451,17 @@
 	1520.1.1={
 		birth=yes
 	}
+	1540.01.01={
+		dynasty_house="house_shgnt_kikkawa_ichikawa"
+	}
 	1584.1.1={
 		death=yes
 	}
 }
 10056229 = {
 	name=character_name_10056229 # Tsunetaka
-	dynasty=10000561 # Kikkawa
+	#dynasty=10000561 # Kikkawa
+	dynasty_house="house_shgnt_kikkawa_1"
 	father=10056222
 	trait="education_martial_1"
 	trait="brave"
@@ -5328,7 +5475,7 @@
 	}
 }
 10056230 = {
-	name=character_name_10056230 # Tsunenobu 
+	name=character_name_10056230 # Tsunenobu,経信
 	dynasty=10000561 # Kikkawa
 	father=10056231
 	mother=10056232
@@ -5338,13 +5485,27 @@
 	1400.1.1={
 		birth=yes
 	}
+	1416.01.01={
+		give_nickname="" # 「次郎三郎」（『近世防長諸家系図綜覧』）
+	}
+	1420.01.01={
+		give_nickname="nick_jibu_no_sho" # 「治部少輔」（『近世防長諸家系図綜覧』）
+	}
+	# dynasty_house="" # 「初称鳴滝」（『近世防長諸家系図綜覧』）
+	# TODO: 「室　小笠原修理大夫長徳女」（『近世防長諸家系図綜覧』）
+	1435.01.01={
+		give_nickname="nick_suruga_no_kami" # 「駿河守」（『近世防長諸家系図綜覧』）
+	}
 	1456.3.16={
-		death=yes
+		death={
+			death_reason=death_natural_causes # 「康正2(1456)年二月二十日卒61」（『近世防長諸家系図綜覧』）
+		}
 	}
 }
 10056231 = {
-	name=character_name_10056231 # Tsunemi 
-	dynasty=10000561 # Kikkawa
+	name=character_name_10056231 # Tsunemi,経見
+	#dynasty=10000561 # Kikkawa
+	dynasty_house="house_shgnt_kikkawa_iwami"
 	father=10056241
 	trait="education_martial_1"
 	religion="shinto"
@@ -5352,15 +5513,21 @@
 	1350.1.1={
 		birth=yes
 	}
+	1370.01.01={
+		give_nickname="nick_sahyoe_no_jo" # 「左兵衛尉」（『近世防長諸家系図綜覧』）
+	}
 	1390.1.1={
-		add_spouse=10056232
+		add_matrilineal_spouse=10056232 # 「実石州永安別府吉川駿河守経兼長男　経秋無男子　因テ其女弥徳ニ妻ハシヨウシトナス」（『近世防長諸家系図綜覧』）
+		give_nickname="nick_suruga_no_kami" # 「駿河守　入道法秀」（『近世防長諸家系図綜覧』）
 	}
 	1435.2.21={
-		death=yes
+		death={
+			death_reason=death_old_age # 「永享7(1435)年正月廿三日卒」（『近世防長諸家系図綜覧』）
+		}
 	}
 }
 10056232 = {
-	name=character_name_10056232 # Iyatoku 
+	name=character_name_10056232 # Iyatoku,弥徳
 	dynasty=10000561 # Kikkawa
 	father=10056233
 	female=yes
@@ -5370,12 +5537,15 @@
 	1370.1.1={
 		birth=yes
 	}
+	# 「吉川経見室」
 	1440.2.21={
-		death=yes
+		death={
+			death_reason=death_old_age # 「宝徳4(1452)年十月十九日卒92イ」（『近世防長諸家系図綜覧』）
+		}
 	}
 }
 10056233 = {
-	name=character_name_10056233 # Tsuneaki 
+	name=character_name_10056233 # Tsuneaki,経秋
 	dynasty=10000561 # Kikkawa
 	father=10056234
 	trait="education_martial_1"
@@ -5384,12 +5554,21 @@
 	1320.1.1={
 		birth=yes
 	}
+	1336.01.01={
+		give_nickname="nick_Gorojiro" # 「五郎次郎（イ五郎三郎）」（『近世防長諸家系図綜覧』）
+	}
+	# TODO: 「室　庄駿河入道某女（応永19(1412)年十月廿四日卒67イ）」（『近世防長諸家系図綜覧』）
+	1350.01.01={
+		give_nickname="nick_suruga_no_kami" # 「駿河守」（『近世防長諸家系図綜覧』）
+	}
 	1383.1.7={
-		death=yes
+		death={
+			death_reason=death_natural_causes # 「永徳3(1383)年十二月四日卒　法号道心　西禅寺ニ葬ル」（『近世防長諸家系図綜覧』）
+		}
 	}
 }
 10056234 = {
-	name=character_name_10056234 # Tsunemori 
+	name=character_name_10056234 # Tsunemori,経盛、「益熊丸」（『近世防長諸家系図綜覧』）
 	dynasty=10000561 # Kikkawa
 	father=10056235
 	trait="education_martial_1"
@@ -5398,15 +5577,20 @@
 	1280.1.1={
 		birth=yes
 	}
+	1296.01.01={
+		give_nickname="nick_Gorojiro" # 「五郎次郎（イ五郎三郎）」（『近世防長諸家系図綜覧』）
+	}
 	1318.1.1={
-		add_spouse=10056253
+		add_spouse=10056253 # 「室　吉川次郎太郎経茂女」（『近世防長諸家系図綜覧』）
 	}
 	1357.11.3={
-		death=yes
+		death={
+			death_reason=death_old_age # 「延文3(1358)年八月三日卒69　法号如空　西禅寺ニ葬ル」（『近世防長諸家系図綜覧』）
+		}
 	}
 }
 10056235 = {
-	name=character_name_10056235 # Tsunetaka 
+	name=character_name_10056235 # Tsunetaka,経高、「手子熊丸」（『近世防長諸家系図綜覧』）
 	dynasty=10000561 # Kikkawa
 	father=10056236
 	trait="education_martial_1"
@@ -5415,83 +5599,139 @@
 	1238.1.1={
 		birth=yes
 	}
+	1254.01.01={
+		give_nickname="nick_jio" # 「次郎」（『近世防長諸家系図綜覧』）
+	}
+	1268.01.01={
+		give_nickname="nick_izu_no_kami" # 「伊豆守　入道一心」（『近世防長諸家系図綜覧』）
+	}
+	1274.01.01={
+		culture="western_chugoku" # 「始テ駿河ヨリ芸州ニ移リ山県郡大朝新庄ニ在城シ居ル」（『近世防長諸家系図綜覧』）
+	}
 	1323.9.3={
-		death=yes
+		death={
+			death_reason=death_old_age # 「元応元(1319)年十月廿六日卒　芸州新荘西禅寺ニ葬ル（弘安8(1285)年イ）」（『近世防長諸家系図綜覧』）
+		}
 	}
 }
 10056236 = {
-	name=character_name_10056236 # Tsunemitsu 
+	name=character_name_10056236 # Tsunemitsu,経光
 	dynasty=10000561 # Kikkawa
-	father=10056242
+	father=10056242 # 吉川朝経
 	trait="education_martial_1"
 	religion="shinto"
 	culture = "tokai"
 	1200.1.1={
 		birth=yes
 	}
+	1216.01.01={
+		give_nickname="" # 「弥次郎　或左衛門次郎　入道慈願」（『近世防長諸家系図綜覧』）
+	}
 	1268.10.24={
-		death=yes
+		death={
+			death_reason=death_old_age # 「文永4(1267)年九月十七日卒76（イ弘安8(1285)年）　法号慈願　安養寺ニ葬ル」（『近世防長諸家系図綜覧』）
+		}
 	}
 }
 10056237 = {
-	name=character_name_10056237 # Tsunemori 
+	name=character_name_10056237 # Tsunemori,経盛
 	dynasty=10000561 # Kikkawa
 	father=10056236
 	trait="education_martial_1"
 	religion="shinto"
-	culture="western_chugoku"
+	culture="tokai"
 	1250.1.1={
 		birth=yes
 	}
-	1322.11.13={
-		death=yes
+	1266.01.01={
+		give_nickname="nick_Magojio" # 「孫次郎」
 	}
+	1274.01.01={
+		culture="western_chugoku"
+	}
+	1322.11.13={
+		death={
+			death_reason=death_old_age
+		} # 「元亨2(1322)年十月四日卒」
+	}
+	# 「旧岩国藩士境新家祖」（『近世防長諸家系図綜覧』）
 }
 10056238 = {
-	name=character_name_10056238 # Tsuneshige #Iwami Kikkawa line's ancestor
+	name=character_name_10056238 # Tsuneshige,経茂 #Iwami Kikkawa line's ancestor
 	dynasty=10000561 # Kikkawa
 	father=10056236
 	trait="education_martial_1"
 	religion="shinto"
-	culture="western_chugoku"
+	culture="tokai"
 	1260.1.1={
 		birth=yes
 	}
-	1320.1.1={
-		death=yes
+	1274.01.01={
+		culture="western_chugoku"
 	}
+	1276.01.01={
+		give_nickname="nick_Jirotaro" # 「次郎太郎」（『近世防長諸家系図綜覧』）
+	}
+	# TODO: 「石見永安彦次郎兼栄女ヲ娶ル」（『近世防長諸家系図綜覧』）
+	1290.01.01={
+		dynasty_house="house_shgnt_kikkawa_iwami"
+	}
+	1320.1.1={
+		death={
+			death_reason=death_natural_causes
+		}
+	}
+	# 「石州吉川ト称ス、旧岩国家老吉川十兵衛家祖」（『近世防長諸家系図綜覧』）
 }
 10056239 = {
-	name=character_name_10056239 # Tsunenobu 
+	name=character_name_10056239 # Tsunenobu,経信
 	dynasty=10000561 # Kikkawa
 	father=10056236
 	trait="education_martial_1"
 	religion="shinto"
-	culture="western_chugoku"
+	culture="tokai"
 	1265.1.1={
 		birth=yes
 	}
-	1325.1.1={
-		death=yes
+	1274.01.01={
+		culture="western_chugoku"
 	}
+	1281.01.01={
+		give_nickname="nick_shiro" # 「四郎」（『近世防長諸家系図綜覧』）
+	}
+	1325.1.1={
+		death={
+			death_reason=death_natural_causes
+		}
+	}
+	# 「旧岩国藩士吉川務家祖」（『近世防長諸家系図綜覧』）
 }
 10056240 = {
-	name=character_name_10056240 # Tsunetoki 
+	name=character_name_10056240 # Tsunetoki,経時
 	dynasty=10000561 # Kikkawa
 	father=10056236
 	trait="education_martial_1"
 	religion="shinto"
-	culture="western_chugoku"
+	culture="tokai"
 	1268.1.1={
 		birth=yes
 	}
-	1324.1.1={
-		death=yes
+	1274.01.01={
+		culture="western_chugoku"
+	}
+	1284.01.01={
+		give_nickname="nick_Kojio" # 「小次郎」（『近世防長諸家系図綜覧』）
+	}
+	1355.1.1={
+		death={
+			death_reason=death_old_age # 「文和4(1355)年卒」（『近世防長諸家系図綜覧』）
+		}
 	}
 }
 10056241 = {
 	name=character_name_10056241 # Tsunekane 
-	dynasty=10000561 # Kikkawa
+	#dynasty=10000561 # Kikkawa
+	dynasty_house="house_shgnt_kikkawa_iwami"
 	father=10056238
 	trait="education_martial_1"
 	religion="shinto"
@@ -5504,7 +5744,7 @@
 	}
 }
 10056242 = {
-	name=character_name_10056242 # Tomotsune 
+	name=character_name_10056242 # Tomotsune,朝経、「初経兼」（『近世防長諸家系図綜覧』）
 	dynasty = 10006001	#Irie
 	father=10056243
 	trait="education_martial_1"
@@ -5516,12 +5756,18 @@
 	1183.1.1 = {
 		dynasty =10000561	#Kikkawa Clan
 	}
+	# TODO: 「室　船越三郎女」（『近世防長諸家系図綜覧』）
+	1205.01.01={
+		give_nickname="nick_the_saemon_no_jo" # 「左衛門尉」（『近世防長諸家系図綜覧』）
+	}
 	1240.10.19={
-		death=yes
+		death={
+			death_reason=death_natural_causes # 「仁治元(1240)年十月三日卒59　法号常全　安養寺ニ葬ル」（『近世防長諸家系図綜覧』）
+		}
 	}
 }
 10056243 = {
-	name=character_name_10056243 # Tomokane 
+	name=character_name_10056243 # Tomokane,友兼、「或兼友」（『近世防長諸家系図綜覧』）
 	dynasty = 10006001	#Irie
 	father=10130140
 	trait="education_martial_1"
@@ -5531,18 +5777,26 @@
 		birth=yes
 	}
 	1175.1.1={
-		give_nickname="nick_Kojio"
+		give_nickname="nick_Kojio" # 「小次郎」（『近世防長諸家系図綜覧』）
 	}
 	1183.1.1 = {
 		dynasty =10000561	#Kikkawa Clan
 	}
+	# TODO: 「室　二階堂民部大輔行盛女」（『近世防長諸家系図綜覧』）
+	1189.01.01={
+		give_nickname="nick_the_saemon_no_jo" # 「左衛門尉」（『近世防長諸家系図綜覧』）
+	}
 	1200.2.7={
-		death=yes
+		death={
+			death_reason=death_wounds # 「正治2(1200)年正月廿一日42　法号道哲　安養寺ニ葬ル」（『近世防長諸家系図綜覧』）
+			killer=12215122 # 梶原景茂
+		}
 	}
 }
 10056244 = {
 	name=character_name_10056244 # Motonaga
-	dynasty=10000561 # Kikkawa
+	#dynasty=10000561 # Kikkawa
+	dynasty_house="house_shgnt_mori_kikkawa"
 	father=10056015 # Kikkawa Motoharu
 	mother=10057911
 	martial=9
@@ -5567,7 +5821,8 @@
 }
 10056245 = {
 	name=character_name_10056245 # Motouji
-	dynasty=10000561 # Kikkawa
+	#dynasty=10000561 # Kikkawa
+	dynasty_house="house_shgnt_mori_kikkawa"
 	father=10056015 # Kikkawa Motoharu
 	mother=10057911
 	martial=9
@@ -5594,7 +5849,8 @@
 }
 10056246 = {
 	name=character_name_10056246 # Hiroie
-	dynasty=10000561 # Kikkawa
+	#dynasty=10000561 # Kikkawa
+	dynasty_house="house_shgnt_mori_kikkawa"
 	father=10056015 # Kikkawa Motoharu
 	mother=10057911
 	martial=9
@@ -5621,7 +5877,8 @@
 }
 10056247 = {
 	name=character_name_10056247 # Hiroko # Susa Masuda Genbanokami Motonaga's wife
-	dynasty=10000561 # Kikkawa
+	#dynasty=10000561 # Kikkawa
+	dynasty_house="house_shgnt_mori_kikkawa"
 	female=yes
 	father=10056015 # Kikkawa Motoharu
 	martial=9
@@ -5642,7 +5899,8 @@
 }
 10056248 = {
 	name=character_name_10056248 # Haruko # Yoshimi Jirohyoue Motoyori's wife
-	dynasty=10000561 # Kikkawa
+	#dynasty=10000561 # Kikkawa
+	dynasty_house="house_shgnt_mori_kikkawa"
 	female=yes
 	father=10056015 # Kikkawa Motoharu
 	martial=9
@@ -5663,7 +5921,8 @@
 }
 10056249 = {
 	name=character_name_10056249 # Matsujumaru
-	dynasty=10000561 # Kikkawa
+	#dynasty=10000561 # Kikkawa
+	dynasty_house="house_shgnt_mori_kikkawa"
 	father=10056015 # Kikkawa Motoharu
 	trait="education_diplomacy_1"
 	religion="shinto"
@@ -5677,7 +5936,8 @@
 }
 10056250 = {
 	name=character_name_10056250 # Motonori
-	dynasty=10000887 # Ichikawa
+	#dynasty=10000887 # Ichikawa
+	dynasty_house="house_shgnt_kikkawa_ichikawa"
 	father=10056228
 	trait="education_martial_1"
 	trait="ambitious"
@@ -5692,7 +5952,8 @@
 }
 10056251 = {
 	name=character_name_10056251 # Motoyoshi
-	dynasty=10000887 # Ichikawa
+	#dynasty=10000887 # Ichikawa
+	dynasty_house="house_shgnt_kikkawa_ichikawa"
 	father=10056228
 	trait="education_martial_1"
 	religion="shinto"
@@ -5706,7 +5967,8 @@
 }
 10056252 = {
 	name=character_name_10056252 # Tsunehide 
-	dynasty=10000561 # Kikkawa
+	#dynasty=10000561 # Kikkawa
+	dynasty_house="house_shgnt_kikkawa_iwami"
 	father=10056238
 	trait="education_martial_1"
 	religion="shinto"
@@ -5720,7 +5982,8 @@
 }
 10056253 = {
 	name=character_name_10056253 # Nao #Kikkawa Tsunemori's wife 
-	dynasty=10000561 # Kikkawa
+	#dynasty=10000561 # Kikkawa
+	dynasty_house="house_shgnt_kikkawa_iwami"
 	father=10056238
 	female=yes
 	trait="education_martial_1"
@@ -5735,7 +5998,8 @@
 }
 10056254 = {
 	name=character_name_10056254 # Tsuneyo 
-	dynasty=10000561 # Kikkawa
+	#dynasty=10000561 # Kikkawa
+	dynasty_house="house_shgnt_kikkawa_iwami"
 	father=10056252
 	trait="education_martial_1"
 	religion="shinto"
@@ -5749,7 +6013,8 @@
 }
 10056256 = {
 	name=character_name_10056256 # Tsuneuji #1380/12/27, Kami of Omi
-	dynasty=10000561 # Kikkawa
+	#dynasty=10000561 # Kikkawa
+	dynasty_house="house_shgnt_kikkawa_iwami"
 	father=10056254
 	trait="education_martial_1"
 	religion="shinto"
@@ -5763,7 +6028,8 @@
 }
 10056257 = {
 	name=character_name_10056257 # Tsuneyoshi
-	dynasty=10000561 # Kikkawa
+	#dynasty=10000561 # Kikkawa
+	dynasty_house="house_shgnt_kikkawa_iwami"
 	father=10056256
 	trait="education_martial_1"
 	religion="shinto"
@@ -5777,7 +6043,8 @@
 }
 10056258 = {
 	name=character_name_10056258 # Tsuneyasu
-	dynasty=10000561 # Kikkawa
+	#dynasty=10000561 # Kikkawa
+	dynasty_house="house_shgnt_kikkawa_iwami"
 	father=10056257
 	trait="education_martial_1"
 	religion="shinto"
@@ -5791,7 +6058,8 @@
 }
 10056259 = {
 	name=character_name_10056259 # Tsunesuke
-	dynasty=10000561 # Kikkawa
+	#dynasty=10000561 # Kikkawa
+	dynasty_house="house_shgnt_kikkawa_iwami"
 	father=10056258
 	trait="education_martial_1"
 	religion="shinto"
@@ -5805,7 +6073,8 @@
 }
 10056260 = {
 	name=character_name_10056260 # Tsunenori
-	dynasty=10000561 # Kikkawa
+	#dynasty=10000561 # Kikkawa
+	dynasty_house="house_shgnt_kikkawa_iwami"
 	father=10056259
 	trait="education_martial_1"
 	religion="shinto"
@@ -5819,7 +6088,8 @@
 }
 10056261 = {
 	name=character_name_10056261 # Miki #Kuri Awajinokami's wife
-	dynasty=10000561 # Kikkawa
+	#dynasty=10000561 # Kikkawa
+	dynasty_house="house_shgnt_kikkawa_iwami"
 	father=10056259
 	female=yes
 	trait="education_martial_1"
@@ -5834,7 +6104,8 @@
 }
 10056262 = {
 	name=character_name_10056262 # Tsuneyasu
-	dynasty=10000561 # Kikkawa
+	#dynasty=10000561 # Kikkawa
+	dynasty_house="house_shgnt_kikkawa_iwami"
 	father=10056260
 	martial=10
 	diplomacy=7
@@ -5859,7 +6130,8 @@
 }
 10056263 = {
 	name=character_name_10056263 # Katsue #Kikkawa Tsuneyasu's wife
-	dynasty=10000561 # Kikkawa
+	#dynasty=10000561 # Kikkawa
+	dynasty_house="house_shgnt_kikkawa_iwami"
 	father=10056260
 	female=yes
 	trait="education_martial_1"
@@ -5874,7 +6146,8 @@
 }
 10056264 = {
 	name=character_name_10056264 # Tsuneie
-	dynasty=10000561 # Kikkawa
+	#dynasty=10000561 # Kikkawa
+	dynasty_house="house_shgnt_kikkawa_iwami"
 	father=10056262
 	mother=10056263
 	martial=9
@@ -5900,7 +6173,8 @@
 }
 10056265 = {
 	name=character_name_10056265 # Tsunesae
-	dynasty=10000561 # Kikkawa
+	#dynasty=10000561 # Kikkawa
+	dynasty_house="house_shgnt_kikkawa_iwami"
 	father=10056264
 	martial=7
 	diplomacy=6
@@ -5920,7 +6194,8 @@
 }
 10056266 = {
 	name=character_name_10056266 # Ietane
-	dynasty=10000561 # Kikkawa
+	#dynasty=10000561 # Kikkawa
+	dynasty_house="house_shgnt_kikkawa_iwami"
 	father=10056264
 	martial=7
 	diplomacy=6
@@ -5940,7 +6215,8 @@
 }
 10056267 = {
 	name=character_name_10056267 # Ieyoshi
-	dynasty=10000561 # Kikkawa
+	#dynasty=10000561 # Kikkawa
+	dynasty_house="house_shgnt_kikkawa_iwami"
 	father=10056264
 	martial=7
 	diplomacy=6
@@ -5960,7 +6236,8 @@
 }
 10056268 = {
 	name=character_name_10056268 # Achako #Tsuno Ieyori's wife
-	dynasty=10000561 # Kikkawa
+	#dynasty=10000561 # Kikkawa
+	dynasty_house="house_shgnt_kikkawa_iwami"
 	father=10056264
 	female=yes
 	martial=7
@@ -5981,7 +6258,8 @@
 }
 10056269 = {
 	name=character_name_10056269 # Kameko #Awaya Kaganokami's wife
-	dynasty=10000561 # Kikkawa
+	#dynasty=10000561 # Kikkawa
+	dynasty_house="house_shgnt_kikkawa_iwami"
 	father=10056264
 	female=yes
 	martial=7
@@ -6002,7 +6280,8 @@
 }
 10056270 = {
 	name=character_name_10056270 # Tokuko #Fukutomi Harukata's wife
-	dynasty=10000561 # Kikkawa
+	#dynasty=10000561 # Kikkawa
+	dynasty_house="house_shgnt_kikkawa_iwami"
 	father=10056264
 	female=yes
 	martial=7
