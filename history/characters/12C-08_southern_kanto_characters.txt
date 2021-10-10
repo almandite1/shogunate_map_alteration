@@ -5437,7 +5437,7 @@
 	}
 }
 12215120={
-	name=character_name_12215120 # Kagesue
+	name=character_name_12215120 # Kagesue,景季
 #	dynasty=10007076 # Kajiwara
 	dynasty_house = house_shgnt_kajiwara # Kajiwara
 	father=12215110 # Kajiwara Kagetoki
@@ -5462,7 +5462,7 @@
 	}
 }
 12215121={
-	name=character_name_12215121 # Kagetaka
+	name=character_name_12215121 # Kagetaka,景高
 #	dynasty=10007076 # Kajiwara
 	dynasty_house = house_shgnt_kajiwara # Kajiwara
 	father=12215110 # Kajiwara Kagetoki
@@ -5483,7 +5483,7 @@
 	}
 }
 12215122={
-	name=character_name_12215122 # Kagemochi
+	name=character_name_12215122 # Kagemochi, 景茂
 #	dynasty=10007076 # Kajiwara
 	dynasty_house = house_shgnt_kajiwara # Kajiwara
 	father=12215110 # Kajiwara Kagetoki
@@ -5495,6 +5495,7 @@
 	1200.2.6={
 		death={
 			death_reason=death_battle
+			killer=10056243 # 吉川友兼
 		}
 	}
 }
@@ -12730,7 +12731,7 @@
 	}
 }
 12221013 = {
-	name=character_name_12221013 # Suemitsu
+	name=character_name_12221013 # Suemitsu,季光
 	dynasty=10005810 # Oe
 	father=10220001 #Oe Hiromoto
 	martial=8
@@ -12745,16 +12746,18 @@
 		birth=yes
 	}
 	1218.1.1={
-		give_nickname="nick_shiro"
+		give_nickname="nick_shiro" # 「四郎」（『近世防長諸家系図綜覧』）
 		add_spouse=12211062 # daughter of Miura Yoshimura
 	}
 	1225.1.1={
 		effect = {
-			add_trait = "jugoi_ge"
+			add_trait = "jugoi_ge" # 「従五位下」（『近世防長諸家系図綜覧』）
 		}
+		give_nickname="nick_the_sakonoe_shogen" # 「豊後守　左近将監　蔵人」（『近世防長諸家系図綜覧』）
 	}
+	# 「入道西阿　初号浄阿　関東評定衆」（『近世防長諸家系図綜覧』）
 	1230.1.1={
-		dynasty=10000560 # Mori
+		dynasty=10000560 # Mori、「始称毛利　自広元朝臣以来依領相模国愛甲郡毛利庄也」（『近世防長諸家系図綜覧』）
 	}
 	1232.1.1={
 		effect = {
@@ -12763,7 +12766,7 @@
 	}
 	1247.7.8={
 		death={
-			death_reason=death_suicide
+			death_reason=death_suicide # 宝治合戦で敗北し自殺
 		}
 	}
 }
@@ -13218,7 +13221,7 @@
 	}
 }
 12221100 = {
-	name=character_name_12221100 # Hiromitsu
+	name=character_name_12221100 # Hiromitsu,広光
 	dynasty=10000560 # Mori
 	father=12221013 # Mori Suemitsu
 	mother=12211062 # daughter of Miura Yoshimura
@@ -13234,24 +13237,24 @@
 		birth=yes
 	}
 	1236.1.1={
-		give_nickname="nick_uhyoe_no_jo"
+		give_nickname="nick_uhyoe_no_jo" # 「右兵衛大夫」（『近世防長諸家系図綜覧』）
 	}
 	1238.1.1={
 		add_spouse=10131705 # daughter of Hojo Tomotoki
 	}
 	1240.1.1={
 		effect = {
-			add_trait = "jugoi_jo"
+			add_trait = "jugoi_jo" # 「従五位上」（『近世防長諸家系図綜覧』）
 		}
 	}
 	1247.7.8={
 		death={
-			death_reason=death_suicide
+			death_reason=death_suicide # 宝治合戦
 		}
 	}
 }
 12221101 = {
-	name=character_name_12221101 # Yasumitsu
+	name=character_name_12221101 # Yasumitsu,泰光
 	dynasty=10000560 # Mori
 	father=12221013 # Mori Suemitsu
 	mother=12211062 # daughter of Miura Yoshimura
@@ -13267,10 +13270,12 @@
 		birth=yes
 	}
 	1244.1.1={
-		give_nickname="nick_saburo"
+		give_nickname="nick_saburo" # 「三郎　蔵人」（『近世防長諸家系図綜覧』）」
 	}
 	1247.7.8={
-		death=yes
+		death={
+			death_reason=death_suicide # 宝治合戦
+		}
 	}
 }
 12221102 = {
@@ -13290,7 +13295,7 @@
 	}
 }
 12221103 = {
-	name=character_name_12221103 # Tsunemitsu
+	name=character_name_12221103 # Tsunemitsu,経光
 	dynasty=10000560 # Mori
 	father=12221013 # Mori Suemitsu
 	martial=8
@@ -13306,9 +13311,11 @@
 	}
 	1270.1.1={
 		effect = {
-			add_trait = "jugoi_ge"
+			add_trait = "jugoi_ge" # 「従五位下」（『近世防長諸家系図綜覧』）
 		}
+		give_nickname="nick_the_ukonoe_shogen" # 「蔵人　右近将監」（『近世防長諸家系図綜覧』）
 	}
+	# 「入道寂仏　安芸国吉田庄越後国佐橋庄南条地頭職」（『近世防長諸家系図綜覧』）
 	1300.1.1={
 		death=yes
 	}
@@ -13334,7 +13341,7 @@
 	}
 }
 12221105 = {
-	name=character_name_12221105 # Morokatsu
+	name=character_name_12221105 # Morokatsu,師雄
 	dynasty=10000560 # Mori
 	father=12221013 # Mori Suemitsu
 	mother=12211062 # daughter of Miura Yoshimura
@@ -13350,8 +13357,9 @@
 		birth=yes
 	}
 	1270.1.1={
+		#give_nickname="" # TODO: 「大外記」（『近世防長諸家系図綜覧』）
 		effect = {
-			add_trait = "jugoi_ge"
+			add_trait = "jugoi_ge" # 「従五位下」（『近世防長諸家系図綜覧』）
 		}
 	}
 	1279.1.1={

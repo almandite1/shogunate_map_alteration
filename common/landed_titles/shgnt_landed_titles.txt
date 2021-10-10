@@ -3541,14 +3541,14 @@
             c_shgnt_hanzawa = {
                 color = {216 163 95}
                 color2 = {255 255 255}
+                b_shgnt_hanzawa_3 = {
+                    province = 545 # Omaeda,御前田 -> Hanazono,花園城
+                }
                 b_shgnt_hanzawa_1 = {
                     province = 543
                 }
                 b_shgnt_hanzawa_2 = {
                     province = 544
-                }
-                b_shgnt_hanzawa_3 = {
-                    province = 545
                 }
             }
             c_shgnt_musashi_naka = {
@@ -3578,8 +3578,11 @@
             }
         }
         d_shgnt_kozuke = {
-                color = {173 125 76}
-                color2 = {255 255 255}
+            color = {173 125 76}
+            color2 = {255 255 255}
+			
+			capital = c_shgnt_kuruma
+			
             c_shgnt_ohoraki = {
                 color = {173 105 76}
                 color2 = {255 255 255}
@@ -3659,6 +3662,9 @@
             c_shgnt_kuruma = {
                 color = {183 135 76}
                 color2 = {255 255 255}
+                b_shgnt_kuruma_7 = {
+                    province = 981 # Kōzuke Kokufu,上野国府
+                }
                 b_shgnt_kuruma_1 = {
                     province = 975
                 }
@@ -3677,9 +3683,6 @@
 #                b_shgnt_kuruma_6 = {
 #                    province = 980
 #                }
-                b_shgnt_kuruma_7 = {
-                    province = 981
-                }
                 b_shgnt_kuruma_8 = {
                     province = 982
                 }
@@ -3798,6 +3801,9 @@
             c_shgnt_kanra = {
                 color = {173 125 9}
                 color2 = {255 255 255}
+                b_shgnt_kanra_5 = {
+                    province = 1016 # Obata,小幡 -> Kunimine,国峯城
+                }
                 b_shgnt_kanra_1 = {
                     province = 1012
                 }
@@ -3809,9 +3815,6 @@
                 }
                 b_shgnt_kanra_4 = {
                     province = 1015
-                }
-                b_shgnt_kanra_5 = {
-                    province = 1016
                 }
                 b_shgnt_kanra_6 = {
                     province = 1017

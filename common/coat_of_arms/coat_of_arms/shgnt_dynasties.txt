@@ -3956,3 +3956,279 @@ house_shgnt_asakura_ago={ #Asakura
 		instance = { position = { 0.50 0.50 } scale = { 1.0 1.0 }  }
 	}
 }
+house_shgnt_misawa_nunohiro={ #Misawa
+	pattern = "pattern_solid.dds"	
+	color1 = "toou" # 藤黄
+	colored_emblem = {
+		texture = "circular_combo_1.dds"
+		color1 = "black"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+	colored_emblem = {
+		texture = "ce_kaku_cc_1.dds"
+		color1 = "black"
+		instance = { position = { 0.5 0.5 } scale = { 0.68 0.68 }  }
+	}
+}
+house_shgnt_misawa_mitoya={ #梶の葉
+	pattern = "pattern_solid.dds"	
+	color1 = "shiro"
+	colored_emblem = {
+		texture = "ce_kaji_cc_5.dds"
+		color1 = "tsuchi_iro"
+		instance = { position = { 0.50 0.50 } scale = { 1.0 1.0 }  }
+	}
+}
+10000560 = { # 一文字三星
+	pattern = "pattern_solid.dds"	
+	color1 = "shiro"
+	colored_emblem = {
+		texture = "ce_h_mori.dds"
+		color1 = "kuro"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+}
+house_shgnt_aki-mori = { # 一文字三星
+	pattern = "pattern_solid.dds"	
+	color1 = "aka_iro"
+	colored_emblem = {
+		texture = "ce_h_mori.dds"
+		color1 = "shiro"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+}
+house_shgnt_mori_kikkawa={ #Kikkawa
+	pattern = "pattern_solid.dds"	
+	color1 = "white"
+	colored_emblem = {
+		texture = "ce_hikiryou_cn_6.dds"
+		color1 = "blue"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+}
+house_shgnt_mori_kobayakawa={ #Kobayakawa
+	pattern = "pattern_solid.dds"	
+	color1 = "purple"
+	colored_emblem = {
+		texture = "ce_tomoe_cc_13.dds"
+		color1 = "white"
+		instance = { position = { 0.50 0.50 } scale = { 0.9 0.9 }  }
+	}
+}
+house_shgnt_mori_fukubara={ # 一文字三星
+	pattern = "pattern_solid.dds"	
+	color1 = "midori_iro"
+	colored_emblem = {
+		texture = "ce_h_mori.dds"
+		color1 = "kuro"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+}
+house_shgnt_mori_saka={ # 一文字三星
+	pattern = "pattern_solid.dds"	
+	color1 = "ki_iro"
+	colored_emblem = {
+		texture = "ce_h_mori.dds"
+		color1 = "kuro"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+}
+house_shgnt_mori_yasuda={ # 一文字三星
+	pattern = "pattern_solid.dds"	
+	color1 = "kurenai"
+	colored_emblem = {
+		texture = "ce_h_mori.dds"
+		color1 = "kuro"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+}
+house_shgnt_mori_yasuda2={ # 一文字三星
+	pattern = "pattern_solid.dds"	
+	color1 = "kurenai"
+	colored_emblem = {
+		texture = "ce_h_mori.dds"
+		color1 = "kuro"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+}
+10000330=house_shgnt_mori_yasuda2
+house_shgnt_mori_kitajo={ #Kitajo
+	pattern = "pattern_solid.dds"	
+	color1 = "white"
+	colored_emblem = {
+		texture = "ce_h_mori.dds"
+		color1 = "red"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+}
+house_shgnt_mori_nagaya={ # 一文字三星
+	pattern = "pattern_solid.dds"	
+	color1 = "akane_iro"
+	colored_emblem = {
+		texture = "ce_h_mori.dds"
+		color1 = "kuro"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+}
+house_shgnt_mori_aio={ # 一文字三星
+	pattern = "pattern_solid.dds"	
+	color1 = "suo"
+	colored_emblem = {
+		texture = "ce_h_mori.dds"
+		color1 = "shiro"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+}
+house_shgnt_mori_kita={ # 一文字三星
+	pattern = "pattern_solid.dds"	
+	color1 = "anzu_iro"
+	colored_emblem = {
+		texture = "ce_h_mori.dds"
+		color1 = "kuro"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+}
+house_shgnt_mori_shikina={ # 一文字三星
+	pattern = "pattern_solid.dds"	
+	color1 = "neri_iro"
+	colored_emblem = {
+		texture = "ce_h_mori.dds"
+		color1 = "kuro"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+}
+house_shgnt_mori_hoida={ # 一文字三星
+	pattern = "pattern_solid.dds"	
+	color1 = "kare_iro"
+	colored_emblem = {
+		texture = "ce_h_mori.dds"
+		color1 = "aka_iro"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+}
+house_shgnt_mori_izuha={ # 一文字三星
+	pattern = "pattern_solid.dds"	
+	color1 = "akebono_iro"
+	colored_emblem = {
+		texture = "ce_h_mori.dds"
+		color1 = "aka_iro"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+}
+house_shgnt_mori_amano={ # 一文字三星
+	pattern = "pattern_solid.dds"	
+	color1 = "rindo_iro"
+	colored_emblem = {
+		texture = "ce_janome_cc_1.dds"
+		color1 = "kuro"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+}
+house_shgnt_mori_suetsugu={ # 一文字三星
+	pattern = "pattern_solid.dds"	
+	color1 = "aka_iro"
+	colored_emblem = {
+		texture = "ce_h_mori.dds"
+		color1 = "konjiki"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+}
+house_shgnt_mori_katsura={ # 一文字三星
+	pattern = "pattern_solid.dds"
+	color1 = "ki_iro"
+	colored_emblem = {
+		texture = "ce_h_mori.dds"
+		color1 = "murasaki"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+}
+house_shgnt_mori_shiji={ # 一文字三星
+	pattern = "pattern_solid.dds"
+	color1 = "ki_iro"
+	colored_emblem = {
+		texture = "ce_h_mori.dds"
+		color1 = "ao_iro"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+}
+house_shgnt_mori_kuchiha={ # 一文字三星
+	pattern = "pattern_solid.dds"
+	color1 = "ki_iro"
+	colored_emblem = {
+		texture = "ce_h_mori.dds"
+		color1 = "midori_iro"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+}
+house_shgnt_kikkawa_ishi={ # 三つ引両
+	pattern = "pattern_solid.dds"
+	color1 = "ama_iro"
+	colored_emblem = {
+		texture = "ce_hikiryou_cn_6.dds"
+		color1 = "kuro"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+}
+house_shgnt_kikkawa_kokuga={ # 三つ引両
+	pattern = "pattern_solid.dds"
+	color1 = "asamurasaki"
+	colored_emblem = {
+		texture = "ce_hikiryou_cn_6.dds"
+		color1 = "kuro"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+}
+house_shgnt_kikkawa_eda={ # 三つ引両
+	pattern = "pattern_solid.dds"
+	color1 = "chojizome"
+	colored_emblem = {
+		texture = "ce_hikiryou_cn_6.dds"
+		color1 = "kuro"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+}
+house_shgnt_kikkawa_ikada={ # 三つ引両
+	pattern = "pattern_solid.dds"
+	color1 = "hanarokusho_iro"
+	colored_emblem = {
+		texture = "ce_hikiryou_cn_6.dds"
+		color1 = "kuro"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+}
+house_shgnt_kikkawa_otsuka={ # 三つ引両
+	pattern = "pattern_solid.dds"
+	color1 = "karacha"
+	colored_emblem = {
+		texture = "ce_hikiryou_cn_6.dds"
+		color1 = "kuro"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+}
+house_shgnt_kikkawa_1={ # 三つ引両
+	pattern = "pattern_solid.dds"
+	color1 = "kitsurubami"
+	colored_emblem = {
+		texture = "ce_hikiryou_cn_6.dds"
+		color1 = "kuro"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+}
+house_shgnt_kikkawa_ichikawa={ # 三つ引両
+	pattern = "pattern_solid.dds"
+	color1 = "konjiki"
+	colored_emblem = {
+		texture = "ce_hikiryou_cn_6.dds"
+		color1 = "kuro"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+}
+house_shgnt_kikkawa_iwami={ # 三つ引両
+	pattern = "pattern_solid.dds"
+	color1 = "kuwacha"
+	colored_emblem = {
+		texture = "ce_hikiryou_cn_6.dds"
+		color1 = "kuro"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+}

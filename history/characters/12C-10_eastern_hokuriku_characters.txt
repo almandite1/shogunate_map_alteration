@@ -1167,7 +1167,7 @@
 	}
 }
 12270780 = {
-	name=character_name_12270780 # Motochika
+	name=character_name_12270780 # Motochika,基親、「初基頼」（『近世防長諸家系図綜覧』）
 	dynasty=10000560 # Mori
 	father=12221103 # Mori Tsunemitsu
 	trait="education_diplomacy_1"
@@ -1176,12 +1176,15 @@
 	1251.1.1={
 		birth=yes
 	}
+	#1281.01.01={
+	#	give_nickname="" # 「左近蔵人」（『近世防長諸家系図綜覧』）
+	#}
 	1326.12.18={
 		death=yes
 	}
 }
 12270781 = {
-	name=character_name_12270781 # Tokimitsu #Atsuta Daiguji
+	name=character_name_12270781 # Tokimitsu,時光 #Atsuta Daiguji
 	dynasty=10000560 # Mori
 	father=12221103 # Mori Tsunemitsu
 	trait="education_diplomacy_1"
@@ -1190,12 +1193,15 @@
 	1254.1.1={
 		birth=yes
 	}
+	1284.01.01={
+		give_nickname="nick_inaba_no_kami" # 「左近大夫　因幡守　熱田大宮司」（『近世防長諸家系図綜覧』）
+	}
 	1324.1.1={
 		death=yes
 	}
 }
 12270782 = {
-	name=character_name_12270782 # Masamitsu
+	name=character_name_12270782 # Masamitsu,政光
 	dynasty=10000560 # Mori
 	father=12221103 # Mori Tsunemitsu
 	trait="education_diplomacy_1"
@@ -1224,7 +1230,7 @@
 	}
 }
 12270784 = {
-	name=character_name_12270784 # Tokichika
+	name=character_name_12270784 # Tokichika,時親
 	dynasty=10000560 # Mori
 	father=12221103 # Mori Tsunemitsu
 	martial=8
@@ -1238,17 +1244,28 @@
 	1260.1.1={
 		birth=yes
 	}
+	1276.01.01={
+		give_nickname="nick_shiro" # 「四郎」（『近世防長諸家系図綜覧』）
+	}
+	# TODO: 「室　亀谷局　長崎泰綱女」（『近世防長諸家系図綜覧』）
 	1290.1.1={
 		effect = {
-			add_trait = "jugoi_ge"
+			add_trait = "jugoi_ge" # 「従五位下」（『近世防長諸家系図綜覧』）
 		}
+		give_nickname="nick_gyobu_no_sho" # 「修理亮　刑部少輔　入道了禅　六波羅評定衆」（『近世防長諸家系図綜覧』）
+	}
+	1336.01.01={
+		culture="western_chugoku" # 建武3(1336)年、「吉田荘に下向」（『朝日日本歴史人物事典』）
+		dynasty_house="house_shgnt_aki-mori"
 	}
 	1341.1.1={
-		death=yes
+		death={
+			death_reason=death_natural_causes
+		}
 	}
 }
 12270785 = {
-	name=character_name_12270785 # Chikatada
+	name=character_name_12270785 # Chikatada,親忠
 	dynasty=10000560 # Mori
 	father=12221103 # Mori Tsunemitsu
 	trait="education_diplomacy_1"
@@ -1257,12 +1274,17 @@
 	1262.1.1={
 		birth=yes
 	}
+	1292.01.01={
+		give_nickname="nick_hoki_no_kami" # 「四（五カ）郎　蔵人　伯耆守　従五位下」（『近世防長諸家系図綜覧』）
+	}
 	1322.1.1={
-		death=yes
+		death={
+			death_reason=death_natural_causes
+		}
 	}
 }
 12270786 = {
-	name=character_name_12270786 # Chikamune
+	name=character_name_12270786 # Chikamune,親宗
 	dynasty=10000560 # Mori
 	father=12221103 # Mori Tsunemitsu
 	trait="education_diplomacy_1"
@@ -1271,14 +1293,20 @@
 	1265.1.1={
 		birth=yes
 	}
+	1281.01.01={
+		give_nickname="nick_rokuro" # 「六郎」（『近世防長諸家系図綜覧』）
+	}
 	1325.1.1={
-		death=yes
+		death={
+			death_reason=death_natural_causes
+		}
 	}
 }
 12270790 = {
-	name=character_name_12270790 # Sadachika
+	name=character_name_12270790 # Sadachika,貞親
 	dynasty=10000560 # Mori
 	father=12270784 # Mori Tokichika
+	# TODO: 「母　長崎康綱女」（『近世防長諸家系図綜覧』）
 	martial=8
 	diplomacy=7
 	intrigue=8
@@ -1294,13 +1322,19 @@
 		effect = {
 			add_trait = "jugoi_ge"
 		}
+		give_nickname="nick_the_ukonoe_shogen" # 「次郎　右近将監　従五位下　入道朗乗」（『近世防長諸家系図綜覧』）
 	}
-	1351.1.1={
-		death=yes
+	1336.01.01={
+		dynasty_house="house_shgnt_aki-mori"
+	}
+	1351.1.28={
+		death={
+			death_reason=death_old_age #　「観応2(1351)年辛丑正月卒　墓所芸州吉田郡山」（『近世防長諸家系図綜覧』）
+		}
 	}
 }
 12270791 = {
-	name=character_name_12270791 # Chikamoto
+	name=character_name_12270791 # Chikamoto,親元
 	dynasty=10000560 # Mori
 	father=12270784 # Mori Tokichika
 	trait="education_intrigue_1"
@@ -1309,12 +1343,20 @@
 	1282.1.1={
 		birth=yes
 	}
+	1298.01.01={
+		give_nickname="nick_shiro" # 「四郎」（『近世防長諸家系図綜覧』）
+	}
+	1336.01.01={
+		dynasty_house="house_shgnt_aki-mori"
+	}
 	1352.1.1={
-		death=yes
+		death={
+			death_reason=death_old_age
+		}
 	}
 }
 12270792 = {
-	name=character_name_12270792 # Hiroaki
+	name=character_name_12270792 # Hiroaki,広顕
 	dynasty=10000560 # Mori
 	father=12270784 # Mori Tokichika
 	trait="education_intrigue_1"
@@ -1323,12 +1365,20 @@
 	1284.1.1={
 		birth=yes
 	}
+	1300.01.01={
+		give_nickname="nick_goro" # 「五郎」（『近世防長諸家系図綜覧』）
+	}
+	1336.01.01={
+		dynasty_house="house_shgnt_aki-mori"
+	}
 	1354.1.1={
-		death=yes
+		death={
+			death_reason=death_old_age
+		}
 	}
 }
 12270793 = {
-	name=character_name_12270793 # Sadashige
+	name=character_name_12270793 # Sadashige,貞繁
 	dynasty=10000560 # Mori
 	father=12270784 # Mori Tokichika
 	trait="education_intrigue_1"
@@ -1337,12 +1387,17 @@
 	1286.1.1={
 		birth=yes
 	}
+	1336.01.01={
+		dynasty_house="house_shgnt_aki-mori"
+	}
 	1356.1.1={
-		death=yes
+		death={
+			death_reason=death_old_age
+		}
 	}
 }
 12270795 = {
-	name=character_name_12270795 # Myoken
+	name=character_name_12270795 # Myoken,妙玄
 	dynasty=10000560 # Mori
 	father=12270790 # Mori Sadachika
 	martial=8
@@ -1357,12 +1412,17 @@
 	1298.1.1={
 		birth=yes
 	}
+	1308.01.01={
+		culture="hokuriku_buddhist" # 「僧」（『近世防長諸家系図綜覧』）
+	}
 	1368.1.1={
-		death=yes
+		death={
+			death_reason=death_old_age
+		}
 	}
 }
 12270796 = {
-	name=character_name_12270796 # Chikahira
+	name=character_name_12270796 # Chikahira,親衡、「初親茂」（『近世防長諸家系図綜覧』）
 	dynasty=10000560 # Mori
 	father=12270790 # Mori Sadachika
 	martial=8
@@ -1376,17 +1436,24 @@
 	1300.1.1={
 		birth=yes
 	}
+	# TODO: 「室　三田入道女」（『近世防長諸家系図綜覧』）
+	1336.01.01={
+		dynasty_house="house_shgnt_aki-mori"
+	}
 	1340.1.1={
 		effect = {
-			add_trait = "jugoi_ge"
+			add_trait = "jugoi_ge" # 「従五位下」（『近世防長諸家系図綜覧』）
 		}
+		give_nickname="nick_the_mutsu_no_kami" # 「孫太郎　備中守　陸奥守　入道宝乗　吉田庄地頭職」（『近世防長諸家系図綜覧』）
 	}
-	1375.1.1={
-		death=yes
+	1375.08.28={
+		death={ # 永和元(1375)年乙卯八月卒
+			death_reason=death_old_age
+		}
 	}
 }
 12270797 = {
-	name=character_name_12270797 # Chikahide
+	name=character_name_12270797 # Chikahide,親秀
 	dynasty=10000560 # Mori
 	father=12270790 # Mori Sadachika
 	trait="education_diplomacy_1"
@@ -1395,12 +1462,20 @@
 	1302.1.1={
 		birth=yes
 	}
+	1332.01.01={
+		give_nickname="nick_kunai_no_sho" # 「宮内少輔　在越後国」（『近世防長諸家系図綜覧』）
+	}
+	1336.01.01={
+		dynasty_house="house_shgnt_aki-mori"
+	}
 	1372.1.1={
-		death=yes
+		death={
+			death_reason=death_old_age
+		}
 	}
 }
 12270798 = {
-	name=character_name_12270798 # Yasuaki
+	name=character_name_12270798 # Yasuaki,泰秋
 	dynasty=10000560 # Mori
 	father=12270790 # Mori Sadachika
 	trait="education_diplomacy_1"
@@ -1409,8 +1484,16 @@
 	1305.1.1={
 		birth=yes
 	}
+	1335.01.01={
+		give_nickname="nick_omi_no_kami" # 「近江守」（『近世防長諸家系図綜覧』）
+	}
+	1336.01.01={
+		dynasty_house="house_shgnt_aki-mori"
+	}
 	1375.1.1={
-		death=yes
+		death={
+			death_reason=death_old_age
+		}
 	}
 }
 12270800={
@@ -1493,7 +1576,8 @@
 }
 12270822={
 	name=character_name_12270822 # Haruyoshi
-	dynasty=10000329 # Kitajo
+	#dynasty=10000329 # Kitajo
+	dynasty_house="house_shgnt_mori_kitajo"
 	father=12270800 # Kitajo Tokimoto
 	religion="shinto"
 	culture="eastern_hokuriku"

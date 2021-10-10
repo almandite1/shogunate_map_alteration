@@ -1365,7 +1365,7 @@
 	}
 }
 12602016={
-	name=character_name_12602016 # Tamenaga
+	name=character_name_12602016 # Tamenaga, 為長
 	dynasty=10007284 # Iijima
 	father=12602011 # Iijima Tamefusa
 	religion="shinto"
@@ -1373,12 +1373,16 @@
 	1304.1.1={
 		birth=yes
 	}
+	1320.01.01={
+		give_nickname="nick_rokuro" # 「三澤六郎」（『三澤家譜』）
+	}
 	1324.1.1={
 		dynasty=10007285 # Mizawa
 	}
 	1354.1.1={
 		death=yes
 	}
+	# 「十四代  法名定意  始而改飯嶋号三澤」（『三澤家譜』）
 }
 12602017={
 	name=character_name_12602017 # Tamemitsu
@@ -1429,7 +1433,7 @@
 	}
 }
 12602020={
-	name=character_name_12602020 # Tametsune
+	name=character_name_12602020 # Tametsune,為常
 	dynasty=10007285 # Misawa
 	father=12602016 # Misawa Tamenaga
 	religion="shinto"
@@ -1437,12 +1441,15 @@
 	1324.1.1={
 		birth=yes
 	}
+	1354.01.01={
+		give_nickname="nick_shinano_no_kami" # 「三澤信濃守」（『三澤家譜』）
+	}
 	1384.1.1={
 		death=yes
 	}
 }
 12602021={
-	name=character_name_12602021 # Tamehide
+	name=character_name_12602021 # Tamehide, 為秀
 	dynasty=10007285 # Misawa
 	father=12602016 # Misawa Tamenaga
 	religion="shinto"
@@ -1450,12 +1457,13 @@
 	1326.1.1={
 		birth=yes
 	}
+	# 「左衛門大夫  法名證本」（『三澤家譜』）
 	1386.1.1={
 		death=yes
 	}
 }
 12602022={
-	name=character_name_12602022 # Tamemasa
+	name=character_name_12602022 # Tamemasa, 為政
 	dynasty=10007285 # Misawa
 	father=12602016 # Misawa Tamenaga
 	religion="shinto"
@@ -1463,12 +1471,15 @@
 	1328.1.1={
 		birth=yes
 	}
+	#1344.01.01={
+	#	give_nickname="" #  TODO:  「六郎三郎」（『三澤家譜』）
+	#}
 	1388.1.1={
 		death=yes
 	}
 }
 12602025={
-	name=character_name_12602025 # Tametada
+	name=character_name_12602025 # Tametada, 為忠
 	dynasty=10007285 # Misawa
 	father=12602020 # Misawa Tametsune
 	religion="shinto"
@@ -1476,14 +1487,17 @@
 	1359.1.1={
 		birth=yes
 	}
+	1389.01.01={
+		give_nickname="nick_owari_no_kami" # 「十六代  三澤尾張守  法名正覺」（『三澤家譜』）
+	}
 	1392.1.24={
 		death={
-			death_reason=death_battle
+			death_reason=death_battle # 「内野合戦之時討死」（『三澤家譜』）
 		}
 	}
 }
 12602026={
-	name=character_name_12602026 # Tamekatsu
+	name=character_name_12602026 # Tamekatsu, 為勝
 	dynasty=10007285 # Misawa
 	father=12602020 # Misawa Tametsune
 	religion="shinto"
@@ -1491,12 +1505,15 @@
 	1361.1.1={
 		birth=yes
 	}
+	1391.01.01={
+		give_nickname="nick_hizen_no_kami" # 「肥前守」（『三澤家譜』）
+	}
 	1411.1.1={
 		death=yes
 	}
 }
 12602027={
-	name=character_name_12602027 # Tamekiyo
+	name=character_name_12602027 # Tamekiyo,為清
 	dynasty=10007285 # Misawa
 	father=12602020 # Misawa Tametsune
 	religion="shinto"
@@ -1504,12 +1521,15 @@
 	1363.1.1={
 		birth=yes
 	}
+	1393.01.01={
+		give_nickname="nick_wakasa_no_kami" # 「若狭守」（『三澤家譜』）
+	}
 	1413.1.1={
 		death=yes
 	}
 }
 12602028={
-	name=character_name_12602028 # Tameuji
+	name=character_name_12602028 # Tameuji,為氏
 	dynasty=10007285 # Misawa
 	father=12602020 # Misawa Tametsune
 	religion="shinto"
@@ -1517,14 +1537,17 @@
 	1365.1.1={
 		birth=yes
 	}
+	1381.01.01={
+		give_nickname="nick_saburo" # 「三郎」（『三澤家譜』）
+	}
 	1415.1.1={
 		death={
-			death_reason=death_battle
+			death_reason=death_battle # 「於大東来間陣討死」（『三澤家譜』）
 		}
 	}
 }
 12602029={
-	name=character_name_12602029 # Tamemori
+	name=character_name_12602029 # Tamemori,為盛
 	dynasty=10007285 # Misawa
 	father=12602020 # Misawa Tametsune
 	religion="shinto"
@@ -1532,12 +1555,15 @@
 	1367.1.1={
 		birth=yes
 	}
+	1397.01.01={
+		give_nickname="nick_kai_no_kami" # 「甲斐守」（『三澤家譜』）
+	}
 	1417.1.1={
 		death=yes
 	}
 }
 12602030={
-	name=character_name_12602030 # Tamehisa
+	name=character_name_12602030 # Tamehisa, 為尚
 	dynasty=10007285 # Misawa
 	father=12602020 # Misawa Tametsune
 	religion="shinto"
@@ -1545,12 +1571,15 @@
 	1369.1.1={
 		birth=yes
 	}
+	1399.01.01={
+		give_nickname="nick_kaga_no_kami" # 「加賀守  能英」（『三澤家譜』）
+	}
 	1419.1.1={
 		death=yes
 	}
 }
 12602031={
-	name=character_name_12602031 # Tamehide
+	name=character_name_12602031 # Tamehide,為秀
 	dynasty=10007285 # Misawa
 	father=12602020 # Misawa Tametsune
 	religion="shinto"
@@ -1558,12 +1587,15 @@
 	1371.1.1={
 		birth=yes
 	}
+	1401.01.01={
+		give_nickname="nick_Rokurozaemon" # 「六郎左衛門尉  能秀」（『三澤家譜』）
+	}
 	1421.1.1={
 		death=yes
 	}
 }
 12602032={
-	name=character_name_12602032 # Tamefusa
+	name=character_name_12602032 # Tamefusa, 為房
 	dynasty=10007285 # Misawa
 	father=12602025 # Misawa Tametada
 	religion="shinto"
@@ -1571,12 +1603,15 @@
 	1384.1.1={
 		birth=yes
 	}
+	1414.01.01={
+		give_nickname="nick_shinano_no_kami" # 「信濃守  阿井殿  法名喜運」（『三澤家譜』）
+	}
 	1457.1.1={
 		death=yes
 	}
 }
 12602033={
-	name=character_name_12602033 # Tamehisa
+	name=character_name_12602033 # Tamehisa,為久
 	dynasty=10007285 # Misawa
 	father=12602025 # Misawa Tametada
 	religion="shinto"
@@ -1584,12 +1619,15 @@
 	1386.1.1={
 		birth=yes
 	}
+	1402.01.01={
+		give_nickname="nick_Genshiro" # 「源四郎  河内地頭」
+	}
 	1459.1.1={
 		death=yes
 	}
 }
 12602034={
-	name=character_name_12602034 # Tameyori
+	name=character_name_12602034 # Tameyori,為頼
 	dynasty=10007285 # Misawa
 	father=12602025 # Misawa Tametada
 	religion="shinto"
@@ -1597,12 +1635,15 @@
 	1388.1.1={
 		birth=yes
 	}
+	1418.01.01={
+		give_nickname="nick_mino_no_kami" # 「美濃守」（『三澤家譜』）
+	}
 	1461.1.1={
 		death=yes
 	}
 }
 12602035={
-	name=character_name_12602035 # Tametoki
+	name=character_name_12602035 # Tametoki, 「十七代  為時」（『三澤家譜』）
 	dynasty=10007285 # Misawa
 	father=12602025 # Misawa Tametada
 	religion="shinto"
@@ -1610,12 +1651,15 @@
 	1390.1.1={
 		birth=yes
 	}
+	1420.01.01={
+		give_nickname="nick_mikawa_no_kami" # 「三澤三河守  法名道喜」
+	}
 	1463.1.1={
 		death=yes
 	}
 }
 12602040={
-	name=character_name_12602040 # Tametada
+	name=character_name_12602040 # Tametada,「十八代  為忠」（『三澤家譜』）
 	dynasty=10007285 # Misawa
 	father=12602035 # Misawa Tametoki
 	religion="shinto"
@@ -1623,12 +1667,15 @@
 	1408.1.1={
 		birth=yes
 	}
+	1438.01.01={
+		give_nickname="nick_shinano_no_kami" # 「三澤信濃守  法名覺了」（『三澤家譜』）
+	}
 	1445.1.1={
 		death=yes
 	}
 }
 12602041={
-	name=character_name_12602041 # Kiyoyasu
+	name=character_name_12602041 # Kiyoyasu,清泰
 	dynasty=10007285 # Misawa
 	father=12602035 # Misawa Tametoki
 	religion="shinto"
@@ -1636,12 +1683,15 @@
 	1412.1.1={
 		birth=yes
 	}
+	1442.01.01={
+		give_nickname="nick_mikawa_no_kami" # 「参河守  法名源覺  号大東田中」
+	}
 	1472.1.1={
 		death=yes
 	}
 }
 12602042={
-	name=character_name_12602042 # Tametsune
+	name=character_name_12602042 # Tametsune,為常
 	dynasty=10007285 # Misawa
 	father=12602035 # Misawa Tametoki
 	religion="shinto"
@@ -1649,12 +1699,16 @@
 	1414.1.1={
 		birth=yes
 	}
+	1444.01.01={
+		give_nickname="nick_sakonoe_shogen" # 「左近将監  法名見覺」（『三澤家譜』）
+	}
 	1464.1.1={
 		death=yes
 	}
+	# 為肥前入道妙誾猶子（『三澤家譜』）
 }
 12602045={
-	name=character_name_12602045 # Tamekiyo
+	name=character_name_12602045 # Tamekiyo, 「十九代  為清  法名覺忠」（『三澤家譜』）
 	dynasty=10007285 # Misawa
 	father=12602040 # Misawa Tametada
 	religion="shinto"
@@ -1662,14 +1716,17 @@
 	1426.1.1={
 		birth=yes
 	}
+	1456.01.01={
+		give_nickname="nick_shinano_no_kami" # 「三澤信濃守」（『三澤家譜』）
+	}
 	1475.10.30={
 		death={
-			death_reason=death_battle
+			death_reason=death_battle # 「文明七？未十月晦日於江州弓削討死」（『三澤家譜』）
 		}
 	}
 }
 12602046={
-	name=character_name_12602046 # Kohoshimaru
+	name=character_name_12602046 # Kohoshimaru, 「小法師丸  八歳而死去」（『三澤家譜』）
 	dynasty=10007285 # Misawa
 	father=12602040 # Misawa Tametada
 	religion="shinto"
@@ -1682,7 +1739,7 @@
 	}
 }
 12602050={
-	name=character_name_12602050 # Tametada
+	name=character_name_12602050 # Tametada,為忠
 	dynasty=10007285 # Misawa
 	father=12602045 # Misawa Tamekiyo
 	religion="shinto"
@@ -1691,17 +1748,17 @@
 		birth=yes
 	}
 	1487.1.1={
-		give_nickname="nick_sakyo_no_suke"
+		give_nickname="nick_sakyo_no_suke" #  「三澤左京亮」（『三澤家譜』）
 	}
 	1491.1.1={
-		give_nickname="nick_totoumi_no_kami"
+		give_nickname="nick_totoumi_no_kami" #  「遠江守  法名覺榮居士」（『三澤家譜』）
 	}
 	1536.1.1={
 		death=yes
 	}
 }
 12602051={
-	name=character_name_12602051 # Tamemune
+	name=character_name_12602051 # Tamemune,為宗
 	dynasty=10007285 # Misawa
 	father=12602045 # Misawa Tamekiyo
 	religion="shinto"
@@ -1710,14 +1767,17 @@
 		birth=yes
 	}
 	1485.1.1={
-		give_nickname="nick_shiro"
+		give_nickname="nick_shiro" # TODO: 「四郎右衛門」
+	}
+	1499.01.01={
+		give_nickname="nick_Shiroemon" # 「四郎右衛門」（『三澤家譜』）
 	}
 	1535.1.1={
 		death=yes
 	}
 }
 12602052={
-	name=character_name_12602052 # Tametaka
+	name=character_name_12602052 # Tametaka,為孝
 	dynasty=10007285 # Misawa
 	father=12602045 # Misawa Tamekiyo
 	religion="shinto"
@@ -1726,14 +1786,14 @@
 		birth=yes
 	}
 	1491.1.1={
-		give_nickname="nick_Koshiro"
+		give_nickname="nick_Koshiro" # 「小四郎」（『三澤家譜』）
 	}
 	1537.1.1={
 		death=yes
 	}
 }
 12602054={
-	name=character_name_12602054 # Shoshun
+	name=character_name_12602054 # Shoshun, 「正俊  大吉寺」（『三澤家譜』）
 	dynasty=10007285 # Misawa
 	father=12602045 # Misawa Tamekiyo
 	religion="shinto"
@@ -1750,7 +1810,7 @@
 	1497.1.1={
 		culture="sanin"
 		effect = {
-			change_first_name = character_name_12602054_1 # Tamechika
+			change_first_name = character_name_12602054_1 # Tamechika,TODO: 「還俗而号九郎四郎為親」（『三澤家譜』）
 			remove_trait = "devoted"
 		}
 	}
@@ -1759,7 +1819,7 @@
 	}
 }
 12602055={
-	name=character_name_12602055 # Tamesuke
+	name=character_name_12602055 # Tamesuke,為助
 	dynasty=10007285 # Misawa
 	father=12602045 # Misawa Tamekiyo
 	religion="shinto"
@@ -1768,14 +1828,14 @@
 		birth=yes
 	}
 	1491.1.1={
-		give_nickname="nick_Shinshiro"
+		give_nickname="nick_Shinshiro" # 「新四郎」（『三澤家譜』）
 	}
 	1541.1.1={
 		death=yes
 	}
 }
 12602057={
-	name=character_name_12602057 # Tamenaga
+	name=character_name_12602057 # Tamenaga,為永
 	dynasty=10007285 # Misawa
 	father=12602050 # Misawa Tametada
 	religion="shinto"
@@ -1784,7 +1844,7 @@
 		birth=yes
 	}
 	1519.1.1={
-		give_nickname="nick_Hikoshiro"
+		give_nickname="nick_Hikoshiro" # 「彦四郎  法名覺勝」（『三澤家譜』）
 	}
 	1528.1.1={
 		give_nickname="nick_sakyo_no_suke"
@@ -1797,7 +1857,7 @@
 	}
 }
 12602058={
-	name=character_name_12602058 # Tadaeda
+	name=character_name_12602058 # Tadaeda, 「忠枝  三刀屋地頭」（『三澤家譜』）
 	dynasty=10007285 # Misawa
 	father=12602050 # Misawa Tametada
 	religion="shinto"
@@ -1806,17 +1866,18 @@
 		birth=yes
 	}
 	1521.1.1={
-		give_nickname="nick_Yoshiro"
+		give_nickname="nick_Yoshiro" #  「与四郎」（『三澤家譜』）
+		dynasty_house="house_shgnt_misawa_mitoya"
 	}
 	1530.1.1={
-		give_nickname="nick_kii_no_kami"
+		give_nickname="nick_kii_no_kami" # 「紀伊守」（「三沢氏と三刀屋氏（２）」,『zisaku.cocolog-nifty.com/blog/2011/10/post-28dd.html』）
 	}
 	1555.1.1={
 		death=yes
 	}
 }
 12602059={
-	name=character_name_12602059 # Tamesato
+	name=character_name_12602059 # Tamesato,為理
 	dynasty=10007285 # Misawa
 	father=12602050 # Misawa Tametada
 	religion="shinto"
@@ -1824,12 +1885,16 @@
 	1507.1.1={
 		birth=yes
 	}
+	1523.01.01={
+		give_nickname="nick_kuro" # 「九郎」
+	}
+	# TODO: 「九郎左衛門尉」（『三澤家譜』）
 	1557.1.1={
 		death=yes
 	}
 }
 12602060={
-	name=character_name_12602060 # Tamekuni
+	name=character_name_12602060 # Tamekuni,為國
 	dynasty=10007285 # Misawa
 	father=12602050 # Misawa Tametada
 	religion="shinto"
@@ -1841,7 +1906,7 @@
 		give_nickname="nick_Jiroshiro"
 	}
 	1529.1.1={
-		give_nickname="nick_shinano_no_kami"
+		give_nickname="nick_shinano_no_kami" # 「信濃守  法名覺秀」（『三澤家譜』）
 	}
 	1536.1.1={
 		death={
@@ -1851,7 +1916,7 @@
 	}
 }
 12602061={
-	name=character_name_12602061 # Tameyuki
+	name=character_name_12602061 # Tameyuki,為幸
 	dynasty=10007285 # Misawa
 	father=12602050 # Misawa Tametada
 	religion="shinto"
@@ -1859,18 +1924,21 @@
 	1511.1.1={
 		birth=yes
 	}
+	1527.01.01={
+		give_nickname="nick_Saburozaemon" # TODO: 「三郎左衛門尉」（『三澤家譜』）
+	}
 	1536.1.1={
-		give_nickname="nick_bizen_no_kami"
+		give_nickname="nick_bizen_no_kami" # 「備前守」（『三澤家譜』）
 	}
 	1540.11.9={
 		death={
-			death_reason=death_battle
+			death_reason=death_battle # 「天文九庚子年十月十一日於藝州吉田郡山城下討死」（『三澤家譜』）
 			killer=10056004 # Mori Motonari
 		}
 	}
 }
 12602062={
-	name=character_name_12602062 # Tamehiro
+	name=character_name_12602062 # Tamehiro,為廣
 	dynasty=10007285 # Misawa
 	father=12602050 # Misawa Tametada
 	religion="shinto"
@@ -1879,14 +1947,14 @@
 		birth=yes
 	}
 	1533.1.1={
-		give_nickname="nick_kamitsukeno_no_suke"
+		give_nickname="nick_kamitsukeno_no_suke"  # TODO: （『三澤家譜』）では「上総介」、要確認
 	}
 	1563.1.1={
 		death=yes
 	}
 }
 12602063={
-	name=character_name_12602063 # Tamemori
+	name=character_name_12602063 # Tamemori, 「為盛  高田寺中納言」（『三澤家譜』）
 	dynasty=10007285 # Misawa
 	father=12602050 # Misawa Tametada
 	religion="shinto"
@@ -1900,12 +1968,13 @@
 			add_trait = "devoted"
 		}
 	}
+	# TODO: 「還俗而号諸左衛門尉」
 	1565.1.1={
 		death=yes
 	}
 }
 12602064={
-	name=character_name_12602064 # Tametaka
+	name=character_name_12602064 # Tametaka,為隆
 	dynasty=10007285 # Misawa
 	father=12602050 # Misawa Tametada
 	religion="shinto"
@@ -1914,20 +1983,23 @@
 		birth=yes
 	}
 	1533.1.1={
-		give_nickname="nick_Tarozaemon"
+		give_nickname="nick_Tarozaemon" # TODO: 「太郎左衛門尉  法名覺繁」（『三澤家譜』）
 	}
 	1567.1.1={
 		death=yes
 	}
 }
 12602065={
-	name=character_name_12602065 # Tamehisa
+	name=character_name_12602065 # Tamehisa,為久
 	dynasty=10007285 # Misawa
 	father=12602050 # Misawa Tametada
 	religion="shinto"
 	culture="sanin"
 	1519.1.1={
 		birth=yes
+	}
+	1535.01.01={
+		give_nickname="nick_Saburobee" # TODO: 「三郎兵衛尉」（『三澤家譜』）
 	}
 	1569.1.1={
 		death=yes
@@ -1990,7 +2062,7 @@
 	}
 }
 12602070={
-	name=character_name_12602070 # Tamekiyo
+	name=character_name_12602070 # Tamekiyo,「二十二代  為清」
 	dynasty=10007285 # Misawa
 	father=12602061 # Misawa Tameyuki
 	religion="shinto"
@@ -1999,37 +2071,46 @@
 		birth=yes
 	}
 	1556.1.1={
-		give_nickname="nick_sakyo_no_suke"
+		give_nickname="nick_sakyo_no_suke" #  「三澤左京亮」（『三澤家譜』）
 	}
 	1558.1.1={
-		add_spouse=10051528 # daughter of Amago Haruhisa
+		add_spouse=10051528 # daughter of Amago Haruhisa、「自廣忠以来代々在城于出雲國仁田郡雨河村三澤庄亀嶽山故娶同國之主尼子義之女成聟（『三澤家譜』）
 	}
+	# 永禄十二年十二月六日自  毛利家於伯州日野郡之内六百貫之地賜之（『三澤家譜』）
 	1588.1.1={
 		death=yes
 	}
 }
 12602072={
-	name=character_name_12602072 # Tametora
+	name=character_name_12602072 # Tametora,「二十三代  為虎」
 	dynasty=10007285 # Misawa
 	father=12602070 # Misawa Tamekiyo
-	mother=10051528 # Amago Yuri
+	mother=10051528 # Amago Yuri、「母尼子義之女」（『三澤家譜』）
 	religion="shinto"
 	culture="sanin"
 	1561.1.1={
 		birth=yes
 	}
 	1577.1.1={
-		give_nickname="nick_hachiro"
+		give_nickname="nick_hachiro" #  TODO: 「三澤少輔八郎」（『三澤家譜』）
 	}
 	1581.1.1={
-		give_nickname="nick_settsu_no_kami"
+		give_nickname="nick_settsu_no_kami" #  「摂津守」（『三澤家譜』）
 	}
 	1591.1.1={
-		give_nickname="nick_sanuki_no_kami"
+		give_nickname="nick_sanuki_no_kami" # 讃岐守」（『三澤家譜』）
 	}
+	# ？「従五位下」（『三澤家譜』）
 	1614.9.8={
 		death=yes
 	}
+	# 「出雲國中二郡隠岐半國伯耆二郡都合古帳十二万石領之且於近江國坂田犬上両郡之内二万石従  公方家（足利）重而拝領之
+	# 「輝元公廣嶋御築城之節家縄張之命其砌於長州厚狭郡賜一万石仍而移住于彼地
+	# 「慶長五庚子年関原役之後毛利家御領國為防長両國之間従
+	# 「輝光公於厚狭郡所賜之一万石被減之於同郡之内福田山井小土生大持四个村賜七百石
+	# 「同年冬  秀元公長府御入城故為御附供奉長府乃自秀元公於豊東郡（東豊浦郡）田耕村賜二千石都合二千七百石領之
+	# 「慶長十九年八月五日逝去葬于田耕村高林寺法号雲叟覺天大居士仍而改寺号称覺天寺	（『三澤家譜』）
+	# 「室宍戸左衛門尉源元秀女」（『三澤家譜』）
 }
 12602073={
 	female=yes
@@ -2075,7 +2156,7 @@
 	}
 }
 12602080={
-	name=character_name_12602080 # Tadayasu
+	name=character_name_12602080 # Tadayasu,忠泰
 	dynasty=10007285 # Misawa
 	father=12602041 # Misawa Kiyoyasu
 	religion="shinto"
@@ -2083,12 +2164,15 @@
 	1465.1.1={
 		birth=yes
 	}
+	1495.01.01={
+		give_nickname="nick_shuri_no_suke" # 「修理亮  法名源要」（『三澤家譜』）
+	}
 	1515.1.1={
 		death=yes
 	}
 }
 12602081={
-	name=character_name_12602081 # Tamehiro
+	name=character_name_12602081 # Tamehiro,為廣
 	dynasty=10007285 # Misawa
 	father=12602041 # Misawa Kiyoyasu
 	religion="shinto"
@@ -2096,12 +2180,15 @@
 	1467.1.1={
 		birth=yes
 	}
+	1497.01.01={
+		give_nickname="nick_Saburozaemon" # 「三郎左衛門尉」（『三澤家譜』）
+	}
 	1517.1.1={
 		death=yes
 	}
 }
 12602082={
-	name=character_name_12602082 # Tamenawa
+	name=character_name_12602082 # Tamenawa,為縄
 	dynasty=10007285 # Misawa
 	father=12602041 # Misawa Kiyoyasu
 	religion="shinto"
@@ -2109,6 +2196,9 @@
 	1470.1.1={
 		birth=yes
 	}
+	#1486.01.01={
+	#	give_nickname="" # TODO: 「助三郎」（『三澤家譜』）
+	#}
 	1520.1.1={
 		death=yes
 	}
@@ -2143,7 +2233,7 @@
 	}
 }
 12602085={
-	name=character_name_12602085 # Tametsugu
+	name=character_name_12602085 # Tametsugu,為継
 	dynasty=10007285 # Misawa
 	father=12602082 # Misawa Tamenawa
 	religion="shinto"
@@ -2151,12 +2241,15 @@
 	1495.1.1={
 		birth=yes
 	}
+	#1515.01.01={
+	#	give_nickname="" # TODO: 「新兵衛尉」（『三澤家譜』）
+	#}
 	1545.1.1={
 		death=yes
 	}
 }
 12602087={
-	name=character_name_12602087 # Tametsune
+	name=character_name_12602087 # Tametsune,為常
 	dynasty=10007285 # Misawa
 	father=12602042 # Misawa Tametsune
 	religion="shinto"
@@ -2164,12 +2257,15 @@
 	1434.1.1={
 		birth=yes
 	}
+	#1454.01.01={
+	#	give_nickname="" # TODO: 「民部丞」（『三澤家譜』）
+	#}
 	1512.1.1={
 		death=yes
 	}
 }
 12602088={
-	name=character_name_12602088 # Tamenobu
+	name=character_name_12602088 # Tamenobu,為信
 	dynasty=10007285 # Misawa
 	father=12602042 # Misawa Tametsune
 	religion="shinto"
@@ -2178,14 +2274,14 @@
 		birth=yes
 	}
 	1456.1.1={
-		give_nickname="nick_tsushima_no_kami"
+		give_nickname="nick_tsushima_no_kami" # 「対馬守」（『三澤家譜』）
 	}
 	1496.1.1={
 		death=yes
 	}
 }
 12602089={
-	name=character_name_12602089 # Tametoshi
+	name=character_name_12602089 # Tametoshi,為利
 	dynasty=10007285 # Misawa
 	father=12602042 # Misawa Tametsune
 	religion="shinto"
@@ -2194,14 +2290,14 @@
 		birth=yes
 	}
 	1454.1.1={
-		give_nickname="nick_Magoshiro"
+		give_nickname="nick_Magoshiro" # 「孫四郎」（『三澤家譜』）
 	}
 	1516.1.1={
 		death=yes
 	}
 }
 12602091={
-	name=character_name_12602091 # Tamesuke
+	name=character_name_12602091 # Tamesuke,為祐
 	dynasty=10007285 # Misawa
 	father=12602087 # Misawa Tametsune
 	religion="shinto"
@@ -2210,14 +2306,14 @@
 		birth=yes
 	}
 	1503.1.1={
-		give_nickname="nick_Shinzaemon"
+		give_nickname="nick_Shinzaemon" # TODO: 「新左衛門尉」（『三澤家譜』）
 	}
 	1537.1.1={
 		death=yes
 	}
 }
 12602092={
-	name=character_name_12602092 # Tametsugu
+	name=character_name_12602092 # Tametsugu, 為継
 	dynasty=10007285 # Misawa
 	father=12602088 # Misawa Tamenobu
 	religion="shinto"
@@ -2230,7 +2326,7 @@
 	}
 }
 12602093={
-	name=character_name_12602093 # Tamekuni
+	name=character_name_12602093 # Tamekuni,為國
 	dynasty=10007285 # Misawa
 	father=12602089 # Misawa Tametoshi
 	religion="shinto"
@@ -2238,12 +2334,13 @@
 	1491.1.1={
 		birth=yes
 	}
+	#  TODO: 「帯刀丞」（『三澤家譜』）
 	1541.1.1={
 		death=yes
 	}
 }
 12602095={
-	name=character_name_12602095 # Tamekiyo
+	name=character_name_12602095 # Tamekiyo, 為清
 	dynasty=10007285 # Misawa
 	father=12602032 # Misawa Tamefusa
 	religion="shinto"
@@ -2252,14 +2349,14 @@
 		birth=yes
 	}
 	1452.1.1={
-		give_nickname="nick_buzen_no_kami"
+		give_nickname="nick_buzen_no_kami" # 「豊前守  上迫  法名正壽」（『三澤家譜』）
 	}
 	1482.1.1={
 		death=yes
 	}
 }
 12602096={
-	name=character_name_12602096 # Tamesada
+	name=character_name_12602096 # Tamesada,為貞
 	dynasty=10007285 # Misawa
 	father=12602032 # Misawa Tamefusa
 	religion="shinto"
@@ -2268,14 +2365,14 @@
 		birth=yes
 	}
 	1455.1.1={
-		give_nickname="nick_bitchu_no_kami"
+		give_nickname="nick_bitchu_no_kami" # 「備中守  法名貞心」（『三澤家譜』）
 	}
 	1485.1.1={
 		death=yes
 	}
 }
 12602097={
-	name=character_name_12602097 # Takakiyo
+	name=character_name_12602097 # Takakiyo, 高清
 	dynasty=10007285 # Misawa
 	father=12602095 # Misawa Tamekiyo
 	religion="shinto"
@@ -2284,14 +2381,14 @@
 		birth=yes
 	}
 	1477.1.1={
-		give_nickname="nick_mikawa_no_kami"
+		give_nickname="nick_mikawa_no_kami" # 「参河守  法名永瑞」（『三澤家譜』）
 	}
 	1507.1.1={
 		death=yes
 	}
 }
 12602098={
-	name=character_name_12602098 # Siro
+	name=character_name_12602098 # Siro、「為□」（『三澤家譜』）
 	dynasty=10007285 # Misawa
 	father=12602095 # Misawa Tamekiyo
 	religion="shinto"
@@ -2299,12 +2396,15 @@
 	1459.1.1={
 		birth=yes
 	}
+	1489.01.01={
+		give_nickname="nick_saemon_no_jo" # 「四郎左衛門尉」（『三澤家譜』）
+	}
 	1509.1.1={
 		death=yes
 	}
 }
 12602099={
-	name=character_name_12602099 # Tametaka
+	name=character_name_12602099 # Tametaka,為崇
 	dynasty=10007285 # Misawa
 	father=12602095 # Misawa Tamekiyo
 	religion="shinto"
@@ -2312,12 +2412,15 @@
 	1461.1.1={
 		birth=yes
 	}
+	#1491.01.01={
+	#	give_nickname="" # TODO: 「式部」（『三澤家譜』）
+	#}
 	1511.1.1={
 		death=yes
 	}
 }
 12602100={
-	name=character_name_12602100 # Tadashige
+	name=character_name_12602100 # Tadashige,忠繁
 	dynasty=10007285 # Misawa
 	father=12602097 # Misawa Takakiyo
 	religion="shinto"
@@ -2326,14 +2429,14 @@
 		birth=yes
 	}
 	1498.1.1={
-		give_nickname="nick_Yagoro"
+		give_nickname="nick_Yagoro" # 「弥五郎」（『三澤家譜』）
 	}
 	1532.1.1={
 		death=yes
 	}
 }
 12602101={
-	name=character_name_12602101 # Tamekatsu
+	name=character_name_12602101 # Tamekatsu,為勝
 	dynasty=10007285 # Misawa
 	father=12602096 # Misawa Tamesada
 	religion="shinto"
@@ -2342,14 +2445,14 @@
 		birth=yes
 	}
 	1475.1.1={
-		give_nickname="nick_echizen_no_kami"
+		give_nickname="nick_echizen_no_kami" #  「越前守  法名明喜」
 	}
 	1505.1.1={
 		death=yes
 	}
 }
 12602102={
-	name=character_name_12602102 # Tamesada
+	name=character_name_12602102 # Tamesada, 為貞
 	dynasty=10007285 # Misawa
 	father=12602096 # Misawa Tamesada
 	religion="shinto"
@@ -2358,7 +2461,7 @@
 		birth=yes
 	}
 	1477.1.1={
-		give_nickname="nick_chikugo_no_kami"
+		give_nickname="nick_chikugo_no_kami" # 「筑後守  法名玄榮」（『三澤家譜』）
 	}
 	1507.1.1={
 		death=yes
@@ -2378,7 +2481,7 @@
 	}
 }
 12602105={
-	name=character_name_12602105 # Tameshige
+	name=character_name_12602105 # Tameshige, 為重
 	dynasty=10007285 # Misawa
 	father=12602026 # Misawa Tamekatsu
 	religion="shinto"
@@ -2386,18 +2489,24 @@
 	1386.1.1={
 		birth=yes
 	}
+	1416.01.01={
+		give_nickname="nick_hizen_no_kami" # 「肥前守」（『三澤家譜』）
+	}
 	1436.1.1={
 		death=yes
 	}
 }
 12602106={
-	name=character_name_12602106 # Tametaka
+	name=character_name_12602106 # Tametaka, 為高
 	dynasty=10007285 # Misawa
 	father=12602030 # Misawa Tamehisa
 	religion="shinto"
 	culture="sanin"
 	1394.1.1={
 		birth=yes
+	}
+	1424.01.01={
+		give_nickname="nick_chikugo_no_kami" # 「筑後守」（『三澤家譜』）
 	}
 	1444.1.1={
 		death=yes
@@ -2430,7 +2539,7 @@
 	}
 }
 12602110={
-	name=character_name_12602110 # Tamezane
+	name=character_name_12602110 # Tamezane,為真
 	dynasty=10007285 # Misawa
 	father=12602031 # Misawa Tamehide
 	religion="shinto"
@@ -2439,14 +2548,16 @@
 		birth=yes
 	}
 	1416.1.1={
-		dynasty=10007286 # Nunohiro
+		#dynasty=10007286 # Nunohiro
+		dynasty_house="house_shgnt_misawa_nunohiro" # 「布廣主」（『三澤家譜』）
+		give_nickname="nick_shimotsukeno_no_kami" # 「下野守  法名道勝」（『三澤家譜』）
 	}
 	1446.1.1={
 		death=yes
 	}
 }
 12602111={
-	name=character_name_12602111 # Tametoshi
+	name=character_name_12602111 # Tametoshi, 為利
 	dynasty=10007285 # Misawa
 	father=12602031 # Misawa Tamehide
 	religion="shinto"
@@ -2454,12 +2565,15 @@
 	1398.1.1={
 		birth=yes
 	}
+	1438.01.01={
+		give_nickname="nick_chikugo_no_kami" # 「筑後守  法名道榮」（『三澤家譜』）
+	}
 	1448.1.1={
 		death=yes
 	}
 }
 12602112={
-	name=character_name_12602112 # Tamemasa
+	name=character_name_12602112 # Tamemasa,為政
 	dynasty=10007285 # Misawa
 	father=12602111 # Misawa Tametoshi
 	religion="shinto"
@@ -2468,14 +2582,14 @@
 		birth=yes
 	}
 	1443.1.1={
-		give_nickname="nick_Hikoemon"
+		give_nickname="nick_Hikoemon" # 「彦右衛門尉」（『三澤家譜』）
 	}
 	1473.1.1={
 		death=yes
 	}
 }
 12602113={
-	name=character_name_12602113 # Tameharu
+	name=character_name_12602113 # Tameharu,為治
 	dynasty=10007285 # Misawa
 	father=12602111 # Misawa Tametoshi
 	religion="shinto"
@@ -2483,12 +2597,15 @@
 	1425.1.1={
 		birth=yes
 	}
+	#1455.01.01={
+	#	give_nickname="" # TODO: 「中務」（『三澤家譜』）
+	#}
 	1475.1.1={
 		death=yes
 	}
 }
 12602114={
-	name=character_name_12602114 # Tamemochi
+	name=character_name_12602114 # Tamemochi,為持
 	dynasty=10007285 # Misawa
 	father=12602112 # Misawa Tamemasa
 	religion="shinto"
@@ -2497,15 +2614,16 @@
 		birth=yes
 	}
 	1464.1.1={
-		give_nickname="nick_Magosaburo"
+		give_nickname="nick_Magosaburo" # 「孫三郎」（『三澤家譜』）
 	}
 	1498.1.1={
 		death=yes
 	}
 }
 12602200={
-	name=character_name_12602200 # Tamenaga
-	dynasty=10007286 # Nunohiro
+	name=character_name_12602200 # Tamenaga,為長
+	#dynasty=10007286 # Nunohiro
+	dynasty_house="house_shgnt_misawa_nunohiro"
 	father=12602110 # Nunohiro Tamezane
 	religion="shinto"
 	culture="sanin"
@@ -2513,15 +2631,16 @@
 		birth=yes
 	}
 	1441.1.1={
-		give_nickname="nick_Jirozaemon"
+		give_nickname="nick_Jirozaemon" # 「次郎左衛門尉  法名廣継」（『三澤家譜』）
 	}
 	1471.1.1={
 		death=yes
 	}
 }
 12602201={
-	name=character_name_12602201 # Tametaka
-	dynasty=10007286 # Nunohiro
+	name=character_name_12602201 # Tametaka,為高
+	#dynasty=10007286 # Nunohiro
+	dynasty_house="house_shgnt_misawa_nunohiro"
 	father=12602110 # Nunohiro Tamezane
 	religion="shinto"
 	culture="sanin"
@@ -2529,7 +2648,7 @@
 		birth=yes
 	}
 	1443.1.1={
-		give_nickname="nick_Genzaemon"
+		give_nickname="nick_Genzaemon" # 「源左衛門尉」（『三澤家譜』）
 	}
 	1473.1.1={
 		death=yes

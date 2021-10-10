@@ -130,13 +130,13 @@ c_shgnt_ashi-no-shimo = {
         liege = 0
         holder = 0
     }
-	1333.01.01 = {
-		effect = {
-			title:b_shgnt_ashi-no-shimo_2 = {
-				set_title_name = b_shgnt_ashi-no-shimo_2_1 # Odawara
-			}
-		}
-	}
+    1333.01.01 = {
+        effect = {
+            title:b_shgnt_ashi-no-shimo_2 = {
+                set_title_name = b_shgnt_ashi-no-shimo_2_1 # Odawara
+            }
+        }
+    }
     1417.01.27 = {
         liege = k_nmih_kamakura_kubo # 
         holder = 10040061 # Ashikaga Mochiuji
@@ -186,13 +186,13 @@ c_shgnt_chichibu = {
         liege = 0 # 
         holder = 0 # the HATAKEYAMA Shigetada Rebellion
     }
-	1333.07.04 = {
-		effect = {
-			title:b_shgnt_chichibu_2 = {
-				set_title_name = b_shgnt_chichibu_2_1 # Chichibu, 秩父
-			}
-		}
-	}
+    1333.07.04 = {
+        effect = {
+            title:b_shgnt_chichibu_2 = {
+                set_title_name = b_shgnt_chichibu_2_1 # Chichibu, 秩父
+            }
+        }
+    }
     1441.01.01 = {
         liege = d_shgnt_musashi # 
         holder = 10017320 # Nagao Kagenaka
@@ -212,20 +212,20 @@ c_shgnt_chichibu = {
         holder = 10018401 # Fujita Shigekazu
     }
     1490.01.01 = {
-		liege = k_nmih_kanto_kanrei
+        liege = k_nmih_kanto_kanrei
         holder = 10018402 # Fujita Shigeyori
     }
     1520.01.01 = {
-		liege = k_nmih_kanto_kanrei
+        liege = k_nmih_kanto_kanrei
         holder = 10018403 # Fujita Shigetsuna
     }
     1530.01.01 = {
-		liege = k_nmih_kanto_kanrei
+        liege = k_nmih_kanto_kanrei
         holder = 10018404 # Fujita Yasukuni
     }
-	1546.06.01 = {
-		liege = d_shgnt_musashi # 10016004 # Hojo Ujiyasu, 川越城の戦い後に降伏
-	}
+    1546.06.01 = {
+        liege = d_shgnt_musashi # 10016004 # Hojo Ujiyasu, 川越城の戦い後に降伏
+    }
     1558.01.01 = {
         holder = 10016016 # Hojo Ujikuni
     }
@@ -246,13 +246,13 @@ c_shgnt_ehara = {
         liege = 0
         holder = 0
     }
-	1394.01.01 = {
-		effect = {
-			title:b_shgnt_ehara_1 = {
-				set_title_name = b_shgnt_ehara_1_1 # Setagaya
-			}
-		}
-	}
+    1394.01.01 = {
+        effect = {
+            title:b_shgnt_ehara_1 = {
+                set_title_name = b_shgnt_ehara_1_1 # Setagaya
+            }
+        }
+    }
     1430.01.01 = {
         liege = d_shgnt_sagami # 
         holder = 10018310 # Kira Yoriharu
@@ -290,13 +290,13 @@ c_shgnt_kuruma = {
         liege = 0
         holder = 0
     }
-	1333.07.04 = {
-		effect = {
-			title:b_shgnt_kuruma_7 = {
-				set_title_name = b_shgnt_kuruma_7_1 # Sōja, 総社
-			}
-		}
-	}
+    1333.07.04 = {
+        effect = {
+            title:b_shgnt_kuruma_7 = {
+                set_title_name = b_shgnt_kuruma_7_1 # Sōja, 総社
+            }
+        }
+    }
     1336.03.10 = {
         liege = d_shgnt_kozuke # 
         holder = 12215325 # Nagao Kagetada
@@ -310,13 +310,13 @@ c_shgnt_kuruma = {
     1420.01.01 = {
         holder = 10017320 # Nagao Kagenaka
     }
-	1429.01.01 = {
-		effect = {
-			title:b_shgnt_kuruma_7 = {
-				set_title_name = b_shgnt_kuruma_7_2 # Ōmi, 蒼海城
-			}
-		}
-	}
+    1429.01.01 = {
+        effect = {
+            title:b_shgnt_kuruma_7 = {
+                set_title_name = b_shgnt_kuruma_7_2 # Ōmi, 蒼海城
+            }
+        }
+    }
     1463.10.08 = {
         holder = 10017321 # Nagao Kagenobu
     }
@@ -354,13 +354,13 @@ c_shgnt_kuruma = {
         liege = d_shgnt_kozuke # 
         holder = 10016016 # Hojo Ujikuni
     }
-	1681.01.01 = {
-		effect = {
-			title:b_shgnt_kuruma_12 = {
-				set_title_name = b_shgnt_kuruma_12_1 # Maebashi
-			}
-		}
-	}
+    1681.01.01 = {
+        effect = {
+            title:b_shgnt_kuruma_12 = {
+                set_title_name = b_shgnt_kuruma_12_1 # Maebashi
+            }
+        }
+    }
 }
 c_shgnt_hanzawa = {
     0001.01.01 = { change_development_level = 10 }
@@ -387,6 +387,11 @@ c_shgnt_hanzawa = {
     1207.01.01 = {
         liege = 0
         holder = 0
+        effect = {
+            title:b_shgnt_hanzawa_3 = {
+                set_title_name = b_shgnt_hanzawa_3_1 # Hanazono,花園城
+            }
+        }
     }
     1404.09.06 = {
         liege = d_shgnt_musashi # 
@@ -476,11 +481,11 @@ c_shgnt_hiki = {
     1203.10.08 = {
         liege = 0
         holder = 0
-		effect = {
-			title:b_shgnt_hiki_5 = {
-				set_title_name = b_shgnt_hiki_5_1 # Kawajima, 川島
-			}
-		}
+        effect = {
+            title:b_shgnt_hiki_5 = {
+                set_title_name = b_shgnt_hiki_5_1 # Kawajima, 川島
+            }
+        }
     }
     1399.01.01 = {
         holder = 10018425 # Ueda Tomonao
@@ -533,11 +538,11 @@ c_shgnt_nyuto = {
     1457.01.01 = {
         liege = d_shgnt_musashi # 
         holder = 10017037 # Uesugi Mochitomo
-		effect = {
-			title:b_shgnt_iruma_3 = {
-				set_title_name = b_shgnt_iruma_3_1 # Kawagoe
-			}
-		}
+        effect = {
+            title:b_shgnt_iruma_3 = {
+                set_title_name = b_shgnt_iruma_3_1 # Kawagoe
+            }
+        }
     }
     1467.10.04 = {
         holder = 10017042 # Uesugi Masazane
@@ -724,24 +729,24 @@ c_shgnt_kamakura = {
     1455.08.01 = {
         holder = 10016500 # Miura Tokitaka
     }
-	1462.05.01={ # 寛正3(1462)年三月二十九日、「三浦介」隠遁表明、武蔵五十子陣から三浦に退去
-		holder=10017039 # 三浦高救、三浦道含
-	}
+    1462.05.01={ # 寛正3(1462)年三月二十九日、「三浦介」隠遁表明、武蔵五十子陣から三浦に退去
+        holder=10017039 # 三浦高救、三浦道含
+    }
     1494.10.22 = {
         holder = 10016502 # Miura Yoshiatsu
     }
     1512.09.21 = {# 永正9(1512)年八月七日から十二日、三浦方岡崎城が落城、岡崎城は相模国中郡の拠点、三浦道寸は相模国中郡の支配権を喪失
-	# 永正9(1512)年八月十三日、伊勢宗瑞は鎌倉に入り、鶴岡八幡宮に参詣、鎌倉を制圧
+    # 永正9(1512)年八月十三日、伊勢宗瑞は鎌倉に入り、鶴岡八幡宮に参詣、鎌倉を制圧
         liege = 0 # 
         holder = 10016001 # Hojo Soun
     }
-	1513.01.01 = {
-		effect = {
-			title:b_shgnt_kamakura_2 = {
-				set_title_name = b_shgnt_kamakura_2_1 # Tamanawa
-			}
-		}
-	}
+    1513.01.01 = {
+        effect = {
+            title:b_shgnt_kamakura_2 = {
+                set_title_name = b_shgnt_kamakura_2_1 # Tamanawa
+            }
+        }
+    }
     1519.09.08 = {
         liege = d_shgnt_sagami # 
         holder = 10016002 # Hojo Ujitoki
@@ -778,13 +783,13 @@ c_shgnt_kita_adachi = {
         liege = 0
         holder = 0
     }
-	1333.07.04 = {
-		effect = {
-			title:b_shgnt_kita_adachi_4 = {
-				set_title_name = b_shgnt_kita_adachi_4_1 # Mitsugi, 三ツ木城
-			}
-		}
-	}
+    1333.07.04 = {
+        effect = {
+            title:b_shgnt_kita_adachi_4 = {
+                set_title_name = b_shgnt_kita_adachi_4_1 # Mitsugi, 三ツ木城
+            }
+        }
+    }
     1430.01.01 = {
         liege = d_shgnt_sagami # 
         holder = 10018350 # Ota Sukekiyo
@@ -842,6 +847,11 @@ c_shgnt_kanra = {
     1430.01.01 = {
         liege = d_shgnt_kozuke # 
         holder = 10017455 # Obata Noritaka
+        effect = {
+            title:b_shgnt_kanra_5 = {
+                set_title_name = b_shgnt_kanra_5_1 # Kunimine,国峯城
+            }
+        }
     }
     1450.01.01 = {
         holder = 10017456 # Obata Kagetaka
@@ -899,13 +909,13 @@ c_shgnt_yamata = {
     1194.01.01 = {
         holder = 0
     }
-	1350.01.01 = {
-		effect = {
-			title:b_shgnt_yamata_1 = {
-				set_title_name = b_shgnt_yamata_1_1 # Hishakuyama
-			}
-		}
-	}
+    1350.01.01 = {
+        effect = {
+            title:b_shgnt_yamata_1 = {
+                set_title_name = b_shgnt_yamata_1_1 # Hishakuyama
+            }
+        }
+    }
     1432.01.01 = {
         liege = k_nmih_kamakura_kubo # 
         holder = 12180606 # Sano Shigenaga
@@ -1011,6 +1021,11 @@ c_shgnt_kodama = {
     1480.06.01 = {
         liege = k_nmih_kanto_kanrei # End of Nagao Kageharu's rebellion
         holder = 10017024 # Uesugi Akisada
+        effect = {
+            title:b_shgnt_kodama_3 = {
+                set_title_name = b_shgnt_kodama_3_1 # Mitake,御嶽城
+            }
+        }
     }
     1510.07.25 = {
         holder = 10040060 # Uesugi Akizane
@@ -1050,13 +1065,13 @@ c_shgnt_kuraki = {
         liege = 0
         holder = 0
     }
-	1430.01.01 = {
-		effect = {
-			title:b_shgnt_kuraki_1 = {
-				set_title_name = b_shgnt_kuraki_1_1 # Maita
-			}
-		}
-	}
+    1430.01.01 = {
+        effect = {
+            title:b_shgnt_kuraki_1 = {
+                set_title_name = b_shgnt_kuraki_1_1 # Maita
+            }
+        }
+    }
     1457.01.01 = {
         liege = d_shgnt_musashi # 
         holder = 10017037 # Uesugi Mochitomo
@@ -1162,13 +1177,13 @@ c_shgnt_mitono = {
     1418.02.09 = {
         holder = 10017020 # Uesugi Norizane
     }
-	1438.01.01 = {
-		effect = {
-			title:b_shgnt_mitono_1 = {
-				set_title_name = b_shgnt_mitono_1_1 # Hirai
-			}
-		}
-	}
+    1438.01.01 = {
+        effect = {
+            title:b_shgnt_mitono_1 = {
+                set_title_name = b_shgnt_mitono_1_1 # Hirai
+            }
+        }
+    }
     1439.03.24 = {
         holder = 10032805 # Uesugi Kiyokata
     }
@@ -1252,20 +1267,20 @@ c_shgnt_miura = {
     }
     1247.07.09 = {
         holder = 10131824 # Hojo Tokiyori / The battle of Hōji
-		effect = {
-			set_title_name = c_shgnt_miura_1 # Miura, 三浦
-			title:b_shgnt_miura_1 = {
-				set_title_name = b_shgnt_miura_1_1 # Yokosuka, 横須賀
-			}
-		}
+        effect = {
+            set_title_name = c_shgnt_miura_1 # Miura, 三浦
+            title:b_shgnt_miura_1 = {
+                set_title_name = b_shgnt_miura_1_1 # Yokosuka, 横須賀
+            }
+        }
     }
     1248.01.01 = {
         holder = 12211224 # Miura [Sahara] Moritoki
-		effect = {
-			title:b_shgnt_miura_2 = {
-				set_title_name = b_shgnt_miura_2_1 # Arai
-			}
-		}
+        effect = {
+            title:b_shgnt_miura_2 = {
+                set_title_name = b_shgnt_miura_2_1 # Arai
+            }
+        }
     }
     1267.01.01 = {
         holder = 12211251 # Miura Yorimori
@@ -1292,9 +1307,9 @@ c_shgnt_miura = {
     1430.10.22 = {
         holder = 10016500 # Miura Tokitaka
     }
-	1462.05.01={ # 寛正3(1462)年三月二十九日、「三浦介」隠遁表明、武蔵五十子陣から三浦に退去
-		holder=10017039 # 三浦高救、三浦道含
-	}
+    1462.05.01={ # 寛正3(1462)年三月二十九日、「三浦介」隠遁表明、武蔵五十子陣から三浦に退去
+        holder=10017039 # 三浦高救、三浦道含
+    }
     1494.10.22 = {
         holder = 10016502 # Miura Yoshiatsu
     }
@@ -1341,11 +1356,11 @@ c_shgnt_nifuta = {
     }
     1347.01.01 = {
         holder = 12187030 # Iwamatsu Tadakuni
-		effect = {
-			title:b_shgnt_nifuta_6 = {
-				set_title_name = b_shgnt_nifuta_6_1 # Iwamatsu, 岩松館
-			}
-		}
+        effect = {
+            title:b_shgnt_nifuta_6 = {
+                set_title_name = b_shgnt_nifuta_6_1 # Iwamatsu, 岩松館
+            }
+        }
     }
     1390.01.01 = {
         liege = k_nmih_kamakura_kubo # 
@@ -1365,13 +1380,13 @@ c_shgnt_nifuta = {
     1461.01.01 = {
         holder = 12187050 # Iwamatsu Iezumi
     }
-	1469.01.01 = {
-		effect = {
-			title:b_shgnt_nifuta_4 = {
-				set_title_name = b_shgnt_nifuta_4_1 # Kanayama
-			}
-		}
-	}
+    1469.01.01 = {
+        effect = {
+            title:b_shgnt_nifuta_4 = {
+                set_title_name = b_shgnt_nifuta_4_1 # Kanayama
+            }
+        }
+    }
     1494.05.26 = {
         holder = 12187060 # Iwamatsu Hisazumi
     }
@@ -1571,6 +1586,11 @@ c_shgnt_sai = {
     }
     1520.01.01 = {
         holder = 10017200 # Nawa Munetoshi
+        effect = {
+            title:b_shgnt_sai_1 = {
+                set_title_name = b_shgnt_sai_1_1 # Akaishi,赤石城
+            }
+        }
     }
     1560.12.01 = {
         liege = d_shgnt_echigo # 
@@ -1578,6 +1598,11 @@ c_shgnt_sai = {
     }
     1574.01.01 = {
         holder = 10017123 # Yura Kunishige
+        effect = {
+            title:b_shgnt_sai_1 = {
+                set_title_name = b_shgnt_sai_1_2 # Isezaki,伊勢崎城
+            }
+        }
     }
 }
 c_shgnt_kita_saitama = {
@@ -1609,13 +1634,13 @@ c_shgnt_kita_saitama = {
         liege = k_nmih_kamakura_kubo # 
         holder = 10040059 # Ashikaga Shigeuji
     }
-	1478.01.01={
-		effect = {
-			title:b_shgnt_kita_saitama_3 = {
-				set_title_name = b_shgnt_kita_saitama_3_1 # Oshi, 忍城
-			}
-		}
-	}
+    1478.01.01={
+        effect = {
+            title:b_shgnt_kita_saitama_3 = {
+                set_title_name = b_shgnt_kita_saitama_3_1 # Oshi, 忍城
+            }
+        }
+    }
     1480.01.01 = {
         holder = 10018101 # Narita Akiyasu
     }
@@ -1840,11 +1865,11 @@ c_shgnt_tagata = {
     1458.06.01 = {
         liege = d_shgnt_izu # Ashikaga Masatomo
         holder = 10040037 # Ashikaga Masatomo
-		effect = {
-			title:b_shgnt_tagata_1 = {
-				set_title_name = b_shgnt_tagata_1_1 # Nirayama
-			}
-		}
+        effect = {
+            title:b_shgnt_tagata_1 = {
+                set_title_name = b_shgnt_tagata_1_1 # Nirayama
+            }
+        }
     }
     1491.05.11 = {
         holder = 10040038 # Ashikaga Chachamaru
@@ -1863,74 +1888,74 @@ c_shgnt_tagata = {
     }
 }
 c_shgnt_tato = {
-	1.1.1 = { change_development_level = 20 }
-	1100.1.1 = { change_development_level = 20 }
-	1331.1.1 = { change_development_level = 20 }
+    1.1.1 = { change_development_level = 20 }
+    1100.1.1 = { change_development_level = 20 }
+    1331.1.1 = { change_development_level = 20 }
 
-	0701.1.1={
-		liege="d_shgnt_musashi"
-	}
-	1150.1.1={
-		holder=12203000 # Kaneko Ienori
-	}
-	1175.1.1={
-		holder=12203001 # Kaneko Ietada
-	}
-	1180.10.24={
-		liege="k_shgnt_western_kanto" # served under Yoritomo
-		holder=12203001 # Kaneko Ietada
-	}
-	1192.7.12={
-		liege="e_shgnt_japan"
-		holder=12203001 # Kaneko Ietada
-	}
-	1216.3.6={
-		liege=0
-		holder=0
-	}
-	1333.07.04 = {
-		effect = {
-			title:b_shgnt_tama_7 = {
-				set_title_name = b_shgnt_tama_7_1 # Fuchū, 府中
-			}
-		}
-	}
-	1457.1.1={
-		liege="d_shgnt_musashi"
-		holder=10017037 # Uesugi Mochitomo
-	}
-	1467.10.4={
-		holder=10017042 # Uesugi Masazane
-	}
-	1473.12.22={
-		holder=10017040 # Uesugi Sadamasa
-	}
-	1494.11.20={
-		holder=10017043 # Uesugi Tomoyoshi
-	}
-	1518.5.30={
-		holder=10018000 # Uesugi Tomooki
-	}
-	1537.6.4={
-		holder=10018001 # Uesugi Tomosada
-	}
-	1537.7.1={
-		holder=10016000 # Hojo Ujitsuna
-	}
-	1541.8.10={
-		holder=10016004 # Hojo Ujiyasu
-	}
-	1559.1.1={
-		liege="d_shgnt_musashi"
-		holder=10016015 # Hojo Ujiteru
-	}
-	1571.01.01 = {
-		effect = {
-			title:b_shgnt_tama_1 = {
-				set_title_name = b_shgnt_tama_1_1 # Hachiōji
-			}
-		}
-	}
+    0701.1.1={
+        liege="d_shgnt_musashi"
+    }
+    1150.1.1={
+        holder=12203000 # Kaneko Ienori
+    }
+    1175.1.1={
+        holder=12203001 # Kaneko Ietada
+    }
+    1180.10.24={
+        liege="k_shgnt_western_kanto" # served under Yoritomo
+        holder=12203001 # Kaneko Ietada
+    }
+    1192.7.12={
+        liege="e_shgnt_japan"
+        holder=12203001 # Kaneko Ietada
+    }
+    1216.3.6={
+        liege=0
+        holder=0
+    }
+    1333.07.04 = {
+        effect = {
+            title:b_shgnt_tama_7 = {
+                set_title_name = b_shgnt_tama_7_1 # Fuchū, 府中
+            }
+        }
+    }
+    1457.1.1={
+        liege="d_shgnt_musashi"
+        holder=10017037 # Uesugi Mochitomo
+    }
+    1467.10.4={
+        holder=10017042 # Uesugi Masazane
+    }
+    1473.12.22={
+        holder=10017040 # Uesugi Sadamasa
+    }
+    1494.11.20={
+        holder=10017043 # Uesugi Tomoyoshi
+    }
+    1518.5.30={
+        holder=10018000 # Uesugi Tomooki
+    }
+    1537.6.4={
+        holder=10018001 # Uesugi Tomosada
+    }
+    1537.7.1={
+        holder=10016000 # Hojo Ujitsuna
+    }
+    1541.8.10={
+        holder=10016004 # Hojo Ujiyasu
+    }
+    1559.1.1={
+        liege="d_shgnt_musashi"
+        holder=10016015 # Hojo Ujiteru
+    }
+    1571.01.01 = {
+        effect = {
+            title:b_shgnt_tama_1 = {
+                set_title_name = b_shgnt_tama_1_1 # Hachiōji
+            }
+        }
+    }
 }
 
 c_shgnt_tasei = {
@@ -1950,11 +1975,11 @@ c_shgnt_tasei = {
     }
     1213.05.25 = {
         holder = 10131653 # Hojo Yoshitoki
-		effect = {
-			title:b_shgnt_tama_1 = {
-				set_title_name = b_shgnt_tama_1_1 # Yokoyama, 横山
-			}
-		}
+        effect = {
+            title:b_shgnt_tama_1 = {
+                set_title_name = b_shgnt_tama_1_1 # Yokoyama, 横山
+            }
+        }
     }
     1224.07.01 = {
         liege = 0
@@ -2021,13 +2046,13 @@ c_shgnt_tone = {
     1529.01.01 = {
         holder = 10017350 # Numata Akimitsu
     }
-	1532.01.01 = {
-		effect = {
-			title:b_shgnt_tone_5 = {
-				set_title_name = b_shgnt_tone_5_1 # Numata
-			}
-		}
-	}
+    1532.01.01 = {
+        effect = {
+            title:b_shgnt_tone_5 = {
+                set_title_name = b_shgnt_tone_5_1 # Numata
+            }
+        }
+    }
     1552.03.01 = {
         liege = 0 # --
         holder = 10017350 # Numata Akiyasu
@@ -2118,16 +2143,16 @@ c_shgnt_toshima = {
     1330.01.01 = {
         holder = 12201041 # Toshima Kagemura
     }
-	1333.07.04 = {
-		effect = {
-			title:b_shgnt_toshima_3 = {
-				set_title_name = b_shgnt_toshima_3_1 # Toshima, 豊島
-			}
-			title:b_shgnt_toshima_1 = {
-				set_title_name = b_shgnt_toshima_1_1 # Edo, 江戸
-			}
-		}
-	}
+    1333.07.04 = {
+        effect = {
+            title:b_shgnt_toshima_3 = {
+                set_title_name = b_shgnt_toshima_3_1 # Toshima, 豊島
+            }
+            title:b_shgnt_toshima_1 = {
+                set_title_name = b_shgnt_toshima_1_1 # Edo, 江戸
+            }
+        }
+    }
     1350.01.01 = {
         holder = 12201045 # Toshima Tomoyasu
     }
@@ -2149,13 +2174,13 @@ c_shgnt_toshima = {
     1456.01.01 = {
         holder = 10018351 # Ota Sukenaga(Dokan)
     }
-	1457.01.01 = {
-		effect = {
-			title:b_shgnt_toshima_1 = {
-				set_title_name = b_shgnt_toshima_1_2 # Edo, 江戸城
-			}
-		}
-	}
+    1457.01.01 = {
+        effect = {
+            title:b_shgnt_toshima_1 = {
+                set_title_name = b_shgnt_toshima_1_2 # Edo, 江戸城
+            }
+        }
+    }
     1486.08.25 = {
         holder = 10017040 # Uesugi Sadamasa
     }
@@ -2196,9 +2221,9 @@ c_shgnt_tsukui = {
         liege = d_shgnt_sagami # 
         holder = 10016500 # Miura Tokitaka
     }
-	1462.05.01={ # 寛正3(1462)年三月二十九日、「三浦介」隠遁表明、武蔵五十子陣から三浦に退去
-		holder=10017039 # 三浦高救、三浦道含
-	}
+    1462.05.01={ # 寛正3(1462)年三月二十九日、「三浦介」隠遁表明、武蔵五十子陣から三浦に退去
+        holder=10017039 # 三浦高救、三浦道含
+    }
     1477.02.10 = {
         liege = 0 # 
         holder = 10017324 # Nagao Kageharu
@@ -2259,20 +2284,20 @@ c_shgnt_usui = {
     1529.01.01 = {
         holder = 10017402 # Annaka Shigeshige
     }
-	1560.01.01 = {
-		effect = {
-			title:b_shgnt_usui_2 = {
-				set_title_name = b_shgnt_usui_2_1 # Matsuida
-			}
-		}
-	}
+    1560.01.01 = {
+        effect = {
+            title:b_shgnt_usui_2 = {
+                set_title_name = b_shgnt_usui_2_1 # Matsuida
+            }
+        }
+    }
     1561.01.01 = {
         holder = 10017403 # Annaka Kageshige
     }
-	1562.09.01 = {
-		liege = d_shgnt_shinano
-		#holder = 10017403 # Annaka Kageshige
-	}
+    1562.09.01 = {
+        liege = d_shgnt_shinano
+        #holder = 10017403 # Annaka Kageshige
+    }
     1575.05.21 = {
         holder = 10017405 # Annaka Hisashige
     }
@@ -2689,16 +2714,16 @@ d_shgnt_sagami = {
     1186.04.11 = {
         liege = k_shgnt_western_kanto # 
         holder = 10120075 # Minamoto Yoritomo
-		effect = {
-			set_capital_county = title:c_shgnt_kamakura # Kamakura
-		}
+        effect = {
+            set_capital_county = title:c_shgnt_kamakura # Kamakura
+        }
     }
-	1344.01.01={
-		holder = 12211275 # Miura Takamichi, 三浦介高通、観応2(1351)年十月時点で相模国守護職
-	}
-	1352.01.01={
-		holder=0 # 三浦介高通、薩埵峠の戦いで直義方、尊氏に敗北、相模守護職解任
-	}
+    1344.01.01={
+        holder = 12211275 # Miura Takamichi, 三浦介高通、観応2(1351)年十月時点で相模国守護職
+    }
+    1352.01.01={
+        holder=0 # 三浦介高通、薩埵峠の戦いで直義方、尊氏に敗北、相模守護職解任
+    }
     1363.01.01 = {
         holder = 12211275 # Miura Takamichi
     }
@@ -2733,9 +2758,9 @@ d_shgnt_sagami = {
     1516.08.19 = {
         liege = 0 # 
         holder = 10016001 # Hojo Soun
-		effect = {
-			set_capital_county = title:c_shgnt_ashi-no-shimo # Odawara
-		}
+        effect = {
+            set_capital_county = title:c_shgnt_ashi-no-shimo # Odawara
+        }
     }
     1519.09.08 = {
         holder = 10016000 # Hojo Ujitsuna
@@ -2869,6 +2894,11 @@ c_shgnt_izu_kamo = {
     }
     1493.08.01 = {
         holder = 10016001 # Hojo Soun
+        effect = {
+            title:b_shgnt_izu_kamo_3 = {
+                set_title_name = b_shgnt_izu_kamo_3_1 # Shimoda,下田城
+            }
+        }
     }
     1519.09.08 = {
         holder = 10016000 # Hojo Ujitsuna
@@ -2879,6 +2909,13 @@ c_shgnt_izu_kamo = {
     }
     1557.01.01 = {
         holder = 10016101 # Shimizu Tsunayoshi
+    }
+    1601.01.01={
+        effect = {
+            title:b_shgnt_izu_kamo_3 = {
+                set_title_name = b_shgnt_izu_kamo_3_2 # Shimoda,下田
+            }
+        }
     }
 }
 c_shgnt_the_izu_island_chain = {
@@ -2952,9 +2989,9 @@ c_shgnt_takakura = {
         liege = k_shgnt_western_kanto # Minamoto Yoritomo
 #        holder = 10120075 # Minamoto Yoritomo / Yoritomo's conquest of Kamakura
     }
-	1195.1.1={
-		holder = 12210012 # Shibuya Takashige
-	}
+    1195.1.1={
+        holder = 12210012 # Shibuya Takashige
+    }
 #    1199.02.09 = {
 #        holder = 10120086 # Minamoto Yoriie, the 2nd shogun of the Kamakura Shogunate
 #    }
@@ -2997,9 +3034,9 @@ c_shgnt_takakura = {
     1455.08.01 = {
         holder = 10016500 # Miura Tokitaka
     }
-	1462.05.01={ # 寛正3(1462)年三月二十九日、「三浦介」隠遁表明、武蔵五十子陣から三浦に退去
-		holder=10017039 # 三浦高救、三浦道含
-	}
+    1462.05.01={ # 寛正3(1462)年三月二十九日、「三浦介」隠遁表明、武蔵五十子陣から三浦に退去
+        holder=10017039 # 三浦高救、三浦道含
+    }
     1494.10.22 = {
         holder = 10016502 # Miura Yoshiatsu
     }
@@ -3062,11 +3099,11 @@ c_shgnt_sagami_osumi = {
     }
     1449.01.01 = {
         holder = 10017038 # Uesugi Akifusa
-		effect = {
-			title:b_shgnt_sagami_osumi_6 = {
-				set_title_name = b_shgnt_sagami_osumi_6_1 # Kasuya
-			}
-		}
+        effect = {
+            title:b_shgnt_sagami_osumi_6 = {
+                set_title_name = b_shgnt_sagami_osumi_6_1 # Kasuya
+            }
+        }
     }
     1455.02.10 = {
         holder = 10017037 # Uesugi Mochitomo
@@ -3215,6 +3252,13 @@ c_shgnt_tachibana = {
     1205.07.11 = {
         liege = 0
         holder = 0
+    }
+    1333.07.04={
+        effect = {
+            title:b_shgnt_tachibana_2 = {
+                set_title_name = b_shgnt_tachibana_2_1 # Kozukue,小机
+            }
+        }
     }
     1457.01.01 = {
         liege = d_shgnt_musashi # 
@@ -3378,13 +3422,13 @@ c_shgnt_musashi_koma = {
         liege = 0 # 
         holder = 0 # the HATAKEYAMA Shigetada Rebellion
     }
-	1333.07.04 = {
-		effect = {
-			title:b_shgnt_musashi_koma_2 = {
-				set_title_name = b_shgnt_musashi_koma_2_1 # Onakage, 女影
-			}
-		}
-	}
+    1333.07.04 = {
+        effect = {
+            title:b_shgnt_musashi_koma_2 = {
+                set_title_name = b_shgnt_musashi_koma_2_1 # Onakage, 女影
+            }
+        }
+    }
     1457.01.01 = {
         liege = d_shgnt_musashi # 
         holder = 10017037 # Uesugi Mochitomo
@@ -3436,11 +3480,11 @@ c_shgnt_obusuma = {
     1205.07.10 = {
         liege = 0 # 
         holder = 0 # the HATAKEYAMA Shigetada Rebellion
-		effect = {
-			title:b_shgnt_obusuma_1 = {
-				set_title_name = b_shgnt_obusuma_1_1 # Hachigata, 鉢形
-			}
-		}
+        effect = {
+            title:b_shgnt_obusuma_1 = {
+                set_title_name = b_shgnt_obusuma_1_1 # Hachigata, 鉢形
+            }
+        }
     }
     1441.01.01 = {
         liege = d_shgnt_musashi # 
@@ -3452,13 +3496,13 @@ c_shgnt_obusuma = {
     1473.07.18 = {
         holder = 10017322 # Nagao Tadakage
     }
-	1476.01.01 = {
-		effect = {
-			title:b_shgnt_obusuma_1 = {
-				set_title_name = b_shgnt_obusuma_1_1 # Hachigata
-			}
-		}
-	}
+    1476.01.01 = {
+        effect = {
+            title:b_shgnt_obusuma_1 = {
+                set_title_name = b_shgnt_obusuma_1_1 # Hachigata
+            }
+        }
+    }
     1477.02.10 = {
         liege = 0 # Nagao Kageharu's rebellion
         holder = 10017324 # Nagao Kageharu
@@ -3476,9 +3520,9 @@ c_shgnt_obusuma = {
     1530.01.01 = {
         holder = 10018404 # Fujita Yasukuni
     }
-	1546.06.01 = {
-		liege = d_shgnt_musashi # 10016004 # Hojo Ujiyasu, 川越城の戦い後に降伏
-	}
+    1546.06.01 = {
+        liege = d_shgnt_musashi # 10016004 # Hojo Ujiyasu, 川越城の戦い後に降伏
+    }
     1558.01.01 = {
         holder = 10016016 # Hojo Ujikuni
     }
@@ -3545,13 +3589,13 @@ c_shgnt_yokomi = {
         liege = 0
         holder = 0
     }
-	1399.01.01={
-		effect = {
-			title:b_shgnt_yokomi_1 = {
-				set_title_name = b_shgnt_yokomi_1_1 # Matsuyama, 松山城
-			}
-		}
-	}
+    1399.01.01={
+        effect = {
+            title:b_shgnt_yokomi_1 = {
+                set_title_name = b_shgnt_yokomi_1_1 # Matsuyama, 松山城
+            }
+        }
+    }
     1457.01.01 = {
         liege = d_shgnt_musashi # 
         holder = 10017037 # Uesugi Mochitomo

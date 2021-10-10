@@ -7654,9 +7654,10 @@
 	}
 }
 12666010 = {
-	name=character_name_12666010 # Motoharu
+	name=character_name_12666010 # Motoharu,元春、「初師親　親衡」（『近世防長諸家系図綜覧』）
 	dynasty=10000560 # Mori
 	father=12270796 # Mori Chikahira
+	# TODO: 「母　三田入道女」（『近世防長諸家系図綜覧』）
 	martial=15
 	diplomacy=9
 	intrigue=10
@@ -7666,19 +7667,25 @@
 	culture="western_chugoku"
 	prowess=25
 	1323.1.1={
-		birth=yes
+		birth=yes # 「元亨3(1323)年癸亥生」（『近世防長諸家系図綜覧』）
+	}
+	1336.01.01={
+		dynasty_house="house_shgnt_aki-mori"
 	}
 	1360.1.1={
 		effect = {
-			add_trait = "jugoi_ge"
+			add_trait = "jugoi_ge" # 「従五位下」（『近世防長諸家系図綜覧』）
 		}
+		give_nickname="nick_the_sakonoe_shogen" # 「少輔太郎　左近将監　権大丞　右馬頭　入道元阿」（『近世防長諸家系図綜覧』）
 	}
 	1380.1.1={
-		death=yes
+		death={
+			death_reason=death_natural_causes
+		}
 	}
 }
 12666011 = {
-	name=character_name_12666011 # Masatoki #Saka and Katsura clan's ancestor
+	name=character_name_12666011 # Masatoki,匡時 #Saka and Katsura clan's ancestor、「初匡家　桂　坂　光永　志道　口羽氏等祖」（『近世防長諸家系図綜覧』）
 	dynasty=10000560 # Mori
 	father=12270796 # Mori Chikahira
 	trait="education_diplomacy_1"
@@ -7687,12 +7694,20 @@
 	1325.1.1={
 		birth=yes
 	}
+	1336.01.01={
+		dynasty_house="house_shgnt_aki-mori"
+	}
+	1355.01.01={
+		give_nickname="nick_kunai_no_sho" # 「宮内少輔　大膳権大夫　従五位下」（『近世防長諸家系図綜覧』）
+	}
 	1380.1.1={
-		death=yes
+		death={
+			death_reason=death_natural_causes
+		}
 	}
 }
 12666012 = {
-	name=character_name_12666012 # Naomoto #Aritomi clan's ancestor
+	name=character_name_12666012 # Naomoto,直元 #Aritomi clan's ancestor、「初直広　又直衡　吉田庄麻原郷地頭職　有富氏祖」（『近世防長諸家系図綜覧』）
 	dynasty=10000560 # Mori
 	father=12270796 # Mori Chikahira
 	trait="education_diplomacy_1"
@@ -7701,13 +7716,22 @@
 	1328.1.1={
 		birth=yes
 	}
+	1336.01.01={
+		dynasty_house="house_shgnt_aki-mori"
+	}
+	1358.01.01={
+		give_nickname="nick_echigo_no_kami" # 「越後守」（『近世防長諸家系図綜覧』）
+	}
 	1380.1.1={
-		death=yes
+		death={
+			death_reason=death_natural_causes
+		}
 	}
 }
 12666020 = {
-	name=character_name_12666020 # Hirofusa
-	dynasty=10000560 # Mori
+	name=character_name_12666020 # Hirofusa,広房、「亀若丸」（『近世防長諸家系図綜覧』）
+	#dynasty=10000560 # Mori
+	dynasty_house="house_shgnt_aki-mori"
 	father=12666010 # Mori Motoharu
 	martial=8
 	diplomacy=7
@@ -7720,13 +7744,20 @@
 	1347.1.1={
 		birth=yes
 	}
+	1367.01.01={
+		give_nickname="nick_jibu_daihu" # 「治部大輔」（『近世防長諸家系図綜覧』）
+	}
 	1385.6.1={
-		death=yes
+		death={
+			death_reason=death_battle # 「至徳2(1385)年乙丑芸州東西条戦死」（『近世防長諸家系図綜覧』）
+			#killer= TODO
+		}
 	}
 }
 12666021 = {
-	name=character_name_12666021 # Motofusa
-	dynasty=10000560 # Mori
+	name=character_name_12666021 # Motofusa,元房
+	#dynasty=10000560 # Mori
+	dynasty_house="house_shgnt_aki-mori"
 	father=12666010 # Mori Motoharu
 	trait="education_diplomacy_1"
 	religion="shinto"
@@ -7734,13 +7765,19 @@
 	1349.1.1={
 		birth=yes
 	}
+	1379.01.01={
+		give_nickname="nick_danjo_shohitsu" # 「少輔次郎　弾正少弼　法名浄阿　子孫称厚母」（『近世防長諸家系図綜覧』）
+	}
 	1415.1.1={
-		death=yes
+		death={
+			death_reason=death_natural_causes
+		}
 	}
 }
 12666022 = {
-	name=character_name_12666022 # Hirouchi
-	dynasty=10000560 # Mori
+	name=character_name_12666022 # Hirouchi,（『近世防長諸家系図綜覧』）の名前読みは”ヒロタダ”、「初実広　子孫称麻原　又改門田」（『近世防長諸家系図綜覧』）
+	#dynasty=10000560 # Mori
+	dynasty_house="house_shgnt_aki-mori"
 	father=12666010 # Mori Motoharu
 	trait="education_diplomacy_1"
 	religion="shinto"
@@ -7748,13 +7785,19 @@
 	1350.1.1={
 		birth=yes
 	}
-	1425.1.1={
-		death=yes
+	1380.01.01={
+		give_nickname="nick_hyobu_no_sho" # 「三郎　兵部少輔」（『近世防長諸家系図綜覧』）
+	}
+	1392.1.25={
+		death={
+			death_reason=death_natural_causes # 「明徳3(1392)年壬申卒」（『近世防長諸家系図綜覧』）
+		}
 	}
 }
 12666023 = {
-	name=character_name_12666023 # Tadahiro
-	dynasty=10000560 # Mori
+	name=character_name_12666023 # Tadahiro,忠広
+	#dynasty=10000560 # Mori
+	dynasty_house="house_shgnt_aki-mori"
 	father=12666010 # Mori Motoharu
 	trait="education_diplomacy_1"
 	religion="shinto"
@@ -7762,13 +7805,22 @@
 	1352.1.1={
 		birth=yes
 	}
+	1372.01.01={
+		give_nickname="nick_sama_no_suke" # 「左馬助」（『近世防長諸家系図綜覧』）
+	}
+	1382.01.01={
+		dynasty_house="house_shgnt_mori_nagaya" # 「長屋　平佐氏等祖　初称中馬」（『近世防長諸家系図綜覧』）
+	}
 	1392.1.1={
-		death=yes
+		death={
+			death_reason=death_natural_causes
+		}
 	}
 }
 12666024 = {
-	name=character_name_12666024 # Hiroyo #Fukubara clan's ancestor
-	dynasty=10000560 # Mori
+	name=character_name_12666024 # Hiroyo,広世 #Fukubara clan's ancestor
+	#dynasty=10000560 # Mori
+	dynasty_house="house_shgnt_aki-mori"
 	father=12666010 # Mori Motoharu
 	trait="education_diplomacy_1"
 	religion="shinto"
@@ -7776,13 +7828,20 @@
 	1353.1.1={
 		birth=yes
 	}
-	1423.1.1={
-		death=yes
+	1383.01.01={
+		give_nickname="nick_the_sakonoe_shogen" # 「五郎　左近将監　従五位下　入道玄猛」（『近世防長諸家系図綜覧』）
+	}
+	# 「為長井掃部助貞広養子　福原氏祖」（『近世防長諸家系図綜覧』）
+	1370.11.12={
+		death={
+			death_reason=death_natural_causes # 「応永3(1396)年丙子十月廿四日卒」（『近世防長諸家系図綜覧』）
+		}
 	}
 }
 12666025 = {
-	name=character_name_12666025 # Motofuchi
-	dynasty=10000560 # Mori
+	name=character_name_12666025 # Motofuchi,元淵、（『近世防長諸家系図綜覧』）では名前読みが”モトブチ"
+	#dynasty=10000560 # Mori
+	dynasty_house="house_shgnt_aki-mori"
 	father=12666010 # Mori Motoharu
 	trait="education_diplomacy_1"
 	religion="shinto"
@@ -7790,13 +7849,20 @@
 	1350.1.1={
 		birth=yes
 	}
-	1425.1.1={
-		death=yes
+	1380.01.01={
+		give_nickname="nick_gyobu_no_sho" # 「刑部少輔」（『近世防長諸家系図綜覧』）
 	}
+	1425.1.1={
+		death={
+			death_reason=death_natural_causes
+		}
+	}
+	# 「至子孫称小山　又改福原」（『近世防長諸家系図綜覧』）
 }
 12666030 = {
-	name=character_name_12666030 # Mitsufusa
-	dynasty=10000560 # Mori
+	name=character_name_12666030 # Mitsufusa,光房、「初之房」（『近世防長諸家系図綜覧』）
+	#dynasty=10000560 # Mori
+	dynasty_house="house_shgnt_aki-mori"
 	father=12666020
 	martial=8
 	diplomacy=7
@@ -7807,15 +7873,24 @@
 	culture="western_chugoku"
 	prowess=12
 	1386.1.1={
-		birth=yes
+		birth=yes #　「至徳3(1386)年丙寅生」（『近世防長諸家系図綜覧』）
+	}
+	1416.01.01={
+		give_nickname="nick_bitchu_no_kami" # 「備中守」（『近世防長諸家系図綜覧』）
+	}
+	1426.01.01={
+		give_nickname="nick_uma_no_kami" # 「右馬頭　入道浄済」（『近世防長諸家系図綜覧』）
 	}
 	1436.1.1={
-		death=yes
+		death={
+			death_reason=death_natural_causes #　「永享8(1436)年丙辰於九州卒年五十一」（『近世防長諸家系図綜覧』）
+		}
 	}
 }
 12666040 = {
-	name=character_name_12666040 # Hiromoto
-	dynasty=10000560 # Mori
+	name=character_name_12666040 # Hiromoto,凞元、「初凞房」（『近世防長諸家系図綜覧』）
+	#dynasty=10000560 # Mori
+	dynasty_house="house_shgnt_aki-mori"
 	father=12666030
 	martial=8
 	diplomacy=7
@@ -7828,13 +7903,25 @@
 	1410.1.1={
 		birth=yes
 	}
+	1426.01.01={
+		give_nickname="nick_taro" # TODO: 「少輔太郎」（『近世防長諸家系図綜覧』）
+	}
+	1430.01.01={
+		give_nickname="nick_jibu_no_sho" # 「治部少輔」（『近世防長諸家系図綜覧』）
+	}
+	1440.01.01={
+		give_nickname="nick_bitchu_no_kami" # 「備中守」（『近世防長諸家系図綜覧』）
+	}
 	1464.3.12={
-		death=yes
+		death={
+			death_reason=death_natural_causes # 「寛正5(1464)年甲申二月五日卒　法名大通院大樹光茂」（『近世防長諸家系図綜覧』）
+		}
 	}
 }
 12666041 = {
-	name=character_name_12666041 # Mototada 
-	dynasty=10000560 # Mori
+	name=character_name_12666041 # Mototada,元忠
+	#dynasty=10000560 # Mori
+	dynasty_house="house_shgnt_aki-mori"
 	father=12666030
 	trait="education_diplomacy_1"
 	religion="shinto"
@@ -7842,13 +7929,19 @@
 	1412.1.1={
 		birth=yes
 	}
+	1428.01.01={
+		give_nickname="nick_jio" # TODO: 「少輔次郎」（『近世防長諸家系図綜覧』）
+	}
 	1490.1.1={
-		death=yes
+		death={
+			death_reason=death_natural_causes
+		}
 	}
 }
 12666042 = {
-	name=character_name_12666042 # Toyoko #Yamanouchi Hiromichi's wife
-	dynasty=10000560 # Mori
+	name=character_name_12666042 # Toyoko #Yamanouchi Hiromichi's wife, 「山内上野介藤原凞通室」（『近世防長諸家系図綜覧』）
+	#dynasty=10000560 # Mori
+	dynasty_house="house_shgnt_aki-mori"
 	father=12666030
 	female=yes
 	trait="education_diplomacy_1"
@@ -7858,12 +7951,15 @@
 		birth=yes
 	}
 	1475.1.1={
-		death=yes
+		death={
+			death_reason=death_natural_causes
+		}
 	}
 }
 12666050 = {
-	name=character_name_12666050 # Toyomoto
-	dynasty=10000560 # Mori
+	name=character_name_12666050 # Toyomoto,豊元、「松寿丸」（『近世防長諸家系図綜覧』）
+	#dynasty=10000560 # Mori
+	dynasty_house="house_shgnt_aki-mori"
 	father=12666040
 	martial=8
 	diplomacy=7
@@ -7874,18 +7970,24 @@
 	culture="western_chugoku"
 	prowess=12
 	1444.1.1={
-		birth=yes
+		birth=yes # 「文安元(1444)年甲子生」（『近世防長諸家系図綜覧』）
+	}
+	1460.01.01={
+		give_nickname="nick_taro" # TODO: 「少輔太郎」（『近世防長諸家系図綜覧』）
 	}
 	1469.1.1={
-		give_nickname="nick_jibu_no_sho"
+		give_nickname="nick_jibu_no_sho" #　「治部少輔」（『近世防長諸家系図綜覧』）
 	}
 	1476.6.19={
-		death=yes
+		death={
+			death_reason=death_natural_causes #　「文明8(1476)年丙申五月廿八日卒年三十三　法名広修寺月江常澄」（『近世防長諸家系図綜覧』）
+		}
 	}
 }
 12666051 = {
-	name=character_name_12666051 # Motoie
-	dynasty=10000560 # Mori
+	name=character_name_12666051 # Motoie,「元家」
+	#dynasty=10000560 # Mori
+	dynasty_house="house_shgnt_aki-mori"
 	father=12666040
 	trait="education_diplomacy_1"
 	religion="shinto"
@@ -7894,15 +7996,18 @@
 		birth=yes
 	}
 	1461.1.1={
-		give_nickname="nick_Yojio"
+		give_nickname="nick_Yojio" # 「与二郎」（『近世防長諸家系図綜覧』）
 	}
 	1510.1.1={
-		death=yes
+		death={
+			death_reason=death_natural_causes
+		}
 	}
 }
 12666052 = {
-	name=character_name_12666052 # Hiroko #Yamanouchi Tokimichi's wife
-	dynasty=10000560 # Mori
+	name=character_name_12666052 # Hiroko #Yamanouchi Tokimichi's wife、「山内上野介藤原時通室」（『近世防長諸家系図綜覧』）
+	#dynasty=10000560 # Mori
+	dynasty_house="house_shgnt_aki-mori"
 	father=12666040
 	female=yes
 	trait="education_diplomacy_1"
@@ -7912,12 +8017,15 @@
 		birth=yes
 	}
 	1500.1.1={
-		death=yes
+		death={
+			death_reason=death_natural_causes
+		}
 	}
 }
 12666060 = {
-	name=character_name_12666060 # Motohira
-	dynasty=10000560 # Mori
+	name=character_name_12666060 # Motohira,元衡、「幸千代丸」（『近世防長諸家系図綜覧』）
+	#dynasty=10000560 # Mori
+	dynasty_house="house_shgnt_aki-mori"
 	father=12666012 # Mori Naomoto
 	trait="education_diplomacy_1"
 	religion="shinto"
@@ -7925,65 +8033,100 @@
 	1350.1.1={
 		birth=yes
 	}
+	1380.01.01={
+		give_nickname="nick_echigo_no_kami" # 「孫太郎　越後守」（『近世防長諸家系図綜覧』）
+	}
 	1420.1.1={
-		death=yes
+		death={
+			death_reason=death_natural_causes
+		}
 	}
 }
 12666300={
-	name=character_name_12666300 # Tomohiro
-	dynasty=10000861 # Fukubara
+	name=character_name_12666300 # Tomohiro,朝広
+	dynasty_house="house_shgnt_mori_fukubara"
 	father=12666024 # Fukubara Hiroyo
 	religion="shinto"
 	culture="western_chugoku"
 	1390.1.1={
 		birth=yes
 	}
-	1450.1.1={
-		death=yes
+	1420.01.01={
+		give_nickname="nick_sakon" # TODO: 「五郎　少輔五郎　左近允　入道誠貞」（『近世防長諸家系図綜覧』）
+	}
+	1421.03.11={
+		death={
+			death_reason=death_natural_causes # 「応永28(1421)年二月八日卒」（『近世防長諸家系図綜覧』）
+		}
 	}
 }
 12666305={
-	name=character_name_12666305 # Hirotoshi
-	dynasty=10000861 # Fukubara
+	name=character_name_12666305 # Hirotoshi,広俊、「法師丸」
+	dynasty_house="house_shgnt_mori_fukubara"
 	father=12666300 # Fukubara Tomohiro
 	religion="shinto"
 	culture="western_chugoku"
-	1420.1.1={
+	1410.1.1={
 		birth=yes
 	}
-	1480.1.1={
-		death=yes
+	1436.01.01={
+		give_nickname="nick_Yagoro" # TODO: 「少輔太郎　弥五郎」（『近世防長諸家系図綜覧』）
+	}
+	1445.01.01={
+		give_nickname="nick_shikibu_daihu" # 「式部大輔」（『近世防長諸家系図綜覧』）
+	}
+	1455.01.01={
+		give_nickname="nick_shimousa_no_kami" # 「下総守」（『近世防長諸家系図綜覧』）
+	}
+	1431.06.15={
+		death=yes # 「永享3(1431)年五月六日卒」（『近世防長諸家系図綜覧』）
 	}
 }
 12666310={
-	name=character_name_12666310 # Sadatoshi
-	dynasty=10000861 # Fukubara
+	name=character_name_12666310 # Sadatoshi,貞俊、「初元澄　第二子」
+	dynasty_house="house_shgnt_mori_fukubara"
 	father=12666305 # Fukubara Hirotoshi
 	religion="shinto"
 	culture="western_chugoku"
-	1450.1.1={
+	1430.1.1={
 		birth=yes
 	}
-	1510.1.1={
-		death=yes
+	1446.01.01={
+		give_nickname="nick_Yagoro" # TODO: 「弥五郎　少輔次郎」（『近世防長諸家系図綜覧』）
+	}
+	# 「左近允」（『近世防長諸家系図綜覧』）
+	14650.01.01={
+		give_nickname="nick_kura" # TODO: 「内蔵大夫」
+	}
+	1474.09.03={
+		death=yes # 「文明6(1474)年七月廿二日卒」（『近世防長諸家系図綜覧』）
 	}
 }
 12666315={
-	name=character_name_12666315 # Hirotoshi
-	dynasty=10000861 # Fukubara
+	name=character_name_12666315 # Hirotoshi,広俊
+	dynasty_house="house_shgnt_mori_fukubara"
 	father=12666310 # Fukubara Sadatoshi
 	religion="shinto"
 	culture="western_chugoku"
-	1480.1.1={
+	1460.1.1={
 		birth=yes
 	}
+	1476.01.01={
+		give_nickname="nick_Yagoro" # 「弥五郎」（『近世防長諸家系図綜覧』）
+	}
+	# 「左近允」（『近世防長諸家系図綜覧』）
+	1490.01.01={
+		give_nickname="nick_shimousa_no_kami" # 「下総守」（『近世防長諸家系図綜覧』）
+	}
 	1557.2.9={
-		death=yes
+		death={
+			death_reason=death_old_age # 「弘治3(1557)年正月十日卒」（『近世防長諸家系図綜覧』）
+		}
 	}
 }
 12666316={
 	name=character_name_12666316 # Masachika
-	dynasty=10000861 # Fukubara
+	dynasty_house="house_shgnt_mori_fukubara"
 	father=12666310 # Fukubara Sadatoshi
 	religion="shinto"
 	culture="western_chugoku"
@@ -7997,7 +8140,7 @@
 12666317={
 	name=character_name_12666317 # Sachi
 	female=yes
-	dynasty=10000861 # Fukubara
+	dynasty_house="house_shgnt_mori_fukubara"
 	father=12666310 # Fukubara Sadatoshi
 	religion="shinto"
 	culture="western_chugoku"
@@ -8009,8 +8152,8 @@
 	}
 }
 12666320={
-	name=character_name_12666320 # Sadatoshi
-	dynasty=10000861 # Fukubara
+	name=character_name_12666320 # Sadatoshi,貞俊
+	dynasty_house="house_shgnt_mori_fukubara"
 	father=12666315 # Fukubara Hirotoshi
 	religion="shinto"
 	culture="western_chugoku"
@@ -8021,42 +8164,58 @@
 	1512.1.1={
 		birth=yes
 	}
+	1528.01.01={
+		give_nickname="nick_Yagoro" # 「弥五郎」（『近世防長諸家系図綜覧』）
+	}
+	# 「内蔵人　左近允」（『近世防長諸家系図綜覧』）
+	1542.01.01={
+		give_nickname="nick_dewa_no_kami" # 「出羽守」（『近世防長諸家系図綜覧』）
+	}
+	#1547.01.01={
+	#	give_nickname="" # 「上総守」（『近世防長諸家系図綜覧』）
+	#}
 	1593.9.5={
-		death=yes
+		death={
+			death_reason=death_old_age # 「文禄2(1593)年八月十五日卒年七十五歳」（『近世防長諸家系図綜覧』）
+		}
 	}
 }
 12666321={
-	name=character_name_12666321 # Toshiko
+	name=character_name_12666321 # Toshiko、「桂能登守元澄妻」
 	female=yes
-	dynasty=10000861 # Fukubara
+	dynasty_house="house_shgnt_mori_fukubara"
 	father=12666315 # Fukubara Hirotoshi
 	religion="shinto"
 	culture="western_chugoku"
 	1514.1.1={
 		birth=yes
 	}
-	1570.1.1={
-		death=yes
+	1593.08.11={
+		death={
+			death_reason=death_old_age # 「文禄2(1593)年七月十五妙融日卒　法名円室」（『近世防長諸家系図綜覧』）
+		}
 	}
 }
 12666322={
-	name=character_name_12666322 # Hiroko
+	name=character_name_12666322 # Hiroko、「前嫁内藤少輔九郎元康　後嫁口羽刑部大輔通良」
 	female=yes
-	dynasty=10000861 # Fukubara
+	dynasty_house="house_shgnt_mori_fukubara"
 	father=12666315 # Fukubara Hirotoshi
 	religion="shinto"
 	culture="western_chugoku"
 	1516.1.1={
 		birth=yes
 	}
-	1590.1.1={
-		death=yes
+	1574.03.03={
+		death={
+			death_reason=death_natural_causes # 「天正2(1574)年二月十日卒　法名花岳寿栄」（『近世防長諸家系図綜覧』）
+		}
 	}
 }
 12666323={
 	name=character_name_12666323 # Sakon
 	female=yes
-	dynasty=10000861 # Fukubara
+	dynasty_house="house_shgnt_mori_fukubara"
 	father=12666315 # Fukubara Hirotoshi
 	religion="shinto"
 	culture="western_chugoku"
@@ -8068,23 +8227,25 @@
 	}
 }
 12666324={
-	name=character_name_12666324 # Shimousa
+	name=character_name_12666324 # Shimousa、「天野紀伊守隆重妻」
 	female=yes
-	dynasty=10000861 # Fukubara
+	dynasty_house="house_shgnt_mori_fukubara"
 	father=12666315 # Fukubara Hirotoshi
 	religion="shinto"
 	culture="western_chugoku"
 	1520.1.1={
 		birth=yes
 	}
-	1590.1.1={
-		death=yes
+	1609.09.27={
+		death={
+			death_reason=death_old_age # 「慶長14(1609)年八月廿九日卒　法名明山久花」（『近世防長諸家系図綜覧』）
+		}
 	}
 }
 12666325={
 	name=character_name_12666325 # Dewa
 	female=yes
-	dynasty=10000861 # Fukubara
+	dynasty_house="house_shgnt_mori_fukubara"
 	father=12666315 # Fukubara Hirotoshi
 	religion="shinto"
 	culture="western_chugoku"
@@ -8096,21 +8257,34 @@
 	}
 }
 12666330={
-	name=character_name_12666330 # Mototoshi
-	dynasty=10000861 # Fukubara
+	name=character_name_12666330 # Mototoshi,元俊、「或説称少輔三郎トモ云」（『近世防長諸家系図綜覧』）
+	dynasty_house="house_shgnt_mori_fukubara"
 	father=12666320 # Fukubara Sadatoshi
 	religion="shinto"
 	culture="western_chugoku"
 	1541.1.1={
 		birth=yes
 	}
+	1557.01.01={
+		give_nickname="nick_Yagoro" # 「弥五郎」（『近世防長諸家系図綜覧』）
+	}
+	1561.01.01={
+		give_nickname="nick_shikibu_no_sho" # 「式部少輔」（『近世防長諸家系図綜覧』）
+	}
+	# TODO: 「室　乃美安芸守隆興女」（『近世防長諸家系図綜覧』）
+	1571.01.01={
+		give_nickname="nick_dewa_no_kami" # 「出羽守」（『近世防長諸家系図綜覧』）
+	}
+	1581.01.01={
+		give_nickname="nick_kazusa_no_suke" # 「上総介」（『近世防長諸家系図綜覧』）
+	}
 	1591.11.18={
-		death=yes
+		death=yes # 「天正19(1591)年十月三日卒四十四歳」（『近世防長諸家系図綜覧』）
 	}
 }
 12666335={
 	name=character_name_12666335 # Hirotoshi
-	dynasty=10000861 # Fukubara
+	dynasty_house="house_shgnt_mori_fukubara"
 	father=12666330 # Fukubara Mototoshi
 	religion="shinto"
 	culture="western_chugoku"
@@ -8122,21 +8296,26 @@
 	}
 }
 12666400={
-	name=character_name_12666400 # Masaie
-	dynasty=10000862 # Saka
+	name=character_name_12666400 # Masaie,匡家
+	#dynasty=10000862 # Saka
+	dynasty_house="house_shgnt_mori_saka"
 	father=12666011 # Saka Masatoki
 	religion="shinto"
 	culture="western_chugoku"
 	1360.1.1={
 		birth=yes
 	}
+	#1390.01.01={
+	#	give_nickname="" # TODO: 「大膳大夫　入道道心」（『近世防長諸家系図綜覧』）
+	#}
 	1420.1.1={
 		death=yes
 	}
 }
 12666401={
-	name=character_name_12666401 # Hiromasa
-	dynasty=10000862 # Saka
+	name=character_name_12666401 # Hiromasa、（『近世防長諸家系図綜覧』）ではいない人物
+#	dynasty=10000862 # Saka
+	dynasty_house="house_shgnt_mori_saka"
 	father=12666400 # Saka Masaie
 	religion="shinto"
 	culture="western_chugoku"
@@ -8148,32 +8327,48 @@
 	}
 }
 12666402={
-	name=character_name_12666402 # Hiroaki
-	dynasty=10000862 # Saka
+	name=character_name_12666402 # Hiroaki,広秋
+#	dynasty=10000862 # Saka
+	dynasty_house="house_shgnt_mori_saka"
 	father=12666401 # Saka Hiromasa
 	religion="shinto"
 	culture="western_chugoku"
 	1410.1.1={
 		birth=yes
 	}
+	1440.01.01={
+		give_nickname="nick_shimotsukeno_no_kami" # 「下総守」（『近世防長諸家系図綜覧』）
+	}
+	1450.01.01={
+		give_nickname="nick_nagato_no_kami" # 「長門守　入道道領」（『近世防長諸家系図綜覧』）
+	}
 	1451.9.23={
 		employer = 12666050 # Mori Toyomoto
 	}
 	1470.1.1={
-		death=yes
+		death={
+			death_reason=death_natural_causes
+		}
 	}
 }
 12666405={
-	name=character_name_12666405 # Hiroaki
-	dynasty=10000862 # Saka
+	name=character_name_12666405 # Hiroaki,広明
+#	dynasty=10000862 # Saka
+	dynasty_house="house_shgnt_mori_saka"
 	father=12666402 # Saka Hiroaki
 	religion="shinto"
 	culture="western_chugoku"
 	1430.1.1={
 		birth=yes
 	}
+	#1450.01.01={
+	#	give_nickname="" # TODO: 「兵部大夫」（『近世防長諸家系図綜覧』）
+	#}
 	1451.9.23={
 		employer = 12666050 # Mori Toyomoto
+	}
+	1460.01.01={
+		give_nickname="nick_shimousa_no_kami" # 「下総守」（『近世防長諸家系図綜覧』）
 	}
 	1475.12.22={
 		employer = 10056000 # Mori Hiromoto
@@ -8184,7 +8379,8 @@
 }
 12666406={
 	name=character_name_12666406 # Hirotoki
-	dynasty=10000862 # Saka
+#	dynasty=10000862 # Saka
+	dynasty_house="house_shgnt_mori_saka"
 	father=12666402 # Saka Hiroaki
 	religion="shinto"
 	culture="western_chugoku"
@@ -8209,7 +8405,8 @@
 }
 12666410={
 	name=character_name_12666410 # Hirohide
-	dynasty=10000862 # Saka
+#	dynasty=10000862 # Saka
+	dynasty_house="house_shgnt_mori_saka"
 	father=12666406 # Saka Hirotoki
 	religion="shinto"
 	culture="western_chugoku"
@@ -8232,7 +8429,8 @@
 }
 12666415={
 	name=character_name_12666415 # Motosuke
-	dynasty=10000862 # Saka
+#	dynasty=10000862 # Saka
+	dynasty_house="house_shgnt_mori_saka"
 	father=12666410 # Saka Hirohide
 	religion="shinto"
 	culture="western_chugoku"
@@ -8254,13 +8452,20 @@
 	}
 }
 12666500={
-	name=character_name_12666500 # Motoyoshi
-	dynasty=10000863 # Shiji
+	name=character_name_12666500 # Motoyoshi,元良、「初毛利後志道」（『近世防長諸家系図綜覧』）
+	dynasty=10000560 # Mōri
 	father=12666402 # Saka Hiroaki
 	religion="shinto"
 	culture="western_chugoku"
 	1432.1.1={
 		birth=yes
+	}
+	1448.01.01={
+		give_nickname="nick_Tarosaburo" # 「太郎三郎」（『近世防長諸家系図綜覧』）
+	}
+	1457.01.01={
+		give_nickname="nick_okura_no_sho" # 「大蔵少輔」（『近世防長諸家系図綜覧』）
+		dynasty_house="house_shgnt_mori_shiji" #
 	}
 	1451.9.23={
 		employer = 12666050 # Mori Toyomoto
@@ -8268,13 +8473,16 @@
 	1475.12.22={
 		employer = 10056000 # Mori Hiromoto
 	}
-	1500.1.1={
-		death=yes
+	1500.08.08={
+		death={
+			death_reason=death_old_age # 「明応9(1500)年七月十四日死」（『近世防長諸家系図綜覧』）
+		}
 	}
 }
 12666501={
-	name=character_name_12666501 # Hiroyoshi
-	dynasty=10000863 # Shiji
+	name=character_name_12666501 # Hiroyoshi,広良
+	#dynasty=10000863 # Shiji
+	dynasty_house="house_shgnt_mori_shiji"
 	father=12666500 # Shiji Motoyoshi
 	religion="shinto"
 	culture="western_chugoku"
@@ -8286,6 +8494,12 @@
 	1475.12.22={
 		employer = 10056000 # Mori Hiromoto
 	}
+	1483.01.01={
+		give_nickname="nick_Tarosaburo" # 「太郎三郎」（『近世防長諸家系図綜覧』）
+	}
+	1492.01.01={
+		give_nickname="nick_okura_no_sho" # 「大蔵少輔」（『近世防長諸家系図綜覧』）
+	}
 	1500.1.1={
 		employer = 10056002 # Mori Okimoto
 	}
@@ -8295,13 +8509,19 @@
 	1523.8.25={
 		employer = 10056004 # Mori Motonari
 	}
+	1524.01.01={
+		give_nickname="nick_kamitsukeno_no_suke" # 「上野介　瑞如」（『近世防長諸家系図綜覧』）
+	}
 	1557.7.26={
-		death=yes
+		death={
+			death_reason=death_old_age # 「弘治3(1557)年七月朔日死九十一歳」（『近世防長諸家系図綜覧』）
+		}
 	}
 }
 12666505={
 	name=character_name_12666505 # Hironaga
-	dynasty=10000863 # Shiji
+	#dynasty=10000863 # Shiji
+	dynasty_house="house_shgnt_mori_shiji"
 	father=12666501 # Shiji Hiroyoshi
 	religion="shinto"
 	culture="western_chugoku"
@@ -8321,7 +8541,8 @@
 }
 12666506={
 	name=character_name_12666506 # Motosada
-	dynasty=10000863 # Shiji
+	#dynasty=10000863 # Shiji
+	dynasty_house="house_shgnt_mori_shiji"
 	father=12666501 # Shiji Hiroyoshi
 	religion="shinto"
 	culture="western_chugoku"
@@ -8340,8 +8561,8 @@
 	}
 }
 12666507={
-	name=character_name_12666507 # Michiyoshi
-	dynasty=10000864 # Kuchiba
+	name=character_name_12666507 # Michiyoshi,通良
+	dynasty=10000863 # Shiji
 	father=12666501 # Shiji Hiroyoshi
 	religion="shinto"
 	culture="western_chugoku"
@@ -8358,8 +8579,18 @@
 	1523.8.25={
 		employer = 10056004 # Mori Motonari
 	}
+	#1529.01.01={
+	#	give_nickname="" # 「善九郎」（『近世防長諸家系図綜覧』）
+	#}
 	1532.1.1={
 		add_spouse=12666322
+	}
+	1533.01.01={
+		dynasty_house="house_shgnt_mori_kuchiha"
+		give_nickname="nick_gyobu_daihu" # 「刑部大輔」（『近世防長諸家系図綜覧』）
+	}
+	1543.01.01={
+		give_nickname="nick_shimotsukeno_no_kami" # 「下野守」（『近世防長諸家系図綜覧』）
 	}
 	1582.8.16={
 		death=yes
@@ -8380,8 +8611,8 @@
 	}
 }
 12666600={
-	name=character_name_12666600 # Hirozumi
-	dynasty=10000865 # Katsura
+	name=character_name_12666600 # Hirozumi,広澄
+	dynasty=10000560 # Mori
 	father=12666405 # Saka Hiroaki
 	religion="shinto"
 	culture="western_chugoku"
@@ -8394,6 +8625,10 @@
 	}
 	1475.12.22={
 		employer = 10056000 # Mori Hiromoto
+	}
+	1490.01.01={
+		dynasty_house="house_shgnt_mori_katsura" # 「住芸州桂邑　因茲改坂称桂」（『近世防長諸家系図綜覧』）
+		give_nickname="nick_saemon_no_jo" # 「左衛門尉」（『近世防長諸家系図綜覧』）
 	}
 	1500.1.1={
 		employer = 10056002 # Mori Okimoto
@@ -8409,8 +8644,9 @@
 	}
 }
 12666601={
-	name=character_name_12666601 # Motozumi
-	dynasty=10000865 # Katsura
+	name=character_name_12666601 # Motozumi,元澄
+#	dynasty=10000865 # Katsura
+	dynasty_house="house_shgnt_mori_katsura"
 	father=12666600 # Katsura Hirozumi
 	religion="shinto"
 	culture="western_chugoku"
@@ -8427,16 +8663,24 @@
 	1523.8.25={
 		employer = 10056004 # Mori Motonari
 	}
-	1530.1.1={
-		add_spouse=12666321
+	1525.01.01={
+		give_nickname="nick_saemon_no_jo" # 「左衛門尉」（『近世防長諸家系図綜覧』）
 	}
+	1530.1.1={
+		add_spouse=12666321 # 「妻　福原下総守広俊女」（『近世防長諸家系図綜覧』）
+		give_nickname="nick_noto_no_kami" # 「能登守」（『近世防長諸家系図綜覧』）
+	}
+	# TODO: 「後妻　志道上野介広良女」（『近世防長諸家系図綜覧』）
 	1569.8.17={
-		death=yes
+		death={
+			death_reason=death_old_age # 「永禄12(1569)年七月五日七十歳死」（『近世防長諸家系図綜覧』）
+		}
 	}
 }
 12666602={
-	name=character_name_12666602 # Mototada
-	dynasty=10000865 # Katsura
+	name=character_name_12666602 # Mototada,元忠
+#	dynasty=10000865 # Katsura
+	dynasty_house="house_shgnt_mori_katsura"
 	father=12666600 # Katsura Hirozumi
 	religion="shinto"
 	culture="western_chugoku"
@@ -8450,13 +8694,19 @@
 	1523.8.25={
 		employer = 10056004 # Mori Motonari
 	}
+	1535.01.01={
+		give_nickname="nick_kazusa_no_suke" # 「上総介」（『近世防長諸家系図綜覧』）
+	}
 	1570.1.1={
-		death=yes
+		death={
+			death_reason=death_natural_causes
+		}
 	}
 }
 12666603={
-	name=character_name_12666603 # Narinobu
-	dynasty=10000865 # Katsura
+	name=character_name_12666603 # Narinobu,就延、「初元信」（『近世防長諸家系図綜覧』）
+#	dynasty=10000865 # Katsura
+	dynasty_house="house_shgnt_mori_katsura"
 	father=12666600 # Katsura Hirozumi
 	religion="shinto"
 	culture="western_chugoku"
@@ -8467,22 +8717,34 @@
 	1523.8.25={
 		employer = 10056004 # Mori Motonari
 	}
+	1545.01.01={
+		give_nickname="nick_Genemon" # TODO:「源右衛門尉」（『近世防長諸家系図綜覧』）
+	}
 	1580.1.1={
-		death=yes
+		death={
+			death_reason=death_natural_causes
+		}
 	}
 }
 12666605={
-	name=character_name_12666605 # Hiroshige
-	dynasty=10000865 # Katsura
+	name=character_name_12666605 # Hiroshige,広繁
+#	dynasty=10000865 # Katsura
+	dynasty_house="house_shgnt_mori_katsura"
 	father=12666601 # Katsura Motozumi
+	# 「母　志道上野介広良女」（『近世防長諸家系図綜覧』）
 	religion="shinto"
 	culture="western_chugoku"
 	1540.1.1={
 		birth=yes
 		employer = 10056004 # Mori Motonari
 	}
+	1560.01.01={
+		give_nickname="nick_minbu_daihu" # 「民部大輔」（『近世防長諸家系図綜覧』）
+	}
 	1607.11.15={
-		death=yes
+		death={
+			death_reason=death_natural_causes
+		}
 	}
 }
 12668100={
