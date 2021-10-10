@@ -1231,7 +1231,7 @@
 	}
 }
 10040106 = {
-	name=character_name_10040106 # Morisada
+	name=character_name_10040106 # Morisada,盛定
 	dynasty=10000161 # Ise
 	father=10040132 # Ise Moritsuna
 	religion="shinto"
@@ -1244,12 +1244,16 @@
 	1439.1.1={
 		add_spouse=10040110 # daughter of Ise Sadakuni
 	}
+	# 室町幕府奉公衆（黒田基樹、『戦国北条家一族事典』、2008）
+	1450.01.01={
+		give_nickname="nick_the_bizen_no_kami" # 「備中守・備前守」（黒田基樹、『戦国北条家一族事典』、2008）
+	}
 	1480.1.1={
 		death=yes
 	}
 }
 10040107 = {
-	name=character_name_10040107 # Sadaoki
+	name=character_name_10040107 # Sadaoki,貞興
 	dynasty=10000161 # Ise
 	father=10040106 # Ise Morisada
 	mother=10040110 # daughter of Ise Sadakuni
@@ -1261,6 +1265,7 @@
 	1460.1.1={
 		death=yes
 	}
+	# 伊勢盛時の兄だが「当時の活躍が知られない」（黒田基樹、『戦国北条家一族事典』、2008）
 }
 10040108 = {
 	name=character_name_10040108 # Kitagawa

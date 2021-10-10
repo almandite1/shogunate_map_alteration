@@ -48,10 +48,10 @@
 	}
 }
 10016001 = {
-	name=character_name_10016001 # Moritoki # a.k.a. Hojo Soun
+	name=character_name_10016001 # Moritoki,盛時 # a.k.a. Hojo Soun,北条早雲
 	dynasty=10000161 # Ise
-	father=10040106 # Ise Morisada
-	mother=10040110 # daughter of Ise Sadakuni
+	father=10040106 # Ise Morisada,伊勢盛定（備中守・備前守）（黒田基樹、『戦国北条家一族事典』、2008）
+	mother=10040110 # daughter of Ise Sadakuni、伊勢貞国の娘（黒田基樹、『戦国北条家一族事典』、2008）
 	martial=8
 	diplomacy=17
 	intrigue=17
@@ -64,16 +64,18 @@
 	culture="central_kinai"
 	prowess=20
 	1456.1.1={
-		birth=yes
+		birth=yes # 康正2(1456)年（黒田基樹、『戦国北条家一族事典』、2008）
 		employer = 10040008 # Ashikaga Yoshimasa
 	}
+	# 文明3(1471)年、備中国荏原郷の長谷法泉寺に禁制（黒田基樹、『戦国北条家一族事典』、2008）
 	1472.1.1={
-		give_nickname="nick_Shinkuro"
+		give_nickname="nick_Shinkuro" # 「仮名は新九郎」（黒田基樹、『戦国北条家一族事典』、2008）
 	}
 	1476.3.1={
 		culture="southern_kanto"
 		employer = 10023003 # Imagawa Ujichika
 	}
+	# 文明15(1483)年十一月、足利義尚の申次衆となる～長享元(1487)年
 	1487.11.01 = {
 		effect = {
 			set_realm_capital=title:c_shgnt_suruga

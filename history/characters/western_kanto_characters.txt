@@ -410,7 +410,7 @@
 		birth=yes
 	}
 	1426.1.1={
-		give_nickname="nick_boshu_no_kami"
+		give_nickname="nick_boshu_no_kami" # 「安房守」
 	}
 	1418.1.1={
 		effect = {
@@ -420,6 +420,8 @@
 		}
 		dynasty_house = house_shgnt_yamauchiuesugi # Yamauchi=Uesugi
 	}
+	# 宝徳2(1450)年四月時点、「長棟」「安房入道」（「足利成氏書状写」『鎌倉大草子』）
+	# TODO: 宝徳2(1450)年段階では伊豆に隠遁（阿部能久、『戦国期関東公方の研究』、2006）
 	1468.1.19={
 		death=yes
 	}
@@ -429,7 +431,7 @@
 	# 対立を辞さない憲実
 }
 10017021 = {
-	name=character_name_10017021 # Noritada
+	name=character_name_10017021 # Noritada,憲忠、幼名「竜忠」
 #	dynasty=10000100 # Uesugi
 	dynasty_house = house_shgnt_yamauchiuesugi # Yamauchi=Uesugi
 	father=10017020
@@ -445,10 +447,13 @@
 		birth=yes
 	}
 	1449.1.1={
-		give_nickname="nick_ukyo_no_suke"
+		give_nickname="nick_ukyo_no_suke" # 「右京亮」、（享徳二年？三月廿一日付細川勝元書状）
 	}
 	1455.1.15={
-		death=yes
+		death={
+			death_reason=death_murder # 暗殺（阿部能久、『戦国期関東公方の研究』、2006）
+			killer=10040059 # 足利成氏
+		}
 	}
 }
 10017022 = {
@@ -803,7 +808,7 @@
 	}
 }
 10017037 = {
-	name=character_name_10017037 # Mochitomo
+	name=character_name_10017037 # Mochitomo,持朝
 #	dynasty=10000100 # Uesugi
 	dynasty_house = house_shgnt_ogigayatsu # Ogigayatsu
 	father=10017035
@@ -819,11 +824,12 @@
 		birth=yes
 	}
 	1440.1.1={
-		give_nickname="nick_the_shuri_daibu"
+		give_nickname="nick_the_shuri_daibu" # 「修理大夫」
 		effect = {
 			add_trait = "jushii_ge"
 		}
 	}
+	# 宝徳2(1450)年四月時点、「上杉修理大夫入道」（「足利成氏書状写」『鎌倉大草子』）
 	1467.10.4={
 		death=yes
 	}
@@ -1901,7 +1907,8 @@
 }
 10017150 = {
 	name=character_name_10017150 # Naotsuna
-	dynasty=10000152 # Kiryu
+	#dynasty=10000152 # Kiryu
+	dynasty_house="house_shgnt_sano_kiryu"
 	father=12180600 # Sano Shigetsuna
 	religion="shinto"
 	culture="western_kanto"
@@ -1922,7 +1929,8 @@
 		birth=yes
 	}
 	1484.1.1={
-		dynasty=10000152 # Kiryu
+		#dynasty=10000152 # Kiryu
+		dynasty_house="house_shgnt_sano_kiryu"
 		effect = {
 			set_father = character:10017150
 			set_real_father = character:12180610
@@ -1951,7 +1959,8 @@
 		birth=yes
 	}
 	1522.1.1={
-		dynasty=10000152 # Kiryu
+		#dynasty=10000152 # Kiryu
+		dynasty_house="house_shgnt_sano_kiryu"
 		effect = {
 			set_father = character:10017151
 			set_real_father = character:12180615
@@ -1964,7 +1973,8 @@
 }
 10017153 = {
 	name=character_name_10017153 # Naotsuna
-	dynasty=10000152 # Kiryu
+	#dynasty=10000152 # Kiryu
+	dynasty_house="house_shgnt_sano_kiryu"
 	father=10017152
 	religion="shinto"
 	culture="western_kanto"
@@ -1985,7 +1995,8 @@
 		birth=yes
 	}
 	1568.1.1={
-		dynasty=10000152 # Kiryu
+		#dynasty=10000152 # Kiryu
+		dynasty_house="house_shgnt_sano_kiryu"
 		effect = {
 			set_father = character:10017152
 			set_real_father = character:10011102
@@ -2930,7 +2941,7 @@
 	}
 }
 10017320 = {
-	name=character_name_10017320 # Kagenaka
+	name=character_name_10017320 # Kagenaka,景仲
 	dynasty=10000320 # Nagao
 	father=10017336
 	religion="shinto"
@@ -2954,6 +2965,7 @@
 		}
 		dynasty_house = house_shgnt_nagao_shiroi
 	}
+	# 宝徳2(1450)年四月時点、「長尾左衛門入道」（「足利成氏書状写」『鎌倉大草子』）
 	1463.10.8={
 		death=yes
 	}
@@ -4525,7 +4537,7 @@
 	}
 }
 10018350={
-	name=character_name_10018350 # Sukekiyo
+	name=character_name_10018350 # Sukekiyo,資清
 	dynasty=10000174 # Musashi=Ota
 	father= 10018376
 	religion="shinto"
@@ -4546,6 +4558,7 @@
 			add_trait = "shogoi_ge"
 		}
 	}
+	# 宝徳2(1450)年四月時点、「太田備中入道」（「足利成氏書状写」『鎌倉大草子』）
 	1456.1.1={
 		employer = 10017037 # Uesugi Mochitomo
 		effect = {

@@ -6342,13 +6342,20 @@
 	mother=12219060 # ToneNoTsubone, daughter of Otomo Tsuneie
 	prowess=9
 	1172.1.29 = {
-		birth=yes
+		birth=yes # 承安2(1172)年生まれ（鹿毛敏夫、『大友義鎮』、2021）
 	}
 	1180.1.1={
 		employer=12219015 # Hatano Tsuneie
 	}
+	# 母方が大友性だったことから「大友」を名乗ったとされる（鹿毛敏夫、『大友義鎮』、2021）
+	# 建久7(1196)年、豊後国守護職に補任される（鹿毛敏夫、『大友義鎮』、2021）
+	1196.01.01={
+		give_nickname="nick_the_sakonoe_shogen" # 「左近将監」（「雉城雑誌」）
+	}
 	1223.12.20 = {
-		death=yes
+		death={
+			death_reason=death_natural_causes
+		}
 	}
 }
 10130539 = {

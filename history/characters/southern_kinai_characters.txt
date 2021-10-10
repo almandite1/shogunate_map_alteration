@@ -299,7 +299,7 @@
 	}
 }
 10048114 = {
-	name=character_name_10048114 # Mochikuni
+	name=character_name_10048114 # Mochikuni,持国
 	dynasty=10000404 # Hatakeyama
 	father=10048111
 	religion="shinto"
@@ -308,8 +308,14 @@
 	1398.1.1={
 		birth=yes
 	}
+	1450.01.01={
+		give_nickname="nick_the_saemon_no_kami" # 「左衛門督」
+	}
+	# 宝徳2(1450)年四月時点、「左衛門督入道」（「足利成氏書状写」『鎌倉大草子』）
 	1455.4.12={
-		death=yes
+		death={
+			death_reason=death_natural_causes
+		}
 	}
 }
 10048115 = {

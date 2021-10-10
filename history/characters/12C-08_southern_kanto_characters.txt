@@ -1718,6 +1718,7 @@
 	1232.1.1={
 		give_nickname="nick_shiro"
 	}
+	# TODO: 「森崎安房守隆時ノ妹」（「蘆名系圖」『会津資料叢書』）
 	1242.01.01={
 		give_nickname="nick_the_saemon_no_jo" # 「次郎左衛門尉光盛」（『吾妻鏡』宝治元年六月五日条）
 	}
@@ -1725,8 +1726,8 @@
 		dynasty=10000070 # Ashina
 		give_nickname="nick_totoumi_no_kami"
 	}
-	1266.1.1={
-		death=yes
+	1268.06.20={
+		death=yes # 「文永5(1268)年五月九日卒年六十五」（「蘆名系圖」『会津資料叢書』）
 	}
 }
 12211224={
@@ -6427,20 +6428,26 @@
 	}
 }
 12216102={
-	name=character_name_12216102 # Kagehira
+	name=character_name_12216102 # Kagehira,景平
 #	dynasty=10007081 # Dohi
 	dynasty_house = house_shgnt_dohi # Dohi
 	father=12216100 # Dohi Toohira
 	religion="shinto"
 	culture="southern_kanto"
+	trait="child_of_adoption" # 「実平賀武蔵守義信男　遠平養為嗣」（『近世防長諸家系図綜覧』）
 	1185.1.1={
 		birth=yes
+	}
+	1201.01.01={
+		give_nickname="nick_jio" # 「次郎」（『近世防長諸家系図綜覧』）
 	}
 	1205.1.1={
 		dynasty=10000562 # Kobayakawa
 	}
 	1244.8.18={
-		death=yes
+		death={
+			death_reason=death_natural_causes
+		}
 	}
 }
 12216105={

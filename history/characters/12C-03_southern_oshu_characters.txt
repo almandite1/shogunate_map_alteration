@@ -1562,7 +1562,7 @@
 	}
 }
 12070001={
-	name=character_name_12070001 # Yasumori
+	name=character_name_12070001 # Yasumori,泰盛
 	dynasty=10000070 # Ashina
 	father=12211223 # Ashina Mitsumori
 	religion="shinto"
@@ -1571,10 +1571,10 @@
 		birth=yes
 	}
 	1275.1.1={
-		give_nickname="nick_saemon_no_jo"
+		give_nickname="nick_saemon_no_jo" # 「会津三郎左衛門尉」（「蘆名系圖」『会津資料叢書』）
 	}
 	1295.1.1={
-		death=yes
+		death=yes # 「正和3(1314)年七月朔卒年七十九」（「蘆名系圖」『会津資料叢書』）
 	}
 }
 12070002={
@@ -1594,7 +1594,7 @@
 	}
 }
 12070005={
-	name=character_name_12070005 # Morimune
+	name=character_name_12070005 # Morimune,盛宗
 	dynasty=10000070 # Ashina
 	father=12070001 # Asahina Yasumori
 	religion="shinto"
@@ -1606,13 +1606,14 @@
 		give_nickname="nick_jio"
 	}
 	1290.1.1={
-		give_nickname="nick_Jirozaemon"
+		give_nickname="nick_Jirozaemon" # 「（「蘆名系圖」『会津資料叢書』）では「会津三郎左衛門尉」
 	}
+	# 「室　藤原実成ノ女」「継室　北田左衛門太郎広胤ノ妹」（「蘆名系圖」『会津資料叢書』）
 	1310.1.1={
 		give_nickname="nick_totoumi_no_kami"
 	}
-	1320.1.1={
-		death=yes
+	1338.09.22={
+		death=yes # 「暦応元(1338)年八月九日卒年六十八」（「蘆名系圖」『会津資料叢書』）
 	}
 }
 12070006={
@@ -1645,7 +1646,7 @@
 	}
 }
 12070010={
-	name=character_name_12070010 # Morikazu
+	name=character_name_12070010 # Morikazu,盛員
 	dynasty=10000070 # Ashina
 	father=12070005 # Asahina Morimune
 	religion="shinto"
@@ -1653,12 +1654,18 @@
 	1296.1.1={
 		birth=yes
 	}
+	# 「室　白川笹谷七良ノ女」（「蘆名系圖」『会津資料叢書』）
+	1326.01.01={
+		give_nickname="nick_totoumi_no_kami" # 「会津遠江守」（「蘆名系圖」『会津資料叢書』）
+	}
 	1335.9.4={
-		death=yes
+		death={
+			death_reason=death_battle # 「建武2(1335)年八月十七日鎌倉ニテ討死年四十」（「蘆名系圖」『会津資料叢書』）
+		}
 	}
 }
 12070015={
-	name=character_name_12070015 # Takamori
+	name=character_name_12070015 # Takamori,高盛
 	dynasty=10000070 # Ashina
 	father=12070010 # Asahina Morikazu
 	religion="shinto"
@@ -1666,12 +1673,15 @@
 	1316.1.1={
 		birth=yes
 	}
-	1366.1.1={
-		death=yes
+	# TODO: 「室　藤原大隅清信ノ女富田祐義ノ養女」（「蘆名系圖」『会津資料叢書』）
+	1335.9.4={
+		death={
+			death_reason=death_battle # 「父ト共ニ討死年十八」（「蘆名系圖」『会津資料叢書』）
+		}
 	}
 }
 12070016={
-	name=character_name_12070016 # Naomori
+	name=character_name_12070016 # Naomori,直盛
 	dynasty=10000070 # Ashina
 	father=12070010 # Asahina Morikazu
 	religion="shinto"
@@ -1679,9 +1689,18 @@
 	1323.1.1={
 		birth=yes
 	}
-	1391.2.4={
-		death=yes
+	# 「室　三浦紀伊守時継ノ女」（「蘆名系圖」『会津資料叢書』）
+	1353.01.01={
+		give_nickname="nick_wakasa_no_kami" # 「会津若狭守左京大夫」（「蘆名系圖」『会津資料叢書』）
 	}
+	# 貞和５年(1349年)是歳、「芦名直盛、新宮明継と陸奥小松原に戦ふ」（大日本史料）
+	1391.2.4={
+		death={
+			death_reason=death_old_age
+		}
+	}
+	# 「至徳元(1384)年小山田山ニ城ヲ築ク」（「蘆名系圖」『会津資料叢書』）
+	# 「明応元(1492)年十二月晦京都四条坊門油小路ニテ卒ス年六十七」（「蘆名系圖」『会津資料叢書』）
 }
 12070017={
 	name=character_name_12070017 # Naokoh
@@ -1710,7 +1729,7 @@
 	}
 }
 12070020={
-	name=character_name_12070020 # Akimori
+	name=character_name_12070020 # Akimori,詮盛、「会津左金吾　初盛久　足利義詮ヨリ諱ノ一字ヲ賜テ会津左衛門尉詮盛ト改ム晩年刑部律師ト称ス」（「蘆名系圖」『会津資料叢書』）
 	dynasty=10000070 # Ashina
 	father=12070016 # Ashina Naomori
 	religion="shinto"
@@ -1718,12 +1737,16 @@
 	1346.1.1={
 		birth=yes
 	}
+	1386.01.01={
+		give_nickname="nick_the_saemon_no_jo" # 「左衛門尉」
+	}
+	# TODO: 「室　大崎治部少輔直持ノ女」（「蘆名系圖」『会津資料叢書』）
 	1407.10.6={
 		death=yes
 	}
 }
 12070025={
-	name=character_name_12070025 # Morimasa
+	name=character_name_12070025 # Morimasa,盛政
 	dynasty=10000070 # Ashina
 	father=12070020 # Ashina Akimori
 	religion="shinto"
@@ -1731,8 +1754,11 @@
 	1386.1.1={
 		birth=yes
 	}
+	1416.01.01={
+		give_nickname="nick_shuri_daibu" # 「芦名正統三浦修理大夫」（「蘆名系圖」『会津資料叢書』）
+	}
 	1434.1.1={
-		death=yes
+		death=yes # 「永享12(1440)年三月九日卒ス年八十」（「蘆名系圖」『会津資料叢書』）
 	}
 }
 12070026={
@@ -1763,7 +1789,7 @@
 	}
 }
 12070030={
-	name=character_name_12070030 # Morihisa
+	name=character_name_12070030 # Morihisa,盛久
 	dynasty=10000070 # Ashina
 	father=12070025 # Ashina Morimasa
 	religion="shinto"
@@ -1771,12 +1797,16 @@
 	1405.1.1={
 		birth=yes
 	}
-	1444.1.1={
-		death=yes
+	1421.01.01={
+		give_nickname="nick_goro" # 「芦名五郎」（「蘆名系圖」『会津資料叢書』）
+	}
+	# TODO: 「室　田村刑部大夫利政ノ妹」（「蘆名系圖」『会津資料叢書』）
+	1444.08.15={
+		death=yes # 「文安元(1444)年七月二日被害年二十九」（「蘆名系圖」『会津資料叢書』）
 	}
 }
 12070031={
-	name=character_name_12070031 # Morinobu
+	name=character_name_12070031 # Morinobu,盛信
 	dynasty=10000070 # Ashina
 	father=12070025 # Ashina Morimasa
 	religion="shinto"
@@ -1784,8 +1814,12 @@
 	1408.1.1={
 		birth=yes
 	}
-	1451.1.1={
-		death=yes
+	# TODO: 「室　金上兵庫盛統ノ女」（「蘆名系圖」『会津資料叢書』）
+	1438.01.01={
+		give_nickname="nick_sakonoe_shogen" # 「左近衛将監」
+	}
+	1451.04.19={
+		death=yes # 寶徳３年(1451年)３月１８日、「左近衛将監蘆名盛信卒す、子盛詮嗣ぐ」（大日本史料）
 	}
 }
 12070500={

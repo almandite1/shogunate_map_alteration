@@ -3814,7 +3814,7 @@
 	}
 }
 10007001 = {
-	name=character_name_10007001 # Morikiyo
+	name=character_name_10007001 # Morikiyo,盛舜
 	dynasty=10000070 # Ashina
 	martial=7
 	diplomacy=8
@@ -3832,8 +3832,9 @@
 		birth=yes
 	}
 	1510.1.1={
-		give_nickname="nick_totoumi_no_kami"
+		give_nickname="nick_totoumi_no_kami" # 「芦名遠江守　御西殿ト称ス」（「蘆名系圖」『会津資料叢書』）
 	}
+	# TODO: 「室　金上但馬守盛貞ノ妹」「側室　川野ノ方　白拍子」（「蘆名系圖」『会津資料叢書』）
 	1521.2.1={
 		effect = {
 			set_realm_capital=title:c_shgnt_aizu
@@ -3842,6 +3843,7 @@
 	1553.11.21={
 		death=yes
 	}
+	# 「天文22(1553)年八月二十一日卒年六十七」（「蘆名系圖」『会津資料叢書』）
 }
 10007002 = {
 	name=character_name_10007002 # Moriuji
@@ -3893,7 +3895,7 @@
 	}
 }
 10007004 = {
-	name=character_name_10007004 # Moritaka
+	name=character_name_10007004 # Moritaka,盛高、「初名盛之」（「蘆名系圖」『会津資料叢書 第6』）
 	dynasty=10000070 # Ashina
 	religion="shinto"
 	culture="southern_oshu"
@@ -3913,8 +3915,11 @@
 	1471.1.1={
 		give_nickname="nick_shuri_daibu"
 	}
+	# 「永正２年(1505年)１０月１０日、陸奥蘆名盛高、子盛滋と隙あり、結城政朝、之を和解せんとす、肯ぜず、遂に父子鹽川に戰ふ、盛滋、敗れて出羽長井に奔る」（大日本史料）
 	1518.1.19={
-		death=yes
+		death={
+			death_reason=death_old_age # 「永正１４年(1517年)１２月８日、修理大夫芦名盛高卒す、子盛滋嗣ぐ」
+		}
 	}
 }
 10007005 = {
@@ -3932,7 +3937,7 @@
 	}
 }
 10007006 = {
-	name=character_name_10007006 # Morishige
+	name=character_name_10007006 # Morishige,盛茲、「初名盛安　出羽判官ト称ス」（「蘆名系圖」『会津資料叢書』）
 	dynasty=10000070 # Ashina
 	religion="shinto"
 	culture="southern_oshu"
@@ -3941,13 +3946,17 @@
 	1482.1.1={
 		birth=yes
 	}
+	1498.01.01={
+		give_nickname="nick_saburo" # 「芦名三郎」（「蘆名系圖」『会津資料叢書』）
+	}
+	# 「室　渡部民部少輔綱昌ノ女」（「蘆名系圖」『会津資料叢書』）
 	1518.1.1={
 		effect = {
 			set_realm_capital=title:c_shgnt_aizu
 		}
 	}
 	1521.3.14={
-		death=yes
+		death=yes # 「大永元(1521)年二月七日卒」（「蘆名系圖」『会津資料叢書』）
 	}
 }
 10007007 = {
@@ -3964,7 +3973,7 @@
 	}
 }
 10007008 = {
-	name=character_name_10007008 # Moriakira
+	name=character_name_10007008 # Moriakira,盛詮
 	dynasty=10000070 # Ashina
 	religion="shinto"
 	culture="southern_oshu"
@@ -3972,17 +3981,20 @@
 	1431.1.1={
 		birth=yes
 	}
+	1447.01.01={
+		give_nickname="" # 「幼名三郎」（「蘆名系圖」『会津資料叢書 第6』）
+	}
 	1450.1.1={
-		add_spouse=10007009
-		give_nickname="nick_shimousa_no_kami"
+		add_spouse=10007009 # TODO: 「室　三浦時高ノ妹　大慈院殿」（「蘆名系圖」『会津資料叢書 第6』）
+		give_nickname="nick_shimousa_no_kami" # 「下総守」
 	}
 	1451.1.1={
 		effect = {
 			set_realm_capital=title:c_shgnt_aizu
 		}
 	}
-	1466.1.1={
-		death=yes
+	1466.09.18={
+		death=yes # 「文正１年(1466年)８月９日、下總守蘆名盛詮卒し、子盛高嗣ぐ」（大日本史料）
 	}
 }
 10007009 = {
@@ -4795,7 +4807,8 @@
 }
 10007801 = {
 	name=character_name_10007801 # Morikiyo
-	dynasty=10000078 # Inawashiro
+	#dynasty=10000078 # Inawashiro
+	dynasty=10000070 # Ashina
 	religion="shinto"
 	culture="southern_oshu"
 	father=10007008 # Ashina Moriakira
@@ -4803,13 +4816,17 @@
 	1459.1.2={
 		birth=yes
 	}
+	1489.01.01={
+		dynasty_house="house_shgnt_ashina_inawashiro"
+	}
 	1539.1.1={
 		death=yes
 	}
 }
 10007802={
-	name=character_name_10007802 # Morikuni
-	dynasty=10000078 # Inawashiro
+	name=character_name_10007802 # Morikuni,盛国
+	#dynasty=10000078 # Inawashiro
+	dynasty_house="house_shgnt_ashina_inawashiro"
 	father=10007801 # 
 	religion="shinto"
 	culture="southern_oshu"
@@ -4824,7 +4841,8 @@
 }
 10007803={
 	name=character_name_10007803 # Moritane
-	dynasty=10000078 # Inawashiro
+	#dynasty=10000078 # Inawashiro
+	dynasty_house="house_shgnt_ashina_inawashiro"
 	father=10007802 # 
 	religion="shinto"
 	culture="southern_oshu"
@@ -4841,7 +4859,8 @@
 }
 10007804={
 	name=character_name_10007804 # Munekuni
-	dynasty=10000078 # Inawashiro
+	#dynasty=10000078 # Inawashiro
+	dynasty_house="house_shgnt_ashina_inawashiro"
 	father=10007802 # 
 	religion="shinto"
 	culture="southern_oshu"
@@ -6039,12 +6058,16 @@
 }
 10009800={
 	name=character_name_10009800 # Ujisuke
-	dynasty=10000098 # Tomita
+	#dynasty=10000098 # Tomita
+	dynasty=10000070 # Ashina
 	father=12070026 # Ashina Mitsumori
 	religion="shinto"
 	culture="southern_oshu"
 	1420.1.1={
 		birth=yes
+	}
+	1436.01.01={
+		dynasty_house="house_shgnt_ashina_tomita"
 	}
 	1466.1.1={
 		employer = 10007004 # Ashina Moritaka
@@ -6055,7 +6078,8 @@
 }
 10009801={
 	name=character_name_10009801 # Yorisuke
-	dynasty=10000098 # Tomita
+	#dynasty=10000098 # Tomita
+	dynasty_house="house_shgnt_ashina_tomita"
 	father=10009800 # Tomita Ujisuke
 	religion="shinto"
 	culture="southern_oshu"
@@ -6071,7 +6095,8 @@
 }
 10009802={
 	name=character_name_10009802 # Morizane
-	dynasty=10000098 # Tomita
+	#dynasty=10000098 # Tomita
+	dynasty_house="house_shgnt_ashina_tomita"
 	father=10009801 # Tomita Yorisuke
 	religion="shinto"
 	culture="southern_oshu"
@@ -6090,7 +6115,8 @@
 }
 10009803={
 	name=character_name_10009803 # Sanemochi
-	dynasty=10000098 # Tomita
+	#dynasty=10000098 # Tomita
+	dynasty_house="house_shgnt_ashina_tomita"
 	father=10009802 # Tomita Morizane
 	religion="shinto"
 	culture="southern_oshu"
@@ -6115,7 +6141,8 @@
 }
 10009804={
 	name=character_name_10009804 # Shigezane
-	dynasty=10000098 # Tomita
+	#dynasty=10000098 # Tomita
+	dynasty_house="house_shgnt_ashina_tomita"
 	father=10009803 # Tomita Sanemochi
 	religion="shinto"
 	culture="southern_oshu"
@@ -6134,7 +6161,8 @@
 }
 10009805={
 	name=character_name_10009805 # Ujizane
-	dynasty=10000098 # Tomita
+	#dynasty=10000098 # Tomita
+	dynasty_house="house_shgnt_ashina_tomita"
 	father=10009804 # Tomita Shigezane
 	religion="shinto"
 	culture="southern_oshu"
@@ -6156,7 +6184,8 @@
 }
 10009806={
 	name=character_name_10009806 # Takazane
-	dynasty=10000098 # Tomita
+	#dynasty=10000098 # Tomita
+	dynasty_house="house_shgnt_ashina_tomita"
 	father=10009805 # Tomita Ujizane
 	religion="shinto"
 	culture="southern_oshu"
