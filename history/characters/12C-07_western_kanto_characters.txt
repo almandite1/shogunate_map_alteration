@@ -508,7 +508,7 @@
 	}
 }
 12180520 = {
-	name = character_name_12180520 # Sanetsuna
+	name = character_name_12180520 # Sanetsuna,実綱
 	dynasty = 10000111	#Sano
 	religion = "shinto"
 	culture="western_kanto"
@@ -516,12 +516,17 @@
 	1208.1.1 = {
 		birth=yes
 	}
+	#1238.01.01={
+	#	give_nickname="" # TODO: 「兵部丞」（「佐野系図」『続群書類従』）
+	#}
 	1258.1.1 = {
-		death=yes
+		death={
+			death_reason=death_natural_causes
+		}
 	}
 }
 12180521 = {
-	name = character_name_12180521 # Kagetsuna
+	name = character_name_12180521 # Kagetsuna,景綱
 	dynasty = 10000111	#Sano
 	religion = "shinto"
 	culture="western_kanto"
@@ -530,7 +535,9 @@
 		birth=yes
 	}
 	1260.1.1 = {
-		death=yes
+		death={
+			death_reason=death_natural_causes
+		}
 	}
 }
 12180530 = {
@@ -543,7 +550,9 @@
 		birth=yes
 	}
 	1290.1.1 = {
-		death=yes
+		death={
+			death_reason=death_natural_causes
+		}
 	}
 }
 12180540 = {
@@ -556,11 +565,13 @@
 		birth=yes
 	}
 	1310.1.1 = {
-		death=yes
+		death={
+			death_reason=death_natural_causes
+		}
 	}
 }
 12180550 = {
-	name = character_name_12180550 # Moritsuna
+	name = character_name_12180550 # Moritsuna,盛綱
 	dynasty = 10000111	#Sano
 	religion = "shinto"
 	culture="western_kanto"
@@ -569,11 +580,13 @@
 		birth=yes
 	}
 	1288.1.1 = {
-		death=yes
+		death={
+			death_reason=death_natural_causes
+		}
 	}
 }
 12180560={
-	name=character_name_12180560 # Hirotsune
+	name=character_name_12180560 # Hirotsune,広綱
 	dynasty=10000111 # Sano
 	father=12180550 # Sano Moritsuna
 	religion="shinto"
@@ -581,12 +594,17 @@
 	1260.1.1={
 		birth=yes
 	}
+	1290.01.01={
+		give_nickname="nick_danjo_no_shohitsu" # TODO: 「弾正忠」（「佐野系図」『続群書類従』）
+	}
 	1320.1.1={
-		death=yes
+		death={
+			death_reason=death_natural_causes
+		}
 	}
 }
 12180570={
-	name=character_name_12180570 # Sadatsuna
+	name=character_name_12180570 # Sadatsuna,貞綱
 	dynasty=10000111 # Sano
 	father=12180560 # Sano Moritsuna
 	religion="shinto"
@@ -594,12 +612,17 @@
 	1283.1.1={
 		birth=yes
 	}
+	1299.01.01={
+		give_nickname="nick_taro" # 「佐野太郎」（「佐野系図」『続群書類従』）
+	}
 	1333.1.1={
-		death=yes
+		death={
+			death_reason=death_natural_causes
+		}
 	}
 }
 12180580={
-	name=character_name_12180580 # Suketsuna
+	name=character_name_12180580 # Suketsuna,資綱
 	dynasty=10000111 # Sano
 	father=12180570 # Sano Sadatsuna
 	religion="shinto"
@@ -607,12 +630,17 @@
 	1305.1.1={
 		birth=yes
 	}
+	1345.01.01={
+		give_nickname="nick_boshu_no_kami" # 「安房守」（「佐野系図」『続群書類従』）
+	}
 	1355.1.1={
-		death=yes
+		death={
+			death_reason=death_natural_causes
+		}
 	}
 }
 12180590={
-	name=character_name_12180590 # Morotsuna
+	name=character_name_12180590 # Morotsuna,師綱
 	dynasty=10000111 # Sano
 	father=12180580 # Sano Suketsuna
 	religion="shinto"
@@ -620,12 +648,17 @@
 	1327.1.1={
 		birth=yes
 	}
+	1367.01.01={
+		give_nickname="nick_echizen_no_kami" # 「越前守」（「佐野系図」『続群書類従』）
+	}
 	1377.1.1={
-		death=yes
+		death={
+			death_reason=death_natural_causes
+		}
 	}
 }
 12180600 = {
-	name=character_name_12180600 # Shigetsuna
+	name=character_name_12180600 # Shigetsuna,重綱
 	dynasty=10000111 # Sano
 	father=12180590 # Sano Morotsuna
 	religion="shinto"
@@ -633,12 +666,17 @@
 	1351.1.1={
 		birth=yes
 	}
+	1381.01.01={
+		give_nickname="nick_sama_no_suke" # 「左馬助」（「佐野系図」『続群書類従』）
+	}
 	1432.1.1={
-		death=yes
+		death={
+			death_reason=death_old_age
+		}
 	}
 }
 12180605={
-	name=character_name_12180605 # Suetsuna
+	name=character_name_12180605 # Suetsuna,季綱
 	dynasty=10000111 # Sano
 	father=12180600 # Sano Shigetsuna
 	religion="shinto"
@@ -647,11 +685,13 @@
 		birth=yes
 	}
 	1421.1.1={
-		death=yes
+		death={
+			death_reason=death_natural_causes
+		}
 	}
 }
 12180606 = {
-	name=character_name_12180606 # Shigenaga
+	name=character_name_12180606 # Shigenaga,重長
 	dynasty=10000111 # Sano
 	father=12180600
 	religion="shinto"
@@ -660,11 +700,13 @@
 		birth=yes
 	}
 	1500.1.1={
-		death=yes
+		death={
+			death_reason=death_old_age
+		}
 	}
 }
 12180610 = {
-	name=character_name_12180610 # Moritsuna
+	name=character_name_12180610 # Moritsuna,盛綱
 	dynasty=10000111 # Sano
 	father=12180606
 	religion="shinto"
@@ -673,11 +715,13 @@
 		birth=yes
 	}
 	1527.1.1={
-		death=yes
+		death={
+			death_reason=death_old_age
+		}
 	}
 }
 12180615 = {
-	name=character_name_12180615 # Hidetsuna
+	name=character_name_12180615 # Hidetsuna,秀綱
 	dynasty=10000111 # Sano
 	father=12180610
 	religion="shinto"
@@ -686,11 +730,13 @@
 		birth=yes
 	}
 	1548.8.1={
-		death=yes
+		death={
+			death_reason=death_old_age
+		}
 	}
 }
 12180620 = {
-	name=character_name_12180620 # Yasutsuna
+	name=character_name_12180620 # Yasutsuna,泰綱
 	dynasty=10000111 # Sano
 	father=12180615
 	religion="shinto"
@@ -699,7 +745,9 @@
 		birth=yes
 	}
 	1560.1.1={
-		death=yes
+		death={
+			death_reason=death_old_age
+		}
 	}
 }
 12180700 = {

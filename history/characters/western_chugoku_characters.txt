@@ -6301,7 +6301,7 @@
 	}
 }
 10056300 = {
-	name=character_name_10056300 # Masahira
+	name=character_name_10056300 # Masahira,正平、「初詮平」（『近世防長諸家系図綜覧』）
 	dynasty=10000562 # Kobayakawa
 	father=10056301
 	martial=7
@@ -6317,20 +6317,22 @@
 		birth=yes
 	}
 	1539.1.1={
-		give_nickname="nick_Matataro"
+		give_nickname="nick_Matataro" # 「又太郎」（『近世防長諸家系図綜覧』）
 	}
 	1540.1.1={
-		give_nickname="nick_kamon_no_kami"
+		give_nickname="nick_kamon_no_kami" # 「掃部頭」（『近世防長諸家系図綜覧』）
 	}
 	1542.1.1={
-		give_nickname="nick_bingo_no_kami"
+		give_nickname="nick_bingo_no_kami" # 「備後守　美作守」（『近世防長諸家系図綜覧』）
 	}
 	1543.6.21={
-		death=yes
+		death={
+			death_reason=death_battle # 「天文12(1543)年五月九日於雲州鴟巣川討死二十一歳」（『近世防長諸家系図綜覧』）
+		}
 	}
 }
 10056301 = {
-	name=character_name_10056301 # Okihira
+	name=character_name_10056301 # Okihira,興平、「小法師丸」（『近世防長諸家系図綜覧』）
 	dynasty=10000562 # Kobayakawa
 	father=10056302
 	martial=8
@@ -6345,17 +6347,17 @@
 		birth=yes
 	}
 	1521.1.1={
-		give_nickname="nick_Matataro"
+		give_nickname="nick_Matataro" # 「又太郎」（『近世防長諸家系図綜覧』）
 	}
 	1525.1.1={
-		give_nickname="nick_kamon_no_suke"
+		give_nickname="nick_kamon_no_suke" # TODO: 掃部助とする史料を探す、「掃部頭」（『近世防長諸家系図綜覧』）
 	}
 	1527.1.28={
 		death=yes
 	}
 }
 10056302 = {
-	name=character_name_10056302 # Sukehira
+	name=character_name_10056302 # Sukehira,扶平、「又鶴丸」（『近世防長諸家系図綜覧』）
 	dynasty=10000562 # Kobayakawa
 	father=10056303
 	religion="shinto"
@@ -6364,20 +6366,20 @@
 		birth=yes
 	}
 	1501.1.1={
-		give_nickname="nick_Matataro"
+		give_nickname="nick_Matataro" # 「又太郎」（『近世防長諸家系図綜覧』）
 	}
 	1505.1.1={
-		give_nickname="nick_hyobu_no_sho"
+		give_nickname="nick_hyobu_no_sho" # 「兵部少輔」（『近世防長諸家系図綜覧』）
 	}
 	1506.1.1={
-		give_nickname="nick_kamon_no_kami"
+		give_nickname="nick_kamon_no_kami" # 「掃部頭」（『近世防長諸家系図綜覧』）
 	}
 	1508.2.14={
 		death=yes
 	}
 }
 10056303 = {
-	name=character_name_10056303 # Takahira
+	name=character_name_10056303 # Takahira,敬平、「初元平　又鶴丸」（『近世防長諸家系図綜覧』）
 	dynasty=10000562 # Kobayakawa
 	father=10056314
 	religion="shinto"
@@ -6386,20 +6388,22 @@
 		birth=yes
 	}
 	1468.1.1={
-		give_nickname="nick_Matataro"
+		give_nickname="nick_Matataro" # 「又太郎」（『近世防長諸家系図綜覧』）
 	}
 	1472.1.1={
-		give_nickname="nick_kamon_no_suke"
+		give_nickname="nick_kamon_no_suke" # 「掃部助」（『近世防長諸家系図綜覧』）
 	}
 	1482.1.1={
-		give_nickname="nick_mimasaka_no_kami"
+		give_nickname="nick_mimasaka_no_kami" # 「美作守」（『近世防長諸家系図綜覧』）
 	}
 	1499.5.26={
-		death=yes
+		death={
+			death_reason=death_natural_causes
+		}
 	}
 }
 10056304 = {
-	name=character_name_10056304 # Yoshiuji
+	name=character_name_10056304 # Yoshiuji,義氏
 	dynasty=10000562 # Kobayakawa
 	father=10056302 # Kobayakawa Sukehira
 	trait="education_diplomacy_1"
@@ -6411,9 +6415,10 @@
 	1550.1.1={
 		death=yes
 	}
+	# 「探題宗蓮公」（『近世防長諸家系図綜覧』）
 }
 10056305 = {
-	name=character_name_10056305 # Tsunehira
+	name=character_name_10056305 # Tsunehira,常平、「イニ経平」
 	dynasty=10000562 # Kobayakawa
 	father=10056302
 	trait="education_diplomacy_1"
@@ -6422,12 +6427,17 @@
 	1508.1.1={
 		birth=yes
 	}
-	1560.1.1={
-		death=yes
+	1528.01.01={
+		dynasty_house="house_shgnt_kobayakawa_funaki" # 「船木」（『近世防長諸家系図綜覧』）
+	}
+	1541.02.25={
+		death={
+			death_reason=death_suicide # 「天文10(1541)年正月晦日於三石城為大内切腹」（『近世防長諸家系図綜覧』）
+		}
 	}
 }
 10056306 = {
-	name=character_name_10056306 # Soryu
+	name=character_name_10056306 # Soryu,祖騮
 	dynasty=10000562 # Kobayakawa
 	father=10056303
 	religion="shinto"
@@ -6436,12 +6446,15 @@
 	1486.1.1={
 		birth=yes
 	}
+	1506.01.01={
+		dynasty_house="house_shgnt_kobayakawa_kyoshinji" # 「巨真寺」
+	}
 	1540.1.1={
 		death=yes
 	}
 }
 10056307 = {
-	name=character_name_10056307 # Yasuhira
+	name=character_name_10056307 # Yasuhira,康平
 	dynasty=10000562 # Kobayakawa
 	father=10056303
 	religion="shinto"
@@ -6449,12 +6462,18 @@
 	1487.1.1={
 		birth=yes
 	}
+	1517.01.01={
+		dynasty_house="house_shgnt_kobayakawa_nashiwa" # 「備後守」（『近世防長諸家系図綜覧』）
+	}
+	1527.01.01={
+		give_nickname="nick_bingo_no_kami" # 「備後守」（『近世防長諸家系図綜覧』）
+	}
 	1560.1.1={
 		death=yes
 	}
 }
 10056308 = {
-	name=character_name_10056308 # Shinsei
+	name=character_name_10056308 # Shinsei,真正
 	dynasty=10000562 # Kobayakawa
 	father=10056303
 	female=yes
@@ -6464,12 +6483,15 @@
 	1488.1.1={
 		birth=yes
 	}
+	1508.01.01={
+		dynasty_house="house_shgnt_kobayakawa_rengeji" # 「蓮花寺　比丘尼」（『近世防長諸家系図綜覧』）
+	}
 	1540.1.1={
 		death=yes
 	}
 }
 10056309 = {
-	name=character_name_10056309 # Shinki #Tsuchikura Nanigashi's wife
+	name=character_name_10056309 # Shinki #Tsuchikura Nanigashi's wife、「土倉某妻」（『近世防長諸家系図綜覧』）
 	dynasty=10000562 # Kobayakawa
 	father=10056303
 	female=yes
@@ -6483,7 +6505,7 @@
 	}
 }
 10056310 = {
-	name=character_name_10056310 # Shinano #Kinashi Nanigashi's wife
+	name=character_name_10056310 # Shinano #Kinashi Nanigashi's wife、「木梨某妻」（『近世防長諸家系図綜覧』）
 	dynasty=10000562 # Kobayakawa
 	father=10056303
 	female=yes
@@ -6497,7 +6519,7 @@
 	}
 }
 10056311 = {
-	name=character_name_10056311 # Minori #Nomi Akinokami Nanigashi's wife
+	name=character_name_10056311 # Minori #Nomi Akinokami Nanigashi's wife、「乃美安芸守妻」（『近世防長諸家系図綜覧』）
 	dynasty=10000562 # Kobayakawa
 	father=10056303
 	female=yes
@@ -6511,7 +6533,7 @@
 	}
 }
 10056312 = {
-	name=character_name_10056312 # Shizuka #Shishido Nanigashi's wife
+	name=character_name_10056312 # Shizuka #Shishido Nanigashi's wife、「宍戸某妻」（『近世防長諸家系図綜覧』）
 	dynasty=10000562 # Kobayakawa
 	father=10056303
 	female=yes
@@ -6525,7 +6547,7 @@
 	}
 }
 10056313 = {
-	name=character_name_10056313 # Chiyo #Hiraga Nanigashi's wife
+	name=character_name_10056313 # Chiyo #Hiraga Nanigashi's wife、「平賀某妻」（『近世防長諸家系図綜覧』）
 	dynasty=10000562 # Kobayakawa
 	father=10056303
 	female=yes
@@ -6539,7 +6561,7 @@
 	}
 }
 10056314 = {
-	name=character_name_10056314 # Hirohira
+	name=character_name_10056314 # Hirohira,凞平
 	dynasty=10000562 # Kobayakawa
 	father=10056323
 	religion="shinto"
@@ -6548,20 +6570,22 @@
 		birth=yes
 	}
 	1432.1.1={
-		give_nickname="nick_Matataro"
+		give_nickname="nick_Matataro" # 「又太郎」（『近世防長諸家系図綜覧』）
 	}
 	1436.1.1={
-		give_nickname="nick_kamon_no_suke"
+		give_nickname="nick_kamon_no_suke" # 「掃部助」（『近世防長諸家系図綜覧』）
 	}
 	1446.1.1={
-		give_nickname="nick_bingo_no_kami"
+		give_nickname="nick_bingo_no_kami" # 「備後守」（『近世防長諸家系図綜覧』）
 	}
 	1473.1.1={
-		death=yes
+		death={
+			death_reason=death_natural_causes
+		}
 	}
 }
 10056315 = {
-	name=character_name_10056315 # Korekage
+	name=character_name_10056315 # Korekage,是景、「道祖徳」（『近世防長諸家系図綜覧』）
 	dynasty=10000562 # Kobayakawa
 	father=10056314
 	religion="shinto"
@@ -6570,23 +6594,24 @@
 		birth=yes
 	}
 	1476.1.1={
-		give_nickname="nick_Matajuro"
+		give_nickname="nick_Matajuro" # 「又十郎」（『近世防長諸家系図綜覧』）
 	}
 	1480.1.1={
-		give_nickname="nick_danjo_daichu"
+		give_nickname="nick_danjo_daichu" # TODO: 「弾正忠」（『近世防長諸家系図綜覧』）
 	}
 	1490.1.1={
-		give_nickname="nick_chikuzen_no_kami"
+		give_nickname="nick_chikuzen_no_kami" # 「筑前守」（『近世防長諸家系図綜覧』）
+		dynasty_house="house_shgnt_kobayakawa_nomi" # 「乃美祖」（『近世防長諸家系図綜覧』）
 	}
 	1500.1.1={
-		give_nickname="nick_aki_no_kami"
+		give_nickname="nick_aki_no_kami" # 「安芸守」（『近世防長諸家系図綜覧』）
 	}
 	1530.1.1={
 		death=yes
 	}
 }
 10056316 = {
-	name=character_name_10056316 # Syusyun
+	name=character_name_10056316 # Syusyun,殊椿
 	dynasty=10000562 # Kobayakawa
 	father=10056314
 	religion="shinto"
@@ -6595,12 +6620,15 @@
 	1465.1.1={
 		birth=yes
 	}
+	1485.01.01={
+		dynasty_house="house_shgnt_kobayakawa_kyoshinji"
+	}
 	1540.1.1={
 		death=yes
 	}
 }
 10056317 = {
-	name=character_name_10056317 # Reisai
+	name=character_name_10056317 # Reisai,令才
 	dynasty=10000562 # Kobayakawa
 	father=10056314
 	religion="shinto"
@@ -6609,12 +6637,15 @@
 	1470.1.1={
 		birth=yes
 	}
+	1490.01.01={
+		dynasty_house="house_shgnt_kobayakawa_jojuji"
+	}
 	1540.1.1={
 		death=yes
 	}
 }
 10056318 = {
-	name=character_name_10056318 # Motokiyo
+	name=character_name_10056318 # Motokiyo,元清
 	dynasty=10000562 # Kobayakawa
 	father=10056314
 	religion="shinto"
@@ -6622,12 +6653,15 @@
 	1471.1.1={
 		birth=yes
 	}
+	1501.01.01={
+		dynasty_house="house_shgnt_kobayakawa_ikuchi"
+	}
 	1540.1.1={
 		death=yes
 	}
 }
 10056319 = {
-	name=character_name_10056319 # Mochihira
+	name=character_name_10056319 # Mochihira,持平
 	dynasty=10000562 # Kobayakawa
 	father=10056323
 	religion="shinto"
@@ -6636,17 +6670,19 @@
 		birth=yes
 	}
 	1426.1.1={
-		give_nickname="nick_Jirozaemon"
+		give_nickname="nick_Jirozaemon" # TODO: 「次郎左衛門尉」（『近世防長諸家系図綜覧』）
 	}
 	1440.1.1={
-		give_nickname="nick_mimasaka_no_kami"
+		give_nickname="nick_mimasaka_no_kami" # 「美作守」（『近世防長諸家系図綜覧』）
 	}
 	1475.1.1={
-		death=yes
+		death={
+			death_reason=death_natural_causes
+		}
 	}
 }
 10056320 = {
-	name=character_name_10056320 # Norihira
+	name=character_name_10056320 # Norihira,教平
 	dynasty=10000562 # Kobayakawa
 	father=10056323
 	religion="shinto"
@@ -6654,12 +6690,17 @@
 	1420.1.1={
 		birth=yes
 	}
+	1436.01.01={
+		give_nickname="nick_Jirotaro" # 「次郎太郎」（『近世防長諸家系図綜覧』）
+	}
 	1485.1.1={
-		death=yes
+		death={
+			death_reason=death_natural_causes
+		}
 	}
 }
 10056321 = {
-	name=character_name_10056321 # Mitsuhira
+	name=character_name_10056321 # Mitsuhira,満平
 	dynasty=10000562 # Kobayakawa
 	father=10056323
 	religion="shinto"
@@ -6667,12 +6708,18 @@
 	1425.1.1={
 		birth=yes
 	}
-	1485.1.1={
-		death=yes
+	1446.01.01={
+		give_nickname="nick_Shinsaburo" # 「新三郎」（『近世防長諸家系図綜覧』）
 	}
+	1485.1.1={
+		death={
+			death_reason=death_natural_causes
+		}
+	}
+	# 「予州三島　日名内祖」（『近世防長諸家系図綜覧』）
 }
 10056322 = {
-	name=character_name_10056322 # Furimune
+	name=character_name_10056322 # Furimune,振宗、「イニ据宗」（『近世防長諸家系図綜覧』）
 	dynasty=10000562 # Kobayakawa
 	father=10056323
 	religion="shinto"
@@ -6681,11 +6728,14 @@
 		birth=yes
 	}
 	1500.1.1={
-		death=yes
+		death={
+			death_reason=death_old_age
+		}
 	}
+	# 「三島東堂」（『近世防長諸家系図綜覧』）
 }
 10056323 = {
-	name=character_name_10056323 # Norihira
+	name=character_name_10056323 # Norihira,則平
 	dynasty=10000562 # Kobayakawa
 	father=10056326
 	religion="shinto"
@@ -6693,12 +6743,17 @@
 	1373.1.1={
 		birth=yes
 	}
+	1413.01.01={
+		give_nickname="nick_mimasaka_no_kami" # 「美作守　入道常嘉　後改常建」（『近世防長諸家系図綜覧』）
+	}
 	1433.2.16={
-		death=yes
+		death={
+			death_reason=death_natural_causes
+		}
 	}
 }
 10056324 = {
-	name=character_name_10056324 # Reikun
+	name=character_name_10056324 # Reikun,令薫
 	dynasty=10000562 # Kobayakawa
 	father=10056326
 	religion="shinto"
@@ -6706,12 +6761,17 @@
 	1375.1.1={
 		birth=yes
 	}
-	1435.1.1={
-		death=yes
+	1395.01.01={
+		dynasty_house="house_shgnt_kobayakawa_kyoshinji" # 「東福寺前住琴江」（『近世防長諸家系図綜覧』）
+	}
+	1444.09.22={
+		death={
+			death_reason=death_natural_causes # 「文安元年（1444年）八月十一日遷化」（『近世防長諸家系図綜覧』）
+		}
 	}
 }
 10056325 = {
-	name=character_name_10056325 # Tokinori
+	name=character_name_10056325 # Tokinori,時則
 	dynasty=10000562 # Kobayakawa
 	father=10056326
 	religion="shinto"
@@ -6719,12 +6779,15 @@
 	1380.1.1={
 		birth=yes
 	}
+	1400.01.01={
+		dynasty_house="house_shgnt_kobayakawa_tokumitsu"
+	}
 	1460.1.1={
 		death=yes
 	}
 }
 10056326 = {
-	name=character_name_10056326 # Haruhira
+	name=character_name_10056326 # Haruhira,春平
 	dynasty=10000562 # Kobayakawa
 	father=10056327
 	religion="shinto"
@@ -6732,12 +6795,17 @@
 	1340.1.1={
 		birth=yes
 	}
+	1375.01.01={
+		give_nickname="nick_mimasaka_no_kami" # 「美作守　（左近将監）」（『近世防長諸家系図綜覧』）
+	}
 	1402.2.9={
-		death=yes
+		death={
+			death_reason=death_natural_causes
+		}
 	}
 }
 10056327 = {
-	name=character_name_10056327 # Sadahira
+	name=character_name_10056327 # Sadahira,貞平、「道祖鶴丸」（『近世防長諸家系図綜覧』）
 	dynasty=10000562 # Kobayakawa
 	father=10056328
 	religion="shinto"
@@ -6745,12 +6813,17 @@
 	1315.1.1={
 		birth=yes
 	}
+	1355.01.01={
+		give_nickname="nick_bingo_no_kami" # 「四郎左衛門尉　従五位下　備後守（美濃守）」（『近世防長諸家系図綜覧』）
+	}
 	1375.3.21={
-		death=yes
+		death={
+			death_reason=death_natural_causes
+		}
 	}
 }
 10056328 = {
-	name=character_name_10056328 # Nobuhira
+	name=character_name_10056328 # Nobuhira,宣平
 	dynasty=10000562 # Kobayakawa
 	father=10056329
 	religion="shinto"
@@ -6758,12 +6831,17 @@
 	1300.1.1={
 		birth=yes
 	}
+	1340.01.01={
+		give_nickname="nick_aki_no_kami" # 「備後守　安芸守　入道円照」（『近世防長諸家系図綜覧』）
+	}
 	1370.1.18={
-		death=yes
+		death={
+			death_reason=death_old_age
+		}
 	}
 }
 10056329 = {
-	name=character_name_10056329 # Asahira
+	name=character_name_10056329 # Asahira,朝平
 	dynasty=10000562 # Kobayakawa
 	father=10056330
 	religion="shinto"
@@ -6771,12 +6849,17 @@
 	1280.1.1={
 		birth=yes
 	}
+	1320.01.01={
+		give_nickname="nick_saemon_no_jo" # TODO: 「太郎　左衛門尉　美作民部丞　美作民部大夫」（『近世防長諸家系図綜覧』）
+	}
 	1348.1.2={
-		death=yes
+		death={
+			death_reason=death_natural_causes
+		}
 	}
 }
 10056330 = {
-	name=character_name_10056330 # Masahira
+	name=character_name_10056330 # Masahira,雅平、「後政平」（『近世防長諸家系図綜覧』）
 	dynasty=10000562 # Kobayakawa
 	father=10056333
 	religion="shinto"
@@ -6784,12 +6867,17 @@
 	1230.1.1={
 		birth=yes
 	}
+	1246.01.01={
+		give_nickname="nick_saburo" # 「三郎」（『近世防長諸家系図綜覧』）
+	}
 	1298.8.26={
-		death=yes
+		death={
+			death_reason=death_old_age
+		}
 	}
 }
 10056331 = {
-	name=character_name_10056331 # Masakage
+	name=character_name_10056331 # Masakage,政景
 	dynasty=10000562 # Kobayakawa
 	father=10056333
 	religion="shinto"
@@ -6797,12 +6885,20 @@
 	1240.1.1={
 		birth=yes
 	}
+	1256.01.01={
+		give_nickname="nick_shiro" # 「四郎　美作四郎」（『近世防長諸家系図綜覧』）
+	}
+	1258.01.01={
+		dynasty_house="house_shgnt_kobayakawa_takehara" # 「正嘉2(1258)年自父本仏分与領地　住安芸国竹原　世称竹原小早川」（『近世防長諸家系図綜覧』）
+	}
 	1320.1.1={
-		death=yes
+		death={
+			death_reason=death_old_age
+		}
 	}
 }
 10056332 = {
-	name=character_name_10056332 # inume
+	name=character_name_10056332 # inume,犬女
 	dynasty=10000562 # Kobayakawa
 	father=10056333
 	female=yes
@@ -6812,76 +6908,122 @@
 		birth=yes
 	}
 	1310.1.1={
-		death=yes
+		death={
+			death_reason=death_old_age
+		}
 	}
+	# 「梨子羽郷一期領主　法名浄蓮」（『近世防長諸家系図綜覧』）
 }
 10056333 = {
-	name=character_name_10056333 # Shigehira
-	dynasty=10000562 # Kobayakawa
+	name=character_name_10056333 # Shigehira,茂平
+	dynasty=10000562 # Kobayakawa、「本庄　小早川」（『近世防長諸家系図綜覧』）
 	father=12216102 # Kobayakawa Kagehira
 	religion="shinto"
 	culture="western_chugoku"
 	1200.1.1={
 		birth=yes
 	}
+	1216.01.01={
+		give_nickname="nick_Yataro" # 「弥太郎　左衛門大夫　兵衛尉　美作守」（『近世防長諸家系図綜覧』）
+	}
+	1240.01.01={
+		give_nickname="nick_mimasaka_no_kami"
+	}
 	1264.3.14={
-		death=yes
+		death={
+			death_reason=death_natural_causes
+		}
 	}
 }
 10056334 = {
-	name=character_name_10056334 # Suehira
-	dynasty=10000562 # Kobayakawa
+	name=character_name_10056334 # Suehira,季平
+	dynasty=10000562 # Kobayakawa、「新庄」（『近世防長諸家系図綜覧』）
 	father=12216102 # Kobayakawa Kagehira
 	religion="shinto"
 	culture="western_chugoku"
 	1210.1.1={
 		birth=yes
 	}
+	1240.01.01={
+		dynasty_house="house_shgnt_kobayakawa_shinjo" # 「大草　上山　小田　椋梨　和木等祖」「安芸国沼田荘内新庄地頭職」（『近世防長諸家系図綜覧』）
+	}
+	1250.01.01={
+		give_nickname="nick_Jirozaemon" # 「次郎左衛門尉」（『近世防長諸家系図綜覧』）
+	}
 	1270.1.1={
-		death=yes
+		death={
+			death_reason=death_natural_causes
+		}
 	}
 }
 10056335 = {
-	name=character_name_10056335 # Kunihira
-	dynasty=10000562 # Kobayakawa
+	name=character_name_10056335 # Kunihira,国平
+	#dynasty=10000562 # Kobayakawa
+	dynasty_house="house_shgnt_kobayakawa_shinjo"
 	father=10056334
 	religion="shinto"
 	culture="western_chugoku"
 	1230.1.1={
 		birth=yes
 	}
+	1250.01.01={
+		dynasty_house="house_shgnt_kobayakawa_mukunashi" # 「椋梨国平」（『近世防長諸家系図綜覧』）
+	}
+	1270.01.01={
+		give_nickname="nick_Shinzaemon" # TODO: 「新左衛門尉」（『近世防長諸家系図綜覧』）
+	}
 	1300.1.1={
 		death=yes
 	}
+	# 「領福田椋梨高崎大草」（『近世防長諸家系図綜覧』）
 }
 10056336 = {
-	name=character_name_10056336 # Sadahira
-	dynasty=10000562 # Kobayakawa
+	name=character_name_10056336 # Sadahira,定平
+	#dynasty=10000562 # Kobayakawa
+	dynasty_house="house_shgnt_kobayakawa_mukunashi"
 	father=10056335
 	religion="shinto"
 	culture="western_chugoku"
 	1250.1.1={
 		birth=yes
 	}
+	1290.01.01={
+		give_nickname="nick_Tarozaemon" # TODO: 「太郎左衛門尉」（『近世防長諸家系図綜覧』）
+	}
+	1299.01.01={
+		dynasty=10000562 # Kobayakawa、「小早川定平　竹王丸　太郎左衛門尉　法名仏心」「永仁7(1299)年四月十日賜出羽国由利郡小友村　由利総五郎惟方跡」（『近世防長諸家系図綜覧』）
+	}
 	1320.1.1={
 		death=yes
 	}
 }
 10056337 = {
-	name=character_name_10056337 # Munehira
-	dynasty=10000562 # Kobayakawa
+	name=character_name_10056337 # Munehira,宗平
+	#dynasty=10000562 # Kobayakawa
+	dynasty_house="house_shgnt_kobayakawa_mukunashi"
 	father=10056336
 	religion="shinto"
 	culture="western_chugoku"
 	1270.1.1={
 		birth=yes
 	}
+	1286.01.01={
+		give_nickname="nick_goro" # 「五郎」（『近世防長諸家系図綜覧』）
+	}
+	1299.01.01={
+		dynasty=10000562 # Kobayakawa、「小早川宗平　五郎　左衛門　法名性秋　後改性善歟　宜参考家譜」（『近世防長諸家系図綜覧』）
+	}
+	1310.01.01={
+		give_nickname="nick_saemon" # 「左衛門」（『近世防長諸家系図綜覧』）
+	}
 	1350.1.1={
 		death=yes
 	}
+	# 「元弘3(1333)年八月二十四日賜所領出羽国由利郡小友村由利総五郎惟方跡」
+	# 「建武3(1336)年十月十日被預駿河国安部郷内殿岡七郎入道跡相模国北成田郷波多野郷之内阿曾沼下野権守跡」（『近世防長諸家系図綜覧』）
 }
 10056338 = {
-	name=character_name_10056338 # Mitsuhira
+	name=character_name_10056338 # Mitsuhira,光平
 	dynasty=10000562 # Kobayakawa
 	father=10056337
 	religion="shinto"
@@ -6889,12 +7031,18 @@
 	1290.1.1={
 		birth=yes
 	}
+	1306.01.01={
+		give_nickname="nick_saburo" # 「三郎」（『近世防長諸家系図綜覧』）
+	}
+	1330.01.01={
+		give_nickname="nick_saemon_no_jo" # 「左衛門尉」（『近世防長諸家系図綜覧』）
+	}
 	1360.1.1={
 		death=yes
 	}
 }
 10056339 = {
-	name=character_name_10056339 # Yasuhira
+	name=character_name_10056339 # Yasuhira,奉平
 	dynasty=10000562 # Kobayakawa
 	father=10056338
 	religion="shinto"
@@ -6907,7 +7055,7 @@
 	}
 }
 10056340 = {
-	name=character_name_10056340 # Naohira
+	name=character_name_10056340 # Naohira,直平、「小早川直平」（『近世防長諸家系図綜覧』）
 	dynasty=10000562 # Kobayakawa
 	father=10056339
 	religion="shinto"
@@ -6915,12 +7063,15 @@
 	1330.1.1={
 		birth=yes
 	}
+	#1346.01.01={
+	#	give_nickname="" # TODO: 「左衛門次郎」（『近世防長諸家系図綜覧』）
+	#}
 	1400.1.1={
 		death=yes
 	}
 }
 10056341 = {
-	name=character_name_10056341 # Tadahira
+	name=character_name_10056341 # Tadahira,忠平、「法名道成」（『近世防長諸家系図綜覧』）
 	dynasty=10000562 # Kobayakawa
 	father=10056340
 	religion="shinto"
@@ -6933,7 +7084,7 @@
 	}
 }
 10056342 = {
-	name=character_name_10056342 # Kimihira
+	name=character_name_10056342 # Kimihira,公平
 	dynasty=10000562 # Kobayakawa
 	father=10056341
 	religion="shinto"
@@ -6941,27 +7092,40 @@
 	1390.1.1={
 		birth=yes
 	}
+	1425.01.01={
+		give_nickname="nick_hitachi_no_suke" # 「常陸介」（『近世防長諸家系図綜覧』）
+	}
 	1470.1.1={
 		death=yes
 	}
+	# 「属大内右京大夫　与小早川熈平有戦功　法名道了」（『近世防長諸家系図綜覧』）
 }
 10056360 = {
-	name=character_name_10056360 # Shigehira
+	name=character_name_10056360 # Shigehira,繁平、「初元緒　又元平　亦鶴丸」（『近世防長諸家系図綜覧』）
 	dynasty=10000562 # Kobayakawa
 	father=10056300
 	trait="education_diplomacy_1"
-	trait="blind"
 	religion="shinto"
 	culture="western_chugoku"
 	1542.1.1={
 		birth=yes
 	}
+	1545.01.01={
+		trait="ill"
+	}
+	1545.01.14={
+		effect={
+			remove_trait="ill"
+		}
+		trait="blind" # 「三歳患眼失明」（『近世防長諸家系図綜覧』）
+	}
 	1558.1.1={
-		give_nickname="nick_Matataro"
+		give_nickname="nick_Matataro" # 「又太郎」（『近世防長諸家系図綜覧』）
 	}
 	1562.1.1={
-		give_nickname="nick_uneme_no_kami"
+		give_nickname="nick_uneme_no_kami" # 「采女正」（『近世防長諸家系図綜覧』）
 	}
+	# TODO: 「以小早川隆景為養子譲家配妹　自薙髪帰禅住教真寺」（『近世防長諸家系図綜覧』）
 	1574.11.26={
 		death=yes
 	}
@@ -6982,47 +7146,68 @@
 	}
 }
 10056370={
-	name=character_name_10056370 # Kagemune
-	dynasty=10000562 # Kobayakawa
+	name=character_name_10056370 # Kagemune,景宗
+	#dynasty=10000562 # Kobayakawa
+	dynasty_house="house_shgnt_kobayakawa_takehara"
 	father=10056331 # Kobayakawa Masakage
 	religion="shinto"
 	culture="western_chugoku"
 	1260.1.1={
 		birth=yes
 	}
+	# TODO: 「美作四郎左衛門尉」（「小早川什書」）
+	# 延元１年(1336)９月６日、「小早川景宗、鎌倉建長寺雑掌と安芸都宇竹原荘地頭職を争ひて、足利氏東寺行宮に訴ふ」（『大日本史料』）
+	# 暦応１年１月是月、「尊氏、小早川景宗、志水実俊、島津宗久、同頼久、内藤教泰、及び故内藤泰廉の勲功を賞し地を与ふ」（『大日本史料』）
+	# 暦応１年２月２４日、「小早川景宗所領を孫重景及び万福丸に譲与す」（『大日本史料』）
 	1340.1.1={
 		death=yes
 	}
 }
 10056371={
-	name=character_name_10056371 # Sukekage
-	dynasty=10000562 # Kobayakawa
+	name=character_name_10056371 # Sukekage,祐景
+	#dynasty=10000562 # Kobayakawa
+	dynasty_house="house_shgnt_kobayakawa_takehara"
 	father=10056370 # Kobayakawa Kagemune
 	religion="shinto"
 	culture="western_chugoku"
 	1280.1.1={
 		birth=yes
 	}
+	# TODO: 「又四郎」
+	# 延元１年２月７日、「尊氏。小早川祐景、院林了法の請に依り、元弘以来収公の所領を復せしめ、明日又、大友寂応、八木秀清の所領を復せしむ」（『大日本史料』）
 	1338.2.21={
 		death=yes
 	}
 }
 10056372={
-	name=character_name_10056372 # Shigekage
-	dynasty=10000562 # Kobayakawa
+	name=character_name_10056372 # Shigekage,重景
+	#dynasty=10000562 # Kobayakawa
+	dynasty_house="house_shgnt_kobayakawa_takehara"
 	father=10056371 # Kobayakawa Sukekage
 	religion="shinto"
 	culture="western_chugoku"
 	1300.1.1={
 		birth=yes
 	}
-	1350.1.1={
+	# TODO: 「小早川出雲四郎左衛門尉」（「小早川文書」）
+	# 貞和１年(1345年)５月１３日、「小早川重景、千葉胤泰と四条堀川同油小路敷地等を争ふ、是日、北朝検非違使別当四条隆蔭之を裁し、重景をして之を領せしむ」（『大日本史料』）
+	# 文和１年(1352年)５月１４日、「義詮。佐竹光基の八幡の戦功を褒す、尋で、三吉覚弁、小早川重景、同実義、後藤基景、吉河経景、箕田八郎、下坂治部左衛門尉、佐々木経氏、目賀田玄向等の戦功を褒す」（『大日本史料』）
+	# 文和１年９月１８日、「義詮、東寺増長院清我の訴に依り、小早川重景、斎藤円心をして、高嶋次郎左衛門尉の菖蒲田唐橋猪熊畠地等を濫妨するを停め、清我に交付せしむ」（『大日本史料』）
+	# 文和１年９月１８日、「義詮、相賀惟氏、小早川弾正左衛門尉をして、船越良盛等の東寺領山城拝師荘を濫妨するを停めしめ、又小早川重景、斎藤円心をして、下司清兼等の同寺領山城上桂荘を濫妨するを停めしむ」（『大日本史料』）
+	# 文和１年９月２２日、「義詮、阿曽沼弘綱、市河兵庫助をして、安芸都宇荘地頭職を小早川重景に、庄駿河権守、土師尾張権守をして、備中河辺郷内一分地頭職を雅楽以秀に交付せしむ」（『大日本史料』）
+	# 文和１年１１月１８日、「幕府、小早川重景、俣野家高をして、東寺領京都唐橋以南信濃小路以北の地を寺家雑掌に交付せしむ」（『大日本史料』）
+	# 文和３年１２月２９日、「義詮、勲功を賞して、小早川貞平に同家宣跡を、同重景に安芸兼武名を、同氏平に同国造果保を預く」（『大日本史料』）
+	# 文和４年９月２６日、「義詮、小早川春平、同重景等六人の安芸野美城等の戦功を褒す」（『大日本史料』）
+	# 延文３年８月９日、「細川頼之、小早川重景の安芸入野の戦功を褒す」（『大日本史料』）
+	# 貞治２年(1363年)６月２９日、「小早川重景、所領安芸都宇荘、竹原荘等を、其子重宗に譲る」（『大日本史料』）
+	1364.1.1={
 		death=yes
 	}
 }
 10056373={
-	name=character_name_10056373 # Shigemune
-	dynasty=10000562 # Kobayakawa
+	name=character_name_10056373 # Shigemune,重宗
+	#dynasty=10000562 # Kobayakawa
+	dynasty_house="house_shgnt_kobayakawa_takehara"
 	father=10056372 # Kobayakawa Shigekage
 	religion="shinto"
 	culture="western_chugoku"
@@ -7035,7 +7220,8 @@
 }
 10056374={
 	name=character_name_10056374 # Nasayoshi
-	dynasty=10000562 # Kobayakawa
+	#dynasty=10000562 # Kobayakawa
+	dynasty_house="house_shgnt_kobayakawa_takehara"
 	father=10056373 # Kobayakawa Shigemune
 	religion="shinto"
 	culture="western_chugoku"
@@ -7048,7 +7234,8 @@
 }
 10056375={
 	name=character_name_10056375 # Yoshiharu
-	dynasty=10000562 # Kobayakawa
+	#dynasty=10000562 # Kobayakawa
+	dynasty_house="house_shgnt_kobayakawa_takehara"
 	father=10056374 # Kobayakawa Nasayoshi
 	religion="shinto"
 	culture="western_chugoku"
@@ -7061,7 +7248,8 @@
 }
 10056376={
 	name=character_name_10056376 # Nakayoshi
-	dynasty=10000562 # Kobayakawa
+	#dynasty=10000562 # Kobayakawa
+	dynasty_house="house_shgnt_kobayakawa_takehara"
 	father=10056375 # Kobayakawa Yoshiharu
 	religion="shinto"
 	culture="western_chugoku"
@@ -7074,7 +7262,8 @@
 }
 10056377={
 	name=character_name_10056377 # Hirokage
-	dynasty=10000562 # Kobayakawa
+	#dynasty=10000562 # Kobayakawa
+	dynasty_house="house_shgnt_kobayakawa_takehara"
 	father=10056376 # Kobayakawa Nakayoshi
 	religion="shinto"
 	culture="western_chugoku"
@@ -7086,65 +7275,123 @@
 	}
 }
 10056378={
-	name=character_name_10056378 # Morikage
-	dynasty=10000562 # Kobayakawa
+	name=character_name_10056378 # Morikage,盛景
+	#dynasty=10000562 # Kobayakawa
+	dynasty_house="house_shgnt_kobayakawa_takehara"
 	father=10056377 # Kobayakawa Hirokage
 	religion="shinto"
 	culture="western_chugoku"
 	1410.1.1={
 		birth=yes
 	}
+	# 應永３２年(1425年)閏６月２０日、「大内盛見、安藝西條内海村を小早川盛景に宛行ふ」（『大日本史料』）
+	# 應永３２年９月１６日、「義持、小早川盛景をして、安藝都宇、竹原両荘地頭職、梨子羽南方地頭職、三津三浦地頭職、及び京都四條油小路屋地等を安堵せしむ」（『大日本史料』）
+	# 應永３４年１１月１０日、「安藝小早川弘景、相傳の所領を子盛景に讓與す」（『大日本史料』）
+	# 永享１年１０月２８日、「義教、安藝小早川盛景をして、同國都宇、竹原両荘等地頭職、及び四條油小路屋地等を安堵せしむ」（『大日本史料』）
+	# 永享１０年９月２９日、「義教、安藝小早川盛景の所領同國都宇、竹原両荘地頭職、梨子羽郷南方地頭職、三津浦地頭職、及び京都四條油小路屋地等の臨時課役段銭人夫役以下の諸公事を免除す」（『大日本史料』）
+	# 永享１１年７月８日、「小早川盛景、安藝梨子羽郷太良丸名内の地を同國楽音寺に寄進す」（『大日本史料』）
+	# 嘉吉１年３月１６日、「義教、小早川熙平跡の地を同盛景に宛行ふ」（『大日本史料』）
+	# 文安２年９月２３日、「賀茂社領安藝都宇、竹原両荘領家祐顕、小早川盛景をして、同荘領家職を管せしむ」（『大日本史料』）
+	# 寶徳２年１月２９日、「安藝小早川盛景、子弘景に同国都宇荘、竹原荘等を讓与す」（『大日本史料』）
+	# 寶徳２年６月２４日、「安芸小早川盛景、所領を子弘景に譲る」（『大日本史料』）
+	# 享徳３年１０月５日、「安藝小早川盛景、子弘景に同國波多見島、草井黒谷等の地を譲る」（『大日本史料』）
+	# 康正１年（1455年）７月１０日、「安藝小早川盛景、飯尾下総守と和睦を誓ふ」（『大日本史料』）
 	1460.1.1={
 		death=yes
 	}
 }
 10056379={
-	name=character_name_10056379 # Hirokage
-	dynasty=10000562 # Kobayakawa
+	name=character_name_10056379 # Hirokage,弘景
+	#dynasty=10000562 # Kobayakawa
+	dynasty_house="house_shgnt_kobayakawa_takehara"
 	father=10056378 # Kobayakawa Morikage
 	religion="shinto"
 	culture="western_chugoku"
 	1430.1.1={
 		birth=yes
 	}
-	1480.1.1={
+	# 寶徳２年(1450年)１月２９日、「安藝小早川盛景、子弘景に同国都宇荘、竹原荘等を讓与す」（『大日本史料』）
+	# 寶徳２年６月２４日、「安芸小早川盛景、所領を子弘景に譲る」（『大日本史料』）
+	# 寶徳２年８月２４日、「幕府、安芸小早川弘景をして、同国都宇、竹原兩荘及び梨子羽郷南方地頭職等を安堵せしむ」（『大日本史料』）
+	# 寶徳３年４月１１日、「義成、小早川弘景、杉原伯耆守をして、安芸石見兩国に伊豫発向の兵を促さしむ」（『大日本史料』）
+	# 享徳３年１０月５日、「安藝小早川盛景、子弘景に同國波多見島、草井黒谷等の地を譲る」（『大日本史料』）
+	# 寛正２年８月１１日、「幕府、安藝小早川熙平等をして、同國小早川弘景、平賀某、阿曾沼某の上洛を催促せしむ」（『大日本史料』）
+	# 応仁１年１２月２９日、「竹原弘景、西軍に応じて、安芸の所在を攻略す、幕府、小早川熈平に命じて、之を撃たしむ」（『大日本史料』）
+	# 応仁２年４月２日、「幕府、竹原弘景の遺跡を以て、小早川熈平に与ふ」（『大日本史料』）
+	# 文明５年９月是月、「西党竹原弘景、小早川元平の所属安芸高山城を攻む」（『大日本史料』）
+	# 文明６年１２月１８日、「竹原弘景、同族小早川元平の所領安芸高山城を攻む、義政、急を聞き、内書を元平及び松田彦次郎等に下し、協力之を援はしむ、尋で、義視も亦、内書を弘景に下し、大内政弘と議し、高山城を攻陥せしむ」（『大日本史料』）
+	# 文明７年３月５日、「西党竹原弘景等、東将小早川元平の安芸高山城を攻め、元平及び山名是豊等の兵と真良に戦ふ、尋で、弘景等陣を撤して去る」（『大日本史料』）
+	# TODO: 「小早河中務少輔」（文明15(1483)年）
+	# 文明１５年(1483年)１０月６日、「鴨社領安芸都宇、竹原両荘代官小早川弘景、公用銭を輸せず、是日、弘景をして、之を同社雑掌に渡付せしむ」（『大日本史料』）
+	1485.1.1={
 		death=yes
 	}
 }
 10056380={
-	name=character_name_10056380 # Hirohira
-	dynasty=10000562 # Kobayakawa
+	name=character_name_10056380 # Hirohira,弘平
+	#dynasty=10000562 # Kobayakawa
+	dynasty_house="house_shgnt_kobayakawa_takehara"
 	father=10056379 # Kobayakawa Hirokage
 	religion="shinto"
 	culture="western_chugoku"
 	1460.1.1={
 		birth=yes
 	}
-	1520.1.1={
+	# TODO: 文明１８年(1486年)２月２３日、「安芸小早川弘平を中務少輔に任ず」（『大日本史料』）
+	# 文明１８年２月２３日、「幕府、弘平を赦免す」（『大日本史料』）
+	# 永正８年８月１６日、「義尹、小早川弘平に、安芸都宇、竹原両荘等の地頭職及び同与平跡家督所領等を安堵せしむ」（『大日本史料』）
+	# 永正１０年４月２０日、「安芸小早川弘平、同扶平の子福鶴丸を養子と為す」（『大日本史料』）
+	# 永正１４年９月１５日、「大内義興、安芸平賀弘保をして、小早川弘平と和解し、守護武田元繁に当らしむ」（『大日本史料』）
+	# 大永３年(1523年)１１月２４日、「安芸小早川弘平、嶋末七郎左衛門尉の忠節を褒す」（『大日本史料』）
+	1525.1.1={
 		death=yes
 	}
 }
 10056381={
-	name=character_name_10056381 # Okikage
-	dynasty=10000562 # Kobayakawa
+	name=character_name_10056381 # Okikage,興景
+	#dynasty=10000562 # Kobayakawa
+	dynasty_house="house_shgnt_kobayakawa_takehara"
 	father=10056380 # Kobayakawa Hirohira
 	religion="shinto"
 	culture="western_chugoku"
 	1519.1.1={
 		birth=yes
 	}
+	# 享禄３年１２月２８日、「安藝小早川興景、末長景盛の子赤子法師に所領を充行ふ」
+	# 天文７年５月２２日、「安藝小早川興景、田坂小三郎の戰功を褒す」
+	# 天文８年４月２４日、「大宰大貳大内義隆、小早川興景所望の、中務少輔を敷奏す」
+	# 天文８年６月１日、「安藝小早川興景、田坂小三郎の戰功を賞し、所領を安堵せしむ」
+	# 天文１０年１月３日、「毛利元就の兵、尼子詮久の兵と安藝相合村に戰ふ、又、小早川興景、詮久の兵と同國青山に戰ひて克たず」
+	# 天文１３年(1544年)１１月是月、「安藝小早川興景、石見銀山城を攻めて、戦死す、嗣無きに依り、家臣等、毛利元就の子隆景を迎立す」
 	1541.5.3={
-		death=yes
+		death={
+			death_reason=death_battle
+			
+		}
 	}
 }
 10056390={
-	name=character_name_10056390 # Korekage
-	dynasty=10000869 # Nomi
-	father=10056314 # Kobayakawa Hirohira
-	religion="shinto"
-	culture="western_chugoku"
-	1454.1.1={
+	name=character_name_10056390 # Korekage,是景、「道祖徳」（『近世防長諸家系図綜覧』）
+#	dynasty=10000869 # Nomi
+    dynasty_house="house_shgnt_kobayakawa_nomi" # Nomi
+    father=10056314 # Kobayakawa Hirohira
+    religion="shinto"
+    culture="western_chugoku"
+    1454.1.1={
 		birth=yes
+	}
+	1470.1.1={
+		give_nickname="nick_Matajuro" # 「又十郎」（『近世防長諸家系図綜覧』）
+		dynasty_house="house_shgnt_kobayakawa_nomi" # 「乃美祖」（『近世防長諸家系図綜覧』）
+	}
+	1480.1.1={
+		give_nickname="nick_danjo_daichu" # TODO: 「弾正忠」（『近世防長諸家系図綜覧』）
+	}
+	1490.1.1={
+		give_nickname="nick_chikuzen_no_kami" # 「筑前守」（『近世防長諸家系図綜覧』）
+	}
+	1500.1.1={
+		give_nickname="nick_aki_no_kami" # 「安芸守」（『近世防長諸家系図綜覧』）
 	}
 	1510.1.1={
 		death=yes
@@ -7152,7 +7399,8 @@
 }
 10056391={
 	name=character_name_10056391 # Ieuji
-	dynasty=10000869 # Nomi
+#	dynasty=10000869 # Nomi
+	dynasty_house="house_shgnt_kobayakawa_nomi" # Nomi
 	father=10056390 # Nomi Korekage
 	religion="shinto"
 	culture="western_chugoku"
@@ -7165,7 +7413,8 @@
 }
 10056392={
 	name=character_name_10056392 # Hirohira
-	dynasty=10000869 # Nomi
+#	dynasty=10000869 # Nomi
+	dynasty_house="house_shgnt_kobayakawa_nomi" # Nomi
 	father=10056391 # Nomi Ieuji
 	religion="shinto"
 	culture="western_chugoku"
@@ -7178,7 +7427,8 @@
 }
 10056393={
 	name=character_name_10056393 # Katakatsu
-	dynasty=10000869 # Nomi
+#	dynasty=10000869 # Nomi
+	dynasty_house="house_shgnt_kobayakawa_nomi" # Nomi
 	father=10056391 # Nomi Ieuji
 	religion="shinto"
 	culture="western_chugoku"
@@ -7191,7 +7441,8 @@
 }
 10056394={
 	name=character_name_10056394 # Takaoki
-	dynasty=10000869 # Nomi
+#	dynasty=10000869 # Nomi
+	dynasty_house="house_shgnt_kobayakawa_nomi" # Nomi
 	father=10056392 # Nomi Hirohira
 	religion="shinto"
 	culture="western_chugoku"
@@ -7204,7 +7455,8 @@
 }
 10056395={
 	name=character_name_10056395 # Munekatsu
-	dynasty=10000869 # Nomi
+#	dynasty=10000869 # Nomi
+	dynasty_house="house_shgnt_kobayakawa_nomi" # Nomi
 	father=10056393 # Nomi Katakatsu
 	religion="shinto"
 	culture="western_chugoku"

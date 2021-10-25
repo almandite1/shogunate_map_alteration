@@ -1,5 +1,5 @@
 ﻿10064000 = {
-	name=character_name_10064000 # Yoshiaki
+	name=character_name_10064000 # Yoshiaki,義鑑
 	dynasty=10000640 # Otomo
 	father=10064001 # Otomo Yoshinaga
 	martial=11
@@ -13,14 +13,16 @@
 	culture="central_kyushu"
 	prowess=15
 	1502.1.1={
-		birth=yes
+		birth=yes # 文亀2(1502)年（鹿毛敏夫、『大友義鎮』、2021）
 	}
 	1518.1.1={
 		give_nickname="nick_Jirogoro"
 	}
+	# 永正17(1520)年、弟・重治を菊池家養子として送り込む（鹿毛敏夫、『大友義鎮』、2021）
 	1522.1.1={
-		add_spouse = 10057081
+		add_spouse = 10057081 # 大内義興の娘（鹿毛敏夫、『大友義鎮』、2021）
 	}
+	# 大永4(1524)年頃まで、祖父・親治の補佐（鹿毛敏夫、『大友義鎮』、2021）
 	1524.1.1={
 		effect = {
 			add_trait = "shogoi_ge"
@@ -43,12 +45,12 @@
 	}
 	1550.2.28={
 		death={
-			death_reason=death_accident
+			death_reason=death_accident # 天文19(1550)年二月、家督継承をめぐる家中の混乱で横死（鹿毛敏夫、『大友義鎮』、2021）
 		}
 	}
 }
 10064001 = {
-	name=character_name_10064001 # Yoshinaga
+	name=character_name_10064001 # Yoshinaga,義長
 	dynasty=10000640 # Otomo
 	father=10064023
 	mother=10066017
@@ -63,11 +65,12 @@
 	culture="central_kyushu"
 	prowess=13
 	1478.1.1={
-		birth=yes
+		birth=yes # 文明10(1478)年（鹿毛敏夫、『大友義鎮』、2021）
 	}
 	1494.1.1={
 		give_nickname="nick_goro"
 	}
+	# 明応6(1497)年、当主に擁立されたか（鹿毛敏夫、『大友義鎮』、2021）
 	1500.1.1={
 		add_spouse=10066209 # Aso Korenori's daughter
 	}
@@ -77,15 +80,17 @@
 			add_trait = "jushii_ge"
 		}
 	}
+	# 永正3(1506)年、菊池家の内紛で阿蘇惟長を支援。のち菊池武経と名乗った惟長を追放して菊池領を支配（鹿毛敏夫、『大友義鎮』、2021）
 	1518.1.1={
-		death=yes
+		death=yes # 永正15(1518)年（鹿毛敏夫、『大友義鎮』、2021）
 	}
+	# 大友氏１９代当主（鹿毛敏夫、『大友義鎮』、2021）
 }
 10064002 = {
-	name=character_name_10064002 # Yoshishige
+	name=character_name_10064002 # Yoshishige,義鎮、幼名「塩法師」（鹿毛敏夫、『大友義鎮』、2021）
 	dynasty=10000640 # Otomo
-	father=10064000
-	mother=10057081
+	father=10064000 # 大友義鑑の嫡男（鹿毛、〃、2021）
+	mother=10057081 # 大内義興の娘説と公家坊城氏娘説があり未確定（鹿毛、〃、2021）
 	religion="shinto"
 	culture="central_kyushu"
 	diplomacy=6
@@ -103,10 +108,12 @@
 	trait="administrator"
 	prowess=13
 	1530.1.31={
-		birth=yes
+		birth=yes # 享禄3(1530)年。五月四日説と正月三日説がある（鹿毛、〃、2021）
 	}
+	# 天文8(1539)年、元服（鹿毛、〃、2021）
+	# 天文9(1540)年、足利義晴の偏諱により義鎮と名乗る（鹿毛、〃、2021）
 	1546.1.31={
-		give_nickname="nick_Shintaro"
+		give_nickname="nick_Shintaro" # 「塩法師」「五郎」「新太郎」（鹿毛、〃、2021）
 	}
 	1550.1.1={
 		add_spouse=10064443
@@ -114,15 +121,16 @@
 			set_relation_lover = character:10064443
 		}
 	}
+	# 天文20(1551)年六月二十九日以前、陶隆房謀反と晴英入嗣密約済み、反対説は誤り（鹿毛、〃、2021）
 	1560.4.11={
 		give_nickname="nick_the_saemon_no_kami"
 		effect = {
 			add_trait = "jushii_ge"
 		}
 	}
-	1562.1.1={
+	1562.1.1={ # 永禄5(1562)年、入道して「宗麟」と号す（鹿毛、〃、2021）
 		effect = {
-			change_first_name = character_name_10064002_1 # Sorin
+			change_first_name = character_name_10064002_1 # Sorin,宗麟
 		}
 	}
 	1578.1.1={
@@ -132,15 +140,20 @@
 			add_trait = "zealous"
 		}
 	}
+	# 四十九歳で「三非斎」と署名（鹿毛、〃、2021）
+	# 五十歳で「円斎」と署名（鹿毛、〃、2021）
+	# 五十二歳で「府蘭ふらん」と署名（鹿毛、〃、2021）
+	# 五十七歳で「宗滴」と署名（鹿毛、〃、2021）
 	1587.6.11={
 		death=yes
 	}
+	# 三男六女がいたと推測（外山幹夫、『大友宗麟」）
 }
 10064003 = {
-	name=character_name_10064003 # Haruhide # a.k.a. Ouchi Yoshinaga
+	name=character_name_10064003 # Haruhide,晴英 # a.k.a. Ouchi Yoshinaga,大内義長
 	dynasty=10000640 # Otomo
 	father=10064000
-	mother=10057081
+	mother=10057081 # 大内義興の娘（鹿毛敏夫、『大友義鎮』、2021）
 	religion="shinto"
 	culture="central_kyushu"
 	martial=7
@@ -165,6 +178,8 @@
 			add_trait = "child_of_adoption"
 		}
 	}
+	# 天文21(1552)年二月二十九日、海路で周防国多々良浜に上陸（鹿毛、〃、2021）
+	# 天文21(1552)年三月三日、周防国山口に入国（鹿毛、〃、2021）
 	1553.1.1={
 		effect = {
 			change_first_name = character_name_10064003_1 # Yoshinaga
@@ -176,12 +191,15 @@
 			add_trait = "jugoi_ge"
 		}
 	}
+	# 嘉靖三十六（1557）年、日明勘合貿易を再開（鹿毛、〃、2021）
 	1557.5.1={
-		death=yes
+		death={
+			death_reason=death_suicide # 弘治3(1557)年四月、長門国長府長福寺で毛利軍に包囲され自害（鹿毛、〃、2021）
+		}
 	}
 }
 10064004 = {
-	name=character_name_10064004 # Yoshihide
+	name=character_name_10064004 # Yoshihide,能秀
 	dynasty=10000640 # Otomo
 	father=10130538
 	religion="shinto"
@@ -194,49 +212,62 @@
 	}
 }
 10064005 = {
-	name=character_name_10064005 # Chikahide
+	name=character_name_10064005 # Chikahide,親秀
 	dynasty=10000640 # Otomo
 	father=10130538
 	religion="shinto"
-	culture="central_kyushu"
+	culture="southern_kanto"
 	1195.1.1={
-		birth=yes
+		birth=yes # 建久6(1195)年（鹿毛敏夫、『大友義鎮』、2021）
 	}
+	# 仁治3(1242)年、大分市の春日神社社殿の修復（『雉城雑誌』）
 	1248.11.10={
-		death=yes
+		death={
+			death_reason=death_natural_causes # 宝治2(1248)年（鹿毛敏夫、『大友義鎮』、2021）
+		}
 	}
+	# 大友氏２代当主（鹿毛敏夫、『大友義鎮』、2021）
 }
 10064006 = {
-	name=character_name_10064006 # Yoriyasu
+	name=character_name_10064006 # Yoriyasu,頼泰
 	dynasty=10000640 # Otomo
 	father=10064005
 	religion="shinto"
-	culture="central_kyushu"
+	culture="southern_kanto"
 	1222.1.1={
-		birth=yes
+		birth=yes # 貞応元(1222)年（鹿毛敏夫、『大友義鎮』、2021）
 	}
+	1272.01.01={
+		culture="central_kyushu" # 文永9(1272)年元寇を契機に九州に下向（鹿毛敏夫、『大友義鎮』、2021）
+	}
+	# 文永11(1274)年文永の役、鳥飼潟の戦いに参戦（鹿毛敏夫、『大友義鎮』、2021）
+	# 弘安4(1281)年弘安の役、志賀島の戦いに参戦（鹿毛敏夫、『大友義鎮』、2021）
 	1300.10.30={
-		death=yes
+		death={
+			death_reason=death_natural_causes # 正安2(1300)年（鹿毛敏夫、『大友義鎮』、2021）
+		}
 	}
+	# 大友氏３代当主（鹿毛敏夫、『大友義鎮』、2021）
 }
 10064007 = {
-	name=character_name_10064007 # Chikatoki
+	name=character_name_10064007 # Chikatoki,親時
 	dynasty=10000640 # Otomo
 	father=10064006
 	religion="shinto"
 	culture="central_kyushu"
 	1236.1.1={
-		birth=yes
+		birth=yes # 「嘉禎2(1236)年生まれ」（鹿毛敏夫、『大友義鎮』、2021）
 	}
 	1269.7.5={
 		add_spouse=10064360
 	}
 	1295.7.5={
-		death=yes
+		death=yes # 「永仁3(1295)年五月死去」（鹿毛敏夫、『大友義鎮』、2021）
 	}
+	# 大友氏４代当主（鹿毛敏夫、『大友義鎮』、2021）
 }
 10064008 = {
-	name=character_name_10064008 # Sadachika
+	name=character_name_10064008 # Sadachika,貞親、「親時の子もしくは弟とされる」（鹿毛敏夫、『大友義鎮』、2021）
 	dynasty=10000640 # Otomo
 	father=10064006
 	religion="shinto"
@@ -244,23 +275,31 @@
 	1246.1.1={
 		birth=yes
 	}
+	# 徳治元(1306)年、豊後府内の臨済宗蔣山万寿寺を再興
 	1311.9.2={
-		death=yes
+		death={
+			death_reason=death_natural_causes
+		}
 	}
+	# 大友氏５代当主（鹿毛敏夫、『大友義鎮』、2021）
 }
 10064009 = {
-	name=character_name_10064009 # Sadamune
+	name=character_name_10064009 # Sadamune,貞宗、TODO: （鹿毛敏夫、『大友義鎮』、2021）では貞親弟と記述
 	dynasty=10000640 # Otomo
 	father=10064007
 	mother=10064360
 	religion="shinto"
 	culture="central_kyushu"
 	1270.1.1={
-		birth=yes
+		birth=yes # 「生誕年は不明」（鹿毛敏夫、『大友義鎮』、2021）
 	}
+	# 中峰明本墨蹟「大友直庵宛尺牘」
 	1334.1.9={
-		death=yes
+		death={
+			death_reason=death_ill # # 元弘3(1333)年十二月三日に滞在先の京都南禅寺聴松院で病に倒れ急没（鹿毛敏夫、『大友義鎮』、2021）
+		}
 	}
+	# 大友氏６代当主（鹿毛敏夫、『大友義鎮』、2021）
 }
 10064010 = {
 	name=character_name_10064010 # Sadayoshi
@@ -302,62 +341,73 @@
 	}
 }
 10064013 = {
-	name=character_name_10064013 # Ujiyasu
+	name=character_name_10064013 # Ujiyasu,氏泰
 	dynasty=10000640 # Otomo
-	father=10064009
+	father=10064009 # 大友貞宗（鹿毛敏夫、『大友義鎮』、2021）
 	religion="shinto"
 	culture="central_kyushu"
 	1321.1.1={
 		birth=yes
 	}
 	1362.11.19={
-		death=yes
+		death=yes # 貞治元(1362)年（鹿毛敏夫、『大友義鎮』、2021）
 	}
+	# 大友氏７代当主、若年で当主のため兄・立花貞載らの補佐を受ける（鹿毛敏夫、『大友義鎮』、2021）
 }
 10064014 = {
-	name=character_name_10064014 # Ujitoki
+	name=character_name_10064014 # Ujitoki,氏時
 	dynasty=10000640 # Otomo
-	father=10064009
+	father=10064009 # 大友貞宗の七男（鹿毛敏夫、『大友義鎮』、2021）
 	religion="shinto"
 	culture="central_kyushu"
 	1328.1.1={
 		birth=yes
 	}
+	# 貞和4(1348)年、兄・氏泰から家督を譲られる（鹿毛敏夫、『大友義鎮』、2021）
 	1368.4.8={
-		death=yes
+		death=yes # 応安元(1368)年（鹿毛敏夫、『大友義鎮』、2021）
 	}
+	# 大友氏８代当主（鹿毛敏夫、『大友義鎮』、2021）
 }
 10064015 = {
-	name=character_name_10064015 # Ujitsugu
+	name=character_name_10064015 # Ujitsugu,氏継
 	dynasty=10000640 # Otomo
 	father=10064014
 	religion="shinto"
 	culture="central_kyushu"
 	1350.1.1={
-		birth=yes
+		birth=yes # 生年不明（鹿毛敏夫、『大友義鎮』、2021）
 	}
+	# 応永4(1397)年、大友家督を親世に譲り、北朝から南朝方に味方（鹿毛敏夫、『大友義鎮』、2021）
 	1401.1.11={
-		death=yes
+		death={
+			death_reason=death_natural_causes # 応永7(1400)年（鹿毛敏夫、『大友義鎮』、2021）
+		}
 	}
+	# 大友氏９代当主（鹿毛敏夫、『大友義鎮』、2021）
 }
 10064016 = {
-	name=character_name_10064016 # Chikayo
+	name=character_name_10064016 # Chikayo,親世
 	dynasty=10000640 # Otomo
 	father=10064014
 	religion="shinto"
 	culture="central_kyushu"
 	1360.1.1={
-		birth=yes
+		birth=yes # 生年不明（鹿毛敏夫、『大友義鎮』、2021）
 	}
 	1389.1.1={
 		add_spouse = 10057088
 	}
+	# 応永20(1413)年頃、巨大大名船・春日丸を建造させる（鹿毛敏夫、『大友義鎮』、2021）
 	1418.4.1={
-		death=yes
+		death={
+			death_reason=death_natural_causes # 応永25(1418)年（鹿毛敏夫、『大友義鎮』、2021）
+		}
 	}
+	# 大友氏１０代当主（鹿毛敏夫、『大友義鎮』、2021）
 }
 10064017 = {
-	name=character_name_10064017 # Chikaaki
+	name=character_name_10064017 # Chikaaki,親著、（鹿毛敏夫、『大友義鎮』、2021）では”ちかつぐ”とふりがな
 	dynasty=10000640 # Otomo
 	father=10064015
 	religion="shinto"
@@ -365,12 +415,14 @@
 	1380.1.1={
 		birth=yes
 	}
+	# 応永30(1423)年、持直に家督を譲る
 	1426.12.17={
 		death=yes
 	}
+	# 大友氏１１代当主（鹿毛敏夫、『大友義鎮』、2021）
 }
 10064018 = {
-	name=character_name_10064018 # Mochinao
+	name=character_name_10064018 # Mochinao,持直
 	dynasty=10000640 # Otomo
 	father=10064016
 	mother=10057088
@@ -379,12 +431,17 @@
 	1390.1.1={
 		birth=yes
 	}
+	# 室町幕府から追討令が出される
+	# 永享7(1435)年、豊後国海部郡の姫岳に籠城する
 	1445.2.10={
-		death=yes
+		death={
+			death_reason=death_disappearance # 永享7(1435)年に姫岳落城後に行方不明
+		}
 	}
+	# 大友氏１２代当主（鹿毛敏夫、『大友義鎮』、2021）
 }
 10064019 = {
-	name=character_name_10064019 # Chikataka
+	name=character_name_10064019 # Chikataka,親隆
 	dynasty=10000640 # Otomo
 	father=10064016
 	mother=10057088
@@ -396,15 +453,16 @@
 	1470.8.11={
 		death=yes
 	}
+	# 大友氏１４代当主（鹿毛敏夫、『大友義鎮』、2021）
 }
 10064020 = {
-	name=character_name_10064020 # Chikashige
+	name=character_name_10064020 # Chikashige,親繁
 	dynasty=10000640 # Otomo
 	father=10064017
 	religion="shinto"
 	culture="central_kyushu"
 	1411.1.1={
-		birth=yes
+		birth=yes # 応永18(1411)年、TODO: （鹿毛敏夫、『大友義鎮』、2021）では親綱弟とする
 	}
 	1427.1.1={
 		give_nickname="nick_saburo"
@@ -415,12 +473,19 @@
 			add_trait = "jugoi_jo"
 		}
 	}
+	# 宝徳3(1451)年、室町幕府の遣明船に初参加、約54トンの硫黄を輸出（鹿毛敏夫、『大友義鎮』、2021）
+	# 寛正3(1462)年、政親に豊後国守護職を譲る
+	# 文明8(1476)年四月、政親に家督を譲る
 	1493.12.22={
-		death=yes
+		death={
+			death_reason=death_old_age # 明応2(1493)年（鹿毛敏夫、『大友義鎮』、2021）
+		}
 	}
+	# 大友氏１５代当主（鹿毛敏夫、『大友義鎮』、2021）
+	# 能書家、雪舟のパトロン（鹿毛敏夫、『大友義鎮』、2021）
 }
 10064021 = {
-	name=character_name_10064021 # Chikatsuna
+	name=character_name_10064021 # Chikatsuna,親綱
 	dynasty=10000640 # Otomo
 	father=10064017
 	religion="shinto"
@@ -431,9 +496,10 @@
 	1459.3.10={
 		death=yes
 	}
+	# 大友氏１３代当主（鹿毛敏夫、『大友義鎮』、2021）
 }
 10064022 = {
-	name=character_name_10064022 # Masachika
+	name=character_name_10064022 # Masachika,政親
 	dynasty=10000640 # Otomo
 	father=10064020
 	religion="shinto"
@@ -441,21 +507,28 @@
 	1444.1.1={
 		birth=yes
 	}
+	# 寛正3(1462)年、父・親繁から豊後国守護職を譲される
+	# 文明8(1476)年四月、父・親繁から家督を譲られる
+	# 足利義政に進物。太刀11本、鵞眼6万千疋
 	1458.1.1={
 		add_spouse = 10057085
 	}
+	# 明応2(1493)年、明応の政変後足利義澄を支持
 	1496.7.20={
-		death=yes
+		death={
+			death_reason=death_suicide # 明応5(1496)年六月に長門国で切腹
+		}
 	}
+	# 大友氏１６代当主（鹿毛敏夫、『大友義鎮』、2021）
 }
 10064023 = {
-	name=character_name_10064023 # Chikaharu
+	name=character_name_10064023 # Chikaharu,親治
 	dynasty=10000640 # Otomo
 	father=10064020
 	religion="shinto"
 	culture="central_kyushu"
 	1461.1.1={
-		birth=yes
+		birth=yes # 寛正2(1461)年（鹿毛敏夫、『大友義鎮』、2021）
 	}
 	1477.1.1={
 		add_spouse=10066017
@@ -467,26 +540,37 @@
 			add_trait = "jugoi_ge"
 		}
 	}
+	# 文亀元(1501)年、足利義澄から勘合を獲得する（鹿毛敏夫、『大友義鎮』、2021）
 	1524.2.23={
-		death=yes
+		death={
+			death_reason=death_natural_causes # 大永4(1524)年（鹿毛敏夫、『大友義鎮』、2021）
+		}
 	}
+	# 大友氏１８代当主（鹿毛敏夫、『大友義鎮』、2021）
 }
 10064024 = {
-	name=character_name_10064024 # Yoshisuke
+	name=character_name_10064024 # Yoshisuke,義右
 	dynasty=10000640 # Otomo
 	father=10064022
 	mother=10057085
 	religion="shinto"
 	culture="central_kyushu"
 	1459.1.1={
-		birth=yes
+		birth=yes # 長禄3(1459)年（鹿毛敏夫、『大友義鎮』、2021）
+	}
+	# 文明16(1484)年、家督相続
+	# 明応2(1493)年、明応の政変後足利義稙を支持
+	1496.01.01={
+		trait=ill # 明応5(1496)年に病を患う（鹿毛敏夫、『大友義鎮』、2021）
 	}
 	1496.7.7={
-		death=yes
+		death={
+			death_reason=death_ill
+		}
 	}
 }
 10064025= {
-	name=character_name_10064025 # Yoshimune
+	name=character_name_10064025 # Yoshimune,義統
 	dynasty=10000640 # Otomo
 	father=10064002
 	mother=10064443
@@ -503,7 +587,7 @@
 	trait="trusting"
 	prowess=12
 	1558.1.1={
-		birth=yes
+		birth=yes # 永禄元(1558)年（鹿毛敏夫、『大友義鎮』、2021）
 	}
 	1579.12.15={
 		give_nickname="nick_the_sahyoe_no_kami"
@@ -511,12 +595,17 @@
 			add_trait = "jugoi_ge"
 		}
 	}
+	# 吉弘鑑理あきまさの娘と婚姻（鹿毛、〃、2021）
+	# 豊臣秀吉の偏諱により「吉統」と名乗る（鹿毛、〃、2021）
+	# 文禄2(1593)年、平壌の戦いを口実に改易
 	1610.9.2={
-		death=yes
+		death={
+			death_reason=death_natural_causes # 慶長15(1610)年（鹿毛、〃、2021）
+		}
 	}
 }
 10064026= {
-	name=character_name_10064026 # Chikaie
+	name=character_name_10064026 # Chikaie,親家
 	dynasty=10000640 # Otomo
 	father=10064002
 	mother=10064443
@@ -529,7 +618,7 @@
 	trait="arrogant"
 	prowess=10
 	1561.1.1={
-		birth=yes
+		birth=yes # 永禄4(1561)年（鹿毛敏夫、『大友義鎮』、2021）
 	}
 	1580.10.1 = {
 		#dynasty=10000644 # Tawara
@@ -670,7 +759,7 @@
 	}
 }
 10064035= {
-	name=character_name_10064035 # Chikamori
+	name=character_name_10064035 # Chikamori,親盛
 	dynasty=10000640 # Otomo
 	father=10064002
 	mother=10064443
@@ -680,11 +769,11 @@
 	trait="education_diplomacy_3"
 	trait="content"
 	1567.1.1={
-		birth=yes
+		birth=yes # 永禄10(1567)年（鹿毛敏夫、『大友義鎮』、2021）
 	}
 	1581.1.1 = {
 		#dynasty=10000644 # Tawara
-		dynasty_house = "house_shgnt_tahara"
+		dynasty_house = "house_shgnt_tahara" # （鹿毛、〃、2021）
 		effect = {
 			set_father = character:10064444
 			set_real_father = character:10064002
@@ -1109,7 +1198,7 @@
 	}
 }
 10064150 = {
-	name=character_name_10064150 # Tokikage
+	name=character_name_10064150 # Tokikage,時景
 #	dynasty=10000667 # Ichimata
 	dynasty_house = "house_shgnt_ichimata"
 	father=10130538
@@ -1683,7 +1772,7 @@
 	}
 }
 10064300 = {
-	name=character_name_10064300 # Akitsugu
+	name=character_name_10064300 # Akitsugu,鑑続
 #	dynasty=10000643 # Usuki
 	dynasty_house = "house_shgnt_usuki"
 	father=10064301
@@ -1701,6 +1790,10 @@
 	1500.1.1={
 		birth=yes
 	}
+	1530.01.01={
+		give_nickname="nick_boshu_no_kami" # 「安房守」（天文9(1540)年の大友氏奉行人連署「手日記」の署名）
+	}
+	# TODO: 永禄年間、博多と周辺地域の政事全般を統括する地位にあった奉行人（鹿毛敏夫、『大友義鎮』、2021）
 	1561.2.28={
 		death=yes
 	}
@@ -2176,7 +2269,7 @@
 	}
 }
 10064350 = {
-	name=character_name_10064350 # Shigehide
+	name=character_name_10064350 # Shigehide,重秀
 	#dynasty=10000666 # Bekki
 	dynasty_house = "house_shgnt_bekki"
 	father=10064005
@@ -3105,7 +3198,7 @@
 	}
 }
 10064416 = {
-	name=character_name_10064416 # Yasuhiro
+	name=character_name_10064416 # Yasuhiro,泰広
 #	dynasty=10000644 # Tawara
 	dynasty_house = "house_shgnt_tahara"
 	father=10130538

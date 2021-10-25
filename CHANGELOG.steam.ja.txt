@@ -1,3 +1,42 @@
+[h1]beta Version 0.6.2[/h1]
+[h2]Game Content[/h2]
+[list]
+[*] 河内国の深野池と新開池を実装しました。
+[*] 15・16世紀に男爵領名が変化すること、holding に城が出現するように設定しました。（[url=https://github.com/almandite1/shogunate_map_alteration/issues/306]#306[/url]）
+[*] 地面テクスチャを更新しました。
+[*] 木のマップオブジェクトを追加しました。
+[/list]
+[h3]Updated rivers.png[/h3]
+[list]
+[*] 湊川の戦いが行われた兵庫県の湊川を追加しました。ただし現在の新湊川の流路です。（[url=https://github.com/almandite1/shogunate_map_alteration/issues/307]#307[/url]）
+[/list]
+[h3]add branch family[/h3]
+[list]
+[*] 下野の佐野氏に分家を設定しました。（[url=https://github.com/almandite1/shogunate_map_alteration/issues/303]#303[/url]）
+[*] 会津の蘆名氏に分家を設定しました。（[url=https://github.com/almandite1/shogunate_map_alteration/issues/304]#304[/url]）
+[*] 安芸の小早川氏に分家を追加しました。（[url=https://github.com/almandite1/shogunate_map_alteration/issues/301]#301[/url]）
+[/list]
+[h3]Updated character data[/h3]
+[list]
+[*] 一部のキャラクターにニックネームを追加しました。
+[*] 一部のキャラクターに死因を設定しました。
+[*] 足利晴氏と北条氏綱娘・芳春院殿との婚姻月日を変更しました。
+[*] 上杉憲忠に死因を設定しました。
+[*] 小早川弘景の死亡年を変更しました。
+[*] 竹原小早川弘平の死亡年を変更しました。
+[*] 小早川興景に死因を設定しました。
+[*] 佐野宗綱の死亡日を変更しました。
+[*] 芦名高盛の死亡年月日を変更しました。
+[*] 芦名盛宗の死亡年月日を変更しました。
+[*] 芦名光盛の死亡年月日を変更しました。
+[/list]
+[h3]Fixed[/h3]
+[list]
+[*] キャラクター重複を解消しました。([url=https://github.com/almandite1/shogunate_map_alteration/issues/302]#302[/url]
+[*] 潮岬周辺海域とと琵琶湖が陸地化しているバグを修正しました。([url=https://github.com/almandite1/shogunate_map_alteration/issues/308]#308[/url])
+[*] 一部マップオブジェクトロケーターを調整しました。
+[/list]
+
 [h1]beta Version 0.6.1[/h1]
 [h2]Game Content[/h2]
 [list]

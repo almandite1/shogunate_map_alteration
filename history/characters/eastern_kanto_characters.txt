@@ -1961,13 +1961,16 @@
 	}
 }
 10010406 = {
-	name=character_name_10010406 # Mochiie
+	name=character_name_10010406 # Mochiie,持家
 	dynasty=10000104 # Oda
 	father=12127570 # Oda  Harutomo
 	religion="shinto"
 	culture="northern_kanto"
 	1402.1.1={
 		birth=yes
+	}
+	1432.01.01={
+		give_nickname="nick_sanuki_no_kami" # 「讃岐守」# 宝徳2(1450)年四月時点、「小田讃岐守」（「足利成氏書状写」『鎌倉大草子』）
 	}
 	1481.1.1={
 		death=yes
@@ -3902,7 +3905,7 @@
 	}
 }
 10011101 = {
-	name=character_name_10011101 # Toyotsuna
+	name=character_name_10011101 # Toyotsuna,豊綱
 	dynasty=10000111 # Sano
 	father=12180620 # Sano Yasutsuna
 	religion="shinto"
@@ -3911,11 +3914,13 @@
 		birth=yes
 	}
 	1559.1.1={
-		death=yes
+		death={
+			death_reason=death_natural_causes
+		}
 	}
 }
 10011102 = {
-	name=character_name_10011102 # Masatsuna
+	name=character_name_10011102 # Masatsuna,昌綱
 	dynasty=10000111 # Sano
 	father=10011101
 	religion="shinto"
@@ -3932,12 +3937,17 @@
 	1529.1.1={
 		birth=yes
 	}
+	1545.01.01={
+		give_nickname="nick_taro" # 「太郎」（「佐野系図」『続群書類従』）
+	}
 	1574.4.28={
-		death=yes
+		death={
+			death_reason=death_natural_causes
+		}
 	}
 }
 10011103 = {
-	name=character_name_10011103 # Shigetsuna
+	name=character_name_10011103 # Shigetsuna,成綱
 	dynasty=10000111 # Sano
 	father=10011101
 	religion="shinto"
@@ -3946,11 +3956,13 @@
 		birth=yes
 	}
 	1582.1.1={
-		death=yes
+		death={
+			death_reason=death_natural_causes
+		}
 	}
 }
 10011104 = {
-	name=character_name_10011104 # Fusatsuna
+	name=character_name_10011104 # Fusatsuna,房綱
 	dynasty=10000111 # Sano
 	father=10011101
 	religion="shinto"
@@ -3969,12 +3981,15 @@
 	1558.1.1={
 		birth=yes
 	}
+	# TODO: 剃髪して天徳寺宝衍
 	1601.7.31={
-		death=yes
+		death={
+			death_reason=death_natural_causes
+		}
 	}
 }
 10011110 = {
-	name=character_name_10011110 # Munetsuna
+	name=character_name_10011110 # Munetsuna,宗綱
 	father=10011102 # Sano Masatsuna
 	dynasty=10000111 # Sano
 	religion="shinto"
@@ -3990,8 +4005,14 @@
 	1560.1.1={
 		birth=yes
 	}
-	1585.1.1={
-		death=yes
+	1576.01.01={
+		give_nickname="nick_Kotaro" # 「佐野小太郎」（「佐野系図」『続群書類従』）
+	}
+	1585.1.31={ # 「天正13年一月一日矢にあたって死んだ」（『デジタル版 日本人名大辞典+Plus』）
+		death={
+			death_reason=death_battle # 「法名長渭。天正11(1583)年正月朔日為従弟長尾顕長討死」（「佐野系図」『続群書類従』）
+			#killer= # TODO: 長尾顕長
+		}
 	}
 }
 10011201 = {
@@ -4122,7 +4143,7 @@
 	}
 }
 10011207 = {
-	name=character_name_10011207 # Mochimasa
+	name=character_name_10011207 # Mochimasa,持政
 	#dynasty=10000112 # Oyama
 	dynasty_house = "house_shgnt_yuki_oyama"
 	father=10011208
@@ -4141,9 +4162,10 @@
 			add_trait = "jugoi_ge"
 		}
 	}
+	# 宝徳2(1450)年四月時点、「小山下野守」（「足利成氏書状写」『鎌倉大草子』）
 	1456.1.1={
 		effect = {
-			set_relation_friend = character:10040059
+			set_relation_friend = character:10040059 # 足利成氏
 		}
 	}
 	1471.1.1={
@@ -4677,7 +4699,7 @@
 	}
 }
 10011612 = {
-	name=character_name_10011612 # Tanemasa
+	name=character_name_10011612 # Tanemasa,胤将
 	#dynasty=10000116 # Chiba
 	dynasty_house = "house_shgnt_shimousa_chiba"
 	father=10011611
@@ -4685,6 +4707,9 @@
 	culture="eastern_kanto"
 	1439.1.1={
 		birth=yes
+	}
+	1451.01.01={
+		give_nickname="nick_shinsuke" # 宝徳2(1450)年四月時点、「千葉新介」（「足利成氏書状写」『鎌倉大草子』）
 	}
 	1454.7.18={
 		death=yes
@@ -6060,7 +6085,7 @@
 	}
 }
 10040050 = {
-	name=character_name_10040050 # Takamoto
+	name=character_name_10040050 # Takamoto,高基
 #	dynasty=10000400 # Ashikaga
 	dynasty_house = house_shgnt_kogaashikaga
 	father=10040058
@@ -6116,7 +6141,7 @@
 	}
 }
 10040052 = {
-	name=character_name_10040052 # Haruuji
+	name=character_name_10040052 # Haruuji,晴氏
 #	dynasty=10000400 # Ashikaga
 	dynasty_house = house_shgnt_kogaashikaga
 	father=10040050
@@ -6143,7 +6168,8 @@
 			add_trait = "jushii_ge"
 		}
 	}
-	1540.1.1={
+	# 天文7(1538)年十月、第１次国府台合戦で勝利し関東公方家の家督を確保（阿部能久、『戦国期関東公方の研究』、2006）
+	1540.09.13={ # 天文8(1539)年八月（阿部、〃、2008）
 		remove_spouse=10011408 # Yanada Takako
 		add_spouse=10016010 # Hojo Hoshunin, daughter of 16000:Hojo Ujitsuna
 	}
@@ -6229,7 +6255,7 @@
 	}
 }
 10040058 = {
-	name=character_name_10040058 # Masauji
+	name=character_name_10040058 # Masauji,政氏
 #	dynasty=10000400 # Ashikaga
 	dynasty_house = house_shgnt_kogaashikaga
 	father=10040059
@@ -6250,7 +6276,7 @@
 	}
 }
 10040059 = {
-	name=character_name_10040059 # Shigeuji
+	name=character_name_10040059 # Shigeuji,成氏、万寿丸（阿部能久、『戦国期関東公方の研究』、2006）
 #	dynasty=10000400 # Ashikaga
 	dynasty_house = house_shgnt_kamakuraashikaga
 	father=10040061
@@ -6268,14 +6294,14 @@
 	1434.1.1={
 		birth=yes
 	}
-	1447.8.27={
-		effect = {
-			add_trait = "jugoi_ge"
-		}
+	# 文安4(1447)年三月、信濃の大井氏の庇護下にあった（阿部、〃、2008）
+	# 文安4(1447)年八月二十七日、鎌倉へ帰還（阿部、〃、2008）
+	# 宝徳元年(1449)、万寿丸元服、足利義成の偏諱（阿部、〃、2008）
+	1449.09.14={
+		give_nickname="nick_the_sama_no_kami" # 「左馬頭」宝徳元年八月二十七日、朝廷から叙任（阿部、〃、2008）
+		trait="jugoi_ge"
 	}
-	1450.1.1={
-		give_nickname="nick_the_sama_no_kami"
-	}
+	# 宝徳2(1450)年四月、江の島合戦、上杉被官長尾・太田氏などとの戦闘
 	1451.1.1={
 		give_nickname="nick_the_sahyoe_no_kami"
 		effect = {
@@ -6288,6 +6314,7 @@
 			set_realm_capital = title:c_shgnt_sashima
 		}
 	}
+	# 文明14(1482)年、都鄙和睦、再び幕府から関東公方の地位を承認される、「公方―管領体制」（阿部、〃、2008）
 	1497.10.25={
 		death=yes
 	}

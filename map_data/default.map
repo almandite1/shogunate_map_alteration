@@ -17,10 +17,10 @@ seasons = "seasons.txt"
 # SEA ZONES
 #############
 sea_zones = RANGE { 1556 1557 }
-sea_zones = RANGE { 2900 2901 }
+sea_zones = RANGE { 2900 2902 }
 sea_zones = RANGE { 2913 3090 }
 sea_zones = RANGE { 3168 3175 }
-sea_zones = RANGE { 3180 3188 }
+sea_zones = RANGE { 3180 3189 }
 sea_zones = LIST { 3097 }
 
 ###############
@@ -31,7 +31,7 @@ river_provinces = LIST { 3179 }
 ########
 # LAKES
 ########
-lakes = LIST { 2912 3092 3094 3095 3096 3120 3128 3129 3131 3132 3122 3091 3130}
+lakes = LIST { 2912 3092 3094 3095 3096 3120 3128 3129 3131 3132 3122 3091 3130 3190 }
 
 #####################
 # IMPASSABLE TERRAIN

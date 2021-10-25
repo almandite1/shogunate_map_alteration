@@ -1,4 +1,4 @@
-Shogunate 地図改変サブ MOD 日本語 ベータ版 Version 0.6.1 'Benkei'
+Shogunate 地図改変サブ MOD 日本語 ベータ版 Version 0.6.2 'Benkei'
 
 [h1]Shogunate 地図改変サブ MOD 日本語 ベータ版 Version 0.6 'Benkei'[/h1]
 ====

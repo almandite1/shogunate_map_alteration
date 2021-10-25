@@ -1,4 +1,4 @@
-Shogunate Map alteration Sub-MOD beta Version 0.6.1 'Benkei'
+Shogunate Map alteration Sub-MOD beta Version 0.6.2 'Benkei'
 
 [h1]Shogunate Map alteration Sub-MOD beta Version 0.6.0 'Benkei'[/h1]
 ====

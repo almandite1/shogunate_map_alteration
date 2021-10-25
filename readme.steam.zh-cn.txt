@@ -1,4 +1,4 @@
-幕府地图的更改副MODbeta版0.6.1'办庆'
+幕府地图的更改副MODbeta版0.6.2'办庆'
 
 [h1]Shogunate Map alteration Sub-MOD beta Version 0.6 'Benkei'[/h1]
 幕府地图的更改副MOD是幕府mod的一个副mod。

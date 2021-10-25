@@ -77,6 +77,13 @@ c_shgnt_ayukawa = {
         liege = 0
         holder = 0
     }
+    1333.07.04={
+        effect = {
+            title:b_shgnt_ayukawa_2 = {
+                set_title_name = b_shgnt_ayukawa_2_1 # Mimase,三増
+            }
+        }
+    }
     1439.03.24 = {
         liege = d_shgnt_sagami # 
         holder = 10017037 # Uesugi Mochitomo
@@ -332,6 +339,13 @@ c_shgnt_kuruma = {
     }
     1500.01.01 = {
         holder = 10017251 # Nagano Norinari
+    }
+    1512.01.01={
+        effect = {
+            title:b_shgnt_kuruma_5 = {
+                set_title_name = b_shgnt_kuruma_5_1 # Minowa,箕輪城
+            }
+        }
     }
     1530.11.16 = {
         holder = 10017250 # Nagano Narimasa
@@ -708,19 +722,19 @@ c_shgnt_kamakura = {
         holder = 10040064 # Ashikaga Mitsukane
     }
     1409.09.01 = {
-        holder = 10040061 # Ashikaga Mochiuji
+        holder = 10040061 # Ashikaga Mochiuji,足利持氏
     }
     1439.03.24 = {
-        holder = 10040006 # Ashikaga Yoshinori
+        holder = 10040006 # Ashikaga Yoshinori,足利義教
     }
     1441.07.12 = {
-        holder = 10040007 # Ashikaga Yoshikatsu
+        holder = 10040007 # Ashikaga Yoshikatsu,足利義勝
     }
     1443.08.16 = {
-        holder = 10040008 # Ashikaga Yoshimasa
+        holder = 10040008 # Ashikaga Yoshimasa,足利義政
     }
-    1447.03.01 = {
-        holder = 10040059 # Ashikaga Shigeuji
+    1447.10.06 = { # 文安4(1447)年八月二十七日、万寿丸は信濃大井氏のもとから鎌倉へ帰還した（阿部能久、『戦国期関東公方の研究』、2006）
+        holder = 10040059 # Ashikaga Shigeuji,足利成氏
     }
     1455.07.30 = {
         liege = d_shgnt_sagami # 
@@ -1918,6 +1932,9 @@ c_shgnt_tato = {
             title:b_shgnt_tama_7 = {
                 set_title_name = b_shgnt_tama_7_1 # Fuchū, 府中
             }
+            title:b_shgnt_tama_4 = {
+                set_title_name = b_shgnt_tama_4_1 # Katsunuma,勝沼城
+            }
         }
     }
     1457.1.1={
@@ -1948,6 +1965,13 @@ c_shgnt_tato = {
     1559.1.1={
         liege="d_shgnt_musashi"
         holder=10016015 # Hojo Ujiteru
+    }
+    1563.01.01={
+        effect = {
+            title:b_shgnt_tama_4 = {
+                set_title_name = b_shgnt_tama_4_2 # Morooka,師岡城
+            }
+        }
     }
     1571.01.01 = {
         effect = {
@@ -2039,6 +2063,13 @@ c_shgnt_tone = {
     }
     1490.01.01 = {
         holder = 10017352 # Numata Kageyo
+    }
+    1492.01.01={
+        effect = {
+            title:b_shgnt_tone_3 = {
+                set_title_name = b_shgnt_tone_3_1 # Nagurumi,名胡桃城
+            }
+        }
     }
     1510.01.01 = {
         holder = 10017351 # Numata Yasuteru
@@ -3001,6 +3032,13 @@ c_shgnt_takakura = {
     1213.5.24={
         liege = 0
         holder = 0
+    }
+    1333.07.04={
+        effect = {
+            title:b_shgnt_takakura_4 = {
+                set_title_name = b_shgnt_takakura_4_1 # Zama,座間
+            }
+        }
     }
     1349.10.21 = {
         liege = k_nmih_kamakura_kubo # 
