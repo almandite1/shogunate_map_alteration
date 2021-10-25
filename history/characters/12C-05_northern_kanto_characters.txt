@@ -3224,7 +3224,8 @@
 		birth=yes
 	}
 	1222.1.1={
-		dynasty=10000104 # Oda
+		#dynasty=10000104 # Oda
+		dynasty_house="house_shgnt_hatta_oda"
 	}
 	1228.1.1 ={
 		death=yes
@@ -3239,6 +3240,9 @@
 	1166.1.1={
 		birth=yes
 	}
+	1196.01.01={
+		dynasty_house="house_shgnt_hatta_ishira"
+	}
 	1216.1.1={
 		death=yes
 	}
@@ -3251,6 +3255,9 @@
 	culture="northern_kanto"
 	1169.1.1 ={
 		birth=yes
+	}
+	1199.01.01={
+		dynasty_house="house_shgnt_hatta_motegi"
 	}
 	1219.1.1={
 		death=yes
@@ -3265,9 +3272,13 @@
 	1188.1.1={
 		birth=yes
 	}
+	1208.01.01={
+		dynasty_house="house_shgnt_hatta_shishido"
+	}
 	1213.5.3={
 		death={
 			death_reason=death_battle
+			killer=12211512 # Asahina Yoshihide, 朝比奈義秀
 		}
 	}
 }
@@ -3293,6 +3304,9 @@
 	1192.1.1={
 		birth=yes
 	}
+	1212.01.01={
+		dynasty_house="house_shgnt_hatta_asaba"
+	}
 	1221.7.5={
 		death={
 			death_reason=death_battle
@@ -3308,6 +3322,9 @@
 	1194.1.1={
 		birth=yes
 	}
+	1224.01.01={
+		dynasty_house="house_shgnt_hatta_tanaka"
+	}
 	1244.1.1={
 		death=yes
 	}
@@ -3321,6 +3338,9 @@
 	1196.1.1={
 		birth=yes
 	}
+	1226.01.01={
+		dynasty_house="house_shgnt_hatta_takano"
+	}
 	1246.1.1={
 		death=yes
 	}
@@ -3333,6 +3353,9 @@
 	culture="northern_kanto"
 	1198.1.1={
 		birth=yes
+	}
+	1228.01.01={
+		dynasty_house="house_shgnt_hatta_chujo"
 	}
 	1248.1.1={
 		death=yes
@@ -3348,13 +3371,20 @@
 	1200.1.1={
 		birth=yes
 	}
+	1210.01.01={
+		culture="kanto_buddhist"
+	}
+	1230.01.01={
+		dynasty_house="house_shgnt_hatta_chuzenji"
+	}
 	1250.1.1={
 		death=yes
 	}
 }
 12127510={
 	name=character_name_12127510 # Yasutomo
-	dynasty=10000104 # Oda 
+#	dynasty=10000104 # Oda
+	dynasty_house="house_shgnt_hatta_oda" # Oda
 	father=12127500 # Oda Tomoshige 
 	religion="shinto"
 	culture="northern_kanto"
@@ -3367,7 +3397,8 @@
 }
 12127520={
 	name=character_name_12127520 # Tokitomo
-	dynasty=10000104 # Oda 
+#	dynasty=10000104 # Oda
+	dynasty_house="house_shgnt_hatta_oda" # Oda
 	father=12127510 # Oda Yasutomo
 	religion="shinto"
 	culture="northern_kanto"
@@ -3380,7 +3411,8 @@
 }
 12127530={
 	name=character_name_12127530 # Munetomo
-	dynasty=10000104 # Oda 
+#	dynasty=10000104 # Oda
+	dynasty_house="house_shgnt_hatta_oda" # Oda
 	father=12127520 # Oda Tokitomo
 	religion="shinto"
 	culture="northern_kanto"
@@ -3393,12 +3425,16 @@
 }
 12127531={
 	name=character_name_12127531 # Michitomo
-	dynasty=10000104 # Oda 
+#	dynasty=10000104 # Oda
+	dynasty_house="house_shgnt_hatta_oda" # Oda
 	father=12127520 # Oda Tokitomo
 	religion="shinto"
 	culture="northern_kanto"
 	1260.1.1={
 		birth=yes
+	}
+	1290.01.01={
+		dynasty_house="house_shgnt_hatta_hojo"
 	}
 	1310.1.1={
 		death=yes
@@ -3406,7 +3442,8 @@
 }
 12127540={
 	name=character_name_12127540 # Naotomo
-	dynasty=10000104 # Oda 
+#	dynasty=10000104 # Oda
+	dynasty_house="house_shgnt_hatta_oda" # Oda
 	father=12127530 # Oda Munetomo
 	religion="shinto"
 	culture="northern_kanto"
@@ -3419,7 +3456,8 @@
 }
 12127541={
 	name=character_name_12127541 # Sadatomo
-	dynasty=10000104 # Oda 
+#	dynasty=10000104 # Oda
+	dynasty_house="house_shgnt_hatta_oda" # Oda
 	father=12127530 # Oda Munetomo
 	religion="shinto"
 	culture="northern_kanto"
@@ -3432,12 +3470,16 @@
 }
 12127542={
 	name=character_name_12127542 # Tomosada
-	dynasty=10000104 # Oda 
+#	dynasty=10000104 # Oda
+	dynasty_house="house_shgnt_hatta_oda" # Oda
 	father=12127530 # Oda Munetomo
 	religion="shinto"
 	culture="northern_kanto"
 	1288.1.1={
 		birth=yes
+	}
+	1318.01.01={
+		dynasty_house="house_shgnt_hatta_teno"
 	}
 	1338.1.1={
 		death=yes
@@ -3445,7 +3487,8 @@
 }
 12127543={
 	name=character_name_12127543 # Sadauji
-	dynasty=10000104 # Oda 
+#	dynasty=10000104 # Oda
+	dynasty_house="house_shgnt_hatta_oda" # Oda
 	father=12127530 # Oda Munetomo
 	religion="shinto"
 	culture="northern_kanto"
@@ -3458,7 +3501,8 @@
 }
 12127550={
 	name=character_name_12127550 # Haruhisa
-	dynasty=10000104 # Oda 
+#	dynasty=10000104 # Oda
+	dynasty_house="house_shgnt_hatta_oda" # Oda
 	father=12127541 # Oda Sadatomo
 	religion="shinto"
 	culture="northern_kanto"
@@ -3471,7 +3515,8 @@
 }
 12127560={
 	name=character_name_12127560 # Takatomo
-	dynasty=10000104 # Oda 
+#	dynasty=10000104 # Oda
+	dynasty_house="house_shgnt_hatta_oda" # Oda
 	father=12127550 # Oda Haruhisa
 	religion="shinto"
 	culture="northern_kanto"
@@ -3484,12 +3529,16 @@
 }
 12127562={
 	name=character_name_12127562 # Tomomura
-	dynasty=10000104 # Oda 
+#	dynasty=10000104 # Oda
+	dynasty_house="house_shgnt_hatta_oda" # Oda
 	father=12127550 # Oda Haruhisa
 	religion="shinto"
 	culture="northern_kanto"
 	1345.1.1={
 		birth=yes
+	}
+	1375.01.01={
+		dynasty_house="house_shgnt_hatta_tamiya"
 	}
 	1395.1.1={
 		death=yes
@@ -3497,7 +3546,8 @@
 }
 12127563={
 	name=character_name_12127563 # Tomoshige
-	dynasty=10000104 # Oda 
+#	dynasty=10000104 # Oda
+	dynasty_house="house_shgnt_hatta_oda" # Oda
 	father=12127550 # Oda Haruhisa
 	religion="shinto"
 	culture="northern_kanto"
@@ -3510,12 +3560,16 @@
 }
 12127564={
 	name=character_name_12127564 # Tomohide
-	dynasty=10000104 # Oda 
+#	dynasty=10000104 # Oda
+	dynasty_house="house_shgnt_hatta_oda" # Oda
 	father=12127550 # Oda Haruhisa
 	religion="shinto"
 	culture="northern_kanto"
 	1349.1.1={
 		birth=yes
+	}
+	1379.01.01={
+		dynasty_house="house_shgnt_hatta_kodaka"
 	}
 	1399.1.1={
 		death=yes
@@ -3523,12 +3577,16 @@
 }
 12127565={
 	name=character_name_12127565 # Kunitomo
-	dynasty=10000104 # Oda
+#	dynasty=10000104 # Oda
+	dynasty_house="house_shgnt_hatta_oda" # Oda
 	father=12127550 # Oda Haruhisa
 	religion="shinto"
 	culture="northern_kanto"
 	1350.1.1={
 		birth=yes
+	}
+	1370.01.01={
+		dynasty_house="house_shgnt_hatta_okami"
 	}
 	1400.1.1={
 		death=yes
@@ -3536,7 +3594,8 @@
 }
 12127570={
 	name=character_name_12127570 # Harutomo
-	dynasty=10000104 # Oda 
+#	dynasty=10000104 # Oda
+	dynasty_house="house_shgnt_hatta_oda" # Oda
 	father=12127560 # Oda Takatomo
 	religion="shinto"
 	culture="northern_kanto"
@@ -3549,7 +3608,8 @@
 }
 12127580={
 	name=character_name_12127580 # Kunihisa
-	dynasty=10000104 # Oda
+#	dynasty=10000104 # Oda
+	dynasty_house="house_shgnt_hatta_okami"
 	father=12127565 # Oda Kunitomo
 	religion="shinto"
 	culture="northern_kanto"
@@ -3562,7 +3622,8 @@
 }
 12127581={
 	name=character_name_12127581 # Haruyori
-	dynasty=10000104 # Oda
+#	dynasty=10000104 # Oda
+	dynasty_house="house_shgnt_hatta_okami"
 	father=12127580 # Oda Kunihisa
 	religion="shinto"
 	culture="northern_kanto"
@@ -3575,7 +3636,8 @@
 }
 12127582={
 	name=character_name_12127582 # Yorihisa
-	dynasty=10000104 # Oda
+#	dynasty=10000104 # Oda
+	dynasty_house="house_shgnt_hatta_okami"
 	father=12127581 # Oda Haruyori
 	religion="shinto"
 	culture="northern_kanto"
@@ -3588,7 +3650,8 @@
 }
 12127583={
 	name=character_name_12127583 # Haruchika
-	dynasty=10000104 # Oda
+#	dynasty=10000104 # Oda
+	dynasty_house="house_shgnt_hatta_okami"
 	father=12127582 # Oda Yorihisa
 	religion="shinto"
 	culture="northern_kanto"
@@ -3601,7 +3664,8 @@
 }
 12127584={
 	name=character_name_12127584 # Muneharu
-	dynasty=10000104 # Oda
+#	dynasty=10000104 # Oda
+	dynasty_house="house_shgnt_hatta_okami"
 	father=12127583 # Oda Haruchika
 	religion="shinto"
 	culture="northern_kanto"
@@ -3614,7 +3678,8 @@
 }
 12127700={
 	name=character_name_12127700 # Iechika
-	dynasty=10007005 # Shishido
+	#dynasty=10007005 # Shishido
+	dynasty_house="house_shgnt_hatta_shishido"
 	father=12127503 # Shishido Iemasa
 	religion="shinto"
 	culture="northern_kanto"
@@ -3627,7 +3692,8 @@
 }
 12127705={
 	name=character_name_12127705 # Iemune
-	dynasty=10007005 # Shishido
+#	dynasty=10007005 # Shishido
+	dynasty_house="house_shgnt_hatta_shishido"
 	father=12127700 # Shishido Iechika
 	religion="shinto"
 	culture="northern_kanto"
@@ -3640,7 +3706,8 @@
 }
 12127706={
 	name=character_name_12127706 # Ieuji
-	dynasty=10007005 # Shishido
+#	dynasty=10007005 # Shishido
+	dynasty_house="house_shgnt_hatta_shishido"
 	father=12127700 # Shishido Iechika
 	religion="shinto"
 	culture="northern_kanto"
@@ -3653,7 +3720,8 @@
 }
 12127710={
 	name=character_name_12127710 # Ietoki
-	dynasty=10007005 # Shishido
+#	dynasty=10007005 # Shishido
+	dynasty_house="house_shgnt_hatta_shishido"
 	father=12127705 # Shishido Iemune
 	religion="shinto"
 	culture="northern_kanto"
@@ -3666,7 +3734,8 @@
 }
 12127711={
 	name=character_name_12127711 # Tomomune
-	dynasty=10007005 # Shishido
+#	dynasty=10007005 # Shishido
+	dynasty_house="house_shgnt_hatta_shishido"
 	father=12127705 # Shishido Iemune
 	religion="shinto"
 	culture="northern_kanto"
@@ -3679,7 +3748,8 @@
 }
 12127715={
 	name=character_name_12127715 # Tomotoki
-	dynasty=10007005 # Shishido
+#	dynasty=10007005 # Shishido
+	dynasty_house="house_shgnt_hatta_shishido"
 	father=12127710 # Shishido Ietoki
 	religion="shinto"
 	culture="northern_kanto"
@@ -3692,7 +3762,8 @@
 }
 12127716={
 	name=character_name_12127716 # Ieyoshi
-	dynasty=10007005 # Shishido
+#	dynasty=10007005 # Shishido
+	dynasty_house="house_shgnt_hatta_shishido"
 	father=12127710 # Shishido Ietoki
 	religion="shinto"
 	culture="northern_kanto"
@@ -3705,7 +3776,8 @@
 }
 12127720={
 	name=character_name_12127720 # Tomosato
-	dynasty=10007005 # Shishido
+#	dynasty=10007005 # Shishido
+	dynasty_house="house_shgnt_hatta_shishido"
 	father=12127715 # Shishido Tomotoki
 	religion="shinto"
 	culture="northern_kanto"
