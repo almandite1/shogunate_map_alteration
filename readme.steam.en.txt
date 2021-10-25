@@ -1,6 +1,6 @@
-Shogunate Map alteration Sub-MOD beta Version 0.6.2 'Benkei'
+Shogunate Map alteration Sub-MOD beta Version 0.6.3 'Benkei'
 
-[h1]Shogunate Map alteration Sub-MOD beta Version 0.6.0 'Benkei'[/h1]
+[h1]Shogunate Map alteration Sub-MOD beta Version 0.6 'Benkei'[/h1]
 ====
 
 Shogunate Map alteration sub MOD is a submod of the Shogunate mod. It replaces the map with a high-resolution one and increases the Provence-Baron territory.
