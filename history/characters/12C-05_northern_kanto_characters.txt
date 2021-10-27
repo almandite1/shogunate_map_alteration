@@ -3345,22 +3345,22 @@
 		death=yes
 	}
 }
-12127508={
-	name=character_name_12127508 # Yoshikatsu
-	dynasty=10007007 # Hatta
-	father=12130005 # Hatta Tomoie 
-	religion="shinto"
-	culture="northern_kanto"
-	1198.1.1={
-		birth=yes
-	}
-	1228.01.01={
-		dynasty_house="house_shgnt_hatta_chujo"
-	}
-	1248.1.1={
-		death=yes
-	}
-}
+#12127508={ # 12205304とキャラクター重複 (Issue #321)
+#	name=character_name_12127508 # Yoshikatsu
+#	dynasty=10007007 # Hatta
+#	father=12130005 # Hatta Tomoie 
+#	religion="shinto"
+#	culture="northern_kanto"
+#	1198.1.1={
+#		birth=yes
+#	}
+#	1228.01.01={
+#		dynasty_house="house_shgnt_hatta_chujo"
+#	}
+#	1248.1.1={
+#		death=yes
+#	}
+#}
 12127509={
 	name=character_name_12127509 # Meigen
 	dynasty=10007007 # Hatta
