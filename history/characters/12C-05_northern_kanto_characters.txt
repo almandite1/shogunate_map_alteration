@@ -3230,6 +3230,7 @@
 	1228.1.1 ={
 		death=yes
 	}
+	# 子に高岡八郎左衛門尉泰重（『尊卑分脉』『系図纂要』）
 }
 12127501={
 	name=character_name_12127501 # Aritomo
@@ -3382,35 +3383,52 @@
 	}
 }
 12127510={
-	name=character_name_12127510 # Yasutomo
+	name=character_name_12127510 # Yasutomo,泰知
 #	dynasty=10000104 # Oda
 	dynasty_house="house_shgnt_hatta_oda" # Oda
 	father=12127500 # Oda Tomoshige 
 	religion="shinto"
 	culture="northern_kanto"
-	1222.1.1={
+	1211.1.1={ # https://historyofjapan-henki.hateblo.jp/entry/2021/02/11/120000
 		birth=yes
 	}
-	1245.5.13={
-		death=yes
+	#1238.01.01={
+	#	give_nickname="" # 「小田奥太郎」（『系図纂要』）
+	#}
+	# 妻は三浦泰村の娘
+	1221.01.01={
+		give_nickname="nick_the_saemon_no_jo" # （Henkipedia）
 	}
+	1245.06.08={
+		death=yes # 「寛元3(1245)年五月十三日卒卅五」（『系図纂要』）
+	}
+	# 「常陸守護」 # （Henkipedia）
+	# TODO: 「子に小田時知、女子（結城広綱室、小萱重広母）」（Henkipedia）
 }
 12127520={
-	name=character_name_12127520 # Tokitomo
+	name=character_name_12127520 # Tokitomo,時知
 #	dynasty=10000104 # Oda
 	dynasty_house="house_shgnt_hatta_oda" # Oda
 	father=12127510 # Oda Yasutomo
+	#mother= # 三浦泰村の娘（Henkipedia, https://historyofjapan-henki.hateblo.jp/entry/2021/02/10/120000）
 	religion="shinto"
 	culture="northern_kanto"
-	1238.1.1={
+	1242.1.1={
 		birth=yes
 	}
-	1293.5.15={
-		death=yes
+	1252.01.01={
+		give_nickname="nick_the_saemon_no_jo" # 「小田左衛門尉時知」（『吾妻鏡』建長4(1252)年12月16日条）
 	}
+	1280.01.01={
+		give_nickname="nick_the_hitachi_no_suke" # 「常陸介殿」（Henkipedia）
+	}
+	1293.06.20={
+		death=yes # 「正応6(1293)年五ノ十五日卒五十二」（『系図纂要』）
+	}
+	# 「子に小田宗知、北条道知、小神野時義」（Henkipedia）
 }
 12127530={
-	name=character_name_12127530 # Munetomo
+	name=character_name_12127530 # Munetomo, 宗知
 #	dynasty=10000104 # Oda
 	dynasty_house="house_shgnt_hatta_oda" # Oda
 	father=12127520 # Oda Tokitomo
@@ -3419,12 +3437,16 @@
 	1259.1.1={
 		birth=yes
 	}
-	1306.12.6={
-		death=yes
+	1294.01.01={
+		give_nickname="nick_the_chikugo_no_kami" # 「筑後守宗朝」（Henkipedia, https://historyofjapan-henki.hateblo.jp/entry/2021/02/12/000000）
 	}
+	1307.01.10={
+		death=yes # 「徳治1(1306)年十二ノ六卒四十八」（『系図纂要』）
+	}
+	# TODO: 「子に復庵宗己、田宗壽」（Henkipedia）
 }
 12127531={
-	name=character_name_12127531 # Michitomo
+	name=character_name_12127531 # Michitomo, 道知
 #	dynasty=10000104 # Oda
 	dynasty_house="house_shgnt_hatta_oda" # Oda
 	father=12127520 # Oda Tokitomo
@@ -3435,6 +3457,9 @@
 	}
 	1290.01.01={
 		dynasty_house="house_shgnt_hatta_hojo"
+	}
+	1300.01.01={
+		give_nickname="nick_chikuzen_no_kami" # 「筑前守」（『尊卑分脉』）
 	}
 	1310.1.1={
 		death=yes
@@ -3455,7 +3480,7 @@
 	}
 }
 12127541={
-	name=character_name_12127541 # Sadatomo
+	name=character_name_12127541 # Sadatomo, 貞朝（『系図纂要』）、貞宗（『尊卑分脉』）
 #	dynasty=10000104 # Oda
 	dynasty_house="house_shgnt_hatta_oda" # Oda
 	father=12127530 # Oda Munetomo
@@ -3464,12 +3489,15 @@
 	1282.1.1={
 		birth=yes
 	}
-	1335.10.23={
-		death=yes
+	1312.01.01={
+		give_nickname="nick_the_hitachi_no_suke" # 「前常陸介貞宗」（文保2(1318)年5月4日付「小田貞宗請文」『常陸国総社宮文書』）https://historyofjapan-henki.hateblo.jp/entry/2021/02/08/170000
+	}
+	1335.11.09={
+		death=yes # 「建武2(1335)年閏十ノ廿三日卒四十八」（『系図纂要』）
 	}
 }
 12127542={
-	name=character_name_12127542 # Tomosada
+	name=character_name_12127542 # Tomosada, 知貞
 #	dynasty=10000104 # Oda
 	dynasty_house="house_shgnt_hatta_oda" # Oda
 	father=12127530 # Oda Munetomo
@@ -3478,8 +3506,12 @@
 	1288.1.1={
 		birth=yes
 	}
+	1304.01.01={
+		give_nickname="nick_Hikoshiro" # 「彦四郎」（『尊卑分脉』）
+	}
 	1318.01.01={
 		dynasty_house="house_shgnt_hatta_teno"
+		give_nickname="nick_saemon_no_jo" # 「左衛門尉」（『分脉』）
 	}
 	1338.1.1={
 		death=yes
@@ -3500,7 +3532,7 @@
 	}
 }
 12127550={
-	name=character_name_12127550 # Haruhisa
+	name=character_name_12127550 # Haruhisa, 治久、「初名高知」（Henkipedia, https://historyofjapan-henki.hateblo.jp/entry/2021/02/14/000000）
 #	dynasty=10000104 # Oda
 	dynasty_house="house_shgnt_hatta_oda" # Oda
 	father=12127541 # Oda Sadatomo
@@ -3509,12 +3541,24 @@
 	1300.1.1={
 		birth=yes
 	}
+	1325.01.01={
+		give_nickname="nick_the_saemon_no_jo" # 「左衛門尉」（Henkipedia）
+	}
+	1327.01.01={
+		give_nickname="nick_the_owari_no_kami" # TODO: 「尾張権守」（Henkipedia）
+	}
+	1337.01.01={
+		give_nickname="nick_the_kunai_no_sho" # TODO: 「宮内権少輔」（Henkipedia）
+	}
+	1340.01.01={
+		give_nickname="nick_the_hitachi_no_suke" # （Henkipedia）
+	}
 	1353.1.16={
-		death=yes
+		death=yes # 「文和1(1352)年十二ノ十一薨七十」（『系図纂要』）
 	}
 }
 12127560={
-	name=character_name_12127560 # Takatomo
+	name=character_name_12127560 # Takatomo, 孝朝
 #	dynasty=10000104 # Oda
 	dynasty_house="house_shgnt_hatta_oda" # Oda
 	father=12127550 # Oda Haruhisa
@@ -3524,11 +3568,11 @@
 		birth=yes
 	}
 	1414.7.3={
-		death=yes
+		death=yes # 「応永廿一年六ノ十六卒七十九」（『系図纂要』）
 	}
 }
 12127562={
-	name=character_name_12127562 # Tomomura
+	name=character_name_12127562 # Tomomura,　知村
 #	dynasty=10000104 # Oda
 	dynasty_house="house_shgnt_hatta_oda" # Oda
 	father=12127550 # Oda Haruhisa
@@ -3539,13 +3583,14 @@
 	}
 	1375.01.01={
 		dynasty_house="house_shgnt_hatta_tamiya"
+		give_nickname="nick_ukon" # TODO: 「右近太郎」（『系図纂要』）
 	}
 	1395.1.1={
 		death=yes
 	}
 }
 12127563={
-	name=character_name_12127563 # Tomoshige
+	name=character_name_12127563 # Tomoshige, 知繁
 #	dynasty=10000104 # Oda
 	dynasty_house="house_shgnt_hatta_oda" # Oda
 	father=12127550 # Oda Haruhisa
@@ -3554,12 +3599,15 @@
 	1347.1.1={
 		birth=yes
 	}
+	1363.01.01={
+		give_nickname="nick_Matajio" # 「成井又二郎」（『系図纂要』）
+	}
 	1397.1.1={
 		death=yes
 	}
 }
 12127564={
-	name=character_name_12127564 # Tomohide
+	name=character_name_12127564 # Tomohide, 知秀
 #	dynasty=10000104 # Oda
 	dynasty_house="house_shgnt_hatta_oda" # Oda
 	father=12127550 # Oda Haruhisa
@@ -3567,6 +3615,9 @@
 	culture="northern_kanto"
 	1349.1.1={
 		birth=yes
+	}
+	1365.01.01={
+		give_nickname="nick_Magosaburo" # 「小高孫三郎」（『系図纂要』）
 	}
 	1379.01.01={
 		dynasty_house="house_shgnt_hatta_kodaka"
@@ -3999,9 +4050,10 @@
 	}
 }
 12130000={
-	name=character_name_12130000 # Munetsuna
+	name=character_name_12130000 # Munetsuna,宗綱
 	dynasty=10000109 # Utsunomiya
-	father=11005863 # Fujiwara Soen 
+	father=11005863 # Fujiwara Soen
+	# TODO: 養父は藤原兼房の子・兼仲（『尊卑分脉』）
 	religion="shinto"
 	culture="northern_kanto"
 	1086.1.1 ={
@@ -4012,12 +4064,15 @@
 			set_realm_capital=title:c_shgnt_shimotsuke_kawachi
 		}
     }
+	# TODO: 「八田武者所」（『吾妻鏡』）
+	# TODO: 「常陸平氏の多気致幹の娘と婚姻」（『宇都宮正統系図』）
+	# 源義朝が下野守であった7年間に下野目代だった可能性がある（野口実、「下野宇都宮氏の成立と、その平家政権下における存在形態」、2013）
 	1162.9.30 ={
-		death=yes
+		death=yes # 「平治元年1159年八月廿日」（『宇都宮系図』別本）、「応保二年（1162年）八月二十日卒、年七十七」（『宇都宮正統系図』）
 	}
 }
 12130001={
-	name=character_name_12130001 # Munefusa
+	name=character_name_12130001 # Munefusa,宗房
 	dynasty=10001000 # Fujiwara 
 	father=11005863 # Fujiwara Soen 
 	religion="shinto"
@@ -4025,12 +4080,17 @@
 	1090.1.1 ={
 		birth=yes
 	}
+	# TODO: 「改姓於中原」（『尊卑分脉』）
+	# TODO: 「外記」→「造酒正」（野口実、下野宇都宮氏の成立と、その平家政権下における存在形態」、2013）
+	# TODO: 「造酒正」（『吾妻鏡』）
 	1170.1.1 ={
 		death=yes
 	}
+	# TODO: 坂戸源氏の右馬允季長は実子（『分脉』）
+	# TODO: 娘は源季国の母（『分脉』）
 }
 12130003 = {
-	name=character_name_12130003 # Tomotsuna
+	name=character_name_12130003 # Tomotsuna,朝綱
 	dynasty=10000109 # Utsunomiya
 	father=12130000 # Utsunomiya Munetsuna 
 	religion="shinto"
@@ -4041,39 +4101,52 @@
 	1122.1.1={
 		birth=yes
 	}
+	# 「鳥羽院武者所」「後白河院北面」（『尊卑分脉』）
 	1150.1.1={
 		add_spouse=12130009 # Daigo Tsubone
-	}
-	1156.1.1={
-		give_nickname="nick_the_saemon_no_jo"
 	}
 	1162.09.30 = {
         effect={
 			set_realm_capital=title:c_shgnt_shimotsuke_kawachi
 		}
     }
+	1168.02.14={ # 仁安3(1168)年正月補任
+		give_nickname="nick_the_uhyoe_no_jo" # 「右兵衛尉」（野口実、「下野宇都宮氏の成立と、その平家政権下における存在形態」、2013）
+	}
+	1179.12.18={
+		effect = {
+			set_relation_friend = character:10110221 # 平貞能
+		}
+	}
+	1180.02.01={ # 「治承4(1180)年正月補任」（野口、2013）
+		give_nickname="nick_the_saemon_no_jo" # 「左衛門尉」（『分脉』）、「左衛門権少尉」（野口、2013）
+	}
+	# 寿永2(1183)年七月まで在京（野口、2013）
+	# 朝綱が源頼朝に属した時期については諸説有る
+	# 「源頼朝により宇都宮社務職安堵」（『吾妻鏡」元暦元(1184)年五月二十四日条）
 	1204.9.1={
 		death=yes
 	}
 }
 12130004={
 	female=yes
-	name=character_name_12130004 # Samukawa
+	name=character_name_12130004 # Samukawa, 寒河尼
 	dynasty=10000109 # Utsunomiya
 	father=12130000 # Utsunomiya Munetsuna 
 	religion="shinto"
 	culture="northern_kanto"
-	1137.1.1 ={
+	1138.1.1 ={ # 「保延4(1138)年の誕生」（野口実、下野宇都宮氏の成立と、その平家政権下における存在形態」、2013）
 		birth=yes
 	}
+	# 近衛天皇に仕える（「老士雑談」『改訂史籍集覧』第十三冊）
 	1228.3.1 ={
 		death=yes
 	}
 }
 12130005={
-	name=character_name_12130005 # Tomoie
+	name=character_name_12130005 # Tomoie,知家
 	dynasty=10000109 # Utsunomiya -> Hatta
-	father=12130000 # Utsunomiya Munetsuna 
+	father=12130000 # Utsunomiya Munetsuna
 	religion="shinto"
 	culture="northern_kanto"
 	diplomacy=9
@@ -4083,8 +4156,9 @@
 		birth=yes
 	}
 	1158.1.1={
-		give_nickname="nick_shiro"
+		give_nickname="nick_shiro" # 「八田四郎武者朝家」（『吾妻鏡』養和元年閏二月二十三日条）
 	}
+	# 「武者所」「右馬允」「左衛門尉」「筑後守」（『尊卑分脉』）
 	1162.1.1={
 		dynasty=10007007 # Hatta
 	}
@@ -4518,7 +4592,7 @@
 	}
 }
 12130150={
-	name=character_name_12130150 # Nobufusa
+	name=character_name_12130150 # Nobufusa,信房
 	dynasty=10000670 # Kii 
 	father=12130001 # Fujiwara Munefusa 
 	religion="shinto"
@@ -4529,6 +4603,9 @@
 	}
 	1162.9.30={
 		employer=12130003 # Utsunomiya Tomotsuna
+	}
+	1207.05.01={# 「建永元年（1206）四月三日の臨時除目」（野口実、「下野宇都宮氏の成立と、その平家政権下における存在形態」、2013）
+		give_nickname=nick_the_yamato_no_kami #「大和守」
 	}
 	1234.8.27 ={
 		death=yes
@@ -4905,7 +4982,7 @@
 	}
 }
 12135001 = {
-	name = character_name_12135001 # Tomomasa
+	name = character_name_12135001 # Tomomasa,朝政
 #	dynasty = 10000112	#Oyama
 	dynasty_house = house_shgnt_oyama
 	religion = "shinto"
@@ -4920,8 +4997,9 @@
 	trait="intellect_good_2"
 	trait="brave"
 	father = 12135000 #Oyama Masamitsu
+	# 小山朝政の母は寒河尼とする説（野口実）と否定する説（松本一夫『寒河尼』）とがある（野口実、「下野宇都宮氏の成立と、その平家政権下における存在形態」、2013）
 	prowess=18
-	1158.1.1 = {
+	1158.1.1 = { # 「久寿2(1155)年」（野口、2013）
 		birth=yes
 	}
 	1174.1.1={
@@ -4930,10 +5008,12 @@
 	1191.5.11={
 		give_nickname="nick_the_shimotsukeno_no_suke"
 	}
+	# TODO: 「兵衛尉」（野口、2013）
+	# TODO: 「左衛門尉（さらに検非違使の宣旨を蒙る）」（野口、2013）
 	1225.3.3 = {
-		give_nickname="nick_the_shimotsukeno_no_kami"
+		give_nickname="nick_the_shimotsukeno_no_kami" # 「下野守」（野口、2013)
 		effect = {
-			add_trait = "jugoi_ge"
+			add_trait = "jugoi_ge" # 「五位」（野口、2013)
 		}
 	}
 	1238.5.15 = {
