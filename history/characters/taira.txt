@@ -2103,7 +2103,7 @@
 	}
 }
 10110221={
-	name=character_name_10110221 # Sadayoshi
+	name=character_name_10110221 # Sadayoshi,貞能
 	dynasty=10001100 # Taira
 	father=10110215 # Taira Iesada
 	religion="shinto"
@@ -2117,12 +2117,18 @@
 	}
 	1179.12.18={
 		employer=10110025
+		effect = {
+			set_relation_friend = character:12130003 # 宇都宮朝綱
+		}
 	}
 	1180.1.1={
 		give_nickname="nick_the_higo_no_kami"
 		effect = {
 			add_trait = "jugoi_jo"
 		}
+	}
+	1185.07.07={
+		employer=12130003 # 宇都宮朝綱
 	}
 	1186.1.1={
 		death=yes
