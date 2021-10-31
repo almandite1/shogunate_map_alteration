@@ -3215,7 +3215,7 @@
 	}
 }
 12127500={
-	name=character_name_12127500 # Tomoshige
+	name=character_name_12127500 # Tomoshige, 知重
 	dynasty=10007007 # Hatta 
 	father=12130005 # Hatta Tomoie 
 	religion="shinto"
@@ -3223,17 +3223,29 @@
 	1164.1.1 ={
 		birth=yes
 	}
+	1180.01.01={
+		give_nickname="nick_goro" # TODO: 「八田五郎左衛門尉」（『尊卑分脉』）
+	}
+	1214.01.01={
+		give_nickname="nick_the_kii_no_kami" # 「紀伊守」「承久乱之時、紀伊前司」（『尊卑分脉』）
+		trait="jugoi_ge"
+	}
 	1222.1.1={
 		#dynasty=10000104 # Oda
 		dynasty_house="house_shgnt_hatta_oda"
 	}
-	1228.1.1 ={
-		death=yes
+	1224.01.01={
+		give_nickname="nick_the_sahyoe_no_jo" # 「従五位下左兵衛尉小田知重卒す」（『大日本史料』）
+	}
+	1229.01.09={
+		death={
+			death_reason=death_natural_causes # 「安貞2(1228)年十二月十三日」（『大日本史料』）
+		}
 	}
 	# 子に高岡八郎左衛門尉泰重（『尊卑分脉』『系図纂要』）
 }
 12127501={
-	name=character_name_12127501 # Aritomo
+	name=character_name_12127501 # Aritomo, 有知
 	dynasty=10007007 # Hatta
 	father=12130005 # Hatta Tomoie 
 	religion="shinto"
@@ -3241,15 +3253,23 @@
 	1166.1.1={
 		birth=yes
 	}
+	1182.01.01={
+		give_nickname="nick_jio" # 「八田二郎（三イ）」（『尊卑分脉』）
+	}
 	1196.01.01={
-		dynasty_house="house_shgnt_hatta_ishira"
+		dynasty_house="house_shgnt_hatta_ishira" # 「伊志良、イ伊自良」（『尊卑分脉』）
+	}
+	1206.01.01={
+		give_nickname="nick_the_uemon_no_jo" # 「右衛門尉」（『尊卑分脉』）
 	}
 	1216.1.1={
-		death=yes
+		death={
+			death_reason=death_natural_causes
+		}
 	}
 }
 12127502={
-	name=character_name_12127502 # Tomomoto
+	name=character_name_12127502 # Tomomoto, 知基、「或知幹、或知俊舎弟云々」（『尊卑分脉』）
 	dynasty=10007007 # Hatta
 	father=12130005 # Hatta Tomoie 
 	religion="shinto"
@@ -3257,15 +3277,20 @@
 	1169.1.1 ={
 		birth=yes
 	}
+	1185.01.01={
+		give_nickname="nick_saburo" # 「茂木三郎」（『尊卑分脉』）
+	}
 	1199.01.01={
 		dynasty_house="house_shgnt_hatta_motegi"
 	}
-	1219.1.1={
-		death=yes
+	1239.04.22={
+		death={
+			death_reason=death_old_age # 「住下野国茂木此所知家建久3(1192)年八月従頼朝拝領之所譲与知基也、外紀州賀太庄、知基承久3(1221)年九月十六日為勲功賞賜之、延応元己亥年(1239年)三月十七日卒」（『茂木文書』「茂木系図」）
+		}
 	}
 }
 12127503={
-	name=character_name_12127503 # Iemasa
+	name=character_name_12127503 # Iemasa, 家政
 	dynasty=10007007 # Hatta
 	father=12130005 # Hatta Tomoie 
 	religion="shinto"
@@ -3273,8 +3298,12 @@
 	1188.1.1={
 		birth=yes
 	}
+	1206.01.01={
+		give_nickname="nick_shiro" # 「宍戸四郎左衛門」」（『尊卑分脉』）
+	}
 	1208.01.01={
 		dynasty_house="house_shgnt_hatta_shishido"
+		give_nickname="nick_the_saemon_no_jo"
 	}
 	1213.5.3={
 		death={
@@ -3293,11 +3322,13 @@
 		birth=yes
 	}
 	1240.1.1={
-		death=yes
+		death={
+			death_reason=death_natural_causes
+		}
 	}
 }
 12127505={
-	name=character_name_12127505 # Tomohisa
+	name=character_name_12127505 # Tomohisa, 知尚
 	dynasty=10007007 # Hatta
 	father=12130005 # Hatta Tomoie 
 	religion="shinto"
@@ -3305,10 +3336,14 @@
 	1192.1.1={
 		birth=yes
 	}
-	1212.01.01={
-		dynasty_house="house_shgnt_hatta_asaba"
+	1208.01.01={
+		give_nickname="nick_rokuro" # 「号八田六郎、号八田」（『尊卑分脉』）
+	}
+	1210.01.01={
+		give_nickname="nick_the_saemon_no_jo" # TODO: 「六郎左衛門」（『尊卑分脉』）
 	}
 	1221.7.5={
+		dynasty_house="house_shgnt_hatta_asaba"
 		death={
 			death_reason=death_battle
 		}
@@ -3323,15 +3358,21 @@
 	1194.1.1={
 		birth=yes
 	}
+	1210.01.01={
+		give_nickname="nick_kuro" # 「九郎左衛門尉」（『尊卑分脉』）
+	}
 	1224.01.01={
 		dynasty_house="house_shgnt_hatta_tanaka"
+		give_nickname="nick_the_saemon_no_jo"
 	}
 	1244.1.1={
-		death=yes
+		death={
+			death_reason=death_natural_causes
+		}
 	}
 }
 12127507={
-	name=character_name_12127507 # Tokiie
+	name=character_name_12127507 # Tokiie,時家、「号小田　高野」
 	dynasty=10007007 # Hatta
 	father=12130005 # Hatta Tomoie 
 	religion="shinto"
@@ -3339,11 +3380,19 @@
 	1196.1.1={
 		birth=yes
 	}
+	1212.01.01={
+		give_nickname="nick_juro" # 「十郎」（『尊卑分脉』）
+	}
 	1226.01.01={
 		dynasty_house="house_shgnt_hatta_takano"
 	}
+	1236.01.01={
+		give_nickname="nick_the_iga_no_kami" # 「伊賀守」（『尊卑分脉』）
+	}
 	1246.1.1={
-		death=yes
+		death={
+			death_reason=death_natural_causes
+		}
 	}
 }
 #12127508={ # 12205304とキャラクター重複 (Issue #321)
@@ -3363,7 +3412,7 @@
 #	}
 #}
 12127509={
-	name=character_name_12127509 # Meigen
+	name=character_name_12127509 # Meigen,明玄
 	dynasty=10007007 # Hatta
 	father=12130005 # Hatta Tomoie 
 	religion="shinto"
@@ -3373,13 +3422,15 @@
 		birth=yes
 	}
 	1210.01.01={
-		culture="kanto_buddhist"
+		culture="kanto_buddhist" # 「大浦法眼　イ大輔法眼」（『尊卑分脉』）
 	}
 	1230.01.01={
-		dynasty_house="house_shgnt_hatta_chuzenji"
+		dynasty_house="house_shgnt_hatta_chuzenji" # 「中禪寺別当」（尊卑分脉』）
 	}
 	1250.1.1={
-		death=yes
+		death={
+			death_reason=death_natural_causes
+		}
 	}
 }
 12127510={
@@ -3393,7 +3444,7 @@
 		birth=yes
 	}
 	#1238.01.01={
-	#	give_nickname="" # 「小田奥太郎」（『系図纂要』）
+	#	give_nickname="" # TODO: 「小田奥太郎」（『尊卑分脉』）
 	#}
 	# 妻は三浦泰村の娘
 	1221.01.01={
@@ -3567,6 +3618,10 @@
 	1337.1.1={
 		birth=yes
 	}
+	1367.01.01={
+		give_nickname="nick_sanuki_no_kami" # 「讃岐守」（「朝日日本歴史人物事典」『コトバンク』）
+	}
+	# TODO: 「小田流剣法の祖」（「デジタル版 日本人名大辞典+Plus」『コトバンク』）
 	1414.7.3={
 		death=yes # 「応永廿一年六ノ十六卒七十九」（『系図纂要』）
 	}
@@ -3644,7 +3699,7 @@
 	}
 }
 12127570={
-	name=character_name_12127570 # Harutomo
+	name=character_name_12127570 # Harutomo, 治朝、「イ治知」（『小田本宗支族系図』https://clioimg.hi.u-tokyo.ac.jp/viewer/image/idata/200/2075/1085/0141.tif）
 #	dynasty=10000104 # Oda
 	dynasty_house="house_shgnt_hatta_oda" # Oda
 	father=12127560 # Oda Takatomo
@@ -3653,8 +3708,11 @@
 	1362.1.1={
 		birth=yes
 	}
-	1403.1.1={
-		death=yes
+	1392.01.01={
+		give_nickname="nick_sanuki_no_kami" # 「讃岐守」（『小田本宗支族系図』）
+	}
+	1403.03.23={
+		death=yes # 「応永10(1403)年三月一日先父卒四十一」（『小田本宗支族系図』）
 	}
 }
 12127580={
