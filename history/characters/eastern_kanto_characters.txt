@@ -1859,7 +1859,7 @@
 	}
 }
 10010401 = {
-	name=character_name_10010401 # Masaharu
+	name=character_name_10010401 # Masaharu, 政治
 #	dynasty=10000104 # Oda
 	dynasty_house="house_shgnt_hatta_oda" # Oda
 	father=10010403 # Oda Shigeharu
@@ -1882,8 +1882,13 @@
 			set_realm_capital = title:c_shgnt_tsukuha
 		}
 	}
+	1522.01.01={
+		give_nickname="nick_the_sakyo_dayu" # 「左京大夫」（『小田本宗支族系図』https://clioimg.hi.u-tokyo.ac.jp/viewer/image/idata/200/2075/1085/0150.tif）
+	}
 	1548.3.31={
-		death=yes
+		death={
+			death_reason=death_natural_causes
+		}
 	}
 }
 10010402 = {
@@ -1905,36 +1910,49 @@
 	1534.1.1={
 		birth=yes
 	}
+	1547.01.01={
+		give_nickname="nick_Kotaro" # 「通称は小太郎」（「デジタル版 日本人名大辞典+Plus」『コトバンク』）
+	}
 	1548.3.31={
 		effect = {
 			set_realm_capital=title:c_shgnt_tsukuha
 		}
+	}
+	1561.01.01={
+		give_nickname="nick_sanuki_no_kami" # 「讃岐守」（「佐竹古文書」『史料綜覧』）
 	}
 	# 永禄12(1569)年、手這坂（てばいざか）合戦で破れ、小田城を失い土浦城に逃げ以後本拠（中根正人「戦国期の東関東：真壁氏と佐竹氏の関係を中心に」、2018。）
 	# 元亀元(1570)年正月、重臣・信太氏を殺害しその城・木田余城を打入、二月から木田余城を居城とする（中根、〃、2018。）
 	# 天正6(1578)年七月、木田余城を失い、土浦城を居城とする（中根、〃、2018。）
 	#　天正14(1586)年二月、藤澤城を居城とする（中根、〃、2018。）
 	1602.1.6={
-		death=yes
+		death={
+			death_reason=death_old_age
+		}
 	}
 }
 10010403 = {
-	name=character_name_10010403 # Shigeharu
+	name=character_name_10010403 # Shigeharu, 成治
 #	dynasty=10000104 # Oda
 	dynasty_house="house_shgnt_hatta_oda" # Oda
 	father=10010405
 	religion="shinto"
 	culture="northern_kanto"
 	1449.7.12={
-		birth=yes
+		birth=yes # 「文安6(1449)年六月二十二日生」（『小田本宗支族系図』https://clioimg.hi.u-tokyo.ac.jp/viewer/image/idata/200/2075/1085/0141.tif）
 	}
 	1455.6.5={
 		effect = {
 			set_realm_capital = title:c_shgnt_tsukuha
 		}
 	}
+	1449.7.12={
+		give_nickname="nick_saemon_no_kami" # 「左衛門督」（『小田本宗支族系図』）
+	}
 	1514.5.15={
-		death=yes
+		death={
+			death_reason=death_old_age
+		}
 	}
 }
 10010404 = {
@@ -1949,21 +1967,28 @@
 		birth=yes
 	}
 	1540.1.1={
-		death=yes
+		death={
+			death_reason=death_old_age
+		}
 	}
 }
 10010405 = {
-	name=character_name_10010405 # Tomohisa
+	name=character_name_10010405 # Tomohisa, 朝久、「知久」（「デジタル版 日本人名大辞典+Plus」『コトバンク』）
 #	dynasty=10000104 # Oda
 	dynasty_house="house_shgnt_hatta_oda" # Oda
-	father=10010406
+	father=10010406 # 小田持家（「デジタル版 日本人名大辞典+Plus」『コトバンク』）
 	religion="shinto"
 	culture="northern_kanto"
 	1417.3.23={
 		birth=yes
 	}
+	1437.01.01={
+		give_nickname="nick_nakatsukasa_daihu" # 「中務大輔」（『小田本宗支族系図』https://clioimg.hi.u-tokyo.ac.jp/viewer/image/idata/200/2075/1085/0141.tif）
+	}
 	1455.6.5={
-		death=yes
+		death={
+			death_reason=death_ill # 「病死」（「デジタル版 日本人名大辞典+Plus」『コトバンク』）
+		}
 	}
 }
 10010406 = {
@@ -1976,15 +2001,18 @@
 	1402.1.1={
 		birth=yes
 	}
+	# 「応永9(1402)年継祖父跡」（『小田本宗支族系図』https://clioimg.hi.u-tokyo.ac.jp/viewer/image/idata/200/2075/1085/0141.tif）
 	1432.01.01={
 		give_nickname="nick_sanuki_no_kami" # 「讃岐守」# 宝徳2(1450)年四月時点、「小田讃岐守」（「足利成氏書状写」『鎌倉大草子』）
 	}
-	1481.1.1={
-		death=yes
+	1487.11.06={
+		death={
+			death_reason=death_old_age # 「文明19(1487)年十月廿一日卒八十六」（『小田本宗支族系図』）
+		}
 	}
 }
 10010407 = {
-	name=character_name_10010407 # Harutaka
+	name=character_name_10010407 # Harutaka, 治孝
 #	dynasty=10000104 # Oda
 	dynasty_house="house_shgnt_hatta_oda" # Oda
 	father=10010403
@@ -1993,12 +2021,18 @@
 	1472.1.1={
 		birth=yes
 	}
-	1496.1.1={
-		death=yes
+	1488.01.01={
+		give_nickname="nick_taro" # 「太郎」（『小田本宗支族系図』https://clioimg.hi.u-tokyo.ac.jp/viewer/image/idata/200/2075/1085/0141.tif）
+	}
+	1496.04.01={
+		death={
+			death_reason=death_murder # 「明応5(1496)年閏二月十八日死ス二十五」（『小田本宗支族系図』）
+			killer=10010408 # 「北条顕家」（「常陸小田治光、其弟北條顯家に殺さる、季弟政治、顯家を殺して、家を嗣ぐ」（『史料綜覧』）
+		}
 	}
 }
 10010408 = {
-	name=character_name_10010408 # Akiie
+	name=character_name_10010408 # Akiie, 顕家,顯家
 #	dynasty=10000104 # Oda
 	dynasty_house="house_shgnt_hatta_oda" # Oda
 	father=10010403
@@ -2007,8 +2041,15 @@
 	1474.1.1={
 		birth=yes
 	}
-	1496.1.1={
-		death=yes
+	1490.01.01={
+		give_nickname="nick_goro" # 「北條五郎」
+		dynasty_house="house_shgnt_hatta_hojo"
+	}
+	1496.04.01={
+		death={
+			death_reason=death_battle
+			killer=10010401 # 小田政治（『史料綜覧』）
+		}
 	}
 }
 10010409 = {
@@ -2023,7 +2064,9 @@
 		birth=yes
 	}
 	1550.1.1={
-		death=yes
+		death={
+			death_reason=death_natural_causes
+		}
 	}
 }
 10010410 = {
@@ -2041,7 +2084,7 @@
 	}
 }
 10010411 = {
-	name=character_name_10010411 # Moriharu
+	name=character_name_10010411 # Moriharu, 守治
 #	dynasty=10000104 # Oda
 	dynasty_house="house_shgnt_hatta_oda" # Oda
 	father=10010402
@@ -2049,6 +2092,9 @@
 	culture="northern_kanto"
 	1557.1.1={
 		birth=yes
+	}
+	1573.01.01={
+		give_nickname="nick_Hikotaro" # 「彦太郎」（「佐竹古文書」『史料綜覧』）
 	}
 	1610.1.1={
 		death=yes
