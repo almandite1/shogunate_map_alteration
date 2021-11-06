@@ -559,11 +559,11 @@ c_shgnt_kagoshima = {
     }
     1411.08.25 = {
         holder = 10060004 # Shimazu Hisatoyo
-		effect = {
-			title:b_shgnt_kagoshima_2 = {
-				set_title_name = b_shgnt_kagoshima_2_1 # Shimizu
-			}
-		}
+        effect = {
+            title:b_shgnt_kagoshima_2 = {
+                set_title_name = b_shgnt_kagoshima_2_1 # Shimizu
+            }
+        }
     }
     1425.02.09 = {
         holder = 10060005 # Shimazu Tadakuni
@@ -592,13 +592,13 @@ c_shgnt_kagoshima = {
     1539.01.01 = {
         holder = 10060000 # Shimazu Takahisa
     }
-	1550.01.01 = {
-		effect = {
-			title:b_shgnt_kagoshima_2 = {
-				set_title_name = b_shgnt_kagoshima_2_2 # Uchi
-			}
-		}
-	}
+    1550.01.01 = {
+        effect = {
+            title:b_shgnt_kagoshima_2 = {
+                set_title_name = b_shgnt_kagoshima_2_2 # Uchi
+            }
+        }
+    }
     1566.01.01 = {
         holder = 10060024 # Shimazu Yoshihisa
     }
@@ -759,13 +759,13 @@ c_shgnt_kukuchi = {
     1343.01.01 = {
         holder = 10066022 # Kikuchi Takemitsu
     }
-	1346.01.01 = {
-		effect = {
-			title:b_shgnt_kukuchi_1 = {
-				set_title_name = b_shgnt_kukuchi_1_1 # Kikuchi, 菊池城 a.k.a. 隈府城
-			}
-		}
-	}
+    1346.01.01 = {
+        effect = {
+            title:b_shgnt_kukuchi_1 = {
+                set_title_name = b_shgnt_kukuchi_1_1 # Kikuchi, 菊池城 a.k.a. 隈府城
+            }
+        }
+    }
     1373.12.29 = {
         holder = 10066021 # Kikuchi Takemasa
     }
@@ -827,13 +827,13 @@ c_shgnt_koyu = {
         liege = 0
         holder = 0
     }
-	1335.01.01 = {
-		effect = {
-			title:b_shgnt_koyu_4 = {
-				set_title_name = b_shgnt_koyu_4_1 # Tonogōri
-			}
-		}
-	}
+    1335.01.01 = {
+        effect = {
+            title:b_shgnt_koyu_4 = {
+                set_title_name = b_shgnt_koyu_4_1 # Tonogōri
+            }
+        }
+    }
     1380.08.01 = {
         holder = 10060509 # Ito Sukeyasu
     }
@@ -916,11 +916,11 @@ c_shgnt_kuma = {
     }
     1448.05.01 = {
         holder = 10066406 # Sagara Nagatsugu
-		effect = {
-			title:b_shgnt_kuma_1 = {
-				set_title_name = b_shgnt_kuma_1_1 # Hitoyoshi
-			}
-		}
+        effect = {
+            title:b_shgnt_kuma_1 = {
+                set_title_name = b_shgnt_kuma_1_1 # Hitoyoshi
+            }
+        }
     }
     1468.03.09 = {
         holder = 10066405 # Sagara Tametsugu
@@ -976,13 +976,13 @@ c_shgnt_kuwahara = {
         liege = 0
         holder = 0
     }
-	1333.07.04 = {
-		effect = {
-			title:b_shgnt_kuwahara_3 = {
-				set_title_name = b_shgnt_kuwahara_3_1 # Kagoshima, 鹿児嶋神社
-			}
-		}
-	}
+    1333.07.04 = {
+        effect = {
+            title:b_shgnt_kuwahara_3 = {
+                set_title_name = b_shgnt_kuwahara_3_1 # Kagoshima, 鹿児嶋神社
+            }
+        }
+    }
     1380.01.01 = {
         holder = 10060207 # Gamo Kiyoaki
     }
@@ -1032,6 +1032,13 @@ c_shgnt_kami_mashiki = {
     1185.04.25 = {
         liege = 0 # 
         holder = 0 # Battle of Dan-no-ura
+    }
+    1207.01.01={
+        effect = {
+            title:b_shgnt_kami_mashiki_6 = {
+                set_title_name = b_shgnt_kami_mashiki_6_1 # Iwao,岩尾城
+            }
+        }
     }
     1210.01.01 = {
         holder = 10041449 # Aso Koretsugu
@@ -1085,6 +1092,13 @@ c_shgnt_kami_mashiki = {
     1517.01.01 = {
         holder = 10066201 # Aso Koretoyo
     }
+    1543.01.01={
+        effect = {
+            title:b_shgnt_shimo_mashiki_5 = {
+                set_title_name = b_shgnt_shimo_mashiki_5_1 # Katashida,堅志田城
+            }
+        }
+    }
     1559.12.05 = {
         holder = 10066204 # Aso Koremasa
     }
@@ -1112,11 +1126,11 @@ c_shgnt_miyazaki = {
     1446.01.01 = {
         liege = 0 # 
         holder = 10060507 # Ito Suketaka
-		effect = {
-			title:b_shgnt_miyazaki_1 = {
-				set_title_name = b_shgnt_miyazaki_1_1 # Sadowara
-			}
-		}
+        effect = {
+            title:b_shgnt_miyazaki_1 = {
+                set_title_name = b_shgnt_miyazaki_1_1 # Sadowara
+            }
+        }
     }
     1485.06.10 = {
         holder = 10060501 # Ito Tadasuke
@@ -1154,6 +1168,13 @@ c_shgnt_morokata = {
         liege = 0 # 
         holder = 0 # Battle of Dan-no-ura
     }
+    1333.07.04={
+        effect = {
+            title:b_shgnt_morokata_6 = {
+                set_title_name = b_shgnt_morokata_6_1 # Tokumitsu,徳満城
+            }
+        }
+    }
     1352.01.01 = {
         liege = d_shgnt_satsuma # 
         holder = 10060258 # Hongo Suketada
@@ -1164,13 +1185,13 @@ c_shgnt_morokata = {
     1402.01.01 = {
         holder = 10060256 # Hongo Tomohisa
     }
-	1375.01.01 = {
-		effect = {
-			title:b_shgnt_morokata_5 = {
-				set_title_name = b_shgnt_morokata_5_1 # Miyakonojō
-			}
-		}
-	}
+    1375.01.01 = {
+        effect = {
+            title:b_shgnt_morokata_5 = {
+                set_title_name = b_shgnt_morokata_5_1 # Miyakonojō
+            }
+        }
+    }
     1420.01.01 = {
         holder = 10060255 # Hongo Mochihisa
     }
@@ -1189,6 +1210,11 @@ c_shgnt_morokata = {
     }
     1521.01.01 = {
         holder = 10060250 # Hongo Tadasuke
+        effect = {
+            title:b_shgnt_morokata_3 = {
+                set_title_name = b_shgnt_morokata_3_1 # Nonomidani,野々美谷城
+            }
+        }
     }
     1559.12.14 = {
         liege = d_shgnt_satsuma # 
@@ -1440,13 +1466,13 @@ c_shgnt_takuma = {
         liege = 0 # 
         holder = 0 # Battle of Dan-no-ura
     }
-	1333.07.04 = {
-		effect = {
-			title:b_shgnt_takuma_1 = {
-				set_title_name = b_shgnt_takuma_1_1 # Suizenji, 水前寺
-			}
-		}
-	}
+    1333.07.04 = {
+        effect = {
+            title:b_shgnt_takuma_1 = {
+                set_title_name = b_shgnt_takuma_1_1 # Suizenji, 水前寺
+            }
+        }
+    }
     1407.04.25 = {
         liege = d_shgnt_higo # 
         holder = 10066019 # Kikuchi Kanetomo
@@ -1564,13 +1590,13 @@ c_shgnt_kumake = {
     1185.04.25 = {
         holder = 12810310 # Kozuma Iezane
     }
-	1200.01.01 = {
-		effect = {
-			title:b_shgnt_kumake_2 = {
-				set_title_name = b_shgnt_kumake_2_1 # Akaogi, 赤尾木城
-			}
-		}
-	}
+    1200.01.01 = {
+        effect = {
+            title:b_shgnt_kumake_2 = {
+                set_title_name = b_shgnt_kumake_2_1 # Akaogi, 赤尾木城
+            }
+        }
+    }
     1210.01.01 = {
         holder = 10060172 # Higo Tokinobu
     }
@@ -1639,13 +1665,13 @@ c_shgnt_usuki = {
     1440.01.01 = {
         holder = 10060754 # Tsuchimochi Kaneshige
     }
-	1441.01.01 = {
-		effect = {
-			title:b_shgnt_usuki_5 = {
-				set_title_name = b_shgnt_usuki_5_1 # Matsuo
-			}
-		}
-	}
+    1441.01.01 = {
+        effect = {
+            title:b_shgnt_usuki_5 = {
+                set_title_name = b_shgnt_usuki_5_1 # Matsuo
+            }
+        }
+    }
     1470.01.01 = {
         holder = 10060753 # Tsuchimochi Tsunetsuna
     }
@@ -1720,13 +1746,13 @@ c_shgnt_uto = {
         liege = 0 # 
         holder = 10066301 # Nawa Akitada
     }
-	1504.01.01 = {
-		effect = {
-			title:b_shgnt_uto_1 = {
-				set_title_name = b_shgnt_uto_1_1 # Uto
-			}
-		}
-	}
+    1504.01.01 = {
+        effect = {
+            title:b_shgnt_uto_1 = {
+                set_title_name = b_shgnt_uto_1_1 # Uto
+            }
+        }
+    }
     1520.01.01 = {
         holder = 10066300 # Nawa Takeaki
     }
@@ -2070,9 +2096,9 @@ d_shgnt_satsuma = {
     }
     1519.05.12 = {
         holder = 10060002 # Shimazu Katsuhisa
-		effect = {
-			set_capital_county = title:c_shgnt_kagoshima
-		}
+        effect = {
+            set_capital_county = title:c_shgnt_kagoshima
+        }
     }
     1527.01.01 = {
         holder = 10060000 # Shimazu Takahisa
@@ -2105,13 +2131,13 @@ c_shgnt_higo_yatsushiro = {
         liege = 0
         holder = 0
     }
-	1335.01.01 = {
-		effect = {
-			title:b_shgnt_higo_yatsushiro_5 = {
-				set_title_name = b_shgnt_higo_yatsushiro_5_1 # Furumoto
-			}
-		}
-	}
+    1335.01.01 = {
+        effect = {
+            title:b_shgnt_higo_yatsushiro_5 = {
+                set_title_name = b_shgnt_higo_yatsushiro_5_1 # Furumoto
+            }
+        }
+    }
     1390.01.01 = {
         holder = 10066452 # Sagara Yoritada
     }
@@ -2596,6 +2622,13 @@ c_shgnt_minami_morokata = {
         liege = 0 # 
         holder = 0 # Battle of Dan-no-ura
     }
+    1333.07.04={
+        effect = {
+            title:b_shgnt_minami_morokata_1 = {
+                set_title_name = b_shgnt_minami_morokata_1_1 # Shibushi,志布志城
+            }
+        }
+    }
     1352.01.01 = {
         holder = 10060258 # Hongo Suketada
     }
@@ -2639,6 +2672,13 @@ c_shgnt_hyuga_naka = {
     1185.04.25 = {
         liege = 0 # 
         holder = 0 # Battle of Dan-no-ura
+    }
+    1333.07.04={
+        effect = {
+            title:b_shgnt_hyuga_naka_4 = {
+                set_title_name = b_shgnt_hyuga_naka_4_1 # Kushima,櫛間城
+            }
+        }
     }
     1352.01.01 = {
         holder = 10060258 # Hongo Suketada
@@ -3152,16 +3192,16 @@ c_shgnt_ata = {
         holder = 10060005 # Shimazu Tadakuni
     }
     1460.01.01 = {
-		liege = d_shgnt_satsuma # Satsuma Tadakuni
+        liege = d_shgnt_satsuma # Satsuma Tadakuni
         holder = 10060009 # Shimazu Tomohisa
-		effect = {
-			title:b_shgnt_ata_1 = {
-				set_title_name = b_shgnt_ata_1_1 # Tabuse
-			}
-		}
+        effect = {
+            title:b_shgnt_ata_1 = {
+                set_title_name = b_shgnt_ata_1_1 # Tabuse
+            }
+        }
     }
     1493.03.27 = {
-		liege = d_shgnt_satsuma
+        liege = d_shgnt_satsuma
         holder = 10060021 # Shimazu Yukihisa
     }
     1512.1.1={
@@ -3264,13 +3304,13 @@ c_shgnt_takaki = {
         liege = 0 # 
         holder = 0 # Battle of Dan-no-ura
     }
-	1333.07.04 = {
-		effect = {
-			title:b_shgnt_takaki_1 = {
-				set_title_name = b_shgnt_takaki_1_1 # Nitta, 新田神社
-			}
-		}
-	}
+    1333.07.04 = {
+        effect = {
+            title:b_shgnt_takaki_1 = {
+                set_title_name = b_shgnt_takaki_1_1 # Nitta, 新田神社
+            }
+        }
+    }
     1422.01.01 = {
         holder = 10060004 # Shimazu Hisatoyo
     }
