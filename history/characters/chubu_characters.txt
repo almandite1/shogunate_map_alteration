@@ -1051,7 +1051,7 @@
 	}
 }
 10025405 = {
-	name=character_name_10025405 # Kageto, 景任
+	name=character_name_10025405 # Kageto
 	dynasty=10000266 # Toyama
 	father=10025403 # Toyama Kagesaki
 	religion="shinto"
@@ -1059,13 +1059,8 @@
 	1530.1.1={
 		birth=yes
 	}
-	1555.1.1={ # 天文末から弘治年間（1555～1558）、（谷口克広、『尾張・織田一族』、2008。）
-		add_spouse=10029133 # 織田信貞娘・おつやの方
-	}
 	1572.9.21={
-		death={
-			death_reason=death_ill # 病死（谷口、2008。）
-		}
+		death=yes
 	}
 }
 10025406={
@@ -2345,10 +2340,8 @@
 	1411.1.1={
 		birth=yes
 	}
-	1480.4.1={ # 文明12(1480)年二月（谷口克広、『尾張・織田一族』、2008。）
-		death={
-			death_reason=death_ill # 病死（谷口、2008。）
-		}
+	1480.4.1={
+		death=yes
 	}
 }
 10025607 = {
@@ -2612,7 +2605,7 @@
 	}
 }
 10025632 = {
-	name=character_name_10025632 # Mitsuhide, 光秀
+	name=character_name_10025632 # Mitsuhide
 #	dynasty=10000269 # Akechi
 	dynasty_house = "house_shgnt_toki_akechi"
 	father=10025631
@@ -2653,8 +2646,8 @@
 			}
 		}
 	}
-	1575.08.08={ # 天正3(1575)年七月三日
-		give_nickname="nick_the_hyuga_no_kami" # 「惟任日向守」の勅許（谷口克広、『尾張・織田一族』、2008。）
+	1575.7.1={
+		give_nickname="nick_the_hyuga_no_kami"
 		effect = {
 			add_trait = "jugoi_ge"
 		}
@@ -3587,8 +3580,8 @@
 	}
 }
 10025930 = {
-	name=character_name_10025930 # Nagachika, 長近
-	dynasty=10000288 # Kanamori, 金森
+	name=character_name_10025930 # Nagachika
+	dynasty=10000288 # Kanamori
 	religion="shinto"
 	culture="western_chubu"
 	martial=9
@@ -3605,14 +3598,13 @@
 	1524.1.1={
 		birth=yes
 	}
-	# 織田信長の馬廻衆（谷口克広、『尾張・織田一族』、2008。）
 	1608.9.20={
 		death=yes
 	}
 }
 10025940={
-	name=character_name_10025940 # Yoritaka, 頼隆
-	dynasty=10000766 # Hachiya, 蜂屋
+	name=character_name_10025940 # Yoritaka
+	dynasty=10000766 # Hachiya
 	religion="shinto"
 	culture="western_chubu"
 	trait="education_martial_3"
@@ -3634,7 +3626,6 @@
 	1555.1.1={
 		employer = 10029120 # Oda Nobunaga
 	}
-	# 織田信長の馬廻衆（谷口克広、『尾張・織田一族』、2008。）
 	1589.11.3={
 		death=yes
 	}
@@ -5970,7 +5961,7 @@
 	}
 }
 10029001 = {
-	name=character_name_10029001 # Yoshitatsu, 義達、義敦
+	name=character_name_10029001 # Yoshitatsu, 義敦
 	dynasty=10000279 # Shiba
 	father=10029021 # 斯波義寛
 	martial=5
@@ -6427,8 +6418,7 @@
 	name=character_name_10029100 # Nobuhide, 信秀
 	#dynasty=10000280 # Oda
 	dynasty_house = "house_shgnt_oda_danjo" # 織田弾正忠家
-	father=10029118 # 織田信貞
-	#mother= # TODO: 含笑院殿茂嶽凉繁大禅定尼、いぬゐ《大永7(1527)年六月二十四日死去》
+	father=10029118
 	martial=8
 	diplomacy=8
 	intrigue=8
@@ -6445,55 +6435,35 @@
 		birth=yes
 	}
 	1526.1.1={
-		give_nickname="nick_saburo" # 「三郎」
+		give_nickname="nick_saburo"
 	}
-	# 大永6(1526)年三月、「三郎」（『宗長手記』）
 	1527.1.1={
 		give_nickname="nick_danjo_daichu"
 		effect = {
 			set_realm_capital = title:c_shgnt_nakashima # Shobata, 勝幡城
-			add_gold = 5000 # 天文12(1543)年内裏修理費用4000貫献上
+			add_gold = 5000
 		}
 	}
 	1532.1.1={
 		add_spouse=10029158 # Dota Gozen
 	}
-	# 天文2(1533)年七月、京都から飛鳥井雅綱と山科言継が来訪（谷口克広、『尾張・織田一族』、2008。）
 	1534.01.01 = {
 		effect = {
 			set_realm_capital = title:c_shgnt_aichi # Nagoya, 那古野城 → Furuwatari, 古渡城 → Suemori, 末森城
 		}
 	}
-	# 天文7(1538)年頃、那古野城を乗っ取り（谷口、2008。）
-	# 天文7(1538)年九月二十四日、那古野天王坊に安堵判物発給（『尾張国寺社領文書』）（谷口、2008。）
-	# 天文8(1539)年三月二十日、熱田の加藤延隆に特権保証（『加藤文書』）→熱田を勢力下に（谷口、2008。）
 	1540.1.1={
 		add_concubine=10029551
-		effect={
-			add_gold=700 # 天文9(1540)年頃、伊勢神宮外宮に700貫寄進（谷口、2008。）
-		}
 	}
-	# 天文9(1540)年六月、三河侵攻（谷口、2008。）
-	# 天文9(1540)年六月六日、安城城を攻略（谷口、2008。）
-	1541.01.01={
-		give_nickname="nick_the_mikawa_no_kami" # 「三河守」# 天文10(1541)年、朝廷から三河守に任じられる（『外宮引付』）
-	}
-	# 天文11(1542)年八月、今川軍と小豆坂で合戦（谷口、2008。）
-	# 天文13(1544)年九月、美濃に侵攻、大垣城攻略（谷口、2008。）
-	# 天文13(1544)年九月二十二日、稲葉山城・斎藤道三攻撃、敗退（谷口、2008。）
-	# 天文13(1544)年十一月下旬、連歌師谷宗牧が来訪（『東国紀行』）
-	1545.1.1={
+	1550.1.1={
 		give_nickname="nick_bingo_no_kami"
 	}
-	# 天文17(1548)年十一月、清洲の織田大和守の軍が古渡城攻撃（谷口、2008。）
-	# 天文18(1549)年、清洲方と和睦、斎藤道三と和睦
-	# 天文18(1549)年、末森城を築城、転居
-	1551.4.8={ # 天文21(1552)年三月三日（谷口、2008。）
+	1551.4.8={
 		death=yes
 	}
 }
 10029101 = {
-	name=character_name_10029101 # Michikatsu, 達勝
+	name=character_name_10029101 # Michikatsu
 	#dynasty=10000280 # Oda
 	dynasty_house = "house_shgnt_oda_yamato"
 	father=10029119
@@ -6509,18 +6479,9 @@
 	1501.1.1={
 		birth=yes
 	}
-	# 永正13(1516)年十二月一日時点、守護代（谷口克広、『尾張・織田一族』、2008。）
-	# 享禄3(1530)年五月、「織田大和守上洛」（『厳助大僧正記』）
-	# 天文12(1543)年二月二十一日時点、守護代（谷口、2008。）
-	1531.01.01={
-		give_nickname="nick_the_yamato_no_kami" # 「大和守」（谷口、2008。）
-	}
-	# 天文19(1550)年十二月十七日、『密蔵院文書』「大和守殿」は達勝を指す可能性が高い（谷口、2008。）
-	# 天文22(1553)年までには「織田大和守勝秀」（『尾張国寺社領文書』）と守護代を交代（谷口、2008。）
 	1551.1.1={
 		death=yes
 	}
-	# 清須織田当主
 }
 10029102 = {
 	name=character_name_10029102 # Nobuyasu
@@ -6551,7 +6512,7 @@
 	}
 }
 10029103 = {
-	name=character_name_10029103 # Yukihiro, 将広、TODO:斯波義将（よしまさ）の偏諱なら名前読みは「まさひろ」か
+	name=character_name_10029103 # Yukihiro
 	dynasty=10000280 # Oda
 	father=12320200 # Oda Nobumasa
 	martial=7
@@ -6566,19 +6527,14 @@
 	1340.1.1={
 		birth=yes
 	}
-	# 斯波義将の偏諱か（谷口克広、『尾張・織田一族』、2008。）
-	1370.01.01={
-		give_nickname="nick_hyogo_no_suke" # 「兵庫助」
-	}
-	# 明徳4(1393)年六月十七日置文、「信昌嫡男兵庫助藤原将広」（『剣神社文書』）
 	1400.1.1={
 		death=yes
 	}
 }
 10029104 = {
-	name=character_name_10029104 # Josho, 常昌、常松、伊勢入道、「常松」は法号（谷口克広、『尾張・織田一族』、2008。）
+	name=character_name_10029104 # Josho
 	dynasty=10000280 # Oda
-	father=10029103 # 織田将広
+	father=10029103
 	martial=8
 	diplomacy=9
 	intrigue=8
@@ -6591,21 +6547,14 @@
 	1363.1.1={
 		birth=yes
 	}
-	# 応永9(1402)年七月二十日時点、諱が「教広」である可能性がある（河村昭一）
-	# 応永9(1402)年七月二十日時点、尾張守護代（谷口、2008。）
-	1428.09.14={
-		trait=ill # 正長元年（1428年）八月六日以前、「先日織田伊勢入道所労」（谷口、2008。）
-	}
-	1429.1.1={ # 永享3(1431)年三月八日以前に死亡（谷口、2008。）
-		death={
-			death_reason=death_ill
-		}
+	1429.1.1={
+		death=yes
 	}
 }
 10029105 = {
-	name=character_name_10029105 # Jochiku, 常竹、出雲入道、左京亮入道、「常竹」は法号（谷口克広、『尾張・織田一族』、2008。）
+	name=character_name_10029105 # Jochiku
 	dynasty=10000280 # Oda
-	father=10029103 # 織田将広
+	father=10029103
 	martial=7
 	diplomacy=8
 	intrigue=9
@@ -6621,17 +6570,12 @@
 	1400.1.1={
 		dynasty_house = "house_shgnt_oda_yamato"
 	}
-	1402.01.01={ # 応永9(1402)年七月二十日「織田左京亮宛て教広書状」
-		give_nickname="nick_the_sakyo_no_suke" # 「左京亮」
-	}
-	# 応永9(1402)年七月二十日時点、在尾張国下津、又守護代（谷口、2008。）
-	# 応永34(1427)年十二月二十五日～応永35(1428)年閏三月二十三日、死亡したか引退（谷口、2008。）
 	1436.1.1={
 		death=yes
 	}
 }
 10029106 = {
-	name=character_name_10029106 # Norinaga, 教長
+	name=character_name_10029106 # Norinaga
 	dynasty=10000280 # Oda
 	father=10029104
 	martial=8
@@ -6646,23 +6590,14 @@
 	1390.1.1={
 		birth=yes
 	}
-	# 斯波義教から偏諱（谷口克広、『尾張・織田一族』、2008。）
-	1420.01.01={
-		give_nickname="nick_kageyu" # 「勘解由」 TODO:「勘解由左衛門」
-	}
-	# 応永35(1428)年閏三月二十三日、「織田勘解由左衛門」が尾張国又守護代
-	# 翌年に守護代に昇進（谷口克広、『尾張・織田一族』、2008。）
-	# 正長2(1429)年四月二十九日書状にある諱「朝長」は誤写（谷口、2008。）
-	# 正長2(1429)年十一月二十八日、「教長」
-	# 永享3(1431)年三月十九日が終見（谷口、2008。）
 	1431.1.1={
 		death=yes
 	}
 }
 10029107 = {
-	name=character_name_10029107 # Satohiro, 郷広
+	name=character_name_10029107 # Satohiro
 	dynasty=10000280 # Oda
-	father=10029104 # 織田常昌、（谷口克広、『尾張・織田一族』、2008。）では郷広は淳広の子ではないかと記述
+	father=10029104
 	martial=7
 	diplomacy=8
 	intrigue=8
@@ -6675,19 +6610,14 @@
 	1398.1.1={
 		birth=yes
 	}
-	# 斯波義郷の偏諱（谷口、2008。）
-	# 永享年間（1429～1441）、尾張国守護代に就任（谷口、2008。）
-	# 嘉吉元年（1441年）十二月二十一日以前、尾張国で狼藉を行い、斯波持種・織田一族から絶交される。逃亡。（『建内記』)
-	# 宝徳2(1450)年七月、将軍・足利義政が郷広を織田家惣領・尾張守護代に復帰させようとする（谷口、2008。）
 	1451.1.1={
 		death=yes
 	}
-	# 郷広逐電後の尾張守護代は郷広弟の久広（谷口、2008。）
 }
 10029108 = {
-	name=character_name_10029108 # Toshihiro, 敏広
+	name=character_name_10029108 # Toshihiro
 	dynasty=10000280 # Oda
-	father=10029107 # 織田郷広（『応仁略記』）
+	father=10029107
 	martial=8
 	diplomacy=7
 	intrigue=9
@@ -6700,27 +6630,19 @@
 	1422.1.1={
 		birth=yes
 	}
-	1438.01.01={
-		give_nickname="nick_the_ise_no_kami" # 「伊勢守」（谷口克広、『尾張・織田一族』、2008。）
-	}
-	# TODO: 斎藤妙椿の娘と婚姻（谷口、2008。）
-	# 尾張守護代（谷口、2008。）
 	1479.01.01 = {
 		effect={
 			set_realm_capital=title:c_shgnt_niwa
 		}
 	}
-	1481.3.1={ # 文明13(1481)年三月三日以前に敏定に負けて戦死したと推測（新井喜久夫、『織田信長事典』）、「そこまで読み取ることは困難」（谷口、2008。）
-		death={
-			death_reason=death_battle
-			killer=10029114 # 織田敏定
-		}
+	1481.3.1={
+		death=yes
 	}
 }
 10029109 = {
-	name=character_name_10029109 # Hirochika, 広近
+	name=character_name_10029109 # Hirochika
 	dynasty=10000280 # Oda
-	father=10029107 # 織田郷広、敏広の弟（谷口克広、『尾張・織田一族』、2008。）
+	father=10029107
 	martial=9
 	diplomacy=8
 	intrigue=8
@@ -6733,20 +6655,12 @@
 	1434.1.1={
 		birth=yes
 	}
-	1450.01.01={
-		give_nickname="nick_Yojuro" # 「与十郎」（谷口、2008。）
-	}
-	# 文正元年（1466年）八月下旬、敏広の命で軍勢を率いて上洛（谷口、2008。）
-	1474.01.01={
-		give_nickname="nick_totoumi_no_kami" # 「遠江守」（谷口、2008。）
-	}
-	# 文明13(1481)年十月八日、足利義政らへ礼物（太刀、銭千疋）
 	1491.9.1={
 		death=yes
 	}
 }
 10029110 = {
-	name=character_name_10029110 # Tohiro, 寛広
+	name=character_name_10029110 # Tohiro
 	dynasty=10000280 # Oda
 	father=10029109
 	martial=7
@@ -6758,7 +6672,7 @@
 	religion="shinto"
 	culture="western_chubu"
 	prowess=15
-	1458.1.1={ # TODO:生年を遅らせる
+	1458.1.1={
 		birth=yes
 	}
 	1481.03.01 = {
@@ -6766,20 +6680,7 @@
 			set_realm_capital=title:c_shgnt_niwa
 		}
     }
-	# 文明13(1481)年七月二十三日時点、織田惣領家当主、「千代夜叉丸」、在京（『親元日記』）
-	# 文明13(1481)年十月八日、足利義政らへ礼物（太刀、馬、銭3000疋）
-	1483.01.01={
-		give_nickname="nick_Yojio" # 「与次郎」（谷口克広、『尾張・織田一族』、2008。）
-		# 斯波義寛の偏諱
-	}
-	# 長享元年（1487）十月二日、六角征伐に従軍、「織田与次郎」
-	1487.11.01={ # 長享元年（1487年）十月（谷口、2008。）
-		give_nickname="nick_hyogo_no_suke" # 「兵庫助」（谷口、2008。）
-	}
-	# 延徳3(1491)年八月、足利義材の六角征伐に従軍（谷口、2008。）
-	# TODO: 斎藤妙純養女と婚姻（谷口、2008。）
-	# 永正元年（1504年）十二月十三日の密蔵院宛て寄進状が終見（谷口、2008。）
-	1505.01.18={
+	1504.1.1={
 		death=yes
 	}
 }
@@ -6836,7 +6737,7 @@
 	}
 }
 10029113 = {
-	name=character_name_10029113 # Hisanaga, 久長
+	name=character_name_10029113 # Hisanaga
 	#dynasty=10000280 # Oda
 	dynasty_house = "house_shgnt_oda_yamato"
 	father=10029105
@@ -6854,22 +6755,16 @@
 	}
 	1424.1.1={
 		add_spouse=10030054
-		give_nickname="nick_hyogo_no_suke" # 「兵庫助」（谷口克広、『尾張・織田一族』、2008。）
-	}
-	1434.01.01={
-		give_nickname="nick_the_yamato_no_kami" # 「大和守」（谷口、2008。）
 	}
 	1472.1.1={
 		death=yes
 	}
-	# 守護代敏広時代（1452～1477）の人物
-	# 又守護代（谷口、2008。）
 }
 10029114 = {
-	name=character_name_10029114 # Toshisada, 敏定、常英
+	name=character_name_10029114 # Toshisada
 	#dynasty=10000280 # Oda
 	dynasty_house = "house_shgnt_oda_yamato"
-	father=10029113 # 又守護代・織田大和守久長の子（谷口克広、『尾張・織田一族』、2008。）
+	father=10029113
 	mother=10030054
 	martial=9
 	diplomacy=8
@@ -6883,33 +6778,8 @@
 	1439.1.1={
 		birth=yes
 	}
-	1455.01.01={
-		give_nickname="nick_goro" # 「五郎」（谷口、2008。）
-	}
-	1469.01.01={
-		give_nickname="nick_the_yamato_no_kami" # 「大和守」（谷口、2008。）
-	}
-	# 文明8(1476)年十一月十三日夜、下津城を焼き討ちし敏広と戦う（『和漢合符』）
-	# 文明10(1478)年八月、在京、幕府から尾張守護代に補任（谷口克広、『尾張・織田一族』、2008。）
-	# 文明10(1478)年九月下旬、尾張に入国（谷口克広、『尾張・織田一族』、2008。）
-	# 文明10(1478)年十月、尾張国内の戦闘で勝利（『蜷川親元日記』）
-	# 文明10(1478)年十二月四日、敏広援軍の斎藤妙椿軍が尾張に来たため、清洲に籠城
-	1479.01.01={
-		trait="one_eyed" # 左目を射られて隻眼になる（『織田敏定寿像賛』）
-	}
-	# 文明11(1479)年一月十九日、敏広・妙椿と和睦、尾張二郡（海東＋中島or春日井）を得る
-	# 文明13(1481)年十月八日、足利義政らへ礼物（銭1000疋）
-	# 文明14(1482)年七月十三日、清洲城で日蓮宗法論、敏定は本圀寺派（谷口、2008。）
-	# 長享元年（1487）十月二日、六角征伐に従軍（谷口、2008。）
-	# 長享2(1488)年三月四日、六角征伐から帰国（谷口、2008。）
-	# 長享2(1488)年九月二十六日以前、尾張国内で紛争、織田与九郎を攻め滅ぼす（『蔭涼軒日録』）
-	# 延徳3(1491)年八月、足利義材の六角征伐に従軍（谷口、2008。）
-	# 延徳3(1491)年十一月十八日、大津八町町道場の戦いで六角政綱と討ち取る（谷口、2008。）
-	# 延徳4(1492)年三月二十九日、愛智川の戦いで大勝利（谷口、2008。）
-	1495.7.1={ # 明応4(1495)年
-		death={
-			death_reason=death_ill # 石丸利光救援のため出陣中に病死（谷口、2008。）
-		}
+	1495.7.1={
+		death=yes
 	}
 }
 10029115 = {
@@ -6938,7 +6808,7 @@
 	}
 }
 10029116 = {
-	name=character_name_10029116 # Tosada, 寛定
+	name=character_name_10029116 # Tosada
 	#dynasty=10000280 # Oda
 	dynasty_house = "house_shgnt_oda_yamato"
 	father=10029114
@@ -6954,22 +6824,12 @@
 	1465.1.1={
 		birth=yes
 	}
-	1481.01.01={
-		give_nickname="nick_goro" # 「五郎」（谷口克広、『尾張・織田一族』、2008。）
-	}
-	# TODO:　石丸利光の娘と婚姻（谷口、2008。）
-	1490.01.01={
-		give_nickname="nick_the_omi_no_kami" # 「近江守」（谷口、2008。）
-	}
-	1495.9.1={ # 明応4(1495)年九月
-		death={
-			death_reason=death_battle # 岩倉方との戦いで惨敗、弟一人と戦死
-			killer=10029110 # 織田寛広
-		}
+	1495.9.1={
+		death=yes
 	}
 }
 10029117 = {
-	name=character_name_10029117 # Tomura, 寛村
+	name=character_name_10029117 # Tomura
 	#dynasty=10000280 # Oda
 	dynasty_house = "house_shgnt_oda_yamato"
 	father=10029114
@@ -6985,19 +6845,15 @@
 	1468.1.1={
 		birth=yes
 	}
-	1494.01.01={
-		give_nickname="nick_rokuro" # 「六郎」（谷口克広、『尾張・織田一族』、2008。）
-	}
 	1503.1.1={
 		death=yes
 	}
-	# 清洲織田寛定の次の当主
 }
 10029118 = {
-	name=character_name_10029118 # Nobusada, 信貞、月巌（『信長公記』）
+	name=character_name_10029118 # Nobusada
 	#dynasty=10000280 # Oda
 	dynasty_house = "house_shgnt_oda_danjo"
-	father=10029125 # 織田良信、「良信の子が信貞であると考えるのが自然」（谷口克広、『尾張・織田一族』、2008。）
+	father=10029125
 	martial=7
 	diplomacy=9
 	intrigue=9
@@ -7010,23 +6866,21 @@
 	1488.1.1={
 		birth=yes
 	}
-	# 永正13(1516)年十二月一日『妙興寺文書』「織田弾正忠□□」「信貞」
 	1520.01.01 = {
 		effect={
 			set_realm_capital=title:c_shgnt_nakashima # Shobata
 		}
 		give_nickname = "nick_danjo_daichu"
 	}
-	# 大永6(1526)年三月、「織田霜台」（『宗長手記』）
-	1527.1.1={ # 大永7(1527)年六月二十四日以前（谷口、2008。）
+	1538.1.1={
 		death=yes
 	}
 }
 10029119 = {
-	name=character_name_10029119 # Michisada, 達定
+	name=character_name_10029119 # Michisada
 	#dynasty=10000280 # Oda
 	dynasty_house = "house_shgnt_oda_yamato"
-	father=10029116 # 「寛村の子ではなく、寛定の子であろうか」（谷口克広、『尾張・織田一族』、2008。）
+	father=10029116
 	martial=8
 	diplomacy=8
 	intrigue=7
@@ -7039,20 +6893,12 @@
 	1483.1.1={
 		birth=yes
 	}
-	1499.01.01={
-		give_nickname="nick_goro" # 「五郎」（谷口、2008。）
-		# 斯波義達の偏諱、守護代
+	1513.1.1={
+		death=yes
 	}
-	1513.06.08={ # 永正10(1513)年四月十四日夜（『定光寺年代記』）または五日五日（『東寺過去帳』）
-		death={
-			death_reason=death_battle
-			killer=10029001 # 斯波義達（谷口、2008。）
-		}
-	}
-	# 清洲の大和守家当主
 }
 10029120 = {
-	name=character_name_10029120 # Nobunaga, 信長、吉法師（『信長公記』）
+	name=character_name_10029120 # Nobunaga, 信長
 	#dynasty=10000280 # Oda
 	dynasty_house = "house_shgnt_oda_danjo"
 	father=10029100 # Oda Nobuhide, 織田信秀
@@ -7074,10 +6920,9 @@
 	culture="western_chubu"
 	prowess=11
 	dna=10029120_oda_nobunaga
-	1534.6.23={ # 天文3(1534)年の生まれ（谷口克広、『尾張・織田一族』、2008。）
+	1534.6.23={
 		birth=yes
 	}
-	# 天文15(1546)年、十三歳で元服（『信長公記』）
 	1549.3.23={
 		add_spouse=10025460 # Kicho, daughter of Saito Dosan
 	}
@@ -7087,35 +6932,25 @@
 	1552.3.27={
 		give_nickname="nick_kazusa_no_suke"
 	}
-	# 天文21(1552)年八月、清洲織田勢と萱津で戦闘し勝利、松葉城・深田城を取り返す（谷口、2008。）
-	# 天文23(1554)年、清洲城を占領（谷口、2008。）
 	1555.1.1={
 		effect = {
 			set_realm_capital = title:c_shgnt_nishi-kasugai # Kiyosu
 		}
 	}
-	# 弘治2(1556)年、稲生の戦いで勝利（谷口、2008。）
-	# 永禄2(1559)年春、岩倉城を攻略。一月中か（谷口、2008。）
-	# 永禄2(1559)年二月二日、上京して足利義輝に謁見（谷口、2008。）
-	# 永禄3(1560)年五月十九日、桶狭間の戦いで勝利、沓掛城・鳴海城・大高城を攻略（谷口、2008。）
-	1563.01.01 = { # 永禄6(1563)年頃、小牧山城に転居
+	1563.01.01 = {
 		effect={
 			set_realm_capital=title:c_shgnt_higashi-kasugai # Komakiyama
 		}
 	}
-	# 永禄8(1565)年、犬山城の織田信清を攻略
-	# 永禄8(1565)年までに、美濃の鵜沼・猿啄・堂洞・加治田・兼山を攻略
 	1566.1.1={
 		give_nickname="nick_owari_no_kami"
 	}
-	# 永禄10(1567)年八月一日、西美濃三人衆が寝返ってくる
-	1567.10.1={ # 永禄10(1567)年八月、稲葉山城攻略
+	1567.10.1={
 		effect = {
 			set_primary_title_to = title:d_shgnt_mino
 			set_realm_capital = title:c_shgnt_mino_atsumi
 		}
 	}
-	# 永禄10(1567)年十一月、天下布武の朱印を使いはじめる
 	1568.10.28={
 		give_nickname="nick_the_danjo_shochu"
 		effect = {
@@ -7135,30 +6970,29 @@
 		}
 	}
 	1574.3.18={
-		give_nickname="nick_the_sangi" # 「参議」
+		give_nickname="nick_the_sangi"
 		effect = {
 			remove_trait = "shoshii_ge"
 			add_trait = "jusanmi"
 		}
 	}
-	1575.12.06={ # 天正3(1575)年十一月四日
-		give_nickname="nick_gon_dai_nagon" # 「権大納言」
+	1575.11.4={
+		give_nickname="nick_gon_dai_nagon"
 	}
-	# 天正3(1575)年十一月七日、「右近衛大将」
 	1575.12.30={
 		effect = {
 			set_realm_capital = title:c_shgnt_gamafu
 		}
 	}
 	1576.11.13={
-		give_nickname="nick_the_nai_daijin" # 「内大臣」
+		give_nickname="nick_the_nai_daijin"
 		effect = {
 			remove_trait = "jusanmi"
 			add_trait = "shosanmi"
 		}
 	}
 	1577.11.16={
-		give_nickname="nick_the_u_daijin" # 「右大臣」
+		give_nickname="nick_the_u_daijin"
 		effect = {
 			remove_trait = "shosanmi"
 			add_trait = "junii"
@@ -7170,8 +7004,6 @@
 			add_trait = "shonii"
 		}
 	}
-	# 天正9(1581)年二月二十八日、京都で馬揃え（谷口、2008。）
-	# 天正10(1582)年五月二十九日、入京して本能寺に滞在（谷口、2008。）
 	1582.6.21={
 		death={
 			death_reason=death_suicide
@@ -7180,11 +7012,10 @@
 	}
 }
 10029121 = {
-	name=character_name_10029121 # Nobuhiro, 信広
+	name=character_name_10029121 # Nobuhiro
 	#dynasty=10000280 # Oda
 	dynasty_house = "house_shgnt_oda_danjo"
-	father=10029100 # 織田信秀
-	#mother= # 不明（谷口克広、『尾張・織田一族』、2008。）
+	father=10029100
 	martial=7
 	diplomacy=8
 	intrigue=7
@@ -7195,18 +7026,11 @@
 	religion="shinto"
 	culture="western_chubu"
 	prowess=11
-	1530.1.1={ # 「信長より四～五歳ほど上ではないだろうか」（谷口、2008。）
+	1531.1.1={
 		birth=yes
 	}
-	# 安城城城主（谷口、2008。）
-	# 天文18(1549)年、安城城落城して今川氏の捕虜（谷口、2008。）
-	# 弘治年間頃、信長に謀反未遂（谷口、2008。）
-	# 元亀3(1572)年、美濃岩村城を守備（谷口、2008。）
-	# 元亀4(1573)年、信長の名代として足利義昭と交渉（谷口、2008。）
-	1574.10.13={ # 天正2(1574)年
-		death={
-			death_reason=death_battle # 長島攻めで戦死
-		}
+	1574.10.13={
+		death=yes
 	}
 }
 10029122 = {
@@ -7281,7 +7105,7 @@
 	}
 }
 10029125 = {
-	name=character_name_10029125 # Sukenobu, 良信
+	name=character_name_10029125 # Sukenobu
 	#dynasty=10000280 # Oda
 	dynasty_house = "house_shgnt_oda_yamato"
 	father=10029114
@@ -7290,7 +7114,6 @@
 	1470.1.1={
 		birth=yes
 	}
-	# TODO: 文明14(1482)年七月十三日、清洲城で日蓮宗法論、参加した敏定奉行「織田弾正左衛門良信」（谷口、2008。）
 	1486.01.01 = {
 		give_nickname = "nick_danjo_daichu"
 		dynasty_house = "house_shgnt_oda_danjo"
@@ -7306,11 +7129,11 @@
 	}
 }
 10029126 = {
-	name=character_name_10029126 # Nobukatsu, 信勝、達成（みちなり）、武蔵守信成？
+	name=character_name_10029126 # Nobukatsu
 	#dynasty=10000280 # Oda
 	dynasty_house = "house_shgnt_oda_danjo"
 	father=10029100 # Oda Nobuhide
-	mother=10029158 # Dota Gozen、信長同母（谷口克広、『尾張・織田一族』、2008。）
+	mother=10029158 # Dota Gozen
 	religion="shinto"
 	culture="western_chubu"
 	trait="education_intrigue_3"
@@ -7327,20 +7150,17 @@
 		birth=yes
 	}
 	1552.1.1={
-		give_nickname="nick_Kanjuro" # 「勘十郎」（谷口、2008。）
+		give_nickname="nick_Kanjuro"
 	}
-	# 末森城主（谷口、2008。）
-	# 品行方正で家臣達の評判もよい（谷口、2008。）
-	# 弘治2(1556)年八月、兄・信長に謀反（谷口、2008。）
-	1557.11.22={ # 永禄元年（1558年）十一月二日
+	1557.11.22={
 		death={
-			death_reason=death_murder # 清洲城で暗殺
+			death_reason=death_murder
 			killer=10029120 # Oda Nobunaga 
 		}
 	}
 }
 10029127={
-	name=character_name_10029127 # Nobuyasu, 信康
+	name=character_name_10029127 # Nobuyasu
 	#dynasty=10000280 # Oda
 	dynasty_house = "house_shgnt_oda_danjo"
 	father=10029118 # Oda Nobusada
@@ -7349,21 +7169,12 @@
 	1511.1.1={
 		birth=yes
 	}
-	1527.01.01={
-		give_nickname="nick_Yojio" # 「与二郎」
-	}
-	# 天文2(1533)年七月八月時点、在勝幡城、「与二郎」（『言継卿記』）
-	# 犬山城を築城、転居（谷口克広、『尾張・織田一族』、2008。）
-	# 天文11(1542)年八月、小豆坂の戦いに参戦（谷口、2008。）
 	1544.10.8={
-		death={
-			death_reason=death_battle # 天文13(1544)年九月二十二日、稲葉山城の戦いで戦死（谷口、2008。）
-			#killer=
-		}
+		death=yes
 	}
 }
 10029128 = {
-	name=character_name_10029128 # Nobumitsu, 信光
+	name=character_name_10029128 # Nobumitsu
 	#dynasty=10000280 # Oda
 	dynasty_house = "house_shgnt_oda_danjo"
 	father=10029118 # Oda Nobusada
@@ -7374,24 +7185,17 @@
 	}
 	1532.1.1={
 		add_spouse=10024015
-		give_nickname="nick_Magosaburo" # 「孫三郎」（谷口克広、『尾張・織田一族』、2008。）
 	}
-	# 天文11(1542)年、小豆坂の戦いに参戦（谷口、2008。）
-	# 守山城主となる（谷口、2008。）
 	1540.1.1={
 		remove_spouse=10024015
 		add_spouse=10024015 # daughter of 24008:Matsudaira Nobusada
 	}
-	# 那古野城主となる（谷口、2008。）
-	1556.1.7={ # 天文23(1554)年十一月
-		death={
-			death_reason=death_murder
-			#killer= # 坂井孫八郎
-		}
+	1556.1.7={
+		death=yes
 	}
 }
 10029129={
-	name=character_name_10029129 # Nobuzane, 信実
+	name=character_name_10029129 # Nobuzane
 	#dynasty=10000280 # Oda
 	dynasty_house = "house_shgnt_oda_danjo"
 	father=10029118 # Oda Nobusada
@@ -7400,16 +7204,12 @@
 	1518.1.1={
 		birth=yes
 	}
-	1534.01.01={
-		give_nickname="nick_Shirojiro" # 「四郎二郎」（谷口克広、『尾張・織田一族』、2008。）
-	}
-	# 天文11(1542)年、小豆坂の戦いに参戦、ほかに事跡なし（谷口、2008。）
-	1543.1.1={ # 「早く没したのだろうか」（谷口克広、『尾張・織田一族』、2008。）
+	1568.1.1={
 		death=yes
 	}
 }
 10029130={
-	name=character_name_10029130 # Nobutsugu, 信次、『言継卿記』「虎千代」である可能性が高い（谷口克広、『尾張・織田一族』、2008。）
+	name=character_name_10029130 # Nobutsugu
 	#dynasty=10000280 # Oda
 	dynasty_house = "house_shgnt_oda_danjo"
 	father=10029118 # Oda Nobusada
@@ -7418,19 +7218,8 @@
 	1520.1.1={
 		birth=yes
 	}
-	1536.01.01={
-		give_nickname="nick_Magojuro" # 「孫十郎」（谷口、2008。）
-	}
-	1545.01.01={
-		give_nickname="nick_uemon_no_jo" # 「右衛門尉」（谷口、2008。）
-	}
-	# 兄・信光の次の守山城主
-	# 弘治元年（1555年）六月、守山城から出奔・行方不明（谷口、2008。）
-	# 弘治2(1556)年、守山城主に復帰、それ以降事跡なし（谷口、2008。）
-	1574.10.13={ # 天正2(1574)年九月二十九日
-		death={
-			death_reason=death_battle # 長島攻めで戦死
-		}
+	1574.10.13={
+		death=yes
 	}
 }
 10029131={
@@ -7444,7 +7233,6 @@
 	1513.1.1={
 		birth=yes
 	}
-	# 桜井松平清定と婚姻（谷口克広、『尾張・織田一族』、2008。）
 	1563.1.1={
 		death=yes
 	}
@@ -7466,7 +7254,7 @@
 }
 10029133={
 	female=yes
-	name=character_name_10029133 # Otsuya, おつや
+	name=character_name_10029133 # Otsuya
 	#dynasty=10000280 # Oda
 	dynasty_house = "house_shgnt_oda_danjo"
 	father=10029118 # Oda Nobusada
@@ -7475,12 +7263,8 @@
 	1522.1.1={
 		birth=yes
 	}
-	# 天文末から弘治年間（1555～1558）、岩村城主・遠山景任と婚姻、「おそらく再婚」（谷口克広、『尾張・織田一族』、2008。）
 	1575.12.23={
-		death={
-			death_reason=death_head_ripped_off # 斬首（谷口、2008。）
-			killer=10029120 # 織田信長
-		}
+		death=yes
 	}
 }
 10029134={
@@ -7499,17 +7283,14 @@
 	}
 }
 10029135 = {
-	name=character_name_10029135 # Nobukiyo, 信清
+	name=character_name_10029135 # Nobukiyo
 	#dynasty=10000280 # Oda
 	dynasty_house = "house_shgnt_oda_danjo"
-	father=10029127 # Oda Nobuyasu, 織田信康（谷口克広、『尾張・織田一族』、2008。）
+	father=10029127 # Oda Nobuyasu
 	religion="shinto"
 	culture="western_chubu"
 	1536.1.1={
 		birth=yes
-	}
-	1552.01.01={
-		give_nickname="nick_juro" # TODO:「十郎左衛門尉」（谷口、2008。）
 	}
 	1559.1.1={
 		add_spouse=10029152 # Inuyama-Dono, daughter of 29153:Oda Nobuhide
@@ -7522,7 +7303,7 @@
 	}
 }
 10029136={
-	name=character_name_10029136 # Nobuharu, 信治
+	name=character_name_10029136 # Nobuharu
 	#dynasty=10000280 # Oda
 	dynasty_house = "house_shgnt_oda_danjo"
 	father=10029100 # Oda Nobuhide
@@ -7531,47 +7312,29 @@
 	1544.1.1={
 		birth=yes
 	}
-	1560.01.01={
-		give_nickname="nick_kuro" # 「九郎」（谷口克広、『尾張・織田一族』、2008。）
+	1570.10.19={
+		death=yes
 	}
-	# 尾張野夫城主（谷口、2008。）
-	1570.10.19={ # 元亀元年九月
-		death={
-			death_reason=death_battle # 森可成と宇佐山城で戦死
-			#killer= # 朝倉・浅井軍
-		}
-	}
-	# 一部で存在が疑問視（谷口、2008。）
 }
 10029137={
-	name=character_name_10029137 # Nobutoki, 信時、秀俊
+	name=character_name_10029137 # Nobutoki
 	#dynasty=10000280 # Oda
 	dynasty_house = "house_shgnt_oda_danjo"
-	father=10029100 # Oda Nobuhide # 信秀の二男で信広の弟、信長の異母兄（谷口克広、『尾張・織田一族』、2008。）
-	#mother= # TODO: 信広と同母（谷口、2008。）
+	father=10029100 # Oda Nobuhide
 	religion="shinto"
 	culture="western_chubu"
 	trait="legitimized_bastard"
-	sexuality = bisexual
-	# TODO: 「利口なる人」（『信長公記』）
 	1532.1.1={
 		birth=yes
 	}
-	1552.01.01={
-		give_nickname="nick_boshu_no_kami" # 「安房守」（各種系図、『信長公記』）
-	}
-	# 弘治元年（1555年）、叔父・信次の次の守山城主
-	# TODO:弘治2(1556)年二月、『雲興寺文書」「織田安房守秀俊」
-	# 家老坂井喜左衛門の子・坂井孫平次と男色関係（『信長公記』）
-	1556.6.1={ # 弘治2(1556)年六月（『信長公記』）
+	1556.6.1={
 		death={
-			death_reason=death_murder # 坂井孫平次寵愛を恨んだ角田新五に攻め殺される（『信長公記』）
-			#killer= # 角田新五
+			death_reason=death_suicide
 		}
 	}
 }
 10029138={
-	name=character_name_10029138 # Nobuoki, 信興
+	name=character_name_10029138 # Nobuoki
 	#dynasty=10000280 # Oda
 	dynasty_house = "house_shgnt_oda_danjo"
 	father=10029100 # Oda Nobuhide
@@ -7588,35 +7351,29 @@
 			}
 		}
 	}
-	# 元亀元年（1570年）十一月、小木江城に入城
-	1570.12.28={ # 元亀1(1570)年十一月二十一日
-		death={
-			death_reason=death_battle # 小木江城天守で切腹
-			#killer= # 長島一揆勢
-		}
+	1570.12.28={
+		death=yes
 	}
 }
 10029139={
-	name=character_name_10029139 # Hidetaka, 秀孝
+	name=character_name_10029139 # Hidetaka
 	#dynasty=10000280 # Oda
 	dynasty_house = "house_shgnt_oda_danjo"
 	father=10029100 # Oda Nobuhide
 	mother=10029158 # Dota Gozen
 	religion="shinto"
 	culture="western_chubu"
-	# TODO: 容顔美麗（谷口克広、『尾張・織田一族』、2008。）
 	1540.1.1={
 		birth=yes
 	}
 	1555.7.24={
 		death={
-			death_reason=death_accident
-			#killer= # 守山城主織田信次の家臣・洲賀才蔵がからかって誤射
+			death_reason=death_murder
 		}
 	}
 }
 10029140={
-	name=character_name_10029140 # Hidenari, 秀成
+	name=character_name_10029140 # Hidenari
 	#dynasty=10000280 # Oda
 	dynasty_house = "house_shgnt_oda_danjo"
 	father=10029100 # Oda Nobuhide
@@ -7626,16 +7383,13 @@
 		birth=yes
 	}
 	1574.10.13={
-		death={
-			death_reason=death_battle
-			#killer= # 長島一揆勢
-		}
+		death=yes
 	}
 }
 10029141={
-	name=character_name_10029141 # Nobuteru, 信照
+	name=character_name_10029141 # Nobuteru
 	#dynasty=10000280 # Oda
-	dynasty_house = "house_shgnt_oda_danjo" # TODO: 中根
+	dynasty_house = "house_shgnt_oda_danjo"
 	father=10029100 # Oda Nobuhide
 	religion="shinto"
 	culture="western_chubu"
@@ -7643,18 +7397,12 @@
 	1546.1.1={
 		birth=yes
 	}
-	1576.01.01={
-		give_nickname="nick_etchu_no_kami" # 「越中守」（谷口克広、『尾張・織田一族』、2008。）
-	}
-	# 本能寺の変後、織田信雄に仕える「弐千貫文　くつかけ　中根殿」（谷口、2008。）
 	1610.12.3={
-		death={
-			death_reason=death_old_age
-		}
+		death=yes
 	}
 }
 10029142={
-	name=character_name_10029142 # Nagamasu, 長益
+	name=character_name_10029142 # Nagamasu
 	#dynasty=10000280 # Oda
 	dynasty_house = "house_shgnt_oda_danjo"
 	father=10029100 # Oda Nobuhide
@@ -7673,17 +7421,12 @@
 	1547.1.1={
 		birth=yes
 	}
-	1563.01.01={
-		give_nickname="nick_Gengoro" # 「織田の源五は人ではないよ」（谷口克広、『尾張・織田一族』、2008。）
-	}
-	# 本能寺の変後、織田信雄に仕える（1万3千貫文）（谷口、2008。）
-	# 信雄改易後、秀吉に仕える（摂津味舌（ました）1万5千石）御伽衆（谷口、2008。）
 	1622.1.24={
 		death=yes
 	}
 }
 10029143={
-	name=character_name_10029143 # Nagatoshi, 長利
+	name=character_name_10029143 # Nagatoshi
 	#dynasty=10000280 # Oda
 	dynasty_house = "house_shgnt_oda_danjo"
 	father=10029100 # Oda Nobuhide
@@ -7693,18 +7436,15 @@
 		birth=yes
 	}
 	1582.6.21={
-		death={
-			death_reason=death_battle # 本能寺の変で二条御所で秀忠とともに戦死
-			#killer= # 明智光秀勢
-		}
+		death=yes
 	}
 }
 10029144={
-	name=character_name_10029144 # Nobukane, 信包
+	name=character_name_10029144 # Nobukane
 	#dynasty=10000280 # Oda
 	dynasty_house = "house_shgnt_oda_danjo"
-	father=10029100 # Oda Nobuhide、「六男あたりか」（谷口克広、『尾張・織田一族』、2008。）
-	mother=10029158 # Dota Gozen、信長同母という説もある（谷口、2008。）
+	father=10029100 # Oda Nobuhide
+	mother=10029158 # Dota Gozen
 	religion="shinto"
 	culture="western_chubu"
 	diplomacy=7
@@ -7717,27 +7457,16 @@
 	trait="humble"
 	trait="content"
 	prowess=12
-	1543.8.17={ # 天文12(1543)年生まれ（谷口、2008。）
+	1543.8.17={
 		birth=yes
 	}
-	# 永禄11(1568)年二月、伊勢国の長野氏家督として送り込まれ「長野三十郎信良」と名乗る（谷口、2008。）
-	# 上野城主、菴藝・安濃郡を領す（谷口、2008。）
-	# 安濃津城主（谷口、2008。）
-	# 天正9(1581)年伊賀攻め後、伊賀一郡を加増（谷口、2008。）
-	# 連枝衆第3位（谷口、2008。）
-	# 本能寺の変後、秀吉に仕える
-	1583.01.01={
-		give_nickname="nick_the_sakonoe_chujo" # 「左近衛中将」
-		trait="jusanmi"
-	}
-	# 天正18(1590)年、近江国内二万石に減封
-	1614.8.22={ # 慶長19(1614)年七十二歳（谷口、2008。）
+	1614.8.22={
 		death=yes
 	}
 }
 10029145={
 	female=yes
-	name=character_name_10029145 # Oichi, お市
+	name=character_name_10029145 # Oichi
 	#dynasty=10000280 # Oda
 	dynasty_house = "house_shgnt_oda_danjo"
 	father=10029100 # Oda Nobuhide
@@ -7747,12 +7476,10 @@
 	diplomacy=6
 	trait="education_diplomacy_3"
 	trait="intellect_good_2"
-	trait="beauty_good_3" # 美貌（谷口克広、『尾張・織田一族』、2008。）
-	1547.1.1={ # 天文16(1547)年（谷口、2008。）
+	trait="beauty_good_3"
+	1547.1.1={
 		birth=yes
 	}
-	# 浅井長政と婚姻、晩婚（谷口、2008。）
-	# 柴田勝家と婚姻（谷口、2008。）
 	1585.6.14={
 		death={
 			death_reason=death_suicide
@@ -7761,7 +7488,7 @@
 }
 10029146={
 	female=yes
-	name=character_name_10029146 # Oinu, お犬
+	name=character_name_10029146 # Oinu
 	#dynasty=10000280 # Oda
 	dynasty_house = "house_shgnt_oda_danjo"
 	father=10029100 # Oda Nobuhide
@@ -7771,8 +7498,6 @@
 	1552.1.1={
 		birth=yes
 	}
-	# 佐治信方と婚姻、死別（谷口、2008。）
-	# 細川昭元と婚姻（谷口、2008。）
 	1582.9.24={
 		death=yes
 	}
@@ -8591,7 +8316,7 @@
 	}
 }
 10029200={
-	name=character_name_10029200 # Sadakatsu, 貞勝
+	name=character_name_10029200 # Sadakatsu
 	dynasty=10000286 # Murai
 	religion="shinto"
 	culture="western_chubu"
@@ -8610,16 +8335,15 @@
 	}
 	1536.1.1={
 		give_nickname="nick_Kichibee"
-		employer=10029100 # 織田信秀の奉行衆（谷口克広、『尾張・織田一族』、2008。）
 	}
 	1551.04.08={
-		employer=10029120 #Oda Nobunaga、奉行衆（谷口、2008。）
+		employer=10029120 #Oda Nobunaga
 	}
 	1568.1.1={
 		give_nickname="nick_minbu_no_sho"
 	}
-	1575.7.23={ # 天正3(1575)年七月三日
-		give_nickname="nick_the_nagato_no_kami" # 勅許「長門守」（谷口、2008。）
+	1575.7.23={
+		give_nickname="nick_nagato_no_kami"
 	}
 	1573.08.25={
 		effect={
@@ -8690,7 +8414,7 @@
 	}
 }
 10029220 = {
-	name=character_name_10029220 # Noritsugu, 教継
+	name=character_name_10029220 # Noritsugu
 	dynasty=10000292 # Yamaguchi
 	father=10029221 # Yamaguchi Norifusa
 	religion="shinto"
@@ -8705,10 +8429,6 @@
 	1500.1.1={
 		birth=yes
 	}
-	1516.01.01={
-		give_nickname="nick_sama_no_suke" # 「左馬助」（『信長公記』）
-	}
-	# 天文11(1542)年八月、第一次小豆坂の戦いに織田信秀配下で参戦（『信長公記』）
 	1560.1.1={
 		death=yes
 	}
@@ -8739,7 +8459,7 @@
 	}
 }
 10029230 = {
-	name=character_name_10029230 # Hidesada, 秀貞
+	name=character_name_10029230 # Hidesada
 	dynasty=10000697 # Hayashi
 	father=10029232 # Hayashi Michiyasu
 	religion="shinto"
@@ -8754,9 +8474,6 @@
 	prowess=8
 	1515.1.1={
 		birth=yes
-	}
-	1531.01.01={
-		give_nickname="nick_Shingoro" # 「新五郎」（谷口克広、『尾張・織田一族』、2008。）
 	}
 	1532.1.1={
 		employer=10029100 # Oda Nobuhide
@@ -8810,9 +8527,6 @@
 	}
 	1510.7.1={
 		employer=10029118 # Oda Nobusada
-	}
-	1511.01.01={
-		give_nickname="nick_hachiro" # TODO:「八郎左衛門尉」（谷口克広、『尾張・織田一族』、2008。）
 	}
 	1532.1.1={
 		employer=10029100 # Oda Nobuhide
@@ -9090,7 +8804,7 @@
 	}
 }
 10029251 = {
-	name=character_name_10029251 # Hidetaka, 秀隆
+	name=character_name_10029251 # Hidetaka
 	dynasty=10000287 # Kawajiri
 	religion="shinto"
 	culture="western_chubu"
@@ -9106,7 +8820,6 @@
 	1527.1.1={
 		birth=yes
 	}
-	# 永禄2(1559)年頃、黒母衣（ほろ）衆に選抜される（谷口克広、『尾張・織田一族』、2008。）
 	1542.1.1={
 		employer=10029100 # Oda Nobuhide
 	}
@@ -9246,16 +8959,13 @@
 	}
 }
 10029270 = {
-	name=character_name_10029270 # Hiromasa, 広正
-	dynasty=10000696 # Yanada, 簗田
+	name=character_name_10029270 # Hiromasa
+	dynasty=10000696 # Yanada
 	father=10029271 # Yanada Masatsuna
 	religion="shinto"
 	culture="western_chubu"
 	1529.1.1={
 		birth=yes
-	}
-	1575.07.03={ # 天正3(1575)年七月三日
-		give_nickname="nick_ukon" # 「別喜右近」の勅許（谷口克広、『尾張・織田一族』、2008。）
 	}
 	1579.7.9={
 		death=yes
@@ -9682,7 +9392,6 @@
 			set_realm_capital=title:c_shgnt_inukami
 		}
 	}
-	#1575.08.08={# 天正3(1575)年七月三日、「惟住」の姓の勅許（谷口克広、『尾張・織田一族』、2008。）
 	1582.6.21={
 		effect = {
 			set_relation_rival = character:10025632
@@ -9961,8 +9670,8 @@
 	}
 }
 10029330 = {
-	name=character_name_10029330 # Kazumasu, 一益
-	dynasty=10000297 # Takigawa, 滝川
+	name=character_name_10029330 # Kazumasu
+	dynasty=10000297 # Takigawa
 	father=10029332 # Takigawa Sukekiyo 
 	religion="shinto"
 	culture="western_chubu"
@@ -10000,9 +9709,6 @@
 				modifier = received_title_county
 			}
 		}
-	}
-	1575.08.08={# 天正3(1575)年七月三日
-		give_nickname="nick_the_iyo_no_kami" # 「伊予守に任官した可能性が高い」（谷口克広、『尾張・織田一族』、2008。）
 	}
 	1582.4.15={
 		effect={
@@ -10260,7 +9966,7 @@
 	}
 }
 10029350 = {
-	name=character_name_10029350 # Narimasa, 成政
+	name=character_name_10029350 # Narimasa
 	dynasty=10000290 # Sassa
 	religion="shinto"
 	culture="western_chubu"
@@ -10279,13 +9985,12 @@
 	1552.2.6={
 		give_nickname="nick_kura_no_suke"
 	}
-	# 永禄2(1559)年頃、黒母衣（ほろ）衆に選抜される（谷口克広、『尾張・織田一族』、2008。）
 	1588.7.7={
 		death=yes
 	}
 }
 10029360={
-	name=character_name_10029360 # Toshiie, 利家
+	name=character_name_10029360 # Toshiie
 	dynasty=10000296 # Maeda
 	father=10029370 # Maeda Toshiharu
 	mother=10029371
@@ -10315,7 +10020,6 @@
 	1558.1.1={
 		add_spouse=10029373
 	}
-	# 永禄2(1559)年頃、赤母衣（ほろ）衆に選抜される（谷口克広、『尾張・織田一族』、2008。）
 	1575.10.01 = {
 		effect={
 			add_opinion = {
@@ -10622,8 +10326,8 @@
 	}
 }
 10029390 = {
-	name=character_name_10029390 # Naomasa, 直政
-	dynasty=10000299 # Ban, 塙
+	name=character_name_10029390 # Naomasa
+	dynasty=10000299 # Ban
 	religion="shinto"
 	culture="western_chubu"
 	trait="education_stewardship_2"
@@ -10635,17 +10339,14 @@
 	1551.04.08={
 		employer=10029120 # Oda Nobunaga
 	}
-	# 織田信長の馬廻衆（谷口克広、『尾張・織田一族』、2008。）
-	1575.08.08={ # 天正3(1575)年七月三日
-		give_nickname="nick_the_bitchu_no_kami" # 「原田備中守」の勅許（谷口克広、『尾張・織田一族』、2008。）
+	1575.7.3={
+		give_nickname="nick_the_bitchu_no_kami"
 		effect = {
 			add_trait = "jugoi_ge"
 		}
 	}
-	1576.5.30={ # 天正4(1576)年五月
-		death={
-			death_reason=death_battle # 本願寺の砦攻撃中に戦死（谷口、2008。）
-		}
+	1576.5.30={
+		death=yes
 	}
 }
 10029400 = {
@@ -10725,8 +10426,8 @@
 	1574.1.1={
 		dynasty=10000283 # Hashiba
 	}
-	1575.08.08={ # 天正3(1575)年七月三日
-		give_nickname="nick_the_chikuzen_no_kami" # 「筑前守」の勅許（谷口克広、『尾張・織田一族』、2008。）
+	1575.7.3={
+		give_nickname="nick_the_chikuzen_no_kami"
 		effect = {
 			add_trait = "jugoi_ge"
 		}
@@ -11684,7 +11385,7 @@
 	}
 }
 10029494={
-	name=character_name_10029494 # Nobukata, 信方
+	name=character_name_10029494 # Nobukata
 	dynasty=10000704 # Saji
 	father=10029493 # Saji Tamehira
 	religion="shinto"
@@ -11695,7 +11396,7 @@
 	1568.1.1={
 		add_spouse=10029146 # Oda Oinu
 	}
-	1574.10.12={ # 元亀2(1571)年五月・天正2(1574)年の長島攻め
+	1574.10.12={
 		death={
 			death_reason=death_battle
 		}
@@ -12707,7 +12408,7 @@
 	}
 }
 10029600={
-	name=character_name_10029600 # Masahide, 政秀
+	name=character_name_10029600 # Masahide
 	dynasty=10000740 # Hirate
 	religion="shinto"
 	culture="western_chubu"
@@ -12730,9 +12431,6 @@
 	1527.1.1={
 		employer =10029100 # Oda Nobuhide
 	}
-	#1528.06.04={
-	#	give_nickname="" # TODO:「中務丞」 天文2(1533)年『言継卿記』）
-	#}
 	1551.4.8={
 		employer =10029120 # Oda Nobunaga
 	}
