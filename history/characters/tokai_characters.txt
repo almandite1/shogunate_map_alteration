@@ -2329,10 +2329,10 @@
 	}
 }
 10024000 = {
-	name=character_name_10024000 # Kiyoyasu
+	name=character_name_10024000 # Kiyoyasu, 清康←清孝
 	#dynasty=10000240 # Matsudaira
 	dynasty_house="house_shgnt_matsudaira_anjo"
-	father=10024001
+	father=10024001 # 松平信忠
 	martial=7
 	diplomacy=6
 	intrigue=5
@@ -2344,26 +2344,42 @@
 	trait="intellect_good_2"
 	trait="brave"
 	prowess=17
-	1511.9.28={
+	1511.9.28={ # 永正8(1511)年誕生が通説（平野明夫、『三河松平一族』、2002。）
 		birth=yes
 	}
-	1523.1.1={
+	# 大永3(1523)年八月十二日、「次郎三郎清孝」
+	1523.1.1={ # 大永3(1523)年に父・信忠から家督を譲られる（平野、2002。）
 		effect = {
 			set_realm_capital=title:c_shgnt_nukata
 		}
+		give_nickname="nick_Jirosaburo" # 「次郎三郎」
 	}
-	1527.9.28={
-		give_nickname="nick_Jirosaburo"
-	}
+	# 大永3(1523)年、岡崎松平家を攻撃し、本拠を岡崎に移す（『三河物語』）
+	# 大永5(1525)年五月十四日、足助城の鈴木重政を攻めて下す（『三州八代記古伝集』）
+	# 大永7(1527)年四月以前、山中城から岡崎明大寺の居館を居城とする（平野、2002。）
+	#1527.9.28={
+	#	give_nickname="nick_Jirosaburo"
+	#}
+	# 享禄2(1529)年、小島城（尾島）攻撃（平野、2002。）
+	# 享禄3(1530)年、尾張清洲織田氏攻撃・宇利城攻撃・吉田城攻撃（平野、2002。）
+	# 享禄4(1531)年八月以前に清康と改名（平野、2002。）
+	# 「松平氏は浄土宗……清康は曹洞宗を信仰」（平野、2002。）
+	# お富、華陽院（尾張国宮の郷士善七娘、大河内元綱養女）と婚姻説は否定される（平野、2002。）
+	# 松平信貞娘・於波留と婚姻、大永5(1525)年死別か離別（平野、2002。）
+	# 大永5(1525)年、老臣青木越後娘と婚姻、大永6(1526)年死別（平野、2002。）
 	1535.12.29={
-		death=yes
+		death={
+			death_reason=death_murder
+			#killer= # TODO: 阿部弥七郎、松平信定の策略（柴田顕正）
+		}
 	}
 }
 10024001 = {
-	name=character_name_10024001 # Nobutada
+	name=character_name_10024001 # Nobutada, 信忠→道忠→信忠→太雲→信忠→祐泉
 	#dynasty=10000240 # Matsudaira
 	dynasty_house="house_shgnt_matsudaira_anjo"
-	father=10024003
+	father=10024003 # 松平長忠
+	# TODO: mother= # 月空浄雲大姉、長沢松平氏（『朝野旧聞裒藁』）
 	martial=7
 	diplomacy=7
 	intrigue=6
@@ -2373,18 +2389,28 @@
 	culture="tokai"
 	trait="education_martial_2"
 	prowess=15
-	1490.1.1={
+	1490.1.1={ # 延徳2(1490)年（『関野済安聞書』）
 		birth=yes
 	}
-	1531.9.8={
+	1506.01.01={
+		give_nickname="nick_Jirosaburo" # 「次郎三郎」（平野明夫、『三河松平一族』、2002。）
+	}
+	# 永正6(1509)年閏八月二六日時点、「松平左近蔵人佐信忠」と署名（平野、2002。）
+	1509.01.01={
+		give_nickname="nick_kurodo" # TODO:「蔵人佐」（平野、2002。）
+	}
+	# 大永3(1523)年、家督を清康に譲る（平野、2002。）
+	1531.9.8={ # 享禄4(1531)年七月二十七日、享年46（『朝野旧聞裒藁』）
 		death=yes
 	}
+	# 安城松平3代当主
 }
 10024002 = {
-	name=character_name_10024002 # Hirotada
+	name=character_name_10024002 # Hirotada, 広忠、幼名：千松丸（平野、2002。）
 	#dynasty=10000240 # Matsudaira
 	dynasty_house="house_shgnt_matsudaira_anjo"
 	father=10024000 # 松平清康
+	#mother= # TODO: 青木越後の娘（平野明夫、『三河松平一族』、2002。）
 	martial=7
 	diplomacy=7
 	intrigue=6
@@ -2394,73 +2420,128 @@
 	culture="tokai"
 	trait="education_diplomacy_1"
 	prowess=11
-	1526.6.9={
+	1526.6.9={ # 1526(大永6)年誕生説が通説（平野、2002。）
 		birth=yes
 	}
+	# 天文4(1535)年十二月下旬、松平信定によって篠島に幽閉される（平野、2002。）
+	# 天文5(1536)年三月、篠島を脱出（『阿部家夢物語』）
+	# 天文6(1537)年、松平信定と和議成立、岡崎城帰還（『阿部家夢物語』）
+	# 天文12(1543)年二月二十六日、連歌会を開く
+	# 天文12(1543)年、松平信孝を追放する
 	1537.6.8={
 		effect = {
 			set_realm_capital=title:c_shgnt_nukata
 		}
 	}
-	1541.1.1={
-		add_spouse=10024504
+	# 天文6(1537)年十月二十三日以降、元服（平野、2002。）
+	1537.11.1={
+		give_nickname="nick_Jirosaburo" # 「次郎三郎」略して「三郎」「岡崎三郎」（平野、2002。）
+		# 東条吉良持広が加冠、偏諱
 	}
-	1542.6.9={
-		give_nickname="nick_saburo"
+	1541.1.1={ # 天文10(1541)年（平野、2002。）
+		add_spouse=10024504 # 水野忠政の娘・お大
 	}
-	1549.4.3={
-		death=yes
+	1543.01.01={ # 天文12(1543)年（平野、2002。）
+		remove_spouse=10024504 # 水野忠政の娘・お大
+	}
+	# 天文12(1543)年八月十日以降、松平信孝の三木城を攻略する
+	# 天文13(1544)年十二月十三日、連歌師・宗牧が来訪、皇室御料所進納の礼に女房奉書を授かる
+	# 天文14(1545)年、戸田弾正少弼宗光の娘・真喜姫と婚姻（通説）
+	# 側室・平原勘之丞正次の娘
+	1549.4.3={ # 天文18(1549)年三月六日、享年24（平野、2002。）
+		death={
+			death_reason=death_murder # 斬り殺される
+			#killer= # TODO: 佐久間九郎左衛門全孝の刺客・岩松八弥（新行紀一）
+		}
 	}
 }
 10024003 = {
-	name=character_name_10024003 # Nagachika
+	name=character_name_10024003 # Nagachika,長親、長忠、道閲、「忠次は可能性がある……長親を名乗った可能性はきわめて低い」（平野明夫、『三河松平一族』、2002。）
 	dynasty=10000240 # Matsudaira
-	father=10024004
+	father=10024004 # 松平親忠
 	religion="shinto"
 	culture="tokai"
-	1473.1.1={
+	1455.1.1={ # 康正元年（1455年）ころの生まれが妥当（平野、2002。）
 		birth=yes
+	}
+	1471.01.01={
+		give_nickname="nick_Jirosaburo" # 「次郎三郎」（『朝野旧聞裒藁』）
+	}
+	1485.01.01={
+		give_nickname="nick_kuroudo_no_jo" # 「蔵人丞」（『朝野旧聞裒藁』）
 	}
 	1488.08.29={
 		dynasty_house="house_shgnt_matsudaira_anjo"
 	}
+	# 長享2(1488)年九月二十七日、「長忠」（大樹寺文書）
 	1496.1.1={
 		effect = {
 			set_realm_capital=title:c_shgnt_nukata
 		}
 	}
-	1544.9.9={
+	# 明応5(1496)年十二月二十日、「松平蔵人長忠」（平野、2002。）
+	# 明応5(1496)年十二月二十六日判物「長忠」（平野、2002。）
+	# 明応10(1501)年五月二十五日親忠遺言状「道閲」（平野、2002。）
+	# 文亀3(1503)年頃、信忠に家督を譲る（平野、2002。）
+	# 永正5(1508)年、永正三河の乱
+	# 永正15(1518)年四月二十六日、宗長を迎えて連歌会を開く（平野、2002。）
+	# TODO:長沢松平近宗の娘と婚姻
+	1544.9.9={ # 天文13(1544)年八月二十二日（『関野済安聞書』）、享年九〇歳余（平野、2002。）
 		death=yes
 	}
+	# 安城松平家2代
 }
 10024004 = {
-	name=character_name_10024004 # Chikatada
+	name=character_name_10024004 # Chikatada, 親忠
 	dynasty=10000240 # Matsudaira
-	father=10024005
+	father=10024005 # 松平信光
+	#mother= # TODO: 真浄院殿桂堂慶樹大姉（平野明夫、『三河松平一族』、2002。）
 	religion="shinto"
 	culture="tokai"
-	1431.1.1={
+	1431.1.1={ # 永享10(1438)年の生まれ（『関野済安聞書』）、享年六十三歳説と七十一歳説がある（平野、2002、p.108。）
 		birth=yes
 	}
+	# 伊勢貞親の偏諱である可能性がある（平野、2002、p.125）
+	1447.01.01={
+		give_nickname="nick_Jirosaburo" # 「次郎三郎」「安城城を譲られる」（『三河物語』）
+	}
+	1460.01.01={
+		give_nickname="nick_ukyo_no_suke" # 「右京亮」（『三河物語』）、「松平前京兆親忠公法名大胤西忠」（大樹寺文書）
+	}
+	# 1475(文明7)年以後、安城城に本拠を移すか（平野、2002。）
+	# 「蔵人頭」は称していなかったと推定（平野、2002、p.124）
 	1488.8.29={
 		dynasty_house="house_shgnt_matsudaira_anjo"
 		effect = {
 			set_realm_capital=title:c_shgnt_nukata
 		}
 	}
-	1501.9.2={
+	# 長享2(1488)年七月二十二日父没後に入道したとの所伝（平野、2002、p.125）
+	# 明応2(1493)年十月十三日、井田野合戦
+	# 西忠の岡崎城隠居説は否定される（平野、2002。）
+	# 矢並の鈴木氏娘と婚姻（平野、2002。）
+	1501.9.2={ # 文亀元年（1501年）八月十日に死去したことは確実（平野、2002、p.108。）
 		death=yes
 	}
 }
 10024005 = {
-	name=character_name_10024005 # Nobumitsu
+	name=character_name_10024005 # Nobumitsu, 信光
 	dynasty=10000240 # Matsudaira
+	#father= # TODO: 親氏（平野明夫、『三河松平一族』、2002。）
 	religion="shinto"
 	culture="tokai"
-	1413.1.1={
+	1413.1.1={ # 応永11(1404)年、「諸書の記述が一致……正しいとは限らない」（平野、2002。）
 		birth=yes
 	}
-	1488.8.29={
+	1440.01.01={
+		give_nickname="nick_izumi_no_kami" # 「和泉守」（永享12(1440)年八月吉日萬松寺所蔵雲版「松平和泉守信光」）
+	}
+	# 寛正6(1465)年五月二十六日、「松平和泉入道」（平野、2002。）
+	# 応仁の乱では東軍側として西軍の安城城を奪取（平野、2002。）
+	# 岡崎城主・西郷弾正左衛門頼嗣を攻撃、下す（平野、2002。）
+	# 文明10(1478)年卯月四日、信光明寺釈迦堂棟札「大檀那松平和泉入道月堂信光（しんこう）」（平野、2002。）
+	# TODO: 一色氏女・松平泰親女法名：真浄院殿桂堂慶樹大姉、寛正2(1461)年四月二十七日死去と婚姻
+	1488.8.29={ # 長享2(1488)年七月二十二日（平野、2002。）
 		death=yes
 	}
 }
@@ -2482,9 +2563,10 @@
 #	trait="jodo_buddhist"
 	trait="intellect_good_2"
 	prowess=10
-	1543.1.31={
+	1543.1.31={ # 天文11年十二月二十六日（平野明夫、『三河松平一族』、2002。）
 		birth=yes
 	}
+	# 天文16(1547)年八月二日、駿府で人質になるため岡崎を出発（柴田顕正）
 	1550.1.1={
 		employer=10023010 # hostage and study at Sunpu, 
 	}
@@ -2610,7 +2692,7 @@
 	}
 }
 10024007={
-	name=character_name_10024007 # Chikamori
+	name=character_name_10024007 # Chikamori, 親盛
 	#dynasty=10000240 # Matsudaira
 	dynasty_house="house_shgnt_matsudaira_anjo"
 	father=10024003 # Matsudaira Nagachika
@@ -2619,15 +2701,20 @@
 	1503.1.1={
 		birth=yes
 	}
+	1519.01.01={
+		give_nickname="nick_Saburojio" # 「三郎次郎」（平野明夫、『三河松平一族』、2002。）
+	}
 	1523.01.01={
 		dynasty_house="house_shgnt_matsudaira_fukama"
 	}
 	1530.10.26={
-		death=yes
+		death={
+			death_reason=death_battle # 享禄3(1530)年に宇利城攻めて討死（平野、2002。）
+		}
 	}
 }
 10024008={
-	name=character_name_10024008 # Nobusada
+	name=character_name_10024008 # Nobusada, 信定、法名：道見
 	#dynasty=10000240 # Matsudaira
 	dynasty_house="house_shgnt_matsudaira_anjo"
 	father=10024003 # Matsudaira Nagachika
@@ -2636,8 +2723,10 @@
 	1505.1.1={
 		birth=yes
 	}
+	1521.01.01={
+		give_nickname="nick_yoichi" # 「与一」（平野明夫、『三河松平一族』、2002。）
+	}
 	1529.1.1={
-		add_spouse=10029131 # daughter of 29118:Oda Nobusada
 		dynasty_house="house_shgnt_matsudaira_sakurai"
 	}
 	1538.12.18={
@@ -2645,7 +2734,7 @@
 	}
 }
 10024009={
-	name=character_name_10024009 # Yoshiharu
+	name=character_name_10024009 # Yoshiharu, 義春
 	#dynasty=10000240 # Matsudaira
 	dynasty_house="house_shgnt_matsudaira_anjo"
 	father=10024003 # Matsudaira Nagachika
@@ -2654,15 +2743,22 @@
 	1506.1.1={
 		birth=yes
 	}
+	#1522.01.01={
+	#	give_nickname="" # TODO: 「甚太郎」（平野、2002。）
+	#}
 	1526.01.01={
 		dynasty_house="house_shgnt_matsudaira_tojo"
+	}
+	1536.01.01={
+		give_nickname="nick_ukyo_no_suke" # 「右京亮」（平野、2002。）
 	}
 	1539.1.1={
 		death=yes
 	}
+	# 「生存中の同時代史料はない」（平野、2002。）
 }
 10024010={
-	name=character_name_10024010 # Toshinaga
+	name=character_name_10024010 # Toshinaga, 利長
 	#dynasty=10000240 # Matsudaira
 	dynasty_house="house_shgnt_matsudaira_anjo"
 	father=10024003 # Matsudaira Nagachika
@@ -2671,15 +2767,19 @@
 	1507.1.1={
 		birth=yes
 	}
+	1523.01.01={
+		give_nickname="nick_Hikoshiro" # 「彦四郎」（平野明夫、『三河松平一族』、2002。）
+	}
 	1527.01.01={
 		dynasty_house="house_shgnt_matsudaira_fujii"
 	}
+	# 享禄5(1532)年八月六日時点、「松平彦四郎利長」（平野、2002。）
 	1560.1.1={
 		death=yes
 	}
 }
 10024011={
-	name=character_name_10024011 # Kiyosada
+	name=character_name_10024011 # Kiyosada, 清定
 	#dynasty=10000240 # Matsudaira
 	dynasty_house="house_shgnt_matsudaira_sakurai"
 	father=10024008 # Matsudaira Nobusada
@@ -2688,7 +2788,10 @@
 	1525.1.1={
 		birth=yes
 	}
-	1543.1.1={
+	1529.1.1={
+		add_spouse=10029131 # daughter of 29118:Oda Nobusada
+	}
+	1543.10.30={ # 天文12(1543)年十月三日（谷口克広、『尾張・織田一族』、2008。）
 		death=yes
 	}
 }
@@ -2753,7 +2856,7 @@
 	}
 }
 10024016={
-	name=character_name_10024016 # Nobutaka
+	name=character_name_10024016 # Nobutaka, 信孝
 	#dynasty=10000240 # Matsudaira
 	dynasty_house="house_shgnt_matsudaira_anjo"
 	father=10024001 # Matsudaira Nobutada
@@ -2762,15 +2865,27 @@
 	1513.1.1={
 		birth=yes
 	}
+	1529.01.01={
+		give_nickname="nick_Yojuro" # 「与十郎」（平野明夫、『三河松平一族』、2002。）
+	}
 	1533.01.01={
 		dynasty_house="house_shgnt_matsudaira_mitsugi"
 	}
-	1548.5.22={
-		death=yes
+	# 天文6(1537)年三月十二日、「岡崎与十郎信孝」（浄珠院文書）
+	1542.0l.01={
+		give_nickname="nick_kurodo" # TODO: 「蔵人佐」
+	}
+	# 天文11(1542)年六月、「松平蔵人佐信孝」（大樹寺文書）
+	# 天文12(1543)年、松平広忠により知行・屋敷を没収され追放される
+	1548.5.22={ # 天文17(1548)年四月十五日耳取縄手の戦い（『松平記』）
+		death={
+			death_reason=death_battle # 矢に当たって戦死
+			killer=10024002 # 松平広忠
+		}
 	}
 }
 10024017={
-	name=character_name_10024017 # Yasutaka
+	name=character_name_10024017 # Yasutaka, 康孝
 	#dynasty=10000240 # Matsudaira
 	dynasty_house="house_shgnt_matsudaira_anjo"
 	father=10024001 # Matsudaira Nobutada
@@ -2779,28 +2894,37 @@
 	1514.1.1={
 		birth=yes
 	}
-	1542.4.3={
+	#1530.01.01={
+	#	give_nickname="" # TODO: 「十郎三郎」（『寛永譜』）
+	#}
+	1542.4.3={ # 天文11(1542)年三月十八日（平野明夫、『三河松平一族』、2002。）
 		death=yes
 	}
+	# 「康孝については確実な史料がない」（平野明夫、『三河松平一族』、2002。）
 }
 10024018={
 	female=yes
-	name=character_name_10024018 # Hisa
+	name=character_name_10024018 # Hisa, 久
 	#dynasty=10000240 # Matsudaira
 	dynasty_house="house_shgnt_matsudaira_anjo"
 	father=10024001 # Matsudaira Nobutada
 	religion="shinto"
 	culture="tokai"
-	1515.1.1={
+	1510.1.1={ # 清康の姉とみるのがよい（平野明夫、『三河松平一族』、2002。）
 		birth=yes
 	}
-	1565.1.1={
+	# 松平乗勝と婚姻
+	# 松平親勝の母
+	# 大永4(1524)年松平乗勝死去後、足助の鈴木重直と婚姻
+	# 鈴木信重の母
+	# 松平清康死語、鈴木重直と離婚、岡崎に転居
+	1561.09.11={ # 永禄4(1561)年八月二日（平野、2002。）
 		death=yes
 	}
 }
 10024019={
 	female=yes
-	name=character_name_10024019 # Higashi
+	name=character_name_10024019 # Higashi, 東姫、大浜道場（称名寺）室
 	#dynasty=10000240 # Matsudaira
 	dynasty_house="house_shgnt_matsudaira_anjo"
 	father=10024001 # Matsudaira Nobutada
@@ -2809,7 +2933,7 @@
 	1516.1.1={
 		birth=yes
 	}
-	1566.1.1={
+	1570.12.08={ # 元亀元年（1570年）十一月十一日（平野明夫、『三河松平一族』、2002。）
 		death=yes
 	}
 }
@@ -2844,7 +2968,7 @@
 	}
 }
 10024022={
-	name=character_name_10024022 # Nobuyasu
+	name=character_name_10024022 # Nobuyasu, 信康
 	#dynasty=10000240 # Matsudaira
 	dynasty_house="house_shgnt_matsudaira_anjo"
 	father=10024000 # Matsudaira Kiyoyasu
@@ -2853,13 +2977,14 @@
 	1528.1.1={
 		birth=yes
 	}
+	# 天文9(1540)年六月六日に安城城の戦いで戦死した伝承は誤り（平野明夫、『三河松平一族』、2002。）
 	1548.1.1={
 		death=yes
 	}
 }
 10024023={
 	female=yes
-	name=character_name_10024023 # Shunkeini
+	name=character_name_10024023 # Shunkeini, 笑慶、成誉一笑慶円
 	#dynasty=10000240 # Matsudaira
 	dynasty_house="house_shgnt_matsudaira_anjo"
 	father=10024000 # Matsudaira Kiyoyasu
@@ -2868,23 +2993,38 @@
 	1536.1.1={
 		birth=yes
 	}
-	1586.1.1={
+	1546.01.01={
+		# 大恩寺第七世空誉の弟子となる
+		culture="chubu_buddhist"
+	}
+	# 永禄元亀年間頃、大恩寺第十二世住持（平野、2002。）
+	# 天正元年（1573年）、大樹寺第十四世住持（平野、2002。）
+	1575.06.03={ # 天正3(1575)年四月二十五日（平野、2002。）
 		death=yes
 	}
 }
 10024024={
 	female=yes
-	name=character_name_10024024 # Usui
+	name=character_name_10024024 # Usui,碓井、於久、碓井姫、吉田殿、臼井殿
 	#dynasty=10000240 # Matsudaira
 	dynasty_house="house_shgnt_matsudaira_anjo"
 	father=10024000 # Matsudaira Kiyoyasu
+	#mother= # 華陽院は誤伝、青木氏（平野明夫、『三河松平一族』、2002。）
 	religion="shinto"
 	culture="tokai"
-	1527.1.1={
+	1529.1.1={ # 享禄2(1529)年（平野、2002。）
 		birth=yes
 	}
-	1613.1.1={
-		death=yes
+	# 長沢松平政忠と婚姻（平野、2002。）
+	# 長沢松平源七郎康忠を出産（平野、2002。）
+	# 永禄3(1560)年五月十九日、松平政忠と死別（平野、2002。）
+	# 酒井忠次と婚姻（平野、2002。）
+	# 酒井忠次が吉田城主となっと時に「吉田殿」と呼ばれる（平野、2002。）
+	# 酒井家次が下総国臼井城主となった時に「碓井姫」「臼井殿」と呼ばれる（平野、2002。）
+	1605.11.27={ # 慶長10(1605)年十月十七日
+		death={
+			death_reason=death_old_age
+		}
 	}
 }
 10024025={
@@ -3657,7 +3797,7 @@
 	}
 }
 10024256={
-	name=character_name_10024256 # Tadayoshi
+	name=character_name_10024256 # Tadayoshi, 忠善
 	dynasty=10000250 # Sakai
 	father=10024255 # Sakai Tadachika
 	religion="shinto"
@@ -3665,12 +3805,15 @@
 	1525.1.1={
 		birth=yes
 	}
-	1545.1.1={
+	1520.01.01={
+		give_nickname="nick_saemon_no_jo" # 「左衛門尉」（平野明夫、『三河松平一族』、2002。）
+	}
+	1551.05.13={ # 天文20(1551)年四月八日死去伝承（平野、2002。）
 		death=yes
 	}
 }
 10024257={
-	name=character_name_10024257 # Tadatsugu
+	name=character_name_10024257 # Tadatsugu, 忠次
 	dynasty=10000250 # Sakai
 	father=10024255 # Sakai Tadachika
 	religion="shinto"
@@ -3688,7 +3831,12 @@
 	}
 	1543.1.1={
 		employer=10024002 # Matsudaira Hirotada
-		give_nickname="nick_saemon_no_jo"
+		give_nickname="nick_Kogoro" # 「小五郎」
+	}
+	# 天文16(1547)年安城城を織田信秀攻略後、松平広忠に反逆した可能性（平野、2002。）
+	# 天文20(1551)年十二月時点、「小五郎」（観泉寺所蔵文書）
+	1552.01.01={
+		give_nickname="nick_saemon_no_jo" # 「左衛門尉」
 	}
 	1558.3.1={
 		employer=10024006 # Matsudaira Motoyasu (Tokugawa Ieyasu)
@@ -4885,7 +5033,7 @@
 	}
 }
 10024500 = {
-	name=character_name_10024500 # Tadamasa
+	name=character_name_10024500 # Tadamasa, 忠政
 	dynasty=10000245 # Mizuno
 	father=10024505
 	martial=8
@@ -4900,9 +5048,10 @@
 	1493.1.1={
 		birth=yes
 	}
-	1543.8.22={
+	1543.8.22={ # 天文12(1543)年
 		death=yes
 	}
+	# 十五世紀初頭の緒川水野家当主（谷口克広、『尾張・織田一族』、2008。）
 }
 10024501 = {
 	name=character_name_10024501 # Kiyotada
@@ -4925,9 +5074,9 @@
 	}
 }
 10024502 = {
-	name=character_name_10024502 # Nobumoto
+	name=character_name_10024502 # Nobumoto, 信元
 	dynasty=10000245 # Mizuno
-	father=10024500
+	father=10024500 # 水野忠政
 	martial=8
 	diplomacy=7
 	intrigue=9
@@ -4948,9 +5097,16 @@
 		remove_spouse=10024013
 		add_spouse=10024013 # daughter of 24008:Matsudaira Nobusada
 	}
-	1576.1.17={
-		death=yes
+	1551.01.01={
+		give_nickname="nick_shimotsukeno_no_kami" # 「下野守」
 	}
+	#永禄9(1566)年から永禄10(1567)年、『永禄六年諸役人附』「水野下野守」
+	1576.1.17={
+		death={
+			death_reason=death_suicide # 織田信長の圧力で切腹（谷口、2008。）
+		}
+	}
+	# 緒川水野家当主
 }
 10024503 = {
 	name=character_name_10024503 # Tadamori
@@ -4989,8 +5145,13 @@
 	1528.1.1={
 		birth=yes
 	}
-	1602.10.13={
-		death=yes
+	1602.08.01={
+		trait="ill" # （平野明夫、『三河松平一族』、2002。）
+	}
+	1602.10.13={ # 慶長7(1602)年八月二十八日伏見城内で死去、享年75
+		death={
+			death_reason=death_old_age
+		}
 	}
 }
 10024505 = {
