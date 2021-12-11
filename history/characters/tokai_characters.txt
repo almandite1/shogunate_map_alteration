@@ -2426,6 +2426,8 @@
 	# 天文4(1535)年十二月下旬、松平信定によって篠島に幽閉される（平野、2002。）
 	# 天文5(1536)年三月、篠島を脱出（『阿部家夢物語』）
 	# 天文6(1537)年、松平信定と和議成立、岡崎城帰還（『阿部家夢物語』）
+	# 天文12(1543)年二月二十六日、連歌会を開く
+	# 天文12(1543)年、松平信孝を追放する
 	1537.6.8={
 		effect = {
 			set_realm_capital=title:c_shgnt_nukata
@@ -2433,14 +2435,24 @@
 	}
 	# 天文6(1537)年十月二十三日以降、元服（平野、2002。）
 	1537.11.1={
-		give_nickname="nick_Jirosaburo" 「次郎三郎」略して「三郎」「岡崎三郎」（平野、2002。）
+		give_nickname="nick_Jirosaburo" # 「次郎三郎」略して「三郎」「岡崎三郎」（平野、2002。）
 		# 東条吉良持広が加冠、偏諱
 	}
-	1541.1.1={
-		add_spouse=10024504
+	1541.1.1={ # 天文10(1541)年（平野、2002。）
+		add_spouse=10024504 # 水野忠政の娘・お大
 	}
-	1549.4.3={
-		death=yes
+	1543.01.01={ # 天文12(1543)年（平野、2002。）
+		remove_spouse=10024504 # 水野忠政の娘・お大
+	}
+	# 天文12(1543)年八月十日以降、松平信孝の三木城を攻略する
+	# 天文13(1544)年十二月十三日、連歌師・宗牧が来訪、皇室御料所進納の礼に女房奉書を授かる
+	# 天文14(1545)年、戸田弾正少弼宗光の娘・真喜姫と婚姻（通説）
+	# 側室・平原勘之丞正次の娘
+	1549.4.3={ # 天文18(1549)年三月六日、享年24（平野、2002。）
+		death={
+			death_reason=death_murder # 斬り殺される
+			#killer= # TODO: 佐久間九郎左衛門全孝の刺客・岩松八弥（新行紀一）
+		}
 	}
 }
 10024003 = {
@@ -2551,9 +2563,10 @@
 #	trait="jodo_buddhist"
 	trait="intellect_good_2"
 	prowess=10
-	1543.1.31={
+	1543.1.31={ # 天文11年十二月二十六日（平野明夫、『三河松平一族』、2002。）
 		birth=yes
 	}
+	# 天文16(1547)年八月二日、駿府で人質になるため岡崎を出発（柴田顕正）
 	1550.1.1={
 		employer=10023010 # hostage and study at Sunpu, 
 	}
@@ -2714,7 +2727,6 @@
 		give_nickname="nick_yoichi" # 「与一」（平野明夫、『三河松平一族』、2002。）
 	}
 	1529.1.1={
-		add_spouse=10029131 # daughter of 29118:Oda Nobusada
 		dynasty_house="house_shgnt_matsudaira_sakurai"
 	}
 	1538.12.18={
@@ -2767,7 +2779,7 @@
 	}
 }
 10024011={
-	name=character_name_10024011 # Kiyosada
+	name=character_name_10024011 # Kiyosada, 清定
 	#dynasty=10000240 # Matsudaira
 	dynasty_house="house_shgnt_matsudaira_sakurai"
 	father=10024008 # Matsudaira Nobusada
@@ -2776,7 +2788,10 @@
 	1525.1.1={
 		birth=yes
 	}
-	1543.1.1={
+	1529.1.1={
+		add_spouse=10029131 # daughter of 29118:Oda Nobusada
+	}
+	1543.10.30={ # 天文12(1543)年十月三日（谷口克広、『尾張・織田一族』、2008。）
 		death=yes
 	}
 }
@@ -2861,8 +2876,12 @@
 		give_nickname="nick_kurodo" # TODO: 「蔵人佐」
 	}
 	# 天文11(1542)年六月、「松平蔵人佐信孝」（大樹寺文書）
-	1548.5.22={
-		death=yes
+	# 天文12(1543)年、松平広忠により知行・屋敷を没収され追放される
+	1548.5.22={ # 天文17(1548)年四月十五日耳取縄手の戦い（『松平記』）
+		death={
+			death_reason=death_battle # 矢に当たって戦死
+			killer=10024002 # 松平広忠
+		}
 	}
 }
 10024017={
@@ -3778,7 +3797,7 @@
 	}
 }
 10024256={
-	name=character_name_10024256 # Tadayoshi
+	name=character_name_10024256 # Tadayoshi, 忠善
 	dynasty=10000250 # Sakai
 	father=10024255 # Sakai Tadachika
 	religion="shinto"
@@ -3786,12 +3805,15 @@
 	1525.1.1={
 		birth=yes
 	}
-	1545.1.1={
+	1520.01.01={
+		give_nickname="nick_saemon_no_jo" # 「左衛門尉」（平野明夫、『三河松平一族』、2002。）
+	}
+	1551.05.13={ # 天文20(1551)年四月八日死去伝承（平野、2002。）
 		death=yes
 	}
 }
 10024257={
-	name=character_name_10024257 # Tadatsugu
+	name=character_name_10024257 # Tadatsugu, 忠次
 	dynasty=10000250 # Sakai
 	father=10024255 # Sakai Tadachika
 	religion="shinto"
@@ -3809,7 +3831,12 @@
 	}
 	1543.1.1={
 		employer=10024002 # Matsudaira Hirotada
-		give_nickname="nick_saemon_no_jo"
+		give_nickname="nick_Kogoro" # 「小五郎」
+	}
+	# 天文16(1547)年安城城を織田信秀攻略後、松平広忠に反逆した可能性（平野、2002。）
+	# 天文20(1551)年十二月時点、「小五郎」（観泉寺所蔵文書）
+	1552.01.01={
+		give_nickname="nick_saemon_no_jo" # 「左衛門尉」
 	}
 	1558.3.1={
 		employer=10024006 # Matsudaira Motoyasu (Tokugawa Ieyasu)
@@ -5006,7 +5033,7 @@
 	}
 }
 10024500 = {
-	name=character_name_10024500 # Tadamasa
+	name=character_name_10024500 # Tadamasa, 忠政
 	dynasty=10000245 # Mizuno
 	father=10024505
 	martial=8
@@ -5021,9 +5048,10 @@
 	1493.1.1={
 		birth=yes
 	}
-	1543.8.22={
+	1543.8.22={ # 天文12(1543)年
 		death=yes
 	}
+	# 十五世紀初頭の緒川水野家当主（谷口克広、『尾張・織田一族』、2008。）
 }
 10024501 = {
 	name=character_name_10024501 # Kiyotada
@@ -5046,9 +5074,9 @@
 	}
 }
 10024502 = {
-	name=character_name_10024502 # Nobumoto
+	name=character_name_10024502 # Nobumoto, 信元
 	dynasty=10000245 # Mizuno
-	father=10024500
+	father=10024500 # 水野忠政
 	martial=8
 	diplomacy=7
 	intrigue=9
@@ -5069,9 +5097,16 @@
 		remove_spouse=10024013
 		add_spouse=10024013 # daughter of 24008:Matsudaira Nobusada
 	}
-	1576.1.17={
-		death=yes
+	1551.01.01={
+		give_nickname="nick_shimotsukeno_no_kami" # 「下野守」
 	}
+	#永禄9(1566)年から永禄10(1567)年、『永禄六年諸役人附』「水野下野守」
+	1576.1.17={
+		death={
+			death_reason=death_suicide # 織田信長の圧力で切腹（谷口、2008。）
+		}
+	}
+	# 緒川水野家当主
 }
 10024503 = {
 	name=character_name_10024503 # Tadamori
@@ -5110,8 +5145,13 @@
 	1528.1.1={
 		birth=yes
 	}
-	1602.10.13={
-		death=yes
+	1602.08.01={
+		trait="ill" # （平野明夫、『三河松平一族』、2002。）
+	}
+	1602.10.13={ # 慶長7(1602)年八月二十八日伏見城内で死去、享年75
+		death={
+			death_reason=death_old_age
+		}
 	}
 }
 10024505 = {
