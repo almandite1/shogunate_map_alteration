@@ -607,21 +607,29 @@
 	}
 }
 10120046 = {
-	name=character_name_10120046 # Yoshikuni
+	name=character_name_10120046 # Yoshikuni, 義国
 	dynasty=10001200 # Minamoto (Seiwa Genji)
 	religion="shinto"
 	culture="central_kinai"
 	father=10120040 # Minamoto Yoshiie
 	mother=11003835 # daughter of Fujiwara Aritsuna
+	disallow_random_traits = yes
 	1091.1.1={
 		birth=yes
 	}
-	1155.1.1={
-		death=yes
+	# 康和5(1103)年、常陸国で源義光＆平重幹と合戦（田中大喜、『新田一族の中世：「武家の棟梁」への道』、2015。）
+	# 藤姓足利家綱が家人（田中、2015。）
+	# 天仁2(1109)年、上京、鳥羽院北面（田中、2015。）
+	# 四位・五位の諸大夫層となる（田中、2015。）
+	# 久安5(1149)年・久安6(1150)年頃、在京活動が終わり下野国足利下向
+	1146.08.05={ # 久寿2(1155)年六月二十六日（『尊卑分脈』）
+		death={
+			death_reason=death_natural_causes
+		}
 	}
 }
 10120047 = {
-	name=character_name_10120047 # Yoshitada
+	name=character_name_10120047 # Yoshitada, 義忠
 	dynasty=10001200 # Minamoto (Seiwa Genji)
 	religion="shinto"
 	culture="central_kinai"
@@ -752,7 +760,7 @@
 	}
 }
 10120056 = {
-	name=character_name_10120056 # Yoshishige
+	name=character_name_10120056 # Yoshishige, 義重、法名上西（『吾妻鏡』）
 	dynasty=10001200 # Minamoto (Seiwa Genji)
 	religion="shinto"
 	culture="western_kanto"
@@ -764,44 +772,78 @@
 	health=7
 	trait="education_diplomacy_3"
 	trait="arrogant"
+	# TODO: 「元より事においては思慮を廻らす」と高評価（『吾妻鏡』）
+	disallow_random_traits = yes
 	father=10120046 # Minamoto Yoshikuni
+	#mother= # TODO:藤原敦基の娘（『尊卑分脈』）
 	prowess=13
-	1114.1.1={
+	1114.1.1={ # 「永久2(1114)年と考えるのが妥当」（田中大喜、『新田一族の中世：「武家の棟梁」への道』、2015。）
 		birth=yes
 	}
-	1136.1.1={
-		add_spouse=12540111 # daughter of 2540102:Uno[Minamoto]  Chikahiro
+	1135.01.01={
+		effect = {
+			set_relation_friend = character:12540102 # 源（豊島）親弘、鳥羽院北面の同僚（田中、2015。）
+		}
 	}
-	1157.1.1={
+	1136.1.1={ # 久安5(1149)年から久安6(1150)年頃が妥当（田中、2015。）
+		add_spouse=12540111 # daughter of 2540102:Uno[Minamoto] Chikahiro、源（豊島）親弘の娘か孫娘（田中、2015。）
+	}
+	# 12世紀前半、藤姓足利氏と組んで秩父氏と合戦（田中、2015。）
+	# TODO:仁平3(1153)年正月二十三日、内舎人任官（『山塊記除目部類』）
+	# 九条院呈子に仕える（田中、2015。）
+	1157.1.1={ # 保元2(1157)年三月八日、領家・藤原忠雅から新田荘下司識に任命、もともと地主（田中、2015。）
 #		dynasty=10001201 # Nitta
 		dynasty_house = house_shgnt_nitta
 	}
-	1168.1.1={
-		give_nickname="nick_oi_no_suke"
+	# 八幡荘から新田荘に本領を移す（田中、2015。）
+	1159.02.01={ # 保元4(1159)年正月
+		give_nickname="nick_oi_no_suke" # 「大炊助」、後白河の女御・藤原琮子の御給（田中、2015。）
 		effect = {
-			add_trait = "jugoi_ge"
+			add_trait = "jugoi_ge" # 「従五位下」（田中、2015。）
 		}
 	}
-	1202.2.8={
-		death=yes
+	# 永禄2(1559)年五月一日、簗田御厨本領主を藤姓足利氏から奪う（『平安遺文』）
+	# 承安2(1172)年、薗田御厨荘官【藤姓足利氏】と相論（『玉葉』）
+	# 保元元(1156)年保元の乱、後白河側であると推測される（田中、2015。）
+	# 平治元年（1159）平治の乱、史料上の動向は不明（田中、2015。）
+	# 仁安年間（1166から1169）、平重盛家人となる（田中、2015。）
+	# 治承3(1179)年七月以降、平宗盛家人となる（田中、2015。）
+	# 治承4(1180)年八月二十八日以前、上野国に下向（田中、2015。）
+	# 治承4(1180)年九月三十日、平家から自立、寺尾城に籠り兵を募る（『吾妻鏡』）
+	# 治承4(1180)年十二月二十二日、源頼朝に従属、鎌倉参上（『吾妻鏡』）
+	# 養和2(1182)年四月五日、頼朝外出供奉
+	# 養和2(1182)年七月、娘を帥（毛呂？）六郎に嫁がせたため頼朝の勘気をうける（『吾妻鏡』）、引退し鎌倉新田荘へ帰るか（田中、2015。）
+	# 建久4(1193)年四月二十八日、新田館で頼朝を歓待（田中、2015。）
+	1202.2.8={ # 建仁2(1202)年正月十四日（『吾妻鏡』）
+		death={
+			death_reason=death_old_age
+		}
 		dynasty=10001201 # Nitta
 	}
 }
 10120057 = {
-	name=character_name_10120057 # Yoshiyasu
+	name=character_name_10120057 # Yoshiyasu, 義康
 #	dynasty=10000400 # Ashikaga
 	dynasty=10001200 # Minamoto (Seiwa Genji)
 	religion="shinto"
 	culture="eastern_kanto"
 #	trait="ashikaga_family"
-	father=10120046
-	1127.1.1={
+	disallow_random_traits
+	father=10120046 # 源義国
+	#mother= # TODO: 源有房の娘（『尊卑分脈』）
+	1127.1.1={ # 天治2(1125)年頃の誕生か（田中、2015。）
 		birth=yes
 	}
 	1153.1.1={
 		add_spouse=11006861
 	}
-	1157.7.7={
+	1156.07.29={ # 保元の乱の恩賞
+		give_nickname="nick_kurodo" # 検非違使のまま「蔵人」昇殿を許される
+	}
+	1156.08.23={
+		trait="jugoi_ge" # 「従五位下」（兵範記』保元元年八月六日条）
+	}
+	1157.7.7={ # 保元2(1157)年五月
 		death=yes
 	}
 }
@@ -1793,11 +1835,11 @@
 	}
 }
 10120095 = {
-	name=character_name_10120095 # Moriyoshi # Hiraga Moriyoshi
+	name=character_name_10120095 # Moriyoshi,盛義 # Hiraga Moriyoshi
 	dynasty=10001200 # Minamoto (Seiwa Genji)
 	religion="shinto"
 	culture="central_kinai"
-	father=10120042
+	father=10120042 # 源義光
 	1090.1.1={
 		birth=yes
 	}
@@ -1809,7 +1851,7 @@
 	}
 }
 10120096={
-	name=character_name_10120096 # Sanemitsu
+	name=character_name_10120096 # Sanemitsu, 実光
 	dynasty=10001200 # Minamoto
 	father=10120042 # Minamoto Yoshimitsu
 	religion="shinto"
@@ -1864,7 +1906,7 @@
 	}
 }
 10120100={
-	name=character_name_10120100 # Kiyomitsu
+	name=character_name_10120100 # Kiyomitsu, 清光
 	dynasty=10001200 # Minamoto
 	father=10120094 # Minamoto Yoshikiyo
 	religion="shinto"
@@ -1872,6 +1914,7 @@
 	1110.6.27={
 		birth=yes
 	}
+	# 天治元年（1124年）、元服、源義国が加冠役・烏帽子親（『群書類従』「小笠原系図」）
 	1168.8.12={
 		death=yes
 	}
@@ -1930,7 +1973,7 @@
 	}
 }
 10120112={
-	name=character_name_10120112 # Tomitsu # a.k.a Kagami Tomitsu
+	name=character_name_10120112 # Tomitsu, 遠光 # a.k.a Kagami Tomitsu
 	dynasty=10001200 # Minamoto
 	father=10120100 # Minamoto Kiyomitsu
 	religion="shinto"
@@ -1944,6 +1987,7 @@
 	1143.3.16={
 		birth=yes
 	}
+	# 保元2(1157)年、元服、新田義重が加冠役・烏帽子親（『群書類従』「小笠原系図」）
 	1159.3.16={
 		give_nickname="nick_jio"
 	}

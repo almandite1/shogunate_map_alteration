@@ -1002,6 +1002,9 @@
 	1260.1.1={
 		birth=yes
 	}
+	1290.01.01={
+		give_nickname="nick_saemon"
+	}
 	1310.1.1={
 		death=yes
 	}
@@ -1021,7 +1024,7 @@
 	}
 }
 12270635={
-	name=character_name_12270635 # Mochinaga
+	name=character_name_12270635 # Mochinaga, 持長
 #	dynasty=10000321 # Honjo
 	dynasty_house="house_shgnt_chichibu_honjo"
 	father=12270630 # Honjo Naganori
@@ -1030,6 +1033,11 @@
 	1290.1.1={
 		birth=yes
 	}
+	1306.01.01={
+		give_nickname="nick_jio" # TODO:「左衛門次郎」
+	}
+	# 建武元年（1334年）七月、建武政権に反乱（清水、2008。）
+	# 康永2(1343)年三月四日、「秩父左衛門次郎持長」（清水、2008。）
 	1350.1.1={
 		death=yes
 	}
@@ -1049,7 +1057,7 @@
 	}
 }
 12270700={
-	name=character_name_12270700 # Tamenaga
+	name=character_name_12270700 # Tamenaga, 為長、善阿（清水亮、「南北朝期における在地領主の結合形態：越後国小泉荘加納方地頭色部一族」、2008。）
 #	dynasty=10000343 # Irobe
 	dynasty_house="house_shgnt_chichibu_irobe"
 	father=12200030 # Chichibu Suenaga
@@ -1058,12 +1066,16 @@
 	1182.1.1={
 		birth=yes
 	}
+	1198.01.01={
+		give_nickname="nick_Shinsaburo" # 「進三郎入道」（清水、2008。）
+	}
 	1240.1.1={
 		death=yes
 	}
+	# 色部氏初代
 }
 12270701={
-	name=character_name_12270701 # Kiminaga
+	name=character_name_12270701 # Kiminaga, 公長
 #	dynasty=10000343 # Irobe
 	dynasty_house="house_shgnt_chichibu_irobe"
 	father=12270700 # Irobe Tamenaga
@@ -1072,12 +1084,14 @@
 	1200.1.1={
 		birth=yes
 	}
+	# 安貞元年（1227年）四月九日、「内舎人平公長」（『大日本史料』）
 	1260.1.1={
 		death=yes
 	}
+	# 色部氏二代目惣領（清水、2008。）
 }
 12270705={
-	name=character_name_12270705 # Tadanaga
+	name=character_name_12270705 # Tadanaga, 忠長
 #	dynasty=10000343 # Irobe
 	dynasty_house="house_shgnt_chichibu_irobe"
 	father=12270701 # Irobe Kiminaga
@@ -1089,9 +1103,10 @@
 	1280.1.1={
 		death=yes
 	}
+	# 色部氏三代惣領（清水、2008。）
 }
 12270710={
-	name=character_name_12270710 # Naganobu
+	name=character_name_12270710 # Naganobu, 長信
 #	dynasty=10000343 # Irobe
 	dynasty_house="house_shgnt_chichibu_irobe"
 	father=12270705 # Irobe Tadanaga
@@ -1100,12 +1115,15 @@
 	1240.1.1={
 		birth=yes
 	}
+	# 誓仏と婚姻（清水、2008。）
 	1300.1.1={
 		death=yes
 	}
+	# 元徳2(1330)年には死亡（清水、2008。）
+	# 色部氏四代惣領（清水、2008。）
 }
 12270715={
-	name=character_name_12270715 # Nagatsuna
+	name=character_name_12270715 # Nagatsuna, 長綱
 #	dynasty=10000343 # Irobe
 	dynasty_house="house_shgnt_chichibu_irobe"
 	father=12270710 # Irobe Naganobu
@@ -1114,12 +1132,15 @@
 	1260.1.1={
 		birth=yes
 	}
+	# 性空と婚姻（清水、2008。）
+	# 正和5(1316)年四月十九日、嫡子・長倫に色部条地頭職を譲る（清水、2008。）
 	1320.1.1={
 		death=yes
 	}
+	# 色部氏五代惣領（清水、2008。）
 }
 12270720={
-	name=character_name_12270720 # Nagatomo
+	name=character_name_12270720 # Nagatomo, 長倫
 #	dynasty=10000343 # Irobe
 	dynasty_house="house_shgnt_chichibu_irobe"
 	father=12270715 # Irobe Nagatsuna
@@ -1128,12 +1149,23 @@
 	1290.1.1={
 		birth=yes
 	}
-	1340.1.1={
+	1306.01.01={
+		give_nickname="nick_saburo" # 「三郎」
+	}
+	# 阿妙と婚姻（清水、2008。）
+	# 元弘3(1333)年時点、無官の三郎（清水、2008。）
+	# 建武元年（1334年）七月、小泉（本荘）持長の追討に参加（清水、2008。）
+	1335.01.01={
+		give_nickname="nick_totoumi_no_kami" # TODO:「遠江権守」
+	}
+	# 康永2(1343)年三月四日、「色部遠江権守長倫」（清水、2008。）
+	1344.1.1={
 		death=yes
 	}
+	# 色部氏六代惣領（清水、2008。）
 }
 12270725={
-	name=character_name_12270725 # Nagatada
+	name=character_name_12270725 # Nagatada, 長忠
 #	dynasty=10000343 # Irobe
 	dynasty_house="house_shgnt_chichibu_irobe"
 	father=12270720 # Irobe Nagatomo
@@ -1142,9 +1174,14 @@
 	1320.1.1={
 		birth=yes
 	}
+	1344.01.01={
+		give_nickname="nick_totoumi_no_kami" # 「遠江守」
+	}
+	# 延文2(1357)年六月十一日、「色部遠江守」（清水、2008。）
 	1380.1.1={
 		death=yes
 	}
+	# 色部氏七代惣領（清水、2008。）
 }
 12270730={
 	name=character_name_12270730 # Tomonaga

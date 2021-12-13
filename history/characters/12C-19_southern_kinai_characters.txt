@@ -33,9 +33,12 @@
 	religion="shinto"
 	culture="southern_kinai"
 	learning=2
+	disallow_random_traits = yes
 	1090.1.1 ={
 		birth=yes
 	}
+	# 摂津国豊島郡が拠点の一つ
+	# 鳥羽院の北面（『本朝世紀』久安三年七月二十四日条）
 	1160.1.1 ={
 		death=yes
 	}
