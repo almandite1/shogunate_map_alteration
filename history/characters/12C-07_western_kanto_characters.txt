@@ -202,7 +202,8 @@
 }
 12180130 = {
 	name = character_name_12180130 # Munetsuna
-	dynasty = 10006033	#Ashikaga
+#	dynasty = 10006033	#Ashikaga
+	dynasty_house = house_shgnt_fujiwara_ashikaga
 	religion = "shinto"
 	culture="western_kanto"
 	father = 12180121	#Ashikaga Yasutsuna
@@ -215,7 +216,8 @@
 }
 12180140 = {
 	name = character_name_12180140 # Tokitsuna
-	dynasty = 10006033	#Ashikaga
+#	dynasty = 10006033	#Ashikaga
+	dynasty_house = house_shgnt_fujiwara_ashikaga
 	religion = "shinto"
 	culture="western_kanto"
 	father = 12180130	#Ashikaga Munetsuna
@@ -440,7 +442,8 @@
 }
 12180430 = {
 	name = character_name_12180430 # Yoshitoshi
-	dynasty = 10006036	#Sonoda
+#	dynasty = 10006036	#Sonoda
+	dynasty_house = house_shgnt_sonoda
 	religion = "shinto"
 	culture="western_kanto"
 	father = 12180421	#Sonoda Toshimoto
@@ -1340,7 +1343,7 @@
 	}
 }
 12185044={
-	name=character_name_12185044 # Yoshioki
+	name=character_name_12185044 # Yoshioki, 義興
 	dynasty=10001201 # Nitta
 	father=12185040 # Nitta Yoshisada
 	religion="shinto"
@@ -1349,9 +1352,11 @@
 	1331.1.1={
 		birth=yes
 	}
-	1358.11.11={
+	# 1352年閏二月十五日、上野国から武蔵国に攻め込む（田中、2015。）
+	# 1352年閏二月二十日、武蔵国人見原・金井原で戦闘、仁木頼章に敗れる（田中、2015。）
+	1358.11.11={ # 延文4(1359)年十月十日
 		death={
-			death_reason=death_execution
+			death_reason=death_execution # 武蔵国矢口渡で足利方の策謀により自害（田中、2015。）
 		}
 		effect = {
 			add_trait = "jugoi_ge"
@@ -1359,7 +1364,7 @@
 	}
 }
 12185045={
-	name=character_name_12185045 # Yoshimune
+	name=character_name_12185045 # Yoshimune, 義宗
 	dynasty=10001201 # Nitta
 	father=12185040 # Nitta Yoshisada
 	religion="shinto"
@@ -1368,9 +1373,17 @@
 	1331.7.1={
 		birth=yes
 	}
+	1351.7.1={
+		give_nickname="nick_musashi_no_kami" # 「武蔵守」
+	}
+	# 1352年閏二月二十八日、小手指原・笛吹峠戦闘、足利尊氏に敗北（田中、2015。）
+	# 「新田武蔵守義宗」（『園太暦』北朝：観応３年（1352年）三月四日条）
+	# 文和4(1355)年まで、越後国で戦闘（田中、2015。）
+	# 応安1(1368)年七月、上越国境で挙兵（田中、2015。）
 	1368.9.3={
 		death={
-			death_reason=death_battle
+			death_reason=death_battle # 戦死
+			killer=10017006 # 上杉憲顕 # 上杉憲顕が派遣した軍（『喜連川判鑑』）
 		}
 		effect = {
 			add_trait = "shoshii_ge"
@@ -3838,7 +3851,7 @@
 	}
 }
 12187026={
-	name=character_name_12187026 # Tsuneie
+	name=character_name_12187026 # Tsuneie, 経家
 	dynasty=10007280 # Iwamatsu
 	father=12187020 # Iwamatsu Masatsune
 	religion="shinto"
@@ -3847,7 +3860,9 @@
 		birth=yes
 	}
 	1335.8.11={
-		death=yes
+		death={
+			death_reason=death_battle # 中先代の乱で戦死（田中、2015。）
+		}
 	}
 }
 12187027={
@@ -3870,7 +3885,7 @@
 	}
 }
 12187030={
-	name=character_name_12187030 # Tadakuni
+	name=character_name_12187030 # Tadakuni, 直国
 	dynasty=10007280 # Iwamatsu
 	father=12187026 # Iwamatsu Tsuneie
 	religion="shinto"
@@ -3878,9 +3893,15 @@
 	1320.1.1={
 		birth=yes
 	}
+	# 建武3(1336)年六月、「足利岩松殿」（小佐治基氏軍忠状）
+	1365.01.01={
+		give_nickname="nick_the_jibu_no_sho" # 「治部少輔」
+	}
+	# 貞治1(1362)年、鎌倉府から「新田治部少輔」（田中、2015。）
 	1390.1.1={
 		death=yes
 	}
+	# 経家の次の岩松氏当主（田中、2015。）
 }
 12187035={
 	name=character_name_12187035 # Mitsukuni

@@ -1019,7 +1019,7 @@
 	}
 }
 10058250 = {
-	name=character_name_10058250 # Motokage
+	name=character_name_10058250 # Motokage, 元景
 	dynasty=10000593 # Kagawa
 	father=10058256
 	martial=8
@@ -1031,9 +1031,10 @@
 	religion="shinto"
 	culture="shikoku"
 	prowess=16
-	1490.1.1={
+	1490.1.1={ # TODO:誕生年を繰り上げる
 		birth=yes
 	}
+	# 明応4(1495)年、「香川」細川澄之の守護代（馬部、2018。）
 	1550.1.1={
 		death=yes
 	}
@@ -1197,7 +1198,7 @@
 	}
 }
 10058259={
-	name=character_name_10058259 # Mototsuna
+	name=character_name_10058259 # Mototsuna, 元綱
 	dynasty=10000593 # Kagawa
 	father=10058258 # Kagawa Yorikage
 	religion="shinto"
@@ -1205,9 +1206,15 @@
 	1380.1.1={
 		birth=yes
 	}
+	1410.01.01={
+		give_nickname="nick_the_mimasaka_no_kami" # 「美作守」（馬部、2018。）
+	}
+	# 大永1(1521)年、管領細川高国供衆「香川美作守」（馬部、2018。）
+	# 大永4(1524)年、「香河美作守」（「大永四年細川亭御成記」）
 	1440.1.1={
 		death=yes
 	}
+	# 永正年間（1504.2.30～1521.8.23）中頃の細川高国守護代（馬部、2018。）
 }
 10058300 = {
 	name=character_name_10058300 # Morikata
@@ -1287,7 +1294,7 @@
 	}
 }
 10058303 = {
-	name=character_name_10058303 # Mototaka
+	name=character_name_10058303 # Mototaka, 元隆、若槻元隆（馬部、2018。）
 	dynasty=10000594 # Yasutomi
 	father=10058306
 	martial=8
@@ -1302,13 +1309,14 @@
 	1460.1.1={
 		birth=yes
 	}
+	# 兄・安富元家が守護代の時、近江国神埼郡郡代（馬部、2018。）
 	1520.1.1={
 		death=yes
 	}
 }
 10058304 = {
-	name=character_name_10058304 # Motoie
-	dynasty=10000594 # Yasutomi
+	name=character_name_10058304 # Motoie, 元家
+	dynasty=10000594 # Yasutomi, 安富
 	father=10058306
 	martial=8
 	diplomacy=7
@@ -1333,6 +1341,13 @@
 	1474.1.1={
 		give_nickname="nick_Matasaburo"
 	}
+	1480.01.01={
+		give_nickname="nick_the_chikugo_no_kami" # 「筑後守」（馬部、2018。）
+	}
+	# 長享1(1487)年、細川政元の守護代（馬部、2018。）
+	# 1491(延徳3)年、細川京兆家近江栗太・野洲・甲賀・蒲生・神崎・愛知・犬上七郡守護代に任命（馬部隆弘、『戦国期細川権力の研究』、2018。）
+	# 延徳4(1492)年四月一日、近江国の拠点は神崎郡簗瀬城（『晴富宿禰記』）
+	# 文亀3(1503)年、失脚（馬部、2018。）
 	1507.1.1={
 		death=yes
 	}
