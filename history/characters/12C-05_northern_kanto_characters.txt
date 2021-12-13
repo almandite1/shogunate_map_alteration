@@ -5719,11 +5719,11 @@
 	}
 }
 12139000={
-	name=character_name_12139000 # Yoshikane
+	name=character_name_12139000 # Yoshikane, 義兼
 #	dynasty=10000400 # Ashikaga
 	dynasty=10001200 # Minamoto (Seiwa Genji)
 	father=10120057 # Ashikaga Yoshiyasu
-	mother=11006861 # Fujiwara Tadako
+	mother=11006861 # Fujiwara Tadako, 熱田大宮司藤原範忠の娘（田中大喜、『新田一族の中世：「武家の棟梁」への道』、2015。）
 	religion="shinto"
 	culture="northern_kanto"
 	diplomacy=8
@@ -5733,6 +5733,7 @@
 	learning=7
 	trait="ashikaga_family"
 	trait="education_diplomacy_3"
+	disallow_random_traits=yes
 	prowess=12
 	1154.1.1={
 		birth=yes
@@ -5749,37 +5750,41 @@
 	1180.10.26={
 		employer=10120075 # Minamoto Yoritomo
 	}
-	1181.2.1={
-		add_spouse=10131661 # daughter of Hojo Tokimasa
+	1181.2.16={ # （『吾妻鏡』「治承5(1181)年二月一日条」）
+		add_spouse=10131661 # daughter of Hojo Tokimasa、北条時政の娘
 	}
-	1185.9.11={
+	1185.9.11={ # （『吾妻鏡』「文治元年八月二十九日条」）
 		give_nickname="nick_the_kazusa_no_suke"
 		effect = {
 			add_trait = "jugoi_ge"
 		}
 	}
-	1199.4.5={
-		death=yes
+	# 建久6(1195)年元日、椀飯（『吾妻鏡』）
+	1199.4.5={ # 建久10(1199)年三月八日（『尊卑分脈』）
+		death={
+			death_reason=death_natural_causes
+		}
 		dynasty=10000400 # Ashikaga
 	}
 }
 12139001 = {
-	name=character_name_12139001 # Yoshizumi
+	name=character_name_12139001 # Yoshizumi, 義純
 #	dynasty=10000400 # Ashikaga
 	dynasty=10001200 # Minamoto (Seiwa Genji)
 	father=12139000 # Ashikaga Yoshikane
 	religion="shinto"
 	culture="northern_kanto"
 #	trait="ashikaga_family"
+	disallow_random_traits=yes
 	1175.1.1={
 		birth=yes
 		employer=10120056 # Minamoto [Nitta] Yoshishige
 	}
 	1186.1.1={
-		add_spouse=12185011 # Nitta Raio
+		add_spouse=12185011 # Nitta Raio、新田義兼の娘（田中、2015。）
 	}
 	1200.1.1={
-		remove_spouse=12185011 # Nitta Raio
+		remove_spouse=12185011 # Nitta Raio # 離婚（田中、2015。）
 		dynasty=10000404 # Hatakeyama
 		add_spouse=10131662
 	}
@@ -5808,7 +5813,7 @@
 	}
 }
 12139003 = {
-	name=character_name_12139003 # Yoshiuji
+	name=character_name_12139003 # Yoshiuji, 義氏
 	dynasty=10000400 # Ashikaga
 	father=12139000 # Ashikaga Yoshikane
 	mother=10131661 # dauther of Hojo Tokimasa
@@ -5818,12 +5823,22 @@
 	1189.1.1={
 		birth=yes
 	}
-	1215.1.1={
+	1215.1.1={ # 建保3(1215)年頃（田中、2015。）
 		add_spouse=10131691 # daughter of Hojo Yasutoki
 	}
-	1255.1.1={
-		death=yes
+	1217.01.01={ # 建保5(1217)年
+		give_nickname="nick_the_musashi_no_kami" # 「武蔵守」（田中、2015。）
 	}
+	# 延応2(1240)年、鎌倉幕府政所別当就任（田中、2015。）
+	# 仁治4(1243)年元旦、椀飯（『吾妻鏡』）
+	# 「関東の宿老」と認識される（『吾妻鏡』建長4(1252)年十二月七日条）
+	1255.1.1={ # 建長6(1254)年十一月二十一日（『吾妻鏡』）
+		death={
+			death_reason=death_natural_causes
+		}
+	}
+	# 足利氏当主
+	# 御家人内で北條得宗家に次ぐ地位、義国流清和源氏嫡流の立場を確立（田中、2015。）
 }
 12139005={
 	name=character_name_12139005 # Nagauji
@@ -5847,7 +5862,7 @@
 	}
 }
 12139006 = {
-	name=character_name_12139006 # Yasuuji
+	name=character_name_12139006 # Yasuuji, 泰氏
 	dynasty=10000400 # Ashikaga
 	father=12139003 # Ashikaga Yoshiuji
 	mother=10131691 # daughter of Hojo Yasutoki
@@ -5863,6 +5878,7 @@
 	1239.1.1={
 		add_spouse=10131828 # daughter of Hojo Tokiuji
 	}
+	# 建長3(1251)年十二月七日、自由出家して失脚（『吾妻鏡』）
 	1270.5.31={
 		death=yes
 	}
@@ -5912,6 +5928,7 @@
 	1209.1.1={
 		birth=yes
 	}
+	# 新田政義と婚姻
 	1259.1.1={
 		death=yes
 	}
@@ -5982,7 +5999,7 @@
 	}
 }
 12139015={
-	name=character_name_12139015 # Yoriuji
+	name=character_name_12139015 # Yoriuji, 頼氏
 	dynasty=10000400 # Ashikaga
 	father=12139006 # Ashikaga Yasuuji
 	mother=10131828 # daughter of Hojo Tokiuji
@@ -5998,6 +6015,7 @@
 	1262.1.1={
 		death=yes
 	}
+	# 足利義氏の次の当主
 }
 12139016={
 	name=character_name_12139016 # Kokin
@@ -6096,14 +6114,16 @@
 	}
 }
 12139022={
-	name=character_name_12139022 # Ietoki
+	name=character_name_12139022 # Ietoki, 家時
 	dynasty=10000400 # Ashikaga
 	father=12139015 # Ashikaga Yoriuji
+	#mother= # TODO:上杉氏の娘
 	religion="shinto"
 	culture="northern_kanto"
 	trait="ashikaga_family"
 	1260.1.1={
 		birth=yes
+		trait="child_of_concubine_female"
 	}
 	1272.1.1={
 		add_spouse=10131885 # daughter of Hojo Tokishige
@@ -6116,6 +6136,7 @@
 			death_reason=death_suicide
 		}
 	}
+	# 足利氏当主、活動期間は文永3(1266)年から弘安7(1284)年六月（田中、2015。）
 }
 12139024={
 	name=character_name_12139024 # Sadauji
@@ -6136,7 +6157,7 @@
 	}
 }
 12139027={
-	name=character_name_12139027 # Takayoshi
+	name=character_name_12139027 # Takayoshi, 高義
 	dynasty=10000400 # Ashikaga
 	father=12139024 # Ashikaga Sadauji
 	mother=10132094 #daughter of Hojo Akitoki
@@ -6146,6 +6167,7 @@
 	1297.1.1={
 		birth=yes
 	}
+	# 北条高時の偏諱（田中、2015。）
 	1317.8.2={
 		death=yes
 	}
@@ -6204,18 +6226,19 @@
 			add_trait = "jushii_ge"
 		}
 	}
-	1333.8.5={
-		give_nickname="nick_the_musashi_no_kami"
+	1333.09.14={# 元弘3年八月五日
+		give_nickname="nick_the_musashi_no_kami" # 「武蔵守」
 		effect = {
 			remove_trait = "jushii_ge"
 			add_trait = "jusanmi"
 		}
 	}
-	1334.1.5={
+	1334.1.5={ # 建武1(1334)年正月五日
 		effect = {
 			remove_trait = "jusanmi"
-			add_trait = "shosanmi"
+			add_trait = "shosanmi" # 「正三位」
 		}
+		# 左兵衛督・鎮守府将軍兼帯
 	}
 	1334.9.4={
 		give_nickname="nick_the_sangi"

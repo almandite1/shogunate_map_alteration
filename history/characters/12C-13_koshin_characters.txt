@@ -3156,13 +3156,17 @@
 	}
 }
 12370004={
-	name=character_name_12370004 # Yoshizumi
+	name=character_name_12370004 # Yoshizumi, 義澄
 	dynasty=10001202 # Hiraga
 	father=10120095 # Minamoto (Hiraga) Moriyoshi
 	religion="shinto"
 	culture="koshin"
 	1147.1.1={
 		birth=yes
+	}
+	# TODO:新田義重の猶子となり「新田判官代」と称する（『尊卑分脈』）
+	1163.01.01={
+		give_nickname="nick_hangandai" # 「判官」
 	}
 	1197.1.1={
 		death=yes

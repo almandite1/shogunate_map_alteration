@@ -898,16 +898,17 @@
 	}
 }
 12185000={
-	name=character_name_12185000 # Yoshitoshi
+	name=character_name_12185000 # Yoshitoshi, 義俊
 #	dynasty=10001201 # Nitta -> Satomi
 	dynasty_house = house_shgnt_nitta
 	father=10120056 # Nitta Yoshishige
 	religion="shinto"
 	culture="western_kanto"
+	disallow_random_traits=yes
 	1135.1.1={
 		birth=yes
 		effect = {
-			add_trait = "bastard"
+			add_trait = "legitimized_bastard"
 		}
 	}
 	1155.1.1={
@@ -915,11 +916,11 @@
 		dynasty_house = house_shgnt_satomi
 	}
 	1170.1.1={
-		death=yes
+		death=yes # 早世（田中大喜、『新田一族の中世：「武家の棟梁」への道』、2015。）
 	}
 }
 12185001={
-	name=character_name_12185001 # Yoshinori
+	name=character_name_12185001 # Yoshinori, 義範
 #	dynasty=10001201 # Nitta -> Yamana
 	dynasty_house = house_shgnt_nitta
 	father=10120056 # Nitta Yoshishige
@@ -941,9 +942,15 @@
 	1153.1.1={
 		give_nickname="nick_taro"
 	}
+	# 児玉党山名氏に婿入りした可能性がある（田中大喜、『新田一族の中世：「武家の棟梁」への道』、2015。）
 	1159.1.1={
 #		dynasty=10000500 # Yamana
 		dynasty_house = house_shgnt_yamana
+	}
+	# 治承4(1180)年十月、頼朝鎌倉入り直後に帰順した可能性（田中、2015。）
+	# 治承4(1180)年十一月、頼朝行列供奉（田中、2015。）
+	1185.09.24={ # （『吾妻鏡』「文治元年（1185年）八月二十九日条」）
+		give_nickname="nick_the_izu_no_kami" # 「伊豆守」
 	}
 	1219.1.1={
 		death=yes
@@ -951,20 +958,26 @@
 	}
 }
 12185002={
-	name=character_name_12185002 # Yoshikane
+	name=character_name_12185002 # Yoshikane, 義兼
 #	dynasty=10001201 # Nitta
 	dynasty_house = house_shgnt_nitta
 	father=10120056 # Nitta Yoshishige
-	mother=12540111 # Uno  Chikako 
+	mother=12540111 # Uno Chikako
 	religion="shinto"
 	culture="western_kanto"
+	disallow_random_traits=yes
 	1139.1.1={
 		birth=yes
 	}
 	1155.1.1={
 		give_nickname="nick_jio"
 	}
-	1206.4.17={
+	# 畠山氏出身の可能性が高い新田尼と婚姻（田中大喜、『新田一族の中世：「武家の棟梁」への道』、2015。）
+	# 文治元年（1185年）十月二十四日、頼朝行列供奉（『吾妻鏡』）
+	# 文治4(1188)年三月十五日、頼朝行列供奉（『吾妻鏡』）
+	# 建久2(1191)年二月四日、頼朝行列供奉（『吾妻鏡』）
+	# 建久3(1192)年十一月二十五日、頼朝行列供奉（『吾妻鏡』）
+	1206.4.17={ # 建保3(1215)年二月二十二日より少し前に死亡（田中、2015。）
 		death=yes
 		dynasty=10001201 # Nitta
 	}
@@ -1003,11 +1016,11 @@
 	}
 }
 12185005={
-	name=character_name_12185005 # Yoshisue
+	name=character_name_12185005 # Yoshisue, 義季
 #	dynasty=10001201 # Nitta -> Serada/Tokugawa
 	dynasty_house = house_shgnt_nitta
 	father=10120056 # Nitta Yoshishige
-	mother=12540111 # Uno  Chikako 
+	mother=12540111 # Uno Chikako、義兼同母（田中、2015。）
 	religion="shinto"
 	culture="western_kanto"
 	1157.1.1={
@@ -1059,19 +1072,21 @@
 	}
 }
 12185010={
-	name=character_name_12185010 # Yoshifusa
+	name=character_name_12185010 # Yoshifusa, 義房
 #	dynasty=10001201 # Nitta
 	dynasty_house = house_shgnt_nitta
 	father=12185002 # Nitta Yoshikane
 	religion="shinto"
 	culture="western_kanto"
+	disallow_random_traits=yes
 	1162.1.1={
 		birth=yes
 	}
-	1195.12.9={
+	1195.12.9={ # 父・義兼より早世（田中、2015。）
 		death=yes
 		dynasty=10001201 # Nitta
 	}
+	# 系図以外の史料には未出（田中、2015。）
 }
 12185011={
 	female=yes
@@ -1090,27 +1105,41 @@
 	}
 }
 12185012={
-	name=character_name_12185012 # Masayoshi
+	name=character_name_12185012 # Masayoshi, 政義
 	dynasty=10001201 # Nitta
 	father=12185010 # Nitta Yoshifusa
 	religion="shinto"
 	culture="western_kanto"
+	disallow_random_traits=yes
 	1187.1.1={
 		birth=yes
 	}
+	1203.01.01={
+		give_nickname="nick_taro" # 「太郎」
+	}
+	# TODO:承久の乱の時には幼少だったか（田中、2015。）
+	1225.1.1={
+		add_spouse=12139009 # 足利義氏の娘と婚姻（田中、2015。）
+	}
+	# 嘉禎3(1237)年四月十九日、『吾妻鏡』初出「新田太郎」、足利本宗家の一員に準じる立場（田中、2015。）
+	# 仁治2(1241)年四月二十九日、幕府から預かっていた囚人に逃げられたため罰金刑（『吾妻鏡』）
+	# 寛元2(1244)年、上京し京都大番役（『吾妻鏡』）
+	# 寛元2(1244)年六月十七日、突然出家（自由出家）、所領没収の刑（『吾妻鏡』）
 	1257.1.1={
 		death=yes
 	}
 }
 12185015={
-	name=character_name_12185015 # Masauji
+	name=character_name_12185015 # Masauji, 政氏
 	dynasty=10001201 # Nitta
 	father=12185012 # Nitta Masayoshi
+	mother=12139009 # 足利義氏の娘（田中、2015。）
 	religion="shinto"
 	culture="western_kanto"
 	1208.1.1={
 		birth=yes
 	}
+	# 足利本宗家から偏諱を受ける（田中、2015。）
 	1271.3.30={
 		death=yes
 	}
@@ -1196,7 +1225,7 @@
 	}
 }
 12185040={
-	name=character_name_12185040 # Yoshisada
+	name=character_name_12185040 # Yoshisada, 義貞
 	dynasty=10001201 # Nitta
 	father=12185030 # Nitta Tomouji
 	religion="shinto"
@@ -1213,9 +1242,45 @@
 	1300.1.1={
 		birth=yes
 	}
-	1338.8.17={
+	# 足利高義の偏諱と考えられる（田中、2015。）
+	# 正慶2年（1333年）五月八日、挙兵（『太平記』）
+	# 正慶2年（1333年）五月九日、八幡荘から鎌倉街道上道を通り鎌倉へ移動（田中、2015。）
+	# 正慶2年（1333年）五月十一日、小手指原で幕府軍と戦闘（田中、2015。）
+	# 正慶2年（1333年）五月十二日、久米川で幕府軍と戦闘、武蔵国府攻略（田中、2015。）
+	# 正慶2年（1333年）五月十五日、分倍河原（ぶばいがわら）で戦闘、敗北し堀兼へ退却（田中、2015。）
+	# 正慶2年（1333年）五月十六日、再び分倍河原で戦闘、勝利（田中、2015。）
+	# 正慶2年（1333年）五月十八日、鎌倉攻防戦開始（田中、2015。）
+	# 正慶2年（1333年）五月二十一日、稲村ヶ崎を突破し鎌倉市中に侵攻（田中、2015。）
+	# 正慶2年（1333年）五月二十二日、北条一門家人自害、鎌倉幕府滅亡（田中、2015。）
+	# 元弘3(1333)年八月初旬、鎌倉を退去し上京（田中、2015。）
+	1333.09.14={# 元弘3年八月五日
+		give_nickname="nick_the_kamitsukeno_no_suke" # 「上野介」、上野介越後守播磨守に任官（田中、2015。）
+		# 武者所を統括する地位
+	}
+	1334.03.18={ # 建武1(1334)年二月十三日
+		trait="jushii_jo" # 「従四位上」（『異本元弘日記』）
+	}
+	# 建武2(1335)年十一月二十五日、三河矢作で足利軍をに勝利（田中、2015。）
+	# 建武2(1335)年十二月八日、箱根竹下の合戦で敗北（田中、2015。）
+	# 建武3(1336)年正月九日、大渡合戦敗北（田中、2015。）
+	# 建武3(1336)年正月末、足利尊氏を丹波国に敗走させる（田中、2015。）
+	1335.03.04={ # 建武2(1335)年二月十一日以前
+		give_nickname="nick_the_sakonoe_chujo" # 「左近衛中将」、「右衛門督」も？
+	}
+	# 建武2(1335)年二月十一日、豊島河原の戦いで勝利
+	# 建武3(1336)年三月、九州の足利討伐のため出陣
+	# 建武3(1336)年五月十八日、播磨国白旗城攻略、脇屋義助が備中国福山で戦闘敗北、湊川へ退却
+	# 建武3(1336)年五月二十五日、湊川の戦い敗北、京へ敗走、建武政権軍の総指揮官を更迭
+	# 建武3(1336)年十月十日、後醍醐京へ還幸、義貞後醍醐と決別し越前へ向かう
+	1337.01.01={
+		give_nickname="nick_the_uemon_no_kami" # 「右衛門督」
+	}
+	# 建武4(1337)年正月一日、義貞の籠もる金ケ崎城攻城戦はじめ
+	# 建武4(1337)年三月六日、金ケ崎城落城、落城前に杣山城に移動
+	1338.8.17={ # 建武5(1338)年閏七月二日
 		death={
-			death_reason=death_battle
+			death_reason=death_battle # 戦死
+			killer=12139049 # 斯波高経
 		}
 		effect = {
 			add_trait = "shoshii_ge"
@@ -1256,7 +1321,7 @@
 	}
 }
 12185043={
-	name=character_name_12185043 # Yoshiaki
+	name=character_name_12185043 # Yoshiaki, 義顕
 	dynasty=10001201 # Nitta
 	father=12185040 # Nitta Yoshisada
 	religion="shinto"
@@ -1265,9 +1330,9 @@
 	1318.1.1={
 		birth=yes
 	}
-	1337.4.7={
+	1337.4.7={ # 建武4(1337)年三月六日金ケ崎城落城
 		death={
-			death_reason=death_suicide
+			death_reason=death_suicide # 自害
 		}
 		effect = {
 			add_trait = "jugoi_ge"
@@ -2341,7 +2406,7 @@
 	}
 }
 12186000={
-	name=character_name_12186000 # Yoshinari
+	name=character_name_12186000 # Yoshinari, 義成
 #	dynasty=10000119 # Satomi
 	dynasty_house = house_shgnt_satomi
 	father=12185000 # Satomi Yoshitoshi
@@ -2354,6 +2419,8 @@
 	trait="education_stewardship_3"
 	trait="sharpshooter"
 	trait="intellect_good_2"
+	disallow_random_traits=yes
+	# 頼朝の随兵に選ばれる＝「譜代の勇士・弓馬の達者・容儀神妙」の三徳兼備の者（田中、2015。）
 	prowess=18
 	1157.1.1={
 		birth=yes
@@ -2361,17 +2428,22 @@
 	1173.1.1={
 		give_nickname="nick_taro"
 	}
-	1204.5.14={
+	# 上京、平家に仕える
+	# 祖父・新田義重より先に自発的に源頼朝に仕える（田中、2015。）
+	# 文治4(1188)年七月十日、平賀氏の一員に準じた立場（田中、2015。）
+	1204.5.14={ # 元久1(1204)年四月十三日、平賀朝雅の推挙で任官（田中、2015。）
 		give_nickname="nick_the_iga_no_kami"
 		effect = {
 			add_trait = "jugoi_ge"
 		}
 	}
+	# 元久2(1205)年牧氏の変に連座して失脚したと見られる（田中、2015。）
 	1234.12.20={
 		trait="jugoi_ge"
 		dynasty=10000119 # Satomi
 		death=yes
 	}
+	# 「里見氏の事実上の祖」（田中、2015。）
 }
 12186001={
 	name=character_name_12186001 # Iesada
@@ -2443,7 +2515,7 @@
 	}
 }
 12186006={
-	name=character_name_12186006 # Yoshitsugu
+	name=character_name_12186006 # Yoshitsugu, 義継、# TODO:大井田氏
 	dynasty=10000119 # Satomi
 	father=12186000 # Satomi Yoshinari
 	religion="shinto"
@@ -2451,6 +2523,10 @@
 	1187.1.1={
 		birth=yes
 	}
+	1203.01.01={
+		give_nickname="nick_juro" # 「十郎」
+	}
+	# 仁治2(1241)年正月二日、「大井田十郎」（『吾妻鏡』）、足利本宗家の一族・家人に準じる立場（田中、2015。）
 	1237.1.1={
 		death=yes
 	}
@@ -3148,7 +3224,7 @@
 	}
 }
 12186225={
-	name=character_name_12186225 # Yoshiyuki
+	name=character_name_12186225 # Yoshiyuki, 義行
 	dynasty=10000500 # Yamana
 	father=12186220 # Yamana Tomoie
 	religion="shinto"
@@ -3159,6 +3235,7 @@
 	1297.1.1={
 		death=yes
 	}
+	# 児玉党山名氏の可能性が高いように思われる（田中、2015。）
 }
 12186226={
 	name=character_name_12186226 # Yukiuji
@@ -3340,14 +3417,16 @@
 	1280.1.1={
 		birth=yes
 	}
+	# TODO:上杉重房の娘と婚姻（『山名家譜』）
 	1340.1.1={
 		death=yes
 	}
 }
 12186256={
-	name=character_name_12186256 # Tokiuji
+	name=character_name_12186256 # Tokiuji, 時氏
 	dynasty=10000500 # Yamana
 	father=12186255 # Yamana Masauji
+	#mother= # 上杉重房の娘（『山名家譜』）
 	religion="shinto"
 	culture="western_kanto"
 	martial=8
@@ -3394,7 +3473,7 @@
 	}
 }
 12186301={
-	name=character_name_12186301 # Yoriuji
+	name=character_name_12186301 # Yoriuji, 頼氏
 	dynasty=10007095 # Serada
 	father=12185005 # Serada Yoshisue
 	religion="shinto"
@@ -3402,9 +3481,17 @@
 	1200.1.1={
 		birth=yes
 	}
+	# 寛元2(1244)年八月十四日、『吾妻鏡』初出（田中、2015。）
+	# 新田政義失脚後の新田入道跡の惣領と思われる（田中、2015。）
+	# 鎌倉種軍近臣（田中、2015。）
+	# TODO: 足利義氏娘と婚姻（『今川記』）
 	1226.1.1={
 		add_spouse=10131708 # daughter of Hojo Tomotoki
 	}
+	1244.01.01={ # 寛元2(1244)年八月十五日以前（『吾妻鏡』）
+		give_nickname="nick_the_mikawa_no_kami" # 「三河守」（田中、2015。）
+	}
+	# 文永9(1272)年二月、佐渡国に流罪（『長楽寺系図』）、二月騒動に連座か（田中、2015。）
 	1272.6.1={
 		death=yes
 	}
