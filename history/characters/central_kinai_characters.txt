@@ -52,7 +52,7 @@
 	}
 }
 10040002 = {
-	name=character_name_10040002 # Yoshiakira
+	name=character_name_10040002 # Yoshiakira, 義詮、千寿王
 	dynasty=10000400 # Ashikaga
 	father=12139028 # Ashikaga Takauji
 	mother=10132202 # daughter of Hojo Hisatoki
@@ -69,6 +69,8 @@
 	1330.7.4={
 		birth=yes
 	}
+	# 元弘3(1333)年五月二日夜半、鎌倉を脱出（『太平記』）
+	# 元弘3(1333)年五月十二日、世良田で挙兵（康永元年八月十五日付鹿島利氏申状写」）
 	1363.1.28={
 		give_nickname="nick_gon_dai_nagon"
 	}
@@ -2247,7 +2249,7 @@
 	name=character_name_10040501 # Sumimoto
 #	dynasty=10000401 # Hosokawa
 	dynasty_house = house_shgnt_sanshuhosokawa
-	father= 10040529
+	father= 10040529 # 細川義春（馬部、2018。）
 	martial=9
 	diplomacy=7
 	intrigue=8
@@ -2273,8 +2275,9 @@
 		}
 		dynasty_house = house_shgnt_keichohosokawa
 	}
+	# 永正4(1507)年六月二十四日、細川澄之に自邸を襲撃され近江国甲賀に逃げる（馬部、2018。）
 	1505.1.1={
-		give_nickname="nick_rokuro"
+		give_nickname="nick_rokuro" # 「六郎」讃州家の継承者（馬部、2018。）
 	}
 	1506.1.1={
 		effect = {
@@ -2290,6 +2293,11 @@
 	1509.1.1 = {
 		add_pressed_claim=d_shgnt_settsu
 	}
+	# 永正6(1509)年六月十七日、如意ヶ嶽合戦敗亡、甲賀に逃げる（馬部、2018。）
+	# 永正6(1509)年閏八月十五日、近江を出て阿波へ下向（馬部、2018。）
+	# 永正8(1511)年八月二十四日、船岡山合戦敗北（馬部、2018。）
+	# 永正9(1512)年正月二十三日、阿波在国（馬部、2018。）
+	# 永正17(1520)年五月、第三次上洛戦に失敗（馬部、2018。）
 	1520.6.24={
 		death=yes
 	}
@@ -2918,7 +2926,7 @@
 	name=character_name_10040529 # Yoshiharu
 #	dynasty=10000401 # Hosokawa
 	dynasty_house = house_shgnt_sanshuhosokawa
-	father= 10040528
+	father= 10040528 # 細川成之の次男（馬部、2018。）
 	martial=8
 	diplomacy=7
 	intrigue=8
@@ -2931,13 +2939,15 @@
 	1468.1.1={
 		birth=yes
 	}
+	# 文明15(1483)年、備中守護家細川勝久の養子となる（馬部、2018。）
+	# 長享2(1488)年、兄・政之が死亡したため備中守護職保持して成之後継となる（馬部、2018。）
 	1488.1.1={
 		give_nickname="nick_the_sanuki_no_kami"
 		effect = {
 			add_trait = "jugoi_ge"
 		}
 	}
-	1495.1.17={
+	1495.1.17={ # 明応3年（馬部、2018。）
 		death=yes
 	}
 }
@@ -2945,7 +2955,7 @@
 	name=character_name_10040530 # Masayuki
 #	dynasty=10000401 # Hosokawa
 	dynasty_house = house_shgnt_sanshuhosokawa
-	father= 10040528
+	father= 10040528 # 細川成之（馬部、2018。）
 	martial=8
 	diplomacy=7
 	intrigue=8
@@ -2958,7 +2968,7 @@
 	1455.1.1={
 		birth=yes
 	}
-	1488.9.4={
+	1488.9.4={ # 長享2(1488)年（馬部、2018。）
 		death=yes
 	}
 }
@@ -2987,7 +2997,7 @@
 	name=character_name_10040532 # Yukimochi
 #	dynasty=10000401 # Hosokawa
 	dynasty_house = house_shgnt_sanshuhosokawa
-	father= 10040529
+	father= 10040529 # 細川義春（馬部、2018。）
 	martial=8
 	diplomacy=7
 	intrigue=8
@@ -3000,12 +3010,15 @@
 	1486.1.1={
 		birth=yes
 	}
+	#1495.1.17父・義春死後、備中守護職継承（馬部、2018。）
 	1502.1.1={
-		give_nickname="nick_kuro"
+		give_nickname="nick_kuro" # 「九郎」（『尊卑分脈』）
 	}
-	1512.2.8={
+	1512.2.8={ # 永正9(1512)年正月二十一日（『尊卑分脈』）
 		death=yes
 	}
+	# 「柏木系図」では天文2(1533)年二月二十三日没、定説化しつつあるが根拠に疑義（馬部、2018。）
+	# 讃岐守は名乗っていない、讃州家を継承する立場にない（馬部、2018。）
 }
 10040533 = {
 	name=character_name_10040533 # Ujihisa
@@ -3038,7 +3051,7 @@
 	name=character_name_10040534 # Mochitaka
 #	dynasty=10000401 # Hosokawa
 	dynasty_house = house_shgnt_keichohosokawa
-	father=10040501 # Hosokawa Sumimoto
+	father=10040501 # Hosokawa Sumimoto, 細川澄元の子、晴元の弟（馬部、2018。）
 	martial=8
 	diplomacy=9
 	intrigue=7
@@ -3048,7 +3061,7 @@
 	trait="education_diplomacy_1"
 	trait="ashikaga_family"
 	prowess=12
-	1516.1.1={
+	1516.1.1={ # 永正13(1516)年か14(1517)年頃の生まれ（馬部、2018。）
 		birth=yes
 	}
 	1520.1.1={
@@ -3063,6 +3076,7 @@
 	1553.7.27={
 		death=yes
 	}
+	# 「細川両家記」は諱を政之と誤り（馬部、2018。）
 }
 10040535 = {
 	name=character_name_10040535 # Yoriyuki
@@ -3470,7 +3484,7 @@
 	}
 }
 10040551 = {
-	name=character_name_10040551 # Tadataka
+	name=character_name_10040551 # Tadataka, 尹賢、初名：澄重（馬部、2018。）
 #	dynasty=10000401 # Hosokawa
 	dynasty_house = house_shgnt_yashuhosokawa
 	father=10040557 # Hosokawa Harutomo
@@ -3494,8 +3508,10 @@
 			set_real_father = character:10040557
 			add_trait = "child_of_adoption"
 		}
-		dynasty_house = house_shgnt_tenkyuhosokawa
+		dynasty_house = house_shgnt_tenkyuhosokawa # 細川典厩家を相続（馬部、2018。）
+		# 尹賢と改名（馬部、2018。）
 	}
+	# 永正16(1519)年十一月十日、京都から摂津へ向かう（馬部、2018。）
 	1531.9.5={
 		death=yes
 	}
@@ -3574,7 +3590,7 @@
 	}
 }
 10040555 = {
-	name=character_name_10040555 # Masaharu
+	name=character_name_10040555 # Masaharu, 政春
 #	dynasty=10000401 # Hosokawa
 	dynasty_house = house_shgnt_yashuhosokawa
 	father=10040547
@@ -3832,7 +3848,7 @@
 	}
 }
 10040566 = {
-	name=character_name_10040566 # Takakuni
+	name=character_name_10040566 # Takakuni, 高国
 #	dynasty=10000401 # Hosokawa
 	dynasty_house = house_shgnt_bicchuhosokawa
 	father=10040555
@@ -3920,7 +3936,7 @@
 	}
 }
 10040568 = {
-	name=character_name_10040568 # Tanekuni
+	name=character_name_10040568 # Tanekuni, 稙国
 #	dynasty=10000401 # Hosokawa
 	dynasty_house = house_shgnt_keichohosokawa
 	father=10040566
@@ -3936,7 +3952,7 @@
 	1508.1.1={
 		birth=yes
 	}
-	1525.11.8={
+	1525.11.8={ # 大永5(1525)年（馬部、2018。）
 		death=yes
 	}
 }
@@ -4640,7 +4656,7 @@
 	}
 }
 10040752 = {
-	name=character_name_10040752 # Motohide
+	name=character_name_10040752 # Motohide, 元秀
 	dynasty=10000218 # Uehara
 	father=10040750
 	religion="shinto"
@@ -4661,6 +4677,7 @@
 	1481.1.1={
 		give_nickname="nick_Zinroku"
 	}
+	# 長享1(1487)年、細川政元の丹波守護代
 	1493.9.1={
 		give_nickname="nick_kii_no_kami"
 	}
@@ -4918,8 +4935,9 @@
 	}
 }
 10040850 = {
-	name=character_name_10040850 # Motonaga
-	dynasty=10000442 # Yakushiji
+	name=character_name_10040850 # Motonaga, 元長
+	dynasty=10000442 # Yakushiji, 薬師寺
+	# father= #TODO: 永欽（馬部、2018。）
 	religion="shinto"
 	culture="central_kinai"
 	diplomacy=8
@@ -4933,16 +4951,22 @@
 		birth=yes
 	}
 	1470.1.1={
-		give_nickname="nick_bingo_no_kami"
+		give_nickname="nick_bingo_no_kami" # 「備後守」
 	}
+	# 文明3(1471)年、摂津守護代として活動（馬部、2018。）
+	# 文明14(1482)年、茨木氏を討つ（馬部、2018。）
+	# 長享1(1487)年、細川政元の摂津守護代
+	# 文亀1(1501)年八月、「備後守」（馬部、2018。）
 	1502.1.25={
 		death=yes
 	}
+	# 摂津守護代（馬部、2018。）
+	# 弟に摂津下郡郡代・長盛（馬部、2018。）
 }
 10040851 = {
-	name=character_name_10040851 # Motokazu
+	name=character_name_10040851 # Motokazu, 元一
 	dynasty=10000442 # Yakushiji
-	father=10040850
+	father=10040850 # 薬師寺元長、TODO: 訂正、薬師寺元長の弟・長盛の長男（馬部、2018。）
 	religion="shinto"
 	culture="central_kinai"
 	diplomacy=10
@@ -4958,6 +4982,11 @@
 	1477.1.1={
 		birth=yes
 	}
+	1493.01.01={
+		give_nickname="nick_yoichi" # 「与一」
+	}
+	# 明応4(1495)年、「薬師寺与一」細川澄之の守護代
+	# 永正1(1504)年、細川政元に反乱を起こす
 	1504.10.1={
 		death={
 			death_reason=death_suicide
@@ -4965,9 +4994,9 @@
 	}
 }
 10040852 = {
-	name=character_name_10040852 # Nagatada
+	name=character_name_10040852 # Nagatada, 長忠
 	dynasty=10000442 # Yakushiji
-	father=10040850
+	father=10040850 # 薬師寺元長、TODO: 訂正、薬師寺元長の弟・長盛の次男（馬部、2018。）
 	religion="shinto"
 	culture="central_kinai"
 	diplomacy=9
@@ -4981,14 +5010,22 @@
 	1480.1.1={
 		birth=yes
 	}
+	# 文亀2(1502)年、父・長盛の跡を継いで評定衆（馬部、2018。）
+	# 1504.10.1、兄・元一没後上守護代を兼任
+	# 永正4(1507)年、細川澄元方に滅ぼされる（馬部、2018。）
 	1507.9.7={
-		death=yes
+		death={
+			death_reason=death_battle
+			killer=10040501 # 細川澄元
+		}
 	}
+	# 摂津半国守護代（馬部、2018。）
 }
 10040853 = {
-	name=character_name_10040853 # Kuninaga
+	name=character_name_10040853 # Kuninaga, 国長、万徳丸、「橘国長」
 	dynasty=10000442 # Yakushiji
-	father=10040851
+	father=10040851 # 薬師寺元一（馬部、2018。）
+	#mother= # 赤松有馬氏の娘（「見桃録」）
 	religion="shinto"
 	culture="central_kinai"
 	diplomacy=8
@@ -5001,37 +5038,54 @@
 	1502.1.1={
 		birth=yes
 	}
+	# 薬師寺長忠滅亡に乗じて、摂津茨木城を攻略（馬部、2018。）
 	1518.1.1={
-		give_nickname="nick_kuro"
+		give_nickname="nick_kuro" # 「九郎」
 	}
-	1533.7.10={
-		death=yes
+	# 永正11(1514)年、守護代（馬部、2018。）
+	# 大永4(1524)年、「薬師寺九郎左衛門」（「大永四年細川亭御成記」）
+	# 享禄1(1528)年、細川晴元方に寝返る（馬部、2018。）
+	1533.7.10={ # 天文2(1533)年
+		death=yes # 細川国慶の攻撃を受け高雄山で死亡（馬部、2018。）
 	}
+	# 永正年間（1504.2.30～1521.8.23）中頃の細川高国守護代（馬部、2018。）
+	# 
 }
 10040854 = {
-	name=character_name_10040854 # Kunimori
+	name=character_name_10040854 # Kunimori, 国盛、岩千代丸（馬部、2018。）
 	dynasty=10000442 # Yakushiji
-	father=10040852
+	father=10040852 # 薬師寺元一（馬部、2018。）
 	religion="shinto"
 	culture="central_kinai"
 	1503.1.1={
 		birth=yes
 	}
 	1519.1.1={
-		give_nickname="nick_Yojio"
+		give_nickname="nick_Yojio" # 「与次」（馬部、2018。）
+	}
+	# 細川高国京兆家相続時、摂津下郡守護代（馬部、2018。）
+	# 永正11(1514)年、「薬師寺与次」（馬部、2018。）
+	# 大永4(1524)年、「薬師寺与次」（「大永四年細川亭御成記」）
+	# 享禄1(1528)年、細川晴元方に寝返る（馬部、2018。）
+	# 享禄3(1530)年、細川高国方に寝返る（馬部、2018。）
+	1533.01.01={
+		give_nickname="nick_Saburozaemon" # 「三郎左衛門」（馬部、2018。）
 	}
 	1531.7.17={
 		death=yes
 	}
 }
 10040855={
-	name=character_name_10040855 # Motofusa
+	name=character_name_10040855 # Motofusa, 元房、岩福丸（馬部、2018。）
 	dynasty=10000442 # Yakushiji
 	father=10040853 # Yakushiji Kuninaga
 	religion="shinto"
 	culture="central_kinai"
 	1520.1.1={
 		birth=yes
+	}
+	1537.01.01={ # 元服（馬部、2018。）
+		give_nickname="nick_yoichi" # 「与一」（馬部、2018。）
 	}
 	1550.1.1={
 		death=yes
@@ -5129,7 +5183,7 @@
 	}
 }
 10040884={
-	name=character_name_10040884 # Kunimitsu
+	name=character_name_10040884 # Kunimitsu, 国満
 	dynasty=10007313 # Shiokawa
 	father=10040883 # Shiokawa Tanemitsu
 	religion="shinto"
@@ -5137,6 +5191,7 @@
 	1510.1.1={
 		birth=yes
 	}
+	# 永正10(1513)年十二月十三日時点、「塩川千代寿」（馬部、2018。）
 	1577.1.1={
 		death=yes
 	}
@@ -5155,23 +5210,38 @@
 	}
 }
 10040900={
-	name=character_name_10040900 # Nagaharu
+	name=character_name_10040900 # Nagaharu, 長治
 	dynasty=10000768 # Yanagimoto
 	religion="shinto"
 	culture="central_kinai"
 	trait="education_stewardship_2"
 	stewardship=8
-	1463.1.1={
+	# father= # 柳本出雲守家藤、永正4(1507)年没（馬部隆弘、『戦国期細川権力の研究』、2018。）
+	1463.1.1={ # 寛正4(1463)年没年享年換算（馬部、2018。）
 		birth=yes
 	}
-	1520.3.6={
-		death=yes
+	1479.01.01={
+		give_nickname="nick_Matajio" # 「又次郎」（馬部、2018。）
 	}
+	# 明応7(1498)年、葦洲等縁書状が初見（馬部、2018。）
+	# 明応8(1499)年、富田某の志宜荘押領を支援（馬部、2018。）
+	# 永正1(1504)年、薬師寺元一反乱鎮圧従軍（馬部、2018。）
+	# 永正4(1507)年、細川政元奥州廻国のお供予定（馬部、2018。）＝政元に重用
+	# 政元暗殺後、澄元に味方、入道宗雄（馬部、2018。）
+	# 永正5(1508)年、高国に味方（馬部、2018。）
+	# 永正8(1511)年、船岡山合戦参戦（馬部、2018。）
+	# 永正8(1511)年、芦屋河原合戦参戦（馬部、2018。）
+	1520.3.6={ # 永正17(1520)年五十八歳没（馬部、2018。）
+		death={
+			death_reason=death_battle # 尼崎から京へ撤退中に西岡一揆に攻められ息子・弾正忠とともに戦死（馬部、2018。）
+		}
+	}
+	# 柳本氏として初めて細川京兆家に仕えたことが確認できる人物、京兆家近習（馬部、2018。）
 }
 10040901={
-	name=character_name_10040901 # Jinjiro
+	name=character_name_10040901 # Jinjiro, 甚次郎
 	dynasty=10000768 # Yanagimoto
-	father=10042082 # Yanagimoto Kataharu
+	father=10042082 # Yanagimoto Kataharu、柳本賢治の実子の代行（馬部、2018。）
 	religion="shinto"
 	culture="central_kinai"
 	trait="education_stewardship_2"
@@ -5179,8 +5249,13 @@
 	1514.1.1={
 		birth=yes
 	}
-	1532.1.1={
-		death=yes
+	# 享禄3(1530)年末から享禄4(1531)年三月頃、木沢長政と協力して京都を支配（馬部、2018。）
+	# 享禄4(1531)年三月頃以降、高畠長信と協力して京都を支配（馬部、2018。）
+	1532.02.06={ # 天文1(1532)年正月十九歳
+		death={
+			death_reason=death_battle
+			killer=10059003 # 三好元長配下の攻撃
+		}
 	}
 }
 10040910={
@@ -11642,7 +11717,7 @@
 	}
 }
 10045661={
-	name=character_name_10045661 # Kunisuke
+	name=character_name_10045661 # Kunisuke, 国扶
 	dynasty=10000455 # Itami
 	father=10045659 # Itami Motosuke
 	religion="shinto"
@@ -11652,9 +11727,10 @@
 	1500.1.1={
 		birth=yes
 	}
-	1516.1.1={
+	1514.1.1={
 		give_nickname="nick_the_hyogo_no_kami"
 	}
+	# 永正11(1514)年五月五日時点、「兵庫助」
 	1531.7.27={
 		death=yes
 	}

@@ -4910,8 +4910,9 @@
 	}
 }
 10032410 = {
-	name=character_name_10032410 # Fusanaga
-	dynasty=10000321 # Honjo
+	name=character_name_10032410 # Fusanaga, 房長
+#	dynasty=10000321 # Honjo
+	dynasty_house="house_shgnt_chichibu_honjo"
 	father=10032408 # Honjo Nagakazu
 	martial=8
 	diplomacy=10
@@ -4925,6 +4926,10 @@
 	1466.1.1={
 		birth=yes
 	}
+	1496.01.01={
+		give_nickname="nick_tsushima_no_kami" # 「対馬守」
+	}
+	# 大永6(1526)年正月十八日時点、「対馬守」（上杉古文書）
 	1539.1.1={
 		death=yes
 	}
@@ -7100,15 +7105,20 @@
 	}
 }
 10033950={
-	name=character_name_10033950 # Masanaga
-	dynasty=10000343 # Irobe
+	name=character_name_10033950 # Masanaga, 昌長
+#	dynasty=10000343 # Irobe
+	dynasty_house="house_shgnt_chichibu_irobe"
 	father=12270740 # Irobe Shigenaga
 	religion="shinto"
 	culture="eastern_hokuriku"
 	1440.1.1={
 		birth=yes
 	}
-	1510.1.1={
+	1470.01.01={
+		give_nickname="nick_totoumi_no_kami" # 「遠江守」
+	}
+	# 大永6(1526)年正月十八日時点、「遠江守」（上杉古文書）
+	1527.1.1={
 		death=yes
 	}
 }
@@ -7129,8 +7139,9 @@
 	}
 }
 10033952={
-	name=character_name_10033952 # Katsunaga
-	dynasty=10000343 # Irobe
+	name=character_name_10033952 # Katsunaga, 勝長
+#	dynasty=10000343 # Irobe
+	dynasty_house="house_shgnt_chichibu_irobe"
 	father=10033951 # Irobe Norinaga
 	religion="shinto"
 	culture="eastern_hokuriku"
@@ -7153,8 +7164,9 @@
 	}
 }
 10033953={
-	name=character_name_10033953 # Akinaga
-	dynasty=10000343 # Irobe
+	name=character_name_10033953 # Akinaga, 顕長
+#	dynasty=10000343 # Irobe
+	dynasty_house="house_shgnt_chichibu_irobe"
 	father=10033952 # Irobe Katsunaga
 	religion="shinto"
 	culture="eastern_hokuriku"
@@ -7165,6 +7177,10 @@
 	1559.1.1={
 		employer = 10032011 # Uesugi Kenshin
 	}
+	1565.01.01={
+		give_nickname="nick_Yasaburo" # 「弥三郎」
+	}
+	# 元亀2(1571)年八月六日時点、「色部弥三郎」
 	1578.4.19={
 		employer = 10032032 # Uesugi Kagekatsu
 	}
