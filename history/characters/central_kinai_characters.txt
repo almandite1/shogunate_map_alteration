@@ -4183,7 +4183,7 @@
 	name=character_name_10040582 # Akimoto
 #	dynasty=10000401 # Hosokawa
 	dynasty_house = house_shgnt_keichohosokawa
-	father=10040500 # Hosokawa Harumoto
+	father=10040500 # 
 	mother=10044015 # 
 	religion="shinto"
 	culture="shikoku"
@@ -4197,9 +4197,6 @@
 	prowess=7
 	1548.1.1={
 		birth=yes
-	}
-	1575.01.01={
-		add_spouse=10040582 # 織田信長の妹・お犬
 	}
 	1592.1.1={
 		death=yes
@@ -8378,7 +8375,7 @@
 	}
 }
 10043015 = {
-	name=character_name_10043015 # Nagamasa, 長政
+	name=character_name_10043015 # Nagamasa
 	dynasty=10000440 # Azai
 	father=10043006 # Azai Hisamasa
 	mother=10043008 # Iguchi Ako
@@ -8406,7 +8403,7 @@
 	1561.1.1={ 
 		give_nickname="nick_bizen_no_kami"
 	}
-	1567.9.1={ # 永禄10(1567)年末か十一年初め（奥野高廣)
+	1567.9.1={
 		add_spouse=10029145 # Oichi-no-Kata, daughter of 29100:Oda Nobuhide
 	}
 	1573.9.26={

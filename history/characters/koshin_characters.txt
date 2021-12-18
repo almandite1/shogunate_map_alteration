@@ -1092,7 +1092,7 @@
 	}
 }
 10020060={
-	name=character_name_10020060 # Torashige, 虎繁
+	name=character_name_10020060 # Torashige
 	dynasty=10000221 # Akiyama
 	religion="shinto"
 	culture="koshin"
@@ -1119,13 +1119,9 @@
 			}
 		}
 	}
-	1572.12.28 = {
-		add_spouse=10029133 # 織田信貞娘・おつやの方（谷口克広、『尾張・織田一族』、2008。）
-	}
 	1575.12.23={
 		death={
-			death_reason=death_head_ripped_off # 斬首（谷口、2008。）
-			killer=10029120 # 織田信長
+			death_reason=death_execution
 		}
 	}
 }
