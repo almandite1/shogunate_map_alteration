@@ -1,3 +1,135 @@
+[h1]beta Version 0.6.4[/h1]
+[h2]Game Content[/h2]
+[list]
+[*] 瀬戸内海の広島県福山市、山口県防府市の海岸線を江戸時代以前の場所に後退させました。
+[*] 地面テクスチャを更新しました。
+[*] 木のマップオブジェクトを追加しました。
+[/list]
+[h3]Updated rivers.png[/h3]
+[list]
+[*] 越後村上城下を流れる三面川（みおもてがわ）と高根川を追加しました。（[url=https://github.com/almandite1/shogunate_map_alteration/issues/342]#342[/url]）
+[*] 播磨国赤穂城城下を流れる千種川を追加しました。（[url=https://github.com/almandite1/shogunate_map_alteration/issues/343]#343[/url]）
+[/list]
+[h3]add branch family[/h3]
+[list]
+[*] 越後の本庄氏に分家を設定しました。（[url=https://github.com/almandite1/shogunate_map_alteration/issues/337]#337[/url]）
+[/list]
+[h3]Updated character data[/h3]
+[list]
+[*] 一部のキャラクターにニックネームを追加しました。
+[*] 一部のキャラクターに死因を設定しました。
+[*] 一部のキャラクターにdisallow_random_traits=yesを追加しました。
+[*] 源義家の子・義国の死亡年月日を変更しました。
+[*] 足利義兼と北条時政の娘の婚姻日を変更しました。
+[*] 新田政義と足利義氏の娘の婚姻を設定しました。
+[*] 新田政氏の母に足利義氏の娘を設定しました。
+[*] 柳本甚次郎の死亡月日変更しました。
+[*] 丹波内藤貞正の死亡年を変更しました。
+[*] 安城松平2代当主長親の生年を変更しました。
+[*] 安城松平2代当主長親の名前を長忠に変更しました。
+[*] 松平清康の姉妹・久の生年を変更しました。
+[*] 松平清康の姉妹・久の死亡年月日を変更しました。
+[*] 松平清康の姉妹・東姫の死亡年月日を変更しました。
+[*] 徳川家康の叔父・成誉一笑慶円の死亡年月日を変更しました。
+[*] 徳川家康の叔母・酒井左衛門尉忠次室の生年を変更しました。
+[*] 徳川家康の叔母・酒井左衛門尉忠次室の死亡年月日を変更しました。
+[*] 徳川家康の叔母・酒井左衛門尉忠次室の名前を変更しました。
+[*] 酒井忠次の兄・忠善の死亡年月日を変更しました。
+[*] 松平信孝に死因：戦死を設定しました。
+[*] 織田大和守家の敏定に片目特質を設定しました。
+[*] 岩倉織田寛広の死亡年月日を変更しました。
+[*] 清洲の織田大和守家当主達定の死亡月日を変更、死因を設定しました。
+[*] 織田信長の祖父・信貞の死亡年を変更しました。
+[*] 織田信長の叔父・信康に死因：戦死を設定しました。
+[*] 織田信長の叔父・信実の死亡年を変更しました。
+[*] 織田信秀妹・婚姻相手を桜井松平信貞から清定に変更しました。
+[*] 桜井松平清定の死亡月日変更しました。
+[*] 織田信秀妹・おつやの方と遠山景任＆秋山虎繁婚姻を設定しました。
+[*] 水野信元に死因を設定しました。
+[*] 織田信長の庶兄・信広の生年を繰り上げ変更しました。
+[*] 細川昭元と織田信秀娘・お犬と婚姻を設定しました。
+[/list]
+[h3]タイトル歴史データ変更[/h3]
+[list]
+[*] 寛定戦死後の清洲織田当主・六郎寛村をタイトルホルダーに追加しました。
+[*] d_shgnt_bitchu タイトルホルダーとして細川義春を追加しました。
+[*] d_shgnt_bitchu タイトルホルダーとして細川之持を追加しました。
+[/list]
+[h3]Fixed[/h3]
+[list]
+[*] Missing loc for name 'character_name_12139040' for character '12139040'
+[*] Missing loc for name 'Sukemasu' for character '10018377'
+[*] Missing loc for name 'Sukefusa' for character '10018378'
+[*] Could not find coat of arms render description for '10000227' when making alias for 'house_shgnt_murakami_muroga', it needs to be defined before this tries to use it as an alias
+[*] Error: set_relation_friend effect [ Could not add scripted relation (already there?) ] Script location: file: history/characters/koshin_characters.txt line: 880
+[*] Error: has_primary_title trigger [ landed title (primary title) was null ] Script location: file: gfx/portraits/portrait_modifiers/02_headgear.txt line: 363
+[*] 一部マップオブジェクトロケーターを調整しました。
+[/list]
+
+[h1]beta Version 0.6.3[/h1]
+[h2]Game Content[/h2]
+[list]
+[*] 周防灘の一部の海岸線を江戸時代以前の場所に後退させました。 ([url=https://github.com/almandite1/shogunate_map_alteration/issues/334]#334[/url])
+[*] 15・16世紀に男爵領名が変化すること、holding に城が出現するように設定しました。 ([url=https://github.com/almandite1/shogunate_map_alteration/issues/323]#323[/url])
+[*] 地面テクスチャを更新しました。
+[*] 木のマップオブジェクトを追加しました。
+[/list]
+[h3]add branch family[/h3]
+[list]
+[*] 常陸小田氏に分家を設定しました。 （[url=https://github.com/almandite1/shogunate_map_alteration/issues/311]#311[/url]）
+[/list]
+[h3]首都設定[/h3]
+[list]
+[*] 一部の伯爵領の第1 holding を変更しました。 ([url=https://github.com/almandite1/shogunate_map_alteration/issues/329]#329[/url])
+[/list]
+[h3]Updated character data[/h3]
+[list]
+[*] 一部のキャラクターにニックネームを設定しました。
+[*] 一部のキャラクターに死因を設定しました。
+[*] 宇都宮朝綱と平貞能に友人関係を設定しました。
+[*] 八田知家の四男・宍戸家政に殺害者：朝比奈義秀を設定しました。
+[*] 源頼朝乳母の寒河尼の誕生年を変更しました。
+[*] 小山朝政の誕生年を変更しました。
+[*] 宇都宮朝綱のニックネーム「左衛門尉」設定年月日を変更しました。
+[*] 小田泰知の死亡年月日を西暦換算に変更しました。
+[*] 小田時知の死亡年月日を西暦換算に変更しました。
+[*] 小田宗知の死亡年月日を西暦換算に変更しました。
+[*] 小田貞朝の死亡年月日を西暦換算に変更しました。
+[*] 小田泰知の生年を変更しました。
+[*] 小田時知の生年を変更しました。
+[*] 小田治朝の死亡月日を変更しました。
+[*] 小田持家の死亡年月日を変更しました。
+[*] 小田治孝の死亡月日を変更しました。
+[*] 小田知重の死亡年月日を変更しました。
+[/list]
+[h3]change default title name[/h3]
+[list]
+[*] 岩門城に基づき名前変更しました。
+[*] 晴気城に基づき名前変更しました。
+[*] 平安時代からある馬ヶ岳城に基づき名前変更しました。
+[*] 沓尾崎城に基づき名前変更しました。
+[*] 櫛間院に基づき名前変更しました。
+[*] b_shgnt_morokata_2 の名前を三俣院に変更しました。
+[*] b_shgnt_minami_morokata_1 の名前を救仁院に変更しました。
+[*] b_shgnt_morokata_6 の名前を真幸院に変更しました。
+[*] 若江城に基づき名前変更しました。
+[*] 堅志田城に基づき名前変更しました。
+[/list]
+[h2]Fixed[/h2]
+[list]
+[*] [url=https://github.com/almandite1/shogunate_map_alteration/issues/318]#318[/url]
+[*] [url=https://github.com/almandite1/shogunate_map_alteration/issues/317]#317[/url]
+[*] [url=https://github.com/almandite1/shogunate_map_alteration/issues/316]#316[/url]
+[*] [url=https://github.com/almandite1/shogunate_map_alteration/issues/315]#315[/url]
+[*] [url=https://github.com/almandite1/shogunate_map_alteration/issues/314]#314[/url]
+[*] [url=https://github.com/almandite1/shogunate_map_alteration/issues/313]#313[/url]
+[*] [url=https://github.com/almandite1/shogunate_map_alteration/issues/312]#312[/url]
+[*] [url=https://github.com/almandite1/shogunate_map_alteration/issues/321]#321[/url]
+[*] [url=https://github.com/almandite1/shogunate_map_alteration/issues/326]#326[/url]
+[*] [url=https://github.com/almandite1/shogunate_map_alteration/issues/327]#327[/url]
+[*] 一部マップオブジェクトロケーターを調整しました。
+[/list]
+
 [h1]beta Version 0.6.2[/h1]
 [h2]Game Content[/h2]
 [list]
