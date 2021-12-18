@@ -4484,3 +4484,39 @@ house_shgnt_hatta_kodaka = { # 洲浜
 		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 } }
 	}
 }
+house_shgnt_chichibu_koizumi={ #村濃
+	pattern = "pattern_solid.dds"
+	color1 = rgb{ 26 131 120}
+	colored_emblem = {
+		texture = "ce_murago_1.dds"
+		color1 = rgb{ 246 125 26 }
+		instance = { position = { 0.50 0.50 } scale = { 0.9 0.9 }  }
+	}
+}
+house_shgnt_chichibu_honjo={ # 五七桐
+	pattern = "pattern_solid.dds"
+	color1 = "daidai_iro"
+	colored_emblem = {
+		texture = "ce_kiri_cc_1.dds"
+		color1 = "kuro"
+		instance = { position = { 0.50 0.50 } scale = { 0.9 0.9 }  }
+	}
+}
+#house_shgnt_chichibu_irobe={ #TODO:竹輪に三つ筍
+#	pattern = "pattern_solid.dds"
+#	color1 = rgb{ 26 131 120}
+#	colored_emblem = {
+#		texture = "ce_murago_1.dds"
+#		color1 = "kuro"
+#		instance = { position = { 0.50 0.50 } scale = { 0.9 0.9 }  }
+#	}
+#}
+house_shgnt_chichibu_ogawa={ #Chichibu
+	pattern = "pattern_solid.dds"
+	color1 = "ao_iro"
+	colored_emblem = {
+		texture = "ce_murago_1.dds"
+		color1 = "daidai_iro"
+		instance = { position = { 0.50 0.50 } scale = { 0.9 0.9 }  }
+	}
+}
