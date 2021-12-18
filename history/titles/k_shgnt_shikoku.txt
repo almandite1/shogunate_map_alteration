@@ -938,25 +938,31 @@ d_shgnt_awa = {
         liege = k_nmih_kanrei # 
         holder = 10040528 # Hosokawa Shigeyuki
     }
-    1479.01.01 = {
-        holder = 10040530 # Hosokawa Masayuki
-    }
-    1488.09.04 = {
-        holder = 10040529 # Hosokawa Yoshiharu
-    }
-    1495.01.17 = {
-        holder = 10040532 # Hosokawa Yukimochi
-    }
-    1508.07.28 = {
-        liege = k_shgnt_southern_kinai # 
-        holder = 10040501 # Hosokawa Sumimoto
-    }
-    1520.06.24 = {
-        holder = 10040500 # Hosokawa Harumoto
-    }
-    1534.01.01 = {
-        holder = 10040534 # Hosokawa Mochitaka
-    }
+#    1479.01.01 = { # 政之は持隆の誤り（馬部、2018。）
+#        holder = 10040530 # Hosokawa Masayuki
+#    }
+#    1488.09.04 = { # 父・成之より早世（馬部、2018。）
+#        holder = 10040529 # Hosokawa Yoshiharu
+#    }
+#    1495.01.17 = { # 阿波守護としての活動の証拠はない（馬部、2018。）
+#        holder = 10040532 # Hosokawa Yukimochi
+#    }
+#    1508.07.28 = {
+#        liege = k_shgnt_southern_kinai # 
+#        holder = 10040501 # Hosokawa Sumimoto, 細川澄元
+#    }
+    1511.10.3={ # 細川成之死去
+		holder = 10040532 # Hosokawa Yukimochi, 細川之持 / 成之没後之持が讃州家継承かその予定（馬部、2018。）
+	}
+	1512.2.8={ # 細川持之死去
+		10040534 # Hosokawa Mochitaka, 細川持隆 / 持之死後の讃州家当主（馬部、2018。）
+	}
+#    1520.06.24 = {
+#        holder = 10040500 # Hosokawa Harumoto
+#    }
+#    1534.01.01 = {
+#        holder = 10040534 # Hosokawa Mochitaka
+#    }
     1548.10.28 = {
         liege = k_shgnt_southern_kinai # 
         holder = 10059008 # Miyoshi Koretora, De facto

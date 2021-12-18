@@ -1716,13 +1716,17 @@
 	}
 }
 12520356={
-	name=character_name_12520356 # Yoritoyo
+	name=character_name_12520356 # Yoritoyo, 頼豊
 	dynasty=10000407 # Nose
 	father=12520346 # Nose Yorihiro
 	religion="shinto"
 	culture="central_kinai"
 	1460.1.1={
 		birth=yes
+	}
+	# 細川高国の馬廻衆＝近習（馬部隆弘、『戦国期細川権力の研究』、2018。）
+	1490.01.01={
+		give_nickname="nick_inaba_no_kami" # 「因幡守」（馬部、2018。）
 	}
 	1520.1.1={
 		death=yes

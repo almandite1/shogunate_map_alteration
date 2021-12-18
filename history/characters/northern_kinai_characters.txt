@@ -1323,7 +1323,7 @@
 	}
 }
 10042051={
-	name=character_name_10042051 # Sadamasa
+	name=character_name_10042051 # Sadamasa, 貞正
 	dynasty=10000425 # Naito
 	father=10042050
 	religion="shinto"
@@ -1331,12 +1331,13 @@
 	1460.1.1={
 		birth=yes
 	}
-	1520.1.1={
+	# 永正15(1518)年、「内藤備州」は丹波在国（馬部、2018。）
+	1525.1.1={ # 大永5(1525)年（馬部、2018。）
 		death=yes
 	}
 }
 10042052={
-	name=character_name_10042052 # Kunisada
+	name=character_name_10042052 # Kunisada, 国貞、「藤原国貞」
 	dynasty=10000425 # Naito
 	father=10042051
 	religion="shinto"
@@ -1347,14 +1348,21 @@
 		birth=yes
 	}
 	1516.1.1={
-		give_nickname="nick_Hikogoro"
+		give_nickname="nick_Hikogoro" # 「彦五郎」
 	}
+	# 永正6(1509)年十二月五日、「内藤彦五郎」（馬部、2018。）
+	# 永正7(1510)年、活動が記録されるが通称不明（馬部、2018。）
+	# 永正12(1515)年九月十四日、「内藤彦五郎」（馬部、2018。）
+	# 永正13(1516)年、細川高国石清水八幡宮社参供奉騎馬衆「内藤彦五郎」は国貞（馬部、2018。）
+	# 大永3(1523)年九月十七日時点、細川高国の丹波守護代（馬部、2018。）
+	# 大永4(1524)年、「内藤弾正忠」（「大永四年細川亭御成記」）
 	1524.1.1={
 		give_nickname="nick_danjo_shochu"
 	}
 	1553.11.4={
 		death=yes
 	}
+	# 永正年間（1504.2.30～1521.8.23）中頃の細川高国守護代（馬部、2018。）
 }
 10042053={
 	name=character_name_10042053 # Sadakatsu
@@ -1680,10 +1688,11 @@
 	}
 }
 10042080={
-	name=character_name_10042080 # Kiyohide
+	name=character_name_10042080 # Kiyohide, 清秀
 	dynasty=10000427 # Hatano
 	religion="shinto"
 	culture="northern_kinai"
+	# father= # 石見吉見氏（馬部、2018。）
 	martial=9
 	diplomacy=8
 	intrigue=9
@@ -1695,16 +1704,27 @@
 		birth=yes
 	}
 	1460.1.1={
-		give_nickname="nick_Magoemon"
+		give_nickname="nick_Magoemon" # 「孫右衛門」（馬部隆弘、『戦国期細川権力の研究』、2018。）
 	}
-	1504.1.1={
-		death=yes
+	# 十八歳で上洛
+	1461.01.01={
+		employer=10040543 # 細川勝元
 	}
+	# 初めて細川家に出仕し、丹波に所領をたまう（馬部、2018。）
+	1473.06.06 = {
+        employer = 10040544 # Hosokawa Masamoto
+	}
+	1504.1.1={ # 永正1(1504)年六十二歳没（馬部、2018。）
+		death={
+			death_reason=death_natural_causes
+		}
+	}
+	# TODO: 子に香西平左衛門元盛（馬部、2018。）
 }
 10042081={
-	name=character_name_10042081 # Motokiyo
+	name=character_name_10042081 # Motokiyo, 元清
 	dynasty=10000427 # Hatano
-	father=10042080
+	father=10042080 # 波多野清秀（馬部、2018。）
 	religion="shinto"
 	culture="northern_kinai"
 	martial=9
@@ -1718,20 +1738,30 @@
 	1496.1.1={
 		birth=yes
 	}
+	# 幼少時、西話軒の仙甫寿登のもとへ入室し修行、号養賢、名を寿浩（馬部、2018。）
+	# 十五歳の時、波多野家を相続するために還俗（馬部、2018。）
 	1506.1.1={
 		give_nickname="nick_Magoshiro"
 	}
+	# 永正4(1507)年、「波多野孫四郎元清」（馬部、2018。）
+	# 永正5(1508)年、孫四郎を名乗る史料終見（馬部、2018。）
+	# 永正13(1516)年、孫右衛門尉を名乗る史料初見（馬部、2018。）
+	# 父・清秀死後孫右衛門を引き継いだ（馬部、2018。）
 	1508.1.1={
-		give_nickname="nick_Magoemon"
+		give_nickname="nick_Magoemon" # 細川高国近習「波多野孫右衛門尉元清」（「十念寺念仏講衆」、馬部、2018。)
 	}
-	1530.1.1={
+	# 大永6(1526)年、実の弟・香西元盛が細川高国に謀殺されたため細川晴元に寝返る（馬部、2018。）
+	1527.01.01={
+		trait=ill # 大永7(1527)年、病気療養、息子・秀忠が当主代行（馬部、2018。）
+	}
+	1530.1.1={ # 享禄3(1530)年（馬部、2018。）
 		death=yes
 	}
 }
 10042082={
-	name=character_name_10042082 # Takaharu
+	name=character_name_10042082 # Takaharu, 賢治
 	dynasty=10000427 # Hatano
-	father=10042080
+	father=10042080 # 波多野清秀の次弟（馬部、2018。）
 	religion="shinto"
 	culture="northern_kinai"
 	martial=9
@@ -1746,21 +1776,26 @@
 	1495.1.1={
 		birth=yes
 	}
+	# 兄・元清還俗後、西話軒の仙甫寿登のもとへ入室し修行、号仲霊、名を寿犀（馬部、2018。）
+	# 十三歳で還俗、岩崎太郎左衛門の養子（馬部、2018。）
 	1511.1.1={
 		give_nickname="nick_Matajio"
 	}
 	1520.3.6={
 		dynasty=10000768 # Yanagimoto
-		effect = {
-			set_father = character:10040900
-			set_real_father = character:10042080
-			add_trait = "child_of_adoption"
-		}
+#		effect = { # 柳本長治と養子関係はないのでこのeffectスコープをコメントアウトする
+#			set_father = character:10040900 # 賢治は柳本長治に養育されていない、長治死後名跡を継ぐ（馬部、2018。）
+#			set_real_father = character:10042080
+#			add_trait = "child_of_adoption"
+#		}
 	}
-	1528.9.1={
-		give_nickname="nick_danjo_shochu"
+	# TODO:大永7(1527)年以前、摂津守護代・薬師寺国盛の姉妹と婚姻（馬部、2018。）
+	# 大永6(1526)年、実の兄・香西元盛が細川高国に謀殺されたため細川晴元に寝返る（馬部、2018。）
+	# 大永7(1527)年二月以前、山崎に進駐（馬部、2018。）
+	1528.5.1={ # 大永8(1528)年五月以前（馬部、2018。）
+		give_nickname="nick_danjo_shochu" # TODO:「弾正忠」
 	}
-	1530.8.2={
+	1530.8.2={ # 享禄3(1530)年六月二十九日（馬部、2018。）
 		death={
 		death_reason=death_battle
 		}

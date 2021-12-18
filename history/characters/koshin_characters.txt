@@ -875,11 +875,11 @@
 	1549.1.1={
 		birth=yes
 	}
-	1554.1.1={
-		effect = {
-			set_relation_friend = character:10020033
-		}
-	}
+	#1554.1.1={
+	#	effect = {
+	#		set_relation_friend = character:10020033 # 武田勝頼で友人設定があるのでコメントアウト
+	#	}
+	#}
 	1565.1.1={
 		give_nickname="nick_sama_no_suke"
 		add_spouse=10017466 # daughter of Obata Norishige
