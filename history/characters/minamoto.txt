@@ -14,7 +14,7 @@
 }
 10120001 = {
 	disallow_random_traits=yes #
-	name=character_name_10120001 # Tsunemoto
+	name=character_name_10120001 # Tsunemoto, 経基
 	dynasty=10001200 # Minamoto (Seiwa Genji)
 	religion="shinto"
 	culture="central_kinai"
@@ -23,19 +23,34 @@
 	892.1.1={
 		birth=yes
 	}
+	938.01.01={ #（『貞信公記抄』天慶2(939)年三月三日条）
+		give_nickname="nick_the_musashi_no_suke" # 「武蔵介」
+	}
+	0940.01.01={ # 天慶3(940)年正月（『日本紀略』）/三月九日（『帝王編年記』『扶桑略記』）
+		effect={
+			add_trait="jugoi_ge" # 「従五位下」
+		}
+	}
 	961.12.25={
 		death=yes
 	}
 }
 10120002 = {
 	disallow_random_traits=yes #
-	name=character_name_10120002 # Mitsunaka # Tada Mitsunaka
+	name=character_name_10120002 # Mitsunaka,満仲 # Tada Mitsunaka
 	dynasty=10001200 # Minamoto (Seiwa Genji)
 	religion="shinto"
 	culture="central_kinai"
-	father=10120001
+	father=10120001 # 源経基（糸賀茂男、「佐竹氏の系譜と支配」、1994。）
 	912.4.29={
 		birth=yes
+	}
+	0957.01.01={
+		give_nickname="nick_the_musashi_no_kami" # TODO:「武蔵権守」（『古事談』）
+	}
+	# 応和1(961)年五月十日時点、「前武蔵権守」（『扶桑略記』）
+	0980.01.01={ # 天元5(982)年三月五日条
+		give_nickname="nick_the_hitachi_no_suke" # （『小右記』『元輔集』）
 	}
 	997.10.6={
 		death=yes
@@ -145,7 +160,7 @@
 	dynasty=10001200 # Minamoto (Seiwa Genji)
 	religion="shinto"
 	culture="central_kinai"
-	father=10120002
+	father=10120002 # 源満仲
 	948.1.1={
 		birth=yes
 	}
@@ -169,13 +184,16 @@
 }
 10120013 = {
 	disallow_random_traits=yes #
-	name=character_name_10120013 # Yorinobu
+	name=character_name_10120013 # Yorinobu, 頼信
 	dynasty=10001200 # Minamoto (Seiwa Genji)
 	religion="shinto"
 	culture="central_kinai"
-	father=10120002
+	father=10120002 # 源満仲
 	968.12.21={
 		birth=yes
+	}
+	0998.01.01={ # 長和1(1012)年閏十月二十三日時点、「前常陸守」（『御堂関白記』）
+		give_nickname="nick_the_hitachi_no_suke"
 	}
 	1048.6.1={
 		death=yes
@@ -553,31 +571,38 @@
 }
 10120040 = {
 	disallow_random_traits=yes #
-	name=character_name_10120040 # Yoshiie
+	name=character_name_10120040 # Yoshiie, 義家
 	dynasty=10001200 # Minamoto (Seiwa Genji)
 	religion="shinto"
 	culture="central_kinai"
-	father=10120035
-	1039.1.1={
+	father=10120035 # 源頼義
+	#TODO: mother= # 平直方の娘
+	trait="shoshii_ge" # 「正四位下」（米谷、2002。）
+	1039.1.1={ # 長暦3(1039)年、南河内で生まれる（糸賀、1994。）
 		birth=yes
 	}
-	1055.1.1={
-		give_nickname="nick_hachiman_taro"
+	1045.1.1={ # 寛徳2(1045)年、石清水八幡宮で元服（糸賀、1994。）
+		give_nickname="nick_hachiman_taro" # 八幡太郎（糸賀、1994。）
 	}
+	# 天喜5(1057)年、前九年合戦参戦（糸賀、1994。）
 	1082.1.1={
 		add_spouse=11003835
 	}
+	# 延久2(1070)年、下野の在任中、藤原基通を鎮圧（糸賀、1994。）
+	# 永保3(1083)年、陸奥守鎮守府将軍任官、後三年合戦（糸賀、1994。）
+	# 承徳2(1098)年、院昇殿を許される（糸賀、1994。）
 	1106.8.4={
 		death=yes
 	}
 }
 10120041 = {
 	disallow_random_traits=yes #
-	name=character_name_10120041 # Yoshitsuna
+	name=character_name_10120041 # Yoshitsuna, 義綱
 	dynasty=10001200 # Minamoto (Seiwa Genji)
 	religion="shinto"
 	culture="central_kinai"
 	father=10120035
+	trait="jushii_jo" # 「従四位上」（米谷、2002。）
 	1042.1.1={
 		birth=yes
 	}
@@ -590,20 +615,26 @@
 }
 10120042 = {
 	disallow_random_traits=yes #
-	name=character_name_10120042 # Yoshimitsu
+	name=character_name_10120042 # Yoshimitsu, 義光
 	dynasty=10001200 # Minamoto (Seiwa Genji)
 	religion="shinto"
 	culture="central_kinai"
-	father=10120035
+	father=10120035 # 源頼義（佐々木倫朗、『常陸佐竹氏』、2021。）
+	trait="jugoi_ge" # 「従五位下」（米谷、2002。）
 	1045.1.1={
 		birth=yes
 	}
 	1061.1.1={
 		give_nickname="nick_shiragi_saburo"
 	}
+	1100.01.01={
+		add_trait="jugoi_ge" # 「従五位下」（米谷、2002。）
+	}
+	# 後三年合戦の戦功により陸奥国菊田荘を所領とする（佐々木、2021。）
 	1127.11.25={
 		death=yes
 	}
+	# 官職は兵衛尉、刑部丞。系図の従四位下甲斐守は仮冒（米谷、2002。）
 }
 10120043 = {
 	disallow_random_traits=yes #
@@ -834,11 +865,11 @@
 	1114.1.1={ # 「永久2(1114)年と考えるのが妥当」（田中大喜、『新田一族の中世：「武家の棟梁」への道』、2015。）
 		birth=yes
 	}
-	1135.01.01={
-		effect = {
-			set_relation_friend = character:12540102 # 源（豊島）親弘、鳥羽院北面の同僚（田中、2015。）
-		}
-	}
+#	1135.01.01={
+#		effect={
+#			set_relation_friend = character:12540102 # 源（豊島）親弘、鳥羽院北面の同僚（田中、2015。）
+#		}
+#	}
 	1136.1.1={ # 久安5(1149)年から久安6(1150)年頃が妥当（田中、2015。）
 		add_spouse=12540111 # daughter of 2540102:Uno[Minamoto] Chikahiro、源（豊島）親弘の娘か孫娘（田中、2015。）
 	}
@@ -1896,20 +1927,28 @@
 }
 10120093 = {
 	disallow_random_traits=yes #
-	name=character_name_10120093 # Yoshinari
+	name=character_name_10120093 # Yoshinari, 義業
 	dynasty=10001200 # Minamoto (Seiwa Genji)
 	religion="shinto"
 	culture="central_kinai"
-	father=10120042
+	father=10120042 # 源義光
 	1067.1.1={
 		birth=yes
 	}
 	1079.1.1={
-		add_spouse=12120153 # daughter of Taira [Daijo] Kiyomoto
+		add_spouse=12120153 # daughter of Taira [Daijo] Kiyomoto, 平清幹娘と婚姻（『尊卑分脈』）
 	}
-	1133.4.4={
+	# 永久3(1115)年三月一日時点、補文章生「正六位上源義成」（『除目大成抄』）（米谷豊之祐、「佐竹家の祖：源義業」、2002年。）
+	# 元永3(1120)年正月、どこかの国の掾に任官（米谷、2002。）
+	# 元永3(1120)年から大治2(1127)年の間、衛門尉か（米谷、2002。）
+	# 大治2(1127)年十月十九日時点、「二男進士【＝文章生】廷尉【＝検非違使尉】義業」（『後拾遺往生伝』）
+	# TODO: 大治5(1130)年六月八日以前、故藤原清衡の妻が陸奥から上洛して義業と婚姻（米谷、2002。）
+	# 天承1(1131)年九月二十日、病気で城南寺祭流鏑馬欠席（米谷、2002。）
+	# TODO: 天承2(1132)年正月末頃、宿官として相模権介か（米谷、2002。）
+	1133.4.4={ # 長承2(1133)年三月二十七日卒、五十七歳（『藩翰譜』）
 		death=yes
 	}
+	# 「追捕尉としての能力に欠け」（米谷、2002。）
 }
 10120094 = {
 	disallow_random_traits=yes #
@@ -1938,6 +1977,8 @@
 	1110.1.1={
 		dynasty=10001202 # Hiraga
 	}
+	# 摂関家に仕える（米谷、2002。）
+	# 永久6(1118)年、文章生補（米谷、2002。）
 	1170.1.1={
 		death=yes
 	}
@@ -2276,7 +2317,7 @@
 }
 10120130 = {
 	disallow_random_traits=yes #
-	name=character_name_10120130 # Masayoshi
+	name=character_name_10120130 # Masayoshi, 昌義
 	dynasty=10001200 # Minamoto
 	father=10120093 # Minamoto Yoshinari
 	mother=12120153 # daughter of 2120121: Taira [Daijo] Kiyomoto
@@ -2286,27 +2327,30 @@
 		birth=yes
 	}
 	1101.1.1={
-		dynasty=10000108 # Satake
+		dynasty=10000108 # Satake, 「佐竹冠者と号す」（『尊卑分脈』）
 	}
 	1115.1.1={
-		add_spouse=12030014 # Fujiwara Kiyoko
+		add_spouse=12030014 # Fujiwara Kiyoko, 藤原清衡の娘（佐々木、2021。）
 	}
-	1147.1.1={
+	# 常陸国久慈郡佐竹郷に定着（佐々木、2021。）
+	# 『吉記』承安4(1174)年三月十四日条、「佐竹冠者昌義」同時代の記録……唯一（糸賀、1994。）
+	1175.1.1={
 		death=yes
 	}
+	# 「京都で活動することはなかった」（米谷、2002。）
 }
 10120131 = {
 	disallow_random_traits=yes #
-	name=character_name_10120131 # Yoshisada
+	name=character_name_10120131 # Yoshisada, 義定
 	dynasty=10001200 # Minamoto
-	father=10120093 # Minamoto Yoshinari
+	father=10120093 # Minamoto Yoshinari, 源義業の次男（米谷、2002。）
 	religion="shinto"
 	culture="koshin"
 	1085.1.1={
 		birth=yes
 	}
 	1105.1.1={
-		dynasty=10001206 # Yamamoto
+		dynasty=10001206 # Yamamoto、伯父覚義から近江国甲賀郡山本・柏木郷を譲られる（米谷、2002。）
 	}
 	1135.1.1={
 		death=yes
