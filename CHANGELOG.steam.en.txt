@@ -1,3 +1,77 @@
+[h1]beta Version 0.6.4[/h1]
+[h2]Game Content[/h2]
+[list]
+[*] The coastlines of Fukuyama City in Hiroshima Prefecture and Hofu City in Yamaguchi Prefecture, which face the Seto Inland Sea, have been receded to where they were before the Edo period.
+[*] Ground textures have been updated.
+[*] Added a tree map object.
+[/list]
+[h3]Updated rivers.png[/h3]
+[list]
+[*] The Miomotegawa and Takane Rivers have been added.（[url=https://github.com/almandite1/shogunate_map_alteration/issues/342]#342[/url]）
+[*] Added the Chikusa River.（[url=https://github.com/almandite1/shogunate_map_alteration/issues/343]#343[/url]）
+[/list]
+[h3]add branch family[/h3]
+[list]
+[*] A branch family has been set up in the Echigo-Honjō clan.（[url=https://github.com/almandite1/shogunate_map_alteration/issues/337]#337[/url]）
+[/list]
+[h3]Updated character data[/h3]
+[list]
+[*] Added nicknames to some characters.
+[*] The cause of death has been set for some characters.
+[*] Changed the death date of some characters to a more grounded date.
+[/list]
+[h3]Title History Data Change[/h3]
+[list]
+[*] Changed to be accurate based on the latest research findings.
+[/list]
+[h3]Fixed[/h3]
+[list]
+[*] Missing loc for name 'character_name_12139040' for character '12139040'
+[*] Missing loc for name 'Sukemasu' for character '10018377'
+[*] Missing loc for name 'Sukefusa' for character '10018378'
+[*] Could not find coat of arms render description for '10000227' when making alias for 'house_shgnt_murakami_muroga', it needs to be defined before this tries to use it as an alias
+[*] Error: set_relation_friend effect [ Could not add scripted relation (already there?) ] Script location: file: history/characters/koshin_characters.txt line: 880
+[*] Error: has_primary_title trigger [ landed title (primary title) was null ] Script location: file: gfx/portraits/portrait_modifiers/02_headgear.txt line: 363
+[*] Some map object locators have been adjusted.
+[/list]
+
+[h1]beta Version 0.6.3[/h1]
+[h2]Game Content[/h2]
+[list]
+[*] A portion of the Suo-nada coastline has been set back to where it was before the Edo period. ([url=https://github.com/almandite1/shogunate_map_alteration/issues/334]#334[/url])
+[*] I set the barony name to change in the 15th and 16th centuries, and the castle to appear in the holding. ([url=https://github.com/almandite1/shogunate_map_alteration/issues/323]#323[/url])
+[*] Ground textures have been updated.
+[*] Added a tree map object.
+[/list]
+[h3]add branch family[/h3]
+[list]
+[*] A branch family has been set up in the Hitachi-Oda clan. （[url=https://github.com/almandite1/shogunate_map_alteration/issues/311]#311[/url]）
+[/list]
+[h3]Capital setting[/h3]
+[list]
+[*] Changed the first holding of some county territories.([url=https://github.com/almandite1/shogunate_map_alteration/issues/329]#329[/url])
+[/list]
+[h3]Updated character data[/h3]
+[list]
+[*] Added nicknames to some characters.
+[*] The cause of death has been set for some characters.
+[*] Changed the death date of some characters to a more grounded date.
+[/list]
+[h2]Fixed[/h2]
+[list]
+[*] [url=https://github.com/almandite1/shogunate_map_alteration/issues/318]#318[/url]
+[*] [url=https://github.com/almandite1/shogunate_map_alteration/issues/317]#317[/url]
+[*] [url=https://github.com/almandite1/shogunate_map_alteration/issues/316]#316[/url]
+[*] [url=https://github.com/almandite1/shogunate_map_alteration/issues/315]#315[/url]
+[*] [url=https://github.com/almandite1/shogunate_map_alteration/issues/314]#314[/url]
+[*] [url=https://github.com/almandite1/shogunate_map_alteration/issues/313]#313[/url]
+[*] [url=https://github.com/almandite1/shogunate_map_alteration/issues/312]#312[/url]
+[*] [url=https://github.com/almandite1/shogunate_map_alteration/issues/321]#321[/url]
+[*] [url=https://github.com/almandite1/shogunate_map_alteration/issues/326]#326[/url]
+[*] [url=https://github.com/almandite1/shogunate_map_alteration/issues/327]#327[/url]
+[*] Some map object locators have been adjusted.
+[/list]
+
 [h1]beta Version 0.6.2[/h1]
 [h2]Game Content[/h2]
 [list]
