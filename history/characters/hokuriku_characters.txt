@@ -2568,10 +2568,10 @@
 	}
 }
 10031001 = {
-	name=character_name_10031001 # Mitsunori
+	name=character_name_10031001 # Mitsunori, 満慶、満則
 #	dynasty=10000404 # Hatakeyama
 	dynasty_house = "house_shgnt_notohatakeyama"
-	father=10048110
+	father=10048110 # 畠山基国
 	martial=8
 	diplomacy=7
 	intrigue=5
@@ -2581,20 +2581,23 @@
 	culture="western_hokuriku"
 	trait="education_diplomacy_2"
 	trait="ashikaga_family"
-	trait="content"
+	trait="content" # 足利義満の死後兄・満家に家督を譲る（『デジタル版 日本人名大辞典+Plus』）
 	prowess=12
 	1380.1.1={
 		birth=yes
 	}
-	1432.7.24={
+	1410.01.01={
+		give_nickname="nick_the_shuri_daibu" # 「修理大夫」、匠作家（石田晴男、『朝日日本歴史人物事典』、1994年。）
+	}
+	1432.7.24={ # 永享4(1432)年六月二十七日六十一歳（『デジタル版 日本人名大辞典+Plus』）
 		death=yes
 	}
 }
 10031002 = {
-	name=character_name_10031002 # Yoshitada
+	name=character_name_10031002 # Yoshitada, 義忠
 #	dynasty=10000404 # Hatakeyama
 	dynasty_house = "house_shgnt_notohatakeyama"
-	father=10031001
+	father=10031001 # 畠山満慶の二男（酒井茂幸、「文安・宝徳期の武家歌壇 : 能登守護畠山義忠と正徹」、2007年。）
 	martial=8
 	diplomacy=8
 	intrigue=8
@@ -2607,6 +2610,11 @@
 	1407.1.1={
 		birth=yes
 	}
+	1430.01.01={
+		give_nickname="nick_the_awa_no_kami" # 「阿波守」（酒井、2007。）
+	}
+	# 永享4(1432)年三月八日時点、「阿波守」（酒井、2007。）
+	# 嘉吉3(1443)年五月十八日、出家法名賢良（酒井、2007。）
 	1463.10.12={
 		death=yes
 	}

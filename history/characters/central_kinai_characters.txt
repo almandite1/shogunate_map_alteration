@@ -4800,7 +4800,7 @@
 	}
 }
 10040830={
-	name=character_name_10040830 # Fuhan
+	name=character_name_10040830 # Fuhan, 浮泛
 	dynasty=10000403 # Kizawa
 	religion="shinto"
 	culture="central_kinai"
@@ -4821,9 +4821,14 @@
 	1499.3.20={
 		employer = 10048117 # Hatakeyama Yoshihide
 	}
+	1500.01.01={
+		give_nickname="nick_sakon" # TODO:「左近大夫」（馬部隆弘、「畠山家における奉書の展開と木沢家の出自」、2017年。）
+	}
 	1522.5.25={
 		employer = 10048118 # Hatakeyama Yoshitaka
 	}
+	# 享禄2(1529)年、下冷泉政為と交友がある（馬部、2017。）
+	# 天文1(1532)年、三条西実隆に酒肴を贈る（馬部、2017。）
 	1534.1.1={
 		employer = 10048119 # Hatakeyama Ariuji
 	}
@@ -4832,9 +4837,9 @@
 	}
 }
 10040831 = {
-	name=character_name_10040831 # Nagamasa
+	name=character_name_10040831 # Nagamasa, 長政
 	dynasty=10000403 # Kizawa
-	father=10040830
+	father=10040830 # 木沢浮泛（馬部隆弘、「畠山家における奉書の展開と木沢家の出自」、2017年。）
 	religion="shinto"
 	culture="central_kinai"
 	diplomacy=11
@@ -4861,14 +4866,17 @@
 	1522.5.25={
 		employer = 10048118 # Hatakeyama Yoshitaka
 	}
+	# 大永7(1527)年、遊佐堯家出奔後河内国守護代に就任（川岡勉、「河内国守護畠山氏における守護代と奉行人」、1997年。）
 	1534.1.1={
 		give_nickname="nick_the_sakyo_no_suke"
 		effect = {
 			add_trait = "jugoi_ge"
 		}
 	}
-	1542.4.2={
-		death=yes
+	1542.4.2={ # 天文11(1542)年三月（川岡、1997。）
+		death={
+			death_reason=death_battle # 政長流畠山氏の軍勢と戦って敗死（川岡、1997。）
+		}
 	}
 }
 10040832={
