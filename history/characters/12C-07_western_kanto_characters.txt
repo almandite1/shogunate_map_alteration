@@ -1349,6 +1349,7 @@
 	religion="shinto"
 	culture="western_kanto"
 	trait="education_martial_3"
+	trait = "jugoi_ge"
 	1331.1.1={
 		birth=yes
 	}
@@ -1357,9 +1358,7 @@
 	1358.11.11={ # 延文4(1359)年十月十日
 		death={
 			death_reason=death_execution # 武蔵国矢口渡で足利方の策謀により自害（田中、2015。）
-		}
-		effect = {
-			add_trait = "jugoi_ge"
+			#killer=10048105 # 畠山国清が謀殺
 		}
 	}
 }

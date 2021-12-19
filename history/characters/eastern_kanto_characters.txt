@@ -1,7 +1,8 @@
-﻿10010801 = {
+﻿10010801={
+	disallow_random_traits=yes #
 	name=character_name_10010801 # Yoshiatsu, 義篤
 	dynasty=10000108 # Satake
-	father=10010803
+	father=10010803 # 佐竹義舜（佐々木、2021。）
 	mother=10010807
 	religion="shinto"
 	culture="northern_kanto"
@@ -25,13 +26,14 @@
 		#	add_trait = "jugoi_ge"
 		#}
 	}
-	1540.7.17={
-		give_nickname="nick_the_uma_no_kami" # 「右馬権頭」（『続羣書類従』第五輯上「佐竹系図」）
+	1540.7.17={ # 天文9(1540)年（佐々木、2021。）
+		give_nickname="nick_the_uma_no_kami" # 「右馬権頭」（『続羣書類従』第五輯上「佐竹系図」）足利義晴の推挙（佐々木、2021。）
 		trait="jushii_ge" # 「従四位下」（『続羣書類従』第五輯上「佐竹系図」）
 		#effect = {
 		#	add_trait = "jushii_ge"
 		#}
 	}
+	# 天文10(1541)年、白川氏と和睦し依上保を確保（佐々木、2021。）
 	1542.1.1={
 		give_nickname="nick_the_daizen_daihu" # 「大膳大夫」（『続羣書類従』第五輯上「佐竹系図」）
 	}
@@ -39,10 +41,11 @@
 		death=yes
 	}
 }
-10010802 = {
+10010802={
+	disallow_random_traits=yes #
 	name=character_name_10010802 # Yoshiaki, 義昭
 	dynasty=10000108 # Satake
-	father=10010801
+	father=10010801 # 佐竹義篤（佐々木、2021。）
 	mother=10010409
 	religion="shinto"
 	culture="northern_kanto"
@@ -67,10 +70,11 @@
 		death=yes
 	}
 }
-10010803 = {
+10010803={
+	disallow_random_traits=yes #
 	name=character_name_10010803 # Yoshikiyo,義舜
 	dynasty=10000108 # Satake
-	father=10010808
+	father=10010808 # 佐竹義治（佐々木、2021。）
 	religion="shinto"
 	culture="northern_kanto"
 	diplomacy=7
@@ -91,8 +95,9 @@
 			set_realm_capital=title:c_shgnt_kuji
 		}
 	}
+	# 延徳2(1490)年閏七月、山入義藤・氏義の攻撃により太田城から逃げる（佐々木、2021。）
 	1491.1.1={
-		add_spouse=10010807
+		add_spouse=10010807 # 岩城常隆の娘（佐々木、2021。）
 	}
 	1500.1.1={
 		give_nickname="nick_the_ukyo_dayu" # 「右京大夫」（『続羣書類従』第五輯上「佐竹系図」）
@@ -101,11 +106,13 @@
 		#	add_trait = "jushii_ge"
 		#}
 	}
+	# 永正1(1504)年、太田城に復帰（佐々木、2021。）
 	1517.4.3={
 		death=yes
 	}
 }
-10010804 = {
+10010804={
+	disallow_random_traits=yes #
 	name=character_name_10010804 # Yoshimoto, 義元
 	dynasty=10000108 # Satake
 	father=10010803
@@ -119,11 +126,15 @@
 		give_nickname="nick_shiro" # 「部垂四郎」（『続羣書類従』第五輯上「佐竹系図」）
 		dynasty_house="house_shgnt_satake_hetare"
 	}
-	1540.4.30={
-		death=yes
+	# TODO:享禄2(1529)年、兄・義篤に反乱を起こす（部垂の乱）（佐々木、2021。）
+	1540.4.30={ # 天文9(1540)年三月十四日（佐々木、2021。）
+		death={
+			death_reason=death_suicide # 自害（佐々木、2021。）
+		}
 	}
 }
-10010805 = {
+10010805={
+	disallow_random_traits=yes #
 	name=character_name_10010805 # Yoshisato, 義里
 	dynasty=10000108 # Satake
 	father=10010803
@@ -137,7 +148,8 @@
 		death=yes
 	}
 }
-10010806 = {
+10010806={
+	disallow_random_traits=yes #
 	name=character_name_10010806 # Kiyoko
 	female=yes
 	dynasty=10000108 # Satake
@@ -152,7 +164,8 @@
 		death=yes
 	}
 }
-10010807 = {
+10010807={
+	disallow_random_traits=yes #
 	name=character_name_10010807 # Chikako
 	female=yes
 	dynasty=10000072 # Iwaki
@@ -166,7 +179,8 @@
 		death=yes
 	}
 }
-10010808 = {
+10010808={
+	disallow_random_traits=yes #
 	name=character_name_10010808 # Yoshiharu, 義治
 	dynasty=10000108 # Satake
 	father=10010815 # Satake Yoshitoshi
@@ -183,7 +197,8 @@
 		death=yes
 	}
 }
-10010809 = {
+10010809={
+	disallow_random_traits=yes #
 	name=character_name_10010809 # Yoshitake,義武
 	dynasty=10000108 # Satake
 	father=10010808
@@ -204,7 +219,8 @@
 		}
 	}
 }
-10010810 = {
+10010810={
+	disallow_random_traits=yes #
 	name=character_name_10010810 # Yoshinobu, 義信
 	dynasty=10000108 # Satake
 	father=10010808
@@ -221,7 +237,8 @@
 		death=yes
 	}
 }
-10010811 = {
+10010811={
+	disallow_random_traits=yes #
 	name=character_name_10010811 # Yoshizumi, 
 	#dynasty=10000108 # Satake
 	dynasty_house="house_shgnt_satake_kita"
@@ -235,7 +252,8 @@
 		death=yes
 	}
 }
-10010812 = {
+10010812={
+	disallow_random_traits=yes #
 	name=character_name_10010812 # Yoshikado
 	#dynasty=10000108 # Satake
 	dynasty_house="house_shgnt_satake_kita"
@@ -249,7 +267,8 @@
 		death=yes
 	}
 }
-10010813 = {
+10010813={
+	disallow_random_traits=yes #
 	name=character_name_10010813 # Masayoshi, 政義
 	dynasty=10000108 # Satake
 	father=10010808
@@ -266,25 +285,33 @@
 		death=yes
 	}
 }
-10010815 = {
+10010815={
+	disallow_random_traits=yes #
 	name=character_name_10010815 # Yoshitoshi
 	dynasty=10000108 # Satake
-	father=10010816
+	father=10010816 # 佐竹義人
 	mother=10010817
 	religion="shinto"
 	culture="northern_kanto"
 	1420.1.1={
 		birth=yes
 	}
-	1440.1.1={
+	1436.01.01={
+		give_nickname="nick_goro" # 「五郎」（佐々木、2021。）
+	# 初名「義頼」（佐々木、2021。）
+	}
+	# 享徳1(1452)年、弟六郎実定により太田城から追放（佐竹五郎・六郎合戦）（佐々木、2021。）
+	1460.1.1={
 		give_nickname="nick_iyo_no_kami" #　「伊予守」（『続羣書類従』第五輯上「佐竹系図」）
 	}
+	# 応仁1(1467)年、太田城に復帰する（佐々木、2021。）
 	1477.12.29={
 		death=yes
 	}
 }
-10010816 = {
-	name=character_name_10010816 # Yoshinori,義憲、始名「義人」、童名「龍保丸」
+10010816={
+	disallow_random_traits=yes #
+	name=character_name_10010816 # Yoshinori,義憲、始名「義人」、童名「龍保丸」（佐々木、2021。）
 	dynasty=10000100 # Uesugi
 	father=10017016 #　上杉憲定
 	martial=7
@@ -313,18 +340,23 @@
 	1416.1.1={
 		give_nickname="nick_shichiro" # 「上杉七郎」（『続羣書類従』第五輯上「佐竹系図」）
 	}
+	# TODO: 元服、諱「義憲」（佐々木、2021。）
 	# 「十七歳時義人ト改。」（『続羣書類従』第五輯上「佐竹系図」）
+	# 応永23(1416)年、上杉禅秀の乱では鎌倉公方方（佐々木、2021。）
+	# 上杉禅秀の乱後、戦功により鎌倉府評定衆頭人に補任（佐々木、2021。）
 	1417.1.1={
 		give_nickname="nick_the_sama_no_suke"
 	}
 	1430.1.1={
 		give_nickname="nick_ukyo_dayu" #　「佐竹右京大夫」（『続羣書類従』第五輯上「佐竹系図」）
 	}
+	# 永享13(1441)年以後、足利成氏による鎌倉府再興により室町幕府から赦免されたか（佐々木、2021。）
 	1468.1.19={
 		death=yes
 	}
 }
-10010817 = {
+10010817={
+	disallow_random_traits=yes #
 	name=character_name_10010817 # Minamoto
 	female=yes
 	dynasty=10000108 # Satake
@@ -347,24 +379,30 @@
 		death=yes
 	}
 }
-10010818 = {
+10010818={
+	disallow_random_traits=yes #
 	name=character_name_10010818 # Sanesada, 実定
 	dynasty=10000108 # Satake
-	father=10010816
+	father=10010816 # 佐竹義人
 	mother=10010817
 	religion="shinto"
 	culture="northern_kanto"
 	1425.1.1={
 		birth=yes
 	}
+	1441.01.01={
+		give_nickname="nick_rokuro" # 「六郎」（佐々木、2021。）
+	}
 	1445.1.1={
 		give_nickname="nick_uma_no_kami" #　「上村右馬頭右京大夫」（『続羣書類従』第五輯上「佐竹系図」）
 	}
-	1465.10.24={
+	# 文安3(1446)年頃、上杉氏家督に擁立（佐々木、2021。）
+	1465.10.24={ # 寛正6(1465)年（佐々木、2021。）
 		death=yes
 	}
 }
-10010819 = {
+10010819={
+	disallow_random_traits=yes #
 	name=character_name_10010819 # Yoshiwa, 義倭
 	dynasty=10000108 # Satake
 	father=10010816
@@ -385,7 +423,8 @@
 		death=yes
 	}
 }
-10010820 = {
+10010820={
+	disallow_random_traits=yes #
 	name=character_name_10010820 # Yoshimori, 「義森」（『続羣書類従』第五輯上「佐竹系図」）
 	dynasty=10000108 # Satake
 	father=10010816
@@ -403,7 +442,8 @@
 		death=yes
 	}
 }
-10010821 = {
+10010821={
+	disallow_random_traits=yes #
 	name=character_name_10010821 # Yoshimori, 義盛
 	dynasty=10000108 # Satake
 	father=12122130 # Satake Yoshinobu
@@ -416,14 +456,15 @@
 	1381.01.01={
 		give_nickname="nick_uma_no_kami" # 「右馬権守」
 	}
-	1407.10.22={
+	1407.10.22={ # 応永14(1407)年（佐々木倫朗、『常陸佐竹氏』、2021。）
 		death=yes
 	}
 }
-10010830 = {
+10010830={
+	disallow_random_traits=yes #
 	name=character_name_10010830 # Yoshishige, 義重
 	dynasty=10000108 # Satake
-	father=10010802
+	father=10010802 # 佐竹義昭（佐々木、2021。）
 	martial=8
 	diplomacy=7
 	intrigue=7
@@ -452,7 +493,8 @@
 		death=yes
 	}
 }
-10010831 = {
+10010831={
+	disallow_random_traits=yes #
 	name=character_name_10010831 # Sukeie,資家 # Nasu Sukeii
 	dynasty=10000108 # Satake
 	father=10010802
@@ -465,7 +507,8 @@
 		death=yes
 	}
 }
-10010832 = {
+10010832={
+	disallow_random_traits=yes #
 	name=character_name_10010832 # Yoshihisa,義尚
 	dynasty=10000108 # Satake
 	father=10010802
@@ -484,7 +527,8 @@
 		death=yes
 	}
 }
-10010833 = {
+10010833={
+	disallow_random_traits=yes #
 	name=character_name_10010833 # Yoshimune # Koba Yoshimune
 	dynasty=10000108 # Satake
 	father=10010802
@@ -501,7 +545,8 @@
 		death=yes
 	}
 }
-10010834 = {
+10010834={
+	disallow_random_traits=yes #
 	name=character_name_10010834 # Nanryo
 	female=yes
 	dynasty=10000108 # Satake
@@ -511,11 +556,13 @@
 	1548.1.1={
 		birth=yes
 	}
+	# DONE: 宇都宮広綱と婚姻（佐々木、2021。）
 	1600.1.1={
 		death=yes
 	}
 }
-10010835 = {
+10010835={
+	disallow_random_traits=yes #
 	name=character_name_10010835 # Keiju # Koba Yoshimune
 	female=yes
 	dynasty=10000108 # Satake
@@ -529,7 +576,8 @@
 		death=yes
 	}
 }
-10010836 = {
+10010836={
+	disallow_random_traits=yes #
 	name=character_name_10010836 # Yoshinobu
 	dynasty=10000108 # Satake
 	father=10010830
@@ -545,7 +593,8 @@
 		death=yes
 	}
 }
-10010837 = {
+10010837={
+	disallow_random_traits=yes #
 	name=character_name_10010837 # Yoshihiro #Ashina Yoshinobu
 	dynasty=10000108 # Satake
 	father=10010830
@@ -559,7 +608,8 @@
 		death=yes
 	}
 }
-10010838 = {
+10010838={
+	disallow_random_traits=yes #
 	name=character_name_10010838 # Sadataka #Iwaki Sadataka
 	dynasty=10000108 # Satake
 	father=10010830
@@ -573,7 +623,8 @@
 		death=yes
 	}
 }
-10010839 = {
+10010839={
+	disallow_random_traits=yes #
 	name=character_name_10010839 # Nobutaka #Iwaki/Tagaya Sadataka
 	dynasty=10000108 # Satake
 	father=10010830
@@ -587,7 +638,8 @@
 		death=yes
 	}
 }
-10010840 = {
+10010840={
+	disallow_random_traits=yes #
 	name=character_name_10010840 # Yoshinao
 	dynasty=10000108 # Satake
 	father=10010830
@@ -600,7 +652,8 @@
 		death=yes
 	}
 }
-10010841 = {
+10010841={
+	disallow_random_traits=yes #
 	name=character_name_10010841 # Yoshi
 	female=yes
 	dynasty=10000108 # Satake
@@ -615,6 +668,7 @@
 	}
 }
 10010842={
+	disallow_random_traits=yes #
 	name=character_name_10010842 # Yoshitsuna
 	#dynasty=10000108 # Satake
 	dynasty_house="house_shgnt_satake_kita"
@@ -634,6 +688,7 @@
 	}
 }
 10010843={
+	disallow_random_traits=yes #
 	name=character_name_10010843 # Yoshinori
 	dynasty=10000108 # Satake
 	father=10010842 # Satake Yoshitsuna
@@ -653,6 +708,7 @@
 	}
 }
 10010844={
+	disallow_random_traits=yes #
 	name=character_name_10010844 # Yoshikata
 	#dynasty=10000108 # Satake
 	dynasty_house="house_shgnt_satake_higashi"
@@ -669,6 +725,7 @@
 	}
 }
 10010845={
+	disallow_random_traits=yes #
 	name=character_name_10010845 # Yoshitaka
 	#dynasty=10000108 # Satake
 	dynasty_house="house_shgnt_satake_higashi"
@@ -683,6 +740,7 @@
 	}
 }
 10010846={
+	disallow_random_traits=yes #
 	name=character_name_10010846 # Yoshihisa
 	#dynasty=10000108 # Satake
 	dynasty_house="house_shgnt_satake_higashi"
@@ -709,6 +767,7 @@
 	}
 }
 10010880={
+	disallow_random_traits=yes #
 	name=character_name_10010880 # Akitame
 	dynasty=10000130 # Wada
 	religion="shinto"
@@ -730,6 +789,7 @@
 	}
 }
 10010885={
+	disallow_random_traits=yes #
 	name=character_name_10010885 # Zentetsu
 	dynasty=10000131 # Okamoto
 	religion="shinto"
@@ -757,6 +817,7 @@
 	}
 }
 10010886={
+	disallow_random_traits=yes #
 	name=character_name_10010886 # Kenitsu
 	dynasty=10000131 # Okamoto
 	father=10010885 # Okamoto Zentetsu
@@ -779,6 +840,7 @@
 	}
 }
 10010887={
+	disallow_random_traits=yes #
 	name=character_name_10010887 # Nobutuna
 	dynasty=10000131 # Okamoto
 	father=10010886 # Okamoto Kenitsu
@@ -792,7 +854,8 @@
 		death=yes
 	}
 }
-10010101 = {
+10010101={
+	disallow_random_traits=yes #
 	name=character_name_10010101 # Michiyasu
 	dynasty=10000101 # Edo
 	father=10010105
@@ -816,7 +879,8 @@
 		death=yes
 	}
 }
-10010102 = {
+10010102={
+	disallow_random_traits=yes #
 	name=character_name_10010102 # Tadamichi
 	dynasty=10000101 # Edo
 	father=10010101
@@ -840,7 +904,8 @@
 		death=yes
 	}
 }
-10010103 = {
+10010103={
+	disallow_random_traits=yes #
 	name=character_name_10010103 # Yoshiko
 	female=yes
 	dynasty=10000108 # Satake
@@ -854,7 +919,8 @@
 		death=yes
 	}
 }
-10010104 = {
+10010104={
+	disallow_random_traits=yes #
 	name=character_name_10010104 # Tsuneko
 	dynasty=10000120 # Haga
 	female=yes
@@ -868,7 +934,8 @@
 		death=yes
 	}
 }
-10010105 = {
+10010105={
+	disallow_random_traits=yes #
 	name=character_name_10010105 # Michimasa
 	dynasty=10000101 # Edo
 	father=10010106
@@ -889,7 +956,8 @@
 		death=yes
 	}
 }
-10010106 = {
+10010106={
+	disallow_random_traits=yes #
 	name=character_name_10010106 # Michifusa
 	dynasty=10000101 # Edo
 	father=12125200 # Edo Michitaka
@@ -903,6 +971,7 @@
 	}
 }
 10010107={
+	disallow_random_traits=yes #
 	name=character_name_10010107 # Michinaga
 	dynasty=10000101 # Edo
 	father=10010106 # Edo Michifusa
@@ -923,7 +992,8 @@
 		death=yes
 	}
 }
-10010109 = {
+10010109={
+	disallow_random_traits=yes #
 	name=character_name_10010109 # Michimasa
 	dynasty=10000101 # Edo
 	father=10010102
@@ -945,7 +1015,8 @@
 		death=yes
 	}
 }
-10010110 = {
+10010110={
+	disallow_random_traits=yes #
 	name=character_name_10010110 # Shigemichi,重通
 	dynasty=10000101 # Edo
 	father=10010109
@@ -972,7 +1043,8 @@
 		death=yes
 	}
 }
-10010111 = {
+10010111={
+	disallow_random_traits=yes #
 	name=character_name_10010111 # Michiko
 	female=yes
 	dynasty=10000101 # Edo
@@ -986,7 +1058,8 @@
 		death=yes
 	}
 }
-10010112 = {
+10010112={
+	disallow_random_traits=yes #
 	name=character_name_10010112 # Michimasu
 	dynasty=10000101 # Edo
 	father=10010110
@@ -999,7 +1072,8 @@
 		death=yes
 	}
 }
-10010113 = {
+10010113={
+	disallow_random_traits=yes #
 	name=character_name_10010113 # Norimichi # Mito Norimichi
 	dynasty=10000101 # Edo
 	father=10010110
@@ -1012,7 +1086,8 @@
 		death=yes
 	}
 }
-10010114 = {
+10010114={
+	disallow_random_traits=yes #
 	name=character_name_10010114 # Tsuru
 	female=yes
 	dynasty=10000101 # Edo
@@ -1026,7 +1101,8 @@
 		death=yes
 	}
 }
-10010201 = {
+10010201={
+	disallow_random_traits=yes #
 	name=character_name_10010201 # Masakatsu
 	dynasty=10000102 # Yuki
 	father=10010203
@@ -1049,7 +1125,8 @@
 		death=yes
 	}
 }
-10010202 = {
+10010202={
+	disallow_random_traits=yes #
 	name=character_name_10010202 # Akitomo
 	dynasty=10000102 # Yuki
 	father=10010201
@@ -1062,7 +1139,8 @@
 		death=yes
 	}
 }
-10010203 = {
+10010203={
+	disallow_random_traits=yes #
 	name=character_name_10010203 # Masatomo
 	dynasty=10000102 # Yuki
 	father=10010205
@@ -1087,7 +1165,8 @@
 		death=yes
 	}
 }
-10010204 = {
+10010204={
+	disallow_random_traits=yes #
 	name=character_name_10010204 # Shigeko
 	female=yes
 	dynasty=10000109 # Utsunomiya
@@ -1101,7 +1180,8 @@
 		death=yes
 	}
 }
-10010205 = {
+10010205={
+	disallow_random_traits=yes #
 	name=character_name_10010205 # Ujihiro
 	dynasty=10000102 # Yuki
 	father=10010207
@@ -1118,7 +1198,8 @@
 		death=yes
 	}
 }
-10010206 = {
+10010206={
+	disallow_random_traits=yes #
 	name=character_name_10010206 # Mochiko
 	female=yes
 #	dynasty=10000104 # Oda
@@ -1133,7 +1214,8 @@
 		death=yes
 	}
 }
-10010207 = {
+10010207={
+	disallow_random_traits=yes #
 	name=character_name_10010207 # Nagatomo
 	dynasty=10000102 # Yuki
 	father=10010208 # Yuki Ujitomo
@@ -1146,7 +1228,8 @@
 		death=yes
 	}
 }
-10010208 = {
+10010208={
+	disallow_random_traits=yes #
 	name=character_name_10010208 # Ujitomo
 	dynasty=10000112 # Oyama
 	father=10010212
@@ -1164,7 +1247,8 @@
 		}
 	}
 }
-10010209 = {
+10010209={
+	disallow_random_traits=yes #
 	name=character_name_10010209 # Mochitomo
 	dynasty=10000102 # Yuki
 	father=10010208 # Yuki Ujitomo
@@ -1179,7 +1263,8 @@
 		}
 	}
 }
-10010210 = {
+10010210={
+	disallow_random_traits=yes #
 	name=character_name_10010210 # Tomokane
 	dynasty=10000102 # Yuki
 	father=10010208 # Yuki Ujitomo
@@ -1192,7 +1277,8 @@
 		death=yes
 	}
 }
-10010211 = {
+10010211={
+	disallow_random_traits=yes #
 	name=character_name_10010211 # Shigetomo
 	dynasty=10000102 # Yuki
 	father=10010208 # Yuki Ujitomo
@@ -1208,7 +1294,8 @@
 		}
 	}
 }
-10010212 = {
+10010212={
+	disallow_random_traits=yes #
 	name=character_name_10010212 # Mitsuhiro
 	dynasty=10000102 # Yuki
 	father=10010213
@@ -1221,7 +1308,8 @@
 		death=yes
 	}
 }
-10010213 = {
+10010213={
+	disallow_random_traits=yes #
 	name=character_name_10010213 # Motomitsu
 	dynasty=10000102 # Yuki
 	father=10010216
@@ -1234,7 +1322,8 @@
 		death=yes
 	}
 }
-10010214 = {
+10010214={
+	disallow_random_traits=yes #
 	name=character_name_10010214 # Yasutomo
 	dynasty=10000102 # Yuki
 	father=10010213
@@ -1257,7 +1346,8 @@
 		death=yes
 	}
 }
-10010215 = {
+10010215={
+	disallow_random_traits=yes #
 	name=character_name_10010215 # Mitsuyoshi
 	dynasty=10000102 # Yuki
 	father=10010213
@@ -1273,7 +1363,8 @@
 		death=yes
 	}
 }
-10010216 = {
+10010216={
+	disallow_random_traits=yes #
 	name=character_name_10010216 # Naomitsu
 	dynasty=10000102 # Yuki
 	father=10010220
@@ -1286,7 +1377,8 @@
 		death=yes
 	}
 }
-10010217 = {
+10010217={
+	disallow_random_traits=yes #
 	name=character_name_10010217 # Hidemitsu
 	dynasty=10000102 # Yuki
 	father=10010216
@@ -1299,7 +1391,8 @@
 		death=yes
 	}
 }
-10010218 = {
+10010218={
+	disallow_random_traits=yes #
 	name=character_name_10010218 # Hidenobu
 	dynasty=10000102 # Yuki
 	father=10010217
@@ -1312,7 +1405,8 @@
 		death=yes
 	}
 }
-10010219 = {
+10010219={
+	disallow_random_traits=yes #
 	name=character_name_10010219 # Hidechika
 	dynasty=10000102 # Yuki
 	father=10010218
@@ -1325,7 +1419,8 @@
 		death=yes
 	}
 }
-10010220 = {
+10010220={
+	disallow_random_traits=yes #
 	name=character_name_10010220 # Tomosuke
 	dynasty=10000102 # Yuki
 	father=10010222
@@ -1346,7 +1441,8 @@
 		}
 	}
 }
-10010221 = {
+10010221={
+	disallow_random_traits=yes #
 	name=character_name_10010221 # Naotomo
 	dynasty=10000102 # Yuki
 	father=10010220
@@ -1364,7 +1460,8 @@
 		}
 	}
 }
-10010222 = {
+10010222={
+	disallow_random_traits=yes #
 	name=character_name_10010222 # Sadahiro
 	dynasty=10000102 # Yuki
 	father=10010223
@@ -1377,7 +1474,8 @@
 		death=yes
 	}
 }
-10010223 = {
+10010223={
+	disallow_random_traits=yes #
 	name=character_name_10010223 # Tokihiro
 	dynasty=10000102 # Yuki
 	father=10010224
@@ -1396,7 +1494,8 @@
 		death=yes
 	}
 }
-10010224 = {
+10010224={
+	disallow_random_traits=yes #
 	name=character_name_10010224 # Hirotsuna
 	dynasty=10000102 # Yuki
 	father=10010225
@@ -1412,7 +1511,8 @@
 		death=yes
 	}
 }
-10010225 = {
+10010225={
+	disallow_random_traits=yes #
 	name=character_name_10010225 # Tomohiro
 	dynasty=10000102 # Yuki
 	father=10010227 # Yuki Tomomitsu
@@ -1429,7 +1529,8 @@
 		death=yes
 	}
 }
-10010226 = {
+10010226={
+	disallow_random_traits=yes #
 	name=character_name_10010226 # Tokisuke
 	dynasty=10000102 # Yuki
 	father=10010225
@@ -1442,7 +1543,8 @@
 		death=yes
 	}
 }
-10010227 = {
+10010227={
+	disallow_random_traits=yes #
 	name=character_name_10010227 # Tomomitsu,朝光
 #	dynasty=10000102 # Yuki
 	dynasty_house = house_shgnt_yuki
@@ -1479,7 +1581,8 @@
 		dynasty=10000102 # Yuki
 	}
 }
-10010228 = {
+10010228={
+	disallow_random_traits=yes #
 	name=character_name_10010228 # Akitomo
 	dynasty=10000102 # Yuki
 	father=10010201
@@ -1492,7 +1595,8 @@
 		death=yes
 	}
 }
-10006751 = {
+10006751={
+	disallow_random_traits=yes #
 	name=character_name_10006751 # Taneharu
 	dynasty=10000067 # Soma
 	father=10006752
@@ -1505,7 +1609,8 @@
 		death=yes
 	}
 }
-10006752 = {
+10006752={
+	disallow_random_traits=yes #
 	name=character_name_10006752 # Tanesada
 	dynasty=10000067 # Soma
 	father=10006753
@@ -1518,7 +1623,8 @@
 		death=yes
 	}
 }
-10006753 = {
+10006753={
+	disallow_random_traits=yes #
 	name=character_name_10006753 # Tanehiro
 	dynasty=10000067 # Soma
 	father=10006754
@@ -1531,7 +1637,8 @@
 		death=yes
 	}
 }
-10006754 = {
+10006754={
+	disallow_random_traits=yes #
 	name=character_name_10006754 # Tokutan
 	dynasty=10000067 # Soma
 	father=10006755
@@ -1544,7 +1651,8 @@
 		death=yes
 	}
 }
-10006755 = {
+10006755={
+	disallow_random_traits=yes #
 	name=character_name_10006755 # Tanejitsu
 	dynasty=10000067 # Soma
 	father=10006756
@@ -1557,7 +1665,8 @@
 		death=yes
 	}
 }
-10006756 = {
+10006756={
+	disallow_random_traits=yes #
 	name=character_name_10006756 # Tanetaka
 	dynasty=10000067 # Soma
 	father=10006757
@@ -1570,7 +1679,8 @@
 		death=yes
 	}
 }
-10006757 = {
+10006757={
+	disallow_random_traits=yes #
 	name=character_name_10006757 # Taneyoshi
 	dynasty=10000067 # Soma
 	father=10006758
@@ -1583,7 +1693,8 @@
 		death=yes
 	}
 }
-10006758 = {
+10006758={
+	disallow_random_traits=yes #
 	name=character_name_10006758 # Suketane
 	dynasty=10000067 # Soma
 	father=10006759
@@ -1596,7 +1707,8 @@
 		death=yes
 	}
 }
-10006759 = {
+10006759={
+	disallow_random_traits=yes #
 	name=character_name_10006759 # Tanemune
 	dynasty=10000067 # Soma
 	father=10006760
@@ -1609,7 +1721,8 @@
 		death=yes
 	}
 }
-10006760 = {
+10006760={
+	disallow_random_traits=yes #
 	name=character_name_10006760 # Tanenaga
 	dynasty=10000067 # Soma
 	father=10006761
@@ -1622,7 +1735,8 @@
 		death=yes
 	}
 }
-10006761 = {
+10006761={
+	disallow_random_traits=yes #
 	name=character_name_10006761 # Tanetada
 	dynasty=10000067 # Soma
 	father=10006762
@@ -1635,7 +1749,8 @@
 		death=yes
 	}
 }
-10006762 = {
+10006762={
+	disallow_random_traits=yes #
 	name=character_name_10006762 # Tanemoto
 	dynasty=10000067 # Soma
 	father=12150831 # Soma Taneuji
@@ -1648,7 +1763,8 @@
 		death=yes
 	}
 }
-10006765 = {
+10006765={
+	disallow_random_traits=yes #
 	name=character_name_10006765 # Masatane
 	dynasty=10000067 # Soma
 	father=10006751
@@ -1661,7 +1777,8 @@
 		death=yes
 	}
 }
-10006766 = {
+10006766={
+	disallow_random_traits=yes #
 	name=character_name_10006766 # Haruko
 	female=yes
 	dynasty=10000067 # Soma
@@ -1675,7 +1792,8 @@
 		death=yes
 	}
 }
-10006767 = {
+10006767={
+	disallow_random_traits=yes #
 	name=character_name_10006767 # Harutane
 	dynasty=10000067 # Soma
 	father=10006751
@@ -1696,7 +1814,8 @@
 		death=yes
 	}
 }
-10006768 = {
+10006768={
+	disallow_random_traits=yes #
 	name=character_name_10006768 # Hidetane
 	dynasty=10000067 # Soma
 	father=10006767
@@ -1710,7 +1829,8 @@
 		death=yes
 	}
 }
-10010301 = {
+10010301={
+	disallow_random_traits=yes #
 	name=character_name_10010301 # Munemoto
 #	dynasty=10000103 # Makabe
 	dynasty_house = "house_shgnt_makabe"
@@ -1725,6 +1845,7 @@
 	}
 }
 10010302={
+	disallow_random_traits=yes #
 	name=character_name_10010302 # Hisamoto,久幹
 #	dynasty=10000103 # Makabe
 	dynasty_house = "house_shgnt_makabe"
@@ -1750,6 +1871,7 @@
 	}
 }
 10010303={
+	disallow_random_traits=yes #
 	name=character_name_10010303 # Ujimoto,氏幹
 #	dynasty=10000103 # Makabe
 	dynasty_house = "house_shgnt_makabe"
@@ -1780,6 +1902,7 @@
 	# 氏幹の「氏」が北条氏政の偏諱という所伝は事実とは考えがたい、古河公方・足利義氏の偏諱か（中根、〃、2018。）
 }
 10010304={
+	disallow_random_traits=yes #
 	name=character_name_10010304 # Yoshimoto,義幹
 #	dynasty=10000103 # Makabe
 	dynasty_house = "house_shgnt_makabe"
@@ -1801,6 +1924,7 @@
 	# 久幹の次男（中根、〃、2018。）
 }
 10010305={
+	disallow_random_traits=yes #
 	name=character_name_10010305 # Kaji
 	female=yes
 #	dynasty=10000103 # Makabe
@@ -1816,6 +1940,7 @@
 	}
 }
 10010306={
+	disallow_random_traits=yes #
 	name=character_name_10010306 # Kashi
 	female=yes
 #	dynasty=10000103 # Makabe
@@ -1831,6 +1956,7 @@
 	}
 }
 10010307={
+	disallow_random_traits=yes #
 	name=character_name_10010307 # Fusamoto
 #	dynasty=10000103 # Makabe
 	dynasty_house = "house_shgnt_makabe"
@@ -1845,6 +1971,7 @@
 	}
 }
 10010308={
+	disallow_random_traits=yes #
 	name=character_name_10010308 # Shigemoto
 #	dynasty=10000103 # Makabe
 	dynasty_house = "house_shgnt_makabe"
@@ -1858,7 +1985,8 @@
 		death=yes
 	}
 }
-10010401 = {
+10010401={
+	disallow_random_traits=yes #
 	name=character_name_10010401 # Masaharu, 政治
 #	dynasty=10000104 # Oda
 	dynasty_house="house_shgnt_hatta_oda" # Oda
@@ -1891,7 +2019,8 @@
 		}
 	}
 }
-10010402 = {
+10010402={
+	disallow_random_traits=yes #
 	name=character_name_10010402 # Ujiharu,氏治
 #	dynasty=10000104 # Oda
 	dynasty_house="house_shgnt_hatta_oda" # Oda
@@ -1931,7 +2060,8 @@
 		}
 	}
 }
-10010403 = {
+10010403={
+	disallow_random_traits=yes #
 	name=character_name_10010403 # Shigeharu, 成治
 #	dynasty=10000104 # Oda
 	dynasty_house="house_shgnt_hatta_oda" # Oda
@@ -1955,7 +2085,8 @@
 		}
 	}
 }
-10010404 = {
+10010404={
+	disallow_random_traits=yes #
 	name=character_name_10010404 # Haruko
 	female=yes
 #	dynasty=10000104 # Oda
@@ -1972,7 +2103,8 @@
 		}
 	}
 }
-10010405 = {
+10010405={
+	disallow_random_traits=yes #
 	name=character_name_10010405 # Tomohisa, 朝久、「知久」（「デジタル版 日本人名大辞典+Plus」『コトバンク』）
 #	dynasty=10000104 # Oda
 	dynasty_house="house_shgnt_hatta_oda" # Oda
@@ -1991,7 +2123,8 @@
 		}
 	}
 }
-10010406 = {
+10010406={
+	disallow_random_traits=yes #
 	name=character_name_10010406 # Mochiie,持家
 #	dynasty=10000104 # Oda
 	dynasty_house="house_shgnt_hatta_oda" # Oda
@@ -2011,7 +2144,8 @@
 		}
 	}
 }
-10010407 = {
+10010407={
+	disallow_random_traits=yes #
 	name=character_name_10010407 # Harutaka, 治孝
 #	dynasty=10000104 # Oda
 	dynasty_house="house_shgnt_hatta_oda" # Oda
@@ -2031,7 +2165,8 @@
 		}
 	}
 }
-10010408 = {
+10010408={
+	disallow_random_traits=yes #
 	name=character_name_10010408 # Akiie, 顕家,顯家
 #	dynasty=10000104 # Oda
 	dynasty_house="house_shgnt_hatta_oda" # Oda
@@ -2052,7 +2187,8 @@
 		}
 	}
 }
-10010409 = {
+10010409={
+	disallow_random_traits=yes #
 	name=character_name_10010409 # Nariko
 	female=yes
 #	dynasty=10000104 # Oda
@@ -2069,7 +2205,8 @@
 		}
 	}
 }
-10010410 = {
+10010410={
+	disallow_random_traits=yes #
 	name=character_name_10010410 # Tomoharu
 #	dynasty=10000104 # Oda
 	dynasty_house="house_shgnt_hatta_oda" # Oda
@@ -2083,7 +2220,8 @@
 		death=yes
 	}
 }
-10010411 = {
+10010411={
+	disallow_random_traits=yes #
 	name=character_name_10010411 # Moriharu, 守治
 #	dynasty=10000104 # Oda
 	dynasty_house="house_shgnt_hatta_oda" # Oda
@@ -2100,7 +2238,8 @@
 		death=yes
 	}
 }
-10010412 = {
+10010412={
+	disallow_random_traits=yes #
 	name=character_name_10010412 # Yoshiharu
 #	dynasty=10000104 # Oda
 	dynasty_house="house_shgnt_hatta_oda" # Oda
@@ -2114,7 +2253,8 @@
 		death=yes
 	}
 }
-10010413 = {
+10010413={
+	disallow_random_traits=yes #
 	name=character_name_10010413 # Tomoshige
 #	dynasty=10000104 # Oda
 	dynasty_house="house_shgnt_hatta_oda" # Oda
@@ -2129,6 +2269,7 @@
 	}
 }
 10010414={
+	disallow_random_traits=yes #
 	name=character_name_10010414 # Yoshiharu
 #	dynasty=10000104 # Oda
 	dynasty_house="house_shgnt_hatta_okami"
@@ -2143,6 +2284,7 @@
 	}
 }
 10010415={
+	disallow_random_traits=yes #
 	name=character_name_10010415 # Yoshitsuna
 #	dynasty=10000104 # Oda
 	dynasty_house="house_shgnt_hatta_okami"
@@ -2157,6 +2299,7 @@
 	}
 }
 10010416={
+	disallow_random_traits=yes #
 	name=character_name_10010416 # Yoshitomo
 #	dynasty=10000104 # Oda
 	dynasty_house="house_shgnt_hatta_okami"
@@ -2171,6 +2314,7 @@
 	}
 }
 10010417={
+	disallow_random_traits=yes #
 	name=character_name_10010417 # Harusuke
 #	dynasty=10000104 # Oda
 	dynasty_house="house_shgnt_hatta_oda" # Oda
@@ -2188,6 +2332,7 @@
 	}
 }
 10010418={
+	disallow_random_traits=yes #
 	name=character_name_10010418 # Haruhiro
 #	dynasty=10000104 # Oda
 	dynasty_house="house_shgnt_hatta_okami"
@@ -2202,6 +2347,7 @@
 	}
 }
 10010450={
+	disallow_random_traits=yes #
 	name=character_name_10010450 # Harunori
 	dynasty=10000132 # Sugenoya
 	religion="shinto"
@@ -2214,6 +2360,7 @@
 	}
 }
 10010451={
+	disallow_random_traits=yes #
 	name=character_name_10010451 # Katsusada
 	dynasty=10000132 # Sugenoya
 	father=10010450 # Sugenoya Harunori
@@ -2236,6 +2383,7 @@
 	}
 }
 10010452={
+	disallow_random_traits=yes #
 	name=character_name_10010452 # Masasada
 	dynasty=10000132 # Sugenoya
 	father=10010451 # Sugenoya Katsusada
@@ -2258,6 +2406,7 @@
 	}
 }
 10010453={
+	disallow_random_traits=yes #
 	name=character_name_10010453 # Norimasa
 	dynasty=10000132 # Sugenoya
 	father=10010452 # Sugenoya Masasada
@@ -2274,6 +2423,7 @@
 	}
 }
 10010454={
+	disallow_random_traits=yes #
 	name=character_name_10010454 # Norisada
 	dynasty=10000132 # Sugenoya
 	father=10010453 # Sugenoya Norimasa
@@ -2287,7 +2437,8 @@
 		death=yes
 	}
 }
-10010501 = {
+10010501={
+	disallow_random_traits=yes #
 	name=character_name_10010501 # Yoshimoto
 #	dynasty=10000105 # Kashima
 	dynasty_house = "house_shgnt_kashima"
@@ -2303,7 +2454,8 @@
 		}
 	}
 }
-10010502 = {
+10010502={
+	disallow_random_traits=yes #
 	name=character_name_10010502 # Motonobu
 #	dynasty=10000105 # Kashima
 	dynasty_house = "house_shgnt_kashima"
@@ -2317,7 +2469,8 @@
 		death=yes
 	}
 }
-10010503 = {
+10010503={
+	disallow_random_traits=yes #
 	name=character_name_10010503 # Harutoki
 #	dynasty=10000105 # Kashima
 	dynasty_house = "house_shgnt_kashima"
@@ -2331,7 +2484,8 @@
 		death=yes
 	}
 }
-10010504 = {
+10010504={
+	disallow_random_traits=yes #
 	name=character_name_10010504 # Yukimoto
 #	dynasty=10000105 # Kashima
 	dynasty_house = "house_shgnt_kashima"
@@ -2345,7 +2499,8 @@
 		death=yes
 	}
 }
-10010505 = {
+10010505={
+	disallow_random_traits=yes #
 	name=character_name_10010505 # Harutomo
 #	dynasty=10000105 # Kashima
 	dynasty_house = "house_shgnt_kashima"
@@ -2359,7 +2514,8 @@
 		death=yes
 	}
 }
-10010507 = {
+10010507={
+	disallow_random_traits=yes #
 	name=character_name_10010507 # Kagemoto
 #	dynasty=10000105 # Kashima
 	dynasty_house = "house_shgnt_kashima"
@@ -2378,7 +2534,8 @@
 		}
 	}
 }
-10010508 = {
+10010508={
+	disallow_random_traits=yes #
 	name=character_name_10010508 # Kageko
 	female=yes
 #	dynasty=10000105 # Kashima
@@ -2394,7 +2551,8 @@
 		death=yes
 	}
 }
-10010509 = {
+10010509={
+	disallow_random_traits=yes #
 	name=character_name_10010509 # Masako
 	female=yes
 	dynasty=10000101 # Edo
@@ -2408,7 +2566,8 @@
 		death=yes
 	}
 }
-10010525 = {
+10010525={
+	disallow_random_traits=yes #
 	name=character_name_10010525 # Akimitsu
 #	dynasty=10000105 # Kashima
 	dynasty_house = "house_shgnt_kashima"
@@ -2422,7 +2581,8 @@
 		death=yes
 	}
 }
-10010526 = {
+10010526={
+	disallow_random_traits=yes #
 	name=character_name_10010526 # Ujimoto
 #	dynasty=10000105 # Kashima
 	dynasty_house = "house_shgnt_kashima"
@@ -2436,7 +2596,8 @@
 		death=yes
 	}
 }
-10010527 = {
+10010527={
+	disallow_random_traits=yes #
 	name=character_name_10010527 # Yoshikiyo
 #	dynasty=10000105 # Kashima
 	dynasty_house = "house_shgnt_kashima"
@@ -2453,7 +2614,8 @@
 		death=yes
 	}
 }
-10010528 = {
+10010528={
+	disallow_random_traits=yes #
 	name=character_name_10010528 # Motomichi
 #	dynasty=10000105 # Kashima
 	dynasty_house = "house_shgnt_kashima"
@@ -2467,7 +2629,8 @@
 		death=yes
 	}
 }
-10010529 = {
+10010529={
+	disallow_random_traits=yes #
 	name=character_name_10010529 # Kiyohide
 #	dynasty=10000105 # Kashima
 	dynasty_house = "house_shgnt_kashima"
@@ -2481,7 +2644,8 @@
 		death=yes
 	}
 }
-10010530 = {
+10010530={
+	disallow_random_traits=yes #
 	name=character_name_10010530 # Sadanobu
 #	dynasty=10000105 # Kashima
 	dynasty_house = "house_shgnt_kashima"
@@ -2495,7 +2659,8 @@
 		death=yes
 	}
 }
-10010531 = {
+10010531={
+	disallow_random_traits=yes #
 	name=character_name_10010531 # Michiharu
 #	dynasty=10000105 # Kashima
 	dynasty_house = "house_shgnt_kashima"
@@ -2509,7 +2674,8 @@
 		death=yes
 	}
 }
-10010532 = {
+10010532={
+	disallow_random_traits=yes #
 	name=character_name_10010532 # Yasumoto
 	dynasty=10000129 # Tsukahara
 	religion="shinto"
@@ -2533,7 +2699,8 @@
 		death=yes
 	}
 }
-10010533 = {
+10010533={
+	disallow_random_traits=yes #
 	name=character_name_10010533 # Takamoto #a.k.a Tsukahara Bokuden
 	dynasty=10000129 # Tsukahara
 	father=10010532 # Tsukahara Yasumoto
@@ -2558,7 +2725,8 @@
 		death=yes
 	}
 }
-10010601 = {
+10010601={
+	disallow_random_traits=yes #
 	name=character_name_10010601 # Norimoto
 	dynasty=10000106 # Daijo
 	father=10010602
@@ -2571,7 +2739,8 @@
 		death=yes
 	}
 }
-10010602 = {
+10010602={
+	disallow_random_traits=yes #
 	name=character_name_10010602 # Tsunemoto
 	dynasty=10000106 # Daijo
 	father=10010603
@@ -2584,7 +2753,8 @@
 		death=yes
 	}
 }
-10010603 = {
+10010603={
+	disallow_random_traits=yes #
 	name=character_name_10010603 # Takamoto
 	dynasty=10000106 # Daijo
 	father=10010604
@@ -2597,7 +2767,8 @@
 		death=yes
 	}
 }
-10010604 = {
+10010604={
+	disallow_random_traits=yes #
 	name=character_name_10010604 # Kiyomoto
 	dynasty=10000106 # Daijo
 	father=10010605
@@ -2610,7 +2781,8 @@
 		death=yes
 	}
 }
-10010605 = {
+10010605={
+	disallow_random_traits=yes #
 	name=character_name_10010605 # Mochimoto
 	dynasty=10000106 # Daijo
 	father=10010606
@@ -2623,7 +2795,8 @@
 		death=yes
 	}
 }
-10010606 = {
+10010606={
+	disallow_random_traits=yes #
 	name=character_name_10010606 # Yorimoto
 	dynasty=10000106 # Daijo
 	father=12120240 # Daijo Hidemoto
@@ -2636,7 +2809,8 @@
 		death=yes
 	}
 }
-10010607 = {
+10010607={
+	disallow_random_traits=yes #
 	name=character_name_10010607 # Motomasa
 	dynasty=10000106 # Daijo
 	father=10010606
@@ -2649,7 +2823,8 @@
 		death=yes
 	}
 }
-10010627 = {
+10010627={
+	disallow_random_traits=yes #
 	name=character_name_10010627 # Sadakuni
 	dynasty=10000106 # Daijo
 	father=10010601
@@ -2662,7 +2837,8 @@
 		death=yes
 	}
 }
-10010628 = {
+10010628={
+	disallow_random_traits=yes #
 	name=character_name_10010628 # Kiyomoto
 	dynasty=10000106 # Daijo
 	father=10010627
@@ -2675,7 +2851,8 @@
 		death=yes
 	}
 }
-10020351 = {
+10020351={
+	disallow_random_traits=yes #
 	name=character_name_10020351 # Haruyori
 	dynasty=10000253 # Toki
 	father = 10025302	# Toki Masafusa
@@ -2688,7 +2865,8 @@
 		death=yes
 	}
 }
-10020352 = {
+10020352={
+	disallow_random_traits=yes #
 	name=character_name_10020352 # Kagenari
 #	dynasty=10000127 # Tokihara
 	dynasty_house = "house_shgnt_toki_tokihara"
@@ -2703,6 +2881,7 @@
 	}
 }
 10020353={
+	disallow_random_traits=yes #
 	name=character_name_10020353 # Sadachika
 	dynasty=10000253 # Toki
 	father=10025308 # Toki Mitsusada
@@ -2719,6 +2898,7 @@
 	}
 }
 10020354={
+	disallow_random_traits=yes #
 	name=character_name_10020354 # Morochika
 #	dynasty=10000127 # Tokihara
 	dynasty_house = "house_shgnt_toki_tokihara"
@@ -2733,6 +2913,7 @@
 	}
 }
 10020355={
+	disallow_random_traits=yes #
 	name=character_name_10020355 # Morohide
 #	dynasty=10000127 # Tokihara
 	dynasty_house = "house_shgnt_toki_tokihara"
@@ -2747,6 +2928,7 @@
 	}
 }
 10020356={
+	disallow_random_traits=yes #
 	name=character_name_10020356 # Hidenari
 #	dynasty=10000127 # Tokihara
 	dynasty_house = "house_shgnt_toki_tokihara"
@@ -2761,6 +2943,7 @@
 	}
 }
 10020357={
+	disallow_random_traits=yes #
 	name=character_name_10020357 # Norihide
 #	dynasty=10000127 # Tokihara
 	dynasty_house = "house_shgnt_toki_tokihara"
@@ -2775,6 +2958,7 @@
 	}
 }
 10020358={
+	disallow_random_traits=yes #
 	name=character_name_10020358 # Kagehide
 #	dynasty=10000127 # Tokihara
 	dynasty_house = "house_shgnt_toki_tokihara"
@@ -2788,7 +2972,8 @@
 		death=yes
 	}
 }
-10020371 = {
+10020371={
+	disallow_random_traits=yes #
 	name=character_name_10020371 # Tameyori
 	#dynasty=10000253 # Toki
 	dynasty_house = "house_shgnt_toki_mangi"
@@ -2803,7 +2988,8 @@
 		death=yes
 	}
 }
-10020372 = {
+10020372={
+	disallow_random_traits=yes #
 	name=character_name_10020372 # Tokimasa
 	dynasty=10000253 # Toki
 	father=10025308
@@ -2817,7 +3003,8 @@
 		death=yes
 	}
 }
-10020373 = {
+10020373={
+	disallow_random_traits=yes #
 	name=character_name_10020373 # Mitsuyori
 	dynasty=10000253 # Toki
 	father=10020372
@@ -2831,7 +3018,8 @@
 		death=yes
 	}
 }
-10020374 = {
+10020374={
+	disallow_random_traits=yes #
 	name=character_name_10020374 # Yorikane
 	dynasty=10000253 # Toki
 	father=10020373
@@ -2845,7 +3033,8 @@
 		death=yes
 	}
 }
-10020375= {
+10020375={
+	disallow_random_traits=yes #
 	name=character_name_10020375 # Yoritame
 	dynasty=10000253 # Toki
 	father=10020374
@@ -2859,7 +3048,8 @@
 		death=yes
 	}
 }
-10020376 = {
+10020376={
+	disallow_random_traits=yes #
 	name=character_name_10020376 # Yorimoto
 	dynasty=10000253 # Toki
 	father=10020375
@@ -2877,7 +3067,8 @@
 		death=yes
 	}
 }
-10020377 = {
+10020377={
+	disallow_random_traits=yes #
 	name=character_name_10020377 # Yorifusa
 	#dynasty=10000253 # Toki
 	dynasty_house = "house_shgnt_toki_mangi"
@@ -2892,7 +3083,8 @@
 		death=yes
 	}
 }
-10020378 = {
+10020378={
+	disallow_random_traits=yes #
 	name=character_name_10020378 # Yorisada
 	#dynasty=10000253 # Toki
 	dynasty_house = "house_shgnt_toki_mangi"
@@ -2907,7 +3099,8 @@
 		death=yes
 	}
 }
-10020379 = {
+10020379={
+	disallow_random_traits=yes #
 	name=character_name_10020379 # Haruhide
 	dynasty=10000253 # Toki
 	father = 10020351	# Toki Haruyori
@@ -2920,7 +3113,8 @@
 		death=yes
 	}
 }
-10020380 = {
+10020380={
+	disallow_random_traits=yes #
 	name=character_name_10020380 # Katsuyori
 	dynasty=10000253 # Toki
 	father = 10020351	# Toki Haruyori
@@ -2933,7 +3127,8 @@
 		death=yes
 	}
 }
-10020381 = {
+10020381={
+	disallow_random_traits=yes #
 	name=character_name_10020381 # Tengan
 	dynasty=10000253 # Toki
 	father = 10020351	# Toki Haruyori
@@ -2947,7 +3142,8 @@
 		death=yes
 	}
 }
-10020382 = {
+10020382={
+	disallow_random_traits=yes #
 	name=character_name_10020382 # Harutsuna
 	dynasty=10000253 # Toki
 	father = 10020379	# Toki Haruhide
@@ -2960,7 +3156,8 @@
 		death=yes
 	}
 }
-10020383 = {
+10020383={
+	disallow_random_traits=yes #
 	name=character_name_10020383 # Tanetomo
 	dynasty=10000253 # Toki
 	father = 10020379	# Toki Haruhide
@@ -2973,7 +3170,8 @@
 		death=yes
 	}
 }
-10020384 = {
+10020384={
+	disallow_random_traits=yes #
 	name=character_name_10020384 # Yorihide
 	dynasty=10000253 # Toki
 	father = 10020382	# Toki Harutsuna
@@ -2986,7 +3184,8 @@
 		death=yes
 	}
 }
-10020385 = {
+10020385={
+	disallow_random_traits=yes #
 	name=character_name_10020385 # Yoriharu # Yorishige
 	#dynasty=10000253 # Toki
 	dynasty_house = "house_shgnt_toki_mangi"
@@ -3000,7 +3199,8 @@
 		death=yes
 	}
 }
-10020386 = {
+10020386={
+	disallow_random_traits=yes #
 	name=character_name_10020386 # Yorizane # Tamezane
 	#dynasty=10000253 # Toki
 	dynasty_house = "house_shgnt_toki_mangi"
@@ -3014,7 +3214,8 @@
 		death=yes
 	}
 }
-10010701 = {
+10010701={
+	disallow_random_traits=yes #
 	name=character_name_10010701 # Masatsune
 #	dynasty=10000107 # Tagaya
 	dynasty_house = "house_shgnt_yuki_tagaya"
@@ -3031,7 +3232,8 @@
 		death=yes
 	}
 }
-10010702 = {
+10010702={
+	disallow_random_traits=yes #
 	name=character_name_10010702 # Shigetsune
 #	dynasty=10000107 # Tagaya
 	dynasty_house = "house_shgnt_yuki_tagaya"
@@ -3049,7 +3251,8 @@
 		death=yes
 	}
 }
-10010703 = {
+10010703={
+	disallow_random_traits=yes #
 	name=character_name_10010703 # Shigemasa
 #	dynasty=10000107 # Tagaya
 	dynasty_house = "house_shgnt_yuki_tagaya"
@@ -3063,7 +3266,8 @@
 		death=yes
 	}
 }
-10010704 = {
+10010704={
+	disallow_random_traits=yes #
 	name=character_name_10010704 # Ieshige
 #	dynasty=10000107 # Tagaya
 	dynasty_house = "house_shgnt_yuki_tagaya"
@@ -3077,7 +3281,8 @@
 		death=yes
 	}
 }
-10010705 = {
+10010705={
+	disallow_random_traits=yes #
 	name=character_name_10010705 # Ietane
 #	dynasty=10000107 # Tagaya
 	dynasty_house = "house_shgnt_yuki_tagaya"
@@ -3091,7 +3296,8 @@
 		death=yes
 	}
 }
-10010706 = {
+10010706={
+	disallow_random_traits=yes #
 	name=character_name_10010706 # Ujiie
 #	dynasty=10000107 # Tagaya
 	dynasty_house = "house_shgnt_yuki_tagaya"
@@ -3109,7 +3315,8 @@
 		death=yes
 	}
 }
-10010708 = {
+10010708={
+	disallow_random_traits=yes #
 	name=character_name_10010708 # Tunehaku
 #	dynasty=10000107 # Tagaya
 	dynasty_house = "house_shgnt_yuki_tagaya"
@@ -3123,7 +3330,8 @@
 		death=yes
 	}
 }
-10010709 = {
+10010709={
+	disallow_random_traits=yes #
 	name=character_name_10010709 # Tunekado
 #	dynasty=10000107 # Tagaya
 	dynasty_house = "house_shgnt_yuki_tagaya"
@@ -3137,7 +3345,8 @@
 		death=yes
 	}
 }
-10010710 = {
+10010710={
+	disallow_random_traits=yes #
 	name=character_name_10010710 # Tamehiro
 #	dynasty=10000107 # Tagaya
 	dynasty_house = "house_shgnt_yuki_tagaya"
@@ -3151,7 +3360,8 @@
 		death=yes
 	}
 }
-10010711 = {
+10010711={
+	disallow_random_traits=yes #
 	name=character_name_10010711 # Mitsutsune
 #	dynasty=10000107 # Tagaya
 	dynasty_house = "house_shgnt_yuki_tagaya"
@@ -3166,6 +3376,7 @@
 	}
 }
 10010712={
+	disallow_random_traits=yes #
 	name=character_name_10010712 # Takatsune
 #	dynasty=10000107 # Tagaya
 	dynasty_house = "house_shgnt_yuki_tagaya"
@@ -3184,6 +3395,7 @@
 	}
 }
 10010713={
+	disallow_random_traits=yes #
 	name=character_name_10010713 # Tomoko
 	female=yes
 #	dynasty=10000107 # Tagaya
@@ -3198,6 +3410,7 @@
 	}
 }
 10010750={
+	disallow_random_traits=yes #
 	name=character_name_10010750 # Ujiyoshi
 	dynasty_house = "house_shgnt_yuki_oyama"
 	father=10010214 # Oyama Yasutomo
@@ -3214,6 +3427,7 @@
 	}
 }
 10010751={
+	disallow_random_traits=yes #
 	name=character_name_10010751 # Kagesada
 	dynasty=10000133 # Yamakawa
 	father=10010750 # Yamakawa Ujiyoshi
@@ -3227,6 +3441,7 @@
 	}
 }
 10010752={
+	disallow_random_traits=yes #
 	name=character_name_10010752 # Motokage
 	dynasty=10000133 # Yamakawa
 	father=10010751 # Yamakawa Kagesada
@@ -3240,6 +3455,7 @@
 	}
 }
 10010753={
+	disallow_random_traits=yes #
 	name=character_name_10010753 # Tomosada
 	dynasty=10000133 # Yamakawa
 	father=10010752 # Yamakawa Motokage
@@ -3253,6 +3469,7 @@
 	}
 }
 10010754={
+	disallow_random_traits=yes #
 	name=character_name_10010754 # Masasada
 	dynasty=10000133 # Yamakawa
 	father=10010753 # Yamakawa Tomosada
@@ -3266,6 +3483,7 @@
 	}
 }
 10010755={
+	disallow_random_traits=yes #
 	name=character_name_10010755 # Naosada
 	dynasty=10000133 # Yamakawa
 	father=10010754 # Yamakawa Masasada
@@ -3279,6 +3497,7 @@
 	}
 }
 10010756={
+	disallow_random_traits=yes #
 	name=character_name_10010756 # Ujishige
 	dynasty=10000133 # Yamakawa
 	father=10010755 # Yamakawa Naosada
@@ -3292,6 +3511,7 @@
 	}
 }
 10010757={
+	disallow_random_traits=yes #
 	name=character_name_10010757 # Hatushige
 	dynasty=10000133 # Yamakawa
 	father=10010756 # Yamakawa Ujishige
@@ -3304,7 +3524,8 @@
 		death=yes
 	}
 }
-10010901 = {
+10010901={
+	disallow_random_traits=yes #
 	name=character_name_10010901 # Okitsuna
 	dynasty=10000109 # Utsunomiya
 	father=10010902
@@ -3336,7 +3557,8 @@
 		}
 	}
 }
-10010902 = {
+10010902={
+	disallow_random_traits=yes #
 	name=character_name_10010902 # Masatsuna
 	dynasty=10000120 # Haga
 	father=10012001 # Haga Kagetaka
@@ -3369,7 +3591,8 @@
 		death=yes
 	}
 }
-10010903 = {
+10010903={
+	disallow_random_traits=yes #
 	name=character_name_10010903 # Shigetsuna
 	dynasty=10000109 # Utsunomiya
 	father=10010902
@@ -3398,7 +3621,8 @@
 		death=yes
 	}
 }
-10010904 = {
+10010904={
+	disallow_random_traits=yes #
 	name=character_name_10010904 # Tadatsuna
 	dynasty=10000109 # Utsunomiya
 	father=10010903
@@ -3418,7 +3642,8 @@
 		death=yes
 	}
 }
-10010905 = {
+10010905={
+	disallow_random_traits=yes #
 	name=character_name_10010905 # Kanetsuna
 	dynasty=10000109 # Utsunomiya
 	father=10010902
@@ -3434,7 +3659,8 @@
 		death=yes
 	}
 }
-10010906 = {
+10010906={
+	disallow_random_traits=yes #
 	name=character_name_10010906 # Takatsuna
 	dynasty=10000109 # Utsunomiya
 	father=10010902
@@ -3450,7 +3676,8 @@
 		death=yes
 	}
 }
-10010910 = {
+10010910={
+	disallow_random_traits=yes #
 	name=character_name_10010910 # Akitsuna
 	dynasty=10000109 # Utsunomiya
 	father=10010911
@@ -3463,7 +3690,8 @@
 		death=yes
 	}
 }
-10010911 = {
+10010911={
+	disallow_random_traits=yes #
 	name=character_name_10010911 # Hitotsuna
 	dynasty=10000109 # Utsunomiya
 	father=12130120 # Nimo Mochitsuna
@@ -3477,7 +3705,8 @@
 		death=yes
 	}
 }
-10010927 = {
+10010927={
+	disallow_random_traits=yes #
 	name=character_name_10010927 # Mochiko
 	female=yes
 	dynasty=10000109 # Utsunomiya
@@ -3492,7 +3721,8 @@
 		death=yes
 	}
 }
-10010932 = {
+10010932={
+	disallow_random_traits=yes #
 	name=character_name_10010932 # Hisatsuna
 	dynasty=10000109 # Utsunomiya
 	father=10010901
@@ -3516,7 +3746,8 @@
 		}
 	}
 }
-10010933 = {
+10010933={
+	disallow_random_traits=yes #
 	name=character_name_10010933 # Hirotsuna
 	dynasty=10000109 # Utsunomiya
 	father=10010932
@@ -3545,7 +3776,8 @@
 		death=yes
 	}
 }
-10010934 = {
+10010934={
+	disallow_random_traits=yes #
 	name=character_name_10010934 # Kunitsuna
 	dynasty=10000109 # Utsunomiya
 	father=10010933
@@ -3566,7 +3798,8 @@
 		death=yes
 	}
 }
-10010935 = {
+10010935={
+	disallow_random_traits=yes #
 	name=character_name_10010935 # Tomokatsu # Yuki Tomokatsu
 	dynasty=10000109 # Utsunomiya
 	father=10010933
@@ -3580,7 +3813,8 @@
 		death=yes
 	}
 }
-10010936 = {
+10010936={
+	disallow_random_traits=yes #
 	name=character_name_10010936 # Takakage
 	dynasty=10000109 # Utsunomiya
 	father=10010933
@@ -3595,6 +3829,7 @@
 	}
 }
 10012000={
+	disallow_random_traits=yes #
 	name=character_name_10012000 # Takamasu
 	dynasty=10000120 # Haga
 	father=12130536 # 
@@ -3608,6 +3843,7 @@
 	}
 }
 10012001={
+	disallow_random_traits=yes #
 	name=character_name_10012001 # Kagetaka
 	dynasty=10000120 # Haga
 	father=10012000 # 
@@ -3626,6 +3862,7 @@
 	}
 }
 10012002={
+	disallow_random_traits=yes #
 	name=character_name_10012002 # Kagehide
 	dynasty=10000120 # Haga
 	father=10012000 # 
@@ -3639,6 +3876,7 @@
 	}
 }
 10012003={
+	disallow_random_traits=yes #
 	name=character_name_10012003 # Takakatsu
 	dynasty=10000120 # Haga
 	father=10012001 # 
@@ -3654,6 +3892,7 @@
 	}
 }
 10012004={
+	disallow_random_traits=yes #
 	name=character_name_10012004 # Takataka
 	dynasty=10000120 # Haga
 	father=10012002 # 
@@ -3667,6 +3906,7 @@
 	}
 }
 10012005={
+	disallow_random_traits=yes #
 	name=character_name_10012005 # Takatsune
 	dynasty=10000120 # Haga
 	father=10012004 # 
@@ -3683,6 +3923,7 @@
 	}
 }
 10012006={
+	disallow_random_traits=yes #
 	name=character_name_10012006 # Takasada
 	dynasty=10000120 # Haga
 	father=10012004 # 
@@ -3701,6 +3942,7 @@
 	}
 }
 10012007={
+	disallow_random_traits=yes #
 	name=character_name_10012007 # Takateru
 	dynasty=10000120 # Haga
 	father=10012005 # 
@@ -3714,6 +3956,7 @@
 	}
 }
 10012008={
+	disallow_random_traits=yes #
 	name=character_name_10012008 # Takatsugu
 	dynasty=10000120 # Haga
 	father=10012005 # 
@@ -3728,7 +3971,8 @@
 		death=yes
 	}
 }
-10011001 = {
+10011001={
+	disallow_random_traits=yes #
 	name=character_name_10011001 # Sukefusa
 	father=10011007
 	mother=10011009
@@ -3742,7 +3986,8 @@
 		death=yes
 	}
 }
-10011002 = {
+10011002={
+	disallow_random_traits=yes #
 	name=character_name_10011002 # Masasuke
 	dynasty=10000110 # Nasu
 	father=10011001
@@ -3758,7 +4003,8 @@
 		death=yes
 	}
 }
-10011003 = {
+10011003={
+	disallow_random_traits=yes #
 	name=character_name_10011003 # Takasuke
 	dynasty=10000110 # Nasu
 	father=10011002
@@ -3774,7 +4020,8 @@
 		}
 	}
 }
-10011004 = {
+10011004={
+	disallow_random_traits=yes #
 	name=character_name_10011004 # Sukekuni
 	dynasty=10000110 # Nasu
 	father=10011002
@@ -3787,7 +4034,8 @@
 		death=yes
 	}
 }
-10011005 = {
+10011005={
+	disallow_random_traits=yes #
 	name=character_name_10011005 # Suketane
 	dynasty=10000110 # Nasu
 	father=10011002
@@ -3800,7 +4048,8 @@
 		death=yes
 	}
 }
-10011006 = {
+10011006={
+	disallow_random_traits=yes #
 	name=character_name_10011006 # Takako
 	female=yes
 	dynasty=10000072 # Iwaki
@@ -3814,7 +4063,8 @@
 		death=yes
 	}
 }
-10011007 = {
+10011007={
+	disallow_random_traits=yes #
 	name=character_name_10011007 # Sukezane
 	dynasty=10000110 # Nasu
 	father=10011010
@@ -3830,7 +4080,8 @@
 		death=yes
 	}
 }
-10011008 = {
+10011008={
+	disallow_random_traits=yes #
 	name=character_name_10011008 # Yorizane
 	dynasty=10000110 # Nasu
 	father=10011007 # Nasu Sukezane
@@ -3844,7 +4095,8 @@
 		death=yes
 	}
 }
-10011009 = {
+10011009={
+	disallow_random_traits=yes #
 	name=character_name_10011009 # Akiko
 	dynasty=10000110 # Nasu
 	female=yes
@@ -3858,7 +4110,8 @@
 		death=yes
 	}
 }
-10011010 = {
+10011010={
+	disallow_random_traits=yes #
 	name=character_name_10011010 # Sukemochi
 	dynasty=10000110 # Nasu
 	father=12140192 # Nasu Sukeshige
@@ -3871,7 +4124,8 @@
 		death=yes
 	}
 }
-10011011 = {
+10011011={
+	disallow_random_traits=yes #
 	name=character_name_10011011 # Mochitaka
 	dynasty=10000110 # Nasu
 	father=10011010
@@ -3884,7 +4138,8 @@
 		death=yes
 	}
 }
-10011014 = {
+10011014={
+	disallow_random_traits=yes #
 	name=character_name_10011014 # Ujisuke
 	dynasty=10000110 # Nasu
 	father=12140190 # Nasu Sukeyuki
@@ -3898,7 +4153,8 @@
 		death=yes
 	}
 }
-10011015 = {
+10011015={
+	disallow_random_traits=yes #
 	name=character_name_10011015 # Akisuke
 	dynasty=10000110 # Nasu
 	father=10011014
@@ -3911,7 +4167,8 @@
 		death=yes
 	}
 }
-10011016 = {
+10011016={
+	disallow_random_traits=yes #
 	name=character_name_10011016 # Sukechika
 	dynasty=10000110 # Nasu
 	father=10011014
@@ -3924,7 +4181,8 @@
 		death=yes
 	}
 }
-10011017 = {
+10011017={
+	disallow_random_traits=yes #
 	name=character_name_10011017 # Sukenaga
 	#dynasty=10000071 # Yuki
 	dynasty_house = "house_shgnt_yuki_shirakawa"
@@ -3946,7 +4204,8 @@
 		death=yes
 	}
 }
-10011018 = {
+10011018={
+	disallow_random_traits=yes #
 	name=character_name_10011018 # Suketomo
 	dynasty=10000110 # Nasu
 	father=12140190 # Nasu Sukeyuki
@@ -3959,7 +4218,8 @@
 		death=yes
 	}
 }
-10011019 = {
+10011019={
+	disallow_random_traits=yes #
 	name=character_name_10011019 # Sukeharu
 	dynasty=10000110 # Nasu
 	father=10011005
@@ -3972,7 +4232,8 @@
 		death=yes
 	}
 }
-10011101 = {
+10011101={
+	disallow_random_traits=yes #
 	name=character_name_10011101 # Toyotsuna,豊綱
 	dynasty=10000111 # Sano
 	father=12180620 # Sano Yasutsuna
@@ -3987,7 +4248,8 @@
 		}
 	}
 }
-10011102 = {
+10011102={
+	disallow_random_traits=yes #
 	name=character_name_10011102 # Masatsuna,昌綱
 	dynasty=10000111 # Sano
 	father=10011101
@@ -4014,7 +4276,8 @@
 		}
 	}
 }
-10011103 = {
+10011103={
+	disallow_random_traits=yes #
 	name=character_name_10011103 # Shigetsuna,成綱
 	dynasty=10000111 # Sano
 	father=10011101
@@ -4029,7 +4292,8 @@
 		}
 	}
 }
-10011104 = {
+10011104={
+	disallow_random_traits=yes #
 	name=character_name_10011104 # Fusatsuna,房綱
 	dynasty=10000111 # Sano
 	father=10011101
@@ -4056,7 +4320,8 @@
 		}
 	}
 }
-10011110 = {
+10011110={
+	disallow_random_traits=yes #
 	name=character_name_10011110 # Munetsuna,宗綱
 	father=10011102 # Sano Masatsuna
 	dynasty=10000111 # Sano
@@ -4083,7 +4348,8 @@
 		}
 	}
 }
-10011201 = {
+10011201={
+	disallow_random_traits=yes #
 	name=character_name_10011201 # Takatomo
 	dynasty=10000102 # Yuki
 	father=10010203
@@ -4107,7 +4373,8 @@
 		death=yes
 	}
 }
-10011202 = {
+10011202={
+	disallow_random_traits=yes #
 	name=character_name_10011202 # Hidetsuna
 	#dynasty=10000112 # Oyama
 	dynasty_house = "house_shgnt_yuki_oyama"
@@ -4128,7 +4395,8 @@
 		death=yes
 	}
 }
-10011203 = {
+10011203={
+	disallow_random_traits=yes #
 	name=character_name_10011203 # Hidetaka
 	#dynasty=10000112 # Oyama
 	dynasty_house = "house_shgnt_yuki_oyama"
@@ -4142,7 +4410,8 @@
 		death=yes
 	}
 }
-10011204 = {
+10011204={
+	disallow_random_traits=yes #
 	name=character_name_10011204 # Harutomo
 	#dynasty=10000112 # Oyama
 	dynasty_house = "house_shgnt_yuki_oyama"
@@ -4176,7 +4445,8 @@
 		death=yes
 	}
 }
-10011205 = {
+10011205={
+	disallow_random_traits=yes #
 	name=character_name_10011205 # Masanaga
 	#dynasty=10000112 # Oyama
 	dynasty_house = "house_shgnt_yuki_oyama"
@@ -4193,7 +4463,8 @@
 		death=yes
 	}
 }
-10011206 = {
+10011206={
+	disallow_random_traits=yes #
 	name=character_name_10011206 # Shigenaga
 	#dynasty=10000112 # Oyama
 	dynasty_house = "house_shgnt_yuki_oyama"
@@ -4210,7 +4481,8 @@
 		death=yes
 	}
 }
-10011207 = {
+10011207={
+	disallow_random_traits=yes #
 	name=character_name_10011207 # Mochimasa,持政
 	#dynasty=10000112 # Oyama
 	dynasty_house = "house_shgnt_yuki_oyama"
@@ -4240,7 +4512,8 @@
 		death=yes
 	}
 }
-10011208 = {
+10011208={
+	disallow_random_traits=yes #
 	name=character_name_10011208 # Mitsuyasu
 	#dynasty=10000112 # Oyama
 	dynasty_house = "house_shgnt_yuki_oyama"
@@ -4254,7 +4527,8 @@
 		death=yes
 	}
 }
-10011209 = {
+10011209={
+	disallow_random_traits=yes #
 	name=character_name_10011209 # Yoshimasa
 	dynasty=10000112 # Oyama
 	father=12135036
@@ -4275,7 +4549,8 @@
 		}
 	}
 }
-10011210 = {
+10011210={
+	disallow_random_traits=yes #
 	name=character_name_10011210 # Hidehiro
 	#dynasty=10000112 # Oyama
 	dynasty_house = "house_shgnt_yuki_oyama"
@@ -4292,7 +4567,8 @@
 		death=yes
 	}
 }
-10011211 = {
+10011211={
+	disallow_random_traits=yes #
 	name=character_name_10011211 # Masatane
 	#dynasty=10000112 # Oyama
 	dynasty_house = "house_shgnt_yuki_oyama"
@@ -4306,7 +4582,8 @@
 		death=yes
 	}
 }
-10011212 = {
+10011212={
+	disallow_random_traits=yes #
 	name=character_name_10011212 # Takatsuna # Enomoto Takatsuna
 	#dynasty=10000112 # Oyama
 	dynasty_house = "house_shgnt_yuki_oyama"
@@ -4324,6 +4601,7 @@
 	}
 }
 10011213={
+	disallow_random_traits=yes #
 	name=character_name_10011213 # Takamasa
 	dynasty=10000112 # Oyama
 	father=10011209 # 
@@ -4337,6 +4615,7 @@
 	}
 }
 10011301={
+	disallow_random_traits=yes #
 	name=character_name_10011301 # Ujihide
 	dynasty=10000113 # Minagawa
 	father=12135545 # 
@@ -4350,6 +4629,7 @@
 	}
 }
 10011302={
+	disallow_random_traits=yes #
 	name=character_name_10011302 # Muneshige
 	dynasty=10000113 # Minagawa
 	father=10011301 # 
@@ -4363,6 +4643,7 @@
 	}
 }
 10011303={
+	disallow_random_traits=yes #
 	name=character_name_10011303 # Shigekatsu
 	dynasty=10000113 # Minagawa
 	father=10011302 # 
@@ -4375,7 +4656,8 @@
 		death=yes
 	}
 }
-10011304 = {
+10011304={
+	disallow_random_traits=yes #
 	name=character_name_10011304 # Toshimune
 	dynasty=10000113 # Minagawa
 	father=10011303 # 
@@ -4389,6 +4671,7 @@
 	}
 }
 10011305={
+	disallow_random_traits=yes #
 	name=character_name_10011305 # Hirokatsu
 	dynasty=10000113 # Minagawa
 	father=10011304 # 
@@ -4402,6 +4685,7 @@
 	}
 }
 10011306={
+	disallow_random_traits=yes #
 	name=character_name_10011306 # Hiroteru
 	dynasty=10000113 # Minagawa
 	father=10011304 # 
@@ -4428,6 +4712,7 @@
 	}
 }
 10011400={
+	disallow_random_traits=yes #
 	name=character_name_10011400 # Yoshisuke
 	dynasty=10000123 # Yanada
 	religion="shinto"
@@ -4442,6 +4727,7 @@
 	}
 }
 10011401={
+	disallow_random_traits=yes #
 	name=character_name_10011401 # Naosuke
 	dynasty=10000123 # Yanada
 	father=10011400 # Yanada Yoshisuke
@@ -4455,6 +4741,7 @@
 	}
 }
 10011402={
+	disallow_random_traits=yes #
 	name=character_name_10011402 # Sukeyoshi
 	dynasty=10000123 # Yanada
 	father=10011400 # Yanada Yoshisuke
@@ -4470,6 +4757,7 @@
 	}
 }
 10011403={
+	disallow_random_traits=yes #
 	female=yes
 	name=character_name_10011403 # Naoko
 	dynasty=10000123 # Yanada
@@ -4484,6 +4772,7 @@
 	}
 }
 10011404={
+	disallow_random_traits=yes #
 	name=character_name_10011404 # Mochisuke
 	dynasty=10000123 # Yanada
 	father=10011402 # Yanada Sukeyoshi
@@ -4499,6 +4788,7 @@
 	}
 }
 10011405={
+	disallow_random_traits=yes #
 	name=character_name_10011405 # Shigesuke
 	dynasty=10000123 # Yanada
 	father=10011404 # Yanada Mochisuke
@@ -4513,6 +4803,7 @@
 	}
 }
 10011406={
+	disallow_random_traits=yes #
 	name=character_name_10011406 # Masasuke
 	dynasty=10000123 # Yanada
 	father=10011404 # Yanada Mochisuke
@@ -4528,6 +4819,7 @@
 	}
 }
 10011407={
+	disallow_random_traits=yes #
 	name=character_name_10011407 # Takasuke
 	dynasty=10000123 # Yanada
 	father=10011406 # Yanada Masasuke
@@ -4543,6 +4835,7 @@
 	}
 }
 10011408={
+	disallow_random_traits=yes #
 	female=yes
 	name=character_name_10011408 # Takako
 	dynasty=10000123 # Yanada
@@ -4557,6 +4850,7 @@
 	}
 }
 10011409={
+	disallow_random_traits=yes #
 	name=character_name_10011409 # Harusuke
 	dynasty=10000123 # Yanada
 	father=10011407 # Yanada Takasuke
@@ -4572,6 +4866,7 @@
 	}
 }
 10011410={
+	disallow_random_traits=yes #
 	name=character_name_10011410 # Suketsuna
 	dynasty=10000123 # Yanada
 	father=10011407 # Yanada Takasuke
@@ -4585,6 +4880,7 @@
 	}
 }
 10011411={
+	disallow_random_traits=yes #
 	name=character_name_10011411 # Mochisuke
 	dynasty=10000123 # Yanada
 	father=10011409 # Yanada Harusuke
@@ -4598,6 +4894,7 @@
 	}
 }
 10011412={
+	disallow_random_traits=yes #
 	name=character_name_10011412 # Sadasuke
 	dynasty=10000123 # Yanada
 	father=10011409 # Yanada Mochisuke
@@ -4610,7 +4907,8 @@
 		death=yes
 	}
 }
-10011601 = {
+10011601={
+	disallow_random_traits=yes #
 	name=character_name_10011601 # Masatane
 	#dynasty=10000116 # Chiba
 	dynasty_house = "house_shgnt_shimousa_chiba"
@@ -4630,7 +4928,8 @@
 		death=yes
 	}
 }
-10011602 = {
+10011602={
+	disallow_random_traits=yes #
 	name=character_name_10011602 # Toshitane
 	#dynasty=10000116 # Chiba
 	dynasty_house = "house_shgnt_shimousa_chiba"
@@ -4650,7 +4949,8 @@
 		death=yes
 	}
 }
-10011603 = {
+10011603={
+	disallow_random_traits=yes #
 	name=character_name_10011603 # Tanetomi
 	#dynasty=10000116 # Chiba
 	dynasty_house = "house_shgnt_shimousa_chiba"
@@ -4669,7 +4969,8 @@
 		death=yes
 	}
 }
-10011604 = {
+10011604={
+	disallow_random_traits=yes #
 	name=character_name_10011604 # Katsutane
 	#dynasty=10000116 # Chiba
 	dynasty_house = "house_shgnt_shimousa_chiba"
@@ -4695,7 +4996,8 @@
 		death=yes
 	}
 }
-10011605 = {
+10011605={
+	disallow_random_traits=yes #
 	name=character_name_10011605 # Noritane
 	#dynasty=10000116 # Chiba
 	dynasty_house = "house_shgnt_makuwari"
@@ -4718,7 +5020,8 @@
 		death=yes
 	}
 }
-10011606 = {
+10011606={
+	disallow_random_traits=yes #
 	name=character_name_10011606 # Suketane
 	#dynasty=10000116 # Chiba
 	dynasty_house = "house_shgnt_makuwari"
@@ -4735,7 +5038,8 @@
 		death=yes
 	}
 }
-10011608 = {
+10011608={
+	disallow_random_traits=yes #
 	name=character_name_10011608 # Tanemochi
 	#dynasty=10000122 # Makuwari
 	dynasty_house = "house_shgnt_makuwari"
@@ -4749,7 +5053,8 @@
 		death=yes
 	}
 }
-10011611 = {
+10011611={
+	disallow_random_traits=yes #
 	name=character_name_10011611 # Tanenao
 	#dynasty=10000116 # Chiba
 	dynasty_house = "house_shgnt_shimousa_chiba"
@@ -4766,7 +5071,8 @@
 		}
 	}
 }
-10011612 = {
+10011612={
+	disallow_random_traits=yes #
 	name=character_name_10011612 # Tanemasa,胤将
 	#dynasty=10000116 # Chiba
 	dynasty_house = "house_shgnt_shimousa_chiba"
@@ -4783,7 +5089,8 @@
 		death=yes
 	}
 }
-10011613 = {
+10011613={
+	disallow_random_traits=yes #
 	name=character_name_10011613 # Tanenobu
 	#dynasty=10000116 # Chiba
 	dynasty_house = "house_shgnt_shimousa_chiba"
@@ -4797,7 +5104,8 @@
 		death=yes
 	}
 }
-10011614 = {
+10011614={
+	disallow_random_traits=yes #
 	name=character_name_10011614 # Tanekata
 	#dynasty=10000116 # Chiba
 	dynasty_house = "house_shgnt_shimousa_chiba"
@@ -4814,7 +5122,8 @@
 		}
 	}
 }
-10011615 = {
+10011615={
+	disallow_random_traits=yes #
 	name=character_name_10011615 # Sanetane
 	#dynasty=10000116 # Chiba
 	dynasty_house = "house_shgnt_shimousa_chiba"
@@ -4831,7 +5140,8 @@
 		death=yes
 	}
 }
-10011616 = {
+10011616={
+	disallow_random_traits=yes #
 	name=character_name_10011616 # Moritane
 	dynasty=10000116 # Chiba
 	father=10011615
@@ -4847,7 +5157,8 @@
 		death=yes
 	}
 }
-10011617 = {
+10011617={
+	disallow_random_traits=yes #
 	name=character_name_10011617 # Yoritane
 	#dynasty=10000116 # Chiba
 	dynasty_house = "house_shgnt_shimousa_chiba"
@@ -4864,7 +5175,8 @@
 		death=yes
 	}
 }
-10011618 = {
+10011618={
+	disallow_random_traits=yes #
 	name=character_name_10011618 # Yoshitane
 	#dynasty=10000116 # Chiba
 	dynasty_house = "house_shgnt_shimousa_chiba"
@@ -4885,7 +5197,8 @@
 		death=yes
 	}
 }
-10011619 = {
+10011619={
+	disallow_random_traits=yes #
 	name=character_name_10011619 # Kunitane
 	#dynasty=10000116 # Chiba
 	dynasty_house = "house_shgnt_shimousa_chiba"
@@ -4909,7 +5222,8 @@
 		death=yes
 	}
 }
-10011620 = {
+10011620={
+	disallow_random_traits=yes #
 	name=character_name_10011620 # Shigetane
 	#dynasty=10000116 # Chiba
 	dynasty_house = "house_shgnt_shimousa_chiba"
@@ -4924,6 +5238,7 @@
 	}
 }
 10011621={
+	disallow_random_traits=yes #
 	name=character_name_10011621 # Tanetoshi
 	#dynasty=10000116 # Chiba
 	dynasty_house = "house_shgnt_musashi_chiba"
@@ -4938,6 +5253,7 @@
 	}
 }
 10011622={
+	disallow_random_traits=yes #
 	name=character_name_10011622 # Tanemune
 	#dynasty=10000116 # Chiba
 	dynasty_house = "house_shgnt_musashi_chiba"
@@ -4952,6 +5268,7 @@
 	}
 }
 10011623={
+	disallow_random_traits=yes #
 	name=character_name_10011623 # Tomiko
 	female=yes
 	#dynasty=10000116 # Chiba
@@ -4966,7 +5283,8 @@
 		death=yes
 	}
 }
-10011670 = {
+10011670={
+	disallow_random_traits=yes #
 	name=character_name_10011670 # Tanetaka
 #	dynasty=10000126 # Hara
 	dynasty_house = "house_shgnt_chiba_hara"
@@ -4981,7 +5299,8 @@
 		death=yes
 	}
 }
-10011671 = {
+10011671={
+	disallow_random_traits=yes #
 	name=character_name_10011671 # Tanekiyo
 #	dynasty=10000126 # Hara
 	dynasty_house = "house_shgnt_chiba_hara"
@@ -4996,7 +5315,8 @@
 		death=yes
 	}
 }
-10011672 = {
+10011672={
+	disallow_random_traits=yes #
 	name=character_name_10011672 # Tanefusa
 #	dynasty=10000126 # Hara
 	dynasty_house = "house_shgnt_chiba_hara"
@@ -5018,7 +5338,8 @@
 		death=yes
 	}
 }
-10011673 = {
+10011673={
+	disallow_random_traits=yes #
 	name=character_name_10011673 # Chikatane
 	#dynasty=10000116 # Chiba
 	dynasty_house = "house_shgnt_shimousa_chiba"
@@ -5038,7 +5359,8 @@
 		death=yes
 	}
 }
-10011674 = {
+10011674={
+	disallow_random_traits=yes #
 	name=character_name_10011674 # Tanesada
 #	dynasty=10000126 # Hara
 	dynasty_house = "house_shgnt_chiba_hara"
@@ -5052,7 +5374,8 @@
 		death=yes
 	}
 }
-10011675 = {
+10011675={
+	disallow_random_traits=yes #
 	name=character_name_10011675 # Tanehide
 #	dynasty=10000126 # Hara
 	dynasty_house = "house_shgnt_chiba_hara"
@@ -5066,7 +5389,8 @@
 		death=yes
 	}
 }
-10011676 = {
+10011676={
+	disallow_random_traits=yes #
 	name=character_name_10011676 # Tanechika
 #	dynasty=10000126 # Hara
 	dynasty_house = "house_shgnt_chiba_hara"
@@ -5080,7 +5404,8 @@
 		death=yes
 	}
 }
-10011677 = {
+10011677={
+	disallow_random_traits=yes #
 	name=character_name_10011677 # Taneyoshi
 #	dynasty=10000126 # Hara
 	dynasty_house = "house_shgnt_chiba_hara"
@@ -5094,7 +5419,8 @@
 		death=yes
 	}
 }
-10011678 = {
+10011678={
+	disallow_random_traits=yes #
 	name=character_name_10011678 # Tanechika
 #	dynasty=10000126 # Hara
 	dynasty_house = "house_shgnt_chiba_hara"
@@ -5108,7 +5434,8 @@
 		death=yes
 	}
 }
-10011679 = {
+10011679={
+	disallow_random_traits=yes #
 	name=character_name_10011679 # Shigetane
 #	dynasty=10000126 # Hara
 	dynasty_house = "house_shgnt_chiba_hara"
@@ -5122,7 +5449,8 @@
 		death=yes
 	}
 }
-10011680 = {
+10011680={
+	disallow_random_traits=yes #
 	name=character_name_10011680 # Tanetsugu
 #	dynasty=10000126 # Hara
 	dynasty_house = "house_shgnt_chiba_hara"
@@ -5136,7 +5464,8 @@
 		death=yes
 	}
 }
-10011681 = {
+10011681={
+	disallow_random_traits=yes #
 	name=character_name_10011681 # Tomotane
 #	dynasty=10000126 # Hara
 	dynasty_house = "house_shgnt_chiba_hara"
@@ -5153,7 +5482,8 @@
 		death=yes
 	}
 }
-10011682 = {
+10011682={
+	disallow_random_traits=yes #
 	name=character_name_10011682 # Toratane
 #	dynasty=10000126 # Hara
 	dynasty_house = "house_shgnt_chiba_hara"
@@ -5178,7 +5508,8 @@
 		death=yes
 	}
 }
-10011701 = {
+10011701={
+	disallow_random_traits=yes #
 	name=character_name_10011701 # Tsuneharu
 	dynasty=10000117 # Sakai
 	father=10011706
@@ -5191,7 +5522,8 @@
 		death=yes
 	}
 }
-10011702 = {
+10011702={
+	disallow_random_traits=yes #
 	name=character_name_10011702 # Toshifusa
 	dynasty=10000117 # Sakai
 	father=10011703
@@ -5204,7 +5536,8 @@
 		death=yes
 	}
 }
-10011703 = {
+10011703={
+	disallow_random_traits=yes #
 	name=character_name_10011703 # Toshiharu
 	dynasty=10000117 # Sakai
 	father=10011704
@@ -5217,7 +5550,8 @@
 		death=yes
 	}
 }
-10011704 = {
+10011704={
+	disallow_random_traits=yes #
 	name=character_name_10011704 # Takatoshi
 	dynasty=10000117 # Sakai
 	father=10011705
@@ -5230,7 +5564,8 @@
 		death=yes
 	}
 }
-10011705 = {
+10011705={
+	disallow_random_traits=yes #
 	name=character_name_10011705 # Sadataka
 	dynasty=10000117 # Sakai
 	religion="shinto"
@@ -5242,7 +5577,8 @@
 		death=yes
 	}
 }
-10011706 = {
+10011706={
+	disallow_random_traits=yes #
 	name=character_name_10011706 # Sadaharu
 	dynasty=10000117 # Sakai
 	father=10011705
@@ -5255,7 +5591,8 @@
 		death=yes
 	}
 }
-10011707 = {
+10011707={
+	disallow_random_traits=yes #
 	name=character_name_10011707 # Masafusa
 	dynasty=10000117 # Sakai
 	father=10011702
@@ -5268,7 +5605,8 @@
 		death=yes
 	}
 }
-10011708 = {
+10011708={
+	disallow_random_traits=yes #
 	name=character_name_10011708 # Masatsugu
 	dynasty=10000117 # Sakai
 	father=10011707
@@ -5282,6 +5620,7 @@
 	}
 }
 10011709={
+	disallow_random_traits=yes #
 	name=character_name_10011709 # Taneharu
 	dynasty=10000117 # Sakai
 	father=10011701 # Sakai Tsuneharu
@@ -5295,6 +5634,7 @@
 	}
 }
 10011710={
+	disallow_random_traits=yes #
 	name=character_name_10011710 # Yasuharu
 	dynasty=10000117 # Sakai
 	father=10011709 # Sakai Taneharu
@@ -5307,7 +5647,8 @@
 		death=yes
 	}
 }
-10011801 = {
+10011801={
+	disallow_random_traits=yes #
 	name=character_name_10011801 # Nobukiyo
 #	dynasty=10000118 # Mariyatsu
 	dynasty_house = house_shgnt_mariyatsu
@@ -5337,7 +5678,8 @@
 		death=yes
 	}
 }
-10011802 = {
+10011802={
+	disallow_random_traits=yes #
 	name=character_name_10011802 # Nobutaka
 #	dynasty=10000118 # Mariyatsu
 	dynasty_house = house_shgnt_mariyatsu
@@ -5368,7 +5710,8 @@
 		death=yes
 	}
 }
-10011803 = {
+10011803={
+	disallow_random_traits=yes #
 	name=character_name_10011803 # Nobumasa
 #	dynasty=10000118 # Mariyatsu
 	dynasty_house = house_shgnt_mariyatsu
@@ -5398,7 +5741,8 @@
 		death=yes
 	}
 }
-10011804 = {
+10011804={
+	disallow_random_traits=yes #
 	name=character_name_10011804 # Nobumasa
 #	dynasty=10000118 # Mariyatsu
 	dynasty_house = house_shgnt_mariyatsu
@@ -5412,7 +5756,8 @@
 		death=yes
 	}
 }
-10011805 = {
+10011805={
+	disallow_random_traits=yes #
 	name=character_name_10011805 # Nobukatsu
 #	dynasty=10000118 # Mariyatsu
 	dynasty_house = house_shgnt_mariyatsu
@@ -5442,7 +5787,8 @@
 		death=yes
 	}
 }
-10011806 = {
+10011806={
+	disallow_random_traits=yes #
 	name=character_name_10011806 # Zenhoh
 #	dynasty=10000118 # Mariyatsu
 	dynasty_house = house_shgnt_mariyatsu
@@ -5456,7 +5802,8 @@
 		death=yes
 	}
 }
-10011807 = {
+10011807={
+	disallow_random_traits=yes #
 	name=character_name_10011807 # Nobuoki
 #	dynasty=10000118 # Mariyatsu
 	dynasty_house = house_shgnt_mariyatsu
@@ -5478,7 +5825,8 @@
 		death=yes
 	}
 }
-10011808 = {
+10011808={
+	disallow_random_traits=yes #
 	name=character_name_10011808 # Nobutaka
 	dynasty=10000200 # Takeda
 	father=10011809
@@ -5503,7 +5851,8 @@
 		death=yes
 	}
 }
-10011809 = {
+10011809={
+	disallow_random_traits=yes #
 	name=character_name_10011809 # Nobunaga
 	dynasty=10000200 # Takeda
 	father=12360190 # Takeda Nobumitsu
@@ -5528,7 +5877,8 @@
 		death=yes
 	}
 }
-10011810 = {
+10011810={
+	disallow_random_traits=yes #
 	name=character_name_10011810 # Michinobu
 #	dynasty=10000125 # Chonan
 	dynasty_house = house_shgnt_chonan
@@ -5551,7 +5901,8 @@
 		death=yes
 	}
 }
-10011811 = {
+10011811={
+	disallow_random_traits=yes #
 	name=character_name_10011811 # Munenobu
 #	dynasty=10000125 # Chonan
 	dynasty_house = house_shgnt_chonan
@@ -5574,7 +5925,8 @@
 		death=yes
 	}
 }
-10011812 = {
+10011812={
+	disallow_random_traits=yes #
 	name=character_name_10011812 # Yoshinobu
 #	dynasty=10000125 # Chonan
 	dynasty_house = house_shgnt_chonan
@@ -5589,7 +5941,8 @@
 		death=yes
 	}
 }
-10011813 = {
+10011813={
+	disallow_random_traits=yes #
 	name=character_name_10011813 # Kiyonobu
 #	dynasty=10000125 # Chonan
 	dynasty_house = house_shgnt_chonan
@@ -5609,7 +5962,8 @@
 		death=yes
 	}
 }
-10011814 = {
+10011814={
+	disallow_random_traits=yes #
 	name=character_name_10011814 # Toyonobu
 #	dynasty=10000125 # Chonan
 	dynasty_house = house_shgnt_chonan
@@ -5629,7 +5983,8 @@
 		death=yes
 	}
 }
-10011815 = {
+10011815={
+	disallow_random_traits=yes #
 	name=character_name_10011815 # Nobutaka
 #	dynasty=10000118 # Mariyatsu
 	dynasty_house = house_shgnt_mariyatsu
@@ -5644,6 +5999,7 @@
 	}
 }
 10011850={
+	disallow_random_traits=yes #
 	name=character_name_10011850 # Michitsuna
 	dynasty=10000135 # Masaki
 	religion="shinto"
@@ -5662,6 +6018,7 @@
 	}
 }
 10011851={
+	disallow_random_traits=yes #
 	name=character_name_10011851 # Tokishige
 	dynasty=10000135 # Masaki
 	father=10011850 # Masaki Michitsuna
@@ -5682,6 +6039,7 @@
 	}
 }
 10011852={
+	disallow_random_traits=yes #
 	name=character_name_10011852 # Tokitada
 	dynasty=10000135 # Masaki
 	father=10011850 # Masaki Michitsuna
@@ -5702,6 +6060,7 @@
 	}
 }
 10011853={
+	disallow_random_traits=yes #
 	name=character_name_10011853 # Hirosue
 	dynasty=10000135 # Masaki
 	father=10011850 # Masaki Michitsuna
@@ -5715,6 +6074,7 @@
 	}
 }
 10011854={
+	disallow_random_traits=yes #
 	name=character_name_10011854 # Nobushige
 	dynasty=10000135 # Masaki
 	father=10011851 # Masaki Tokishige
@@ -5734,6 +6094,7 @@
 	}
 }
 10011855={
+	disallow_random_traits=yes #
 	name=character_name_10011855 # Yorifusa
 	dynasty=10000135 # Masaki
 	father=10011851 # Masaki Tokishige
@@ -5747,6 +6108,7 @@
 	}
 }
 10011856={
+	disallow_random_traits=yes #
 	name=character_name_10011856 # Ryuun
 	female=yes
 	dynasty=10000135 # Masaki
@@ -5761,6 +6123,7 @@
 	}
 }
 10011857={
+	disallow_random_traits=yes #
 	name=character_name_10011857 # Tokimichi
 	dynasty=10000135 # Masaki
 	father=10011852 # Masaki Tokitada
@@ -5774,6 +6137,7 @@
 	}
 }
 10011858={
+	disallow_random_traits=yes #
 	name=character_name_10011858 # Yoritada
 	dynasty=10000135 # Masaki
 	father=10011852 # Masaki Tokitada
@@ -5787,6 +6151,7 @@
 	}
 }
 10011859={
+	disallow_random_traits=yes #
 	name=character_name_10011859 # Naotsura
 	dynasty=10000135 # Masaki
 	father=10011858 # Masaki Yoritada
@@ -5800,6 +6165,7 @@
 	}
 }
 10011860={
+	disallow_random_traits=yes #
 	name=character_name_10011860 # Tameharu
 	dynasty=10000135 # Masaki
 	father=10011858 # Masaki Yoritada
@@ -5813,6 +6179,7 @@
 	}
 }
 10011861={
+	disallow_random_traits=yes #
 	name=character_name_10011861 # Man
 	female=yes
 	dynasty=10000135 # Masaki
@@ -5827,6 +6194,7 @@
 	}
 }
 10011862={
+	disallow_random_traits=yes #
 	name=character_name_10011862 # Noritoki
 	dynasty=10000135 # Masaki
 	father=10011853 # Masaki Hirosue
@@ -5845,7 +6213,8 @@
 		death=yes
 	}
 }
-10011901 = {
+10011901={
+	disallow_random_traits=yes #
 	name=character_name_10011901 # Yoshitaka
 	dynasty=10000119 # Satomi
 	father=10011905
@@ -5882,7 +6251,8 @@
 		death=yes
 	}
 }
-10011902 = {
+10011902={
+	disallow_random_traits=yes #
 	name=character_name_10011902 # Yoshihiro
 	dynasty=10000119 # Satomi
 	father=10011901
@@ -5910,7 +6280,8 @@
 		death=yes
 	}
 }
-10011903 = {
+10011903={
+	disallow_random_traits=yes #
 	name=character_name_10011903 # Yoshiyori
 	dynasty=10000119 # Satomi
 	father=10011901 # Satomi Yoshitaka
@@ -5946,7 +6317,8 @@
 		death=yes
 	}
 }
-10011904 = {
+10011904={
+	disallow_random_traits=yes #
 	name=character_name_10011904 # Tameko
 	female=yes
 	#dynasty=10000253 # Toki
@@ -5961,7 +6333,8 @@
 		death=yes
 	}
 }
-10011905 = {
+10011905={
+	disallow_random_traits=yes #
 	name=character_name_10011905 # Sanetaka
 	dynasty=10000119 # Satomi
 	father=12186066 # Satomi Yoshizane
@@ -5978,7 +6351,8 @@
 		death=yes
 	}
 }
-10011907 = {
+10011907={
+	disallow_random_traits=yes #
 	name=character_name_10011907 # Yoshimichi
 	dynasty=10000119 # Satomi
 	father=12186066 # Satomi Yoshizane
@@ -6009,7 +6383,8 @@
 		death=yes
 	}
 }
-10011908 = {
+10011908={
+	disallow_random_traits=yes #
 	name=character_name_10011908 # Yoshitoyo
 	dynasty=10000119 # Satomi
 	father=10011907
@@ -6027,7 +6402,8 @@
 		death=yes
 	}
 }
-10011909 = {
+10011909={
+	disallow_random_traits=yes #
 	name=character_name_10011909 # Sanetsugu
 	dynasty=10000119 # Satomi
 	father=12186066 # Satomi Yoshizane
@@ -6041,7 +6417,8 @@
 		death=yes
 	}
 }
-10011910 = {
+10011910={
+	disallow_random_traits=yes #
 	name=character_name_10011910 # Yoshishige # Umeoumaru
 	dynasty=10000119 # Satomi
 	father=10011902
@@ -6059,7 +6436,8 @@
 		death=yes
 	}
 }
-10011911 = {
+10011911={
+	disallow_random_traits=yes #
 	name=character_name_10011911 # Yoshiyasu
 	dynasty=10000119 # Satomi
 	father=10011903 # Satomi Yoshiyori
@@ -6073,7 +6451,8 @@
 		death=yes
 	}
 }
-10011912 = {
+10011912={
+	disallow_random_traits=yes #
 	name=character_name_10011912 # Tokishige
 	dynasty=10000135 # Masaki
 	father=10011903 # Satomi Yoshiyori
@@ -6087,7 +6466,8 @@
 		death=yes
 	}
 }
-10011913 = {
+10011913={
+	disallow_random_traits=yes #
 	name=character_name_10011913 # Tokishige #Masaki Tokishige
 	dynasty=10000119 # Satomi
 	father=10011903
@@ -6100,7 +6480,8 @@
 		death=yes
 	}
 }
-10011914 = {
+10011914={
+	disallow_random_traits=yes #
 	name=character_name_10011914 # Tadashige
 	dynasty=10000119 # Satomi
 	father=10011903
@@ -6113,7 +6494,8 @@
 		death=yes
 	}
 }
-10011915 = {
+10011915={
+	disallow_random_traits=yes #
 	name=character_name_10011915 # Yasutoshi
 	dynasty=10000119 # Satomi
 	father=10011903
@@ -6126,7 +6508,8 @@
 		death=yes
 	}
 }
-10011916 = {
+10011916={
+	disallow_random_traits=yes #
 	name=character_name_10011916 # Yoshitatsu # Masaki Yoshitatsu
 	dynasty=10000119 # Satomi
 	father=10011903
@@ -6139,7 +6522,8 @@
 		death=yes
 	}
 }
-10011917 = {
+10011917={
+	disallow_random_traits=yes #
 	name=character_name_10011917 # Tadakatsu
 	dynasty=10000119 # Satomi
 	father=10011903
@@ -6152,7 +6536,8 @@
 		death=yes
 	}
 }
-10040050 = {
+10040050={
+	disallow_random_traits=yes #
 	name=character_name_10040050 # Takamoto,高基
 #	dynasty=10000400 # Ashikaga
 	dynasty_house = house_shgnt_kogaashikaga
@@ -6183,7 +6568,8 @@
 		death=yes
 	}
 }
-10040051 = {
+10040051={
+	disallow_random_traits=yes #
 	name=character_name_10040051 # Yoshiaki
 #	dynasty=10000400 # Ashikaga
 	dynasty_house = house_shgnt_kogaashikaga
@@ -6208,7 +6594,8 @@
 		death=yes
 	}
 }
-10040052 = {
+10040052={
+	disallow_random_traits=yes #
 	name=character_name_10040052 # Haruuji,晴氏
 #	dynasty=10000400 # Ashikaga
 	dynasty_house = house_shgnt_kogaashikaga
@@ -6245,7 +6632,8 @@
 		death=yes
 	}
 }
-10040053 = {
+10040053={
+	disallow_random_traits=yes #
 	name=character_name_10040053 # Norihiro
 #	dynasty=10000400 # Ashikaga
 	dynasty_house = house_shgnt_kogaashikaga
@@ -6261,7 +6649,8 @@
 		death=yes
 	}
 }
-10040054 = {
+10040054={
+	disallow_random_traits=yes #
 	name=character_name_10040054 # Naruko
 	female=yes
 	dynasty=10000109 # Utsunomiya
@@ -6276,7 +6665,8 @@
 		death=yes
 	}
 }
-10040055 = {
+10040055={
+	disallow_random_traits=yes #
 	name=character_name_10040055 # Yoshizumi
 #	dynasty=10000400 # Ashikaga
 	dynasty_house = house_shgnt_kogaashikaga
@@ -6291,7 +6681,8 @@
 		death=yes
 	}
 }
-10040056 = {
+10040056={
+	disallow_random_traits=yes #
 	name=character_name_10040056 # Yorizumi
 #	dynasty=10000400 # Ashikaga
 	dynasty_house = house_shgnt_kogaashikaga
@@ -6306,7 +6697,8 @@
 		death=yes
 	}
 }
-10040057 = {
+10040057={
+	disallow_random_traits=yes #
 	name=character_name_10040057 # Yoshiko
 	female=yes
 #	dynasty=10000400 # Ashikaga
@@ -6322,7 +6714,8 @@
 		death=yes
 	}
 }
-10040058 = {
+10040058={
+	disallow_random_traits=yes #
 	name=character_name_10040058 # Masauji,政氏
 #	dynasty=10000400 # Ashikaga
 	dynasty_house = house_shgnt_kogaashikaga
@@ -6343,7 +6736,8 @@
 		death=yes
 	}
 }
-10040059 = {
+10040059={
+	disallow_random_traits=yes #
 	name=character_name_10040059 # Shigeuji,成氏、万寿丸（阿部能久、『戦国期関東公方の研究』、2006）
 #	dynasty=10000400 # Ashikaga
 	dynasty_house = house_shgnt_kamakuraashikaga
@@ -6387,7 +6781,8 @@
 		death=yes
 	}
 }
-10040060 = {
+10040060={
+	disallow_random_traits=yes #
 	name=character_name_10040060 # Akizane
 #	dynasty=10000400 # Ashikaga
 	dynasty_house = house_shgnt_kogaashikaga
@@ -6424,7 +6819,8 @@
 		death=yes
 	}
 }
-10040061 = {
+10040061={
+	disallow_random_traits=yes #
 	name=character_name_10040061 # Mochiuji, 持氏
 #	dynasty=10000400 # Ashikaga
 	dynasty_house = house_shgnt_kamakuraashikaga
@@ -6462,7 +6858,8 @@
 		}
 	}
 }
-10040062 = {
+10040062={
+	disallow_random_traits=yes #
 	name=character_name_10040062 # Yoshihisa
 #	dynasty=10000400 # Ashikaga
 	dynasty_house = house_shgnt_kamakuraashikaga
@@ -6478,7 +6875,8 @@
 		death=yes
 	}
 }
-10040063 = {
+10040063={
+	disallow_random_traits=yes #
 	name=character_name_10040063 # Haruohmaru
 #	dynasty=10000400 # Ashikaga
 	dynasty_house = house_shgnt_kamakuraashikaga
@@ -6494,7 +6892,8 @@
 		death=yes
 	}
 }
-10040064 = {
+10040064={
+	disallow_random_traits=yes #
 	name=character_name_10040064 # Mitsukane, 満兼
 #	dynasty=10000400 # Ashikaga
 	dynasty_house = house_shgnt_kamakuraashikaga
@@ -6511,7 +6910,8 @@
 		}
 	}
 }
-10040065 = {
+10040065={
+	disallow_random_traits=yes #
 	name=character_name_10040065 # Mochinaka
 #	dynasty=10000400 # Ashikaga
 	dynasty_house = house_shgnt_kamakuraashikaga
@@ -6527,7 +6927,8 @@
 		death=yes
 	}
 }
-10040066 = {
+10040066={
+	disallow_random_traits=yes #
 	name=character_name_10040066 # Ujimitsu
 #	dynasty=10000400 # Ashikaga
 	dynasty_house = house_shgnt_kamakuraashikaga
@@ -6542,7 +6943,8 @@
 		death=yes
 	}
 }
-10040067 = {
+10040067={
+	disallow_random_traits=yes #
 	name=character_name_10040067 # Motouji
 	dynasty=10000400 # Ashikaga
 	father=12139028 # Ashikaga Takauji
@@ -6560,7 +6962,8 @@
 		death=yes
 	}
 }
-10040068 = {
+10040068={
+	disallow_random_traits=yes #
 	name=character_name_10040068 # Mitsunao, 満直、「みつただ」とも
 #	dynasty=10000400 # Ashikaga
 	dynasty_house = house_shgnt_kamakuraashikaga
@@ -6578,7 +6981,8 @@
 		}
 	}
 }
-10040069 = {
+10040069={
+	disallow_random_traits=yes #
 	name=character_name_10040069 # Mitsutaka
 #	dynasty=10000400 # Ashikaga
 	dynasty_house = house_shgnt_kamakuraashikaga
@@ -6593,7 +6997,8 @@
 		death=yes
 	}
 }
-10040070 = {
+10040070={
+	disallow_random_traits=yes #
 	name=character_name_10040070 # Mitsusada
 #	dynasty=10000400 # Ashikaga
 	dynasty_house = house_shgnt_kamakuraashikaga
@@ -6608,7 +7013,8 @@
 		death=yes
 	}
 }
-10040071 = {
+10040071={
+	disallow_random_traits=yes #
 	name=character_name_10040071 # Fujiuji
 #	dynasty=10000400 # Ashikaga
 	dynasty_house = house_shgnt_kogaashikaga
@@ -6624,7 +7030,8 @@
 		death=yes
 	}
 }
-10040072 = {
+10040072={
+	disallow_random_traits=yes #
 	name=character_name_10040072 # Yoshiuji
 #	dynasty=10000400 # Ashikaga
 	dynasty_house = house_shgnt_kogaashikaga
@@ -6650,7 +7057,8 @@
 		death=yes
 	}
 }
-10040073 = {
+10040073={
+	disallow_random_traits=yes #
 	name=character_name_10040073 # Fujimasa
 #	dynasty=10000400 # Ashikaga
 	dynasty_house = house_shgnt_kogaashikaga
@@ -6665,7 +7073,8 @@
 		death=yes
 	}
 }
-10040074 = {
+10040074={
+	disallow_random_traits=yes #
 	name=character_name_10040074 # Teruuji
 #	dynasty=10000400 # Ashikaga
 	dynasty_house = house_shgnt_kogaashikaga
@@ -6680,7 +7089,8 @@
 		death=yes
 	}
 }
-10040075 = {
+10040075={
+	disallow_random_traits=yes #
 	name=character_name_10040075 # Iekuni
 #	dynasty=10000400 # Ashikaga
 	dynasty_house = house_shgnt_kogaashikaga
@@ -6695,7 +7105,8 @@
 		death=yes
 	}
 }
-10040076 = {
+10040076={
+	disallow_random_traits=yes #
 	name=character_name_10040076 # Haruko
 	female=yes
 #	dynasty=10000400 # Ashikaga
@@ -6711,7 +7122,8 @@
 		death=yes
 	}
 }
-10040077 = {
+10040077={
+	disallow_random_traits=yes #
 	name=character_name_10040077 # Umechiyoou
 #	dynasty=10000400 # Ashikaga
 	dynasty_house = house_shgnt_kogaashikaga
@@ -6726,7 +7138,8 @@
 		death=yes
 	}
 }
-10040078 = {
+10040078={
+	disallow_random_traits=yes #
 	name=character_name_10040078 # Uji
 	female=yes
 #	dynasty=10000400 # Ashikaga
@@ -6749,7 +7162,8 @@
 		death=yes
 	}
 }
-10040079 = {
+10040079={
+	disallow_random_traits=yes #
 	name=character_name_10040079 # Yoshiuji
 	dynasty=10000400 # Ashikaga
 	father=10040061
@@ -6776,7 +7190,8 @@
 		death=yes
 	}
 }
-10015001 = {
+10015001={
+	disallow_random_traits=yes #
 	name=character_name_10015001 # Tanenari
 	dynasty=10000114 # Mibu
 	religion="shinto"
@@ -6788,7 +7203,8 @@
 		death=yes
 	}
 }
-10015002 = {
+10015002={
+	disallow_random_traits=yes #
 	name=character_name_10015002 # Tsunashige
 	dynasty=10000114 # Mibu
 	father=10015001
@@ -6801,7 +7217,8 @@
 		death=yes
 	}
 }
-10015003 = {
+10015003={
+	disallow_random_traits=yes #
 	name=character_name_10015003 # Tsunafusa
 	dynasty=10000114 # Mibu
 	father=10015002
@@ -6823,7 +7240,8 @@
 		death=yes
 	}
 }
-10015004 = {
+10015004={
+	disallow_random_traits=yes #
 	name=character_name_10015004 # Kanetake
 	dynasty=10000114 # Mibu
 	father=10015002
@@ -6836,7 +7254,8 @@
 		death=yes
 	}
 }
-10015005 = {
+10015005={
+	disallow_random_traits=yes #
 	name=character_name_10015005 # Suketake # Daimon Suketake
 	dynasty=10000114 # Mibu
 	father=10015002 # TODO : The father, ID 10015002, died 1174 days before this character was born, which is more than the limit of 300 days.
@@ -6849,7 +7268,8 @@
 		death=yes
 	}
 }
-10015006 = {
+10015006={
+	disallow_random_traits=yes #
 	name=character_name_10015006 # Tsunatake
 	dynasty=10000114 # Mibu
 	father=10015003
@@ -6869,7 +7289,8 @@
 		death=yes
 	}
 }
-10015007 = {
+10015007={
+	disallow_random_traits=yes #
 	name=character_name_10015007 # Yoshitake
 	dynasty=10000114 # Mibu
 	father=10015006
