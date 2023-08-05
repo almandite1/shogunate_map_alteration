@@ -2957,6 +2957,9 @@ d_shgnt_hitachi = {
     0983.01.01 = {
         holder = 0
     }
+	0998.01.01={ # 長和1(1012)年閏十月二十三日時点、「前常陸守」（『御堂関白記』）
+		holder=10120013 # 源頼信
+	}
     1020.10.14 = {
         holder = 10110015 # Taira Korehira {Hitachi no Suke}
     }
@@ -3010,7 +3013,7 @@ d_shgnt_hitachi = {
     1306.12.06 = {
         holder = 12127541 # Oda Sadatomo
     }
-    1335.10.23 = {
+    1335.10.23 = { # 建武2(1335)年常陸守護職（佐々木倫朗、『常陸佐竹氏』、2021。）
         holder = 12122110 # Satake Sadayoshi
     }
     1349.10.21 = {
@@ -3236,9 +3239,10 @@ d_shgnt_shimotsuke = {
     0950.01.01 = {
         holder = 0
     }
-    1070.09.14 = {
+    1070.09.14 = { # 『扶桑略記』延久2(1070)年八月一日、十二月二十一日
         holder = 10120040 # Minamoto Yoshiie {Shimotsuke no Kami}
     }
+	# 『水左記』承暦1(1077)年十月十三日条、源義家が「前下野守」
     1077.12.20 = {
         holder = 10120041 # Minamoto Yoshitsuna {Shimotsuke no Kami}
     }
